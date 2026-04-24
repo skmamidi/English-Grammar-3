@@ -1,0 +1,605 @@
+{
+  "workbook": "Evan-Moor Daily Language Review Grade 3",
+  "weeks": [
+    {
+      "week": 1,
+      "days": {
+        "Monday": [
+          { "style": "sentence correction", "question": "did you hear mother calling you to dinner", "answer": "Did you hear Mother calling you to dinner?" },
+          { "style": "sentence correction", "question": "the meeting starts at 915", "answer": "The meeting starts at 9:15." },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["doess", "duz", "does", "doose"], "answer": "does" },
+          { "style": "fact or opinion", "question": "Superman wears a blue suit and a red cape.", "answer": "fact" },
+          { "style": "fact or opinion", "question": "The grass is too long.", "answer": "opinion" }
+        ],
+        "Tuesday": [
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["tooda", "toda", "today", "todey"], "answer": "today" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["bowl", "bowle", "boal", "boole"], "answer": "bowl" },
+          { "style": "sentence correction", "question": "me and marcos will ride the bus together", "answer": "Marcos and I will ride the bus together." },
+          { "style": "sentence correction", "question": "him don't know anyone named james", "answer": "He doesn't know anyone named James." },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded word below. The door was ajar, and we felt a breeze from outside.", "answer": "open" }
+        ],
+        "Wednesday": [
+          { "style": "sentence correction", "question": "she bought apples carrots and cereal", "answer": "She bought apples, carrots, and cereal." },
+          { "style": "sentence correction", "question": "mary she is going to be late for the lesson", "answer": "Mary is going to be late for the lesson." },
+          { "style": "analogy completion", "question": "fire: hot:: ice:", "answer": "cold" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["frend", "freind", "friend", "frund"], "answer": "friend" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["hapiness", "happiness", "happeness", "happines"], "answer": "happiness" }
+        ],
+        "Thursday": [
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["wanted", "whanted", "waunted", "want'd"], "answer": "wanted" },
+          { "style": "sentence correction", "question": "my dad taked my sisters bike to be fixed", "answer": "My dad took my sister's bike to be fixed." },
+          { "style": "sentence correction", "question": "he knowed what his homework was", "answer": "He knew what his homework was." },
+          { "style": "inference (location/context)", "question": "Where would someone probably say the following? \"Julia, may I borrow your eraser?\"", "answer": "classroom / school" },
+          { "style": "inference (location/context)", "question": "Where would someone probably say the following? \"Swimmers take your mark, set, GO!\"", "answer": "swimming pool" }
+        ],
+        "Friday": [
+          {
+            "style": "paragraph editing",
+            "question": "Read the following paragraph and decide if the underlined part has a capitalization error, punctuation error, spelling error, or no mistake. (1) Owls are interesting birds? (2) They all have feathers, bones that are hollow, and lay egs. (3) Owls eat mice and other rodents (4) They eat the entire animal and then cough up a small pellet of the (5) rodents bones.",
+            "options": ["capitalization", "punctuation", "spelling", "no mistake"],
+            "answer": ["punctuation", "spelling", "punctuation", "no mistake", "punctuation"]
+          }
+        ]
+      }
+    },
+    {
+      "week": 2,
+      "days": {
+        "Monday": [
+          { "style": "sentence correction", "question": "does you have a dog or a cat", "answer": "Do you have a dog or a cat?" },
+          { "style": "sentence correction", "question": "me and william like to help mr smith wash the chalkboards", "answer": "William and I like to help Mr. Smith wash the chalkboards." },
+          { "style": "rhyming", "question": "Write two words that rhyme with the following word: ring", "answer": "sing, wing (Answers will vary)" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["neer", "near", "neare", "kneer"], "answer": "near" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["seet", "sete", "cete", "seat"], "answer": "seat" }
+        ],
+        "Tuesday": [
+          { "style": "analogy completion", "question": "elephant: enormous :: mouse :", "answer": "tiny (or small)" },
+          { "style": "analogy completion", "question": "no corners: round :: 4 corners :", "answer": "square (or rectangle)" },
+          { "style": "contextual meaning", "question": "The cars waited for the pedestrian to walk across the street.", "answer": "person walking" },
+          { "style": "sentence correction", "question": "have you read a book called the day jimmy's boa ate the wash", "answer": "Have you read a book called The Day Jimmy's Boa Ate the Wash?" },
+          { "style": "sentence correction", "question": "i and chris will not be in the same class this year", "answer": "Chris and I will not be in the same class this year." }
+        ],
+        "Wednesday": [
+          { "style": "contextual meaning", "question": "He had never ridden a horse before and was a novice.", "answer": "beginner" },
+          { "style": "sentence correction", "question": "are you going to charlotte north carolina this june", "answer": "Are you going to Charlotte, North Carolina, this June?" },
+          { "style": "sentence correction", "question": "we are reading a book called skinnybones by barbara park", "answer": "We are reading a book called Skinnybones by Barbara Park." },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["inneresting", "interesing", "interesting", "intresting"], "answer": "interesting" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["suppose", "supose", "sappose", "sapos"], "answer": "suppose" }
+        ],
+        "Thursday": [
+          { "style": "analogy completion", "question": "eighteen: even :: thirty-three :", "answer": "odd" },
+          { "style": "analogy completion", "question": "Los Angeles Lakers: basketball ::", "answer": "team" },
+          { "style": "fact or fantasy", "question": "The fairy flew in through the window.", "answer": "fantasy" },
+          { "style": "sentence correction", "question": "mr and mrs hill got a new baby named taylor", "answer": "Mr. and Mrs. Hill got a new baby named Taylor." },
+          { "style": "sentence correction", "question": "we singed to songs in music class", "answer": "We sang two songs in music class." }
+        ],
+        "Friday": [
+          {
+            "style": "paragraph editing",
+            "question": "Read the following paragraph and decide if the underlined part has a capitalization error, punctuation error, spelling error, or no mistake. (1) A lobster is A water animal with a (2) harrd shell that lives on the bottom of (3) the ocean near the shore? (4) Lobsters have no backbone. they belong to a group of (5) animals called crustaceans.",
+            "options": ["capitalization", "punctuation", "spelling", "no mistake"],
+            "answer": ["capitalization", "spelling", "punctuation", "capitalization", "no mistake"]
+          }
+        ]
+      }
+    },
+    {
+      "week": 3,
+      "days": {
+        "Monday": [
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["mose", "mowse", "mowce", "mouse"], "answer": "mouse" },
+          { "style": "analogy completion", "question": "square: four :: triangle :", "answer": "three" },
+          { "style": "analogy completion", "question": "soccer ball: black and white :: basketball :", "answer": "orange (and black)" },
+          { "style": "sentence correction", "question": "there family has went to the yellowstone national park", "answer": "Their family went to Yellowstone National Park." },
+          { "style": "sentence correction", "question": "his homework it is in his backpack", "answer": "His homework is in his backpack." }
+        ],
+        "Tuesday": [
+          { "style": "sentence correction", "question": "dr stevens lives at 3434 old forge lane", "answer": "Dr. Stevens lives at 3434 Old Forge Lane." },
+          { "style": "sentence correction", "question": "dont forget to turn the stove off after cooking", "answer": "Don't forget to turn the stove off after cooking." },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["douwt", "adjust", "party", "collar"], "answer": "douwt" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["juggle", "iland", "present", "fault"], "answer": "iland" },
+          { "style": "fact or opinion", "question": "Cats are the nicest pets to have.", "answer": "opinion" }
+        ],
+        "Wednesday": [
+          { "style": "analogy completion", "question": "Sept.: September :: Nov. :", "answer": "November" },
+          { "style": "analogy completion", "question": "Mississippi: river :: Atlantic :", "answer": "ocean" },
+          { "style": "sentence correction", "question": "gabriel said i returned the library book last tuesday", "answer": "Gabriel said, \"I returned the library book last Tuesday.\"" },
+          { "style": "sentence correction", "question": "we listened to the song cherish on the radio", "answer": "We listened to the song \"Cherish\" on the radio." },
+          { "style": "contextual meaning", "question": "He hadn't had lunch and was famished by dinnertime.", "answer": "starving / hungry" }
+        ],
+        "Thursday": [
+          { "style": "sentence correction", "question": "he dont want seconds of the tuna salad", "answer": "He doesn't want seconds of the tuna salad." },
+          { "style": "sentence correction", "question": "the flight attendant said put your tray tables upright and fasten your seat belts", "answer": "The flight attendant said, \"Put your tray tables upright and fasten your seat belts.\"" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["today", "noise", "grumpie", "seat"], "answer": "grumpie" },
+          { "style": "antonyms", "question": "Write an antonym for each word: hot", "answer": "cold" },
+          { "style": "antonyms", "question": "Write an antonym for each word: even", "answer": "odd" }
+        ],
+        "Friday": [
+          {
+            "style": "paragraph editing",
+            "question": "Read the following paragraph and decide if the underlined part has a capitalization error, punctuation error, spelling error, or no mistake. (1) The term \"cat\" includes wild animals such as tigers lions, leopards, and (2) panthers as well as the house cat? (3) Cats have a good sense of balance and (4) can walk easily Along the tops of narrow spaces and (5) allong narrow ledges.",
+            "options": ["capitalization", "punctuation", "spelling", "no mistake"],
+            "answer": ["punctuation", "punctuation", "no mistake", "capitalization", "spelling"]
+          }
+        ]
+      }
+    },
+    {
+      "week": 4,
+      "days": {
+        "Monday": [
+          { "style": "analogy completion", "question": "picture: see :: music:", "answer": "hear / listen" },
+          { "style": "analogy completion", "question": "cat: meow :: pig :", "answer": "oink" },
+          { "style": "sentence correction", "question": "him and me are going to the library to check out the book the boxcar children", "answer": "He and I are going to the library to check out the book The Boxcar Children." },
+          { "style": "sentence correction", "question": "christmas is my favorite holiday", "answer": "Christmas is my favorite holiday." },
+          { "style": "contextual meaning", "question": "After borrowing money from her friend, she was indebted to her for $2.", "answer": "owed" }
+        ],
+        "Tuesday": [
+          { "style": "sentence correction", "question": "the show that you wants to watch is on today it begins at 430", "answer": "The show that you want to watch is on today; it begins at 4:30." },
+          { "style": "sentence correction", "question": "mr davis, the butcher, cut turkey ham and cheese for us", "answer": "Mr. Davis, the butcher, cut turkey, ham, and cheese for us." },
+          { "style": "synonyms", "question": "Write a synonym for the word below: enormous", "answer": "huge / giant" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["married", "bicycle", "bilding", "enemies"], "answer": "bilding" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["away", "voiced", "dinosaur", "skrub"], "answer": "skrub" }
+        ],
+        "Wednesday": [
+          { "style": "contextual meaning", "question": "We could not see the sun because it was overcast.", "answer": "cloudy" },
+          { "style": "contextual meaning", "question": "The noisy kids were told to vacate the movie theater.", "answer": "leave" },
+          { "style": "analogy completion", "question": "addition: + :: subtraction :", "answer": "-" },
+          { "style": "sentence correction", "question": "dr rhodes said that my stomachache was from eating to many candy bars", "answer": "Dr. Rhodes said that my stomachache was from eating too many candy bars." },
+          { "style": "sentence correction", "question": "watch out for that bus", "answer": "Watch out for that bus!" }
+        ],
+        "Thursday": [
+          { "style": "verb tense", "question": "Past, present, or future? My dog Butch is running to catch a squirrel.", "answer": "present" },
+          { "style": "verb tense", "question": "Past, present, or future? Dad flew to New York for business.", "answer": "past" },
+          { "style": "sentence correction", "question": "i dont understand how he done the math problem", "answer": "I don't understand how he did the math problem." },
+          { "style": "sentence correction", "question": "ms henning, my teacher, will gets married this april", "answer": "Ms. Henning, my teacher, will get married this April." },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["duz", "laugh", "system", "mammal"], "answer": "duz" }
+        ],
+        "Friday": [
+          { "style": "sentence combination", "question": "Combine the two sentences to make one sentence: Joan Schultze is a doctor. She lives in Oregon.", "answer": "Joan Schultze is a doctor who lives in Oregon." },
+          { "style": "sentence combination", "question": "Combine the two sentences to make one sentence: Our dog is seven years old. Her name is Molly.", "answer": "Our dog, Molly, is seven years old." },
+          { "style": "sentence combination", "question": "Combine the two sentences to make one sentence: My uncle is coming to visit us. He will be here Tuesday.", "answer": "My uncle is coming to visit us this Tuesday." },
+          { "style": "sentence combination", "question": "Combine the two sentences to make one sentence: Cinderella swept the steps. Cinderella washed the floor.", "answer": "Cinderella swept the steps and washed the floor." },
+          { "style": "sentence combination", "question": "Combine the two sentences to make one sentence: I am scared of mice. I am scared of spiders, too.", "answer": "I am scared of mice and spiders." }
+        ]
+      }
+    },
+    {
+      "week": 5,
+      "days": {
+        "Monday": [
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["p-encil", "pen-cil", "penc-il"], "answer": "pen-cil" },
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["play-ground", "playgr-ound", "pla-yground"], "answer": "play-ground" },
+          { "style": "plural nouns", "question": "Circle the words that are plural nouns.", "options": ["dancing", "dishes", "danced", "slippers", "slipped"], "answer": ["dishes", "slippers"] },
+          { "style": "sentence correction", "question": "what color is your car asked samuel", "answer": "\"What color is your car?\" asked Samuel." },
+          { "style": "sentence correction", "question": "he aint gonna want no cookies cake or ice cream for dessert", "answer": "He isn't going to want any cookies, cake, or ice cream for dessert." }
+        ],
+        "Tuesday": [
+          { "style": "antonyms", "question": "Write an antonym for the word below: cheerful", "answer": "sad / grumpy" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["are", "ar", "arr"], "answer": "are" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["wher", "where", "werre"], "answer": "where" },
+          { "style": "sentence correction", "question": "for her sixth birthday, she wanted a party at chuck e cheese", "answer": "For her sixth birthday, she wanted a party at Chuck E. Cheese's." },
+          { "style": "sentence correction", "question": "the hours of the store was from 900 until 600", "answer": "The hours of the store were from 9:00 until 6:00." }
+        ],
+        "Wednesday": [
+          { "style": "sentence correction", "question": "their will be a lunar eclipse on thursday night", "answer": "There will be a lunar eclipse on Thursday night." },
+          { "style": "sentence correction", "question": "i left my glove at the ball field last saturday", "answer": "I left my glove at the ball field last Saturday." },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["cheef", "again", "half", "product"], "answer": "cheef" },
+          { "style": "grammar and mechanics", "question": "Mom said I ___ go.", "options": ["couldn't", "couldnt", "could'nt", "Couldn't"], "answer": "couldn't" },
+          { "style": "grammar and mechanics", "question": "The teacher moved all of the ___ desks.", "options": ["studen'ts", "students", "student's", "students'"], "answer": "students'" }
+        ],
+        "Thursday": [
+          { "style": "analogy completion", "question": "pair: two :: dozen :", "answer": "twelve" },
+          { "style": "analogy completion", "question": "5: nickel:: 10:", "answer": "dime" },
+          { "style": "contextual meaning", "question": "Rex is a feisty dog and is always ready to fight.", "answer": "aggressive / ready to fight" },
+          { "style": "sentence correction", "question": "the pilot will landed the plane in kalamazoo michigan", "answer": "The pilot will land the plane in Kalamazoo, Michigan." },
+          { "style": "sentence correction", "question": "oscar cant get the present to him until next sunday", "answer": "Oscar can't get the present to him until next Sunday." }
+        ],
+        "Friday": [
+          { "style": "sentence combination", "question": "He wants a baseball glove. He needs it for the game.", "answer": "He wants a baseball glove because he needs it for the game." },
+          { "style": "sentence combination", "question": "Jerrod has three sisters. Jerrod is the youngest.", "answer": "Jerrod is the youngest of three sisters." },
+          { "style": "sentence combination", "question": "We took a walk around the block. We walked for an hour.", "answer": "We took a walk around the block for an hour." },
+          { "style": "sentence combination", "question": "Do you know the time? Do you wear a watch?", "answer": "Do you know the time, or do you wear a watch?" },
+          { "style": "sentence combination", "question": "The ornaments were pretty. There were many of them.", "answer": "There were many pretty ornaments." }
+        ]
+      }
+    },
+    {
+      "week": 6,
+      "days": {
+        "Monday": [
+          { "style": "sentence correction", "question": "him and i went to the san diego zoo last weekend", "answer": "He and I went to the San Diego Zoo last weekend." },
+          { "style": "sentence correction", "question": "my mother and father has been married since june 14 1997", "answer": "My mother and father have been married since June 14, 1997." },
+          { "style": "grammar and mechanics", "question": "The correct abbreviation for the word \"Sunday\" is:", "options": ["Sun.", "Sun", "Sun:", "Sund."], "answer": "Sun." },
+          { "style": "phonics", "question": "The /ei/ in \"reindeer\" sounds most like the vowel sound in:", "options": ["let", "term", "age", "ice"], "answer": "age" },
+          { "style": "root words", "question": "What is the root word, or base word? friendly", "answer": "friend" }
+        ],
+        "Tuesday": [
+          { "style": "synonyms", "question": "Write a synonym for each word below: smart", "answer": "intelligent / clever" },
+          { "style": "synonyms", "question": "Write a synonym for each word below: said", "answer": "spoke / told" },
+          { "style": "sentence correction", "question": "we will have a surprise 30th birthday party for aaron in august", "answer": "We will have a surprise 30th birthday party for Aaron in August." },
+          { "style": "sentence correction", "question": "jane morris was 29 on august 1 2008", "answer": "Jane Morris was 29 on August 1, 2008." },
+          { "style": "contextual meaning", "question": "Hanna didn't know where the Indian Ocean was, so she looked in an atlas.", "answer": "book of maps" }
+        ],
+        "Wednesday": [
+          { "style": "sentence correction", "question": "have you ever traveled on a boat bus or train", "answer": "Have you ever traveled on a boat, bus, or train?" },
+          { "style": "sentence correction", "question": "he wants to go to seattle washington in october", "answer": "He wants to go to Seattle, Washington, in October." },
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["su-mmer", "summ-er", "sum-mer"], "answer": "sum-mer" },
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["fis-hing", "fish-ing", "fi-shing"], "answer": "fish-ing" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["knew", "school", "spred", "glue"], "answer": "spred" }
+        ],
+        "Thursday": [
+          { "style": "sentence correction", "question": "dr ellis has brung the prescription to his patient", "answer": "Dr. Ellis has brought the prescription to his patient." },
+          { "style": "sentence correction", "question": "austin is the capital of the state of texas", "answer": "Austin is the capital of the state of Texas." },
+          { "style": "verb tense", "question": "Past, present, or future? She went to the pool to find her mom.", "answer": "past" },
+          { "style": "verb tense", "question": "Past, present, or future? He will get the book for his birthday.", "answer": "future" },
+          { "style": "writing opinion", "question": "Write an opinion about this topic: McDonald's french fries", "answer": "McDonald's french fries are delicious. (Answers will vary)" }
+        ],
+        "Friday": [
+          { "style": "sentence combination", "question": "We are going to Sam's house. We will leave at 4:30.", "answer": "We will leave at 4:30 to go to Sam's house." },
+          { "style": "sentence combination", "question": "Sara knows her addition facts. She knows her subtraction facts, too.", "answer": "Sara knows her addition and subtraction facts." },
+          { "style": "sentence combination", "question": "Jason is five years old. Henry is six years old.", "answer": "Jason is five years old, and Henry is six years old." },
+          { "style": "sentence combination", "question": "I will order pepperoni pizza. I'll order a salad first.", "answer": "I will order pepperoni pizza, but I'll order a salad first." },
+          { "style": "sentence combination", "question": "Our family has two girls and a boy. The boy's name is Stephen.", "answer": "Our family has two girls and a boy named Stephen." }
+        ]
+      }
+    },
+    {
+      "week": 7,
+      "days": {
+        "Monday": [
+          { "style": "contextual meaning", "question": "Don't forget to put quotation marks around dialogue.", "answer": "talking / conversation" },
+          { "style": "contextual meaning", "question": "His brother bothered him all afternoon and made him irate.", "answer": "mad / angry" },
+          { "style": "sentence correction", "question": "the plane is gonna be late it wont arrive until 1206", "answer": "The plane is going to be late; it won't arrive until 12:06." },
+          { "style": "sentence correction", "question": "jose aint got no pencils sharpened", "answer": "Jose hasn't got any pencils sharpened." },
+          { "style": "syllable counting", "question": "Circle the words that have 3 syllables.", "options": ["playground", "enormous", "predicate", "recycle"], "answer": ["enormous", "predicate", "recycle"] }
+        ],
+        "Tuesday": [
+          { "style": "sentence correction", "question": "we will see a play called cinderella on tuesday", "answer": "We will see a play called Cinderella on Tuesday." },
+          { "style": "sentence correction", "question": "mrs jinkins, the librarian, will meets with the class at 830 am", "answer": "Mrs. Jinkins, the librarian, will meet with the class at 8:30 a.m." },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["grocery", "future", "skream", "dropping", "quick", "dolphin", "pensil", "arms"], "answer": ["skream", "pensil"] },
+          { "style": "inference (location/context)", "question": "Where does the following event probably take place? Lupe put the milk back in the refrigerator.", "answer": "kitchen" }
+        ],
+        "Wednesday": [
+          { "style": "sentence correction", "question": "tom dillion had for dimes two nickels and seven pennies", "answer": "Tom Dillion had four dimes, two nickels, and seven pennies." },
+          { "style": "sentence correction", "question": "dont forget to pick up the dry cleaning mother said", "answer": "\"Don't forget to pick up the dry cleaning,\" Mother said." },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["slim", "catcher", "whindow", "zipper"], "answer": "whindow" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["ornge", "afraid", "pizza", "knee"], "answer": "ornge" },
+          { "style": "analogy completion", "question": "car: steering wheel :: bike :", "answer": "handlebars" }
+        ],
+        "Thursday": [
+          { "style": "antonyms", "question": "Write an antonym for the words below: interesting", "answer": "boring" },
+          { "style": "antonyms", "question": "Write an antonym for the words below: finish", "answer": "start / begin" },
+          { "style": "sentence correction", "question": "at what time do the movie start", "answer": "At what time does the movie start?" },
+          { "style": "sentence correction", "question": "my dog bailey digs up the flowers plants and grass", "answer": "My dog Bailey digs up the flowers, plants, and grass." },
+          { "style": "using homophones", "question": "Use this homophone pair in one sentence: sea, see", "answer": "I see the sea. (Answers will vary)" }
+        ],
+        "Friday": [
+          { "style": "fill in the blank", "question": "I will ___ the sidewalk to the pool.", "options": ["followed", "follows", "follow", "following"], "answer": "follow" },
+          { "style": "fill in the blank", "question": "Joe and ___ have been friends since kindergarten.", "options": ["me", "us", "we", "they"], "answer": "I" },
+          { "style": "fill in the blank", "question": "Do you ___ how to write in cursive?", "options": ["know", "knows", "now", "knew"], "answer": "know" },
+          { "style": "fill in the blank", "question": "Mrs. Payne, our principal, ___ us the school song.", "options": ["learned", "learn", "taught", "teached"], "answer": "taught" },
+          { "style": "fill in the blank", "question": "I ___ lived in Ann Arbor, Michigan, for three years.", "options": ["has", "have", "been", "be"], "answer": "have" }
+        ]
+      }
+    },
+    {
+      "week": 8,
+      "days": {
+        "Monday": [
+          { "style": "sentence correction", "question": "dontcha have anything to trade for lunch", "answer": "Don't you have anything to trade for lunch?" },
+          { "style": "sentence correction", "question": "he wants to know if you is going on the field trip", "answer": "He wants to know if you are going on the field trip." },
+          { "style": "fact or opinion", "question": "Going to the beach is the best vacation.", "answer": "opinion" },
+          { "style": "fact or opinion", "question": "Mars is called the \"red planet.\"", "answer": "fact" },
+          { "style": "noun types", "question": "Common or proper noun? Coca Cola", "answer": "proper noun" }
+        ],
+        "Tuesday": [
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["swimming", "climbed", "knock", "thick", "boxes", "cirkus", "wold", "alphabet"], "answer": ["cirkus", "wold"] },
+          { "style": "synonyms", "question": "Write a synonym for the following word: afraid", "answer": "scared / frightened" },
+          { "style": "sentence correction", "question": "mrs pope, the music teacher, telled us to bring a pencil to class", "answer": "Mrs. Pope, the music teacher, told us to bring a pencil to class." },
+          { "style": "sentence correction", "question": "we hopes you have a happy halloween", "answer": "We hope you have a happy Halloween." }
+        ],
+        "Wednesday": [
+          { "style": "sentence correction", "question": "harrys shirt is to small for his brother to borrow", "answer": "Harry's shirt is too small for his brother to borrow." },
+          { "style": "sentence correction", "question": "the score of the baseball game was dolphins 14, hawks 7", "answer": "The score of the baseball game was Dolphins 14, Hawks 7." },
+          { "style": "inference (location/context)", "question": "Where do the following events probably take place? Everyone is supposed to stay seated, some face forward, and hold their backpacks on their laps.", "answer": "a school bus" },
+          { "style": "inference (location/context)", "question": "Where do the following events probably take place? Go down the slide one at a time.", "answer": "a playground" },
+          { "style": "analogy completion", "question": "steak: dinner :: cereal :", "answer": "breakfast" }
+        ],
+        "Thursday": [
+          { "style": "syllable counting", "question": "Circle the words that have 2 syllables.", "options": ["number", "holler", "rainbow", "computer"], "answer": ["number", "holler", "rainbow"] },
+          { "style": "sentence correction", "question": "i told dr shirley about a great book called iggy's house", "answer": "I told Dr. Shirley about a great book called Iggy's House." },
+          { "style": "sentence correction", "question": "dominique has went to fill up her car with gas at the exxon station", "answer": "Dominique went to fill up her car with gas at the Exxon station." },
+          { "style": "identifying complete sentences", "question": "Underline the correct, complete sentence.", "options": ["The boy put on skates he ties the laces.", "The kite flew high in the sky."], "answer": "The kite flew high in the sky." },
+          { "style": "identifying complete sentences", "question": "Underline the correct, complete sentence.", "options": ["The dog saw a cat, and it started barking.", "The dog ran away the boy chased it."], "answer": "The dog saw a cat, and it started barking." }
+        ],
+        "Friday": [
+          { "style": "fill in the blank", "question": "Will you pass ___ the catsup?", "options": ["my", "me", "we"], "answer": "me" },
+          { "style": "fill in the blank", "question": "The play ___ at 7:15.", "options": ["begun", "will begin", "start", "beginned"], "answer": "will begin" },
+          { "style": "fill in the blank", "question": "We ___ our grandmother a can opener.", "options": ["gots", "gived", "bought", "buyed"], "answer": "bought" },
+          { "style": "fill in the blank", "question": "Carol, my friend, ___ German very well.", "options": ["speak", "speaks", "speaked", "spoked"], "answer": "speaks" },
+          { "style": "fill in the blank", "question": "When I was 13, I ___ to Italy with my dad.", "options": ["went", "goed", "was going", "had went"], "answer": "went" }
+        ]
+      }
+    },
+    {
+      "week": 9,
+      "days": {
+        "Monday": [
+          { "style": "alphabetical order", "question": "Circle the word that comes first in alphabetical order.", "options": ["flash", "fence", "false"], "answer": "false" },
+          { "style": "alphabetical order", "question": "Circle the word that comes first in alphabetical order.", "options": ["trade", "tie", "tape", "fight", "tugboat"], "answer": "fight" },
+          { "style": "dictionary guide words", "question": "If the guide words on a dictionary page were \"rain\" and \"road,\" which word would be on the page?", "options": ["rent", "rage", "rope", "run"], "answer": "rent" },
+          { "style": "sentence correction", "question": "have you ever read nickelodeon magazine", "answer": "Have you ever read Nickelodeon Magazine?" },
+          { "style": "sentence correction", "question": "we seen the X-ray the broken bone was in the hand", "answer": "We saw the X-ray; the broken bone was in the hand." }
+        ],
+        "Tuesday": [
+          { "style": "antonyms", "question": "Write an antonym for the following word: light", "answer": "dark / heavy" },
+          { "style": "sentence correction", "question": "i would rather ate spaghetti than pizza for dinner", "answer": "I would rather eat spaghetti than pizza for dinner." },
+          { "style": "sentence correction", "question": "he went fishing caught three fish and cooked them for dinner", "answer": "He went fishing, caught three fish, and cooked them for dinner." },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["rough", "sharck", "since", "balloon"], "answer": "sharck" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["afeter", "morning", "scare", "summer"], "answer": "afeter" }
+        ],
+        "Wednesday": [
+          { "style": "sentence correction", "question": "we sang the song america, the beautiful in music class", "answer": "We sang the song \"America, the Beautiful\" in music class." },
+          { "style": "sentence correction", "question": "david has gave his soccer equipment to jason and i", "answer": "David has given his soccer equipment to Jason and me." },
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["jumpi-ng", "jum-ping", "jump-ing"], "answer": "jump-ing" },
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["foot-ball", "footba-ll", "foo-tball"], "answer": "foot-ball" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["rimote", "remot", "remote", "remoke"], "answer": "remote" }
+        ],
+        "Thursday": [
+          { "style": "grammar and mechanics", "question": "My aunt was married on", "options": ["March 14, 1995.", "March, 14, 1995.", "March 14 1995."], "answer": "March 14, 1995." },
+          { "style": "grammar and mechanics", "question": "In June, my family will fly to", "options": ["Orlando: Florida", "Orlando. Florida", "Orlando, Florida"], "answer": "Orlando, Florida" },
+          { "style": "parts of speech", "question": "Write the verb in the following sentence: Her bicycle turned the corner.", "answer": "turned" },
+          { "style": "sentence correction", "question": "students in australia wear uniforms two school", "answer": "Students in Australia wear uniforms to school." },
+          { "style": "sentence correction", "question": "north america includes canada the united states and mexico", "answer": "North America includes Canada, the United States, and Mexico." }
+        ],
+        "Friday": [
+          { "style": "fill in the blank", "question": "We will have to wait and let them do ___ job.", "options": ["they're", "their", "there"], "answer": "their" },
+          { "style": "fill in the blank", "question": "Nathan and Tyler ___ the song beautifully.", "options": ["is singing", "sang", "singed"], "answer": "sang" },
+          { "style": "fill in the blank", "question": "We ___ the car accident from our window.", "options": ["saw", "seed", "is seeing"], "answer": "saw" },
+          { "style": "fill in the blank", "question": "I ___ two friends named Sandy.", "options": ["gots", "has", "have"], "answer": "have" },
+          { "style": "fill in the blank", "question": "Will you go ___ the bank and cash the check?", "options": ["to", "too", "two"], "answer": "to" }
+        ]
+      }
+    },
+    {
+      "week": 10,
+      "days": {
+        "Monday": [
+          { "style": "sentence types", "question": "Statement, command, question, or exclamation? Did you fly or drive to California", "answer": "question" },
+          { "style": "sentence types", "question": "Statement, command, question, or exclamation? Get out your math book", "answer": "command" },
+          { "style": "sentence correction", "question": "amy asked who borrowed my eraser", "answer": "Amy asked, \"Who borrowed my eraser?\"" },
+          { "style": "sentence correction", "question": "dallas, dans dog, has ate all of his food", "answer": "Dallas, Dan's dog, has eaten all of his food." },
+          { "style": "noun number", "question": "Singular or plural? cracker", "answer": "singular" }
+        ],
+        "Tuesday": [
+          { "style": "sentence correction", "question": "laura and rebecca brung water on they're hike", "answer": "Laura and Rebecca brought water on their hike." },
+          { "style": "sentence correction", "question": "lets ride our bikes to the lake it will take a hour", "answer": "Let's ride our bikes to the lake; it will take an hour." },
+          { "style": "using homophones", "question": "Write a sentence with each homophone pair: flower, flour", "answer": "The flower is made of flour. (Answers will vary)" },
+          { "style": "using homophones", "question": "Write a sentence with each homophone pair: I, eye", "answer": "I injured my eye. (Answers will vary)" },
+          { "style": "friendly letter parts", "question": "Which part of a friendly letter is this? Heading, greeting, body, closing, or signature? Your friend,", "answer": "closing" }
+        ],
+        "Wednesday": [
+          { "style": "analogy completion", "question": "red + yellow: orange :: blue + yellow :", "answer": "green" },
+          { "style": "sentence correction", "question": "mr poppers penguins is my favorite book", "answer": "Mr. Popper's Penguins is my favorite book." },
+          { "style": "sentence correction", "question": "robin and ted have went running for too miles", "answer": "Robin and Ted have gone running for two miles." },
+          { "style": "synonyms or antonyms", "question": "Synonyms or antonyms? on, off", "answer": "antonyms" },
+          { "style": "synonyms or antonyms", "question": "Synonyms or antonyms? glad, happy", "answer": "synonyms" }
+        ],
+        "Thursday": [
+          { "style": "sentence correction", "question": "i go to fielder elementary school", "answer": "I go to Fielder Elementary School." },
+          { "style": "sentence correction", "question": "are you cheering for the mustangs or the tigers at the football game", "answer": "Are you cheering for the Mustangs or the Tigers at the football game?" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["afraid", "broom", "dollar", "famly", "rain", "dicide", "fire", "oil"], "answer": ["famly", "dicide"] },
+          { "style": "rhyming", "question": "Write two words that rhyme with the word below: time", "answer": "dime, chime (Answers will vary)" }
+        ],
+        "Friday": [
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what street the closest grocery store is on", "answer": "telephone book" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the years that Mozart lived", "answer": "encyclopedia" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? how to pronounce the word \"excerpt\"", "answer": "dictionary" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the phone number for Sid's Bagels", "answer": "telephone book" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what part of speech the word \"trample\" is", "answer": "dictionary" }
+        ]
+      }
+    },
+    {
+      "week": 11,
+      "days": {
+        "Monday": [
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["coler", "first", "worry", "flies", "write", "kind", "teath", "burned"], "answer": ["coler", "teath"] },
+          { "style": "verb tense", "question": "Past, present, or future? The roller coaster climbed up the hill.", "answer": "past" },
+          { "style": "sentence correction", "question": "our family will be in miami florida this christmas", "answer": "Our family will be in Miami, Florida, this Christmas." },
+          { "style": "sentence correction", "question": "would you learn me to read sign language", "answer": "Would you teach me to read sign language?" }
+        ],
+        "Tuesday": [
+          { "style": "rhyming", "question": "Write two words that rhyme with the word below: five", "answer": "hive, dive (Answers will vary)" },
+          { "style": "sentence correction", "question": "yesterday we read a poem called sick by shel silverstein", "answer": "Yesterday we read a poem called \"Sick\" by Shel Silverstein." },
+          { "style": "sentence correction", "question": "april 27 2009 is the day our report is due", "answer": "April 27, 2009, is the day our report is due." },
+          { "style": "alphabetical order", "question": "Circle the word that comes first in alphabetical order.", "options": ["south", "same", "sly", "sky"], "answer": "same" },
+          { "style": "alphabetical order", "question": "Circle the word that comes first in alphabetical order.", "options": ["odd", "otter", "out", "open"], "answer": "odd" }
+        ],
+        "Wednesday": [
+          { "style": "analogy completion", "question": "lemon: yellow :: lime :", "answer": "green" },
+          { "style": "analogy completion", "question": "peach: fuzzy :: watermelon :", "answer": "smooth (or striped)" },
+          { "style": "dictionary guide words", "question": "If the guide words on a dictionary page were \"odor\" and \"organ,\" which word would be on the page?", "options": ["oats", "owner", "other", "old"], "answer": "old" },
+          { "style": "sentence correction", "question": "dad will be home from his trip on thursday evening said mom", "answer": "\"Dad will be home from his trip on Thursday evening,\" said Mom." },
+          { "style": "sentence correction", "question": "the refrigerator door was not closed, and someone leaved the light on", "answer": "The refrigerator door was not closed, and someone left the light on." }
+        ],
+        "Thursday": [
+          { "style": "friendly letter parts", "question": "Which part of a friendly letter are these? Heading, greeting, body, closing, or signature? Dear Allison,", "answer": "greeting" },
+          { "style": "friendly letter parts", "question": "Which part of a friendly letter are these? Heading, greeting, body, closing, or signature? 2119 Mason Road", "answer": "heading" },
+          { "style": "sentence correction", "question": "the library has five copies of dear mr henshaw, a great book", "answer": "The library has five copies of Dear Mr. Henshaw, a great book." },
+          { "style": "sentence correction", "question": "we read the talking eggs, a short story, in language class", "answer": "We read \"The Talking Eggs,\" a short story, in language class." },
+          { "style": "phonics", "question": "The /oo/ in \"school\" sounds most like the vowel sound in:", "options": ["out", "long", "open", "rule"], "answer": "rule" }
+        ],
+        "Friday": [
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what part of speech the word \"dive\" is", "answer": "dictionary" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what kind of animal an okapi is", "answer": "encyclopedia" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? where to find more articles about reptiles", "answer": "encyclopedia" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the area code of Sarasota, Florida", "answer": "telephone book" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? other animals related to the Komodo dragon", "answer": "encyclopedia" }
+        ]
+      }
+    },
+    {
+      "week": 12,
+      "days": {
+        "Monday": [
+          { "style": "sentence correction", "question": "this summer we is going to camp illahee in the appalachian mountains", "answer": "This summer we are going to Camp Illahee in the Appalachian Mountains." },
+          { "style": "sentence correction", "question": "frank ann and robert are going to see the movie at 445", "answer": "Frank, Ann, and Robert are going to see the movie at 4:45." },
+          { "style": "syllable counting", "question": "Circle the words that have 2 syllables.", "options": ["lipstick", "interested", "alligator", "catcher", "none", "number", "forget", "batter"], "answer": ["lipstick", "catcher", "number", "forget", "batter"] },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded word below. The hummingbird hovered above the flower.", "answer": "floated in one place / flew in place" }
+        ],
+        "Tuesday": [
+          { "style": "fact or fantasy", "question": "Fact or fantasy? Her car has a flat tire.", "answer": "fact" },
+          { "style": "fact or fantasy", "question": "Fact or fantasy? The car sprouted wings and flew away.", "answer": "fantasy" },
+          { "style": "sentence combination", "question": "Combine these two sentences into one sentence: Hobie has a cat. The cat's name is Elvis.", "answer": "Hobie has a cat named Elvis." },
+          { "style": "sentence correction", "question": "please tell me your phone number i will call you tonight", "answer": "Please tell me your phone number; I will call you tonight." },
+          { "style": "sentence correction", "question": "mr thomas and mr smythe will visit the museum tomorrow", "answer": "Mr. Thomas and Mr. Smythe will visit the museum tomorrow." }
+        ],
+        "Wednesday": [
+          { "style": "rhyming", "question": "Circle the words that rhyme with \"shoe.\"", "options": ["glue", "dove", "do", "overdue"], "answer": ["glue", "do", "overdue"] },
+          { "style": "sentence correction", "question": "my favorite restaurant is burger king", "answer": "My favorite restaurant is Burger King." },
+          { "style": "sentence correction", "question": "the country that we are studying in social studies class is italy", "answer": "The country that we are studying in social studies class is Italy." },
+          { "style": "inference (location/context)", "question": "Where does each event probably take place? John threw the ball to second base.", "answer": "a baseball game" },
+          { "style": "inference (location/context)", "question": "Where does each event probably take place? She fastened her seat belt when she sat down.", "answer": "an airplane or car" }
+        ],
+        "Thursday": [
+          { "style": "sentence correction", "question": "we aint never hiked down the grand canyon", "answer": "We haven't ever hiked down the Grand Canyon." },
+          { "style": "sentence correction", "question": "aunt martha sent us a gift for hanukkah", "answer": "Aunt Martha sent us a gift for Hanukkah." },
+          { "style": "phonics", "question": "The /u/ in \"mule\" sounds most like the vowel sounds in:", "options": ["pull", "tool", "tune", "music"], "answer": ["tune", "music"] },
+          { "style": "sentence types", "question": "Command, statement, question, or exclamation? Look out for that car", "answer": "exclamation" },
+          { "style": "sentence types", "question": "Command, statement, question, or exclamation? Half of one dollar is fifty cents", "answer": "statement" }
+        ],
+        "Friday": [
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? a dentist near my neighborhood", "answer": "telephone book" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the phone number for Pizza Hut", "answer": "telephone book" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? information for a report on the snowy owl", "answer": "encyclopedia" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? how to spell the word \"mesmerizing\"", "answer": "dictionary" },
+          { "style": "reference skills", "question": "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? information about the Grand Canyon", "answer": "encyclopedia" }
+        ]
+      }
+    },
+    {
+      "week": 13,
+      "days": {
+        "Monday": [
+          { "style": "sentence correction", "question": "would you like bread with your salad", "answer": "Would you like bread with your salad?" },
+          { "style": "sentence correction", "question": "does you needs help with changing the bicycle tire", "answer": "Do you need help with changing the bicycle tire?" },
+          { "style": "noun number", "question": "Singular or plural noun? dolphin", "answer": "singular" },
+          { "style": "noun number", "question": "Singular or plural noun? children", "answer": "plural" },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["daisy", "egg", "loop", "lern"], "answer": "lern" }
+        ],
+        "Tuesday": [
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["swi-mm-ing", "swim-ming", "swimm-ing"], "answer": "swim-ming" },
+          { "style": "syllabication", "question": "Circle the correct way to divide each word into syllables.", "options": ["cam-el", "came-l", "ca-mel"], "answer": "cam-el" },
+          { "style": "sentence correction", "question": "me and her moved into a apartment to save money", "answer": "She and I moved into an apartment to save money." },
+          { "style": "sentence correction", "question": "how many words a minute can you type asked the secretary", "answer": "\"How many words a minute can you type?\" asked the secretary." },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded word below. The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.", "answer": "bother / tease / annoy" }
+        ],
+        "Wednesday": [
+          { "style": "synonyms", "question": "Write a synonym for each word: argue", "answer": "fight / bicker / disagree" },
+          { "style": "synonyms", "question": "Write a synonym for each word: hit", "answer": "strike / punch" },
+          { "style": "sentence correction", "question": "the cashier rang up carrots pickles and pineapples", "answer": "The cashier rang up carrots, pickles, and pineapples." },
+          { "style": "sentence correction", "question": "her dog is trained to do for tricks", "answer": "Her dog is trained to do four tricks." },
+          { "style": "fact or opinion", "question": "Fact or opinion? The speed limit on this road is too slow.", "answer": "opinion" }
+        ],
+        "Thursday": [
+          { "style": "verb tense", "question": "Past, present, or future? They drove to the mountains to visit Ruby.", "answer": "past" },
+          { "style": "spelling", "question": "Circle the correct spelling.", "options": ["meshure", "measure", "meazure"], "answer": "measure" },
+          { "style": "spelling", "question": "Circle the correct spelling.", "options": ["kage", "caje", "cage"], "answer": "cage" },
+          { "style": "sentence correction", "question": "dana asked who is in charge here", "answer": "Dana asked, \"Who is in charge here?\"" },
+          { "style": "sentence correction", "question": "henry couldnt remember the combination to his lock", "answer": "Henry couldn't remember the combination to his lock." }
+        ],
+        "Friday": [
+          {
+            "style": "paragraph editing",
+            "question": "Read the following paragraph and decide if the underlined part has a capitalization error, punctuation error, spelling error, or no mistake. (1) An earthquake happens when a break in the Earths outer shell (2) causes the ground to shake and shift Earthquakes are one of the most (3) Powerful events on earth. During some small earthquakes, the shaking of (4) the ground may be know more noticeable than the shaking caused by (5) a train's passing.",
+            "options": ["capitalization", "punctuation", "spelling", "no mistake"],
+            "answer": ["punctuation", "punctuation", "capitalization", "spelling", "no mistake"]
+          }
+        ]
+      }
+    },
+    {
+      "week": 14,
+      "days": {
+        "Monday": [
+          { "style": "sentence correction", "question": "red yellow and blue are primary colors", "answer": "Red, yellow, and blue are primary colors." },
+          { "style": "sentence correction", "question": "it was time for dinner i set the table", "answer": "It was time for dinner; I set the table." },
+          { "style": "parts of speech", "question": "Write the adjective in each sentence. There was a gold ring in the window.", "answer": "gold" },
+          { "style": "parts of speech", "question": "Write the adjective in each sentence. Joe has four sisters who live in Nebraska.", "answer": "four" },
+          { "style": "analogy completion", "question": "interesting: dull :: open :", "answer": "closed" }
+        ],
+        "Tuesday": [
+          { "style": "synonyms or antonyms", "question": "Synonyms or antonyms? now, later", "answer": "antonyms" },
+          { "style": "synonyms or antonyms", "question": "Synonyms or antonyms? normal, unusual", "answer": "antonyms" },
+          { "style": "sentence correction", "question": "have you read the enormous crocodile, a book by roald dahl", "answer": "Have you read The Enormous Crocodile, a book by Roald Dahl?" },
+          { "style": "sentence correction", "question": "i really like to listen to music while I jog", "answer": "I really like to listen to music while I jog." },
+          { "style": "parts of speech", "question": "Is the underlined word a noun, verb, or adjective? Amelia Bedelia took her classmates to see her house.", "answer": "noun" }
+        ],
+        "Wednesday": [
+          { "style": "cause and effect", "question": "Underline the cause and circle the effect. Maria's tire was flat because it had a nail in it.", "answer": "Cause: it had a nail in it. Effect: Maria's tire was flat." },
+          { "style": "sentence correction", "question": "pedro, the owner, walked marsha and me to our table", "answer": "Pedro, the owner, walked Marsha and me to our table." },
+          { "style": "sentence correction", "question": "if i give you five nickels, will you give me a quarter", "answer": "If I give you five nickels, will you give me a quarter?" },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded words below. When Rachel won the prize she had always wanted, she was elated.", "answer": "happy / overjoyed" },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded words below. She was persistent and didn't give up trying out for the team.", "answer": "determined / stubborn" }
+        ],
+        "Thursday": [
+          { "style": "sentence correction", "question": "did allison broke her leg yesterday", "answer": "Did Allison break her leg yesterday?" },
+          { "style": "sentence correction", "question": "shelton watched as the zookeeper feeds the animals", "answer": "Shelton watched as the zookeeper fed the animals." },
+          { "style": "spelling", "question": "Circle the word that is not spelled correctly.", "options": ["odd", "redy", "magnet", "story", "handle", "gane", "speedy", "fair"], "answer": ["redy", "gane"] },
+          { "style": "categorization", "question": "Circle the word that does not belong in the group.", "options": ["sandals", "socks", "gloves", "sneakers"], "answer": "gloves" }
+        ],
+        "Friday": [
+          {
+            "style": "paragraph editing",
+            "question": "Read the following paragraph and decide if the underlined part has a capitalization error, punctuation error, spelling error, or no mistake. (1) australia is the smallest continent. It is the only continent (2) located entirely inn the Southern Hemisphere. The kangaroo is the national (3) symbol of Australia? Australia's capital is Canberra, located in the (4) eastern parte of the country.",
+            "options": ["capitalization", "punctuation", "spelling", "no mistake"],
+            "answer": ["capitalization", "spelling", "punctuation", "spelling"]
+          }
+        ]
+      }
+    },
+    {
+      "week": 15,
+      "days": {
+        "Monday": [
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["malebox", "mailbox", "mailbocks", "malbox"], "answer": "mailbox" },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["amimal", "aminal", "animal", "annimal"], "answer": "animal" },
+          { "style": "sentence correction", "question": "did you remember to pack a toothbrush nightgown and bathing suit", "answer": "Did you remember to pack a toothbrush, nightgown, and bathing suit?" },
+          { "style": "sentence correction", "question": "derrick his favorite subject is art", "answer": "Derrick's favorite subject is art." },
+          { "style": "analogy completion", "question": "7: number :: G:", "answer": "letter" }
+        ],
+        "Tuesday": [
+          { "style": "sentence correction", "question": "me and sam want to help mrs james wash her car", "answer": "Sam and I want to help Mrs. James wash her car." },
+          { "style": "sentence correction", "question": "have you ever been on a airplane", "answer": "Have you ever been on an airplane?" },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded words below. On Halloween, he will masquerade as a ghost by using a sheet.", "answer": "dress up / pretend to be" },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded words below. He was ailing, so he stayed home from school and went to the doctor.", "answer": "sick" },
+          { "style": "sentence types", "question": "Statement, command, question, or exclamation? Have you ever seen the Grand Canyon", "answer": "question" }
+        ],
+        "Wednesday": [
+          { "style": "subject and predicate", "question": "Is the subject or predicate underlined? Maria and Jason threw a surprise party for their mother.", "answer": "subject" },
+          { "style": "subject and predicate", "question": "Is the subject or predicate underlined? The Great Barrier Reef is 1,250 miles long.", "answer": "subject" },
+          { "style": "sentence correction", "question": "helen keller was learned how to use sign language when she was for", "answer": "Helen Keller was taught how to use sign language when she was four." },
+          { "style": "sentence correction", "question": "the elephant drawed water in using his trunk he sprayed it on his back", "answer": "The elephant drew water in using his trunk; he sprayed it on his back." },
+          { "style": "spelling", "question": "Circle the word that is spelled correctly.", "options": ["dangerous", "dangerus", "dangirus", "dangeris"], "answer": "dangerous" }
+        ],
+        "Thursday": [
+          { "style": "sentence correction", "question": "doesnt you have to brothers and one sister", "answer": "Don't you have two brothers and one sister?" },
+          { "style": "sentence correction", "question": "please stand in line for the picture said the teacher", "answer": "\"Please stand in line for the picture,\" said the teacher." },
+          { "style": "contextual meaning", "question": "Use context clues to determine the meaning of the bolded word below. The book was so enthralling that we wanted to keep on reading.", "answer": "fascinating / interesting" },
+          { "style": "verb tense", "question": "Past, present, or future? The plane landed on time at Dallas Fort Worth Airport.", "answer": "past" },
+          { "style": "verb tense", "question": "Past, present, or future? Her baggage will be sent to her later.", "answer": "future" }
+        ],
+        "Friday": [
+          {
+            "style": "paragraph editing",
+            "question": "Read the following paragraph and decide if the underlined part has a capitalization error, punctuation error, spelling error, or no mistake. (1) Do you recycle in your city. Materials such As aluminum or steel cans, glass (2) containers, and paper can all be recycled. (3) Recycling help's save raw materials (4) that producers and consumers need to use? It also keeps materials out of landfills (5) and helps in the reduction of pollution.",
+            "options": ["capitalization", "punctuation", "spelling", "no mistake"],
+            "answer": ["punctuation", "capitalization", "punctuation", "punctuation", "no mistake"]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -345,7 +345,49 @@ QUESTION_BANK['vocabulary-base-words'] = {
         linkText: "Khan Academy Grammar"
       }
     }
-  ]
+  ,
+      {
+        question: "Does the underlined word have a prefix or a suffix? He disagreed with his friend on the subject.",
+        choices: ["prefix", "suffix", "base word", "root"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. prefix", incorrect: ["CORRECT: prefix", "This choice is incorrect because 'suffix' does not follow the rules.", "This choice is incorrect because 'base word' does not follow the rules.", "This choice is incorrect because 'root' does not follow the rules."] },
+        studyAid: { definition: "A base word is the main part of a word. A prefix is added to the beginning. A suffix is added to the end.", example: "Base: kind. Prefix: unkind. Suffix: kindness.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does the underlined word have a prefix or a suffix? Soon it will be time for a restful vacation.",
+        choices: ["prefix", "suffix", "base word", "root"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. suffix", incorrect: ["This choice is incorrect because 'prefix' does not follow the rules.", "CORRECT: suffix", "This choice is incorrect because 'base word' does not follow the rules.", "This choice is incorrect because 'root' does not follow the rules."] },
+        studyAid: { definition: "A base word is the main part of a word. A prefix is added to the beginning. A suffix is added to the end.", example: "Base: kind. Prefix: unkind. Suffix: kindness.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does the following word have a prefix or a suffix? untie",
+        choices: ["prefix", "suffix", "base word", "root"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. prefix", incorrect: ["CORRECT: prefix", "This choice is incorrect because 'suffix' does not follow the rules.", "This choice is incorrect because 'base word' does not follow the rules.", "This choice is incorrect because 'root' does not follow the rules."] },
+        studyAid: { definition: "A base word is the main part of a word. A prefix is added to the beginning. A suffix is added to the end.", example: "Base: kind. Prefix: unkind. Suffix: kindness.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does the following word have a prefix or a suffix? easily",
+        choices: ["prefix", "suffix", "base word", "root"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. suffix", incorrect: ["This choice is incorrect because 'prefix' does not follow the rules.", "CORRECT: suffix", "This choice is incorrect because 'base word' does not follow the rules.", "This choice is incorrect because 'root' does not follow the rules."] },
+        studyAid: { definition: "A base word is the main part of a word. A prefix is added to the beginning. A suffix is added to the end.", example: "Base: kind. Prefix: unkind. Suffix: kindness.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What is the prefix or suffix in the words? valuable",
+        choices: ["prefix", "suffix", "base word", "root"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. suffix", incorrect: ["This choice is incorrect because 'prefix' does not follow the rules.", "CORRECT: suffix", "This choice is incorrect because 'base word' does not follow the rules.", "This choice is incorrect because 'root' does not follow the rules."] },
+        studyAid: { definition: "A base word is the main part of a word. A prefix is added to the beginning. A suffix is added to the end.", example: "Base: kind. Prefix: unkind. Suffix: kindness.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What is the prefix or suffix in the words? hibernating",
+        choices: ["prefix", "suffix", "base word", "root"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. suffix", incorrect: ["This choice is incorrect because 'prefix' does not follow the rules.", "CORRECT: suffix", "This choice is incorrect because 'base word' does not follow the rules.", "This choice is incorrect because 'root' does not follow the rules."] },
+        studyAid: { definition: "A base word is the main part of a word. A prefix is added to the beginning. A suffix is added to the end.", example: "Base: kind. Prefix: unkind. Suffix: kindness.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 1.2 Vowel Sounds */
@@ -458,7 +500,42 @@ QUESTION_BANK['vocabulary-vowel-sounds'] = {
       explanation: { correct: "The letters 'ir' in 'first' make the /er/ sound, which is called an r-controlled vowel.", incorrect: ["'first' does not have a short i sound.","'first' does not have a long i sound.","CORRECT: 'ir' makes the /er/ sound in 'first.'","'first' does not have a short e sound."] },
       studyAid: { definition: "An r-controlled vowel happens when 'r' follows a vowel and changes its sound to /er/. 'ir,' 'er,' and 'ur' all say /er/.", example: "bird, fern, nurse, shirt, worm", link: "https://www.readingrockets.org/article/r-controlled-vowels", linkText: "Reading Rockets - R-Controlled Vowels" }
     }
-  ]
+  ,
+      {
+        question: "The /ei/ in \"reindeer\" sounds most like the vowel sound in:",
+        choices: ["let", "term", "age", "ice"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. age", incorrect: ["This choice is incorrect because 'let' does not follow the rules.", "This choice is incorrect because 'term' does not follow the rules.", "CORRECT: age", "This choice is incorrect because 'ice' does not follow the rules."] },
+        studyAid: { definition: "Vowel sounds are made by the letters a, e, i, o, u, and sometimes y.", example: "The long /a/ sound in \"cake\" sounds like the letter name A.", link: "https://www.readingrockets.org/article/phonics", linkText: "Reading Rockets - Phonics" }
+      },
+      {
+        question: "The /oo/ in \"school\" sounds most like the vowel sound in:",
+        choices: ["out", "long", "open", "rule"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. rule", incorrect: ["This choice is incorrect because 'out' does not follow the rules.", "This choice is incorrect because 'long' does not follow the rules.", "This choice is incorrect because 'open' does not follow the rules.", "CORRECT: rule"] },
+        studyAid: { definition: "Vowel sounds are made by the letters a, e, i, o, u, and sometimes y.", example: "The long /a/ sound in \"cake\" sounds like the letter name A.", link: "https://www.readingrockets.org/article/phonics", linkText: "Reading Rockets - Phonics" }
+      },
+      {
+        question: "The /u/ in \"mule\" sounds most like the vowel sounds in:",
+        choices: ["pull", "tool", "tune", "music"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. tune", incorrect: ["This choice is incorrect because 'pull' does not follow the rules.", "This choice is incorrect because 'tool' does not follow the rules.", "CORRECT: tune", "This choice is incorrect because 'music' does not follow the rules."] },
+        studyAid: { definition: "Vowel sounds are made by the letters a, e, i, o, u, and sometimes y.", example: "The long /a/ sound in \"cake\" sounds like the letter name A.", link: "https://www.readingrockets.org/article/phonics", linkText: "Reading Rockets - Phonics" }
+      },
+      {
+        question: "Circle the word that has the same vowel sound as the /ea/ in \"spread.\"",
+        choices: ["beneath", "weak", "tea", "bread"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. bread", incorrect: ["This choice is incorrect because 'beneath' does not follow the rules.", "This choice is incorrect because 'weak' does not follow the rules.", "This choice is incorrect because 'tea' does not follow the rules.", "CORRECT: bread"] },
+        studyAid: { definition: "Vowel sounds are made by the letters a, e, i, o, u, and sometimes y.", example: "The long /a/ sound in \"cake\" sounds like the letter name A.", link: "https://www.readingrockets.org/article/phonics", linkText: "Reading Rockets - Phonics" }
+      },
+      {
+        question: "Circle the word that has the same sound as the /ow/ in \"cow.\"",
+        choices: ["blow", "know", "frown", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. frown", incorrect: ["This choice is incorrect because 'blow' does not follow the rules.", "This choice is incorrect because 'know' does not follow the rules.", "CORRECT: frown", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Vowel sounds are made by the letters a, e, i, o, u, and sometimes y.", example: "The long /a/ sound in \"cake\" sounds like the letter name A.", link: "https://www.readingrockets.org/article/phonics", linkText: "Reading Rockets - Phonics" }
+      }]
 };
 
 /* 1.3 Contractions */
@@ -911,7 +988,182 @@ QUESTION_BANK['vocabulary-synonyms-antonyms'] = {
       explanation: { correct: "'Relocate' means to move to a new place, which is the same as 'migrate.'", incorrect: ["'stay' is the opposite of migrate.","'settle' can mean to stay in one place, opposite of migrate.","CORRECT: 'relocate' means to move, like 'migrate.'","'remain' is the opposite of migrate."] },
       studyAid: { definition: "'Migrate' means to move from one place to another, usually seasonally or permanently.", example: "migrate / relocate / move / journey", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Write an antonym for each word: hot",
+        choices: ["alike", "similar", "same", "cold"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. cold", incorrect: ["This choice is incorrect because 'alike' does not follow the rules.", "This choice is incorrect because 'similar' does not follow the rules.", "This choice is incorrect because 'same' does not follow the rules.", "CORRECT: cold"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write an antonym for each word: even",
+        choices: ["similar", "alike", "same", "odd"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. odd", incorrect: ["This choice is incorrect because 'similar' does not follow the rules.", "This choice is incorrect because 'alike' does not follow the rules.", "This choice is incorrect because 'same' does not follow the rules.", "CORRECT: odd"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for the word below: enormous",
+        choices: ["opposite", "wrong", "different", "huge"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. huge", incorrect: ["This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "CORRECT: huge"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write an antonym for the word below: cheerful",
+        choices: ["similar", "alike", "same", "sad"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. sad", incorrect: ["This choice is incorrect because 'similar' does not follow the rules.", "This choice is incorrect because 'alike' does not follow the rules.", "This choice is incorrect because 'same' does not follow the rules.", "CORRECT: sad"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for each word below: smart",
+        choices: ["intelligent", "opposite", "different", "wrong"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. intelligent", incorrect: ["CORRECT: intelligent", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for each word below: said",
+        choices: ["different", "opposite", "wrong", "spoke"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. spoke", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules.", "CORRECT: spoke"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write an antonym for the words below: interesting",
+        choices: ["alike", "same", "boring", "similar"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. boring", incorrect: ["This choice is incorrect because 'alike' does not follow the rules.", "This choice is incorrect because 'same' does not follow the rules.", "CORRECT: boring", "This choice is incorrect because 'similar' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write an antonym for the words below: finish",
+        choices: ["start", "similar", "same", "alike"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. start", incorrect: ["CORRECT: start", "This choice is incorrect because 'similar' does not follow the rules.", "This choice is incorrect because 'same' does not follow the rules.", "This choice is incorrect because 'alike' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for the following word: afraid",
+        choices: ["scared", "wrong", "opposite", "different"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. scared", incorrect: ["CORRECT: scared", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write an antonym for the following word: light",
+        choices: ["alike", "similar", "same", "dark"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. dark", incorrect: ["This choice is incorrect because 'alike' does not follow the rules.", "This choice is incorrect because 'similar' does not follow the rules.", "This choice is incorrect because 'same' does not follow the rules.", "CORRECT: dark"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms or antonyms? on, off",
+        choices: ["different", "wrong", "antonyms", "opposite"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. antonyms", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules.", "CORRECT: antonyms", "This choice is incorrect because 'opposite' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms or antonyms? glad, happy",
+        choices: ["synonyms", "different", "opposite", "wrong"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. synonyms", incorrect: ["CORRECT: synonyms", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for each word: argue",
+        choices: ["wrong", "different", "opposite", "fight"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. fight", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "CORRECT: fight"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for each word: hit",
+        choices: ["strike", "wrong", "different", "opposite"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. strike", incorrect: ["CORRECT: strike", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms or antonyms? now, later",
+        choices: ["wrong", "different", "antonyms", "opposite"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. antonyms", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "CORRECT: antonyms", "This choice is incorrect because 'opposite' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms or antonyms? normal, unusual",
+        choices: ["antonyms", "opposite", "wrong", "different"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. antonyms", incorrect: ["CORRECT: antonyms", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for the following word: burglar",
+        choices: ["wrong", "different", "thief (answers will vary)", "opposite"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. thief (answers will vary)", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "CORRECT: thief (answers will vary)", "This choice is incorrect because 'opposite' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms or antonyms? dull, bright",
+        choices: ["wrong", "different", "opposite", "antonyms"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. antonyms", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "CORRECT: antonyms"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms or antonyms? bruise, wound",
+        choices: ["different", "wrong", "opposite", "synonyms"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. synonyms", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "CORRECT: synonyms"] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for the following words: ill",
+        choices: ["sick", "opposite", "different", "wrong"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. sick", incorrect: ["CORRECT: sick", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Write a synonym for the following words: enormous",
+        choices: ["huge", "different", "opposite", "wrong"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. huge", incorrect: ["CORRECT: huge", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms, antonyms, or homophones? dark, bright",
+        choices: ["wrong", "opposite", "antonyms", "different"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. antonyms", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules.", "CORRECT: antonyms", "This choice is incorrect because 'different' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms, antonyms, or homophones? sight, site",
+        choices: ["wrong", "homophones", "different", "opposite"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. homophones", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "CORRECT: homophones", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms, antonyms, or homophones? grow, shrink",
+        choices: ["wrong", "antonyms", "different", "opposite"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. antonyms", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "CORRECT: antonyms", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'opposite' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      },
+      {
+        question: "Synonyms, antonyms, or homophones? mystery, puzzle",
+        choices: ["different", "synonyms", "opposite", "wrong"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. synonyms", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "CORRECT: synonyms", "This choice is incorrect because 'opposite' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "Synonyms are words with similar meanings. Antonyms are words with opposite meanings.", example: "Synonyms: happy, joyful. Antonyms: hot, cold.", link: "https://www.readingrockets.org/article/synonyms-and-antonyms", linkText: "Reading Rockets - Synonyms and Antonyms" }
+      }]
 };
 
 
@@ -1138,7 +1390,182 @@ QUESTION_BANK['vocabulary-word-meaning-context'] = {
       explanation: { correct: "Continuing to run despite pain shows courage and strength, so 'fortitude' means mental and emotional strength.", incorrect: ["Fear would make her stop, not continue.","CORRECT: 'fortitude' means courage and strength in the face of pain.","Weakness is the opposite of what she showed.","Speed is not the focus of the sentence."] },
       studyAid: { definition: "Behavior context clues show what someone does to reveal their character or traits.", example: "continuing to run despite pain → fortitude = courage and strength", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
     }
-  ]
+  ,
+      {
+        question: "Use context clues to determine the meaning of the bolded word below. The door was ajar, and we felt a breeze from outside.",
+        choices: ["broken", "locked", "closed", "open"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. open", incorrect: ["This choice is incorrect because 'broken' does not follow the rules.", "This choice is incorrect because 'locked' does not follow the rules.", "This choice is incorrect because 'closed' does not follow the rules.", "CORRECT: open"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "The cars waited for the pedestrian to walk across the street.",
+        choices: ["runner", "driver", "biker", "person walking"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. person walking", incorrect: ["This choice is incorrect because 'runner' does not follow the rules.", "This choice is incorrect because 'driver' does not follow the rules.", "This choice is incorrect because 'biker' does not follow the rules.", "CORRECT: person walking"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "He had never ridden a horse before and was a novice.",
+        choices: ["beginner", "expert", "teacher", "rider"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. beginner", incorrect: ["CORRECT: beginner", "This choice is incorrect because 'expert' does not follow the rules.", "This choice is incorrect because 'teacher' does not follow the rules.", "This choice is incorrect because 'rider' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "He hadn't had lunch and was famished by dinnertime.",
+        choices: ["full", "thirsty", "starving", "tired"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. starving", incorrect: ["This choice is incorrect because 'full' does not follow the rules.", "This choice is incorrect because 'thirsty' does not follow the rules.", "CORRECT: starving", "This choice is incorrect because 'tired' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "After borrowing money from her friend, she was indebted to her for $2.",
+        choices: ["paid", "spent", "lent", "owed"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. owed", incorrect: ["This choice is incorrect because 'paid' does not follow the rules.", "This choice is incorrect because 'spent' does not follow the rules.", "This choice is incorrect because 'lent' does not follow the rules.", "CORRECT: owed"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "We could not see the sun because it was overcast.",
+        choices: ["sunny", "clear", "bright", "cloudy"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. cloudy", incorrect: ["This choice is incorrect because 'sunny' does not follow the rules.", "This choice is incorrect because 'clear' does not follow the rules.", "This choice is incorrect because 'bright' does not follow the rules.", "CORRECT: cloudy"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "The noisy kids were told to vacate the movie theater.",
+        choices: ["leave", "arrive", "enter", "stay"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. leave", incorrect: ["CORRECT: leave", "This choice is incorrect because 'arrive' does not follow the rules.", "This choice is incorrect because 'enter' does not follow the rules.", "This choice is incorrect because 'stay' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Rex is a feisty dog and is always ready to fight.",
+        choices: ["aggressive", "sleepy", "calm", "gentle"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. aggressive", incorrect: ["CORRECT: aggressive", "This choice is incorrect because 'sleepy' does not follow the rules.", "This choice is incorrect because 'calm' does not follow the rules.", "This choice is incorrect because 'gentle' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Hanna didn't know where the Indian Ocean was, so she looked in an atlas.",
+        choices: ["book of poems", "book of maps", "book of stories", "book of pictures"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. book of maps", incorrect: ["This choice is incorrect because 'book of poems' does not follow the rules.", "CORRECT: book of maps", "This choice is incorrect because 'book of stories' does not follow the rules.", "This choice is incorrect because 'book of pictures' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Don't forget to put quotation marks around dialogue.",
+        choices: ["dancing", "reading", "singing", "talking"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. talking", incorrect: ["This choice is incorrect because 'dancing' does not follow the rules.", "This choice is incorrect because 'reading' does not follow the rules.", "This choice is incorrect because 'singing' does not follow the rules.", "CORRECT: talking"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "His brother bothered him all afternoon and made him irate.",
+        choices: ["sad", "happy", "scared", "mad"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. mad", incorrect: ["This choice is incorrect because 'sad' does not follow the rules.", "This choice is incorrect because 'happy' does not follow the rules.", "This choice is incorrect because 'scared' does not follow the rules.", "CORRECT: mad"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded word below. The hummingbird hovered above the flower.",
+        choices: ["ran fast", "flew away", "floated in one place", "fell down"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. floated in one place", incorrect: ["This choice is incorrect because 'ran fast' does not follow the rules.", "This choice is incorrect because 'flew away' does not follow the rules.", "CORRECT: floated in one place", "This choice is incorrect because 'fell down' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded word below. The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.",
+        choices: ["bother", "help", "praise", "comfort"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. bother", incorrect: ["CORRECT: bother", "This choice is incorrect because 'help' does not follow the rules.", "This choice is incorrect because 'praise' does not follow the rules.", "This choice is incorrect because 'comfort' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. When Rachel won the prize she had always wanted, she was elated.",
+        choices: ["happy", "tired", "sad", "angry"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. happy", incorrect: ["CORRECT: happy", "This choice is incorrect because 'tired' does not follow the rules.", "This choice is incorrect because 'sad' does not follow the rules.", "This choice is incorrect because 'angry' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. She was persistent and didn't give up trying out for the team.",
+        choices: ["sleepy", "lazy", "careless", "determined"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. determined", incorrect: ["This choice is incorrect because 'sleepy' does not follow the rules.", "This choice is incorrect because 'lazy' does not follow the rules.", "This choice is incorrect because 'careless' does not follow the rules.", "CORRECT: determined"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. On Halloween, he will masquerade as a ghost by using a sheet.",
+        choices: ["hide", "sleep", "run away", "dress up"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. dress up", incorrect: ["This choice is incorrect because 'hide' does not follow the rules.", "This choice is incorrect because 'sleep' does not follow the rules.", "This choice is incorrect because 'run away' does not follow the rules.", "CORRECT: dress up"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. He was ailing, so he stayed home from school and went to the doctor.",
+        choices: ["sick", "healthy", "happy", "strong"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. sick", incorrect: ["CORRECT: sick", "This choice is incorrect because 'healthy' does not follow the rules.", "This choice is incorrect because 'happy' does not follow the rules.", "This choice is incorrect because 'strong' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded word below. The book was so enthralling that we wanted to keep on reading.",
+        choices: ["scary", "boring", "sad", "fascinating"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. fascinating", incorrect: ["This choice is incorrect because 'scary' does not follow the rules.", "This choice is incorrect because 'boring' does not follow the rules.", "This choice is incorrect because 'sad' does not follow the rules.", "CORRECT: fascinating"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. He wrote an inaccurate answer for the math problem and had to correct it.",
+        choices: ["perfect", "exact", "right", "wrong"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. wrong", incorrect: ["This choice is incorrect because 'perfect' does not follow the rules.", "This choice is incorrect because 'exact' does not follow the rules.", "This choice is incorrect because 'right' does not follow the rules.", "CORRECT: wrong"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. The rubbish was laying outside and around the trash can, making a big mess.",
+        choices: ["treasure", "trash", "food", "clothes"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. trash", incorrect: ["This choice is incorrect because 'treasure' does not follow the rules.", "CORRECT: trash", "This choice is incorrect because 'food' does not follow the rules.", "This choice is incorrect because 'clothes' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. He pleaded with his dad to increase his allowance to $5 a week.",
+        choices: ["ignored", "refused", "demanded", "begged"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. begged", incorrect: ["This choice is incorrect because 'ignored' does not follow the rules.", "This choice is incorrect because 'refused' does not follow the rules.", "This choice is incorrect because 'demanded' does not follow the rules.", "CORRECT: begged"] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded words below. The dog's incessant barking all day long drove the neighborhood crazy.",
+        choices: ["quiet", "nonstop", "rare", "short"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. nonstop", incorrect: ["This choice is incorrect because 'quiet' does not follow the rules.", "CORRECT: nonstop", "This choice is incorrect because 'rare' does not follow the rules.", "This choice is incorrect because 'short' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded word below. My family resides at 1702 Morning Park Lane.",
+        choices: ["eats", "plays", "lives", "works"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. lives", incorrect: ["This choice is incorrect because 'eats' does not follow the rules.", "This choice is incorrect because 'plays' does not follow the rules.", "CORRECT: lives", "This choice is incorrect because 'works' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded word below. He tells good jokes and is very humorous.",
+        choices: ["serious", "funny", "scary", "boring"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. funny", incorrect: ["This choice is incorrect because 'serious' does not follow the rules.", "CORRECT: funny", "This choice is incorrect because 'scary' does not follow the rules.", "This choice is incorrect because 'boring' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      },
+      {
+        question: "Use context clues to determine the meaning of the bolded word below. The lion tamer's shirt was tattered after the lion tried to scratch him.",
+        choices: ["torn", "clean", "new", "pretty"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. torn", incorrect: ["CORRECT: torn", "This choice is incorrect because 'clean' does not follow the rules.", "This choice is incorrect because 'new' does not follow the rules.", "This choice is incorrect because 'pretty' does not follow the rules."] },
+        studyAid: { definition: "Context clues are hints in the sentence that help you figure out the meaning of an unknown word.", example: "\"The frigid wind made us shiver.\" Frigid means very cold.", link: "https://www.readingrockets.org/article/using-context-clues", linkText: "Reading Rockets - Context Clues" }
+      }]
 };
 
 
@@ -1245,7 +1672,504 @@ QUESTION_BANK['vocabulary-spelling'] = {
       explanation: { correct: "'Precede' means to go before. The prefix 'pre-' means before, and 'cede' means to go.", incorrect: ["'procede' is not a word; 'proceed' means to go forward.","CORRECT: 'precede' means to go before.","'persede' is not a real word.","'presede' is a misspelling."] },
       studyAid: { definition: "'Precede' (go before) and 'proceed' (go forward) are commonly confused. Remember 'pre' = before.", example: "precede = go before; proceed = continue forward", link: "https://www.dictionary.com", linkText: "Dictionary.com" }
     }
-  ]
+  ,
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["does", "doose", "doess", "duz"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. does", incorrect: ["CORRECT: does", "This choice is incorrect because 'doose' does not follow the rules.", "This choice is incorrect because 'doess' does not follow the rules.", "This choice is incorrect because 'duz' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["today", "toda", "tooda", "todey"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. today", incorrect: ["CORRECT: today", "This choice is incorrect because 'toda' does not follow the rules.", "This choice is incorrect because 'tooda' does not follow the rules.", "This choice is incorrect because 'todey' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["bowl", "boole", "bowle", "boal"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. bowl", incorrect: ["CORRECT: bowl", "This choice is incorrect because 'boole' does not follow the rules.", "This choice is incorrect because 'bowle' does not follow the rules.", "This choice is incorrect because 'boal' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["frend", "friend", "frund", "freind"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. friend", incorrect: ["This choice is incorrect because 'frend' does not follow the rules.", "CORRECT: friend", "This choice is incorrect because 'frund' does not follow the rules.", "This choice is incorrect because 'freind' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["happiness", "happines", "hapiness", "happeness"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. happiness", incorrect: ["CORRECT: happiness", "This choice is incorrect because 'happines' does not follow the rules.", "This choice is incorrect because 'hapiness' does not follow the rules.", "This choice is incorrect because 'happeness' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["whanted", "want'd", "wanted", "waunted"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. wanted", incorrect: ["This choice is incorrect because 'whanted' does not follow the rules.", "This choice is incorrect because 'want'd' does not follow the rules.", "CORRECT: wanted", "This choice is incorrect because 'waunted' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["neare", "neer", "kneer", "near"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. near", incorrect: ["This choice is incorrect because 'neare' does not follow the rules.", "This choice is incorrect because 'neer' does not follow the rules.", "This choice is incorrect because 'kneer' does not follow the rules.", "CORRECT: near"] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["sete", "seat", "cete", "seet"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. seat", incorrect: ["This choice is incorrect because 'sete' does not follow the rules.", "CORRECT: seat", "This choice is incorrect because 'cete' does not follow the rules.", "This choice is incorrect because 'seet' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["inneresting", "interesing", "interesting", "intresting"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. interesting", incorrect: ["This choice is incorrect because 'inneresting' does not follow the rules.", "This choice is incorrect because 'interesing' does not follow the rules.", "CORRECT: interesting", "This choice is incorrect because 'intresting' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["sappose", "suppose", "supose", "sapos"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. suppose", incorrect: ["This choice is incorrect because 'sappose' does not follow the rules.", "CORRECT: suppose", "This choice is incorrect because 'supose' does not follow the rules.", "This choice is incorrect because 'sapos' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["mowce", "mouse", "mowse", "mose"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. mouse", incorrect: ["This choice is incorrect because 'mowce' does not follow the rules.", "CORRECT: mouse", "This choice is incorrect because 'mowse' does not follow the rules.", "This choice is incorrect because 'mose' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["douwt", "party", "adjust", "collar"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. douwt", incorrect: ["CORRECT: douwt", "This choice is incorrect because 'party' does not follow the rules.", "This choice is incorrect because 'adjust' does not follow the rules.", "This choice is incorrect because 'collar' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["juggle", "iland", "present", "fault"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. iland", incorrect: ["This choice is incorrect because 'juggle' does not follow the rules.", "CORRECT: iland", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'fault' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["seat", "noise", "grumpie", "today"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. grumpie", incorrect: ["This choice is incorrect because 'seat' does not follow the rules.", "This choice is incorrect because 'noise' does not follow the rules.", "CORRECT: grumpie", "This choice is incorrect because 'today' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["enemies", "bicycle", "married", "bilding"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. bilding", incorrect: ["This choice is incorrect because 'enemies' does not follow the rules.", "This choice is incorrect because 'bicycle' does not follow the rules.", "This choice is incorrect because 'married' does not follow the rules.", "CORRECT: bilding"] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["voiced", "dinosaur", "skrub", "away"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. skrub", incorrect: ["This choice is incorrect because 'voiced' does not follow the rules.", "This choice is incorrect because 'dinosaur' does not follow the rules.", "CORRECT: skrub", "This choice is incorrect because 'away' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["duz", "laugh", "mammal", "system"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. duz", incorrect: ["CORRECT: duz", "This choice is incorrect because 'laugh' does not follow the rules.", "This choice is incorrect because 'mammal' does not follow the rules.", "This choice is incorrect because 'system' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["p-encil", "pen-cil", "penc-il", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. pen-cil", incorrect: ["This choice is incorrect because 'p-encil' does not follow the rules.", "CORRECT: pen-cil", "This choice is incorrect because 'penc-il' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["play-ground", "playgr-ound", "pla-yground", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. play-ground", incorrect: ["CORRECT: play-ground", "This choice is incorrect because 'playgr-ound' does not follow the rules.", "This choice is incorrect because 'pla-yground' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["option3", "are", "arr", "ar"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. are", incorrect: ["This choice is incorrect because 'option3' does not follow the rules.", "CORRECT: are", "This choice is incorrect because 'arr' does not follow the rules.", "This choice is incorrect because 'ar' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["where", "option3", "wher", "werre"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. where", incorrect: ["CORRECT: where", "This choice is incorrect because 'option3' does not follow the rules.", "This choice is incorrect because 'wher' does not follow the rules.", "This choice is incorrect because 'werre' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["product", "cheef", "again", "half"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. cheef", incorrect: ["This choice is incorrect because 'product' does not follow the rules.", "CORRECT: cheef", "This choice is incorrect because 'again' does not follow the rules.", "This choice is incorrect because 'half' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["su-mmer", "summ-er", "sum-mer", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. sum-mer", incorrect: ["This choice is incorrect because 'su-mmer' does not follow the rules.", "This choice is incorrect because 'summ-er' does not follow the rules.", "CORRECT: sum-mer", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["fis-hing", "fish-ing", "fi-shing", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. fish-ing", incorrect: ["This choice is incorrect because 'fis-hing' does not follow the rules.", "CORRECT: fish-ing", "This choice is incorrect because 'fi-shing' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["knew", "spred", "school", "glue"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. spred", incorrect: ["This choice is incorrect because 'knew' does not follow the rules.", "CORRECT: spred", "This choice is incorrect because 'school' does not follow the rules.", "This choice is incorrect because 'glue' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the words that have 3 syllables.",
+        choices: ["playground", "enormous", "predicate", "recycle"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. enormous", incorrect: ["This choice is incorrect because 'playground' does not follow the rules.", "CORRECT: enormous", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'recycle' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["dropping", "future", "skream", "grocery"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. skream", incorrect: ["This choice is incorrect because 'dropping' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "CORRECT: skream", "This choice is incorrect because 'grocery' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["zipper", "whindow", "slim", "catcher"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. whindow", incorrect: ["This choice is incorrect because 'zipper' does not follow the rules.", "CORRECT: whindow", "This choice is incorrect because 'slim' does not follow the rules.", "This choice is incorrect because 'catcher' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["ornge", "pizza", "knee", "afraid"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. ornge", incorrect: ["CORRECT: ornge", "This choice is incorrect because 'pizza' does not follow the rules.", "This choice is incorrect because 'knee' does not follow the rules.", "This choice is incorrect because 'afraid' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["swimming", "knock", "climbed", "cirkus"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. cirkus", incorrect: ["This choice is incorrect because 'swimming' does not follow the rules.", "This choice is incorrect because 'knock' does not follow the rules.", "This choice is incorrect because 'climbed' does not follow the rules.", "CORRECT: cirkus"] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the words that have 2 syllables.",
+        choices: ["number", "holler", "rainbow", "computer"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. number", incorrect: ["CORRECT: number", "This choice is incorrect because 'holler' does not follow the rules.", "This choice is incorrect because 'rainbow' does not follow the rules.", "This choice is incorrect because 'computer' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["rough", "sharck", "balloon", "since"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. sharck", incorrect: ["This choice is incorrect because 'rough' does not follow the rules.", "CORRECT: sharck", "This choice is incorrect because 'balloon' does not follow the rules.", "This choice is incorrect because 'since' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["scare", "morning", "afeter", "summer"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. afeter", incorrect: ["This choice is incorrect because 'scare' does not follow the rules.", "This choice is incorrect because 'morning' does not follow the rules.", "CORRECT: afeter", "This choice is incorrect because 'summer' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["jumpi-ng", "jum-ping", "jump-ing", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. jump-ing", incorrect: ["This choice is incorrect because 'jumpi-ng' does not follow the rules.", "This choice is incorrect because 'jum-ping' does not follow the rules.", "CORRECT: jump-ing", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["foot-ball", "footba-ll", "foo-tball", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. foot-ball", incorrect: ["CORRECT: foot-ball", "This choice is incorrect because 'footba-ll' does not follow the rules.", "This choice is incorrect because 'foo-tball' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["remoke", "remote", "rimote", "remot"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. remote", incorrect: ["This choice is incorrect because 'remoke' does not follow the rules.", "CORRECT: remote", "This choice is incorrect because 'rimote' does not follow the rules.", "This choice is incorrect because 'remot' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["afraid", "famly", "broom", "dollar"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. famly", incorrect: ["This choice is incorrect because 'afraid' does not follow the rules.", "CORRECT: famly", "This choice is incorrect because 'broom' does not follow the rules.", "This choice is incorrect because 'dollar' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["coler", "flies", "first", "worry"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. coler", incorrect: ["CORRECT: coler", "This choice is incorrect because 'flies' does not follow the rules.", "This choice is incorrect because 'first' does not follow the rules.", "This choice is incorrect because 'worry' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the words that have 2 syllables.",
+        choices: ["lipstick", "interested", "alligator", "catcher"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. lipstick", incorrect: ["CORRECT: lipstick", "This choice is incorrect because 'interested' does not follow the rules.", "This choice is incorrect because 'alligator' does not follow the rules.", "This choice is incorrect because 'catcher' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["daisy", "lern", "loop", "egg"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. lern", incorrect: ["This choice is incorrect because 'daisy' does not follow the rules.", "CORRECT: lern", "This choice is incorrect because 'loop' does not follow the rules.", "This choice is incorrect because 'egg' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["swi-mm-ing", "swim-ming", "swimm-ing", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. swim-ming", incorrect: ["This choice is incorrect because 'swi-mm-ing' does not follow the rules.", "CORRECT: swim-ming", "This choice is incorrect because 'swimm-ing' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["cam-el", "came-l", "ca-mel", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. cam-el", incorrect: ["CORRECT: cam-el", "This choice is incorrect because 'came-l' does not follow the rules.", "This choice is incorrect because 'ca-mel' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct spelling.",
+        choices: ["meazure", "option3", "measure", "meshure"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. measure", incorrect: ["This choice is incorrect because 'meazure' does not follow the rules.", "This choice is incorrect because 'option3' does not follow the rules.", "CORRECT: measure", "This choice is incorrect because 'meshure' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct spelling.",
+        choices: ["cage", "kage", "caje", "option3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. cage", incorrect: ["CORRECT: cage", "This choice is incorrect because 'kage' does not follow the rules.", "This choice is incorrect because 'caje' does not follow the rules.", "This choice is incorrect because 'option3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["magnet", "story", "redy", "odd"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. redy", incorrect: ["This choice is incorrect because 'magnet' does not follow the rules.", "This choice is incorrect because 'story' does not follow the rules.", "CORRECT: redy", "This choice is incorrect because 'odd' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["malebox", "mailbox", "malbox", "mailbocks"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. mailbox", incorrect: ["This choice is incorrect because 'malebox' does not follow the rules.", "CORRECT: mailbox", "This choice is incorrect because 'malbox' does not follow the rules.", "This choice is incorrect because 'mailbocks' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["animal", "annimal", "aminal", "amimal"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. animal", incorrect: ["CORRECT: animal", "This choice is incorrect because 'annimal' does not follow the rules.", "This choice is incorrect because 'aminal' does not follow the rules.", "This choice is incorrect because 'amimal' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["dangeris", "dangerus", "dangirus", "dangerous"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. dangerous", incorrect: ["This choice is incorrect because 'dangeris' does not follow the rules.", "This choice is incorrect because 'dangerus' does not follow the rules.", "This choice is incorrect because 'dangirus' does not follow the rules.", "CORRECT: dangerous"] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide the word into syllables.",
+        choices: ["con-ver-sa-tion", "conver-sation", "co-nver-sation", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. con-ver-sa-tion", incorrect: ["CORRECT: con-ver-sa-tion", "This choice is incorrect because 'conver-sation' does not follow the rules.", "This choice is incorrect because 'co-nver-sation' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["sugar", "shugar", "shurgar", "suger"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. sugar", incorrect: ["CORRECT: sugar", "This choice is incorrect because 'shugar' does not follow the rules.", "This choice is incorrect because 'shurgar' does not follow the rules.", "This choice is incorrect because 'suger' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["doller", "explain", "prey", "duty"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. doller", incorrect: ["CORRECT: doller", "This choice is incorrect because 'explain' does not follow the rules.", "This choice is incorrect because 'prey' does not follow the rules.", "This choice is incorrect because 'duty' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the words with 2 syllables.",
+        choices: ["frozen", "latitude", "flipper", "indent"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. frozen", incorrect: ["CORRECT: frozen", "This choice is incorrect because 'latitude' does not follow the rules.", "This choice is incorrect because 'flipper' does not follow the rules.", "This choice is incorrect because 'indent' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["lo-lli-pop", "lol-li-pop", "lol-lip-op", "lo-llip-op"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. lol-li-pop", incorrect: ["This choice is incorrect because 'lo-lli-pop' does not follow the rules.", "CORRECT: lol-li-pop", "This choice is incorrect because 'lol-lip-op' does not follow the rules.", "This choice is incorrect because 'lo-llip-op' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["mel-ody", "melo-dy", "mel-o-dy", "me-lo-dy"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. mel-o-dy", incorrect: ["This choice is incorrect because 'mel-ody' does not follow the rules.", "This choice is incorrect because 'melo-dy' does not follow the rules.", "CORRECT: mel-o-dy", "This choice is incorrect because 'me-lo-dy' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the words that have 3 syllables.",
+        choices: ["earthquake", "adjective", "buffalo", "contraction"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. adjective", incorrect: ["This choice is incorrect because 'earthquake' does not follow the rules.", "CORRECT: adjective", "This choice is incorrect because 'buffalo' does not follow the rules.", "This choice is incorrect because 'contraction' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["erase", "enuf", "everybody", "equipment"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. enuf", incorrect: ["This choice is incorrect because 'erase' does not follow the rules.", "CORRECT: enuf", "This choice is incorrect because 'everybody' does not follow the rules.", "This choice is incorrect because 'equipment' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["revew", "reveu", "reveiw", "review"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. review", incorrect: ["This choice is incorrect because 'revew' does not follow the rules.", "This choice is incorrect because 'reveu' does not follow the rules.", "This choice is incorrect because 'reveiw' does not follow the rules.", "CORRECT: review"] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide the word into syllables.",
+        choices: ["rod-e-o", "rode-o", "r-od-eo", "ro-de-o"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. ro-de-o", incorrect: ["This choice is incorrect because 'rod-e-o' does not follow the rules.", "This choice is incorrect because 'rode-o' does not follow the rules.", "This choice is incorrect because 'r-od-eo' does not follow the rules.", "CORRECT: ro-de-o"] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the words that have 3 syllables.",
+        choices: ["charming", "marigold", "participate", "tremendous"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. marigold", incorrect: ["This choice is incorrect because 'charming' does not follow the rules.", "CORRECT: marigold", "This choice is incorrect because 'participate' does not follow the rules.", "This choice is incorrect because 'tremendous' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide the word into syllables.",
+        choices: ["in-form-a-tion", "in-for-ma-tion", "inf-orm-a-tion", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. in-for-ma-tion", incorrect: ["This choice is incorrect because 'in-form-a-tion' does not follow the rules.", "CORRECT: in-for-ma-tion", "This choice is incorrect because 'inf-orm-a-tion' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["puzle", "explain", "pear", "iron"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. puzle", incorrect: ["CORRECT: puzle", "This choice is incorrect because 'explain' does not follow the rules.", "This choice is incorrect because 'pear' does not follow the rules.", "This choice is incorrect because 'iron' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["realy", "familiar", "hundred", "diamond"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. realy", incorrect: ["CORRECT: realy", "This choice is incorrect because 'familiar' does not follow the rules.", "This choice is incorrect because 'hundred' does not follow the rules.", "This choice is incorrect because 'diamond' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["supposed", "diferent", "very", "really"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. diferent", incorrect: ["This choice is incorrect because 'supposed' does not follow the rules.", "CORRECT: diferent", "This choice is incorrect because 'very' does not follow the rules.", "This choice is incorrect because 'really' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct spelling of the following word.",
+        choices: ["farrthest", "farthest", "farthist", "option3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. farthest", incorrect: ["This choice is incorrect because 'farrthest' does not follow the rules.", "CORRECT: farthest", "This choice is incorrect because 'farthist' does not follow the rules.", "This choice is incorrect because 'option3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["pumpkin", "pumpckin", "punkin", "pumkin"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. pumpkin", incorrect: ["CORRECT: pumpkin", "This choice is incorrect because 'pumpckin' does not follow the rules.", "This choice is incorrect because 'punkin' does not follow the rules.", "This choice is incorrect because 'pumkin' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is spelled correctly.",
+        choices: ["baskitball", "bascketball", "basketball", "basketbal"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. basketball", incorrect: ["This choice is incorrect because 'baskitball' does not follow the rules.", "This choice is incorrect because 'bascketball' does not follow the rules.", "CORRECT: basketball", "This choice is incorrect because 'basketbal' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["al-li-ga-tor", "all-i-ga-tor", "al-lig-a-tor", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. al-li-ga-tor", incorrect: ["CORRECT: al-li-ga-tor", "This choice is incorrect because 'all-i-ga-tor' does not follow the rules.", "This choice is incorrect because 'al-lig-a-tor' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the correct way to divide each word into syllables.",
+        choices: ["alph-a-bet", "al-pha-bet", "al-phab-et", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. al-pha-bet", incorrect: ["This choice is incorrect because 'alph-a-bet' does not follow the rules.", "CORRECT: al-pha-bet", "This choice is incorrect because 'al-phab-et' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Divide each word into syllables: rotate",
+        choices: ["ro-tate", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. ro-tate", incorrect: ["CORRECT: ro-tate", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Divide each word into syllables: huddle",
+        choices: ["hud-dle", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. hud-dle", incorrect: ["CORRECT: hud-dle", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      },
+      {
+        question: "Circle the word that is not spelled correctly.",
+        choices: ["illegal", "principal", "hippopotamus", "minite"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. minite", incorrect: ["This choice is incorrect because 'illegal' does not follow the rules.", "This choice is incorrect because 'principal' does not follow the rules.", "This choice is incorrect because 'hippopotamus' does not follow the rules.", "CORRECT: minite"] },
+        studyAid: { definition: "Spelling is the correct arrangement of letters to form a word.", example: "Correct: \"friend.\" Incorrect: \"frend.\"", link: "https://www.readingrockets.org/article/spelling", linkText: "Reading Rockets - Spelling" }
+      }]
 };
 
 /* 1.10 Modifier Words */
@@ -3129,7 +4053,147 @@ QUESTION_BANK['grammar-correct-article'] = {
       explanation: { correct: "'Advice' is an uncountable noun and does not use 'a' or 'an.' It can use 'the' if specific, but no article is also correct for general advice.", incorrect: ["'Advice' is uncountable; cannot use 'a.'","'Advice' is uncountable; cannot use 'an.'","'The' could work but is more specific.","CORRECT: No article needed for general uncountable nouns."] },
       studyAid: { definition: "Uncountable nouns like advice, water, and information usually do not use 'a' or 'an.'", example: "I need advice. She gave me information.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Mom said I ___ go.",
+        choices: ["couldn't", "couldnt", "could'nt", "Couldn't"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. couldn't", incorrect: ["CORRECT: couldn't", "This choice is incorrect because 'couldnt' does not follow the rules.", "This choice is incorrect because 'could'nt' does not follow the rules.", "This choice is incorrect because 'Couldn't' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The teacher moved all of the ___ desks.",
+        choices: ["studen'ts", "students", "student's", "students'"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. students'", incorrect: ["This choice is incorrect because 'studen'ts' does not follow the rules.", "This choice is incorrect because 'students' does not follow the rules.", "This choice is incorrect because 'student's' does not follow the rules.", "CORRECT: students'"] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The correct abbreviation for the word \"Sunday\" is:",
+        choices: ["Sun.", "Sun", "Sun:", "Sund."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Sun.", incorrect: ["CORRECT: Sun.", "This choice is incorrect because 'Sun' does not follow the rules.", "This choice is incorrect because 'Sun:' does not follow the rules.", "This choice is incorrect because 'Sund.' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My aunt was married on",
+        choices: ["March 14, 1995.", "March, 14, 1995.", "March 14 1995.", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. March 14, 1995.", incorrect: ["CORRECT: March 14, 1995.", "This choice is incorrect because 'March, 14, 1995.' does not follow the rules.", "This choice is incorrect because 'March 14 1995.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "In June, my family will fly to",
+        choices: ["Orlando: Florida", "Orlando. Florida", "Orlando, Florida", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Orlando, Florida", incorrect: ["This choice is incorrect because 'Orlando: Florida' does not follow the rules.", "This choice is incorrect because 'Orlando. Florida' does not follow the rules.", "CORRECT: Orlando, Florida", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What is the correct abbreviation for \"Friday\"?",
+        choices: ["fri", "Frid", "Fri", "Fri."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Fri.", incorrect: ["This choice is incorrect because 'fri' does not follow the rules.", "This choice is incorrect because 'Frid' does not follow the rules.", "This choice is incorrect because 'Fri' does not follow the rules.", "CORRECT: Fri."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He ___ see the red light turn green.",
+        choices: ["didnt", "did'nt", "didn't", "Didn't"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. didn't", incorrect: ["This choice is incorrect because 'didnt' does not follow the rules.", "This choice is incorrect because 'did'nt' does not follow the rules.", "CORRECT: didn't", "This choice is incorrect because 'Didn't' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He ___ be able to come to the surprise party.",
+        choices: ["willn't", "won't", "wont", "willnt"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. won't", incorrect: ["This choice is incorrect because 'willn't' does not follow the rules.", "CORRECT: won't", "This choice is incorrect because 'wont' does not follow the rules.", "This choice is incorrect because 'willnt' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write two words that make up each contraction: won't",
+        choices: ["will not", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. will not", incorrect: ["CORRECT: will not", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write two words that make up each contraction: isn't",
+        choices: ["is not", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. is not", incorrect: ["CORRECT: is not", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the correct answer. The book report was due",
+        choices: ["October 7 2009.", "October 7, 2009.", "October, 7, 2009.", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. October 7, 2009.", incorrect: ["This choice is incorrect because 'October 7 2009.' does not follow the rules.", "CORRECT: October 7, 2009.", "This choice is incorrect because 'October, 7, 2009.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the correct answer. Did you visit",
+        choices: ["Denver, colorado,", "denver colorado,", "Denver, Colorado,", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Denver, Colorado,", incorrect: ["This choice is incorrect because 'Denver, colorado,' does not follow the rules.", "This choice is incorrect because 'denver colorado,' does not follow the rules.", "CORRECT: Denver, Colorado,", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the plural possessive nouns: the room of the girls",
+        choices: ["the girls' room", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. the girls' room", incorrect: ["CORRECT: the girls' room", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the plural possessive nouns: the club of the ladies",
+        choices: ["the ladies' club", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. the ladies' club", incorrect: ["CORRECT: the ladies' club", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the two words that make up each contraction: hadn't",
+        choices: ["had not", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. had not", incorrect: ["CORRECT: had not", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the two words that make up each contraction: I'd",
+        choices: ["I would (or I had)", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I would (or I had)", incorrect: ["CORRECT: I would (or I had)", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What contraction would the two words make? I would",
+        choices: ["I'd", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I'd", incorrect: ["CORRECT: I'd", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What contraction would the two words make? we will",
+        choices: ["we'll", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. we'll", incorrect: ["CORRECT: we'll", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the two words that make up each contraction: wouldn't",
+        choices: ["would not", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. would not", incorrect: ["CORRECT: would not", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the two words that make up each contraction: I'll",
+        choices: ["I will (or I shall)", "choice1", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I will (or I shall)", incorrect: ["CORRECT: I will (or I shall)", "This choice is incorrect because 'choice1' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound.", example: "a dog, an apple", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.2 Double Negatives */
@@ -3454,7 +4518,105 @@ QUESTION_BANK['grammar-singular-plural-nouns'] = {
       explanation: { correct: "Both 'radiuses' and 'radii' are accepted, though 'radii' is more common in math.", incorrect: ["Accepted but less common.","More common in math.","Singular.","CORRECT: Both are accepted."] },
       studyAid: { definition: "Latin-derived words often have two plural forms.", example: "One radius, two radii (or radiuses).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Circle the words that are plural nouns.",
+        choices: ["dancing", "dishes", "danced", "slippers"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. dishes", incorrect: ["This choice is incorrect because 'dancing' does not follow the rules.", "CORRECT: dishes", "This choice is incorrect because 'danced' does not follow the rules.", "This choice is incorrect because 'slippers' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Singular or plural? cracker",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Singular or plural noun? dolphin",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Singular or plural noun? children",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. plural", incorrect: ["This choice is incorrect because 'singular' does not follow the rules.", "CORRECT: plural", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the singular nouns.",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Singular or plural? keys",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. plural", incorrect: ["This choice is incorrect because 'singular' does not follow the rules.", "CORRECT: plural", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Singular or plural? family",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Give the plural form of these nouns: party",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Give the plural form of these nouns: family",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the plural of each noun: class",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the plural of each noun: box",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Singular or plural possessive? tooth's color",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. possessive", incorrect: ["This choice is incorrect because 'singular' does not follow the rules.", "This choice is incorrect because 'plural' does not follow the rules.", "CORRECT: possessive", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Singular or plural possessive? babies' cries",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. possessive", incorrect: ["This choice is incorrect because 'singular' does not follow the rules.", "This choice is incorrect because 'plural' does not follow the rules.", "CORRECT: possessive", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the plural form of the noun: puppy",
+        choices: ["singular", "plural", "possessive", "proper"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. singular", incorrect: ["CORRECT: singular", "This choice is incorrect because 'plural' does not follow the rules.", "This choice is incorrect because 'possessive' does not follow the rules.", "This choice is incorrect because 'proper' does not follow the rules."] },
+        studyAid: { definition: "Singular means one. Plural means more than one.", example: "Singular: cat. Plural: cats.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.5 Verb Forms */
@@ -3794,7 +4956,63 @@ QUESTION_BANK['grammar-sentence-types'] = {
       explanation: { correct: "'What a great game!' shows strong feeling.", incorrect: ["CORRECT: Exclamatory.","Interrogative.","Declarative.","Imperative."] },
       studyAid: { definition: "Exclamatory sentences often start with 'What' or 'How' and express emotion.", example: "What a great game! How exciting!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Statement, command, question, or exclamation? Did you fly or drive to California",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. question", incorrect: ["This choice is incorrect because 'statement' does not follow the rules.", "This choice is incorrect because 'command' does not follow the rules.", "CORRECT: question", "This choice is incorrect because 'exclamation' does not follow the rules."] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Statement, command, question, or exclamation? Get out your math book",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. command", incorrect: ["This choice is incorrect because 'statement' does not follow the rules.", "CORRECT: command", "This choice is incorrect because 'question' does not follow the rules.", "This choice is incorrect because 'exclamation' does not follow the rules."] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Command, statement, question, or exclamation? Look out for that car",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. exclamation", incorrect: ["This choice is incorrect because 'statement' does not follow the rules.", "This choice is incorrect because 'command' does not follow the rules.", "This choice is incorrect because 'question' does not follow the rules.", "CORRECT: exclamation"] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Command, statement, question, or exclamation? Half of one dollar is fifty cents",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. statement", incorrect: ["CORRECT: statement", "This choice is incorrect because 'command' does not follow the rules.", "This choice is incorrect because 'question' does not follow the rules.", "This choice is incorrect because 'exclamation' does not follow the rules."] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Statement, command, question, or exclamation? Have you ever seen the Grand Canyon",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. question", incorrect: ["This choice is incorrect because 'statement' does not follow the rules.", "This choice is incorrect because 'command' does not follow the rules.", "CORRECT: question", "This choice is incorrect because 'exclamation' does not follow the rules."] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Exclamation, statement, command, or question? Sharpen all your colored pencils now",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. command", incorrect: ["This choice is incorrect because 'statement' does not follow the rules.", "CORRECT: command", "This choice is incorrect because 'question' does not follow the rules.", "This choice is incorrect because 'exclamation' does not follow the rules."] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Statement, command, exclamation, or question? Oh, no",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. exclamation", incorrect: ["This choice is incorrect because 'statement' does not follow the rules.", "This choice is incorrect because 'command' does not follow the rules.", "This choice is incorrect because 'question' does not follow the rules.", "CORRECT: exclamation"] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Statement, command, exclamation, or question? My house is near the school",
+        choices: ["statement", "command", "question", "exclamation"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. statement", incorrect: ["CORRECT: statement", "This choice is incorrect because 'command' does not follow the rules.", "This choice is incorrect because 'question' does not follow the rules.", "This choice is incorrect because 'exclamation' does not follow the rules."] },
+        studyAid: { definition: "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.", example: "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.8 Subject/Predicate */
@@ -3914,7 +5132,63 @@ QUESTION_BANK['grammar-subject-predicate'] = {
       explanation: { correct: "'Neither' is the main pronoun; 'of the answers' is a prepositional phrase.", incorrect: ["Complete subject.","CORRECT: Simple subject.","Part of prepositional phrase.","Adjective."] },
       studyAid: { definition: "Indefinite pronouns like 'neither,' 'each,' and 'everyone' can be simple subjects.", example: "Neither of the answers is correct. (simple subject: Neither)", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Is the subject or predicate underlined? Maria and Jason threw a surprise party for their mother.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. subject", incorrect: ["CORRECT: subject", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the subject or predicate underlined? The Great Barrier Reef is 1,250 miles long.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. subject", incorrect: ["CORRECT: subject", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the subject of this sentence: Josh and his dog Ziggy explore the woods together.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. subject", incorrect: ["CORRECT: subject", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the subject or predicate underlined? Jason and Tina bought a new house.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. subject", incorrect: ["CORRECT: subject", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the subject or predicate underlined? Tammy Hill has ballet on Mondays and Wednesdays.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. subject", incorrect: ["CORRECT: subject", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the subject or predicate underlined? I love to listen to the radio in the car.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. predicate", incorrect: ["This choice is incorrect because 'subject' does not follow the rules.", "CORRECT: predicate", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the subject in the following sentence: The hammer is broken.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. subject", incorrect: ["CORRECT: subject", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the predicate in the following sentence: I visited my grandfather.",
+        choices: ["subject", "predicate", "verb", "noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. subject", incorrect: ["CORRECT: subject", "This choice is incorrect because 'predicate' does not follow the rules.", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'noun' does not follow the rules."] },
+        studyAid: { definition: "The subject tells who or what the sentence is about. The predicate tells what the subject does.", example: "The cat (subject) sleeps on the couch (predicate).", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.9 Parts of Speech - Verbs */
@@ -4147,7 +5421,210 @@ QUESTION_BANK['grammar-parts-of-speech-nouns'] = {
       explanation: { correct: "'Knowledge' names an idea or concept.", incorrect: ["Verb.","Adverb.","CORRECT: Noun.","Verb."] },
       studyAid: { definition: "Abstract nouns name ideas and concepts.", example: "knowledge, wisdom, information, education", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Common or proper noun? Coca Cola",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. proper noun", incorrect: ["This choice is incorrect because 'common noun' does not follow the rules.", "CORRECT: proper noun", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the verb in the following sentence: Her bicycle turned the corner.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the adjective in each sentence. There was a gold ring in the window.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the adjective in each sentence. Joe has four sisters who live in Nebraska.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the underlined word a noun, verb, or adjective? Amelia Bedelia took her classmates to see her house.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Common or proper noun? San Francisco",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. proper noun", incorrect: ["This choice is incorrect because 'common noun' does not follow the rules.", "CORRECT: proper noun", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Common or proper noun? feather",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. common noun", incorrect: ["CORRECT: common noun", "This choice is incorrect because 'proper noun' does not follow the rules.", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the verb in the sentence. He blinked at the bright light.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the underlined word a noun, verb, adjective, or adverb? I pledge allegiance to the flag of the United States.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. verb", incorrect: ["This choice is incorrect because 'noun' does not follow the rules.", "CORRECT: verb", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the underlined word a noun, verb, adjective, or adverb? The fifty stars on the flag represent the fifty states.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write a common noun for the proper noun: The Boxcar Children",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. common noun", incorrect: ["CORRECT: common noun", "This choice is incorrect because 'proper noun' does not follow the rules.", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the pronoun that would replace the underlined nouns: Steven has three brothers and two sisters.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the pronoun that would replace the underlined nouns: Jane and Thomas will be picked up from school.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the underlined word a noun, verb, adjective, or adverb? The hummingbird hovered above the plant.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. verb", incorrect: ["This choice is incorrect because 'noun' does not follow the rules.", "CORRECT: verb", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does the underlined adjective tell how many, which one, or what kind? We still have several students who have not celebrated a birthday this year.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write a proper noun to go with each common noun: restaurant",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. common noun", incorrect: ["CORRECT: common noun", "This choice is incorrect because 'proper noun' does not follow the rules.", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write a proper noun to go with each common noun: teacher",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. common noun", incorrect: ["CORRECT: common noun", "This choice is incorrect because 'proper noun' does not follow the rules.", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is the underlined word a noun, verb, adjective, or adverb? The car drove quickly down the narrow alley.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. verb", incorrect: ["This choice is incorrect because 'noun' does not follow the rules.", "CORRECT: verb", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Circle the adverb in the sentence: I waited patiently for the nurse to call my name.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Common or proper noun? Reebok",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. proper noun", incorrect: ["This choice is incorrect because 'common noun' does not follow the rules.", "CORRECT: proper noun", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Common or proper noun? Bill Nye",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. proper noun", incorrect: ["This choice is incorrect because 'common noun' does not follow the rules.", "CORRECT: proper noun", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does the underlined adjective tell which one, what kind, or how many? I ordered a large pizza to be delivered.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does the underlined adjective tell which one, what kind, or how many? There are seven pages missing from my book.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write a common noun for the proper noun: Texas",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. common noun", incorrect: ["CORRECT: common noun", "This choice is incorrect because 'proper noun' does not follow the rules.", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write a common noun for the proper noun: Africa",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. common noun", incorrect: ["CORRECT: common noun", "This choice is incorrect because 'proper noun' does not follow the rules.", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Common or proper noun? Bugs Bunny",
+        choices: ["common noun", "proper noun", "singular noun", "plural noun"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. proper noun", incorrect: ["This choice is incorrect because 'common noun' does not follow the rules.", "CORRECT: proper noun", "This choice is incorrect because 'singular noun' does not follow the rules.", "This choice is incorrect because 'plural noun' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Replace each underlined pronoun with a proper noun: He doesn't understand his math homework.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Replace each underlined pronoun with a proper noun: Jordan will give her the pages to read.",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does the underlined adjective tell which one, what kind, or how many? Will you taste this sauce and tell me if it has too much salt?",
+        choices: ["noun", "verb", "adjective", "adverb"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. noun", incorrect: ["CORRECT: noun", "This choice is incorrect because 'verb' does not follow the rules.", "This choice is incorrect because 'adjective' does not follow the rules.", "This choice is incorrect because 'adverb' does not follow the rules."] },
+        studyAid: { definition: "A noun is a person, place, thing, or idea. A proper noun names a specific person, place, or thing and is capitalized.", example: "Common noun: city. Proper noun: Paris.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 
@@ -4494,7 +5971,252 @@ QUESTION_BANK['grammar-subject-verb-agreement'] = {
       explanation: { correct: "'Each' is singular.", incorrect: ["Plural.","CORRECT: Singular.","Past tense.","Participle."] },
       studyAid: { definition: "'Each' and 'every' are always singular.", example: "Each has a ribbon. Every student has a book.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "I will ___ the sidewalk to the pool.",
+        choices: ["followed", "follows", "follow", "following"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. follow", incorrect: ["This choice is incorrect because 'followed' does not follow the rules.", "This choice is incorrect because 'follows' does not follow the rules.", "CORRECT: follow", "This choice is incorrect because 'following' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Joe and ___ have been friends since kindergarten.",
+        choices: ["I", "us", "we", "they"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I", incorrect: ["CORRECT: I", "This choice is incorrect because 'us' does not follow the rules.", "This choice is incorrect because 'we' does not follow the rules.", "This choice is incorrect because 'they' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Do you ___ how to write in cursive?",
+        choices: ["know", "knows", "now", "knew"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. know", incorrect: ["CORRECT: know", "This choice is incorrect because 'knows' does not follow the rules.", "This choice is incorrect because 'now' does not follow the rules.", "This choice is incorrect because 'knew' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mrs. Payne, our principal, ___ us the school song.",
+        choices: ["learned", "learn", "taught", "teached"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. taught", incorrect: ["This choice is incorrect because 'learned' does not follow the rules.", "This choice is incorrect because 'learn' does not follow the rules.", "CORRECT: taught", "This choice is incorrect because 'teached' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I ___ lived in Ann Arbor, Michigan, for three years.",
+        choices: ["has", "have", "been", "be"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. have", incorrect: ["This choice is incorrect because 'has' does not follow the rules.", "CORRECT: have", "This choice is incorrect because 'been' does not follow the rules.", "This choice is incorrect because 'be' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Will you pass ___ the catsup?",
+        choices: ["my", "me", "we", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. me", incorrect: ["This choice is incorrect because 'my' does not follow the rules.", "CORRECT: me", "This choice is incorrect because 'we' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The play ___ at 7:15.",
+        choices: ["begun", "will begin", "start", "beginned"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. will begin", incorrect: ["This choice is incorrect because 'begun' does not follow the rules.", "CORRECT: will begin", "This choice is incorrect because 'start' does not follow the rules.", "This choice is incorrect because 'beginned' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We ___ our grandmother a can opener.",
+        choices: ["gots", "gived", "bought", "buyed"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. bought", incorrect: ["This choice is incorrect because 'gots' does not follow the rules.", "This choice is incorrect because 'gived' does not follow the rules.", "CORRECT: bought", "This choice is incorrect because 'buyed' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Carol, my friend, ___ German very well.",
+        choices: ["speak", "speaks", "speaked", "spoked"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. speaks", incorrect: ["This choice is incorrect because 'speak' does not follow the rules.", "CORRECT: speaks", "This choice is incorrect because 'speaked' does not follow the rules.", "This choice is incorrect because 'spoked' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "When I was 13, I ___ to Italy with my dad.",
+        choices: ["went", "goed", "was going", "had went"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. went", incorrect: ["CORRECT: went", "This choice is incorrect because 'goed' does not follow the rules.", "This choice is incorrect because 'was going' does not follow the rules.", "This choice is incorrect because 'had went' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We will have to wait and let them do ___ job.",
+        choices: ["they're", "their", "there", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. their", incorrect: ["This choice is incorrect because 'they're' does not follow the rules.", "CORRECT: their", "This choice is incorrect because 'there' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Nathan and Tyler ___ the song beautifully.",
+        choices: ["is singing", "sang", "singed", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. sang", incorrect: ["This choice is incorrect because 'is singing' does not follow the rules.", "CORRECT: sang", "This choice is incorrect because 'singed' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We ___ the car accident from our window.",
+        choices: ["saw", "seed", "is seeing", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. saw", incorrect: ["CORRECT: saw", "This choice is incorrect because 'seed' does not follow the rules.", "This choice is incorrect because 'is seeing' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I ___ two friends named Sandy.",
+        choices: ["gots", "has", "have", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. have", incorrect: ["This choice is incorrect because 'gots' does not follow the rules.", "This choice is incorrect because 'has' does not follow the rules.", "CORRECT: have", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Will you go ___ the bank and cash the check?",
+        choices: ["to", "too", "two", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. to", incorrect: ["CORRECT: to", "This choice is incorrect because 'too' does not follow the rules.", "This choice is incorrect because 'two' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We need to find ___ orange sweater for the party.",
+        choices: ["a", "an", "choice2", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. an", incorrect: ["This choice is incorrect because 'a' does not follow the rules.", "CORRECT: an", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Her dad is the ___ of all of his brothers.",
+        choices: ["shorter", "short", "shortest", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. shortest", incorrect: ["This choice is incorrect because 'shorter' does not follow the rules.", "This choice is incorrect because 'short' does not follow the rules.", "CORRECT: shortest", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Andrew had a ___ time at the birthday party.",
+        choices: ["best", "well", "good", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. good", incorrect: ["This choice is incorrect because 'best' does not follow the rules.", "This choice is incorrect because 'well' does not follow the rules.", "CORRECT: good", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The test was hard, but Al thought he'd done ___",
+        choices: ["well", "best", "good", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. well", incorrect: ["CORRECT: well", "This choice is incorrect because 'best' does not follow the rules.", "This choice is incorrect because 'good' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He is ___ a solo in the musical.",
+        choices: ["sing", "sang", "singing", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. singing", incorrect: ["This choice is incorrect because 'sing' does not follow the rules.", "This choice is incorrect because 'sang' does not follow the rules.", "CORRECT: singing", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Will you ___ me to the swimming pool?",
+        choices: ["take", "taken", "took", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. take", incorrect: ["CORRECT: take", "This choice is incorrect because 'taken' does not follow the rules.", "This choice is incorrect because 'took' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The drill ___ an extension cord.",
+        choices: ["need", "do need", "needs", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. needs", incorrect: ["This choice is incorrect because 'need' does not follow the rules.", "This choice is incorrect because 'do need' does not follow the rules.", "CORRECT: needs", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "___ keys are hanging in the front door.",
+        choices: ["An", "A", "The", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. The", incorrect: ["This choice is incorrect because 'An' does not follow the rules.", "This choice is incorrect because 'A' does not follow the rules.", "CORRECT: The", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Samuel had ___ eyelash on his cheek.",
+        choices: ["an", "a", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. an", incorrect: ["CORRECT: an", "This choice is incorrect because 'a' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The ___ book I've ever read is Strider.",
+        choices: ["good", "better", "best", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. best", incorrect: ["This choice is incorrect because 'good' does not follow the rules.", "This choice is incorrect because 'better' does not follow the rules.", "CORRECT: best", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The plane will be landing within the ___.",
+        choices: ["our", "hour", "are", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. hour", incorrect: ["This choice is incorrect because 'our' does not follow the rules.", "CORRECT: hour", "This choice is incorrect because 'are' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "___ baby-sitting for my niece tonight.",
+        choices: ["Their", "They're", "There", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. They're", incorrect: ["This choice is incorrect because 'Their' does not follow the rules.", "CORRECT: They're", "This choice is incorrect because 'There' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "At the spelling bee, she ___ the correct spelling.",
+        choices: ["knew", "new", "knowed", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. knew", incorrect: ["CORRECT: knew", "This choice is incorrect because 'new' does not follow the rules.", "This choice is incorrect because 'knowed' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Don't forget that your library book is ___ Tuesday.",
+        choices: ["do", "due", "dew", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. due", incorrect: ["This choice is incorrect because 'do' does not follow the rules.", "CORRECT: due", "This choice is incorrect because 'dew' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The ___ hopped across the street to the other side.",
+        choices: ["towed", "toed", "toad", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. toad", incorrect: ["This choice is incorrect because 'towed' does not follow the rules.", "This choice is incorrect because 'toed' does not follow the rules.", "CORRECT: toad", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Colin and ___ are in the same class at school.",
+        choices: ["I", "us", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I", incorrect: ["CORRECT: I", "This choice is incorrect because 'us' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The point goes to Karleigh and ___",
+        choices: ["me", "us", "choice2", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. me", incorrect: ["CORRECT: me", "This choice is incorrect because 'us' does not follow the rules.", "This choice is incorrect because 'choice2' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "They did a very ___ job on the book report.",
+        choices: ["better", "good", "well", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. good", incorrect: ["This choice is incorrect because 'better' does not follow the rules.", "CORRECT: good", "This choice is incorrect because 'well' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Casper, Wyoming, ___ a beautiful city.",
+        choices: ["is", "am", "are", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. is", incorrect: ["CORRECT: is", "This choice is incorrect because 'am' does not follow the rules.", "This choice is incorrect because 'are' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The plane ___ landed on time.",
+        choices: ["was", "have", "has", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. has", incorrect: ["This choice is incorrect because 'was' does not follow the rules.", "This choice is incorrect because 'have' does not follow the rules.", "CORRECT: has", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "The subject and verb must agree in number. Singular subjects need singular verbs; plural subjects need plural verbs.", example: "She walks. They walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.14 Conjunctions */
@@ -4734,7 +6456,42 @@ QUESTION_BANK['grammar-identify-sentence'] = {
       explanation: { correct: "Subject 'I' + verb phrase 'have grown since last year.'", incorrect: ["Fragment.","CORRECT: Complete sentence.","Fragment: no subject.","Fragment."] },
       studyAid: { definition: "Complete sentences need both subjects and predicates.", example: "I have grown since last year.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Underline the correct, complete sentence.",
+        choices: ["sentence", "not a sentence", "fragment", "run-on"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. sentence", incorrect: ["CORRECT: sentence", "This choice is incorrect because 'not a sentence' does not follow the rules.", "This choice is incorrect because 'fragment' does not follow the rules.", "This choice is incorrect because 'run-on' does not follow the rules."] },
+        studyAid: { definition: "A complete sentence has a subject and a predicate and expresses a complete thought.", example: "Complete: The sun shines. Incomplete: Shines brightly.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Underline the correct, complete sentence.",
+        choices: ["sentence", "not a sentence", "fragment", "run-on"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. sentence", incorrect: ["CORRECT: sentence", "This choice is incorrect because 'not a sentence' does not follow the rules.", "This choice is incorrect because 'fragment' does not follow the rules.", "This choice is incorrect because 'run-on' does not follow the rules."] },
+        studyAid: { definition: "A complete sentence has a subject and a predicate and expresses a complete thought.", example: "Complete: The sun shines. Incomplete: Shines brightly.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Sentence or not a sentence? Around the corner.",
+        choices: ["sentence", "not a sentence", "fragment", "run-on"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. not a sentence", incorrect: ["This choice is incorrect because 'sentence' does not follow the rules.", "CORRECT: not a sentence", "This choice is incorrect because 'fragment' does not follow the rules.", "This choice is incorrect because 'run-on' does not follow the rules."] },
+        studyAid: { definition: "A complete sentence has a subject and a predicate and expresses a complete thought.", example: "Complete: The sun shines. Incomplete: Shines brightly.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Is it a sentence? Write yes or no. Karen and Samantha into the store window.",
+        choices: ["sentence", "not a sentence", "fragment", "run-on"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. not a sentence", incorrect: ["This choice is incorrect because 'sentence' does not follow the rules.", "CORRECT: not a sentence", "This choice is incorrect because 'fragment' does not follow the rules.", "This choice is incorrect because 'run-on' does not follow the rules."] },
+        studyAid: { definition: "A complete sentence has a subject and a predicate and expresses a complete thought.", example: "Complete: The sun shines. Incomplete: Shines brightly.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Sentence or not a sentence? Karen has a beautiful voice.",
+        choices: ["sentence", "not a sentence", "fragment", "run-on"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. sentence", incorrect: ["CORRECT: sentence", "This choice is incorrect because 'not a sentence' does not follow the rules.", "This choice is incorrect because 'fragment' does not follow the rules.", "This choice is incorrect because 'run-on' does not follow the rules."] },
+        studyAid: { definition: "A complete sentence has a subject and a predicate and expresses a complete thought.", example: "Complete: The sun shines. Incomplete: Shines brightly.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 
@@ -4848,7 +6605,343 @@ QUESTION_BANK['grammar-sentence-combinations'] = {
       explanation: { correct: "'Both...and' is a correlative pair.", incorrect: ["Simple coordinating.","CORRECT: Correlative.","Comma splice.","Incomplete contrast."] },
       studyAid: { definition: "'Both...and' emphasizes liking two things together.", example: "I like both tea and coffee.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Combine the two sentences to make one sentence: Joan Schultze is a doctor. She lives in Oregon.",
+        choices: ["Joan Schultze is a doctor who lives in Oregon.", "She lives in Oregon.", "Combine the two sentences to make one sentence: Joan Schultze is a doctor.", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Joan Schultze is a doctor who lives in Oregon.", incorrect: ["CORRECT: Joan Schultze is a doctor who lives in Oregon.", "This choice is incorrect because 'She lives in Oregon.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Joan Schultze is a doctor.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Our dog is seven years old. Her name is Molly.",
+        choices: ["choice3", "Combine the two sentences to make one sentence: Our dog is seven years old.", "Her name is Molly.", "Our dog, Molly, is seven years old."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Our dog, Molly, is seven years old.", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Our dog is seven years old.' does not follow the rules.", "This choice is incorrect because 'Her name is Molly.' does not follow the rules.", "CORRECT: Our dog, Molly, is seven years old."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: My uncle is coming to visit us. He will be here Tuesday.",
+        choices: ["Combine the two sentences to make one sentence: My uncle is coming to visit us.", "He will be here Tuesday.", "My uncle is coming to visit us this Tuesday.", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. My uncle is coming to visit us this Tuesday.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: My uncle is coming to visit us.' does not follow the rules.", "This choice is incorrect because 'He will be here Tuesday.' does not follow the rules.", "CORRECT: My uncle is coming to visit us this Tuesday.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Cinderella swept the steps. Cinderella washed the floor.",
+        choices: ["Combine the two sentences to make one sentence: Cinderella swept the steps.", "Cinderella swept the steps and washed the floor.", "Cinderella washed the floor.", "Cinderella swept the steps but washed the floor."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Cinderella swept the steps and washed the floor.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: Cinderella swept the steps.' does not follow the rules.", "CORRECT: Cinderella swept the steps and washed the floor.", "This choice is incorrect because 'Cinderella washed the floor.' does not follow the rules.", "This choice is incorrect because 'Cinderella swept the steps but washed the floor.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I am scared of mice. I am scared of spiders, too.",
+        choices: ["I am scared of mice and spiders.", "I am scared of mice but spiders.", "I am scared of spiders, too.", "Combine the two sentences to make one sentence: I am scared of mice."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I am scared of mice and spiders.", incorrect: ["CORRECT: I am scared of mice and spiders.", "This choice is incorrect because 'I am scared of mice but spiders.' does not follow the rules.", "This choice is incorrect because 'I am scared of spiders, too.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: I am scared of mice.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He wants a baseball glove. He needs it for the game.",
+        choices: ["He needs it for the game.", "He wants a baseball glove because he needs it for the game.", "He wants a baseball glove so he needs it for the game.", "He wants a baseball glove."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. He wants a baseball glove because he needs it for the game.", incorrect: ["This choice is incorrect because 'He needs it for the game.' does not follow the rules.", "CORRECT: He wants a baseball glove because he needs it for the game.", "This choice is incorrect because 'He wants a baseball glove so he needs it for the game.' does not follow the rules.", "This choice is incorrect because 'He wants a baseball glove.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Jerrod has three sisters. Jerrod is the youngest.",
+        choices: ["Jerrod is the youngest.", "Jerrod is the youngest of three sisters.", "choice3", "Jerrod has three sisters."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Jerrod is the youngest of three sisters.", incorrect: ["This choice is incorrect because 'Jerrod is the youngest.' does not follow the rules.", "CORRECT: Jerrod is the youngest of three sisters.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Jerrod has three sisters.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We took a walk around the block. We walked for an hour.",
+        choices: ["choice3", "We walked for an hour.", "We took a walk around the block for an hour.", "We took a walk around the block."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. We took a walk around the block for an hour.", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'We walked for an hour.' does not follow the rules.", "CORRECT: We took a walk around the block for an hour.", "This choice is incorrect because 'We took a walk around the block.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Do you know the time? Do you wear a watch?",
+        choices: ["Do you know the time? Do you wear a watch?", "Do you know the time, or do you wear a watch?", "choice3", "Do you know the time? Do you wear a watch?."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Do you know the time, or do you wear a watch?", incorrect: ["This choice is incorrect because 'Do you know the time? Do you wear a watch?' does not follow the rules.", "CORRECT: Do you know the time, or do you wear a watch?", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Do you know the time? Do you wear a watch?.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The ornaments were pretty. There were many of them.",
+        choices: ["choice3", "The ornaments were pretty.", "There were many of them.", "There were many pretty ornaments."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. There were many pretty ornaments.", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'The ornaments were pretty.' does not follow the rules.", "This choice is incorrect because 'There were many of them.' does not follow the rules.", "CORRECT: There were many pretty ornaments."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We are going to Sam's house. We will leave at 4:30.",
+        choices: ["choice3", "We are going to Sam's house.", "We will leave at 4:30.", "We will leave at 4:30 to go to Sam's house."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We will leave at 4:30 to go to Sam's house.", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'We are going to Sam's house.' does not follow the rules.", "This choice is incorrect because 'We will leave at 4:30.' does not follow the rules.", "CORRECT: We will leave at 4:30 to go to Sam's house."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Sara knows her addition facts. She knows her subtraction facts, too.",
+        choices: ["Sara knows her addition but subtraction facts.", "Sara knows her addition facts.", "She knows her subtraction facts, too.", "Sara knows her addition and subtraction facts."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Sara knows her addition and subtraction facts.", incorrect: ["This choice is incorrect because 'Sara knows her addition but subtraction facts.' does not follow the rules.", "This choice is incorrect because 'Sara knows her addition facts.' does not follow the rules.", "This choice is incorrect because 'She knows her subtraction facts, too.' does not follow the rules.", "CORRECT: Sara knows her addition and subtraction facts."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Jason is five years old. Henry is six years old.",
+        choices: ["Jason is five years old.", "Henry is six years old.", "Jason is five years old, but Henry is six years old.", "Jason is five years old, and Henry is six years old."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Jason is five years old, and Henry is six years old.", incorrect: ["This choice is incorrect because 'Jason is five years old.' does not follow the rules.", "This choice is incorrect because 'Henry is six years old.' does not follow the rules.", "This choice is incorrect because 'Jason is five years old, but Henry is six years old.' does not follow the rules.", "CORRECT: Jason is five years old, and Henry is six years old."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I will order pepperoni pizza. I'll order a salad first.",
+        choices: ["I'll order a salad first.", "I will order pepperoni pizza, but I'll order a salad first.", "choice3", "I will order pepperoni pizza."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. I will order pepperoni pizza, but I'll order a salad first.", incorrect: ["This choice is incorrect because 'I'll order a salad first.' does not follow the rules.", "CORRECT: I will order pepperoni pizza, but I'll order a salad first.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'I will order pepperoni pizza.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Our family has two girls and a boy. The boy's name is Stephen.",
+        choices: ["Our family has two girls but a boy named Stephen.", "Our family has two girls and a boy.", "Our family has two girls and a boy named Stephen.", "The boy's name is Stephen."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Our family has two girls and a boy named Stephen.", incorrect: ["This choice is incorrect because 'Our family has two girls but a boy named Stephen.' does not follow the rules.", "This choice is incorrect because 'Our family has two girls and a boy.' does not follow the rules.", "CORRECT: Our family has two girls and a boy named Stephen.", "This choice is incorrect because 'The boy's name is Stephen.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine these two sentences into one sentence: Hobie has a cat. The cat's name is Elvis.",
+        choices: ["Hobie has a cat named Elvis.", "The cat's name is Elvis.", "choice3", "Combine these two sentences into one sentence: Hobie has a cat."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Hobie has a cat named Elvis.", incorrect: ["CORRECT: Hobie has a cat named Elvis.", "This choice is incorrect because 'The cat's name is Elvis.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Combine these two sentences into one sentence: Hobie has a cat.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Have you read The Chocolate Touch? It's a great book.",
+        choices: ["choice3", ".", "Have you read the great book, The Chocolate Touch?", "Combine the two sentences to make one sentence: Have you read The Chocolate Touch? It's a great book."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Have you read the great book, The Chocolate Touch?", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because '.' does not follow the rules.", "CORRECT: Have you read the great book, The Chocolate Touch?", "This choice is incorrect because 'Combine the two sentences to make one sentence: Have you read The Chocolate Touch? It's a great book.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: The timer went off after five minutes. The egg was cooked.",
+        choices: ["The egg was cooked.", "The timer went off after five minutes, but the egg was cooked.", "The timer went off after five minutes, and the egg was cooked.", "Combine the two sentences to make one sentence: The timer went off after five minutes."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. The timer went off after five minutes, and the egg was cooked.", incorrect: ["This choice is incorrect because 'The egg was cooked.' does not follow the rules.", "This choice is incorrect because 'The timer went off after five minutes, but the egg was cooked.' does not follow the rules.", "CORRECT: The timer went off after five minutes, and the egg was cooked.", "This choice is incorrect because 'Combine the two sentences to make one sentence: The timer went off after five minutes.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I have a dalmatian. Her name is Lady.",
+        choices: ["Her name is Lady.", "Combine the two sentences to make one sentence: I have a dalmatian.", "choice3", "I have a dalmatian named Lady."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. I have a dalmatian named Lady.", incorrect: ["This choice is incorrect because 'Her name is Lady.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: I have a dalmatian.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules.", "CORRECT: I have a dalmatian named Lady."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Jordan sits in the front of the class. He needs glasses.",
+        choices: ["Jordan sits in the front of the class because he needs glasses.", "Combine the two sentences to make one sentence: Jordan sits in the front of the class.", "Jordan sits in the front of the class so he needs glasses.", "He needs glasses."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Jordan sits in the front of the class because he needs glasses.", incorrect: ["CORRECT: Jordan sits in the front of the class because he needs glasses.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Jordan sits in the front of the class.' does not follow the rules.", "This choice is incorrect because 'Jordan sits in the front of the class so he needs glasses.' does not follow the rules.", "This choice is incorrect because 'He needs glasses.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Grandma will call this Sunday. She will call at 6:30 p.m.",
+        choices: ["Combine the two sentences to make one sentence: Grandma will call this Sunday.", "Grandma will call this Sunday at 6:30 p.", "She will call at 6:30 p.", "Grbutma will call this Sunday at 6:30 p."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Grandma will call this Sunday at 6:30 p.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: Grandma will call this Sunday.' does not follow the rules.", "CORRECT: Grandma will call this Sunday at 6:30 p.", "This choice is incorrect because 'She will call at 6:30 p.' does not follow the rules.", "This choice is incorrect because 'Grbutma will call this Sunday at 6:30 p.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I like vanilla ice cream best. I don't like strawberry.",
+        choices: ["choice3", "I like vanilla ice cream best, but I don't like strawberry.", "Combine the two sentences to make one sentence: I like vanilla ice cream best.", "I don't like strawberry."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. I like vanilla ice cream best, but I don't like strawberry.", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "CORRECT: I like vanilla ice cream best, but I don't like strawberry.", "This choice is incorrect because 'Combine the two sentences to make one sentence: I like vanilla ice cream best.' does not follow the rules.", "This choice is incorrect because 'I don't like strawberry.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: John is afraid of roller coasters. He is afraid of heights.",
+        choices: ["He is afraid of heights.", "Combine the two sentences to make one sentence: John is afraid of roller coasters.", "John is afraid of roller coasters and heights.", "John is afraid of roller coasters but heights."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. John is afraid of roller coasters and heights.", incorrect: ["This choice is incorrect because 'He is afraid of heights.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: John is afraid of roller coasters.' does not follow the rules.", "CORRECT: John is afraid of roller coasters and heights.", "This choice is incorrect because 'John is afraid of roller coasters but heights.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: May I borrow a sweater? May I borrow the blue one?",
+        choices: ["choice3", "Combine the two sentences to make one sentence: May I borrow a sweater? May I borrow the blue one?", "Combine the two sentences to make one sentence: May I borrow a sweater? May I borrow the blue one?.", "May I borrow the blue sweater?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. May I borrow the blue sweater?", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: May I borrow a sweater? May I borrow the blue one?' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: May I borrow a sweater? May I borrow the blue one?.' does not follow the rules.", "CORRECT: May I borrow the blue sweater?"] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Go to bed early. Don't watch too much TV.",
+        choices: ["Go to bed early, and don't watch too much TV.", "Combine the two sentences to make one sentence: Go to bed early.", "Don't watch too much TV.", "Go to bed early, but don't watch too much TV."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Go to bed early, and don't watch too much TV.", incorrect: ["CORRECT: Go to bed early, and don't watch too much TV.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Go to bed early.' does not follow the rules.", "This choice is incorrect because 'Don't watch too much TV.' does not follow the rules.", "This choice is incorrect because 'Go to bed early, but don't watch too much TV.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Our Christmas tree has white lights. The lights blink.",
+        choices: ["Our Christmas tree has white lights that blink.", "choice3", "The lights blink.", "Combine the two sentences to make one sentence: Our Christmas tree has white lights."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Our Christmas tree has white lights that blink.", incorrect: ["CORRECT: Our Christmas tree has white lights that blink.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'The lights blink.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Our Christmas tree has white lights.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Mrs. Williams' baby is a girl. She is due in April.",
+        choices: ["Combine the two sentences to make one sentence: Mrs.", "Williams' baby is a girl.", "Mrs.", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Mrs.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: Mrs.' does not follow the rules.", "This choice is incorrect because 'Williams' baby is a girl.' does not follow the rules.", "CORRECT: Mrs.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I have a friend. Her name is Peaches.",
+        choices: ["Combine the two sentences to make one sentence: I have a friend.", "Her name is Peaches.", "I have a friend named Peaches.", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. I have a friend named Peaches.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: I have a friend.' does not follow the rules.", "This choice is incorrect because 'Her name is Peaches.' does not follow the rules.", "CORRECT: I have a friend named Peaches.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I got a kitten at the animal shelter. I named her Tacie.",
+        choices: ["I got a kitten at the animal shelter and named her Tacie.", "I named her Tacie.", "I got a kitten at the animal shelter but named her Tacie.", "Combine the two sentences to make one sentence: I got a kitten at the animal shelter."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I got a kitten at the animal shelter and named her Tacie.", incorrect: ["CORRECT: I got a kitten at the animal shelter and named her Tacie.", "This choice is incorrect because 'I named her Tacie.' does not follow the rules.", "This choice is incorrect because 'I got a kitten at the animal shelter but named her Tacie.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: I got a kitten at the animal shelter.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Nate is late for a meeting. It started at 4:45.",
+        choices: ["It started at 4:45.", "Nate is late for a meeting that started at 4:45.", "Combine the two sentences to make one sentence: Nate is late for a meeting.", "choice3"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Nate is late for a meeting that started at 4:45.", incorrect: ["This choice is incorrect because 'It started at 4:45.' does not follow the rules.", "CORRECT: Nate is late for a meeting that started at 4:45.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Nate is late for a meeting.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Glenda got her ears pierced. She was in third grade.",
+        choices: ["Combine the two sentences to make one sentence: Glenda got her ears pierced.", "Glenda got her ears pierced when she was in third grade.", "choice3", "She was in third grade."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Glenda got her ears pierced when she was in third grade.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: Glenda got her ears pierced.' does not follow the rules.", "CORRECT: Glenda got her ears pierced when she was in third grade.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'She was in third grade.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I need to check out a book. The library is closed.",
+        choices: ["I need to check out a book, but the library is closed.", "choice3", "Combine the two sentences to make one sentence: I need to check out a book.", "The library is closed."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I need to check out a book, but the library is closed.", incorrect: ["CORRECT: I need to check out a book, but the library is closed.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: I need to check out a book.' does not follow the rules.", "This choice is incorrect because 'The library is closed.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: We rafted down the Ocoee River. The rafting trip lasted six hours.",
+        choices: ["The rafting trip lasted six hours.", "We rafted down the Ocoee River, and the rafting trip lasted six hours.", "We rafted down the Ocoee River, but the rafting trip lasted six hours.", "Combine the two sentences to make one sentence: We rafted down the Ocoee River."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We rafted down the Ocoee River, and the rafting trip lasted six hours.", incorrect: ["This choice is incorrect because 'The rafting trip lasted six hours.' does not follow the rules.", "CORRECT: We rafted down the Ocoee River, and the rafting trip lasted six hours.", "This choice is incorrect because 'We rafted down the Ocoee River, but the rafting trip lasted six hours.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: We rafted down the Ocoee River.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: The quarterback threw the ball. The receiver dropped it.",
+        choices: ["The quarterback threw the ball, but the receiver dropped it.", "The receiver dropped it.", "Combine the two sentences to make one sentence: The quarterback threw the ball.", "choice3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The quarterback threw the ball, but the receiver dropped it.", incorrect: ["CORRECT: The quarterback threw the ball, but the receiver dropped it.", "This choice is incorrect because 'The receiver dropped it.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: The quarterback threw the ball.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Juan can recite the alphabet backwards. I can also do it.",
+        choices: ["I can also do it.", "Juan can recite the alphabet backwards, and I can also do it.", "Juan can recite the alphabet backwards, but I can also do it.", "Combine the two sentences to make one sentence: Juan can recite the alphabet backwards."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Juan can recite the alphabet backwards, and I can also do it.", incorrect: ["This choice is incorrect because 'I can also do it.' does not follow the rules.", "CORRECT: Juan can recite the alphabet backwards, and I can also do it.", "This choice is incorrect because 'Juan can recite the alphabet backwards, but I can also do it.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Juan can recite the alphabet backwards.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Poinsettias are pretty plants. They are red.",
+        choices: ["They are red.", "Combine the two sentences to make one sentence: Poinsettias are pretty plants.", "Poinsettias are pretty red plants.", "choice3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Poinsettias are pretty red plants.", incorrect: ["This choice is incorrect because 'They are red.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Poinsettias are pretty plants.' does not follow the rules.", "CORRECT: Poinsettias are pretty red plants.", "This choice is incorrect because 'choice3' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: The battery on the radio went dead. We need a new one.",
+        choices: ["Combine the two sentences to make one sentence: The battery on the radio went dead.", "The battery on the radio went dead, so we need a new one.", "choice3", "We need a new one."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The battery on the radio went dead, so we need a new one.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: The battery on the radio went dead.' does not follow the rules.", "CORRECT: The battery on the radio went dead, so we need a new one.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'We need a new one.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Her family is visiting from Athens, Georgia. They will be here for a week.",
+        choices: ["Her family is visiting from Athens, Georgia, but they will be here for a week.", "They will be here for a week.", "Combine the two sentences to make one sentence: Her family is visiting from Athens, Georgia.", "Her family is visiting from Athens, Georgia, and they will be here for a week."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Her family is visiting from Athens, Georgia, and they will be here for a week.", incorrect: ["This choice is incorrect because 'Her family is visiting from Athens, Georgia, but they will be here for a week.' does not follow the rules.", "This choice is incorrect because 'They will be here for a week.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Her family is visiting from Athens, Georgia.' does not follow the rules.", "CORRECT: Her family is visiting from Athens, Georgia, and they will be here for a week."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I've heard that song on the radio. I don't remember who sings it.",
+        choices: ["I don't remember who sings it.", "choice3", "Combine the two sentences to make one sentence: I've heard that song on the radio.", "I've heard that song on the radio, but I don't remember who sings it."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. I've heard that song on the radio, but I don't remember who sings it.", incorrect: ["This choice is incorrect because 'I don't remember who sings it.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: I've heard that song on the radio.' does not follow the rules.", "CORRECT: I've heard that song on the radio, but I don't remember who sings it."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Reagan's dad is my dentist. He is very nice.",
+        choices: ["choice3", "Reagan's dad, who is my dentist, is very nice.", "He is very nice.", "Combine the two sentences to make one sentence: Reagan's dad is my dentist."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Reagan's dad, who is my dentist, is very nice.", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "CORRECT: Reagan's dad, who is my dentist, is very nice.", "This choice is incorrect because 'He is very nice.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Reagan's dad is my dentist.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: We walk the dog after dinner. We walk a mile and a half.",
+        choices: ["We walk the dog a mile and a half after dinner.", "We walk a mile and a half.", "Combine the two sentences to make one sentence: We walk the dog after dinner.", "We walk the dog a mile but a half after dinner."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. We walk the dog a mile and a half after dinner.", incorrect: ["CORRECT: We walk the dog a mile and a half after dinner.", "This choice is incorrect because 'We walk a mile and a half.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: We walk the dog after dinner.' does not follow the rules.", "This choice is incorrect because 'We walk the dog a mile but a half after dinner.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Hayden is a gymnast. She is very flexible.",
+        choices: ["Combine the two sentences to make one sentence: Hayden is a gymnast.", "choice3", "She is very flexible.", "Hayden is a gymnast, so she is very flexible."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Hayden is a gymnast, so she is very flexible.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: Hayden is a gymnast.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'She is very flexible.' does not follow the rules.", "CORRECT: Hayden is a gymnast, so she is very flexible."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: I asked for a guitar for Christmas. I didn't get the guitar.",
+        choices: ["Combine the two sentences to make one sentence: I asked for a guitar for Christmas.", "I asked for a guitar for Christmas, but I didn't get it.", "choice3", "I didn't get the guitar."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. I asked for a guitar for Christmas, but I didn't get it.", incorrect: ["This choice is incorrect because 'Combine the two sentences to make one sentence: I asked for a guitar for Christmas.' does not follow the rules.", "CORRECT: I asked for a guitar for Christmas, but I didn't get it.", "This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'I didn't get the guitar.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: The ball came straight to him. He caught it.",
+        choices: ["The ball came straight to him, but he caught it.", "He caught it.", "The ball came straight to him, and he caught it.", "Combine the two sentences to make one sentence: The ball came straight to him."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. The ball came straight to him, and he caught it.", incorrect: ["This choice is incorrect because 'The ball came straight to him, but he caught it.' does not follow the rules.", "This choice is incorrect because 'He caught it.' does not follow the rules.", "CORRECT: The ball came straight to him, and he caught it.", "This choice is incorrect because 'Combine the two sentences to make one sentence: The ball came straight to him.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Our team wears blue and white. They are losing now.",
+        choices: ["They are losing now.", "Combine the two sentences to make one sentence: Our team wears blue and white.", "Our team wears blue but white, but they are losing now.", "Our team wears blue and white, and they are losing now."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Our team wears blue and white, and they are losing now.", incorrect: ["This choice is incorrect because 'They are losing now.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Our team wears blue and white.' does not follow the rules.", "This choice is incorrect because 'Our team wears blue but white, but they are losing now.' does not follow the rules.", "CORRECT: Our team wears blue and white, and they are losing now."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: Rebecca plays tennis on Thursdays. She is very good.",
+        choices: ["choice3", "Combine the two sentences to make one sentence: Rebecca plays tennis on Thursdays.", "She is very good.", "Rebecca, who plays tennis on Thursdays, is very good."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Rebecca, who plays tennis on Thursdays, is very good.", incorrect: ["This choice is incorrect because 'choice3' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: Rebecca plays tennis on Thursdays.' does not follow the rules.", "This choice is incorrect because 'She is very good.' does not follow the rules.", "CORRECT: Rebecca, who plays tennis on Thursdays, is very good."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: We got a new computer. It came with a CD-ROM drive.",
+        choices: ["It came with a CD-ROM drive.", "choice3", "We got a new computer that came with a CD-ROM drive.", "Combine the two sentences to make one sentence: We got a new computer."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. We got a new computer that came with a CD-ROM drive.", incorrect: ["This choice is incorrect because 'It came with a CD-ROM drive.' does not follow the rules.", "This choice is incorrect because 'choice3' does not follow the rules.", "CORRECT: We got a new computer that came with a CD-ROM drive.", "This choice is incorrect because 'Combine the two sentences to make one sentence: We got a new computer.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Combine the two sentences to make one sentence: The plant has turned brown. It needs water.",
+        choices: ["The plant has turned brown because it needs water.", "The plant has turned brown so it needs water.", "It needs water.", "Combine the two sentences to make one sentence: The plant has turned brown."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The plant has turned brown because it needs water.", incorrect: ["CORRECT: The plant has turned brown because it needs water.", "This choice is incorrect because 'The plant has turned brown so it needs water.' does not follow the rules.", "This choice is incorrect because 'It needs water.' does not follow the rules.", "This choice is incorrect because 'Combine the two sentences to make one sentence: The plant has turned brown.' does not follow the rules."] },
+        studyAid: { definition: "Sentence combining joins two or more simple sentences into one smoother sentence.", example: "The dog barked. The dog wagged its tail. -> The dog barked and wagged its tail.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.17 Parts of a Friendly Letter */
@@ -4961,7 +7054,63 @@ QUESTION_BANK['grammar-friendly-letter'] = {
       explanation: { correct: "The closing is directly above the signature.", incorrect: ["Comes first.","Middle.","CORRECT: Closing.","Comes first."] },
       studyAid: { definition: "Closing + signature are the last two parts of a letter.", example: "Your friend, [signature] Jamie", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Which part of a friendly letter is this? Heading, greeting, body, closing, or signature? Your friend,",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. closing", incorrect: ["This choice is incorrect because 'heading' does not follow the rules.", "This choice is incorrect because 'greeting' does not follow the rules.", "This choice is incorrect because 'body' does not follow the rules.", "CORRECT: closing"] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Which part of a friendly letter are these? Heading, greeting, body, closing, or signature? Dear Allison,",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. greeting", incorrect: ["This choice is incorrect because 'heading' does not follow the rules.", "CORRECT: greeting", "This choice is incorrect because 'body' does not follow the rules.", "This choice is incorrect because 'closing' does not follow the rules."] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Which part of a friendly letter are these? Heading, greeting, body, closing, or signature? 2119 Mason Road",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. heading", incorrect: ["CORRECT: heading", "This choice is incorrect because 'greeting' does not follow the rules.", "This choice is incorrect because 'body' does not follow the rules.", "This choice is incorrect because 'closing' does not follow the rules."] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "In which part of a friendly letter would this appear? How are you? I am doing very well.",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. body", incorrect: ["This choice is incorrect because 'heading' does not follow the rules.", "This choice is incorrect because 'greeting' does not follow the rules.", "CORRECT: body", "This choice is incorrect because 'closing' does not follow the rules."] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Which part of a friendly letter is this? Dear Seth,",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. greeting", incorrect: ["This choice is incorrect because 'heading' does not follow the rules.", "CORRECT: greeting", "This choice is incorrect because 'body' does not follow the rules.", "This choice is incorrect because 'closing' does not follow the rules."] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Which part of a friendly letter is this? I got a new cat named Topsie on Thursday.",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. body", incorrect: ["This choice is incorrect because 'heading' does not follow the rules.", "This choice is incorrect because 'greeting' does not follow the rules.", "CORRECT: body", "This choice is incorrect because 'closing' does not follow the rules."] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Which part of a friendly letter is this? Your friend,",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. closing", incorrect: ["This choice is incorrect because 'heading' does not follow the rules.", "This choice is incorrect because 'greeting' does not follow the rules.", "This choice is incorrect because 'body' does not follow the rules.", "CORRECT: closing"] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Which part of a friendly letter is this? 1922 Beverly Drive",
+        choices: ["heading", "greeting", "body", "closing"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. heading", incorrect: ["CORRECT: heading", "This choice is incorrect because 'greeting' does not follow the rules.", "This choice is incorrect because 'body' does not follow the rules.", "This choice is incorrect because 'closing' does not follow the rules."] },
+        studyAid: { definition: "A friendly letter has five parts: heading, greeting, body, closing, and signature.", example: "Heading: 123 Main St. Greeting: Dear Sam,", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.18 Past, Present and Future Tenses */
@@ -5074,7 +7223,119 @@ QUESTION_BANK['grammar-tenses'] = {
       explanation: { correct: "'By next year' indicates future completion = future perfect.", incorrect: ["Simple future.","CORRECT: Future perfect.","Present perfect.","Past perfect."] },
       studyAid: { definition: "Future perfect: will have + past participle. Used for completion before a future time.", example: "By next year, I will have graduated.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     }
-  ]
+  ,
+      {
+        question: "Past, present, or future? My dog Butch is running to catch a squirrel.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. present", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "CORRECT: present", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? Dad flew to New York for business.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. past", incorrect: ["CORRECT: past", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? She went to the pool to find her mom.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. past", incorrect: ["CORRECT: past", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? He will get the book for his birthday.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. future", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "This choice is incorrect because 'present' does not follow the rules.", "CORRECT: future", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? The roller coaster climbed up the hill.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. past", incorrect: ["CORRECT: past", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? They drove to the mountains to visit Ruby.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. past", incorrect: ["CORRECT: past", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? The plane landed on time at Dallas Fort Worth Airport.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. past", incorrect: ["CORRECT: past", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? Her baggage will be sent to her later.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. future", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "This choice is incorrect because 'present' does not follow the rules.", "CORRECT: future", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? The Smithsons will pay their baby sitter $3 an hour.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. future", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "This choice is incorrect because 'present' does not follow the rules.", "CORRECT: future", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? Mrs. McFadden brought cookies for her class.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. past", incorrect: ["CORRECT: past", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? We are playing Monopoly and winning.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. present", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "CORRECT: present", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? He will run home when his mother calls him for dinner.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. future", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "This choice is incorrect because 'present' does not follow the rules.", "CORRECT: future", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the past tense of each verb: drive",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. drove", incorrect: ["CORRECT: drove", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Write the past tense of each verb: listen",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. listened", incorrect: ["CORRECT: listened", "This choice is incorrect because 'present' does not follow the rules.", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? Danny and I will be in fourth grade next year.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. future", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "This choice is incorrect because 'present' does not follow the rules.", "CORRECT: future", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Past, present, or future? My mom is making me a dress for the dance.",
+        choices: ["past", "present", "future", "none of these"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. present", incorrect: ["This choice is incorrect because 'past' does not follow the rules.", "CORRECT: present", "This choice is incorrect because 'future' does not follow the rules.", "This choice is incorrect because 'none of these' does not follow the rules."] },
+        studyAid: { definition: "Verb tense tells when an action happens: past, present, or future.", example: "Past: walked. Present: walks. Future: will walk.", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }]
 };
 
 /* 4.19 Indentation Rules */
@@ -5418,7 +7679,245 @@ QUESTION_BANK['reading-comprehension-analogies'] = {
       explanation: { correct: "Scissors cut things; glue sticks things together.", incorrect: ["Object.","CORRECT: Action (stick).","Related action.","Category."] },
       studyAid: { definition: "Analogies can show tool-to-purpose relationships.", example: "scissors : cut :: glue : stick", link: "https://www.readingrockets.org/article/building-vocabulary", linkText: "Reading Rockets - Vocabulary" }
     }
-  ]
+  ,
+      {
+        question: "Fire: hot:: ice:",
+        choices: ["cold", "warm", "wet", "freezing"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. cold", incorrect: ["CORRECT: cold", "This choice is incorrect because 'warm' does not follow the rules.", "This choice is incorrect because 'wet' does not follow the rules.", "This choice is incorrect because 'freezing' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Elephant: enormous :: mouse :",
+        choices: ["giant", "huge", "big", "tiny"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. tiny", incorrect: ["This choice is incorrect because 'giant' does not follow the rules.", "This choice is incorrect because 'huge' does not follow the rules.", "This choice is incorrect because 'big' does not follow the rules.", "CORRECT: tiny"] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "No corners: round :: 4 corners :",
+        choices: ["square", "triangle", "oval", "circle"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. square", incorrect: ["CORRECT: square", "This choice is incorrect because 'triangle' does not follow the rules.", "This choice is incorrect because 'oval' does not follow the rules.", "This choice is incorrect because 'circle' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Eighteen: even :: thirty-three :",
+        choices: ["even", "prime", "odd", "whole"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. odd", incorrect: ["This choice is incorrect because 'even' does not follow the rules.", "This choice is incorrect because 'prime' does not follow the rules.", "CORRECT: odd", "This choice is incorrect because 'whole' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Los Angeles Lakers: basketball ::",
+        choices: ["incorrect", "team", "different", "wrong"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. team", incorrect: ["This choice is incorrect because 'incorrect' does not follow the rules.", "CORRECT: team", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Square: four :: triangle :",
+        choices: ["two", "three", "four", "five"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. three", incorrect: ["This choice is incorrect because 'two' does not follow the rules.", "CORRECT: three", "This choice is incorrect because 'four' does not follow the rules.", "This choice is incorrect because 'five' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Soccer ball: black and white :: basketball :",
+        choices: ["white", "orange", "brown", "black"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. orange", incorrect: ["This choice is incorrect because 'white' does not follow the rules.", "CORRECT: orange", "This choice is incorrect because 'brown' does not follow the rules.", "This choice is incorrect because 'black' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Sept.: September :: Nov. :",
+        choices: ["different", "november", "wrong", "incorrect"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. november", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "CORRECT: november", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Mississippi: river :: Atlantic :",
+        choices: ["different", "ocean", "wrong", "incorrect"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. ocean", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "CORRECT: ocean", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Picture: see :: music:",
+        choices: ["wrong", "incorrect", "different", "hear / listen"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. hear / listen", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "CORRECT: hear / listen"] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Cat: meow :: pig :",
+        choices: ["neigh", "baa", "moo", "oink"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. oink", incorrect: ["This choice is incorrect because 'neigh' does not follow the rules.", "This choice is incorrect because 'baa' does not follow the rules.", "This choice is incorrect because 'moo' does not follow the rules.", "CORRECT: oink"] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Addition: + :: subtraction :",
+        choices: ["different", "wrong", "incorrect", "-"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. -", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules.", "CORRECT: -"] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Pair: two :: dozen :",
+        choices: ["twenty", "twelve", "six", "ten"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. twelve", incorrect: ["This choice is incorrect because 'twenty' does not follow the rules.", "CORRECT: twelve", "This choice is incorrect because 'six' does not follow the rules.", "This choice is incorrect because 'ten' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "5: nickel:: 10:",
+        choices: ["dime", "quarter", "penny", "nickel"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dime", incorrect: ["CORRECT: dime", "This choice is incorrect because 'quarter' does not follow the rules.", "This choice is incorrect because 'penny' does not follow the rules.", "This choice is incorrect because 'nickel' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Car: steering wheel :: bike :",
+        choices: ["handlebars", "wheels", "seat", "pedals"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. handlebars", incorrect: ["CORRECT: handlebars", "This choice is incorrect because 'wheels' does not follow the rules.", "This choice is incorrect because 'seat' does not follow the rules.", "This choice is incorrect because 'pedals' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Steak: dinner :: cereal :",
+        choices: ["lunch", "snack", "breakfast", "dinner"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. breakfast", incorrect: ["This choice is incorrect because 'lunch' does not follow the rules.", "This choice is incorrect because 'snack' does not follow the rules.", "CORRECT: breakfast", "This choice is incorrect because 'dinner' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Red + yellow: orange :: blue + yellow :",
+        choices: ["red", "green", "yellow", "blue"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. green", incorrect: ["This choice is incorrect because 'red' does not follow the rules.", "CORRECT: green", "This choice is incorrect because 'yellow' does not follow the rules.", "This choice is incorrect because 'blue' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Lemon: yellow :: lime :",
+        choices: ["green", "red", "yellow", "blue"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. green", incorrect: ["CORRECT: green", "This choice is incorrect because 'red' does not follow the rules.", "This choice is incorrect because 'yellow' does not follow the rules.", "This choice is incorrect because 'blue' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Peach: fuzzy :: watermelon :",
+        choices: ["soft", "smooth", "rough", "bumpy"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. smooth", incorrect: ["This choice is incorrect because 'soft' does not follow the rules.", "CORRECT: smooth", "This choice is incorrect because 'rough' does not follow the rules.", "This choice is incorrect because 'bumpy' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Interesting: dull :: open :",
+        choices: ["shut", "locked", "closed", "dark"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. closed", incorrect: ["This choice is incorrect because 'shut' does not follow the rules.", "This choice is incorrect because 'locked' does not follow the rules.", "CORRECT: closed", "This choice is incorrect because 'dark' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "7: number :: G:",
+        choices: ["word", "sentence", "letter", "number"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. letter", incorrect: ["This choice is incorrect because 'word' does not follow the rules.", "This choice is incorrect because 'sentence' does not follow the rules.", "CORRECT: letter", "This choice is incorrect because 'number' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Fiction: untrue :: nonfiction :",
+        choices: ["true", "different", "incorrect", "wrong"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. true", incorrect: ["CORRECT: true", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Q: capital ::  :",
+        choices: ["q : lowercase", "wrong", "different", "incorrect"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. q : lowercase", incorrect: ["CORRECT: q : lowercase", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Halloween: October :: Valentine's Day :",
+        choices: ["february", "wrong", "incorrect", "different"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. february", incorrect: ["CORRECT: february", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Sock: foot :: glove:",
+        choices: ["leg", "arm", "hand", "foot"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. hand", incorrect: ["This choice is incorrect because 'leg' does not follow the rules.", "This choice is incorrect because 'arm' does not follow the rules.", "CORRECT: hand", "This choice is incorrect because 'foot' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Complete the following analogy. closed: open :: asleep :",
+        choices: ["tired", "awake", "rested", "sleepy"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. awake", incorrect: ["This choice is incorrect because 'tired' does not follow the rules.", "CORRECT: awake", "This choice is incorrect because 'rested' does not follow the rules.", "This choice is incorrect because 'sleepy' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "North: south :: east :",
+        choices: ["north", "south", "west", "east"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. west", incorrect: ["This choice is incorrect because 'north' does not follow the rules.", "This choice is incorrect because 'south' does not follow the rules.", "CORRECT: west", "This choice is incorrect because 'east' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Child: children :: party :",
+        choices: ["parties", "party", "partying", "partied"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. parties", incorrect: ["CORRECT: parties", "This choice is incorrect because 'party' does not follow the rules.", "This choice is incorrect because 'partying' does not follow the rules.", "This choice is incorrect because 'partied' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "December: 12 :: January :",
+        choices: ["different", "1", "incorrect", "wrong"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. 1", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "CORRECT: 1", "This choice is incorrect because 'incorrect' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "TV: watch :: radio :",
+        choices: ["different", "wrong", "listen", "incorrect"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. listen", incorrect: ["This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'wrong' does not follow the rules.", "CORRECT: listen", "This choice is incorrect because 'incorrect' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Prefix: beginning :: suffix:",
+        choices: ["wrong", "end / ending", "different", "incorrect"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. end / ending", incorrect: ["This choice is incorrect because 'wrong' does not follow the rules.", "CORRECT: end / ending", "This choice is incorrect because 'different' does not follow the rules.", "This choice is incorrect because 'incorrect' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Heart: inside :: skin :",
+        choices: ["incorrect", "outside", "wrong", "different"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. outside", incorrect: ["This choice is incorrect because 'incorrect' does not follow the rules.", "CORRECT: outside", "This choice is incorrect because 'wrong' does not follow the rules.", "This choice is incorrect because 'different' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Valentine's Day: hearts :: St. Patrick's Day:",
+        choices: ["shamrocks", "turkeys", "hearts", "pumpkins"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. shamrocks", incorrect: ["CORRECT: shamrocks", "This choice is incorrect because 'turkeys' does not follow the rules.", "This choice is incorrect because 'hearts' does not follow the rules.", "This choice is incorrect because 'pumpkins' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      },
+      {
+        question: "Day: awake :: night :",
+        choices: ["awake", "asleep", "rested", "sleepy"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. asleep", incorrect: ["This choice is incorrect because 'awake' does not follow the rules.", "CORRECT: asleep", "This choice is incorrect because 'rested' does not follow the rules.", "This choice is incorrect because 'sleepy' does not follow the rules."] },
+        studyAid: { definition: "An analogy shows a relationship between two pairs of words.", example: "Hot is to cold as up is to down.", link: "https://www.khanacademy.org/test-prep/vocabulary/analogies", linkText: "Khan Academy - Analogies" }
+      }]
 };
 
 /* 5.2 Categorizing */
@@ -5531,7 +8030,84 @@ QUESTION_BANK['reading-comprehension-categorizing'] = {
       explanation: { correct: "A nail is a fastener; the others are tools.", incorrect: ["Tool.","Tool.","Tool.","CORRECT: Fastener."] },
       studyAid: { definition: "Tools are used to work on things; fasteners hold things together.", example: "Tools: hammer, saw, screwdriver. Fasteners: nail, screw, bolt.", link: "https://www.readingrockets.org/article/categorization", linkText: "Reading Rockets - Categorizing" }
     }
-  ]
+  ,
+      {
+        question: "Circle the word that does not belong in the group.",
+        choices: ["sandals", "socks", "gloves", "sneakers"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. gloves", incorrect: ["This choice is incorrect because 'sandals' does not follow the rules.", "This choice is incorrect because 'socks' does not follow the rules.", "CORRECT: gloves", "This choice is incorrect because 'sneakers' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "Circle the word that does not belong in the group.",
+        choices: ["sea", "lake", "baseball", "ocean"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. baseball", incorrect: ["This choice is incorrect because 'sea' does not follow the rules.", "This choice is incorrect because 'lake' does not follow the rules.", "CORRECT: baseball", "This choice is incorrect because 'ocean' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "Circle the word that does not belong in the group.",
+        choices: ["yellow", "round", "red", "blue"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. round", incorrect: ["This choice is incorrect because 'yellow' does not follow the rules.", "CORRECT: round", "This choice is incorrect because 'red' does not follow the rules.", "This choice is incorrect because 'blue' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "Circle the word that does not belong in the group.",
+        choices: ["Africa", "Atlantic", "Pacific", "Indian"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Africa", incorrect: ["CORRECT: Africa", "This choice is incorrect because 'Atlantic' does not follow the rules.", "This choice is incorrect because 'Pacific' does not follow the rules.", "This choice is incorrect because 'Indian' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "Circle the word that does not belong in the group.",
+        choices: ["carrots", "lettuce", "spoon", "tomato"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. spoon", incorrect: ["This choice is incorrect because 'carrots' does not follow the rules.", "This choice is incorrect because 'lettuce' does not follow the rules.", "CORRECT: spoon", "This choice is incorrect because 'tomato' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "Circle the word that does not belong in the group.",
+        choices: ["huge", "enormous", "tiny", "giant"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. tiny", incorrect: ["This choice is incorrect because 'huge' does not follow the rules.", "This choice is incorrect because 'enormous' does not follow the rules.", "CORRECT: tiny", "This choice is incorrect because 'giant' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "Circle the word that does not belong in the group.",
+        choices: ["December", "Thursday", "June", "April"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Thursday", incorrect: ["This choice is incorrect because 'December' does not follow the rules.", "CORRECT: Thursday", "This choice is incorrect because 'June' does not follow the rules.", "This choice is incorrect because 'April' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "What do the following words have in common?",
+        choices: ["They are planets.", "Earth", "Jupiter", "Neptune"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. They are planets.", incorrect: ["CORRECT: They are planets.", "This choice is incorrect because 'Earth' does not follow the rules.", "This choice is incorrect because 'Jupiter' does not follow the rules.", "This choice is incorrect because 'Neptune' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "What do the following words have in common?",
+        choices: ["They are numbers ending in zero (tens).", "fifty", "seventy", "thirty"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. They are numbers ending in zero (tens).", incorrect: ["CORRECT: They are numbers ending in zero (tens).", "This choice is incorrect because 'fifty' does not follow the rules.", "This choice is incorrect because 'seventy' does not follow the rules.", "This choice is incorrect because 'thirty' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "What do the following words have in common?",
+        choices: ["They are all round shapes.", "globe", "circle", "ring"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. They are all round shapes.", incorrect: ["CORRECT: They are all round shapes.", "This choice is incorrect because 'globe' does not follow the rules.", "This choice is incorrect because 'circle' does not follow the rules.", "This choice is incorrect because 'ring' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      },
+      {
+        question: "What do the following words have in common?",
+        choices: ["They are all sports.", "football", "hockey", "tennis"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. They are all sports.", incorrect: ["CORRECT: They are all sports.", "This choice is incorrect because 'football' does not follow the rules.", "This choice is incorrect because 'hockey' does not follow the rules.", "This choice is incorrect because 'tennis' does not follow the rules."] },
+        studyAid: { definition: "Categorizing means grouping things that are alike based on shared traits.", example: "Apple, banana, and orange are all fruits.", link: "https://www.readingrockets.org/article/categorizing", linkText: "Reading Rockets - Categorizing" }
+      }]
 };
 
 /* 5.3 Cause and Effect */
@@ -5758,7 +8334,35 @@ QUESTION_BANK['reading-comprehension-fact-fantasy'] = {
       explanation: { correct: "No wolf could blow down a sturdy brick house.", incorrect: ["Fact.","CORRECT: Fantasy.","Fact.","Fact."] },
       studyAid: { definition: "Exaggerated abilities in fairy tales are fantasy.", example: "The Three Little Pigs", link: "https://www.readingrockets.org/article/fact-vs-fiction", linkText: "Reading Rockets - Fact vs Fiction" }
     }
-  ]
+  ,
+      {
+        question: "The fairy flew in through the window.",
+        choices: ["fact", "fantasy", "fiction", "nonfiction"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. fantasy", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: fantasy", "This choice is incorrect because 'fiction' does not follow the rules.", "This choice is incorrect because 'nonfiction' does not follow the rules."] },
+        studyAid: { definition: "Fact is something that can be proven true. Fantasy is make-believe and could not happen in real life.", example: "Fact: Birds can fly. Fantasy: Pigs can fly.", link: "https://www.readingrockets.org/article/fact-or-fantasy", linkText: "Reading Rockets - Fact or Fantasy" }
+      },
+      {
+        question: "Fact or fantasy? Her car has a flat tire.",
+        choices: ["fact", "fantasy", "fiction", "nonfiction"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. fact", incorrect: ["CORRECT: fact", "This choice is incorrect because 'fantasy' does not follow the rules.", "This choice is incorrect because 'fiction' does not follow the rules.", "This choice is incorrect because 'nonfiction' does not follow the rules."] },
+        studyAid: { definition: "Fact is something that can be proven true. Fantasy is make-believe and could not happen in real life.", example: "Fact: Birds can fly. Fantasy: Pigs can fly.", link: "https://www.readingrockets.org/article/fact-or-fantasy", linkText: "Reading Rockets - Fact or Fantasy" }
+      },
+      {
+        question: "Fact or fantasy? The car sprouted wings and flew away.",
+        choices: ["fact", "fantasy", "fiction", "nonfiction"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. fantasy", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: fantasy", "This choice is incorrect because 'fiction' does not follow the rules.", "This choice is incorrect because 'nonfiction' does not follow the rules."] },
+        studyAid: { definition: "Fact is something that can be proven true. Fantasy is make-believe and could not happen in real life.", example: "Fact: Birds can fly. Fantasy: Pigs can fly.", link: "https://www.readingrockets.org/article/fact-or-fantasy", linkText: "Reading Rockets - Fact or Fantasy" }
+      },
+      {
+        question: "Fiction or nonfiction? Emilio was shrunk to the size of an ant.",
+        choices: ["fact", "fantasy", "fiction", "nonfiction"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. fantasy", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: fantasy", "This choice is incorrect because 'fiction' does not follow the rules.", "This choice is incorrect because 'nonfiction' does not follow the rules."] },
+        studyAid: { definition: "Fact is something that can be proven true. Fantasy is make-believe and could not happen in real life.", example: "Fact: Birds can fly. Fantasy: Pigs can fly.", link: "https://www.readingrockets.org/article/fact-or-fantasy", linkText: "Reading Rockets - Fact or Fantasy" }
+      }]
 };
 
 /* 5.5 Fact & Opinion */
@@ -5871,7 +8475,105 @@ QUESTION_BANK['reading-comprehension-fact-opinion'] = {
       explanation: { correct: "Homework does require time to complete.", incorrect: ["Opinion.","CORRECT: Fact.","Opinion.","Opinion."] },
       studyAid: { definition: "Observable characteristics are facts.", example: "Fact: Homework takes time. Opinion: Homework is useless.", link: "https://www.readingrockets.org/article/fact-vs-opinion", linkText: "Reading Rockets - Fact vs Opinion" }
     }
-  ]
+  ,
+      {
+        question: "Superman wears a blue suit and a red cape.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. fact", incorrect: ["CORRECT: fact", "This choice is incorrect because 'opinion' does not follow the rules.", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "The grass is too long.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. opinion", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: opinion", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Cats are the nicest pets to have.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. opinion", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: opinion", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Going to the beach is the best vacation.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. opinion", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: opinion", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Mars is called the \"red planet.\"",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. fact", incorrect: ["CORRECT: fact", "This choice is incorrect because 'opinion' does not follow the rules.", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Fact or opinion? The speed limit on this road is too slow.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. opinion", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: opinion", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Write a fact about the following topics: exercise",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. exercise makes your heart stronger. (answers will vary)", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: exercise makes your heart stronger. (answers will vary)", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Write a fact about the following topics: split pea soup",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. split pea soup is made from peas. (answers will vary)", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: split pea soup is made from peas. (answers will vary)", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Fact or opinion? She needs a haircut badly.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. opinion", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: opinion", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Fact or opinion? Africa is a continent.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. fact", incorrect: ["CORRECT: fact", "This choice is incorrect because 'opinion' does not follow the rules.", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Fact or opinion? That book is too long to read in a week.",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. opinion", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: opinion", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Write an opinion about the following topic: Pizza Hut pizza",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. pizza hut pizza is delicious. (answers will vary)", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: pizza hut pizza is delicious. (answers will vary)", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Write a fact about the following topic: Saturday",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. saturday is a day of the week. (answers will vary)", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: saturday is a day of the week. (answers will vary)", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      },
+      {
+        question: "Write an opinion about the following topic: aliens",
+        choices: ["fact", "opinion", "both", "neither"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. aliens are scary. (answers will vary)", incorrect: ["This choice is incorrect because 'fact' does not follow the rules.", "CORRECT: aliens are scary. (answers will vary)", "This choice is incorrect because 'both' does not follow the rules.", "This choice is incorrect because 'neither' does not follow the rules."] },
+        studyAid: { definition: "A fact can be proven true. An opinion is what someone thinks or feels.", example: "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"", link: "https://www.readingrockets.org/article/fact-or-opinion", linkText: "Reading Rockets - Fact or Opinion" }
+      }]
 };
 
 /* 5.6 Inference */
@@ -5984,7 +8686,98 @@ QUESTION_BANK['reading-comprehension-inference'] = {
       explanation: { correct: "Food smells and a bubbling pot indicate cooking.", incorrect: ["Laundry doesn't smell like food.","CORRECT: Cooking inference.","Cleaning doesn't involve bubbling pots.","Sleeping doesn't produce food smells."] },
       studyAid: { definition: "Smells and objects in use reveal activities.", example: "Garlic + tomatoes + bubbling pot = cooking", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Making Inferences" }
     }
-  ]
+  ,
+      {
+        question: "Where would someone probably say the following? \"Julia, may I borrow your eraser?\"",
+        choices: ["store", "kitchen", "classroom", "park"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. classroom", incorrect: ["This choice is incorrect because 'store' does not follow the rules.", "This choice is incorrect because 'kitchen' does not follow the rules.", "CORRECT: classroom", "This choice is incorrect because 'park' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where would someone probably say the following? \"Swimmers take your mark, set, GO!\"",
+        choices: ["park", "store", "school", "swimming pool"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. swimming pool", incorrect: ["This choice is incorrect because 'park' does not follow the rules.", "This choice is incorrect because 'store' does not follow the rules.", "This choice is incorrect because 'school' does not follow the rules.", "CORRECT: swimming pool"] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where does the following event probably take place? Lupe put the milk back in the refrigerator.",
+        choices: ["kitchen", "garage", "bedroom", "bathroom"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. kitchen", incorrect: ["CORRECT: kitchen", "This choice is incorrect because 'garage' does not follow the rules.", "This choice is incorrect because 'bedroom' does not follow the rules.", "This choice is incorrect because 'bathroom' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where do the following events probably take place? Everyone is supposed to stay seated, some face forward, and hold their backpacks on their laps.",
+        choices: ["train", "airplane", "a school bus", "boat"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. a school bus", incorrect: ["This choice is incorrect because 'train' does not follow the rules.", "This choice is incorrect because 'airplane' does not follow the rules.", "CORRECT: a school bus", "This choice is incorrect because 'boat' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where do the following events probably take place? Go down the slide one at a time.",
+        choices: ["kitchen", "a playground", "classroom", "store"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. a playground", incorrect: ["This choice is incorrect because 'kitchen' does not follow the rules.", "CORRECT: a playground", "This choice is incorrect because 'classroom' does not follow the rules.", "This choice is incorrect because 'store' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where does each event probably take place? John threw the ball to second base.",
+        choices: ["soccer game", "basketball game", "a baseball game", "football game"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. a baseball game", incorrect: ["This choice is incorrect because 'soccer game' does not follow the rules.", "This choice is incorrect because 'basketball game' does not follow the rules.", "CORRECT: a baseball game", "This choice is incorrect because 'football game' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where does each event probably take place? She fastened her seat belt when she sat down.",
+        choices: ["boat", "train", "bus", "an airplane or car"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. an airplane or car", incorrect: ["This choice is incorrect because 'boat' does not follow the rules.", "This choice is incorrect because 'train' does not follow the rules.", "This choice is incorrect because 'bus' does not follow the rules.", "CORRECT: an airplane or car"] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where do the following events probably take place? You can renew your book, or you can check out a new one.",
+        choices: ["museum", "a library", "bookstore", "classroom"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. a library", incorrect: ["This choice is incorrect because 'museum' does not follow the rules.", "CORRECT: a library", "This choice is incorrect because 'bookstore' does not follow the rules.", "This choice is incorrect because 'classroom' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where do the following events probably take place? The runner slid into home plate and was safe!",
+        choices: ["football game", "a baseball game", "basketball game", "soccer game"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. a baseball game", incorrect: ["This choice is incorrect because 'football game' does not follow the rules.", "CORRECT: a baseball game", "This choice is incorrect because 'basketball game' does not follow the rules.", "This choice is incorrect because 'soccer game' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where do the following events probably take place? The waitress came to the table to take our order.",
+        choices: ["store", "park", "school", "restaurant"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. restaurant", incorrect: ["This choice is incorrect because 'store' does not follow the rules.", "This choice is incorrect because 'park' does not follow the rules.", "This choice is incorrect because 'school' does not follow the rules.", "CORRECT: restaurant"] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where do the following events probably take place? Mrs. Alvarez passed out glue for our art project.",
+        choices: ["kitchen", "classroom", "store", "park"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. classroom", incorrect: ["This choice is incorrect because 'kitchen' does not follow the rules.", "CORRECT: classroom", "This choice is incorrect because 'store' does not follow the rules.", "This choice is incorrect because 'park' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where would someone probably say the following? \"Fasten your seat belts.\"",
+        choices: ["train", "in an airplane (or car)", "boat", "bus"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. in an airplane (or car)", incorrect: ["This choice is incorrect because 'train' does not follow the rules.", "CORRECT: in an airplane (or car)", "This choice is incorrect because 'boat' does not follow the rules.", "This choice is incorrect because 'bus' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      },
+      {
+        question: "Where would someone probably say the following? \"The sign says not to feed the animals.\"",
+        choices: ["park", "at a zoo", "aquarium", "farm"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. at a zoo", incorrect: ["This choice is incorrect because 'park' does not follow the rules.", "CORRECT: at a zoo", "This choice is incorrect because 'aquarium' does not follow the rules.", "This choice is incorrect because 'farm' does not follow the rules."] },
+        studyAid: { definition: "An inference is a conclusion you draw based on clues in the text plus what you already know.", example: "If someone is wearing a swim suit and carrying a towel, you can infer they are going swimming.", link: "https://www.readingrockets.org/article/making-inferences", linkText: "Reading Rockets - Inference" }
+      }]
 };
 
 /* ============================================================
@@ -6434,7 +9227,105 @@ QUESTION_BANK['reference-skills-alphabetical-order'] = {
       explanation: { correct: "First letter 'p' matches. Second letters: 'e' in pen and pencil, 'a' in paper. 'E' comes after 'a,' so pen and pencil come after paper. Then pen (p-e-n) vs pencil (p-e-n-c-i-l): they match through 'n,' then pencil has more letters. Shorter words come first when one is the beginning of the other. So pen comes before pencil. Order: paper, pen, pencil. Pencil is last.", incorrect: ["Shorter than pencil.","CORRECT: pencil is last.","Second letter 'a' is first.","They differ."] },
       studyAid: { definition: "When one word is the start of another, the shorter word comes first.", example: "paper, pen, pencil", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
     }
-  ]
+  ,
+      {
+        question: "Circle the word that comes first in alphabetical order.",
+        choices: ["flash", "fence", "false", "item3"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. false", incorrect: ["This choice is incorrect because 'flash' does not follow the rules.", "This choice is incorrect because 'fence' does not follow the rules.", "CORRECT: false", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Circle the word that comes first in alphabetical order.",
+        choices: ["trade", "tie", "tape", "fight"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. fight", incorrect: ["This choice is incorrect because 'trade' does not follow the rules.", "This choice is incorrect because 'tie' does not follow the rules.", "This choice is incorrect because 'tape' does not follow the rules.", "CORRECT: fight"] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Circle the word that comes first in alphabetical order.",
+        choices: ["south", "same", "sly", "sky"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. same", incorrect: ["This choice is incorrect because 'south' does not follow the rules.", "CORRECT: same", "This choice is incorrect because 'sly' does not follow the rules.", "This choice is incorrect because 'sky' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Circle the word that comes first in alphabetical order.",
+        choices: ["odd", "otter", "out", "open"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. odd", incorrect: ["CORRECT: odd", "This choice is incorrect because 'otter' does not follow the rules.", "This choice is incorrect because 'out' does not follow the rules.", "This choice is incorrect because 'open' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Number these words in alphabetical order.",
+        choices: ["1. shame", "ship", "shame", "shave"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. 1. shame", incorrect: ["CORRECT: 1. shame", "This choice is incorrect because 'ship' does not follow the rules.", "This choice is incorrect because 'shame' does not follow the rules.", "This choice is incorrect because 'shave' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Number these words in alphabetical order.",
+        choices: ["1. bakery", "baseball", "bath", "bakery"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. 1. bakery", incorrect: ["CORRECT: 1. bakery", "This choice is incorrect because 'baseball' does not follow the rules.", "This choice is incorrect because 'bath' does not follow the rules.", "This choice is incorrect because 'bakery' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Number these words in alphabetical order.",
+        choices: ["1. garage", "garlic", "gas", "garage"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. 1. garage", incorrect: ["CORRECT: 1. garage", "This choice is incorrect because 'garlic' does not follow the rules.", "This choice is incorrect because 'gas' does not follow the rules.", "This choice is incorrect because 'garage' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Number these words in alphabetical order.",
+        choices: ["1. mink", "minute", "misbehave", "mink"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. 1. mink", incorrect: ["CORRECT: 1. mink", "This choice is incorrect because 'minute' does not follow the rules.", "This choice is incorrect because 'misbehave' does not follow the rules.", "This choice is incorrect because 'mink' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Put these words in alphabetical order.",
+        choices: ["1. press", "press", "produce", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. 1. press", incorrect: ["CORRECT: 1. press", "This choice is incorrect because 'press' does not follow the rules.", "This choice is incorrect because 'produce' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Put these words in alphabetical order.",
+        choices: ["1. alligator", "always", "allow", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. 1. alligator", incorrect: ["CORRECT: 1. alligator", "This choice is incorrect because 'always' does not follow the rules.", "This choice is incorrect because 'allow' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Circle the word that comes last in alphabetical order.",
+        choices: ["grade", "guide", "guest", "grin"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. guide", incorrect: ["This choice is incorrect because 'grade' does not follow the rules.", "CORRECT: guide", "This choice is incorrect because 'guest' does not follow the rules.", "This choice is incorrect because 'grin' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Circle the word that comes last in alphabetical order.",
+        choices: ["poke", "potion", "policy", "possible"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. potion", incorrect: ["This choice is incorrect because 'poke' does not follow the rules.", "CORRECT: potion", "This choice is incorrect because 'policy' does not follow the rules.", "This choice is incorrect because 'possible' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Circle the word that comes first in alphabetical order.",
+        choices: ["planet", "pity", "plane", "plain"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. pity", incorrect: ["This choice is incorrect because 'planet' does not follow the rules.", "CORRECT: pity", "This choice is incorrect because 'plane' does not follow the rules.", "This choice is incorrect because 'plain' does not follow the rules."] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      },
+      {
+        question: "Circle the word that comes first in alphabetical order.",
+        choices: ["silver", "sign", "signal", "side"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. side", incorrect: ["This choice is incorrect because 'silver' does not follow the rules.", "This choice is incorrect because 'sign' does not follow the rules.", "This choice is incorrect because 'signal' does not follow the rules.", "CORRECT: side"] },
+        studyAid: { definition: "Alphabetical order means arranging words from A to Z based on the alphabet.", example: "apple, banana, cherry", link: "https://www.readingrockets.org/article/alphabetical-order", linkText: "Reading Rockets - Alphabetical Order" }
+      }]
 };
 
 /* 6.5 Dictionary Guide Words */
@@ -6554,7 +9445,2011 @@ QUESTION_BANK['reference-skills-dictionary-guide-words'] = {
       explanation: { correct: "'Tow' comes between 'top' and 'toy' alphabetically.", incorrect: ["'toe' comes before 'top.'","'tray' comes after 'toy.'","CORRECT: 'tow' fits.","'toad' comes before 'top.'"] },
       studyAid: { definition: "'Tow' (t-o-w) comes after 'top' (t-o-p) and before 'toy' (t-o-y).", example: "top, tow, toy", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
     }
+  ,
+      {
+        question: "If the guide words on a dictionary page were \"rain\" and \"road,\" which word would be on the page?",
+        choices: ["rent", "rage", "rope", "run"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. rent", incorrect: ["CORRECT: rent", "This choice is incorrect because 'rage' does not follow the rules.", "This choice is incorrect because 'rope' does not follow the rules.", "This choice is incorrect because 'run' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what street the closest grocery store is on",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the years that Mozart lived",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? how to pronounce the word \"excerpt\"",
+        choices: ["dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dictionary", incorrect: ["CORRECT: dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the phone number for Sid's Bagels",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what part of speech the word \"trample\" is",
+        choices: ["dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dictionary", incorrect: ["CORRECT: dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "If the guide words on a dictionary page were \"odor\" and \"organ,\" which word would be on the page?",
+        choices: ["oats", "owner", "other", "old"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. old", incorrect: ["This choice is incorrect because 'oats' does not follow the rules.", "This choice is incorrect because 'owner' does not follow the rules.", "This choice is incorrect because 'other' does not follow the rules.", "CORRECT: old"] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what part of speech the word \"dive\" is",
+        choices: ["dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dictionary", incorrect: ["CORRECT: dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? what kind of animal an okapi is",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? where to find more articles about reptiles",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the area code of Sarasota, Florida",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? other animals related to the Komodo dragon",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? a dentist near my neighborhood",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? the phone number for Pizza Hut",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? information for a report on the snowy owl",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? how to spell the word \"mesmerizing\"",
+        choices: ["dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dictionary", incorrect: ["CORRECT: dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, or encyclopedia? information about the Grand Canyon",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "If the guide words on a dictionary page were \"river\" and \"rust,\" which word would be on the page?",
+        choices: ["rent", "road", "right", "rival"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. road", incorrect: ["This choice is incorrect because 'rent' does not follow the rules.", "CORRECT: road", "This choice is incorrect because 'right' does not follow the rules.", "This choice is incorrect because 'rival' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "If the guide words on a dictionary page were \"mover\" and \"muffin,\" which words would be on the page?",
+        choices: ["mom", "movie", "mumble", "muddy"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. movie", incorrect: ["This choice is incorrect because 'mom' does not follow the rules.", "CORRECT: movie", "This choice is incorrect because 'mumble' does not follow the rules.", "This choice is incorrect because 'muddy' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? what country Juan Peron was president of",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? an antonym for \"pretty\"",
+        choices: ["thesaurus (or dictionary)", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. thesaurus (or dictionary)", incorrect: ["CORRECT: thesaurus (or dictionary)", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? the area codes for your city",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? another word for \"cry\"",
+        choices: ["thesaurus", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. thesaurus", incorrect: ["CORRECT: thesaurus", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? the origin of the word \"spaghetti\"",
+        choices: ["dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dictionary", incorrect: ["CORRECT: dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "If the guide words on a dictionary page were \"exist\" and \"explode,\" which word would be on the page?",
+        choices: ["expire", "export", "electricity", "word3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. expire", incorrect: ["CORRECT: expire", "This choice is incorrect because 'export' does not follow the rules.", "This choice is incorrect because 'electricity' does not follow the rules.", "This choice is incorrect because 'word3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? another word for \"nice\"",
+        choices: ["thesaurus", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. thesaurus", incorrect: ["CORRECT: thesaurus", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? an antonym for \"dry\"",
+        choices: ["thesaurus (or dictionary)", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. thesaurus (or dictionary)", incorrect: ["CORRECT: thesaurus (or dictionary)", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? how to pronounce \"emancipate\"",
+        choices: ["dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dictionary", incorrect: ["CORRECT: dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? the museum closest to your house",
+        choices: ["telephone book (or internet)", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book (or internet)", incorrect: ["CORRECT: telephone book (or internet)", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? the number of syllables in the word \"tabulate\"",
+        choices: ["dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. dictionary", incorrect: ["CORRECT: dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? the phone number for the local fire department",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? what Jim Henson is known for",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? the street Kim Li lives on",
+        choices: ["telephone book", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. telephone book", incorrect: ["CORRECT: telephone book", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? the opposite of the word \"push\"",
+        choices: ["thesaurus / dictionary", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. thesaurus / dictionary", incorrect: ["CORRECT: thesaurus / dictionary", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "Which reference source would be best to look up the information: dictionary, telephone book, encyclopedia, or thesaurus? a picture of a koala bear",
+        choices: ["encyclopedia", "item1", "item2", "item3"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. encyclopedia", incorrect: ["CORRECT: encyclopedia", "This choice is incorrect because 'item1' does not follow the rules.", "This choice is incorrect because 'item2' does not follow the rules.", "This choice is incorrect because 'item3' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "If the guide words on a dictionary page were \"hike\" and \"hit,\" which words would be on the page?",
+        choices: ["hinge", "hijack", "high", "hire"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. hinge", incorrect: ["CORRECT: hinge", "This choice is incorrect because 'hijack' does not follow the rules.", "This choice is incorrect because 'high' does not follow the rules.", "This choice is incorrect because 'hire' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      },
+      {
+        question: "If the guide words on a dictionary page were \"hike\" and \"hit,\" which words would be on the page?",
+        choices: ["hide", "history", "hilly", "hitch"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. history", incorrect: ["This choice is incorrect because 'hide' does not follow the rules.", "CORRECT: history", "This choice is incorrect because 'hilly' does not follow the rules.", "This choice is incorrect because 'hitch' does not follow the rules."] },
+        studyAid: { definition: "Guide words at the top of a dictionary page show the first and last words on that page.", example: "Guide words: cat - dog. The word \"deer\" would be on this page.", link: "https://www.readingrockets.org/article/dictionary-skills", linkText: "Reading Rockets - Dictionary Skills" }
+      }]
+};
+
+if (typeof window !== 'undefined') 
+/* Evan Moor - Sentence Correction */
+QUESTION_BANK['grammar-sentence-correction'] = {
+  title: "Sentence Correction",
+  topic: "Grammar",
+  questions: [
+      {
+        question: "Did you hear mother calling you to dinner",
+        choices: ["Did you hear mother calling you to dinner?", "Did you hear Mother calling you to dinner?", "Did you hear mother calling you to dinner.", "Did you hear Mother calling you to dinner? (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Did you hear Mother calling you to dinner?", incorrect: ["This choice is incorrect because 'Did you hear mother calling you to dinner?' does not follow the rules.", "CORRECT: Did you hear Mother calling you to dinner?", "This choice is incorrect because 'Did you hear mother calling you to dinner.' does not follow the rules.", "This choice is incorrect because 'Did you hear Mother calling you to dinner? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The meeting starts at 915",
+        choices: ["The meeting starts at 9:15.", "The meeting starts at 915.", "The meeting starts at 9:15. (wrong)", "The meeting starts at 9:15. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The meeting starts at 9:15.", incorrect: ["CORRECT: The meeting starts at 9:15.", "This choice is incorrect because 'The meeting starts at 915.' does not follow the rules.", "This choice is incorrect because 'The meeting starts at 9:15. (wrong)' does not follow the rules.", "This choice is incorrect because 'The meeting starts at 9:15. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and marcos will ride the bus together",
+        choices: ["Me and Marcos will ride the bus together.", "Marcos and I will ride the bus together.", "Me and marcos will ride the bus together.", "Marcos and I will ride the bus together. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Marcos and I will ride the bus together.", incorrect: ["This choice is incorrect because 'Me and Marcos will ride the bus together.' does not follow the rules.", "CORRECT: Marcos and I will ride the bus together.", "This choice is incorrect because 'Me and marcos will ride the bus together.' does not follow the rules.", "This choice is incorrect because 'Marcos and I will ride the bus together. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Him don't know anyone named james",
+        choices: ["He doesn't know anyone named James.", "He doesn't know anyone named James. (wrong)", "Him don't know anyone named james.", "He dont know anyone named James."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. He doesn't know anyone named James.", incorrect: ["CORRECT: He doesn't know anyone named James.", "This choice is incorrect because 'He doesn't know anyone named James. (wrong)' does not follow the rules.", "This choice is incorrect because 'Him don't know anyone named james.' does not follow the rules.", "This choice is incorrect because 'He dont know anyone named James.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "She bought apples carrots and cereal",
+        choices: ["She bought apples carrots and cereal.", "She bought apples, carrots, and cereal.", "She bought apples, carrots, and cereal. (wrong)", "She bought apples, carrots, and cereal. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. She bought apples, carrots, and cereal.", incorrect: ["This choice is incorrect because 'She bought apples carrots and cereal.' does not follow the rules.", "CORRECT: She bought apples, carrots, and cereal.", "This choice is incorrect because 'She bought apples, carrots, and cereal. (wrong)' does not follow the rules.", "This choice is incorrect because 'She bought apples, carrots, and cereal. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mary she is going to be late for the lesson",
+        choices: ["Mary is going to be late for the lesson.", "Mary she is going to be late for the lesson.", "Mary is going to be late for the lesson. (wrong)", "Mary is going to be late for the lesson. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Mary is going to be late for the lesson.", incorrect: ["CORRECT: Mary is going to be late for the lesson.", "This choice is incorrect because 'Mary she is going to be late for the lesson.' does not follow the rules.", "This choice is incorrect because 'Mary is going to be late for the lesson. (wrong)' does not follow the rules.", "This choice is incorrect because 'Mary is going to be late for the lesson. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My dad taked my sisters bike to be fixed",
+        choices: ["My dad took my sister's bike to be fixed.", "My dad taked my sisters bike to be fixed.", "My dad took my sister's bike to be fixed. (wrong)", "My dad took my sister's bike to be fixed. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. My dad took my sister's bike to be fixed.", incorrect: ["CORRECT: My dad took my sister's bike to be fixed.", "This choice is incorrect because 'My dad taked my sisters bike to be fixed.' does not follow the rules.", "This choice is incorrect because 'My dad took my sister's bike to be fixed. (wrong)' does not follow the rules.", "This choice is incorrect because 'My dad took my sister's bike to be fixed. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He knowed what his homework was",
+        choices: ["He knew what his homework was.", "He knew what his homework was. (wrong)", "He knew what his homework was. (wrong)", "He knowed what his homework was."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. He knew what his homework was.", incorrect: ["CORRECT: He knew what his homework was.", "This choice is incorrect because 'He knew what his homework was. (wrong)' does not follow the rules.", "This choice is incorrect because 'He knew what his homework was. (wrong)' does not follow the rules.", "This choice is incorrect because 'He knowed what his homework was.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does you have a dog or a cat",
+        choices: ["Do you have a dog or a cat? (wrong)", "Do you have a dog or a cat? (wrong)", "Does you have a dog or a cat.", "Do you have a dog or a cat?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Do you have a dog or a cat?", incorrect: ["This choice is incorrect because 'Do you have a dog or a cat? (wrong)' does not follow the rules.", "This choice is incorrect because 'Do you have a dog or a cat? (wrong)' does not follow the rules.", "This choice is incorrect because 'Does you have a dog or a cat.' does not follow the rules.", "CORRECT: Do you have a dog or a cat?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and william like to help mr smith wash the chalkboards",
+        choices: ["William and I like to help Mr. Smith wash the chalkboards. (wrong)", "Me and william like to help mr smith wash the chalkboards.", "William and I like to help mr. Smith wash the chalkboards.", "William and I like to help Mr. Smith wash the chalkboards."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. William and I like to help Mr. Smith wash the chalkboards.", incorrect: ["This choice is incorrect because 'William and I like to help Mr. Smith wash the chalkboards. (wrong)' does not follow the rules.", "This choice is incorrect because 'Me and william like to help mr smith wash the chalkboards.' does not follow the rules.", "This choice is incorrect because 'William and I like to help mr. Smith wash the chalkboards.' does not follow the rules.", "CORRECT: William and I like to help Mr. Smith wash the chalkboards."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Have you read a book called the day jimmy's boa ate the wash",
+        choices: ["Have you read a book called the day jimmy's boa ate the wash.", "Have you read a book called The Day Jimmy's Boa Ate the Wash?", "Have you read a book called The Day Jimmy's Boa Ate the Wash? (wrong)", "Have you read a book called The Day Jimmy's Boa Ate the Wash? (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Have you read a book called The Day Jimmy's Boa Ate the Wash?", incorrect: ["This choice is incorrect because 'Have you read a book called the day jimmy's boa ate the wash.' does not follow the rules.", "CORRECT: Have you read a book called The Day Jimmy's Boa Ate the Wash?", "This choice is incorrect because 'Have you read a book called The Day Jimmy's Boa Ate the Wash? (wrong)' does not follow the rules.", "This choice is incorrect because 'Have you read a book called The Day Jimmy's Boa Ate the Wash? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I and chris will not be in the same class this year",
+        choices: ["I and chris will not be in the same class this year.", "Chris and I will not be in the same class this year. (wrong)", "Chris and I will not be in the same class this year. (wrong)", "Chris and I will not be in the same class this year."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Chris and I will not be in the same class this year.", incorrect: ["This choice is incorrect because 'I and chris will not be in the same class this year.' does not follow the rules.", "This choice is incorrect because 'Chris and I will not be in the same class this year. (wrong)' does not follow the rules.", "This choice is incorrect because 'Chris and I will not be in the same class this year. (wrong)' does not follow the rules.", "CORRECT: Chris and I will not be in the same class this year."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Are you going to charlotte north carolina this june",
+        choices: ["Are you going to Charlotte, North Carolina, this june?", "Are you going to charlotte north carolina this june.", "Are you going to Charlotte North Carolina this June?", "Are you going to Charlotte, North Carolina, this June?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Are you going to Charlotte, North Carolina, this June?", incorrect: ["This choice is incorrect because 'Are you going to Charlotte, North Carolina, this june?' does not follow the rules.", "This choice is incorrect because 'Are you going to charlotte north carolina this june.' does not follow the rules.", "This choice is incorrect because 'Are you going to Charlotte North Carolina this June?' does not follow the rules.", "CORRECT: Are you going to Charlotte, North Carolina, this June?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We are reading a book called skinnybones by barbara park",
+        choices: ["We are reading a book called skinnybones by barbara park.", "We are reading a book called Skinnybones by Barbara Park. (wrong)", "We are reading a book called Skinnybones by Barbara Park.", "We are reading a book called Skinnybones by Barbara Park. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. We are reading a book called Skinnybones by Barbara Park.", incorrect: ["This choice is incorrect because 'We are reading a book called skinnybones by barbara park.' does not follow the rules.", "This choice is incorrect because 'We are reading a book called Skinnybones by Barbara Park. (wrong)' does not follow the rules.", "CORRECT: We are reading a book called Skinnybones by Barbara Park.", "This choice is incorrect because 'We are reading a book called Skinnybones by Barbara Park. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mr and mrs hill got a new baby named taylor",
+        choices: ["Mr. and Mrs. Hill got a new baby named Taylor.", "mr. and mrs. Hill got a new baby named Taylor.", "Mr and mrs hill got a new baby named taylor.", "Mr. and Mrs. Hill got a new baby named Taylor. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Mr. and Mrs. Hill got a new baby named Taylor.", incorrect: ["CORRECT: Mr. and Mrs. Hill got a new baby named Taylor.", "This choice is incorrect because 'mr. and mrs. Hill got a new baby named Taylor.' does not follow the rules.", "This choice is incorrect because 'Mr and mrs hill got a new baby named taylor.' does not follow the rules.", "This choice is incorrect because 'Mr. and Mrs. Hill got a new baby named Taylor. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We singed to songs in music class",
+        choices: ["We sang two songs in music class. (wrong)", "We sang two songs in music class.", "We sang two songs in music class. (wrong)", "We singed to songs in music class."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We sang two songs in music class.", incorrect: ["This choice is incorrect because 'We sang two songs in music class. (wrong)' does not follow the rules.", "CORRECT: We sang two songs in music class.", "This choice is incorrect because 'We sang two songs in music class. (wrong)' does not follow the rules.", "This choice is incorrect because 'We singed to songs in music class.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "There family has went to the yellowstone national park",
+        choices: ["Their family went to Yellowstone National Park.", "Their family went to Yellowstone National Park. (wrong)", "Their family went to Yellowstone National Park. (wrong)", "There family has went to the yellowstone national park."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Their family went to Yellowstone National Park.", incorrect: ["CORRECT: Their family went to Yellowstone National Park.", "This choice is incorrect because 'Their family went to Yellowstone National Park. (wrong)' does not follow the rules.", "This choice is incorrect because 'Their family went to Yellowstone National Park. (wrong)' does not follow the rules.", "This choice is incorrect because 'There family has went to the yellowstone national park.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "His homework it is in his backpack",
+        choices: ["His homework is in his backpack.", "His homework it is in his backpack.", "His homework is in his backpack. (wrong)", "His homework is in his backpack. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. His homework is in his backpack.", incorrect: ["CORRECT: His homework is in his backpack.", "This choice is incorrect because 'His homework it is in his backpack.' does not follow the rules.", "This choice is incorrect because 'His homework is in his backpack. (wrong)' does not follow the rules.", "This choice is incorrect because 'His homework is in his backpack. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dr stevens lives at 3434 old forge lane",
+        choices: ["Dr. Stevens lives at 3434 Old Forge Lane. (wrong)", "Dr. Stevens lives at 3434 Old Forge Lane.", "Dr stevens lives at 3434 old forge lane.", "dr. Stevens lives at 3434 Old Forge Lane."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Dr. Stevens lives at 3434 Old Forge Lane.", incorrect: ["This choice is incorrect because 'Dr. Stevens lives at 3434 Old Forge Lane. (wrong)' does not follow the rules.", "CORRECT: Dr. Stevens lives at 3434 Old Forge Lane.", "This choice is incorrect because 'Dr stevens lives at 3434 old forge lane.' does not follow the rules.", "This choice is incorrect because 'dr. Stevens lives at 3434 Old Forge Lane.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dont forget to turn the stove off after cooking",
+        choices: ["Don't forget to turn the stove off after cooking. (wrong)", "Don't forget to turn the stove off after cooking. (wrong)", "Dont forget to turn the stove off after cooking.", "Don't forget to turn the stove off after cooking."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Don't forget to turn the stove off after cooking.", incorrect: ["This choice is incorrect because 'Don't forget to turn the stove off after cooking. (wrong)' does not follow the rules.", "This choice is incorrect because 'Don't forget to turn the stove off after cooking. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dont forget to turn the stove off after cooking.' does not follow the rules.", "CORRECT: Don't forget to turn the stove off after cooking."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Gabriel said i returned the library book last tuesday",
+        choices: ["Gabriel said \"I returned the library book last Tuesday.\"", "Gabriel said, \"I returned the library book last Tuesday.\"", "Gabriel said, \"I returned the library book last tuesday.\"", "Gabriel said i returned the library book last tuesday."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Gabriel said, \"I returned the library book last Tuesday.\"", incorrect: ["This choice is incorrect because 'Gabriel said \"I returned the library book last Tuesday.\"' does not follow the rules.", "CORRECT: Gabriel said, \"I returned the library book last Tuesday.\"", "This choice is incorrect because 'Gabriel said, \"I returned the library book last tuesday.\"' does not follow the rules.", "This choice is incorrect because 'Gabriel said i returned the library book last tuesday.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We listened to the song cherish on the radio",
+        choices: ["We listened to the song \"Cherish\" on the radio. (wrong)", "We listened to the song \"Cherish\" on the radio. (wrong)", "We listened to the song \"Cherish\" on the radio.", "We listened to the song cherish on the radio."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. We listened to the song \"Cherish\" on the radio.", incorrect: ["This choice is incorrect because 'We listened to the song \"Cherish\" on the radio. (wrong)' does not follow the rules.", "This choice is incorrect because 'We listened to the song \"Cherish\" on the radio. (wrong)' does not follow the rules.", "CORRECT: We listened to the song \"Cherish\" on the radio.", "This choice is incorrect because 'We listened to the song cherish on the radio.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He dont want seconds of the tuna salad",
+        choices: ["He doesn't want seconds of the tuna salad.", "He dont want seconds of the tuna salad.", "He doesn't want seconds of the tuna salad. (wrong)", "He doesn't want seconds of the tuna salad. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. He doesn't want seconds of the tuna salad.", incorrect: ["CORRECT: He doesn't want seconds of the tuna salad.", "This choice is incorrect because 'He dont want seconds of the tuna salad.' does not follow the rules.", "This choice is incorrect because 'He doesn't want seconds of the tuna salad. (wrong)' does not follow the rules.", "This choice is incorrect because 'He doesn't want seconds of the tuna salad. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The flight attendant said put your tray tables upright and fasten your seat belts",
+        choices: ["The flight attendant said \"Put your tray tables upright and fasten your seat belts.\"", "The flight attendant said, \"Put your tray tables upright and fasten your seat belts.\"", "The flight attendant said put your tray tables upright and fasten your seat belts.", "The flight attendant said, \"Put your tray tables upright and fasten your seat belts.\" (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The flight attendant said, \"Put your tray tables upright and fasten your seat belts.\"", incorrect: ["This choice is incorrect because 'The flight attendant said \"Put your tray tables upright and fasten your seat belts.\"' does not follow the rules.", "CORRECT: The flight attendant said, \"Put your tray tables upright and fasten your seat belts.\"", "This choice is incorrect because 'The flight attendant said put your tray tables upright and fasten your seat belts.' does not follow the rules.", "This choice is incorrect because 'The flight attendant said, \"Put your tray tables upright and fasten your seat belts.\" (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Him and me are going to the library to check out the book the boxcar children",
+        choices: ["Him and me are going to the library to check out the book the boxcar children.", "Me and him are going to the library to check out the book The Boxcar Children.", "He and I are going to the library to check out the book The Boxcar Children. (wrong)", "He and I are going to the library to check out the book The Boxcar Children."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. He and I are going to the library to check out the book The Boxcar Children.", incorrect: ["This choice is incorrect because 'Him and me are going to the library to check out the book the boxcar children.' does not follow the rules.", "This choice is incorrect because 'Me and him are going to the library to check out the book The Boxcar Children.' does not follow the rules.", "This choice is incorrect because 'He and I are going to the library to check out the book The Boxcar Children. (wrong)' does not follow the rules.", "CORRECT: He and I are going to the library to check out the book The Boxcar Children."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Christmas is my favorite holiday",
+        choices: ["Christmas is my favorite holiday.", "Christmas is my favorite holiday. (wrong)", "christmas is my favorite holiday.", "Christmas is my favorite holiday."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Christmas is my favorite holiday.", incorrect: ["CORRECT: Christmas is my favorite holiday.", "This choice is incorrect because 'Christmas is my favorite holiday. (wrong)' does not follow the rules.", "This choice is incorrect because 'christmas is my favorite holiday.' does not follow the rules.", "This choice is incorrect because 'Christmas is my favorite holiday.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The show that you wants to watch is on today it begins at 430",
+        choices: ["The show that you want to watch is on today; it begins at 4:30. (wrong)", "The show that you wants to watch is on today it begins at 430.", "The show that you want to watch is on today; it begins at 4:30. (wrong)", "The show that you want to watch is on today; it begins at 4:30."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The show that you want to watch is on today; it begins at 4:30.", incorrect: ["This choice is incorrect because 'The show that you want to watch is on today; it begins at 4:30. (wrong)' does not follow the rules.", "This choice is incorrect because 'The show that you wants to watch is on today it begins at 430.' does not follow the rules.", "This choice is incorrect because 'The show that you want to watch is on today; it begins at 4:30. (wrong)' does not follow the rules.", "CORRECT: The show that you want to watch is on today; it begins at 4:30."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mr davis, the butcher, cut turkey ham and cheese for us",
+        choices: ["mr. Davis, the butcher, cut turkey, ham, and cheese for us.", "Mr. Davis, the butcher, cut turkey, ham, and cheese for us.", "Mr. Davis the butcher cut turkey ham and cheese for us.", "Mr davis, the butcher, cut turkey ham and cheese for us."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Mr. Davis, the butcher, cut turkey, ham, and cheese for us.", incorrect: ["This choice is incorrect because 'mr. Davis, the butcher, cut turkey, ham, and cheese for us.' does not follow the rules.", "CORRECT: Mr. Davis, the butcher, cut turkey, ham, and cheese for us.", "This choice is incorrect because 'Mr. Davis the butcher cut turkey ham and cheese for us.' does not follow the rules.", "This choice is incorrect because 'Mr davis, the butcher, cut turkey ham and cheese for us.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dr rhodes said that my stomachache was from eating to many candy bars",
+        choices: ["Dr. Rhodes said that my stomachache was from eating too many candy bars.", "dr. Rhodes said that my stomachache was from eating too many candy bars.", "Dr. Rhodes said that my stomachache was from eating too many candy bars. (wrong)", "Dr rhodes said that my stomachache was from eating to many candy bars."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Dr. Rhodes said that my stomachache was from eating too many candy bars.", incorrect: ["CORRECT: Dr. Rhodes said that my stomachache was from eating too many candy bars.", "This choice is incorrect because 'dr. Rhodes said that my stomachache was from eating too many candy bars.' does not follow the rules.", "This choice is incorrect because 'Dr. Rhodes said that my stomachache was from eating too many candy bars. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dr rhodes said that my stomachache was from eating to many candy bars.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Watch out for that bus",
+        choices: ["Watch out for that bus!", "Watch out for that bus.", "Watch out for that bus! (wrong)", "Watch out for that bus! (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Watch out for that bus!", incorrect: ["CORRECT: Watch out for that bus!", "This choice is incorrect because 'Watch out for that bus.' does not follow the rules.", "This choice is incorrect because 'Watch out for that bus! (wrong)' does not follow the rules.", "This choice is incorrect because 'Watch out for that bus! (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I dont understand how he done the math problem",
+        choices: ["I dont understand how he done the math problem.", "I don't understand how he did the math problem.", "I aint understand how he did the math problem.", "I don't understand how he did the math problem. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. I don't understand how he did the math problem.", incorrect: ["This choice is incorrect because 'I dont understand how he done the math problem.' does not follow the rules.", "CORRECT: I don't understand how he did the math problem.", "This choice is incorrect because 'I aint understand how he did the math problem.' does not follow the rules.", "This choice is incorrect because 'I don't understand how he did the math problem. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Ms henning, my teacher, will gets married this april",
+        choices: ["Ms henning, my teacher, will gets married this april.", "ms. Henning, my teacher, will get married this april.", "Ms. Henning, my teacher, will get married this April.", "Ms. Henning my teacher will get married this April."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Ms. Henning, my teacher, will get married this April.", incorrect: ["This choice is incorrect because 'Ms henning, my teacher, will gets married this april.' does not follow the rules.", "This choice is incorrect because 'ms. Henning, my teacher, will get married this april.' does not follow the rules.", "CORRECT: Ms. Henning, my teacher, will get married this April.", "This choice is incorrect because 'Ms. Henning my teacher will get married this April.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What color is your car asked samuel",
+        choices: ["What color is your car asked samuel.", "\"What color is your car?\" asked Samuel.", "\"What color is your car?\" asked Samuel. (wrong)", "\"What color is your car?\" asked Samuel. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. \"What color is your car?\" asked Samuel.", incorrect: ["This choice is incorrect because 'What color is your car asked samuel.' does not follow the rules.", "CORRECT: \"What color is your car?\" asked Samuel.", "This choice is incorrect because '\"What color is your car?\" asked Samuel. (wrong)' does not follow the rules.", "This choice is incorrect because '\"What color is your car?\" asked Samuel. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He aint gonna want no cookies cake or ice cream for dessert",
+        choices: ["He aint gonna want no cookies cake or ice cream for dessert.", "He isn't going to want any cookies, cake, or ice cream for dessert.", "He aint going to want any cookies, cake, or ice cream for dessert.", "He isn't going to want any cookies cake or ice cream for dessert."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. He isn't going to want any cookies, cake, or ice cream for dessert.", incorrect: ["This choice is incorrect because 'He aint gonna want no cookies cake or ice cream for dessert.' does not follow the rules.", "CORRECT: He isn't going to want any cookies, cake, or ice cream for dessert.", "This choice is incorrect because 'He aint going to want any cookies, cake, or ice cream for dessert.' does not follow the rules.", "This choice is incorrect because 'He isn't going to want any cookies cake or ice cream for dessert.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "For her sixth birthday, she wanted a party at chuck e cheese",
+        choices: ["For her sixth birthday she wanted a party at Chuck E. Cheese's.", "For her sixth birthday, she wanted a party at chuck e cheese.", "For her sixth birthday, she wanted a party at Chuck E. Cheese's.", "For her sixth birthday, she wanted a party at Chuck E. Cheese's. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. For her sixth birthday, she wanted a party at Chuck E. Cheese's.", incorrect: ["This choice is incorrect because 'For her sixth birthday she wanted a party at Chuck E. Cheese's.' does not follow the rules.", "This choice is incorrect because 'For her sixth birthday, she wanted a party at chuck e cheese.' does not follow the rules.", "CORRECT: For her sixth birthday, she wanted a party at Chuck E. Cheese's.", "This choice is incorrect because 'For her sixth birthday, she wanted a party at Chuck E. Cheese's. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The hours of the store was from 900 until 600",
+        choices: ["The hours of the store was from 900 until 600.", "The hours of the store were from 9:00 until 6:00. (wrong)", "The hours of the store were from 9:00 until 6:00. (wrong)", "The hours of the store were from 9:00 until 6:00."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The hours of the store were from 9:00 until 6:00.", incorrect: ["This choice is incorrect because 'The hours of the store was from 900 until 600.' does not follow the rules.", "This choice is incorrect because 'The hours of the store were from 9:00 until 6:00. (wrong)' does not follow the rules.", "This choice is incorrect because 'The hours of the store were from 9:00 until 6:00. (wrong)' does not follow the rules.", "CORRECT: The hours of the store were from 9:00 until 6:00."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Their will be a lunar eclipse on thursday night",
+        choices: ["There will be a lunar eclipse on Thursday night. (wrong)", "There will be a lunar eclipse on thursday night.", "Their will be a lunar eclipse on thursday night.", "There will be a lunar eclipse on Thursday night."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. There will be a lunar eclipse on Thursday night.", incorrect: ["This choice is incorrect because 'There will be a lunar eclipse on Thursday night. (wrong)' does not follow the rules.", "This choice is incorrect because 'There will be a lunar eclipse on thursday night.' does not follow the rules.", "This choice is incorrect because 'Their will be a lunar eclipse on thursday night.' does not follow the rules.", "CORRECT: There will be a lunar eclipse on Thursday night."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I left my glove at the ball field last saturday",
+        choices: ["I left my glove at the ball field last saturday.", "I left my glove at the ball field last saturday.", "I left my glove at the ball field last Saturday.", "I left my glove at the ball field last Saturday. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. I left my glove at the ball field last Saturday.", incorrect: ["This choice is incorrect because 'I left my glove at the ball field last saturday.' does not follow the rules.", "This choice is incorrect because 'I left my glove at the ball field last saturday.' does not follow the rules.", "CORRECT: I left my glove at the ball field last Saturday.", "This choice is incorrect because 'I left my glove at the ball field last Saturday. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The pilot will landed the plane in kalamazoo michigan",
+        choices: ["The pilot will land the plane in Kalamazoo Michigan.", "The pilot will land the plane in Kalamazoo, Michigan. (wrong)", "The pilot will landed the plane in kalamazoo michigan.", "The pilot will land the plane in Kalamazoo, Michigan."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The pilot will land the plane in Kalamazoo, Michigan.", incorrect: ["This choice is incorrect because 'The pilot will land the plane in Kalamazoo Michigan.' does not follow the rules.", "This choice is incorrect because 'The pilot will land the plane in Kalamazoo, Michigan. (wrong)' does not follow the rules.", "This choice is incorrect because 'The pilot will landed the plane in kalamazoo michigan.' does not follow the rules.", "CORRECT: The pilot will land the plane in Kalamazoo, Michigan."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Oscar cant get the present to him until next sunday",
+        choices: ["Oscar cant get the present to him until next Sunday.", "Oscar can't get the present to him until next sunday.", "Oscar cant get the present to him until next sunday.", "Oscar can't get the present to him until next Sunday."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Oscar can't get the present to him until next Sunday.", incorrect: ["This choice is incorrect because 'Oscar cant get the present to him until next Sunday.' does not follow the rules.", "This choice is incorrect because 'Oscar can't get the present to him until next sunday.' does not follow the rules.", "This choice is incorrect because 'Oscar cant get the present to him until next sunday.' does not follow the rules.", "CORRECT: Oscar can't get the present to him until next Sunday."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Him and i went to the san diego zoo last weekend",
+        choices: ["Me and him went to the San Diego Zoo last weekend.", "Him and i went to the san diego zoo last weekend.", "He and I went to the San Diego Zoo last weekend. (wrong)", "He and I went to the San Diego Zoo last weekend."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. He and I went to the San Diego Zoo last weekend.", incorrect: ["This choice is incorrect because 'Me and him went to the San Diego Zoo last weekend.' does not follow the rules.", "This choice is incorrect because 'Him and i went to the san diego zoo last weekend.' does not follow the rules.", "This choice is incorrect because 'He and I went to the San Diego Zoo last weekend. (wrong)' does not follow the rules.", "CORRECT: He and I went to the San Diego Zoo last weekend."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My mother and father has been married since june 14 1997",
+        choices: ["My mother and father has been married since june 14 1997.", "My mother and father have been married since june 14, 1997.", "My mother and father have been married since June 14 1997.", "My mother and father have been married since June 14, 1997."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. My mother and father have been married since June 14, 1997.", incorrect: ["This choice is incorrect because 'My mother and father has been married since june 14 1997.' does not follow the rules.", "This choice is incorrect because 'My mother and father have been married since june 14, 1997.' does not follow the rules.", "This choice is incorrect because 'My mother and father have been married since June 14 1997.' does not follow the rules.", "CORRECT: My mother and father have been married since June 14, 1997."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We will have a surprise 30th birthday party for aaron in august",
+        choices: ["We will have a surprise 30th birthday party for Aaron in august.", "We will have a surprise 30th birthday party for aaron in august.", "We will have a surprise 30th birthday party for Aaron in August. (wrong)", "We will have a surprise 30th birthday party for Aaron in August."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We will have a surprise 30th birthday party for Aaron in August.", incorrect: ["This choice is incorrect because 'We will have a surprise 30th birthday party for Aaron in august.' does not follow the rules.", "This choice is incorrect because 'We will have a surprise 30th birthday party for aaron in august.' does not follow the rules.", "This choice is incorrect because 'We will have a surprise 30th birthday party for Aaron in August. (wrong)' does not follow the rules.", "CORRECT: We will have a surprise 30th birthday party for Aaron in August."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Jane morris was 29 on august 1 2008",
+        choices: ["Jane Morris was 29 on august 1, 2008.", "Jane Morris was 29 on August 1, 2008.", "Jane morris was 29 on august 1 2008.", "Jane Morris was 29 on August 1 2008."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Jane Morris was 29 on August 1, 2008.", incorrect: ["This choice is incorrect because 'Jane Morris was 29 on august 1, 2008.' does not follow the rules.", "CORRECT: Jane Morris was 29 on August 1, 2008.", "This choice is incorrect because 'Jane morris was 29 on august 1 2008.' does not follow the rules.", "This choice is incorrect because 'Jane Morris was 29 on August 1 2008.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Have you ever traveled on a boat bus or train",
+        choices: ["Have you ever traveled on a boat, bus, or train? (wrong)", "Have you ever traveled on a boat, bus, or train?", "Have you ever traveled on a boat bus or train.", "Have you ever traveled on a boat bus or train?"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Have you ever traveled on a boat, bus, or train?", incorrect: ["This choice is incorrect because 'Have you ever traveled on a boat, bus, or train? (wrong)' does not follow the rules.", "CORRECT: Have you ever traveled on a boat, bus, or train?", "This choice is incorrect because 'Have you ever traveled on a boat bus or train.' does not follow the rules.", "This choice is incorrect because 'Have you ever traveled on a boat bus or train?' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He wants to go to seattle washington in october",
+        choices: ["He wants to go to Seattle, Washington, in october.", "He wants to go to Seattle, Washington, in October.", "He wants to go to seattle washington in october.", "He wants to go to Seattle Washington in October."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. He wants to go to Seattle, Washington, in October.", incorrect: ["This choice is incorrect because 'He wants to go to Seattle, Washington, in october.' does not follow the rules.", "CORRECT: He wants to go to Seattle, Washington, in October.", "This choice is incorrect because 'He wants to go to seattle washington in october.' does not follow the rules.", "This choice is incorrect because 'He wants to go to Seattle Washington in October.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dr ellis has brung the prescription to his patient",
+        choices: ["Dr. Ellis has brought the prescription to his patient.", "Dr ellis has brung the prescription to his patient.", "dr. Ellis has brought the prescription to his patient.", "Dr. Ellis has brought the prescription to his patient. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Dr. Ellis has brought the prescription to his patient.", incorrect: ["CORRECT: Dr. Ellis has brought the prescription to his patient.", "This choice is incorrect because 'Dr ellis has brung the prescription to his patient.' does not follow the rules.", "This choice is incorrect because 'dr. Ellis has brought the prescription to his patient.' does not follow the rules.", "This choice is incorrect because 'Dr. Ellis has brought the prescription to his patient. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Austin is the capital of the state of texas",
+        choices: ["Austin is the capital of the state of Texas.", "Austin is the capital of the state of texas.", "Austin is the capital of the state of Texas. (wrong)", "Austin is the capital of the state of Texas. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Austin is the capital of the state of Texas.", incorrect: ["CORRECT: Austin is the capital of the state of Texas.", "This choice is incorrect because 'Austin is the capital of the state of texas.' does not follow the rules.", "This choice is incorrect because 'Austin is the capital of the state of Texas. (wrong)' does not follow the rules.", "This choice is incorrect because 'Austin is the capital of the state of Texas. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The plane is gonna be late it wont arrive until 1206",
+        choices: ["The plane is gonna be late it wont arrive until 1206.", "The plane is going to be late; it won't arrive until 12:06. (wrong)", "The plane is going to be late; it wont arrive until 12:06.", "The plane is going to be late; it won't arrive until 12:06."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The plane is going to be late; it won't arrive until 12:06.", incorrect: ["This choice is incorrect because 'The plane is gonna be late it wont arrive until 1206.' does not follow the rules.", "This choice is incorrect because 'The plane is going to be late; it won't arrive until 12:06. (wrong)' does not follow the rules.", "This choice is incorrect because 'The plane is going to be late; it wont arrive until 12:06.' does not follow the rules.", "CORRECT: The plane is going to be late; it won't arrive until 12:06."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Jose aint got no pencils sharpened",
+        choices: ["Jose hasn't got any pencils sharpened.", "Jose hasn't got any pencils sharpened. (wrong)", "Jose aint got no pencils sharpened.", "Jose hasn't got any pencils sharpened. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Jose hasn't got any pencils sharpened.", incorrect: ["CORRECT: Jose hasn't got any pencils sharpened.", "This choice is incorrect because 'Jose hasn't got any pencils sharpened. (wrong)' does not follow the rules.", "This choice is incorrect because 'Jose aint got no pencils sharpened.' does not follow the rules.", "This choice is incorrect because 'Jose hasn't got any pencils sharpened. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We will see a play called cinderella on tuesday",
+        choices: ["We will see a play called Cinderella on Tuesday.", "We will see a play called cinderella on tuesday.", "We will see a play called Cinderella on tuesday.", "We will see a play called Cinderella on Tuesday. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. We will see a play called Cinderella on Tuesday.", incorrect: ["CORRECT: We will see a play called Cinderella on Tuesday.", "This choice is incorrect because 'We will see a play called cinderella on tuesday.' does not follow the rules.", "This choice is incorrect because 'We will see a play called Cinderella on tuesday.' does not follow the rules.", "This choice is incorrect because 'We will see a play called Cinderella on Tuesday. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mrs jinkins, the librarian, will meets with the class at 830 am",
+        choices: ["Mrs. Jinkins, the librarian, will meet with the class at 8:30 a.m.", "Mrs jinkins, the librarian, will meets with the class at 830 am.", "mrs. Jinkins, the librarian, will meet with the class at 8:30 a.m.", "Mrs. Jinkins the librarian will meet with the class at 8:30 a.m."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Mrs. Jinkins, the librarian, will meet with the class at 8:30 a.m.", incorrect: ["CORRECT: Mrs. Jinkins, the librarian, will meet with the class at 8:30 a.m.", "This choice is incorrect because 'Mrs jinkins, the librarian, will meets with the class at 830 am.' does not follow the rules.", "This choice is incorrect because 'mrs. Jinkins, the librarian, will meet with the class at 8:30 a.m.' does not follow the rules.", "This choice is incorrect because 'Mrs. Jinkins the librarian will meet with the class at 8:30 a.m.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Tom dillion had for dimes two nickels and seven pennies",
+        choices: ["Tom Dillion had four dimes, two nickels, and seven pennies.", "Tom dillion had for dimes two nickels and seven pennies.", "Tom Dillion had four dimes, two nickels, and seven pennies. (wrong)", "Tom Dillion had four dimes two nickels and seven pennies."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Tom Dillion had four dimes, two nickels, and seven pennies.", incorrect: ["CORRECT: Tom Dillion had four dimes, two nickels, and seven pennies.", "This choice is incorrect because 'Tom dillion had for dimes two nickels and seven pennies.' does not follow the rules.", "This choice is incorrect because 'Tom Dillion had four dimes, two nickels, and seven pennies. (wrong)' does not follow the rules.", "This choice is incorrect because 'Tom Dillion had four dimes two nickels and seven pennies.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dont forget to pick up the dry cleaning mother said",
+        choices: ["\"Don't forget to pick up the dry cleaning\" Mother said.", "Dont forget to pick up the dry cleaning mother said.", "\"Don't forget to pick up the dry cleaning,\" mother said.", "\"Don't forget to pick up the dry cleaning,\" Mother said."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. \"Don't forget to pick up the dry cleaning,\" Mother said.", incorrect: ["This choice is incorrect because '\"Don't forget to pick up the dry cleaning\" Mother said.' does not follow the rules.", "This choice is incorrect because 'Dont forget to pick up the dry cleaning mother said.' does not follow the rules.", "This choice is incorrect because '\"Don't forget to pick up the dry cleaning,\" mother said.' does not follow the rules.", "CORRECT: \"Don't forget to pick up the dry cleaning,\" Mother said."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "At what time do the movie start",
+        choices: ["At what time does the movie start?", "At what time do the movie start.", "At what time does the movie start? (wrong)", "At what time does the movie start? (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. At what time does the movie start?", incorrect: ["CORRECT: At what time does the movie start?", "This choice is incorrect because 'At what time do the movie start.' does not follow the rules.", "This choice is incorrect because 'At what time does the movie start? (wrong)' does not follow the rules.", "This choice is incorrect because 'At what time does the movie start? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My dog bailey digs up the flowers plants and grass",
+        choices: ["My dog Bailey digs up the flowers, plants, and grass. (wrong)", "My dog Bailey digs up the flowers, plants, and grass.", "My dog bailey digs up the flowers plants and grass.", "My dog Bailey digs up the flowers plants and grass."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. My dog Bailey digs up the flowers, plants, and grass.", incorrect: ["This choice is incorrect because 'My dog Bailey digs up the flowers, plants, and grass. (wrong)' does not follow the rules.", "CORRECT: My dog Bailey digs up the flowers, plants, and grass.", "This choice is incorrect because 'My dog bailey digs up the flowers plants and grass.' does not follow the rules.", "This choice is incorrect because 'My dog Bailey digs up the flowers plants and grass.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dontcha have anything to trade for lunch",
+        choices: ["Don't you have anything to trade for lunch? (wrong)", "Dontcha have anything to trade for lunch.", "Don't you have anything to trade for lunch?", "Don't you have anything to trade for lunch? (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Don't you have anything to trade for lunch?", incorrect: ["This choice is incorrect because 'Don't you have anything to trade for lunch? (wrong)' does not follow the rules.", "This choice is incorrect because 'Dontcha have anything to trade for lunch.' does not follow the rules.", "CORRECT: Don't you have anything to trade for lunch?", "This choice is incorrect because 'Don't you have anything to trade for lunch? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He wants to know if you is going on the field trip",
+        choices: ["He wants to know if you are going on the field trip. (wrong)", "He wants to know if you are going on the field trip. (wrong)", "He wants to know if you are going on the field trip.", "He wants to know if you is going on the field trip."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. He wants to know if you are going on the field trip.", incorrect: ["This choice is incorrect because 'He wants to know if you are going on the field trip. (wrong)' does not follow the rules.", "This choice is incorrect because 'He wants to know if you are going on the field trip. (wrong)' does not follow the rules.", "CORRECT: He wants to know if you are going on the field trip.", "This choice is incorrect because 'He wants to know if you is going on the field trip.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mrs pope, the music teacher, telled us to bring a pencil to class",
+        choices: ["mrs. Pope, the music teacher, told us to bring a pencil to class.", "Mrs pope, the music teacher, telled us to bring a pencil to class.", "Mrs. Pope, the music teacher, told us to bring a pencil to class.", "Mrs. Pope the music teacher told us to bring a pencil to class."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Mrs. Pope, the music teacher, told us to bring a pencil to class.", incorrect: ["This choice is incorrect because 'mrs. Pope, the music teacher, told us to bring a pencil to class.' does not follow the rules.", "This choice is incorrect because 'Mrs pope, the music teacher, telled us to bring a pencil to class.' does not follow the rules.", "CORRECT: Mrs. Pope, the music teacher, told us to bring a pencil to class.", "This choice is incorrect because 'Mrs. Pope the music teacher told us to bring a pencil to class.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We hopes you have a happy halloween",
+        choices: ["We hope you have a happy Halloween.", "We hopes you have a happy halloween.", "We hope you have a happy Halloween. (wrong)", "We hope you have a happy halloween."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. We hope you have a happy Halloween.", incorrect: ["CORRECT: We hope you have a happy Halloween.", "This choice is incorrect because 'We hopes you have a happy halloween.' does not follow the rules.", "This choice is incorrect because 'We hope you have a happy Halloween. (wrong)' does not follow the rules.", "This choice is incorrect because 'We hope you have a happy halloween.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Harrys shirt is to small for his brother to borrow",
+        choices: ["Harry's shirt is too small for his brother to borrow. (wrong)", "Harry's shirt is too small for his brother to borrow.", "Harrys shirt is to small for his brother to borrow.", "Harry's shirt is too small for his brother to borrow. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Harry's shirt is too small for his brother to borrow.", incorrect: ["This choice is incorrect because 'Harry's shirt is too small for his brother to borrow. (wrong)' does not follow the rules.", "CORRECT: Harry's shirt is too small for his brother to borrow.", "This choice is incorrect because 'Harrys shirt is to small for his brother to borrow.' does not follow the rules.", "This choice is incorrect because 'Harry's shirt is too small for his brother to borrow. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The score of the baseball game was dolphins 14, hawks 7",
+        choices: ["The score of the baseball game was Dolphins 14 Hawks 7.", "The score of the baseball game was Dolphins 14, Hawks 7.", "The score of the baseball game was dolphins 14, hawks 7.", "The score of the baseball game was Dolphins 14, Hawks 7. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The score of the baseball game was Dolphins 14, Hawks 7.", incorrect: ["This choice is incorrect because 'The score of the baseball game was Dolphins 14 Hawks 7.' does not follow the rules.", "CORRECT: The score of the baseball game was Dolphins 14, Hawks 7.", "This choice is incorrect because 'The score of the baseball game was dolphins 14, hawks 7.' does not follow the rules.", "This choice is incorrect because 'The score of the baseball game was Dolphins 14, Hawks 7. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I told dr shirley about a great book called iggy's house",
+        choices: ["I told dr shirley about a great book called iggy's house.", "I told dr. Shirley about a great book called Iggy's House.", "I told Dr. Shirley about a great book called Iggy's House.", "I told Dr. Shirley about a great book called Iggy's House. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. I told Dr. Shirley about a great book called Iggy's House.", incorrect: ["This choice is incorrect because 'I told dr shirley about a great book called iggy's house.' does not follow the rules.", "This choice is incorrect because 'I told dr. Shirley about a great book called Iggy's House.' does not follow the rules.", "CORRECT: I told Dr. Shirley about a great book called Iggy's House.", "This choice is incorrect because 'I told Dr. Shirley about a great book called Iggy's House. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dominique has went to fill up her car with gas at the exxon station",
+        choices: ["Dominique went to fill up her car with gas at the Exxon station. (wrong)", "Dominique went to fill up her car with gas at the Exxon station.", "Dominique has went to fill up her car with gas at the exxon station.", "Dominique went to fill up her car with gas at the Exxon station. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Dominique went to fill up her car with gas at the Exxon station.", incorrect: ["This choice is incorrect because 'Dominique went to fill up her car with gas at the Exxon station. (wrong)' does not follow the rules.", "CORRECT: Dominique went to fill up her car with gas at the Exxon station.", "This choice is incorrect because 'Dominique has went to fill up her car with gas at the exxon station.' does not follow the rules.", "This choice is incorrect because 'Dominique went to fill up her car with gas at the Exxon station. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Have you ever read nickelodeon magazine",
+        choices: ["Have you ever read Nickelodeon Magazine? (wrong)", "Have you ever read nickelodeon magazine.", "Have you ever read Nickelodeon Magazine?", "Have you ever read Nickelodeon Magazine? (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Have you ever read Nickelodeon Magazine?", incorrect: ["This choice is incorrect because 'Have you ever read Nickelodeon Magazine? (wrong)' does not follow the rules.", "This choice is incorrect because 'Have you ever read nickelodeon magazine.' does not follow the rules.", "CORRECT: Have you ever read Nickelodeon Magazine?", "This choice is incorrect because 'Have you ever read Nickelodeon Magazine? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We seen the X-ray the broken bone was in the hand",
+        choices: ["We saw the X-ray; the broken bone was in the hand.", "We saw the X-ray; the broken bone was in the hand. (wrong)", "We saw the X-ray; the broken bone was in the hand. (wrong)", "We seen the X-ray the broken bone was in the hand."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. We saw the X-ray; the broken bone was in the hand.", incorrect: ["CORRECT: We saw the X-ray; the broken bone was in the hand.", "This choice is incorrect because 'We saw the X-ray; the broken bone was in the hand. (wrong)' does not follow the rules.", "This choice is incorrect because 'We saw the X-ray; the broken bone was in the hand. (wrong)' does not follow the rules.", "This choice is incorrect because 'We seen the X-ray the broken bone was in the hand.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I would rather ate spaghetti than pizza for dinner",
+        choices: ["I would rather eat spaghetti than pizza for dinner. (wrong)", "I would rather eat spaghetti than pizza for dinner. (wrong)", "I would rather ate spaghetti than pizza for dinner.", "I would rather eat spaghetti than pizza for dinner."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. I would rather eat spaghetti than pizza for dinner.", incorrect: ["This choice is incorrect because 'I would rather eat spaghetti than pizza for dinner. (wrong)' does not follow the rules.", "This choice is incorrect because 'I would rather eat spaghetti than pizza for dinner. (wrong)' does not follow the rules.", "This choice is incorrect because 'I would rather ate spaghetti than pizza for dinner.' does not follow the rules.", "CORRECT: I would rather eat spaghetti than pizza for dinner."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He went fishing caught three fish and cooked them for dinner",
+        choices: ["He went fishing, caught three fish, and cooked them for dinner.", "He went fishing, caught three fish, and cooked them for dinner. (wrong)", "He went fishing, caught three fish, and cooked them for dinner. (wrong)", "He went fishing caught three fish and cooked them for dinner."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. He went fishing, caught three fish, and cooked them for dinner.", incorrect: ["CORRECT: He went fishing, caught three fish, and cooked them for dinner.", "This choice is incorrect because 'He went fishing, caught three fish, and cooked them for dinner. (wrong)' does not follow the rules.", "This choice is incorrect because 'He went fishing, caught three fish, and cooked them for dinner. (wrong)' does not follow the rules.", "This choice is incorrect because 'He went fishing caught three fish and cooked them for dinner.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We sang the song america, the beautiful in music class",
+        choices: ["We sang the song \"America the Beautiful\" in music class.", "We sang the song america, the beautiful in music class.", "We sang the song \"America, the Beautiful\" in music class. (wrong)", "We sang the song \"America, the Beautiful\" in music class."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We sang the song \"America, the Beautiful\" in music class.", incorrect: ["This choice is incorrect because 'We sang the song \"America the Beautiful\" in music class.' does not follow the rules.", "This choice is incorrect because 'We sang the song america, the beautiful in music class.' does not follow the rules.", "This choice is incorrect because 'We sang the song \"America, the Beautiful\" in music class. (wrong)' does not follow the rules.", "CORRECT: We sang the song \"America, the Beautiful\" in music class."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "David has gave his soccer equipment to jason and i",
+        choices: ["David has given his soccer equipment to Jason and me. (wrong)", "David has given his soccer equipment to Jason and me. (wrong)", "David has gave his soccer equipment to jason and i.", "David has given his soccer equipment to Jason and me."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. David has given his soccer equipment to Jason and me.", incorrect: ["This choice is incorrect because 'David has given his soccer equipment to Jason and me. (wrong)' does not follow the rules.", "This choice is incorrect because 'David has given his soccer equipment to Jason and me. (wrong)' does not follow the rules.", "This choice is incorrect because 'David has gave his soccer equipment to jason and i.' does not follow the rules.", "CORRECT: David has given his soccer equipment to Jason and me."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Students in australia wear uniforms two school",
+        choices: ["Students in Australia wear uniforms to school. (wrong)", "Students in Australia wear uniforms to school.", "Students in australia wear uniforms two school.", "Students in Australia wear uniforms to school. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Students in Australia wear uniforms to school.", incorrect: ["This choice is incorrect because 'Students in Australia wear uniforms to school. (wrong)' does not follow the rules.", "CORRECT: Students in Australia wear uniforms to school.", "This choice is incorrect because 'Students in australia wear uniforms two school.' does not follow the rules.", "This choice is incorrect because 'Students in Australia wear uniforms to school. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "North america includes canada the united states and mexico",
+        choices: ["North America includes Canada, the United States, and Mexico.", "North america includes canada the united states and mexico.", "North America includes Canada, the United States, and Mexico. (wrong)", "North America includes Canada the United States and Mexico."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. North America includes Canada, the United States, and Mexico.", incorrect: ["CORRECT: North America includes Canada, the United States, and Mexico.", "This choice is incorrect because 'North america includes canada the united states and mexico.' does not follow the rules.", "This choice is incorrect because 'North America includes Canada, the United States, and Mexico. (wrong)' does not follow the rules.", "This choice is incorrect because 'North America includes Canada the United States and Mexico.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Amy asked who borrowed my eraser",
+        choices: ["Amy asked \"Who borrowed my eraser?\"", "Amy asked, \"Who borrowed my eraser?\"", "Amy asked, \"Who borrowed my eraser?\" (wrong)", "Amy asked who borrowed my eraser."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Amy asked, \"Who borrowed my eraser?\"", incorrect: ["This choice is incorrect because 'Amy asked \"Who borrowed my eraser?\"' does not follow the rules.", "CORRECT: Amy asked, \"Who borrowed my eraser?\"", "This choice is incorrect because 'Amy asked, \"Who borrowed my eraser?\" (wrong)' does not follow the rules.", "This choice is incorrect because 'Amy asked who borrowed my eraser.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dallas, dans dog, has ate all of his food",
+        choices: ["Dallas, Dan's dog, has eaten all of his food. (wrong)", "Dallas Dan's dog has eaten all of his food.", "Dallas, Dan's dog, has eaten all of his food.", "Dallas, dans dog, has ate all of his food."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Dallas, Dan's dog, has eaten all of his food.", incorrect: ["This choice is incorrect because 'Dallas, Dan's dog, has eaten all of his food. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dallas Dan's dog has eaten all of his food.' does not follow the rules.", "CORRECT: Dallas, Dan's dog, has eaten all of his food.", "This choice is incorrect because 'Dallas, dans dog, has ate all of his food.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Laura and rebecca brung water on they're hike",
+        choices: ["Laura and rebecca brung water on they're hike.", "Laura and Rebecca brought water on their hike. (wrong)", "Laura and Rebecca brought water on their hike.", "Laura and Rebecca brought water on their hike. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Laura and Rebecca brought water on their hike.", incorrect: ["This choice is incorrect because 'Laura and rebecca brung water on they're hike.' does not follow the rules.", "This choice is incorrect because 'Laura and Rebecca brought water on their hike. (wrong)' does not follow the rules.", "CORRECT: Laura and Rebecca brought water on their hike.", "This choice is incorrect because 'Laura and Rebecca brought water on their hike. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Lets ride our bikes to the lake it will take a hour",
+        choices: ["Lets ride our bikes to the lake it will take a hour.", "Let's ride our bikes to the lake; it will take an hour.", "Let's ride our bikes to the lake; it will take an hour. (wrong)", "Let's ride our bikes to the lake; it will take an hour. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Let's ride our bikes to the lake; it will take an hour.", incorrect: ["This choice is incorrect because 'Lets ride our bikes to the lake it will take a hour.' does not follow the rules.", "CORRECT: Let's ride our bikes to the lake; it will take an hour.", "This choice is incorrect because 'Let's ride our bikes to the lake; it will take an hour. (wrong)' does not follow the rules.", "This choice is incorrect because 'Let's ride our bikes to the lake; it will take an hour. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mr poppers penguins is my favorite book",
+        choices: ["Mr. Popper's Penguins is my favorite book. (wrong)", "mr. Popper's Penguins is my favorite book.", "Mr. Popper's Penguins is my favorite book.", "Mr poppers penguins is my favorite book."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Mr. Popper's Penguins is my favorite book.", incorrect: ["This choice is incorrect because 'Mr. Popper's Penguins is my favorite book. (wrong)' does not follow the rules.", "This choice is incorrect because 'mr. Popper's Penguins is my favorite book.' does not follow the rules.", "CORRECT: Mr. Popper's Penguins is my favorite book.", "This choice is incorrect because 'Mr poppers penguins is my favorite book.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Robin and ted have went running for too miles",
+        choices: ["Robin and Ted have gone running for two miles. (wrong)", "Robin and Ted have gone running for two miles.", "Robin and ted have went running for too miles.", "Robin and Ted have gone running for two miles. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Robin and Ted have gone running for two miles.", incorrect: ["This choice is incorrect because 'Robin and Ted have gone running for two miles. (wrong)' does not follow the rules.", "CORRECT: Robin and Ted have gone running for two miles.", "This choice is incorrect because 'Robin and ted have went running for too miles.' does not follow the rules.", "This choice is incorrect because 'Robin and Ted have gone running for two miles. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I go to fielder elementary school",
+        choices: ["I go to Fielder Elementary School.", "I go to Fielder Elementary School. (wrong)", "I go to Fielder Elementary School. (wrong)", "I go to fielder elementary school."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I go to Fielder Elementary School.", incorrect: ["CORRECT: I go to Fielder Elementary School.", "This choice is incorrect because 'I go to Fielder Elementary School. (wrong)' does not follow the rules.", "This choice is incorrect because 'I go to Fielder Elementary School. (wrong)' does not follow the rules.", "This choice is incorrect because 'I go to fielder elementary school.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Are you cheering for the mustangs or the tigers at the football game",
+        choices: ["Are you cheering for the Mustangs or the Tigers at the football game?", "Are you cheering for the mustangs or the tigers at the football game.", "Are you cheering for the Mustangs or the Tigers at the football game? (wrong)", "Are you cheering for the Mustangs or the Tigers at the football game? (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Are you cheering for the Mustangs or the Tigers at the football game?", incorrect: ["CORRECT: Are you cheering for the Mustangs or the Tigers at the football game?", "This choice is incorrect because 'Are you cheering for the mustangs or the tigers at the football game.' does not follow the rules.", "This choice is incorrect because 'Are you cheering for the Mustangs or the Tigers at the football game? (wrong)' does not follow the rules.", "This choice is incorrect because 'Are you cheering for the Mustangs or the Tigers at the football game? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Our family will be in miami florida this christmas",
+        choices: ["Our family will be in Miami, Florida, this Christmas.", "Our family will be in Miami Florida this Christmas.", "Our family will be in miami florida this christmas.", "Our family will be in Miami, Florida, this christmas."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Our family will be in Miami, Florida, this Christmas.", incorrect: ["CORRECT: Our family will be in Miami, Florida, this Christmas.", "This choice is incorrect because 'Our family will be in Miami Florida this Christmas.' does not follow the rules.", "This choice is incorrect because 'Our family will be in miami florida this christmas.' does not follow the rules.", "This choice is incorrect because 'Our family will be in Miami, Florida, this christmas.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Would you learn me to read sign language",
+        choices: ["Would you teach me to read sign language? (wrong)", "Would you teach me to read sign language? (wrong)", "Would you teach me to read sign language?", "Would you learn me to read sign language."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Would you teach me to read sign language?", incorrect: ["This choice is incorrect because 'Would you teach me to read sign language? (wrong)' does not follow the rules.", "This choice is incorrect because 'Would you teach me to read sign language? (wrong)' does not follow the rules.", "CORRECT: Would you teach me to read sign language?", "This choice is incorrect because 'Would you learn me to read sign language.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Yesterday we read a poem called sick by shel silverstein",
+        choices: ["Yesterday we read a poem called \"Sick\" by Shel Silverstein. (wrong)", "Yesterday we read a poem called \"Sick\" by Shel Silverstein. (wrong)", "Yesterday we read a poem called sick by shel silverstein.", "Yesterday we read a poem called \"Sick\" by Shel Silverstein."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Yesterday we read a poem called \"Sick\" by Shel Silverstein.", incorrect: ["This choice is incorrect because 'Yesterday we read a poem called \"Sick\" by Shel Silverstein. (wrong)' does not follow the rules.", "This choice is incorrect because 'Yesterday we read a poem called \"Sick\" by Shel Silverstein. (wrong)' does not follow the rules.", "This choice is incorrect because 'Yesterday we read a poem called sick by shel silverstein.' does not follow the rules.", "CORRECT: Yesterday we read a poem called \"Sick\" by Shel Silverstein."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "April 27 2009 is the day our report is due",
+        choices: ["April 27, 2009, is the day our report is due.", "april 27, 2009, is the day our report is due.", "April 27, 2009, is the day our report is due. (wrong)", "April 27 2009 is the day our report is due."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. April 27, 2009, is the day our report is due.", incorrect: ["CORRECT: April 27, 2009, is the day our report is due.", "This choice is incorrect because 'april 27, 2009, is the day our report is due.' does not follow the rules.", "This choice is incorrect because 'April 27, 2009, is the day our report is due. (wrong)' does not follow the rules.", "This choice is incorrect because 'April 27 2009 is the day our report is due.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dad will be home from his trip on thursday evening said mom",
+        choices: ["\"Dad will be home from his trip on thursday evening,\" said Mom.", "\"Dad will be home from his trip on Thursday evening\" said Mom.", "\"Dad will be home from his trip on Thursday evening,\" said Mom.", "Dad will be home from his trip on thursday evening said mom."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. \"Dad will be home from his trip on Thursday evening,\" said Mom.", incorrect: ["This choice is incorrect because '\"Dad will be home from his trip on thursday evening,\" said Mom.' does not follow the rules.", "This choice is incorrect because '\"Dad will be home from his trip on Thursday evening\" said Mom.' does not follow the rules.", "CORRECT: \"Dad will be home from his trip on Thursday evening,\" said Mom.", "This choice is incorrect because 'Dad will be home from his trip on thursday evening said mom.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The refrigerator door was not closed, and someone leaved the light on",
+        choices: ["The refrigerator door was not closed, and someone leaved the light on.", "The refrigerator door was not closed, and someone left the light on.", "The refrigerator door was not closed, and someone left the light on. (wrong)", "The refrigerator door was not closed and someone left the light on."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The refrigerator door was not closed, and someone left the light on.", incorrect: ["This choice is incorrect because 'The refrigerator door was not closed, and someone leaved the light on.' does not follow the rules.", "CORRECT: The refrigerator door was not closed, and someone left the light on.", "This choice is incorrect because 'The refrigerator door was not closed, and someone left the light on. (wrong)' does not follow the rules.", "This choice is incorrect because 'The refrigerator door was not closed and someone left the light on.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The library has five copies of dear mr henshaw, a great book",
+        choices: ["The library has five copies of Dear mr. Henshaw, a great book.", "The library has five copies of Dear Mr. Henshaw a great book.", "The library has five copies of dear mr henshaw, a great book.", "The library has five copies of Dear Mr. Henshaw, a great book."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The library has five copies of Dear Mr. Henshaw, a great book.", incorrect: ["This choice is incorrect because 'The library has five copies of Dear mr. Henshaw, a great book.' does not follow the rules.", "This choice is incorrect because 'The library has five copies of Dear Mr. Henshaw a great book.' does not follow the rules.", "This choice is incorrect because 'The library has five copies of dear mr henshaw, a great book.' does not follow the rules.", "CORRECT: The library has five copies of Dear Mr. Henshaw, a great book."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We read the talking eggs, a short story, in language class",
+        choices: ["We read \"The Talking Eggs\" a short story in language class.", "We read \"The Talking Eggs,\" a short story, in language class.", "We read \"The Talking Eggs,\" a short story, in language class. (wrong)", "We read the talking eggs, a short story, in language class."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We read \"The Talking Eggs,\" a short story, in language class.", incorrect: ["This choice is incorrect because 'We read \"The Talking Eggs\" a short story in language class.' does not follow the rules.", "CORRECT: We read \"The Talking Eggs,\" a short story, in language class.", "This choice is incorrect because 'We read \"The Talking Eggs,\" a short story, in language class. (wrong)' does not follow the rules.", "This choice is incorrect because 'We read the talking eggs, a short story, in language class.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "This summer we is going to camp illahee in the appalachian mountains",
+        choices: ["This summer we is going to camp illahee in the appalachian mountains.", "This summer we are going to Camp Illahee in the Appalachian Mountains.", "This summer we are going to Camp Illahee in the Appalachian Mountains. (wrong)", "This summer we are going to Camp Illahee in the Appalachian Mountains. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. This summer we are going to Camp Illahee in the Appalachian Mountains.", incorrect: ["This choice is incorrect because 'This summer we is going to camp illahee in the appalachian mountains.' does not follow the rules.", "CORRECT: This summer we are going to Camp Illahee in the Appalachian Mountains.", "This choice is incorrect because 'This summer we are going to Camp Illahee in the Appalachian Mountains. (wrong)' does not follow the rules.", "This choice is incorrect because 'This summer we are going to Camp Illahee in the Appalachian Mountains. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Frank ann and robert are going to see the movie at 445",
+        choices: ["Frank Ann and Robert are going to see the movie at 4:45.", "Frank ann and robert are going to see the movie at 445.", "Frank, Ann, and Robert are going to see the movie at 4:45.", "Frank, Ann, and Robert are going to see the movie at 4:45. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Frank, Ann, and Robert are going to see the movie at 4:45.", incorrect: ["This choice is incorrect because 'Frank Ann and Robert are going to see the movie at 4:45.' does not follow the rules.", "This choice is incorrect because 'Frank ann and robert are going to see the movie at 445.' does not follow the rules.", "CORRECT: Frank, Ann, and Robert are going to see the movie at 4:45.", "This choice is incorrect because 'Frank, Ann, and Robert are going to see the movie at 4:45. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Please tell me your phone number i will call you tonight",
+        choices: ["Please tell me your phone number; I will call you tonight. (wrong)", "Please tell me your phone number; I will call you tonight.", "Please tell me your phone number i will call you tonight.", "Please tell me your phone number; I will call you tonight. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Please tell me your phone number; I will call you tonight.", incorrect: ["This choice is incorrect because 'Please tell me your phone number; I will call you tonight. (wrong)' does not follow the rules.", "CORRECT: Please tell me your phone number; I will call you tonight.", "This choice is incorrect because 'Please tell me your phone number i will call you tonight.' does not follow the rules.", "This choice is incorrect because 'Please tell me your phone number; I will call you tonight. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mr thomas and mr smythe will visit the museum tomorrow",
+        choices: ["Mr. Thomas and Mr. Smythe will visit the museum tomorrow.", "mr. Thomas and mr. Smythe will visit the museum tomorrow.", "Mr thomas and mr smythe will visit the museum tomorrow.", "Mr. Thomas and Mr. Smythe will visit the museum tomorrow. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Mr. Thomas and Mr. Smythe will visit the museum tomorrow.", incorrect: ["CORRECT: Mr. Thomas and Mr. Smythe will visit the museum tomorrow.", "This choice is incorrect because 'mr. Thomas and mr. Smythe will visit the museum tomorrow.' does not follow the rules.", "This choice is incorrect because 'Mr thomas and mr smythe will visit the museum tomorrow.' does not follow the rules.", "This choice is incorrect because 'Mr. Thomas and Mr. Smythe will visit the museum tomorrow. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My favorite restaurant is burger king",
+        choices: ["My favorite restaurant is Burger King. (wrong)", "My favorite restaurant is Burger King. (wrong)", "My favorite restaurant is burger king.", "My favorite restaurant is Burger King."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. My favorite restaurant is Burger King.", incorrect: ["This choice is incorrect because 'My favorite restaurant is Burger King. (wrong)' does not follow the rules.", "This choice is incorrect because 'My favorite restaurant is Burger King. (wrong)' does not follow the rules.", "This choice is incorrect because 'My favorite restaurant is burger king.' does not follow the rules.", "CORRECT: My favorite restaurant is Burger King."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The country that we are studying in social studies class is italy",
+        choices: ["The country that we are studying in social studies class is Italy. (wrong)", "The country that we are studying in social studies class is Italy. (wrong)", "The country that we are studying in social studies class is italy.", "The country that we are studying in social studies class is Italy."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The country that we are studying in social studies class is Italy.", incorrect: ["This choice is incorrect because 'The country that we are studying in social studies class is Italy. (wrong)' does not follow the rules.", "This choice is incorrect because 'The country that we are studying in social studies class is Italy. (wrong)' does not follow the rules.", "This choice is incorrect because 'The country that we are studying in social studies class is italy.' does not follow the rules.", "CORRECT: The country that we are studying in social studies class is Italy."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We aint never hiked down the grand canyon",
+        choices: ["We haven't ever hiked down the Grand Canyon. (wrong)", "We haven't ever hiked down the Grand Canyon. (wrong)", "We aint never hiked down the grand canyon.", "We haven't ever hiked down the Grand Canyon."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We haven't ever hiked down the Grand Canyon.", incorrect: ["This choice is incorrect because 'We haven't ever hiked down the Grand Canyon. (wrong)' does not follow the rules.", "This choice is incorrect because 'We haven't ever hiked down the Grand Canyon. (wrong)' does not follow the rules.", "This choice is incorrect because 'We aint never hiked down the grand canyon.' does not follow the rules.", "CORRECT: We haven't ever hiked down the Grand Canyon."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Aunt martha sent us a gift for hanukkah",
+        choices: ["Aunt Martha sent us a gift for Hanukkah. (wrong)", "Aunt Martha sent us a gift for Hanukkah. (wrong)", "Aunt martha sent us a gift for hanukkah.", "Aunt Martha sent us a gift for Hanukkah."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Aunt Martha sent us a gift for Hanukkah.", incorrect: ["This choice is incorrect because 'Aunt Martha sent us a gift for Hanukkah. (wrong)' does not follow the rules.", "This choice is incorrect because 'Aunt Martha sent us a gift for Hanukkah. (wrong)' does not follow the rules.", "This choice is incorrect because 'Aunt martha sent us a gift for hanukkah.' does not follow the rules.", "CORRECT: Aunt Martha sent us a gift for Hanukkah."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Would you like bread with your salad",
+        choices: ["Would you like bread with your salad?", "Would you like bread with your salad? (wrong)", "Would you like bread with your salad.", "Would you like bread with your salad? (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Would you like bread with your salad?", incorrect: ["CORRECT: Would you like bread with your salad?", "This choice is incorrect because 'Would you like bread with your salad? (wrong)' does not follow the rules.", "This choice is incorrect because 'Would you like bread with your salad.' does not follow the rules.", "This choice is incorrect because 'Would you like bread with your salad? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does you needs help with changing the bicycle tire",
+        choices: ["Does you needs help with changing the bicycle tire.", "Do you need help with changing the bicycle tire? (wrong)", "Do you need help with changing the bicycle tire? (wrong)", "Do you need help with changing the bicycle tire?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Do you need help with changing the bicycle tire?", incorrect: ["This choice is incorrect because 'Does you needs help with changing the bicycle tire.' does not follow the rules.", "This choice is incorrect because 'Do you need help with changing the bicycle tire? (wrong)' does not follow the rules.", "This choice is incorrect because 'Do you need help with changing the bicycle tire? (wrong)' does not follow the rules.", "CORRECT: Do you need help with changing the bicycle tire?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and her moved into a apartment to save money",
+        choices: ["Her and me moved into an apartment to save money.", "She and I moved into an apartment to save money. (wrong)", "Me and her moved into a apartment to save money.", "She and I moved into an apartment to save money."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. She and I moved into an apartment to save money.", incorrect: ["This choice is incorrect because 'Her and me moved into an apartment to save money.' does not follow the rules.", "This choice is incorrect because 'She and I moved into an apartment to save money. (wrong)' does not follow the rules.", "This choice is incorrect because 'Me and her moved into a apartment to save money.' does not follow the rules.", "CORRECT: She and I moved into an apartment to save money."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "How many words a minute can you type asked the secretary",
+        choices: ["How many words a minute can you type asked the secretary.", "\"How many words a minute can you type?\" asked the secretary.", "\"How many words a minute can you type?\" asked the secretary. (wrong)", "\"How many words a minute can you type?\" asked the secretary. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. \"How many words a minute can you type?\" asked the secretary.", incorrect: ["This choice is incorrect because 'How many words a minute can you type asked the secretary.' does not follow the rules.", "CORRECT: \"How many words a minute can you type?\" asked the secretary.", "This choice is incorrect because '\"How many words a minute can you type?\" asked the secretary. (wrong)' does not follow the rules.", "This choice is incorrect because '\"How many words a minute can you type?\" asked the secretary. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The cashier rang up carrots pickles and pineapples",
+        choices: ["The cashier rang up carrots, pickles, and pineapples. (wrong)", "The cashier rang up carrots, pickles, and pineapples. (wrong)", "The cashier rang up carrots pickles and pineapples.", "The cashier rang up carrots, pickles, and pineapples."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The cashier rang up carrots, pickles, and pineapples.", incorrect: ["This choice is incorrect because 'The cashier rang up carrots, pickles, and pineapples. (wrong)' does not follow the rules.", "This choice is incorrect because 'The cashier rang up carrots, pickles, and pineapples. (wrong)' does not follow the rules.", "This choice is incorrect because 'The cashier rang up carrots pickles and pineapples.' does not follow the rules.", "CORRECT: The cashier rang up carrots, pickles, and pineapples."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Her dog is trained to do for tricks",
+        choices: ["Her dog is trained to do four tricks. (wrong)", "Her dog is trained to do four tricks.", "Her dog is trained to do for tricks.", "Her dog is trained to do four tricks. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Her dog is trained to do four tricks.", incorrect: ["This choice is incorrect because 'Her dog is trained to do four tricks. (wrong)' does not follow the rules.", "CORRECT: Her dog is trained to do four tricks.", "This choice is incorrect because 'Her dog is trained to do for tricks.' does not follow the rules.", "This choice is incorrect because 'Her dog is trained to do four tricks. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dana asked who is in charge here",
+        choices: ["Dana asked who is in charge here.", "Dana asked \"Who is in charge here?\"", "Dana asked, \"Who is in charge here?\" (wrong)", "Dana asked, \"Who is in charge here?\""],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Dana asked, \"Who is in charge here?\"", incorrect: ["This choice is incorrect because 'Dana asked who is in charge here.' does not follow the rules.", "This choice is incorrect because 'Dana asked \"Who is in charge here?\"' does not follow the rules.", "This choice is incorrect because 'Dana asked, \"Who is in charge here?\" (wrong)' does not follow the rules.", "CORRECT: Dana asked, \"Who is in charge here?\""] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Henry couldnt remember the combination to his lock",
+        choices: ["Henry couldn't remember the combination to his lock.", "Henry couldnt remember the combination to his lock.", "Henry couldn't remember the combination to his lock. (wrong)", "Henry couldn't remember the combination to his lock. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Henry couldn't remember the combination to his lock.", incorrect: ["CORRECT: Henry couldn't remember the combination to his lock.", "This choice is incorrect because 'Henry couldnt remember the combination to his lock.' does not follow the rules.", "This choice is incorrect because 'Henry couldn't remember the combination to his lock. (wrong)' does not follow the rules.", "This choice is incorrect because 'Henry couldn't remember the combination to his lock. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Red yellow and blue are primary colors",
+        choices: ["Red, yellow, and blue are primary colors. (wrong)", "Red yellow and blue are primary colors.", "Red, yellow, and blue are primary colors.", "Red, yellow, and blue are primary colors. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Red, yellow, and blue are primary colors.", incorrect: ["This choice is incorrect because 'Red, yellow, and blue are primary colors. (wrong)' does not follow the rules.", "This choice is incorrect because 'Red yellow and blue are primary colors.' does not follow the rules.", "CORRECT: Red, yellow, and blue are primary colors.", "This choice is incorrect because 'Red, yellow, and blue are primary colors. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "It was time for dinner i set the table",
+        choices: ["It was time for dinner; I set the table. (wrong)", "It was time for dinner; I set the table. (wrong)", "It was time for dinner i set the table.", "It was time for dinner; I set the table."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. It was time for dinner; I set the table.", incorrect: ["This choice is incorrect because 'It was time for dinner; I set the table. (wrong)' does not follow the rules.", "This choice is incorrect because 'It was time for dinner; I set the table. (wrong)' does not follow the rules.", "This choice is incorrect because 'It was time for dinner i set the table.' does not follow the rules.", "CORRECT: It was time for dinner; I set the table."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Have you read the enormous crocodile, a book by roald dahl",
+        choices: ["Have you read the enormous crocodile, a book by roald dahl.", "Have you read The Enormous Crocodile, a book by Roald Dahl? (wrong)", "Have you read The Enormous Crocodile, a book by Roald Dahl?", "Have you read The Enormous Crocodile a book by Roald Dahl?"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Have you read The Enormous Crocodile, a book by Roald Dahl?", incorrect: ["This choice is incorrect because 'Have you read the enormous crocodile, a book by roald dahl.' does not follow the rules.", "This choice is incorrect because 'Have you read The Enormous Crocodile, a book by Roald Dahl? (wrong)' does not follow the rules.", "CORRECT: Have you read The Enormous Crocodile, a book by Roald Dahl?", "This choice is incorrect because 'Have you read The Enormous Crocodile a book by Roald Dahl?' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I really like to listen to music while I jog",
+        choices: ["I really like to listen to music while I jog.", "I really like to listen to music while I jog. (wrong)", "I really like to listen to music while I jog.", "I really like to listen to music while I jog. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I really like to listen to music while I jog.", incorrect: ["CORRECT: I really like to listen to music while I jog.", "This choice is incorrect because 'I really like to listen to music while I jog. (wrong)' does not follow the rules.", "This choice is incorrect because 'I really like to listen to music while I jog.' does not follow the rules.", "This choice is incorrect because 'I really like to listen to music while I jog. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Pedro, the owner, walked marsha and me to our table",
+        choices: ["Pedro, the owner, walked Marsha and me to our table.", "Pedro, the owner, walked Marsha and me to our table. (wrong)", "Pedro the owner walked Marsha and me to our table.", "Pedro, the owner, walked marsha and me to our table."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Pedro, the owner, walked Marsha and me to our table.", incorrect: ["CORRECT: Pedro, the owner, walked Marsha and me to our table.", "This choice is incorrect because 'Pedro, the owner, walked Marsha and me to our table. (wrong)' does not follow the rules.", "This choice is incorrect because 'Pedro the owner walked Marsha and me to our table.' does not follow the rules.", "This choice is incorrect because 'Pedro, the owner, walked marsha and me to our table.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "If i give you five nickels, will you give me a quarter",
+        choices: ["If I give you five nickels, will you give me a quarter?", "If I give you five nickels, will you give me a quarter? (wrong)", "If I give you five nickels will you give me a quarter?", "If i give you five nickels, will you give me a quarter."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. If I give you five nickels, will you give me a quarter?", incorrect: ["CORRECT: If I give you five nickels, will you give me a quarter?", "This choice is incorrect because 'If I give you five nickels, will you give me a quarter? (wrong)' does not follow the rules.", "This choice is incorrect because 'If I give you five nickels will you give me a quarter?' does not follow the rules.", "This choice is incorrect because 'If i give you five nickels, will you give me a quarter.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Did allison broke her leg yesterday",
+        choices: ["Did Allison break her leg yesterday? (wrong)", "Did allison broke her leg yesterday.", "Did Allison break her leg yesterday? (wrong)", "Did Allison break her leg yesterday?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Did Allison break her leg yesterday?", incorrect: ["This choice is incorrect because 'Did Allison break her leg yesterday? (wrong)' does not follow the rules.", "This choice is incorrect because 'Did allison broke her leg yesterday.' does not follow the rules.", "This choice is incorrect because 'Did Allison break her leg yesterday? (wrong)' does not follow the rules.", "CORRECT: Did Allison break her leg yesterday?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Shelton watched as the zookeeper feeds the animals",
+        choices: ["Shelton watched as the zookeeper fed the animals.", "Shelton watched as the zookeeper feeds the animals.", "Shelton watched as the zookeeper fed the animals. (wrong)", "Shelton watched as the zookeeper fed the animals. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Shelton watched as the zookeeper fed the animals.", incorrect: ["CORRECT: Shelton watched as the zookeeper fed the animals.", "This choice is incorrect because 'Shelton watched as the zookeeper feeds the animals.' does not follow the rules.", "This choice is incorrect because 'Shelton watched as the zookeeper fed the animals. (wrong)' does not follow the rules.", "This choice is incorrect because 'Shelton watched as the zookeeper fed the animals. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Did you remember to pack a toothbrush nightgown and bathing suit",
+        choices: ["Did you remember to pack a toothbrush, nightgown, and bathing suit? (wrong)", "Did you remember to pack a toothbrush nightgown and bathing suit.", "Did you remember to pack a toothbrush nightgown and bathing suit?", "Did you remember to pack a toothbrush, nightgown, and bathing suit?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Did you remember to pack a toothbrush, nightgown, and bathing suit?", incorrect: ["This choice is incorrect because 'Did you remember to pack a toothbrush, nightgown, and bathing suit? (wrong)' does not follow the rules.", "This choice is incorrect because 'Did you remember to pack a toothbrush nightgown and bathing suit.' does not follow the rules.", "This choice is incorrect because 'Did you remember to pack a toothbrush nightgown and bathing suit?' does not follow the rules.", "CORRECT: Did you remember to pack a toothbrush, nightgown, and bathing suit?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Derrick his favorite subject is art",
+        choices: ["Derrick's favorite subject is art. (wrong)", "Derrick his favorite subject is art.", "Derrick's favorite subject is art. (wrong)", "Derrick's favorite subject is art."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Derrick's favorite subject is art.", incorrect: ["This choice is incorrect because 'Derrick's favorite subject is art. (wrong)' does not follow the rules.", "This choice is incorrect because 'Derrick his favorite subject is art.' does not follow the rules.", "This choice is incorrect because 'Derrick's favorite subject is art. (wrong)' does not follow the rules.", "CORRECT: Derrick's favorite subject is art."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and sam want to help mrs james wash her car",
+        choices: ["Sam and I want to help Mrs. James wash her car. (wrong)", "Sam and I want to help mrs. James wash her car.", "Sam and I want to help Mrs. James wash her car.", "Me and sam want to help mrs james wash her car."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Sam and I want to help Mrs. James wash her car.", incorrect: ["This choice is incorrect because 'Sam and I want to help Mrs. James wash her car. (wrong)' does not follow the rules.", "This choice is incorrect because 'Sam and I want to help mrs. James wash her car.' does not follow the rules.", "CORRECT: Sam and I want to help Mrs. James wash her car.", "This choice is incorrect because 'Me and sam want to help mrs james wash her car.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Have you ever been on a airplane",
+        choices: ["Have you ever been on an airplane? (wrong)", "Have you ever been on an airplane? (wrong)", "Have you ever been on a airplane.", "Have you ever been on an airplane?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Have you ever been on an airplane?", incorrect: ["This choice is incorrect because 'Have you ever been on an airplane? (wrong)' does not follow the rules.", "This choice is incorrect because 'Have you ever been on an airplane? (wrong)' does not follow the rules.", "This choice is incorrect because 'Have you ever been on a airplane.' does not follow the rules.", "CORRECT: Have you ever been on an airplane?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Helen keller was learned how to use sign language when she was for",
+        choices: ["Helen Keller was taught how to use sign language when she was four. (wrong)", "Helen Keller was taught how to use sign language when she was four.", "Helen Keller was taught how to use sign language when she was four. (wrong)", "Helen keller was learned how to use sign language when she was for."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Helen Keller was taught how to use sign language when she was four.", incorrect: ["This choice is incorrect because 'Helen Keller was taught how to use sign language when she was four. (wrong)' does not follow the rules.", "CORRECT: Helen Keller was taught how to use sign language when she was four.", "This choice is incorrect because 'Helen Keller was taught how to use sign language when she was four. (wrong)' does not follow the rules.", "This choice is incorrect because 'Helen keller was learned how to use sign language when she was for.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The elephant drawed water in using his trunk he sprayed it on his back",
+        choices: ["The elephant drew water in using his trunk; he sprayed it on his back. (wrong)", "The elephant drew water in using his trunk; he sprayed it on his back.", "The elephant drew water in using his trunk; he sprayed it on his back. (wrong)", "The elephant drawed water in using his trunk he sprayed it on his back."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The elephant drew water in using his trunk; he sprayed it on his back.", incorrect: ["This choice is incorrect because 'The elephant drew water in using his trunk; he sprayed it on his back. (wrong)' does not follow the rules.", "CORRECT: The elephant drew water in using his trunk; he sprayed it on his back.", "This choice is incorrect because 'The elephant drew water in using his trunk; he sprayed it on his back. (wrong)' does not follow the rules.", "This choice is incorrect because 'The elephant drawed water in using his trunk he sprayed it on his back.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Doesnt you have to brothers and one sister",
+        choices: ["Don't you have two brothers and one sister? (wrong)", "Don't you have two brothers and one sister?", "Doesnt you have to brothers and one sister.", "Don't you have two brothers and one sister? (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Don't you have two brothers and one sister?", incorrect: ["This choice is incorrect because 'Don't you have two brothers and one sister? (wrong)' does not follow the rules.", "CORRECT: Don't you have two brothers and one sister?", "This choice is incorrect because 'Doesnt you have to brothers and one sister.' does not follow the rules.", "This choice is incorrect because 'Don't you have two brothers and one sister? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Please stand in line for the picture said the teacher",
+        choices: ["\"Please stand in line for the picture,\" said the teacher.", "Please stand in line for the picture said the teacher.", "\"Please stand in line for the picture,\" said the teacher. (wrong)", "\"Please stand in line for the picture\" said the teacher."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. \"Please stand in line for the picture,\" said the teacher.", incorrect: ["CORRECT: \"Please stand in line for the picture,\" said the teacher.", "This choice is incorrect because 'Please stand in line for the picture said the teacher.' does not follow the rules.", "This choice is incorrect because '\"Please stand in line for the picture,\" said the teacher. (wrong)' does not follow the rules.", "This choice is incorrect because '\"Please stand in line for the picture\" said the teacher.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The teacher has brung her chair out to recess she want to read in the fresh air",
+        choices: ["The teacher brought her chair out to recess. She wants to read in the fresh air.", "The teacher brought her chair out to recess. She wants to read in the fresh air. (wrong)", "The teacher has brung her chair out to recess she want to read in the fresh air.", "The teacher brought her chair out to recess. She wants to read in the fresh air. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The teacher brought her chair out to recess. She wants to read in the fresh air.", incorrect: ["CORRECT: The teacher brought her chair out to recess. She wants to read in the fresh air.", "This choice is incorrect because 'The teacher brought her chair out to recess. She wants to read in the fresh air. (wrong)' does not follow the rules.", "This choice is incorrect because 'The teacher has brung her chair out to recess she want to read in the fresh air.' does not follow the rules.", "This choice is incorrect because 'The teacher brought her chair out to recess. She wants to read in the fresh air. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Lorie yelled hold that door open for me",
+        choices: ["Lorie yelled \"Hold that door open for me!\"", "Lorie yelled hold that door open for me.", "Lorie yelled, \"Hold that door open for me!\"", "Lorie yelled, \"Hold that door open for me!\" (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Lorie yelled, \"Hold that door open for me!\"", incorrect: ["This choice is incorrect because 'Lorie yelled \"Hold that door open for me!\"' does not follow the rules.", "This choice is incorrect because 'Lorie yelled hold that door open for me.' does not follow the rules.", "CORRECT: Lorie yelled, \"Hold that door open for me!\"", "This choice is incorrect because 'Lorie yelled, \"Hold that door open for me!\" (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The bunny was fed carrots lettuce and radishes",
+        choices: ["The bunny was fed carrots, lettuce, and radishes.", "The bunny was fed carrots, lettuce, and radishes. (wrong)", "The bunny was fed carrots, lettuce, and radishes. (wrong)", "The bunny was fed carrots lettuce and radishes."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The bunny was fed carrots, lettuce, and radishes.", incorrect: ["CORRECT: The bunny was fed carrots, lettuce, and radishes.", "This choice is incorrect because 'The bunny was fed carrots, lettuce, and radishes. (wrong)' does not follow the rules.", "This choice is incorrect because 'The bunny was fed carrots, lettuce, and radishes. (wrong)' does not follow the rules.", "This choice is incorrect because 'The bunny was fed carrots lettuce and radishes.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We have studied mars venus and mercury in science",
+        choices: ["We have studied mars venus and mercury in science.", "We have studied Mars Venus and Mercury in science.", "We have studied Mars, Venus, and Mercury in science. (wrong)", "We have studied Mars, Venus, and Mercury in science."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We have studied Mars, Venus, and Mercury in science.", incorrect: ["This choice is incorrect because 'We have studied mars venus and mercury in science.' does not follow the rules.", "This choice is incorrect because 'We have studied Mars Venus and Mercury in science.' does not follow the rules.", "This choice is incorrect because 'We have studied Mars, Venus, and Mercury in science. (wrong)' does not follow the rules.", "CORRECT: We have studied Mars, Venus, and Mercury in science."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and you can order a pizza from domino's",
+        choices: ["You and I can order a pizza from Domino's. (wrong)", "Me and you can order a pizza from domino's.", "You and I can order a pizza from Domino's. (wrong)", "You and I can order a pizza from Domino's."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. You and I can order a pizza from Domino's.", incorrect: ["This choice is incorrect because 'You and I can order a pizza from Domino's. (wrong)' does not follow the rules.", "This choice is incorrect because 'Me and you can order a pizza from domino's.' does not follow the rules.", "This choice is incorrect because 'You and I can order a pizza from Domino's. (wrong)' does not follow the rules.", "CORRECT: You and I can order a pizza from Domino's."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Have you read the book ramona the pest",
+        choices: ["Have you read the book ramona the pest.", "Have you read the book Ramona the Pest?", "Have you read the book Ramona the Pest? (wrong)", "Have you read the book Ramona the Pest? (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Have you read the book Ramona the Pest?", incorrect: ["This choice is incorrect because 'Have you read the book ramona the pest.' does not follow the rules.", "CORRECT: Have you read the book Ramona the Pest?", "This choice is incorrect because 'Have you read the book Ramona the Pest? (wrong)' does not follow the rules.", "This choice is incorrect because 'Have you read the book Ramona the Pest? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "How much money do you have left from lunch",
+        choices: ["How much money do you have left from lunch? (wrong)", "How much money do you have left from lunch?", "How much money do you have left from lunch.", "How much money do you have left from lunch? (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. How much money do you have left from lunch?", incorrect: ["This choice is incorrect because 'How much money do you have left from lunch? (wrong)' does not follow the rules.", "CORRECT: How much money do you have left from lunch?", "This choice is incorrect because 'How much money do you have left from lunch.' does not follow the rules.", "This choice is incorrect because 'How much money do you have left from lunch? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "They has a truck a car and a bike in there",
+        choices: ["They have a truck a car and a bike in there.", "They have a truck, a car, and a bike in there.", "They has a truck a car and a bike in there.", "They have a truck, a car, and a bike in there. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. They have a truck, a car, and a bike in there.", incorrect: ["This choice is incorrect because 'They have a truck a car and a bike in there.' does not follow the rules.", "CORRECT: They have a truck, a car, and a bike in there.", "This choice is incorrect because 'They has a truck a car and a bike in there.' does not follow the rules.", "This choice is incorrect because 'They have a truck, a car, and a bike in there. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Blake thompson played the entire game with a hurt finger",
+        choices: ["Blake Thompson played the entire game with a hurt finger. (wrong)", "Blake Thompson played the entire game with a hurt finger. (wrong)", "Blake Thompson played the entire game with a hurt finger.", "Blake thompson played the entire game with a hurt finger."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Blake Thompson played the entire game with a hurt finger.", incorrect: ["This choice is incorrect because 'Blake Thompson played the entire game with a hurt finger. (wrong)' does not follow the rules.", "This choice is incorrect because 'Blake Thompson played the entire game with a hurt finger. (wrong)' does not follow the rules.", "CORRECT: Blake Thompson played the entire game with a hurt finger.", "This choice is incorrect because 'Blake thompson played the entire game with a hurt finger.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He are a great artist exclaimed cheng",
+        choices: ["\"He is a great artist!\" exclaimed Cheng. (wrong)", "He are a great artist exclaimed cheng.", "\"He is a great artist!\" exclaimed Cheng.", "\"He is a great artist!\" exclaimed Cheng. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. \"He is a great artist!\" exclaimed Cheng.", incorrect: ["This choice is incorrect because '\"He is a great artist!\" exclaimed Cheng. (wrong)' does not follow the rules.", "This choice is incorrect because 'He are a great artist exclaimed cheng.' does not follow the rules.", "CORRECT: \"He is a great artist!\" exclaimed Cheng.", "This choice is incorrect because '\"He is a great artist!\" exclaimed Cheng. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Hurricane hugo hit charlotte north carolina and caused damage",
+        choices: ["Hurricane Hugo hit Charlotte, North Carolina, and caused damage. (wrong)", "Hurricane Hugo hit Charlotte, North Carolina, and caused damage.", "Hurricane Hugo hit Charlotte North Carolina and caused damage.", "Hurricane hugo hit charlotte north carolina and caused damage."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Hurricane Hugo hit Charlotte, North Carolina, and caused damage.", incorrect: ["This choice is incorrect because 'Hurricane Hugo hit Charlotte, North Carolina, and caused damage. (wrong)' does not follow the rules.", "CORRECT: Hurricane Hugo hit Charlotte, North Carolina, and caused damage.", "This choice is incorrect because 'Hurricane Hugo hit Charlotte North Carolina and caused damage.' does not follow the rules.", "This choice is incorrect because 'Hurricane hugo hit charlotte north carolina and caused damage.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I hope it dont rain on saturday",
+        choices: ["I hope it dont rain on saturday.", "I hope it doesn't rain on Saturday.", "I hope it dont rain on Saturday.", "I hope it doesn't rain on saturday."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. I hope it doesn't rain on Saturday.", incorrect: ["This choice is incorrect because 'I hope it dont rain on saturday.' does not follow the rules.", "CORRECT: I hope it doesn't rain on Saturday.", "This choice is incorrect because 'I hope it dont rain on Saturday.' does not follow the rules.", "This choice is incorrect because 'I hope it doesn't rain on saturday.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "You can depend on mother picking you up on time",
+        choices: ["You can depend on Mother picking you up on time.", "You can depend on mother picking you up on time.", "You can depend on Mother picking you up on time. (wrong)", "You can depend on mother picking you up on time."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. You can depend on Mother picking you up on time.", incorrect: ["CORRECT: You can depend on Mother picking you up on time.", "This choice is incorrect because 'You can depend on mother picking you up on time.' does not follow the rules.", "This choice is incorrect because 'You can depend on Mother picking you up on time. (wrong)' does not follow the rules.", "This choice is incorrect because 'You can depend on mother picking you up on time.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dont forget you're appointment with dr hammersmith on tuesday at 400",
+        choices: ["Don't forget your appointment with Dr. Hammersmith on Tuesday at 4:00. (wrong)", "Don't forget your appointment with dr. Hammersmith on tuesday at 4:00.", "Dont forget you're appointment with dr hammersmith on tuesday at 400.", "Don't forget your appointment with Dr. Hammersmith on Tuesday at 4:00."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Don't forget your appointment with Dr. Hammersmith on Tuesday at 4:00.", incorrect: ["This choice is incorrect because 'Don't forget your appointment with Dr. Hammersmith on Tuesday at 4:00. (wrong)' does not follow the rules.", "This choice is incorrect because 'Don't forget your appointment with dr. Hammersmith on tuesday at 4:00.' does not follow the rules.", "This choice is incorrect because 'Dont forget you're appointment with dr hammersmith on tuesday at 400.' does not follow the rules.", "CORRECT: Don't forget your appointment with Dr. Hammersmith on Tuesday at 4:00."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dorothy brung the gift to her friends party",
+        choices: ["Dorothy brought the gift to her friend's party.", "Dorothy brought the gift to her friend's party. (wrong)", "Dorothy brung the gift to her friends party.", "Dorothy brought the gift to her friend's party. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Dorothy brought the gift to her friend's party.", incorrect: ["CORRECT: Dorothy brought the gift to her friend's party.", "This choice is incorrect because 'Dorothy brought the gift to her friend's party. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dorothy brung the gift to her friends party.' does not follow the rules.", "This choice is incorrect because 'Dorothy brought the gift to her friend's party. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "How did this happen asked mrs barber",
+        choices: ["\"How did this happen?\" asked mrs. Barber.", "How did this happen asked mrs barber.", "\"How did this happen?\" asked Mrs. Barber.", "\"How did this happen?\" asked Mrs. Barber. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. \"How did this happen?\" asked Mrs. Barber.", incorrect: ["This choice is incorrect because '\"How did this happen?\" asked mrs. Barber.' does not follow the rules.", "This choice is incorrect because 'How did this happen asked mrs barber.' does not follow the rules.", "CORRECT: \"How did this happen?\" asked Mrs. Barber.", "This choice is incorrect because '\"How did this happen?\" asked Mrs. Barber. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Andrew forgot his lunch box at school every day",
+        choices: ["Andrew forgot his lunch box at school every day.", "Andrew forgets his lunch box at school every day. (or: Andrew forgot his lunch box at school yesterday.)", "Andrew forgets his lunch box at school every day. (or: Andrew forgot his lunch box at school yesterday.) (wrong)", "Andrew forgets his lunch box at school every day. (or: Andrew forgot his lunch box at school yesterday.) (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Andrew forgets his lunch box at school every day. (or: Andrew forgot his lunch box at school yesterday.)", incorrect: ["This choice is incorrect because 'Andrew forgot his lunch box at school every day.' does not follow the rules.", "CORRECT: Andrew forgets his lunch box at school every day. (or: Andrew forgot his lunch box at school yesterday.)", "This choice is incorrect because 'Andrew forgets his lunch box at school every day. (or: Andrew forgot his lunch box at school yesterday.) (wrong)' does not follow the rules.", "This choice is incorrect because 'Andrew forgets his lunch box at school every day. (or: Andrew forgot his lunch box at school yesterday.) (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The crocodile has swam across the swamp it seen a fish to eat",
+        choices: ["The crocodile swam across the swamp and saw a fish to eat. (wrong)", "The crocodile has swam across the swamp it seen a fish to eat.", "The crocodile swam across the swamp and saw a fish to eat. (wrong)", "The crocodile swam across the swamp and saw a fish to eat."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The crocodile swam across the swamp and saw a fish to eat.", incorrect: ["This choice is incorrect because 'The crocodile swam across the swamp and saw a fish to eat. (wrong)' does not follow the rules.", "This choice is incorrect because 'The crocodile has swam across the swamp it seen a fish to eat.' does not follow the rules.", "This choice is incorrect because 'The crocodile swam across the swamp and saw a fish to eat. (wrong)' does not follow the rules.", "CORRECT: The crocodile swam across the swamp and saw a fish to eat."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My favorite magazine, teen beat, comes on thursdays",
+        choices: ["My favorite magazine, teen beat, comes on thursdays.", "My favorite magazine, Teen Beat, comes on thursdays.", "My favorite magazine Teen Beat comes on Thursdays.", "My favorite magazine, Teen Beat, comes on Thursdays."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. My favorite magazine, Teen Beat, comes on Thursdays.", incorrect: ["This choice is incorrect because 'My favorite magazine, teen beat, comes on thursdays.' does not follow the rules.", "This choice is incorrect because 'My favorite magazine, Teen Beat, comes on thursdays.' does not follow the rules.", "This choice is incorrect because 'My favorite magazine Teen Beat comes on Thursdays.' does not follow the rules.", "CORRECT: My favorite magazine, Teen Beat, comes on Thursdays."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The power will be out from 600 until 830",
+        choices: ["The power will be out from 600 until 830.", "The power will be out from 6:00 until 8:30. (wrong)", "The power will be out from 6:00 until 8:30. (wrong)", "The power will be out from 6:00 until 8:30."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The power will be out from 6:00 until 8:30.", incorrect: ["This choice is incorrect because 'The power will be out from 600 until 830.' does not follow the rules.", "This choice is incorrect because 'The power will be out from 6:00 until 8:30. (wrong)' does not follow the rules.", "This choice is incorrect because 'The power will be out from 6:00 until 8:30. (wrong)' does not follow the rules.", "CORRECT: The power will be out from 6:00 until 8:30."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Her and me selled lemonade for 50 cents an glass.",
+        choices: ["Her and me selled lemonade for 50 cents an glass.", "She and I sold lemonade for 50 cents a glass. (wrong)", "She and I sold lemonade for 50 cents a glass.", "Her and me sold lemonade for 50 cents a glass."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. She and I sold lemonade for 50 cents a glass.", incorrect: ["This choice is incorrect because 'Her and me selled lemonade for 50 cents an glass.' does not follow the rules.", "This choice is incorrect because 'She and I sold lemonade for 50 cents a glass. (wrong)' does not follow the rules.", "CORRECT: She and I sold lemonade for 50 cents a glass.", "This choice is incorrect because 'Her and me sold lemonade for 50 cents a glass.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He dont know what his homework is tonight",
+        choices: ["He doesn't know what his homework is tonight. (wrong)", "He doesn't know what his homework is tonight. (wrong)", "He dont know what his homework is tonight.", "He doesn't know what his homework is tonight."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. He doesn't know what his homework is tonight.", incorrect: ["This choice is incorrect because 'He doesn't know what his homework is tonight. (wrong)' does not follow the rules.", "This choice is incorrect because 'He doesn't know what his homework is tonight. (wrong)' does not follow the rules.", "This choice is incorrect because 'He dont know what his homework is tonight.' does not follow the rules.", "CORRECT: He doesn't know what his homework is tonight."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mr thompson weared a hat gloves and a scarf",
+        choices: ["Mr thompson weared a hat gloves and a scarf.", "mr. Thompson wore a hat, gloves, and a scarf.", "Mr. Thompson wore a hat, gloves, and a scarf.", "Mr. Thompson wore a hat gloves and a scarf."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Mr. Thompson wore a hat, gloves, and a scarf.", incorrect: ["This choice is incorrect because 'Mr thompson weared a hat gloves and a scarf.' does not follow the rules.", "This choice is incorrect because 'mr. Thompson wore a hat, gloves, and a scarf.' does not follow the rules.", "CORRECT: Mr. Thompson wore a hat, gloves, and a scarf.", "This choice is incorrect because 'Mr. Thompson wore a hat gloves and a scarf.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does you have a pen that I can borrow",
+        choices: ["Does you have a pen that I can borrow.", "Do you have a pen that I can borrow? (wrong)", "Do you have a pen that I can borrow?", "Do you have a pen that I can borrow? (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Do you have a pen that I can borrow?", incorrect: ["This choice is incorrect because 'Does you have a pen that I can borrow.' does not follow the rules.", "This choice is incorrect because 'Do you have a pen that I can borrow? (wrong)' does not follow the rules.", "CORRECT: Do you have a pen that I can borrow?", "This choice is incorrect because 'Do you have a pen that I can borrow? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He dont feel good today",
+        choices: ["He dont feel good today.", "He doesn't feel well today. (wrong)", "He dont feel well today.", "He doesn't feel well today."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. He doesn't feel well today.", incorrect: ["This choice is incorrect because 'He dont feel good today.' does not follow the rules.", "This choice is incorrect because 'He doesn't feel well today. (wrong)' does not follow the rules.", "This choice is incorrect because 'He dont feel well today.' does not follow the rules.", "CORRECT: He doesn't feel well today."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Tom has broke the plant stand again",
+        choices: ["Tom has broken the plant stand again. (wrong)", "Tom has broken the plant stand again. (wrong)", "Tom has broke the plant stand again.", "Tom has broken the plant stand again."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Tom has broken the plant stand again.", incorrect: ["This choice is incorrect because 'Tom has broken the plant stand again. (wrong)' does not follow the rules.", "This choice is incorrect because 'Tom has broken the plant stand again. (wrong)' does not follow the rules.", "This choice is incorrect because 'Tom has broke the plant stand again.' does not follow the rules.", "CORRECT: Tom has broken the plant stand again."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Ben dont have no games to play at his house",
+        choices: ["Ben dont have no games to play at his house.", "Ben doesn't have any games to play at his house. (wrong)", "Ben doesn't have any games to play at his house.", "Ben dont have any games to play at his house."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Ben doesn't have any games to play at his house.", incorrect: ["This choice is incorrect because 'Ben dont have no games to play at his house.' does not follow the rules.", "This choice is incorrect because 'Ben doesn't have any games to play at his house. (wrong)' does not follow the rules.", "CORRECT: Ben doesn't have any games to play at his house.", "This choice is incorrect because 'Ben dont have any games to play at his house.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Latisha have went to see dr martinez because she aint feeling good",
+        choices: ["Latisha have went to see dr martinez because she aint feeling good.", "Latisha went to see dr. Martinez because she isn't feeling well.", "Latisha went to see Dr. Martinez because she aint feeling well.", "Latisha went to see Dr. Martinez because she isn't feeling well."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Latisha went to see Dr. Martinez because she isn't feeling well.", incorrect: ["This choice is incorrect because 'Latisha have went to see dr martinez because she aint feeling good.' does not follow the rules.", "This choice is incorrect because 'Latisha went to see dr. Martinez because she isn't feeling well.' does not follow the rules.", "This choice is incorrect because 'Latisha went to see Dr. Martinez because she aint feeling well.' does not follow the rules.", "CORRECT: Latisha went to see Dr. Martinez because she isn't feeling well."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We eats our lunch at memorial park",
+        choices: ["We eats our lunch at memorial park.", "We eat our lunch at Memorial Park.", "We eat our lunch at Memorial Park. (wrong)", "We eat our lunch at Memorial Park. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We eat our lunch at Memorial Park.", incorrect: ["This choice is incorrect because 'We eats our lunch at memorial park.' does not follow the rules.", "CORRECT: We eat our lunch at Memorial Park.", "This choice is incorrect because 'We eat our lunch at Memorial Park. (wrong)' does not follow the rules.", "This choice is incorrect because 'We eat our lunch at Memorial Park. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mrs talbots class is gonna visit the museum on wednesday",
+        choices: ["Mrs talbots class is gonna visit the museum on wednesday.", "Mrs. Talbot's class is going to visit the museum on Wednesday.", "mrs. Talbot's class is going to visit the museum on wednesday.", "Mrs. Talbot's class is going to visit the museum on Wednesday. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Mrs. Talbot's class is going to visit the museum on Wednesday.", incorrect: ["This choice is incorrect because 'Mrs talbots class is gonna visit the museum on wednesday.' does not follow the rules.", "CORRECT: Mrs. Talbot's class is going to visit the museum on Wednesday.", "This choice is incorrect because 'mrs. Talbot's class is going to visit the museum on wednesday.' does not follow the rules.", "This choice is incorrect because 'Mrs. Talbot's class is going to visit the museum on Wednesday. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Ill gladly give you a dollar in exchange for your for quarters",
+        choices: ["Ill gladly give you a dollar in exchange for your for quarters.", "I'll gladly give you a dollar in exchange for your four quarters.", "I'll gladly give you a dollar in exchange for your four quarters. (wrong)", "I'll gladly give you a dollar in exchange for your four quarters. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. I'll gladly give you a dollar in exchange for your four quarters.", incorrect: ["This choice is incorrect because 'Ill gladly give you a dollar in exchange for your for quarters.' does not follow the rules.", "CORRECT: I'll gladly give you a dollar in exchange for your four quarters.", "This choice is incorrect because 'I'll gladly give you a dollar in exchange for your four quarters. (wrong)' does not follow the rules.", "This choice is incorrect because 'I'll gladly give you a dollar in exchange for your four quarters. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Will you ask the waitress for another fork",
+        choices: ["Will you ask the waitress for another fork?", "Will you ask the waitress for another fork? (wrong)", "Will you ask the waitress for another fork.", "Will you ask the waitress for another fork? (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Will you ask the waitress for another fork?", incorrect: ["CORRECT: Will you ask the waitress for another fork?", "This choice is incorrect because 'Will you ask the waitress for another fork? (wrong)' does not follow the rules.", "This choice is incorrect because 'Will you ask the waitress for another fork.' does not follow the rules.", "This choice is incorrect because 'Will you ask the waitress for another fork? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The guard fell asleep at 400 and waked up at 630",
+        choices: ["The guard fell asleep at 4:00 and woke up at 6:30.", "The guard fell asleep at 400 and waked up at 630.", "The guard fell asleep at 4:00 and woke up at 6:30. (wrong)", "The guard fell asleep at 4:00 and woke up at 6:30. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The guard fell asleep at 4:00 and woke up at 6:30.", incorrect: ["CORRECT: The guard fell asleep at 4:00 and woke up at 6:30.", "This choice is incorrect because 'The guard fell asleep at 400 and waked up at 630.' does not follow the rules.", "This choice is incorrect because 'The guard fell asleep at 4:00 and woke up at 6:30. (wrong)' does not follow the rules.", "This choice is incorrect because 'The guard fell asleep at 4:00 and woke up at 6:30. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mother asked will you iron these shirts",
+        choices: ["mother asked, \"Will you iron these shirts?\"", "Mother asked, \"Will you iron these shirts?\"", "Mother asked \"Will you iron these shirts?\"", "Mother asked will you iron these shirts."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Mother asked, \"Will you iron these shirts?\"", incorrect: ["This choice is incorrect because 'mother asked, \"Will you iron these shirts?\"' does not follow the rules.", "CORRECT: Mother asked, \"Will you iron these shirts?\"", "This choice is incorrect because 'Mother asked \"Will you iron these shirts?\"' does not follow the rules.", "This choice is incorrect because 'Mother asked will you iron these shirts.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Travis has two cats a fish and three dogs",
+        choices: ["Travis has two cats, a fish, and three dogs. (wrong)", "Travis has two cats, a fish, and three dogs.", "Travis has two cats a fish and three dogs.", "Travis has two cats, a fish, and three dogs. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Travis has two cats, a fish, and three dogs.", incorrect: ["This choice is incorrect because 'Travis has two cats, a fish, and three dogs. (wrong)' does not follow the rules.", "CORRECT: Travis has two cats, a fish, and three dogs.", "This choice is incorrect because 'Travis has two cats a fish and three dogs.' does not follow the rules.", "This choice is incorrect because 'Travis has two cats, a fish, and three dogs. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The parking meter was in front of westwood city mall",
+        choices: ["The parking meter was in front of Westwood City Mall. (wrong)", "The parking meter was in front of Westwood City Mall.", "The parking meter was in front of Westwood City Mall. (wrong)", "The parking meter was in front of westwood city mall."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The parking meter was in front of Westwood City Mall.", incorrect: ["This choice is incorrect because 'The parking meter was in front of Westwood City Mall. (wrong)' does not follow the rules.", "CORRECT: The parking meter was in front of Westwood City Mall.", "This choice is incorrect because 'The parking meter was in front of Westwood City Mall. (wrong)' does not follow the rules.", "This choice is incorrect because 'The parking meter was in front of westwood city mall.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The director learned our choir group too patriotic songs",
+        choices: ["The director learned our choir group too patriotic songs.", "The director taught our choir group two patriotic songs.", "The director taught our choir group two patriotic songs. (wrong)", "The director taught our choir group two patriotic songs. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The director taught our choir group two patriotic songs.", incorrect: ["This choice is incorrect because 'The director learned our choir group too patriotic songs.' does not follow the rules.", "CORRECT: The director taught our choir group two patriotic songs.", "This choice is incorrect because 'The director taught our choir group two patriotic songs. (wrong)' does not follow the rules.", "This choice is incorrect because 'The director taught our choir group two patriotic songs. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The car need to be painted because it is rusty",
+        choices: ["The car needs to be painted because it is rusty. (wrong)", "The car need to be painted because it is rusty.", "The car needs to be painted because it is rusty.", "The car needs to be painted because it is rusty. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. The car needs to be painted because it is rusty.", incorrect: ["This choice is incorrect because 'The car needs to be painted because it is rusty. (wrong)' does not follow the rules.", "This choice is incorrect because 'The car need to be painted because it is rusty.' does not follow the rules.", "CORRECT: The car needs to be painted because it is rusty.", "This choice is incorrect because 'The car needs to be painted because it is rusty. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Grandpa fixed oatmeal eggs and juice for breakfast",
+        choices: ["Grandpa fixed oatmeal, eggs, and juice for breakfast. (wrong)", "Grandpa fixed oatmeal, eggs, and juice for breakfast. (wrong)", "Grandpa fixed oatmeal eggs and juice for breakfast.", "Grandpa fixed oatmeal, eggs, and juice for breakfast."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Grandpa fixed oatmeal, eggs, and juice for breakfast.", incorrect: ["This choice is incorrect because 'Grandpa fixed oatmeal, eggs, and juice for breakfast. (wrong)' does not follow the rules.", "This choice is incorrect because 'Grandpa fixed oatmeal, eggs, and juice for breakfast. (wrong)' does not follow the rules.", "This choice is incorrect because 'Grandpa fixed oatmeal eggs and juice for breakfast.' does not follow the rules.", "CORRECT: Grandpa fixed oatmeal, eggs, and juice for breakfast."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dont forget to pick up you're report card on thursday",
+        choices: ["Dont forget to pick up you're report card on thursday.", "Don't forget to pick up your report card on thursday.", "Don't forget to pick up your report card on Thursday. (wrong)", "Don't forget to pick up your report card on Thursday."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Don't forget to pick up your report card on Thursday.", incorrect: ["This choice is incorrect because 'Dont forget to pick up you're report card on thursday.' does not follow the rules.", "This choice is incorrect because 'Don't forget to pick up your report card on thursday.' does not follow the rules.", "This choice is incorrect because 'Don't forget to pick up your report card on Thursday. (wrong)' does not follow the rules.", "CORRECT: Don't forget to pick up your report card on Thursday."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and him dont got no homework",
+        choices: ["He and I don't have any homework.", "Me and him don't have any homework.", "Me and him dont got no homework.", "He and I aint have any homework."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. He and I don't have any homework.", incorrect: ["CORRECT: He and I don't have any homework.", "This choice is incorrect because 'Me and him don't have any homework.' does not follow the rules.", "This choice is incorrect because 'Me and him dont got no homework.' does not follow the rules.", "This choice is incorrect because 'He and I aint have any homework.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Do you got any work that we can do we want to earn some money",
+        choices: ["Do you have any work that we can do? We want to earn some money. (wrong)", "Do you have any work that we can do? We want to earn some money.", "Do you have any work that we can do? We want to earn some money. (wrong)", "Do you got any work that we can do we want to earn some money."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Do you have any work that we can do? We want to earn some money.", incorrect: ["This choice is incorrect because 'Do you have any work that we can do? We want to earn some money. (wrong)' does not follow the rules.", "CORRECT: Do you have any work that we can do? We want to earn some money.", "This choice is incorrect because 'Do you have any work that we can do? We want to earn some money. (wrong)' does not follow the rules.", "This choice is incorrect because 'Do you got any work that we can do we want to earn some money.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We watched the lion hunt his prey on a television program",
+        choices: ["We watched the lion hunt his prey on a television program.", "We watched the lion hunt its prey on a television program.", "We watched the lion hunt its prey on a television program. (wrong)", "We watched the lion hunt its prey on a television program. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We watched the lion hunt its prey on a television program.", incorrect: ["This choice is incorrect because 'We watched the lion hunt his prey on a television program.' does not follow the rules.", "CORRECT: We watched the lion hunt its prey on a television program.", "This choice is incorrect because 'We watched the lion hunt its prey on a television program. (wrong)' does not follow the rules.", "This choice is incorrect because 'We watched the lion hunt its prey on a television program. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Does you think this is a good price for notebook paper",
+        choices: ["Do you think this is a good price for notebook paper? (wrong)", "Do you think this is a good price for notebook paper?", "Does you think this is a good price for notebook paper.", "Do you think this is a good price for notebook paper? (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Do you think this is a good price for notebook paper?", incorrect: ["This choice is incorrect because 'Do you think this is a good price for notebook paper? (wrong)' does not follow the rules.", "CORRECT: Do you think this is a good price for notebook paper?", "This choice is incorrect because 'Does you think this is a good price for notebook paper.' does not follow the rules.", "This choice is incorrect because 'Do you think this is a good price for notebook paper? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dad begun to doze off in his chair after dinner",
+        choices: ["Dad began to doze off in his chair after dinner. (wrong)", "Dad began to doze off in his chair after dinner. (wrong)", "Dad began to doze off in his chair after dinner.", "Dad begun to doze off in his chair after dinner."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Dad began to doze off in his chair after dinner.", incorrect: ["This choice is incorrect because 'Dad began to doze off in his chair after dinner. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dad began to doze off in his chair after dinner. (wrong)' does not follow the rules.", "CORRECT: Dad began to doze off in his chair after dinner.", "This choice is incorrect because 'Dad begun to doze off in his chair after dinner.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My favorite dinosaur is the stegosaurus reported anthony to the class",
+        choices: ["\"My favorite dinosaur is the stegosaurus,\" reported Anthony to the class. (wrong)", "\"My favorite dinosaur is the stegosaurus,\" reported Anthony to the class.", "My favorite dinosaur is the stegosaurus reported anthony to the class.", "\"My favorite dinosaur is the stegosaurus\" reported Anthony to the class."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. \"My favorite dinosaur is the stegosaurus,\" reported Anthony to the class.", incorrect: ["This choice is incorrect because '\"My favorite dinosaur is the stegosaurus,\" reported Anthony to the class. (wrong)' does not follow the rules.", "CORRECT: \"My favorite dinosaur is the stegosaurus,\" reported Anthony to the class.", "This choice is incorrect because 'My favorite dinosaur is the stegosaurus reported anthony to the class.' does not follow the rules.", "This choice is incorrect because '\"My favorite dinosaur is the stegosaurus\" reported Anthony to the class.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Jennifer, my best friend, moved to harrisburg pennsylvania",
+        choices: ["Jennifer my best friend moved to Harrisburg Pennsylvania.", "Jennifer, my best friend, moved to Harrisburg, Pennsylvania. (wrong)", "Jennifer, my best friend, moved to harrisburg pennsylvania.", "Jennifer, my best friend, moved to Harrisburg, Pennsylvania."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Jennifer, my best friend, moved to Harrisburg, Pennsylvania.", incorrect: ["This choice is incorrect because 'Jennifer my best friend moved to Harrisburg Pennsylvania.' does not follow the rules.", "This choice is incorrect because 'Jennifer, my best friend, moved to Harrisburg, Pennsylvania. (wrong)' does not follow the rules.", "This choice is incorrect because 'Jennifer, my best friend, moved to harrisburg pennsylvania.' does not follow the rules.", "CORRECT: Jennifer, my best friend, moved to Harrisburg, Pennsylvania."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "On july 4, we will watch the fireworks explode in the sky",
+        choices: ["On July 4 we will watch the fireworks explode in the sky.", "On july 4, we will watch the fireworks explode in the sky.", "On July 4, we will watch the fireworks explode in the sky.", "On july 4, we will watch the fireworks explode in the sky."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. On July 4, we will watch the fireworks explode in the sky.", incorrect: ["This choice is incorrect because 'On July 4 we will watch the fireworks explode in the sky.' does not follow the rules.", "This choice is incorrect because 'On july 4, we will watch the fireworks explode in the sky.' does not follow the rules.", "CORRECT: On July 4, we will watch the fireworks explode in the sky.", "This choice is incorrect because 'On july 4, we will watch the fireworks explode in the sky.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dr king has telled me to get more exercise",
+        choices: ["dr. King has told me to get more exercise.", "Dr. King has told me to get more exercise.", "Dr. King has told me to get more exercise. (wrong)", "Dr king has telled me to get more exercise."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Dr. King has told me to get more exercise.", incorrect: ["This choice is incorrect because 'dr. King has told me to get more exercise.' does not follow the rules.", "CORRECT: Dr. King has told me to get more exercise.", "This choice is incorrect because 'Dr. King has told me to get more exercise. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dr king has telled me to get more exercise.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We picked up our cat pouncer from the vet at 745",
+        choices: ["We picked up our cat Pouncer from the vet at 7:45.", "We picked up our cat, Pouncer, from the vet at 7:45.", "We picked up our cat, Pouncer, from the vet at 7:45. (wrong)", "We picked up our cat pouncer from the vet at 745."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We picked up our cat, Pouncer, from the vet at 7:45.", incorrect: ["This choice is incorrect because 'We picked up our cat Pouncer from the vet at 7:45.' does not follow the rules.", "CORRECT: We picked up our cat, Pouncer, from the vet at 7:45.", "This choice is incorrect because 'We picked up our cat, Pouncer, from the vet at 7:45. (wrong)' does not follow the rules.", "This choice is incorrect because 'We picked up our cat pouncer from the vet at 745.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Luthers favorite book, sarah, plain and tall, was made into a movie in april",
+        choices: ["Luther's favorite book Sarah Plain and Tall was made into a movie in April.", "Luther's favorite book, Sarah, Plain and Tall, was made into a movie in April.", "Luther's favorite book, Sarah, Plain and Tall, was made into a movie in april.", "Luthers favorite book, sarah, plain and tall, was made into a movie in april."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Luther's favorite book, Sarah, Plain and Tall, was made into a movie in April.", incorrect: ["This choice is incorrect because 'Luther's favorite book Sarah Plain and Tall was made into a movie in April.' does not follow the rules.", "CORRECT: Luther's favorite book, Sarah, Plain and Tall, was made into a movie in April.", "This choice is incorrect because 'Luther's favorite book, Sarah, Plain and Tall, was made into a movie in april.' does not follow the rules.", "This choice is incorrect because 'Luthers favorite book, sarah, plain and tall, was made into a movie in april.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Them boys was teasing the younger kids at recess",
+        choices: ["Those boys were teasing the younger kids at recess. (wrong)", "Those boys were teasing the younger kids at recess.", "Them boys was teasing the younger kids at recess.", "Those boys were teasing the younger kids at recess. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Those boys were teasing the younger kids at recess.", incorrect: ["This choice is incorrect because 'Those boys were teasing the younger kids at recess. (wrong)' does not follow the rules.", "CORRECT: Those boys were teasing the younger kids at recess.", "This choice is incorrect because 'Them boys was teasing the younger kids at recess.' does not follow the rules.", "This choice is incorrect because 'Those boys were teasing the younger kids at recess. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "You may not swim in the pool during adult swim said the lifeguard",
+        choices: ["\"You may not swim in the pool during adult swim,\" said the lifeguard.", "You may not swim in the pool during adult swim said the lifeguard.", "\"You may not swim in the pool during adult swim\" said the lifeguard.", "\"You may not swim in the pool during adult swim,\" said the lifeguard. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. \"You may not swim in the pool during adult swim,\" said the lifeguard.", incorrect: ["CORRECT: \"You may not swim in the pool during adult swim,\" said the lifeguard.", "This choice is incorrect because 'You may not swim in the pool during adult swim said the lifeguard.' does not follow the rules.", "This choice is incorrect because '\"You may not swim in the pool during adult swim\" said the lifeguard.' does not follow the rules.", "This choice is incorrect because '\"You may not swim in the pool during adult swim,\" said the lifeguard. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dads job is not far from hour house",
+        choices: ["Dad's job is not far from our house.", "Dads job is not far from hour house.", "Dad's job is not far from our house. (wrong)", "Dad's job is not far from our house. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Dad's job is not far from our house.", incorrect: ["CORRECT: Dad's job is not far from our house.", "This choice is incorrect because 'Dads job is not far from hour house.' does not follow the rules.", "This choice is incorrect because 'Dad's job is not far from our house. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dad's job is not far from our house. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We herd laughing and clapping in the movie theater",
+        choices: ["We heard laughing and clapping in the movie theater. (wrong)", "We herd laughing and clapping in the movie theater.", "We heard laughing and clapping in the movie theater. (wrong)", "We heard laughing and clapping in the movie theater."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We heard laughing and clapping in the movie theater.", incorrect: ["This choice is incorrect because 'We heard laughing and clapping in the movie theater. (wrong)' does not follow the rules.", "This choice is incorrect because 'We herd laughing and clapping in the movie theater.' does not follow the rules.", "This choice is incorrect because 'We heard laughing and clapping in the movie theater. (wrong)' does not follow the rules.", "CORRECT: We heard laughing and clapping in the movie theater."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The swamp in louisiana was so dirty that we couldnt see the alligators",
+        choices: ["The swamp in louisiana was so dirty that we couldnt see the alligators.", "The swamp in Louisiana was so dirty that we couldn't see the alligators. (wrong)", "The swamp in Louisiana was so dirty that we couldn't see the alligators.", "The swamp in Louisiana was so dirty that we couldn't see the alligators. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. The swamp in Louisiana was so dirty that we couldn't see the alligators.", incorrect: ["This choice is incorrect because 'The swamp in louisiana was so dirty that we couldnt see the alligators.' does not follow the rules.", "This choice is incorrect because 'The swamp in Louisiana was so dirty that we couldn't see the alligators. (wrong)' does not follow the rules.", "CORRECT: The swamp in Louisiana was so dirty that we couldn't see the alligators.", "This choice is incorrect because 'The swamp in Louisiana was so dirty that we couldn't see the alligators. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "This roller coaster is fun",
+        choices: ["This roller coaster is fun! (wrong)", "This roller coaster is fun.", "This roller coaster is fun!", "This roller coaster is fun! (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. This roller coaster is fun!", incorrect: ["This choice is incorrect because 'This roller coaster is fun! (wrong)' does not follow the rules.", "This choice is incorrect because 'This roller coaster is fun.' does not follow the rules.", "CORRECT: This roller coaster is fun!", "This choice is incorrect because 'This roller coaster is fun! (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The irish wear green on st patricks day",
+        choices: ["The Irish wear green on St. Patrick's Day.", "The irish wear green on st patricks day.", "The Irish wear green on St. Patrick's Day. (wrong)", "The Irish wear green on St. Patrick's Day. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The Irish wear green on St. Patrick's Day.", incorrect: ["CORRECT: The Irish wear green on St. Patrick's Day.", "This choice is incorrect because 'The irish wear green on st patricks day.' does not follow the rules.", "This choice is incorrect because 'The Irish wear green on St. Patrick's Day. (wrong)' does not follow the rules.", "This choice is incorrect because 'The Irish wear green on St. Patrick's Day. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Sam, why wasnt you at the party asked james",
+        choices: ["\"Sam, why weren't you at the party?\" asked James.", "\"Sam, why weren't you at the party?\" asked James. (wrong)", "\"Sam why weren't you at the party?\" asked James.", "Sam, why wasnt you at the party asked james."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. \"Sam, why weren't you at the party?\" asked James.", incorrect: ["CORRECT: \"Sam, why weren't you at the party?\" asked James.", "This choice is incorrect because '\"Sam, why weren't you at the party?\" asked James. (wrong)' does not follow the rules.", "This choice is incorrect because '\"Sam why weren't you at the party?\" asked James.' does not follow the rules.", "This choice is incorrect because 'Sam, why wasnt you at the party asked james.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "At what time did the accident happen",
+        choices: ["At what time did the accident happen.", "At what time did the accident happen? (wrong)", "At what time did the accident happen? (wrong)", "At what time did the accident happen?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. At what time did the accident happen?", incorrect: ["This choice is incorrect because 'At what time did the accident happen.' does not follow the rules.", "This choice is incorrect because 'At what time did the accident happen? (wrong)' does not follow the rules.", "This choice is incorrect because 'At what time did the accident happen? (wrong)' does not follow the rules.", "CORRECT: At what time did the accident happen?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Can you add subtract and multiply",
+        choices: ["Can you add, subtract, and multiply? (wrong)", "Can you add, subtract, and multiply?", "Can you add subtract and multiply?", "Can you add subtract and multiply."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Can you add, subtract, and multiply?", incorrect: ["This choice is incorrect because 'Can you add, subtract, and multiply? (wrong)' does not follow the rules.", "CORRECT: Can you add, subtract, and multiply?", "This choice is incorrect because 'Can you add subtract and multiply?' does not follow the rules.", "This choice is incorrect because 'Can you add subtract and multiply.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "In class today, we will read the short story a day at camp",
+        choices: ["In class today we will read the short story \"A Day at Camp.\"", "In class today, we will read the short story \"A Day at Camp.\"", "In class today, we will read the short story \"A Day at Camp.\" (wrong)", "In class today, we will read the short story a day at camp."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. In class today, we will read the short story \"A Day at Camp.\"", incorrect: ["This choice is incorrect because 'In class today we will read the short story \"A Day at Camp.\"' does not follow the rules.", "CORRECT: In class today, we will read the short story \"A Day at Camp.\"", "This choice is incorrect because 'In class today, we will read the short story \"A Day at Camp.\" (wrong)' does not follow the rules.", "This choice is incorrect because 'In class today, we will read the short story a day at camp.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "North america is a continent that we are studying",
+        choices: ["North America is a continent that we are studying.", "North America is a continent that we are studying. (wrong)", "North america is a continent that we are studying.", "North America is a continent that we are studying. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. North America is a continent that we are studying.", incorrect: ["CORRECT: North America is a continent that we are studying.", "This choice is incorrect because 'North America is a continent that we are studying. (wrong)' does not follow the rules.", "This choice is incorrect because 'North america is a continent that we are studying.' does not follow the rules.", "This choice is incorrect because 'North America is a continent that we are studying. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He is not gonna get no milk for lunch",
+        choices: ["He is not going to get any milk for lunch. (wrong)", "He is not going to get any milk for lunch.", "He is not going to get any milk for lunch. (wrong)", "He is not gonna get no milk for lunch."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. He is not going to get any milk for lunch.", incorrect: ["This choice is incorrect because 'He is not going to get any milk for lunch. (wrong)' does not follow the rules.", "CORRECT: He is not going to get any milk for lunch.", "This choice is incorrect because 'He is not going to get any milk for lunch. (wrong)' does not follow the rules.", "This choice is incorrect because 'He is not gonna get no milk for lunch.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Do he go to george washington elementary school",
+        choices: ["Does he go to George Washington Elementary School? (wrong)", "Does he go to George Washington Elementary School? (wrong)", "Does he go to George Washington Elementary School?", "Do he go to george washington elementary school."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Does he go to George Washington Elementary School?", incorrect: ["This choice is incorrect because 'Does he go to George Washington Elementary School? (wrong)' does not follow the rules.", "This choice is incorrect because 'Does he go to George Washington Elementary School? (wrong)' does not follow the rules.", "CORRECT: Does he go to George Washington Elementary School?", "This choice is incorrect because 'Do he go to george washington elementary school.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dont forget to ask for a receipt",
+        choices: ["Don't forget to ask for a receipt.", "Don't forget to ask for a receipt. (wrong)", "Dont forget to ask for a receipt.", "Don't forget to ask for a receipt. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Don't forget to ask for a receipt.", incorrect: ["CORRECT: Don't forget to ask for a receipt.", "This choice is incorrect because 'Don't forget to ask for a receipt. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dont forget to ask for a receipt.' does not follow the rules.", "This choice is incorrect because 'Don't forget to ask for a receipt. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We bought shampoo soap and a toothbrush at the store",
+        choices: ["We bought shampoo, soap, and a toothbrush at the store. (wrong)", "We bought shampoo soap and a toothbrush at the store.", "We bought shampoo, soap, and a toothbrush at the store.", "We bought shampoo, soap, and a toothbrush at the store. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. We bought shampoo, soap, and a toothbrush at the store.", incorrect: ["This choice is incorrect because 'We bought shampoo, soap, and a toothbrush at the store. (wrong)' does not follow the rules.", "This choice is incorrect because 'We bought shampoo soap and a toothbrush at the store.' does not follow the rules.", "CORRECT: We bought shampoo, soap, and a toothbrush at the store.", "This choice is incorrect because 'We bought shampoo, soap, and a toothbrush at the store. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Have you memorized you're phone number",
+        choices: ["Have you memorized your phone number? (wrong)", "Have you memorized you're phone number.", "Have you memorized your phone number?", "Have you memorized your phone number? (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Have you memorized your phone number?", incorrect: ["This choice is incorrect because 'Have you memorized your phone number? (wrong)' does not follow the rules.", "This choice is incorrect because 'Have you memorized you're phone number.' does not follow the rules.", "CORRECT: Have you memorized your phone number?", "This choice is incorrect because 'Have you memorized your phone number? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He has ate all of his dinner and the dessert",
+        choices: ["He has eaten all of his dinner and the dessert. (wrong)", "He has eaten all of his dinner and the dessert.", "He has eaten all of his dinner and the dessert. (wrong)", "He has ate all of his dinner and the dessert."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. He has eaten all of his dinner and the dessert.", incorrect: ["This choice is incorrect because 'He has eaten all of his dinner and the dessert. (wrong)' does not follow the rules.", "CORRECT: He has eaten all of his dinner and the dessert.", "This choice is incorrect because 'He has eaten all of his dinner and the dessert. (wrong)' does not follow the rules.", "This choice is incorrect because 'He has ate all of his dinner and the dessert.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My friends robin and lucia has bunk beds in them room",
+        choices: ["My friends Robin and Lucia have bunk beds in their room. (wrong)", "My friends robin and lucia has bunk beds in them room.", "My friends Robin and Lucia have bunk beds in their room.", "My friends Robin and Lucia have bunk beds in their room. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. My friends Robin and Lucia have bunk beds in their room.", incorrect: ["This choice is incorrect because 'My friends Robin and Lucia have bunk beds in their room. (wrong)' does not follow the rules.", "This choice is incorrect because 'My friends robin and lucia has bunk beds in them room.' does not follow the rules.", "CORRECT: My friends Robin and Lucia have bunk beds in their room.", "This choice is incorrect because 'My friends Robin and Lucia have bunk beds in their room. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We memorized the poem called the sneeze in english class",
+        choices: ["We memorized the poem called \"The Sneeze\" in English class.", "We memorized the poem called the sneeze in english class.", "We memorized the poem called \"The Sneeze\" in English class. (wrong)", "We memorized the poem called \"The Sneeze\" in English class. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. We memorized the poem called \"The Sneeze\" in English class.", incorrect: ["CORRECT: We memorized the poem called \"The Sneeze\" in English class.", "This choice is incorrect because 'We memorized the poem called the sneeze in english class.' does not follow the rules.", "This choice is incorrect because 'We memorized the poem called \"The Sneeze\" in English class. (wrong)' does not follow the rules.", "This choice is incorrect because 'We memorized the poem called \"The Sneeze\" in English class. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I dont have no time to go are you going",
+        choices: ["I don't have any time to go; are you going?", "I aint have any time to go; are you going?", "I don't have any time to go; are you going? (wrong)", "I dont have no time to go are you going."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I don't have any time to go; are you going?", incorrect: ["CORRECT: I don't have any time to go; are you going?", "This choice is incorrect because 'I aint have any time to go; are you going?' does not follow the rules.", "This choice is incorrect because 'I don't have any time to go; are you going? (wrong)' does not follow the rules.", "This choice is incorrect because 'I dont have no time to go are you going.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Shelly has went to her grandmothers house in nebraska",
+        choices: ["Shelly went to her grandmother's house in Nebraska. (wrong)", "Shelly has went to her grandmothers house in nebraska.", "Shelly went to her grandmother's house in Nebraska. (wrong)", "Shelly went to her grandmother's house in Nebraska."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Shelly went to her grandmother's house in Nebraska.", incorrect: ["This choice is incorrect because 'Shelly went to her grandmother's house in Nebraska. (wrong)' does not follow the rules.", "This choice is incorrect because 'Shelly has went to her grandmothers house in nebraska.' does not follow the rules.", "This choice is incorrect because 'Shelly went to her grandmother's house in Nebraska. (wrong)' does not follow the rules.", "CORRECT: Shelly went to her grandmother's house in Nebraska."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He didnt mean to break the glass it was a accident",
+        choices: ["He didn't mean to break the glass; it was an accident. (wrong)", "He didn't mean to break the glass; it was an accident. (wrong)", "He didn't mean to break the glass; it was an accident.", "He didnt mean to break the glass it was a accident."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. He didn't mean to break the glass; it was an accident.", incorrect: ["This choice is incorrect because 'He didn't mean to break the glass; it was an accident. (wrong)' does not follow the rules.", "This choice is incorrect because 'He didn't mean to break the glass; it was an accident. (wrong)' does not follow the rules.", "CORRECT: He didn't mean to break the glass; it was an accident.", "This choice is incorrect because 'He didnt mean to break the glass it was a accident.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I and jessica have did all the cleaning",
+        choices: ["Jessica and I did all the cleaning. (wrong)", "Jessica and I did all the cleaning.", "Jessica and I did all the cleaning. (wrong)", "I and jessica have did all the cleaning."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Jessica and I did all the cleaning.", incorrect: ["This choice is incorrect because 'Jessica and I did all the cleaning. (wrong)' does not follow the rules.", "CORRECT: Jessica and I did all the cleaning.", "This choice is incorrect because 'Jessica and I did all the cleaning. (wrong)' does not follow the rules.", "This choice is incorrect because 'I and jessica have did all the cleaning.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Shannon drunk the punch and eaten her sandwich",
+        choices: ["Shannon drank the punch and ate her sandwich. (wrong)", "Shannon drunk the punch and eaten her sandwich.", "Shannon drank the punch and ate her sandwich. (wrong)", "Shannon drank the punch and ate her sandwich."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Shannon drank the punch and ate her sandwich.", incorrect: ["This choice is incorrect because 'Shannon drank the punch and ate her sandwich. (wrong)' does not follow the rules.", "This choice is incorrect because 'Shannon drunk the punch and eaten her sandwich.' does not follow the rules.", "This choice is incorrect because 'Shannon drank the punch and ate her sandwich. (wrong)' does not follow the rules.", "CORRECT: Shannon drank the punch and ate her sandwich."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We like to swung in the hammock between the to trees",
+        choices: ["We like to swung in the hammock between the to trees.", "We like to swing in the hammock between the two trees. (wrong)", "We like to swing in the hammock between the two trees. (wrong)", "We like to swing in the hammock between the two trees."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We like to swing in the hammock between the two trees.", incorrect: ["This choice is incorrect because 'We like to swung in the hammock between the to trees.' does not follow the rules.", "This choice is incorrect because 'We like to swing in the hammock between the two trees. (wrong)' does not follow the rules.", "This choice is incorrect because 'We like to swing in the hammock between the two trees. (wrong)' does not follow the rules.", "CORRECT: We like to swing in the hammock between the two trees."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My sisters birthday is march 2 2008 she is younger than i am",
+        choices: ["My sister's birthday is March 2 2008; she is younger than I am.", "My sister's birthday is march 2, 2008; she is younger than I am.", "My sisters birthday is march 2 2008 she is younger than i am.", "My sister's birthday is March 2, 2008; she is younger than I am."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. My sister's birthday is March 2, 2008; she is younger than I am.", incorrect: ["This choice is incorrect because 'My sister's birthday is March 2 2008; she is younger than I am.' does not follow the rules.", "This choice is incorrect because 'My sister's birthday is march 2, 2008; she is younger than I am.' does not follow the rules.", "This choice is incorrect because 'My sisters birthday is march 2 2008 she is younger than i am.' does not follow the rules.", "CORRECT: My sister's birthday is March 2, 2008; she is younger than I am."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He dont never do the write page in the math book",
+        choices: ["He doesn't ever do the right page in the math book. (wrong)", "He doesn't ever do the right page in the math book.", "He dont ever do the right page in the math book.", "He dont never do the write page in the math book."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. He doesn't ever do the right page in the math book.", incorrect: ["This choice is incorrect because 'He doesn't ever do the right page in the math book. (wrong)' does not follow the rules.", "CORRECT: He doesn't ever do the right page in the math book.", "This choice is incorrect because 'He dont ever do the right page in the math book.' does not follow the rules.", "This choice is incorrect because 'He dont never do the write page in the math book.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The read car come toward the building and parked",
+        choices: ["The read car come toward the building and parked.", "The red car came toward the building and parked. (wrong)", "The red car came toward the building and parked. (wrong)", "The red car came toward the building and parked."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. The red car came toward the building and parked.", incorrect: ["This choice is incorrect because 'The read car come toward the building and parked.' does not follow the rules.", "This choice is incorrect because 'The red car came toward the building and parked. (wrong)' does not follow the rules.", "This choice is incorrect because 'The red car came toward the building and parked. (wrong)' does not follow the rules.", "CORRECT: The red car came toward the building and parked."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Wow, that movie at the grand theater was scary",
+        choices: ["Wow, that movie at the Grand Theater was scary!", "Wow, that movie at the Grand Theater was scary! (wrong)", "Wow, that movie at the grand theater was scary.", "Wow that movie at the Grand Theater was scary!"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Wow, that movie at the Grand Theater was scary!", incorrect: ["CORRECT: Wow, that movie at the Grand Theater was scary!", "This choice is incorrect because 'Wow, that movie at the Grand Theater was scary! (wrong)' does not follow the rules.", "This choice is incorrect because 'Wow, that movie at the grand theater was scary.' does not follow the rules.", "This choice is incorrect because 'Wow that movie at the Grand Theater was scary!' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "At 715 we is gonna have a speaker from phoenix arizona",
+        choices: ["At 7:15, we are going to have a speaker from Phoenix, Arizona.", "At 7:15, we are going to have a speaker from Phoenix, Arizona. (wrong)", "At 715 we is gonna have a speaker from phoenix arizona.", "At 7:15 we are going to have a speaker from Phoenix Arizona."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. At 7:15, we are going to have a speaker from Phoenix, Arizona.", incorrect: ["CORRECT: At 7:15, we are going to have a speaker from Phoenix, Arizona.", "This choice is incorrect because 'At 7:15, we are going to have a speaker from Phoenix, Arizona. (wrong)' does not follow the rules.", "This choice is incorrect because 'At 715 we is gonna have a speaker from phoenix arizona.' does not follow the rules.", "This choice is incorrect because 'At 7:15 we are going to have a speaker from Phoenix Arizona.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We watched the eclipse from hour backyard",
+        choices: ["We watched the eclipse from our backyard. (wrong)", "We watched the eclipse from our backyard.", "We watched the eclipse from hour backyard.", "We watched the eclipse from our backyard. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We watched the eclipse from our backyard.", incorrect: ["This choice is incorrect because 'We watched the eclipse from our backyard. (wrong)' does not follow the rules.", "CORRECT: We watched the eclipse from our backyard.", "This choice is incorrect because 'We watched the eclipse from hour backyard.' does not follow the rules.", "This choice is incorrect because 'We watched the eclipse from our backyard. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Her brother plays basketball soccer and tennis",
+        choices: ["Her brother plays basketball, soccer, and tennis.", "Her brother plays basketball soccer and tennis.", "Her brother plays basketball, soccer, and tennis. (wrong)", "Her brother plays basketball, soccer, and tennis. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Her brother plays basketball, soccer, and tennis.", incorrect: ["CORRECT: Her brother plays basketball, soccer, and tennis.", "This choice is incorrect because 'Her brother plays basketball soccer and tennis.' does not follow the rules.", "This choice is incorrect because 'Her brother plays basketball, soccer, and tennis. (wrong)' does not follow the rules.", "This choice is incorrect because 'Her brother plays basketball, soccer, and tennis. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "If you saw jacob, will you tell him that i need to see him",
+        choices: ["If you see Jacob, will you tell him that I need to see him? (wrong)", "If you see Jacob, will you tell him that I need to see him?", "If you saw jacob, will you tell him that i need to see him.", "If you see Jacob will you tell him that I need to see him?"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. If you see Jacob, will you tell him that I need to see him?", incorrect: ["This choice is incorrect because 'If you see Jacob, will you tell him that I need to see him? (wrong)' does not follow the rules.", "CORRECT: If you see Jacob, will you tell him that I need to see him?", "This choice is incorrect because 'If you saw jacob, will you tell him that i need to see him.' does not follow the rules.", "This choice is incorrect because 'If you see Jacob will you tell him that I need to see him?' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The playground at herman park was flooded during the month of october",
+        choices: ["The playground at Herman Park was flooded during the month of October. (wrong)", "The playground at herman park was flooded during the month of october.", "The playground at Herman Park was flooded during the month of October.", "The playground at Herman Park was flooded during the month of october."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. The playground at Herman Park was flooded during the month of October.", incorrect: ["This choice is incorrect because 'The playground at Herman Park was flooded during the month of October. (wrong)' does not follow the rules.", "This choice is incorrect because 'The playground at herman park was flooded during the month of october.' does not follow the rules.", "CORRECT: The playground at Herman Park was flooded during the month of October.", "This choice is incorrect because 'The playground at Herman Park was flooded during the month of october.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "At 545 the doorbell rang, and we got our pizza from joes pizza palace",
+        choices: ["At 5:45 the doorbell rang, and we got our pizza from Joe's Pizza Palace. (wrong)", "At 5:45 the doorbell rang and we got our pizza from Joe's Pizza Palace.", "At 545 the doorbell rang, and we got our pizza from joes pizza palace.", "At 5:45 the doorbell rang, and we got our pizza from Joe's Pizza Palace."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. At 5:45 the doorbell rang, and we got our pizza from Joe's Pizza Palace.", incorrect: ["This choice is incorrect because 'At 5:45 the doorbell rang, and we got our pizza from Joe's Pizza Palace. (wrong)' does not follow the rules.", "This choice is incorrect because 'At 5:45 the doorbell rang and we got our pizza from Joe's Pizza Palace.' does not follow the rules.", "This choice is incorrect because 'At 545 the doorbell rang, and we got our pizza from joes pizza palace.' does not follow the rules.", "CORRECT: At 5:45 the doorbell rang, and we got our pizza from Joe's Pizza Palace."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mrs smothers asked will you be out of town long",
+        choices: ["Mrs. Smothers asked, \"Will you be out of town long?\"", "Mrs. Smothers asked \"Will you be out of town long?\"", "Mrs smothers asked will you be out of town long.", "mrs. Smothers asked, \"Will you be out of town long?\""],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Mrs. Smothers asked, \"Will you be out of town long?\"", incorrect: ["CORRECT: Mrs. Smothers asked, \"Will you be out of town long?\"", "This choice is incorrect because 'Mrs. Smothers asked \"Will you be out of town long?\"' does not follow the rules.", "This choice is incorrect because 'Mrs smothers asked will you be out of town long.' does not follow the rules.", "This choice is incorrect because 'mrs. Smothers asked, \"Will you be out of town long?\"' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We is watching carefully to learn how to put the life jacket on",
+        choices: ["We is watching carefully to learn how to put the life jacket on.", "We are watching carefully to learn how to put the life jacket on. (wrong)", "We are watching carefully to learn how to put the life jacket on. (wrong)", "We are watching carefully to learn how to put the life jacket on."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We are watching carefully to learn how to put the life jacket on.", incorrect: ["This choice is incorrect because 'We is watching carefully to learn how to put the life jacket on.' does not follow the rules.", "This choice is incorrect because 'We are watching carefully to learn how to put the life jacket on. (wrong)' does not follow the rules.", "This choice is incorrect because 'We are watching carefully to learn how to put the life jacket on. (wrong)' does not follow the rules.", "CORRECT: We are watching carefully to learn how to put the life jacket on."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The officer said do you know how fast you was going",
+        choices: ["The officer said, \"Do you know how fast you were going?\"", "The officer said do you know how fast you was going.", "The officer said \"Do you know how fast you were going?\"", "The officer said, \"Do you know how fast you were going?\" (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The officer said, \"Do you know how fast you were going?\"", incorrect: ["CORRECT: The officer said, \"Do you know how fast you were going?\"", "This choice is incorrect because 'The officer said do you know how fast you was going.' does not follow the rules.", "This choice is incorrect because 'The officer said \"Do you know how fast you were going?\"' does not follow the rules.", "This choice is incorrect because 'The officer said, \"Do you know how fast you were going?\" (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He dont like no vegetables fruits or nuts",
+        choices: ["He doesn't like any vegetables, fruits, or nuts.", "He dont like any vegetables, fruits, or nuts.", "He dont like no vegetables fruits or nuts.", "He doesn't like any vegetables fruits or nuts."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. He doesn't like any vegetables, fruits, or nuts.", incorrect: ["CORRECT: He doesn't like any vegetables, fruits, or nuts.", "This choice is incorrect because 'He dont like any vegetables, fruits, or nuts.' does not follow the rules.", "This choice is incorrect because 'He dont like no vegetables fruits or nuts.' does not follow the rules.", "This choice is incorrect because 'He doesn't like any vegetables fruits or nuts.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Mother asked what time is you gonna be home today",
+        choices: ["Mother asked, \"What time are you going to be home today?\"", "Mother asked \"What time are you going to be home today?\"", "mother asked, \"What time are you going to be home today?\"", "Mother asked what time is you gonna be home today."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Mother asked, \"What time are you going to be home today?\"", incorrect: ["CORRECT: Mother asked, \"What time are you going to be home today?\"", "This choice is incorrect because 'Mother asked \"What time are you going to be home today?\"' does not follow the rules.", "This choice is incorrect because 'mother asked, \"What time are you going to be home today?\"' does not follow the rules.", "This choice is incorrect because 'Mother asked what time is you gonna be home today.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Alicia asked is we gonna carve a pumpkin for halloween",
+        choices: ["Alicia asked \"Are we going to carve a pumpkin for Halloween?\"", "Alicia asked, \"Are we going to carve a pumpkin for Halloween?\"", "Alicia asked, \"Are we going to carve a pumpkin for halloween?\"", "Alicia asked is we gonna carve a pumpkin for halloween."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Alicia asked, \"Are we going to carve a pumpkin for Halloween?\"", incorrect: ["This choice is incorrect because 'Alicia asked \"Are we going to carve a pumpkin for Halloween?\"' does not follow the rules.", "CORRECT: Alicia asked, \"Are we going to carve a pumpkin for Halloween?\"", "This choice is incorrect because 'Alicia asked, \"Are we going to carve a pumpkin for halloween?\"' does not follow the rules.", "This choice is incorrect because 'Alicia asked is we gonna carve a pumpkin for halloween.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "He has broke the cords on them blinds before",
+        choices: ["He has broke the cords on them blinds before.", "He has broken the cords on those blinds before.", "He has broken the cords on those blinds before. (wrong)", "He has broken the cords on those blinds before. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. He has broken the cords on those blinds before.", incorrect: ["This choice is incorrect because 'He has broke the cords on them blinds before.' does not follow the rules.", "CORRECT: He has broken the cords on those blinds before.", "This choice is incorrect because 'He has broken the cords on those blinds before. (wrong)' does not follow the rules.", "This choice is incorrect because 'He has broken the cords on those blinds before. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I got to sisters and won brother in my family",
+        choices: ["I have two sisters and one brother in my family. (wrong)", "I got to sisters and won brother in my family.", "I have two sisters and one brother in my family. (wrong)", "I have two sisters and one brother in my family."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. I have two sisters and one brother in my family.", incorrect: ["This choice is incorrect because 'I have two sisters and one brother in my family. (wrong)' does not follow the rules.", "This choice is incorrect because 'I got to sisters and won brother in my family.' does not follow the rules.", "This choice is incorrect because 'I have two sisters and one brother in my family. (wrong)' does not follow the rules.", "CORRECT: I have two sisters and one brother in my family."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and ed is going to the grocery store to get pasta",
+        choices: ["Ed and I are going to the grocery store to get pasta. (wrong)", "Ed and I are going to the grocery store to get pasta.", "Ed and I are going to the grocery store to get pasta. (wrong)", "Me and ed is going to the grocery store to get pasta."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Ed and I are going to the grocery store to get pasta.", incorrect: ["This choice is incorrect because 'Ed and I are going to the grocery store to get pasta. (wrong)' does not follow the rules.", "CORRECT: Ed and I are going to the grocery store to get pasta.", "This choice is incorrect because 'Ed and I are going to the grocery store to get pasta. (wrong)' does not follow the rules.", "This choice is incorrect because 'Me and ed is going to the grocery store to get pasta.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What instrument does you play",
+        choices: ["What instrument do you play?", "What instrument does you play.", "What instrument do you play? (wrong)", "What instrument do you play? (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. What instrument do you play?", incorrect: ["CORRECT: What instrument do you play?", "This choice is incorrect because 'What instrument does you play.' does not follow the rules.", "This choice is incorrect because 'What instrument do you play? (wrong)' does not follow the rules.", "This choice is incorrect because 'What instrument do you play? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Helen rided a horse in the parade on sunday",
+        choices: ["Helen rided a horse in the parade on sunday.", "Helen rode a horse in the parade on Sunday. (wrong)", "Helen rode a horse in the parade on Sunday.", "Helen rode a horse in the parade on sunday."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Helen rode a horse in the parade on Sunday.", incorrect: ["This choice is incorrect because 'Helen rided a horse in the parade on sunday.' does not follow the rules.", "This choice is incorrect because 'Helen rode a horse in the parade on Sunday. (wrong)' does not follow the rules.", "CORRECT: Helen rode a horse in the parade on Sunday.", "This choice is incorrect because 'Helen rode a horse in the parade on sunday.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Me and him have a book report that is do tuesday",
+        choices: ["Me and him have a book report that is do tuesday.", "Me and him have a book report that is due Tuesday.", "He and I have a book report that is due tuesday.", "He and I have a book report that is due Tuesday."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. He and I have a book report that is due Tuesday.", incorrect: ["This choice is incorrect because 'Me and him have a book report that is do tuesday.' does not follow the rules.", "This choice is incorrect because 'Me and him have a book report that is due Tuesday.' does not follow the rules.", "This choice is incorrect because 'He and I have a book report that is due tuesday.' does not follow the rules.", "CORRECT: He and I have a book report that is due Tuesday."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dad run in the marathon yesterday",
+        choices: ["Dad ran in the marathon yesterday. (wrong)", "Dad ran in the marathon yesterday. (wrong)", "Dad ran in the marathon yesterday.", "Dad run in the marathon yesterday."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Dad ran in the marathon yesterday.", incorrect: ["This choice is incorrect because 'Dad ran in the marathon yesterday. (wrong)' does not follow the rules.", "This choice is incorrect because 'Dad ran in the marathon yesterday. (wrong)' does not follow the rules.", "CORRECT: Dad ran in the marathon yesterday.", "This choice is incorrect because 'Dad run in the marathon yesterday.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Will you gimme another peace of paper",
+        choices: ["Will you give me another piece of paper? (wrong)", "Will you gimme another peace of paper.", "Will you give me another piece of paper? (wrong)", "Will you give me another piece of paper?"],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Will you give me another piece of paper?", incorrect: ["This choice is incorrect because 'Will you give me another piece of paper? (wrong)' does not follow the rules.", "This choice is incorrect because 'Will you gimme another peace of paper.' does not follow the rules.", "This choice is incorrect because 'Will you give me another piece of paper? (wrong)' does not follow the rules.", "CORRECT: Will you give me another piece of paper?"] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We is gonna go to dinner and to a movie on saturday",
+        choices: ["We are going to go to dinner and to a movie on Saturday. (wrong)", "We are going to go to dinner and to a movie on saturday.", "We is gonna go to dinner and to a movie on saturday.", "We are going to go to dinner and to a movie on Saturday."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We are going to go to dinner and to a movie on Saturday.", incorrect: ["This choice is incorrect because 'We are going to go to dinner and to a movie on Saturday. (wrong)' does not follow the rules.", "This choice is incorrect because 'We are going to go to dinner and to a movie on saturday.' does not follow the rules.", "This choice is incorrect because 'We is gonna go to dinner and to a movie on saturday.' does not follow the rules.", "CORRECT: We are going to go to dinner and to a movie on Saturday."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Please turn them lights on",
+        choices: ["Please turn those lights on. (wrong)", "Please turn those lights on.", "Please turn them lights on.", "Please turn those lights on. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Please turn those lights on.", incorrect: ["This choice is incorrect because 'Please turn those lights on. (wrong)' does not follow the rules.", "CORRECT: Please turn those lights on.", "This choice is incorrect because 'Please turn them lights on.' does not follow the rules.", "This choice is incorrect because 'Please turn those lights on. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Last friday, we took a family picture at mark smith studio",
+        choices: ["Last friday, we took a family picture at mark smith studio.", "Last Friday we took a family picture at Mark Smith Studio.", "Last friday, we took a family picture at Mark Smith Studio.", "Last Friday, we took a family picture at Mark Smith Studio."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Last Friday, we took a family picture at Mark Smith Studio.", incorrect: ["This choice is incorrect because 'Last friday, we took a family picture at mark smith studio.' does not follow the rules.", "This choice is incorrect because 'Last Friday we took a family picture at Mark Smith Studio.' does not follow the rules.", "This choice is incorrect because 'Last friday, we took a family picture at Mark Smith Studio.' does not follow the rules.", "CORRECT: Last Friday, we took a family picture at Mark Smith Studio."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Grandmothers making me an blew dress",
+        choices: ["Grandmother is making me a blue dress. (wrong)", "Grandmother is making me a blue dress. (wrong)", "Grandmother is making me a blue dress.", "Grandmothers making me an blew dress."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Grandmother is making me a blue dress.", incorrect: ["This choice is incorrect because 'Grandmother is making me a blue dress. (wrong)' does not follow the rules.", "This choice is incorrect because 'Grandmother is making me a blue dress. (wrong)' does not follow the rules.", "CORRECT: Grandmother is making me a blue dress.", "This choice is incorrect because 'Grandmothers making me an blew dress.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Would you like sum cinnamon toast",
+        choices: ["Would you like some cinnamon toast? (wrong)", "Would you like some cinnamon toast? (wrong)", "Would you like some cinnamon toast?", "Would you like sum cinnamon toast."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Would you like some cinnamon toast?", incorrect: ["This choice is incorrect because 'Would you like some cinnamon toast? (wrong)' does not follow the rules.", "This choice is incorrect because 'Would you like some cinnamon toast? (wrong)' does not follow the rules.", "CORRECT: Would you like some cinnamon toast?", "This choice is incorrect because 'Would you like sum cinnamon toast.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The dog chewed my knew shoes",
+        choices: ["The dog chewed my new shoes.", "The dog chewed my new shoes. (wrong)", "The dog chewed my knew shoes.", "The dog chewed my new shoes. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. The dog chewed my new shoes.", incorrect: ["CORRECT: The dog chewed my new shoes.", "This choice is incorrect because 'The dog chewed my new shoes. (wrong)' does not follow the rules.", "This choice is incorrect because 'The dog chewed my knew shoes.' does not follow the rules.", "This choice is incorrect because 'The dog chewed my new shoes. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Did you get your ears pierced at bertrams fine jewelry",
+        choices: ["Did you get your ears pierced at Bertram's Fine Jewelry? (wrong)", "Did you get your ears pierced at Bertram's Fine Jewelry? (wrong)", "Did you get your ears pierced at Bertram's Fine Jewelry?", "Did you get your ears pierced at bertrams fine jewelry."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Did you get your ears pierced at Bertram's Fine Jewelry?", incorrect: ["This choice is incorrect because 'Did you get your ears pierced at Bertram's Fine Jewelry? (wrong)' does not follow the rules.", "This choice is incorrect because 'Did you get your ears pierced at Bertram's Fine Jewelry? (wrong)' does not follow the rules.", "CORRECT: Did you get your ears pierced at Bertram's Fine Jewelry?", "This choice is incorrect because 'Did you get your ears pierced at bertrams fine jewelry.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I talk so much last week that my throat hurt",
+        choices: ["I talked so much last week that my throat hurt. (wrong)", "I talk so much last week that my throat hurt.", "I talked so much last week that my throat hurt.", "I talked so much last week that my throat hurt. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. I talked so much last week that my throat hurt.", incorrect: ["This choice is incorrect because 'I talked so much last week that my throat hurt. (wrong)' does not follow the rules.", "This choice is incorrect because 'I talk so much last week that my throat hurt.' does not follow the rules.", "CORRECT: I talked so much last week that my throat hurt.", "This choice is incorrect because 'I talked so much last week that my throat hurt. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "I got a doctors appointment tuesday at 745",
+        choices: ["I have a doctor's appointment Tuesday at 7:45. (wrong)", "I got a doctors appointment tuesday at 745.", "I have a doctor's appointment tuesday at 7:45.", "I have a doctor's appointment Tuesday at 7:45."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. I have a doctor's appointment Tuesday at 7:45.", incorrect: ["This choice is incorrect because 'I have a doctor's appointment Tuesday at 7:45. (wrong)' does not follow the rules.", "This choice is incorrect because 'I got a doctors appointment tuesday at 745.' does not follow the rules.", "This choice is incorrect because 'I have a doctor's appointment tuesday at 7:45.' does not follow the rules.", "CORRECT: I have a doctor's appointment Tuesday at 7:45."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Who wrote the book charlotte's web",
+        choices: ["Who wrote the book Charlotte's Web?", "Who wrote the book charlotte's web.", "Who wrote the book Charlotte's Web? (wrong)", "Who wrote the book Charlotte's Web? (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Who wrote the book Charlotte's Web?", incorrect: ["CORRECT: Who wrote the book Charlotte's Web?", "This choice is incorrect because 'Who wrote the book charlotte's web.' does not follow the rules.", "This choice is incorrect because 'Who wrote the book Charlotte's Web? (wrong)' does not follow the rules.", "This choice is incorrect because 'Who wrote the book Charlotte's Web? (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Please set the alarm clock to woke up at 600 am",
+        choices: ["Please set the alarm clock to wake up at 6:00 a.m.", "Please set the alarm clock to wake up at 6:00 a.m. (wrong)", "Please set the alarm clock to wake up at 6:00 a.m. (wrong)", "Please set the alarm clock to woke up at 600 am."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Please set the alarm clock to wake up at 6:00 a.m.", incorrect: ["CORRECT: Please set the alarm clock to wake up at 6:00 a.m.", "This choice is incorrect because 'Please set the alarm clock to wake up at 6:00 a.m. (wrong)' does not follow the rules.", "This choice is incorrect because 'Please set the alarm clock to wake up at 6:00 a.m. (wrong)' does not follow the rules.", "This choice is incorrect because 'Please set the alarm clock to woke up at 600 am.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Were only allowed to watch one our of television on saturdays",
+        choices: ["We're only allowed to watch one hour of television on Saturdays. (wrong)", "We're only allowed to watch one hour of television on Saturdays.", "Were only allowed to watch one our of television on saturdays.", "We're only allowed to watch one hour of television on saturdays."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. We're only allowed to watch one hour of television on Saturdays.", incorrect: ["This choice is incorrect because 'We're only allowed to watch one hour of television on Saturdays. (wrong)' does not follow the rules.", "CORRECT: We're only allowed to watch one hour of television on Saturdays.", "This choice is incorrect because 'Were only allowed to watch one our of television on saturdays.' does not follow the rules.", "This choice is incorrect because 'We're only allowed to watch one hour of television on saturdays.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Did you vote for ben lily or armond for class president",
+        choices: ["Did you vote for Ben, Lily, or Armond for class president? (wrong)", "Did you vote for Ben, Lily, or Armond for class president?", "Did you vote for ben lily or armond for class president.", "Did you vote for Ben Lily or Armond for class president?"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. Did you vote for Ben, Lily, or Armond for class president?", incorrect: ["This choice is incorrect because 'Did you vote for Ben, Lily, or Armond for class president? (wrong)' does not follow the rules.", "CORRECT: Did you vote for Ben, Lily, or Armond for class president?", "This choice is incorrect because 'Did you vote for ben lily or armond for class president.' does not follow the rules.", "This choice is incorrect because 'Did you vote for Ben Lily or Armond for class president?' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "My friend alicia drives to fast",
+        choices: ["My friend Alicia drives too fast. (wrong)", "My friend Alicia drives too fast.", "My friend alicia drives to fast.", "My friend Alicia drives too fast. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. My friend Alicia drives too fast.", incorrect: ["This choice is incorrect because 'My friend Alicia drives too fast. (wrong)' does not follow the rules.", "CORRECT: My friend Alicia drives too fast.", "This choice is incorrect because 'My friend alicia drives to fast.' does not follow the rules.", "This choice is incorrect because 'My friend Alicia drives too fast. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dr barger run past the nurse he gave a patient a note",
+        choices: ["Dr. Barger ran past the nurse and he gave a patient a note.", "Dr barger run past the nurse he gave a patient a note.", "dr. Barger ran past the nurse, and he gave a patient a note.", "Dr. Barger ran past the nurse, and he gave a patient a note."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Dr. Barger ran past the nurse, and he gave a patient a note.", incorrect: ["This choice is incorrect because 'Dr. Barger ran past the nurse and he gave a patient a note.' does not follow the rules.", "This choice is incorrect because 'Dr barger run past the nurse he gave a patient a note.' does not follow the rules.", "This choice is incorrect because 'dr. Barger ran past the nurse, and he gave a patient a note.' does not follow the rules.", "CORRECT: Dr. Barger ran past the nurse, and he gave a patient a note."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Bruce he is gonna be a snake in the play",
+        choices: ["Bruce is going to be a snake in the play. (wrong)", "Bruce he is gonna be a snake in the play.", "Bruce is going to be a snake in the play. (wrong)", "Bruce is going to be a snake in the play."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Bruce is going to be a snake in the play.", incorrect: ["This choice is incorrect because 'Bruce is going to be a snake in the play. (wrong)' does not follow the rules.", "This choice is incorrect because 'Bruce he is gonna be a snake in the play.' does not follow the rules.", "This choice is incorrect because 'Bruce is going to be a snake in the play. (wrong)' does not follow the rules.", "CORRECT: Bruce is going to be a snake in the play."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Did you read the short story called sleeping ugly",
+        choices: ["Did you read the short story called \"Sleeping Ugly\"?", "Did you read the short story called \"Sleeping Ugly\"? (wrong)", "Did you read the short story called \"Sleeping Ugly\"? (wrong)", "Did you read the short story called sleeping ugly."],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. Did you read the short story called \"Sleeping Ugly\"?", incorrect: ["CORRECT: Did you read the short story called \"Sleeping Ugly\"?", "This choice is incorrect because 'Did you read the short story called \"Sleeping Ugly\"? (wrong)' does not follow the rules.", "This choice is incorrect because 'Did you read the short story called \"Sleeping Ugly\"? (wrong)' does not follow the rules.", "This choice is incorrect because 'Did you read the short story called sleeping ugly.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Im gonna be a model when i grow up",
+        choices: ["I'm going to be a model when I grow up.", "Im gonna be a model when i grow up.", "I'm going to be a model when I grow up. (wrong)", "I'm going to be a model when I grow up. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I'm going to be a model when I grow up.", incorrect: ["CORRECT: I'm going to be a model when I grow up.", "This choice is incorrect because 'Im gonna be a model when i grow up.' does not follow the rules.", "This choice is incorrect because 'I'm going to be a model when I grow up. (wrong)' does not follow the rules.", "This choice is incorrect because 'I'm going to be a model when I grow up. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Lester, my brother, will be six years old on friday",
+        choices: ["Lester, my brother, will be six years old on friday.", "Lester, my brother, will be six years old on friday.", "Lester, my brother, will be six years old on Friday.", "Lester my brother will be six years old on Friday."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Lester, my brother, will be six years old on Friday.", incorrect: ["This choice is incorrect because 'Lester, my brother, will be six years old on friday.' does not follow the rules.", "This choice is incorrect because 'Lester, my brother, will be six years old on friday.' does not follow the rules.", "CORRECT: Lester, my brother, will be six years old on Friday.", "This choice is incorrect because 'Lester my brother will be six years old on Friday.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "The falcon caught its prey while flying it was a pigeon",
+        choices: ["The falcon caught its prey while flying; it was a pigeon. (wrong)", "The falcon caught its prey while flying; it was a pigeon.", "The falcon caught its prey while flying it was a pigeon.", "The falcon caught its prey while flying; it was a pigeon. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. The falcon caught its prey while flying; it was a pigeon.", incorrect: ["This choice is incorrect because 'The falcon caught its prey while flying; it was a pigeon. (wrong)' does not follow the rules.", "CORRECT: The falcon caught its prey while flying; it was a pigeon.", "This choice is incorrect because 'The falcon caught its prey while flying it was a pigeon.' does not follow the rules.", "This choice is incorrect because 'The falcon caught its prey while flying; it was a pigeon. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "We have forgot to water the plants i hope they arent dead",
+        choices: ["We have forgotten to water the plants; I hope they aren't dead. (wrong)", "We have forgot to water the plants i hope they arent dead.", "We have forgotten to water the plants; I hope they aren't dead. (wrong)", "We have forgotten to water the plants; I hope they aren't dead."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. We have forgotten to water the plants; I hope they aren't dead.", incorrect: ["This choice is incorrect because 'We have forgotten to water the plants; I hope they aren't dead. (wrong)' does not follow the rules.", "This choice is incorrect because 'We have forgot to water the plants i hope they arent dead.' does not follow the rules.", "This choice is incorrect because 'We have forgotten to water the plants; I hope they aren't dead. (wrong)' does not follow the rules.", "CORRECT: We have forgotten to water the plants; I hope they aren't dead."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "In gym we jump rope play volleyball and run",
+        choices: ["In gym we jump rope, play volleyball, and run. (wrong)", "In gym we jump rope, play volleyball, and run.", "In gym we jump rope play volleyball and run.", "In gym we jump rope, play volleyball, and run. (wrong)"],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. In gym we jump rope, play volleyball, and run.", incorrect: ["This choice is incorrect because 'In gym we jump rope, play volleyball, and run. (wrong)' does not follow the rules.", "CORRECT: In gym we jump rope, play volleyball, and run.", "This choice is incorrect because 'In gym we jump rope play volleyball and run.' does not follow the rules.", "This choice is incorrect because 'In gym we jump rope, play volleyball, and run. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Our class went to the houston zoo on a field trip last april",
+        choices: ["Our class went to the houston zoo on a field trip last april.", "Our class went to the Houston Zoo on a field trip last April. (wrong)", "Our class went to the Houston Zoo on a field trip last April.", "Our class went to the Houston Zoo on a field trip last april."],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. Our class went to the Houston Zoo on a field trip last April.", incorrect: ["This choice is incorrect because 'Our class went to the houston zoo on a field trip last april.' does not follow the rules.", "This choice is incorrect because 'Our class went to the Houston Zoo on a field trip last April. (wrong)' does not follow the rules.", "CORRECT: Our class went to the Houston Zoo on a field trip last April.", "This choice is incorrect because 'Our class went to the Houston Zoo on a field trip last april.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Dont be late for your piano lessons said mother",
+        choices: ["\"Don't be late for your piano lessons\" said Mother.", "\"Don't be late for your piano lessons,\" said Mother.", "\"Don't be late for your piano lessons,\" said mother.", "Dont be late for your piano lessons said mother."],
+        correct: 1,
+        explanation: { correct: "The correct answer is B. \"Don't be late for your piano lessons,\" said Mother.", incorrect: ["This choice is incorrect because '\"Don't be late for your piano lessons\" said Mother.' does not follow the rules.", "CORRECT: \"Don't be late for your piano lessons,\" said Mother.", "This choice is incorrect because '\"Don't be late for your piano lessons,\" said mother.' does not follow the rules.", "This choice is incorrect because 'Dont be late for your piano lessons said mother.' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Our team wears read shirts for field day last month",
+        choices: ["Our team wore red shirts for field day last month. (wrong)", "Our team wears read shirts for field day last month.", "Our team wore red shirts for field day last month. (wrong)", "Our team wore red shirts for field day last month."],
+        correct: 3,
+        explanation: { correct: "The correct answer is D. Our team wore red shirts for field day last month.", incorrect: ["This choice is incorrect because 'Our team wore red shirts for field day last month. (wrong)' does not follow the rules.", "This choice is incorrect because 'Our team wears read shirts for field day last month.' does not follow the rules.", "This choice is incorrect because 'Our team wore red shirts for field day last month. (wrong)' does not follow the rules.", "CORRECT: Our team wore red shirts for field day last month."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "What are you going to do after school today asked sandy",
+        choices: ["\"What are you going to do after school today?\" asked Sandy. (wrong)", "What are you going to do after school today asked sandy.", "\"What are you going to do after school today?\" asked Sandy.", "\"What are you going to do after school today?\" asked Sandy. (wrong)"],
+        correct: 2,
+        explanation: { correct: "The correct answer is C. \"What are you going to do after school today?\" asked Sandy.", incorrect: ["This choice is incorrect because '\"What are you going to do after school today?\" asked Sandy. (wrong)' does not follow the rules.", "This choice is incorrect because 'What are you going to do after school today asked sandy.' does not follow the rules.", "CORRECT: \"What are you going to do after school today?\" asked Sandy.", "This choice is incorrect because '\"What are you going to do after school today?\" asked Sandy. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      },
+      {
+        question: "Ive got to tell you what our assignment is in social studies",
+        choices: ["I've got to tell you what our assignment is in social studies.", "Ive got to tell you what our assignment is in social studies.", "I've got to tell you what our assignment is in social studies. (wrong)", "I've got to tell you what our assignment is in social studies. (wrong)"],
+        correct: 0,
+        explanation: { correct: "The correct answer is A. I've got to tell you what our assignment is in social studies.", incorrect: ["CORRECT: I've got to tell you what our assignment is in social studies.", "This choice is incorrect because 'Ive got to tell you what our assignment is in social studies.' does not follow the rules.", "This choice is incorrect because 'I've got to tell you what our assignment is in social studies. (wrong)' does not follow the rules.", "This choice is incorrect because 'I've got to tell you what our assignment is in social studies. (wrong)' does not follow the rules."] },
+        studyAid: { definition: "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.", example: "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      }
   ]
 };
 
-if (typeof window !== 'undefined') window.QUESTION_BANK = QUESTION_BANK;
+window.QUESTION_BANK = QUESTION_BANK;

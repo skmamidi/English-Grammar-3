@@ -15,8 +15,10 @@
   let currentQuestions = [];
   let currentIndex = 0;
   let score = 0;
+  let combo = 0;
   let answered = false;
   let quizContainer = null;
+  const STORAGE_KEY = 'grammarQuestProgress';
 
   // DOM ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -52,18 +54,37 @@
     currentQuestions = shuffleArray([...set.questions]);
     currentIndex = 0;
     score = 0;
+    combo = 0;
     answered = false;
 
-    renderStartScreen(set.title);
+    renderStartScreen(set);
   }
 
-  function renderStartScreen(title) {
+  function renderStartScreen(set) {
+    const progress = loadProgress();
+    const topicName = set.topic || 'Grammar Quest';
+    const rank = getRank(progress.totalGems);
+
     quizContainer.innerHTML = `
       <div class="start-screen">
-        <h2>${escapeHtml(title)}</h2>
-        <p>You will answer ${currentQuestions.length} questions. 
-           Each question has 4 choices. Read carefully and pick the best answer. 
-           You will get feedback and study tips after each question.</p>
+        <div class="quest-kicker">Chapter Mission</div>
+        <h2>${escapeHtml(set.title)}</h2>
+        <p>The Word Woods need a careful sentence scout. Answer ${currentQuestions.length} questions, collect star gems, and keep your practice streak glowing.</p>
+        <div class="quest-dashboard" aria-label="Saved quest progress">
+          <div class="quest-stat">
+            <span class="quest-stat-value">${progress.streakDays}</span>
+            <span class="quest-stat-label">day streak</span>
+          </div>
+          <div class="quest-stat">
+            <span class="quest-stat-value">${progress.totalGems}</span>
+            <span class="quest-stat-label">star gems</span>
+          </div>
+          <div class="quest-stat">
+            <span class="quest-stat-value">${escapeHtml(rank.name)}</span>
+            <span class="quest-stat-label">rank</span>
+          </div>
+        </div>
+        <p class="quest-brief">Today's trail: ${escapeHtml(topicName)}. A score of 75% or higher earns a bonus reward.</p>
         <button class="btn btn-primary" id="start-btn">Start Quiz</button>
       </div>
     `;
@@ -73,10 +94,16 @@
   function renderQuestion() {
     answered = false;
     const q = currentQuestions[currentIndex];
+    const progress = loadProgress();
 
     quizContainer.innerHTML = `
       <div class="quiz-header">
         <div class="quiz-progress">Question ${currentIndex + 1} of ${currentQuestions.length}</div>
+        <div class="quest-mini-hud" aria-label="Quest progress">
+          <span>${progress.streakDays} day streak</span>
+          <span>${progress.totalGems} gems</span>
+          <span>Combo ${combo}</span>
+        </div>
         <div class="quiz-score">Score: ${score} / ${currentIndex}</div>
       </div>
 
@@ -111,6 +138,7 @@
     const isCorrect = selectedIndex === q.correct;
 
     if (isCorrect) score++;
+    combo = isCorrect ? combo + 1 : 0;
 
     // Update choice buttons
     document.querySelectorAll('.choice-btn').forEach((b, idx) => {
@@ -135,6 +163,9 @@
   function renderFeedback(q, selectedIndex, isCorrect) {
     const feedbackArea = document.getElementById('feedback-area');
     const controls = document.getElementById('controls');
+    const comboMessage = isCorrect && combo >= 3
+      ? `<div class="quest-reward-note">Combo bonus charged: ${combo} correct answers in a row.</div>`
+      : '';
 
     let choiceExplanations = '';
     if (q.explanation && q.explanation.incorrect) {
@@ -156,11 +187,12 @@
     feedbackArea.innerHTML = `
       <div class="feedback-box">
         <div class="feedback-title ${isCorrect ? 'correct' : 'incorrect'}">
-          ${isCorrect ? '✓ Correct!' : '✗ Not quite.'}
+          ${isCorrect ? 'Correct! Star gem found.' : 'Not quite. The trail is still open.'}
         </div>
         <div class="feedback-text">
           ${q.explanation && q.explanation.correct ? escapeHtml(q.explanation.correct) : ''}
         </div>
+        ${comboMessage}
         ${choiceExplanations ? `<div class="choice-explanations">${choiceExplanations}</div>` : ''}
         ${studyAidHtml}
       </div>
@@ -201,6 +233,12 @@
 
   function renderResults() {
     const percentage = Math.round((score / currentQuestions.length) * 100);
+    const reward = saveQuestResult(percentage, score, currentQuestions.length);
+    const progress = reward.progress;
+    const rank = getRank(progress.totalGems);
+    const badgeHtml = progress.badges.length
+      ? `<div class="badge-row">${progress.badges.map(badge => `<span>${escapeHtml(badge)}</span>`).join('')}</div>`
+      : '';
     let message = '';
     if (percentage >= 90) {
       message = 'Outstanding work! You have mastered this skill!';
@@ -214,9 +252,20 @@
 
     quizContainer.innerHTML = `
       <div class="results-box">
+        <div class="quest-kicker">Mission Complete</div>
         <div class="results-score">${score} / ${currentQuestions.length}</div>
         <div class="results-label">${percentage}% correct</div>
         <div class="results-message">${escapeHtml(message)}</div>
+        <div class="reward-panel" aria-label="Rewards earned">
+          <div class="reward-main">+${reward.gemsEarned} star gems</div>
+          <div class="reward-grid">
+            <div><strong>${progress.streakDays}</strong><span>day streak</span></div>
+            <div><strong>${progress.totalGems}</strong><span>total gems</span></div>
+            <div><strong>${escapeHtml(rank.name)}</strong><span>quest rank</span></div>
+          </div>
+          ${badgeHtml}
+          <p>${escapeHtml(reward.message)}</p>
+        </div>
         <div class="controls" style="justify-content:center;">
           <button class="btn btn-primary" id="restart-btn">Try Again</button>
           <a href="./" class="btn btn-secondary">Back to Topic</a>
@@ -236,6 +285,88 @@
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
+  }
+
+  function loadProgress() {
+    const fallback = {
+      streakDays: 0,
+      totalGems: 0,
+      quizzesCompleted: 0,
+      bestScore: 0,
+      lastPracticeDate: '',
+      badges: []
+    };
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      return Object.assign(fallback, saved || {});
+    } catch (error) {
+      return fallback;
+    }
+  }
+
+  function saveQuestResult(percentage, correct, total) {
+    const progress = loadProgress();
+    const today = getTodayKey();
+    const yesterday = getDateKey(-1);
+    let streakBonus = 0;
+
+    if (progress.lastPracticeDate !== today) {
+      progress.streakDays = progress.lastPracticeDate === yesterday ? progress.streakDays + 1 : 1;
+      progress.lastPracticeDate = today;
+    }
+
+    const baseGems = correct * 2;
+    const masteryBonus = percentage >= 90 ? 10 : percentage >= 75 ? 5 : 0;
+    if (progress.streakDays > 0 && progress.streakDays % 3 === 0) streakBonus = 8;
+    const gemsEarned = baseGems + masteryBonus + streakBonus;
+
+    progress.totalGems += gemsEarned;
+    progress.quizzesCompleted += 1;
+    progress.bestScore = Math.max(progress.bestScore || 0, percentage);
+    progress.badges = updateBadges(progress);
+
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+
+    let message = 'Every answer moves your story forward.';
+    if (streakBonus) {
+      message = 'Streak bonus unlocked for practicing three days in a row.';
+    } else if (masteryBonus) {
+      message = 'Accuracy bonus unlocked for strong focus.';
+    } else if (progress.streakDays > 1) {
+      message = 'Your practice streak is saved. Come back tomorrow to grow it.';
+    }
+
+    return { gemsEarned, message, progress };
+  }
+
+  function updateBadges(progress) {
+    const badges = new Set(progress.badges || []);
+    if (progress.quizzesCompleted >= 1) badges.add('First Quest');
+    if (progress.streakDays >= 3) badges.add('3-Day Trail');
+    if (progress.bestScore >= 90) badges.add('Sharp-Eyed Editor');
+    if (progress.totalGems >= 100) badges.add('Gem Keeper');
+    return Array.from(badges);
+  }
+
+  function getRank(gems) {
+    if (gems >= 250) return { name: 'Word Wizard' };
+    if (gems >= 120) return { name: 'Story Ranger' };
+    if (gems >= 50) return { name: 'Sentence Scout' };
+    return { name: 'Trail Starter' };
+  }
+
+  function getTodayKey() {
+    return getDateKey(0);
+  }
+
+  function getDateKey(offsetDays) {
+    const date = new Date();
+    date.setDate(date.getDate() + offsetDays);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
   }
 
   // Utility: escape HTML

@@ -18,7 +18,7 @@
   let combo = 0;
   let answered = false;
   let quizContainer = null;
-  const STORAGE_KEY = 'grammarQuestProgress';
+  const progressStore = window.GrammarQuestProgress;
 
   // DOM ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -288,6 +288,8 @@
   }
 
   function loadProgress() {
+    if (progressStore) return progressStore.loadLocalProgress();
+
     const fallback = {
       streakDays: 0,
       totalGems: 0,
@@ -298,7 +300,7 @@
     };
 
     try {
-      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      const saved = JSON.parse(localStorage.getItem('grammarQuestProgress'));
       return Object.assign(fallback, saved || {});
     } catch (error) {
       return fallback;
@@ -326,7 +328,11 @@
     progress.bestScore = Math.max(progress.bestScore || 0, percentage);
     progress.badges = updateBadges(progress);
 
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    if (progressStore) {
+      progressStore.saveLocalProgress(progress);
+    } else {
+      localStorage.setItem('grammarQuestProgress', JSON.stringify(progress));
+    }
 
     let message = 'Every answer moves your story forward.';
     if (streakBonus) {

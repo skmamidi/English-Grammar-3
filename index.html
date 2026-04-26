@@ -74,6 +74,9 @@
       </a>
     </div>
   </main>
+  <script src="assets/firebase-config.js"></script>
+  <script src="assets/progress-store.js"></script>
+  <script type="module" src="assets/auth-service.js"></script>
   <script>
     (function () {
       const STORAGE_KEY = 'grammarQuestProgress';
@@ -88,6 +91,10 @@
       }
 
       function loadProgress() {
+        if (window.GrammarQuestProgress) {
+          return window.GrammarQuestProgress.loadLocalProgress();
+        }
+
         try {
           return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
         } catch (error) {
@@ -95,10 +102,11 @@
         }
       }
 
-      const progress = loadProgress();
-      const streakDays = progress.streakDays || 0;
-      const totalGems = progress.totalGems || 0;
-      progressEl.innerHTML = `
+      function renderProgress() {
+        const progress = loadProgress();
+        const streakDays = progress.streakDays || 0;
+        const totalGems = progress.totalGems || 0;
+        progressEl.innerHTML = `
         <div class="quest-stat">
           <span class="quest-stat-value">${streakDays}</span>
           <span class="quest-stat-label">day streak</span>
@@ -112,6 +120,10 @@
           <span class="quest-stat-label">rank</span>
         </div>
       `;
+      }
+
+      renderProgress();
+      window.addEventListener('grammarquest:progress-updated', renderProgress);
     })();
   </script>
 </body>

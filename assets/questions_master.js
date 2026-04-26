@@ -7070,107 +7070,107 @@ const QUESTION_BANK = {
     "topic": "Punctuation",
     "questions": [
       {
-        "question": "Which sentence ends with the correct punctuation?",
+        "question": "Which sentence uses end punctuation that matches the meaning?",
         "choices": [
-          "What time is it.",
-          "What time is it?",
-          "What time is it!",
-          "What time is it,"
+          "What time is rehearsal.",
+          "What time is rehearsal?",
+          "What time is rehearsal!",
+          "What time is rehearsal,"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "What time is it? is the best answer. Use a period for statements, a question mark for questions, and an exclamation point for strong feeling.",
-          "incorrect": [
-            "What time is it. does not fit this question. Use a period for statements, a question mark for questions, and an exclamation point for strong feeling.",
-            "",
-            "What time is it! does not fit this question. Use a period for statements, a question mark for questions, and an exclamation point for strong feeling.",
-            "What time is it, does not fit this question. Use a period for statements, a question mark for questions, and an exclamation point for strong feeling."
-          ]
-        },
         "studyAid": {
-          "definition": "Use a period for statements, a question mark for questions, and an exclamation point for strong feeling.",
-          "example": "It is raining. (period) Are you coming? (question mark) Watch out! (exclamation)",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "What time is rehearsal? is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "What time is rehearsal. does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "What time is rehearsal! does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "What time is rehearsal, does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Which sentence uses the correct end punctuation?",
+        "question": "Which sentence should end with a period because it is an indirect question?",
         "choices": [
-          "I can't believe we won",
-          "I can't believe we won.",
-          "I can't believe we won?",
-          "I can't believe we won,"
+          "Can you tell me where the office is",
+          "Where is the office",
+          "I wonder where the office is",
+          "Is the office near the gym"
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "I can't believe we won. is the best answer. Every sentence must end with a period, question mark, or exclamation point.",
-          "incorrect": [
-            "I can't believe we won does not fit this question. Every sentence must end with a period, question mark, or exclamation point.",
-            "",
-            "I can't believe we won? does not fit this question. Every sentence must end with a period, question mark, or exclamation point.",
-            "I can't believe we won, does not fit this question. Every sentence must end with a period, question mark, or exclamation point."
-          ]
-        },
+        "correct": 2,
         "studyAid": {
-          "definition": "Every sentence must end with a period, question mark, or exclamation point.",
-          "example": "I finished my homework. (statement)",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "I wonder where the office is is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "Can you tell me where the office is does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "Where is the office does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "Is the office near the gym does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Which sentence correctly uses an exclamation point?",
+        "question": "Which sentence correctly uses an exclamation point for urgency?",
         "choices": [
           "Where did you put my shoes!",
           "I am five years old!",
-          "Help, I am falling!",
+          "Watch out for the car!",
           "What is your name!"
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "Help, I am falling! is the best answer. Exclamation points show strong emotion, urgency, or surprise.",
-          "incorrect": [
-            "Where did you put my shoes! does not fit this question. Exclamation points show strong emotion, urgency, or surprise.",
-            "I am five years old! does not fit this question. Exclamation points show strong emotion, urgency, or surprise.",
-            "",
-            "What is your name! does not fit this question. Exclamation points show strong emotion, urgency, or surprise."
-          ]
-        },
         "studyAid": {
-          "definition": "Exclamation points show strong emotion, urgency, or surprise. Do not overuse them.",
-          "example": "Fire! Watch out! I can't believe it!",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Watch out for the car! is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "Where did you put my shoes! does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "I am five years old! does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "What is your name! does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Which sentence is punctuated correctly?",
+        "question": "Which revision correctly punctuates a polite request?",
         "choices": [
-          "Did you finish your homework.",
-          "Did you finish your homework!",
-          "Did you finish your homework?",
-          "Did you finish your homework,"
+          "Could you lower your voice.",
+          "Could you lower your voice?",
+          "Could you lower your voice!",
+          "Could you lower your voice,"
         ],
-        "correct": 2,
-        "explanation": {
-          "correct": "Did you finish your homework? is the best answer. Yes/no questions always end with a question mark.",
-          "incorrect": [
-            "Did you finish your homework. does not fit this question. Yes/no questions always end with a question mark.",
-            "Did you finish your homework! does not fit this question. Yes/no questions always end with a question mark.",
-            "",
-            "Did you finish your homework, does not fit this question. Yes/no questions always end with a question mark."
-          ]
-        },
+        "correct": 1,
         "studyAid": {
-          "definition": "Yes/no questions always end with a question mark.",
-          "example": "Did you eat? Is it cold? Can we go?",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Could you lower your voice? fixes the sentence while keeping the original meaning. Read the whole sentence to make sure capitalization, punctuation, spelling, and grammar all work.",
+          "incorrect": [
+            "Could you lower your voice. still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "",
+            "Could you lower your voice! still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "Could you lower your voice, still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning."
+          ]
         }
       },
       {
-        "question": "What punctuation should end this sentence: 'How amazing that was'",
+        "question": "What punctuation should end this sentence: \"How amazing that was\"?",
         "choices": [
           "period",
           "question mark",
@@ -7178,74 +7178,74 @@ const QUESTION_BANK = {
           "comma"
         ],
         "correct": 2,
+        "studyAid": {
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "exclamation point is the best answer. Sentences starting with 'How' or 'What' can be exclamations if they show strong feeling.",
+          "correct": "exclamation point is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
           "incorrect": [
-            "period does not fit this question. Sentences starting with 'How' or 'What' can be exclamations if they show strong feeling.",
-            "question mark does not fit this question. Sentences starting with 'How' or 'What' can be exclamations if they show strong feeling.",
+            "period does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "question mark does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
             "",
-            "comma does not fit this question. Sentences starting with 'How' or 'What' can be exclamations if they show strong feeling."
+            "comma does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
           ]
-        },
-        "studyAid": {
-          "definition": "Sentences starting with 'How' or 'What' can be exclamations if they show strong feeling.",
-          "example": "How beautiful! What a mess!",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
         }
       },
       {
-        "question": "Which sentence is correct?",
+        "question": "Which command could correctly end with a period because it is calm?",
         "choices": [
-          "Close the door.",
-          "Close the door!",
-          "Close the door?",
-          "All could be correct depending on meaning"
+          "Stop the fire",
+          "Please place your folder on the desk",
+          "Look out below",
+          "Run"
         ],
-        "correct": 3,
-        "explanation": {
-          "correct": "All could be correct depending on meaning is the best answer. Punctuation can change the meaning and tone of a sentence.",
-          "incorrect": [
-            "Close the door. does not fit this question. Punctuation can change the meaning and tone of a sentence.",
-            "Close the door! does not fit this question. Punctuation can change the meaning and tone of a sentence.",
-            "Close the door? does not fit this question. Punctuation can change the meaning and tone of a sentence.",
-            ""
-          ]
-        },
+        "correct": 1,
         "studyAid": {
-          "definition": "Punctuation can change the meaning and tone of a sentence.",
-          "example": "Close the door. (calm) Close the door! (urgent) Close the door? (asking permission)",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Please place your folder on the desk is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "Stop the fire does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "Look out below does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "Run does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Which sentence ends incorrectly?",
+        "question": "Which sentence has incorrect end punctuation?",
         "choices": [
           "Are you coming with us?",
           "I think we should leave now.",
           "What a beautiful day.",
-          "Wow!"
+          "The meeting starts at noon."
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "What a beautiful day. is the best answer because it is the choice the question asks you to find. Exclamations that start with 'What' or 'How' need exclamation points to match the emotion.",
-          "incorrect": [
-            "Are you coming with us? is not the choice this question asks you to find. Exclamations that start with 'What' or 'How' need exclamation points to match the emotion.",
-            "I think we should leave now. is not the choice this question asks you to find. Exclamations that start with 'What' or 'How' need exclamation points to match the emotion.",
-            "",
-            "Wow! is not the choice this question asks you to find. Exclamations that start with 'What' or 'How' need exclamation points to match the emotion."
-          ]
-        },
         "studyAid": {
-          "definition": "Exclamations that start with 'What' or 'How' need exclamation points to match the emotion.",
-          "example": "What a great game! How wonderful!",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "What a beautiful day. is the best answer because it is the choice the question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "Are you coming with us? is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "I think we should leave now. is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "The meeting starts at noon. is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Choose the correct ending for: 'Stop right there'",
+        "question": "Choose the punctuation that best fits the urgent sentence: \"Stop right there\"",
         "choices": [
           ".",
           "?",
@@ -7253,24 +7253,24 @@ const QUESTION_BANK = {
           ","
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "! is the best answer. Strong commands and warnings usually end with exclamation points.",
-          "incorrect": [
-            ". does not fit this question. Strong commands and warnings usually end with exclamation points.",
-            "? does not fit this question. Strong commands and warnings usually end with exclamation points.",
-            "",
-            ", does not fit this question. Strong commands and warnings usually end with exclamation points."
-          ]
-        },
         "studyAid": {
-          "definition": "Strong commands and warnings usually end with exclamation points.",
-          "example": "Stop! Look out! Don't move!",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "! is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            ". does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "? does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            ", does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Which sentence is a correct statement?",
+        "question": "Which sentence is a statement with correct punctuation?",
         "choices": [
           "My favorite color is blue!",
           "My favorite color is blue.",
@@ -7278,20 +7278,20 @@ const QUESTION_BANK = {
           "My favorite color is blue,"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "My favorite color is blue. is the best answer. Simple facts and calm statements end with periods.",
-          "incorrect": [
-            "My favorite color is blue! does not fit this question. Simple facts and calm statements end with periods.",
-            "",
-            "My favorite color is blue? does not fit this question. Simple facts and calm statements end with periods.",
-            "My favorite color is blue, does not fit this question. Simple facts and calm statements end with periods."
-          ]
-        },
         "studyAid": {
-          "definition": "Simple facts and calm statements end with periods.",
-          "example": "The sky is blue. I like pizza. She walks to school.",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "My favorite color is blue. is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "My favorite color is blue! does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "My favorite color is blue? does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "My favorite color is blue, does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
@@ -7303,24 +7303,24 @@ const QUESTION_BANK = {
           "You're coming aren't you?"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "You're coming, aren't you? is the best answer. A tag question is a short question at the end of a statement.",
-          "incorrect": [
-            "You're coming, aren't you. does not fit this question. A tag question is a short question at the end of a statement.",
-            "",
-            "You're coming, aren't you! does not fit this question. A tag question is a short question at the end of a statement.",
-            "You're coming aren't you? does not fit this question. A tag question is a short question at the end of a statement."
-          ]
-        },
         "studyAid": {
-          "definition": "A tag question is a short question at the end of a statement. It still needs a question mark.",
-          "example": "It's cold, isn't it? You like pizza, don't you?",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "You're coming, aren't you? is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "You're coming, aren't you. does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "You're coming, aren't you! does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "You're coming aren't you? does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "What is wrong with this sentence: 'I wonder if it will rain today'",
+        "question": "What is wrong with this sentence: \"I wonder if it will rain today\"",
         "choices": [
           "Nothing",
           "It needs a question mark",
@@ -7328,24 +7328,24 @@ const QUESTION_BANK = {
           "It needs a comma"
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "It needs a period at the end is the best answer. Sentences that begin with 'I wonder' or 'I think' are statements, even if they mention a question.",
-          "incorrect": [
-            "Nothing does not fit this question. Sentences that begin with 'I wonder' or 'I think' are statements, even if they mention a question.",
-            "It needs a question mark does not fit this question. Sentences that begin with 'I wonder' or 'I think' are statements, even if they mention a question.",
-            "",
-            "It needs a comma does not fit this question. Sentences that begin with 'I wonder' or 'I think' are statements, even if they mention a question."
-          ]
-        },
         "studyAid": {
-          "definition": "Sentences that begin with 'I wonder' or 'I think' are statements, even if they mention a question.",
-          "example": "I wonder if she is coming. (statement) Is she coming? (question)",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "It needs a period at the end is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "Nothing does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "It needs a question mark does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "It needs a comma does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Which sentence is an exclamation?",
+        "question": "Which sentence is an exclamation, not a question?",
         "choices": [
           "What time does the movie start?",
           "I love this movie.",
@@ -7353,20 +7353,20 @@ const QUESTION_BANK = {
           "Do you like this movie?"
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "What an exciting movie! is the best answer. Exclamations often start with 'What' or 'How' and express strong emotion.",
-          "incorrect": [
-            "What time does the movie start? does not fit this question. Exclamations often start with 'What' or 'How' and express strong emotion.",
-            "I love this movie. does not fit this question. Exclamations often start with 'What' or 'How' and express strong emotion.",
-            "",
-            "Do you like this movie? does not fit this question. Exclamations often start with 'What' or 'How' and express strong emotion."
-          ]
-        },
         "studyAid": {
-          "definition": "Exclamations often start with 'What' or 'How' and express strong emotion.",
-          "example": "What a surprise! How kind of you!",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "What an exciting movie! is the best answer because it is the choice the question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "What time does the movie start? is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "I love this movie. is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "Do you like this movie? is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
@@ -7378,24 +7378,24 @@ const QUESTION_BANK = {
           "Give me my keys."
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "I found my keys? is the best answer because it is the choice the question asks you to find. Be careful: some statements can use question marks if they show uncertainty, but standard statements use periods.",
-          "incorrect": [
-            "Where are my keys? is not the choice this question asks you to find. Be careful: some statements can use question marks if they show uncertainty, but standard statements use periods.",
-            "I found my keys! is not the choice this question asks you to find. Be careful: some statements can use question marks if they show uncertainty, but standard statements use periods.",
-            "",
-            "Give me my keys. is not the choice this question asks you to find. Be careful: some statements can use question marks if they show uncertainty, but standard statements use periods."
-          ]
-        },
         "studyAid": {
-          "definition": "Be careful: some statements can use question marks if they show uncertainty, but standard statements use periods.",
-          "example": "I found my keys. (fact) I found my keys? (surprised/uncertain)",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "I found my keys? is the best answer because it is the choice the question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "Where are my keys? is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "I found my keys! is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            "Give me my keys. is not the choice this question asks you to find. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       },
       {
-        "question": "Which ending is correct for a polite request: 'Could you please pass the salt'",
+        "question": "Which ending is correct for a direct question: \"Could you please pass the salt\"",
         "choices": [
           "!",
           "?",
@@ -7403,20 +7403,45 @@ const QUESTION_BANK = {
           "..."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "? is the best answer. Polite requests using 'could you' or 'would you' are in question form and need question marks.",
-          "incorrect": [
-            "! does not fit this question. Polite requests using 'could you' or 'would you' are in question form and need question marks.",
-            "",
-            ". does not fit this question. Polite requests using 'could you' or 'would you' are in question form and need question marks.",
-            "... does not fit this question. Polite requests using 'could you' or 'would you' are in question form and need question marks."
-          ]
-        },
         "studyAid": {
-          "definition": "Polite requests using 'could you' or 'would you' are in question form and need question marks.",
-          "example": "Could you help me? Would you mind closing the door?",
-          "link": "https://www.grammar-monster.com/glossary/punctuation.htm",
-          "linkText": "Grammar Monster - Punctuation"
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "? is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "! does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "",
+            ". does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "... does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence changes meaning if the punctuation changes from . to ?",
+        "choices": [
+          "The train leaves at six",
+          "Where the train leaves",
+          "Leaves at six",
+          "The six trains"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "example": "Could you wait outside? is a direct question. Please wait outside. is a polite command. Watch out! is urgent.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The train leaves at six is the best answer. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+          "incorrect": [
+            "",
+            "Where the train leaves does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "Leaves at six does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands.",
+            "The six trains does not fit this question. End punctuation depends on the sentence purpose and force: use a period for most statements and mild commands, a question mark for direct questions, and an exclamation point for strong feeling or urgent commands."
+          ]
         }
       }
     ]
@@ -11161,207 +11186,207 @@ const QUESTION_BANK = {
     "topic": "Capitalization",
     "questions": [
       {
-        "question": "Which is capitalized correctly?",
+        "question": "Which sentence correctly capitalizes the day, month, and holiday?",
         "choices": [
-          "monday",
-          "Monday",
-          "monDay",
-          "MONDAY"
+          "on monday, july 4, we watched fireworks for independence day.",
+          "On Monday, July 4, we watched fireworks for Independence Day.",
+          "On monday, July 4, we watched fireworks for Independence day.",
+          "On Monday, july 4, we watched fireworks for independence Day."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "Monday is the best answer. Days of the week are proper nouns: Monday, Tuesday, Wednesday, etc.",
-          "incorrect": [
-            "monday does not fit this question. Days of the week are proper nouns: Monday, Tuesday, Wednesday, etc.",
-            "",
-            "monDay does not fit this question. Days of the week are proper nouns: Monday, Tuesday, Wednesday, etc.",
-            "MONDAY does not fit this question. Days of the week are proper nouns: Monday, Tuesday, Wednesday, etc."
-          ]
-        },
         "studyAid": {
-          "definition": "Days of the week are proper nouns: Monday, Tuesday, Wednesday, etc.",
-          "example": "School starts on Monday.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "On Monday, July 4, we watched fireworks for Independence Day. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "on monday, july 4, we watched fireworks for independence day. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "On monday, July 4, we watched fireworks for Independence day. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "On Monday, july 4, we watched fireworks for independence Day. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which sentence is correct?",
         "choices": [
-          "january",
-          "January",
-          "JanUary",
-          "JANUARY"
+          "My birthday is in october, but Halloween is in October too.",
+          "My birthday is in October, but Halloween is in October too.",
+          "My birthday is in October, but halloween is in October too.",
+          "My birthday is in october, but halloween is in october too."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "January is the best answer. Months are proper nouns: January, February, March, etc.",
-          "incorrect": [
-            "january does not fit this question. Months are proper nouns: January, February, March, etc.",
-            "",
-            "JanUary does not fit this question. Months are proper nouns: January, February, March, etc.",
-            "JANUARY does not fit this question. Months are proper nouns: January, February, March, etc."
-          ]
-        },
         "studyAid": {
-          "definition": "Months are proper nouns: January, February, March, etc.",
-          "example": "My birthday is in January.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "My birthday is in October, but Halloween is in October too. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "My birthday is in october, but Halloween is in October too. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "My birthday is in October, but halloween is in October too. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "My birthday is in october, but halloween is in october too. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which choice correctly capitalizes a holiday but not a season?",
         "choices": [
-          "christmas",
-          "Christmas",
-          "christMas",
-          "CHRISTMAS"
+          "We visit Grandma during Winter and Thanksgiving.",
+          "We visit Grandma during winter and Thanksgiving.",
+          "We visit Grandma during winter and thanksgiving.",
+          "We visit Grandma during Winter and thanksgiving."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "Christmas is the best answer. Holidays are proper nouns: Christmas, Thanksgiving, Independence Day, etc.",
-          "incorrect": [
-            "christmas does not fit this question. Holidays are proper nouns: Christmas, Thanksgiving, Independence Day, etc.",
-            "",
-            "christMas does not fit this question. Holidays are proper nouns: Christmas, Thanksgiving, Independence Day, etc.",
-            "CHRISTMAS does not fit this question. Holidays are proper nouns: Christmas, Thanksgiving, Independence Day, etc."
-          ]
-        },
         "studyAid": {
-          "definition": "Holidays are proper nouns: Christmas, Thanksgiving, Independence Day, etc.",
-          "example": "We celebrate Christmas in December.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We visit Grandma during winter and Thanksgiving. is the best answer because it is the choice the question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "We visit Grandma during Winter and Thanksgiving. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "We visit Grandma during winter and thanksgiving. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "We visit Grandma during Winter and thanksgiving. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is incorrect?",
+        "question": "Which sentence has a capitalization mistake?",
         "choices": [
-          "Labor Day",
-          "labor day",
-          "Memorial Day",
-          "New Year's Day"
+          "Labor Day is on a Monday.",
+          "Memorial Day is in May.",
+          "New Year's Day is a holiday.",
+          "We celebrate veterans day in November."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "labor day is the best answer because it is the choice the question asks you to find. Holiday names are proper nouns.",
-          "incorrect": [
-            "Labor Day is not the choice this question asks you to find. Holiday names are proper nouns.",
-            "",
-            "Memorial Day is not the choice this question asks you to find. Holiday names are proper nouns.",
-            "New Year's Day is not the choice this question asks you to find. Holiday names are proper nouns."
-          ]
-        },
+        "correct": 3,
         "studyAid": {
-          "definition": "Holiday names are proper nouns. Capitalize all important words.",
-          "example": "Labor Day, Memorial Day, New Year's Day",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We celebrate veterans day in November. is the best answer because it is the choice the question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "Labor Day is on a Monday. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "Memorial Day is in May. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "New Year's Day is a holiday. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            ""
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which sentence is correct?",
         "choices": [
-          "We go to school on tuesday.",
-          "We go to school on Tuesday.",
-          "We go to school on TUESDAY.",
-          "We go to school on tuesDay."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "We go to school on Tuesday. is the best answer. Always capitalize days of the week.",
-          "incorrect": [
-            "We go to school on tuesday. does not fit this question. Always capitalize days of the week.",
-            "",
-            "We go to school on TUESDAY. does not fit this question. Always capitalize days of the week.",
-            "We go to school on tuesDay. does not fit this question. Always capitalize days of the week."
-          ]
-        },
-        "studyAid": {
-          "definition": "Always capitalize days of the week.",
-          "example": "I have piano lessons on Thursday.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
-        }
-      },
-      {
-        "question": "Which is correct?",
-        "choices": [
-          "My favorite month is july.",
-          "My favorite month is July.",
-          "My favorite month is JULY.",
-          "My favorite month is jUly."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "My favorite month is July. is the best answer. Always capitalize months.",
-          "incorrect": [
-            "My favorite month is july. does not fit this question. Always capitalize months.",
-            "",
-            "My favorite month is JULY. does not fit this question. Always capitalize months.",
-            "My favorite month is jUly. does not fit this question. Always capitalize months."
-          ]
-        },
-        "studyAid": {
-          "definition": "Always capitalize months.",
-          "example": "The camp starts in June.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
-        }
-      },
-      {
-        "question": "Which is incorrect?",
-        "choices": [
-          "Fourth of July",
-          "fourth of july",
-          "Independence Day",
-          "New Year's Eve"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "fourth of july is the best answer because it is the choice the question asks you to find. Capitalize holidays, including words like 'Day' and 'Eve' when part of the holiday name.",
-          "incorrect": [
-            "Fourth of July is not the choice this question asks you to find. Capitalize holidays, including words like 'Day' and 'Eve' when part of the holiday name.",
-            "",
-            "Independence Day is not the choice this question asks you to find. Capitalize holidays, including words like 'Day' and 'Eve' when part of the holiday name.",
-            "New Year's Eve is not the choice this question asks you to find. Capitalize holidays, including words like 'Day' and 'Eve' when part of the holiday name."
-          ]
-        },
-        "studyAid": {
-          "definition": "Capitalize holidays, including words like 'Day' and 'Eve' when part of the holiday name.",
-          "example": "Fourth of July, New Year's Eve, Valentine's Day",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
-        }
-      },
-      {
-        "question": "Which is correct?",
-        "choices": [
-          "thanksgiving is in november.",
-          "Thanksgiving is in november.",
-          "Thanksgiving is in November.",
-          "thanksgiving is in November."
+          "School starts on tuesday after spring break.",
+          "School starts on Tuesday after Spring Break.",
+          "School starts on Tuesday after spring break.",
+          "school starts on Tuesday after spring break."
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "Thanksgiving is in November. is the best answer. Capitalize both holidays and months.",
-          "incorrect": [
-            "thanksgiving is in november. does not fit this question. Capitalize both holidays and months.",
-            "Thanksgiving is in november. does not fit this question. Capitalize both holidays and months.",
-            "",
-            "thanksgiving is in November. does not fit this question. Capitalize both holidays and months."
-          ]
-        },
         "studyAid": {
-          "definition": "Capitalize both holidays and months.",
-          "example": "Halloween is in October.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "School starts on Tuesday after spring break. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "School starts on tuesday after spring break. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "School starts on Tuesday after Spring Break. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "school starts on Tuesday after spring break. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which title-like holiday is capitalized correctly?",
+        "choices": [
+          "martin luther king jr. day",
+          "Martin Luther King Jr. Day",
+          "Martin luther King Jr. Day",
+          "Martin Luther King jr. day"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Martin Luther King Jr. Day is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "martin luther king jr. day does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "Martin luther King Jr. Day does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "Martin Luther King jr. day does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence correctly leaves the season lowercase?",
+        "choices": [
+          "Easter is usually in spring.",
+          "Easter is usually in Spring.",
+          "easter is usually in spring.",
+          "Easter is Usually in spring."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Easter is usually in spring. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "",
+            "Easter is usually in Spring. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "easter is usually in spring. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "Easter is Usually in spring. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence is correct?",
+        "choices": [
+          "We have no school on Friday, November 10.",
+          "We have no school on friday, November 10.",
+          "We have no school on Friday, november 10.",
+          "we have no school on Friday, November 10."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We have no school on Friday, November 10. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "",
+            "We have no school on friday, November 10. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "We have no school on Friday, november 10. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "we have no school on Friday, November 10. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
+        }
+      },
+      {
+        "question": "Which choice correctly capitalizes both words in the holiday name?",
         "choices": [
           "Valentine's day",
           "valentine's Day",
@@ -11369,170 +11394,170 @@ const QUESTION_BANK = {
           "valentine's day"
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "Valentine's Day is the best answer. In holiday names, capitalize all major words.",
-          "incorrect": [
-            "Valentine's day does not fit this question. In holiday names, capitalize all major words.",
-            "valentine's Day does not fit this question. In holiday names, capitalize all major words.",
-            "",
-            "valentine's day does not fit this question. In holiday names, capitalize all major words."
-          ]
-        },
         "studyAid": {
-          "definition": "In holiday names, capitalize all major words.",
-          "example": "Valentine's Day, Presidents' Day, Mother's Day",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Valentine's Day is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "Valentine's day does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "valentine's Day does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "valentine's day does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is incorrect?",
+        "question": "Which sentence has a capitalization mistake?",
         "choices": [
-          "Martin Luther King Jr. Day",
-          "martin luther king jr. day",
-          "Presidents' Day",
-          "Veterans Day"
+          "Hanukkah begins in December this year.",
+          "Kwanzaa begins in December.",
+          "Ramadan follows the lunar calendar.",
+          "my family celebrates Diwali."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "martin luther king jr. day is the best answer because it is the choice the question asks you to find. Holiday names with people's names capitalize each part.",
-          "incorrect": [
-            "Martin Luther King Jr. Day is not the choice this question asks you to find. Holiday names with people's names capitalize each part.",
-            "",
-            "Presidents' Day is not the choice this question asks you to find. Holiday names with people's names capitalize each part.",
-            "Veterans Day is not the choice this question asks you to find. Holiday names with people's names capitalize each part."
-          ]
-        },
+        "correct": 3,
         "studyAid": {
-          "definition": "Holiday names with people's names capitalize each part.",
-          "example": "Martin Luther King Jr. Day, George Washington's Birthday",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "my family celebrates Diwali. is the best answer because it is the choice the question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "Hanukkah begins in December this year. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "Kwanzaa begins in December. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "Ramadan follows the lunar calendar. is not the choice this question asks you to find. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            ""
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which sentence is correct?",
         "choices": [
-          "We have no school on friday.",
-          "We have no school on Friday.",
-          "We have no school on FRIDAY.",
-          "We have no school on fridAy."
+          "Groundhog Day is in February.",
+          "Groundhog day is in february.",
+          "groundhog Day is in February.",
+          "Groundhog Day is in february."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "We have no school on Friday. is the best answer. Always capitalize days of the week.",
-          "incorrect": [
-            "We have no school on friday. does not fit this question. Always capitalize days of the week.",
-            "",
-            "We have no school on FRIDAY. does not fit this question. Always capitalize days of the week.",
-            "We have no school on fridAy. does not fit this question. Always capitalize days of the week."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Always capitalize days of the week.",
-          "example": "The weekend starts on Saturday.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Groundhog Day is in February. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "",
+            "Groundhog day is in february. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "groundhog Day is in February. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "Groundhog Day is in february. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which word should be capitalized in this sentence: \"we planted flowers in april\"?",
         "choices": [
-          "easter is in spring.",
-          "Easter is in spring.",
-          "Easter is in Spring.",
-          "easter is in Spring."
+          "we only",
+          "flowers only",
+          "april only",
+          "planted only"
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Easter is in spring. is the best answer. Seasons (spring, summer, fall, winter) are not capitalized unless part of a title.",
-          "incorrect": [
-            "easter is in spring. does not fit this question. Seasons (spring, summer, fall, winter) are not capitalized unless part of a title.",
-            "",
-            "Easter is in Spring. does not fit this question. Seasons (spring, summer, fall, winter) are not capitalized unless part of a title.",
-            "easter is in Spring. does not fit this question. Seasons (spring, summer, fall, winter) are not capitalized unless part of a title."
-          ]
-        },
+        "correct": 2,
         "studyAid": {
-          "definition": "Seasons (spring, summer, fall, winter) are not capitalized unless part of a title.",
-          "example": "Easter is in spring. Winter Olympics is capitalized because it is a title.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "april only is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "we only does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "flowers only does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "planted only does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is incorrect?",
+        "question": "Which sentence correctly capitalizes a date in a sentence?",
         "choices": [
-          "Hanukkah",
-          "hanukkah",
-          "Kwanzaa",
-          "Ramadan"
+          "The concert is Friday, June 14, at noon.",
+          "The concert is friday, June 14, at noon.",
+          "The concert is Friday, june 14, at noon.",
+          "The concert is Friday, June 14, At noon."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "hanukkah is the best answer because it is the choice the question asks you to find. All holiday names are proper nouns.",
-          "incorrect": [
-            "Hanukkah is not the choice this question asks you to find. All holiday names are proper nouns.",
-            "",
-            "Kwanzaa is not the choice this question asks you to find. All holiday names are proper nouns.",
-            "Ramadan is not the choice this question asks you to find. All holiday names are proper nouns."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "All holiday names are proper nouns.",
-          "example": "Hanukkah, Kwanzaa, Ramadan, Diwali",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The concert is Friday, June 14, at noon. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "",
+            "The concert is friday, June 14, at noon. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "The concert is Friday, june 14, at noon. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "The concert is Friday, June 14, At noon. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which choice is correct for a calendar heading?",
         "choices": [
-          "Groundhog day",
-          "Groundhog Day",
-          "groundhog Day",
-          "groundhog day"
+          "monday, march 3",
+          "Monday, March 3",
+          "Monday, march 3",
+          "monday, March 3"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "Groundhog Day is the best answer. Capitalize all major words in holiday names.",
-          "incorrect": [
-            "Groundhog day does not fit this question. Capitalize all major words in holiday names.",
-            "",
-            "groundhog Day does not fit this question. Capitalize all major words in holiday names.",
-            "groundhog day does not fit this question. Capitalize all major words in holiday names."
-          ]
-        },
         "studyAid": {
-          "definition": "Capitalize all major words in holiday names.",
-          "example": "Groundhog Day, Earth Day, Arbor Day",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Monday, March 3 is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "monday, march 3 does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "",
+            "Monday, march 3 does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "monday, March 3 does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       },
       {
-        "question": "Which is correct?",
+        "question": "Which sentence correctly capitalizes the month but leaves the season lowercase?",
         "choices": [
-          "I was born in august.",
-          "I was born in August.",
-          "I was born in AUGUST.",
-          "I was born in auguSt."
+          "I was born in August, not in winter.",
+          "I was born in august, not in winter.",
+          "I was born in August, not in Winter.",
+          "I was born in AUGUST, not in winter."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "I was born in August. is the best answer. Always capitalize months.",
-          "incorrect": [
-            "I was born in august. does not fit this question. Always capitalize months.",
-            "",
-            "I was born in AUGUST. does not fit this question. Always capitalize months.",
-            "I was born in auguSt. does not fit this question. Always capitalize months."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Always capitalize months.",
-          "example": "She was born in September.",
-          "link": "https://www.grammar-monster.com/glossary/proper_nouns.htm",
-          "linkText": "Grammar Monster - Proper Nouns"
+          "definition": "Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "example": "We visited in winter. We celebrated New Year's Day in January.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "I was born in August, not in winter. is the best answer. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+          "incorrect": [
+            "",
+            "I was born in august, not in winter. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "I was born in August, not in Winter. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title.",
+            "I was born in AUGUST, not in winter. does not fit this question. Capitalize days, months, and holidays, but do not capitalize seasons unless they are part of a proper name or title."
+          ]
         }
       }
     ]
@@ -13847,157 +13872,132 @@ const QUESTION_BANK = {
     "topic": "Grammar & Usage",
     "questions": [
       {
-        "question": "Which pronoun correctly completes: 'Maria lost ___ book.'",
+        "question": "Which pronoun correctly completes the compound subject: \"Ava and ___ prepared the slides\"?",
         "choices": [
-          "her",
-          "she",
-          "hers",
-          "him"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "her is the best answer. Possessive pronouns before nouns: my, your, his, her, its, our, their.",
-          "incorrect": [
-            "",
-            "she does not fit this question. Possessive pronouns before nouns: my, your, his, her, its, our, their.",
-            "hers does not fit this question. Possessive pronouns before nouns: my, your, his, her, its, our, their.",
-            "him does not fit this question. Possessive pronouns before nouns: my, your, his, her, its, our, their."
-          ]
-        },
-        "studyAid": {
-          "definition": "Possessive pronouns before nouns: my, your, his, her, its, our, their.",
-          "example": "She lost her book. He found his keys.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which pronoun is the subject of: '___ went to the store.'",
-        "choices": [
-          "Him",
-          "Her",
-          "She",
-          "Them"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "She is the best answer. Subject pronouns do the action: I, you, he, she, it, we, they.",
-          "incorrect": [
-            "Him does not fit this question. Subject pronouns do the action: I, you, he, she, it, we, they.",
-            "Her does not fit this question. Subject pronouns do the action: I, you, he, she, it, we, they.",
-            "",
-            "Them does not fit this question. Subject pronouns do the action: I, you, he, she, it, we, they."
-          ]
-        },
-        "studyAid": {
-          "definition": "Subject pronouns do the action: I, you, he, she, it, we, they.",
-          "example": "She runs fast. They play soccer.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which pronoun correctly completes: 'The teacher gave ___ a test.'",
-        "choices": [
-          "we",
-          "us",
-          "our",
-          "ours"
+          "me",
+          "I",
+          "myself",
+          "mine"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "us is the best answer. Object pronouns receive the action: me, you, him, her, it, us, them.",
-          "incorrect": [
-            "we does not fit this question. Object pronouns receive the action: me, you, him, her, it, us, them.",
-            "",
-            "our does not fit this question. Object pronouns receive the action: me, you, him, her, it, us, them.",
-            "ours does not fit this question. Object pronouns receive the action: me, you, him, her, it, us, them."
-          ]
-        },
         "studyAid": {
-          "definition": "Object pronouns receive the action: me, you, him, her, it, us, them.",
-          "example": "She gave us a gift. He saw me.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "I is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "me does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "myself does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "mine does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which pronoun correctly completes the compound object: \"The coach thanked Leo and ___\"?",
+        "choices": [
+          "I",
+          "we",
+          "me",
+          "myself"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "me is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "I does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "we does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "myself does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
         }
       },
       {
         "question": "Which sentence uses a reflexive pronoun correctly?",
         "choices": [
-          "I made the cake myself.",
-          "Myself made the cake.",
-          "I made the cake by myself.",
-          "Both A and C"
-        ],
-        "correct": 3,
-        "explanation": {
-          "correct": "Both A and C is the best answer. Reflexive pronouns (myself, yourself, himself) emphasize or refer back to the subject.",
-          "incorrect": [
-            "I made the cake myself. does not fit this question. Reflexive pronouns (myself, yourself, himself) emphasize or refer back to the subject.",
-            "Myself made the cake. does not fit this question. Reflexive pronouns (myself, yourself, himself) emphasize or refer back to the subject.",
-            "I made the cake by myself. does not fit this question. Reflexive pronouns (myself, yourself, himself) emphasize or refer back to the subject.",
-            ""
-          ]
-        },
-        "studyAid": {
-          "definition": "Reflexive pronouns (myself, yourself, himself) emphasize or refer back to the subject.",
-          "example": "I did it myself. She made it by herself.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which pronoun is incorrect: 'Me and him went to the park.'",
-        "choices": [
-          "Me",
-          "him",
-          "Both A and B",
-          "went"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "Both A and B is the best answer because it is the choice the question asks you to find. Use subject pronouns (I, he, she, we, they) when they are the subject.",
-          "incorrect": [
-            "Me is not the choice this question asks you to find. Use subject pronouns (I, he, she, we, they) when they are the subject.",
-            "him is not the choice this question asks you to find. Use subject pronouns (I, he, she, we, they) when they are the subject.",
-            "",
-            "went is not the choice this question asks you to find. Use subject pronouns (I, he, she, we, they) when they are the subject."
-          ]
-        },
-        "studyAid": {
-          "definition": "Use subject pronouns (I, he, she, we, they) when they are the subject.",
-          "example": "He and I went to the park. (Not: Me and him)",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which pronoun correctly completes: 'The cat licked ___ paw.'",
-        "choices": [
-          "it's",
-          "its",
-          "it",
-          "its'"
+          "My brother and myself built the model.",
+          "I built the model myself.",
+          "Myself built the model.",
+          "The model was for myself and she."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "its is the best answer. 'Its' = possessive.",
-          "incorrect": [
-            "it's does not fit this question. 'Its' = possessive.",
-            "",
-            "it does not fit this question. 'Its' = possessive.",
-            "its' does not fit this question. 'Its' = possessive."
-          ]
-        },
         "studyAid": {
-          "definition": "'Its' = possessive. 'It's' = it is.",
-          "example": "The cat licked its paw. It's raining outside.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "I built the model myself. is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "My brother and myself built the model. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "Myself built the model. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "The model was for myself and she. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
         }
       },
       {
-        "question": "Which is correct: 'Between you and ___, this is a secret.'",
+        "question": "Which pronoun correctly replaces \"the map and the compass\"?",
+        "choices": [
+          "it",
+          "they",
+          "them",
+          "those"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "them is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "it does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "they does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "those does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses its/it's correctly?",
+        "choices": [
+          "The robot lost it's signal.",
+          "Its going to rain soon.",
+          "The robot followed its signal.",
+          "The robot followed its' signal."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The robot followed its signal. is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "The robot lost it's signal. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "Its going to rain soon. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "The robot followed its' signal. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which pronoun should follow the preposition in \"between you and ___\"?",
         "choices": [
           "I",
           "me",
@@ -14005,195 +14005,220 @@ const QUESTION_BANK = {
           "mine"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "me is the best answer. Prepositions (between, to, for, with) take object pronouns.",
-          "incorrect": [
-            "I does not fit this question. Prepositions (between, to, for, with) take object pronouns.",
-            "",
-            "myself does not fit this question. Prepositions (between, to, for, with) take object pronouns.",
-            "mine does not fit this question. Prepositions (between, to, for, with) take object pronouns."
-          ]
-        },
         "studyAid": {
-          "definition": "Prepositions (between, to, for, with) take object pronouns.",
-          "example": "Between you and me. He gave it to her.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "me is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "I does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "myself does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "mine does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
         }
       },
       {
-        "question": "Which pronoun correctly completes: 'Each student must bring ___ own lunch.'",
+        "question": "Which revision avoids an unclear pronoun reference?",
+        "choices": [
+          "When Jamal called Luis, he was excited.",
+          "Jamal was excited when he called Luis.",
+          "He was excited when Jamal called Luis.",
+          "When he called Luis, Jamal was excited and he smiled."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Jamal was excited when he called Luis. fixes the sentence while keeping the original meaning. Read the whole sentence to make sure capitalization, punctuation, spelling, and grammar all work.",
+          "incorrect": [
+            "When Jamal called Luis, he was excited. still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "",
+            "He was excited when Jamal called Luis. still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "When he called Luis, Jamal was excited and he smiled. still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses who/whom correctly in formal writing?",
+        "choices": [
+          "Whom is leading the meeting?",
+          "To whom did you give the note?",
+          "To who did you give the note?",
+          "Whom will present first?"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "To whom did you give the note? is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "Whom is leading the meeting? does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "To who did you give the note? does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "Whom will present first? does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which pronoun correctly completes: \"Neither Maya nor Lena brought ___ notebook\"?",
+        "choices": [
+          "their",
+          "her",
+          "his",
+          "them"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "her is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "their does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "his does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "them does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses a possessive pronoun correctly?",
+        "choices": [
+          "That backpack is her.",
+          "That backpack is hers.",
+          "That backpack is her's.",
+          "That backpack is she."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "That backpack is hers. is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "That backpack is her. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "That backpack is her's. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "That backpack is she. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses an intensive pronoun?",
+        "choices": [
+          "The principal herself announced the winner.",
+          "The principal announced herself the winner.",
+          "Herself announced the winner.",
+          "The winner announced the principal herself."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The principal herself announced the winner. is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "",
+            "The principal announced herself the winner. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "Herself announced the winner. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "The winner announced the principal herself. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which pronoun agrees with the antecedent in \"Each player must check ___ equipment\"?",
         "choices": [
           "their",
           "his or her",
-          "its",
-          "Both A and B"
-        ],
-        "correct": 3,
-        "explanation": {
-          "correct": "Both A and B is the best answer. Singular 'they/their' is now accepted for gender-neutral singular antecedents.",
-          "incorrect": [
-            "their does not fit this question. Singular 'they/their' is now accepted for gender-neutral singular antecedents.",
-            "his or her does not fit this question. Singular 'they/their' is now accepted for gender-neutral singular antecedents.",
-            "its does not fit this question. Singular 'they/their' is now accepted for gender-neutral singular antecedents.",
-            ""
-          ]
-        },
-        "studyAid": {
-          "definition": "Singular 'they/their' is now accepted for gender-neutral singular antecedents.",
-          "example": "Each student brought their lunch. = Each student brought his or her lunch.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which is incorrect?",
-        "choices": [
-          "Who is at the door?",
-          "Whom is at the door?",
-          "To whom did you speak?",
-          "Whom did you see?"
+          "them",
+          "our"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "Whom is at the door? is the best answer because it is the choice the question asks you to find. 'Who' = subject.",
-          "incorrect": [
-            "Who is at the door? is not the choice this question asks you to find. 'Who' = subject.",
-            "",
-            "To whom did you speak? is not the choice this question asks you to find. 'Who' = subject.",
-            "Whom did you see? is not the choice this question asks you to find. 'Who' = subject."
-          ]
-        },
         "studyAid": {
-          "definition": "'Who' = subject. 'Whom' = object. Use 'who' when the pronoun does the action.",
-          "example": "Who called? (subject) Whom did you call? (object)",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "his or her is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "their does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "them does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "our does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
         }
       },
       {
-        "question": "Which pronoun correctly completes: 'The winners were Tom and ___.'",
+        "question": "Which sentence uses \"we\" correctly?",
+        "choices": [
+          "Us students organized the supplies.",
+          "We students organized the supplies.",
+          "Them and we organized the supplies.",
+          "The supplies were organized by we."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We students organized the supplies. is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "incorrect": [
+            "Us students organized the supplies. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "",
+            "Them and we organized the supplies. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "The supplies were organized by we. does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
+          ]
+        }
+      },
+      {
+        "question": "Which pronoun correctly completes the predicate nominative: \"The volunteers were Noah and ___\"?",
         "choices": [
           "I",
           "me",
           "myself",
           "mine"
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "me is the best answer. After linking verbs like 'were,' use subject pronouns to rename the subject.",
-          "incorrect": [
-            "I does not fit this question. After linking verbs like 'were,' use subject pronouns to rename the subject.",
-            "",
-            "myself does not fit this question. After linking verbs like 'were,' use subject pronouns to rename the subject.",
-            "mine does not fit this question. After linking verbs like 'were,' use subject pronouns to rename the subject."
-          ]
-        },
-        "studyAid": {
-          "definition": "After linking verbs like 'were,' use subject pronouns to rename the subject.",
-          "example": "The winner is she. It was I.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which is correct?",
-        "choices": [
-          "The dog chased it's tail.",
-          "The dog chased its tail.",
-          "The dog chased it tail.",
-          "The dog chased its' tail."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "The dog chased its tail. is the best answer. 'Its' = possessive.",
-          "incorrect": [
-            "The dog chased it's tail. does not fit this question. 'Its' = possessive.",
-            "",
-            "The dog chased it tail. does not fit this question. 'Its' = possessive.",
-            "The dog chased its' tail. does not fit this question. 'Its' = possessive."
-          ]
-        },
-        "studyAid": {
-          "definition": "'Its' = possessive. 'It's' = it is.",
-          "example": "The dog wagged its tail. It's a nice day.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which pronoun correctly completes: 'Someone left ___ backpack.'",
-        "choices": [
-          "their",
-          "his",
-          "her",
-          "Any of the above"
-        ],
-        "correct": 3,
-        "explanation": {
-          "correct": "Any of the above is the best answer. Indefinite pronouns (someone, anyone, everyone) can use singular 'they' or 'his or her.'",
-          "incorrect": [
-            "their does not fit this question. Indefinite pronouns (someone, anyone, everyone) can use singular 'they' or 'his or her.'",
-            "his does not fit this question. Indefinite pronouns (someone, anyone, everyone) can use singular 'they' or 'his or her.'",
-            "her does not fit this question. Indefinite pronouns (someone, anyone, everyone) can use singular 'they' or 'his or her.'",
-            ""
-          ]
-        },
-        "studyAid": {
-          "definition": "Indefinite pronouns (someone, anyone, everyone) can use singular 'they' or 'his or her.'",
-          "example": "Someone left their book. Someone left his book.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which is correct?",
-        "choices": [
-          "Us girls went shopping.",
-          "We girls went shopping.",
-          "Ourselves girls went shopping.",
-          "Our girls went shopping."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "We girls went shopping. is the best answer. When a pronoun is followed by a noun renaming it, use the subject form.",
-          "incorrect": [
-            "Us girls went shopping. does not fit this question. When a pronoun is followed by a noun renaming it, use the subject form.",
-            "",
-            "Ourselves girls went shopping. does not fit this question. When a pronoun is followed by a noun renaming it, use the subject form.",
-            "Our girls went shopping. does not fit this question. When a pronoun is followed by a noun renaming it, use the subject form."
-          ]
-        },
-        "studyAid": {
-          "definition": "When a pronoun is followed by a noun renaming it, use the subject form.",
-          "example": "We students work hard. Us students is informal.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
-        }
-      },
-      {
-        "question": "Which is correct?",
-        "choices": [
-          "This book is yours.",
-          "This book is your's.",
-          "This book is yous.",
-          "This book is yours'."
-        ],
         "correct": 0,
+        "studyAid": {
+          "definition": "Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+          "example": "She and I are subjects. Give it to her and me uses object pronouns.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "This book is yours. is the best answer. Possessive pronouns (yours, hers, ours, theirs, its) never use apostrophes.",
+          "correct": "I is the best answer. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
           "incorrect": [
             "",
-            "This book is your's. does not fit this question. Possessive pronouns (yours, hers, ours, theirs, its) never use apostrophes.",
-            "This book is yous. does not fit this question. Possessive pronouns (yours, hers, ours, theirs, its) never use apostrophes.",
-            "This book is yours'. does not fit this question. Possessive pronouns (yours, hers, ours, theirs, its) never use apostrophes."
+            "me does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "myself does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject.",
+            "mine does not fit this question. Pronouns must match their job in the sentence: subjects do the action, objects receive it, possessives show ownership, and reflexives refer back to the subject."
           ]
-        },
-        "studyAid": {
-          "definition": "Possessive pronouns (yours, hers, ours, theirs, its) never use apostrophes.",
-          "example": "The book is yours. The house is ours.",
-          "link": "https://www.grammar-monster.com/glossary/pronouns.htm",
-          "linkText": "Grammar Monster - Pronouns"
         }
       }
     ]
@@ -15671,507 +15696,407 @@ const QUESTION_BANK = {
     "topic": "Grammar & Usage",
     "questions": [
       {
-        "question": "What type of sentence is: 'Close the door.'",
+        "question": "Which sentence is a command even though it ends with a period?",
         "choices": [
-          "Declarative",
-          "Interrogative",
-          "Imperative",
-          "Exclamatory"
+          "The library closes at five.",
+          "Please return the books by Friday.",
+          "What time does the library close?",
+          "What a quiet library this is!"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Please return the books by Friday. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "The library closes at five. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "What time does the library close? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "What a quiet library this is! does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence is exclamatory because it shows strong feeling?",
+        "choices": [
+          "The storm knocked down two branches.",
+          "Did the storm knock down two branches?",
+          "What a powerful storm that was!",
+          "Bring the branches to the curb."
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "Imperative is the best answer. Imperative sentences give commands, instructions, or requests.",
-          "incorrect": [
-            "Declarative does not fit this question. Imperative sentences give commands, instructions, or requests.",
-            "Interrogative does not fit this question. Imperative sentences give commands, instructions, or requests.",
-            "",
-            "Exclamatory does not fit this question. Imperative sentences give commands, instructions, or requests."
-          ]
-        },
         "studyAid": {
-          "definition": "Imperative sentences give commands, instructions, or requests. The subject 'you' is understood.",
-          "example": "Close the door. Please sit down. Be quiet.",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "What a powerful storm that was! is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "The storm knocked down two branches. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Did the storm knock down two branches? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "Bring the branches to the curb. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
         }
       },
       {
-        "question": "What type is: 'Where is my backpack?'",
+        "question": "Which sentence is interrogative?",
         "choices": [
-          "Declarative",
-          "Interrogative",
-          "Imperative",
-          "Exclamatory"
+          "Tell me whether the bus is late.",
+          "Is the bus late again?",
+          "The bus is late again.",
+          "What a late bus!"
         ],
         "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "Interrogative is the best answer. Interrogative sentences ask questions and end with question marks.",
+          "correct": "Is the bus late again? is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
           "incorrect": [
-            "Declarative does not fit this question. Interrogative sentences ask questions and end with question marks.",
+            "Tell me whether the bus is late. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
             "",
-            "Imperative does not fit this question. Interrogative sentences ask questions and end with question marks.",
-            "Exclamatory does not fit this question. Interrogative sentences ask questions and end with question marks."
+            "The bus is late again. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "What a late bus! does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
           ]
-        },
-        "studyAid": {
-          "definition": "Interrogative sentences ask questions and end with question marks.",
-          "example": "Where are you? What time is it? Did you eat?",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
         }
       },
       {
-        "question": "What type is: 'I love ice cream!'",
+        "question": "Which sentence is declarative even though it contains the word question?",
         "choices": [
-          "Declarative",
-          "Interrogative",
-          "Imperative",
-          "Exclamatory"
-        ],
-        "correct": 3,
-        "explanation": {
-          "correct": "Exclamatory is the best answer. Exclamatory sentences express strong emotion: excitement, anger, surprise, joy.",
-          "incorrect": [
-            "Declarative does not fit this question. Exclamatory sentences express strong emotion: excitement, anger, surprise, joy.",
-            "Interrogative does not fit this question. Exclamatory sentences express strong emotion: excitement, anger, surprise, joy.",
-            "Imperative does not fit this question. Exclamatory sentences express strong emotion: excitement, anger, surprise, joy.",
-            ""
-          ]
-        },
-        "studyAid": {
-          "definition": "Exclamatory sentences express strong emotion: excitement, anger, surprise, joy.",
-          "example": "I love ice cream! That was amazing! Watch out!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "What type is: 'The Earth orbits the sun.'",
-        "choices": [
-          "Declarative",
-          "Interrogative",
-          "Imperative",
-          "Exclamatory"
+          "The question was difficult.",
+          "Did you answer the question?",
+          "Answer the question now.",
+          "What a strange question!"
         ],
         "correct": 0,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "Declarative is the best answer. Declarative sentences make statements or express opinions.",
+          "correct": "The question was difficult. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
           "incorrect": [
             "",
-            "Interrogative does not fit this question. Declarative sentences make statements or express opinions.",
-            "Imperative does not fit this question. Declarative sentences make statements or express opinions.",
-            "Exclamatory does not fit this question. Declarative sentences make statements or express opinions."
+            "Did you answer the question? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Answer the question now. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "What a strange question! does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
           ]
-        },
-        "studyAid": {
-          "definition": "Declarative sentences make statements or express opinions. They are the most common sentence type.",
-          "example": "The sky is blue. I like pizza. She runs fast.",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
         }
       },
       {
-        "question": "Which is an imperative sentence?",
+        "question": "A student writes, \"Please explain how you solved the problem!\" What type of sentence is it?",
         "choices": [
-          "Are you coming?",
-          "Please pass the salt.",
-          "What a beautiful day!",
-          "The cat is sleeping."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Please pass the salt. is the best answer. Imperative sentences can be polite requests using 'please.'",
-          "incorrect": [
-            "Are you coming? does not fit this question. Imperative sentences can be polite requests using 'please.'",
-            "",
-            "What a beautiful day! does not fit this question. Imperative sentences can be polite requests using 'please.'",
-            "The cat is sleeping. does not fit this question. Imperative sentences can be polite requests using 'please.'"
-          ]
-        },
-        "studyAid": {
-          "definition": "Imperative sentences can be polite requests using 'please.'",
-          "example": "Please help me. Be careful. Listen closely.",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is an exclamatory sentence?",
-        "choices": [
-          "I finished my homework.",
-          "Did you finish your homework?",
-          "Finish your homework!",
-          "What a mess!"
-        ],
-        "correct": 3,
-        "explanation": {
-          "correct": "What a mess! is the best answer. Exclamatory sentences often start with 'What' or 'How.'",
-          "incorrect": [
-            "I finished my homework. does not fit this question. Exclamatory sentences often start with 'What' or 'How.'",
-            "Did you finish your homework? does not fit this question. Exclamatory sentences often start with 'What' or 'How.'",
-            "Finish your homework! does not fit this question. Exclamatory sentences often start with 'What' or 'How.'",
-            ""
-          ]
-        },
-        "studyAid": {
-          "definition": "Exclamatory sentences often start with 'What' or 'How.'",
-          "example": "What a surprise! How wonderful! What a great game!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is interrogative?",
-        "choices": [
-          "How old are you?",
-          "I am ten years old.",
-          "Please tell me your age.",
-          "What a big birthday cake!"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "How old are you? is the best answer. Interrogative sentences often start with who, what, where, when, why, how.",
-          "incorrect": [
-            "",
-            "I am ten years old. does not fit this question. Interrogative sentences often start with who, what, where, when, why, how.",
-            "Please tell me your age. does not fit this question. Interrogative sentences often start with who, what, where, when, why, how.",
-            "What a big birthday cake! does not fit this question. Interrogative sentences often start with who, what, where, when, why, how."
-          ]
-        },
-        "studyAid": {
-          "definition": "Interrogative sentences often start with who, what, where, when, why, how.",
-          "example": "Who is that? What happened? Where are you going?",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is declarative?",
-        "choices": [
-          "The train arrives at noon.",
-          "Does the train arrive at noon?",
-          "Let the train arrive at noon!",
-          "What a noisy train!"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "The train arrives at noon. is the best answer. Declarative sentences state facts or opinions.",
-          "incorrect": [
-            "",
-            "Does the train arrive at noon? does not fit this question. Declarative sentences state facts or opinions.",
-            "Let the train arrive at noon! does not fit this question. Declarative sentences state facts or opinions.",
-            "What a noisy train! does not fit this question. Declarative sentences state facts or opinions."
-          ]
-        },
-        "studyAid": {
-          "definition": "Declarative sentences state facts or opinions.",
-          "example": "The train arrives at noon. I think it will rain.",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which sentence is imperative?",
-        "choices": [
-          "Be quiet!",
-          "Are you quiet?",
-          "I am quiet.",
-          "How quiet it is!"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "Be quiet! is the best answer. Imperative sentences can end with periods or exclamation points.",
-          "incorrect": [
-            "",
-            "Are you quiet? does not fit this question. Imperative sentences can end with periods or exclamation points.",
-            "I am quiet. does not fit this question. Imperative sentences can end with periods or exclamation points.",
-            "How quiet it is! does not fit this question. Imperative sentences can end with periods or exclamation points."
-          ]
-        },
-        "studyAid": {
-          "definition": "Imperative sentences can end with periods or exclamation points.",
-          "example": "Be quiet. Sit down. Listen!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is NOT declarative?",
-        "choices": [
-          "Birds can fly.",
-          "Can birds fly?",
-          "Some birds cannot fly.",
-          "Penguins are birds that cannot fly."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Can birds fly? is the best answer because it is the choice the question asks you to find. Declarative sentences do not ask questions or give commands.",
-          "incorrect": [
-            "Birds can fly. is not the choice this question asks you to find. Declarative sentences do not ask questions or give commands.",
-            "",
-            "Some birds cannot fly. is not the choice this question asks you to find. Declarative sentences do not ask questions or give commands.",
-            "Penguins are birds that cannot fly. is not the choice this question asks you to find. Declarative sentences do not ask questions or give commands."
-          ]
-        },
-        "studyAid": {
-          "definition": "Declarative sentences do not ask questions or give commands.",
-          "example": "Birds can fly. (declarative) Can birds fly? (interrogative)",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is exclamatory?",
-        "choices": [
-          "How exciting!",
-          "How exciting is it?",
-          "It is exciting.",
-          "Tell me how exciting it is."
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "How exciting! is the best answer. Sentences starting with 'How' + adjective are often exclamatory.",
-          "incorrect": [
-            "",
-            "How exciting is it? does not fit this question. Sentences starting with 'How' + adjective are often exclamatory.",
-            "It is exciting. does not fit this question. Sentences starting with 'How' + adjective are often exclamatory.",
-            "Tell me how exciting it is. does not fit this question. Sentences starting with 'How' + adjective are often exclamatory."
-          ]
-        },
-        "studyAid": {
-          "definition": "Sentences starting with 'How' + adjective are often exclamatory.",
-          "example": "How exciting! How beautiful! How strange!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is imperative?",
-        "choices": [
-          "Don't forget your lunch.",
-          "Did you forget your lunch?",
-          "I forgot my lunch.",
-          "What a forgotten lunch!"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "Don't forget your lunch. is the best answer. Negative commands are still imperative sentences.",
-          "incorrect": [
-            "",
-            "Did you forget your lunch? does not fit this question. Negative commands are still imperative sentences.",
-            "I forgot my lunch. does not fit this question. Negative commands are still imperative sentences.",
-            "What a forgotten lunch! does not fit this question. Negative commands are still imperative sentences."
-          ]
-        },
-        "studyAid": {
-          "definition": "Negative commands are still imperative sentences.",
-          "example": "Don't run. Be careful. Don't forget.",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is interrogative?",
-        "choices": [
-          "Where did you go?",
-          "I went to the store.",
-          "Go to the store!",
-          "What a long trip!"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "Where did you go? is the best answer. Interrogative sentences can start with question words or helping verbs.",
-          "incorrect": [
-            "",
-            "I went to the store. does not fit this question. Interrogative sentences can start with question words or helping verbs.",
-            "Go to the store! does not fit this question. Interrogative sentences can start with question words or helping verbs.",
-            "What a long trip! does not fit this question. Interrogative sentences can start with question words or helping verbs."
-          ]
-        },
-        "studyAid": {
-          "definition": "Interrogative sentences can start with question words or helping verbs.",
-          "example": "Where did you go? Did you eat? Are you ready?",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is declarative?",
-        "choices": [
-          "Mount Everest is tall.",
-          "Is Mount Everest tall?",
-          "Climb Mount Everest!",
-          "How tall Mount Everest is!"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "Mount Everest is tall. is the best answer. Declarative sentences end with periods and state information.",
-          "incorrect": [
-            "",
-            "Is Mount Everest tall? does not fit this question. Declarative sentences end with periods and state information.",
-            "Climb Mount Everest! does not fit this question. Declarative sentences end with periods and state information.",
-            "How tall Mount Everest is! does not fit this question. Declarative sentences end with periods and state information."
-          ]
-        },
-        "studyAid": {
-          "definition": "Declarative sentences end with periods and state information.",
-          "example": "Mount Everest is tall. The Nile is long.",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which sentence type ends with a question mark?",
-        "choices": [
-          "Declarative",
-          "Interrogative",
-          "Imperative",
-          "Exclamatory"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Interrogative is the best answer. Each sentence type has its own end punctuation.",
-          "incorrect": [
-            "Declarative does not fit this question. Each sentence type has its own end punctuation.",
-            "",
-            "Imperative does not fit this question. Each sentence type has its own end punctuation.",
-            "Exclamatory does not fit this question. Each sentence type has its own end punctuation."
-          ]
-        },
-        "studyAid": {
-          "definition": "Each sentence type has its own end punctuation.",
-          "example": "Declarative (.), Interrogative (?), Imperative (. or !), Exclamatory (!)",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Which is exclamatory?",
-        "choices": [
-          "What a great game!",
-          "What time is the game?",
-          "The game was great.",
-          "Watch the game!"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "What a great game! is the best answer. Exclamatory sentences often start with 'What' or 'How' and express emotion.",
-          "incorrect": [
-            "",
-            "What time is the game? does not fit this question. Exclamatory sentences often start with 'What' or 'How' and express emotion.",
-            "The game was great. does not fit this question. Exclamatory sentences often start with 'What' or 'How' and express emotion.",
-            "Watch the game! does not fit this question. Exclamatory sentences often start with 'What' or 'How' and express emotion."
-          ]
-        },
-        "studyAid": {
-          "definition": "Exclamatory sentences often start with 'What' or 'How' and express emotion.",
-          "example": "What a great game! How exciting!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
-        }
-      },
-      {
-        "question": "Statement, command, question, or exclamation? Did you fly or drive to California",
-        "choices": [
-          "statement",
-          "command",
-          "question",
-          "exclamation"
+          "declarative",
+          "interrogative",
+          "imperative",
+          "fragment"
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "question is the best answer. A statement tells something.",
-          "incorrect": [
-            "statement does not fit this question. A statement tells something.",
-            "command does not fit this question. A statement tells something.",
-            "",
-            "exclamation does not fit this question. A statement tells something."
-          ]
-        },
         "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "imperative is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "declarative does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "interrogative does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "fragment does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
         }
       },
       {
-        "question": "Statement, command, question, or exclamation? Get out your math book",
+        "question": "Which revision turns the statement into a direct question?",
         "choices": [
-          "statement",
-          "command",
-          "question",
-          "exclamation"
+          "The science fair begins on Monday.",
+          "Does the science fair begin on Monday?",
+          "The science fair begins on Monday!",
+          "Begin the science fair on Monday."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "command is the best answer. A statement tells something.",
-          "incorrect": [
-            "statement does not fit this question. A statement tells something.",
-            "",
-            "question does not fit this question. A statement tells something.",
-            "exclamation does not fit this question. A statement tells something."
-          ]
-        },
         "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Does the science fair begin on Monday? fixes the sentence while keeping the original meaning. Read the whole sentence to make sure capitalization, punctuation, spelling, and grammar all work.",
+          "incorrect": [
+            "The science fair begins on Monday. still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "",
+            "The science fair begins on Monday! still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "Begin the science fair on Monday. still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning."
+          ]
         }
       },
       {
-        "question": "Command, statement, question, or exclamation? Look out for that car",
+        "question": "Which sentence asks indirectly, so it should end with a period?",
         "choices": [
-          "statement",
-          "command",
-          "question",
-          "exclamation"
+          "Can you tell me where the office is?",
+          "Where is the office?",
+          "I wonder where the office is.",
+          "Is the office near the gym?"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "I wonder where the office is. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "Can you tell me where the office is? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Where is the office? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "Is the office near the gym? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which choice is a declarative sentence with correct punctuation?",
+        "choices": [
+          "The trail was muddy after the rain?",
+          "The trail was muddy after the rain.",
+          "How muddy the trail was.",
+          "Walk around the muddy trail?"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The trail was muddy after the rain. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "The trail was muddy after the rain? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "How muddy the trail was. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Walk around the muddy trail? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence is a command with an understood subject \"you\"?",
+        "choices": [
+          "The pencils are on the desk.",
+          "Did the pencils fall?",
+          "Place the pencils on the desk.",
+          "What sharp pencils those are!"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Place the pencils on the desk. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "The pencils are on the desk. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Did the pencils fall? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "What sharp pencils those are! does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence is NOT interrogative?",
+        "choices": [
+          "Have you packed your lunch?",
+          "When does practice start?",
+          "I asked when practice starts.",
+          "Will practice start soon?"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "I asked when practice starts. is the best answer because it is the choice the question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "Have you packed your lunch? is not the choice this question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "When does practice start? is not the choice this question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "Will practice start soon? is not the choice this question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence type best fits: \"What a careful reader you are!\"",
+        "choices": [
+          "declarative",
+          "interrogative",
+          "imperative",
+          "exclamatory"
         ],
         "correct": 3,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "exclamation is the best answer. A statement tells something.",
+          "correct": "exclamatory is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
           "incorrect": [
-            "statement does not fit this question. A statement tells something.",
-            "command does not fit this question. A statement tells something.",
-            "question does not fit this question. A statement tells something.",
+            "declarative does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "interrogative does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "imperative does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
             ""
           ]
-        },
-        "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
         }
       },
       {
-        "question": "Command, statement, question, or exclamation? Half of one dollar is fifty cents",
+        "question": "Which sentence uses punctuation that matches its purpose?",
         "choices": [
-          "statement",
-          "command",
-          "question",
-          "exclamation"
+          "Did you find my notebook.",
+          "Please lower your voice?",
+          "The class voted for a new mascot.",
+          "What a long assignment this is."
         ],
-        "correct": 0,
-        "explanation": {
-          "correct": "statement is the best answer. A statement tells something.",
-          "incorrect": [
-            "",
-            "command does not fit this question. A statement tells something.",
-            "question does not fit this question. A statement tells something.",
-            "exclamation does not fit this question. A statement tells something."
-          ]
-        },
+        "correct": 2,
         "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The class voted for a new mascot. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "Did you find my notebook. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Please lower your voice? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "What a long assignment this is. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
         }
       },
       {
-        "question": "Statement, command, question, or exclamation? Have you ever seen the Grand Canyon",
+        "question": "Which pair correctly matches sentence to type?",
+        "choices": [
+          "\"The bell rang.\" - interrogative",
+          "\"Ring the bell.\" - imperative",
+          "\"Did the bell ring?\" - declarative",
+          "\"What a loud bell.\" - exclamatory"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "\"Ring the bell.\" - imperative is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "\"The bell rang.\" - interrogative does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "\"Did the bell ring?\" - declarative does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "\"What a loud bell.\" - exclamatory does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence is a statement, not a command?",
+        "choices": [
+          "Walk to the front office.",
+          "You should walk to the front office.",
+          "Please walk to the front office.",
+          "Do not walk to the front office."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "You should walk to the front office. is the best answer because it is the choice the question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "Walk to the front office. is not the choice this question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "Please walk to the front office. is not the choice this question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Do not walk to the front office. is not the choice this question asks you to find. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence should end with an exclamation point because it is urgent?",
+        "choices": [
+          "Please pass the notebook",
+          "Watch out for the falling branch",
+          "The branch fell yesterday",
+          "Did the branch fall yesterday"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Watch out for the falling branch is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "Please pass the notebook does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "The branch fell yesterday does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Did the branch fall yesterday does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence should end with a period?",
+        "choices": [
+          "How far is the museum",
+          "What a huge museum",
+          "The museum opens at noon",
+          "Open the museum door now"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The museum opens at noon is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "How far is the museum does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "What a huge museum does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "Open the museum door now does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "What type is this sentence after correct punctuation is added: \"Have you ever seen the Grand Canyon\"?",
         "choices": [
           "statement",
           "command",
@@ -16179,24 +16104,24 @@ const QUESTION_BANK = {
           "exclamation"
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "question is the best answer. A statement tells something.",
-          "incorrect": [
-            "statement does not fit this question. A statement tells something.",
-            "command does not fit this question. A statement tells something.",
-            "",
-            "exclamation does not fit this question. A statement tells something."
-          ]
-        },
         "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "question is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "statement does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "command does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "exclamation does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
         }
       },
       {
-        "question": "Exclamation, statement, command, or question? Sharpen all your colored pencils now",
+        "question": "What type is this sentence after correct punctuation is added: \"Get out your math book\"?",
         "choices": [
           "statement",
           "command",
@@ -16204,24 +16129,24 @@ const QUESTION_BANK = {
           "exclamation"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "command is the best answer. A statement tells something.",
-          "incorrect": [
-            "statement does not fit this question. A statement tells something.",
-            "",
-            "question does not fit this question. A statement tells something.",
-            "exclamation does not fit this question. A statement tells something."
-          ]
-        },
         "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "command is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "statement does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "question does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "exclamation does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
         }
       },
       {
-        "question": "Statement, command, exclamation, or question? Oh, no",
+        "question": "What type is this sentence after correct punctuation is added: \"Look out for that car\"?",
         "choices": [
           "statement",
           "command",
@@ -16229,24 +16154,24 @@ const QUESTION_BANK = {
           "exclamation"
         ],
         "correct": 3,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "exclamation is the best answer. A statement tells something.",
+          "correct": "exclamation is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
           "incorrect": [
-            "statement does not fit this question. A statement tells something.",
-            "command does not fit this question. A statement tells something.",
-            "question does not fit this question. A statement tells something.",
+            "statement does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "command does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "question does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
             ""
           ]
-        },
-        "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
         }
       },
       {
-        "question": "Statement, command, exclamation, or question? My house is near the school",
+        "question": "What type is this sentence after correct punctuation is added: \"Half of one dollar is fifty cents\"?",
         "choices": [
           "statement",
           "command",
@@ -16254,20 +16179,120 @@ const QUESTION_BANK = {
           "exclamation"
         ],
         "correct": 0,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "statement is the best answer. A statement tells something.",
+          "correct": "statement is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
           "incorrect": [
             "",
-            "command does not fit this question. A statement tells something.",
-            "question does not fit this question. A statement tells something.",
-            "exclamation does not fit this question. A statement tells something."
+            "command does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "question does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "exclamation does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
           ]
-        },
+        }
+      },
+      {
+        "question": "Which sentence type can sometimes end with either a period or an exclamation point depending on force?",
+        "choices": [
+          "command",
+          "question",
+          "statement only",
+          "fragment"
+        ],
+        "correct": 0,
         "studyAid": {
-          "definition": "A statement tells something. A question asks something. A command tells someone to do something. An exclamation shows strong feeling.",
-          "example": "Statement: It is sunny. Question: Is it sunny? Command: Close the door. Exclamation: What a beautiful day!",
-          "link": "https://www.grammar-monster.com/glossary/sentence.htm",
-          "linkText": "Grammar Monster - Sentence Types"
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "command is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "",
+            "question does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "statement only does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "fragment does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which choice changes \"Oh, no\" into a complete exclamation?",
+        "choices": [
+          "Oh, no.",
+          "Oh, no!",
+          "Oh, no?",
+          "Oh no,"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Oh, no! is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "Oh, no. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "Oh, no? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Oh no, does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence is declarative because it gives information?",
+        "choices": [
+          "My house is near the school.",
+          "Is my house near the school?",
+          "Find my house near the school.",
+          "What a nice house near the school!"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "My house is near the school. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "",
+            "Is my house near the school? does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "Find my house near the school. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "What a nice house near the school! does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
+        }
+      },
+      {
+        "question": "Which choice correctly explains \"Tell me what happened.\"?",
+        "choices": [
+          "It is a question because it asks for information.",
+          "It is a command because it tells someone to tell.",
+          "It is an exclamation because it has strong feeling.",
+          "It is a fragment because it has no subject."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "example": "Command: Please close the window. Exclamation: What a surprise! Question: Did you close it? Statement: The window is closed.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "It is a command because it tells someone to tell. is the best answer. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+          "incorrect": [
+            "It is a question because it asks for information. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "",
+            "It is an exclamation because it has strong feeling. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling.",
+            "It is a fragment because it has no subject. does not fit this question. Sentence type depends on purpose, not just punctuation: statements tell, questions ask, commands tell someone to do something, and exclamations show strong feeling."
+          ]
         }
       }
     ]
@@ -16883,403 +16908,403 @@ const QUESTION_BANK = {
     "topic": "Grammar & Usage",
     "questions": [
       {
-        "question": "Which word is a verb: 'The bird ___ in the tree.'",
-        "choices": [
-          "bird",
-          "sings",
-          "tree",
-          "the"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "sings is the best answer. Verbs show action or state of being.",
-          "incorrect": [
-            "bird does not fit this question. Verbs show action or state of being.",
-            "",
-            "tree does not fit this question. Verbs show action or state of being.",
-            "the does not fit this question. Verbs show action or state of being."
-          ]
-        },
-        "studyAid": {
-          "definition": "Verbs show action or state of being.",
-          "example": "sings, runs, is, seems",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a linking verb?",
-        "choices": [
-          "run",
-          "jump",
-          "seems",
-          "throw"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "seems is the best answer. Linking verbs connect the subject to a subject complement: am, is, are, was, were, seem, become.",
-          "incorrect": [
-            "run does not fit this question. Linking verbs connect the subject to a subject complement: am, is, are, was, were, seem, become.",
-            "jump does not fit this question. Linking verbs connect the subject to a subject complement: am, is, are, was, were, seem, become.",
-            "",
-            "throw does not fit this question. Linking verbs connect the subject to a subject complement: am, is, are, was, were, seem, become."
-          ]
-        },
-        "studyAid": {
-          "definition": "Linking verbs connect the subject to a subject complement: am, is, are, was, were, seem, become.",
-          "example": "She seems happy. He became tired.",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is an action verb?",
-        "choices": [
-          "is",
-          "was",
-          "kicks",
-          "seems"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "kicks is the best answer. Action verbs show what someone or something does.",
-          "incorrect": [
-            "is does not fit this question. Action verbs show what someone or something does.",
-            "was does not fit this question. Action verbs show what someone or something does.",
-            "",
-            "seems does not fit this question. Action verbs show what someone or something does."
-          ]
-        },
-        "studyAid": {
-          "definition": "Action verbs show what someone or something does.",
-          "example": "kick, run, think, write",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a helping verb?",
-        "choices": [
-          "play",
-          "have",
-          "happy",
-          "quickly"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "have is the best answer. Helping verbs (auxiliary verbs) help main verbs: have, has, had, do, does, did, will, would, can, could, shall, should, may, might, must.",
-          "incorrect": [
-            "play does not fit this question. Helping verbs (auxiliary verbs) help main verbs: have, has, had, do, does, did, will, would, can, could, shall, should, may, might, must.",
-            "",
-            "happy does not fit this question. Helping verbs (auxiliary verbs) help main verbs: have, has, had, do, does, did, will, would, can, could, shall, should, may, might, must.",
-            "quickly does not fit this question. Helping verbs (auxiliary verbs) help main verbs: have, has, had, do, does, did, will, would, can, could, shall, should, may, might, must."
-          ]
-        },
-        "studyAid": {
-          "definition": "Helping verbs (auxiliary verbs) help main verbs: have, has, had, do, does, did, will, would, can, could, shall, should, may, might, must.",
-          "example": "She has finished. They will go.",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which verb phrase is in the sentence: 'She has been reading.'",
-        "choices": [
-          "has",
-          "been reading",
-          "has been reading",
-          "reading"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "has been reading is the best answer. Verb phrases include helping verbs and the main verb together.",
-          "incorrect": [
-            "has does not fit this question. Verb phrases include helping verbs and the main verb together.",
-            "been reading does not fit this question. Verb phrases include helping verbs and the main verb together.",
-            "",
-            "reading does not fit this question. Verb phrases include helping verbs and the main verb together."
-          ]
-        },
-        "studyAid": {
-          "definition": "Verb phrases include helping verbs and the main verb together.",
-          "example": "She has been reading. (has been reading = verb phrase)",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a state of being verb?",
-        "choices": [
-          "dance",
-          "exist",
-          "swim",
-          "laugh"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "exist is the best answer. State of being verbs show existence or condition: be, exist, remain, stay.",
-          "incorrect": [
-            "dance does not fit this question. State of being verbs show existence or condition: be, exist, remain, stay.",
-            "",
-            "swim does not fit this question. State of being verbs show existence or condition: be, exist, remain, stay.",
-            "laugh does not fit this question. State of being verbs show existence or condition: be, exist, remain, stay."
-          ]
-        },
-        "studyAid": {
-          "definition": "State of being verbs show existence or condition: be, exist, remain, stay.",
-          "example": "They exist. She remains calm.",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which word is a verb: 'He ___ the ball.'",
-        "choices": [
-          "he",
-          "threw",
-          "ball",
-          "the"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "threw is the best answer. Verbs can show physical or mental actions.",
-          "incorrect": [
-            "he does not fit this question. Verbs can show physical or mental actions.",
-            "",
-            "ball does not fit this question. Verbs can show physical or mental actions.",
-            "the does not fit this question. Verbs can show physical or mental actions."
-          ]
-        },
-        "studyAid": {
-          "definition": "Verbs can show physical or mental actions.",
-          "example": "threw, thought, imagined, built",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a helping verb in: 'They are playing soccer.'",
-        "choices": [
-          "They",
-          "are",
-          "playing",
-          "soccer"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "are is the best answer. 'Be' verbs (am, is, are, was, were) often act as helping verbs.",
-          "incorrect": [
-            "They does not fit this question. 'Be' verbs (am, is, are, was, were) often act as helping verbs.",
-            "",
-            "playing does not fit this question. 'Be' verbs (am, is, are, was, were) often act as helping verbs.",
-            "soccer does not fit this question. 'Be' verbs (am, is, are, was, were) often act as helping verbs."
-          ]
-        },
-        "studyAid": {
-          "definition": "'Be' verbs (am, is, are, was, were) often act as helping verbs.",
-          "example": "They are playing. She was sleeping.",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is NOT a verb?",
-        "choices": [
-          "think",
-          "beautiful",
-          "write",
-          "swim"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "beautiful is the best answer because it is the choice the question asks you to find. Adjectives describe nouns.",
-          "incorrect": [
-            "think is not the choice this question asks you to find. Adjectives describe nouns.",
-            "",
-            "write is not the choice this question asks you to find. Adjectives describe nouns.",
-            "swim is not the choice this question asks you to find. Adjectives describe nouns."
-          ]
-        },
-        "studyAid": {
-          "definition": "Adjectives describe nouns. Verbs show action or state of being.",
-          "example": "beautiful (adjective), swim (verb)",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a verb in past tense?",
-        "choices": [
-          "run",
-          "ran",
-          "running",
-          "will run"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "ran is the best answer. Past tense verbs show actions that already happened.",
-          "incorrect": [
-            "run does not fit this question. Past tense verbs show actions that already happened.",
-            "",
-            "running does not fit this question. Past tense verbs show actions that already happened.",
-            "will run does not fit this question. Past tense verbs show actions that already happened."
-          ]
-        },
-        "studyAid": {
-          "definition": "Past tense verbs show actions that already happened.",
-          "example": "run → ran, eat → ate, go → went",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a transitive verb?",
-        "choices": [
-          "sleep",
-          "arrive",
-          "throw",
-          "exist"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "throw is the best answer. Transitive verbs need a direct object.",
-          "incorrect": [
-            "sleep does not fit this question. Transitive verbs need a direct object.",
-            "arrive does not fit this question. Transitive verbs need a direct object.",
-            "",
-            "exist does not fit this question. Transitive verbs need a direct object."
-          ]
-        },
-        "studyAid": {
-          "definition": "Transitive verbs need a direct object. Intransitive verbs do not.",
-          "example": "throw a ball (transitive), sleep (intransitive)",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is an intransitive verb?",
-        "choices": [
-          "kick",
-          "read",
-          "sleep",
-          "write"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "sleep is the best answer. Intransitive verbs do not need objects to complete their meaning.",
-          "incorrect": [
-            "kick does not fit this question. Intransitive verbs do not need objects to complete their meaning.",
-            "read does not fit this question. Intransitive verbs do not need objects to complete their meaning.",
-            "",
-            "write does not fit this question. Intransitive verbs do not need objects to complete their meaning."
-          ]
-        },
-        "studyAid": {
-          "definition": "Intransitive verbs do not need objects to complete their meaning.",
-          "example": "sleep, arrive, fall, exist",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which word is a verb: 'She ___ happy.'",
-        "choices": [
-          "She",
-          "is",
-          "happy",
-          "the"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "is is the best answer. 'Be' verbs are linking verbs that connect subjects to descriptions.",
-          "incorrect": [
-            "She does not fit this question. 'Be' verbs are linking verbs that connect subjects to descriptions.",
-            "",
-            "happy does not fit this question. 'Be' verbs are linking verbs that connect subjects to descriptions.",
-            "the does not fit this question. 'Be' verbs are linking verbs that connect subjects to descriptions."
-          ]
-        },
-        "studyAid": {
-          "definition": "'Be' verbs are linking verbs that connect subjects to descriptions.",
-          "example": "She is happy. They are tired.",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a main verb in: 'The cat has been sleeping all day.'",
-        "choices": [
-          "has",
-          "been",
-          "sleeping",
-          "all"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "sleeping is the best answer. The main verb carries the core meaning.",
-          "incorrect": [
-            "has does not fit this question. The main verb carries the core meaning.",
-            "been does not fit this question. The main verb carries the core meaning.",
-            "",
-            "all does not fit this question. The main verb carries the core meaning."
-          ]
-        },
-        "studyAid": {
-          "definition": "The main verb carries the core meaning. Helping verbs assist it.",
-          "example": "She has been sleeping. (sleeping = main verb)",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
-        }
-      },
-      {
-        "question": "Which is a verb phrase: 'We will have finished by noon.'",
+        "question": "In \"The orchestra will have finished rehearsal by noon,\" which is the complete verb phrase?",
         "choices": [
           "will",
-          "will have",
+          "have finished",
           "will have finished",
-          "finished"
+          "finished rehearsal"
         ],
         "correct": 2,
-        "explanation": {
-          "correct": "will have finished is the best answer. Future perfect tense uses 'will have' + past participle.",
-          "incorrect": [
-            "will does not fit this question. Future perfect tense uses 'will have' + past participle.",
-            "will have does not fit this question. Future perfect tense uses 'will have' + past participle.",
-            "",
-            "finished does not fit this question. Future perfect tense uses 'will have' + past participle."
-          ]
-        },
         "studyAid": {
-          "definition": "Future perfect tense uses 'will have' + past participle.",
-          "example": "We will have finished by noon.",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "will have finished is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "will does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "have finished does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "finished rehearsal does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
         }
       },
       {
-        "question": "Which is a verb?",
+        "question": "Which word is a linking verb in \"The soup smelled spicy after simmering\"?",
         "choices": [
-          "happiness",
-          "happy",
-          "happily",
-          "happen"
+          "soup",
+          "smelled",
+          "spicy",
+          "simmering"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "smelled is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "soup does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "spicy does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "simmering does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses a transitive verb because the action has a direct object?",
+        "choices": [
+          "The baby slept soundly.",
+          "The glass broke suddenly.",
+          "Mina carried the lantern.",
+          "The flowers bloomed early."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Mina carried the lantern. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "The baby slept soundly. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The glass broke suddenly. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "The flowers bloomed early. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses an intransitive verb?",
+        "choices": [
+          "Eli kicked the soccer ball.",
+          "The audience clapped loudly.",
+          "Nora folded the map.",
+          "The chef chopped onions."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The audience clapped loudly. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "Eli kicked the soccer ball. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "Nora folded the map. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The chef chopped onions. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which word is the main verb in \"They should have been listening carefully\"?",
+        "choices": [
+          "should",
+          "have",
+          "been",
+          "listening"
         ],
         "correct": 3,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "happen is the best answer. Words with similar roots can be different parts of speech.",
+          "correct": "listening is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
           "incorrect": [
-            "happiness does not fit this question. Words with similar roots can be different parts of speech.",
-            "happy does not fit this question. Words with similar roots can be different parts of speech.",
-            "happily does not fit this question. Words with similar roots can be different parts of speech.",
+            "should does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "have does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "been does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
             ""
           ]
-        },
+        }
+      },
+      {
+        "question": "Which choice is NOT part of the verb phrase in \"The hikers might have been waiting near the bridge\"?",
+        "choices": [
+          "might",
+          "have",
+          "waiting",
+          "bridge"
+        ],
+        "correct": 3,
         "studyAid": {
-          "definition": "Words with similar roots can be different parts of speech.",
-          "example": "happiness (noun), happy (adjective), happily (adverb), happen (verb)",
-          "link": "https://www.grammar-monster.com/glossary/verbs.htm",
-          "linkText": "Grammar Monster - Verbs"
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "bridge is the best answer because it is the choice the question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "might is not the choice this question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "have is not the choice this question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "waiting is not the choice this question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            ""
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses a helping verb to show future time?",
+        "choices": [
+          "We walked to the museum.",
+          "We are walking to the museum.",
+          "We will walk to the museum.",
+          "We have walked to the museum."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We will walk to the museum. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "We walked to the museum. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "We are walking to the museum. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "We have walked to the museum. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which verb best completes the sentence with subject-verb agreement: \"Neither of the answers ___ correct\"?",
+        "choices": [
+          "are",
+          "were",
+          "is",
+          "be"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "is is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "are does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "were does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "be does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses a form of be as a state-of-being verb?",
+        "choices": [
+          "The runner sprinted ahead.",
+          "The answer is reasonable.",
+          "The artist painted carefully.",
+          "The dog chased leaves."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The answer is reasonable. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "The runner sprinted ahead. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "The artist painted carefully. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The dog chased leaves. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses the past participle correctly?",
+        "choices": [
+          "She has wrote three pages.",
+          "She has written three pages.",
+          "She has writing three pages.",
+          "She has writes three pages."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "She has written three pages. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "She has wrote three pages. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "She has writing three pages. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "She has writes three pages. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence contains a verb phrase with two helping verbs?",
+        "choices": [
+          "The bird sang at sunrise.",
+          "The bird was singing at sunrise.",
+          "The bird has been singing since sunrise.",
+          "The bird sings every morning."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The bird has been singing since sunrise. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "The bird sang at sunrise. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The bird was singing at sunrise. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "The bird sings every morning. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which word is a verb in \"The bright light frightened the rabbit\"?",
+        "choices": [
+          "bright",
+          "light",
+          "frightened",
+          "rabbit"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "frightened is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "bright does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "light does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "rabbit does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses \"run\" as a verb, not a noun?",
+        "choices": [
+          "The charity run starts at nine.",
+          "We will run after school.",
+          "Her run was fastest.",
+          "The long run tired us."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We will run after school. is the best answer because it is the choice the question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "The charity run starts at nine. is not the choice this question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "Her run was fastest. is not the choice this question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The long run tired us. is not the choice this question asks you to find. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence has a linking verb followed by a predicate adjective?",
+        "choices": [
+          "The bread smells fresh.",
+          "The baker smells the bread.",
+          "The bread rose quickly.",
+          "The baker sliced the bread."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The bread smells fresh. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "",
+            "The baker smells the bread. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The bread rose quickly. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The baker sliced the bread. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which choice correctly identifies the verb tense in \"We had eaten before the movie started\"?",
+        "choices": [
+          "simple past",
+          "past perfect",
+          "present perfect",
+          "future perfect"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "past perfect is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "simple past does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "present perfect does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "future perfect does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses an irregular past-tense verb correctly?",
+        "choices": [
+          "The child bringed a note.",
+          "The child brought a note.",
+          "The child brung a note.",
+          "The child bring a note."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "example": "In \"The team has been practicing,\" has been practicing is the verb phrase and practicing is the main verb.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The child brought a note. is the best answer. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+          "incorrect": [
+            "The child bringed a note. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "",
+            "The child brung a note. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase.",
+            "The child bring a note. does not fit this question. A verb can show an action, a state of being, or work with helping verbs to make a verb phrase."
+          ]
         }
       }
     ]
@@ -18395,378 +18420,378 @@ const QUESTION_BANK = {
     "topic": "Grammar & Usage",
     "questions": [
       {
-        "question": "Which word is an adjective: 'The ___ dog barked.'",
+        "question": "In \"Those three eager students solved the puzzle,\" which words are adjectives?",
         "choices": [
-          "dog",
-          "barked",
-          "loud",
-          "the"
+          "Those, three, eager",
+          "students, solved, puzzle",
+          "eager, solved, the",
+          "Those, students, puzzle"
         ],
-        "correct": 2,
-        "explanation": {
-          "correct": "loud is the best answer. Adjectives describe or modify nouns.",
-          "incorrect": [
-            "dog does not fit this question. Adjectives describe or modify nouns.",
-            "barked does not fit this question. Adjectives describe or modify nouns.",
-            "",
-            "the does not fit this question. Adjectives describe or modify nouns."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Adjectives describe or modify nouns.",
-          "example": "loud, happy, blue, tall",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Those, three, eager is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "",
+            "students, solved, puzzle does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "eager, solved, the does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "Those, students, puzzle does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
         }
       },
       {
-        "question": "Which is an adjective?",
+        "question": "Which sentence uses a predicate adjective?",
         "choices": [
-          "quickly",
-          "beauty",
-          "beautiful",
-          "run"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "beautiful is the best answer. Adjectives often end in -ful, -ous, -ive, -y.",
-          "incorrect": [
-            "quickly does not fit this question. Adjectives often end in -ful, -ous, -ive, -y.",
-            "beauty does not fit this question. Adjectives often end in -ful, -ous, -ive, -y.",
-            "",
-            "run does not fit this question. Adjectives often end in -ful, -ous, -ive, -y."
-          ]
-        },
-        "studyAid": {
-          "definition": "Adjectives often end in -ful, -ous, -ive, -y.",
-          "example": "beautiful, dangerous, active, happy",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
-        }
-      },
-      {
-        "question": "Which adjective compares two things?",
-        "choices": [
-          "tall",
-          "taller",
-          "tallest",
-          "more tall"
+          "The careful painter cleaned the brush.",
+          "The painter was careful.",
+          "The painter carefully cleaned the brush.",
+          "Carefulness helped the painter."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "taller is the best answer. Comparative adjectives compare two things and usually end in -er.",
-          "incorrect": [
-            "tall does not fit this question. Comparative adjectives compare two things and usually end in -er.",
-            "",
-            "tallest does not fit this question. Comparative adjectives compare two things and usually end in -er.",
-            "more tall does not fit this question. Comparative adjectives compare two things and usually end in -er."
-          ]
-        },
         "studyAid": {
-          "definition": "Comparative adjectives compare two things and usually end in -er.",
-          "example": "tall → taller, fast → faster",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The painter was careful. is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "The careful painter cleaned the brush. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "The painter carefully cleaned the brush. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "Carefulness helped the painter. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
         }
       },
       {
-        "question": "Which is a proper adjective?",
+        "question": "Which adjective compares exactly two things?",
         "choices": [
-          "happy",
-          "American",
+          "best",
+          "more careful",
+          "most careful",
+          "carefully"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "more careful is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "best does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "most careful does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "carefully does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses a proper adjective?",
+        "choices": [
+          "We ate spicy noodles.",
+          "We ate Italian noodles.",
+          "We ate noodles quickly.",
+          "We ate several noodles."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We ate Italian noodles. is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "We ate spicy noodles. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "We ate noodles quickly. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "We ate several noodles. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
+        }
+      },
+      {
+        "question": "In \"Maya chose the second blue folder,\" which adjective tells which one?",
+        "choices": [
+          "Maya",
+          "second",
           "blue",
-          "quick"
+          "folder"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "American is the best answer. Proper adjectives come from proper nouns and are capitalized.",
-          "incorrect": [
-            "happy does not fit this question. Proper adjectives come from proper nouns and are capitalized.",
-            "",
-            "blue does not fit this question. Proper adjectives come from proper nouns and are capitalized.",
-            "quick does not fit this question. Proper adjectives come from proper nouns and are capitalized."
-          ]
-        },
         "studyAid": {
-          "definition": "Proper adjectives come from proper nouns and are capitalized.",
-          "example": "American, Victorian, Shakespearean, French",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "second is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "Maya does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "blue does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "folder does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
         }
       },
       {
-        "question": "Which word is an adjective: 'She wore a ___ dress.'",
+        "question": "Which choice uses a possessive adjective, not a possessive pronoun?",
         "choices": [
-          "she",
-          "wore",
-          "red",
-          "dress"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "red is the best answer. Colors are adjectives.",
-          "incorrect": [
-            "she does not fit this question. Colors are adjectives.",
-            "wore does not fit this question. Colors are adjectives.",
-            "",
-            "dress does not fit this question. Colors are adjectives."
-          ]
-        },
-        "studyAid": {
-          "definition": "Colors are adjectives.",
-          "example": "red, blue, green, yellow",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
-        }
-      },
-      {
-        "question": "Which is a possessive adjective?",
-        "choices": [
-          "mine",
-          "my",
-          "I",
-          "me"
+          "That pencil is mine.",
+          "Our project won first place.",
+          "The project is ours.",
+          "The idea was hers."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "my is the best answer. Possessive adjectives: my, your, his, her, its, our, their.",
-          "incorrect": [
-            "mine does not fit this question. Possessive adjectives: my, your, his, her, its, our, their.",
-            "",
-            "I does not fit this question. Possessive adjectives: my, your, his, her, its, our, their.",
-            "me does not fit this question. Possessive adjectives: my, your, his, her, its, our, their."
-          ]
-        },
         "studyAid": {
-          "definition": "Possessive adjectives: my, your, his, her, its, our, their.",
-          "example": "my book, your car, their house",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Our project won first place. is the best answer because it is the choice the question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "That pencil is mine. is not the choice this question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "The project is ours. is not the choice this question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "The idea was hers. is not the choice this question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
         }
       },
       {
-        "question": "Which is an article?",
+        "question": "Which word is an article in \"A curious student asked the question\"?",
         "choices": [
-          "the",
-          "quick",
-          "run",
-          "happily"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "the is the best answer. Articles are a type of adjective: a, an, the.",
-          "incorrect": [
-            "",
-            "quick does not fit this question. Articles are a type of adjective: a, an, the.",
-            "run does not fit this question. Articles are a type of adjective: a, an, the.",
-            "happily does not fit this question. Articles are a type of adjective: a, an, the."
-          ]
-        },
-        "studyAid": {
-          "definition": "Articles are a type of adjective: a, an, the.",
-          "example": "a book, an apple, the sun",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
-        }
-      },
-      {
-        "question": "Which is a demonstrative adjective?",
-        "choices": [
-          "this",
-          "happy",
-          "quickly",
-          "run"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "this is the best answer. Demonstrative adjectives: this, that, these, those.",
-          "incorrect": [
-            "",
-            "happy does not fit this question. Demonstrative adjectives: this, that, these, those.",
-            "quickly does not fit this question. Demonstrative adjectives: this, that, these, those.",
-            "run does not fit this question. Demonstrative adjectives: this, that, these, those."
-          ]
-        },
-        "studyAid": {
-          "definition": "Demonstrative adjectives: this, that, these, those.",
-          "example": "this book, that car, these shoes, those trees",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
-        }
-      },
-      {
-        "question": "Which is NOT an adjective?",
-        "choices": [
-          "fierce",
-          "fiercely",
-          "brave",
-          "strong"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "fiercely is the best answer because it is the choice the question asks you to find. Adverbs often end in -ly.",
-          "incorrect": [
-            "fierce is not the choice this question asks you to find. Adverbs often end in -ly.",
-            "",
-            "brave is not the choice this question asks you to find. Adverbs often end in -ly.",
-            "strong is not the choice this question asks you to find. Adverbs often end in -ly."
-          ]
-        },
-        "studyAid": {
-          "definition": "Adverbs often end in -ly. Adjectives describe nouns.",
-          "example": "fierce (adjective), fiercely (adverb)",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
-        }
-      },
-      {
-        "question": "Which is the superlative form?",
-        "choices": [
-          "big",
-          "bigger",
-          "biggest",
-          "more bigger"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "biggest is the best answer. Superlative adjectives compare three or more and usually end in -est.",
-          "incorrect": [
-            "big does not fit this question. Superlative adjectives compare three or more and usually end in -est.",
-            "bigger does not fit this question. Superlative adjectives compare three or more and usually end in -est.",
-            "",
-            "more bigger does not fit this question. Superlative adjectives compare three or more and usually end in -est."
-          ]
-        },
-        "studyAid": {
-          "definition": "Superlative adjectives compare three or more and usually end in -est.",
-          "example": "big → bigger → biggest",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
-        }
-      },
-      {
-        "question": "Which is an adjective: 'The ___ puppy slept.'",
-        "choices": [
-          "puppy",
-          "slept",
-          "tiny",
+          "curious",
+          "student",
+          "asked",
           "the"
         ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "the is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "curious does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "student does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "asked does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            ""
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses a demonstrative adjective?",
+        "choices": [
+          "This answer is correct.",
+          "This is correct.",
+          "I chose this.",
+          "Correct this carefully."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "This answer is correct. is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "",
+            "This is correct. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "I chose this. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "Correct this carefully. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
+        }
+      },
+      {
+        "question": "Which choice is NOT an adjective?",
+        "choices": [
+          "wooden",
+          "several",
+          "quickly",
+          "those"
+        ],
         "correct": 2,
-        "explanation": {
-          "correct": "tiny is the best answer. Size words are adjectives.",
-          "incorrect": [
-            "puppy does not fit this question. Size words are adjectives.",
-            "slept does not fit this question. Size words are adjectives.",
-            "",
-            "the does not fit this question. Size words are adjectives."
-          ]
-        },
         "studyAid": {
-          "definition": "Size words are adjectives.",
-          "example": "tiny, huge, small, large",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "quickly is the best answer because it is the choice the question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "wooden is not the choice this question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "several is not the choice this question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "those is not the choice this question asks you to find. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
         }
       },
       {
-        "question": "Which is an indefinite adjective?",
+        "question": "Which sentence uses the superlative form correctly?",
         "choices": [
-          "the",
-          "some",
-          "this",
-          "red"
+          "This route is shorter than that one.",
+          "Of all the routes, this is the shortest.",
+          "This route is more shorter.",
+          "This is the shorter route of all."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "some is the best answer. Indefinite adjectives: some, any, many, few, several, all.",
-          "incorrect": [
-            "the does not fit this question. Indefinite adjectives: some, any, many, few, several, all.",
-            "",
-            "this does not fit this question. Indefinite adjectives: some, any, many, few, several, all.",
-            "red does not fit this question. Indefinite adjectives: some, any, many, few, several, all."
-          ]
-        },
         "studyAid": {
-          "definition": "Indefinite adjectives: some, any, many, few, several, all.",
-          "example": "some people, many books, few students",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Of all the routes, this is the shortest. is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "This route is shorter than that one. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "This route is more shorter. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "This is the shorter route of all. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
         }
       },
       {
-        "question": "Which is a numeral adjective?",
+        "question": "In \"The cracked clay pot sat outside,\" which adjective is formed from a verb?",
         "choices": [
-          "first",
-          "quick",
-          "this",
-          "happy"
+          "cracked",
+          "clay",
+          "pot",
+          "outside"
         ],
         "correct": 0,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "first is the best answer. Numeral adjectives are numbers used to describe nouns: one, two, first, second.",
+          "correct": "cracked is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
           "incorrect": [
             "",
-            "quick does not fit this question. Numeral adjectives are numbers used to describe nouns: one, two, first, second.",
-            "this does not fit this question. Numeral adjectives are numbers used to describe nouns: one, two, first, second.",
-            "happy does not fit this question. Numeral adjectives are numbers used to describe nouns: one, two, first, second."
+            "clay does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "pot does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "outside does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
           ]
-        },
-        "studyAid": {
-          "definition": "Numeral adjectives are numbers used to describe nouns: one, two, first, second.",
-          "example": "three apples, first place, second chance",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
         }
       },
       {
-        "question": "Which is an adjective formed from a verb?",
+        "question": "Which adjective tells how many?",
         "choices": [
-          "running",
-          "runner",
-          "ran",
-          "run"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "running is the best answer. Present participles can act as adjectives: running water, sleeping baby.",
-          "incorrect": [
-            "",
-            "runner does not fit this question. Present participles can act as adjectives: running water, sleeping baby.",
-            "ran does not fit this question. Present participles can act as adjectives: running water, sleeping baby.",
-            "run does not fit this question. Present participles can act as adjectives: running water, sleeping baby."
-          ]
-        },
-        "studyAid": {
-          "definition": "Present participles can act as adjectives: running water, sleeping baby.",
-          "example": "running water, a sleeping child, a boring movie",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
-        }
-      },
-      {
-        "question": "Which is a predicate adjective?",
-        "choices": [
-          "The happy child laughed.",
-          "The child is happy.",
-          "Happily, the child laughed.",
-          "The child's happiness grew."
+          "ancient vase",
+          "several vases",
+          "that vase",
+          "my vase"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "The child is happy. is the best answer. Predicate adjectives follow linking verbs and describe the subject.",
-          "incorrect": [
-            "The happy child laughed. does not fit this question. Predicate adjectives follow linking verbs and describe the subject.",
-            "",
-            "Happily, the child laughed. does not fit this question. Predicate adjectives follow linking verbs and describe the subject.",
-            "The child's happiness grew. does not fit this question. Predicate adjectives follow linking verbs and describe the subject."
-          ]
-        },
         "studyAid": {
-          "definition": "Predicate adjectives follow linking verbs and describe the subject.",
-          "example": "The child is happy. The soup smells good.",
-          "link": "https://www.grammar-monster.com/glossary/adjectives.htm",
-          "linkText": "Grammar Monster - Adjectives"
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "several vases is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "ancient vase does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "that vase does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "my vase does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
+        }
+      },
+      {
+        "question": "Which adjective tells what kind?",
+        "choices": [
+          "four lanterns",
+          "this lantern",
+          "brass lantern",
+          "her lantern"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "brass lantern is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "four lanterns does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "this lantern does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "",
+            "her lantern does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses an adjective phrase after the noun?",
+        "choices": [
+          "The book on the top shelf is mine.",
+          "The dusty book is mine.",
+          "The book fell loudly.",
+          "The book belongs to me."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The book on the top shelf is mine. is the best answer. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "incorrect": [
+            "",
+            "The dusty book is mine. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "The book fell loudly. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+            "The book belongs to me. does not fit this question. An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose."
+          ]
+        }
+      },
+      {
+        "question": "Which revision adds the most precise adjective?",
+        "choices": [
+          "the dog",
+          "the brown dog",
+          "the exhausted brown dog",
+          "the dog ran"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "An adjective describes or limits a noun or pronoun by telling what kind, which one, how many, or whose.",
+          "example": "In \"those three noisy buses,\" those, three, and noisy all describe buses.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "the exhausted brown dog fixes the sentence while keeping the original meaning. Read the whole sentence to make sure capitalization, punctuation, spelling, and grammar all work.",
+          "incorrect": [
+            "the dog still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "the brown dog still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning.",
+            "",
+            "the dog ran still leaves at least one issue. Recheck capitalization, punctuation, spelling, grammar, and whether the sentence keeps the same meaning."
+          ]
         }
       }
     ]
@@ -18776,378 +18801,378 @@ const QUESTION_BANK = {
     "topic": "Grammar & Usage",
     "questions": [
       {
-        "question": "Which word is an adverb: 'She sings ___.'",
+        "question": "In \"Lena almost always reads very carefully,\" which choice lists only adverbs?",
         "choices": [
-          "she",
-          "sings",
-          "beautifully",
-          "song"
+          "almost, always, very, carefully",
+          "Lena, reads, carefully",
+          "always, reads, very",
+          "almost, Lena, carefully"
         ],
-        "correct": 2,
-        "explanation": {
-          "correct": "beautifully is the best answer. Adverbs describe verbs, adjectives, or other adverbs.",
-          "incorrect": [
-            "she does not fit this question. Adverbs describe verbs, adjectives, or other adverbs.",
-            "sings does not fit this question. Adverbs describe verbs, adjectives, or other adverbs.",
-            "",
-            "song does not fit this question. Adverbs describe verbs, adjectives, or other adverbs."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Adverbs describe verbs, adjectives, or other adverbs. Many end in -ly.",
-          "example": "beautifully, quickly, happily, carefully",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "almost, always, very, carefully is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "",
+            "Lena, reads, carefully does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "always, reads, very does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "almost, Lena, carefully does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
         }
       },
       {
-        "question": "Which adverb tells WHEN?",
+        "question": "Which adverb tells when the action happened?",
         "choices": [
-          "quickly",
-          "yesterday",
-          "here",
-          "loudly"
+          "The class met upstairs.",
+          "The class met yesterday.",
+          "The class met quietly.",
+          "The class almost met."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "yesterday is the best answer. Adverbs of time tell when: yesterday, today, soon, later, now.",
-          "incorrect": [
-            "quickly does not fit this question. Adverbs of time tell when: yesterday, today, soon, later, now.",
-            "",
-            "here does not fit this question. Adverbs of time tell when: yesterday, today, soon, later, now.",
-            "loudly does not fit this question. Adverbs of time tell when: yesterday, today, soon, later, now."
-          ]
-        },
         "studyAid": {
-          "definition": "Adverbs of time tell when: yesterday, today, soon, later, now.",
-          "example": "I will go tomorrow. She arrived yesterday.",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The class met yesterday. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "The class met upstairs. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "",
+            "The class met quietly. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "The class almost met. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
         }
       },
       {
-        "question": "Which adverb tells WHERE?",
+        "question": "Which adverb tells where?",
         "choices": [
-          "slowly",
-          "tomorrow",
+          "The kite drifted upward.",
+          "The kite drifted slowly.",
+          "The kite drifted yesterday.",
+          "The kite nearly drifted."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The kite drifted upward. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "",
+            "The kite drifted slowly. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "The kite drifted yesterday. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "The kite nearly drifted. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses an adverb to modify an adjective?",
+        "choices": [
+          "The river moved quickly.",
+          "The very cold river moved past us.",
+          "The river outside froze.",
+          "The river froze yesterday."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The very cold river moved past us. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "The river moved quickly. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "",
+            "The river outside froze. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "The river froze yesterday. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses an adverb to modify another adverb?",
+        "choices": [
+          "He spoke clearly.",
+          "He spoke very clearly.",
+          "He was very clear.",
+          "His clear speech helped."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "He spoke very clearly. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "He spoke clearly. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "",
+            "He was very clear. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "His clear speech helped. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
+        }
+      },
+      {
+        "question": "Which word is NOT an adverb in this sentence: \"The team practiced outside yesterday\"?",
+        "choices": [
+          "team",
           "outside",
-          "very"
+          "yesterday",
+          "practiced"
         ],
-        "correct": 2,
-        "explanation": {
-          "correct": "outside is the best answer. Adverbs of place tell where: here, there, outside, inside, upstairs.",
-          "incorrect": [
-            "slowly does not fit this question. Adverbs of place tell where: here, there, outside, inside, upstairs.",
-            "tomorrow does not fit this question. Adverbs of place tell where: here, there, outside, inside, upstairs.",
-            "",
-            "very does not fit this question. Adverbs of place tell where: here, there, outside, inside, upstairs."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Adverbs of place tell where: here, there, outside, inside, upstairs.",
-          "example": "Go outside. She lives nearby.",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "team is the best answer because it is the choice the question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "",
+            "outside is not the choice this question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "yesterday is not the choice this question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "practiced is not the choice this question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
         }
       },
       {
-        "question": "Which is an adverb of manner?",
+        "question": "Which adverb shows frequency?",
         "choices": [
-          "soon",
-          "everywhere",
-          "carefully",
-          "quite"
+          "rarely",
+          "nearby",
+          "gently",
+          "soon"
         ],
-        "correct": 2,
-        "explanation": {
-          "correct": "carefully is the best answer. Adverbs of manner tell how: carefully, quickly, slowly, happily.",
-          "incorrect": [
-            "soon does not fit this question. Adverbs of manner tell how: carefully, quickly, slowly, happily.",
-            "everywhere does not fit this question. Adverbs of manner tell how: carefully, quickly, slowly, happily.",
-            "",
-            "quite does not fit this question. Adverbs of manner tell how: carefully, quickly, slowly, happily."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Adverbs of manner tell how: carefully, quickly, slowly, happily.",
-          "example": "She typed carefully. He ran quickly.",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "rarely is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "",
+            "nearby does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "gently does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "soon does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
         }
       },
       {
-        "question": "Which is an intensifier adverb?",
+        "question": "Which sentence uses \"fast\" as an adverb?",
         "choices": [
-          "slowly",
-          "very",
-          "here",
-          "yesterday"
+          "The fast train arrived.",
+          "The train moved fast.",
+          "The fast was difficult.",
+          "Fast runners stretched."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "very is the best answer. Intensifiers strengthen meaning: very, really, extremely, quite, too.",
-          "incorrect": [
-            "slowly does not fit this question. Intensifiers strengthen meaning: very, really, extremely, quite, too.",
-            "",
-            "here does not fit this question. Intensifiers strengthen meaning: very, really, extremely, quite, too.",
-            "yesterday does not fit this question. Intensifiers strengthen meaning: very, really, extremely, quite, too."
-          ]
-        },
         "studyAid": {
-          "definition": "Intensifiers strengthen meaning: very, really, extremely, quite, too.",
-          "example": "very tall, really fast, extremely cold",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which is NOT an adverb?",
-        "choices": [
-          "happily",
-          "quickly",
-          "happy",
-          "silently"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "happy is the best answer because it is the choice the question asks you to find. Adjectives describe nouns.",
-          "incorrect": [
-            "happily is not the choice this question asks you to find. Adjectives describe nouns.",
-            "quickly is not the choice this question asks you to find. Adjectives describe nouns.",
-            "",
-            "silently is not the choice this question asks you to find. Adjectives describe nouns."
-          ]
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
         },
-        "studyAid": {
-          "definition": "Adjectives describe nouns. Adverbs describe verbs, adjectives, or other adverbs.",
-          "example": "happy (adjective), happily (adverb)",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which adverb modifies an adjective?",
-        "choices": [
-          "She runs fast.",
-          "She is very tall.",
-          "She arrived yesterday.",
-          "She went outside."
-        ],
-        "correct": 1,
         "explanation": {
-          "correct": "She is very tall. is the best answer. Adverbs can modify adjectives: very tall, extremely cold, quite loud.",
+          "correct": "The train moved fast. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
           "incorrect": [
-            "She runs fast. does not fit this question. Adverbs can modify adjectives: very tall, extremely cold, quite loud.",
+            "The fast train arrived. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
             "",
-            "She arrived yesterday. does not fit this question. Adverbs can modify adjectives: very tall, extremely cold, quite loud.",
-            "She went outside. does not fit this question. Adverbs can modify adjectives: very tall, extremely cold, quite loud."
+            "The fast was difficult. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "Fast runners stretched. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
           ]
-        },
-        "studyAid": {
-          "definition": "Adverbs can modify adjectives: very tall, extremely cold, quite loud.",
-          "example": "She is very tall. It is extremely cold.",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which is an adverb of frequency?",
-        "choices": [
-          "slowly",
-          "always",
-          "here",
-          "loudly"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "always is the best answer. Adverbs of frequency tell how often: always, usually, sometimes, rarely, never.",
-          "incorrect": [
-            "slowly does not fit this question. Adverbs of frequency tell how often: always, usually, sometimes, rarely, never.",
-            "",
-            "here does not fit this question. Adverbs of frequency tell how often: always, usually, sometimes, rarely, never.",
-            "loudly does not fit this question. Adverbs of frequency tell how often: always, usually, sometimes, rarely, never."
-          ]
-        },
-        "studyAid": {
-          "definition": "Adverbs of frequency tell how often: always, usually, sometimes, rarely, never.",
-          "example": "I always brush my teeth. She rarely watches TV.",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which is an adverb?",
-        "choices": [
-          "beautiful",
-          "beauty",
-          "beautifully",
-          "beautify"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "beautifully is the best answer. Many adverbs are formed by adding -ly to adjectives.",
-          "incorrect": [
-            "beautiful does not fit this question. Many adverbs are formed by adding -ly to adjectives.",
-            "beauty does not fit this question. Many adverbs are formed by adding -ly to adjectives.",
-            "",
-            "beautify does not fit this question. Many adverbs are formed by adding -ly to adjectives."
-          ]
-        },
-        "studyAid": {
-          "definition": "Many adverbs are formed by adding -ly to adjectives.",
-          "example": "beautiful → beautifully, quick → quickly, happy → happily",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
         }
       },
       {
         "question": "Which adverb tells to what extent?",
         "choices": [
-          "quickly",
-          "almost",
-          "outside",
-          "now"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "almost is the best answer. Adverbs of degree/extent: almost, nearly, completely, totally, partly.",
-          "incorrect": [
-            "quickly does not fit this question. Adverbs of degree/extent: almost, nearly, completely, totally, partly.",
-            "",
-            "outside does not fit this question. Adverbs of degree/extent: almost, nearly, completely, totally, partly.",
-            "now does not fit this question. Adverbs of degree/extent: almost, nearly, completely, totally, partly."
-          ]
-        },
-        "studyAid": {
-          "definition": "Adverbs of degree/extent: almost, nearly, completely, totally, partly.",
-          "example": "almost done, completely full, partly cloudy",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which is an adverb phrase?",
-        "choices": [
-          "in the morning",
-          "very happy",
-          "the big dog",
-          "she runs"
+          "almost finished",
+          "finished outside",
+          "finished yesterday",
+          "finished neatly"
         ],
         "correct": 0,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "in the morning is the best answer. Prepositional phrases can act as adverbs telling when, where, or how.",
+          "correct": "almost finished is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
           "incorrect": [
             "",
-            "very happy does not fit this question. Prepositional phrases can act as adverbs telling when, where, or how.",
-            "the big dog does not fit this question. Prepositional phrases can act as adverbs telling when, where, or how.",
-            "she runs does not fit this question. Prepositional phrases can act as adverbs telling when, where, or how."
+            "finished outside does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "finished yesterday does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "finished neatly does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
           ]
-        },
-        "studyAid": {
-          "definition": "Prepositional phrases can act as adverbs telling when, where, or how.",
-          "example": "in the morning, at the park, with care",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
         }
       },
       {
-        "question": "Which is NOT a typical adverb ending?",
+        "question": "Which sentence contains an adverb phrase?",
+        "choices": [
+          "We ate before the game.",
+          "We ate quickly.",
+          "We ate hot soup.",
+          "We ate dinner."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We ate before the game. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "",
+            "We ate quickly. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "We ate hot soup. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "We ate dinner. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
+        }
+      },
+      {
+        "question": "Which ending is common for adverbs but not a guarantee?",
         "choices": [
           "-ly",
-          "-ward",
+          "-ness",
           "-ful",
-          "-wise"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "-ful is the best answer because it is the choice the question asks you to find. '-ful' is more common for adjectives.",
-          "incorrect": [
-            "-ly is not the choice this question asks you to find. '-ful' is more common for adjectives.",
-            "-ward is not the choice this question asks you to find. '-ful' is more common for adjectives.",
-            "",
-            "-wise is not the choice this question asks you to find. '-ful' is more common for adjectives."
-          ]
-        },
-        "studyAid": {
-          "definition": "'-ful' is more common for adjectives. '-ly' is the most common adverb ending.",
-          "example": "beautiful (adjective), beautifully (adverb)",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which adverb modifies another adverb?",
-        "choices": [
-          "She runs fast.",
-          "She runs very fast.",
-          "She is very tall.",
-          "She arrived early."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "She runs very fast. is the best answer. Adverbs can modify other adverbs: very fast, quite slowly, too carefully.",
-          "incorrect": [
-            "She runs fast. does not fit this question. Adverbs can modify other adverbs: very fast, quite slowly, too carefully.",
-            "",
-            "She is very tall. does not fit this question. Adverbs can modify other adverbs: very fast, quite slowly, too carefully.",
-            "She arrived early. does not fit this question. Adverbs can modify other adverbs: very fast, quite slowly, too carefully."
-          ]
-        },
-        "studyAid": {
-          "definition": "Adverbs can modify other adverbs: very fast, quite slowly, too carefully.",
-          "example": "She runs very fast. He drove quite slowly.",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which is an adverb of affirmation?",
-        "choices": [
-          "no",
-          "never",
-          "yes",
-          "rarely"
-        ],
-        "correct": 2,
-        "explanation": {
-          "correct": "yes is the best answer. Adverbs of affirmation: yes, certainly, definitely, surely.",
-          "incorrect": [
-            "no does not fit this question. Adverbs of affirmation: yes, certainly, definitely, surely.",
-            "never does not fit this question. Adverbs of affirmation: yes, certainly, definitely, surely.",
-            "",
-            "rarely does not fit this question. Adverbs of affirmation: yes, certainly, definitely, surely."
-          ]
-        },
-        "studyAid": {
-          "definition": "Adverbs of affirmation: yes, certainly, definitely, surely.",
-          "example": "Yes, I agree. Certainly, I will help.",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
-        }
-      },
-      {
-        "question": "Which is an adverb?",
-        "choices": [
-          "fast",
-          "quick",
-          "speed",
-          "quickness"
+          "-ment"
         ],
         "correct": 0,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
         "explanation": {
-          "correct": "fast is the best answer. Some words can be both adjectives and adverbs: fast, hard, early, late.",
+          "correct": "-ly is the best answer because it is the choice the question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
           "incorrect": [
             "",
-            "quick does not fit this question. Some words can be both adjectives and adverbs: fast, hard, early, late.",
-            "speed does not fit this question. Some words can be both adjectives and adverbs: fast, hard, early, late.",
-            "quickness does not fit this question. Some words can be both adjectives and adverbs: fast, hard, early, late."
+            "-ness is not the choice this question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "-ful is not the choice this question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "-ment is not the choice this question asks you to find. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
           ]
-        },
+        }
+      },
+      {
+        "question": "Which sentence uses \"early\" as an adverb?",
+        "choices": [
+          "The early train left.",
+          "We left early.",
+          "Early birds sang.",
+          "The early bell rang."
+        ],
+        "correct": 1,
         "studyAid": {
-          "definition": "Some words can be both adjectives and adverbs: fast, hard, early, late.",
-          "example": "a fast car (adjective), run fast (adverb)",
-          "link": "https://www.grammar-monster.com/glossary/adverbs.htm",
-          "linkText": "Grammar Monster - Adverbs"
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "We left early. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "The early train left. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "",
+            "Early birds sang. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "The early bell rang. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence uses an adverb of manner?",
+        "choices": [
+          "The artist painted carefully.",
+          "The artist painted yesterday.",
+          "The artist painted outside.",
+          "The artist almost painted."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "The artist painted carefully. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "",
+            "The artist painted yesterday. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "The artist painted outside. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "The artist almost painted. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
+        }
+      },
+      {
+        "question": "Which adverb best completes the sentence: \"The speaker talked ___ enough for the back row to hear\"?",
+        "choices": [
+          "loud",
+          "louder",
+          "loudly",
+          "loudness"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "loudly is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "loud does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "louder does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "",
+            "loudness does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence places the adverb so the meaning is clearest?",
+        "choices": [
+          "Only Maya fed the fish after school.",
+          "Maya only fed the fish after school.",
+          "Maya fed only the fish after school.",
+          "Maya fed the fish only after school."
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "example": "In \"She almost always speaks very softly,\" almost, always, very, and softly are adverbs.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Maya fed the fish only after school. is the best answer. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+          "incorrect": [
+            "Only Maya fed the fish after school. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "Maya only fed the fish after school. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            "Maya fed only the fish after school. does not fit this question. An adverb modifies a verb, adjective, or another adverb and often tells how, when, where, how often, or to what extent.",
+            ""
+          ]
         }
       }
     ]
@@ -27829,382 +27854,382 @@ const QUESTION_BANK = {
     "topic": "Reading Comprehension",
     "questions": [
       {
-        "question": "Which is a fact?",
+        "question": "Which statement is a fact, not an opinion?",
         "choices": [
-          "Chocolate is the best flavor.",
-          "Chocolate ice cream is brown.",
-          "Chocolate is better than vanilla.",
-          "Everyone loves chocolate."
+          "The school lunch tastes wonderful.",
+          "The school lunch costs $3.00.",
+          "The school lunch should be free.",
+          "The school lunch is too small."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "Chocolate ice cream is brown. is the best answer. Facts can be proven true with evidence.",
-          "incorrect": [
-            "Chocolate is the best flavor. does not fit this question. Facts can be proven true with evidence.",
-            "",
-            "Chocolate is better than vanilla. does not fit this question. Facts can be proven true with evidence.",
-            "Everyone loves chocolate. does not fit this question. Facts can be proven true with evidence."
-          ]
-        },
         "studyAid": {
-          "definition": "Facts can be proven true with evidence. Opinions express personal feelings or beliefs.",
-          "example": "Fact: Chocolate ice cream is brown. Opinion: Chocolate is the best flavor.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The school lunch costs $3.00. is the best answer because it is the choice the question asks you to find. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "The school lunch tastes wonderful. is not the choice this question asks you to find. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "The school lunch should be free. is not the choice this question asks you to find. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The school lunch is too small. is not the choice this question asks you to find. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is an opinion?",
+        "question": "Which statement is an opinion because it uses judgment words?",
         "choices": [
-          "The sun is a star.",
-          "The sun is too hot.",
-          "The sun rises in the east.",
-          "The sun is 93 million miles away."
+          "The trail is two miles long.",
+          "The trail begins near the visitor center.",
+          "The trail is the prettiest walk in town.",
+          "The trail has wooden signs."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "The sun is too hot. is the best answer. Words like 'too,' 'best,' 'worst,' 'beautiful,' and 'boring' often signal opinions.",
-          "incorrect": [
-            "The sun is a star. does not fit this question. Words like 'too,' 'best,' 'worst,' 'beautiful,' and 'boring' often signal opinions.",
-            "",
-            "The sun rises in the east. does not fit this question. Words like 'too,' 'best,' 'worst,' 'beautiful,' and 'boring' often signal opinions.",
-            "The sun is 93 million miles away. does not fit this question. Words like 'too,' 'best,' 'worst,' 'beautiful,' and 'boring' often signal opinions."
-          ]
-        },
+        "correct": 2,
         "studyAid": {
-          "definition": "Words like 'too,' 'best,' 'worst,' 'beautiful,' and 'boring' often signal opinions.",
-          "example": "Opinion: The sun is too hot. Fact: The sun is 93 million miles away.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The trail is the prettiest walk in town. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "The trail is two miles long. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The trail begins near the visitor center. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "The trail has wooden signs. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is a fact?",
+        "question": "Which sentence contains both a fact and an opinion?",
         "choices": [
-          "Math is boring.",
-          "Math has numbers.",
-          "Math is the hardest subject.",
-          "Math is useless."
+          "The movie lasted 90 minutes and was hilarious.",
+          "The movie lasted 90 minutes.",
+          "The movie was hilarious.",
+          "The movie should have been longer."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Math has numbers. is the best answer. Look for statements that can be checked and verified.",
-          "incorrect": [
-            "Math is boring. does not fit this question. Look for statements that can be checked and verified.",
-            "",
-            "Math is the hardest subject. does not fit this question. Look for statements that can be checked and verified.",
-            "Math is useless. does not fit this question. Look for statements that can be checked and verified."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Look for statements that can be checked and verified.",
-          "example": "Fact: Math has numbers. Opinion: Math is boring.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The movie lasted 90 minutes and was hilarious. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "The movie lasted 90 minutes. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The movie was hilarious. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The movie should have been longer. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is an opinion?",
+        "question": "Which statement can be checked in a reliable source?",
         "choices": [
-          "A mile is 5,280 feet.",
-          "Running a mile is easy.",
-          "A marathon is 26.2 miles.",
-          "Track runners run miles."
+          "The library has 24 computers.",
+          "The library feels too quiet.",
+          "The library is the best place to study.",
+          "The library needs brighter paint."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Running a mile is easy. is the best answer. Difficulty is subjective; what is easy for one person may be hard for another.",
-          "incorrect": [
-            "A mile is 5,280 feet. does not fit this question. Difficulty is subjective; what is easy for one person may be hard for another.",
-            "",
-            "A marathon is 26.2 miles. does not fit this question. Difficulty is subjective; what is easy for one person may be hard for another.",
-            "Track runners run miles. does not fit this question. Difficulty is subjective; what is easy for one person may be hard for another."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Difficulty is subjective; what is easy for one person may be hard for another.",
-          "example": "Opinion: Running a mile is easy. Fact: A mile is 5,280 feet.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The library has 24 computers. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "The library feels too quiet. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The library is the best place to study. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The library needs brighter paint. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is a fact?",
+        "question": "Which sentence is mostly opinion even though it includes a fact?",
         "choices": [
-          "Dogs make the best pets.",
-          "Dogs are mammals.",
-          "Dogs are better than cats.",
-          "Everyone should have a dog."
+          "The team scored 42 points, which was amazing.",
+          "The team scored 42 points.",
+          "The scoreboard showed 42 points.",
+          "Forty-two is greater than forty."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Dogs are mammals. is the best answer. Scientific classifications are facts.",
-          "incorrect": [
-            "Dogs make the best pets. does not fit this question. Scientific classifications are facts.",
-            "",
-            "Dogs are better than cats. does not fit this question. Scientific classifications are facts.",
-            "Everyone should have a dog. does not fit this question. Scientific classifications are facts."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Scientific classifications are facts.",
-          "example": "Fact: Dogs are mammals. Opinion: Dogs make the best pets.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The team scored 42 points, which was amazing. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "The team scored 42 points. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The scoreboard showed 42 points. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Forty-two is greater than forty. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is an opinion?",
+        "question": "Which word is the strongest clue that the statement is an opinion: \"The museum is the most fascinating place in the city\"?",
         "choices": [
-          "The Pacific is the largest ocean.",
-          "The Pacific Ocean is beautiful.",
-          "The Pacific Ocean has salt water.",
-          "The Pacific Ocean covers much of Earth."
+          "museum",
+          "most fascinating",
+          "place",
+          "city"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "The Pacific Ocean is beautiful. is the best answer. Beauty is in the eye of the beholder; it is subjective.",
-          "incorrect": [
-            "The Pacific is the largest ocean. does not fit this question. Beauty is in the eye of the beholder; it is subjective.",
-            "",
-            "The Pacific Ocean has salt water. does not fit this question. Beauty is in the eye of the beholder; it is subjective.",
-            "The Pacific Ocean covers much of Earth. does not fit this question. Beauty is in the eye of the beholder; it is subjective."
-          ]
-        },
         "studyAid": {
-          "definition": "Beauty is in the eye of the beholder; it is subjective.",
-          "example": "Opinion: The ocean is beautiful. Fact: The Pacific is the largest ocean.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "most fascinating is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "museum does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "place does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "city does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is a fact?",
+        "question": "Which statement is a fact?",
         "choices": [
-          "Pizza is delicious.",
-          "Pizza usually has cheese.",
-          "Pizza is the best food.",
-          "Pizza should be eaten every day."
+          "Summer vacation is too short.",
+          "July has 31 days.",
+          "July is the best month.",
+          "Everyone loves July."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "Pizza usually has cheese. is the best answer. Common characteristics of things are facts if they can be observed.",
-          "incorrect": [
-            "Pizza is delicious. does not fit this question. Common characteristics of things are facts if they can be observed.",
-            "",
-            "Pizza is the best food. does not fit this question. Common characteristics of things are facts if they can be observed.",
-            "Pizza should be eaten every day. does not fit this question. Common characteristics of things are facts if they can be observed."
-          ]
-        },
         "studyAid": {
-          "definition": "Common characteristics of things are facts if they can be observed.",
-          "example": "Fact: Pizza usually has cheese. Opinion: Pizza is delicious.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "July has 31 days. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "Summer vacation is too short. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "July is the best month. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Everyone loves July. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is an opinion?",
-        "choices": [
-          "Winter is cold.",
-          "Winter is the worst season.",
-          "Winter comes after fall.",
-          "Winter has the shortest days."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Winter is the worst season. is the best answer. Words like 'worst,' 'best,' 'greatest' signal opinions.",
-          "incorrect": [
-            "Winter is cold. does not fit this question. Words like 'worst,' 'best,' 'greatest' signal opinions.",
-            "",
-            "Winter comes after fall. does not fit this question. Words like 'worst,' 'best,' 'greatest' signal opinions.",
-            "Winter has the shortest days. does not fit this question. Words like 'worst,' 'best,' 'greatest' signal opinions."
-          ]
-        },
-        "studyAid": {
-          "definition": "Words like 'worst,' 'best,' 'greatest' signal opinions.",
-          "example": "Opinion: Winter is the worst season. Fact: Winter comes after fall.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Which is a fact?",
-        "choices": [
-          "Blue is a calming color.",
-          "Blue is a primary color.",
-          "Blue is the best color.",
-          "Blue should be used in every room."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Blue is a primary color. is the best answer. Art and color theory include provable facts.",
-          "incorrect": [
-            "Blue is a calming color. does not fit this question. Art and color theory include provable facts.",
-            "",
-            "Blue is the best color. does not fit this question. Art and color theory include provable facts.",
-            "Blue should be used in every room. does not fit this question. Art and color theory include provable facts."
-          ]
-        },
-        "studyAid": {
-          "definition": "Art and color theory include provable facts.",
-          "example": "Fact: Blue is a primary color. Opinion: Blue is the best color.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Which is an opinion?",
-        "choices": [
-          "Mount Everest is tall.",
-          "Mount Everest is the most amazing mountain.",
-          "Mount Everest is in Asia.",
-          "Mount Everest is the tallest mountain."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Mount Everest is the most amazing mountain. is the best answer. Superlatives that express emotion rather than measurement are opinions.",
-          "incorrect": [
-            "Mount Everest is tall. does not fit this question. Superlatives that express emotion rather than measurement are opinions.",
-            "",
-            "Mount Everest is in Asia. does not fit this question. Superlatives that express emotion rather than measurement are opinions.",
-            "Mount Everest is the tallest mountain. does not fit this question. Superlatives that express emotion rather than measurement are opinions."
-          ]
-        },
-        "studyAid": {
-          "definition": "Superlatives that express emotion rather than measurement are opinions.",
-          "example": "Opinion: Most amazing. Fact: Tallest mountain.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Which is a fact?",
-        "choices": [
-          "Reading is fun.",
-          "Reading improves vocabulary.",
-          "Reading is better than watching TV.",
-          "Everyone should read every day."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Reading improves vocabulary. is the best answer. Research-backed statements are facts.",
-          "incorrect": [
-            "Reading is fun. does not fit this question. Research-backed statements are facts.",
-            "",
-            "Reading is better than watching TV. does not fit this question. Research-backed statements are facts.",
-            "Everyone should read every day. does not fit this question. Research-backed statements are facts."
-          ]
-        },
-        "studyAid": {
-          "definition": "Research-backed statements are facts.",
-          "example": "Fact: Reading improves vocabulary. Opinion: Reading is fun.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Which is an opinion?",
-        "choices": [
-          "Fire needs oxygen.",
-          "Campfires are scary.",
-          "Fire produces heat.",
-          "Fire can be orange."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Campfires are scary. is the best answer. Emotional reactions are opinions.",
-          "incorrect": [
-            "Fire needs oxygen. does not fit this question. Emotional reactions are opinions.",
-            "",
-            "Fire produces heat. does not fit this question. Emotional reactions are opinions.",
-            "Fire can be orange. does not fit this question. Emotional reactions are opinions."
-          ]
-        },
-        "studyAid": {
-          "definition": "Emotional reactions are opinions.",
-          "example": "Opinion: Campfires are scary. Fact: Fire needs oxygen.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Which is a fact?",
-        "choices": [
-          "Swimming is the best exercise.",
-          "Swimming works many muscles.",
-          "Swimming is boring.",
-          "Swimming is too hard."
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Swimming works many muscles. is the best answer. Physical effects of exercise can be measured and proven.",
-          "incorrect": [
-            "Swimming is the best exercise. does not fit this question. Physical effects of exercise can be measured and proven.",
-            "",
-            "Swimming is boring. does not fit this question. Physical effects of exercise can be measured and proven.",
-            "Swimming is too hard. does not fit this question. Physical effects of exercise can be measured and proven."
-          ]
-        },
-        "studyAid": {
-          "definition": "Physical effects of exercise can be measured and proven.",
-          "example": "Fact: Swimming works many muscles. Opinion: Swimming is boring.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Which is an opinion?",
+        "question": "Which statement is an opinion?",
         "choices": [
           "A triangle has three sides.",
-          "Triangles are the best shape.",
-          "A right triangle has a 90-degree angle.",
-          "Triangles can be different sizes."
+          "The recipe uses two cups of flour.",
+          "The soup smells delicious.",
+          "The bus arrived at 8:10."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Triangles are the best shape. is the best answer. Mathematical properties are facts; preferences are opinions.",
-          "incorrect": [
-            "A triangle has three sides. does not fit this question. Mathematical properties are facts; preferences are opinions.",
-            "",
-            "A right triangle has a 90-degree angle. does not fit this question. Mathematical properties are facts; preferences are opinions.",
-            "Triangles can be different sizes. does not fit this question. Mathematical properties are facts; preferences are opinions."
-          ]
-        },
+        "correct": 2,
         "studyAid": {
-          "definition": "Mathematical properties are facts; preferences are opinions.",
-          "example": "Fact: A triangle has three sides. Opinion: Triangles are the best shape.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The soup smells delicious. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "A triangle has three sides. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The recipe uses two cups of flour. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "The bus arrived at 8:10. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Which is a fact?",
+        "question": "Which statement is neither a fact nor an opinion because it is a command?",
         "choices": [
-          "Homework is useless.",
-          "Homework takes time.",
-          "Homework is unfair.",
-          "No one should get homework."
+          "Please recycle the paper.",
+          "Paper can be recycled.",
+          "Recycling paper is important.",
+          "Our class recycled paper yesterday."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "Homework takes time. is the best answer. Observable characteristics are facts.",
-          "incorrect": [
-            "Homework is useless. does not fit this question. Observable characteristics are facts.",
-            "",
-            "Homework is unfair. does not fit this question. Observable characteristics are facts.",
-            "No one should get homework. does not fit this question. Observable characteristics are facts."
-          ]
-        },
+        "correct": 0,
         "studyAid": {
-          "definition": "Observable characteristics are facts.",
-          "example": "Fact: Homework takes time. Opinion: Homework is useless.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "Please recycle the paper. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "Paper can be recycled. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Recycling paper is important. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Our class recycled paper yesterday. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Superman wears a blue suit and a red cape.",
+        "question": "Which statement is a fact about a preference survey?",
+        "choices": [
+          "Twenty students chose soccer as their favorite sport.",
+          "Soccer is the most exciting sport.",
+          "Everyone should play soccer.",
+          "Basketball is more fun than soccer."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "Twenty students chose soccer as their favorite sport. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "Soccer is the most exciting sport. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Everyone should play soccer. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Basketball is more fun than soccer. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which opinion is supported by a fact?",
+        "choices": [
+          "The park is better because it has three playgrounds.",
+          "The park is better.",
+          "The park has three playgrounds.",
+          "Parks are places outside."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The park is better because it has three playgrounds. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "The park is better. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The park has three playgrounds. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Parks are places outside. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which sentence would need evidence before being accepted as fact?",
+        "choices": [
+          "The average rainfall was 2 inches.",
+          "The city recorded 2 inches of rain.",
+          "The rainstorm was the worst one ever.",
+          "The rain gauge showed 2 inches."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The rainstorm was the worst one ever. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "The average rainfall was 2 inches. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The city recorded 2 inches of rain. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "The rain gauge showed 2 inches. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which statement is a fact even though it may surprise someone?",
+        "choices": [
+          "Some sharks live in very cold water.",
+          "Sharks are the scariest fish.",
+          "No one should swim near sharks.",
+          "Shark movies are exciting."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "Some sharks live in very cold water. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "Sharks are the scariest fish. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "No one should swim near sharks. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Shark movies are exciting. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which statement is an opinion disguised as a fact?",
+        "choices": [
+          "The concert began at 7:30.",
+          "The concert had twelve songs.",
+          "The concert was too loud.",
+          "The concert was held outside."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The concert was too loud. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "The concert began at 7:30. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The concert had twelve songs. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "The concert was held outside. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which statement can be checked and proven true or false?",
+        "choices": [
+          "The cafeteria served tacos on Tuesday.",
+          "Tacos are always the best lunch.",
+          "Tuesday lunches are boring.",
+          "The cafeteria should serve tacos daily."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "The cafeteria served tacos on Tuesday. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "Tacos are always the best lunch. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Tuesday lunches are boring. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "The cafeteria should serve tacos daily. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Fact or opinion? Superman wears a blue suit and a red cape.",
         "choices": [
           "fact",
           "opinion",
@@ -28212,24 +28237,24 @@ const QUESTION_BANK = {
           "neither"
         ],
         "correct": 0,
-        "explanation": {
-          "correct": "fact is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "",
-            "opinion does not fit this question. A fact can be proven true.",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "fact is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "opinion does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "both does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "neither does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "The grass is too long.",
+        "question": "Fact or opinion? The grass is too long.",
         "choices": [
           "fact",
           "opinion",
@@ -28237,24 +28262,24 @@ const QUESTION_BANK = {
           "neither"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "opinion is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "fact does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "both does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "neither does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Cats are the nicest pets to have.",
+        "question": "Fact or opinion? Cats are the nicest pets to have.",
         "choices": [
           "fact",
           "opinion",
@@ -28262,24 +28287,24 @@ const QUESTION_BANK = {
           "neither"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "opinion is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "fact does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "both does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "neither does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Going to the beach is the best vacation.",
+        "question": "Fact or opinion? Going to the beach is the best vacation.",
         "choices": [
           "fact",
           "opinion",
@@ -28287,24 +28312,24 @@ const QUESTION_BANK = {
           "neither"
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "opinion is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "fact does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "both does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "neither does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Mars is called the \"red planet.\"",
+        "question": "Fact or opinion? Mars is called the \"red planet.\"",
         "choices": [
           "fact",
           "opinion",
@@ -28312,245 +28337,245 @@ const QUESTION_BANK = {
           "neither"
         ],
         "correct": 0,
-        "explanation": {
-          "correct": "fact is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "",
-            "opinion does not fit this question. A fact can be proven true.",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "fact is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "opinion does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "both does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "neither does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Fact or opinion? The speed limit on this road is too slow.",
+        "question": "Which choice explains why \"The speed limit on this road is too slow\" is an opinion?",
         "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
+          "It has a number.",
+          "It can never be discussed.",
+          "Too slow is a judgment.",
+          "Roads do not have speed limits."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
+        "correct": 2,
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "Too slow is a judgment. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "It has a number. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "It can never be discussed. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "Roads do not have speed limits. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Fact or opinion? Exercise can help strengthen your heart and muscles.",
+        "question": "Which choice explains why \"Exercise can help strengthen your heart and muscles\" is a fact?",
         "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
-        ],
-        "correct": 0,
-        "explanation": {
-          "correct": "fact is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "",
-            "opinion does not fit this question. A fact can be proven true.",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
-        "studyAid": {
-          "definition": "A fact can be proven true. An opinion tells what someone thinks, feels, or believes.",
-          "example": "Fact: Exercise strengthens muscles. Opinion: Jogging is the most fun exercise.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Fact or opinion? Split pea soup is made with peas.",
-        "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
+          "It can be supported by health information.",
+          "It sounds positive.",
+          "Everyone enjoys exercise.",
+          "It includes the word help."
         ],
         "correct": 0,
-        "explanation": {
-          "correct": "fact is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "",
-            "opinion does not fit this question. A fact can be proven true.",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion tells what someone thinks, feels, or believes.",
-          "example": "Fact: Exercise strengthens muscles. Opinion: Jogging is the most fun exercise.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "It can be supported by health information. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "It sounds positive. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Everyone enjoys exercise. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "It includes the word help. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Fact or opinion? She needs a haircut badly.",
+        "question": "Which choice explains why \"Split pea soup is made with peas\" is a fact?",
         "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
-        "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Fact or opinion? Africa is a continent.",
-        "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
+          "It tells an ingredient that can be checked.",
+          "It tells how the soup tastes.",
+          "It says whether people like soup.",
+          "It is about food."
         ],
         "correct": 0,
-        "explanation": {
-          "correct": "fact is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "",
-            "opinion does not fit this question. A fact can be proven true.",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "It tells an ingredient that can be checked. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "It tells how the soup tastes. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "It says whether people like soup. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "It is about food. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Fact or opinion? That book is too long to read in a week.",
+        "question": "Which choice explains why \"She needs a haircut badly\" is an opinion?",
         "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
+          "Hair can be measured.",
+          "Needs badly is a judgment.",
+          "She is a pronoun.",
+          "Haircuts are real."
         ],
         "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion is what someone thinks or feels.",
-          "example": "Fact: \"Water freezes at 32°F.\" Opinion: \"Winter is the best season.\"",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "Needs badly is a judgment. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "Hair can be measured. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "She is a pronoun. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Haircuts are real. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Fact or opinion? Pizza Hut pizza tastes better than homemade pizza.",
+        "question": "Which choice explains why \"Africa is a continent\" is a fact?",
         "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
-        ],
-        "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
-        "studyAid": {
-          "definition": "A fact can be proven true. An opinion tells what someone thinks, feels, or believes.",
-          "example": "Fact: Exercise strengthens muscles. Opinion: Jogging is the most fun exercise.",
-          "link": "https://www.readingrockets.org/article/fact-or-opinion",
-          "linkText": "Reading Rockets - Fact or Opinion"
-        }
-      },
-      {
-        "question": "Fact or opinion? Saturday comes after Friday.",
-        "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
+          "It names a place that can be verified.",
+          "It sounds important.",
+          "It is someone's belief.",
+          "It uses a capital letter."
         ],
         "correct": 0,
-        "explanation": {
-          "correct": "fact is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "",
-            "opinion does not fit this question. A fact can be proven true.",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion tells what someone thinks, feels, or believes.",
-          "example": "Fact: Exercise strengthens muscles. Opinion: Jogging is the most fun exercise.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "It names a place that can be verified. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "It sounds important. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "It is someone's belief. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "It uses a capital letter. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       },
       {
-        "question": "Fact or opinion? Stories about aliens are more exciting than stories about astronauts.",
+        "question": "Which choice explains why \"That book is too long to read in a week\" is an opinion?",
         "choices": [
-          "fact",
-          "opinion",
-          "both",
-          "neither"
+          "Books have pages.",
+          "Weeks have seven days.",
+          "Too long depends on the reader.",
+          "Some books are long."
         ],
-        "correct": 1,
-        "explanation": {
-          "correct": "opinion is the best answer. A fact can be proven true.",
-          "incorrect": [
-            "fact does not fit this question. A fact can be proven true.",
-            "",
-            "both does not fit this question. A fact can be proven true.",
-            "neither does not fit this question. A fact can be proven true."
-          ]
-        },
+        "correct": 2,
         "studyAid": {
-          "definition": "A fact can be proven true. An opinion tells what someone thinks, feels, or believes.",
-          "example": "Fact: Exercise strengthens muscles. Opinion: Jogging is the most fun exercise.",
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
           "link": "https://www.readingrockets.org/article/fact-or-opinion",
           "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "Too long depends on the reader. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "Books have pages. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Weeks have seven days. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "Some books are long. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which choice explains why \"Pizza Hut pizza tastes better than homemade pizza\" is an opinion?",
+        "choices": [
+          "Taste is a personal judgment.",
+          "Pizza is a food.",
+          "Pizza Hut is capitalized.",
+          "Homemade has three syllables."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "Taste is a personal judgment. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "Pizza is a food. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Pizza Hut is capitalized. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Homemade has three syllables. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which choice explains why \"Saturday comes after Friday\" is a fact?",
+        "choices": [
+          "It can be checked on a calendar.",
+          "Saturday is fun.",
+          "Friday feels short.",
+          "Weekends are better."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "It can be checked on a calendar. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "",
+            "Saturday is fun. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Friday feels short. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Weekends are better. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
+        }
+      },
+      {
+        "question": "Which choice explains why \"Stories about aliens are more exciting than stories about astronauts\" is an opinion?",
+        "choices": [
+          "Astronauts are real people.",
+          "More exciting is a personal judgment.",
+          "Stories have characters.",
+          "Aliens appear in fiction."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "example": "Fact: The museum opens at 9:00. Opinion: The museum is the most exciting place in town.",
+          "link": "https://www.readingrockets.org/article/fact-or-opinion",
+          "linkText": "Reading Rockets - Fact or Opinion"
+        },
+        "explanation": {
+          "correct": "More exciting is a personal judgment. is the best answer. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+          "incorrect": [
+            "Astronauts are real people. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "",
+            "Stories have characters. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief.",
+            "Aliens appear in fiction. does not fit this question. A fact can be proven true or false, but an opinion depends on a person's judgment, feeling, or belief."
+          ]
         }
       }
     ]

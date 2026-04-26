@@ -13,11 +13,31 @@
     quizzesCompleted: 0,
     bestScore: 0,
     lastPracticeDate: "",
-    badges: []
+    badges: [],
+    mastery: {
+      domains: {},
+      skills: {},
+      cognitiveDemand: {},
+      difficulty: {},
+      standards: {}
+    }
   };
 
   function getDefaultProgress() {
-    return Object.assign({}, defaults, { badges: [] });
+    return Object.assign({}, defaults, {
+      badges: [],
+      mastery: getDefaultMastery()
+    });
+  }
+
+  function getDefaultMastery() {
+    return {
+      domains: {},
+      skills: {},
+      cognitiveDemand: {},
+      difficulty: {},
+      standards: {}
+    };
   }
 
   function normalizeProgress(progress) {
@@ -28,6 +48,30 @@
     normalized.bestScore = Number(normalized.bestScore) || 0;
     normalized.lastPracticeDate = normalized.lastPracticeDate || "";
     normalized.badges = Array.isArray(normalized.badges) ? normalized.badges : [];
+    normalized.mastery = normalizeMastery(normalized.mastery);
+    return normalized;
+  }
+
+  function normalizeMastery(mastery) {
+    const normalized = Object.assign(getDefaultMastery(), mastery || {});
+    Object.keys(normalized).forEach(group => {
+      normalized[group] = normalizeMasteryGroup(normalized[group]);
+    });
+    return normalized;
+  }
+
+  function normalizeMasteryGroup(group) {
+    const normalized = {};
+    Object.keys(group || {}).forEach(key => {
+      const item = group[key] || {};
+      normalized[key] = {
+        label: item.label || key,
+        correct: Number(item.correct) || 0,
+        total: Number(item.total) || 0,
+        lastPracticed: item.lastPracticed || "",
+        level: item.level || ""
+      };
+    });
     return normalized;
   }
 
@@ -60,8 +104,35 @@
       quizzesCompleted: Math.max(local.quizzesCompleted, cloud.quizzesCompleted),
       bestScore: Math.max(local.bestScore, cloud.bestScore),
       lastPracticeDate: maxDateKey(local.lastPracticeDate, cloud.lastPracticeDate),
-      badges: Array.from(badges)
+      badges: Array.from(badges),
+      mastery: mergeMastery(local.mastery, cloud.mastery)
     });
+  }
+
+  function mergeMastery(localMastery, cloudMastery) {
+    const local = normalizeMastery(localMastery);
+    const cloud = normalizeMastery(cloudMastery);
+    const merged = getDefaultMastery();
+
+    Object.keys(merged).forEach(group => {
+      const keys = new Set([
+        ...Object.keys(local[group] || {}),
+        ...Object.keys(cloud[group] || {})
+      ]);
+      keys.forEach(key => {
+        const localItem = local[group][key] || {};
+        const cloudItem = cloud[group][key] || {};
+        merged[group][key] = {
+          label: localItem.label || cloudItem.label || key,
+          correct: Math.max(Number(localItem.correct) || 0, Number(cloudItem.correct) || 0),
+          total: Math.max(Number(localItem.total) || 0, Number(cloudItem.total) || 0),
+          lastPracticed: maxDateKey(localItem.lastPracticed, cloudItem.lastPracticed),
+          level: localItem.level || cloudItem.level || ""
+        };
+      });
+    });
+
+    return merged;
   }
 
   function maxDateKey(a, b) {
@@ -123,6 +194,7 @@
     loadLocalProgress,
     saveLocalProgress,
     mergeProgress,
+    normalizeMastery,
     setCloudAdapter,
     syncFromCloud,
     syncToCloud

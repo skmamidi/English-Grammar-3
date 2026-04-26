@@ -28,6 +28,7 @@
   let hintUsedThisQuestion = false;
   let hintsUsed = 0;
   let confidenceStats = [];
+  let attemptRecords = [];
   const progressStore = window.GrammarQuestProgress;
   const gradeOptions = ['3', '4', '5', '6'];
   const difficultyOptions = ['easy', 'medium', 'hard'];
@@ -78,6 +79,7 @@
     reviewMode = false;
     hintsUsed = 0;
     confidenceStats = [];
+    attemptRecords = [];
 
     renderStartScreen(set);
   }
@@ -164,6 +166,7 @@
       reviewMode = false;
       hintsUsed = 0;
       confidenceStats = [];
+      attemptRecords = [];
       renderQuestion();
     });
   }
@@ -264,6 +267,14 @@
     if (isCorrect) score++;
     combo = isCorrect ? combo + 1 : 0;
     confidenceStats.push({ confidence: currentConfidence || 'thinking', correct: isCorrect });
+    attemptRecords.push({
+      question: q,
+      correct: isCorrect,
+      confidence: currentConfidence || 'thinking',
+      hintUsed: hintUsedThisQuestion,
+      grade: selectedGrade,
+      difficulty: selectedDifficulty
+    });
     if (!isCorrect && !reviewMode && !missedQuestions.includes(q)) {
       missedQuestions.push(q);
     }
@@ -369,7 +380,7 @@
     const percentage = Math.round((score / currentQuestions.length) * 100);
     const reward = reviewMode
       ? { gemsEarned: 0, message: 'Review round complete. Mistakes turned into practice.', progress: loadProgress() }
-      : saveQuestResult(percentage, score, currentQuestions.length);
+      : saveQuestResult(percentage, score, currentQuestions.length, attemptRecords);
     const progress = reward.progress;
     const rank = getRank(progress.totalGems);
     const badgeHtml = progress.badges.length
@@ -448,6 +459,7 @@
         reviewMode = false;
         hintsUsed = 0;
         confidenceStats = [];
+        attemptRecords = [];
         renderStartScreen(activeSet);
       } else {
         initQuiz(window.QUIZ_SET_ID);
@@ -610,7 +622,7 @@
     }
   }
 
-  function saveQuestResult(percentage, correct, total) {
+  function saveQuestResult(percentage, correct, total, attempts) {
     const progress = loadProgress();
     const today = getTodayKey();
     const yesterday = getDateKey(-1);
@@ -629,6 +641,7 @@
     progress.totalGems += gemsEarned;
     progress.quizzesCompleted += 1;
     progress.bestScore = Math.max(progress.bestScore || 0, percentage);
+    progress.mastery = updateMastery(progress.mastery, attempts || [], today);
     progress.badges = updateBadges(progress);
 
     if (progressStore) {
@@ -647,6 +660,81 @@
     }
 
     return { gemsEarned, message, progress };
+  }
+
+  function updateMastery(existingMastery, attempts, today) {
+    const mastery = normalizeMastery(existingMastery);
+    attempts.forEach(attempt => {
+      const question = attempt.question || {};
+      const metadata = question.metadata || {};
+      const isCorrect = !!attempt.correct;
+      const difficulty = metadata.primaryDifficulty || selectedDifficulty;
+      const entries = [
+        { group: 'domains', key: slugify(activeSet && activeSet.topic || metadata.sourceSet || 'English Language Arts'), label: activeSet && activeSet.topic || 'English Language Arts' },
+        { group: 'cognitiveDemand', key: metadata.cognitiveDemand || 'practice', label: titleCase(metadata.cognitiveDemand || 'Practice') },
+        { group: 'difficulty', key: difficulty || 'medium', label: titleCase(difficulty || 'Medium') }
+      ];
+
+      (metadata.skills || []).forEach(skill => {
+        entries.push({ group: 'skills', key: slugify(skill), label: titleCase(skill) });
+      });
+
+      getQuestionStandards(question).forEach(standard => {
+        entries.push({ group: 'standards', key: standard.id, label: standard.label || standard.id });
+      });
+
+      entries.forEach(entry => recordMastery(mastery, entry.group, entry.key, entry.label, isCorrect, today));
+    });
+    return mastery;
+  }
+
+  function normalizeMastery(mastery) {
+    if (progressStore && typeof progressStore.normalizeMastery === 'function') {
+      return progressStore.normalizeMastery(mastery);
+    }
+    const groups = ['domains', 'skills', 'cognitiveDemand', 'difficulty', 'standards'];
+    return groups.reduce((acc, group) => {
+      acc[group] = Object.assign({}, mastery && mastery[group] || {});
+      return acc;
+    }, {});
+  }
+
+  function recordMastery(mastery, group, key, label, isCorrect, today) {
+    if (!key) return;
+    if (!mastery[group]) mastery[group] = {};
+    const current = mastery[group][key] || { label, correct: 0, total: 0, lastPracticed: '', level: '' };
+    current.label = current.label || label || key;
+    current.correct += isCorrect ? 1 : 0;
+    current.total += 1;
+    current.lastPracticed = today;
+    current.level = getMasteryLevel(current.correct, current.total);
+    mastery[group][key] = current;
+  }
+
+  function getQuestionStandards(question) {
+    const metadata = question.metadata || {};
+    const direct = metadata.standards || metadata.standardIds || [];
+    if (Array.isArray(direct) && direct.length) {
+      return direct.map(id => ({ id: String(id), label: String(id) }));
+    }
+
+    const topic = activeSet && activeSet.topic ? activeSet.topic : metadata.sourceSet || '';
+    const skills = metadata.skills || [];
+    const inferred = [];
+    if (/reading/i.test(topic)) inferred.push({ id: 'CCSS.RL/RI.3-6', label: 'Reading: Literature & Informational Text' });
+    if (/vocabulary/i.test(topic) || skills.some(skill => /vocabulary|morphology|prefix|suffix|meaning/i.test(skill))) inferred.push({ id: 'CCSS.L.3-6.4-6', label: 'Language: Vocabulary Acquisition' });
+    if (/grammar|punctuation|capitalization/i.test(topic) || skills.some(skill => /grammar|punctuation|capitalization|usage|sentence/i.test(skill))) inferred.push({ id: 'CCSS.L.3-6.1-3', label: 'Language: Conventions & Knowledge' });
+    if (/reference/i.test(topic) || skills.some(skill => /dictionary|reference|alphabet/i.test(skill))) inferred.push({ id: 'ELA.Reference.3-6', label: 'Reference & Research Skills' });
+    return inferred.length ? inferred : [{ id: 'ELA.3-6.Mixed', label: 'Mixed ELA Practice' }];
+  }
+
+  function getMasteryLevel(correct, total) {
+    if (total < 5) return 'Collecting evidence';
+    const accuracy = correct / total;
+    if (accuracy >= 0.92 && total >= 12) return 'Elite';
+    if (accuracy >= 0.85) return 'Secure';
+    if (accuracy >= 0.7) return 'Developing';
+    return 'Needs focus';
   }
 
   function updateBadges(progress) {
@@ -712,6 +800,21 @@
   function capitalize(text) {
     const value = String(text || '');
     return value ? value.charAt(0).toUpperCase() + value.slice(1) : '';
+  }
+
+  function titleCase(text) {
+    return String(text || '')
+      .replace(/[-_]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function slugify(text) {
+    return String(text || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '');
   }
 
   // Utility: escape HTML

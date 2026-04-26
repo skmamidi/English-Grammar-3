@@ -16,9 +16,9 @@
   <main class="container">
     <section class="home-quest">
       <div>
-        <div class="quest-kicker">Grammar Quest</div>
-        <h1 class="page-title">Save the Story Library</h1>
-        <p class="page-subtitle">Pick a trail, solve grammar challenges, and collect star gems. Practice on different days to build a streak and unlock extra rewards.</p>
+        <div class="quest-kicker">99.9 Mastery Track</div>
+        <h1 class="page-title">English Language Mastery</h1>
+        <p class="page-subtitle">Build MAP, SOL, and national-standard readiness through adaptive practice, mastery evidence, and above-grade challenge work.</p>
       </div>
       <div class="home-progress" id="home-progress" aria-label="Saved quest progress">
         <div class="quest-stat">
@@ -32,6 +32,40 @@
         <div class="quest-stat">
           <span class="quest-stat-value">Trail Starter</span>
           <span class="quest-stat-label">rank</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mastery-panel" id="mastery-panel" aria-label="Mastery dashboard">
+      <div class="mastery-panel-header">
+        <div>
+          <div class="quest-kicker">Readiness Dashboard</div>
+          <h2>Standards and Skills Evidence</h2>
+        </div>
+        <span id="readiness-label">Collecting evidence</span>
+      </div>
+      <div class="mastery-grid" id="mastery-grid">
+        <div class="mastery-card">
+          <strong>0%</strong>
+          <span>overall accuracy</span>
+        </div>
+        <div class="mastery-card">
+          <strong>0</strong>
+          <span>skill signals</span>
+        </div>
+        <div class="mastery-card">
+          <strong>Start</strong>
+          <span>next focus</span>
+        </div>
+      </div>
+      <div class="mastery-lists">
+        <div>
+          <h3>Priority Skills</h3>
+          <div id="priority-skills" class="mastery-list"></div>
+        </div>
+        <div>
+          <h3>Standards Coverage</h3>
+          <div id="standards-coverage" class="mastery-list"></div>
         </div>
       </div>
     </section>
@@ -108,6 +142,64 @@
         }
       }
 
+      function normalizeMastery(mastery) {
+        const fallback = {
+          domains: {},
+          skills: {},
+          cognitiveDemand: {},
+          difficulty: {},
+          standards: {}
+        };
+        if (window.GrammarQuestProgress && window.GrammarQuestProgress.normalizeMastery) {
+          return window.GrammarQuestProgress.normalizeMastery(mastery);
+        }
+        return Object.assign(fallback, mastery || {});
+      }
+
+      function getMasteryItems(group) {
+        return Object.keys(group || {}).map(key => {
+          const item = group[key] || {};
+          const total = Number(item.total) || 0;
+          const correct = Number(item.correct) || 0;
+          return {
+            key,
+            label: item.label || key,
+            correct,
+            total,
+            accuracy: total ? correct / total : 0,
+            level: item.level || 'Collecting evidence'
+          };
+        });
+      }
+
+      function getReadinessLabel(accuracy, total) {
+        if (total < 30) return 'Collecting evidence';
+        if (accuracy >= 0.93 && total >= 120) return 'Elite trajectory';
+        if (accuracy >= 0.86) return 'Strong readiness';
+        if (accuracy >= 0.72) return 'Building readiness';
+        return 'Needs focus';
+      }
+
+      function renderMasteryList(target, items, emptyText) {
+        if (!target) return;
+        if (!items.length) {
+          target.innerHTML = `<p>${emptyText}</p>`;
+          return;
+        }
+        target.innerHTML = items.slice(0, 5).map(item => {
+          const percent = Math.round(item.accuracy * 100);
+          return `
+            <div class="mastery-row">
+              <div>
+                <strong>${item.label}</strong>
+                <span>${item.level} · ${item.correct}/${item.total}</span>
+              </div>
+              <b>${percent}%</b>
+            </div>
+          `;
+        }).join('');
+      }
+
       function renderProgress() {
         const progress = loadProgress();
         const streakDays = progress.streakDays || 0;
@@ -128,8 +220,61 @@
       `;
       }
 
+      function renderMastery() {
+        const progress = loadProgress();
+        const mastery = normalizeMastery(progress.mastery);
+        const skillItems = getMasteryItems(mastery.skills);
+        const standardItems = getMasteryItems(mastery.standards);
+        const allItems = getMasteryItems(mastery.domains)
+          .concat(skillItems, getMasteryItems(mastery.cognitiveDemand), standardItems);
+        const total = allItems.reduce((sum, item) => sum + item.total, 0);
+        const correct = allItems.reduce((sum, item) => sum + item.correct, 0);
+        const accuracy = total ? correct / total : 0;
+        const readiness = getReadinessLabel(accuracy, total);
+        const readinessEl = document.getElementById('readiness-label');
+        const gridEl = document.getElementById('mastery-grid');
+        const priorityEl = document.getElementById('priority-skills');
+        const standardsEl = document.getElementById('standards-coverage');
+        const nextFocus = skillItems
+          .filter(item => item.total >= 2)
+          .sort((a, b) => a.accuracy - b.accuracy || b.total - a.total)[0];
+
+        if (readinessEl) readinessEl.textContent = readiness;
+        if (gridEl) {
+          gridEl.innerHTML = `
+            <div class="mastery-card">
+              <strong>${Math.round(accuracy * 100)}%</strong>
+              <span>overall accuracy</span>
+            </div>
+            <div class="mastery-card">
+              <strong>${skillItems.length}</strong>
+              <span>skill signals</span>
+            </div>
+            <div class="mastery-card">
+              <strong>${nextFocus ? nextFocus.label : 'Diagnostic'}</strong>
+              <span>next focus</span>
+            </div>
+          `;
+        }
+
+        renderMasteryList(
+          priorityEl,
+          skillItems.filter(item => item.total >= 2).sort((a, b) => a.accuracy - b.accuracy || b.total - a.total),
+          'Complete a few quizzes to reveal priority skills.'
+        );
+        renderMasteryList(
+          standardsEl,
+          standardItems.sort((a, b) => b.total - a.total || b.accuracy - a.accuracy),
+          'Standards coverage appears after your first quiz.'
+        );
+      }
+
       renderProgress();
-      window.addEventListener('grammarquest:progress-updated', renderProgress);
+      renderMastery();
+      window.addEventListener('grammarquest:progress-updated', () => {
+        renderProgress();
+        renderMastery();
+      });
     })();
   </script>
 </body>

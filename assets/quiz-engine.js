@@ -40,6 +40,8 @@
       console.error('Quiz engine: #quiz-root element not found');
       return;
     }
+    const shell = quizContainer.closest('.container');
+    if (shell) shell.classList.add('quiz-shell');
 
     const setId = window.QUIZ_SET_ID;
     if (!setId) {
@@ -176,7 +178,12 @@
 
     quizContainer.innerHTML = `
       <div class="quiz-header">
-        <div class="quiz-progress">${reviewMode ? 'Review' : 'Question'} ${currentIndex + 1} of ${currentQuestions.length}</div>
+        <div class="quiz-status">
+          <div class="quiz-progress">${reviewMode ? 'Review' : 'Question'} ${currentIndex + 1} of ${currentQuestions.length}</div>
+          <div class="quiz-progress-track" aria-hidden="true">
+            <span style="width: ${Math.round(((currentIndex + 1) / currentQuestions.length) * 100)}%"></span>
+          </div>
+        </div>
         <div class="quest-mini-hud" aria-label="Quest progress">
           <span>${progress.streakDays} day streak</span>
           <span>${progress.totalGems} gems</span>
@@ -186,6 +193,10 @@
       </div>
 
       <div class="question-box">
+        <div class="question-card-heading">
+          <span>Read carefully</span>
+          <span>${reviewMode ? 'Review round' : 'Practice round'}</span>
+        </div>
         <div class="question-text">${escapeHtml(q.question)}</div>
         <div class="thinking-tools">
           <button type="button" class="strategy-btn" id="strategy-btn">Strategy clue</button>
@@ -305,8 +316,11 @@
 
     feedbackArea.innerHTML = `
       <div class="feedback-box">
-        <div class="feedback-title ${isCorrect ? 'correct' : 'incorrect'}">
-          ${isCorrect ? 'Correct! Star gem found.' : 'Not quite. The trail is still open.'}
+        <div class="feedback-summary">
+          <div class="feedback-title ${isCorrect ? 'correct' : 'incorrect'}">
+            ${isCorrect ? 'Correct! Star gem found.' : 'Not quite. The trail is still open.'}
+          </div>
+          <div class="feedback-answer-pill">${escapeHtml(String.fromCharCode(65 + selectedIndex))}</div>
         </div>
         <div class="feedback-text">
           ${escapeHtml(selectedExplanation)}

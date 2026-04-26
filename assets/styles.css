@@ -704,6 +704,67 @@ body::before {
   gap: 18px;
 }
 
+.spelling-setup {
+  display: grid;
+  gap: 16px;
+  margin: 22px auto;
+  max-width: 660px;
+  text-align: left;
+}
+
+.spelling-setup-group {
+  display: grid;
+  gap: 8px;
+}
+
+.setup-label {
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.setup-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.setup-chip {
+  align-items: center;
+  background: #f8fafc;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-weight: 800;
+  gap: 6px;
+  min-height: 40px;
+  padding: 8px 14px;
+}
+
+.setup-chip:hover:not(:disabled) {
+  background: #eff6ff;
+  border-color: var(--primary);
+}
+
+.setup-chip.selected {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+
+.setup-chip span {
+  opacity: 0.8;
+}
+
+.setup-chip:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
 .spelling-listen-row {
   display: flex;
   flex-wrap: wrap;

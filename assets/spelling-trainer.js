@@ -10,7 +10,10 @@
     score: 0,
     combo: 0,
     answered: false,
-    results: []
+    results: [],
+    selectedCount: 25,
+    selectedGrade: 4,
+    selectedDifficulty: "all"
   };
 
   const patternInfo = {
@@ -114,6 +117,46 @@
       label: "Soft g",
       advice: "G can say /j/ before e, i, or y. Keep the g even when it sounds soft."
     },
+    "soft-c": {
+      label: "Soft c",
+      advice: "C usually says /s/ before e, i, or y. Check the letter after c before choosing the sound."
+    },
+    "multisyllable": {
+      label: "Multisyllable word",
+      advice: "Clap the syllables first, then spell one word part at a time."
+    },
+    "suffix-y": {
+      label: "-y ending",
+      advice: "The -y ending can sound like long e. Keep the base word steady, then add y."
+    },
+    "digraph": {
+      label: "Consonant digraph",
+      advice: "Two letters can work together for one sound, like ch, th, sh, or ph."
+    },
+    "suffix": {
+      label: "Suffix",
+      advice: "Find the base word first, then attach the ending as its own spelling chunk."
+    },
+    "suffix-ment": {
+      label: "-ment suffix",
+      advice: "The suffix -ment turns many words into nouns. Spell the base word, then add ment."
+    },
+    "suffix-s": {
+      label: "-s ending",
+      advice: "Listen for the base word before the final s so the ending does not hide the spelling."
+    },
+    "suffix-en": {
+      label: "-en ending",
+      advice: "The -en ending can show a changed state, as in broken. Spell the base sound, then add en."
+    },
+    "school-vocabulary": {
+      label: "School vocabulary",
+      advice: "These are class vocabulary words. Say the syllables, picture where the word appears at school, then write each chunk."
+    },
+    "compound": {
+      label: "Compound word",
+      advice: "Break the word into its smaller words or parts, spell each part, then join them."
+    },
     "prefix": {
       label: "Prefix",
       advice: "Find the prefix first, then spell the base word after it."
@@ -133,7 +176,7 @@
   }
 
   function reset() {
-    state.words = shuffle([...bank.questions]).slice(0, 50);
+    state.words = [];
     state.index = 0;
     state.score = 0;
     state.combo = 0;
@@ -141,9 +184,43 @@
     state.results = [];
   }
 
+  function buildQuestionSet() {
+    const available = getAvailableWords();
+    const limit = state.selectedCount === "all"
+      ? available.length
+      : Math.min(state.selectedCount, available.length);
+    state.words = shuffle([...available]).slice(0, limit);
+    state.index = 0;
+    state.score = 0;
+    state.combo = 0;
+    state.answered = false;
+    state.results = [];
+  }
+
+  function getAvailableWords() {
+    const gradeWords = getGradeWords();
+    if (state.selectedDifficulty === "all") return gradeWords;
+    return gradeWords.filter(question => getQuestionLevel(question) === state.selectedDifficulty);
+  }
+
+  function getGradeWords() {
+    return bank.questions.filter(question => question.levels && question.levels[String(state.selectedGrade)]);
+  }
+
+  function getQuestionLevel(question) {
+    if (question.levels && question.levels[String(state.selectedGrade)]) {
+      return question.levels[String(state.selectedGrade)];
+    }
+    return question.difficulty || "medium";
+  }
+
   function renderStart() {
     const progress = loadProgress();
     const rank = getRank(progress.totalGems);
+    const availableCount = getAvailableWords().length;
+    const plannedCount = state.selectedCount === "all"
+      ? availableCount
+      : Math.min(state.selectedCount, availableCount);
     root.innerHTML = `
       <div class="start-screen spelling-start">
         <div class="quest-kicker">New Trail</div>
@@ -163,13 +240,109 @@
             <span class="quest-stat-label">rank</span>
           </div>
         </div>
-        <p class="quest-brief">Mission: 50 fourth-grade spelling words with sound, symbol, and syllable power.</p>
+        <div class="spelling-setup" aria-label="Spelling lab setup">
+          <div class="spelling-setup-group">
+            <div class="setup-label">Grade Level</div>
+            <div class="setup-options" role="group" aria-label="Grade level">
+              ${renderGradeOptions()}
+            </div>
+          </div>
+          <div class="spelling-setup-group">
+            <div class="setup-label">Question Count</div>
+            <div class="setup-options" role="group" aria-label="Question count">
+              ${renderCountOptions(availableCount)}
+            </div>
+          </div>
+          <div class="spelling-setup-group">
+            <div class="setup-label">Difficulty</div>
+            <div class="setup-options" role="group" aria-label="Difficulty level">
+              ${renderDifficultyOptions()}
+            </div>
+          </div>
+        </div>
+        <p class="quest-brief">Mission: ${plannedCount} ${escapeHtml(getDifficultyLabel(state.selectedDifficulty).toLowerCase())} ${escapeHtml(getGradeLabel(state.selectedGrade))} spelling word${plannedCount === 1 ? "" : "s"} with sound, symbol, and syllable power.</p>
         <button class="btn btn-primary" id="start-spelling">Start Spelling Lab</button>
       </div>
     `;
+    document.querySelectorAll('[data-grade-option]').forEach(button => {
+      button.addEventListener('click', () => {
+        state.selectedGrade = Number(button.dataset.gradeOption);
+        renderStart();
+      });
+    });
+    document.querySelectorAll('[data-count-option]').forEach(button => {
+      button.addEventListener('click', () => {
+        const value = button.dataset.countOption;
+        state.selectedCount = value === "all" ? "all" : Number(value);
+        renderStart();
+      });
+    });
+    document.querySelectorAll('[data-difficulty-option]').forEach(button => {
+      button.addEventListener('click', () => {
+        state.selectedDifficulty = button.dataset.difficultyOption;
+        if (state.selectedCount !== "all" && getAvailableWords().length < state.selectedCount) {
+          state.selectedCount = "all";
+        }
+        renderStart();
+      });
+    });
     document.getElementById('start-spelling').addEventListener('click', () => {
+      buildQuestionSet();
       renderQuestion();
     });
+  }
+
+  function renderGradeOptions() {
+    return [3, 4, 5, 6].map(grade => {
+      const selected = state.selectedGrade === grade;
+      return `
+        <button class="setup-chip ${selected ? "selected" : ""}" type="button" data-grade-option="${grade}" aria-pressed="${selected}">
+          ${escapeHtml(getGradeLabel(grade))}
+        </button>
+      `;
+    }).join('');
+  }
+
+  function getGradeLabel(grade) {
+    return `Grade ${grade - 1}`;
+  }
+
+  function renderCountOptions(availableCount) {
+    const options = [15, 25, 50, 100, "all"];
+    return options.map(option => {
+      const isAll = option === "all";
+      const label = isAll ? `All (${availableCount})` : String(option);
+      const disabled = !isAll && availableCount < option;
+      const selected = state.selectedCount === option || (!isAll && Number(state.selectedCount) === option);
+      return `
+        <button class="setup-chip ${selected ? "selected" : ""}" type="button" data-count-option="${option}" ${disabled ? "disabled" : ""} aria-pressed="${selected}">
+          ${escapeHtml(label)}
+        </button>
+      `;
+    }).join('');
+  }
+
+  function renderDifficultyOptions() {
+    const options = ["all", "easy", "medium", "hard"];
+    const gradeWords = getGradeWords();
+    return options.map(option => {
+      const selected = state.selectedDifficulty === option;
+      const count = option === "all"
+        ? gradeWords.length
+        : gradeWords.filter(question => getQuestionLevel(question) === option).length;
+      return `
+        <button class="setup-chip ${selected ? "selected" : ""}" type="button" data-difficulty-option="${option}" aria-pressed="${selected}">
+          ${escapeHtml(getDifficultyLabel(option))} <span>${count}</span>
+        </button>
+      `;
+    }).join('');
+  }
+
+  function getDifficultyLabel(difficulty) {
+    if (difficulty === "easy") return "Easy";
+    if (difficulty === "medium") return "Medium";
+    if (difficulty === "hard") return "Hard";
+    return "All Levels";
   }
 
   function renderQuestion() {
@@ -178,7 +351,7 @@
     const progress = loadProgress();
     root.innerHTML = `
       <div class="quiz-header">
-        <div class="quiz-progress">Word ${state.index + 1} of ${state.words.length}</div>
+        <div class="quiz-progress">Word ${state.index + 1} of ${state.words.length} · ${escapeHtml(getGradeLabel(state.selectedGrade))} · ${escapeHtml(getDifficultyLabel(state.selectedDifficulty))}</div>
         <div class="quest-mini-hud" aria-label="Quest progress">
           <span>${progress.streakDays} day streak</span>
           <span>${progress.totalGems} gems</span>

@@ -1,5 +1,5 @@
 /**
- * Grade 4 Sound/Symbol Spelling Lab word bank.
+ * Sound/Symbol Spelling Lab word bank.
  * Edit this file to add, remove, or retune spelling prompts without touching
  * the spelling trainer logic.
  */
@@ -938,7 +938,7 @@ window.SPELLING_WORD_BANK = {
     })));
 
   window.SPELLING_WORD_BANK.coverage = {
-    basis: "Expanded MAP-style grade 4 practice bank aligned to public MAP Language Usage spelling strands and grade 4 state standards patterns; this is not a released MAP operational item list.",
+    basis: "Expanded MAP-style practice bank aligned to public MAP Language Usage spelling strands and upper-elementary standards patterns; this is not a released MAP operational item list.",
     states: [
       "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia",
       "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland",

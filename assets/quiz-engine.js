@@ -31,7 +31,7 @@
   const progressStore = window.GrammarQuestProgress;
   const gradeOptions = ['3', '4', '5', '6'];
   const difficultyOptions = ['easy', 'medium', 'hard'];
-  const targetQuestionCount = 15;
+  const targetQuestionCount = getConfiguredQuestionCount();
 
   // DOM ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -496,7 +496,7 @@
   function renderSelectionSummary(summary) {
     const adaptiveNote = summary.exactCount >= 15
       ? 'The question pool is tightly matched to this level.'
-      : 'The quiz prioritizes this level, then adds nearby grade-ready practice so the mission has at least 15 questions.';
+      : 'The quiz prioritizes this level, then adds nearby grade-ready practice to fill the mission.';
     return `
       <strong>${summary.servedCount}</strong> questions ready for Grade ${escapeHtml(getDisplayGrade(summary.grade))} ${escapeHtml(capitalize(summary.difficulty))}.
       <span>${escapeHtml(adaptiveNote)}</span>
@@ -683,6 +683,11 @@
   function normalizeOption(value, options, fallback) {
     const normalized = String(value || '').toLowerCase();
     return options.includes(normalized) ? normalized : fallback;
+  }
+
+  function getConfiguredQuestionCount() {
+    const configured = parseInt(window.QUIZ_QUESTION_COUNT, 10);
+    return Number.isFinite(configured) && configured > 0 ? configured : 15;
   }
 
   function getDisplayGrade(grade) {

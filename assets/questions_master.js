@@ -1,7 +1,7 @@
 /**
  * English Language Quiz App - Master Question Bank
  * Reviewed and normalized for question quality, plausible answer choices,
- * helpful explanations, clear 4th-grade wording, and targeted study links.
+ * helpful explanations, grade-flexible wording, and targeted study links.
  */
 
 const QUESTION_BANK = {
@@ -1156,8 +1156,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-vowel-sounds": {
@@ -2478,8 +2477,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-homophones": {
@@ -3294,8 +3292,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-rhyming": {
@@ -4110,8 +4107,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-synonyms-antonyms": {
@@ -6251,8 +6247,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-comparatives-superlatives": {
@@ -7037,8 +7032,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-word-meaning-context": {
@@ -9178,8 +9172,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-spelling": {
@@ -13704,8 +13697,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "vocabulary-modifier-words": {
@@ -14490,8 +14482,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-end-sentence": {
@@ -15306,8 +15297,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-periods-abbreviations": {
@@ -16122,8 +16112,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-quotation-marks": {
@@ -16938,8 +16927,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-commas-series": {
@@ -17754,8 +17742,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-commas-dates": {
@@ -18570,8 +18557,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-commas-addresses": {
@@ -19386,8 +19372,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-commas-dialogue": {
@@ -20202,8 +20187,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-colon-time": {
@@ -21018,8 +21002,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-apostrophes-contractions": {
@@ -21834,8 +21817,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "punctuation-apostrophes-possessives": {
@@ -22650,8 +22632,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "capitalization-sentence-beginning": {
@@ -23466,8 +23447,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "capitalization-days-months-holidays": {
@@ -24282,8 +24262,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "capitalization-books-magazines-songs-plays": {
@@ -25098,8 +25077,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "capitalization-proper-names-titles": {
@@ -25914,8 +25892,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "capitalization-names-of-places": {
@@ -26730,8 +26707,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-correct-article": {
@@ -28553,8 +28529,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-double-negatives": {
@@ -29369,8 +29344,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-pronouns": {
@@ -30185,8 +30159,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-singular-plural-nouns": {
@@ -31743,8 +31716,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-verb-forms": {
@@ -32559,8 +32531,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-run-on-sentences": {
@@ -33375,8 +33346,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-sentence-types": {
@@ -34668,8 +34638,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-subject-predicate": {
@@ -35961,8 +35930,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-parts-of-speech-verbs": {
@@ -36830,8 +36798,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-parts-of-speech-nouns": {
@@ -39183,8 +39150,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-parts-of-speech-adjectives": {
@@ -39999,8 +39965,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-parts-of-speech-adverbs": {
@@ -40815,8 +40780,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-subject-verb-agreement": {
@@ -43539,8 +43503,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-conjunctions": {
@@ -44461,8 +44424,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-identify-sentence": {
@@ -45542,8 +45504,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-sentence-combinations": {
@@ -48902,8 +48863,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-friendly-letter": {
@@ -50142,8 +50102,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-tenses": {
@@ -51688,7 +51647,7 @@ const QUESTION_BANK = {
         }
       },
       {
-        "question": "Is this sentence past, present, or future tense? Danny and I will be in fourth grade next year.",
+        "question": "Is this sentence past, present, or future tense? Danny and I will be in the next grade next year.",
         "choices": [
           "past tense",
           "present tense",
@@ -51806,8 +51765,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-indentation-rules": {
@@ -52622,8 +52580,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-point-of-view": {
@@ -53438,8 +53395,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reading-comprehension-analogies": {
@@ -56056,8 +56012,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reading-comprehension-categorizing": {
@@ -57455,8 +57410,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reading-comprehension-cause-effect": {
@@ -58271,8 +58225,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reading-comprehension-fact-fantasy": {
@@ -59299,8 +59252,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reading-comprehension-fact-opinion": {
@@ -60857,8 +60809,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reading-comprehension-inference": {
@@ -62362,8 +62313,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reference-skills-sub-heading": {
@@ -63178,8 +63128,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reference-skills-subject-object": {
@@ -63994,8 +63943,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reference-skills-italicize": {
@@ -64810,8 +64758,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reference-skills-alphabetical-order": {
@@ -66315,8 +66262,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "reference-skills-dictionary-guide-words": {
@@ -69145,8 +69091,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   },
   "grammar-sentence-correction": {
@@ -82310,8 +82255,7 @@ const QUESTION_BANK = {
         "medium",
         "hard"
       ],
-      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to keep each quiz at 15+ questions",
-      "minimumServedPerGradeDifficulty": 15
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
     }
   }
 };

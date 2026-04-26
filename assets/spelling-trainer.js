@@ -169,7 +169,6 @@
     `;
     document.getElementById('start-spelling').addEventListener('click', () => {
       renderQuestion();
-      setTimeout(speakCurrentWord, 250);
     });
   }
 
@@ -198,10 +197,11 @@
           <p>${escapeHtml(word.clue)}</p>
         </div>
         <div class="spelling-sentence">${escapeHtml(word.sentence)}</div>
-        <form id="spelling-form" class="spelling-form" autocomplete="off">
+        <form id="spelling-form" class="spelling-form" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false">
           <label for="spelling-answer">Spell the word</label>
-          <input id="spelling-answer" name="answer" type="text" inputmode="text" autocapitalize="none" spellcheck="false" aria-describedby="spelling-help">
+          <input id="spelling-answer" name="spelling-${state.index + 1}-${Date.now()}" type="text" inputmode="text" autocomplete="new-password" autocorrect="off" autocapitalize="none" spellcheck="false" data-form-type="other" aria-describedby="spelling-help paste-guard-message">
           <div id="spelling-help" class="spelling-help">${escapeHtml(word.syllables.split("-").length)} syllable beat${word.syllables.includes("-") ? "s" : ""}</div>
+          <div id="paste-guard-message" class="spelling-help paste-guard-message" aria-live="polite"></div>
           <button class="btn btn-primary" type="submit">Check Spelling</button>
         </form>
       </div>
@@ -213,7 +213,30 @@
     document.getElementById('speak-word').addEventListener('click', speakCurrentWord);
     document.getElementById('speak-clue').addEventListener('click', () => speakText(`${word.clue}. ${word.sentence.replace("____", "blank")}`));
     document.getElementById('spelling-form').addEventListener('submit', handleSubmit);
-    document.getElementById('spelling-answer').focus();
+    const answerInput = document.getElementById('spelling-answer');
+    answerInput.addEventListener('paste', blockPastedAnswer);
+    answerInput.addEventListener('drop', blockPastedAnswer);
+    answerInput.addEventListener('contextmenu', blockPastedAnswer);
+    answerInput.addEventListener('beforeinput', blockInsertedAnswer);
+    answerInput.focus();
+  }
+
+  function blockPastedAnswer(event) {
+    event.preventDefault();
+    showPasteGuardMessage();
+  }
+
+  function blockInsertedAnswer(event) {
+    if (event.inputType === 'insertFromPaste' || event.inputType === 'insertFromDrop') {
+      event.preventDefault();
+      showPasteGuardMessage();
+    }
+  }
+
+  function showPasteGuardMessage() {
+    const message = document.getElementById('paste-guard-message');
+    if (!message) return;
+    message.textContent = 'Type the word yourself so your spelling muscles get the workout.';
   }
 
   function handleSubmit(event) {
@@ -296,7 +319,6 @@
       } else {
         state.index += 1;
         renderQuestion();
-        setTimeout(speakCurrentWord, 250);
       }
     });
   }

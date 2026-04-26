@@ -22,6 +22,12 @@
   let baseQuestions = [];
   let selectedGrade = '4';
   let selectedDifficulty = 'medium';
+  let missedQuestions = [];
+  let reviewMode = false;
+  let currentConfidence = '';
+  let hintUsedThisQuestion = false;
+  let hintsUsed = 0;
+  let confidenceStats = [];
   const progressStore = window.GrammarQuestProgress;
   const gradeOptions = ['3', '4', '5', '6'];
   const difficultyOptions = ['easy', 'medium', 'hard'];
@@ -66,6 +72,10 @@
     score = 0;
     combo = 0;
     answered = false;
+    missedQuestions = [];
+    reviewMode = false;
+    hintsUsed = 0;
+    confidenceStats = [];
 
     renderStartScreen(set);
   }
@@ -81,7 +91,7 @@
           <div class="level-picker-group">
             <label for="grade-select">Grade</label>
             <select id="grade-select">
-              ${gradeOptions.map(grade => `<option value="${grade}" ${grade === selectedGrade ? 'selected' : ''}>Grade ${grade}</option>`).join('')}
+              ${gradeOptions.map(grade => `<option value="${grade}" ${grade === selectedGrade ? 'selected' : ''}>Grade ${getDisplayGrade(grade)}</option>`).join('')}
             </select>
           </div>
           <div class="level-picker-group">
@@ -148,18 +158,25 @@
       currentIndex = 0;
       score = 0;
       combo = 0;
+      missedQuestions = [];
+      reviewMode = false;
+      hintsUsed = 0;
+      confidenceStats = [];
       renderQuestion();
     });
   }
 
   function renderQuestion() {
     answered = false;
+    currentConfidence = '';
+    hintUsedThisQuestion = false;
     const q = currentQuestions[currentIndex];
     const progress = loadProgress();
+    const strategyHint = getStrategyHint(q);
 
     quizContainer.innerHTML = `
       <div class="quiz-header">
-        <div class="quiz-progress">Question ${currentIndex + 1} of ${currentQuestions.length}</div>
+        <div class="quiz-progress">${reviewMode ? 'Review' : 'Question'} ${currentIndex + 1} of ${currentQuestions.length}</div>
         <div class="quest-mini-hud" aria-label="Quest progress">
           <span>${progress.streakDays} day streak</span>
           <span>${progress.totalGems} gems</span>
@@ -170,19 +187,54 @@
 
       <div class="question-box">
         <div class="question-text">${escapeHtml(q.question)}</div>
+        <div class="thinking-tools">
+          <button type="button" class="strategy-btn" id="strategy-btn">Strategy clue</button>
+          <div class="confidence-check" aria-label="Choose confidence level before answering">
+            <span>How sure are you?</span>
+            <button type="button" class="confidence-btn" data-confidence="exploring">Need clues</button>
+            <button type="button" class="confidence-btn" data-confidence="thinking">Pretty sure</button>
+            <button type="button" class="confidence-btn" data-confidence="certain">I can prove it</button>
+          </div>
+        </div>
+        <div class="strategy-panel" id="strategy-panel" hidden>${escapeHtml(strategyHint)}</div>
         <div class="choices" id="choices">
           ${q.choices.map((choice, idx) => `
-            <button class="choice-btn" data-index="${idx}">
+            <button class="choice-btn" data-index="${idx}" disabled>
               <span class="choice-letter">${String.fromCharCode(65 + idx)}</span>
               <span>${escapeHtml(choice)}</span>
             </button>
           `).join('')}
         </div>
+        <div class="answer-gate" id="answer-gate">Choose how sure you are, then pick an answer.</div>
       </div>
 
       <div id="feedback-area"></div>
       <div class="controls" id="controls"></div>
     `;
+
+    document.getElementById('strategy-btn').addEventListener('click', () => {
+      const panel = document.getElementById('strategy-panel');
+      if (!panel) return;
+      panel.hidden = !panel.hidden;
+      if (!panel.hidden && !hintUsedThisQuestion) {
+        hintUsedThisQuestion = true;
+        hintsUsed++;
+      }
+    });
+
+    document.querySelectorAll('.confidence-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentConfidence = btn.dataset.confidence;
+        document.querySelectorAll('.confidence-btn').forEach(option => {
+          option.classList.toggle('selected', option === btn);
+        });
+        document.querySelectorAll('.choice-btn').forEach(choiceBtn => {
+          choiceBtn.disabled = false;
+        });
+        const gate = document.getElementById('answer-gate');
+        if (gate) gate.textContent = getConfidenceNudge(currentConfidence);
+      });
+    });
 
     document.querySelectorAll('.choice-btn').forEach(btn => {
       btn.addEventListener('click', handleAnswer);
@@ -200,6 +252,10 @@
 
     if (isCorrect) score++;
     combo = isCorrect ? combo + 1 : 0;
+    confidenceStats.push({ confidence: currentConfidence || 'thinking', correct: isCorrect });
+    if (!isCorrect && !reviewMode && !missedQuestions.includes(q)) {
+      missedQuestions.push(q);
+    }
 
     // Update choice buttons
     document.querySelectorAll('.choice-btn').forEach((b, idx) => {
@@ -245,6 +301,7 @@
 
     const studyAidHtml = renderStudyAid(q.studyAid);
     const selectedExplanation = getSelectedExplanation(q, selectedIndex, isCorrect);
+    const learningReflection = renderLearningReflection(isCorrect);
 
     feedbackArea.innerHTML = `
       <div class="feedback-box">
@@ -254,6 +311,7 @@
         <div class="feedback-text">
           ${escapeHtml(selectedExplanation)}
         </div>
+        ${learningReflection}
         ${comboMessage}
         ${choiceExplanations ? `<div class="choice-explanations">${choiceExplanations}</div>` : ''}
         ${studyAidHtml}
@@ -295,7 +353,9 @@
 
   function renderResults() {
     const percentage = Math.round((score / currentQuestions.length) * 100);
-    const reward = saveQuestResult(percentage, score, currentQuestions.length);
+    const reward = reviewMode
+      ? { gemsEarned: 0, message: 'Review round complete. Mistakes turned into practice.', progress: loadProgress() }
+      : saveQuestResult(percentage, score, currentQuestions.length);
     const progress = reward.progress;
     const rank = getRank(progress.totalGems);
     const badgeHtml = progress.badges.length
@@ -314,12 +374,26 @@
 
     quizContainer.innerHTML = `
       <div class="results-box">
-        <div class="quest-kicker">Mission Complete</div>
+        <div class="quest-kicker">${reviewMode ? 'Review Complete' : 'Mission Complete'}</div>
         <div class="results-score">${score} / ${currentQuestions.length}</div>
         <div class="results-label">${percentage}% correct</div>
         <div class="results-message">${escapeHtml(message)}</div>
+        <div class="learning-summary">
+          <div>
+            <strong>${missedQuestions.length}</strong>
+            <span>questions marked for review</span>
+          </div>
+          <div>
+            <strong>${hintsUsed}</strong>
+            <span>strategy clues opened</span>
+          </div>
+          <div>
+            <strong>${getCalibrationLabel()}</strong>
+            <span>confidence check</span>
+          </div>
+        </div>
         <div class="reward-panel" aria-label="Rewards earned">
-          <div class="reward-main">+${reward.gemsEarned} star gems</div>
+          <div class="reward-main">${reviewMode ? 'Review practice logged' : `+${reward.gemsEarned} star gems`}</div>
           <div class="reward-grid">
             <div><strong>${progress.streakDays}</strong><span>day streak</span></div>
             <div><strong>${progress.totalGems}</strong><span>total gems</span></div>
@@ -329,11 +403,25 @@
           <p>${escapeHtml(reward.message)}</p>
         </div>
         <div class="controls" style="justify-content:center;">
+          ${!reviewMode && missedQuestions.length ? '<button class="btn btn-primary" id="review-missed-btn">Review Missed</button>' : ''}
           <button class="btn btn-primary" id="restart-btn">Try Again</button>
           <a href="./" class="btn btn-secondary">Back to Topic</a>
         </div>
       </div>
     `;
+
+    const reviewBtn = document.getElementById('review-missed-btn');
+    if (reviewBtn) {
+      reviewBtn.addEventListener('click', () => {
+        currentQuestions = shuffleArray([...missedQuestions]);
+        currentIndex = 0;
+        score = 0;
+        combo = 0;
+        answered = false;
+        reviewMode = true;
+        renderQuestion();
+      });
+    }
 
     document.getElementById('restart-btn').addEventListener('click', () => {
       if (activeSet) {
@@ -342,6 +430,10 @@
         score = 0;
         combo = 0;
         answered = false;
+        missedQuestions = [];
+        reviewMode = false;
+        hintsUsed = 0;
+        confidenceStats = [];
         renderStartScreen(activeSet);
       } else {
         initQuiz(window.QUIZ_SET_ID);
@@ -406,7 +498,7 @@
       ? 'The question pool is tightly matched to this level.'
       : 'The quiz prioritizes this level, then adds nearby grade-ready practice so the mission has at least 15 questions.';
     return `
-      <strong>${summary.servedCount}</strong> questions ready for Grade ${escapeHtml(String(summary.grade))} ${escapeHtml(capitalize(summary.difficulty))}.
+      <strong>${summary.servedCount}</strong> questions ready for Grade ${escapeHtml(getDisplayGrade(summary.grade))} ${escapeHtml(capitalize(summary.difficulty))}.
       <span>${escapeHtml(adaptiveNote)}</span>
     `;
   }
@@ -422,6 +514,57 @@
       : '';
     const correctExplanation = question.explanation.correct || '';
     return [wrongExplanation, correctChoice, correctExplanation].filter(Boolean).join(' ');
+  }
+
+  function getStrategyHint(question) {
+    const focus = question.metadata && question.metadata.feedbackFocus
+      ? question.metadata.feedbackFocus
+      : 'name the rule, test it against each choice, and explain the deciding clue';
+    const rule = question.studyAid && question.studyAid.definition
+      ? question.studyAid.definition
+      : 'Read the question twice, then eliminate answers that break the rule.';
+    return `Try this before answering: ${focus}. Rule to use: ${rule}`;
+  }
+
+  function getConfidenceNudge(confidence) {
+    if (confidence === 'exploring') return 'Good move. Use the strategy clue, then eliminate one answer at a time.';
+    if (confidence === 'certain') return 'Great. Choose the answer you can prove from the rule or sentence clue.';
+    return 'Nice. Pick your answer, then check whether the explanation matches your thinking.';
+  }
+
+  function renderLearningReflection(isCorrect) {
+    const confidenceText = currentConfidence
+      ? {
+          exploring: 'You chose Need clues.',
+          thinking: 'You chose Pretty sure.',
+          certain: 'You chose I can prove it.'
+        }[currentConfidence]
+      : 'No confidence choice was recorded.';
+    const hintText = hintUsedThisQuestion
+      ? 'You opened the strategy clue. That is useful when you use it to test choices, not just to peek.'
+      : 'You answered without opening the strategy clue.';
+    const nextMove = isCorrect
+      ? 'Before the next question, say the rule in your own words.'
+      : 'Before the next question, compare your answer with the correct one and name the exact clue you missed.';
+    return `
+      <div class="learning-reflection">
+        <strong>Learning check:</strong>
+        <span>${escapeHtml(confidenceText)} ${escapeHtml(hintText)} ${escapeHtml(nextMove)}</span>
+      </div>
+    `;
+  }
+
+  function getCalibrationLabel() {
+    if (!confidenceStats.length) return 'Ready';
+    const certain = confidenceStats.filter(item => item.confidence === 'certain');
+    if (certain.length) {
+      const certainCorrect = certain.filter(item => item.correct).length / certain.length;
+      if (certainCorrect >= 0.85) return 'Well calibrated';
+      if (certainCorrect < 0.6) return 'Slow down';
+    }
+    const unsureCorrect = confidenceStats.filter(item => item.confidence === 'exploring' && item.correct).length;
+    if (unsureCorrect >= 2) return 'Trust your reasoning';
+    return 'Building';
   }
 
   // Utility: shuffle array (Fisher-Yates)
@@ -540,6 +683,11 @@
   function normalizeOption(value, options, fallback) {
     const normalized = String(value || '').toLowerCase();
     return options.includes(normalized) ? normalized : fallback;
+  }
+
+  function getDisplayGrade(grade) {
+    const value = parseInt(grade, 10);
+    return Number.isFinite(value) ? String(value - 1) : String(grade || '');
   }
 
   function capitalize(text) {

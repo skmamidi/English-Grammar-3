@@ -607,6 +607,72 @@ body::before {
   opacity: 0.6;
 }
 
+.thinking-tools {
+  align-items: stretch;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(130px, auto) 1fr;
+  margin: 18px 0;
+}
+
+.strategy-btn,
+.confidence-btn {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 750;
+  padding: 10px 12px;
+}
+
+.strategy-btn:hover,
+.confidence-btn:hover {
+  background: #eff6ff;
+  border-color: var(--primary);
+}
+
+.confidence-check {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.confidence-check span {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-right: 2px;
+}
+
+.confidence-btn.selected {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.strategy-panel {
+  background: #ecfeff;
+  border: 1px solid #67e8f9;
+  border-radius: 8px;
+  color: #155e75;
+  line-height: 1.55;
+  margin: -4px 0 16px;
+  padding: 12px 14px;
+  text-align: left;
+}
+
+.answer-gate {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 12px;
+  text-align: center;
+}
+
 /* Feedback */
 .feedback-box {
   background: var(--card);
@@ -672,6 +738,22 @@ body::before {
   color: var(--text);
   line-height: 1.6;
   margin-bottom: 16px;
+}
+
+.learning-reflection {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  color: #166534;
+  display: grid;
+  gap: 4px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  padding: 12px 14px;
+}
+
+.learning-reflection strong {
+  color: #15803d;
 }
 
 .choice-explanations {
@@ -1202,6 +1284,37 @@ body::before {
   line-height: 1.6;
 }
 
+.learning-summary {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0 auto 18px;
+  max-width: 680px;
+}
+
+.learning-summary div {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.learning-summary strong,
+.learning-summary span {
+  display: block;
+}
+
+.learning-summary strong {
+  color: var(--primary);
+  font-size: 1.15rem;
+}
+
+.learning-summary span {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
 .reward-panel {
   margin: 0 auto 28px;
   max-width: 580px;
@@ -1384,6 +1497,15 @@ body::before {
 
   .question-text {
     font-size: 1.05rem;
+  }
+
+  .thinking-tools,
+  .learning-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .confidence-check {
+    justify-content: flex-start;
   }
 
   .topic-grid {

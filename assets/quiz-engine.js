@@ -18,7 +18,14 @@
   let combo = 0;
   let answered = false;
   let quizContainer = null;
+  let activeSet = null;
+  let baseQuestions = [];
+  let selectedGrade = '4';
+  let selectedDifficulty = 'medium';
   const progressStore = window.GrammarQuestProgress;
+  const gradeOptions = ['3', '4', '5', '6'];
+  const difficultyOptions = ['easy', 'medium', 'hard'];
+  const targetQuestionCount = 15;
 
   // DOM ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -50,8 +57,11 @@
       return;
     }
 
-    // Shuffle questions so each attempt is different
-    currentQuestions = shuffleArray([...set.questions]);
+    activeSet = set;
+    baseQuestions = [...set.questions];
+    selectedGrade = normalizeOption(loadSetting('grammarQuestGrade', '4'), gradeOptions, '4');
+    selectedDifficulty = normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium');
+    currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
     currentIndex = 0;
     score = 0;
     combo = 0;
@@ -64,12 +74,38 @@
     const progress = loadProgress();
     const topicName = set.topic || 'Grammar Quest';
     const rank = getRank(progress.totalGems);
+    const supportsLevelSelection = setSupportsLevelSelection(set);
+    const selectionSummary = getSelectionSummary(baseQuestions, selectedGrade, selectedDifficulty);
+    const levelControls = supportsLevelSelection ? `
+        <div class="level-picker" aria-label="Choose quiz level">
+          <div class="level-picker-group">
+            <label for="grade-select">Grade</label>
+            <select id="grade-select">
+              ${gradeOptions.map(grade => `<option value="${grade}" ${grade === selectedGrade ? 'selected' : ''}>Grade ${grade}</option>`).join('')}
+            </select>
+          </div>
+          <div class="level-picker-group">
+            <label for="difficulty-select">Difficulty</label>
+            <select id="difficulty-select">
+              ${difficultyOptions.map(level => `<option value="${level}" ${level === selectedDifficulty ? 'selected' : ''}>${capitalize(level)}</option>`).join('')}
+            </select>
+          </div>
+        </div>
+        <div class="level-summary" id="level-summary">
+          ${renderSelectionSummary(selectionSummary)}
+        </div>
+      ` : `
+        <div class="level-summary">
+          This pronunciation practice uses the full sound-focused question set.
+        </div>
+      `;
 
     quizContainer.innerHTML = `
       <div class="start-screen">
         <div class="quest-kicker">Chapter Mission</div>
         <h2>${escapeHtml(set.title)}</h2>
-        <p>The Word Woods need a careful sentence scout. Answer ${currentQuestions.length} questions, collect star gems, and keep your practice streak glowing.</p>
+        <p>The Word Woods need a careful sentence scout. ${supportsLevelSelection ? 'Choose a level, answer' : 'Answer'} ${currentQuestions.length} questions, collect star gems, and keep your practice streak glowing.</p>
+        ${levelControls}
         <div class="quest-dashboard" aria-label="Saved quest progress">
           <div class="quest-stat">
             <span class="quest-stat-value">${progress.streakDays}</span>
@@ -88,7 +124,32 @@
         <button class="btn btn-primary" id="start-btn">Start Quiz</button>
       </div>
     `;
-    document.getElementById('start-btn').addEventListener('click', () => renderQuestion());
+
+    if (supportsLevelSelection) {
+      const gradeSelect = document.getElementById('grade-select');
+      const difficultySelect = document.getElementById('difficulty-select');
+      const updateSelection = () => {
+        selectedGrade = gradeSelect.value;
+        selectedDifficulty = difficultySelect.value;
+        saveSetting('grammarQuestGrade', selectedGrade);
+        saveSetting('grammarQuestDifficulty', selectedDifficulty);
+        currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+        const summaryEl = document.getElementById('level-summary');
+        if (summaryEl) {
+          summaryEl.innerHTML = renderSelectionSummary(getSelectionSummary(baseQuestions, selectedGrade, selectedDifficulty));
+        }
+      };
+      gradeSelect.addEventListener('change', updateSelection);
+      difficultySelect.addEventListener('change', updateSelection);
+    }
+
+    document.getElementById('start-btn').addEventListener('click', () => {
+      currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+      currentIndex = 0;
+      score = 0;
+      combo = 0;
+      renderQuestion();
+    });
   }
 
   function renderQuestion() {
@@ -183,6 +244,7 @@
     }
 
     const studyAidHtml = renderStudyAid(q.studyAid);
+    const selectedExplanation = getSelectedExplanation(q, selectedIndex, isCorrect);
 
     feedbackArea.innerHTML = `
       <div class="feedback-box">
@@ -190,7 +252,7 @@
           ${isCorrect ? 'Correct! Star gem found.' : 'Not quite. The trail is still open.'}
         </div>
         <div class="feedback-text">
-          ${q.explanation && q.explanation.correct ? escapeHtml(q.explanation.correct) : ''}
+          ${escapeHtml(selectedExplanation)}
         </div>
         ${comboMessage}
         ${choiceExplanations ? `<div class="choice-explanations">${choiceExplanations}</div>` : ''}
@@ -274,8 +336,92 @@
     `;
 
     document.getElementById('restart-btn').addEventListener('click', () => {
-      initQuiz(window.QUIZ_SET_ID);
+      if (activeSet) {
+        currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+        currentIndex = 0;
+        score = 0;
+        combo = 0;
+        answered = false;
+        renderStartScreen(activeSet);
+      } else {
+        initQuiz(window.QUIZ_SET_ID);
+      }
     });
+  }
+
+  function setSupportsLevelSelection(set) {
+    return !!(set && set.metadata && set.metadata.gradesSupported && set.metadata.difficultiesSupported);
+  }
+
+  function selectQuestionsForLevel(questions, grade, difficulty) {
+    if (!questions.some(question => question.metadata && question.metadata.difficultyByGrade)) {
+      return shuffleArray([...questions]);
+    }
+
+    const levelQuestions = questions.filter(q => questionSupportsGrade(q, grade));
+    if (!levelQuestions.length) return [...questions];
+
+    const exact = [];
+    const adjacent = [];
+    const fallback = [];
+    levelQuestions.forEach((question, index) => {
+      const distance = getDifficultyDistance(question, grade, difficulty);
+      const entry = { question, index, distance };
+      if (distance === 0) exact.push(entry);
+      else if (distance === 1) adjacent.push(entry);
+      else fallback.push(entry);
+    });
+
+    const ordered = shuffleArray(exact).concat(shuffleArray(adjacent), shuffleArray(fallback))
+      .map(entry => entry.question);
+    return ordered.slice(0, Math.min(targetQuestionCount, ordered.length));
+  }
+
+  function questionSupportsGrade(question, grade) {
+    const levels = question.metadata && question.metadata.gradeLevels;
+    return !levels || levels.map(String).includes(String(grade));
+  }
+
+  function getDifficultyDistance(question, grade, difficulty) {
+    const actual = question.metadata && question.metadata.difficultyByGrade
+      ? question.metadata.difficultyByGrade[String(grade)] || question.metadata.difficultyByGrade[grade]
+      : difficulty;
+    return Math.abs(difficultyRank(actual) - difficultyRank(difficulty));
+  }
+
+  function difficultyRank(difficulty) {
+    const index = difficultyOptions.indexOf(String(difficulty || '').toLowerCase());
+    return index === -1 ? 1 : index;
+  }
+
+  function getSelectionSummary(questions, grade, difficulty) {
+    const supported = questions.filter(q => questionSupportsGrade(q, grade));
+    const exactCount = supported.filter(q => getDifficultyDistance(q, grade, difficulty) === 0).length;
+    const servedCount = selectQuestionsForLevel(questions, grade, difficulty).length;
+    return { exactCount, servedCount, grade, difficulty };
+  }
+
+  function renderSelectionSummary(summary) {
+    const adaptiveNote = summary.exactCount >= 15
+      ? 'The question pool is tightly matched to this level.'
+      : 'The quiz prioritizes this level, then adds nearby grade-ready practice so the mission has at least 15 questions.';
+    return `
+      <strong>${summary.servedCount}</strong> questions ready for Grade ${escapeHtml(String(summary.grade))} ${escapeHtml(capitalize(summary.difficulty))}.
+      <span>${escapeHtml(adaptiveNote)}</span>
+    `;
+  }
+
+  function getSelectedExplanation(question, selectedIndex, isCorrect) {
+    if (!question.explanation) return '';
+    if (isCorrect) return question.explanation.correct || '';
+    const wrongExplanation = question.explanation.incorrect && question.explanation.incorrect[selectedIndex]
+      ? question.explanation.incorrect[selectedIndex]
+      : '';
+    const correctChoice = question.choices && question.choices[question.correct]
+      ? `Correct answer: ${question.choices[question.correct]}.`
+      : '';
+    const correctExplanation = question.explanation.correct || '';
+    return [wrongExplanation, correctChoice, correctExplanation].filter(Boolean).join(' ');
   }
 
   // Utility: shuffle array (Fisher-Yates)
@@ -373,6 +519,32 @@
     const month = String(date.getMonth() + 1).padStart(2, '0');
     const day = String(date.getDate()).padStart(2, '0');
     return `${year}-${month}-${day}`;
+  }
+
+  function loadSetting(key, fallback) {
+    try {
+      return localStorage.getItem(key) || fallback;
+    } catch (error) {
+      return fallback;
+    }
+  }
+
+  function saveSetting(key, value) {
+    try {
+      localStorage.setItem(key, value);
+    } catch (error) {
+      // Ignore storage errors so private browsing modes can still run quizzes.
+    }
+  }
+
+  function normalizeOption(value, options, fallback) {
+    const normalized = String(value || '').toLowerCase();
+    return options.includes(normalized) ? normalized : fallback;
+  }
+
+  function capitalize(text) {
+    const value = String(text || '');
+    return value ? value.charAt(0).toUpperCase() + value.slice(1) : '';
   }
 
   // Utility: escape HTML

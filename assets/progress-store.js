@@ -19,11 +19,15 @@
     bestScore: 0,
     lastPracticeDate: "",
     badges: [],
+    reports: {
+      sessions: []
+    },
     mastery: {
       domains: {},
       skills: {},
       cognitiveDemand: {},
       difficulty: {},
+      subtopics: {},
       standards: {}
     }
   };
@@ -31,8 +35,15 @@
   function getDefaultProgress() {
     return Object.assign({}, defaults, {
       badges: [],
+      reports: getDefaultReports(),
       mastery: getDefaultMastery()
     });
+  }
+
+  function getDefaultReports() {
+    return {
+      sessions: []
+    };
   }
 
   function getDefaultMastery() {
@@ -41,6 +52,7 @@
       skills: {},
       cognitiveDemand: {},
       difficulty: {},
+      subtopics: {},
       standards: {}
     };
   }
@@ -53,7 +65,14 @@
     normalized.bestScore = Number(normalized.bestScore) || 0;
     normalized.lastPracticeDate = normalized.lastPracticeDate || "";
     normalized.badges = Array.isArray(normalized.badges) ? normalized.badges : [];
+    normalized.reports = normalizeReports(normalized.reports);
     normalized.mastery = normalizeMastery(normalized.mastery);
+    return normalized;
+  }
+
+  function normalizeReports(reports) {
+    const normalized = Object.assign(getDefaultReports(), reports || {});
+    normalized.sessions = Array.isArray(normalized.sessions) ? normalized.sessions : [];
     return normalized;
   }
 
@@ -110,8 +129,26 @@
       bestScore: Math.max(local.bestScore, cloud.bestScore),
       lastPracticeDate: maxDateKey(local.lastPracticeDate, cloud.lastPracticeDate),
       badges: Array.from(badges),
+      reports: mergeReports(local.reports, cloud.reports),
       mastery: mergeMastery(local.mastery, cloud.mastery)
     });
+  }
+
+  function mergeReports(localReports, cloudReports) {
+    const sessionsById = {};
+    normalizeReports(cloudReports).sessions
+      .concat(normalizeReports(localReports).sessions)
+      .forEach(session => {
+        if (!session || !session.id) return;
+        sessionsById[session.id] = session;
+      });
+
+    return {
+      sessions: Object.keys(sessionsById)
+        .map(id => sessionsById[id])
+        .sort((a, b) => String(b.completedAt || "").localeCompare(String(a.completedAt || "")))
+        .slice(0, 100)
+    };
   }
 
   function mergeMastery(localMastery, cloudMastery) {
@@ -321,6 +358,7 @@
     saveLocalProgress,
     mergeProgress,
     normalizeMastery,
+    normalizeReports,
     setCloudAdapter,
     syncFromCloud,
     syncToCloud,

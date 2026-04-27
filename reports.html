@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher / Parent Reports</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <a href="index.html" class="logo">English Language Mastery</a>
+      <a href="index.html" class="back-link">All practice</a>
+    </div>
+  </header>
+
+  <main class="container reports-shell">
+    <section class="reports-hero">
+      <div>
+        <div class="quest-kicker">Teacher / Parent Dashboard</div>
+        <h1 class="page-title">Progress and Practice Reports</h1>
+        <p class="page-subtitle">Scan student progress, find priority skills, and drill down to each question, selected choice, correct answer, and first-attempt evidence.</p>
+      </div>
+      <div class="report-actions">
+        <button class="btn btn-secondary" type="button" id="print-report">Print</button>
+        <button class="btn btn-primary" type="button" id="seed-demo">Load sample view</button>
+      </div>
+    </section>
+
+    <section class="report-kpis" id="report-kpis" aria-label="Class overview"></section>
+
+    <section class="reports-board" aria-label="Student reports">
+      <aside class="student-roster" aria-label="Students">
+        <div class="report-panel-heading">
+          <div>
+            <span class="quest-kicker">Roster</span>
+            <h2>Students</h2>
+          </div>
+          <span id="student-count"></span>
+        </div>
+        <div class="report-filter">
+          <label for="report-search">Search</label>
+          <input id="report-search" type="search" placeholder="Student or skill">
+        </div>
+        <div class="student-list" id="student-list"></div>
+      </aside>
+
+      <section class="student-report-detail" aria-label="Student detail">
+        <div id="student-summary"></div>
+        <div class="report-tabs" role="tablist" aria-label="Report views">
+          <button class="report-tab active" type="button" data-view="overview">Overview</button>
+          <button class="report-tab" type="button" data-view="questions">Questions</button>
+          <button class="report-tab" type="button" data-view="skills">Skills</button>
+        </div>
+        <div id="report-detail"></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="assets/firebase-config.js"></script>
+  <script src="assets/progress-store.js"></script>
+  <script src="assets/reports-dashboard.js"></script>
+</body>
+</html>

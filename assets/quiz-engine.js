@@ -29,6 +29,9 @@
   let hintsUsed = 0;
   let confidenceStats = [];
   let attemptRecords = [];
+  let sessionStartedAt = 0;
+  let mixedQuizConfig = null;
+  let selectedMixedSubtopicIds = [];
   const progressStore = window.GrammarQuestProgress;
   const assessmentGuard = progressStore && progressStore.activeAssessment;
   const gradeOptions = ['3', '4', '5', '6'];
@@ -46,6 +49,11 @@
     if (shell) shell.classList.add('quiz-shell');
 
     const setId = window.QUIZ_SET_ID;
+    if (!setId && window.QUIZ_MIXED_TOPIC_CONFIG) {
+      initMixedQuiz(window.QUIZ_MIXED_TOPIC_CONFIG);
+      return;
+    }
+
     if (!setId) {
       console.error('Quiz engine: window.QUIZ_SET_ID is not set');
       quizContainer.innerHTML = '<p class="page-subtitle">Error: No quiz set specified.</p>';
@@ -85,6 +93,41 @@
     renderStartScreen(set);
   }
 
+  function initMixedQuiz(config) {
+    const subtopics = normalizeMixedSubtopics(config);
+    if (!subtopics.length) {
+      quizContainer.innerHTML = '';
+      return;
+    }
+
+    mixedQuizConfig = Object.assign({
+      questionsPerSubtopic: getConfiguredQuestionsPerSubtopic(),
+      subtopics
+    }, config || {}, { subtopics });
+    activeSet = {
+      title: mixedQuizConfig.title || 'Mixed Topic Quiz',
+      topic: mixedQuizConfig.topic || 'Mixed Topic Practice',
+      metadata: getMergedMetadata(subtopics),
+      questions: subtopics.flatMap(subtopic => subtopic.questions)
+    };
+    baseQuestions = [...activeSet.questions];
+    selectedGrade = normalizeOption(loadSetting('grammarQuestGrade', '4'), gradeOptions, '4');
+    selectedDifficulty = normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium');
+    selectedMixedSubtopicIds = subtopics.map(subtopic => subtopic.id);
+    currentQuestions = selectMixedQuestions(selectedGrade, selectedDifficulty);
+    currentIndex = 0;
+    score = 0;
+    combo = 0;
+    answered = false;
+    missedQuestions = [];
+    reviewMode = false;
+    hintsUsed = 0;
+    confidenceStats = [];
+    attemptRecords = [];
+
+    renderStartScreen(activeSet);
+  }
+
   function renderStartScreen(set) {
     const progress = loadProgress();
     const topicName = set.topic || 'Grammar Quest';
@@ -114,13 +157,15 @@
           This pronunciation practice uses the full sound-focused question set.
         </div>
       `;
+    const mixedSubtopicSelector = mixedQuizConfig ? renderMixedSubtopicSelector() : '';
 
     quizContainer.innerHTML = `
       <div class="start-screen">
-        <div class="quest-kicker">Chapter Mission</div>
+        <div class="quest-kicker">${mixedQuizConfig ? 'Topic Checkpoint' : 'Chapter Mission'}</div>
         <h2>${escapeHtml(set.title)}</h2>
-        <p>The Word Woods need a careful sentence scout. ${supportsLevelSelection ? 'Choose a level, answer' : 'Answer'} ${currentQuestions.length} questions, collect star gems, and keep your practice streak glowing.</p>
+        <p>${getStartScreenCopy(supportsLevelSelection)}</p>
         ${levelControls}
+        ${mixedSubtopicSelector}
         <div class="quest-dashboard" aria-label="Saved quest progress">
           <div class="quest-stat">
             <span class="quest-stat-value">${progress.streakDays}</span>
@@ -148,7 +193,7 @@
         selectedDifficulty = difficultySelect.value;
         saveSetting('grammarQuestGrade', selectedGrade);
         saveSetting('grammarQuestDifficulty', selectedDifficulty);
-        currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+        currentQuestions = selectCurrentQuestions();
         const summaryEl = document.getElementById('level-summary');
         if (summaryEl) {
           summaryEl.innerHTML = renderSelectionSummary(getSelectionSummary(baseQuestions, selectedGrade, selectedDifficulty));
@@ -157,9 +202,10 @@
       gradeSelect.addEventListener('change', updateSelection);
       difficultySelect.addEventListener('change', updateSelection);
     }
+    if (mixedQuizConfig) attachMixedSelectorHandlers();
 
     document.getElementById('start-btn').addEventListener('click', () => {
-      currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+      currentQuestions = selectCurrentQuestions();
       currentIndex = 0;
       score = 0;
       combo = 0;
@@ -168,6 +214,7 @@
       hintsUsed = 0;
       confidenceStats = [];
       attemptRecords = [];
+      sessionStartedAt = Date.now();
       startAssessmentGuard('quiz');
       renderQuestion();
     });
@@ -271,6 +318,7 @@
     confidenceStats.push({ confidence: currentConfidence || 'thinking', correct: isCorrect });
     attemptRecords.push({
       question: q,
+      selectedIndex,
       correct: isCorrect,
       confidence: currentConfidence || 'thinking',
       hintUsed: hintUsedThisQuestion,
@@ -389,6 +437,7 @@
     const badgeHtml = progress.badges.length
       ? `<div class="badge-row">${progress.badges.map(badge => `<span>${escapeHtml(badge)}</span>`).join('')}</div>`
       : '';
+    const subtopicReport = renderSubtopicReport(attemptRecords);
     let message = '';
     if (percentage >= 90) {
       message = 'Outstanding work! You have mastered this skill!';
@@ -420,6 +469,7 @@
             <span>confidence check</span>
           </div>
         </div>
+        ${subtopicReport}
         <div class="reward-panel" aria-label="Rewards earned">
           <div class="reward-main">${reviewMode ? 'Review practice logged' : `+${reward.gemsEarned} star gems`}</div>
           <div class="reward-grid">
@@ -454,7 +504,7 @@
 
     document.getElementById('restart-btn').addEventListener('click', () => {
       if (activeSet) {
-        currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+        currentQuestions = selectCurrentQuestions();
         currentIndex = 0;
         score = 0;
         combo = 0;
@@ -464,6 +514,7 @@
         hintsUsed = 0;
         confidenceStats = [];
         attemptRecords = [];
+        sessionStartedAt = 0;
         endAssessmentGuard();
         renderStartScreen(activeSet);
       } else {
@@ -514,6 +565,40 @@
     return ordered.slice(0, Math.min(targetQuestionCount, ordered.length));
   }
 
+  function selectCurrentQuestions() {
+    return mixedQuizConfig
+      ? selectMixedQuestions(selectedGrade, selectedDifficulty)
+      : selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+  }
+
+  function selectMixedQuestions(grade, difficulty) {
+    if (!mixedQuizConfig || !mixedQuizConfig.subtopics) {
+      return selectQuestionsForLevel(baseQuestions, grade, difficulty);
+    }
+
+    const perSubtopic = Math.max(1, parseInt(mixedQuizConfig.questionsPerSubtopic, 10) || 4);
+    const selected = [];
+    getActiveMixedSubtopics().forEach(subtopic => {
+      const picked = fillQuestionGroup(
+        selectQuestionsForLevel(subtopic.questions, grade, difficulty),
+        subtopic.questions,
+        perSubtopic
+      );
+      selected.push(...picked);
+    });
+    return shuffleArray(selected);
+  }
+
+  function fillQuestionGroup(preferred, allQuestions, count) {
+    const limit = Math.min(count, allQuestions.length);
+    const picked = preferred.slice(0, limit);
+    if (picked.length >= limit) return picked;
+
+    const pickedSet = new Set(picked);
+    const fallback = shuffleArray([...allQuestions]).filter(question => !pickedSet.has(question));
+    return picked.concat(fallback.slice(0, limit - picked.length));
+  }
+
   function questionSupportsGrade(question, grade) {
     const levels = question.metadata && question.metadata.gradeLevels;
     return !levels || levels.map(String).includes(String(grade));
@@ -532,6 +617,19 @@
   }
 
   function getSelectionSummary(questions, grade, difficulty) {
+    if (mixedQuizConfig) {
+      const perSubtopic = Math.max(1, parseInt(mixedQuizConfig.questionsPerSubtopic, 10) || 4);
+      const servedCount = selectMixedQuestions(grade, difficulty).length;
+      const activeCount = getActiveMixedSubtopics().length;
+      return {
+        exactCount: activeCount,
+        servedCount,
+        grade,
+        difficulty,
+        mixedSubtopicCount: activeCount,
+        perSubtopic
+      };
+    }
     const supported = questions.filter(q => questionSupportsGrade(q, grade));
     const exactCount = supported.filter(q => getDifficultyDistance(q, grade, difficulty) === 0).length;
     const servedCount = selectQuestionsForLevel(questions, grade, difficulty).length;
@@ -539,6 +637,12 @@
   }
 
   function renderSelectionSummary(summary) {
+    if (summary.mixedSubtopicCount) {
+      return `
+        <strong>${summary.servedCount}</strong> questions ready across ${summary.mixedSubtopicCount} subtopics.
+        <span>Includes ${summary.perSubtopic} questions from each subtopic, randomized for Grade ${escapeHtml(getDisplayGrade(summary.grade))} ${escapeHtml(capitalize(summary.difficulty))} practice.</span>
+      `;
+    }
     const adaptiveNote = summary.exactCount >= 15
       ? 'The question pool is tightly matched to this level.'
       : 'The quiz prioritizes this level, then adds nearby grade-ready practice to fill the mission.';
@@ -612,6 +716,99 @@
     return 'Building';
   }
 
+  function renderSubtopicReport(attempts) {
+    if (!mixedQuizConfig || !attempts.length) return '';
+    const groups = {};
+    attempts.forEach(attempt => {
+      const subtopic = getQuestionSubtopic(attempt.question);
+      const key = subtopic.id || 'mixed';
+      if (!groups[key]) groups[key] = { title: subtopic.title || 'Mixed practice', correct: 0, total: 0 };
+      groups[key].correct += attempt.correct ? 1 : 0;
+      groups[key].total += 1;
+    });
+
+    const rows = Object.keys(groups).map(key => {
+      const item = groups[key];
+      const percent = item.total ? Math.round((item.correct / item.total) * 100) : 0;
+      return `
+        <div class="sub-report-row">
+          <div>
+            <strong>${escapeHtml(item.title)}</strong>
+            <span>${item.correct} of ${item.total} correct</span>
+          </div>
+          <b>${percent}%</b>
+        </div>
+      `;
+    }).join('');
+
+    return `
+      <div class="sub-report" aria-label="Subtopic performance report">
+        <h3>Subtopic report</h3>
+        <div class="sub-report-list">${rows}</div>
+      </div>
+    `;
+  }
+
+  function renderMixedSubtopicSelector() {
+    const options = mixedQuizConfig.subtopics.map(subtopic => `
+      <label class="mixed-subtopic-option">
+        <input type="checkbox" value="${escapeHtml(subtopic.id)}" checked>
+        <span>${escapeHtml(subtopic.title)}</span>
+      </label>
+    `).join('');
+    return `
+      <div class="mixed-subtopic-picker" aria-label="Choose subtopics for mixed quiz">
+        <div class="mixed-subtopic-picker-head">
+          <strong>Subtopics in this quiz</strong>
+          <button type="button" class="mini-action" id="mixed-select-all">Select all</button>
+        </div>
+        <div class="mixed-subtopic-options">${options}</div>
+        <div class="level-summary mixed-subtopic-warning" id="mixed-subtopic-warning" hidden>
+          Choose at least two subtopics for mixed practice.
+        </div>
+      </div>
+    `;
+  }
+
+  function attachMixedSelectorHandlers() {
+    const checkboxes = Array.from(document.querySelectorAll('.mixed-subtopic-option input'));
+    const selectAll = document.getElementById('mixed-select-all');
+    const startBtn = document.getElementById('start-btn');
+    const warning = document.getElementById('mixed-subtopic-warning');
+    const summaryEl = document.getElementById('level-summary');
+
+    const update = () => {
+      selectedMixedSubtopicIds = checkboxes
+        .filter(checkbox => checkbox.checked)
+        .map(checkbox => checkbox.value);
+      currentQuestions = selectCurrentQuestions();
+      const tooFew = selectedMixedSubtopicIds.length < 2;
+      if (startBtn) startBtn.disabled = tooFew;
+      if (warning) warning.hidden = !tooFew;
+      if (summaryEl) {
+        summaryEl.innerHTML = renderSelectionSummary(getSelectionSummary(baseQuestions, selectedGrade, selectedDifficulty));
+      }
+    };
+
+    checkboxes.forEach(checkbox => checkbox.addEventListener('change', update));
+    if (selectAll) {
+      selectAll.addEventListener('click', () => {
+        checkboxes.forEach(checkbox => {
+          checkbox.checked = true;
+        });
+        update();
+      });
+    }
+    update();
+  }
+
+  function getActiveMixedSubtopics() {
+    if (!mixedQuizConfig || !mixedQuizConfig.subtopics) return [];
+    const selected = new Set(selectedMixedSubtopicIds);
+    const active = mixedQuizConfig.subtopics.filter(subtopic => selected.has(subtopic.id));
+    return active.length ? active : mixedQuizConfig.subtopics;
+  }
+
   // Utility: shuffle array (Fisher-Yates)
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -661,6 +858,14 @@
     progress.quizzesCompleted += 1;
     progress.bestScore = Math.max(progress.bestScore || 0, percentage);
     progress.mastery = updateMastery(progress.mastery, attempts || [], today);
+    progress.reports = updateReports(progress.reports, attempts || [], {
+      percentage,
+      correct,
+      total,
+      completedAt: new Date().toISOString(),
+      startedAt: sessionStartedAt ? new Date(sessionStartedAt).toISOString() : '',
+      durationSeconds: sessionStartedAt ? Math.max(1, Math.round((Date.now() - sessionStartedAt) / 1000)) : 0
+    });
     progress.badges = updateBadges(progress);
 
     if (progressStore) {
@@ -681,6 +886,72 @@
     return { gemsEarned, message, progress };
   }
 
+  function updateReports(existingReports, attempts, summary) {
+    const reports = progressStore && typeof progressStore.normalizeReports === 'function'
+      ? progressStore.normalizeReports(existingReports)
+      : { sessions: Array.isArray(existingReports && existingReports.sessions) ? existingReports.sessions : [] };
+    const completedAt = summary.completedAt || new Date().toISOString();
+    const session = {
+      id: `session-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      studentId: getActiveStudentId(),
+      studentName: getActiveStudentName(),
+      title: activeSet && activeSet.title || 'Practice Quiz',
+      topic: activeSet && activeSet.topic || 'English Language Arts',
+      grade: selectedGrade,
+      difficulty: selectedDifficulty,
+      score: summary.correct,
+      total: summary.total,
+      percentage: summary.percentage,
+      startedAt: summary.startedAt,
+      completedAt,
+      durationSeconds: summary.durationSeconds,
+      attempts: attempts.map((attempt, index) => serializeAttempt(attempt, index + 1, completedAt))
+    };
+
+    return {
+      sessions: [session].concat(reports.sessions || []).slice(0, 100)
+    };
+  }
+
+  function serializeAttempt(attempt, position, completedAt) {
+    const question = attempt.question || {};
+    const metadata = question.metadata || {};
+    const choices = Array.isArray(question.choices) ? question.choices : [];
+    const selectedIndex = Number.isFinite(attempt.selectedIndex) ? attempt.selectedIndex : -1;
+    const correctIndex = Number.isFinite(question.correct) ? question.correct : -1;
+    const subtopic = getQuestionSubtopic(question);
+
+    return {
+      id: `${metadata.sourceSet || subtopic.id || 'question'}-${metadata.sequence || position}`,
+      position,
+      question: question.question || '',
+      choices,
+      selectedIndex,
+      selectedChoice: choices[selectedIndex] || '',
+      correctIndex,
+      correctChoice: choices[correctIndex] || '',
+      correct: !!attempt.correct,
+      firstAttemptCorrect: !!attempt.correct,
+      confidence: attempt.confidence || 'thinking',
+      hintUsed: !!attempt.hintUsed,
+      grade: attempt.grade || selectedGrade,
+      difficulty: attempt.difficulty || selectedDifficulty,
+      subtopicId: subtopic.id,
+      subtopicTitle: subtopic.title,
+      skills: Array.isArray(metadata.skills) ? metadata.skills : [],
+      standards: getQuestionStandards(question),
+      completedAt
+    };
+  }
+
+  function getActiveStudentId() {
+    return loadSetting('grammarQuestActiveStudentId', 'current-learner');
+  }
+
+  function getActiveStudentName() {
+    return loadSetting('grammarQuestActiveStudentName', 'Current Learner');
+  }
+
   function updateMastery(existingMastery, attempts, today) {
     const mastery = normalizeMastery(existingMastery);
     attempts.forEach(attempt => {
@@ -691,7 +962,8 @@
       const entries = [
         { group: 'domains', key: slugify(activeSet && activeSet.topic || metadata.sourceSet || 'English Language Arts'), label: activeSet && activeSet.topic || 'English Language Arts' },
         { group: 'cognitiveDemand', key: metadata.cognitiveDemand || 'practice', label: titleCase(metadata.cognitiveDemand || 'Practice') },
-        { group: 'difficulty', key: difficulty || 'medium', label: titleCase(difficulty || 'Medium') }
+        { group: 'difficulty', key: difficulty || 'medium', label: titleCase(difficulty || 'Medium') },
+        { group: 'subtopics', key: getQuestionSubtopic(question).id, label: getQuestionSubtopic(question).title }
       ];
 
       (metadata.skills || []).forEach(skill => {
@@ -711,7 +983,7 @@
     if (progressStore && typeof progressStore.normalizeMastery === 'function') {
       return progressStore.normalizeMastery(mastery);
     }
-    const groups = ['domains', 'skills', 'cognitiveDemand', 'difficulty', 'standards'];
+    const groups = ['domains', 'skills', 'cognitiveDemand', 'difficulty', 'subtopics', 'standards'];
     return groups.reduce((acc, group) => {
       acc[group] = Object.assign({}, mastery && mastery[group] || {});
       return acc;
@@ -809,6 +1081,57 @@
   function getConfiguredQuestionCount() {
     const configured = parseInt(window.QUIZ_QUESTION_COUNT, 10);
     return Number.isFinite(configured) && configured > 0 ? configured : 15;
+  }
+
+  function getConfiguredQuestionsPerSubtopic() {
+    const configured = parseInt(window.QUIZ_QUESTIONS_PER_SUBTOPIC, 10);
+    return Number.isFinite(configured) && configured > 0 ? configured : 4;
+  }
+
+  function normalizeMixedSubtopics(config) {
+    return (config && Array.isArray(config.subtopics) ? config.subtopics : [])
+      .map(subtopic => {
+        const set = subtopic.set || {};
+        const questions = Array.isArray(set.questions)
+          ? set.questions.map(question => Object.assign({}, question, {
+              __subtopic: {
+                id: subtopic.id,
+                title: subtopic.title || set.title || 'Subtopic'
+              }
+            }))
+          : [];
+        return Object.assign({}, subtopic, { questions });
+      })
+      .filter(subtopic => subtopic.id && subtopic.questions.length);
+  }
+
+  function getMergedMetadata(subtopics) {
+    const grades = new Set();
+    const difficulties = new Set();
+    subtopics.forEach(subtopic => {
+      const metadata = subtopic.set && subtopic.set.metadata || {};
+      (metadata.gradesSupported || []).forEach(grade => grades.add(String(grade)));
+      (metadata.difficultiesSupported || []).forEach(level => difficulties.add(String(level)));
+    });
+    return {
+      gradesSupported: grades.size ? Array.from(grades).sort() : gradeOptions,
+      difficultiesSupported: difficulties.size ? Array.from(difficulties) : difficultyOptions
+    };
+  }
+
+  function getStartScreenCopy(supportsLevelSelection) {
+    if (mixedQuizConfig) {
+      return `${supportsLevelSelection ? 'Choose a level and subtopics, then answer' : 'Choose subtopics, then answer'} ${currentQuestions.length} questions across ${getActiveMixedSubtopics().length} subtopics. Each selected subtopic contributes ${mixedQuizConfig.questionsPerSubtopic || 4} questions, and your results will show both overall and subtopic scores.`;
+    }
+    return `The Word Woods need a careful sentence scout. ${supportsLevelSelection ? 'Choose a level, answer' : 'Answer'} ${currentQuestions.length} questions, collect star gems, and keep your practice streak glowing.`;
+  }
+
+  function getQuestionSubtopic(question) {
+    const metadata = question && question.metadata || {};
+    const subtopic = question && question.__subtopic || {};
+    const id = subtopic.id || metadata.sourceSet || (activeSet && window.QUIZ_SET_ID) || '';
+    const title = subtopic.title || (activeSet && !mixedQuizConfig && activeSet.title) || titleCase(id);
+    return { id, title };
   }
 
   function getDisplayGrade(grade) {

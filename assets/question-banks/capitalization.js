@@ -4081,4 +4081,936 @@
     }
   }
 });
+
+  const CAPITALIZATION_UPGRADE_AIDS = {
+    sentence: {
+      definition: "Capitalize the first word of every sentence and the first word of a direct quotation, but keep continuing dialogue tags and ordinary words lowercase.",
+      example: "After Maya asked, \"Where is my notebook?\" her brother said, \"It is on the desk.\"",
+      link: "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
+      linkText: "Grammar Monster - Capital Letters"
+    },
+    dates: {
+      definition: "Capitalize days, months, and official holidays. Do not capitalize seasons or general words like break, vacation, parade, or weekend unless they are part of an official name.",
+      example: "The winter break begins in December, and Martin Luther King Jr. Day is in January.",
+      link: "https://www.grammar-monster.com/lessons/capital_letters_proper_and_common_nouns.htm",
+      linkText: "Grammar Monster - Capital Letters"
+    },
+    titles: {
+      definition: "In titles of books, magazines, songs, and plays, capitalize the first and last word and important words. Lowercase short articles, conjunctions, and prepositions unless they begin or end the title.",
+      example: "The Lion, the Witch and the Wardrobe",
+      link: "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
+      linkText: "Grammar Monster - Titles"
+    },
+    people: {
+      definition: "Capitalize a person's name and titles used directly before a name. Lowercase relationship words and job titles when they are used as common nouns.",
+      example: "Aunt Rosa called my aunt. Mayor Lee thanked the mayor's staff.",
+      link: "https://www.grammar-monster.com/lessons/capital_letters_titles.htm",
+      linkText: "Grammar Monster - Capital Letters"
+    },
+    places: {
+      definition: "Capitalize the full official name of a place. Lowercase common place words and articles when they are not part of the official name.",
+      example: "We crossed the Hudson River, then rested beside a quiet river.",
+      link: "https://www.grammar-monster.com/lessons/capital_letters_places.htm",
+      linkText: "Grammar Monster - Place Names"
+    }
+  };
+
+  const CAPITALIZATION_UPGRADES = {
+    "capitalization-sentence-beginning": {
+      aid: "sentence",
+      questions: [
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "Before the bell rang, The class packed up.",
+            "Before the bell rang, the class packed up.",
+            "before the bell rang, the class packed up.",
+            "Before the Bell rang, the class packed up."
+          ],
+          correct: 1,
+          rule: "The first word of the sentence is capitalized, but the word after a comma stays lowercase unless it is a proper noun."
+        },
+        {
+          question: "Which choice handles the quotation and dialogue tag correctly?",
+          choices: [
+            "\"Can we visit the museum?\" Asked Priya.",
+            "\"can we visit the museum?\" asked Priya.",
+            "\"Can we visit the museum?\" asked Priya.",
+            "\"Can we visit the Museum?\" asked Priya."
+          ],
+          correct: 2,
+          rule: "A direct quote begins with a capital letter, and the following dialogue tag stays lowercase."
+        },
+        {
+          question: "Which sentence is edited correctly?",
+          choices: [
+            "After lunch, \"We will rehearse,\" said Mr. Ortiz.",
+            "After lunch, \"we will rehearse,\" said Mr. Ortiz.",
+            "After Lunch, \"We will rehearse,\" said Mr. Ortiz.",
+            "After lunch, \"We will Rehearse,\" said Mr. Ortiz."
+          ],
+          correct: 0,
+          rule: "Capitalize the sentence beginning and the first word of the quote; do not capitalize ordinary words mid-sentence."
+        },
+        {
+          question: "Which version avoids unnecessary capitals?",
+          choices: [
+            "When the lights flickered, Everyone froze.",
+            "When the lights flickered, everyone froze.",
+            "When The lights flickered, everyone froze.",
+            "when the lights flickered, everyone froze."
+          ],
+          correct: 1,
+          rule: "The first word is capitalized, but common words after a comma are not."
+        },
+        {
+          question: "Which sentence is capitalized correctly after an interruption in dialogue?",
+          choices: [
+            "\"I think,\" Nora whispered, \"We should wait.\"",
+            "\"I think,\" Nora whispered, \"we should wait.\"",
+            "\"i think,\" Nora whispered, \"we should wait.\"",
+            "\"I think,\" nora whispered, \"we should wait.\""
+          ],
+          correct: 1,
+          rule: "The second part of an interrupted quotation stays lowercase when it continues the same sentence."
+        },
+        {
+          question: "Which sentence correctly capitalizes a new sentence after a question mark?",
+          choices: [
+            "Did the bus leave? we may have missed it.",
+            "Did the bus leave? We may have missed it.",
+            "did the bus leave? We may have missed it.",
+            "Did the Bus leave? We may have missed it."
+          ],
+          correct: 1,
+          rule: "A new sentence after a question mark starts with a capital letter."
+        },
+        {
+          question: "Which sentence uses capitals correctly?",
+          choices: [
+            "No, I have not finished the chart.",
+            "No, i have not finished the chart.",
+            "no, I have not finished the chart.",
+            "No, I have not finished the Chart."
+          ],
+          correct: 0,
+          rule: "The first word and the pronoun I are capitalized; ordinary nouns like chart are not."
+        },
+        {
+          question: "Which choice is correct?",
+          choices: [
+            "\"Please hurry,\" Said Malik, \"the game starts soon.\"",
+            "\"Please hurry,\" said Malik, \"the game starts soon.\"",
+            "\"please hurry,\" said Malik, \"the game starts soon.\"",
+            "\"Please hurry,\" said Malik, \"The game starts soon.\""
+          ],
+          correct: 1,
+          rule: "The first quoted word is capitalized, the dialogue tag is lowercase, and a continued quotation stays lowercase."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "Because the storm ended, The team returned to practice.",
+            "Because the Storm ended, the team returned to practice.",
+            "Because the storm ended, the team returned to practice.",
+            "because the storm ended, the team returned to practice."
+          ],
+          correct: 2,
+          rule: "Only the first word of the sentence needs a capital here."
+        },
+        {
+          question: "Which sentence handles two complete sentences correctly?",
+          choices: [
+            "The timer buzzed. the cookies were ready.",
+            "The timer buzzed. The cookies were ready.",
+            "the timer buzzed. The cookies were ready.",
+            "The Timer buzzed. The cookies were ready."
+          ],
+          correct: 1,
+          rule: "Each complete sentence begins with a capital letter; common nouns inside the sentence stay lowercase."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "In the morning, I read quietly.",
+            "In the Morning, I read quietly.",
+            "in the morning, I read quietly.",
+            "In the morning, i read quietly."
+          ],
+          correct: 0,
+          rule: "The first word and the pronoun I are capitalized; morning is a common noun."
+        },
+        {
+          question: "Which choice correctly capitalizes the sentence and the direct quote?",
+          choices: [
+            "Talia asked, \"Where did you put my notes?\"",
+            "Talia asked, \"where did you put my notes?\"",
+            "talia asked, \"Where did you put my notes?\"",
+            "Talia Asked, \"Where did you put my notes?\""
+          ],
+          correct: 0,
+          rule: "Capitalize the person's name and the first word of the direct quote, but not the ordinary verb asked."
+        },
+        {
+          question: "Which sentence avoids the common error after a colon?",
+          choices: [
+            "Remember this rule: always check the first word.",
+            "Remember this rule: Always check the first word.",
+            "remember this rule: always check the first word.",
+            "Remember this Rule: always check the first word."
+          ],
+          correct: 0,
+          rule: "In this sentence, the words after the colon continue the same sentence and do not need a capital."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "\"Look at the scoreboard!\" shouted Ava.",
+            "\"look at the scoreboard!\" shouted Ava.",
+            "\"Look at the scoreboard!\" Shouted Ava.",
+            "\"Look at the Scoreboard!\" shouted Ava."
+          ],
+          correct: 0,
+          rule: "The quote begins with a capital, and the dialogue tag after the exclamation point remains lowercase."
+        },
+        {
+          question: "Which edited sentence is best?",
+          choices: [
+            "Although I wanted to stop, I kept running.",
+            "Although i wanted to stop, I kept running.",
+            "Although I wanted to stop, i kept running.",
+            "although I wanted to stop, I kept running."
+          ],
+          correct: 0,
+          rule: "Capitalize the first word of the sentence and every use of the pronoun I."
+        }
+      ]
+    },
+    "capitalization-days-months-holidays": {
+      aid: "dates",
+      questions: [
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "Our Spring concert is on Friday in April.",
+            "Our spring concert is on Friday in April.",
+            "Our spring concert is on friday in April.",
+            "Our spring concert is on Friday in april."
+          ],
+          correct: 1,
+          rule: "Capitalize the day and month, but seasons stay lowercase."
+        },
+        {
+          question: "Which sentence correctly handles a holiday and a season?",
+          choices: [
+            "We visit Grandma during Winter and on Thanksgiving.",
+            "We visit Grandma during winter and on Thanksgiving.",
+            "We visit Grandma during winter and on thanksgiving.",
+            "We visit Grandma during Winter and on thanksgiving."
+          ],
+          correct: 1,
+          rule: "Thanksgiving is a holiday, but winter is a season."
+        },
+        {
+          question: "Which option is capitalized correctly?",
+          choices: [
+            "The Memorial Day parade starts on monday.",
+            "The memorial day parade starts on Monday.",
+            "The Memorial Day parade starts on Monday.",
+            "The Memorial day Parade starts on Monday."
+          ],
+          correct: 2,
+          rule: "Capitalize all important words in a holiday name and the day of the week."
+        },
+        {
+          question: "Which sentence avoids overcapitalizing a general event?",
+          choices: [
+            "The winter festival begins in February.",
+            "The Winter Festival begins in February.",
+            "The winter Festival begins in february.",
+            "The Winter festival begins in February."
+          ],
+          correct: 0,
+          rule: "Winter festival is a general event here, while February is a month."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "On New Year's Eve, we stayed awake until midnight.",
+            "On New Year's eve, we stayed awake until midnight.",
+            "On new year's Eve, we stayed awake until midnight.",
+            "On New Year's Eve, we stayed awake until Midnight."
+          ],
+          correct: 0,
+          rule: "Capitalize each important word in the holiday name, but not ordinary nouns like midnight."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "School starts the Tuesday after labor Day.",
+            "School starts the tuesday after Labor Day.",
+            "School starts the Tuesday after Labor Day.",
+            "School Starts the Tuesday after Labor Day."
+          ],
+          correct: 2,
+          rule: "Tuesday and Labor Day are proper names; starts is not."
+        },
+        {
+          question: "Which choice handles a month and a common noun correctly?",
+          choices: [
+            "The science fair moved from march to May.",
+            "The Science Fair moved from March to May.",
+            "The science fair moved from March to May.",
+            "The science fair moved from March to may."
+          ],
+          correct: 2,
+          rule: "Months are capitalized, but a general event like science fair is lowercase."
+        },
+        {
+          question: "Which sentence correctly capitalizes a holiday but not a general break?",
+          choices: [
+            "Our spring break begins after Presidents' Day.",
+            "Our Spring Break begins after Presidents' Day.",
+            "Our spring break begins after presidents' Day.",
+            "Our Spring break begins after Presidents' day."
+          ],
+          correct: 0,
+          rule: "Presidents' Day is a holiday; spring break is general."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "We have a test next Wednesday, not this thursday.",
+            "We have a test next wednesday, not this Thursday.",
+            "We have a test next Wednesday, not this Thursday.",
+            "We have a Test next Wednesday, not this Thursday."
+          ],
+          correct: 2,
+          rule: "Days of the week are always capitalized."
+        },
+        {
+          question: "Which sentence correctly treats a holiday and ordinary words?",
+          choices: [
+            "The Fourth of July fireworks lit up the park.",
+            "The Fourth Of July Fireworks lit up the park.",
+            "The fourth of July fireworks lit up the Park.",
+            "The Fourth of july fireworks lit up the park."
+          ],
+          correct: 0,
+          rule: "Capitalize the holiday name, but lowercase ordinary nouns like fireworks and park."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "The class party is on Valentine's Day in February.",
+            "The Class Party is on Valentine's Day in February.",
+            "The class party is on Valentine's day in February.",
+            "The class party is on valentine's Day in february."
+          ],
+          correct: 0,
+          rule: "Valentine's Day and February are proper names; class party is not."
+        },
+        {
+          question: "Which option is correct?",
+          choices: [
+            "During autumn, we celebrate Halloween in October.",
+            "During Autumn, we celebrate Halloween in October.",
+            "During autumn, we celebrate halloween in October.",
+            "During autumn, we celebrate Halloween in october."
+          ],
+          correct: 0,
+          rule: "Autumn is a season, while Halloween and October are proper names."
+        },
+        {
+          question: "Which sentence correctly capitalizes a specific school event name?",
+          choices: [
+            "The Riverdale Fall Festival is on Saturday.",
+            "The Riverdale fall festival is on Saturday.",
+            "The riverdale Fall Festival is on saturday.",
+            "The Riverdale Fall festival is on Saturday."
+          ],
+          correct: 0,
+          rule: "A specific event name capitalizes its main words, and Saturday is a day."
+        },
+        {
+          question: "Which sentence avoids capitalizing a season adjective?",
+          choices: [
+            "Our summer reading list is due in August.",
+            "Our Summer Reading List is due in August.",
+            "Our summer reading list is due in august.",
+            "Our Summer reading list is due in August."
+          ],
+          correct: 0,
+          rule: "Summer is lowercase when it describes a general list; August is a month."
+        },
+        {
+          question: "Which sentence is edited correctly?",
+          choices: [
+            "The concert moved to Friday because Christmas Eve is Thursday.",
+            "The concert moved to friday because Christmas Eve is Thursday.",
+            "The Concert moved to Friday because Christmas eve is Thursday.",
+            "The concert moved to Friday because christmas Eve is thursday."
+          ],
+          correct: 0,
+          rule: "Capitalize days and the holiday name, but not ordinary nouns like concert."
+        }
+      ]
+    },
+    "capitalization-books-magazines-songs-plays": {
+      aid: "titles",
+      questions: [
+        {
+          question: "Which title is capitalized correctly?",
+          choices: [
+            "The Lion, The Witch and The Wardrobe",
+            "The Lion, the Witch and the Wardrobe",
+            "The lion, the Witch and the Wardrobe",
+            "The Lion, the Witch And the Wardrobe"
+          ],
+          correct: 1,
+          rule: "Capitalize important title words, but lowercase short articles and conjunctions inside the title."
+        },
+        {
+          question: "Which sentence correctly capitalizes a book title?",
+          choices: [
+            "We read The Tale of Despereaux after lunch.",
+            "We read The Tale Of Despereaux after lunch.",
+            "We read the Tale of Despereaux after Lunch.",
+            "We read The tale of Despereaux after lunch."
+          ],
+          correct: 0,
+          rule: "In a title, capitalize the first word and important words; lowercase of inside the title."
+        },
+        {
+          question: "Which song title is capitalized correctly?",
+          choices: [
+            "Here Comes the Sun",
+            "Here Comes The Sun",
+            "Here comes the Sun",
+            "Here Comes the sun"
+          ],
+          correct: 0,
+          rule: "Capitalize the first word, the verb, and the noun; lowercase the article the inside the title."
+        },
+        {
+          question: "Which magazine title and sentence are capitalized correctly?",
+          choices: [
+            "My article appeared in National Geographic Kids.",
+            "My Article appeared in National Geographic Kids.",
+            "My article appeared in National geographic Kids.",
+            "My article appeared in national Geographic kids."
+          ],
+          correct: 0,
+          rule: "Capitalize each main word in the magazine name, but not ordinary sentence words."
+        },
+        {
+          question: "Which play title is correct?",
+          choices: [
+            "A Raisin in the Sun",
+            "A Raisin In The Sun",
+            "A raisin in the Sun",
+            "A Raisin in The Sun"
+          ],
+          correct: 0,
+          rule: "Capitalize the first, last, and important words; lowercase short prepositions and articles in the middle."
+        },
+        {
+          question: "Which sentence correctly capitalizes a poem title?",
+          choices: [
+            "We discussed \"Stopping by Woods on a Snowy Evening.\"",
+            "We discussed \"Stopping By Woods On A Snowy Evening.\"",
+            "We discussed \"stopping by Woods on a Snowy Evening.\"",
+            "We Discussed \"Stopping by Woods on a Snowy Evening.\""
+          ],
+          correct: 0,
+          rule: "By, on, and a are lowercase inside this title, but the important words are capitalized."
+        },
+        {
+          question: "Which title uses correct capitalization?",
+          choices: [
+            "From the Mixed-Up Files of Mrs. Basil E. Frankweiler",
+            "From The Mixed-Up Files Of Mrs. Basil E. Frankweiler",
+            "From the Mixed-up files of Mrs. Basil E. Frankweiler",
+            "From the Mixed-Up Files of mrs. Basil E. Frankweiler"
+          ],
+          correct: 0,
+          rule: "Capitalize the first word, important title words, and names; lowercase the and of inside the title."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "The class sang \"This Land Is Your Land\" at the assembly.",
+            "The class sang \"This Land is Your Land\" at the assembly.",
+            "The Class sang \"This Land Is Your Land\" at the Assembly.",
+            "The class sang \"This land Is Your land\" at the assembly."
+          ],
+          correct: 0,
+          rule: "Important words in the song title are capitalized; ordinary sentence nouns are not."
+        },
+        {
+          question: "Which title is capitalized correctly?",
+          choices: [
+            "Because of Winn-Dixie",
+            "Because Of Winn-Dixie",
+            "Because of winn-dixie",
+            "because of Winn-Dixie"
+          ],
+          correct: 0,
+          rule: "Capitalize the first word and the proper name, but lowercase of inside the title."
+        },
+        {
+          question: "Which sentence correctly capitalizes a newspaper name?",
+          choices: [
+            "Dad reads The New York Times every Sunday.",
+            "Dad reads the New York times every Sunday.",
+            "Dad Reads The New York Times every Sunday.",
+            "Dad reads The New York times every sunday."
+          ],
+          correct: 0,
+          rule: "Capitalize official publication names and days, but not ordinary verbs."
+        },
+        {
+          question: "Which title is correct?",
+          choices: [
+            "Where the Sidewalk Ends",
+            "Where The Sidewalk Ends",
+            "Where the sidewalk Ends",
+            "where the Sidewalk Ends"
+          ],
+          correct: 0,
+          rule: "The first and last words and important words are capitalized; the is lowercase inside the title."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "We watched The Phantom Tollbooth before dinner.",
+            "We Watched The Phantom Tollbooth before dinner.",
+            "We watched The Phantom tollbooth before Dinner.",
+            "We watched the Phantom Tollbooth before dinner."
+          ],
+          correct: 0,
+          rule: "Capitalize the book title exactly, but not ordinary words outside it."
+        },
+        {
+          question: "Which title follows title capitalization rules?",
+          choices: [
+            "The House on Mango Street",
+            "The House On Mango Street",
+            "The house on Mango Street",
+            "The House on mango Street"
+          ],
+          correct: 0,
+          rule: "House, Mango, and Street are important title words; on stays lowercase."
+        },
+        {
+          question: "Which option correctly capitalizes both a title and a proper noun?",
+          choices: [
+            "Maya borrowed The Cricket in Times Square from the library.",
+            "Maya borrowed The Cricket In Times Square from the library.",
+            "maya borrowed The Cricket in Times Square from the Library.",
+            "Maya borrowed The cricket in Times Square from the library."
+          ],
+          correct: 0,
+          rule: "Capitalize Maya and the important words in the title, while keeping in lowercase."
+        },
+        {
+          question: "Which title is correct?",
+          choices: [
+            "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+            "Alexander And The Terrible, Horrible, No Good, Very Bad Day",
+            "Alexander and the terrible, Horrible, No Good, Very Bad Day",
+            "Alexander and The Terrible, Horrible, no Good, Very Bad Day"
+          ],
+          correct: 0,
+          rule: "Lowercase and and the inside the title, but capitalize important descriptive words."
+        }
+      ]
+    },
+    "capitalization-proper-names-titles": {
+      aid: "people",
+      questions: [
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "My Uncle Ray helped my uncle fix the fence.",
+            "My uncle Ray helped my uncle fix the fence.",
+            "My Uncle Ray helped my Uncle fix the fence.",
+            "My uncle ray helped my uncle fix the fence."
+          ],
+          correct: 1,
+          rule: "Uncle is lowercase after my, but Ray is a person's name."
+        },
+        {
+          question: "Which sentence correctly handles a title before a name and a common job title?",
+          choices: [
+            "Mayor Chen thanked the mayor's assistant.",
+            "mayor Chen thanked the Mayor's assistant.",
+            "Mayor Chen thanked the Mayor's Assistant.",
+            "The mayor Chen thanked the mayor's assistant."
+          ],
+          correct: 0,
+          rule: "Capitalize Mayor when it is part of the name, but lowercase mayor as a common noun."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "Aunt Rosa invited my aunt to dinner.",
+            "aunt Rosa invited my Aunt to dinner.",
+            "Aunt Rosa invited my Aunt to dinner.",
+            "Aunt rosa invited my aunt to dinner."
+          ],
+          correct: 0,
+          rule: "Capitalize Aunt when used with a name, but lowercase it after my."
+        },
+        {
+          question: "Which sentence capitalizes a school title correctly?",
+          choices: [
+            "Principal Gomez spoke to the principal after school.",
+            "principal Gomez spoke to the Principal after school.",
+            "Principal Gomez spoke to the Principal after School.",
+            "Principal gomez spoke to the principal after school."
+          ],
+          correct: 0,
+          rule: "Capitalize the title before the name and the person's name; lowercase the common job title."
+        },
+        {
+          question: "Which sentence correctly capitalizes a person's name but not a relationship word?",
+          choices: [
+            "My cousin Elena called Grandpa after practice.",
+            "My Cousin Elena called grandpa after practice.",
+            "My cousin elena called Grandpa after Practice.",
+            "My Cousin Elena called Grandpa after practice."
+          ],
+          correct: 0,
+          rule: "Cousin is lowercase after my, Elena is a name, and Grandpa is capitalized when used as a name."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "Coach Rivera said the coach would arrive early.",
+            "coach Rivera said the Coach would arrive early.",
+            "Coach Rivera said the Coach would arrive Early.",
+            "Coach rivera said the coach would arrive early."
+          ],
+          correct: 0,
+          rule: "Capitalize Coach Rivera as a title plus name; lowercase coach when it is just a job."
+        },
+        {
+          question: "Which sentence handles Mom and mother correctly?",
+          choices: [
+            "Mom said my mother can volunteer.",
+            "mom said my Mother can volunteer.",
+            "Mom said my Mother can volunteer.",
+            "My Mom said my mother can volunteer."
+          ],
+          correct: 0,
+          rule: "Mom is capitalized when used as a name, while mother is lowercase after my."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "Dr. Patel and the doctor reviewed the chart.",
+            "dr. Patel and the Doctor reviewed the chart.",
+            "Dr. patel and the doctor reviewed the chart.",
+            "Dr. Patel and the Doctor reviewed the Chart."
+          ],
+          correct: 0,
+          rule: "Capitalize the abbreviated title before a name and the person's name; lowercase common nouns."
+        },
+        {
+          question: "Which option correctly capitalizes a royal title?",
+          choices: [
+            "Queen Elizabeth visited the queen's garden.",
+            "queen Elizabeth visited the Queen's garden.",
+            "Queen Elizabeth visited the Queen's Garden.",
+            "Queen elizabeth visited the queen's garden."
+          ],
+          correct: 0,
+          rule: "Capitalize Queen before a name, but lowercase queen when it is used generally."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "My sister, Naomi, sat beside Aunt Lee.",
+            "My Sister, Naomi, sat beside aunt Lee.",
+            "My sister, naomi, sat beside Aunt Lee.",
+            "My Sister, Naomi, sat beside Aunt lee."
+          ],
+          correct: 0,
+          rule: "Sister is lowercase after my, names are capitalized, and Aunt is capitalized before Lee."
+        },
+        {
+          question: "Which sentence handles an elected title correctly?",
+          choices: [
+            "Senator Brooks met with the senator from our state.",
+            "senator Brooks met with the Senator from our State.",
+            "Senator Brooks met with the Senator from our state.",
+            "Senator brooks met with the senator from our state."
+          ],
+          correct: 0,
+          rule: "Capitalize Senator before Brooks, but lowercase senator when it stands alone."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "My dad asked Dad to save him a seat.",
+            "My Dad asked dad to save him a seat.",
+            "My Dad asked Dad to save him a Seat.",
+            "my dad asked Dad to save him a seat."
+          ],
+          correct: 0,
+          rule: "Dad is lowercase after my, but capitalized when used as a name."
+        },
+        {
+          question: "Which sentence correctly capitalizes a historical title?",
+          choices: [
+            "President Lincoln was a president during the Civil War.",
+            "president Lincoln was a President during the Civil War.",
+            "President lincoln was a president during the Civil War.",
+            "President Lincoln was a President during the civil war."
+          ],
+          correct: 0,
+          rule: "Capitalize President before a name and the official event name Civil War; lowercase president as a common noun."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "Professor Nguyen emailed the professor after class.",
+            "professor Nguyen emailed the Professor after class.",
+            "Professor Nguyen emailed the Professor after Class.",
+            "Professor nguyen emailed the professor after class."
+          ],
+          correct: 0,
+          rule: "Capitalize the academic title before a name, but lowercase it when used generally."
+        },
+        {
+          question: "Which sentence avoids overcapitalizing a family word?",
+          choices: [
+            "Grandma waved to my grandmother from the porch.",
+            "grandma waved to my Grandmother from the Porch.",
+            "Grandma waved to my Grandmother from the porch.",
+            "My Grandma waved to my grandmother from the porch."
+          ],
+          correct: 0,
+          rule: "Grandma is capitalized when used as a name; grandmother is lowercase after my."
+        }
+      ]
+    },
+    "capitalization-names-of-places": {
+      aid: "places",
+      questions: [
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "We crossed the Hudson River and rested by the river.",
+            "We crossed the Hudson river and rested by the River.",
+            "We crossed the hudson River and rested by the river.",
+            "We crossed The Hudson River and rested by the river."
+          ],
+          correct: 0,
+          rule: "River is capitalized when part of the official name, but lowercase as a common noun."
+        },
+        {
+          question: "Which sentence correctly treats a street name and a common noun?",
+          choices: [
+            "The bakery is on Maple Street, near a busy street.",
+            "The bakery is on Maple street, near a busy Street.",
+            "The Bakery is on Maple Street, near a busy street.",
+            "The bakery is on maple Street, near a busy street."
+          ],
+          correct: 0,
+          rule: "Capitalize Maple Street as the official street name, but lowercase the common noun street."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "We visited the Grand Canyon during our trip.",
+            "We visited The Grand Canyon during our trip.",
+            "We visited the grand Canyon during our Trip.",
+            "We visited the Grand canyon during our trip."
+          ],
+          correct: 0,
+          rule: "The article the is lowercase before Grand Canyon in the middle of a sentence."
+        },
+        {
+          question: "Which sentence correctly capitalizes an official place name?",
+          choices: [
+            "The class toured Yellowstone National Park.",
+            "The class toured Yellowstone national park.",
+            "The Class toured Yellowstone National Park.",
+            "The class toured yellowstone National Park."
+          ],
+          correct: 0,
+          rule: "Capitalize all main words in the official park name."
+        },
+        {
+          question: "Which sentence avoids overcapitalizing common place words?",
+          choices: [
+            "We walked through the museum before visiting the Art Institute of Chicago.",
+            "We walked through the Museum before visiting the Art Institute of Chicago.",
+            "We walked through the museum before visiting the Art institute of Chicago.",
+            "We walked through the museum before visiting the art Institute of chicago."
+          ],
+          correct: 0,
+          rule: "Museum is lowercase when general, while the official museum name is capitalized."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "My aunt moved from South Carolina to southern Georgia.",
+            "My aunt moved from south Carolina to Southern Georgia.",
+            "My Aunt moved from South Carolina to southern Georgia.",
+            "My aunt moved from South carolina to Southern georgia."
+          ],
+          correct: 0,
+          rule: "Capitalize the state name, but lowercase directional words when they describe a region generally."
+        },
+        {
+          question: "Which sentence correctly handles an ocean name?",
+          choices: [
+            "The Pacific Ocean is larger than any nearby ocean.",
+            "The Pacific ocean is larger than any nearby Ocean.",
+            "The pacific Ocean is larger than any nearby ocean.",
+            "the Pacific Ocean is larger than any nearby ocean."
+          ],
+          correct: 0,
+          rule: "Capitalize the official ocean name, but lowercase ocean when it is common."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "We hiked Mount Rainier, then rested on a nearby mountain.",
+            "We hiked mount Rainier, then rested on a nearby Mountain.",
+            "We hiked Mount rainier, then rested on a nearby mountain.",
+            "We hiked Mount Rainier, then rested on a nearby Mountain."
+          ],
+          correct: 0,
+          rule: "Mount Rainier is an official name; mountain is lowercase as a common noun."
+        },
+        {
+          question: "Which sentence correctly capitalizes a place with an official article?",
+          choices: [
+            "My cousin visited The Hague last summer.",
+            "My cousin visited the Hague last summer.",
+            "My Cousin visited The Hague last Summer.",
+            "My cousin visited The hague last summer."
+          ],
+          correct: 0,
+          rule: "The is capitalized when it is part of an official place name like The Hague."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "The train stopped in New York City before heading north.",
+            "The train stopped in New York city before heading North.",
+            "The Train stopped in New York City before heading north.",
+            "The train stopped in new York City before heading north."
+          ],
+          correct: 0,
+          rule: "Capitalize every main word in the city name, but lowercase ordinary directions."
+        },
+        {
+          question: "Which sentence avoids a common capitalization mistake?",
+          choices: [
+            "We live west of Lake Erie, near a small lake.",
+            "We live West of Lake Erie, near a small Lake.",
+            "We live west of lake Erie, near a small lake.",
+            "We live west of Lake erie, near a small lake."
+          ],
+          correct: 0,
+          rule: "Lake Erie is an official name; west and lake are lowercase when common."
+        },
+        {
+          question: "Which sentence is correct?",
+          choices: [
+            "Our class wrote letters to students in Mexico City.",
+            "Our Class wrote letters to students in Mexico City.",
+            "Our class wrote Letters to Students in Mexico City.",
+            "Our class wrote letters to students in mexico city."
+          ],
+          correct: 0,
+          rule: "Capitalize the city name, but not ordinary nouns in the sentence."
+        },
+        {
+          question: "Which sentence correctly handles a building name?",
+          choices: [
+            "We toured the Empire State Building, then entered another building.",
+            "We toured the Empire State building, then entered another Building.",
+            "We toured The Empire State Building, then entered another building.",
+            "We toured the empire State Building, then entered another building."
+          ],
+          correct: 0,
+          rule: "Building is capitalized in the official name, but lowercase as a common noun."
+        },
+        {
+          question: "Which sentence is capitalized correctly?",
+          choices: [
+            "The Nile River flows through several countries in Africa.",
+            "The Nile river flows through several Countries in Africa.",
+            "The nile River flows through several countries in africa.",
+            "The Nile River flows through several countries In Africa."
+          ],
+          correct: 0,
+          rule: "Capitalize the river name and continent, but not common nouns or short prepositions."
+        },
+        {
+          question: "Which sentence correctly capitalizes an official school name?",
+          choices: [
+            "My brother attends Lincoln Elementary School near our house.",
+            "My brother attends Lincoln elementary school near our House.",
+            "My Brother attends Lincoln Elementary School near our house.",
+            "My brother attends lincoln Elementary school near our house."
+          ],
+          correct: 0,
+          rule: "Capitalize all main words in the official school name, but lowercase common nouns outside it."
+        }
+      ]
+    }
+  };
+
+  function buildUpgradedCapitalizationQuestion(setId, item, index, aidKey) {
+    const shift = index % item.choices.length;
+    const choices = item.choices.slice(shift).concat(item.choices.slice(0, shift));
+    const correct = (item.correct - shift + item.choices.length) % item.choices.length;
+    const incorrect = choices.map((choice, choiceIndex) => {
+      if (choiceIndex === correct) return "";
+      return "Not: " + choice + " " + item.rule;
+    });
+    return {
+      question: item.question,
+      choices,
+      correct,
+      explanation: {
+        correct: "Answer: " + choices[correct] + " " + item.rule,
+        incorrect
+      },
+      studyAid: CAPITALIZATION_UPGRADE_AIDS[aidKey],
+      metadata: {
+        gradeLevels: [3, 4, 5, 6],
+        difficultyByGrade: {
+          "3": "hard",
+          "4": "hard",
+          "5": index % 3 === 0 ? "hard" : "medium",
+          "6": index % 4 === 0 ? "hard" : "medium"
+        },
+        primaryDifficulty: index % 3 === 0 ? "hard" : "medium",
+        intrinsicDifficulty: "medium",
+        cognitiveDemand: "edit-with-distractors",
+        languageDemand: "extended-context",
+        skills: ["capitalization", "proper nouns", "editing", "common capitalization pitfalls"],
+        feedbackFocus: "separate proper nouns from common nouns, watch dialogue tags, and avoid unnecessary capitals",
+        estimatedTimeSeconds: 55,
+        reviewPriority: "high",
+        sourceSet: setId,
+        sequence: index + 1
+      }
+    };
+  }
+
+  Object.keys(CAPITALIZATION_UPGRADES).forEach(setId => {
+    const set = window.QUESTION_BANK[setId];
+    const upgrade = CAPITALIZATION_UPGRADES[setId];
+    if (!set || !upgrade) return;
+    set.questions = upgrade.questions.map((item, index) => buildUpgradedCapitalizationQuestion(setId, item, index, upgrade.aid));
+  });
 })();

@@ -4,7 +4,7 @@
  * 
  * Usage in a subtopic HTML file:
  *   <script>window.QUIZ_SET_ID = 'vocabulary-base-words';</script>
- *   <script src="../../assets/questions_master.js"></script>
+ *   <script src="../../assets/question-banks/grammar.js"></script>
  *   <script src="../../assets/quiz-engine.js"></script>
  */
 

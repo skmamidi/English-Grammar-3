@@ -32,6 +32,7 @@
   let sessionStartedAt = 0;
   let mixedQuizConfig = null;
   let selectedMixedSubtopicIds = [];
+  let selectedMixedQuestionLimit = '4';
   const progressStore = window.GrammarQuestProgress;
   const assessmentGuard = progressStore && progressStore.activeAssessment;
   const gradeOptions = ['3', '4', '5', '6'];
@@ -114,6 +115,7 @@
     selectedGrade = normalizeOption(loadSetting('grammarQuestGrade', '4'), gradeOptions, '4');
     selectedDifficulty = normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium');
     selectedMixedSubtopicIds = subtopics.map(subtopic => subtopic.id);
+    selectedMixedQuestionLimit = normalizeMixedQuestionLimit(loadSetting('grammarQuestMixedQuestionLimit', mixedQuizConfig.questionsPerSubtopic || '4'));
     currentQuestions = selectMixedQuestions(selectedGrade, selectedDifficulty);
     currentIndex = 0;
     score = 0;
@@ -581,13 +583,17 @@
       return selectQuestionsForLevel(baseQuestions, grade, difficulty);
     }
 
-    const perSubtopic = Math.max(1, parseInt(mixedQuizConfig.questionsPerSubtopic, 10) || 4);
+    const limit = getSelectedMixedQuestionLimit();
     const selected = [];
     getActiveMixedSubtopics().forEach(subtopic => {
+      if (limit === 'max') {
+        selected.push(...shuffleArray([...subtopic.questions]));
+        return;
+      }
       const picked = fillQuestionGroup(
         selectQuestionsForLevel(subtopic.questions, grade, difficulty),
         subtopic.questions,
-        perSubtopic
+        limit
       );
       selected.push(...picked);
     });
@@ -623,7 +629,7 @@
 
   function getSelectionSummary(questions, grade, difficulty) {
     if (mixedQuizConfig) {
-      const perSubtopic = Math.max(1, parseInt(mixedQuizConfig.questionsPerSubtopic, 10) || 4);
+      const limit = getSelectedMixedQuestionLimit();
       const servedCount = selectMixedQuestions(grade, difficulty).length;
       const activeCount = getActiveMixedSubtopics().length;
       return {
@@ -632,7 +638,7 @@
         grade,
         difficulty,
         mixedSubtopicCount: activeCount,
-        perSubtopic
+        perSubtopic: limit
       };
     }
     const supported = questions.filter(q => questionSupportsGrade(q, grade));
@@ -643,6 +649,12 @@
 
   function renderSelectionSummary(summary) {
     if (summary.mixedSubtopicCount) {
+      if (summary.perSubtopic === 'max') {
+        return `
+          <strong>${summary.servedCount}</strong> questions ready across ${summary.mixedSubtopicCount} subtopics.
+          <span>Max mode includes every available question from the selected subtopics, randomized into one checkpoint.</span>
+        `;
+      }
       return `
         <strong>${summary.servedCount}</strong> questions ready across ${summary.mixedSubtopicCount} subtopics.
         <span>Includes ${summary.perSubtopic} questions from each subtopic, randomized for Grade ${escapeHtml(getDisplayGrade(summary.grade))} ${escapeHtml(capitalize(summary.difficulty))} practice.</span>
@@ -677,7 +689,7 @@
     const rule = question.studyAid && question.studyAid.definition
       ? question.studyAid.definition
       : 'Read the question twice, then eliminate answers that break the rule.';
-    return `Try this before answering: ${focus}. Rule to use: ${rule}`;
+    return `Rule to use: ${rule}`;
   }
 
   function getConfidenceNudge(confidence) {
@@ -793,6 +805,10 @@
   }
 
   function renderMixedSubtopicSelector() {
+    const limit = getSelectedMixedQuestionLimit();
+    const limitOptions = ['4', '5', '6', '7', '8', '9', '10']
+      .map(value => `<option value="${value}" ${limit === Number(value) ? 'selected' : ''}>${value} per subtopic</option>`)
+      .join('');
     const options = mixedQuizConfig.subtopics.map(subtopic => `
       <label class="mixed-subtopic-option">
         <input type="checkbox" value="${escapeHtml(subtopic.id)}" checked>
@@ -805,6 +821,13 @@
           <strong>Subtopics in this quiz</strong>
           <button type="button" class="mini-action" id="mixed-select-all">Select all</button>
         </div>
+        <label class="mixed-question-limit">
+          <span>Questions per selected subtopic</span>
+          <select id="mixed-question-limit">
+            ${limitOptions}
+            <option value="max" ${limit === 'max' ? 'selected' : ''}>Max - all available questions</option>
+          </select>
+        </label>
         <div class="mixed-subtopic-options">${options}</div>
         <div class="level-summary mixed-subtopic-warning" id="mixed-subtopic-warning" hidden>
           Choose at least two subtopics for mixed practice.
@@ -816,6 +839,7 @@
   function attachMixedSelectorHandlers() {
     const checkboxes = Array.from(document.querySelectorAll('.mixed-subtopic-option input'));
     const selectAll = document.getElementById('mixed-select-all');
+    const limitSelect = document.getElementById('mixed-question-limit');
     const startBtn = document.getElementById('start-btn');
     const warning = document.getElementById('mixed-subtopic-warning');
     const summaryEl = document.getElementById('level-summary');
@@ -824,6 +848,8 @@
       selectedMixedSubtopicIds = checkboxes
         .filter(checkbox => checkbox.checked)
         .map(checkbox => checkbox.value);
+      selectedMixedQuestionLimit = normalizeMixedQuestionLimit(limitSelect ? limitSelect.value : selectedMixedQuestionLimit);
+      saveSetting('grammarQuestMixedQuestionLimit', selectedMixedQuestionLimit);
       currentQuestions = selectCurrentQuestions();
       const tooFew = selectedMixedSubtopicIds.length < 2;
       if (startBtn) startBtn.disabled = tooFew;
@@ -834,6 +860,7 @@
     };
 
     checkboxes.forEach(checkbox => checkbox.addEventListener('change', update));
+    if (limitSelect) limitSelect.addEventListener('change', update);
     if (selectAll) {
       selectAll.addEventListener('click', () => {
         checkboxes.forEach(checkbox => {
@@ -850,6 +877,11 @@
     const selected = new Set(selectedMixedSubtopicIds);
     const active = mixedQuizConfig.subtopics.filter(subtopic => selected.has(subtopic.id));
     return active.length ? active : mixedQuizConfig.subtopics;
+  }
+
+  function getSelectedMixedQuestionLimit() {
+    const normalized = normalizeMixedQuestionLimit(selectedMixedQuestionLimit);
+    return normalized === 'max' ? 'max' : parseInt(normalized, 10);
   }
 
   // Utility: shuffle array (Fisher-Yates)
@@ -1128,7 +1160,14 @@
 
   function getConfiguredQuestionsPerSubtopic() {
     const configured = parseInt(window.QUIZ_QUESTIONS_PER_SUBTOPIC, 10);
-    return Number.isFinite(configured) && configured > 0 ? configured : 4;
+    return Number.isFinite(configured) && configured >= 4 ? Math.min(configured, 10) : 4;
+  }
+
+  function normalizeMixedQuestionLimit(value) {
+    if (String(value || '').toLowerCase() === 'max') return 'max';
+    const number = parseInt(value, 10);
+    if (!Number.isFinite(number)) return '4';
+    return String(Math.min(10, Math.max(4, number)));
   }
 
   function normalizeMixedSubtopics(config) {
@@ -1164,9 +1203,15 @@
 
   function getStartScreenCopy(supportsLevelSelection) {
     if (mixedQuizConfig) {
-      return `${supportsLevelSelection ? 'Choose a level and subtopics, then answer' : 'Choose subtopics, then answer'} ${currentQuestions.length} questions across ${getActiveMixedSubtopics().length} subtopics. Each selected subtopic contributes ${mixedQuizConfig.questionsPerSubtopic || 4} questions, and your results will show both overall and subtopic scores.`;
+      return `${supportsLevelSelection ? 'Choose a level and subtopics, then answer' : 'Choose subtopics, then answer'} ${currentQuestions.length} questions across ${getActiveMixedSubtopics().length} subtopics. ${getMixedQuestionLimitCopy()} Your results will show both overall and subtopic scores.`;
     }
     return `The Word Woods need a careful sentence scout. ${supportsLevelSelection ? 'Choose a level, answer' : 'Answer'} ${currentQuestions.length} questions, collect star gems, and keep your practice streak glowing.`;
+  }
+
+  function getMixedQuestionLimitCopy() {
+    const limit = getSelectedMixedQuestionLimit();
+    if (limit === 'max') return 'Max mode includes every available question from each selected subtopic.';
+    return `Each selected subtopic contributes ${limit} questions.`;
   }
 
   function getQuestionSubtopic(question) {

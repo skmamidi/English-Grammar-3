@@ -2432,6 +2432,35 @@ body::before {
   font-size: 0.92rem;
 }
 
+.mixed-question-limit {
+  display: grid;
+  gap: 6px;
+}
+
+.mixed-question-limit span {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.mixed-question-limit select {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font: inherit;
+  font-weight: 750;
+  min-height: 42px;
+  padding: 9px 11px;
+  width: 100%;
+}
+
+.mixed-question-limit select:focus-visible {
+  box-shadow: var(--focus-ring);
+  outline: none;
+}
+
 .mini-action {
   background: #eff6ff;
   border: 1px solid #bfdbfe;

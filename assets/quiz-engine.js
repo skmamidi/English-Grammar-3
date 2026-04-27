@@ -30,6 +30,7 @@
   let confidenceStats = [];
   let attemptRecords = [];
   const progressStore = window.GrammarQuestProgress;
+  const assessmentGuard = progressStore && progressStore.activeAssessment;
   const gradeOptions = ['3', '4', '5', '6'];
   const difficultyOptions = ['easy', 'medium', 'hard'];
   const targetQuestionCount = getConfiguredQuestionCount();
@@ -167,6 +168,7 @@
       hintsUsed = 0;
       confidenceStats = [];
       attemptRecords = [];
+      startAssessmentGuard('quiz');
       renderQuestion();
     });
   }
@@ -377,6 +379,7 @@
   }
 
   function renderResults() {
+    endAssessmentGuard();
     const percentage = Math.round((score / currentQuestions.length) * 100);
     const reward = reviewMode
       ? { gemsEarned: 0, message: 'Review round complete. Mistakes turned into practice.', progress: loadProgress() }
@@ -444,6 +447,7 @@
         combo = 0;
         answered = false;
         reviewMode = true;
+        startAssessmentGuard('review round');
         renderQuestion();
       });
     }
@@ -460,11 +464,26 @@
         hintsUsed = 0;
         confidenceStats = [];
         attemptRecords = [];
+        endAssessmentGuard();
         renderStartScreen(activeSet);
       } else {
+        endAssessmentGuard();
         initQuiz(window.QUIZ_SET_ID);
       }
     });
+  }
+
+  function startAssessmentGuard(label) {
+    if (!assessmentGuard || typeof assessmentGuard.start !== 'function') return;
+    assessmentGuard.start({
+      label: label || 'quiz',
+      message: 'A quiz is still in progress. Leave this page and lose your current quiz answers?'
+    });
+  }
+
+  function endAssessmentGuard() {
+    if (!assessmentGuard || typeof assessmentGuard.end !== 'function') return;
+    assessmentGuard.end();
   }
 
   function setSupportsLevelSelection(set) {

@@ -6,6 +6,11 @@
   const PROGRESS_UPDATED_EVENT = "grammarquest:progress-updated";
   let cloudAdapter = null;
   let syncTimer = null;
+  const ACTIVE_ASSESSMENT_EVENT = "grammarquest:active-assessment";
+  const EXIT_CONFIRMATION_MESSAGE = "A test is still in progress. Leave this page and lose your current test answers?";
+  let activeAssessment = null;
+  let historyGuardArmed = false;
+  let allowingConfirmedNavigation = false;
 
   const defaults = {
     streakDays: 0,
@@ -186,10 +191,131 @@
     window.dispatchEvent(new CustomEvent(SYNC_STATUS_EVENT, { detail: { status } }));
   }
 
+  function startActiveAssessment(details) {
+    activeAssessment = Object.assign({
+      label: "test",
+      startedAt: Date.now()
+    }, details || {});
+    armHistoryGuard();
+    notifyActiveAssessment();
+  }
+
+  function endActiveAssessment() {
+    if (!activeAssessment) return;
+    activeAssessment = null;
+    notifyActiveAssessment();
+  }
+
+  function isAssessmentActive() {
+    return !!activeAssessment;
+  }
+
+  function confirmAssessmentExit(message) {
+    if (!activeAssessment) return true;
+    return window.confirm(message || activeAssessment.message || EXIT_CONFIRMATION_MESSAGE);
+  }
+
+  function notifyActiveAssessment() {
+    window.dispatchEvent(new CustomEvent(ACTIVE_ASSESSMENT_EVENT, {
+      detail: { active: !!activeAssessment, assessment: activeAssessment }
+    }));
+  }
+
+  function armHistoryGuard() {
+    if (historyGuardArmed || !window.history || !window.history.pushState) return;
+    try {
+      window.history.pushState({ grammarQuestAssessmentGuard: true }, "", window.location.href);
+      historyGuardArmed = true;
+    } catch (error) {
+      // Some embedded browsers restrict history calls; other guards still apply.
+    }
+  }
+
+  function shouldGuardLink(link) {
+    if (!link || !link.href || link.hasAttribute("download")) return false;
+    const target = (link.getAttribute("target") || "").toLowerCase();
+    if (target && target !== "_self") return false;
+
+    try {
+      const nextUrl = new URL(link.href, window.location.href);
+      const currentUrl = new URL(window.location.href);
+      nextUrl.hash = "";
+      currentUrl.hash = "";
+      return nextUrl.href !== currentUrl.href;
+    } catch (error) {
+      return true;
+    }
+  }
+
+  function continueConfirmedNavigation(callback) {
+    allowingConfirmedNavigation = true;
+    endActiveAssessment();
+    callback();
+  }
+
+  window.addEventListener("beforeunload", event => {
+    if (!activeAssessment || allowingConfirmedNavigation) return;
+    event.preventDefault();
+    event.returnValue = "";
+  });
+
+  window.addEventListener("popstate", () => {
+    if (!activeAssessment || allowingConfirmedNavigation) return;
+    if (confirmAssessmentExit()) {
+      continueConfirmedNavigation(() => window.history.back());
+      return;
+    }
+    historyGuardArmed = false;
+    armHistoryGuard();
+  });
+
+  document.addEventListener("click", event => {
+    if (!activeAssessment || allowingConfirmedNavigation || event.defaultPrevented) return;
+    const link = event.target && event.target.closest ? event.target.closest("a[href]") : null;
+    if (!shouldGuardLink(link)) return;
+
+    event.preventDefault();
+    if (confirmAssessmentExit()) {
+      continueConfirmedNavigation(() => {
+        window.location.href = link.href;
+      });
+    }
+  }, true);
+
+  document.addEventListener("submit", event => {
+    if (!activeAssessment || allowingConfirmedNavigation || event.defaultPrevented) return;
+
+    event.preventDefault();
+    if (confirmAssessmentExit()) {
+      continueConfirmedNavigation(() => {
+        if (event.target && typeof event.target.submit === "function") {
+          event.target.submit();
+        }
+      });
+    }
+  });
+
+  document.addEventListener("keydown", event => {
+    if (!activeAssessment || allowingConfirmedNavigation || event.defaultPrevented) return;
+    const key = event.key || "";
+    const isRefresh = key === "F5" || ((event.metaKey || event.ctrlKey) && key.toLowerCase() === "r");
+    const isHistoryBack = event.altKey && key === "ArrowLeft";
+    if (!isRefresh && !isHistoryBack) return;
+
+    event.preventDefault();
+    if (confirmAssessmentExit()) {
+      continueConfirmedNavigation(() => {
+        if (isRefresh) window.location.reload();
+        else window.history.back();
+      });
+    }
+  }, true);
+
   window.GrammarQuestProgress = {
     STORAGE_KEY,
     PROGRESS_UPDATED_EVENT,
     SYNC_STATUS_EVENT,
+    ACTIVE_ASSESSMENT_EVENT,
     getDefaultProgress,
     loadLocalProgress,
     saveLocalProgress,
@@ -197,6 +323,12 @@
     normalizeMastery,
     setCloudAdapter,
     syncFromCloud,
-    syncToCloud
+    syncToCloud,
+    activeAssessment: {
+      start: startActiveAssessment,
+      end: endActiveAssessment,
+      isActive: isAssessmentActive,
+      confirmExit: confirmAssessmentExit
+    }
   };
 })();

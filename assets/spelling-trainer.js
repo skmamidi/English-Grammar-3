@@ -4,6 +4,7 @@
   const bank = window.SPELLING_WORD_BANK;
   const root = document.getElementById('spelling-root');
   const progressStore = window.GrammarQuestProgress;
+  const assessmentGuard = progressStore && progressStore.activeAssessment;
   const state = {
     words: [],
     index: 0,
@@ -291,6 +292,7 @@
     });
     document.getElementById('start-spelling').addEventListener('click', () => {
       buildQuestionSet();
+      startAssessmentGuard();
       renderQuestion();
     });
   }
@@ -367,6 +369,7 @@
       <div class="question-box spelling-question">
         <div class="spelling-listen-row">
           <button class="btn btn-primary" id="speak-word" type="button">Play Word</button>
+          <button class="btn btn-secondary" id="speak-word-slow" type="button">Play Slowly</button>
           <button class="btn btn-secondary" id="speak-clue" type="button">Play Clue</button>
         </div>
         <div class="spelling-clue">
@@ -392,6 +395,7 @@
     `;
 
     document.getElementById('speak-word').addEventListener('click', speakCurrentWord);
+    document.getElementById('speak-word-slow').addEventListener('click', speakCurrentWordSlowly);
     document.getElementById('speak-clue').addEventListener('click', () => speakText(`${word.clue}. ${word.sentence.replace("____", "blank")}`));
     document.getElementById('hint-button').addEventListener('click', () => showNextHint(word));
     document.getElementById('spelling-form').addEventListener('submit', handleSubmit);
@@ -501,9 +505,11 @@
     const isLast = state.index === state.words.length - 1;
     controls.innerHTML = `
       <button class="btn btn-secondary" id="hear-again" type="button">Hear Again</button>
+      <button class="btn btn-secondary" id="hear-slow" type="button">Hear Slowly</button>
       <button class="btn btn-primary" id="next-word" type="button" ${analysis.correct ? '' : 'disabled'}>${isLast ? 'See Pattern Report' : 'Next Word'}</button>
     `;
     document.getElementById('hear-again').addEventListener('click', speakCurrentWord);
+    document.getElementById('hear-slow').addEventListener('click', speakCurrentWordSlowly);
     if (!analysis.correct) attachCorrectionReplay(word);
     document.getElementById('next-word').addEventListener('click', () => {
       if (isLast) {
@@ -638,6 +644,7 @@
   }
 
   function renderResults() {
+    endAssessmentGuard();
     const percentage = Math.round((state.score / state.words.length) * 100);
     const reward = saveQuestResult(percentage, state.score, state.words.length);
     const progress = reward.progress;
@@ -675,8 +682,22 @@
 
     document.getElementById('restart-spelling').addEventListener('click', () => {
       reset();
+      endAssessmentGuard();
       renderStart();
     });
+  }
+
+  function startAssessmentGuard() {
+    if (!assessmentGuard || typeof assessmentGuard.start !== 'function') return;
+    assessmentGuard.start({
+      label: 'spelling lab',
+      message: 'A spelling lab is still in progress. Leave this page and lose your current answers?'
+    });
+  }
+
+  function endAssessmentGuard() {
+    if (!assessmentGuard || typeof assessmentGuard.end !== 'function') return;
+    assessmentGuard.end();
   }
 
   function analyzeAttempt(word, attempt) {
@@ -800,14 +821,68 @@
     speakText(word.word);
   }
 
-  function speakText(text) {
+  function speakCurrentWordSlowly() {
+    const word = state.words[state.index];
+    if (!word) return;
+    speakWordSlowly(word);
+  }
+
+  function speakWordSlowly(word) {
     if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
+
+    const syllables = getPronunciationSyllables(word);
+    const stressIndex = getPrimaryStressIndex(word, syllables);
+    const utterances = [
+      createUtterance(word.word, { rate: 0.56, pitch: 1.02 })
+    ];
+
+    if (syllables.length > 1) {
+      syllables.forEach((syllable, index) => {
+        utterances.push(createUtterance(syllable, {
+          rate: 0.5,
+          pitch: index === stressIndex ? 1.12 : 0.98,
+          volume: index === stressIndex ? 1 : 0.82
+        }));
+      });
+      utterances.push(createUtterance(word.word, { rate: 0.62, pitch: 1.04 }));
+    }
+
+    utterances.forEach(utterance => window.speechSynthesis.speak(utterance));
+  }
+
+  function getPronunciationSyllables(word) {
+    return String(word.syllables || word.word)
+      .split("-")
+      .map(part => part.trim())
+      .filter(Boolean);
+  }
+
+  function getPrimaryStressIndex(word, syllables) {
+    if (syllables.length <= 1) return 0;
+    const lowerWord = word.word.toLowerCase();
+    const unstressedOpeners = new Set(["a", "be", "de", "e", "in", "re"]);
+    if (unstressedOpeners.has(syllables[0].toLowerCase())) return 1;
+    if (word.patterns && word.patterns.includes("schwa") && syllables.length > 2) return 0;
+    if (/^(tion|sion|cian|tial|cial)$/i.test(syllables[syllables.length - 1])) return Math.max(0, syllables.length - 2);
+    if (/(ity|ic|ical|tion|sion|cious|tious)$/.test(lowerWord)) return Math.max(0, syllables.length - 2);
+    return 0;
+  }
+
+  function speakText(text, options = {}) {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    const utterance = createUtterance(text, options);
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function createUtterance(text, options = {}) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
-    utterance.rate = 0.78;
-    utterance.pitch = 1.04;
-    window.speechSynthesis.speak(utterance);
+    utterance.rate = options.rate || 0.78;
+    utterance.pitch = options.pitch || 1.04;
+    utterance.volume = options.volume || 1;
+    return utterance;
   }
 
   function getResultMessage(percentage) {

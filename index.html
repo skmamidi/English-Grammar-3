@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
   <title>English Language Mastery</title>
+  <script src="assets/theme.js"></script>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -11,6 +13,22 @@
     <div class="container">
       <a href="index.html" class="logo">English Language Mastery</a>
       <nav class="header-actions" aria-label="Quick links">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="theme-toggle-sun" aria-hidden="true" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="theme-toggle-moon" aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M20.6 14.8A8.4 8.4 0 0 1 9.2 3.4 8.4 8.4 0 1 0 20.6 14.8Z"></path>
+          </svg>
+        </button>
         <a href="reports.html" class="header-icon-link" aria-label="Open teacher and parent reports" title="Reports">
           <svg aria-hidden="true" viewBox="0 0 24 24">
             <path d="M4 19V5"></path>

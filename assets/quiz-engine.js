@@ -287,6 +287,7 @@
 
     document.querySelectorAll('.confidence-btn').forEach(btn => {
       btn.addEventListener('click', () => {
+        if (answered) return;
         currentConfidence = btn.dataset.confidence;
         document.querySelectorAll('.confidence-btn').forEach(option => {
           option.classList.toggle('selected', option === btn);
@@ -328,6 +329,8 @@
     if (!isCorrect && !reviewMode && !missedQuestions.includes(q)) {
       missedQuestions.push(q);
     }
+
+    lockConfidenceChoice();
 
     // Update choice buttons
     document.querySelectorAll('.choice-btn').forEach((b, idx) => {
@@ -437,6 +440,7 @@
     const badgeHtml = progress.badges.length
       ? `<div class="badge-row">${progress.badges.map(badge => `<span>${escapeHtml(badge)}</span>`).join('')}</div>`
       : '';
+    const confidenceReport = renderConfidenceReport(attemptRecords);
     const subtopicReport = renderSubtopicReport(attemptRecords);
     let message = '';
     if (percentage >= 90) {
@@ -469,6 +473,7 @@
             <span>confidence check</span>
           </div>
         </div>
+        ${confidenceReport}
         ${subtopicReport}
         <div class="reward-panel" aria-label="Rewards earned">
           <div class="reward-main">${reviewMode ? 'Review practice logged' : `+${reward.gemsEarned} star gems`}</div>
@@ -681,6 +686,14 @@
     return 'Nice. Pick your answer, then check whether the explanation matches your thinking.';
   }
 
+  function lockConfidenceChoice() {
+    document.querySelectorAll('.confidence-btn').forEach(btn => {
+      btn.disabled = true;
+      btn.setAttribute('aria-disabled', 'true');
+      btn.classList.toggle('locked', btn.dataset.confidence === (currentConfidence || 'thinking'));
+    });
+  }
+
   function renderLearningReflection(isCorrect) {
     const confidenceText = currentConfidence
       ? {
@@ -714,6 +727,36 @@
     const unsureCorrect = confidenceStats.filter(item => item.confidence === 'exploring' && item.correct).length;
     if (unsureCorrect >= 2) return 'Trust your reasoning';
     return 'Building';
+  }
+
+  function renderConfidenceReport(attempts) {
+    if (!attempts.length) return '';
+    const rows = [
+      { key: 'exploring', label: 'Need clues' },
+      { key: 'thinking', label: 'Pretty sure' },
+      { key: 'certain', label: 'I can prove it' }
+    ].map(option => {
+      const matching = attempts.filter(attempt => (attempt.confidence || 'thinking') === option.key);
+      const correct = matching.filter(attempt => attempt.correct).length;
+      const total = matching.length;
+      const percent = total ? Math.round((correct / total) * 100) : 0;
+      return `
+        <div class="confidence-report-row">
+          <div>
+            <strong>${escapeHtml(option.label)}</strong>
+            <span>${total ? `${correct} of ${total} correct` : 'No answers selected'}</span>
+          </div>
+          <b>${total ? `${percent}%` : '-'}</b>
+        </div>
+      `;
+    }).join('');
+
+    return `
+      <div class="confidence-report" aria-label="Confidence score breakdown">
+        <h3>Confidence breakdown</h3>
+        <div class="confidence-report-list">${rows}</div>
+      </div>
+    `;
   }
 
   function renderSubtopicReport(attempts) {

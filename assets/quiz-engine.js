@@ -675,11 +675,13 @@
     const wrongExplanation = question.explanation.incorrect && question.explanation.incorrect[selectedIndex]
       ? question.explanation.incorrect[selectedIndex]
       : '';
-    const correctChoice = question.choices && question.choices[question.correct]
-      ? `Correct answer: ${question.choices[question.correct]}.`
+    const answer = question.choices && question.choices[question.correct]
+      ? String(question.choices[question.correct]).trim()
       : '';
-    const correctExplanation = question.explanation.correct || '';
-    return [wrongExplanation, correctChoice, correctExplanation].filter(Boolean).join(' ');
+    const correctChoice = answer
+      ? `Correct: ${answer}${/[.!?]$/.test(answer) ? '' : '.'}`
+      : '';
+    return [wrongExplanation, correctChoice].filter(Boolean).join(' ');
   }
 
   function getStrategyHint(question) {
@@ -709,21 +711,21 @@
   function renderLearningReflection(isCorrect) {
     const confidenceText = currentConfidence
       ? {
-          exploring: 'You chose Need clues.',
-          thinking: 'You chose Pretty sure.',
-          certain: 'You chose I can prove it.'
+          exploring: 'Need clues',
+          thinking: 'Pretty sure',
+          certain: 'I can prove it'
         }[currentConfidence]
-      : 'No confidence choice was recorded.';
+      : 'No confidence choice';
     const hintText = hintUsedThisQuestion
-      ? 'You opened the strategy clue. That is useful when you use it to test choices, not just to peek.'
-      : 'You answered without opening the strategy clue.';
+      ? 'clue used'
+      : 'no clue used';
     const nextMove = isCorrect
-      ? 'Before the next question, say the rule in your own words.'
-      : 'Before the next question, compare your answer with the correct one and name the exact clue you missed.';
+      ? 'Say the rule once before moving on.'
+      : 'Name the exact clue that rules out your choice.';
     return `
       <div class="learning-reflection">
         <strong>Learning check:</strong>
-        <span>${escapeHtml(confidenceText)} ${escapeHtml(hintText)} ${escapeHtml(nextMove)}</span>
+        <span>${escapeHtml(confidenceText)} - ${escapeHtml(hintText)}. ${escapeHtml(nextMove)}</span>
       </div>
     `;
   }

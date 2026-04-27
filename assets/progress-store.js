@@ -11,6 +11,10 @@
   let activeAssessment = null;
   let historyGuardArmed = false;
   let allowingConfirmedNavigation = false;
+  let exitDialog = null;
+  let exitDialogResolver = null;
+  let exitDialogPromise = null;
+  let exitDialogLastFocus = null;
 
   const defaults = {
     streakDays: 0,
@@ -249,7 +253,78 @@
 
   function confirmAssessmentExit(message) {
     if (!activeAssessment) return true;
-    return window.confirm(message || activeAssessment.message || EXIT_CONFIRMATION_MESSAGE);
+    return showAssessmentExitDialog(message || activeAssessment.message || EXIT_CONFIRMATION_MESSAGE);
+  }
+
+  function showAssessmentExitDialog(message) {
+    ensureExitDialog();
+    if (exitDialogPromise) return exitDialogPromise;
+
+    const title = exitDialog.querySelector("[data-assessment-exit-title]");
+    const body = exitDialog.querySelector("[data-assessment-exit-message]");
+    const stayButton = exitDialog.querySelector("[data-assessment-stay]");
+    const label = activeAssessment && activeAssessment.label ? activeAssessment.label : "quiz";
+    exitDialogLastFocus = document.activeElement;
+
+    if (title) title.textContent = `Leave this ${label}?`;
+    if (body) body.textContent = message;
+    exitDialog.classList.remove("hidden");
+    document.body.classList.add("assessment-exit-open");
+    if (stayButton) stayButton.focus();
+
+    exitDialogPromise = new Promise(resolve => {
+      exitDialogResolver = resolve;
+    });
+    return exitDialogPromise;
+  }
+
+  function resolveAssessmentExitDialog(shouldExit) {
+    if (!exitDialogResolver) return;
+    const resolver = exitDialogResolver;
+    exitDialogResolver = null;
+    exitDialogPromise = null;
+    if (exitDialog) exitDialog.classList.add("hidden");
+    document.body.classList.remove("assessment-exit-open");
+
+    if (!shouldExit && exitDialogLastFocus && typeof exitDialogLastFocus.focus === "function") {
+      exitDialogLastFocus.focus();
+    }
+    exitDialogLastFocus = null;
+    resolver(shouldExit);
+  }
+
+  function ensureExitDialog() {
+    if (exitDialog) return;
+    exitDialog = document.createElement("div");
+    exitDialog.className = "assessment-exit-modal hidden";
+    exitDialog.setAttribute("role", "dialog");
+    exitDialog.setAttribute("aria-modal", "true");
+    exitDialog.setAttribute("aria-labelledby", "assessment-exit-title");
+    exitDialog.setAttribute("aria-describedby", "assessment-exit-message");
+    exitDialog.innerHTML = `
+      <div class="assessment-exit-dialog">
+        <div class="quest-kicker">Quiz in progress</div>
+        <h2 id="assessment-exit-title" data-assessment-exit-title>Leave this quiz?</h2>
+        <p id="assessment-exit-message" data-assessment-exit-message>${escapeHtml(EXIT_CONFIRMATION_MESSAGE)}</p>
+        <div class="assessment-exit-actions">
+          <button class="btn btn-secondary" type="button" data-assessment-stay>No, stay and finish quiz</button>
+          <button class="btn btn-primary" type="button" data-assessment-exit>Yes, I want to exit</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(exitDialog);
+
+    exitDialog.querySelector("[data-assessment-stay]").addEventListener("click", () => resolveAssessmentExitDialog(false));
+    exitDialog.querySelector("[data-assessment-exit]").addEventListener("click", () => resolveAssessmentExitDialog(true));
+    exitDialog.addEventListener("click", event => {
+      if (event.target === exitDialog) resolveAssessmentExitDialog(false);
+    });
+    exitDialog.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        resolveAssessmentExitDialog(false);
+      }
+    });
   }
 
   function notifyActiveAssessment() {
@@ -296,9 +371,9 @@
     event.returnValue = "";
   });
 
-  window.addEventListener("popstate", () => {
+  window.addEventListener("popstate", async () => {
     if (!activeAssessment || allowingConfirmedNavigation) return;
-    if (confirmAssessmentExit()) {
+    if (await confirmAssessmentExit()) {
       continueConfirmedNavigation(() => window.history.back());
       return;
     }
@@ -306,24 +381,24 @@
     armHistoryGuard();
   });
 
-  document.addEventListener("click", event => {
+  document.addEventListener("click", async event => {
     if (!activeAssessment || allowingConfirmedNavigation || event.defaultPrevented) return;
     const link = event.target && event.target.closest ? event.target.closest("a[href]") : null;
     if (!shouldGuardLink(link)) return;
 
     event.preventDefault();
-    if (confirmAssessmentExit()) {
+    if (await confirmAssessmentExit()) {
       continueConfirmedNavigation(() => {
         window.location.href = link.href;
       });
     }
   }, true);
 
-  document.addEventListener("submit", event => {
+  document.addEventListener("submit", async event => {
     if (!activeAssessment || allowingConfirmedNavigation || event.defaultPrevented) return;
 
     event.preventDefault();
-    if (confirmAssessmentExit()) {
+    if (await confirmAssessmentExit()) {
       continueConfirmedNavigation(() => {
         if (event.target && typeof event.target.submit === "function") {
           event.target.submit();
@@ -332,7 +407,7 @@
     }
   });
 
-  document.addEventListener("keydown", event => {
+  document.addEventListener("keydown", async event => {
     if (!activeAssessment || allowingConfirmedNavigation || event.defaultPrevented) return;
     const key = event.key || "";
     const isRefresh = key === "F5" || ((event.metaKey || event.ctrlKey) && key.toLowerCase() === "r");
@@ -340,13 +415,19 @@
     if (!isRefresh && !isHistoryBack) return;
 
     event.preventDefault();
-    if (confirmAssessmentExit()) {
+    if (await confirmAssessmentExit()) {
       continueConfirmedNavigation(() => {
         if (isRefresh) window.location.reload();
         else window.history.back();
       });
     }
   }, true);
+
+  function escapeHtml(text) {
+    const div = document.createElement("div");
+    div.textContent = String(text || "");
+    return div.innerHTML;
+  }
 
   window.GrammarQuestProgress = {
     STORAGE_KEY,

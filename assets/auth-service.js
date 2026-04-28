@@ -980,10 +980,12 @@ function renderAuthUi(message) {
 
     if (state.user || studentMode) {
       const studentLabel = studentMode ? `Student: ${state.activeStudent.name}` : "Parent mode";
+      const studentAvatar = studentMode ? `<span class="auth-student-avatar" aria-hidden="true">${renderStudentAvatarSvg({ ...state.activeStudent.avatarParts, studentName: state.activeStudent.name })}</span>` : "";
       root.innerHTML = `
         <div class="auth-signed-in">
           <button class="auth-pill" type="button" data-auth-open>
             <span class="auth-dot auth-dot-online"></span>
+            ${studentAvatar}
             ${escapeHtml(studentLabel)}
             <span class="auth-role-label">${studentMode ? "Student" : "Grownup"}</span>
           </button>

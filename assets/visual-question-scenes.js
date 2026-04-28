@@ -263,8 +263,8 @@
   }
 
   function getContextMeaningClue(prompt) {
-    const quoted = String(prompt || '').match(/"([^"]+)"/);
-    const target = String(prompt || '').match(/\bwhat does\s+([A-Za-z'-]+)\s+(?:mean|most nearly mean)\b/i);
+    const quoted = String(prompt || '').match(/["']([^"']+)["']/);
+    const target = String(prompt || '').match(/\bwhat does\s+["']?([A-Za-z'-]+)["']?\s+(?:mean|most nearly mean)\b/i);
     if (!quoted || !target) return '';
     const clues = getSalientContextWords(quoted[1], target[1]);
     if (!clues.length) return `Use the quoted sentence to decide which meaning of "${target[1]}" fits.`;

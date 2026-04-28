@@ -214,7 +214,7 @@
             "sentence mechanics",
             "editing"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "punctuation-end-sentence",
@@ -802,6 +802,55 @@
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Which of the following sentences would need a question mark as its end p unctuation?",
+        "choices": [
+          "Let me do the errand",
+          "Will you all pass in your homework",
+          "The class seems unprepared",
+          "Close the door behind you"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Will you all pass in your homework. Will you all pass in your homework? The word “ will ” is a sking you to do something.",
+          "incorrect": [
+            "Not: Let me do the errand. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The class seems unprepared. Check the grammar or usage clue in the question.",
+            "Not: Close the door behind you. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 16,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
         }
       }
     ],
@@ -8137,6 +8186,202 @@
           "reviewPriority": "normal",
           "sourceSet": "punctuation-apostrophes-possessives",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Which shows that the candy belongs to Shirley?",
+        "choices": [
+          "Sh irley’s candy",
+          "Shirleys’ candy not",
+          "Shirleys candys’",
+          "Shirleys’s candy"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Sh irley’s candy. Shirley’s candy - to show possession use an apostrophe s (‘s)",
+          "incorrect": [
+            "",
+            "Not: Shirleys’ candy not. Check the grammar or usage clue in the question.",
+            "Not: Shirleys candys’. Check the grammar or usage clue in the question.",
+            "Not: Shirleys’s candy. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 16,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which word is both plural and possessive?",
+        "choices": [
+          "an imal’s",
+          "giraffes",
+          "girl’s",
+          "children’s"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: children’s. children’s - child (singular)/children (plural) - children’s is both plural and possessive.",
+          "incorrect": [
+            "Not: an imal’s. Check the grammar or usage clue in the question.",
+            "Not: giraffes. Check the grammar or usage clue in the question.",
+            "Not: girl’s. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 17,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which shows that the backpack belongs to Andy?",
+        "choices": [
+          "Andy’s backpack",
+          "Andys’ backpack",
+          "Andys backpack",
+          "Andys’s backpack"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Andy’s backpack. Andy’s backpack leads; use an apostrophe + s (‘s) to show possession - Andy’s.",
+          "incorrect": [
+            "",
+            "Not: Andys’ backpack. Check the grammar or usage clue in the question.",
+            "Not: Andys backpack. Check the grammar or usage clue in the question.",
+            "Not: Andys’s backpack. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 18,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which word pair has a possessive noun?",
+        "choices": [
+          "can’t wait",
+          "haven’t ever",
+          "wasn’t cold",
+          "Todd’s car"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Todd’s car. Todd’s car; whose car? Todd’s car - showing possession.",
+          "incorrect": [
+            "Not: can’t wait. Check the grammar or usage clue in the question.",
+            "Not: haven’t ever. Check the grammar or usage clue in the question.",
+            "Not: wasn’t cold. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 19,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
         }
       }
     ],

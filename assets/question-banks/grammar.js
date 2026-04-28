@@ -2610,7 +2610,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-double-negatives",
@@ -2624,6 +2624,153 @@
             "Not: We saw nobody near the gate not. It does not fit the sentence grammar.",
             "Not: We did not never see anybody near the gate. It does not fit the sentence grammar."
           ]
+        }
+      },
+      {
+        "question": "Which sentence is correct?",
+        "choices": [
+          "I can’t hardly think of anything else.",
+          "Joe doesn’t hardly know grammar.",
+          "Sue scarcely remembers my name.",
+          "Rachel didn’t scarcely have anything to wear."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Sue scarcely remembers my name.. Sue scarcely remembers my name.",
+          "incorrect": [
+            "Not: I can’t hardly think of anything else.. Check the grammar or usage clue in the question.",
+            "Not: Joe doesn’t hardly know grammar.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Rachel didn’t scarcely have anything to wear.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-double-negatives",
+          "sequence": 16,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which sentence is correctly written in Standard English?",
+        "choices": [
+          "I can’t hardly wait to go to lunch.",
+          "I cannot hardly wait to go to lunch.",
+          "There wasn’t scarcely enough water for the garden.",
+          "There was scarcely enough water for the garden."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: There was scarcely enough water for the garden.. There was scarcely enough water for the garden.",
+          "incorrect": [
+            "Not: I can’t hardly wait to go to lunch.. Check the grammar or usage clue in the question.",
+            "Not: I cannot hardly wait to go to lunch.. Check the grammar or usage clue in the question.",
+            "Not: There wasn’t scarcely enough water for the garden.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-double-negatives",
+          "sequence": 17,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which sentence is written correctly?",
+        "choices": [
+          "She doesn’t have no money.",
+          "She hasn’t no money.",
+          "She doesn’t have any money.",
+          "She never has no money."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: She doesn’t have any money.. She doesn’t have any money.",
+          "incorrect": [
+            "Not: She doesn’t have no money.. Check the grammar or usage clue in the question.",
+            "Not: She hasn’t no money.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: She never has no money.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-double-negatives",
+          "sequence": 18,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
         }
       }
     ],
@@ -3010,7 +3157,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-pronouns",
@@ -3425,7 +3572,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-pronouns",
@@ -4997,6 +5144,839 @@
           "sourceSet": "grammar-singular-plural-nouns",
           "sequence": 29
         }
+      },
+      {
+        "question": "Identify the basic sentence pattern in the sentence below. The wolves whined and howled.",
+        "choices": [
+          "noun - verb - verb",
+          "noun - verb - adverb",
+          "noun - linking verb - adjective",
+          "noun - verb - noun"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: noun - verb - verb. noun (wolves) - verb(whined) - verb(howled)",
+          "incorrect": [
+            "",
+            "Not: noun - verb - adverb. Check the grammar or usage clue in the question.",
+            "Not: noun - linking verb - adjective. Check the grammar or usage clue in the question.",
+            "Not: noun - verb - noun. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 30,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the correct sentence.",
+        "choices": [
+          "One of the policemen are employed by the state.",
+          "All of the policemen are employed by the state.",
+          "Each of the policemen are employed by the state.",
+          "Not one of the policemen are employed by the state."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: All of the policemen are employed by the state.. All of the policemen are employed by the state. All (plural) policemen (plural) - they are",
+          "incorrect": [
+            "Not: One of the policemen are employed by the state.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Each of the policemen are employed by the state.. Check the grammar or usage clue in the question.",
+            "Not: Not one of the policemen are employed by the state.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 31,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which noun is NOT in its plural form?",
+        "choices": [
+          "moose",
+          "buffalo",
+          "antelope",
+          "ox"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: ox. ox; the plural of ox is oxen.",
+          "incorrect": [
+            "Not: moose. Check the grammar or usage clue in the question.",
+            "Not: buffalo. Check the grammar or usage clue in the question.",
+            "Not: antelope. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 32,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which is NOT a correct irregular noun?",
+        "choices": [
+          "two-year- old - two-years- old",
+          "child - children",
+          "passerby - passersby",
+          "parenthesis - parentheses"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: two-year- old - two-years- old. two-year- old - two-years-old; correct irregular noun would be two-year- olds.",
+          "incorrect": [
+            "",
+            "Not: child - children. Check the grammar or usage clue in the question.",
+            "Not: passerby - passersby. Check the grammar or usage clue in the question.",
+            "Not: parenthesis - parentheses. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 33,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Identify the underlined phrase. Soccer, Henry’s favorite sport, has become more popular among American children.",
+        "choices": [
+          "geru nd phrase",
+          "participial phrase",
+          "infinitive phrase",
+          "appositive phrase"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: appositive phrase. appositive phrase - a noun or noun phrase that renames another noun right beside it.",
+          "incorrect": [
+            "Not: geru nd phrase. Check the grammar or usage clue in the question.",
+            "Not: participial phrase. Check the grammar or usage clue in the question.",
+            "Not: infinitive phrase. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 34,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Choose the correct sentence.",
+        "choices": [
+          "I d rived the children to school every morning.",
+          "I wants to hang the pictures on the wall.",
+          "I hung several pictures on the wall for Jillian.",
+          "I hangs several of the pictures on the wall."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I hung several pictures on the wall for Jillian.. I h ung several pictures on the wall for Jill. ‘Hung’ is written in correct verb tense,",
+          "incorrect": [
+            "Not: I d rived the children to school every morning.. Check the grammar or usage clue in the question.",
+            "Not: I wants to hang the pictures on the wall.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: I hangs several of the pictures on the wall.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 35,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which pair of nouns is NOT correct?",
+        "choices": [
+          "b eat - beats",
+          "truck - trucks",
+          "design - designes",
+          "signal - signals"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: design - designes. design - design s",
+          "incorrect": [
+            "Not: b eat - beats. Check the grammar or usage clue in the question.",
+            "Not: truck - trucks. Check the grammar or usage clue in the question.",
+            "",
+            "Not: signal - signals. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 36,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which of the underlined words is NOT correct? The airplanes circled the mountains looking for the wolfs who were preying on the cattle.",
+        "choices": [
+          "airplanes",
+          "moun tains",
+          "wo lfs",
+          "c attle"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: wo lfs. wolf (singular) - wolves (plural)",
+          "incorrect": [
+            "Not: airplanes. Check the grammar or usage clue in the question.",
+            "Not: moun tains. Check the grammar or usage clue in the question.",
+            "",
+            "Not: c attle. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 37,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "In the sentence below, which word is a plural noun? Our teacher brought three cookies for each student.",
+        "choices": [
+          "t eacher",
+          "brought",
+          "cookies",
+          "each"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cookies. Cookies is a plural noun. Adding an “s” to cookie makes cookies plural.",
+          "incorrect": [
+            "Not: t eacher. Check the grammar or usage clue in the question.",
+            "Not: brought. Check the grammar or usage clue in the question.",
+            "",
+            "Not: each. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 38,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which word is a plural noun? The children are at first recess.",
+        "choices": [
+          "are",
+          "first",
+          "recess",
+          "children"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: children. Child (singular noun) - children (plural noun)",
+          "incorrect": [
+            "Not: are. Check the grammar or usage clue in the question.",
+            "Not: first. Check the grammar or usage clue in the question.",
+            "Not: recess. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 39,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which noun pair has a correct plural form?",
+        "choices": [
+          "w olf - wolfs",
+          "child - children",
+          "ox - oxes",
+          "mouse - mouses"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: child - children. Child (singular) - children (plural)",
+          "incorrect": [
+            "Not: w olf - wolfs. Check the grammar or usage clue in the question.",
+            "",
+            "Not: ox - oxes. Check the grammar or usage clue in the question.",
+            "Not: mouse - mouses. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 40,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which of the word pairs below does NOT include both the correct singular and plural form of the same noun?",
+        "choices": [
+          "man - men",
+          "child - children",
+          "knife - knifes",
+          "wolf - wolves"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: knife - knifes. Knife - knives",
+          "incorrect": [
+            "Not: man - men. Check the grammar or usage clue in the question.",
+            "Not: child - children. Check the grammar or usage clue in the question.",
+            "",
+            "Not: wolf - wolves. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 41,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which of the following is a plural noun?",
+        "choices": [
+          "gorilla",
+          "dress",
+          "man",
+          "fences"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: fences. Fence (singular noun) - fences (plural noun)",
+          "incorrect": [
+            "Not: gorilla. Check the grammar or usage clue in the question.",
+            "Not: dress. Check the grammar or usage clue in the question.",
+            "Not: man. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 42,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which set of nouns has the correct plural form?",
+        "choices": [
+          "st ory - story",
+          "man - mans",
+          "alphabet - alphabet",
+          "woman - women"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: woman - women. Woman (singular) - women (plural)",
+          "incorrect": [
+            "Not: st ory - story. Check the grammar or usage clue in the question.",
+            "Not: man - mans. Check the grammar or usage clue in the question.",
+            "Not: alphabet - alphabet. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 43,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which underlined word is NOT a plural noun? Six dogs with rawhide bones followed the boy into the trees.",
+        "choices": [
+          "b oy",
+          "dogs",
+          "bones",
+          "trees"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: b oy. boy - a singular noun.",
+          "incorrect": [
+            "",
+            "Not: dogs. Check the grammar or usage clue in the question.",
+            "Not: bones. Check the grammar or usage clue in the question.",
+            "Not: trees. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 44,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Choose the correct words to complete the sentence. Romance _____ in the library ________ the favorite choice for the girls.",
+        "choices": [
+          "b ook, is",
+          "book, are",
+          "books, are",
+          "books, is"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: books, are. books, are; subject/verb agreement (both plural)",
+          "incorrect": [
+            "Not: b ook, is. Check the grammar or usage clue in the question.",
+            "Not: book, are. Check the grammar or usage clue in the question.",
+            "",
+            "Not: books, is. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 45,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which of the following words is NOT plural?",
+        "choices": [
+          "mice",
+          "girl",
+          "gentlemen",
+          "ladies"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: girl. girl (singular)",
+          "incorrect": [
+            "Not: mice. Check the grammar or usage clue in the question.",
+            "",
+            "Not: gentlemen. Check the grammar or usage clue in the question.",
+            "Not: ladies. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 46,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
       }
     ],
     "metadata": {
@@ -5812,6 +6792,1182 @@
           "sourceSet": "grammar-verb-forms",
           "sequence": 15
         }
+      },
+      {
+        "question": "Choose the best missing word. Juan ______ the treats for the party.",
+        "choices": [
+          "brang",
+          "brung",
+          "bringed",
+          "brought"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: brought. brought(past tense of bring) - to carry someone or something.",
+          "incorrect": [
+            "Not: brang. Check the grammar or usage clue in the question.",
+            "Not: brung. Check the grammar or usage clue in the question.",
+            "Not: bringed. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Choose the correct verb. After Marco finds the solution, he ______ it with the class.",
+        "choices": [
+          "will share",
+          "has shared",
+          "shared",
+          "share"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: will share. will share",
+          "incorrect": [
+            "",
+            "Not: has shared. Check the grammar or usage clue in the question.",
+            "Not: shared. Check the grammar or usage clue in the question.",
+            "Not: share. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 17,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the best missing irregular verb. I ______________ on the beach for three hours.",
+        "choices": [
+          "laid",
+          "have lain",
+          "have laid",
+          "have been laying"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: have lain. have lain; lain (past participle of lie) -to get into or be in a horizontal position.",
+          "incorrect": [
+            "Not: laid. Check the grammar or usage clue in the question.",
+            "",
+            "Not: have laid. Check the grammar or usage clue in the question.",
+            "Not: have been laying. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 18,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Choose the correct verb. Hasn’t Susie _______ at least an inch this summer.",
+        "choices": [
+          "grew",
+          "been growing",
+          "grown",
+          "grow"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: grown. grown - past participle of grow (to increase in nat ural development; size).",
+          "incorrect": [
+            "Not: grew. Check the grammar or usage clue in the question.",
+            "Not: been growing. Check the grammar or usage clue in the question.",
+            "",
+            "Not: grow. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 19,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which one of the sentences is written in past tense?",
+        "choices": [
+          "The students must read chapter 2 for homework.",
+          "I have been reading a novel a week.",
+          "I read the endof the novel last night.",
+          "Greg seems to be making progress."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I read the endof the novel last night.. I read the endof the novel last night; Read is past tense a nd is confirmed by the words",
+          "incorrect": [
+            "Not: The students must read chapter 2 for homework.. Check the grammar or usage clue in the question.",
+            "Not: I have been reading a novel a week.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Greg seems to be making progress.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 20,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Choose the sentence that contains an error in verb tense.",
+        "choices": [
+          "Rob erto turns on the television and watched a baseball game.",
+          "Sasha read all the directions then completed the assignment.",
+          "Eduardo finishes his paper route before he goes to school.",
+          "Great literature, which stirs the imagin ation, also challenges the intellect."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Rob erto turns on the television and watched a baseball game.. Roberto turns on the television and watched the baseball game; ‘t urns’ and ‘watched’ are",
+          "incorrect": [
+            "",
+            "Not: Sasha read all the directions then completed the assignment.. Check the grammar or usage clue in the question.",
+            "Not: Eduardo finishes his paper route before he goes to school.. Check the grammar or usage clue in the question.",
+            "Not: Great literature, which stirs the imagin ation, also challenges the intellect.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 21,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which sentence is NOT correct?",
+        "choices": [
+          "Harry sat in his assigned seat.",
+          "The meeting came to a close.",
+          "The rain bringed moisture to the flo wers.",
+          "The plane flew over the mountain."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The rain bringed moisture to the flo wers.. Bringed is incorrect. The past tense of bring is brought.",
+          "incorrect": [
+            "Not: Harry sat in his assigned seat.. Check the grammar or usage clue in the question.",
+            "Not: The meeting came to a close.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The plane flew over the mountain.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 22,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which sentence is written in present tense?",
+        "choices": [
+          "Henry ran the race.",
+          "Lisa swims on the swim team.",
+          "Ruth will help with the lesson.",
+          "Troy could have eaten the last cookie."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Lisa swims on the swim team.. Lisa swims on the swim team. Swim(s) is a present tense verb.",
+          "incorrect": [
+            "Not: Henry ran the race.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Ruth will help with the lesson.. Check the grammar or usage clue in the question.",
+            "Not: Troy could have eaten the last cookie.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 23,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which verb correctly completes the sentence? The bus driver had _______ the same bus the day before.",
+        "choices": [
+          "d riven",
+          "drives",
+          "drive",
+          "driving"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: d riven. driven (past participle of drive)- operate and control the direction and speedof a motor",
+          "incorrect": [
+            "",
+            "Not: drives. Check the grammar or usage clue in the question.",
+            "Not: drive. Check the grammar or usage clue in the question.",
+            "Not: driving. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 24,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Choose the correct verb to complete the sentence. The wind ______ the leaves off the tree.",
+        "choices": [
+          "b lown",
+          "blow",
+          "have blew",
+          "blew"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: blew. Blew - past tense of blow (the action happened in the past)",
+          "incorrect": [
+            "Not: b lown. Check the grammar or usage clue in the question.",
+            "Not: blow. Check the grammar or usage clue in the question.",
+            "Not: have blew. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 25,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which verb belongs in the blank? I ______________ rolls to last night’s awards banquet.",
+        "choices": [
+          "brang",
+          "bringed",
+          "brought",
+          "will bring"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: brought. Brought - p ast tense of bring, which means to cause someone or something to come to a",
+          "incorrect": [
+            "Not: brang. Check the grammar or usage clue in the question.",
+            "Not: bringed. Check the grammar or usage clue in the question.",
+            "",
+            "Not: will bring. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 26,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Choose the correct verb to complete the sentence. The class fin ally ___________ to understand the math problem.",
+        "choices": [
+          "begin",
+          "has began",
+          "began",
+          "be gun"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: began. Began - simple past tense of begin (to start or proceed with something).",
+          "incorrect": [
+            "Not: begin. Check the grammar or usage clue in the question.",
+            "Not: has began. Check the grammar or usage clue in the question.",
+            "",
+            "Not: be gun. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 27,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "What is the past tense verb of eat.",
+        "choices": [
+          "eat en",
+          "eated",
+          "ated",
+          "ate"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: ate. Eat (present tense) - Ate (past tense)",
+          "incorrect": [
+            "Not: eat en. Check the grammar or usage clue in the question.",
+            "Not: eated. Check the grammar or usage clue in the question.",
+            "Not: ated. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 28,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "When does the action take place? The geese will fly south for the winter",
+        "choices": [
+          "p resent",
+          "past",
+          "past perfect",
+          "future"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: future. The geese will fly south for the winter. Will fly is future tense.",
+          "incorrect": [
+            "Not: p resent. Check the grammar or usage clue in the question.",
+            "Not: past. Check the grammar or usage clue in the question.",
+            "Not: past perfect. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 29,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Dad passed the bowl of mashed potatoes to his aunt. When does the action take place?",
+        "choices": [
+          "p ast",
+          "present",
+          "present perfect",
+          "future"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p ast. Past - The verb, passed, is past tense. ed",
+          "incorrect": [
+            "",
+            "Not: present. Check the grammar or usage clue in the question.",
+            "Not: present perfect. Check the grammar or usage clue in the question.",
+            "Not: future. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 30,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence below does NOT have an irregular verb in it?",
+        "choices": [
+          "Unfortunately, the wind blew down the newly planted trees.",
+          "In Egypt, there are pyramids in which treasures lie.",
+          "Joe returned home after three years in the army.",
+          "Amanda threw the baseball over the fence just o anger Tim."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Joe returned home after three years in the army.. An irregular verb cannot be conjugated. Return - Return is a regular verb and is",
+          "incorrect": [
+            "Not: Unfortunately, the wind blew down the newly planted trees.. Check the grammar or usage clue in the question.",
+            "Not: In Egypt, there are pyramids in which treasures lie.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Amanda threw the baseball over the fence just o anger Tim.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 31,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the wordor words that mean the action will happen in the future. Julio _______ many soccer plays when he goes to soccer camp next week.",
+        "choices": [
+          "learns",
+          "will learn",
+          "learned",
+          "has learned"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: will learn. Julio will learn many soccer plays when he goes to soccer camp next week. “Will learn”",
+          "incorrect": [
+            "Not: learns. Check the grammar or usage clue in the question.",
+            "",
+            "Not: learned. Check the grammar or usage clue in the question.",
+            "Not: has learned. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 32,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "If you wanted to tell about something that has already happened, you would use a:",
+        "choices": [
+          "Fu ture tense verb",
+          "Past tense verb",
+          "Present tense verb",
+          "Future perfect verb"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Past tense verb. Past tense verb",
+          "incorrect": [
+            "Not: Fu ture tense verb. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Present tense verb. Check the grammar or usage clue in the question.",
+            "Not: Future perfect verb. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 33,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which is the past tense form of the word speak? Gerry speak kindly of his father.",
+        "choices": [
+          "sp eaks",
+          "will speak",
+          "spoke",
+          "speaked"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: spoke. speak (present tense) - spoke (past tense)",
+          "incorrect": [
+            "Not: sp eaks. Check the grammar or usage clue in the question.",
+            "Not: will speak. Check the grammar or usage clue in the question.",
+            "",
+            "Not: speaked. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 34,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Choose the correct verb. Yesterday, Jason and Ellen ________ to school together.",
+        "choices": [
+          "w alk",
+          "walked",
+          "walks",
+          "walking"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: walked. Walked; “yesterday” indicates past tense, therefore “walked” is the correct answer.",
+          "incorrect": [
+            "Not: w alk. Check the grammar or usage clue in the question.",
+            "",
+            "Not: walks. Check the grammar or usage clue in the question.",
+            "Not: walking. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 35,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Choose the best missing word. Three weeks ago, my dog _______ away.",
+        "choices": [
+          "ran",
+          "runs",
+          "has run",
+          "has ran"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: ran. Ran (past tense of run); the action happened three weeks ago, therefore it is in the past.",
+          "incorrect": [
+            "",
+            "Not: runs. Check the grammar or usage clue in the question.",
+            "Not: has run. Check the grammar or usage clue in the question.",
+            "Not: has ran. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 36,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Identify the cluster of verbs in the present tense.",
+        "choices": [
+          "b ring, eat, fly",
+          "knew, drew, flew",
+          "dragged, ate, gave",
+          "blown, begun, chosen"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: b ring, eat, fly. bring, eat, fly - all present tense.",
+          "incorrect": [
+            "",
+            "Not: knew, drew, flew. Check the grammar or usage clue in the question.",
+            "Not: dragged, ate, gave. Check the grammar or usage clue in the question.",
+            "Not: blown, begun, chosen. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 37,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Choose the correct verb phrase. She ______________ to see the doctor for hours.",
+        "choices": [
+          "h ave been waiting",
+          "has been waited",
+          "has been waiting",
+          "have been waited"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: has been waiting. has been waiting; correct present perfect tense",
+          "incorrect": [
+            "Not: h ave been waiting. Check the grammar or usage clue in the question.",
+            "Not: has been waited. Check the grammar or usage clue in the question.",
+            "",
+            "Not: have been waited. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 38,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Choose the best missing word. Paula has _______ for 24 hours straight.",
+        "choices": [
+          "d riven",
+          "drived",
+          "drive",
+          "drove"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: d riven. driven; past participle of drive - operated movedor controlled by a specified person or",
+          "incorrect": [
+            "",
+            "Not: drived. Check the grammar or usage clue in the question.",
+            "Not: drive. Check the grammar or usage clue in the question.",
+            "Not: drove. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-verb-forms",
+          "sequence": 39,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
       }
     ],
     "metadata": {
@@ -5932,7 +8088,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
@@ -6038,7 +8194,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
@@ -6144,7 +8300,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
@@ -6250,7 +8406,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
@@ -6356,7 +8512,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
@@ -6462,7 +8618,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
@@ -6568,7 +8724,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
@@ -6612,7 +8768,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-run-on-sentences",
@@ -6959,7 +9115,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-types",
@@ -9210,6 +11366,202 @@
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
           "sequence": 24
+        }
+      },
+      {
+        "question": "Identify the complete predicate of the sentence below. The art lesson covered all the primary colors.",
+        "choices": [
+          "The art lesson",
+          "lesson covered",
+          "covered all",
+          "covered all the primary colors"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: covered all the primary colors. Covered all the primary colors; a complete predic ate includes the verb and all the words",
+          "incorrect": [
+            "Not: The art lesson. Check the grammar or usage clue in the question.",
+            "Not: lesson covered. Check the grammar or usage clue in the question.",
+            "Not: covered all. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 25,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which shows the subject and predicate divided correctly?",
+        "choices": [
+          "The/whole family waved good-bye to me.",
+          "The whole family waved/good-bye to me.",
+          "The whole/family waved good-bye to me.",
+          "The whole family/ waved good-bye to me."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The whole family/ waved good-bye to me.. The whole family (subject) / waved good-bye to me (predicate).",
+          "incorrect": [
+            "Not: The/whole family waved good-bye to me.. Check the grammar or usage clue in the question.",
+            "Not: The whole family waved/good-bye to me.. Check the grammar or usage clue in the question.",
+            "Not: The whole/family waved good-bye to me.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 26,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which sentence has the subject underlined?",
+        "choices": [
+          "The bunny feels cuddly.",
+          "The bunny feels cuddly.",
+          "The bunny fee ls cuddly.",
+          "The bunny feels cuddly."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The bunny feels cuddly.. Bunny is the subject of the sentence.",
+          "incorrect": [
+            "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The bunny fee ls cuddly.. Check the grammar or usage clue in the question.",
+            "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 27,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "The two main parts of a sentence are:",
+        "choices": [
+          "su bject and predicate",
+          "predicate and direct object",
+          "subject and noun",
+          "object and verb phrase"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: su bject and predicate. Subject and predicate; subject - person, place thing or idea that is doing or being",
+          "incorrect": [
+            "",
+            "Not: predicate and direct object. Check the grammar or usage clue in the question.",
+            "Not: subject and noun. Check the grammar or usage clue in the question.",
+            "Not: object and verb phrase. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 28,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
         }
       }
     ],
@@ -12431,6 +14783,202 @@
           "sourceSet": "grammar-parts-of-speech-nouns",
           "sequence": 44
         }
+      },
+      {
+        "question": "In which one of the sentences is the compound noun used correctly?",
+        "choices": [
+          "When all of his daughters were married, Walter c ounted five sons -in-law.",
+          "The girls at the lemonade stand waved to the passerby.",
+          "How many daughter - in - laws to you have?",
+          "They attended a convention of editor- in -chiefs of school newspapers."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: When all of his daughters were married, Walter c ounted five sons -in-law.. sons-in-law is the compound noun used correctly; a compound noun contains two or",
+          "incorrect": [
+            "",
+            "Not: The girls at the lemonade stand waved to the passerby.. Check the grammar or usage clue in the question.",
+            "Not: How many daughter - in - laws to you have?. Check the grammar or usage clue in the question.",
+            "Not: They attended a convention of editor- in -chiefs of school newspapers.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-nouns",
+          "sequence": 45,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which of the underlined words is NOT an abstract noun? The integrity of our company depends on our employee’s honesty and dedication.",
+        "choices": [
+          "in tegrity",
+          "company",
+          "honesty",
+          "dedication"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: company. company; an abstract noun denotes something i mmaterial and abstract; integrity,",
+          "incorrect": [
+            "Not: in tegrity. Check the grammar or usage clue in the question.",
+            "",
+            "Not: honesty. Check the grammar or usage clue in the question.",
+            "Not: dedication. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-nouns",
+          "sequence": 46,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which underlined word in the sentence below is the subject of the sentence. The workers first dug a hole and then carefully lowered the new shrub into the hole.",
+        "choices": [
+          "w orkers",
+          "dug",
+          "lowered",
+          "shrub"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: w orkers. workers; subject is the person, place, thing or idea that is doing or being something.",
+          "incorrect": [
+            "",
+            "Not: dug. Check the grammar or usage clue in the question.",
+            "Not: lowered. Check the grammar or usage clue in the question.",
+            "Not: shrub. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-nouns",
+          "sequence": 47,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which form of the word is a noun?",
+        "choices": [
+          "h appy",
+          "happily",
+          "happier",
+          "happiness"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: happiness. happiness(noun) - the state of being happy.",
+          "incorrect": [
+            "Not: h appy. Check the grammar or usage clue in the question.",
+            "Not: happily. Check the grammar or usage clue in the question.",
+            "Not: happier. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-nouns",
+          "sequence": 48,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
       }
     ],
     "metadata": {
@@ -13240,11 +15788,207 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-parts-of-speech-adjectives",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Which of the underlined words is an adjective? Many recreational activities are available during the winter.",
+        "choices": [
+          "recre ational",
+          "activities",
+          "during",
+          "winter"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: recre ational. Recreational; an adjective modifies a noun; recreational (adj.) modifies activities(noun)",
+          "incorrect": [
+            "",
+            "Not: activities. Check the grammar or usage clue in the question.",
+            "Not: during. Check the grammar or usage clue in the question.",
+            "Not: winter. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adjectives",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "After completing a difficult race, Marty was proud to find his name on the winner’s board. Look at the underlined words in the sentence above. These words are:",
+        "choices": [
+          "nouns",
+          "verbs",
+          "adjectives",
+          "adver bs"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: adjectives. adjectives; difficult and proud both modify a noun; therefore, they are adjectives.",
+          "incorrect": [
+            "Not: nouns. Check the grammar or usage clue in the question.",
+            "Not: verbs. Check the grammar or usage clue in the question.",
+            "",
+            "Not: adver bs. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adjectives",
+          "sequence": 17,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "In which sentence is ‘that’ used as an adjective?",
+        "choices": [
+          "I kno w that Henry will arrive on time.",
+          "That man arrived in a taxi.",
+          "I will never agree to that.",
+          "That the storm was coming is known by all."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: That man arrived in a taxi.. That man arrived in a taxi. An adjective answers ‘ which one?’ - ‘which man’ - ‘That’ man.",
+          "incorrect": [
+            "Not: I kno w that Henry will arrive on time.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: I will never agree to that.. Check the grammar or usage clue in the question.",
+            "Not: That the storm was coming is known by all.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adjectives",
+          "sequence": 18,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which adjective answers “what kind”? Rizwan picked four yellow daisies for his great grandmother Sanah.",
+        "choices": [
+          "f our",
+          "yellow",
+          "Rizwan",
+          "grandmother"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: yellow. Yellow - what kindof daisies? Yellow daisies",
+          "incorrect": [
+            "Not: f our. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Rizwan. Check the grammar or usage clue in the question.",
+            "Not: grandmother. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adjectives",
+          "sequence": 19,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
         }
       }
     ],
@@ -14060,6 +16804,545 @@
           "reviewPriority": "normal",
           "sourceSet": "grammar-parts-of-speech-adverbs",
           "sequence": 15
+        }
+      },
+      {
+        "question": "The travelers spoke somewhat cautiously about whether or not they should ca ncel their tour to Europe. Which of the following pairs function as adverbs in the sentence?",
+        "choices": [
+          "sh ould cancel",
+          "to Europe",
+          "their tour",
+          "somewhat cautiously"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: somewhat cautiously. somewhat cautiously; an adverb modifies a verb an often ends in ‘ly’.",
+          "incorrect": [
+            "Not: sh ould cancel. Check the grammar or usage clue in the question.",
+            "Not: to Europe. Check the grammar or usage clue in the question.",
+            "Not: their tour. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which sentence is NOT written correctly?",
+        "choices": [
+          "Liz seldom uses the diction ary.",
+          "James drives more slowly than the average driver.",
+          "Gail drives cautious on icy roads.",
+          "Br axton never seems to make it to the bus stop on time."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Gail drives cautious on icy roads.. Gail drives cautious on icy roads. To read correctly, it should be ‘cautiously’.",
+          "incorrect": [
+            "Not: Liz seldom uses the diction ary.. Check the grammar or usage clue in the question.",
+            "Not: James drives more slowly than the average driver.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Br axton never seems to make it to the bus stop on time.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 17,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "What is the basic English pattern of the sentence below? The girl laughed and cried.",
+        "choices": [
+          "noun - verb - adverb",
+          "noun - verb - noun",
+          "noun - verb - verb",
+          "noun - link ing verb - adjective"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: noun - verb - verb. noun - verb - verb; girls(noun) laughed(verb) cried(verb).",
+          "incorrect": [
+            "Not: noun - verb - adverb. Check the grammar or usage clue in the question.",
+            "Not: noun - verb - noun. Check the grammar or usage clue in the question.",
+            "",
+            "Not: noun - link ing verb - adjective. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 18,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Choose the sentence using active voice.",
+        "choices": [
+          "The grades were assigned by the teacher.",
+          "The home was built by a reputable contractor.",
+          "Adam quickly finished his homework.",
+          "T he winning goal was kicked by a freshman."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Adam quickly finished his homework.. Adam quickly finished his homework. Active Voice - when a subject that acts upon its",
+          "incorrect": [
+            "Not: The grades were assigned by the teacher.. Check the grammar or usage clue in the question.",
+            "Not: The home was built by a reputable contractor.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: T he winning goal was kicked by a freshman.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 19,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Choose the best missing word. _________ the whistle sounded, and the train __ ______ left.",
+        "choices": [
+          "Quickly, highly",
+          "Anxiously, happily",
+          "Cautiou sly, tearfully",
+          "Suddenly, slowly"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Suddenly, slowly. Suddenly, slowly; Suddenly the whistle sounded, and the train slowly left.",
+          "incorrect": [
+            "Not: Quickly, highly. Check the grammar or usage clue in the question.",
+            "Not: Anxiously, happily. Check the grammar or usage clue in the question.",
+            "Not: Cautiou sly, tearfully. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 20,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "The travelers spoke somewhat cautiously about whether or not they should ca ncel their tour to Europe. Which of the following pairs function as adverbs in the sentence above?",
+        "choices": [
+          "sh ould cancel",
+          "to Europe",
+          "their tour",
+          "somewhat cautiously"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: somewhat cautiously. somewhat cautiously; an adverb (often ending in ‘ly’) modifies or qualifies an adjective,",
+          "incorrect": [
+            "Not: sh ould cancel. Check the grammar or usage clue in the question.",
+            "Not: to Europe. Check the grammar or usage clue in the question.",
+            "Not: their tour. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 21,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Choose the best missing wordor words. My sister ________ cleaned the cage.",
+        "choices": [
+          "quicker",
+          "more quick",
+          "quickly",
+          "quicklier"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: quickly. quickly - at a fast speed, rapidly",
+          "incorrect": [
+            "Not: quicker. Check the grammar or usage clue in the question.",
+            "Not: more quick. Check the grammar or usage clue in the question.",
+            "",
+            "Not: quicklier. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 22,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "In the sentence below, which adverb tells where? Yesterday, the class went outside quickly and quietly.",
+        "choices": [
+          "Yesterday",
+          "outside",
+          "quickly",
+          "quietly"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: outside. Outside is an adverb that tells where.",
+          "incorrect": [
+            "Not: Yesterday. Check the grammar or usage clue in the question.",
+            "",
+            "Not: quickly. Check the grammar or usage clue in the question.",
+            "Not: quietly. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 23,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the correct missing word. Janet ________ appeared in the room.",
+        "choices": [
+          "su ddenly",
+          "sudden",
+          "sooner",
+          "soonest"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: su ddenly. Suddenly - quickly and unexpectedly.",
+          "incorrect": [
+            "",
+            "Not: sudden. Check the grammar or usage clue in the question.",
+            "Not: sooner. Check the grammar or usage clue in the question.",
+            "Not: soonest. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 24,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the best missing word. The detective quickly _________ down the stairs, out the door, and escap ed through the alley.",
+        "choices": [
+          "race",
+          "racing",
+          "raced",
+          "races"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: raced. Raced",
+          "incorrect": [
+            "Not: race. Check the grammar or usage clue in the question.",
+            "Not: racing. Check the grammar or usage clue in the question.",
+            "",
+            "Not: races. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 25,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Choose the best word to complete the sentence. Juan earned the ________ highest grade on the test.",
+        "choices": [
+          "mo stly",
+          "rather",
+          "very",
+          "especially"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: very. very - in high degree.",
+          "incorrect": [
+            "Not: mo stly. Check the grammar or usage clue in the question.",
+            "Not: rather. Check the grammar or usage clue in the question.",
+            "",
+            "Not: especially. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-parts-of-speech-adverbs",
+          "sequence": 26,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
         }
       }
     ],
@@ -18784,6 +22067,790 @@
           "reviewPriority": "high",
           "sourceSet": "grammar-identify-sentence",
           "sequence": 20
+        }
+      },
+      {
+        "question": "Which is NOT a complete sentence?",
+        "choices": [
+          "D o you have any candy?",
+          "Opening the door to the garage.",
+          "Sarah was at the corner.",
+          "Julie is having a baby."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Opening the door to the garage.. ‘Opening the door to the garage’ is NOT a comple te sentence. It needs a subject.",
+          "incorrect": [
+            "Not: D o you have any candy?. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Sarah was at the corner.. Check the grammar or usage clue in the question.",
+            "Not: Julie is having a baby.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 21,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which is a sentence fragment?",
+        "choices": [
+          "Two or three miles down the highway at the traffic light.",
+          "The blue truck backed into the fence.",
+          "She found the game on the top shelf of the closet.",
+          "This is the agreement that Gary e xplained to me."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Two or three miles down the highway at the traffic light.. Two or three miles down the highway at the traffic light.",
+          "incorrect": [
+            "",
+            "Not: The blue truck backed into the fence.. Check the grammar or usage clue in the question.",
+            "Not: She found the game on the top shelf of the closet.. Check the grammar or usage clue in the question.",
+            "Not: This is the agreement that Gary e xplained to me.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 22,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which is a complete sentence.",
+        "choices": [
+          "Alt hough she has collectedold silver coins for a long time.",
+          "Since the electricity has been off for the last two days.",
+          "Because I won’t accept his advice.",
+          "Because I have been thinking about you, I decided to call."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Because I have been thinking about you, I decided to call.. Because I have been thinking about you, I to call. Contains a subject and a",
+          "incorrect": [
+            "Not: Alt hough she has collectedold silver coins for a long time.. Check the grammar or usage clue in the question.",
+            "Not: Since the electricity has been off for the last two days.. Check the grammar or usage clue in the question.",
+            "Not: Because I won’t accept his advice.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 23,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which is a complete sentence.",
+        "choices": [
+          "From the beginning of the novel.",
+          "After the baseball game.",
+          "The bird landedon the roof.",
+          "Where the stream flows?"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The bird landedon the roof.. The birdon the roof. Complete sentence cont ai ns a subject and a.",
+          "incorrect": [
+            "Not: From the beginning of the novel.. Check the grammar or usage clue in the question.",
+            "Not: After the baseball game.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Where the stream flows?. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 24,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which group of words is a phrase?",
+        "choices": [
+          "When the rain falls, the river rises.",
+          "Went to dinner after work.",
+          "The credits play when the movie ends.",
+          "After we finished working, we went to dinner."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Went to dinner after work.. Went to dinner after work. This is a verb phrase and does not have a subject.",
+          "incorrect": [
+            "Not: When the rain falls, the river rises.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The credits play when the movie ends.. Check the grammar or usage clue in the question.",
+            "Not: After we finished working, we went to dinner.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 25,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which is NOT a complete sentence.",
+        "choices": [
+          "Whenever it rains, Tom’s basement floods.",
+          "The door squeaks when it’s opened.",
+          "When the moon reflectedon the lake.",
+          "The snow melts when the sun shines."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: When the moon reflectedon the lake.. The word “when” is used as a conjunction. Therefore, it is not a complete sentence.",
+          "incorrect": [
+            "Not: Whenever it rains, Tom’s basement floods.. Check the grammar or usage clue in the question.",
+            "Not: The door squeaks when it’s opened.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The snow melts when the sun shines.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 26,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which is a complete sentence?",
+        "choices": [
+          "Jill, the tallest girl in the class.",
+          "After the parade was over.",
+          "Grace after game.",
+          "Joe broke the fish bowl."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Joe broke the fish bowl.. Joe the fish bowl. A complete sentence contains a subject and a.",
+          "incorrect": [
+            "Not: Jill, the tallest girl in the class.. Check the grammar or usage clue in the question.",
+            "Not: After the parade was over.. Check the grammar or usage clue in the question.",
+            "Not: Grace after game.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 27,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which is a complete sentence?",
+        "choices": [
+          "Although I like the snow.",
+          "If I could get up.",
+          "Luckily, we arrived early in the morning.",
+          "Because we are a family."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Luckily, we arrived early in the morning.. Sentence includes a subject and a. Luckily, we early in the morning.",
+          "incorrect": [
+            "Not: Although I like the snow.. Check the grammar or usage clue in the question.",
+            "Not: If I could get up.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Because we are a family.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 28,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which ending makes a complete sentence? My uncle ___________________.",
+        "choices": [
+          "on my mother’s side.",
+          "from El Paso, Texas.",
+          "arrived after a long trip.",
+          "in the blue striped suit."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: arrived after a long trip.. My uncle after a long trip. A complete sentence contains a subject and a.",
+          "incorrect": [
+            "Not: on my mother’s side.. Check the grammar or usage clue in the question.",
+            "Not: from El Paso, Texas.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: in the blue striped suit.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 29,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which are complete sentences? A) What did you do today? B) Today is my birthday! C) Lions and tigers and bears, oh my! D) I want to build a sand castle.",
+        "choices": [
+          "A, B, D",
+          "A, B, C",
+          "B, C, D",
+          "A, C, D"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: A, B, D. A, B, D - All of these answers include a subject and a verb to form a sente nce.",
+          "incorrect": [
+            "",
+            "Not: A, B, C. Check the grammar or usage clue in the question.",
+            "Not: B, C, D. Check the grammar or usage clue in the question.",
+            "Not: A, C, D. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 30,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which is a complete sentence?",
+        "choices": [
+          "Since my last visit.",
+          "A policeman standing on the corner.",
+          "Between you and me.",
+          "Olivia smiled."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Olivia smiled.. Olivia. A complete sentence contains a subject and a",
+          "incorrect": [
+            "Not: Since my last visit.. Check the grammar or usage clue in the question.",
+            "Not: A policeman standing on the corner.. Check the grammar or usage clue in the question.",
+            "Not: Between you and me.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 31,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which sentence includes a verb phrase?",
+        "choices": [
+          "The reporter from the local station has raced to the fire in the n earby town.",
+          "Swooping through the night sky, the owl and the eagle search f or food.",
+          "Swimming near the beach, Allen and Annie found lots of beautiful shells.",
+          "Following the scent of the rabbit, the fox and the wolf met at the tree."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The reporter from the local station has raced to the fire in the n earby town.. A verb phrase contains a helping verb. “Has” raced is the verb phrase.",
+          "incorrect": [
+            "",
+            "Not: Swooping through the night sky, the owl and the eagle search f or food.. Check the grammar or usage clue in the question.",
+            "Not: Swimming near the beach, Allen and Annie found lots of beautiful shells.. Check the grammar or usage clue in the question.",
+            "Not: Following the scent of the rabbit, the fox and the wolf met at the tree.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 32,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which is a complete sentence?",
+        "choices": [
+          "The money stolen from the largest bank in town.",
+          "The road leads to the state assembly building.",
+          "Two or three miles down the h ighway at the traffi c light.",
+          "Because she waited too long to call for help."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The road leads to the state assembly building.. The road to the state assembly building. A complete sentence contains a subject",
+          "incorrect": [
+            "Not: The money stolen from the largest bank in town.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Two or three miles down the h ighway at the traffi c light.. Check the grammar or usage clue in the question.",
+            "Not: Because she waited too long to call for help.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 33,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which sentence is incomplete?",
+        "choices": [
+          "He arrive d about 5:00 pm.",
+          "We should have left by now.",
+          "Only a part of the sentence.",
+          "The car was swerving."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Only a part of the sentence.. Only a part of the sentence. This is incomplete because it does not contain a subject an d",
+          "incorrect": [
+            "Not: He arrive d about 5:00 pm.. Check the grammar or usage clue in the question.",
+            "Not: We should have left by now.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The car was swerving.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 34,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which phrase will make this fragment a complete sentence? While I was walking in the alley, ______________________.",
+        "choices": [
+          "w ith my hands in my pockets.",
+          "giggling to myself.",
+          "a black cat crossed my path.",
+          "on the way to the library."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: a black cat crossed my path.. a black cat crossed my path; contains a subject (cat) and verb (crossed). “ While I was",
+          "incorrect": [
+            "Not: w ith my hands in my pockets.. Check the grammar or usage clue in the question.",
+            "Not: giggling to myself.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: on the way to the library.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 35,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "What sentence part is needed to form a complete sentence? traveled to see the concert",
+        "choices": [
+          "n othing, it is already complete",
+          "a subject for the main verb",
+          "an object for the main verb",
+          "an adjective to complete the linking verb"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: a subject for the main verb. a subject for the main verb; example: He traveled to see the concert.",
+          "incorrect": [
+            "Not: n othing, it is already complete. Check the grammar or usage clue in the question.",
+            "",
+            "Not: an object for the main verb. Check the grammar or usage clue in the question.",
+            "Not: an adjective to complete the linking verb. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-identify-sentence",
+          "sequence": 36,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
         }
       }
     ],
@@ -26743,7 +30810,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -26796,7 +30863,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -26849,7 +30916,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -26902,7 +30969,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -26955,7 +31022,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27008,7 +31075,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27061,7 +31128,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27114,7 +31181,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27167,7 +31234,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27220,7 +31287,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27273,7 +31340,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27379,7 +31446,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27432,7 +31499,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27485,7 +31552,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27538,7 +31605,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27591,7 +31658,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27644,7 +31711,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27697,7 +31764,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27750,7 +31817,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27803,7 +31870,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27856,7 +31923,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27909,7 +31976,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -27962,7 +32029,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28015,7 +32082,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28068,7 +32135,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28121,7 +32188,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28174,7 +32241,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28227,7 +32294,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28280,7 +32347,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28333,7 +32400,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28386,7 +32453,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28439,7 +32506,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28492,7 +32559,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28545,7 +32612,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28598,7 +32665,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28651,7 +32718,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28704,7 +32771,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28757,7 +32824,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28810,7 +32877,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28863,7 +32930,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28916,7 +32983,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -28969,7 +33036,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29022,7 +33089,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29075,7 +33142,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29128,7 +33195,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29181,7 +33248,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29234,7 +33301,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29287,7 +33354,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29340,7 +33407,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29393,7 +33460,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29446,7 +33513,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29499,7 +33566,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29552,7 +33619,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29605,7 +33672,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29658,7 +33725,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29711,7 +33778,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29764,7 +33831,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29817,7 +33884,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29870,7 +33937,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29923,7 +33990,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -29976,7 +34043,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30029,7 +34096,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30082,7 +34149,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30135,7 +34202,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30188,7 +34255,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30241,7 +34308,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30294,7 +34361,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30347,7 +34414,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30400,7 +34467,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30453,7 +34520,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30506,7 +34573,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30559,7 +34626,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30612,7 +34679,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30665,7 +34732,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30718,7 +34785,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30771,7 +34838,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30824,7 +34891,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30877,7 +34944,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30930,7 +34997,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -30983,7 +35050,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31036,7 +35103,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31089,7 +35156,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31142,7 +35209,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31195,7 +35262,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31301,7 +35368,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31354,7 +35421,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31407,7 +35474,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31460,7 +35527,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31513,7 +35580,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31566,7 +35633,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31619,7 +35686,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31672,7 +35739,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31725,7 +35792,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31778,7 +35845,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31831,7 +35898,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31884,7 +35951,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31937,7 +36004,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -31990,7 +36057,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32043,7 +36110,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32096,7 +36163,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32149,7 +36216,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32202,7 +36269,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32255,7 +36322,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32308,7 +36375,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32361,7 +36428,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32414,7 +36481,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32467,7 +36534,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32520,7 +36587,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32573,7 +36640,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32626,7 +36693,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32679,7 +36746,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32732,7 +36799,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32785,7 +36852,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32838,7 +36905,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32891,7 +36958,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32944,7 +37011,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -32997,7 +37064,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33050,7 +37117,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33103,7 +37170,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33156,7 +37223,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33209,7 +37276,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33262,7 +37329,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33315,7 +37382,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33368,7 +37435,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33421,7 +37488,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33474,7 +37541,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33527,7 +37594,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33580,7 +37647,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33633,7 +37700,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33686,7 +37753,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33739,7 +37806,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33792,7 +37859,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33845,7 +37912,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33898,7 +37965,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -33951,7 +38018,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34004,7 +38071,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34057,7 +38124,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34110,7 +38177,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34163,7 +38230,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34216,7 +38283,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34269,7 +38336,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34322,7 +38389,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34375,7 +38442,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34428,7 +38495,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34481,7 +38548,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34534,7 +38601,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34587,7 +38654,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34640,7 +38707,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34693,7 +38760,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34799,7 +38866,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34852,7 +38919,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34905,7 +38972,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -34958,7 +39025,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35011,7 +39078,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35064,7 +39131,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35117,7 +39184,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35170,7 +39237,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35223,7 +39290,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35276,7 +39343,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35329,7 +39396,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35435,7 +39502,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35488,7 +39555,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35541,7 +39608,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35594,7 +39661,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35647,7 +39714,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35700,7 +39767,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35753,7 +39820,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35806,7 +39873,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -35965,7 +40032,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36018,7 +40085,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36071,7 +40138,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36124,7 +40191,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36177,7 +40244,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36230,7 +40297,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36283,7 +40350,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36336,7 +40403,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36389,7 +40456,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36495,7 +40562,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36548,7 +40615,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36601,7 +40668,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36654,7 +40721,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36707,7 +40774,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36760,7 +40827,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36813,7 +40880,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36866,7 +40933,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36919,7 +40986,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -36972,7 +41039,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37025,7 +41092,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37078,7 +41145,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37131,7 +41198,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37184,7 +41251,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37237,7 +41304,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37290,7 +41357,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37343,7 +41410,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37396,7 +41463,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37449,7 +41516,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37502,7 +41569,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37555,7 +41622,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37608,7 +41675,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37661,7 +41728,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37714,7 +41781,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37767,7 +41834,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37820,7 +41887,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37873,7 +41940,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37926,7 +41993,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -37979,7 +42046,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38032,7 +42099,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38085,7 +42152,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38138,7 +42205,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38191,7 +42258,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38244,7 +42311,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38297,7 +42364,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38350,7 +42417,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38456,7 +42523,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38509,7 +42576,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38562,7 +42629,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38615,7 +42682,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38668,7 +42735,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38721,7 +42788,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38774,7 +42841,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38827,7 +42894,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38880,7 +42947,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38933,7 +43000,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -38986,7 +43053,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39039,7 +43106,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39092,7 +43159,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39145,7 +43212,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39251,7 +43318,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39304,7 +43371,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39357,7 +43424,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39410,7 +43477,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39463,7 +43530,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39516,7 +43583,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39569,7 +43636,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39622,7 +43689,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39675,7 +43742,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39728,7 +43795,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39781,7 +43848,7 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
@@ -39834,11 +43901,1334 @@
             "usage",
             "sentence analysis"
           ],
-          "feedbackFocus": "compare every choice against the full rule, not just the first visible error",
+          "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-sentence-correction",
           "sequence": 248
+        }
+      },
+      {
+        "question": "My complaint to the principal is about the student counsel, and whether they will raise enough capital to fundour new computer lab. In the above sentence:",
+        "choices": [
+          "‘princip al ’ should be ‘princip le ’.",
+          "‘ counsel’ should be council’.",
+          "‘whether’ should be ‘weather’.",
+          "‘ capital’ should be ‘capitol’."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: ‘ counsel’ should be council’.. ‘ counsel’ should be ‘council’; council - an advisory or",
+          "incorrect": [
+            "Not: ‘princip al ’ should be ‘princip le ’.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: ‘whether’ should be ‘weather’.. Check the grammar or usage clue in the question.",
+            "Not: ‘ capital’ should be ‘capitol’.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 249,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the correct sentence.",
+        "choices": [
+          "There are several chairs around the swimming pool.",
+          "There is several chairs around the swimming pool.",
+          "There’s several chairs around the swimming pool.",
+          "They’ re several chairs around the swimming pool."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: There are several chairs around the swimming pool.. There are several chairs around the swimming pool.",
+          "incorrect": [
+            "",
+            "Not: There is several chairs around the swimming pool.. Check the grammar or usage clue in the question.",
+            "Not: There’s several chairs around the swimming pool.. Check the grammar or usage clue in the question.",
+            "Not: They’ re several chairs around the swimming pool.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 250,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Choose the correct word. _____________ of the people were eligible to vote in the election.",
+        "choices": [
+          "Few",
+          "Each",
+          "One",
+          "Either"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Few. few - a small number or amount.",
+          "incorrect": [
+            "",
+            "Not: Each. Check the grammar or usage clue in the question.",
+            "Not: One. Check the grammar or usage clue in the question.",
+            "Not: Either. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 251,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which verb pair is written in the correct present and past forms?",
+        "choices": [
+          "put - putted",
+          "burst - burst",
+          "say - sayed",
+          "re ad - red"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: burst - burst. burst - burst",
+          "incorrect": [
+            "Not: put - putted. Check the grammar or usage clue in the question.",
+            "",
+            "Not: say - sayed. Check the grammar or usage clue in the question.",
+            "Not: re ad - red. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 252,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence is NOT written correctly?",
+        "choices": [
+          "I d id goodon the test!",
+          "That haircut looks goodon you.",
+          "Bryce runs well, now that he has new shoes.",
+          "How well do you know the material for the Frenc h exam?"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I d id goodon the test!. I did goodon the test! It should be ‘I did well on the test!’; good modifies a person, place",
+          "incorrect": [
+            "",
+            "Not: That haircut looks goodon you.. Check the grammar or usage clue in the question.",
+            "Not: Bryce runs well, now that he has new shoes.. Check the grammar or usage clue in the question.",
+            "Not: How well do you know the material for the Frenc h exam?. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 253,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Choose the best missing word. The plant turns _________ without water.",
+        "choices": [
+          "b est",
+          "brown",
+          "empty",
+          "grown"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: brown. brown; The plant turns brown without water.",
+          "incorrect": [
+            "Not: b est. Check the grammar or usage clue in the question.",
+            "",
+            "Not: empty. Check the grammar or usage clue in the question.",
+            "Not: grown. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 254,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Jocinda fed water andoats to the horse. She loves Blackie. The word “She” replaces _______.",
+        "choices": [
+          "Jocinda",
+          "water",
+          "oats",
+          "Blackie"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Jocinda. “She” refers to Jocinda. Jocinda loves Blackie.",
+          "incorrect": [
+            "",
+            "Not: water. Check the grammar or usage clue in the question.",
+            "Not: oats. Check the grammar or usage clue in the question.",
+            "Not: Blackie. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 255,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the best missing wordor words. The poster was ________ finished.",
+        "choices": [
+          "f in al",
+          "fin ally",
+          "more fin al",
+          "fin alest"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: fin ally. Fin ally - after a long time; eventually",
+          "incorrect": [
+            "Not: f in al. Check the grammar or usage clue in the question.",
+            "",
+            "Not: more fin al. Check the grammar or usage clue in the question.",
+            "Not: fin alest. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 256,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which verb pair is NOT correct?",
+        "choices": [
+          "b egin - began",
+          "do - did",
+          "eat - ate",
+          "choose - chosed"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: choose - chosed. Choose - Chose",
+          "incorrect": [
+            "Not: b egin - began. Check the grammar or usage clue in the question.",
+            "Not: do - did. Check the grammar or usage clue in the question.",
+            "Not: eat - ate. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 257,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence is written correctly?",
+        "choices": [
+          "I an d Mike like to dance.",
+          "Mike and me like to dance.",
+          "Mike and I like to dance.",
+          "Me and Mike like to dance."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Mike and I like to dance.. Mike and I like to dance. Mike can be used as the subject and I can be used as the subject.",
+          "incorrect": [
+            "Not: I an d Mike like to dance.. Check the grammar or usage clue in the question.",
+            "Not: Mike and me like to dance.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Me and Mike like to dance.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 258,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "When the dog chases the cat, the cat meows loudly. When does the cat meow?",
+        "choices": [
+          "The cat meows when the cat chases.",
+          "The cat meows before the dog chases it.",
+          "The cat meows when the dog barks.",
+          "The cat meows at the same time."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The cat meows at the same time.. “The cat meows at the same time” as the dog chases it.",
+          "incorrect": [
+            "Not: The cat meows when the cat chases.. Check the grammar or usage clue in the question.",
+            "Not: The cat meows before the dog chases it.. Check the grammar or usage clue in the question.",
+            "Not: The cat meows when the dog barks.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 259,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which of the following words will best complete the following sentence? They live in a ___________ house.",
+        "choices": [
+          "tooth",
+          "earring",
+          "cake",
+          "b rick"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: b rick. Brick - small rectangular block typically made of clay, used in build ing.",
+          "incorrect": [
+            "Not: tooth. Check the grammar or usage clue in the question.",
+            "Not: earring. Check the grammar or usage clue in the question.",
+            "Not: cake. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 260,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the missing phrase. The teachers __________________.",
+        "choices": [
+          "in the school.",
+          "helped with th e dance.",
+          "on the panel.",
+          "w ho like to read."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: helped with th e dance.. The teachers helped with the dan ce. Complete the sentence.",
+          "incorrect": [
+            "Not: in the school.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: on the panel.. Check the grammar or usage clue in the question.",
+            "Not: w ho like to read.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 261,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the correct missing words. _______________ is our scho ol’s n ew principal.",
+        "choices": [
+          "Mr. j.a. Brown",
+          "mr. J.A. Brown",
+          "Mr. J.A. Brow n",
+          "Mr. J.a. Brown"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Mr. J.A. Brow n. Mr. J.A. Brown is the school’s new p rincipal.",
+          "incorrect": [
+            "Not: Mr. j.a. Brown. Check the grammar or usage clue in the question.",
+            "Not: mr. J.A. Brown. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Mr. J.a. Brown. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 262,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the best missing word. They ________ happier today than yesterday.",
+        "choices": [
+          "seem",
+          "seems",
+          "play",
+          "plays"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: seem. seem - give the impression or sensation of being something or having a particular quality.",
+          "incorrect": [
+            "",
+            "Not: seems. Check the grammar or usage clue in the question.",
+            "Not: play. Check the grammar or usage clue in the question.",
+            "Not: plays. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 263,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Choose the best missing word. _________ you and the Evans going to the concert tonight?",
+        "choices": [
+          "Is",
+          "Will",
+          "May",
+          "Are"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Are. Are you and the Evans going to the concert tonight?",
+          "incorrect": [
+            "Not: Is. Check the grammar or usage clue in the question.",
+            "Not: Will. Check the grammar or usage clue in the question.",
+            "Not: May. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 264,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which is true of the sentence below? Lucy, leave the room.",
+        "choices": [
+          "It is a command.",
+          "It is a question.",
+          "It is a statement.",
+          "It is exclamatory."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: It is a command.. Lucy, leave the room. In this case, leave is used as a command word, telling Lucy to do",
+          "incorrect": [
+            "",
+            "Not: It is a question.. Check the grammar or usage clue in the question.",
+            "Not: It is a statement.. Check the grammar or usage clue in the question.",
+            "Not: It is exclamatory.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 265,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Choose the correct sentence.",
+        "choices": [
+          "The girls is going to the mall.",
+          "The girls are going to the mall.",
+          "The girls gone to the mall.",
+          "The girls is gone to the mall."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The girls are going to the mall.. The girls are going to the mall.",
+          "incorrect": [
+            "Not: The girls is going to the mall.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The girls gone to the mall.. Check the grammar or usage clue in the question.",
+            "Not: The girls is gone to the mall.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 266,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Choose the correct word to begin this sentence. _________ is a popular exercise.",
+        "choices": [
+          "Jogging",
+          "Joggers",
+          "Jogs",
+          "Jogged"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Jogging. Jogging is a popular exercise. Jogging - run at a steady gentle pace, form of physical",
+          "incorrect": [
+            "",
+            "Not: Joggers. Check the grammar or usage clue in the question.",
+            "Not: Jogs. Check the grammar or usage clue in the question.",
+            "Not: Jogged. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 267,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Choose the best word to complete the sentence. I used _______ eggs than Ellen did.",
+        "choices": [
+          "less",
+          "most",
+          "greater",
+          "fewer"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: fewer. Fewer - a smaller number of.",
+          "incorrect": [
+            "Not: less. Check the grammar or usage clue in the question.",
+            "Not: most. Check the grammar or usage clue in the question.",
+            "Not: greater. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 268,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Choose the best missing word. Have you ______ the new puppy that the Berrys got las t night?",
+        "choices": [
+          "seen",
+          "seed",
+          "saw",
+          "sees"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: seen. Seen (past participle) - See (present) - to look at; perceive with the eyes.",
+          "incorrect": [
+            "",
+            "Not: seed. Check the grammar or usage clue in the question.",
+            "Not: saw. Check the grammar or usage clue in the question.",
+            "Not: sees. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 269,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Choose the correctly written sentence.",
+        "choices": [
+          "Jo e doesn’t have any manners.",
+          "Joe doesn’t have no manners.",
+          "Joe doesn’t got no manners.",
+          "Joe doesn’t got manners neither."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Jo e doesn’t have any manners.. Joe doesn’t have any manners.",
+          "incorrect": [
+            "",
+            "Not: Joe doesn’t have no manners.. Check the grammar or usage clue in the question.",
+            "Not: Joe doesn’t got no manners.. Check the grammar or usage clue in the question.",
+            "Not: Joe doesn’t got manners neither.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 270,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Select the correctly written sentence.",
+        "choices": [
+          "The dog been under the porch.",
+          "The dog are under the porch.",
+          "The dog is under the porch.",
+          "The dog were under the porch."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The dog is under the porch.. The dog is under the porch. The subject (dog) is in agreement with the ve rb (is) - both are",
+          "incorrect": [
+            "Not: The dog been under the porch.. Check the grammar or usage clue in the question.",
+            "Not: The dog are under the porch.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The dog were under the porch.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 271,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Choose the best interpretation of this sentence. Before you leave for the game, you must clean your room.",
+        "choices": [
+          "Yo u don’t have to clean your room.",
+          "You must clean your room.",
+          "You may clean your room after the game.",
+          "If you want to go to the game, you must clean your room first."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: If you want to go to the game, you must clean your room first.. If you want to go to the game, you must clean your room first.",
+          "incorrect": [
+            "Not: Yo u don’t have to clean your room.. Check the grammar or usage clue in the question.",
+            "Not: You must clean your room.. Check the grammar or usage clue in the question.",
+            "Not: You may clean your room after the game.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 272,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which two sentences are correctly written? A) There going to the movies. B) Their on there way to the store. C) They could not keep their appointment D) They’re going over there to work.",
+        "choices": [
+          "A and B",
+          "C and D",
+          "B and C",
+          "A and D"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: C and D. C and D; They could not keep their appointment AND They’re going over there to work.",
+          "incorrect": [
+            "Not: A and B. Check the grammar or usage clue in the question.",
+            "",
+            "Not: B and C. Check the grammar or usage clue in the question.",
+            "Not: A and D. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 273,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Choose the correctly written sentence.",
+        "choices": [
+          "The crowd is growing restless.",
+          "The team have arrivedon time.",
+          "Each class were in the auditorium.",
+          "The group are watching the movie together."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The crowd is growing restless.. The crowd is growing restless. The subject (crowd) and verb (is) a re in agreement. Both",
+          "incorrect": [
+            "",
+            "Not: The team have arrivedon time.. Check the grammar or usage clue in the question.",
+            "Not: Each class were in the auditorium.. Check the grammar or usage clue in the question.",
+            "Not: The group are watching the movie together.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 274,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Choose the correct pair of words to complete this sentence. This _______ of book _______ exciting reading.",
+        "choices": [
+          "kind, make",
+          "kind, makes",
+          "kinds, makes",
+          "kinds, made"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: kind, makes. kind, makes",
+          "incorrect": [
+            "Not: kind, make. Check the grammar or usage clue in the question.",
+            "",
+            "Not: kinds, makes. Check the grammar or usage clue in the question.",
+            "Not: kinds, made. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-sentence-correction",
+          "sequence": 275,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
         }
       }
     ],
@@ -94140,6 +99530,300 @@
           "sourceSet": "grammar-prepositions-prepositional-phrases",
           "sequence": 180
         }
+      },
+      {
+        "question": "A red bus with a double deck skidded across the pavement. The prepositional phrase with a double deck modifies:",
+        "choices": [
+          "t he verb “skidded”",
+          "the noun “bus”",
+          "the preposition “down”",
+          "the adjective “red”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: the noun “bus”. the noun “bus”; a prepositional phrase is used to modify an objec t which is usually a",
+          "incorrect": [
+            "Not: t he verb “skidded”. Check the grammar or usage clue in the question.",
+            "",
+            "Not: the preposition “down”. Check the grammar or usage clue in the question.",
+            "Not: the adjective “red”. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-prepositions-prepositional-phrases",
+          "sequence": 181,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "The man in the line wants to buy a soda. In this sentence, the phrase “ in the line ” tells:",
+        "choices": [
+          "h ow",
+          "what",
+          "when",
+          "where"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: where. “ in the line” tells where.",
+          "incorrect": [
+            "Not: h ow. Check the grammar or usage clue in the question.",
+            "Not: what. Check the grammar or usage clue in the question.",
+            "Not: when. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-prepositions-prepositional-phrases",
+          "sequence": 182,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the best missing word. Bob and Diane found _______ in a strange place.",
+        "choices": [
+          "t hemself",
+          "themselves",
+          "herself",
+          "theirself"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: themselves. Themselves - pronoun us ed as the object of a verb or preposition to refer to a group of",
+          "incorrect": [
+            "Not: t hemself. Check the grammar or usage clue in the question.",
+            "",
+            "Not: herself. Check the grammar or usage clue in the question.",
+            "Not: theirself. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-prepositions-prepositional-phrases",
+          "sequence": 183,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Wh i ch adverb phrase in the sentences below answers the question “how”?",
+        "choices": [
+          "The school bell rings at eight o’clock every morning.",
+          "The students carefully looked for the lost glasses.",
+          "The foreign students traveled to the exotic islands by boat.",
+          "We spent the cold and snowy winter day near the fireplace."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The foreign students traveled to the exotic islands by boat.. An adverb modifies a verb. The students traveled (how?) - by boat.",
+          "incorrect": [
+            "Not: The school bell rings at eight o’clock every morning.. Check the grammar or usage clue in the question.",
+            "Not: The students carefully looked for the lost glasses.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: We spent the cold and snowy winter day near the fireplace.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-prepositions-prepositional-phrases",
+          "sequence": 184,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Choose the best missing word. With _________ are you making your plans?",
+        "choices": [
+          "w hose",
+          "who",
+          "which",
+          "whom"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: whom. Whom - used to refer to the object of a verb or preposition. verb",
+          "incorrect": [
+            "Not: w hose. Check the grammar or usage clue in the question.",
+            "Not: who. Check the grammar or usage clue in the question.",
+            "Not: which. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-prepositions-prepositional-phrases",
+          "sequence": 185,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which underlined wordor words is prepositional phrase? Those birds might have been resting in our garage. A B C D",
+        "choices": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: D. in our garage; “in” is a preposition that begins the prepositional p hrase.",
+          "incorrect": [
+            "Not: A. Check the grammar or usage clue in the question.",
+            "Not: B. Check the grammar or usage clue in the question.",
+            "Not: C. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-prepositions-prepositional-phrases",
+          "sequence": 186,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
       }
     ],
     "metadata": {
@@ -102979,6 +108663,202 @@
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
           "sequence": 180
+        }
+      },
+      {
+        "question": "They wanted diet soda, but there was none to be had. The sentence is a ___________________.",
+        "choices": [
+          "simple sentence",
+          "compound sentence",
+          "complex sentence",
+          "compound -complex sentence"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: compound sentence. compound sentence - a sentence with more than one subject or predicate.",
+          "incorrect": [
+            "Not: simple sentence. Check the grammar or usage clue in the question.",
+            "",
+            "Not: complex sentence. Check the grammar or usage clue in the question.",
+            "Not: compound -complex sentence. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-clauses-complex-sentences",
+          "sequence": 181,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which is the main clause in this sentence? She wrote the story and won first prize in the magazine.",
+        "choices": [
+          "She wrote the story",
+          "in the magazine",
+          "that won first prize",
+          "the story that won"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: She wrote the story. She wrote the story; A main clause can stand alone in a se ntence and contains a subject",
+          "incorrect": [
+            "",
+            "Not: in the magazine. Check the grammar or usage clue in the question.",
+            "Not: that won first prize. Check the grammar or usage clue in the question.",
+            "Not: the story that won. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-clauses-complex-sentences",
+          "sequence": 182,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which is NOT a simple sentence?",
+        "choices": [
+          "The old barn almost collapsed.",
+          "The students located the media center.",
+          "Although I like the snow, I hate the cold.",
+          "Many traveled to the local zoo."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Although I like the snow, I hate the cold.. A simple sentence contains only one independent clause (subject and verb). “Although I",
+          "incorrect": [
+            "Not: The old barn almost collapsed.. Check the grammar or usage clue in the question.",
+            "Not: The students located the media center.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Many traveled to the local zoo.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-clauses-complex-sentences",
+          "sequence": 183,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which is a compound sentence?",
+        "choices": [
+          "Ted and Louise are brother and sister.",
+          "My sister will represent our club.",
+          "He and she are good friends.",
+          "Jane and Sharon sing, and they dance."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Jane and Sharon sing, and they dance.. Jane and Sharon sing, and they dance.",
+          "incorrect": [
+            "Not: Ted and Louise are brother and sister.. Check the grammar or usage clue in the question.",
+            "Not: My sister will represent our club.. Check the grammar or usage clue in the question.",
+            "Not: He and she are good friends.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-clauses-complex-sentences",
+          "sequence": 184,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
         }
       }
     ],
@@ -111999,6 +117879,2162 @@
           "reviewPriority": "high",
           "sourceSet": "grammar-pronoun-agreement-case",
           "sequence": 180
+        }
+      },
+      {
+        "question": "___________ spent time in the library preparing for our presenta tion. Which of the following is correct?",
+        "choices": [
+          "Us girls",
+          "Them boys",
+          "We girls",
+          "Them girl"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: We girls. We girls; the word ‘we’ could be used alone and t he sentence would still read correctly.",
+          "incorrect": [
+            "Not: Us girls. Check the grammar or usage clue in the question.",
+            "Not: Them boys. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Them girl. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 181,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which of the following is correct?",
+        "choices": [
+          "I can’t but help consider all o f the options.",
+          "We haven’t only a few minutes before the bell.",
+          "Haven’t you any more coins for the jukebox?",
+          "Wally didn’t give me none of his birthday treats. not"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Haven’t you any more coins for the jukebox?. Haven’t you any more coins for the jukebox?",
+          "incorrect": [
+            "Not: I can’t but help consider all o f the options.. Check the grammar or usage clue in the question.",
+            "Not: We haven’t only a few minutes before the bell.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Wally didn’t give me none of his birthday treats. not. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 182,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which pronoun would correctly complete this sentence? _________ took the bus to school.",
+        "choices": [
+          "Many",
+          "Some",
+          "Either",
+          "Seve ral"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Either. Either; the other words can correctly be used in the sentence, either cannot.",
+          "incorrect": [
+            "Not: Many. Check the grammar or usage clue in the question.",
+            "Not: Some. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Seve ral. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 183,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which of the underlined words is a pronoun? The fin al solution involves using several committees’ input to accomplish it.",
+        "choices": [
+          "fin al",
+          "involves",
+          "committees’",
+          "it"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: it. it; pronoun used to represent an in animate thing understoodor previously mentioned.",
+          "incorrect": [
+            "Not: fin al. Check the grammar or usage clue in the question.",
+            "Not: involves. Check the grammar or usage clue in the question.",
+            "Not: committees’. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 184,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the best missing word. The students completed all the work _____________.",
+        "choices": [
+          "t hemself",
+          "theirselves",
+          "themselfs",
+          "themselves"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: themselves. themselves",
+          "incorrect": [
+            "Not: t hemself. Check the grammar or usage clue in the question.",
+            "Not: theirselves. Check the grammar or usage clue in the question.",
+            "Not: themselfs. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 185,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the missing word. My sister, _________ middle name is Grace, was named after our grandmother.",
+        "choices": [
+          "who",
+          "whose",
+          "who’s",
+          "whos’"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: whose. whose - the one or ones belonging to what person or persons.",
+          "incorrect": [
+            "Not: who. Check the grammar or usage clue in the question.",
+            "",
+            "Not: who’s. Check the grammar or usage clue in the question.",
+            "Not: whos’. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 186,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which pronoun correctly completes the sentences? James, John and ______ will join the tennis team next spring.",
+        "choices": [
+          "I",
+          "them",
+          "us",
+          "me"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I. I; if ‘I’ can be used independently in the sentence, then it is the correct pr onoun.",
+          "incorrect": [
+            "",
+            "Not: them. Check the grammar or usage clue in the question.",
+            "Not: us. Check the grammar or usage clue in the question.",
+            "Not: me. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 187,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which sentence is correct?",
+        "choices": [
+          "Him an d Sandra ate lunch at the hot dog stand.",
+          "She and Ellen continue to work on the newspaper staff.",
+          "They and the lifeguards cleaned the bea ch.",
+          "You and the other students will be testing on Tuesday."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Him an d Sandra ate lunch at the hot dog stand.. Him and Sandra ate lunch at the hot dog stand; ‘Him’ should change to ‘He’",
+          "incorrect": [
+            "",
+            "Not: She and Ellen continue to work on the newspaper staff.. Check the grammar or usage clue in the question.",
+            "Not: They and the lifeguards cleaned the bea ch.. Check the grammar or usage clue in the question.",
+            "Not: You and the other students will be testing on Tuesday.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 188,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which sentence is NOT written correctly?",
+        "choices": [
+          "His d esire to complete the lesson himself has driven him to s tudy carefully.",
+          "Gail was so upset about her grade on her essay that she signed herself u p for a class in basic writing.",
+          "This new class gave herself the confidence to write well.",
+          "I myself could use a course in writing."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: This new class gave herself the confidence to write well.. This new class gave herself the confidence to write well.",
+          "incorrect": [
+            "Not: His d esire to complete the lesson himself has driven him to s tudy carefully.. Check the grammar or usage clue in the question.",
+            "Not: Gail was so upset about her grade on her essay that she signed herself u p for a class in basic writing.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: I myself could use a course in writing.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 189,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence is NOT correct?",
+        "choices": [
+          "If you need help, ask myself for assistance.",
+          "Larry himself will present the award.",
+          "The class will board the bus themselves.",
+          "Mary let herself in to the abandoned house."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: If you need help, ask myself for assistance.. If you need help, ask myself for assistance. Correc t would be to replace ‘myself’ with",
+          "incorrect": [
+            "",
+            "Not: Larry himself will present the award.. Check the grammar or usage clue in the question.",
+            "Not: The class will board the bus themselves.. Check the grammar or usage clue in the question.",
+            "Not: Mary let herself in to the abandoned house.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 190,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "What is the meaning of the verb phrase below? Amir could have opened the door for Shreya.",
+        "choices": [
+          "Amir opened the door for Shreya.",
+          "Amir could have opened the door, but he didn’t.",
+          "Shreya didn’t want Amir to open the door for her.",
+          "The car door wouldn’t open."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Amir could have opened the door, but he didn’t.. Amir could hav e opened the door, bu t he didn’t.",
+          "incorrect": [
+            "Not: Amir opened the door for Shreya.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Shreya didn’t want Amir to open the door for her.. Check the grammar or usage clue in the question.",
+            "Not: The car door wouldn’t open.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 191,
+          "sourceFile": "Advanced-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "All of us must attend an informational meeting before the trip. The underlined words mean:",
+        "choices": [
+          "He",
+          "We",
+          "They",
+          "You"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: We. We",
+          "incorrect": [
+            "Not: He. Check the grammar or usage clue in the question.",
+            "",
+            "Not: They. Check the grammar or usage clue in the question.",
+            "Not: You. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 192,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which sentence is written correctly in past tense?",
+        "choices": [
+          "I w ill catch the train to Boston this afternoon.",
+          "Can you come to my party tomorrow?",
+          "Sylvia catched a cold from her sister.",
+          "Phil caught the foul ball in his new mitt."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Phil caught the foul ball in his new mitt.. Phil caught the foul ball in his new glove. Caught is the p ast tense of catch.",
+          "incorrect": [
+            "Not: I w ill catch the train to Boston this afternoon.. Check the grammar or usage clue in the question.",
+            "Not: Can you come to my party tomorrow?. Check the grammar or usage clue in the question.",
+            "Not: Sylvia catched a cold from her sister.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 193,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Choose the missing words. ___________ called while ________ were away.",
+        "choices": [
+          "They, we",
+          "He, us",
+          "Them, she",
+          "I, them"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: They, we. They called while we were away. Both are plural.",
+          "incorrect": [
+            "",
+            "Not: He, us. Check the grammar or usage clue in the question.",
+            "Not: Them, she. Check the grammar or usage clue in the question.",
+            "Not: I, them. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 194,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which of the following underlined words is an ex ample of the past tense of an irregular verb?",
+        "choices": [
+          "My blue blouse shrank when it was washed.",
+          "We sipped several cartons of soda at her birthday party.",
+          "Our class do those review sheets easily.",
+          "Bring your literature books to class tomorrow."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: My blue blouse shrank when it was washed.. Shrink is an irregular verb. Shrank is past tense. My blue blouse sh rank when it was",
+          "incorrect": [
+            "",
+            "Not: We sipped several cartons of soda at her birthday party.. Check the grammar or usage clue in the question.",
+            "Not: Our class do those review sheets easily.. Check the grammar or usage clue in the question.",
+            "Not: Bring your literature books to class tomorrow.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 195,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which one of the underlined words in the following sentences is a plural noun?",
+        "choices": [
+          "Her illness had an unusual effect on the class.",
+          "All the houses on the block are painted white.",
+          "The parenthesis has been incorrectly inserted in the sentence.",
+          "The picture of a desert scene included a cactus."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: All the houses on the block are painted white.. House (singular noun) - Houses (plural noun)",
+          "incorrect": [
+            "Not: Her illness had an unusual effect on the class.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The parenthesis has been incorrectly inserted in the sentence.. Check the grammar or usage clue in the question.",
+            "Not: The picture of a desert scene included a cactus.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 196,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Choose the best missing word. It may have been ________, but I’m not sure.",
+        "choices": [
+          "sh e",
+          "him",
+          "I",
+          "our"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: him. Him is a pronoun and is correctly used since it is the object of the sentence.",
+          "incorrect": [
+            "Not: sh e. Check the grammar or usage clue in the question.",
+            "",
+            "Not: I. Check the grammar or usage clue in the question.",
+            "Not: our. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 197,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Choose the best missing word. __________ left cookies on our doorstep.",
+        "choices": [
+          "Som eone",
+          "Something",
+          "Some",
+          "S omeone’s"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Som eone. Someone (pronoun) an unknown or unspecified person.",
+          "incorrect": [
+            "",
+            "Not: Something. Check the grammar or usage clue in the question.",
+            "Not: Some. Check the grammar or usage clue in the question.",
+            "Not: S omeone’s. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 198,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Kristin and Troy went skiing. Which pronoun will take the place of “Kristin and Troy”?",
+        "choices": [
+          "Our",
+          "Them",
+          "They",
+          "Us"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: They. “ The y” is a pronoun used to mention two or more people or t hings previously mentioned.",
+          "incorrect": [
+            "Not: Our. Check the grammar or usage clue in the question.",
+            "Not: Them. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Us. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 199,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Choose the best missing word. Alli and I love school. ________ always do our homework.",
+        "choices": [
+          "We",
+          "She",
+          "He",
+          "Us"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: We. “We” is a subject pronoun referring to “Alli and I”.",
+          "incorrect": [
+            "",
+            "Not: She. Check the grammar or usage clue in the question.",
+            "Not: He. Check the grammar or usage clue in the question.",
+            "Not: Us. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 200,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Choose the best missing word. The girls’ basketball team was in the locker r oom. C oach Mendez gave ____ a pep talk.",
+        "choices": [
+          "that",
+          "those",
+          "these",
+          "th em"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: th em. “them” - used to mentio n two or more people or things previously mentioned (the",
+          "incorrect": [
+            "Not: that. Check the grammar or usage clue in the question.",
+            "Not: those. Check the grammar or usage clue in the question.",
+            "Not: these. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 201,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which sentence is NOT correct?",
+        "choices": [
+          "Sam is playing on the football team.",
+          "The teacher are thinking abou t her lesson.",
+          "The president is meeting with his com mittee.",
+          "Holly is giving a party for her friend Gail."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The teacher are thinking abou t her lesson.. The teacher are IS thinking about her lesson.",
+          "incorrect": [
+            "Not: Sam is playing on the football team.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The president is meeting with his com mittee.. Check the grammar or usage clue in the question.",
+            "Not: Holly is giving a party for her friend Gail.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 202,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which one of the followin g verbs uses the past tense?",
+        "choices": [
+          "We will come to your ho me after school.",
+          "Most of the team cho s e to practice in the morning.",
+          "Mark and his brother swim on the same team.",
+          "We always throw all the trach into th e incinerator."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Most of the team cho s e to practice in the morning.. Chose (past tense) - choose (present tense). Most of the team chose to practice in th e",
+          "incorrect": [
+            "Not: We will come to your ho me after school.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Mark and his brother swim on the same team.. Check the grammar or usage clue in the question.",
+            "Not: We always throw all the trach into th e incinerator.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 203,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which verb correctly completes the sentence? A week ago, her friend, Sally, ______ on vacation, but today, she will _________.",
+        "choices": [
+          "w ill go, leave",
+          "left, return",
+          "returned, leave",
+          "went, go"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: left, return. A week ago, her friend, Sally, left on vacation, but today, she will return.",
+          "incorrect": [
+            "Not: w ill go, leave. Check the grammar or usage clue in the question.",
+            "",
+            "Not: returned, leave. Check the grammar or usage clue in the question.",
+            "Not: went, go. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 204,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the best missing word. Do you think coach will give ______ and him a break this afternoon?",
+        "choices": [
+          "ou r",
+          "th ey",
+          "we",
+          "us"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: us. us - used by a speaker to refer to himself or herself andone or more other people.",
+          "incorrect": [
+            "Not: ou r. Check the grammar or usage clue in the question.",
+            "Not: th ey. Check the grammar or usage clue in the question.",
+            "Not: we. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 205,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Choose the best missing word. I bought a present for Bridget. I was excited to give it to _____.",
+        "choices": [
+          "I",
+          "him",
+          "her",
+          "me"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: her. her - used to refer to a female person that was previously mentioned. ( referring to",
+          "incorrect": [
+            "Not: I. Check the grammar or usage clue in the question.",
+            "Not: him. Check the grammar or usage clue in the question.",
+            "",
+            "Not: me. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 206,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which word can be used in place of the underlined words.? Joan and Shane went to the movies.",
+        "choices": [
+          "They",
+          "Him",
+          "Your",
+          "Everyone"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: They. They - used to refer to two or more people previously mentione d.",
+          "incorrect": [
+            "",
+            "Not: Him. Check the grammar or usage clue in the question.",
+            "Not: Your. Check the grammar or usage clue in the question.",
+            "Not: Everyone. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 207,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "In the sentence below, choose the correct verb. We ______ our pets with us.",
+        "choices": [
+          "t aked",
+          "took",
+          "taking",
+          "takes"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: took. Took - past tense of take.",
+          "incorrect": [
+            "Not: t aked. Check the grammar or usage clue in the question.",
+            "",
+            "Not: taking. Check the grammar or usage clue in the question.",
+            "Not: takes. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 208,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which sentence is written correctly?",
+        "choices": [
+          "Their ideas are their own.",
+          "Their ideas are theirs ow n.",
+          "Theirs ideas are their own.",
+          "Them’s ideas are them’s own. for non-pay ing members of TestingMom.com is strictly prohibited."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Their ideas are their own.. Their ideas are their own.",
+          "incorrect": [
+            "",
+            "Not: Their ideas are theirs ow n.. Check the grammar or usage clue in the question.",
+            "Not: Theirs ideas are their own.. Check the grammar or usage clue in the question.",
+            "Not: Them’s ideas are them’s own. for non-pay ing members of TestingMom.com is strictly prohibited.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 209,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the correct verb. We should have _______ for Tammy and John to meet us.",
+        "choices": [
+          "wait",
+          "waiting",
+          "waiter",
+          "waited"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: waited. Waited - past tense of wait (stay where one is or delay action until a particular time).",
+          "incorrect": [
+            "Not: wait. Check the grammar or usage clue in the question.",
+            "Not: waiting. Check the grammar or usage clue in the question.",
+            "Not: waiter. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 210,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Jeff rode the bus with Justin and me. Which word could be used to replace “Justin and me”.",
+        "choices": [
+          "us",
+          "we",
+          "they",
+          "you"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: us. U s - used by the speaker to refer to himself (me) andone or more other people (Justin).",
+          "incorrect": [
+            "",
+            "Not: we. Check the grammar or usage clue in the question.",
+            "Not: they. Check the grammar or usage clue in the question.",
+            "Not: you. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 211,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence is about an event that happened in the past?",
+        "choices": [
+          "We will see Kidz Bop Live over Christmas.",
+          "We have tickets for next week’s Kidz Bop Live concert.",
+          "Who wants to see Kid z Bop Live next spring break?",
+          "We saw Kidz Bop Live in concert last summer."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: We saw Kidz Bop Live in concert last summer.. We saw Kidz Bop Live in concert last summer. Saw is past tense for see (to perceive with",
+          "incorrect": [
+            "Not: We will see Kidz Bop Live over Christmas.. Check the grammar or usage clue in the question.",
+            "Not: We have tickets for next week’s Kidz Bop Live concert.. Check the grammar or usage clue in the question.",
+            "Not: Who wants to see Kid z Bop Live next spring break?. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 212,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Choose the correct pronoun. The students neatly stacked ______ books on the table.",
+        "choices": [
+          "h er",
+          "there",
+          "their",
+          "they’re"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: their. The ir - belonging to or associated with the people previously mentioned.",
+          "incorrect": [
+            "Not: h er. Check the grammar or usage clue in the question.",
+            "Not: there. Check the grammar or usage clue in the question.",
+            "",
+            "Not: they’re. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 213,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which adverb phrase in the sentences below answers the question “why”?",
+        "choices": [
+          "The storm came up during the night.",
+          "The children combed the nearby woods for pine cones.",
+          "We spent the afternoon at the mall.",
+          "The students usually travel to games by bus."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The children combed the nearby woods for pine cones.. The children combed the nearby woods for pine cones. Why did the children comb the",
+          "incorrect": [
+            "Not: The storm came up during the night.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: We spent the afternoon at the mall.. Check the grammar or usage clue in the question.",
+            "Not: The students usually travel to games by bus.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 214,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which word can be used in place of the underlined word? Jane chose a hat that matched her own.",
+        "choices": [
+          "I",
+          "My",
+          "Her",
+          "She"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: She. She - used to refer to a woman, girl, or female animal previously mentione d.",
+          "incorrect": [
+            "Not: I. Check the grammar or usage clue in the question.",
+            "Not: My. Check the grammar or usage clue in the question.",
+            "Not: Her. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 215,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence has a future action verb in it?",
+        "choices": [
+          "Th is fall we will get some early snow storms.",
+          "At summer camp, we stayed in cabins.",
+          "Spring brings lots of rain and flowers.",
+          "For people who skate or ski, winter is their favorite season. for non-pay ing members of TestingMom.com is strictly prohibited."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Th is fall we will get some early snow storms.. “Will get” is a future action verb.",
+          "incorrect": [
+            "",
+            "Not: At summer camp, we stayed in cabins.. Check the grammar or usage clue in the question.",
+            "Not: Spring brings lots of rain and flowers.. Check the grammar or usage clue in the question.",
+            "Not: For people who skate or ski, winter is their favorite season. for non-pay ing members of TestingMom.com is strictly prohibited.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 216,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which word tells “how”. Today, we went out and danced wildly in the hall.",
+        "choices": [
+          "t oday",
+          "went",
+          "out",
+          "wildly for non-pay ing members of TestingMom.com is strictly prohibited."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: wildly for non-pay ing members of TestingMom.com is strictly prohibited.. Wildly - “how” did she dance? She danced wildly.",
+          "incorrect": [
+            "Not: t oday. Check the grammar or usage clue in the question.",
+            "Not: went. Check the grammar or usage clue in the question.",
+            "Not: out. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 217,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "In which sentence is a pronoun NOT used correctly?",
+        "choices": [
+          "“Hand her them books,” she said.",
+          "They copied their notes for other students.",
+          "The usher escorted him to his chair.",
+          "Two of the girls put on skirts."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: “Hand her them books,” she said.. “Hand her them books,” she said. A correct option would be “Hand them her books,” she",
+          "incorrect": [
+            "",
+            "Not: They copied their notes for other students.. Check the grammar or usage clue in the question.",
+            "Not: The usher escorted him to his chair.. Check the grammar or usage clue in the question.",
+            "Not: Two of the girls put on skirts.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 218,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Choose the correct word to complete the sentence. Everyone except ______ went on the trip.",
+        "choices": [
+          "us",
+          "we",
+          "they",
+          "she"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: us. Us - used by a speaker to refer to himself/herself andone or more other people.",
+          "incorrect": [
+            "",
+            "Not: we. Check the grammar or usage clue in the question.",
+            "Not: they. Check the grammar or usage clue in the question.",
+            "Not: she. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 219,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Choose the pronouns that will correctly replace the underlined word(s). Marge, yesterday you promised to lend your bike to Judy. _______ should have given it to _____.",
+        "choices": [
+          "h er, us",
+          "you, her",
+          "you, him",
+          "she, you"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: you, her. You, her; You refers to Marge, her refers to Ju dy.",
+          "incorrect": [
+            "Not: h er, us. Check the grammar or usage clue in the question.",
+            "",
+            "Not: you, him. Check the grammar or usage clue in the question.",
+            "Not: she, you. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 220,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which event indicates an event that is in the future?",
+        "choices": [
+          "We had pizza for lunch last Friday.",
+          "Today we are practicing division.",
+          "We will be going on a field trip next week.",
+          "We stayed up until midnight last night."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: We will be going on a field trip next week.. We will be going on a field drip next week. “We w ill” indicates future (progre ssive) tense.",
+          "incorrect": [
+            "Not: We had pizza for lunch last Friday.. Check the grammar or usage clue in the question.",
+            "Not: Today we are practicing division.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: We stayed up until midnight last night.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 221,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the best missing word. Lindsay and Danielle found _________ lost in the shopping center.",
+        "choices": [
+          "t heirselves",
+          "herself",
+          "themselves",
+          "themself"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: themselves. themselves; refers to a group of people or things previously mentioned as the subject of",
+          "incorrect": [
+            "Not: t heirselves. Check the grammar or usage clue in the question.",
+            "Not: herself. Check the grammar or usage clue in the question.",
+            "",
+            "Not: themself. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 222,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which sentence is written in Standard English?",
+        "choices": [
+          "Cecilia h asn’t no extra time this term.",
+          "Holly will not show Cami none of her sketches.",
+          "We didn’t tell Grant anything about the surprise.",
+          "Don’t say nothing about the dance to Martin."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: We didn’t tell Grant anything about the surprise.. We didn’t tell Grant anything about the surprise.",
+          "incorrect": [
+            "Not: Cecilia h asn’t no extra time this term.. Check the grammar or usage clue in the question.",
+            "Not: Holly will not show Cami none of her sketches.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Don’t say nothing about the dance to Martin.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 223,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which two sentences are correct? A) A beautiful baby smiling at us. B) A man identified himself as a C.I.A. Agent. C) A severe winter storm raged for more than a day. D) Near the ledge by the window in the living room.",
+        "choices": [
+          "A and B",
+          "B and C",
+          "A and D",
+          "C and D"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: B and C. B and C; A man identified himself as a C.I.A. Agent AND A severe wi nter storm raged for",
+          "incorrect": [
+            "Not: A and B. Check the grammar or usage clue in the question.",
+            "",
+            "Not: A and D. Check the grammar or usage clue in the question.",
+            "Not: C and D. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-pronoun-agreement-case",
+          "sequence": 224,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
         }
       }
     ],

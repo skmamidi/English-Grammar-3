@@ -488,9 +488,10 @@
         const expText = isCorrectChoice
           ? q.explanation.correct
           : (q.explanation.incorrect[idx] || '');
+        const displayText = cleanExplanationText(expText, q);
         return `
           <div class="choice-explanation ${isCorrectChoice ? 'correct-exp' : 'incorrect-exp'}">
-            <strong>${String.fromCharCode(65 + idx)})</strong> ${escapeHtml(expText)}
+            <strong>${String.fromCharCode(65 + idx)})</strong> ${escapeHtml(displayText)}
           </div>
         `;
       }).join('');
@@ -695,7 +696,9 @@
     const prompt = getDisplayPromptParts(localize(scene.prompt || question.question));
     const promptText = prompt.task || prompt.fullText;
     const guidanceText = safeSceneText(getQuestionStrategyClue(question, scene));
-    const visualPrompt = prompt.type === 'passage' ? renderVisualPassagePrompt(prompt) : '';
+    const visualPrompt = prompt.type === 'passage'
+      ? renderVisualPassagePrompt(prompt)
+      : renderVisualPlainPrompt(prompt);
     const integratedDialogue = getIntegratedSceneDialogue(dialogue, promptText, guidanceText);
     return `
       <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
@@ -773,6 +776,25 @@
         ${prompt.annotation ? `
           <p class="prompt-annotation">${escapeHtml(prompt.annotation)}</p>
         ` : ''}
+        ${prompt.task ? `
+          <div class="prompt-task">
+            <span>Question</span>
+            <strong>${escapeHtml(prompt.task)}</strong>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  function renderVisualPlainPrompt(prompt) {
+    const text = prompt && (prompt.task || prompt.fullText);
+    if (!text) return '';
+    return `
+      <div class="visual-prompt-card visual-prompt-card-plain">
+        <div class="prompt-task">
+          <span>Question</span>
+          <strong>${escapeHtml(text)}</strong>
+        </div>
       </div>
     `;
   }
@@ -911,8 +933,8 @@
   }
 
   function getContextMeaningDetails(prompt) {
-    const quoted = String(prompt || '').match(/"([^"]+)"/);
-    const target = String(prompt || '').match(/\bwhat does\s+([A-Za-z'-]+)\s+(?:mean|most nearly mean)\b/i);
+    const quoted = String(prompt || '').match(/["']([^"']+)["']/);
+    const target = String(prompt || '').match(/\bwhat does\s+["']?([A-Za-z'-]+)["']?\s+(?:mean|most nearly mean)\b/i);
     if (!quoted || !target) return null;
     return {
       sentence: quoted[1].trim(),
@@ -1602,7 +1624,25 @@
     const correctChoice = answer
       ? `Correct: ${answer}${/[.!?]$/.test(answer) ? '' : '.'}`
       : '';
-    return [wrongExplanation, correctChoice].filter(Boolean).join(' ');
+    return [cleanExplanationText(wrongExplanation, question), correctChoice].filter(Boolean).join(' ');
+  }
+
+  function cleanExplanationText(value, question) {
+    const text = normalizePromptText(value);
+    if (!/Leaves a capitalization, punctuation, spelling, grammar, or meaning error\./i.test(text)) return text;
+    const skills = question && question.metadata && Array.isArray(question.metadata.skills)
+      ? question.metadata.skills.join(' ').toLowerCase()
+      : '';
+    const replacement = /context clues|vocabulary|inference/.test(skills)
+      ? 'This choice does not match the context clues.'
+      : /spelling|homophone|vowel|syllable/.test(skills)
+        ? 'This choice does not use the correct spelling or word pattern.'
+        : /capital/.test(skills)
+          ? 'This choice does not follow the capitalization rule.'
+          : /punctuation|comma|apostrophe|quotation|period|colon/.test(skills)
+            ? 'This choice does not follow the punctuation rule.'
+            : 'This choice does not match the rule or clue in the question.';
+    return text.replace(/Leaves a capitalization, punctuation, spelling, grammar, or meaning error\./gi, replacement);
   }
 
   function getStrategyHint(question) {

@@ -4123,7 +4123,7 @@
           ]
         },
         "studyAid": {
-          "definition": "The letter group '-ough' can make many sounds. You must listen to the sounds, not just the spelling, to find rhymes.",
+          "definition": "The letter group '-ough' can make many sounds. You must listen to the sounds, not justhe spelling, to find rhymes.",
           "example": "enough / tough / rough / stuff",
           "link": "https://www.readingrockets.org/article/learning-read-rhyme",
           "linkText": "Reading Rockets - Rhyming"
@@ -6826,6 +6826,251 @@
           "sourceSet": "vocabulary-synonyms-antonyms",
           "sequence": 40
         }
+      },
+      {
+        "question": "Give the synonym for predicate.",
+        "choices": [
+          "art icle",
+          "noun",
+          "verb",
+          "adverb"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: verb. verb",
+          "incorrect": [
+            "Not: art icle. Check the grammar or usage clue in the question.",
+            "Not: noun. Check the grammar or usage clue in the question.",
+            "",
+            "Not: adverb. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 41,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which words have the same meaning as the underlined words in the following sentence? Pete found his homework under his bed.",
+        "choices": [
+          "below the bed.",
+          "over the bed.",
+          "behind the bed.",
+          "n ear the bed."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: below the bed.. Under the bed is the same as below the bed. Below is a synonym for under.",
+          "incorrect": [
+            "",
+            "Not: over the bed.. Check the grammar or usage clue in the question.",
+            "Not: behind the bed.. Check the grammar or usage clue in the question.",
+            "Not: n ear the bed.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 42,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "What does the word “especially” mean in the following sentence? She is especially fondof that teddy bear.",
+        "choices": [
+          "rat her",
+          "not",
+          "sort of",
+          "extremely"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: extremely. Extremely - to a very great degree; especially.",
+          "incorrect": [
+            "Not: rat her. Check the grammar or usage clue in the question.",
+            "Not: not. Check the grammar or usage clue in the question.",
+            "Not: sort of. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 43,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which two sentences have the same meaning? A) In the kitchen the family was busy. B) The family busiedothers in the kitchen. C) The others busied the family in the kitchen. D) The family was busy in the kitchen.",
+        "choices": [
+          "B and C",
+          "A and D",
+          "A and B",
+          "C and D"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: A and D. A and D; In the kitchen the family was busy AND The family was busy in the kitchen.",
+          "incorrect": [
+            "Not: B and C. Check the grammar or usage clue in the question.",
+            "",
+            "Not: A and B. Check the grammar or usage clue in the question.",
+            "Not: C and D. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 44,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which choice means nearly the same as the underlined verb? The wind has driven the cattle to find shelter.",
+        "choices": [
+          "h as thrown",
+          "has shown",
+          "has blown",
+          "has forced"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: has forced. has forced; drive – propel or carry along by force in a specified direction.",
+          "incorrect": [
+            "Not: h as thrown. Check the grammar or usage clue in the question.",
+            "Not: has shown. Check the grammar or usage clue in the question.",
+            "Not: has blown. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 45,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 4
+        }
       }
     ],
     "metadata": {
@@ -7610,6 +7855,741 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-comparatives-superlatives",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Which sentence shows a superlative adverb?",
+        "choices": [
+          "Beth completed the process very efficiently.",
+          "Sally works more quickly than most.",
+          "Gerald reads quietly in the window seat.",
+          "Out of the entire class, Grace works most carefully."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Out of the entire class, Grace works most carefully.. Out of the entire class, Grace works most carefull y. A superlative adverb compares three",
+          "incorrect": [
+            "Not: Beth completed the process very efficiently.. Check the grammar or usage clue in the question.",
+            "Not: Sally works more quickly than most.. Check the grammar or usage clue in the question.",
+            "Not: Gerald reads quietly in the window seat.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which underlined word is used incorrectly in the sentence? After the first session, several students in the class can sew pajamas better than I.",
+        "choices": [
+          "After",
+          "several",
+          "the",
+          "I"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: I. I; the correct pronoun, in this case, should be me (used as an object pronoun).",
+          "incorrect": [
+            "Not: After. Check the grammar or usage clue in the question.",
+            "Not: several. Check the grammar or usage clue in the question.",
+            "Not: the. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 17,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which one of the comparative forms is incorrect?",
+        "choices": [
+          "good - better- best",
+          "well - better - best",
+          "nice - nicer - nicest",
+          "worse - worser - worsest"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: worse - worser - worsest. worse - worser - worsest, worser and worsest are incorrect.",
+          "incorrect": [
+            "Not: good - better- best. Check the grammar or usage clue in the question.",
+            "Not: well - better - best. Check the grammar or usage clue in the question.",
+            "Not: nice - nicer - nicest. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 18,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which is the superlative form of the adjective?",
+        "choices": [
+          "taller",
+          "tallest",
+          "very tall",
+          "tall"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: tallest. tallest; a superlative adjective - used to describe an object which is at the upper or lower",
+          "incorrect": [
+            "Not: taller. Check the grammar or usage clue in the question.",
+            "",
+            "Not: very tall. Check the grammar or usage clue in the question.",
+            "Not: tall. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 19,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which set of comparative adjectives is NOT written correctly?",
+        "choices": [
+          "h appy - happier - happiest",
+          "friendly - friendlier - f riendliest",
+          "silly - sillyer - sillyest",
+          "funny - funnier - funniest"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: silly - sillyer - sillyest. silly - sillyer (sillier) - sillyest (silliest)",
+          "incorrect": [
+            "Not: h appy - happier - happiest. Check the grammar or usage clue in the question.",
+            "Not: friendly - friendlier - f riendliest. Check the grammar or usage clue in the question.",
+            "",
+            "Not: funny - funnier - funniest. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 20,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence contains the correct comparison?",
+        "choices": [
+          "Belind a is the olde st of the two sisters.",
+          "Belinda is the older of the two sisters.",
+          "Belinda is the most oldof the two sisters.",
+          "Belinda is the more oldof the two sisters."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Belinda is the older of the two sisters.. Belinda is the older of the two sisters. (older when comparing two)",
+          "incorrect": [
+            "Not: Belind a is the olde st of the two sisters.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Belinda is the most oldof the two sisters.. Check the grammar or usage clue in the question.",
+            "Not: Belinda is the more oldof the two sisters.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 21,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the best missing word. Yesterday was the _______ day of the year.",
+        "choices": [
+          "cold er",
+          "cold",
+          "coldest",
+          "coldess"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: coldest. Coldest",
+          "incorrect": [
+            "Not: cold er. Check the grammar or usage clue in the question.",
+            "Not: cold. Check the grammar or usage clue in the question.",
+            "",
+            "Not: coldess. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 22,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the best missing word. Many people think peanut butter is _______ than jelly.",
+        "choices": [
+          "good",
+          "better",
+          "gooder",
+          "best"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: better. Better - of a more excellent or effective type of quality.",
+          "incorrect": [
+            "Not: good. Check the grammar or usage clue in the question.",
+            "",
+            "Not: gooder. Check the grammar or usage clue in the question.",
+            "Not: best. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 23,
+          "sourceFile": "Basic-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the correct wordor words to complete this sentence? Elvis was the __________ singer of all time.",
+        "choices": [
+          "great",
+          "greater",
+          "greatest",
+          "more greater"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: greatest. Greatest - h ighest in qual ity",
+          "incorrect": [
+            "Not: great. Check the grammar or usage clue in the question.",
+            "Not: greater. Check the grammar or usage clue in the question.",
+            "",
+            "Not: more greater. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 24,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Choose the correct word to complete this sentence. The right answer is usually the _________ choice.",
+        "choices": [
+          "worst",
+          "b est",
+          "least",
+          "most"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: b est. Best - excelling all others.",
+          "incorrect": [
+            "Not: worst. Check the grammar or usage clue in the question.",
+            "",
+            "Not: least. Check the grammar or usage clue in the question.",
+            "Not: most. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 25,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the missing word. Yesterday, I had the _______ dinner ever.",
+        "choices": [
+          "b addest",
+          "worst",
+          "worstest",
+          "worse"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: worst. Worst - bad; least well or unpleasing.",
+          "incorrect": [
+            "Not: b addest. Check the grammar or usage clue in the question.",
+            "",
+            "Not: worstest. Check the grammar or usage clue in the question.",
+            "Not: worse. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 26,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the best missing wordor words. My broken leg was the ______ injury I have ever had.",
+        "choices": [
+          "p ainfullest",
+          "more painful",
+          "most painful",
+          "more painfullest"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: most painful. Most painful (pain - (part of the body ) suffering from discomfort caused by illness or",
+          "incorrect": [
+            "Not: p ainfullest. Check the grammar or usage clue in the question.",
+            "Not: more painful. Check the grammar or usage clue in the question.",
+            "",
+            "Not: more painfullest. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 27,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the best missing wordor words. Joey was the _____ childon the block when he got a new bike for his birthday.",
+        "choices": [
+          "mo re happy",
+          "most happiest",
+          "happier",
+          "happiest"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: happiest. Happiest (adj.) - feeling or showing pleasure or contentment.",
+          "incorrect": [
+            "Not: mo re happy. Check the grammar or usage clue in the question.",
+            "Not: most happiest. Check the grammar or usage clue in the question.",
+            "Not: happier. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 28,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the best missing wordor words. She was _______ after the race than before.",
+        "choices": [
+          "t ired",
+          "more tired",
+          "more tireder",
+          "most tiredest"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: more tired. More tired",
+          "incorrect": [
+            "Not: t ired. Check the grammar or usage clue in the question.",
+            "",
+            "Not: more tireder. Check the grammar or usage clue in the question.",
+            "Not: most tiredest. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 29,
+          "sourceFile": "Proficient-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which group of letters are adjectives? Several older homes stood along the pleas ant tree-lined block. A B C D E F",
+        "choices": [
+          "A, C, D",
+          "B, D, E",
+          "B, E, F",
+          "A, E"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: A, E. A, E; several and pleas ant are adjectives used to modify or describe a noun.",
+          "incorrect": [
+            "Not: A, C, D. Check the grammar or usage clue in the question.",
+            "Not: B, D, E. Check the grammar or usage clue in the question.",
+            "Not: B, E, F. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 30,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 8
         }
       }
     ],
@@ -14275,6 +15255,202 @@
           "reviewPriority": "high",
           "sourceSet": "vocabulary-spelling",
           "sequence": 85
+        }
+      },
+      {
+        "question": "It is conceivable that this is the eighth time I’ve complained about studying speling in grammar class. In the above sentence:",
+        "choices": [
+          "‘conceivable’ should be ‘concievale’.",
+          "‘eighth’ should be ‘eigth’.",
+          "‘speling’ should be ‘spelling’.",
+          "‘grammar’ should be ‘grammer’."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ‘speling’ should be ‘spelling’.. ‘speling’ should be correctly spelled ‘spelling’.",
+          "incorrect": [
+            "Not: ‘conceivable’ should be ‘concievale’.. Check the grammar or usage clue in the question.",
+            "Not: ‘eighth’ should be ‘eigth’.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: ‘grammar’ should be ‘grammer’.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 86,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which word is NOT spelled correctly?",
+        "choices": [
+          "acheive",
+          "cancel",
+          "dealt",
+          "exact"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: acheive. Achieve",
+          "incorrect": [
+            "",
+            "Not: cancel. Check the grammar or usage clue in the question.",
+            "Not: dealt. Check the grammar or usage clue in the question.",
+            "Not: exact. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 87,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which underlined word is NOT spelled correctly? Does the packet contain an extra pair of scissers?",
+        "choices": [
+          "p acket",
+          "contain",
+          "pair",
+          "scissers"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: scissers. Scissers should be scissors",
+          "incorrect": [
+            "Not: p acket. Check the grammar or usage clue in the question.",
+            "Not: contain. Check the grammar or usage clue in the question.",
+            "Not: pair. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 88,
+          "sourceFile": "Basic-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which underlined word it NOT spelled correctly? Nate accidentaly spilled his glass of milk.",
+        "choices": [
+          "acciden taly",
+          "spilled",
+          "glass",
+          "milk"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: acciden taly. Accidently",
+          "incorrect": [
+            "",
+            "Not: spilled. Check the grammar or usage clue in the question.",
+            "Not: glass. Check the grammar or usage clue in the question.",
+            "Not: milk. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "usage"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 89,
+          "sourceFile": "Basic-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 1
         }
       }
     ],

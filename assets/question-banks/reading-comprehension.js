@@ -5635,7 +5635,7 @@
         }
       },
       {
-        "question": "The fairy flew in through the window.",
+        "question": "Is this sentence fact or fantasy? The fairy flew in through the window.",
         "choices": [
           "fact",
           "fantasy",

@@ -520,9 +520,10 @@
     if (question && question.visualScene && question.visualScene.type === 'dialogue-scene') {
       return renderVisualQuestionScene(question.visualScene, question);
     }
+    const prompt = getDisplayPromptParts(question && question.question);
     return `
       ${renderCharacterScene(options)}
-      <div class="question-text">${escapeHtml(question.question)}</div>
+      ${renderDisplayPrompt(prompt, 'question')}
     `;
   }
 
@@ -532,7 +533,8 @@
     const nameSubstitutions = getSceneNameSubstitutions(dialogue, actorSlotOffset);
     const localize = value => applySceneNameSubstitutions(value, nameSubstitutions);
     const safeSceneText = value => scrubAnswerChoiceText(localize(value), question);
-    const promptText = localize(scene.prompt || question.question);
+    const prompt = getDisplayPromptParts(localize(scene.prompt || question.question));
+    const promptText = prompt.task || prompt.fullText;
     const guidanceText = safeSceneText(scene.clue || 'Read the clue, then test each answer choice.');
     const integratedDialogue = getIntegratedSceneDialogue(dialogue, promptText, guidanceText);
     return `
@@ -551,8 +553,91 @@
             ${integratedDialogue.map((entry, index) => renderDialogueActor(entry, index, value => value, actorSlotOffset)).join('')}
           </div>
         </div>
+        ${renderDisplayPrompt(prompt, 'visual')}
       </section>
     `;
+  }
+
+  function getDisplayPromptParts(value) {
+    const fullText = normalizePromptText(value);
+    const withoutLeadIn = stripPromptLeadIns(fullText);
+    const passageMatch = withoutLeadIn.match(/^Read the passage\.\s*(?:Grade\s+\d+\s+[a-z-]+\s+passage:\s*)?([\s\S]+)$/i);
+    const passageSource = passageMatch ? passageMatch[1].trim() : withoutLeadIn;
+    const split = passageSource.split(/\n\s*\n/);
+    if (passageMatch && split.length > 1) {
+      const task = stripPromptLeadIns(split.slice(1).join('\n\n')).trim();
+      const passageParts = split[0].trim().split(/(?<=[.!?])\s+/).filter(Boolean);
+      const annotationIndex = passageParts.findIndex(part => isPassageAnnotation(part));
+      const annotation = annotationIndex >= 0 ? passageParts.splice(annotationIndex).join(' ') : '';
+      return {
+        type: 'passage',
+        fullText: [passageParts.join(' '), annotation, task].filter(Boolean).join(' '),
+        passage: passageParts.join(' '),
+        annotation,
+        task
+      };
+    }
+    return {
+      type: 'plain',
+      fullText: withoutLeadIn,
+      passage: '',
+      annotation: '',
+      task: withoutLeadIn
+    };
+  }
+
+  function renderDisplayPrompt(prompt, variant) {
+    if (!prompt || !prompt.fullText) return '';
+    if (prompt.type !== 'passage') {
+      return `<div class="${variant}-prompt-card ${variant}-prompt-card-plain"><div class="question-text">${escapeHtml(prompt.task || prompt.fullText)}</div></div>`;
+    }
+    return `
+      <div class="${variant}-prompt-card ${variant}-prompt-card-passage">
+        <div class="prompt-passage">
+          <span>Passage</span>
+          <p>${escapeHtml(prompt.passage)}</p>
+        </div>
+        ${prompt.annotation ? `
+          <p class="prompt-annotation">${escapeHtml(prompt.annotation)}</p>
+        ` : ''}
+        <div class="prompt-task">
+          <span>Question</span>
+          <strong>${escapeHtml(prompt.task)}</strong>
+        </div>
+      </div>
+    `;
+  }
+
+  function normalizePromptText(value) {
+    return String(value == null ? '' : value)
+      .replace(/\r\n?/g, '\n')
+      .replace(/[ \t]+/g, ' ')
+      .replace(/\n[ \t]+/g, '\n')
+      .trim();
+  }
+
+  function stripPromptLeadIns(value) {
+    let text = normalizePromptText(value);
+    const leadIns = [
+      /^Grade\s+\d+\s+(Easy|Medium|Hard):\s*/i,
+      /^Choose the best answer\.\s*/i,
+      /^Use the context to choose the best answer\.\s*/i,
+      /^Analyze the details and choose the strongest answer\.\s*/i
+    ];
+    let changed = true;
+    while (changed) {
+      changed = false;
+      leadIns.forEach(pattern => {
+        if (!pattern.test(text)) return;
+        text = text.replace(pattern, '').trim();
+        changed = true;
+      });
+    }
+    return text;
+  }
+
+  function isPassageAnnotation(value) {
+    return /^(These details show|The details show|This shows|Together, these details show|Because the passage|Readers can see|The author (presents|adds|includes))\b/i.test(String(value || '').trim());
   }
 
   function getIntegratedSceneDialogue(dialogue, promptText, guidanceText) {

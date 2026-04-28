@@ -92,17 +92,17 @@ function injectAuthShell() {
   gate.innerHTML = `
     <div class="auth-gate-card">
       <div class="quest-kicker">English Language Mastery</div>
-      <h1 data-auth-gate-title>Choose how to enter</h1>
-      <p data-auth-gate-copy>Students can start practice with a login name. Parents and teachers can manage students and reports.</p>
+      <h1 data-auth-gate-title>Sign in</h1>
+      <p data-auth-gate-copy></p>
+      <div class="auth-tabs" role="tablist" aria-label="Sign in type">
+        <button class="auth-tab active" type="button" role="tab" aria-selected="true" data-auth-tab="student">Student</button>
+        <button class="auth-tab" type="button" role="tab" aria-selected="false" data-auth-tab="parent">Parent</button>
+      </div>
       <div class="auth-entry-grid" data-auth-entry-grid>
-        <section class="auth-entry-card">
-          <h2>Student</h2>
-          <p>Use your student login name to continue practice.</p>
+        <section class="auth-entry-panel active" data-auth-panel="student">
           ${renderStudentLoginPanel()}
         </section>
-        <section class="auth-entry-card">
-          <h2>Parent / Teacher</h2>
-          <p>Sign in to manage students and review progress.</p>
+        <section class="auth-entry-panel" data-auth-panel="parent">
           ${renderSignInPanel()}
         </section>
       </div>
@@ -179,6 +179,19 @@ function renderStudentLoginPanel() {
   `;
 }
 
+function activateAuthTab(tabName) {
+  const activeName = tabName === "parent" ? "parent" : "student";
+  document.querySelectorAll("[data-auth-tab]").forEach(tab => {
+    const selected = tab.dataset.authTab === activeName;
+    tab.classList.toggle("active", selected);
+    tab.setAttribute("aria-selected", selected ? "true" : "false");
+  });
+  document.querySelectorAll("[data-auth-panel]").forEach(panel => {
+    panel.classList.toggle("active", panel.dataset.authPanel === activeName);
+  });
+  showMessage("");
+}
+
 function renderStudentTools(includeParentModeButton) {
   return `
     <form data-create-student-form>
@@ -203,6 +216,7 @@ function wireModalEvents() {
     const closeButton = event.target.closest("[data-auth-close]");
     const signOutButton = event.target.closest("[data-auth-signout]");
     const providerButton = event.target.closest("[data-auth-provider]");
+    const authTab = event.target.closest("[data-auth-tab]");
     const signupButton = event.target.closest("[data-auth-email-action='signup']");
     const suggestButton = event.target.closest("[data-suggest-login-name]");
     const studentButton = event.target.closest("[data-student-id]");
@@ -214,6 +228,7 @@ function wireModalEvents() {
     if (closeButton || event.target.id === "auth-modal") closeModal();
     if (signOutButton) await signOut();
     if (providerButton) await signInWithProvider(providerButton.dataset.authProvider);
+    if (authTab) activateAuthTab(authTab.dataset.authTab);
     if (signupButton) await signInWithEmail(event, "signup");
     if (suggestButton) suggestLoginName(suggestButton);
     if (studentButton) await handleSelectStudentById(studentButton.dataset.studentId);
@@ -763,10 +778,10 @@ function renderAuthGate({ signedIn, studentMode, parentMode }) {
   if (!gate) return;
 
   if (!signedIn && !studentMode) {
-    if (title) title.textContent = "Choose how to enter";
-    if (copy) copy.textContent = "Students can start practice with a login name. Parents and teachers can manage students and reports.";
+    if (title) title.textContent = "Sign in";
+    if (copy) copy.textContent = "";
     if (entryGrid) entryGrid.classList.remove("hidden");
-    if (signInPanel) signInPanel.classList.remove("hidden");
+    if (signInPanel) signInPanel.classList.add("hidden");
     if (toolsWrap) toolsWrap.classList.add("hidden");
     return;
   }

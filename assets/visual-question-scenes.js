@@ -190,10 +190,11 @@
     const title = getSceneTitle(profile, set, question, index);
     const shortEvidence = evidence ? shorten(evidence, 98) : 'the strongest clue in the question';
     const secondLine = getSecondLine(profile, question);
+    const moods = getSceneMoods(question, profile);
 
     return scene(title, setting, profile.board, profile.narration, [
-      line(actors[0], 'curious', `I found the evidence: "${shortEvidence}"`),
-      line(actors[1], 'coaching', secondLine)
+      line(actors[0], moods[0], `I found the evidence: "${shortEvidence}"`),
+      line(actors[1], moods[1], secondLine)
     ], prompt, getClue(profile, question));
   }
 
@@ -226,6 +227,21 @@
       : '';
     if (skills) return `I will use ${skills} clues and test each answer choice.`;
     return 'I will compare each answer with the clue before choosing.';
+  }
+
+  function getSceneMoods(question, profile) {
+    const text = [
+      question && question.question,
+      question && Array.isArray(question.choices) ? question.choices.join(' ') : '',
+      profile && profile.title
+    ].filter(Boolean).join(' ').toLowerCase();
+    if (/urgent|watch out|look out|danger|falling|strong feeling|exclamation/.test(text)) return ['urgent', 'amazed'];
+    if (/\?|which|what|how|why|when|where/.test(text)) return ['curious', 'thinking'];
+    if (/correct|fix|revision|rewrite|edit|error/.test(text)) return ['focused', 'determined'];
+    if (/story|poem|reader|evidence|inference|theme/.test(text)) return ['reading', 'coaching'];
+    if (/not|except|least|does not/.test(text)) return ['puzzled', 'coaching'];
+    if (/celebrate|award|great|wow|oh/.test(text)) return ['excited', 'delighted'];
+    return ['curious', 'coaching'];
   }
 
   function getClue(profile, question) {

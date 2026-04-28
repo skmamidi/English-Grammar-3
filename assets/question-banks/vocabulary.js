@@ -7469,17 +7469,17 @@
         ],
         "correct": 1,
         "explanation": {
-          "correct": "Answer: most boring. Two-syllable adjectives ending in -y usually change to -ier/-iest.",
+          "correct": "Answer: most boring. 'Boring' is a two-syllable adjective ending in -ing, so it usually uses 'more' for comparative and 'most' for superlative.",
           "incorrect": [
-            "Not: more boring. It uses the comparison form incorrectly.",
+            "Not: more boring. The sentence says 'the ___ book I have ever read,' so it needs the superlative form, not the comparative form.",
             "",
-            "Not: boringer. It uses the comparison form incorrectly.",
-            "Not: boringest. It uses the comparison form incorrectly."
+            "Not: boringer. 'Boring' usually uses 'more' or 'most' instead of adding '-er.'",
+            "Not: boringest. 'Boring' usually uses 'more' or 'most' instead of adding '-est.'"
           ]
         },
         "studyAid": {
-          "definition": "Two-syllable adjectives ending in -y usually change to -ier/-iest. Others usually use more/most.",
-          "example": "happy → happier → happiest; boring → more boring → most boring",
+          "definition": "Many two-syllable adjectives that do not end in -y use more/most, especially adjectives ending in -ing.",
+          "example": "boring → more boring → most boring; exciting → more exciting → most exciting",
           "link": "https://www.grammar-monster.com/glossary/comparatives.htm",
           "linkText": "Grammar Monster - Comparatives"
         },

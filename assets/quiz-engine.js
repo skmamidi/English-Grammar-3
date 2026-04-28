@@ -255,10 +255,6 @@
       </div>
 
       <div class="question-box">
-        <div class="question-card-heading">
-          <span>Read carefully</span>
-          <span>${reviewMode ? 'Review round' : 'Practice round'}</span>
-        </div>
         ${questionPrompt}
         <div class="thinking-tools">
           <button type="button" class="strategy-btn" id="strategy-btn">Strategy clue</button>
@@ -278,7 +274,6 @@
             </button>
           `).join('')}
         </div>
-        <div class="answer-gate" id="answer-gate">Choose how sure you are, then pick an answer.</div>
       </div>
 
       <div id="feedback-area"></div>
@@ -305,8 +300,6 @@
         document.querySelectorAll('.choice-btn').forEach(choiceBtn => {
           choiceBtn.disabled = false;
         });
-        const gate = document.getElementById('answer-gate');
-        if (gate) gate.textContent = getConfidenceNudge(currentConfidence);
       });
     });
 
@@ -387,31 +380,20 @@
     }
 
     const studyAidHtml = renderStudyAid(q.studyAid);
-    const selectedExplanation = getSelectedExplanation(q, selectedIndex, isCorrect);
-    const learningReflection = renderLearningReflection(isCorrect);
-    const feedbackScene = renderCharacterScene({
-      question: q,
-      index: currentIndex,
-      mode: 'feedback',
-      isCorrect
-    });
+    const characterNotesHtml = renderCharacterNotes(q, currentIndex);
 
     feedbackArea.innerHTML = `
       <div class="feedback-box">
-        ${feedbackScene}
         <div class="feedback-summary">
           <div class="feedback-title ${isCorrect ? 'correct' : 'incorrect'}">
             ${isCorrect ? 'Correct! Star gem found.' : 'Not quite. The trail is still open.'}
           </div>
           <div class="feedback-answer-pill">${escapeHtml(String.fromCharCode(65 + selectedIndex))}</div>
         </div>
-        <div class="feedback-text">
-          ${escapeHtml(selectedExplanation)}
-        </div>
-        ${learningReflection}
         ${comboMessage}
         ${choiceExplanations ? `<div class="choice-explanations">${choiceExplanations}</div>` : ''}
         ${studyAidHtml}
+        ${characterNotesHtml}
       </div>
     `;
 
@@ -458,6 +440,54 @@
     }, options));
   }
 
+  function renderCharacterNotes(question, index) {
+    const catalog = window.GrammarQuestCharacters;
+    if (!catalog) return '';
+    const scene = question && question.visualScene && question.visualScene.type === 'dialogue-scene'
+      ? question.visualScene
+      : null;
+    const dialogue = scene && Array.isArray(scene.dialogue) ? scene.dialogue.slice(0, 2) : [];
+    const entries = dialogue.length
+      ? dialogue.map((entry, slot) => getSceneCharacter(entry && entry.characterId, slot))
+      : [catalog.getQuestionScene && catalog.getQuestionScene({
+          question,
+          index,
+          mode: 'question'
+        })].filter(Boolean).map(sceneData => ({
+          set: sceneData.set,
+          character: sceneData.character
+        }));
+    const unique = [];
+    entries.forEach(resolved => {
+      if (!resolved || !resolved.character || unique.some(item => item.character.id === resolved.character.id)) return;
+      unique.push(resolved);
+    });
+    if (!unique.length) return '';
+    return `
+      <details class="character-note-footer">
+        <summary>Character notes</summary>
+        <div class="character-note-grid">
+          ${unique.map(resolved => {
+            const name = typeof catalog.getCharacterDisplayName === 'function'
+              ? catalog.getCharacterDisplayName(resolved.character)
+              : resolved.character.name;
+            const petName = resolved.character.pet && typeof catalog.getPetDisplayName === 'function'
+              ? catalog.getPetDisplayName(resolved.character.pet)
+              : (resolved.character.pet ? resolved.character.pet.name : '');
+            return `
+              <article class="character-note-card">
+                <strong>${escapeHtml(name)}</strong>
+                <span>${escapeHtml(resolved.character.role || resolved.set.name)}</span>
+                <p>${escapeHtml(resolved.character.backstory || '')}</p>
+                ${petName ? `<em>Companion: ${escapeHtml(petName)}</em>` : ''}
+              </article>
+            `;
+          }).join('')}
+        </div>
+      </details>
+    `;
+  }
+
   function renderCharacterSetControls() {
     const catalog = window.GrammarQuestCharacters;
     if (!catalog || !Array.isArray(catalog.sets) || typeof catalog.getSelectedCharacterSetId !== 'function') {
@@ -498,6 +528,8 @@
 
   function renderVisualQuestionScene(scene, question) {
     const dialogue = Array.isArray(scene.dialogue) ? scene.dialogue.slice(0, 2) : [];
+    const nameSubstitutions = getSceneNameSubstitutions(dialogue);
+    const localize = value => applySceneNameSubstitutions(value, nameSubstitutions);
     const choiceCards = shouldRenderVisualChoiceCards(question)
       ? `
         <div class="visual-choice-cards" aria-label="Sentence cards from the scene">
@@ -513,27 +545,57 @@
     return `
       <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
         <div class="visual-scene-intro">
-          <div class="visual-scene-kicker">Visual question proof of concept</div>
           <h3>${escapeHtml(scene.title || 'Question Scene')}</h3>
-          <p>${escapeHtml(scene.narration || '')}</p>
         </div>
         <div class="visual-stage">
           ${renderSceneSetPiece(scene)}
           <div class="visual-stage-board" aria-hidden="true">
             <span>${escapeHtml(scene.board || 'Sentence lab')}</span>
-            <strong>${escapeHtml(scene.clue || 'Read for purpose.')}</strong>
+            <strong>${escapeHtml(localize(scene.clue || 'Read for purpose.'))}</strong>
           </div>
           <div class="visual-dialogue-strip">
-            ${dialogue.map((entry, index) => renderDialogueActor(entry, index)).join('')}
+            ${dialogue.map((entry, index) => renderDialogueActor(entry, index, localize)).join('')}
           </div>
         </div>
         <div class="visual-mission">
           <span>Mission question</span>
-          <strong>${escapeHtml(scene.prompt || question.question)}</strong>
+          <strong>${escapeHtml(localize(scene.prompt || question.question))}</strong>
         </div>
         ${choiceCards}
       </section>
     `;
+  }
+
+  function getSceneNameSubstitutions(dialogue) {
+    const catalog = window.GrammarQuestCharacters;
+    if (!catalog || !Array.isArray(dialogue)) return [];
+    return dialogue.map((entry, index) => {
+      const original = entry && entry.characterId && typeof catalog.getCharacterById === 'function'
+        ? catalog.getCharacterById(entry.characterId)
+        : null;
+      const resolved = getSceneCharacter(entry && entry.characterId, index);
+      const replacement = resolved && typeof catalog.getCharacterDisplayName === 'function'
+        ? catalog.getCharacterDisplayName(resolved.character)
+        : (resolved ? resolved.character.name : '');
+      if (!original || !original.character || !replacement) return null;
+      return {
+        full: original.character.name,
+        first: original.character.name.split(/\s+/)[0],
+        replacement
+      };
+    }).filter(Boolean);
+  }
+
+  function applySceneNameSubstitutions(value, substitutions) {
+    let text = String(value == null ? '' : value);
+    substitutions.forEach(item => {
+      if (!item || !item.replacement) return;
+      [item.full, item.first].filter(Boolean).forEach(name => {
+        if (name === item.replacement) return;
+        text = text.replace(new RegExp(`\\b${escapeRegExp(name)}\\b`, 'g'), item.replacement);
+      });
+    });
+    return text;
   }
 
   function renderSceneSetPiece(scene) {
@@ -772,18 +834,30 @@
     });
   }
 
-  function renderDialogueActor(entry, index) {
+  function renderDialogueActor(entry, index, localizeText) {
     const resolved = getSceneCharacter(entry && entry.characterId, index);
-    const name = resolved ? resolved.character.name : 'Guide';
+    const catalog = window.GrammarQuestCharacters;
+    const name = resolved && catalog && typeof catalog.getCharacterDisplayName === 'function'
+      ? catalog.getCharacterDisplayName(resolved.character)
+      : (resolved ? resolved.character.name : 'Guide');
     const art = resolved
       ? window.GrammarQuestCharacters.renderCharacter(resolved.character, resolved.set, entry.emotion || 'curious')
       : '';
+    const petArt = resolved && resolved.character.pet && catalog && typeof catalog.renderPet === 'function'
+      ? catalog.renderPet(resolved.character.pet, entry.emotion || 'curious')
+      : '';
+    const petName = resolved && resolved.character.pet && catalog && typeof catalog.getPetDisplayName === 'function'
+      ? catalog.getPetDisplayName(resolved.character.pet)
+      : (resolved && resolved.character.pet ? resolved.character.pet.name : '');
     return `
       <div class="visual-actor visual-actor-${index + 1}">
-        <div class="visual-actor-art">${art}</div>
+        <div class="visual-actor-art">
+          ${art}
+          ${petArt ? `<div class="visual-pet-badge"><span>${escapeHtml(petName)}</span>${petArt}</div>` : ''}
+        </div>
         <div class="visual-speech-bubble">
           <span>${escapeHtml(name)}</span>
-          <p>${escapeHtml(entry && entry.text ? entry.text : '')}</p>
+          <p>${escapeHtml(localizeText ? localizeText(entry && entry.text ? entry.text : '') : (entry && entry.text ? entry.text : ''))}</p>
         </div>
       </div>
     `;
@@ -1623,6 +1697,10 @@
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-|-$/g, '');
+  }
+
+  function escapeRegExp(text) {
+    return String(text || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   // Utility: escape HTML

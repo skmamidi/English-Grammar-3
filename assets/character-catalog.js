@@ -6,6 +6,34 @@
   'use strict';
 
   const characterSetStorageKey = 'grammarQuestCharacterSet';
+  const characterNameStorageKey = 'grammarQuestCharacterNames';
+  const petNameStorageKey = 'grammarQuestPetNames';
+  const expressionPresets = {
+    curious: { eyes: 'open', brows: 'lift', mouth: 'smile', cheeks: true, tilt: -1 },
+    confident: { eyes: 'open', brows: 'calm', mouth: 'grin', cheeks: true, tilt: 0 },
+    puzzled: { eyes: 'squint', brows: 'quirk', mouth: 'hmm', cheeks: false, tilt: -4 },
+    coaching: { eyes: 'open', brows: 'soft', mouth: 'talk', cheeks: true, tilt: 1 },
+    celebrate: { eyes: 'happy', brows: 'lift', mouth: 'bigSmile', cheeks: true, tilt: 0 },
+    surprised: { eyes: 'wide', brows: 'high', mouth: 'oh', cheeks: true, tilt: -2 },
+    delighted: { eyes: 'happy', brows: 'lift', mouth: 'bigSmile', cheeks: true, tilt: 2 },
+    thinking: { eyes: 'side', brows: 'soft', mouth: 'line', cheeks: false, tilt: -2 },
+    focused: { eyes: 'open', brows: 'focus', mouth: 'line', cheeks: false, tilt: 0 },
+    worried: { eyes: 'wide', brows: 'worry', mouth: 'smallFrown', cheeks: false, tilt: -2 },
+    brave: { eyes: 'open', brows: 'focus', mouth: 'grin', cheeks: true, tilt: 1 },
+    gentle: { eyes: 'soft', brows: 'soft', mouth: 'softSmile', cheeks: true, tilt: 0 },
+    excited: { eyes: 'happy', brows: 'high', mouth: 'openSmile', cheeks: true, tilt: 2 },
+    amused: { eyes: 'wink', brows: 'calm', mouth: 'smirk', cheeks: true, tilt: 1 },
+    determined: { eyes: 'open', brows: 'focus', mouth: 'firmSmile', cheeks: false, tilt: 0 },
+    proud: { eyes: 'happy', brows: 'calm', mouth: 'grin', cheeks: true, tilt: 2 },
+    unsure: { eyes: 'side', brows: 'worry', mouth: 'hmm', cheeks: false, tilt: -3 },
+    amazed: { eyes: 'wide', brows: 'high', mouth: 'oh', cheeks: true, tilt: 1 },
+    calm: { eyes: 'soft', brows: 'calm', mouth: 'softSmile', cheeks: true, tilt: 0 },
+    silly: { eyes: 'wink', brows: 'quirk', mouth: 'smirk', cheeks: true, tilt: 3 },
+    reading: { eyes: 'down', brows: 'soft', mouth: 'softSmile', cheeks: false, tilt: -1 },
+    whispering: { eyes: 'side', brows: 'soft', mouth: 'smallTalk', cheeks: true, tilt: 0 },
+    urgent: { eyes: 'wide', brows: 'focus', mouth: 'openTalk', cheeks: false, tilt: -1 },
+    relieved: { eyes: 'happy', brows: 'soft', mouth: 'softSmile', cheeks: true, tilt: 0 }
+  };
 
   const characterSets = [
     {
@@ -32,7 +60,15 @@
           skin: '#f6c7a7',
           hair: '#3f2b1f',
           outfit: '#1d4ed8',
-          prop: 'map'
+          prop: 'map',
+          pet: {
+            id: 'pickle',
+            name: 'Pickle',
+            species: 'clue pup',
+            color: '#f59e0b',
+            accent: '#7c2d12',
+            backstory: 'Pickle sniffs out hidden clue words and taps the right sentence with one paw.'
+          }
         },
         {
           id: 'jo-pocket',
@@ -52,7 +88,15 @@
           skin: '#8f5f3e',
           hair: '#111827',
           outfit: '#0f766e',
-          prop: 'envelope'
+          prop: 'envelope',
+          pet: {
+            id: 'button',
+            name: 'Button',
+            species: 'pocket hedgehog',
+            color: '#a16207',
+            accent: '#fef3c7',
+            backstory: 'Button curls into a tiny comma shape whenever a sentence needs a pause.'
+          }
         }
       ]
     },
@@ -79,7 +123,15 @@
           secondary: '#f97316',
           wing: '#fb923c',
           belly: '#fed7aa',
-          prop: 'scroll'
+          prop: 'scroll',
+          pet: {
+            id: 'sparklet',
+            name: 'Sparklet',
+            species: 'ember moth',
+            color: '#f97316',
+            accent: '#fde68a',
+            backstory: 'Sparklet glows brighter when a sentence has strong feeling.'
+          }
         },
         {
           id: 'azure-quill',
@@ -98,7 +150,15 @@
           secondary: '#06b6d4',
           wing: '#38bdf8',
           belly: '#bfdbfe',
-          prop: 'quill'
+          prop: 'quill',
+          pet: {
+            id: 'cloudpip',
+            name: 'Cloudpip',
+            species: 'sky fish',
+            color: '#38bdf8',
+            accent: '#e0f2fe',
+            backstory: 'Cloudpip floats beside tricky words and bubbles up context clues.'
+          }
         }
       ]
     },
@@ -126,7 +186,15 @@
           skin: '#c9865b',
           hair: '#1f2937',
           outfit: '#111827',
-          prop: 'scanner'
+          prop: 'scanner',
+          pet: {
+            id: 'pixel',
+            name: 'Pixel',
+            species: 'code cat',
+            color: '#111827',
+            accent: '#22c55e',
+            backstory: 'Pixel blinks green when the grammar signal is locked in.'
+          }
         },
         {
           id: 'piper-prism',
@@ -146,7 +214,15 @@
           skin: '#9f6a4d',
           hair: '#4c1d95',
           outfit: '#312e81',
-          prop: 'prism'
+          prop: 'prism',
+          pet: {
+            id: 'glimmer',
+            name: 'Glimmer',
+            species: 'prism bunny',
+            color: '#7c3aed',
+            accent: '#67e8f9',
+            backstory: 'Glimmer splits big reading clues into little colors that are easier to follow.'
+          }
         }
       ]
     }
@@ -215,16 +291,18 @@
 
   function renderSceneCard(options) {
     const scene = getQuestionScene(options || {});
-    const label = `${scene.character.name}, ${scene.character.role}`;
+    const characterName = getCharacterDisplayName(scene.character);
+    const label = `${characterName}, ${scene.character.role}`;
     return `
       <section class="question-scene" aria-label="${escapeHtml(label)}">
         <div class="question-scene-art">
           ${renderCharacter(scene.character, scene.set, scene.emotion)}
+          ${renderPet(scene.character.pet, 'curious')}
         </div>
         <div class="question-scene-copy">
           <div class="question-scene-meta">
             <span>${escapeHtml(scene.set.name)}</span>
-            <span>${escapeHtml(scene.character.name)}</span>
+            <span>${escapeHtml(characterName)}</span>
           </div>
           <div class="question-scene-title">
             <span class="question-scene-icon" aria-hidden="true">${escapeHtml(scene.concept.icon)}</span>
@@ -304,14 +382,62 @@
     return normalized;
   }
 
+  function getCustomizationMap(storageKey) {
+    try {
+      return JSON.parse(window.localStorage.getItem(storageKey)) || {};
+    } catch (err) {
+      return {};
+    }
+  }
+
+  function setCustomizationName(storageKey, id, value) {
+    const map = getCustomizationMap(storageKey);
+    const clean = String(value || '').trim();
+    if (clean) map[id] = clean;
+    else delete map[id];
+    try {
+      window.localStorage.setItem(storageKey, JSON.stringify(map));
+    } catch (err) {
+      return;
+    }
+  }
+
+  function getCharacterDisplayName(character) {
+    if (!character) return '';
+    return getCustomizationMap(characterNameStorageKey)[character.id] || character.name;
+  }
+
+  function getPetDisplayName(pet) {
+    if (!pet) return '';
+    return getCustomizationMap(petNameStorageKey)[pet.id] || pet.name;
+  }
+
+  function setCharacterDisplayName(characterId, value) {
+    setCustomizationName(characterNameStorageKey, characterId, value);
+  }
+
+  function setPetDisplayName(petId, value) {
+    setCustomizationName(petNameStorageKey, petId, value);
+  }
+
+  function resetCustomNames() {
+    try {
+      window.localStorage.removeItem(characterNameStorageKey);
+      window.localStorage.removeItem(petNameStorageKey);
+    } catch (err) {
+      return;
+    }
+  }
+
   function renderStudent(character, emotion) {
     const svgId = `${character.id}-${emotion}`;
-    const eyebrowTilt = emotion === 'puzzled' ? 'rotate(-9 76 64)' : 'rotate(0 76 64)';
-    const smile = emotion === 'puzzled' ? 'M70 86 Q80 81 90 86' : 'M69 84 Q80 94 92 84';
+    const expression = getExpression(emotion);
+    const face = getStudentFace(expression);
+    const label = getCharacterDisplayName(character) || character.name;
     const armLeft = emotion === 'celebrate' ? 'M57 119 C36 103 31 82 39 68' : 'M58 120 C40 126 31 139 28 155';
     const armRight = emotion === 'coaching' ? 'M102 120 C121 111 134 101 146 87' : 'M101 120 C119 130 128 142 132 157';
     return `
-      <svg class="character-svg" viewBox="0 0 180 190" role="img" aria-label="${escapeHtml(character.name)} ${escapeHtml(emotion)} illustration">
+      <svg class="character-svg" viewBox="0 0 180 190" role="img" aria-label="${escapeHtml(label)} ${escapeHtml(emotion)} illustration">
         <defs>
           <linearGradient id="${svgId}-bg" x1="0" x2="1" y1="0" y2="1">
             <stop offset="0" stop-color="${character.accent}" stop-opacity="0.2" />
@@ -325,13 +451,61 @@
         <path d="M59 126 L99 126 L94 152 L66 152 Z" fill="${character.accent}" opacity="0.34" />
         <circle cx="80" cy="71" r="36" fill="${character.skin}" />
         <path d="M45 70 C45 38 66 22 91 30 C115 38 123 60 113 77 C101 57 77 48 49 67 Z" fill="${character.hair}" />
-        <circle cx="68" cy="73" r="4" fill="#111827" />
-        <circle cx="92" cy="73" r="4" fill="#111827" />
-        <path d="${smile}" fill="none" stroke="#7c2d12" stroke-width="4" stroke-linecap="round" />
-        <path d="M62 62 L73 60" stroke="#111827" stroke-width="3" stroke-linecap="round" transform="${eyebrowTilt}" />
-        <path d="M87 60 L99 62" stroke="#111827" stroke-width="3" stroke-linecap="round" />
+        ${face}
         ${renderStudentProp(character)}
       </svg>
+    `;
+  }
+
+  function getExpression(emotion) {
+    return expressionPresets[emotion] || expressionPresets.curious;
+  }
+
+  function getStudentFace(expression) {
+    const eyeMap = {
+      open: '<circle cx="68" cy="73" r="4" fill="#111827" /><circle cx="92" cy="73" r="4" fill="#111827" />',
+      wide: '<circle cx="68" cy="73" r="6" fill="#ffffff" /><circle cx="92" cy="73" r="6" fill="#ffffff" /><circle cx="68" cy="73" r="3" fill="#111827" /><circle cx="92" cy="73" r="3" fill="#111827" />',
+      happy: '<path d="M63 73 Q68 68 73 73" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" /><path d="M87 73 Q92 68 97 73" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" />',
+      squint: '<path d="M63 73 H73" stroke="#111827" stroke-width="4" stroke-linecap="round" /><path d="M87 73 H97" stroke="#111827" stroke-width="4" stroke-linecap="round" />',
+      side: '<circle cx="68" cy="73" r="5" fill="#ffffff" /><circle cx="92" cy="73" r="5" fill="#ffffff" /><circle cx="70" cy="73" r="3" fill="#111827" /><circle cx="94" cy="73" r="3" fill="#111827" />',
+      soft: '<path d="M63 72 Q68 75 73 72" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" /><path d="M87 72 Q92 75 97 72" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" />',
+      wink: '<path d="M62 72 H73" stroke="#111827" stroke-width="4" stroke-linecap="round" /><circle cx="92" cy="73" r="4" fill="#111827" />',
+      down: '<path d="M63 73 Q68 77 73 73" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" /><path d="M87 73 Q92 77 97 73" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" />'
+    };
+    const browMap = {
+      lift: ['M62 61 L73 58', 'M87 58 L99 61'],
+      calm: ['M62 61 H74', 'M87 61 H99'],
+      quirk: ['M62 59 L73 63', 'M87 63 L99 59'],
+      soft: ['M62 62 Q68 59 74 62', 'M87 62 Q93 59 99 62'],
+      high: ['M62 56 L74 55', 'M87 55 L99 56'],
+      focus: ['M62 59 L74 62', 'M87 62 L99 59'],
+      worry: ['M62 64 L74 58', 'M87 58 L99 64']
+    };
+    const mouthMap = {
+      smile: 'M69 84 Q80 94 92 84',
+      grin: 'M67 84 Q80 98 94 84',
+      bigSmile: 'M66 82 Q80 102 96 82',
+      hmm: 'M70 87 Q80 82 90 87',
+      talk: 'M72 85 Q80 91 89 85',
+      smallTalk: 'M73 86 Q80 89 87 86',
+      openTalk: 'M72 84 Q80 96 89 84',
+      line: 'M70 87 H91',
+      smallFrown: 'M70 90 Q80 84 91 90',
+      softSmile: 'M70 85 Q80 92 91 85',
+      openSmile: 'M68 83 Q80 99 94 83',
+      smirk: 'M70 86 Q80 94 91 88',
+      firmSmile: 'M69 85 Q80 90 92 85',
+      oh: 'M80 84 C88 84 88 96 80 96 C72 96 72 84 80 84'
+    };
+    const brows = browMap[expression.brows] || browMap.calm;
+    const mouth = mouthMap[expression.mouth] || mouthMap.smile;
+    const mouthFill = expression.mouth === 'oh' ? 'fill="#7c2d12"' : 'fill="none" stroke="#7c2d12" stroke-width="4" stroke-linecap="round"';
+    return `
+      ${expression.cheeks ? '<circle cx="59" cy="82" r="4" fill="#ef4444" opacity="0.2" /><circle cx="101" cy="82" r="4" fill="#ef4444" opacity="0.2" />' : ''}
+      ${eyeMap[expression.eyes] || eyeMap.open}
+      <path d="${brows[0]}" stroke="#111827" stroke-width="3" stroke-linecap="round" />
+      <path d="${brows[1]}" stroke="#111827" stroke-width="3" stroke-linecap="round" />
+      <path d="${mouth}" ${mouthFill} />
     `;
   }
 
@@ -350,11 +524,12 @@
 
   function renderDragon(character, emotion) {
     const svgId = `${character.id}-${emotion}`;
-    const eye = emotion === 'puzzled' ? 'M67 76 Q72 72 78 76' : 'M67 76 L78 76';
-    const mouth = emotion === 'celebrate' ? 'M70 98 Q91 113 111 96' : 'M75 98 Q91 104 106 98';
+    const expression = getExpression(emotion);
+    const face = getDragonFace(expression);
     const tail = emotion === 'puzzled' ? 'M43 137 C18 143 16 113 36 116' : 'M44 139 C18 153 10 130 29 119';
+    const label = getCharacterDisplayName(character) || character.name;
     return `
-      <svg class="character-svg" viewBox="0 0 190 190" role="img" aria-label="${escapeHtml(character.name)} ${escapeHtml(emotion)} illustration">
+      <svg class="character-svg" viewBox="0 0 190 190" role="img" aria-label="${escapeHtml(label)} ${escapeHtml(emotion)} illustration">
         <defs>
           <linearGradient id="${svgId}-scale" x1="0" x2="1" y1="0" y2="1">
             <stop offset="0" stop-color="${character.accent}" />
@@ -369,10 +544,63 @@
         <path d="M126 106 C170 77 164 47 124 70" fill="${character.wing}" stroke="${character.accent}" stroke-width="5" />
         <path d="M73 49 L64 24 L88 43 Z" fill="${character.secondary}" />
         <path d="M111 51 L128 29 L124 58 Z" fill="${character.secondary}" />
-        <path d="${eye}" stroke="#111827" stroke-width="5" stroke-linecap="round" />
-        <path d="M104 76 L115 76" stroke="#111827" stroke-width="5" stroke-linecap="round" />
-        <path d="${mouth}" fill="none" stroke="#7f1d1d" stroke-width="5" stroke-linecap="round" />
+        ${face}
         ${renderDragonProp(character)}
+      </svg>
+    `;
+  }
+
+  function getDragonFace(expression) {
+    const eyeMap = {
+      open: '<path d="M67 76 L78 76" stroke="#111827" stroke-width="5" stroke-linecap="round" /><path d="M104 76 L115 76" stroke="#111827" stroke-width="5" stroke-linecap="round" />',
+      wide: '<circle cx="73" cy="76" r="7" fill="#ffffff" /><circle cx="109" cy="76" r="7" fill="#ffffff" /><circle cx="73" cy="76" r="3" fill="#111827" /><circle cx="109" cy="76" r="3" fill="#111827" />',
+      happy: '<path d="M66 76 Q73 70 80 76" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" /><path d="M102 76 Q109 70 116 76" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" />',
+      squint: '<path d="M67 76 Q72 72 78 76" stroke="#111827" stroke-width="5" stroke-linecap="round" fill="none" /><path d="M104 76 Q109 72 115 76" stroke="#111827" stroke-width="5" stroke-linecap="round" fill="none" />',
+      side: '<circle cx="73" cy="76" r="6" fill="#ffffff" /><circle cx="109" cy="76" r="6" fill="#ffffff" /><circle cx="76" cy="76" r="3" fill="#111827" /><circle cx="112" cy="76" r="3" fill="#111827" />',
+      soft: '<path d="M67 75 Q73 79 79 75" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" /><path d="M103 75 Q109 79 116 75" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" />',
+      wink: '<path d="M66 76 H80" stroke="#111827" stroke-width="5" stroke-linecap="round" /><path d="M104 76 L115 76" stroke="#111827" stroke-width="5" stroke-linecap="round" />',
+      down: '<path d="M67 77 Q73 81 79 77" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" /><path d="M103 77 Q109 81 116 77" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" />'
+    };
+    const mouthMap = {
+      smile: 'M75 98 Q91 104 106 98',
+      grin: 'M72 96 Q91 110 110 96',
+      bigSmile: 'M70 96 Q91 116 112 96',
+      hmm: 'M76 101 Q91 95 106 101',
+      talk: 'M78 98 Q91 107 104 98',
+      smallTalk: 'M80 99 Q91 104 102 99',
+      openTalk: 'M78 97 Q91 113 104 97',
+      line: 'M78 101 H105',
+      smallFrown: 'M76 104 Q91 96 106 104',
+      softSmile: 'M76 98 Q91 106 106 98',
+      openSmile: 'M74 96 Q91 114 108 96',
+      smirk: 'M76 99 Q91 108 106 101',
+      firmSmile: 'M76 98 Q91 103 106 98',
+      oh: 'M91 96 C101 96 101 111 91 111 C81 111 81 96 91 96'
+    };
+    const mouth = mouthMap[expression.mouth] || mouthMap.smile;
+    const mouthFill = expression.mouth === 'oh' ? 'fill="#7f1d1d"' : 'fill="none" stroke="#7f1d1d" stroke-width="5" stroke-linecap="round"';
+    return `
+      ${expression.cheeks ? '<circle cx="61" cy="88" r="6" fill="#fecaca" opacity="0.22" /><circle cx="119" cy="88" r="6" fill="#fecaca" opacity="0.22" />' : ''}
+      ${eyeMap[expression.eyes] || eyeMap.open}
+      <path d="${mouth}" ${mouthFill} />
+    `;
+  }
+
+  function renderPet(pet, mood) {
+    if (!pet) return '';
+    const label = getPetDisplayName(pet) || pet.name;
+    const bounce = mood === 'celebrate' || mood === 'excited' ? 'M36 82 Q50 66 64 82' : 'M36 78 Q50 72 64 78';
+    return `
+      <svg class="pet-svg" viewBox="0 0 100 100" role="img" aria-label="${escapeHtml(label)} ${escapeHtml(pet.species)}">
+        <circle cx="50" cy="54" r="36" fill="${pet.color}" opacity="0.22" />
+        <ellipse cx="50" cy="58" rx="27" ry="22" fill="${pet.color}" />
+        <circle cx="36" cy="40" r="10" fill="${pet.color}" />
+        <circle cx="64" cy="40" r="10" fill="${pet.color}" />
+        <circle cx="41" cy="56" r="3" fill="#111827" />
+        <circle cx="59" cy="56" r="3" fill="#111827" />
+        <path d="${bounce}" fill="none" stroke="#111827" stroke-width="4" stroke-linecap="round" />
+        <path d="M50 64 Q48 67 45 64 M50 64 Q52 67 55 64" fill="none" stroke="${pet.accent}" stroke-width="3" stroke-linecap="round" />
+        <path d="M24 67 C8 74 14 90 33 84" fill="none" stroke="${pet.accent}" stroke-width="7" stroke-linecap="round" />
       </svg>
     `;
   }
@@ -406,8 +634,16 @@
     setSelectedCharacterSetId,
     getCharacterById,
     getCharacterForSlot,
+    getCharacterDisplayName,
+    getPetDisplayName,
+    setCharacterDisplayName,
+    setPetDisplayName,
+    resetCustomNames,
+    expressionPresets,
+    expressionNames: Object.keys(expressionPresets),
     getQuestionScene,
     renderCharacter,
+    renderPet,
     renderSceneCard
   };
 })();

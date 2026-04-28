@@ -65,7 +65,10 @@
   });
 
   window.addEventListener('grammarquest:parent-browse', () => {
-    if (activeSet && currentIndex === 0 && !answered) renderStartScreen(activeSet);
+    if (activeSet && currentIndex === 0 && !answered) {
+      currentQuestions = selectCurrentQuestions();
+      renderStartScreen(activeSet);
+    }
   });
 
   function initQuiz(setId) {
@@ -141,7 +144,12 @@
     const rank = getRank(progress.totalGems);
     const supportsLevelSelection = setSupportsLevelSelection(set);
     const selectionSummary = getSelectionSummary(baseQuestions, selectedGrade, selectedDifficulty);
-    const levelControls = supportsLevelSelection ? `
+    const levelControls = parentMode ? `
+        <div class="level-summary">
+          <strong>${baseQuestions.length}</strong> questions available in this question bank.
+          <span>Parent preview includes the full question pool and stays separate from student progress.</span>
+        </div>
+      ` : supportsLevelSelection ? `
         <div class="level-picker" aria-label="Choose quiz level">
           <div class="level-picker-group">
             <label for="grade-select">Grade</label>
@@ -206,7 +214,7 @@
       </div>
     `;
 
-    if (supportsLevelSelection) {
+    if (supportsLevelSelection && !parentMode) {
       const gradeSelect = document.getElementById('grade-select');
       const difficultySelect = document.getElementById('difficulty-select');
       const updateSelection = () => {
@@ -1463,6 +1471,10 @@
   }
 
   function selectCurrentQuestions() {
+    if (isParentMode()) {
+      if (!mixedQuizConfig) return shuffleArray([...baseQuestions]);
+      return shuffleArray(getActiveMixedSubtopics().flatMap(subtopic => [...subtopic.questions]));
+    }
     return mixedQuizConfig
       ? selectMixedQuestions(selectedGrade, selectedDifficulty)
       : selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);

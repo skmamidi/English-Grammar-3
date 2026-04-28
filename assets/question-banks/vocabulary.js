@@ -19368,22 +19368,22 @@
         "choices": [
           "playground",
           "enormous",
-          "predicate",
-          "recycle"
+          "summer",
+          "rainbow"
         ],
         "correct": 1,
         "explanation": {
-          "correct": "Answer: enormous. Spelling is the correct arrangement of letters to form a word.",
+          "correct": "Answer: enormous. Enormous has three syllables: e-nor-mous.",
           "incorrect": [
-            "Not: playground. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+            "Not: playground. Play-ground has two syllables.",
             "",
-            "Not: predicate. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
-            "Not: recycle. Leaves a capitalization, punctuation, spelling, grammar, or meaning error."
+            "Not: summer. Sum-mer has two syllables.",
+            "Not: rainbow. Rain-bow has two syllables."
           ]
         },
         "studyAid": {
-          "definition": "Spelling is the correct arrangement of letters to form a word.",
-          "example": "Correct: \"friend.\" Incorrect: \"frend.\"",
+          "definition": "A syllable is one spoken vowel beat in a word.",
+          "example": "enormous = e-nor-mous, which has 3 syllables.",
           "link": "https://www.readingrockets.org/article/spelling",
           "linkText": "Reading Rockets - Spelling"
         },
@@ -19629,26 +19629,26 @@
         }
       },
       {
-        "question": "Choose one word that has 2 syllables.",
+        "question": "Choose one word that has 3 syllables.",
         "choices": [
           "number",
           "holler",
           "rainbow",
           "computer"
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": {
-          "correct": "Answer: number. Spelling is the correct arrangement of letters to form a word.",
+          "correct": "Answer: computer. Computer has three syllables: com-pu-ter.",
           "incorrect": [
-            "",
-            "Not: holler. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
-            "Not: rainbow. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
-            "Not: computer. Leaves a capitalization, punctuation, spelling, grammar, or meaning error."
+            "Not: number. Num-ber has two syllables.",
+            "Not: holler. Hol-ler has two syllables.",
+            "Not: rainbow. Rain-bow has two syllables.",
+            ""
           ]
         },
         "studyAid": {
-          "definition": "Spelling is the correct arrangement of letters to form a word.",
-          "example": "Correct: \"friend.\" Incorrect: \"frend.\"",
+          "definition": "A syllable is one spoken vowel beat in a word.",
+          "example": "computer = com-pu-ter, which has 3 syllables.",
           "link": "https://www.readingrockets.org/article/spelling",
           "linkText": "Reading Rockets - Spelling"
         },
@@ -20058,21 +20058,21 @@
           "lipstick",
           "interested",
           "alligator",
-          "catcher"
+          "computer"
         ],
         "correct": 0,
         "explanation": {
-          "correct": "Answer: lipstick. Spelling is the correct arrangement of letters to form a word.",
+          "correct": "Answer: lipstick. Lipstick has two syllables: lip-stick.",
           "incorrect": [
             "",
-            "Not: interested. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
-            "Not: alligator. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
-            "Not: catcher. Leaves a capitalization, punctuation, spelling, grammar, or meaning error."
+            "Not: interested. In-ter-est-ed has four syllables.",
+            "Not: alligator. Al-li-ga-tor has four syllables.",
+            "Not: computer. Com-pu-ter has three syllables."
           ]
         },
         "studyAid": {
-          "definition": "Spelling is the correct arrangement of letters to form a word.",
-          "example": "Correct: \"friend.\" Incorrect: \"frend.\"",
+          "definition": "A syllable is one spoken vowel beat in a word.",
+          "example": "lipstick = lip-stick, which has 2 syllables.",
           "link": "https://www.readingrockets.org/article/spelling",
           "linkText": "Reading Rockets - Spelling"
         },
@@ -20905,22 +20905,22 @@
         "choices": [
           "earthquake",
           "adjective",
-          "buffalo",
-          "contraction"
+          "forest",
+          "conversation"
         ],
         "correct": 1,
         "explanation": {
-          "correct": "Answer: adjective. Spelling is the correct arrangement of letters to form a word.",
+          "correct": "Answer: adjective. Adjective has three syllables: ad-jec-tive.",
           "incorrect": [
-            "Not: earthquake. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+            "Not: earthquake. Earth-quake has two syllables.",
             "",
-            "Not: buffalo. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
-            "Not: contraction. Leaves a capitalization, punctuation, spelling, grammar, or meaning error."
+            "Not: forest. For-est has two syllables.",
+            "Not: conversation. Con-ver-sa-tion has four syllables."
           ]
         },
         "studyAid": {
-          "definition": "Spelling is the correct arrangement of letters to form a word.",
-          "example": "Correct: \"friend.\" Incorrect: \"frend.\"",
+          "definition": "A syllable is one spoken vowel beat in a word.",
+          "example": "adjective = ad-jec-tive, which has 3 syllables.",
           "link": "https://www.readingrockets.org/article/spelling",
           "linkText": "Reading Rockets - Spelling"
         },
@@ -21118,21 +21118,21 @@
           "charming",
           "marigold",
           "participate",
-          "tremendous"
+          "teacher"
         ],
         "correct": 1,
         "explanation": {
-          "correct": "Answer: marigold. Spelling is the correct arrangement of letters to form a word.",
+          "correct": "Answer: marigold. Marigold has three syllables: mar-i-gold.",
           "incorrect": [
-            "Not: charming. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+            "Not: charming. Charm-ing has two syllables.",
             "",
-            "Not: participate. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
-            "Not: tremendous. Leaves a capitalization, punctuation, spelling, grammar, or meaning error."
+            "Not: participate. Par-tic-i-pate has four syllables.",
+            "Not: teacher. Teach-er has two syllables."
           ]
         },
         "studyAid": {
-          "definition": "Spelling is the correct arrangement of letters to form a word.",
-          "example": "Correct: \"friend.\" Incorrect: \"frend.\"",
+          "definition": "A syllable is one spoken vowel beat in a word.",
+          "example": "marigold = mar-i-gold, which has 3 syllables.",
           "link": "https://www.readingrockets.org/article/spelling",
           "linkText": "Reading Rockets - Spelling"
         },

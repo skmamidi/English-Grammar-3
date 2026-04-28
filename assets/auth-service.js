@@ -259,7 +259,7 @@ function renderStudentTools(includeParentModeButton) {
         </label>
       </div>
       <div class="student-avatar-preview" data-student-avatar-preview>
-        ${renderStudentAvatarSvg({ bird: "blue jay", ocean: "dolphin", character: "mickey mouse" })}
+        ${renderStudentAvatarSvg({ bird: "blue jay", ocean: "dolphin", character: "mickey mouse", studentName: "Student" })}
       </div>
       <label class="student-field student-field-grade">
         <span>Default Grade</span>
@@ -343,6 +343,12 @@ function wireModalEvents() {
     if (loginPartSelect) {
       updateAvatarPreview(loginPartSelect);
       await suggestLoginName(loginPartSelect);
+    }
+  });
+
+  document.addEventListener("input", event => {
+    if (event.target.matches('[name="studentName"]')) {
+      updateAvatarPreview(event.target);
     }
   });
 
@@ -465,7 +471,7 @@ async function createManagedStudent({ studentName, loginName, defaultGrade, avat
   const cleanName = String(studentName || "").trim();
   const normalizedLogin = normalizeLoginName(loginName);
   const normalizedGrade = normalizeDefaultGrade(defaultGrade);
-  const normalizedAvatarParts = normalizeAvatarParts(avatarParts);
+  const normalizedAvatarParts = { ...normalizeAvatarParts(avatarParts), studentName: cleanName };
   if (!cleanName) throw new Error("Enter a student name.");
   if (!normalizedLogin) throw new Error("Enter a login name.");
   const existingStudents = await loadManagedStudents();
@@ -511,7 +517,7 @@ async function createManagedStudent({ studentName, loginName, defaultGrade, avat
     loginName: normalizedLogin,
     defaultGrade: normalizedGrade,
     avatarParts: normalizedAvatarParts,
-    avatarSvg: renderStudentAvatarSvg(normalizedAvatarParts),
+    avatarSvg: renderStudentAvatarSvg({ ...normalizedAvatarParts, studentName: cleanName }),
     ownerUid: state.user.uid
   };
 }
@@ -530,7 +536,7 @@ async function selectManagedStudent(identifier) {
     name: student.name,
     loginName: student.loginName,
     defaultGrade: student.defaultGrade || "4",
-    avatarParts: normalizeAvatarParts(student.avatarParts),
+    avatarParts: normalizeAvatarParts({ ...student.avatarParts, studentName: student.name }),
     ownerUid: student.ownerUid || state.user?.uid || ""
   };
   state.sessionMode = "student";
@@ -566,7 +572,7 @@ async function loginStudentByName(loginName) {
     name: studentData.studentName || loginData.studentName || "Student",
     loginName: normalized,
     defaultGrade: normalizeDefaultGrade(studentData.defaultGrade || loginData.defaultGrade || "4"),
-    avatarParts: normalizeAvatarParts(studentData.avatarParts || loginData.avatarParts),
+    avatarParts: normalizeAvatarParts({ ...(studentData.avatarParts || loginData.avatarParts), studentName: studentData.studentName || loginData.studentName || "Student" }),
     ownerUid: studentData.ownerUid || loginData.ownerUid || ""
   };
   state.sessionMode = "student";
@@ -596,7 +602,7 @@ async function loadManagedStudents() {
       loginName: data.loginName || "",
       defaultGrade: normalizeDefaultGrade(data.defaultGrade || "4"),
       avatarParts: normalizeAvatarParts(data.avatarParts),
-      avatarSvg: renderStudentAvatarSvg(data.avatarParts),
+      avatarSvg: renderStudentAvatarSvg({ ...data.avatarParts, studentName: data.studentName || "Student" }),
       ownerUid: data.ownerUid || "",
       source: "Managed",
       progress,
@@ -779,7 +785,8 @@ async function handleCreateStudent(formData, form) {
       avatarParts: {
         bird: formData.get("favoriteBird"),
         ocean: formData.get("favoriteOceanAnimal"),
-        character: formData.get("favoriteCharacter")
+        character: formData.get("favoriteCharacter"),
+        studentName: formData.get("studentName")
       }
     });
     showMessage(`${student.name} is ready. Default grade: ${displayDefaultGrade(student.defaultGrade)}.`);
@@ -1162,7 +1169,7 @@ async function renderStudentProfiles() {
     const html = students.map(student => `
       <article class="student-profile-card ${state.activeStudent?.id === student.id ? "active" : ""}">
         <div class="student-profile-avatar">
-          ${renderStudentAvatarSvg(student.avatarParts)}
+          ${renderStudentAvatarSvg({ ...student.avatarParts, studentName: student.name })}
         </div>
         <div>
           <strong>${escapeHtml(student.name)}</strong>
@@ -1428,7 +1435,8 @@ function getLoginPartsFromScope(scope) {
   return normalizeAvatarParts({
     bird: scope.querySelector('[data-login-part="bird"]')?.value,
     ocean: scope.querySelector('[data-login-part="ocean"]')?.value,
-    character: scope.querySelector('[data-login-part="character"]')?.value
+    character: scope.querySelector('[data-login-part="character"]')?.value,
+    studentName: scope.querySelector('[name="studentName"]')?.value
   });
 }
 
@@ -1478,7 +1486,8 @@ function normalizeAvatarParts(parts) {
   return {
     bird: normalizeChoice(source.bird, LOGIN_BIRDS, "blue jay"),
     ocean: normalizeChoice(source.ocean, LOGIN_OCEAN_ANIMALS, "dolphin"),
-    character: normalizeChoice(source.character, LOGIN_DISNEY_CHARACTERS, "mickey mouse")
+    character: normalizeChoice(source.character, LOGIN_DISNEY_CHARACTERS, "mickey mouse"),
+    studentName: String(source.studentName || "").trim()
   };
 }
 
@@ -1494,8 +1503,9 @@ function renderStudentAvatarSvg(parts) {
   const oceanColor = colorFromText(avatar.ocean, ["#0ea5e9", "#14b8a6", "#6366f1", "#06b6d4", "#0284c7", "#10b981"]);
   const characterColor = colorFromText(avatar.character, ["#ef4444", "#f59e0b", "#8b5cf6", "#ec4899", "#22c55e", "#3b82f6"]);
   const animal = getOceanAnimalShape(avatar.ocean, oceanColor);
-  const characterInitial = avatar.character.split(/\s+/).map(part => part[0]).join("").slice(0, 2).toUpperCase();
-  const title = `${titleCaseDisplay(avatar.bird)}, ${titleCaseDisplay(avatar.ocean)}, and ${titleCaseDisplay(avatar.character)} avatar`;
+  const bird = getBirdShape(avatar.bird, birdColor, birdAccent);
+  const studentInitial = getStudentInitial(avatar.studentName);
+  const title = `${titleCaseDisplay(avatar.bird)}, ${titleCaseDisplay(avatar.ocean)}, and ${titleCaseDisplay(avatar.character)} avatar for ${avatar.studentName || "Student"}`;
 
   return `
     <svg class="student-avatar-svg" viewBox="0 0 180 180" role="img" aria-label="${escapeHtml(title)}" xmlns="http://www.w3.org/2000/svg">
@@ -1516,19 +1526,11 @@ function renderStudentAvatarSvg(parts) {
       <path d="M0 142 C34 128 58 156 91 141 S138 126 180 145 L180 180 L0 180 Z" fill="#0284c7" opacity=".24"/>
       <path d="M18 137 C26 132 35 132 43 137 M118 132 C126 127 136 127 144 132" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".8"/>
       ${animal}
-      <g transform="translate(74 48)">
-        <ellipse cx="23" cy="39" rx="23" ry="17" fill="${birdColor}"/>
-        <circle cx="43" cy="28" r="15" fill="${birdColor}"/>
-        <path d="M53 28 L70 22 L55 36 Z" fill="#f59e0b"/>
-        <circle cx="48" cy="24" r="3.2" fill="#0f172a"/>
-        <path d="M12 39 C24 20 39 23 44 38 C34 35 25 42 12 39 Z" fill="${birdAccent}" opacity=".9"/>
-        <path d="M21 56 L17 68 M34 55 L39 68" stroke="#92400e" stroke-width="4" stroke-linecap="round"/>
-        <path d="M27 14 C33 3 47 4 53 15" fill="none" stroke="${birdAccent}" stroke-width="5" stroke-linecap="round"/>
-      </g>
+      ${bird}
       <g transform="translate(112 92)">
         <circle cx="31" cy="31" r="28" fill="#ffffff" opacity=".93"/>
         <circle cx="31" cy="31" r="22" fill="${characterColor}" opacity=".9"/>
-        <text x="31" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="900" fill="#ffffff">${escapeHtml(characterInitial)}</text>
+        <text x="31" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#ffffff">${escapeHtml(studentInitial)}</text>
         <path d="M13 12 C8 2 22 -4 25 8 M37 8 C41 -4 55 2 49 12" fill="${characterColor}" opacity=".82"/>
         <path d="M17 52 C24 59 39 59 46 52" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
       </g>
@@ -1542,38 +1544,191 @@ function renderStudentAvatarSvg(parts) {
   `;
 }
 
-function getOceanAnimalShape(oceanAnimal, fillColor) {
-  const type = getOceanAnimalType(oceanAnimal);
-  if (type === "turtle") {
-    return `<g transform="translate(33 86)"><ellipse cx="58" cy="34" rx="45" ry="27" fill="${fillColor}"/><path d="M28 21 C49 42 70 42 91 21 M23 34 H95 M42 12 C48 28 48 43 42 56 M74 12 C68 28 68 43 74 56" stroke="#ecfeff" stroke-width="4" opacity=".42"/><circle cx="107" cy="29" r="15" fill="${fillColor}"/><circle cx="112" cy="25" r="2.8" fill="#0f172a"/><path d="M18 20 L0 9 M18 48 L0 61 M93 15 L111 1 M91 53 L108 66" stroke="${fillColor}" stroke-width="13" stroke-linecap="round"/></g>`;
-  }
-  if (type === "octopus") {
-    return `<g transform="translate(37 83)"><ellipse cx="58" cy="34" rx="35" ry="31" fill="${fillColor}"/><circle cx="47" cy="27" r="4" fill="#0f172a"/><circle cx="68" cy="27" r="4" fill="#0f172a"/><path d="M48 44 C55 50 63 50 70 44" fill="none" stroke="#ecfeff" stroke-width="4" stroke-linecap="round"/><path d="M28 58 C15 78 33 82 43 64 M47 62 C39 84 61 84 58 64 M69 62 C81 84 98 75 84 58 M35 59 C20 67 9 56 24 48 M82 58 C102 65 111 50 91 46" fill="none" stroke="${fillColor}" stroke-width="13" stroke-linecap="round"/></g>`;
-  }
-  if (type === "crab") {
-    return `<g transform="translate(35 98)"><ellipse cx="56" cy="32" rx="38" ry="24" fill="${fillColor}"/><circle cx="43" cy="21" r="4" fill="#0f172a"/><circle cx="69" cy="21" r="4" fill="#0f172a"/><path d="M35 38 C47 48 66 48 78 38" fill="none" stroke="#ecfeff" stroke-width="4" stroke-linecap="round"/><path d="M18 26 L2 13 M94 26 L112 13 M20 42 L4 53 M92 42 L108 54" stroke="${fillColor}" stroke-width="10" stroke-linecap="round"/><circle cx="0" cy="12" r="10" fill="${fillColor}"/><circle cx="112" cy="12" r="10" fill="${fillColor}"/></g>`;
-  }
-  if (type === "shark") {
-    return `<g transform="translate(23 88)"><path d="M12 41 C42 5 95 7 130 39 C96 72 42 73 12 41 Z" fill="${fillColor}"/><path d="M78 16 L96 -7 L101 25 Z" fill="${fillColor}"/><path d="M124 39 L156 20 L146 43 L156 66 Z" fill="${fillColor}"/><circle cx="45" cy="33" r="4" fill="#0f172a"/><path d="M39 47 C56 56 80 56 99 47" fill="none" stroke="#ecfeff" stroke-width="5" stroke-linecap="round"/><path d="M102 48 l7 8 l7 -8 l7 8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/></g>`;
-  }
-  if (type === "seal") {
-    return `<g transform="translate(30 86)"><ellipse cx="62" cy="41" rx="48" ry="26" fill="${fillColor}"/><circle cx="108" cy="29" r="22" fill="${fillColor}"/><circle cx="116" cy="24" r="3.5" fill="#0f172a"/><path d="M117 34 C124 38 131 38 137 34" fill="none" stroke="#ecfeff" stroke-width="4" stroke-linecap="round"/><path d="M22 41 L0 23 M23 48 L0 66 M54 62 C59 77 79 77 84 62" stroke="${fillColor}" stroke-width="15" stroke-linecap="round"/></g>`;
-  }
-  return `<g transform="translate(25 88)"><path d="M12 40 C40 7 92 7 124 39 C92 72 41 74 12 40 Z" fill="${fillColor}"/><path d="M121 39 L153 16 L145 40 L153 65 Z" fill="${fillColor}"/><path d="M74 20 C82 6 100 5 110 19" fill="${fillColor}"/><circle cx="45" cy="32" r="4" fill="#0f172a"/><path d="M48 47 C62 54 83 54 98 47" fill="none" stroke="#ecfeff" stroke-width="5" stroke-linecap="round"/><path d="M29 52 C44 62 68 65 88 57" fill="none" stroke="#ffffff" stroke-width="4" opacity=".45"/></g>`;
+function getStudentInitial(name) {
+  const clean = String(name || "").trim();
+  const match = clean.match(/[A-Za-z0-9]/);
+  return (match ? match[0] : "S").toUpperCase();
 }
 
-function getOceanAnimalType(name) {
-  if (/turtle|terrapin/.test(name)) return "turtle";
-  if (/octopus|squid|cuttlefish|nautilus/.test(name)) return "octopus";
-  if (/crab|lobster|shrimp|krill/.test(name)) return "crab";
-  if (/shark|sawfish|ray|skate/.test(name)) return "shark";
-  if (/seal|walrus|otter|sea lion|manatee|dugong/.test(name)) return "seal";
-  return "fish";
+function getBirdShape(birdName, fillColor, accentColor) {
+  const traits = getBirdTraits(birdName);
+  const beakColor = traits.beakColor || "#f59e0b";
+  const legColor = traits.legColor || "#92400e";
+  const wing = traits.wing === "barred"
+    ? `<path d="M12 39 C24 20 39 23 44 38 C34 35 25 42 12 39 Z" fill="${accentColor}" opacity=".9"/><path d="M21 35 l17 9 M27 29 l15 8" stroke="#ffffff" stroke-width="3" opacity=".55"/>`
+    : traits.wing === "spotted"
+      ? `<path d="M12 39 C24 20 39 23 44 38 C34 35 25 42 12 39 Z" fill="${accentColor}" opacity=".9"/><circle cx="25" cy="36" r="2.2" fill="#ffffff" opacity=".7"/><circle cx="33" cy="39" r="1.8" fill="#ffffff" opacity=".7"/>`
+      : `<path d="M12 39 C24 20 39 23 44 38 C34 35 25 42 12 39 Z" fill="${accentColor}" opacity=".9"/>`;
+  const crest = traits.crest
+    ? `<path d="${traits.crest === "fan" ? "M35 15 C36 0 50 0 51 15 M41 14 C42 -2 55 4 53 18" : "M32 15 L42 0 L48 16"}" fill="${accentColor}" stroke="${accentColor}" stroke-width="4" stroke-linecap="round"/>`
+    : "";
+  const neck = traits.neck === "long" ? `<path d="M35 31 C37 12 45 4 56 9 C51 21 50 31 50 42" fill="${fillColor}"/>` : "";
+  const bill = traits.beak === "hook"
+    ? `<path d="M53 28 C66 20 72 23 65 33 L55 36 Z" fill="${beakColor}"/>`
+    : traits.beak === "long"
+      ? `<path d="M53 28 L83 20 L56 36 Z" fill="${beakColor}"/>`
+      : traits.beak === "flat"
+        ? `<path d="M52 28 C65 19 76 22 75 30 C70 36 60 36 53 32 Z" fill="${beakColor}"/>`
+        : `<path d="M53 28 L70 22 L55 36 Z" fill="${beakColor}"/>`;
+  const tail = traits.tail === "fan"
+    ? `<path d="M5 38 L-18 22 L-10 45 L-21 63 L6 48 Z" fill="${fillColor}"/><path d="M-12 28 L2 43 M-13 56 L3 45" stroke="${accentColor}" stroke-width="3" opacity=".75"/>`
+    : traits.tail === "fork"
+      ? `<path d="M7 39 L-15 25 L-8 42 L-18 57 L8 48 Z" fill="${fillColor}"/>`
+      : `<path d="M8 39 L-11 31 L1 49 Z" fill="${fillColor}"/>`;
+  const legs = traits.legs === "long"
+    ? `<path d="M22 56 L14 78 M35 55 L43 78" stroke="${legColor}" stroke-width="4" stroke-linecap="round"/>`
+    : `<path d="M21 56 L17 68 M34 55 L39 68" stroke="${legColor}" stroke-width="4" stroke-linecap="round"/>`;
+  const markings = traits.marking === "mask"
+    ? `<path d="M38 24 C44 19 52 19 57 25" fill="none" stroke="#0f172a" stroke-width="5" stroke-linecap="round" opacity=".78"/>`
+    : traits.marking === "bib"
+      ? `<path d="M41 34 C48 38 53 42 55 50 C47 50 40 45 37 38 Z" fill="${accentColor}" opacity=".85"/>`
+      : "";
+
+  return `
+      <g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})">
+        ${tail}
+        <ellipse cx="23" cy="39" rx="${traits.bodyRx}" ry="${traits.bodyRy}" fill="${fillColor}"/>
+        ${neck}
+        <circle cx="43" cy="28" r="${traits.headR}" fill="${fillColor}"/>
+        ${crest}
+        ${bill}
+        <circle cx="48" cy="24" r="3.2" fill="#0f172a"/>
+        ${markings}
+        ${wing}
+        ${legs}
+      </g>
+  `;
+}
+
+function getBirdTraits(name) {
+  const clean = String(name || "");
+  const seed = numericSeed(clean);
+  const traits = {
+    x: 74 + (seed % 9) - 4,
+    y: 48 + (seed % 7) - 3,
+    scale: 0.92 + ((seed % 5) * 0.035),
+    bodyRx: 22 + (seed % 7),
+    bodyRy: 15 + (seed % 5),
+    headR: 13 + (seed % 5),
+    wing: ["plain", "barred", "spotted"][seed % 3],
+    tail: ["point", "fan", "fork"][seed % 3],
+    beak: "short",
+    crest: false,
+    neck: "short",
+    legs: "short",
+    marking: ["none", "mask", "bib"][seed % 3]
+  };
+  if (/owl|puffin|penguin|kiwi|quail|wren|chickadee|finch|sparrow|kinglet|junco/.test(clean)) {
+    traits.bodyRx = 24; traits.bodyRy = 21; traits.headR = 17; traits.beak = "short"; traits.tail = "point";
+  }
+  if (/hummingbird|kingfisher|sandpiper|ibis|heron|egret|avocet|stork|crane|spoonbill|woodpecker|hoopoe|hornbill/.test(clean)) {
+    traits.beak = "long";
+  }
+  if (/hawk|eagle|falcon|osprey|vulture|condor|kite|secretary|owl/.test(clean)) {
+    traits.beak = "hook"; traits.marking = "mask"; traits.wing = "barred";
+  }
+  if (/duck|goose|swan|mallard|coot|pelican/.test(clean)) {
+    traits.beak = "flat"; traits.bodyRx = 29; traits.bodyRy = 18; traits.legColor = "#f97316";
+  }
+  if (/flamingo|heron|egret|crane|stork|ibis|avocet|sandpiper/.test(clean)) {
+    traits.neck = "long"; traits.legs = "long"; traits.bodyRx = 20; traits.bodyRy = 15; traits.y = 42;
+  }
+  if (/peacock|turkey|cassowary|ostrich|emu/.test(clean)) {
+    traits.tail = "fan"; traits.bodyRx = 28; traits.bodyRy = 22; traits.legs = "long"; traits.crest = true;
+  }
+  if (/cardinal|cockatoo|crest|jay|waxwing|kinglet|hoopoe/.test(clean)) {
+    traits.crest = true;
+  }
+  if (/macaw|parrot|lorikeet|parakeet|toucan|budgie/.test(clean)) {
+    traits.beak = /toucan|hornbill/.test(clean) ? "long" : "hook"; traits.wing = "spotted"; traits.tail = "fork";
+  }
+  return traits;
+}
+
+function getOceanAnimalShape(oceanAnimal, fillColor) {
+  const traits = getOceanAnimalTraits(oceanAnimal);
+  const accent = colorFromText(`${oceanAnimal}-mark`, ["#ecfeff", "#cffafe", "#fef3c7", "#fce7f3", "#dcfce7"]);
+  if (traits.type === "turtle") {
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})"><ellipse cx="58" cy="34" rx="45" ry="27" fill="${fillColor}"/><path d="M28 21 C49 42 70 42 91 21 M23 34 H95 M42 12 C48 28 48 43 42 56 M74 12 C68 28 68 43 74 56" stroke="${accent}" stroke-width="4" opacity=".52"/><circle cx="107" cy="29" r="15" fill="${fillColor}"/><circle cx="112" cy="25" r="2.8" fill="#0f172a"/><path d="M18 20 L0 9 M18 48 L0 61 M93 15 L111 1 M91 53 L108 66" stroke="${fillColor}" stroke-width="13" stroke-linecap="round"/></g>`;
+  }
+  if (traits.type === "cephalopod") {
+    const shell = /nautilus/.test(oceanAnimal) ? `<path d="M30 31 C31 9 62 4 76 20 C91 37 77 61 55 60 C37 59 27 47 30 31 Z" fill="${accent}" opacity=".72"/><path d="M48 25 C64 25 68 42 57 48 C47 54 37 44 42 35" fill="none" stroke="${fillColor}" stroke-width="5"/>` : "";
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})">${shell}<ellipse cx="58" cy="34" rx="${traits.bodyRx}" ry="${traits.bodyRy}" fill="${fillColor}"/><circle cx="47" cy="27" r="4" fill="#0f172a"/><circle cx="68" cy="27" r="4" fill="#0f172a"/><path d="M48 44 C55 50 63 50 70 44" fill="none" stroke="${accent}" stroke-width="4" stroke-linecap="round"/><path d="M28 58 C15 78 33 82 43 64 M47 62 C39 84 61 84 58 64 M69 62 C81 84 98 75 84 58 M35 59 C20 67 9 56 24 48 M82 58 C102 65 111 50 91 46" fill="none" stroke="${fillColor}" stroke-width="${traits.tentacleWidth}" stroke-linecap="round"/></g>`;
+  }
+  if (traits.type === "crustacean") {
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})"><ellipse cx="56" cy="32" rx="${traits.bodyRx}" ry="${traits.bodyRy}" fill="${fillColor}"/><circle cx="43" cy="21" r="4" fill="#0f172a"/><circle cx="69" cy="21" r="4" fill="#0f172a"/><path d="M35 38 C47 48 66 48 78 38" fill="none" stroke="${accent}" stroke-width="4" stroke-linecap="round"/><path d="M18 26 L2 13 M94 26 L112 13 M20 42 L4 53 M92 42 L108 54" stroke="${fillColor}" stroke-width="${traits.legWidth}" stroke-linecap="round"/><circle cx="0" cy="12" r="${traits.claw}" fill="${fillColor}"/><circle cx="112" cy="12" r="${traits.claw}" fill="${fillColor}"/></g>`;
+  }
+  if (traits.type === "ray") {
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})"><path d="M15 43 C37 7 89 7 117 43 C88 71 40 72 15 43 Z" fill="${fillColor}"/><path d="M112 43 C129 50 140 62 151 77" fill="none" stroke="${fillColor}" stroke-width="9" stroke-linecap="round"/><circle cx="54" cy="35" r="3.4" fill="#0f172a"/><circle cx="78" cy="35" r="3.4" fill="#0f172a"/><path d="M38 47 C57 55 80 55 99 47" fill="none" stroke="${accent}" stroke-width="4" opacity=".65"/></g>`;
+  }
+  if (traits.type === "shark") {
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})"><path d="M12 41 C42 5 95 7 130 39 C96 72 42 73 12 41 Z" fill="${fillColor}"/><path d="M78 16 L96 -7 L101 25 Z" fill="${fillColor}"/><path d="M124 39 L156 20 L146 43 L156 66 Z" fill="${fillColor}"/><circle cx="45" cy="33" r="4" fill="#0f172a"/><path d="M39 47 C56 56 80 56 99 47" fill="none" stroke="${accent}" stroke-width="5" stroke-linecap="round"/><path d="M102 48 l7 8 l7 -8 l7 8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/><path d="M55 24 C74 18 96 22 112 34" fill="none" stroke="${accent}" stroke-width="${traits.markWidth}" opacity=".45"/></g>`;
+  }
+  if (traits.type === "mammal") {
+    const horn = /narwhal/.test(oceanAnimal) ? `<path d="M132 25 L157 12" stroke="#f8fafc" stroke-width="5" stroke-linecap="round"/>` : "";
+    const spout = /whale/.test(oceanAnimal) ? `<path d="M73 11 C68 -6 87 -6 82 11 M75 11 C74 -3 92 0 87 14" fill="none" stroke="${accent}" stroke-width="4" stroke-linecap="round" opacity=".8"/>` : "";
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})">${spout}<ellipse cx="62" cy="41" rx="${traits.bodyRx}" ry="${traits.bodyRy}" fill="${fillColor}"/><circle cx="108" cy="29" r="${traits.headR}" fill="${fillColor}"/>${horn}<circle cx="116" cy="24" r="3.5" fill="#0f172a"/><path d="M117 34 C124 38 131 38 137 34" fill="none" stroke="${accent}" stroke-width="4" stroke-linecap="round"/><path d="M22 41 L0 23 M23 48 L0 66 M54 62 C59 77 79 77 84 62" stroke="${fillColor}" stroke-width="15" stroke-linecap="round"/></g>`;
+  }
+  if (traits.type === "jelly") {
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})"><path d="M28 38 C30 8 85 8 88 38 C76 47 42 47 28 38 Z" fill="${fillColor}"/><path d="M36 43 C30 63 44 69 40 87 M54 44 C50 63 63 69 58 87 M72 43 C65 62 80 69 76 87" fill="none" stroke="${fillColor}" stroke-width="7" stroke-linecap="round"/><circle cx="48" cy="28" r="3" fill="#0f172a"/><circle cx="66" cy="28" r="3" fill="#0f172a"/><path d="M37 38 C49 31 68 31 82 38" fill="none" stroke="${accent}" stroke-width="4" opacity=".62"/></g>`;
+  }
+  if (traits.type === "shell") {
+    return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})"><path d="M24 58 C26 22 87 8 112 41 C101 75 49 83 24 58 Z" fill="${fillColor}"/><path d="M38 55 C48 34 67 25 96 38 M53 67 C62 47 80 41 106 48 M29 47 C52 47 75 50 110 61" fill="none" stroke="${accent}" stroke-width="5" opacity=".68"/><circle cx="65" cy="55" r="4" fill="#f8fafc" opacity=".8"/></g>`;
+  }
+  const stripe = traits.pattern === "stripe" ? `<path d="M56 20 L47 59 M76 18 L67 61 M96 25 L88 55" stroke="${accent}" stroke-width="5" opacity=".68"/>` : "";
+  const spot = traits.pattern === "spot" ? `<circle cx="69" cy="34" r="5" fill="${accent}" opacity=".68"/><circle cx="92" cy="45" r="3.5" fill="${accent}" opacity=".68"/>` : "";
+  const bill = /swordfish|sailfish|marlin|sawfish/.test(oceanAnimal) ? `<path d="M13 40 L-20 32" stroke="${fillColor}" stroke-width="7" stroke-linecap="round"/>` : "";
+  const sail = /sailfish|marlin|sunfish|flying fish/.test(oceanAnimal) ? `<path d="M69 19 C82 -2 106 6 111 21" fill="${fillColor}"/>` : `<path d="M74 20 C82 6 100 5 110 19" fill="${fillColor}"/>`;
+  return `<g transform="translate(${traits.x} ${traits.y}) scale(${traits.scale})">${bill}<path d="M12 40 C40 7 92 7 124 39 C92 72 41 74 12 40 Z" fill="${fillColor}"/><path d="M121 39 L153 16 L145 40 L153 65 Z" fill="${fillColor}"/>${sail}<circle cx="45" cy="32" r="4" fill="#0f172a"/><path d="M48 47 C62 54 83 54 98 47" fill="none" stroke="${accent}" stroke-width="5" stroke-linecap="round"/>${stripe}${spot}<path d="M29 52 C44 62 68 65 88 57" fill="none" stroke="#ffffff" stroke-width="4" opacity=".45"/></g>`;
+}
+
+function getOceanAnimalTraits(name) {
+  const clean = String(name || "");
+  const seed = numericSeed(clean);
+  const traits = {
+    type: "fish",
+    x: 25 + (seed % 8) - 4,
+    y: 88 + (seed % 9) - 4,
+    scale: 0.9 + ((seed % 6) * 0.03),
+    bodyRx: 38 + (seed % 9),
+    bodyRy: 21 + (seed % 7),
+    headR: 18 + (seed % 7),
+    pattern: ["stripe", "spot", "plain"][seed % 3],
+    tentacleWidth: 10 + (seed % 5),
+    legWidth: 8 + (seed % 5),
+    claw: 8 + (seed % 5),
+    markWidth: 3 + (seed % 4)
+  };
+  if (/turtle/.test(clean)) traits.type = "turtle";
+  else if (/octopus|squid|cuttlefish|nautilus/.test(clean)) traits.type = "cephalopod";
+  else if (/crab|lobster|shrimp|krill|horseshoe/.test(clean)) traits.type = "crustacean";
+  else if (/ray|skate|manta/.test(clean)) traits.type = "ray";
+  else if (/shark|sawfish/.test(clean)) traits.type = "shark";
+  else if (/seal|walrus|otter|sea lion|manatee|dugong|dolphin|porpoise|whale|orca|narwhal|vaquita/.test(clean)) traits.type = "mammal";
+  else if (/jellyfish|anemone/.test(clean)) traits.type = "jelly";
+  else if (/abalone|clam|conch|coral|mussel|oyster|sand dollar|scallop|sponge|urchin|snail|slug|star|cucumber/.test(clean)) traits.type = "shell";
+  if (/whale|orca/.test(clean)) {
+    traits.bodyRx = 56; traits.bodyRy = 27; traits.headR = 20; traits.scale = 0.86;
+  }
+  if (/eel/.test(clean)) {
+    traits.bodyRx = 54; traits.bodyRy = 13; traits.pattern = "stripe";
+  }
+  if (/clownfish|angelfish|butterflyfish|parrotfish|triggerfish|lionfish|blue tang|wrasse/.test(clean)) {
+    traits.pattern = "stripe"; traits.bodyRy = 28;
+  }
+  if (/pufferfish|sunfish/.test(clean)) {
+    traits.bodyRx = 42; traits.bodyRy = 34; traits.pattern = "spot";
+  }
+  return traits;
 }
 
 function colorFromText(text, palette) {
-  const hash = String(text || "").split("").reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  const hash = numericSeed(text);
   return palette[hash % palette.length];
+}
+
+function numericSeed(text) {
+  return String(text || "").split("").reduce((sum, char, index) => sum + (char.charCodeAt(0) * (index + 3)), 0);
 }
 
 function slugForSvg(text) {
@@ -1603,7 +1758,7 @@ function saveActiveStudent(student) {
     localStorage.setItem("grammarQuestActiveStudentLogin", student.loginName || "");
     localStorage.setItem("grammarQuestActiveStudentOwner", student.ownerUid || "");
     localStorage.setItem("grammarQuestActiveStudentDefaultGrade", normalizeDefaultGrade(student.defaultGrade));
-    localStorage.setItem("grammarQuestActiveStudentAvatarParts", JSON.stringify(normalizeAvatarParts(student.avatarParts)));
+    localStorage.setItem("grammarQuestActiveStudentAvatarParts", JSON.stringify(normalizeAvatarParts({ ...student.avatarParts, studentName: student.name })));
     localStorage.setItem("grammarQuestGrade", normalizeDefaultGrade(student.defaultGrade));
   } catch (error) {
     // Optional local state.
@@ -1632,7 +1787,7 @@ function loadActiveStudent() {
       name: localStorage.getItem("grammarQuestActiveStudentName") || "Student",
       loginName: localStorage.getItem("grammarQuestActiveStudentLogin") || "",
       defaultGrade: normalizeDefaultGrade(localStorage.getItem("grammarQuestActiveStudentDefaultGrade") || "4"),
-      avatarParts: loadStoredAvatarParts(),
+      avatarParts: normalizeAvatarParts({ ...loadStoredAvatarParts(), studentName: localStorage.getItem("grammarQuestActiveStudentName") || "Student" }),
       ownerUid: localStorage.getItem("grammarQuestActiveStudentOwner") || ""
     };
   } catch (error) {

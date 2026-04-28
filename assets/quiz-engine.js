@@ -2523,10 +2523,11 @@
 
   function getStartScreenCopy(supportsLevelSelection) {
     if (isParentMode()) {
+      const parentQuestionCount = getParentQuestionCount();
       if (mixedQuizConfig) {
-        return `${supportsLevelSelection ? 'Choose a level and subtopics to preview' : 'Choose subtopics to preview'} ${currentQuestions.length} questions across ${getActiveMixedSubtopics().length} subtopics. Nothing here is saved to a student profile.`;
+        return `${supportsLevelSelection ? 'Choose subtopics to preview' : 'Preview'} ${parentQuestionCount} questions across ${getActiveMixedSubtopics().length} subtopics. Nothing here is saved to a student profile.`;
       }
-      return `${supportsLevelSelection ? 'Choose a level and preview' : 'Preview'} ${currentQuestions.length} questions. Parent previews are read-only and do not affect student reports.`;
+      return `Preview all ${parentQuestionCount} questions. Parent previews are read-only and do not affect student reports.`;
     }
     if (mixedQuizConfig) {
       return `${supportsLevelSelection ? 'Choose a level and subtopics, then answer' : 'Choose subtopics, then answer'} ${currentQuestions.length} questions across ${getActiveMixedSubtopics().length} subtopics. ${getMixedQuestionLimitCopy()} Your results will show both overall and subtopic scores.`;
@@ -2538,6 +2539,11 @@
     const auth = window.GrammarQuestAuth;
     if (!auth || typeof auth.getState !== 'function') return false;
     return !!auth.getState().parentMode;
+  }
+
+  function getParentQuestionCount() {
+    if (!mixedQuizConfig) return baseQuestions.length;
+    return getActiveMixedSubtopics().reduce((total, subtopic) => total + (subtopic.questions || []).length, 0);
   }
 
   function getMixedQuestionLimitCopy() {

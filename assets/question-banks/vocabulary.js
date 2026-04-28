@@ -1192,6 +1192,474 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "writing-strategies-application-style"
         }
+      },
+      {
+        "question": "Which prefix means across?",
+        "choices": [
+          "con -",
+          "trans-",
+          "pre-",
+          "un -"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: trans-. trans-; The prefix trans- and its variant tra- means “across”.",
+          "incorrect": [
+            "Not: con -. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: pre-. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: un -. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 20
+        }
+      },
+      {
+        "question": "Which sentence uses one of the suffixes -er, -less, -ful, -ary, -able, or -y incorrectly?",
+        "choices": [
+          "Don was ful after eating so much.",
+          "Ann felt helpless after she broke her arm.",
+          "She is no longer able to write legibly.",
+          "He is happy to have eaten chocolate."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Don was ful after eating so much.. full; This is used incorrectly. The correct spelling should be ‘full’ – containing or holding as much or as many as possible.",
+          "incorrect": [
+            "",
+            "Not: Ann felt helpless after she broke her arm.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: She is no longer able to write legibly.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: He is happy to have eaten chocolate.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 72
+        }
+      },
+      {
+        "question": "Choose the correct suffix. Those new pencils have been very use___!",
+        "choices": [
+          "er",
+          "unless",
+          "ing",
+          "ful"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: ful. full; useful – able to be used for a practical purpose or in several ways.",
+          "incorrect": [
+            "Not: er. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: unless. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: ing. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 78
+        }
+      },
+      {
+        "question": "Choose the correct suffix. Juan has been a very good help___.",
+        "choices": [
+          "er",
+          "ing",
+          "ed",
+          "less"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: er. er; helper – a person who helps someone.",
+          "incorrect": [
+            "",
+            "Not: ing. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: ed. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: less. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 88
+        }
+      },
+      {
+        "question": "Which suffix means without?",
+        "choices": [
+          "- able",
+          "-less",
+          "- ary",
+          "- er"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: -less. - less; Less is an adjective suffix meaning “without”.",
+          "incorrect": [
+            "Not: - able. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: - ary. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: - er. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 92
+        }
+      },
+      {
+        "question": "Read the answers and decide which sentence uses one of the prefixes dis-, un-, or re- incorrectly.",
+        "choices": [
+          "We had to disconnect our telephone when we moved.",
+          "I will help you undo your coat.",
+          "She had to redo her hair after the rainstorm.",
+          "Please reover your missed problems on the math assignment."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Please reover your missed problems on the math assignment.. Please reover your missed problems on the math assignment. The correct word could be redo or rework.",
+          "incorrect": [
+            "Not: We had to disconnect our telephone when we moved.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: I will help you undo your coat.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: She had to redo her hair after the rainstorm.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 101
+        }
+      },
+      {
+        "question": "Read the sentence and choose the correct suffix. The steep and icy road appeared to be very danger____.",
+        "choices": [
+          "ful",
+          "re",
+          "ous",
+          "anger"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ous. ous; dan gerous – able or likely to cause harm or injury.",
+          "incorrect": [
+            "Not: ful. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: re. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: anger. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 150
+        }
+      },
+      {
+        "question": "Read the definitions of the prefixes. anti – against con – with pre – before Given these prefixes, which word would mean unfriendly or not wanting to be aro und others?",
+        "choices": [
+          "an tidote",
+          "context",
+          "predict",
+          "antisocial"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: antisocial. antisocial – not sociable, not wanting the company of others.",
+          "incorrect": [
+            "Not: an tidote. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: context. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: predict. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 152
+        }
+      },
+      {
+        "question": "What suffix added to the word breath changes the meaning?",
+        "choices": [
+          "s",
+          "ing",
+          "able",
+          "less"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: less. less; breath – to take in air or expel air from the lungs; breathless – gasping for breath or out of air.",
+          "incorrect": [
+            "Not: s. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: ing. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: able. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 205
+        }
       }
     ],
     "metadata": {
@@ -5671,6 +6139,58 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "writing-strategies-application-style"
         }
+      },
+      {
+        "question": "Which pair of words sounds alike?",
+        "choices": [
+          "upset/angry",
+          "innocent/guilty",
+          "shiny/dull",
+          "berry/bury"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: berry/bury. berry/bury; sound alike but spelled differently. berry – a simple fruit, bury – put or hid under ground.",
+          "incorrect": [
+            "Not: upset/angry. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: innocent/guilty. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: shiny/dull. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 210
+        }
       }
     ],
     "metadata": {
@@ -6685,6 +7205,110 @@
           "sourceFile": "Proficient-1_Writing strategies_Application_Style.pdf",
           "sourceQuestionNumber": 10,
           "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Choose the word that rhymes with book.",
+        "choices": [
+          "moon",
+          "break",
+          "cook",
+          "soon"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cook. cook – book; they rhyme and have the same ending sound.",
+          "incorrect": [
+            "Not: moon. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: break. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: soon. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-rhyming",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 17
+        }
+      },
+      {
+        "question": "What word rhymes with bear?",
+        "choices": [
+          "d ear",
+          "tier",
+          "there",
+          "bean"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: there. there; bear/there – have the same corresponding sound.",
+          "incorrect": [
+            "Not: d ear. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: tier. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: bean. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-rhyming",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 214
         }
       }
     ],
@@ -9720,6 +10344,578 @@
           "sourceFile": "Proficient-3_Writing strategies_Application_Style.pdf",
           "sourceQuestionNumber": 1,
           "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Read the passage. It was a cold and chilling night, and the cattle were restless. As the sun dropped behind the mountain range, the animals all started to come alive with anticipation. This was a night of the hunter and the hunted. The wolves were on the prowl for a meal, and the cattle knew they were being watched. Choose the word that is an antonym for restless.",
+        "choices": [
+          "excited",
+          "anxious",
+          "tranquil",
+          "moving"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: tranquil. tranquil – fr ee from disturbance, calm.",
+          "incorrect": [
+            "Not: excited. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: anxious. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: moving. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 7
+        }
+      },
+      {
+        "question": "Which word means the opposite of mother?",
+        "choices": [
+          "mom",
+          "fat her",
+          "brother",
+          "woman"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: fat her. fat her; The opposite of a mother (woman) is a fat her (man).",
+          "incorrect": [
+            "Not: mom. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: brother. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: woman. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 12
+        }
+      },
+      {
+        "question": "The opposite of dark is _________.",
+        "choices": [
+          "light",
+          "park",
+          "inside",
+          "cold"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: light. light – the natural agent that stimulates sight and makes something visible.",
+          "incorrect": [
+            "",
+            "Not: park. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: inside. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: cold. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 14
+        }
+      },
+      {
+        "question": "Jerry had to work hard to finish mowing the lawn. What is the opposite of work?",
+        "choices": [
+          "eat",
+          "play",
+          "grass",
+          "yard"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: play. play – engage in an activity for enjoyment.",
+          "incorrect": [
+            "Not: eat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: grass. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: yard. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 90
+        }
+      },
+      {
+        "question": "Which word pairs are opposites.",
+        "choices": [
+          "look/see",
+          "hot/warm",
+          "lost/found",
+          "pail/pale"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: lost/found. lost/found – lost (unable to find)/found (discovwered)",
+          "incorrect": [
+            "Not: look/see. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hot/warm. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: pail/pale. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 97
+        }
+      },
+      {
+        "question": "Which word means the opposite of hard?",
+        "choices": [
+          "h ot",
+          "cold",
+          "easy",
+          "fun Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: easy. easy – achie ved without great effort.",
+          "incorrect": [
+            "Not: h ot. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: cold. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: fun Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 100
+        }
+      },
+      {
+        "question": "Which word is the opposite of shrink?",
+        "choices": [
+          "d isappear",
+          "grow",
+          "reduce",
+          "wash"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: grow. grow; grow-increasing in size; shrink-decreasing in size.",
+          "incorrect": [
+            "Not: d isappear. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: reduce. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: wash. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 148
+        }
+      },
+      {
+        "question": "Read the sentence and choose the word that is not an antonym for the underlined word. Alice and Jack were very excited about getting a new car.",
+        "choices": [
+          "sad",
+          "miserable",
+          "thrilled",
+          "depressed"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: thrilled. thrilled; thrilled is a synonym for excited and not an antonym.",
+          "incorrect": [
+            "Not: sad. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: miserable. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: depressed. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 200
+        }
+      },
+      {
+        "question": "Read the sentence and choose the best synonym for the u nderlined word. In the gloom of the rainy dawn, Kayla scanned the horizon searching for the long -promised arrival of the horse-drawn carriage.",
+        "choices": [
+          "looked",
+          "glanced",
+          "searched",
+          "noticed Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: searched. searched – to find something by examining or scanning carefully and thoroughly. This is the BEST synonym.",
+          "incorrect": [
+            "Not: looked. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: glanced. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: noticed Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 206
+        }
+      },
+      {
+        "question": "Kathy wore a colorful costume to the Halloween party. What is a synonym for colorful?",
+        "choices": [
+          "bright",
+          "dull",
+          "gloomy",
+          "dress"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: bright. bright – bold and vivid colors; colorful.",
+          "incorrect": [
+            "",
+            "Not: dull. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: gloomy. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: dress. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 211
+        }
+      },
+      {
+        "question": "Choose the best synonym for the underlined word below. Fran asked for a duplicate of the original letter.",
+        "choices": [
+          "answer",
+          "summary",
+          "copy",
+          "review"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: copy. copy – a thing made to be similar or identical to another; duplicate.",
+          "incorrect": [
+            "Not: answer. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: summary. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: review. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 213
         }
       }
     ],
@@ -13530,6 +14726,2554 @@
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
           "sequence": 40
+        }
+      },
+      {
+        "question": "Read the passage. Suddenly he wished that he hadn’t left his bed, that he’d stayed away from the Hatching Ground. Now everyone would see his ignominious failure. So, he scrambled as desperately to reach the shadowy walls of the Hatching Ground as he had struggled to cross the bowl. He mustn’t be seen. Which word in this story means the same as shameful.",
+        "choices": [
+          "ignominious",
+          "desperately",
+          "struggled",
+          "shadowy"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: ignominious. ignominious – deserv ing or causing public disgrace or shame.",
+          "incorrect": [
+            "",
+            "Not: desperately. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: struggled. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: shadowy. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 6
+        }
+      },
+      {
+        "question": "Read the paragraph. “It is fear, Mr. Holmes. It is terror.” She raised her veil as she spoke, and we could see that she was indeed in a pitiable state of agitation, her face all drawn and gray, with restless, frightened eyes, like those of some hunted animal. Her features and figure were those of a woman of thirty, buther hair was shot with premature gray, and her expression was weary and haggard. Sherlock Holmes ran her over with one of his quick, all-comprehensive glances. In this paragraph, what does the word agitation mean?",
+        "choices": [
+          "mixed up",
+          "confused",
+          "tired",
+          "upset"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: upset. upset – unhappy, disappointed, or worried; agitated.",
+          "incorrect": [
+            "Not: mixed up. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: confused. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: tired. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 8
+        }
+      },
+      {
+        "question": "On Halloween, the bat was flying in the dark night. What does bat mean?",
+        "choices": [
+          "hit",
+          "hide",
+          "mammal",
+          "jump"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: mammal. mammal; A bat is a mammal of the order Chiroptera, with their forelimbs adapted as wings. They are the only mammals naturally capable of true and sustained flight.",
+          "incorrect": [
+            "Not: hit. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hide. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: jump. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 13
+        }
+      },
+      {
+        "question": "Which word means to “do again”?",
+        "choices": [
+          "undo",
+          "diswrite",
+          "nonsense",
+          "rewrite"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: rewrite. rewrite – write something again so as to alter or improve it.",
+          "incorrect": [
+            "Not: undo. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: diswrite. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: nonsense. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 15
+        }
+      },
+      {
+        "question": "Sara has a new red velvet bonnet to wear on her head in the Christmas program. The word bonnet probably means:",
+        "choices": [
+          "hat",
+          "dress",
+          "play",
+          "green"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: hat. hat; A bonnet is a woman’s or child’s hat tied under the chin with a brim framing the face.",
+          "incorrect": [
+            "",
+            "Not: dress. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: play. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: green. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 18
+        }
+      },
+      {
+        "question": "Read the paragraph: At last, the children got to school. They were happy to see their teacher. The engine on the school bus had broken and was smoking. Another bus had to bring the students to school. In the paragraph, engine means:",
+        "choices": [
+          "lunch",
+          "camera",
+          "truck",
+          "motor"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: motor. motor – engine is a synonym for motor",
+          "incorrect": [
+            "Not: lunch. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: camera. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: truck. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 19
+        }
+      },
+      {
+        "question": "Which person does not belong in a family?",
+        "choices": [
+          "mo ther",
+          "teacher",
+          "fat her",
+          "son"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: teacher. teacher; teacher is not a family member, it is a profession.",
+          "incorrect": [
+            "Not: mo ther. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: fat her. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: son. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 63
+        }
+      },
+      {
+        "question": "I can bounce a ________.",
+        "choices": [
+          "glass",
+          "fire",
+          "ball",
+          "dish"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ball. ball; Asolid or hollow spherical or egg -shaped object that is kicked, bounced, thrown or hit.",
+          "incorrect": [
+            "Not: glass. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: fire. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: dish. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 64
+        }
+      },
+      {
+        "question": "Choose the correct word. Please raise your _______ arm.",
+        "choices": [
+          "rit e",
+          "write",
+          "hand",
+          "right"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: right. right; This is the correct spelling to indicate the side or direction of your arm.",
+          "incorrect": [
+            "Not: rit e. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: write. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hand. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 65
+        }
+      },
+      {
+        "question": "It is not _________ to talk with strangers.",
+        "choices": [
+          "h appy",
+          "afraid",
+          "fun",
+          "safe"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: safe. safe – protected from or not exposed to danger or risk.",
+          "incorrect": [
+            "Not: h appy. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: afraid. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: fun. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 66
+        }
+      },
+      {
+        "question": "Choose the correct word ending. The sing__ sang a beautiful song.",
+        "choices": [
+          "er",
+          "ir",
+          "le",
+          "e"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: er. er; singer – a person who sings, especially professionally.",
+          "incorrect": [
+            "",
+            "Not: ir. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: le. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: e. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 67
+        }
+      },
+      {
+        "question": "Choose the correct word for the sentence below. Don’t ______ your coat when it is cold outside.",
+        "choices": [
+          "rez ip",
+          "uncover",
+          "unz ip",
+          "zipper"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: unz ip. unz ip – unfasten the zipper of an item of clothi ng.",
+          "incorrect": [
+            "Not: rez ip. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: uncover. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: zipper. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 68
+        }
+      },
+      {
+        "question": "Choose the word that belongs with man and fan.",
+        "choices": [
+          "f at",
+          "can",
+          "mat",
+          "get"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: can. can; ‘can’ rhymes with ‘man’ and ‘fan’; they have the same ending sound.",
+          "incorrect": [
+            "Not: f at. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: mat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: get. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 69
+        }
+      },
+      {
+        "question": "Read the sentence and choose the correct word. Since it ________ last night, we had to wear our boots to school.",
+        "choices": [
+          "slid e",
+          "snowed",
+          "sister",
+          "sledded"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: snowed. snowed; past tense of snow – a water vapor frozen into ice crystals and falls in light white flakes.",
+          "incorrect": [
+            "Not: slid e. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: sister. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sledded. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 70
+        }
+      },
+      {
+        "question": "I will help mother dress the turkey. What does the word dress mean?",
+        "choices": [
+          "ou tfit",
+          "shirt",
+          "eat",
+          "fix"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: fix. fix; To dress the turkey means to fix it and get it ready to bake.",
+          "incorrect": [
+            "Not: ou tfit. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: shirt. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: eat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 71
+        }
+      },
+      {
+        "question": "To eat, you need a __________.",
+        "choices": [
+          "coat",
+          "girl",
+          "pig",
+          "spoon"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: spoon. spoon – an implement used for eating, stirring, and serving food.",
+          "incorrect": [
+            "Not: coat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: girl. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: pig. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 74
+        }
+      },
+      {
+        "question": "The sunset was a beautiful ____________.",
+        "choices": [
+          "sight",
+          "cite",
+          "site",
+          "moon"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: sight. sight – something that is seen, worth seeing.",
+          "incorrect": [
+            "",
+            "Not: cite. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: site. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: moon. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 75
+        }
+      },
+      {
+        "question": "Choose the word that has both /a/ and short /i/.",
+        "choices": [
+          "ab out",
+          "admit",
+          "indent",
+          "rain"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: admit. admit; /ad mit/-confess to be true or to be the c ase.",
+          "incorrect": [
+            "Not: ab out. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: indent. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: rain. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 76
+        }
+      },
+      {
+        "question": "Fred lost his left sock. What does sock mean?",
+        "choices": [
+          "look",
+          "clothing",
+          "hit",
+          "sing"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: clothing. sock – a garment for the foot and lower part of the leg.",
+          "incorrect": [
+            "Not: look. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: hit. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sing. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 77
+        }
+      },
+      {
+        "question": "The ___________ rushed to the burning building.",
+        "choices": [
+          "h ot",
+          "fireplace",
+          "firefighter",
+          "houses"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: firefighter. firefighter – a person whose job it is to extinguish fires.",
+          "incorrect": [
+            "Not: h ot. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: fireplace. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: houses. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 80
+        }
+      },
+      {
+        "question": "Rachel was ecstatic when she won the prize at the fair. In the sentence, ecstatic mean s:",
+        "choices": [
+          "scared",
+          "happy",
+          "worried",
+          "sad"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: happy. happy; ecstatic – feeling or expressing overwhelming happiness or joy ful excitement.",
+          "incorrect": [
+            "Not: scared. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: worried. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sad. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 81
+        }
+      },
+      {
+        "question": "January, February, March, ____________.",
+        "choices": [
+          "Su nday",
+          "spring",
+          "cookie",
+          "April"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: April. April; April is the month following March.",
+          "incorrect": [
+            "Not: Su nday. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: spring. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: cookie. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 83
+        }
+      },
+      {
+        "question": "In school we write on __________.",
+        "choices": [
+          "p aper",
+          "pencils",
+          "computers",
+          "scissors"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p aper. paper – something used to be written or drawn on.",
+          "incorrect": [
+            "",
+            "Not: pencils. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: computers. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: scissors. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 84
+        }
+      },
+      {
+        "question": "Jane laughed at the funny clown when she was at the circus. Which word means the same as laughed?",
+        "choices": [
+          "cried",
+          "chuckled",
+          "looked",
+          "zoo"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: chuckled. chuckled – laughed quietly or inwardly.",
+          "incorrect": [
+            "Not: cried. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: looked. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: zoo. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 85
+        }
+      },
+      {
+        "question": "Choose the missing word. We hope that we _______ the game.",
+        "choices": [
+          "w it",
+          "run",
+          "win",
+          "back"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: win. win – be successful or victorious.",
+          "incorrect": [
+            "Not: w it. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: run. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: back. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 86
+        }
+      },
+      {
+        "question": "Which word is a compound word?",
+        "choices": [
+          "sister",
+          "dog house",
+          "cars",
+          "fireman"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: fireman. fireman; A compound word is when two words are used toge ther to yield a new meaning. fire + man = fireman",
+          "incorrect": [
+            "Not: sister. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: dog house. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: cars. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 87
+        }
+      },
+      {
+        "question": "Last summer we packed our suitcases and went on a long trip. We drove to Montana and visited my grandma. It was such a fun trip. In the story, what does trip mean?",
+        "choices": [
+          "vacation",
+          "fall",
+          "walk",
+          "stumble"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: vacation. vacation – an extended period of leisure and recreation, especially one spe nt away from home or in traveling.",
+          "incorrect": [
+            "",
+            "Not: fall. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: walk. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: stumble. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 89
+        }
+      },
+      {
+        "question": "Hilda was very blue when her puppy was missing. In the sentence, the word blue means:",
+        "choices": [
+          "cold",
+          "sky",
+          "dog",
+          "sad"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: sad. sad – feeling or showing sorrow; unhappy.",
+          "incorrect": [
+            "Not: cold. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sky. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: dog. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-4_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 91
+        }
+      },
+      {
+        "question": "Which animal belongs in a zoo?",
+        "choices": [
+          "cat",
+          "bees",
+          "dog",
+          "elephant"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: elephant. elephant",
+          "incorrect": [
+            "Not: cat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: bees. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: dog. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 93
+        }
+      },
+      {
+        "question": "The sweater is made of fabric that is warm and soft. What does fabric mean?",
+        "choices": [
+          "clot h",
+          "wood",
+          "sleeve",
+          "coat"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: clot h. cloth – woven or felted fabric made from wool, cotton, or a similar fabric.",
+          "incorrect": [
+            "",
+            "Not: wood. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sleeve. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: coat. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 94
+        }
+      },
+      {
+        "question": "Choose the correct contraction for “you are”.",
+        "choices": [
+          "your",
+          "you’re",
+          "you’ve",
+          "you"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: you’re. you’re – you are",
+          "incorrect": [
+            "Not: your. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: you’ve. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: you. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 96
+        }
+      },
+      {
+        "question": "The class was surprised when their teacher told them to “zip it up” when they were too noisy. What does “zip it up” mean in this sentence?",
+        "choices": [
+          "go away",
+          "it’s recess",
+          "coat",
+          "be quiet"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: be quiet. be quiet",
+          "incorrect": [
+            "Not: go away. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: it’s recess. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: coat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 98
+        }
+      },
+      {
+        "question": "From the dock, we could see the _________ shining in the dark.",
+        "choices": [
+          "lighthouse",
+          "basketball",
+          "outside",
+          "weekend"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: lighthouse. lighthouse – a tower or other structure containing a beacon light to warn or guide ships at sea.",
+          "incorrect": [
+            "",
+            "Not: basketball. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: outside. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: weekend. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 99
+        }
+      },
+      {
+        "question": "Which group of letters only contains vowels?",
+        "choices": [
+          "a, o, n, d",
+          "i, s, y, u",
+          "e, a, i, u",
+          "u, a, i, g Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: e, a, i, u. e, a, i, u; Vowels are a, e, i, o, u.",
+          "incorrect": [
+            "Not: a, o, n, d. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: i, s, y, u. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: u, a, i, g Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 3. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 102
+        }
+      },
+      {
+        "question": "Read the list. hook, worm, rod, reel The above items are used for _________.",
+        "choices": [
+          "f ishing",
+          "flying",
+          "boating",
+          "bait"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: f ishing. fishing; These are items used to catch a fish while fishing.",
+          "incorrect": [
+            "",
+            "Not: flying. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: boating. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: bait. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 145
+        }
+      },
+      {
+        "question": "Read the passage. Washing our hands before meals is important to our health. Some dirt ha s germs and germs causedisease. If we eat with dirty hands, the germs can enter our bodies with the food. So, if you want to look good and stay healthy, you m ust keep yourself clean. Which words persuade the reader to wash their hands?",
+        "choices": [
+          "t o look good",
+          "to stay healthy",
+          "to smell",
+          "some dirt and germs"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: to stay healthy. to stay healthy; In order to stay healthy, it is important for the reader to wash their hands.",
+          "incorrect": [
+            "Not: t o look good. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: to smell. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: some dirt and germs. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 146
+        }
+      },
+      {
+        "question": "The new puppies were playing in the yard. The black one scampered while the white one tried to catch him. In this sentence, the word scampered means:",
+        "choices": [
+          "d og",
+          "strolled",
+          "walked",
+          "scurried"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: scurried. scurried; Scurry is synonymous with scamper-to move hurriedly with short quick steps.",
+          "incorrect": [
+            "Not: d og. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: strolled. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: walked. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 149
+        }
+      },
+      {
+        "question": "Read the passage. Yes, Utzel hated everybody and everything, buthe adored his daughter. H e daydreamed that a rich young man would fall in love with her, marry her, and “Utzel and H is Daughter, Poverty,” p age 149. Teacher auth ors: Phillips, provide for his wife and his fat her- in -law. But not a young man in the village showed Blackman, Felts). the slightest interest in poverty. In the passage, what does the compound word daydream ed mean?",
+        "choices": [
+          "p leasant thoughts",
+          "sleeping pictures",
+          "terrible thoughts",
+          "daily pictures"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p leasant thoughts. pleasant thoughts; daydream – a series of pleasant thoughts that distract one’s attention from the present.",
+          "incorrect": [
+            "",
+            "Not: sleeping pictures. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: terrible thoughts. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: daily pictures. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 151
+        }
+      },
+      {
+        "question": "Complete the sentence. The farmer went into the fields to _______ his seeds.",
+        "choices": [
+          "so",
+          "sough",
+          "sew",
+          "sow"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: sow. sow – by scattering it (seeds) on or in the earth.",
+          "incorrect": [
+            "Not: so. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sough. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sew. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 153
+        }
+      },
+      {
+        "question": "Look at the list of words: Computer Television Digital Camera Calculator How are the above items alike?",
+        "choices": [
+          "All the words have the letter “C”.",
+          "Everyone uses these items.",
+          "They all have viewing screens.",
+          "They are all cool."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: They all have viewing screens.. They all have viewing screens.",
+          "incorrect": [
+            "Not: All the words have the letter “C”.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Everyone uses these items.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: They are all cool.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 197
+        }
+      },
+      {
+        "question": "To which of the five senses does this set of words appeal: hot, cold, rough, soft?",
+        "choices": [
+          "t ouch",
+          "smell",
+          "taste",
+          "hear"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: t ouch. to uch; H ot, cold, rough, and soft are all associated and felt with the sense of touch.",
+          "incorrect": [
+            "",
+            "Not: smell. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: taste. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hear. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 198
+        }
+      },
+      {
+        "question": "Which sentence uses an underlined saying correctly?",
+        "choices": [
+          "Sh e was really in a fix when she forgot to do her homework.",
+          "A fire in the backyard is a backfire.",
+          "We were in a mix- up when we stirred the pancake batter.",
+          "She was very cold when she chilled out."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Sh e was really in a fix when she forgot to do her homework.. She was really in a fix when she forgot to do her homework. “In a fix” means they are in a difficult situation.",
+          "incorrect": [
+            "",
+            "Not: A fire in the backyard is a backfire.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: We were in a mix- up when we stirred the pancake batter.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: She was very cold when she chilled out.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 201
+        }
+      },
+      {
+        "question": "Choose the correct contraction for the underlined words. It does not make sense to put your shoes on before your socks.",
+        "choices": [
+          "isn’t",
+          "don’t",
+          "wasn’t",
+          "doesn’t Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: doesn’t Co pyright © TestingMo m.com. All rights reserved worldwide. Use of this do cument 2. doesn’t, doesn’t is the contraction for does not.",
+          "incorrect": [
+            "Not: isn’t. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: don’t. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: wasn’t. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 202
+        }
+      },
+      {
+        "question": "Read the passage. We selected for our victim the only child of a prominent citizen named Ebenezer Henry. “The Rans om of Red Chi ef” page 25. (T eacher au th ors: Phillips, Blackman, Felts). Dorset. The fat her was respectable and tight, a mortgage fancier and a stern, upright collection-plate passer and forecloser. The kid was a boy of ten, with freckles. In the passage, what does the word prominent mean?",
+        "choices": [
+          "u nnoticeable",
+          "well-known",
+          "mean- spirited",
+          "wealthy"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: well-known. well-known – known widely or thoroughly; prominent.",
+          "incorrect": [
+            "Not: u nnoticeable. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: mean- spirited. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: wealthy. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 203
+        }
+      },
+      {
+        "question": "Which group of words are all examples of fruit?",
+        "choices": [
+          "rasp berries, pears, apples, ice cream",
+          "raspberries, pears, corn, ice cream",
+          "raspberries, pears, apples, cherries",
+          "raspberries, pears, apples, green beans"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: raspberries, pears, apples, cherries. raspberries, pears, apples, cherries; fruit – a product of plant growth having a sweet pulpassociated with the seed.",
+          "incorrect": [
+            "Not: rasp berries, pears, apples, ice cream. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: raspberries, pears, corn, ice cream. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: raspberries, pears, apples, green beans. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 207
+        }
+      },
+      {
+        "question": "Read the phrases. Not! No way. Never. Don’t even think about it. The above phrases are all alike because:",
+        "choices": [
+          "they are short phrases",
+          "they all mean “no”",
+          "they are all things an adult would say",
+          "none of the above"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: they all mean “no”. they all mean “no”; Each phrase has a “no” word – not, no, never, don’t.",
+          "incorrect": [
+            "Not: they are short phrases. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: they are all things an adult would say. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: none of the above. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 208
+        }
+      },
+      {
+        "question": "Read the story. An eight-year old boy named Justin lived next door. He had brown hair, brown eyes, and a few freckles. He was fairly short for his age. This summer, Justin was learning to ride his skateboard. He practiced every day until he could balance and stay on his board without falling off. He then tried to jump off the curb and land on his board without crashing. He tried and tried, but each time, he fell off. Finally, he picked up his skateboard, threw it on the ground, and began to cry. At the same time, the neighbor across the street watching from her window saw him throw his skateboard and decided that Justin had a terrible temper. “Bec ause he’s so small, he just can’t skate very well,” she said. What wrong idea did Justin’s neighbor have?",
+        "choices": [
+          "Small boys should not ride skateboards.",
+          "Boys with brown hair and brown eyes should not ride skateboards.",
+          "Children should not playoutside in the road.",
+          "Justin has a bad temper."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Justin has a bad temper.. Justin has a bad temper. This is a biased opinion or assumpt ion and is the wrong idea based on one occurrence or situation.",
+          "incorrect": [
+            "Not: Small boys should not ride skateboards.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Boys with brown hair and brown eyes should not ride skateboards.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Children should not playoutside in the road.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 209
+        }
+      },
+      {
+        "question": "Choose the word that is divided correctly.",
+        "choices": [
+          "hun/dred",
+          "hund/red",
+          "hu/nd/red",
+          "hundr/ed"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: hun/dred. hun/dred – the numbwerequivalent to the product of ten and ten, ten more than ninety.",
+          "incorrect": [
+            "",
+            "Not: hund/red. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hu/nd/red. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hundr/ed. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 212
+        }
+      },
+      {
+        "question": "Fill in the blank. When we went to Cheyenne, we drove ________ a tunnel.",
+        "choices": [
+          "t hrew",
+          "through",
+          "though",
+          "thorough"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: through. through – moving in one side and out of the other side.",
+          "incorrect": [
+            "Not: t hrew. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: though. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: thorough. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 215
         }
       }
     ],
@@ -31482,6 +35226,214 @@
           "sourceFile": "Basic-2_Writing strategies_Application_Style.pdf",
           "sourceQuestionNumber": 6,
           "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Read the sentences. The engine coughed. The wind sighs. Fortune smiled on her. The photograph leered from the wall. These are examples of:",
+        "choices": [
+          "similes",
+          "metaphors",
+          "personification",
+          "symbolism"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: personification. personification – giving human characteristics to something non-human; engine coughed, wind sighs, fortune smiled, photograph leered.",
+          "incorrect": [
+            "Not: similes. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: metaphors. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: symbolism. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 2
+        }
+      },
+      {
+        "question": "Choose the answer that is the root of this word: careful",
+        "choices": [
+          "ful",
+          "care",
+          "reful",
+          "car"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: care. care – care (n.) + -ful",
+          "incorrect": [
+            "Not: ful. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: reful. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: car. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Basic-5_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 95
+        }
+      },
+      {
+        "question": "From what root word is electioneer made?",
+        "choices": [
+          "ele ctric",
+          "elect",
+          "elective",
+          "election"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: elect. elect – to choose someone to hold public office of position by voting; electioneer – to take an active part in an election.",
+          "incorrect": [
+            "Not: ele ctric. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: elective. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: election. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 154
+        }
+      },
+      {
+        "question": "Read the definitions of each root. chron-time phobia-fear phile-love Given these definitions of these roots, which would mean enjoying being afraid?",
+        "choices": [
+          "acrophobia",
+          "phobophilia",
+          "chronophilia",
+          "chronophobia"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: phobophilia. phobophilia – the love of fear.",
+          "incorrect": [
+            "Not: acrophobia. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: chronophilia. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: chronophobia. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 204
         }
       }
     ],
@@ -67202,6 +71154,110 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Which word has the beginning sound /cr/?",
+        "choices": [
+          "knot",
+          "cradle",
+          "scratch",
+          "black"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: cradle. cradle – cra/dle",
+          "incorrect": [
+            "Not: knot. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: scratch. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: black. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 16
+        }
+      },
+      {
+        "question": "Which is a multi-syllable compound word?",
+        "choices": [
+          "motorcycle",
+          "motionless",
+          "motoring",
+          "multi-purpose"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: motorcycle. motorcycle – mo/tor/cy/cle (multi-syllable) motor/cycle (compound word)",
+          "incorrect": [
+            "",
+            "Not: motionless. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: motoring. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: multi-purpose. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word parts, sounds, relationships, and context clues to understand words.",
+          "example": "Check the sentence or word part, then test each answer choice against that clue.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Proficient-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 216
         }
       }
     ],

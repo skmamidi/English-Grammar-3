@@ -2605,6 +2605,110 @@
           "sourceSet": "reading-comprehension-analogies",
           "sequence": 49
         }
+      },
+      {
+        "question": "Definite is to _____ ____ as uncertain is to guessed.",
+        "choices": [
+          "direct",
+          "misled",
+          "con tr ary",
+          "verified"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: verified. verified – make sure or demonstrate that something is true, accurate, or justified; definite.",
+          "incorrect": [
+            "Not: direct. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: misled. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: con tr ary. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-analogies",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 5
+        }
+      },
+      {
+        "question": "Book is to teacher as bus is to _____________.",
+        "choices": [
+          "d octor",
+          "dentist",
+          "driver",
+          "pilot"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: driver. driver – a person who drives a vehicle. ",
+          "incorrect": [
+            "Not: d octor. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: dentist. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: pilot. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-analogies",
+          "sourceFile": "Basic-3_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 73
+        }
       }
     ],
     "metadata": {
@@ -4003,6 +4107,162 @@
           "sourceSet": "reading-comprehension-categorizing",
           "sequence": 26
         }
+      },
+      {
+        "question": "Which one is not part of a bicycle?",
+        "choices": [
+          "wheel",
+          "seat",
+          "engine",
+          "brakes"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: engine. engine; A bicycle does not have an engine.",
+          "incorrect": [
+            "Not: wheel. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: seat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: brakes. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-categorizing",
+          "sourceFile": "Basic-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 11
+        }
+      },
+      {
+        "question": "Read the list of words and answer the question. Which category title best fits the list of words in G roup A?",
+        "choices": [
+          "Fu rniture",
+          "Communication devices",
+          "Writing Supplies",
+          "Buildings"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Writing Supplies. Writing Supplies; Group A contains items a person uses to write with.",
+          "incorrect": [
+            "Not: Fu rniture. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Communication devices. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Buildings. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-categorizing",
+          "sourceFile": "Proficient-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 147
+        }
+      },
+      {
+        "question": "Read the list of words and answer the question. Which category title best fits the list of words in G roup B?",
+        "choices": [
+          "Fu rniture",
+          "Communication devices",
+          "Writing Supplies",
+          "Buildings"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Fu rniture. Furniture; Group B contains items a person uses as furniture – movable equipment suitable for living or working.",
+          "incorrect": [
+            "",
+            "Not: Communication devices. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Writing Supplies. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Buildings. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-categorizing",
+          "sourceFile": "Proficient-2_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 199
+        }
       }
     ],
     "metadata": {
@@ -4817,6 +5077,58 @@
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-cause-effect",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Read the story and answer the question. The golden lion tamarin lives in a small area of Brazil. These small mo nkeys are in danger of becoming extinct. The forest where they live is shrinking fast. As m ore people mo ve into this area, trees are cut down to make room for cities and farms. The golden lion tam arin is also disappearing because they have been captured by people. People think they are cute and wan t them as pets. What is causing the golden lion tamaris to bec ome endangered?",
+        "choices": [
+          "They eat the leaves on the trees that are being cut down.",
+          "They ate too many bananas.",
+          "Th e trees where they live are being cut do wn to make room for cities.",
+          "People are putting them in zoos."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Th e trees where they live are being cut do wn to make room for cities.. The trees where they live a re being cut down to make r oom for citi es. Sentence 4 in the story.",
+          "incorrect": [
+            "Not: They eat the leaves on the trees that are being cut down.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: They ate too many bananas.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: People are putting them in zoos.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 160
         }
       }
     ],
@@ -7402,6 +7714,422 @@
           "sourceSet": "reading-comprehension-fact-opinion",
           "sequence": 29
         }
+      },
+      {
+        "question": "Which sentence would not be part of a factual news article?",
+        "choices": [
+          "If your child has a fever, tender loving care will bring it down.",
+          "People with fever may feel weak, have headaches, and experience chills.",
+          "Fever means a body temperature of 100.4 degrees or higher.",
+          "If you have a fever, doctors recommend that yourest and drink plenty of fluids."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: If your child has a fever, tender loving care will bring it down.. If your child has a fever, tender loving care will bring it down. This is an opi nion and not a statistical proven fact for a news article.",
+          "incorrect": [
+            "",
+            "Not: People with fever may feel weak, have headaches, and experience chills.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Fever means a body temperature of 100.4 degrees or higher.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: If you have a fever, doctors recommend that yourest and drink plenty of fluids.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 4
+        }
+      },
+      {
+        "question": "Which statement is a fact, not an opinion?",
+        "choices": [
+          "Roxanne is a happy child.",
+          "Roxanne kept a daily diary.",
+          "Roxanne is a good friend.",
+          "Roxanne’s handwriting is very sloppy."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Roxanne kept a daily diary.. Roxanne kept a daily diary. A fact is a thing that is known or proved to be true.",
+          "incorrect": [
+            "Not: Roxanne is a happy child.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Roxanne is a good friend.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Roxanne’s handwriting is very sloppy.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 9
+        }
+      },
+      {
+        "question": "Which of the following sentences is an opinion?",
+        "choices": [
+          "Crater Lake is the prettiest lake in the United States.",
+          "Oregon is a larger state than Rhode Island.",
+          "Crater Lake is in Oregon.",
+          "The capital of Oregon is Salem."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Crater Lake is the prettiest lake in the United States.. Crater Lake is the prettiest lake in the United States. An opinion is a view or belief not based on fact. Crater Lake being the “prettiest” is an opinion.",
+          "incorrect": [
+            "",
+            "Not: Oregon is a larger state than Rhode Island.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Crater Lake is in Oregon.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: The capital of Oregon is Salem.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 10
+        }
+      },
+      {
+        "question": "Read the passage. Trampolines are a great piece of exercise equipment. For one thing, it’s so much fun to jump, fly, and flip in the air that it doesn’t seem boring like regularexercise equipment. Also, this exercise is typically done outside, so you get fresh air in addition to burning calories. Which of the following conclusions is not supported by facts or details in the passage?",
+        "choices": [
+          "Jumping on the trampoline is a gr eat idea.",
+          "Jumping on the trampoline burns calories.",
+          "Jumping on the trampoline is dangerous.",
+          "J umping on the trampoline is fun."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Jumping on the trampoline is dangerous.. Jumping on the trampoline is dangerous. Th e passage does not ment ion the trampoline being dangerous.",
+          "incorrect": [
+            "Not: Jumping on the trampoline is a gr eat idea.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Jumping on the trampoline burns calories.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: J umping on the trampoline is fun.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 107
+        }
+      },
+      {
+        "question": "Read the following sentences. Mrs. Smith, who has taught j unior high school ma th for the past 30 years, received a certificate of appreciation h onoring her for her years of serv ice. Which sentence is the most objective, fair, clear, and accurate?",
+        "choices": [
+          "She is the best teacher in junior high school.",
+          "Math is a difficult subject to teach.",
+          "She was recognized for her achievement.",
+          "She was recognized for her long career."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: She was recognized for her achievement.. She was recognized for her achievement. This statement doesn’t have subjective words such as best, difficult and long. It is objective and accurate.",
+          "incorrect": [
+            "Not: She is the best teacher in junior high school.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Math is a difficult subject to teach.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: She was recognized for her long career.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 19,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 121
+        }
+      },
+      {
+        "question": "Read the following passage. Mary seems to enjoy reading in her free time. Mary must be a good reader. She read 35 books in eighth grade. She will probably read more in ninth grade. Which statement is a fact, not an opinion?",
+        "choices": [
+          "Mary seems to enjoy reading.",
+          "Mary will probably read more in ninth grade.",
+          "Mary will probably grow up to be a writer.",
+          "Mary read 35 books in eighth grade."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Mary read 35 books in eighth grade.. Mary read 35 books in eighth grade. A fact is someth ing known or proved to b e true.",
+          "incorrect": [
+            "Not: Mary seems to enjoy reading.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Mary will probably read more in ninth grade.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Mary will probably grow up to be a writer.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 125
+        }
+      },
+      {
+        "question": "Which of the following is a discriminatory statement.?",
+        "choices": [
+          "All kids should try this delicious cereal.",
+          "No one should m iss the movie of the year.",
+          "All girls should learn to c ook and clean.",
+          "All parents should buy this book for their children."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: All girls should learn to c ook and clean.. All girls should learn to cook and clean. Discrimination – unjust or prejudicial treatment of different categories of people based on race, age, or sex.",
+          "incorrect": [
+            "Not: All kids should try this delicious cereal.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: No one should m iss the movie of the year.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: All parents should buy this book for their children.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 126
+        }
+      },
+      {
+        "question": "Read the passage. Two minutes later, a harsh light was playing from the bu lbs that ran the length of the roof upon the grand chaos the children’s visits had made, and on the fading treasures of the factory. Satisfied, the crooks dashed forward to the partition. There were f ive of them. Fernand and G aby had no difficulty in picking out Pepe and Ugly in their leat her jackets, and a little behind them, as thou gh rat her unsure of himself, the tall shape of Roublot. The other two wore heavy over coats, the co llars turned up so tha t their faces could not be seen prop erly. How did Fernand and Gaby identify the two crooks to which they could not put names?",
+        "choices": [
+          "by their bulky coats and hide faces",
+          "by the extreme diff erence in their heights",
+          "by the harsh light playing from the bulbs",
+          "the children poin ted them out"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: by their bulky coats and hide faces. by their bulky coats and hide faces; Last sentence in the passage.",
+          "incorrect": [
+            "",
+            "Not: by the extreme diff erence in their heights. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: by the harsh light playing from the bulbs. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: the children poin ted them out. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 37,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 139
+        }
       }
     ],
     "metadata": {
@@ -8905,6 +9633,1930 @@
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
           "sequence": 28
+        }
+      },
+      {
+        "question": "Read the story. Sarah was going to the amusement park. She was so excited! She told all her friends that she was going to ride the merry-go-round, the Ferris wheel, and the bumper cars. What other ride would Sarah go on at the amusement park?",
+        "choices": [
+          "pet the rabbits",
+          "win a prize",
+          "ride the giraffe",
+          "roller coaster"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: roller coaster. roller coaster, A roller coaster is another ride that you would find at an amusement park.",
+          "incorrect": [
+            "Not: pet the rabbits. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: win a prize. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: ride the giraffe. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 21
+        }
+      },
+      {
+        "question": "Pigs will eat almost anything. They eat meat and plants. What do pigs eat?",
+        "choices": [
+          "water",
+          "plants and meat",
+          "mud",
+          "pizza"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: plants and meat. plants and meat; Pigs eat meat and plants.",
+          "incorrect": [
+            "Not: water. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: mud. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: pizza. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 23
+        }
+      },
+      {
+        "question": "Read the passage. Oceanville was a small town on the Pacific Coast. One day the radio broadcast issued an urgent storm warning. The people ____________. Fill in the blank with the best answer.",
+        "choices": [
+          "changed the radio station",
+          "went to the grocery store",
+          "prepared for the storm",
+          "went out on a sail boat"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: prepared for the storm. prepared for the storm. The people prepared for the storm due to the urgent storm warning.",
+          "incorrect": [
+            "Not: changed the radio station. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: went to the grocery store. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: went out on a sail boat. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 26
+        }
+      },
+      {
+        "question": "Choose the missing word. I can ___________ the rock to make it shiny.",
+        "choices": [
+          "hide",
+          "dig",
+          "throw",
+          "polish"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: polish. polish; Polish – make the surface of something smooth and shiny by rubbing it.",
+          "incorrect": [
+            "Not: hide. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: dig. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: throw. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 27
+        }
+      },
+      {
+        "question": "Choose the word that matches the picture and fits the sentence. The ________ has a new skirt.",
+        "choices": [
+          "boy",
+          "girl",
+          "dog",
+          "skirt"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: girl. girl; The girl has a new skirt.",
+          "incorrect": [
+            "Not: boy. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: dog. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: skirt. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 31
+        }
+      },
+      {
+        "question": "Read the following. Maria went to the store with her mother. Maria bought an apple to eat for a snack. Her mother bought eggs to make cookies. What are all of the items both Maria and her mother bought at the store?",
+        "choices": [
+          "Maria and her mother bought apples.",
+          "Maria’s mother bought eggs.",
+          "Maria bought apples.",
+          "Maria and her mother bought eggs and apples."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Maria and her mother bought eggs and apples.. Maria and her mother bought eggs and apples. Maria bought an apple and her mother bought eggs.",
+          "incorrect": [
+            "Not: Maria and her mother bought apples.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Maria’s mother bought eggs.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Maria bought apples.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 34
+        }
+      },
+      {
+        "question": "Match the pictures to the word below.",
+        "choices": [
+          "cupcake",
+          "cake",
+          "cupboard",
+          "pancake +"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: cupcake. cupcake; cup + cake = cupcake",
+          "incorrect": [
+            "",
+            "Not: cake. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: cupboard. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: pancake +. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 35
+        }
+      },
+      {
+        "question": "Read the following. Mary went to a new school on Monday. She did not know anyone in her class. She wanted to go home. You can tell in the story that Mary is _______________.",
+        "choices": [
+          "sad",
+          "happy",
+          "hungry",
+          "tired"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: sad. sad; sad – feeling of showing sorrow; unhappy.",
+          "incorrect": [
+            "",
+            "Not: happy. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hungry. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: tired. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 40
+        }
+      },
+      {
+        "question": "Read the story.. Mindy and Matt had been hiking all day long. They had covered 17 miles, hills included. By dusk they had finally stopped. Mindy immediately grabbed her water bottle. Matt took out fruit juice and lemonade From the above passage, you can tell that:",
+        "choices": [
+          "Mindy and Matt were hungry.",
+          "Mindy and Matt were tired.",
+          "Mindy and Matt were going home.",
+          "Mindy and Matt were thirsty."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Mindy and Matt were thirsty.. Mindy and Matt were thirsty. Both Mindy and Matt grabbed something to drink after their day long hike.",
+          "incorrect": [
+            "Not: Mindy and Matt were hungry.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Mindy and Matt were tired.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Mindy and Matt were going home.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 41
+        }
+      },
+      {
+        "question": "Read the sentence and choose the correct word. The wind ________ the leaves off the trees.",
+        "choices": [
+          "they",
+          "blew",
+          "blue",
+          "boil"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: blew. blew; blow (present tense) – blew (past tense) – of wind creating an air current.",
+          "incorrect": [
+            "Not: they. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: blue. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: boil. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 43
+        }
+      },
+      {
+        "question": "Read the following. John went to visit his grandma. He saw cows, horses, and pigs. He helped his grandma pick apples. John is at a _______________.",
+        "choices": [
+          "school",
+          "zoo",
+          "circus",
+          "farm"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: farm. farm; A farm would have cows, horses, pigs and apple trees.",
+          "incorrect": [
+            "Not: school. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: zoo. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: circus. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 28,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 48
+        }
+      },
+      {
+        "question": "Identify the compound word.",
+        "choices": [
+          "little",
+          "popcorn",
+          "helpful",
+          "poc ket"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: popcorn. popcorn; Compound word – when two or more words are put together to form a new word. pop + corn = popcorn",
+          "incorrect": [
+            "Not: little. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: helpful. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: poc ket. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 31,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 51
+        }
+      },
+      {
+        "question": "Read the story. Perry randown the stairs. He hurried into the kitchen. His mother had forgotten to leave his lunch on the table. He looked in the fridge. Oh no, he thought. Mother forgot to make lunch for me. He ran out the door and started towards the waiting school bus. What is Perry’s problem in the story?",
+        "choices": [
+          "Perry’s mother did not make a lunch for him.",
+          "Perry is late for school.",
+          "Perry’s mother isn’t home.",
+          "Pe rry forgot his lunch."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Perry’s mother did not make a lunch for him.. Perry’s mother did not make a lunch for him. Perry couldn’t find his lunch because his mother forgot to make it.",
+          "incorrect": [
+            "",
+            "Not: Perry is late for school.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Perry’s mother isn’t home.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Pe rry forgot his lunch.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 52
+        }
+      },
+      {
+        "question": "What is the prefix in the word disagree?",
+        "choices": [
+          "agree",
+          "disa",
+          "dis",
+          "sage"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: dis. dis; “Dis” is the prefix. It is a Latin prefix that means “do the opposite of”.",
+          "incorrect": [
+            "Not: agree. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: disa. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: sage. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 35,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 55
+        }
+      },
+      {
+        "question": "Identify the correct suffix. h appy, h app ier, h app i___",
+        "choices": [
+          "ly",
+          "er",
+          "est",
+          "tion"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: est. est; happ iest",
+          "incorrect": [
+            "Not: ly. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: er. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: tion. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 58
+        }
+      },
+      {
+        "question": "Read the label. The label says to use the cleaner on:",
+        "choices": [
+          "carpets",
+          "doors, walls and ceilings",
+          "counters, windows, and stove tops",
+          "wood floors"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: counters, windows, and stove tops. counters, windows, and stove tops; This is stated in the first 3 sentences of the label.",
+          "incorrect": [
+            "Not: carpets. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: doors, walls and ceilings. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: wood floors. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 40,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 60
+        }
+      },
+      {
+        "question": "Read the wedding announcement. Who officiated at the ceremony?",
+        "choices": [
+          "Linda Milam",
+          "Janet Thompson",
+          "Darren Andree",
+          "Thompson Andree"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Linda Milam. Linda Milam; “…with Li nda Milam officiating.”",
+          "incorrect": [
+            "",
+            "Not: Janet Thompson. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Darren Andree. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Thompson Andree. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 112
+        }
+      },
+      {
+        "question": "Read the following passage. Hol t, Reinhart, and Winston. 1997. Which statement does not explain why the man stopped at the Bed and Breakfast?",
+        "choices": [
+          "There were chrysanthemums in the window.",
+          "There was a fire in the fireplace.",
+          "There was a dachshund asleep in front of the fireplace.",
+          "He was exhausted, hungry and cold."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: He was exhausted, hungry and cold.. He was exhausted, hungry and cold. Nowhere in the passag e does it mention the man being hungry or cold.",
+          "incorrect": [
+            "Not: There were chrysanthemums in the window.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: There was a fire in the fireplace.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: There was a dachshund asleep in front of the fireplace.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 117
+        }
+      },
+      {
+        "question": "Read the passage. In 186 2, David Glasgow Farragut was the commander of a fleet of 17 ships sent to blockade the mouth of the Mississippi River. He set out to capture New Orleans, the South’s largest city and busiest port. To get to the city Admiral Farragut had to pass two heavily armed Confederate forts. In addition, a chain of hulks (old ships) was laid across the Mississippi to keep Yankee ships out. “Nothing afloat could pass the forts,” said a citizen of New Orleans. Farragut’s fleetheaded up the river. The Confederates opened fire. One ship was hit 42 times. Farragut’s flagship was set ablaze. “The passing of the forts…was one of the most awful sights and events I ever saw… [it] “Ruler of the P resident’s Navy”, Oxford University Press, O xford, New York, 19 99. seemed as if all the artillery of heaven w were playing upon the earth,” said Farragut. That didn’t stop him. His sailors put out the fires and got the ships moving. What was laid across the Mississippi to keep the Yankee ships out?",
+        "choices": [
+          "a chain of cannon balls",
+          "a chain of old ships",
+          "planks of wood",
+          "tall mounds of mud"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: a chain of old ships. a chain of old ships; “A chain of hulks (old ships) was laid across the Mississippi to keep Yankee ships out.”",
+          "incorrect": [
+            "Not: a chain of cannon balls. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: planks of wood. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: tall mounds of mud. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 124
+        }
+      },
+      {
+        "question": "Read the following definitions. Ivy – a climbing vine with a woody stem and green leaves. Spruce – an evergreen tree with slender needles. Crocus – a spring blooming plant of the iris family with grass-like leaves and yellow, purple, or white flowers. Gladiolus – an iris -like plant with sword-like leaves and tall spikes of funnel- shaped flowers. Moss – a very small green plant that grows in velvety clusters on roc ks and moist ground. Which plants are most logically grouped together?",
+        "choices": [
+          "gladiolus, crocus",
+          "ivy, g ladiolus",
+          "spruce, moss",
+          "ivy, moss"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: gladiolus, crocus. gladiolus, crocu s; Both the gladiolus and the crocus are iris like or from the iris family.",
+          "incorrect": [
+            "",
+            "Not: ivy, g ladiolus. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: spruce, moss. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: ivy, moss. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 129
+        }
+      },
+      {
+        "question": "Look at the definitions. Dormitory – a room or building with many r ooms for sleeping and living in. Synagogue – a building or plac e for religious study. Igloo – a hut, usually dome-shaped and mad e from blocks of packed sno w. Apartment – a group of rooms to live in, especially one of a numb er in an apartment house. Campe r – a motor vehicle or trailwerequipped for ca mping out. Which defined places are most logically grouped to gether?",
+        "choices": [
+          "apartment, camper",
+          "synagogue, dormitory",
+          "igloo, camp er",
+          "dormitory, apartment"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: dormitory, apartment. dormitory, apartment; Both of these have multiple rooms to live in.",
+          "incorrect": [
+            "Not: apartment, camper. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: synagogue, dormitory. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: igloo, camp er. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 28,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 130
+        }
+      },
+      {
+        "question": "Read the passage. Stunned for only a moment, the youth invented a tale that only giants, the most gullible creatures on the earth, would believe. Unfortunately, it is a quirk of supernature, a paradox of the cruelest kind, that whatever giants believe becomes their truth. “What was your last job?” asked the boy, knowing full well that giants never do manual work and haven’t the intellect or dexterity required for other types of employment. From the context of this passage, which pair of words are opposites?",
+        "choices": [
+          "gullible, supernature",
+          "invented, tru",
+          "giants, paradox",
+          "cruelest, kind"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: invented, tru. invented, truth; Invented – create, make up something; Truth – a fact.",
+          "incorrect": [
+            "Not: gullible, supernature. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: giants, paradox. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: cruelest, kind. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 31,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 133
+        }
+      },
+      {
+        "question": "With the addition of a prefix, which word now means the opposite of do?",
+        "choices": [
+          "redo",
+          "doer",
+          "undo",
+          "doing"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: undo. undo; do – perform an action; undo – cancel or reverse the actio n.",
+          "incorrect": [
+            "Not: redo. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: doer. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: doing. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 140
+        }
+      },
+      {
+        "question": "Read the announcement. Which selection gives you the most for your money?",
+        "choices": [
+          "1 slice of cake",
+          "4 cookies",
+          "2 brow nies",
+          "5 cookies"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: 5 cookies. 5 cookies; You can buy 5 cookies for one dollar or 20 cents each. This is the best value.",
+          "incorrect": [
+            "Not: 1 slice of cake. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: 4 cookies. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: 2 brow nies. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 40,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 142
+        }
+      },
+      {
+        "question": "Read the passage. It was a cold and chilling night, and the cattle were restless. As the sun dropped behind the mountain range, the animals all started to come alive with anticipation. This was a night of the hunter and the hunted. The wolves were on the prowl for a meal, and the cattle knew they were being watched. Choose the word that is an antonym for restless.",
+        "choices": [
+          "fidgety",
+          "calm",
+          "tense",
+          "insomniac"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: calm. calm; restless – unable to relax or rest; calm – a state of tranquility; peace.",
+          "incorrect": [
+            "Not: fidgety. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: tense. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: insomniac. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 143
+        }
+      },
+      {
+        "question": "Read the story below. Robbie and h is best friend, John, like to solve mysteries. One day, they went to the library to get some books to read. In the library, the re was a marble statue of a lady. On her left hand, there was a large, beautiful diamon d ring. Everyone thought the r ing was cool. On their way back out of the library, they noticed the ring was missing. Which title best fits the story?",
+        "choices": [
+          "Polly’s Great Escape",
+          "The Case of the Missing Diamond Ring",
+          "A Trip to the Library",
+          "A Day with Jo hn and Rob bie"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The Case of the Missing Diamond Ring. The Case of the Missing Diamond Ring; Robbie and John like to solve mysteries and the ring is missing.",
+          "incorrect": [
+            "Not: Polly’s Great Escape. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: A Trip to the Library. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: A Day with Jo hn and Rob bie. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 156
+        }
+      },
+      {
+        "question": "Read the list. Raccoo n Antelope Moose Deer Which of the following animals does not belong in the above group?",
+        "choices": [
+          "raccoon",
+          "deer",
+          "antelo pe",
+          "m oose"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: raccoon. raccoon; A raccoon does not have antlers, whereas deer, antelope, and moo se do.",
+          "incorrect": [
+            "",
+            "Not: deer. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: antelo pe. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: m oose. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 161
+        }
+      },
+      {
+        "question": "Read the passage. Everything was ready for the birthday party. The room was decorated with bright yellow balloons. The birthday cake was decorated like a giant soccer ball and was sitting in the middle of a round table. Which word is not an adjective?",
+        "choices": [
+          "bright",
+          "giant",
+          "party",
+          "round"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: party. party; Party is a noun.",
+          "incorrect": [
+            "Not: bright. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: giant. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: round. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 165
+        }
+      },
+      {
+        "question": "Read the following birthd ay announcements: 1. Wednesday – Birthday Par ty – 600 pm 2. Wednesday: Birthday Party: 6,00 p.m. 3. Wednesday, Birthday Party, 6:00 p.m. 4. Wednesday, Birthday, Party, 6:00 p.m. Which announcement is written in the correct format?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 3. Wednesday, Birthday Par ty, 6:00 p.m.",
+          "incorrect": [
+            "Not: 1. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: 2. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: 4. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 13,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 167
+        }
+      },
+      {
+        "question": "Look at the list for Group C below: Which category title best fits the list of words in Group C?",
+        "choices": [
+          "writing devices",
+          "furniture pieces",
+          "communication devices",
+          "music devices"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: communication devices. communication devices; All of the items listed in Group C are used to communicate; talk, type, listen.",
+          "incorrect": [
+            "Not: writing devices. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: furniture pieces. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: music devices. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 19,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 173
+        }
+      },
+      {
+        "question": "Read the story. John and his mom were shopping for a new set of rollerblades. As they looked at several pairs, John said, “Hey, Mom, look at these!” His mother replied by saying, “Oh, those are too much, how about these?” John shrugged and held up another pair. “This pair is on sale,” he said as he walked over to show her. The words “these,” “those,” and “this” refer to:",
+        "choices": [
+          "wheels",
+          "shoes",
+          "knee pads",
+          "rollerblades"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: rollerblades. rollerblades; The item being discussed and compared by both John and his mom, are rollerblades.",
+          "incorrect": [
+            "Not: wheels. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: shoes. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: knee pads. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 175
+        }
+      },
+      {
+        "question": "Identify two words that are synonyms in the following paragr aph. On Saturday, we went to the racetrack to see the horses. When the race began, the horses started to gallop. By the end of the race, the y were making a dash for the finish line.",
+        "choices": [
+          "gallop/dash",
+          "horses/race",
+          "finish/started",
+          "line/racetrack"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: gallop/dash. gallop/dash; Dash – to move with sudd en speed; Gallop – to run fast",
+          "incorrect": [
+            "",
+            "Not: horses/race. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: finish/started. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: line/racetrack. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 177
+        }
+      },
+      {
+        "question": "Read the following sentences. As we were walking through the forest we saw many beautiful wildflowers. We decided to pick some of them to take home so our p leasure would continue. What is the meaning of pleasure?",
+        "choices": [
+          "frustration",
+          "depression",
+          "blo ssom",
+          "enjoyment"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: enjoyment. enjoyment – something that gives keen satisfaction.",
+          "incorrect": [
+            "Not: frustration. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: depression. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: blo ssom. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 181
+        }
+      },
+      {
+        "question": "Which is NOT an element of a legend?",
+        "choices": [
+          "A ver y old story h anded down through generations.",
+          "Astory that may have a historical basis.",
+          "Ashort story that teaches a moral lesson.",
+          "Astory that emphasizes traits admired by a culture."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Ashort story that teaches a moral lesson.. Ashort story that teaches a moral lesson. A le g end is a narrative that focuses on a historically or geographically specific figure, and d escribes his exploits.",
+          "incorrect": [
+            "Not: A ver y old story h anded down through generations.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Astory that may have a historical basis.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Astory that emphasizes traits admired by a culture.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 28,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 182
+        }
+      },
+      {
+        "question": "Which word ends with the same sound as tough?",
+        "choices": [
+          "though",
+          "cuff",
+          "fought",
+          "tru"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: cuff. cuff; pronounced: c ə f and t ə f",
+          "incorrect": [
+            "Not: though. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: fought. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: tru. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 31,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 185
+        }
+      },
+      {
+        "question": "With the addition of a prefix, which word now means the opposite of do?",
+        "choices": [
+          "redo",
+          "doer",
+          "undo",
+          "doing"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: undo. undo; do – perform an action; undo – cancel or reverse the actio n.",
+          "incorrect": [
+            "Not: redo. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: doer. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: doing. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 192
+        }
+      },
+      {
+        "question": "Given the word base, which of the following would be an appropriate compound word?",
+        "choices": [
+          "baseball",
+          "baseless",
+          "abase",
+          "bases"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: baseball. baseball, base + ball = baseball",
+          "incorrect": [
+            "",
+            "Not: baseless. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: abase. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: bases. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 196
         }
       }
     ],
@@ -17926,6 +20578,370 @@
           "sourceSet": "reading-comprehension-main-idea-supporting-details",
           "sequence": 180
         }
+      },
+      {
+        "question": "Read the passage below. Tony likes to eat pizza. His mom says he would eat it every day if she let him. Tony thinks pepperoni pizza is the best. Even though he likes pizza, Tony never eats the crust. These sentences are all about:",
+        "choices": [
+          "Tony liking pizza",
+          "Tony’s mom",
+          "Toppings on pizza",
+          "Tony is 8 years old"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Tony liking pizza. Tony liking pizza.",
+          "incorrect": [
+            "",
+            "Not: Tony’s mom. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Toppings on pizza. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Tony is 8 years old. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 22
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Wendy has a lot of pets. She has two striped kittens, one hamster and three black dogs. Every day, she takes care of them. She feeds them and gives them a lot of love. What is the best title for this story?",
+        "choices": [
+          "Hamsters",
+          "Pet Food",
+          "Wendy’s Pets",
+          "Horses"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Wendy’s Pets. Wendy’s Pets; The passage lists Wendy’s pets and what she does for them.",
+          "incorrect": [
+            "Not: Hamsters. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Pet Food. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Horses. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 25
+        }
+      },
+      {
+        "question": "Read the story. Insects live in many places. Some live on land. Some live in water. Others live in the air. Some insects even live in the ground. What is the main idea of the story?",
+        "choices": [
+          "Insects live in many places.",
+          "Insects live in the air.",
+          "Insects live in the ground.",
+          "Insects live in water."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Insects live in many places.. Insects live in many places. Insects live in the air, the water, and the ground.",
+          "incorrect": [
+            "",
+            "Not: Insects live in the air.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Insects live in the ground.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Insects live in water.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 29
+        }
+      },
+      {
+        "question": "Read the story. Jane was in a hurry to get to soccer practice. Her friends were waiting for her on the corner. “Come on Jane. We are going to be late,” they called. As Jane ran towards her friends, she saw the widow who lived in the house across the street. She was carrying a bag of groceries. The widow looked tired. Jane knew she should stop and help. Jane looked at her friends who were waiting for her and turned around to go back and help the widow with her groceries. What is the main idea of the story?",
+        "choices": [
+          "Jane really wanted to go to soccer practice.",
+          "Jane was too busy to help the widow.",
+          "Jane’s friends were waiting for her.",
+          "Jane took time to help with the widow."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Jane took time to help with the widow.. Jane took time to help the widow. Instead of meeting her friends at the corner, Jane chose to help the widow with her groceries.",
+          "incorrect": [
+            "Not: Jane really wanted to go to soccer practice.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Jane was too busy to help the widow.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Jane’s friends were waiting for her.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 32
+        }
+      },
+      {
+        "question": "Read the magazine article and answer the question. The Importance of Reading Students in many of the local schools have discovered a new program to help them become better readers. This program is called Accelerated Reader, and it has shown to improve the reading score of students in all grades. Recent studies have shown that many students are not reading at grade level, and teachers were looking for a way to help them catch up and improve. Accelerated Reader helps students by encouraging one thing – practice, practice, practice! By reading more and practicing their skills, students are able to become better readers. What is the main idea of this magazine article?",
+        "choices": [
+          "Students need to improve their reading ability by practicing reading.",
+          "Students can learn to read in high school if they have the right books.",
+          "Reading is a popular pastime for many people.",
+          "Readin g is usually taught in first grade."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Students need to improve their reading ability by practicing reading.. Students need to im prove their reading ability by practicing reading.",
+          "incorrect": [
+            "",
+            "Not: Students can learn to read in high school if they have the right books.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Reading is a popular pastime for many people.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Readin g is usually taught in first grade.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 108
+        }
+      },
+      {
+        "question": "Read the passage. Thursday, I went Trick-or-Treating. I love to get a whole sack full of candy. It’s fun to see all of the different costumes. Halloween is my favorite holiday. It is so much fun to dress up and then meet my friends. What is the main idea of this passage?",
+        "choices": [
+          "Halloween is my favorite holiday.",
+          "I love to get a whole sack full of candy.",
+          "It’s fun to see the different c ostumes.",
+          "Dressing up and meeting my friends is fun."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Halloween is my favorite holiday.. Halloween is my favorite holiday. The passage states many different reasons w hy Halloween is her favorite holiday. (Candy, costumes, dress-up, meeting friend s)",
+          "incorrect": [
+            "",
+            "Not: I love to get a whole sack full of candy.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: It’s fun to see the different c ostumes.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Dressing up and meeting my friends is fun.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 155
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Lynn was a very determined girl, and she loved the idea of growing her own herb garden. She bought the seeds and supplies to start an herb garden in small pots, and then she planned to plant them in the ground after they got bigger. Her mother helped her set out all of the supplies and read the directio ns to get started. First, Lynn put pottin g soil in each of the six planting pots. Next, s he planted the seeds in each of the pots and w atered them. After one week of se tting the pots in the kitchen window to get sunlight and watering them, Lynn c ould start to see s ome of the herbs growing out of the soil. She could n’t wait to tell her fr iends about her new h erb garden. She ran to the phone to call her best friend, Sally, and tell her all about it. Suddenly, Lynn heard a loud crash, and her little brother came running out of the kitchen with soil allover his head! What most likely happen ed?",
+        "choices": [
+          "Lynn’s brother came in from playing outside.",
+          "Lynn heard a noise from across the street.",
+          "Lynn’s mo ther moved the plants to the living room.",
+          "Lynn’s brother broke the pots."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Lynn’s brother broke the pots.. Lynn’s brother broke the pots. A loud crash and Lynn’s brother having soil allover his head are two indic ators that Lynn’s brother broke the pots.",
+          "incorrect": [
+            "Not: Lynn’s brother came in from playing outside.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Lynn heard a noise from across the street.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Lynn’s mo ther moved the plants to the living room.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 159
+        }
       }
     ],
     "metadata": {
@@ -26946,6 +29962,1358 @@
           "sourceSet": "reading-comprehension-summarizing",
           "sequence": 180
         }
+      },
+      {
+        "question": "Read the story. Maria likes to eat cookies. Today, she ate four cookies before dinner. At dinnertime, she was not hungry. Her mom said, “Tomorrow, you can’t have any cookies before dinner.” What is the problem in this story.",
+        "choices": [
+          "Maria loves cookies.",
+          "Maria’s mother is mean.",
+          "Maria didn’t like her dinner.",
+          "Maria wouldn’t eat her dinner."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Maria wouldn’t eat her dinner.. Maria wouldn’t eat her dinner. Maria wasn’t hungry for dinner because she ate too many cookies.",
+          "incorrect": [
+            "Not: Maria loves cookies.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Maria’s mother is mean.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Maria didn’t like her dinner.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 24
+        }
+      },
+      {
+        "question": "Read the passage. To grow a seed, find a pot and fill it with dirt. Then, poke a hole in the dirt with your finger. Next, drop the seed in the hole. Then, cover the seed with dirt. After that, add water to the pot. Last, put the pot in the sun. What do you cover the seed with?",
+        "choices": [
+          "water",
+          "sun",
+          "dirt",
+          "air"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: dirt. dirt; The fourth sentence reads, “Then, cover the seed with dirt.”",
+          "incorrect": [
+            "Not: water. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sun. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: air. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 13,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 33
+        }
+      },
+      {
+        "question": "Read the story. Mike and Chris randown the sidewalk to school. Today was the big day! They were going to have a class party with popcorn, candy, and movie in the afternoon! From this story you can tell that Mike and Chris are __________________.",
+        "choices": [
+          "angry",
+          "sad",
+          "excited",
+          "scared"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: excited. excited; excited – very enthusiastic and eager. The exclamation mark helps to express excitement.",
+          "incorrect": [
+            "Not: angry. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: sad. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: scared. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 16,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 36
+        }
+      },
+      {
+        "question": "Read the story below. James and Cathy went into the city. They rode the bus. They stopped at the grocery store. They bought apples and oranges. After that, they took the bus to the zoo. They bought tickets to get into the zoo. James and Cathy saw lions, tigers, and bears. What did James and Cathy buy just before they took the bus to the zoo?",
+        "choices": [
+          "candy",
+          "apples and oranges",
+          "tickets to get into the zoo",
+          "bus tickets"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: apples and oranges. apples and oranges; The fourth sentence in the story states that they bought apples and oranges. This occurred before they took the bus to the zoo.",
+          "incorrect": [
+            "Not: candy. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: tickets to get into the zoo. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: bus tickets. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 37
+        }
+      },
+      {
+        "question": "Choose the word that needs to have the “y” changed to an “I” before adding “est”.",
+        "choices": [
+          "slowly",
+          "best",
+          "heavy",
+          "happily"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: heavy. heavy; heavy-heaviest",
+          "incorrect": [
+            "Not: slowly. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: best. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: happily. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 19,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 39
+        }
+      },
+      {
+        "question": "Read the following. Sarah and her mother went to the park. First, they walked through the grass and looked at the flowers. Next, they played in the sandbox. Later, they fed the ducks by the pond. What did they do after they played in the sandbox?",
+        "choices": [
+          "walked in the grass",
+          "looked at the flowers",
+          "parked the car",
+          "fed the ducks"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: fed the ducks. fed the ducks; The last sentence states what they did after they played in the sandbox.",
+          "incorrect": [
+            "Not: walked in the grass. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: looked at the flowers. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: parked the car. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 44
+        }
+      },
+      {
+        "question": "Read the story and answer the question. My pet monkey, Angel, had a fight with my next-door neighbor’s dog, Ranger, out in the middle of my street, Waterford Lane. Ranger chased Angel into Mr. Johnson’s yard which is behind my house. Mr. Johnson was playing golf in his yard. As Angel ran past, she grabbed Mr. Johnson’s golf ball and climbed up a tree. Then, she dropped the ball on Ranger’s head. Who is “she” in the story?",
+        "choices": [
+          "Mrs. Johnson",
+          "Angel",
+          "Ranger",
+          "Mr. Johnson"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Angel. Angel; “As Angel ran past, she grabbed Mr. Johnson’s golf ball…” She is referring to Angel.",
+          "incorrect": [
+            "Not: Mrs. Johnson. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Ranger. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Mr. Johnson. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 46
+        }
+      },
+      {
+        "question": "Read the story and answer the question. The little lion cub cuddled up to her mother and took a nap. After that, she went exploring near a cave. Next, she played with another cub for a while. After that, the little cub climbed up a tree. What did the little lion cub do first?",
+        "choices": [
+          "She went exploring near a cave.",
+          "She played with another cub.",
+          "She climbed a tree.",
+          "She cuddled up to her mother and took a nap."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: She cuddled up to her mother and took a nap.. She cuddled up to her mother and took a nap. This is stated in the first sentence of the story.",
+          "incorrect": [
+            "Not: She went exploring near a cave.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: She played with another cub.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: She climbed a tree.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 30,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 50
+        }
+      },
+      {
+        "question": "Read the passage. Jill wants to make a paper plate puppet. First, she needs to get paper, scissors, crayons, paper plate, glue, a stick, and some tape. Next, she needs to draw a face on the paper plate. Then, she needs to make some hair with the paper and glue it to the paper plate. Last of all, she needs to tape the stick to the back of the paper plate. Now, Jill’s puppet is made! What does Jill need to do after she makes some hair with the paper?",
+        "choices": [
+          "She needs to tape the stick to the back of the paper plate.",
+          "She needs to glue the yarn to the paper plate.",
+          "She needs to glue it to the paper plate.",
+          "Now, her puppet is made."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: She needs to glue it to the paper plate.. She needs to glue it to the paper plate. The second part of sentence 4 is to glue the hair to the paper plate.",
+          "incorrect": [
+            "Not: She needs to tape the stick to the back of the paper plate.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: She needs to glue the yarn to the paper plate.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Now, her puppet is made.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 53
+        }
+      },
+      {
+        "question": "Read the story and answer the question. On Sunday morning, Mark went fishing at Henry’s Lake. His grandfat her and dad went with him. They took the boat to go fishing. Mark and Grandpa unloaded the boat and hooked it to the dock nearthe western shore. Mark’s dad parked the car. When Mark’s dad arrived at the dock after parking, they all jumped into the boat and headed off to catch some fish. Mark caught the first fish. An hour later Mark’s grandpa hooked a fish. When he was reeling the fish in, he suddenly lost his balance and fell into the lake. Mark jumped in and rescued his grandpa. When did Grandpa fall into the water?",
+        "choices": [
+          "He fell in when he was standing on the shore.",
+          "He fell in as he was jumping into the boat.",
+          "He fell in when Mark caught the first fish.",
+          "He fe ll in when he was reeling in a fish."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: He fe ll in when he was reeling in a fish.. He fell in when he was reeling in a fish. The next to last sentence in the story states that Mark’s grandpa lost his balance while reeling in a fish and fell into the lake.",
+          "incorrect": [
+            "Not: He fell in when he was standing on the shore.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: He fell in as he was jumping into the boat.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: He fell in when Mark caught the first fish.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 34,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 54
+        }
+      },
+      {
+        "question": "Read the poem. One, Two Buckle my shoe. Three, Four Open the door. Five, Six Pick up sticks. Seven, Eight Lay them straight. Nine, Ten A big, fathen. Which words rhyme?",
+        "choices": [
+          "eight and straight",
+          "door and straight",
+          "four and five",
+          "one and two"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: eight and straight. eight and straight; A word rhymes with another word if it has the same sound.",
+          "incorrect": [
+            "",
+            "Not: door and straight. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: four and five. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: one and two. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 36,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 56
+        }
+      },
+      {
+        "question": "Mr. Green told Amanda, Kelly, and Veronica to place the candy bars in the concession stand in alphabetical order. Only Kelly put them in the right order. Which is the correct order of candy bars?",
+        "choices": [
+          "Snickers, Twix, Baby Ruth, Kit Kat",
+          "Baby Ruth, Kit Kat, Snickers, Twix",
+          "Kit Kat, Twix, Baby Ruth, Snickers",
+          "Twix, Snickers, Kit Kat, Baby Ru"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Baby Ruth, Kit Kat, Snickers, Twix. Baby Ruth, Kit Kat, Snickers, Twix",
+          "incorrect": [
+            "Not: Snickers, Twix, Baby Ruth, Kit Kat. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Kit Kat, Twix, Baby Ruth, Snickers. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Twix, Snickers, Kit Kat, Baby Ru. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 105
+        }
+      },
+      {
+        "question": "Read the story. Mary lefther pencil case in a classroom. The next day it was in the lost and found. All the pencils were gone. What does Mary know for sure about her pencil case?",
+        "choices": [
+          "Someone stole it and then returned it.",
+          "It was dropped in the hall.",
+          "It was turned in to the lost and found.",
+          "Her pencils are all broken."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: It was turned in to the lost and found.. It was turned in to the lost and foun d. The second s entence in the story.",
+          "incorrect": [
+            "Not: Someone stole it and then returned it.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: It was dropped in the hall.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Her pencils are all broken.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 113
+        }
+      },
+      {
+        "question": "Read the passage. After Joel finished his run, he went and recorded his time in his log. It was his best time he had recorded sinc e his last run in October. Since then, he wondered if he was not in as good of shape becau se his times seemed to be longer. After today, he wou ld have to pay close attention to whathe was doing differently to make sure he was running as fast as he could. How would youparaphrase Joel’s events?",
+        "choices": [
+          "Joel has not improved his times since October.",
+          "Today’s run was as f ast as October.",
+          "Joel’s runnin g times have not changed.",
+          "Joel has no idea ho w to get a better time."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Today’s run was as f ast as October.. Today’s run was as fast as October. When Joel finished, he recorded his time and it was as fast as his r un in Octob er.",
+          "incorrect": [
+            "Not: Joel has not improved his times since October.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Joel’s runnin g times have not changed.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Joel has no idea ho w to get a better time.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 128
+        }
+      },
+      {
+        "question": "Read the sentences. 1. Finally, I like to go school shopping. 2. Although there are 12 months in a year, August is my favorite. 3. August is clearly my favorite month. 4. To begin, the weat her is usually sunny and warm. 5. It is also a great time to enjoy outdoor activities. What sequence would represent the correct order of the above sentences?",
+        "choices": [
+          "4, 5, 3, 2, 1",
+          "2, 4, 5, 1, 3",
+          "3, 5, 2, 4, 1",
+          "2, 5, 4, 3, 1"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 2, 4, 5, 1, 3. 2, 4, 5, 1, 3; Although there are 12 months in a year, August is my favorite. To begin, the weat her is usually warm and sunny. It is also a great time to enjoy outdoor activities. Finally, I like to go school shopping. August is clearly my favorite month.",
+          "incorrect": [
+            "Not: 4, 5, 3, 2, 1. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: 3, 5, 2, 4, 1. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: 2, 5, 4, 3, 1. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 30,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 132
+        }
+      },
+      {
+        "question": "Read the passage. The view was outstanding! As we stood on the deck of our ship, we looked at the red and purple landscape. Truly, this planet was something to see. Then I remembered about an hour ago we had heard a strange rattling in the back of the storage area. My mind raced as I tried to thin k what could have made that scampering noise. I looked back out the doorway, and then asked my assistant if he was ready to collect some specimens from this co lorful world. I ignored the prompting to check the cabin as we prepared to set foot outside of our ship. Li ttle did we know what would lie ahead. What was the captain do ing when he remembered the strange s ound in the storage area?",
+        "choices": [
+          "collecting specimens",
+          "enjoying the scenery",
+          "getting ready to walk on the planet",
+          "taking photos of the landscape"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: enjoying the scenery. enjoying the scenery; The captain was standing on deck look ing at the red and purple landscape.",
+          "incorrect": [
+            "Not: collecting specimens. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: getting ready to walk on the planet. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: taking photos of the landscape. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 135
+        }
+      },
+      {
+        "question": "Read the passage. Your Counterattac k in Tennis: First, find out what type of volleyer you’re up against. There’s a tendency to over hit when your opponent is at the net. He attacks you, you get excited and make a mistake, and he wins the po int without doing anything. Make him prove he can hit a winnin g volley. Try to hit the ball below his waist level, especially on the return serve. Do your best to get it in play and low. Which of the following statement provides the best summ ar y?",
+        "choices": [
+          "Immediately return the ball quic k ly and high.",
+          "Making mistakes can cost you the matc h.",
+          "Be patient and return the ball lo w and keep it in pla y.",
+          "Only practice makes perfect."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Be patient and return the ball lo w and keep it in pla y.. Be patient and return the ball low and keep it in play.",
+          "incorrect": [
+            "Not: Immediately return the ball quic k ly and high.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Making mistakes can cost you the matc h.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Only practice makes perfect.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 34,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 136
+        }
+      },
+      {
+        "question": "Read the passage. Big, tall John, as he was known in the west, was the kindest, gentlest man to ever set foot in the town of Shuckleford. He was 16 feet tall and had feet as big as tires. He was strong as an ox, but gentle as a dove. One day, when he was walking down the street, he noticed a group of men looking up into the sky. “W hat’s the problem?” asked John. “A twister is coming our directio n!” The y all shouted, and everyone ran for cover. John knew that the twister was big enough to destroy the beautiful tow n of Shuckleford, so he had to make a plan fast! He j umped right into the heart of the twister and wrestled it to the ground. Then, h e tied i t up with a nearby railroad track and kicked it off into space. From that day on, the folks of Shuckleford called him Jump ing John and a twister never dared to visit the town of Shuckleford again. What type of writing is this?",
+        "choices": [
+          "folk tale",
+          "non-fiction",
+          "poetry",
+          "essay"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: folk tale. folk tale; folk tale – a tale or legend passed on traditionally, especially one considered to be false or based on superstition. John could not wrestle a twister, tie it up, and kick it off",
+          "incorrect": [
+            "",
+            "Not: non-fiction. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: poetry. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: essay. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 144
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. The other day at the park, I saw a little brown dog running around the playground. I noticed that he had on a blue collar with a small silver bell that jingled as he ran. I thoughthe was cute. I wished he were mine. Then I began to wonder if he was lost. I tried to catch him, buthe was too quick. My mom called from the car and told m e it was time to go. Th e little dog ran off as we drove away. What happened that day at the park?",
+        "choices": [
+          "I saw a little dog run into my yard.",
+          "I saw a dog wearing a red and white collar.",
+          "I saw a dog wearing a blue co llar with a silver bell.",
+          "I asked my mom if we could help the dog."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I saw a dog wearing a blue co llar with a silver bell.. I saw a dog wearing a blue collar with a silver bell. Th is is stated in the second sentence.",
+          "incorrect": [
+            "Not: I saw a little dog run into my yard.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: I saw a dog wearing a red and white collar.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: I asked my mom if we could help the dog.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 164
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Tara and Tanish a were planning a surprise party for Kr ystal. They invited a few of Krystal’s friends. They begandecorating the house. Tan is ha hung streamers along the ceiling while Tara blew up balloons. Next, they both decided to serve punch and cake. Tara went to the store for punch while T anisha bak ed the cake. At last, they were ready for the party. What did they do to prepare for the party?",
+        "choices": [
+          "made a cake and bought pop",
+          "hung streamers and posters",
+          "invited Krystal’s friends",
+          "hung a piñata from the ceiling"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: invited Krystal’s friends. invited Krys tal’s friends; This is stated in the second sentenc e.",
+          "incorrect": [
+            "Not: made a cake and bought pop. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: hung streamers and posters. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: hung a piñata from the ceiling. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 176
+        }
+      },
+      {
+        "question": "Read the passage. Patty and her mother woke up early in the morning to plant the first flowers of the summer. They had b een planning to plant new roses and various other flowers in the front garden for weeks. Today, it was finally nice eno ugh outside to plan t, and it would be fun to work together in the yard. When they were finished, the fron t of the garden was filled with beautiful colo rs and frag rant o dors to please everyone who passes. What can you infer from this passage?",
+        "choices": [
+          "Patty and her mother don’t like to wo r k very hard.",
+          "Spring is the best time to plant new flow er s.",
+          "Patty and her mother love g ardening.",
+          "Roses are the prettiest flowers to plant."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Patty and her mother love g ardening.. Patty and her mother love gardening.",
+          "incorrect": [
+            "Not: Patty and her mother don’t like to wo r k very hard.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Spring is the best time to plant new flow er s.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Roses are the prettiest flowers to plant.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 25,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 179
+        }
+      },
+      {
+        "question": "Read the passage. On that first day, I r andown the hill and into the road (few cars ever came along it) and had the good sense to stop running before I reached the store. I was liked, and what a difference it made. I was respected, not as Mrs. Henderson’s grandchild or Bailey’s sister, but for just being Marguerite Johnson. Childh ood’s logic never asks to be proved (all conclusio ns are absolute). I didn’t question why Mrs. Flowers had singled me out for attention, nor did it occur to me that Momma might have asked her to give me a little talking-to. All I cared about was that she had made tea cookies “Mrs. Fl ow ers.” E lements of Litera ture: Second Course. Holt, Rinehart and for me and read to me from her favorite book. It was enough to prove that she liked Winston 1997. me. Who can you infer about Marguerite?",
+        "choices": [
+          "She liked to run.",
+          "Marguerite needs s omeone to love and respecther for herself.",
+          "She and Bai ley like to make cookies.",
+          "There was a lot of traffic in her town."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Marguerite needs s omeone to love and respecther for herself.. Marguerite needs s omeone to love and respecther for herself. It did not matter wh o Marguerite was related to, she was just happy that Mrs. Flowers made her cookies and read to her because of who she was.",
+          "incorrect": [
+            "Not: She liked to run.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: She and Bai ley like to make cookies.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: There was a lot of traffic in her town.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 180
+        }
+      },
+      {
+        "question": "Read the poem. Outside, A few cars hissing past, Fog hanging like old Coats between the trees. I took my girl’s hand In mine for two b locks, Then release it to let Her unwrap the chocolate. I peeled my orange That was so bright against Soto, Gar y. “Oranges”. Elements of Literature: Second Course. Holt, Rinehart, Winston The gray of December That, from some distan ce, I was making a fire in my hands. The underlined sentenc e is an example of a(n) __________________ __.",
+        "choices": [
+          "metaphor",
+          "exclamation",
+          "interjection",
+          "simile"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: simile. simile; Asimile is a direct comparison u sing the words “like” or “as”. “Fog hanging like old coats…”",
+          "incorrect": [
+            "Not: metaphor. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: exclamation. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: interjection. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 186
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Janet looked out her bedroom window and saw the beautiful, new, white snow covering the ground outside. She quickly got dressed and ran out the front door to make the first snowman of the season. “Don’t forget your gloves! Your fingers will freeze!” called her mother as the door slammed. “Don’t need them! No time!” yelled Janet as she jumped into the sno w. After about 5 minutes of working in the ice -cold snow with her bare hands to make the snowman, Janet realized that her fingers were so cold they were starting to hurt. What will Janet mo s t likely do next?",
+        "choices": [
+          "Go back in the house for her coat.",
+          "Take off her coat and boo ts.",
+          "Go back in the house for her g loves.",
+          "Ask her mother to help her make the snowm an."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Go back in the house for her g loves.. Go back in the hou s e for her g loves. Janet’s fingers w were cold and she needs gloves to keep her hands warm.",
+          "incorrect": [
+            "Not: Go back in the house for her coat.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Take off her coat and boo ts.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Ask her mother to help her make the snowm an.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 34,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 188
+        }
+      },
+      {
+        "question": "Read the poem. The Runaw ay Once, when the snow of the year was beginning to fall, We stopped by a mountain pasture to say, ‘Whose colt?’ A little Morgan had one forefoot on the wall, The other cu rled at his breast. He dipped his head And snorted at us. And then he had to bolt. We heard the miniature thund er where he fled, And we saw him, o r thought we saw him, dim and grey, Like a shadow against the curtain o f falling f lakes. ‘I think the little fellow’s afraid of the snow. He isn’t winter-broken. It isn’t play With the little fellow at all. He’s running away. I doubt if even his mother could tell him, “Sakes, It’s only weat her.” He’d think she didn’t k now! Where is his mother? He can’t be out alone.’ And now h e comes ag ain with a c latter of stone And moun ts the wall again with whited eyes And all his tail that isn't hair up straight. He shudders his coat as if to throw off flies. ‘Whoever it is that leaves him out so late, “The Runaway.” Elements of Literature. Holt, R inehart, Winston 1997. When other creatures have gone to stall and bin, Ought to be told to c o me and take him in.’ Why is the colt afraid?",
+        "choices": [
+          "He is hungry",
+          "The people are watc hing him.",
+          "He is afraid of the weat her.",
+          "Another colt is chasing him."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: He is afraid of the weat her.. He is afraid of the weat her. The colt is afraid of the sno wfall. It is new and un familiar to him.",
+          "incorrect": [
+            "Not: He is hungry. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: The people are watc hing him.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Another colt is chasing him.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 193
+        }
+      },
+      {
+        "question": "Read the passage. It was her first day at her new school, and Jenny was terrified. She didn’t know anyone there, and this was a much bigger school than she was used to. Jenny wasn’t even sure she could find her locker, let alone her classes! She walked slowly down the hall with her chin tucked t o her chest so as not to make eye contac t with anyone. She rubbed the old p enny in her pocket with her left hand and remembered the nighther grandmother had given it to her, saying that it was a penn y she loved as a child and Jenny should alw ays keep it with her to remind herself that she wa s always loved too. As she finally found her locker and pu t all her books away, Jenny rubb ed the penny again and thought to herself, I cando this, and she walked with her head up to find her first class for the day. What does the penny symbolize to J enny?",
+        "choices": [
+          "peace",
+          "love",
+          "friends",
+          "money"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: love. love; The penny was given to Jenny by her grandm o ther to remind her that she is always loved.",
+          "incorrect": [
+            "Not: peace. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: friends. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: money. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 40,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 194
+        }
       }
     ],
     "metadata": {
@@ -35965,6 +40333,58 @@
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-text-evidence",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Read the statement. Mary wrote, “Everyone should drink milk instead of coffee. My grandfat her drank milk at every meal. He lived to be 89. People could live longer by drinking milk.” What is faulty with Mary’s reasoning?",
+        "choices": [
+          "Not enough evidence to decide what is good for everyone",
+          "Other factors may have been a reason for his long life",
+          "Both A and B",
+          "There is nothing wrong with Mary’s reasoning."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Both A and B. Both A and B; There is not enough evidence to decide what is good for everyone and Other factors may have been a reason for his long life.",
+          "incorrect": [
+            "Not: Not enough evidence to decide what is good for everyone. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Other factors may have been a reason for his long life. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: There is nothing wrong with Mary’s reasoning.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-1_Foundational skills and vocabulary.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "foundational-skills-vocabulary",
+          "sourceGrade": 3,
+          "sequence": 3
         }
       }
     ],
@@ -63636,6 +68056,58 @@
           "sourceQuestionNumber": 12,
           "sourceCategory": "language-usage-test"
         }
+      },
+      {
+        "question": "Read the riddle. What is black and white and read allover? A newspaper What is the purpose of this riddle?",
+        "choices": [
+          "to educate",
+          "to persuade",
+          "to amuse",
+          "to inform"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: to amuse. to amuse; This is a riddle and uses a pun.",
+          "incorrect": [
+            "Not: to educate. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: to persuade. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: to inform. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 16,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 170
+        }
       }
     ],
     "metadata": {
@@ -81496,6 +85968,214 @@
           "sourceSet": "reading-comprehension-compare-contrast",
           "sequence": 180
         }
+      },
+      {
+        "question": "Read the story. Jane and Joe went to the swimming pool. Jane was an excellent swimmer. She jumped into the pool. She was so excited. It was fun to swim. Joe jumped into the pool also. He could not swim very well. He wished he could have gone to the zoo instead of the silly pool. How was Jane different from Joe?",
+        "choices": [
+          "Joe was happy to go to the pool.",
+          "Jane is a better swimmer than Joe.",
+          "Joe is a better swimmer than Jane.",
+          "Jane is unhappy."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Jane is a better swimmer than Joe.. Jane is a better swimmer than Joe. Jane was an excellent swimmer. He (Joe) could not swim very well.",
+          "incorrect": [
+            "Not: Joe was happy to go to the pool.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Joe is a better swimmer than Jane.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Jane is unhappy.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 28
+        }
+      },
+      {
+        "question": "Read the following sentences. We were playing in the house when Mother was gone shopping. A lamp was accidentally broken. Mother was very angry when she saw what had happened. Choose a word that means the same as angry.",
+        "choices": [
+          "mad",
+          "home",
+          "tired",
+          "happy"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: mad. mad; mad – very angry.",
+          "incorrect": [
+            "",
+            "Not: home. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: tired. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: happy. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 47
+        }
+      },
+      {
+        "question": "Read the passage. Jan and Todd were riding horses along the canal road, when suddenly, Jan’s horse got spooked. Her horse started jumping and bucking, and Jan could barely hold on. She started to scream for help, and Todd was frozen. He had no idea what to do to help Jan out. She fell off the horse and broke her right leg. The horse ran off down the road, and Todd started to cry. How are Jan and Todd alike?",
+        "choices": [
+          "Jan and Todd are bothexperienced horse riders.",
+          "They are both animal lovers.",
+          "They had medical emergency training.",
+          "N either of them was prepared for this situation."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: N either of them was prepared for this situation.. Neither of them was prepared for this situation. Jan screamed for help, Todd was frozen and started to cry. Both were caught off guard and not prepared for the situation.",
+          "incorrect": [
+            "Not: Jan and Todd are bothexperienced horse riders.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: They are both animal lovers.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: They had medical emergency training.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 59
+        }
+      },
+      {
+        "question": "Which group of words m eans the same as the word lost?",
+        "choices": [
+          "missing, misplaced, returned, witho ut",
+          "absent, forfeited, misplaced, weak",
+          "missing, misplac ed, absent, vanished",
+          "leave, disabled, sickly, hidden"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: leave, disabled, sickly, hidden. missing, misplaced, absent, vanished",
+          "incorrect": [
+            "Not: missing, misplaced, returned, witho ut. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: absent, forfeited, misplaced, weak. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: missing, misplac ed, absent, vanished. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 195
+        }
       }
     ],
     "metadata": {
@@ -90516,6 +95196,110 @@
           "sourceSet": "reading-comprehension-poetry-skills",
           "sequence": 180
         }
+      },
+      {
+        "question": "Choose the word that rhymes with “braid”.",
+        "choices": [
+          "stayed",
+          "hair",
+          "brain",
+          "head"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: stayed. stayed; braid – stayed (both have the long “a” sound)",
+          "incorrect": [
+            "",
+            "Not: hair. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: brain. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: head. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 62
+        }
+      },
+      {
+        "question": "Look at the following: Dear Terry, Thank you for letting me borrow your book. I enjoyed reading it. Your friend, Carrie What type of writing is this?",
+        "choices": [
+          "note",
+          "poem",
+          "diary",
+          "story"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: note. note; A note is a short informal letter or written message.",
+          "incorrect": [
+            "",
+            "Not: poem. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: diary. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: story. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 174
+        }
       }
     ],
     "metadata": {
@@ -99355,6 +104139,58 @@
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-book-genres",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Read the passage. Learning to read is important for everyone. Reading is imp ortant if you want to learn how to put something together. Some people read f or fun. But everyone needs to read if they want to be successful in getting a job. This passage is an example of what kind of writing?",
+        "choices": [
+          "fiction",
+          "fantasy",
+          "no n-fiction",
+          "legend"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: no n-fiction. non-fiction; non-fiction – prose writing that is based on fact, real events, and real people such as biography or history.",
+          "incorrect": [
+            "Not: fiction. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: fantasy. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: legend. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-book-genres",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 157
         }
       }
     ],
@@ -117216,6 +122052,58 @@
           "sourceSet": "reading-comprehension-tone-mood",
           "sequence": 180
         }
+      },
+      {
+        "question": "An ad for hand cream claim s the cream moistu rizes and evens s kin tone. What does tone mean?",
+        "choices": [
+          "musical sound",
+          "elegant style",
+          "interval on a mu sical scale",
+          "quality of color"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: quality of color. quality of colo r; tone – color quality or value; a tint or shade of color.",
+          "incorrect": [
+            "Not: musical sound. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: elegant style. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: interval on a mu sical scale. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-tone-mood",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 35,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 189
+        }
       }
     ],
     "metadata": {
@@ -126235,6 +131123,474 @@
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-test-taking-reading-skills",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Read the story and answer the question. My family went to the circus. We saw the funny clowns. We watched the lion act. We ate a lot of treats and popcorn. This is a story about _____________.",
+        "choices": [
+          "eating treats and popcorn.",
+          "going to the circus.",
+          "clowns",
+          "lions"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: going to the circus.. going to the circus; The story tells about the family going to the circus, what they saw, and what they ate.",
+          "incorrect": [
+            "Not: eating treats and popcorn.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: clowns. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: lions. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 18,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 38
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Brandi is my dog. She has short hair and a long tail. She is black and white with brown eyes. Hwereyes have black patches around them that look like a mask. Brandi has _________.",
+        "choices": [
+          "brown hair",
+          "green eyes",
+          "brown eyes",
+          "long ears"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: brown eyes. brown eyes; The third sentence states that Brandi has brown eyes.",
+          "incorrect": [
+            "Not: brown hair. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: green eyes. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: long ears. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 25,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 45
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Some monkeys are the size of house cats. These monkeys are called vervet monkeys. They live in East Africa. These groups of monkeys fight often. Usually the strongest group of monkeys wins. When these monkeys fight they stand on their hind legs, bite, and bark an alarm call. When one group cries out an alarm call, the other group of monkeys climbs up a nearby tree. How do vervet monkeys fight?",
+        "choices": [
+          "They stand on their hind l egs, bite, and bark an alarm call.",
+          "They swing their arms, bit, and climb up a tree.",
+          "They jump oneach other, bite, and bark.",
+          "They bite and run."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: They stand on their hind l egs, bite, and bark an alarm call.. They stand on their hind legs, bite, and bark an alarm call. The sixth sentence in the passage states how the vervet monkeys fight.",
+          "incorrect": [
+            "",
+            "Not: They swing their arms, bit, and climb up a tree.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: They jump oneach other, bite, and bark.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: They bite and run.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 49
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Sam moved into a new neighborhood. There was a park nearby. He walked to the park to play. He spied a treehouse up in one of the willow trees. He climbed up the tree to explore the treehouse. As he entered through the treehousedoor, he noticed a sign that said the treehouse was built by Tommy Jones, age 13, Timothy Smith, age 14, and Tom Sawyer, age 15. Who built the treehouse?",
+        "choices": [
+          "a family",
+          "three teenagers",
+          "Tom’s dad",
+          "a construction worker"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: three teenagers. three teenagers; The treehouse was built by: Tommy Jones, age 13, Timothy Smith, age 14, and Tom Sawyer, age 15.",
+          "incorrect": [
+            "Not: a family. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Tom’s dad. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: a construction worker. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "basic-1_reading.pdf",
+          "sourceQuestionNumber": 37,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 57
+        }
+      },
+      {
+        "question": "Read the passage. The teacher told the class, “Every student who had cereal for breakfast last year received a passing grade on the test. So, if you want to pass, have cereal for breakfast.” What is faulty about the teacher’s reasoning?",
+        "choices": [
+          "Perhaps students other than those who ate cereal also pass the test.",
+          "A lot of people eat cereal for breakfast, so it could have been a coin cidence.",
+          "There is nothing wrong with the teacher’s reasoning.",
+          "Bo th A and B"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Bo th A and B. Both A and B",
+          "incorrect": [
+            "Not: Perhaps students other than those who ate cereal also pass the test.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: A lot of people eat cereal for breakfast, so it could have been a coin cidence.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: There is nothing wrong with the teacher’s reasoning.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 104
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Amy opened the doo r to the bathroom. “What is that dripping sound? Why is the carpet wet and squishy all around the bathtub? The rest of the carpet is dry. Oh n o!” What is the problem?",
+        "choices": [
+          "There is no soap in the bathroo m.",
+          "The television set is broken.",
+          "The bathtu b is overflowing.",
+          "The carpet is dry."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The bathtu b is overflowing.. The bathtub is overflowing. Th e water was running; the carpet was wet around the tub.",
+          "incorrect": [
+            "Not: There is no soap in the bathroo m.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: The television set is broken.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: The carpet is dry.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "Expert-1_reading.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 141
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Robert practiced for his baseball game with his orange glove, his purple practice uniform, and his green game hat. Robert’s mom washed his dirty blue and white striped game uniform while Robert sat in the yellow chair watch ing TV. Wha t did Robert’s game uniform look like?",
+        "choices": [
+          "orange glove, green hat, purple uniform",
+          "orange glove, green hat, blue and white striped un iform",
+          "orange glove, blue and white striped hat, green unif orm",
+          "o range glove, purple hat, blue and white striped uniform"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: orange glove, green hat, blue and white striped un iform. orange glove, green hat, blue and white stiped u niform. His GAME uniform is blu e and white striped.",
+          "incorrect": [
+            "Not: orange glove, green hat, purple uniform. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: orange glove, blue and white striped hat, green unif orm. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: o range glove, purple hat, blue and white striped uniform. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 163
+        }
+      },
+      {
+        "question": "Read the passage. Jennifer has the whitest teeth in her class. Whenever she smiles, she alway s is told that she has a beautiful smile. Jennifer’s, mom bo ug ht a new too thpaste that tastes like candy canes called “WOW.” It has special ingredien ts that fight cavities, prevent gum disease and whiten teeth. If you wan t to have a beautiful smile like Jennifer, buy “WOW” Toothpaste. What are some of the benefits of “WOW” Too thpaste?",
+        "choices": [
+          "whitens tee",
+          "smells wintery fresh",
+          "co sts less than other brands",
+          "red and white striped"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: whitens tee. tooth white ner; W OW Toothpaste has special ingre dients that whiten teeth.",
+          "incorrect": [
+            "",
+            "Not: smells wintery fresh. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: co sts less than other brands. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: red and white striped. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 171
+        }
+      },
+      {
+        "question": "Read the following label and answer the question. What can happen if you do not take the vitamin wit h a full g lass of water?",
+        "choices": [
+          "You may get sleepy.",
+          "You m ay get an upset stomach.",
+          "Th e vitamin will not work.",
+          "Children under 10 will get tired."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: You m ay get an upset stomach.. You m ay get an upset stomach. Line 2 states to take the vitamin with a full glass of water to avoid an upset stom ach.",
+          "incorrect": [
+            "Not: You may get sleepy.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "",
+            "Not: Th e vitamin will not work.. Use the passage, word clue, or text feature to check this choice against the evidence.",
+            "Not: Children under 10 will get tired.. Use the passage, word clue, or text feature to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using details from the passage to understand ideas, events, and author choices.",
+          "example": "Find the sentence or detail that supports the answer before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets - Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reading comprehension",
+            "reading",
+            "evidence",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage or word clue and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-test-taking-reading-skills",
+          "sourceFile": "Proficient-1_reading.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "reading-test",
+          "sourceGrade": 3,
+          "sequence": 187
         }
       }
     ],

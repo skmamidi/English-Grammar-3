@@ -681,6 +681,35 @@ body.auth-locked main {
   gap: 6px;
 }
 
+.create-student-form {
+  align-items: end;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(150px, 1fr) minmax(170px, 1fr) auto;
+  padding: 14px;
+}
+
+.create-student-form .student-field {
+  min-width: 0;
+}
+
+.create-student-form input {
+  background: var(--card);
+  min-height: 46px;
+  width: 100%;
+}
+
+.create-student-form .create-student-btn {
+  grid-column: 1 / -1;
+}
+
+.auth-dialog .create-student-form {
+  grid-template-columns: 1fr;
+}
+
 .auth-code {
   background: var(--surface-subtle);
   border: 1px dashed var(--primary);
@@ -806,6 +835,13 @@ body.auth-locked main {
   margin-bottom: 18px;
 }
 
+.parent-dashboard-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
 .parent-dashboard-header h2 {
   font-size: 1.5rem;
 }
@@ -825,6 +861,148 @@ body.auth-locked main {
   display: grid;
   gap: 12px;
   padding-top: 16px;
+}
+
+.parent-dashboard-notice {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: none;
+  font-weight: 800;
+  margin: 0 0 16px;
+  padding: 10px 12px;
+}
+
+.parent-dashboard-notice.active {
+  display: block;
+}
+
+.parent-dashboard-notice[data-tone="success"] {
+  background: var(--success-surface);
+  border-color: var(--success-border);
+  color: var(--success-text);
+}
+
+.parent-dashboard-notice[data-tone="error"] {
+  background: var(--error-surface);
+  border-color: var(--error-border);
+  color: var(--error-text);
+}
+
+.parent-dialog-backdrop {
+  align-items: center;
+  background: var(--modal-backdrop);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  z-index: 720;
+}
+
+.parent-dialog-backdrop.hidden {
+  display: none;
+}
+
+.parent-dialog-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+  display: grid;
+  gap: 14px;
+  max-height: calc(100vh - 48px);
+  max-width: 620px;
+  overflow: auto;
+  padding: 24px;
+  width: min(100%, 620px);
+}
+
+.parent-dialog-card h2 {
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.parent-dialog-card p {
+  color: var(--text-muted);
+}
+
+.parent-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.reset-progress-form,
+.reset-option-group {
+  display: grid;
+  gap: 10px;
+}
+
+.reset-option-group {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.reset-option-group h3 {
+  font-size: 0.95rem;
+}
+
+.reset-option {
+  align-items: start;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto minmax(0, 1fr);
+  padding: 11px 12px;
+}
+
+.reset-option input {
+  margin-top: 4px;
+}
+
+.reset-option span {
+  display: grid;
+  gap: 2px;
+}
+
+.reset-option small {
+  color: var(--text-muted);
+  font-size: 0.83rem;
+  line-height: 1.35;
+}
+
+.reset-option:has(input:checked) {
+  background: var(--primary-soft);
+  border-color: var(--primary-border-strong);
+}
+
+body.parent-mode .home-quest,
+body.parent-mode #mastery-panel {
+  display: none;
+}
+
+body.parent-question-browser .mixed-quiz-panel,
+body.parent-question-browser .mixed-quiz-root,
+body.parent-question-browser .sub-mastery {
+  display: none;
+}
+
+body.parent-question-browser .subtopic-item {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.parent-preview-note {
+  background: var(--info-surface);
+  border: 1px solid var(--info-border);
+  border-radius: 10px;
+  color: var(--info-text);
+  font-weight: 800;
+  padding: 12px 14px;
 }
 
 .assessment-exit-modal {
@@ -2524,6 +2702,76 @@ body.auth-locked main {
   border-color: var(--error-border);
 }
 
+.syllable-breakdown {
+  background: linear-gradient(180deg, var(--surface-raised), var(--surface-subtle));
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  display: grid;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.syllable-breakdown-header {
+  align-items: start;
+  display: grid;
+  gap: 4px;
+}
+
+.syllable-breakdown-header span {
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.syllable-breakdown-header strong {
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.syllable-steps {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+}
+
+.syllable-steps div {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+}
+
+.syllable-steps strong {
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+.syllable-steps span,
+.syllable-selection-note,
+.syllable-choice-explanation span {
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.syllable-selection-note {
+  margin: 0;
+}
+
+.syllable-selection-note strong,
+.syllable-choice-explanation strong {
+  color: var(--text);
+}
+
+.syllable-choice-explanation {
+  display: grid;
+  gap: 6px;
+}
+
 /* Spelling Lab */
 .spelling-question {
   display: grid;
@@ -3001,6 +3249,17 @@ body.auth-locked main {
 
 .btn-secondary:hover {
   background: var(--border);
+}
+
+.btn-danger {
+  background: var(--error-surface);
+  border: 1px solid var(--error-border);
+  color: var(--error-text);
+}
+
+.btn-danger:hover {
+  background: var(--error-light);
+  border-color: var(--error-border-strong);
 }
 
 .btn:disabled {
@@ -4044,6 +4303,20 @@ body.auth-locked main {
     flex-direction: column;
   }
 
+  .parent-dashboard-actions,
+  .parent-dialog-actions {
+    justify-content: stretch;
+  }
+
+  .parent-dashboard-actions .btn,
+  .parent-dialog-actions .btn {
+    width: 100%;
+  }
+
+  .create-student-form {
+    grid-template-columns: 1fr;
+  }
+
   .library-set-picker {
     align-items: stretch;
   }
@@ -4327,6 +4600,7 @@ html[data-theme="dark"] .hint-card strong {
 html[data-theme="dark"] .mastery-card,
 html[data-theme="dark"] .subtopic-item .sub-count,
 html[data-theme="dark"] .choice-explanation,
+html[data-theme="dark"] .syllable-steps div,
 html[data-theme="dark"] .character-note-card,
 html[data-theme="dark"] .spelling-answer-line span,
 html[data-theme="dark"] .spell-scan,
@@ -4350,6 +4624,7 @@ html[data-theme="dark"] .mixed-subtopic-option {
 html[data-theme="dark"] .mastery-row,
 html[data-theme="dark"] .choice-btn,
 html[data-theme="dark"] .feedback-box,
+html[data-theme="dark"] .syllable-breakdown,
 html[data-theme="dark"] .spell-scan-cell,
 html[data-theme="dark"] .confidence-report,
 html[data-theme="dark"] .sub-report,

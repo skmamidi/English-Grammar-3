@@ -29,6 +29,9 @@
       }
     });
     renderMixedQuizLauncher(subtopics);
+    applyAuthModeUi(subtopics);
+    window.addEventListener('grammarquest:parent-browse', () => applyAuthModeUi(subtopics));
+    window.addEventListener('grammarquest:auth-state', () => applyAuthModeUi(subtopics));
   });
 
   function findQuestionSet(bank, href) {
@@ -92,6 +95,57 @@
     panel.querySelector('a').addEventListener('click', () => {
       quizRoot.hidden = false;
       quizRoot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
+  function applyAuthModeUi(subtopics) {
+    const auth = window.GrammarQuestAuth;
+    const authState = auth && typeof auth.getState === 'function' ? auth.getState() : {};
+    const parentMode = !!authState.parentMode;
+    document.body.classList.toggle('parent-question-browser', parentMode);
+    const title = document.querySelector('.page-title');
+    const subtitle = document.querySelector('.page-subtitle');
+    if (title && !title.dataset.studentTitle) title.dataset.studentTitle = title.textContent;
+    if (subtitle && !subtitle.dataset.studentSubtitle) subtitle.dataset.studentSubtitle = subtitle.textContent;
+
+    if (!parentMode) {
+      if (title && title.dataset.studentTitle) title.textContent = title.dataset.studentTitle;
+      if (subtitle && subtitle.dataset.studentSubtitle) subtitle.textContent = subtitle.dataset.studentSubtitle;
+      document.querySelectorAll('.subtopic-item').forEach(item => {
+        const label = item.querySelector('[data-practice-label]');
+        const href = item.getAttribute('href') || '';
+        const entry = findQuestionSetEntry(window.QUESTION_BANK || {}, href);
+        const set = entry && entry.set;
+        if (label) label.textContent = getPracticeLabel(set);
+        if (!item.querySelector('.sub-mastery')) renderSubtopicProgress(item, entry);
+      });
+      document.querySelectorAll('.mixed-quiz-panel, .mixed-quiz-root').forEach(node => {
+        node.hidden = false;
+      });
+      renderMixedQuizLauncher(subtopics);
+      return;
+    }
+
+    const mixedPanel = document.querySelector('.mixed-quiz-panel');
+    const mixedRoot = document.getElementById('quiz-root');
+    const questionCount = subtopics.reduce((sum, subtopic) => sum + (subtopic.set.questions || []).length, 0);
+
+    if (title) title.textContent = `${title.dataset.studentTitle} Question Bank`;
+    if (subtitle) subtitle.textContent = `${questionCount} questions across ${subtopics.length} subtopics. Parent browsing is not saved to student progress.`;
+    if (mixedPanel) mixedPanel.hidden = true;
+    if (mixedRoot) mixedRoot.hidden = true;
+
+    document.querySelectorAll('.subtopic-item').forEach(item => {
+      const href = item.getAttribute('href') || '';
+      const entry = findQuestionSetEntry(window.QUESTION_BANK || {}, href);
+      const set = entry && entry.set;
+      const label = item.querySelector('[data-practice-label]');
+      item.querySelectorAll('.sub-mastery').forEach(node => node.remove());
+      if (label) {
+        const count = Array.isArray(set?.questions) ? set.questions.length : 0;
+        label.textContent = count ? `${count} questions` : 'Question preview';
+      }
+      item.setAttribute('aria-label', `${getSubtopicTitle(item, set || {})} question preview`);
     });
   }
 

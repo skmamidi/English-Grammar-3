@@ -2,6 +2,7 @@ const firebaseSettings = window.GQ_FIREBASE_CONFIG || {};
 const progressStore = window.GrammarQuestProgress;
 const AUTH_STATE_EVENT = "grammarquest:auth-state";
 const ACTIVE_STUDENT_EVENT = "grammarquest:active-student";
+const PARENT_BROWSE_EVENT = "grammarquest:parent-browse";
 
 const state = {
   enabled: Boolean(firebaseSettings.enabled),
@@ -194,17 +195,17 @@ function activateAuthTab(tabName) {
 
 function renderStudentTools(includeParentModeButton) {
   return `
-    <form data-create-student-form>
-      <label>
+    <form class="create-student-form" data-create-student-form>
+      <label class="student-field student-field-name">
         <span>Student Name</span>
         <input type="text" name="studentName" autocomplete="off" placeholder="Raaga" required>
       </label>
-      <label>
+      <label class="student-field student-field-login">
         <span>Fun Login Name</span>
-        <input type="text" name="loginName" autocomplete="off" data-student-login-name required>
+        <input type="text" name="loginName" autocomplete="off" placeholder="sunny-reader-42" data-student-login-name required>
       </label>
-      <button class="btn btn-secondary" type="button" data-suggest-login-name>Suggest Name</button>
-      <button class="btn btn-primary" type="submit">Create Student</button>
+      <button class="btn btn-secondary suggest-name-btn" type="button" data-suggest-login-name>Suggest Name</button>
+      <button class="btn btn-primary create-student-btn" type="submit">Create Student</button>
     </form>
     ${includeParentModeButton ? '<button class="btn btn-secondary" type="button" data-clear-student-session>Return to parent mode</button>' : ''}
   `;
@@ -223,6 +224,9 @@ function wireModalEvents() {
     const clearStudentButton = event.target.closest("[data-clear-student-session]");
     const deleteStudentButton = event.target.closest("[data-delete-student-id]");
     const resetStudentButton = event.target.closest("[data-reset-student-id]");
+    const dialogCancel = event.target.closest("[data-parent-dialog-cancel]");
+    const dialogDelete = event.target.closest("[data-confirm-delete-student-id]");
+    const resetAllToggle = event.target.closest("[data-reset-all-progress]");
 
     if (openButton) openModal();
     if (closeButton || event.target.id === "auth-modal") closeModal();
@@ -233,8 +237,11 @@ function wireModalEvents() {
     if (suggestButton) suggestLoginName(suggestButton);
     if (studentButton) await handleSelectStudentById(studentButton.dataset.studentId);
     if (clearStudentButton) await clearActiveStudent();
-    if (deleteStudentButton) await handleDeleteStudent(deleteStudentButton.dataset.deleteStudentId);
-    if (resetStudentButton) await handleResetStudent(resetStudentButton.dataset.resetStudentId);
+    if (deleteStudentButton) await openDeleteStudentDialog(deleteStudentButton.dataset.deleteStudentId);
+    if (resetStudentButton) await openResetStudentDialog(resetStudentButton.dataset.resetStudentId);
+    if (dialogCancel) closeParentDialog(dialogCancel.dataset.parentDialogCancel || "Action cancelled.");
+    if (dialogDelete) await handleDeleteStudent(dialogDelete.dataset.confirmDeleteStudentId);
+    if (resetAllToggle) toggleResetScopeInputs(resetAllToggle);
   });
 
   document.addEventListener("submit", async event => {
@@ -257,6 +264,10 @@ function wireModalEvents() {
       event.preventDefault();
       const loginName = String(new FormData(event.target).get("loginName") || "");
       await handleStudentPublicLogin(loginName);
+    }
+    if (event.target.matches("[data-reset-progress-form]")) {
+      event.preventDefault();
+      await handleResetStudent(event.target.dataset.resetProgressStudentId, new FormData(event.target));
     }
   });
 
@@ -515,10 +526,10 @@ async function deleteManagedStudent(studentId) {
   await batch.commit();
 }
 
-async function resetStudentProgress(studentId, scope) {
+async function resetStudentProgress(studentId, scopes) {
   await readyPromise;
   requireGrownup();
-  const normalizedScope = String(scope || "").trim().toLowerCase();
+  const normalizedScopes = Array.isArray(scopes) ? scopes : [{ type: "all", value: scopes }];
   const { db, firestoreModule } = state.firebase;
   const ref = managedStudentRef(db, firestoreModule, studentId);
   const snapshot = await firestoreModule.getDoc(ref);
@@ -527,9 +538,9 @@ async function resetStudentProgress(studentId, scope) {
   if (data.ownerUid !== state.user.uid) throw new Error("This student is not connected to the signed-in grownup.");
 
   const current = progressStore?.normalizeReports ? data.progress || {} : data.progress || {};
-  const next = normalizedScope === "all"
+  const next = normalizedScopes.some(scope => scope.type === "all" || String(scope.value || "").toLowerCase() === "all")
     ? progressStore?.getDefaultProgress?.() || {}
-    : resetProgressScope(current, normalizedScope);
+    : resetProgressScope(current, normalizedScopes);
 
   await firestoreModule.updateDoc(ref, {
     progress: next,
@@ -537,28 +548,63 @@ async function resetStudentProgress(studentId, scope) {
   });
 }
 
-function resetProgressScope(progress, scope) {
+function resetProgressScope(progress, scopes) {
   const base = progressStore?.normalizeReports
     ? progressStore.mergeProgress(progressStore.getDefaultProgress(), progress)
     : Object.assign({}, progress);
-  const matches = value => String(value || "").trim().toLowerCase() === scope;
+  const normalizedScopes = (Array.isArray(scopes) ? scopes : [{ type: "any", value: scopes }])
+    .map(scope => ({
+      type: scope.type || "any",
+      value: String(scope.value || "").trim().toLowerCase()
+    }))
+    .filter(scope => scope.value);
+  const matchesAny = (type, values) => normalizedScopes.some(scope => {
+    if (scope.type !== "any" && scope.type !== type) return false;
+    return values.some(value => String(value || "").trim().toLowerCase() === scope.value);
+  });
   const sessions = Array.isArray(base.reports?.sessions) ? base.reports.sessions : [];
   const removedSessionIds = new Set();
 
   base.reports = Object.assign({}, base.reports, {
-    sessions: sessions.filter(session => {
-      const shouldRemove = matches(session.topicTitle) || matches(session.subtopicTitle) || matches(session.topicId) || matches(session.subtopicId);
-      if (shouldRemove && session.id) removedSessionIds.add(session.id);
-      return !shouldRemove;
-    })
+    sessions: sessions.map(session => {
+      const topicValues = [session.topic, session.topicTitle, session.topicId];
+      if (matchesAny("topic", topicValues)) {
+        if (session.id) removedSessionIds.add(session.id);
+        return null;
+      }
+
+      const attempts = Array.isArray(session.attempts) ? session.attempts : [];
+      const nextAttempts = attempts.filter(attempt => !matchesAny("subtopic", [attempt.subtopicId, attempt.subtopicTitle]));
+      if (attempts.length && !nextAttempts.length) {
+        if (session.id) removedSessionIds.add(session.id);
+        return null;
+      }
+      if (nextAttempts.length !== attempts.length) {
+        const correct = nextAttempts.filter(attempt => attempt.correct).length;
+        return Object.assign({}, session, {
+          attempts: nextAttempts,
+          score: correct,
+          total: nextAttempts.length,
+          percentage: nextAttempts.length ? Math.round((correct / nextAttempts.length) * 100) : 0
+        });
+      }
+      return session;
+    }).filter(Boolean)
   });
 
   if (base.mastery) {
-    Object.keys(base.mastery).forEach(groupKey => {
+    ["domains"].forEach(groupKey => {
       const group = base.mastery[groupKey] || {};
       Object.keys(group).forEach(itemKey => {
         const item = group[itemKey] || {};
-        if (matches(item.label) || matches(itemKey)) delete group[itemKey];
+        if (matchesAny("topic", [item.label, itemKey])) delete group[itemKey];
+      });
+    });
+    ["subtopics"].forEach(groupKey => {
+      const group = base.mastery[groupKey] || {};
+      Object.keys(group).forEach(itemKey => {
+        const item = group[itemKey] || {};
+        if (matchesAny("subtopic", [item.label, itemKey])) delete group[itemKey];
       });
     });
   }
@@ -657,25 +703,34 @@ async function handleSelectStudentByLogin(loginName) {
 }
 
 async function handleDeleteStudent(studentId) {
-  if (!window.confirm("Delete this student profile and its progress? This cannot be undone.")) return;
   try {
+    const studentName = getStudentNameFromDialog() || "Student";
     await deleteManagedStudent(studentId);
-    showMessage("Student profile deleted.");
+    closeParentDialog(`${studentName} was deleted.`);
+    showParentNotice(`${studentName} was deleted.`, "success");
     await renderStudentProfiles();
   } catch (error) {
-    showMessage(authErrorMessage(error));
+    showParentNotice(authErrorMessage(error), "error");
   }
 }
 
-async function handleResetStudent(studentId) {
-  const scope = window.prompt("Reset progress for what? Type ALL, a topic title, or a subtopic title.", "ALL");
-  if (!scope) return;
+async function handleResetStudent(studentId, formData) {
+  const scopes = getSelectedResetScopes(formData);
+  if (!scopes.length) {
+    showParentNotice("Choose at least one topic, subtopic, or all progress to reset.", "error");
+    return;
+  }
   try {
-    await resetStudentProgress(studentId, scope);
-    showMessage(`Progress reset for ${scope}.`);
+    const studentName = getStudentNameFromDialog() || "Student";
+    await resetStudentProgress(studentId, scopes);
+    const label = scopes.some(scope => scope.type === "all")
+      ? "all progress"
+      : `${scopes.length} selected ${scopes.length === 1 ? "area" : "areas"}`;
+    closeParentDialog(`${studentName}: reset ${label}.`);
+    showParentNotice(`${studentName}: reset ${label}.`, "success");
     await renderStudentProfiles();
   } catch (error) {
-    showMessage(authErrorMessage(error));
+    showParentNotice(authErrorMessage(error), "error");
   }
 }
 
@@ -719,6 +774,8 @@ function renderAuthUi(message) {
   const studentMode = state.sessionMode === "student" && !!state.activeStudent?.id;
   const parentMode = signedIn && state.sessionMode !== "student";
 
+  document.body.classList.toggle("parent-mode", parentMode);
+  document.body.classList.toggle("student-mode", studentMode);
   renderAuthGate({ signedIn, studentMode, parentMode });
   renderReportAccess({ parentMode, studentMode });
   if (!parentMode) removeParentDashboard();
@@ -758,6 +815,7 @@ function renderAuthUi(message) {
   });
 
   renderGrownupTools();
+  window.dispatchEvent(new CustomEvent(PARENT_BROWSE_EVENT, { detail: getPublicState() }));
   if (message) showMessage(message);
 }
 
@@ -828,10 +886,14 @@ async function renderParentDashboard() {
       <div>
         <div class="quest-kicker">Parent / Teacher</div>
         <h2>Student Management</h2>
-        <p>Manage student profiles, launch practice, review reports, and reset progress.</p>
+        <p>Manage student profiles, review reports, reset progress, and browse questions without tracking grownup activity.</p>
       </div>
-      <a class="btn btn-primary" href="${reportsHref()}">View Reports</a>
+      <div class="parent-dashboard-actions">
+        <a class="btn btn-secondary" href="${appHomeHref()}">Browse Question Bank</a>
+        <a class="btn btn-primary" href="${reportsHref()}">View Reports</a>
+      </div>
     </div>
+    <div class="parent-dashboard-notice" data-parent-dashboard-notice aria-live="polite"></div>
     <div class="parent-dashboard-grid">
       <div class="parent-dashboard-panel">
         <h3>Add Student</h3>
@@ -904,7 +966,7 @@ async function renderStudentProfiles() {
         <div class="student-profile-actions">
           <button class="btn btn-secondary" type="button" data-student-id="${escapeHtml(student.id)}">Launch Practice</button>
           <button class="btn btn-secondary" type="button" data-reset-student-id="${escapeHtml(student.id)}">Reset Progress</button>
-          <button class="btn btn-secondary" type="button" data-delete-student-id="${escapeHtml(student.id)}">Delete</button>
+          <button class="btn btn-danger" type="button" data-delete-student-id="${escapeHtml(student.id)}">Delete Student</button>
         </div>
       </article>
     `).join("") || '<p class="auth-copy">No student profiles yet.</p>';
@@ -916,6 +978,175 @@ async function renderStudentProfiles() {
       target.innerHTML = `<p class="auth-copy">${escapeHtml(error.message)}</p>`;
     });
   }
+}
+
+async function openDeleteStudentDialog(studentId) {
+  try {
+    const student = await findManagedStudent(studentId);
+    openParentDialog(`
+      <div class="quest-kicker">Delete Student</div>
+      <h2>Delete ${escapeHtml(student.name)}?</h2>
+      <p>This removes the student profile, login name, saved reports, and progress. This cannot be undone.</p>
+      <input type="hidden" data-dialog-student-name value="${escapeHtml(student.name)}">
+      <div class="parent-dialog-actions">
+        <button class="btn btn-secondary" type="button" data-parent-dialog-cancel="Delete cancelled.">Cancel</button>
+        <button class="btn btn-danger" type="button" data-confirm-delete-student-id="${escapeHtml(student.id)}">Delete Student</button>
+      </div>
+    `);
+  } catch (error) {
+    showParentNotice(authErrorMessage(error), "error");
+  }
+}
+
+async function openResetStudentDialog(studentId) {
+  try {
+    const student = await findManagedStudent(studentId);
+    const progress = await loadStudentProgress(student.id) || {};
+    const options = getResetOptions(progress);
+    openParentDialog(`
+      <div class="quest-kicker">Reset Progress</div>
+      <h2>Reset ${escapeHtml(student.name)}'s progress</h2>
+      <p>Choose exactly what to clear. The student profile and login name stay in place.</p>
+      <input type="hidden" data-dialog-student-name value="${escapeHtml(student.name)}">
+      <form class="reset-progress-form" data-reset-progress-form data-reset-progress-student-id="${escapeHtml(student.id)}">
+        <label class="reset-option reset-option-all">
+          <input type="checkbox" name="all" value="all" data-reset-all-progress>
+          <span>
+            <strong>All progress</strong>
+            <small>Clear reports, streaks, gems, active quiz, and every mastery signal.</small>
+          </span>
+        </label>
+        ${renderResetOptionGroup("Topics", "topic", options.topics)}
+        ${renderResetOptionGroup("Subtopics", "subtopic", options.subtopics)}
+        <div class="parent-dialog-actions">
+          <button class="btn btn-secondary" type="button" data-parent-dialog-cancel="Reset cancelled.">Cancel</button>
+          <button class="btn btn-primary" type="submit">Reset Selected</button>
+        </div>
+      </form>
+    `);
+  } catch (error) {
+    showParentNotice(authErrorMessage(error), "error");
+  }
+}
+
+function renderResetOptionGroup(title, type, options) {
+  const rows = options.map(option => `
+    <label class="reset-option">
+      <input type="checkbox" name="${type}" value="${escapeHtml(option.value)}">
+      <span>
+        <strong>${escapeHtml(option.label)}</strong>
+        <small>${escapeHtml(option.detail)}</small>
+      </span>
+    </label>
+  `).join("");
+  return `
+    <section class="reset-option-group">
+      <h3>${escapeHtml(title)}</h3>
+      ${rows || '<p class="auth-copy">No saved progress in this area yet.</p>'}
+    </section>
+  `;
+}
+
+function openParentDialog(html) {
+  let dialog = document.querySelector("[data-parent-dialog]");
+  if (!dialog) {
+    dialog = document.createElement("div");
+    dialog.className = "parent-dialog-backdrop hidden";
+    dialog.setAttribute("data-parent-dialog", "");
+    dialog.setAttribute("role", "dialog");
+    dialog.setAttribute("aria-modal", "true");
+    dialog.innerHTML = '<div class="parent-dialog-card" data-parent-dialog-card></div>';
+    document.body.appendChild(dialog);
+  }
+  const card = dialog.querySelector("[data-parent-dialog-card]");
+  if (card) card.innerHTML = html;
+  dialog.classList.remove("hidden");
+  const firstButton = dialog.querySelector("button");
+  window.setTimeout(() => firstButton && firstButton.focus(), 0);
+}
+
+function closeParentDialog(message) {
+  const dialog = document.querySelector("[data-parent-dialog]");
+  if (dialog) dialog.classList.add("hidden");
+  if (message) showParentNotice(message, "info");
+}
+
+function showParentNotice(message, tone) {
+  showMessage(message);
+  document.querySelectorAll("[data-parent-dashboard-notice]").forEach(notice => {
+    notice.textContent = message || "";
+    notice.dataset.tone = tone || "info";
+    notice.classList.toggle("active", !!message);
+  });
+}
+
+function getStudentNameFromDialog() {
+  return document.querySelector("[data-dialog-student-name]")?.value || "";
+}
+
+function toggleResetScopeInputs(toggle) {
+  const form = toggle.closest("[data-reset-progress-form]");
+  if (!form) return;
+  form.querySelectorAll('input[name="topic"], input[name="subtopic"]').forEach(input => {
+    input.disabled = toggle.checked;
+    if (toggle.checked) input.checked = false;
+  });
+}
+
+function getSelectedResetScopes(formData) {
+  if (!formData) return [];
+  if (formData.get("all")) return [{ type: "all", value: "all" }];
+  return []
+    .concat(formData.getAll("topic").map(value => ({ type: "topic", value })))
+    .concat(formData.getAll("subtopic").map(value => ({ type: "subtopic", value })))
+    .filter(scope => scope.value);
+}
+
+function getResetOptions(progress) {
+  const topics = new Map();
+  const subtopics = new Map();
+  const sessions = Array.isArray(progress?.reports?.sessions) ? progress.reports.sessions : [];
+
+  sessions.forEach(session => {
+    addResetOption(topics, session.topic || session.topicTitle || session.topicId, session.topic || session.topicTitle || session.topicId, `${Number(session.total) || 0} report questions`);
+    (session.attempts || []).forEach(attempt => {
+      addResetOption(subtopics, attempt.subtopicId || attempt.subtopicTitle, attempt.subtopicTitle || attempt.subtopicId, `${attempt.correct ? "Correct" : "Missed"} attempt saved`);
+    });
+  });
+
+  Object.keys(progress?.mastery?.domains || {}).forEach(key => {
+    const item = progress.mastery.domains[key];
+    addResetOption(topics, key, item.label || key, `${Number(item.total) || 0} mastery signals`);
+  });
+  Object.keys(progress?.mastery?.subtopics || {}).forEach(key => {
+    const item = progress.mastery.subtopics[key];
+    addResetOption(subtopics, key, item.label || key, `${Number(item.total) || 0} mastery signals`);
+  });
+
+  return {
+    topics: Array.from(topics.values()).sort((a, b) => a.label.localeCompare(b.label)),
+    subtopics: Array.from(subtopics.values()).sort((a, b) => a.label.localeCompare(b.label))
+  };
+}
+
+function addResetOption(map, value, label, detail) {
+  const cleanValue = String(value || "").trim();
+  const cleanLabel = String(label || cleanValue).trim();
+  if (!cleanValue || !cleanLabel) return;
+  const key = cleanValue.toLowerCase();
+  const existing = map.get(key);
+  if (existing) {
+    if (!existing.detail.includes(detail)) existing.detail = `${existing.detail}; ${detail}`;
+    return;
+  }
+  map.set(key, { value: cleanValue, label: cleanLabel, detail: detail || "Saved progress" });
+}
+
+async function findManagedStudent(studentId) {
+  const students = await loadManagedStudents();
+  const student = students.find(item => item.id === studentId);
+  if (!student) throw new Error("Student profile was not found.");
+  return student;
 }
 
 function openModal() {

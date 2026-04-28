@@ -253,6 +253,8 @@
     if (contextMeaning) return contextMeaning;
     const wordPart = getWordPartClue(prompt);
     if (wordPart) return wordPart;
+    const syllableClue = getSyllableClue(prompt);
+    if (syllableClue) return syllableClue;
     const skills = question && question.metadata && Array.isArray(question.metadata.skills)
       ? question.metadata.skills.slice(0, 2).join(' and ')
       : '';
@@ -277,6 +279,17 @@
     const asksPart = String(prompt || '').match(/\bwhat does the\s+(prefix|suffix|root)\s+(-?[A-Za-z]+-?)\s+mean\b/i);
     if (asksPart) return `Focus on the ${asksPart[1]} ${asksPart[2]}.`;
     return '';
+  }
+
+  function getSyllableClue(prompt) {
+    const text = String(prompt || '');
+    if (!/\bsyllables?\b/i.test(text)) return '';
+    if (/\breference source\b|\bsource would be best\b/i.test(text)) return '';
+    const countMatch = text.match(/\bsyllables?\s+are\s+in\s+["']?([A-Za-z'-]+)["']?/i);
+    if (countMatch) return `Say "${countMatch[1]}" naturally and count the vowel beats.`;
+    if (/closed first syllable/i.test(text)) return 'Mark the first vowel sound; closed syllables end with a consonant after the vowel.';
+    if (/divide/i.test(text)) return 'Mark the vowel sounds, then divide the word into spoken chunks.';
+    return 'Count spoken vowel beats, then check the printed vowel chunks.';
   }
 
   function getSalientContextWords(sentence, targetWord) {

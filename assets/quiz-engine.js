@@ -64,6 +64,10 @@
     initQuiz(setId);
   });
 
+  window.addEventListener('grammarquest:parent-browse', () => {
+    if (activeSet && currentIndex === 0 && !answered) renderStartScreen(activeSet);
+  });
+
   function initQuiz(setId) {
     const set = window.QUESTION_BANK && window.QUESTION_BANK[setId];
     if (!set || !Array.isArray(set.questions) || set.questions.length === 0) {
@@ -132,6 +136,7 @@
 
   function renderStartScreen(set) {
     const progress = loadProgress();
+    const parentMode = isParentMode();
     const topicName = set.topic || 'Grammar Quest';
     const rank = getRank(progress.totalGems);
     const supportsLevelSelection = setSupportsLevelSelection(set);
@@ -161,7 +166,7 @@
       `;
     const mixedSubtopicSelector = mixedQuizConfig ? renderMixedSubtopicSelector() : '';
     const characterSetControls = renderCharacterSetControls();
-    const resumableQuiz = getResumableQuiz();
+    const resumableQuiz = parentMode ? null : getResumableQuiz();
     const resumeCard = resumableQuiz ? `
         <div class="resume-quiz-card">
           <div>
@@ -175,13 +180,13 @@
 
     quizContainer.innerHTML = `
       <div class="start-screen">
-        <div class="quest-kicker">${mixedQuizConfig ? 'Topic Checkpoint' : 'Chapter Mission'}</div>
+        <div class="quest-kicker">${parentMode ? 'Parent Question Preview' : mixedQuizConfig ? 'Topic Checkpoint' : 'Chapter Mission'}</div>
         <h2>${escapeHtml(set.title)}</h2>
         <p>${getStartScreenCopy(supportsLevelSelection)}</p>
         ${levelControls}
         ${mixedSubtopicSelector}
         ${characterSetControls}
-        <div class="quest-dashboard" aria-label="Saved quest progress">
+        ${parentMode ? '<div class="parent-preview-note">Preview mode is separate from student practice. Answers here do not change reports, gems, streaks, or mastery.</div>' : `<div class="quest-dashboard" aria-label="Saved quest progress">
           <div class="quest-stat">
             <span class="quest-stat-value">${progress.streakDays}</span>
             <span class="quest-stat-label">day streak</span>
@@ -194,10 +199,10 @@
             <span class="quest-stat-value">${escapeHtml(rank.name)}</span>
             <span class="quest-stat-label">rank</span>
           </div>
-        </div>
+        </div>`}
         ${resumeCard}
-        <p class="quest-brief">Today's trail: ${escapeHtml(topicName)}. A score of 75% or higher earns a bonus reward.</p>
-        <button class="btn btn-primary" id="start-btn">Start Quiz</button>
+        <p class="quest-brief">${parentMode ? `Question preview: ${escapeHtml(topicName)}.` : `Today's trail: ${escapeHtml(topicName)}. A score of 75% or higher earns a bonus reward.`}</p>
+        <button class="btn btn-primary" id="start-btn">${parentMode ? 'Preview Questions' : 'Start Quiz'}</button>
       </div>
     `;
 
@@ -244,7 +249,7 @@
       confidenceStats = [];
       attemptRecords = [];
       sessionStartedAt = Date.now();
-      saveActiveQuiz();
+      if (!isParentMode()) saveActiveQuiz();
       startAssessmentGuard('quiz');
       renderQuestion();
     });
@@ -409,9 +414,12 @@
     const comboMessage = isCorrect && combo >= 3
       ? `<div class="quest-reward-note">Combo bonus charged: ${combo} correct answers in a row.</div>`
       : '';
+    const syllableFeedback = renderSyllableFeedback(q, selectedIndex);
 
     let choiceExplanations = '';
-    if (q.explanation && q.explanation.incorrect) {
+    if (syllableFeedback) {
+      choiceExplanations = renderSyllableChoiceExplanations(q);
+    } else if (q.explanation && q.explanation.incorrect) {
       choiceExplanations = q.choices.map((choice, idx) => {
         const isCorrectChoice = idx === q.correct;
         const expText = isCorrectChoice
@@ -437,6 +445,7 @@
           <div class="feedback-answer-pill">${escapeHtml(String.fromCharCode(65 + selectedIndex))}</div>
         </div>
         ${comboMessage}
+        ${syllableFeedback}
         ${choiceExplanations ? `<div class="choice-explanations">${choiceExplanations}</div>` : ''}
         ${studyAidHtml}
         ${characterNotesHtml}
@@ -1231,7 +1240,10 @@
   function renderResults() {
     endAssessmentGuard();
     const percentage = Math.round((score / currentQuestions.length) * 100);
-    const reward = reviewMode
+    const parentMode = isParentMode();
+    const reward = parentMode
+      ? { gemsEarned: 0, message: 'Preview complete. No student progress was changed.', progress: loadProgress() }
+      : reviewMode
       ? { gemsEarned: 0, message: 'Review round complete. Mistakes turned into practice.', progress: loadProgress() }
       : saveQuestResult(percentage, score, currentQuestions.length, attemptRecords);
     const progress = reward.progress;
@@ -1254,7 +1266,7 @@
 
     quizContainer.innerHTML = `
       <div class="results-box">
-        <div class="quest-kicker">${reviewMode ? 'Review Complete' : 'Mission Complete'}</div>
+        <div class="quest-kicker">${parentMode ? 'Preview Complete' : reviewMode ? 'Review Complete' : 'Mission Complete'}</div>
         <div class="results-score">${score} / ${currentQuestions.length}</div>
         <div class="results-label">${percentage}% correct</div>
         <div class="results-message">${escapeHtml(message)}</div>
@@ -1274,7 +1286,7 @@
         </div>
         ${confidenceReport}
         ${subtopicReport}
-        <div class="reward-panel" aria-label="Rewards earned">
+        ${parentMode ? '<div class="parent-preview-note">Parent preview is read-only. Reports, streaks, gems, and mastery were not updated.</div>' : `<div class="reward-panel" aria-label="Rewards earned">
           <div class="reward-main">${reviewMode ? 'Review practice logged' : `+${reward.gemsEarned} star gems`}</div>
           <div class="reward-grid">
             <div><strong>${progress.streakDays}</strong><span>day streak</span></div>
@@ -1283,10 +1295,10 @@
           </div>
           ${badgeHtml}
           <p>${escapeHtml(reward.message)}</p>
-        </div>
+        </div>`}
         <div class="controls" style="justify-content:center;">
-          ${!reviewMode && missedQuestions.length ? '<button class="btn btn-primary" id="review-missed-btn">Review Missed</button>' : ''}
-          <button class="btn btn-primary" id="restart-btn">Try Again</button>
+          ${!parentMode && !reviewMode && missedQuestions.length ? '<button class="btn btn-primary" id="review-missed-btn">Review Missed</button>' : ''}
+          <button class="btn btn-primary" id="restart-btn">${parentMode ? 'Preview Again' : 'Try Again'}</button>
           <a href="./" class="btn btn-secondary">Back to Topic</a>
         </div>
       </div>
@@ -1503,6 +1515,9 @@
     const wordPart = getWordPartClue(prompt);
     if (wordPart) return wordPart;
 
+    const syllableClue = getSyllableStrategyClue(question, prompt);
+    if (syllableClue) return syllableClue;
+
     if (/homophone/.test(skills)) {
       return 'Use the sentence meaning, not just the sound. Choose the word whose meaning fits the context.';
     }
@@ -1520,6 +1535,218 @@
     }
 
     return studyExample || fallback || 'Use the exact clue in the question, then eliminate choices that do not match it.';
+  }
+
+  const syllableDivisionMap = {
+    computer: 'com-pu-ter',
+    pencil: 'pen-cil',
+    conversation: 'con-ver-sa-tion',
+    rotate: 'ro-tate',
+    huddle: 'hud-dle',
+    rabbit: 'rab-bit',
+    paper: 'pa-per',
+    tiger: 'ti-ger',
+    music: 'mu-sic',
+    enormous: 'e-nor-mous',
+    predicate: 'pred-i-cate',
+    recycle: 're-cy-cle',
+    playground: 'play-ground',
+    number: 'num-ber',
+    holler: 'hol-ler',
+    rainbow: 'rain-bow',
+    frozen: 'fro-zen',
+    latitude: 'lat-i-tude',
+    flipper: 'flip-per',
+    indent: 'in-dent'
+  };
+
+  const numberWordMap = {
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    five: 5,
+    six: 6
+  };
+
+  function isSyllableQuestion(question) {
+    const prompt = stripPromptLeadIns(question && question.question ? question.question : '');
+    if (!/\bsyllables?\b/i.test(prompt)) return false;
+    if (/\breference source\b|\bsource would be best\b/i.test(prompt)) return false;
+    return /how many syllables|closed first syllable|divide .*syllables|syllables:|has \d+ syllables|with \d+ syllables|has (one|two|three|four|five|six) syllables|with (one|two|three|four|five|six) syllables/i.test(prompt);
+  }
+
+  function getSyllableStrategyClue(question, prompt) {
+    if (!isSyllableQuestion(question)) return '';
+    const cleanPrompt = prompt || stripPromptLeadIns(question && question.question ? question.question : '');
+    const target = getSyllableTargetWord(question, cleanPrompt);
+    const division = target ? getSyllableDivision(target, question) : '';
+    const count = division ? getSyllableCountFromDivision(division) : 0;
+
+    if (/how many syllables/i.test(cleanPrompt) && target) {
+      return `Say "${target}" naturally. Count the vowel beats you hear, then check the printed chunks: ${division || target}${count ? ` has ${count} beats` : ''}.`;
+    }
+    if (/closed first syllable/i.test(cleanPrompt)) {
+      return 'Mark the first vowel sound in each word. A closed first syllable ends with a consonant after the vowel, so the vowel is usually short: rab-bit.';
+    }
+    if (/divide/i.test(cleanPrompt)) {
+      return 'Say the word naturally, mark each vowel sound, then split between chunks so every syllable has one vowel sound.';
+    }
+    const targetCount = getRequestedSyllableCount(cleanPrompt);
+    if (targetCount) {
+      return `Say each choice naturally and count vowel beats. Keep the word with ${targetCount} syllable${targetCount === 1 ? '' : 's'}, then check that each beat has a vowel sound.`;
+    }
+    return 'Say the word naturally, count vowel beats, and connect each beat to a printed vowel chunk before choosing.';
+  }
+
+  function renderSyllableFeedback(question, selectedIndex) {
+    if (!isSyllableQuestion(question)) return '';
+    const prompt = stripPromptLeadIns(question && question.question ? question.question : '');
+    const selectedChoice = question.choices && question.choices[selectedIndex] ? String(question.choices[selectedIndex]) : '';
+    const correctChoice = question.choices && question.choices[question.correct] ? String(question.choices[question.correct]) : '';
+    const target = getSyllableTargetWord(question, prompt) || stripSyllableMarks(correctChoice);
+    const division = getSyllableDivision(target, question) || (/-/.test(correctChoice) ? correctChoice : '');
+    const count = division ? getSyllableCountFromDivision(division) : getSyllableCountForWord(target, question);
+    const targetCount = getRequestedSyllableCount(prompt);
+    const isClosedQuestion = /closed first syllable/i.test(prompt);
+    const heading = isClosedQuestion
+      ? 'Syllable type proof'
+      : /divide/i.test(prompt)
+        ? 'Division proof'
+        : 'Syllable count proof';
+    const proofLine = getSyllableProofLine(question, prompt, target, division, count, correctChoice, targetCount);
+
+    return `
+      <section class="syllable-breakdown" aria-label="${escapeHtml(heading)}">
+        <div class="syllable-breakdown-header">
+          <span>Structured syllable check</span>
+          <strong>${escapeHtml(heading)}</strong>
+        </div>
+        <div class="syllable-steps">
+          <div><strong>1. Listen</strong><span>Say the word naturally. Do not stretch extra sounds into it.</span></div>
+          <div><strong>2. Count</strong><span>Each syllable has one vowel sound, so count the vowel beats you hear.</span></div>
+          <div><strong>3. Map</strong><span>${escapeHtml(proofLine)}</span></div>
+        </div>
+        ${selectedChoice ? `<p class="syllable-selection-note">You chose <strong>${escapeHtml(selectedChoice)}</strong>. The proof answer is <strong>${escapeHtml(correctChoice)}</strong>.</p>` : ''}
+      </section>
+    `;
+  }
+
+  function renderSyllableChoiceExplanations(question) {
+    if (!question || !Array.isArray(question.choices)) return '';
+    return question.choices.map((choice, idx) => {
+      const isCorrectChoice = idx === question.correct;
+      return `
+        <div class="choice-explanation syllable-choice-explanation ${isCorrectChoice ? 'correct-exp' : 'incorrect-exp'}">
+          <strong>${String.fromCharCode(65 + idx)}) ${escapeHtml(String(choice))}</strong>
+          <span>${escapeHtml(getSyllableChoiceReason(question, choice, isCorrectChoice))}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function getSyllableChoiceReason(question, choice, isCorrectChoice) {
+    const prompt = stripPromptLeadIns(question && question.question ? question.question : '');
+    const cleanChoice = stripSyllableMarks(choice);
+    const division = getSyllableDivision(cleanChoice, question) || (/-/.test(String(choice)) ? String(choice) : '');
+    const count = division ? getSyllableCountFromDivision(division) : getSyllableCountForWord(cleanChoice, question);
+
+    if (/closed first syllable/i.test(prompt)) {
+      const first = division ? division.split('-')[0] : cleanChoice;
+      const type = isClosedFirstSyllable(cleanChoice, question) ? 'closed' : 'not closed';
+      return isCorrectChoice
+        ? `${division || cleanChoice}: the first syllable "${first}" closes with a consonant after the vowel.`
+        : `${division || cleanChoice}: the first syllable is ${type}, so it does not prove the closed-first-syllable answer.`;
+    }
+    if (/how many syllables/i.test(prompt)) {
+      const target = getSyllableTargetWord(question, prompt);
+      const correctDivision = getSyllableDivision(target, question);
+      const correctCount = correctDivision ? getSyllableCountFromDivision(correctDivision) : 0;
+      return isCorrectChoice
+        ? `${correctDivision || target}: ${correctCount} vowel beats.`
+        : `${choice} does not match ${correctDivision || target}, which has ${correctCount} vowel beats.`;
+    }
+    if (/divide/i.test(prompt)) {
+      return isCorrectChoice
+        ? `${choice} keeps one vowel sound in each syllable chunk.`
+        : `${choice} splits the letters away from the spoken vowel chunks.`;
+    }
+    const requested = getRequestedSyllableCount(prompt);
+    if (requested) {
+      return isCorrectChoice
+        ? `${division || cleanChoice}: ${count} vowel beats, matching the target count.`
+        : `${division || cleanChoice}: ${count || 'not the target number of'} vowel beats, so it does not match ${requested}.`;
+    }
+    return isCorrectChoice
+      ? 'This choice matches the spoken vowel beats and printed syllable chunks.'
+      : 'This choice does not match the spoken vowel beats and printed syllable chunks.';
+  }
+
+  function getSyllableProofLine(question, prompt, target, division, count, correctChoice, requestedCount) {
+    if (/closed first syllable/i.test(prompt)) {
+      const correctWord = stripSyllableMarks(correctChoice);
+      const correctDivision = getSyllableDivision(correctWord, question) || correctWord;
+      const first = correctDivision.split('-')[0];
+      return `${correctDivision}: "${first}" ends with a consonant after the vowel, so the first syllable is closed.`;
+    }
+    if (/divide/i.test(prompt)) {
+      return `${correctChoice} follows the spoken chunks and keeps a vowel sound in each syllable.`;
+    }
+    if (requestedCount) {
+      return `${correctChoice} is ${getSyllableDivision(correctChoice, question) || correctChoice}, which has ${requestedCount} vowel beats.`;
+    }
+    return `${division || target}: ${count} vowel beat${count === 1 ? '' : 's'}.`;
+  }
+
+  function getSyllableTargetWord(question, prompt) {
+    const text = prompt || stripPromptLeadIns(question && question.question ? question.question : '');
+    const countMatch = text.match(/\bsyllables?\s+are\s+in\s+["']?([A-Za-z'-]+)["']?/i);
+    if (countMatch) return countMatch[1].toLowerCase();
+    const divideMatch = text.match(/\bsyllables?:\s*["']?([A-Za-z'-]+)["']?/i);
+    if (divideMatch) return divideMatch[1].toLowerCase();
+    const correctChoice = question && question.choices ? String(question.choices[question.correct] || '') : '';
+    if (/-/.test(correctChoice)) return stripSyllableMarks(correctChoice).toLowerCase();
+    return '';
+  }
+
+  function getSyllableDivision(word, question) {
+    const cleanWord = stripSyllableMarks(word).toLowerCase();
+    if (!cleanWord) return '';
+    if (syllableDivisionMap[cleanWord]) return syllableDivisionMap[cleanWord];
+    const correctChoice = question && question.choices ? String(question.choices[question.correct] || '') : '';
+    if (stripSyllableMarks(correctChoice).toLowerCase() === cleanWord && /-/.test(correctChoice)) {
+      return correctChoice.toLowerCase();
+    }
+    const studyExample = question && question.studyAid && question.studyAid.example ? String(question.studyAid.example) : '';
+    const markedWords = studyExample.match(/\b[A-Za-z]+(?:-[A-Za-z]+)+\b/g) || [];
+    const marked = markedWords.find(item => stripSyllableMarks(item).toLowerCase() === cleanWord);
+    return marked ? marked.toLowerCase() : '';
+  }
+
+  function getSyllableCountForWord(word, question) {
+    const division = getSyllableDivision(word, question);
+    return division ? getSyllableCountFromDivision(division) : 0;
+  }
+
+  function getSyllableCountFromDivision(division) {
+    return String(division || '').split('-').filter(Boolean).length;
+  }
+
+  function getRequestedSyllableCount(prompt) {
+    const digitMatch = String(prompt || '').match(/\bhas\s+(\d+)\s+syllables?\b|\bwith\s+(\d+)\s+syllables?\b/i);
+    if (digitMatch) return Number(digitMatch[1] || digitMatch[2]);
+    const wordMatch = String(prompt || '').match(/\bhas\s+(one|two|three|four|five|six)\s+syllables?\b|\bwith\s+(one|two|three|four|five|six)\s+syllables?\b/i);
+    return wordMatch ? numberWordMap[String(wordMatch[1] || wordMatch[2]).toLowerCase()] : 0;
+  }
+
+  function stripSyllableMarks(value) {
+    return String(value || '').replace(/-/g, '').replace(/[^A-Za-z']/g, '');
+  }
+
+  function isClosedFirstSyllable(word, question) {
+    const division = getSyllableDivision(word, question);
+    const first = (division || String(word || '')).split('-')[0].toLowerCase();
+    return /[aeiou][^aeiouy]$/.test(first);
   }
 
   function getContextMeaningClue(prompt) {
@@ -1765,6 +1992,9 @@
   }
 
   function loadProgress() {
+    if (isParentMode() && progressStore && typeof progressStore.getDefaultProgress === 'function') {
+      return progressStore.getDefaultProgress();
+    }
     if (progressStore) return progressStore.loadLocalProgress();
 
     const fallback = {
@@ -1926,6 +2156,7 @@
   }
 
   function saveActiveQuiz(options) {
+    if (isParentMode()) return;
     const progress = loadProgress();
     const nextIndex = options && Number.isFinite(options.nextIndex) ? options.nextIndex : currentIndex;
     progress.activeQuiz = {
@@ -1958,12 +2189,14 @@
   }
 
   function clearActiveQuiz() {
+    if (isParentMode()) return;
     const progress = loadProgress();
     progress.activeQuiz = null;
     saveProgress(progress, { sync: true });
   }
 
   function saveProgress(progress, options) {
+    if (isParentMode()) return;
     if (progressStore) {
       progressStore.saveLocalProgress(progress, options);
     } else {
@@ -2185,10 +2418,22 @@
   }
 
   function getStartScreenCopy(supportsLevelSelection) {
+    if (isParentMode()) {
+      if (mixedQuizConfig) {
+        return `${supportsLevelSelection ? 'Choose a level and subtopics to preview' : 'Choose subtopics to preview'} ${currentQuestions.length} questions across ${getActiveMixedSubtopics().length} subtopics. Nothing here is saved to a student profile.`;
+      }
+      return `${supportsLevelSelection ? 'Choose a level and preview' : 'Preview'} ${currentQuestions.length} questions. Parent previews are read-only and do not affect student reports.`;
+    }
     if (mixedQuizConfig) {
       return `${supportsLevelSelection ? 'Choose a level and subtopics, then answer' : 'Choose subtopics, then answer'} ${currentQuestions.length} questions across ${getActiveMixedSubtopics().length} subtopics. ${getMixedQuestionLimitCopy()} Your results will show both overall and subtopic scores.`;
     }
     return `The Word Woods need a careful sentence scout. ${supportsLevelSelection ? 'Choose a level, answer' : 'Answer'} ${currentQuestions.length} questions, collect star gems, and keep your practice streak glowing.`;
+  }
+
+  function isParentMode() {
+    const auth = window.GrammarQuestAuth;
+    if (!auth || typeof auth.getState !== 'function') return false;
+    return !!auth.getState().parentMode;
   }
 
   function getMixedQuestionLimitCopy() {

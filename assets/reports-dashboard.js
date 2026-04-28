@@ -78,6 +78,8 @@
   }
 
   async function buildStudents(forceSample) {
+    const authState = await getAuthState();
+    const parentMode = !!authState.parentMode;
     const progress = loadProgress();
     const sessions = progress.reports && Array.isArray(progress.reports.sessions)
       ? progress.reports.sessions
@@ -85,7 +87,7 @@
     const groups = {};
     const cloudStudents = await loadCloudStudents();
 
-    sessions.forEach(session => {
+    if (!parentMode) sessions.forEach(session => {
       const id = session.studentId || 'current-learner';
       if (!groups[id]) {
         groups[id] = {
@@ -99,7 +101,7 @@
       groups[id].sessions.push(session);
     });
 
-    if (!groups['current-learner']) {
+    if (!parentMode && !groups['current-learner']) {
       groups['current-learner'] = {
         id: 'current-learner',
         name: loadSetting('grammarQuestActiveStudentName', 'Current Learner'),
@@ -108,7 +110,7 @@
         sessions: []
       };
     }
-    groups['current-learner'].progress = progress;
+    if (groups['current-learner']) groups['current-learner'].progress = progress;
 
     const students = Object.keys(groups).map(id => enrichStudent(groups[id]));
     cloudStudents.forEach(student => {
@@ -131,8 +133,7 @@
     if (!auth || typeof auth.ready !== 'function') return [];
 
     try {
-      await auth.ready();
-      const authState = auth.getState ? auth.getState() : {};
+      const authState = await getAuthState();
       if (!authState.signedIn) return [];
       if (authState.signedIn && typeof auth.loadManagedStudents === 'function') {
         return await auth.loadManagedStudents();
@@ -153,6 +154,17 @@
     }
 
     return [];
+  }
+
+  async function getAuthState() {
+    const auth = window.GrammarQuestAuth;
+    if (!auth || typeof auth.ready !== 'function') return {};
+    try {
+      await auth.ready();
+      return auth.getState ? auth.getState() : {};
+    } catch (error) {
+      return {};
+    }
   }
 
   function enrichStudent(student) {

@@ -144,6 +144,8 @@
           id: authState.activeStudent.id,
           name: authState.activeStudent.name || 'Student',
           avatar: getInitials(authState.activeStudent.name || 'Student'),
+          avatarParts: authState.activeStudent.avatarParts || null,
+          avatarSvg: renderStudentAvatar(authState.activeStudent),
           source: 'Cloud',
           progress: progress || {},
           sessions: progress && progress.reports && Array.isArray(progress.reports.sessions) ? progress.reports.sessions : []
@@ -259,7 +261,7 @@
     if (count) count.textContent = `${visible.length} shown`;
     list.innerHTML = visible.map(student => `
       <button class="student-row ${student.id === state.selectedStudentId ? 'active' : ''}" type="button" data-student-id="${escapeHtml(student.id)}">
-        <span class="student-avatar">${escapeHtml(student.avatar || getInitials(student.name))}</span>
+        ${renderStudentAvatarMarkup(student)}
         <span class="student-row-main">
           <strong>${escapeHtml(student.name)}</strong>
           <span>${student.totalQuestions ? `${formatPercent(student.accuracy)} accuracy · ${student.sessions.length} sessions` : 'No completed quizzes yet'}</span>
@@ -288,7 +290,7 @@
     target.innerHTML = `
       <section class="selected-student-card">
         <div class="selected-student-id">
-          <span class="student-avatar large">${escapeHtml(student.avatar || getInitials(student.name))}</span>
+          ${renderStudentAvatarMarkup(student, true)}
           <div>
             <span class="quest-kicker">${escapeHtml(student.source || 'Saved')}</span>
             <h2>${escapeHtml(student.name)}</h2>
@@ -798,6 +800,23 @@
 
   function getInitials(name) {
     return String(name || 'Learner').split(/\s+/).map(part => part.charAt(0)).join('').slice(0, 2).toUpperCase();
+  }
+
+  function renderStudentAvatarMarkup(student, large) {
+    const svg = renderStudentAvatar(student);
+    if (svg) {
+      return `<span class="student-avatar ${large ? 'large' : ''} custom">${svg}</span>`;
+    }
+    return `<span class="student-avatar ${large ? 'large' : ''}">${escapeHtml(student.avatar || getInitials(student.name))}</span>`;
+  }
+
+  function renderStudentAvatar(student) {
+    if (student.avatarSvg) return student.avatarSvg;
+    const avatar = window.GrammarQuestAvatar;
+    if (avatar && typeof avatar.render === 'function' && student.avatarParts) {
+      return avatar.render(student.avatarParts);
+    }
+    return '';
   }
 
   function ordinal(number) {

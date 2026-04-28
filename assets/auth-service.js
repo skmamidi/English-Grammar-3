@@ -3,6 +3,42 @@ const progressStore = window.GrammarQuestProgress;
 const AUTH_STATE_EVENT = "grammarquest:auth-state";
 const ACTIVE_STUDENT_EVENT = "grammarquest:active-student";
 const PARENT_BROWSE_EVENT = "grammarquest:parent-browse";
+const LOGIN_BIRDS = [
+  "albatross", "avocet", "bald eagle", "barn owl", "bee hummingbird", "belted kingfisher", "black swan", "blue jay", "bluebird", "bobolink",
+  "booby", "bowerbird", "budgie", "canary", "cardinal", "cassowary", "chickadee", "cockatoo", "condor", "coot",
+  "cormorant", "crane", "crow", "cuckoo", "dove", "duck", "egret", "emu", "falcon", "finch",
+  "flamingo", "frigatebird", "goldfinch", "goose", "grackle", "great horned owl", "green heron", "grouse", "hawk", "heron",
+  "hoopoe", "hornbill", "hummingbird", "ibis", "jay", "junco", "kakapo", "kestrel", "kiwi", "loon",
+  "lorikeet", "macaw", "magpie", "mallard", "meadowlark", "mockingbird", "nightingale", "oriole", "osprey", "ostrich",
+  "owl", "parakeet", "parrot", "peacock", "pelican", "penguin", "phoebe", "pigeon", "puffin", "quail",
+  "raven", "red tailed hawk", "roadrunner", "robin", "sandpiper", "scarlet tanager", "seagull", "secretary bird", "snowy owl", "sparrow",
+  "spoonbill", "starling", "stork", "swallow", "swan", "swift", "tanager", "toucan", "turkey", "vulture",
+  "warbler", "waxwing", "weaverbird", "whippoorwill", "wood duck", "woodpecker", "wren", "yellow warbler", "zebra finch", "kinglet"
+];
+const LOGIN_OCEAN_ANIMALS = [
+  "abalone", "anchovy", "angelfish", "arctic cod", "barracuda", "beluga whale", "blue tang", "blue whale", "box jellyfish", "butterflyfish",
+  "clownfish", "cod", "conch", "coral", "crab", "cuttlefish", "dolphin", "dugong", "eel", "elephant seal",
+  "flounder", "flying fish", "giant clam", "giant squid", "great white shark", "green sea turtle", "grouper", "hammerhead shark", "harbor seal", "herring",
+  "horseshoe crab", "humpback whale", "jellyfish", "kelp crab", "krill", "lanternfish", "leopard seal", "lionfish", "lobster", "mackerel",
+  "manatee", "manta ray", "marlin", "monk seal", "moray eel", "narwhal", "nautilus", "octopus", "orca", "oyster",
+  "parrotfish", "penguin", "pufferfish", "ray", "reef shark", "sailfish", "salmon", "sand dollar", "sardine", "sea anemone",
+  "sea cucumber", "sea dragon", "sea horse", "sea lion", "sea otter", "sea slug", "sea snail", "sea sponge", "sea star", "sea turtle",
+  "seal", "shark", "shrimp", "skate", "squid", "stingray", "swordfish", "tarpon", "tiger shark", "tuna",
+  "urchin", "vaquita", "walrus", "whale shark", "yellowfin tuna", "zebra shark", "pilot whale", "porpoise", "rockfish", "sunfish",
+  "triggerfish", "wrasse", "mussel", "clam", "plankton", "remora", "sawfish", "scallop", "snapper", "wahoo"
+];
+const LOGIN_DISNEY_CHARACTERS = [
+  "mickey mouse", "minnie mouse", "donald duck", "daisy duck", "goofy", "pluto", "oswald", "chip", "dale", "scrooge mcduck",
+  "snow white", "dopey", "grumpy", "cinderella", "fairy godmother", "alice", "cheshire cat", "peter pan", "tinker bell", "wendy darling",
+  "lady", "tramp", "aurora", "maleficent", "pongo", "perdita", "mowgli", "baloo", "bagheera", "winnie the pooh",
+  "piglet", "tigger", "eeyore", "robin hood", "little john", "ariel", "flounder", "sebastian", "ursula", "belle",
+  "beast", "lumiere", "cogsworth", "aladdin", "jasmine", "genie", "abu", "simba", "nala", "timon",
+  "pumbaa", "mufasa", "pocahontas", "meeko", "mulan", "mushu", "kuzco", "kronk", "stitch", "lilo",
+  "rapunzel", "flynn rider", "pascal", "tiana", "naveen", "vanellope", "ralph", "elsa", "anna", "olaf",
+  "moana", "maui", "heihei", "mirabel", "isabela", "luisa", "woody", "buzz lightyear", "jessie", "bo peep",
+  "rex", "slinky dog", "mr potato head", "sulley", "mike wazowski", "boo", "nemo", "marlin", "dory", "crush",
+  "mr incredible", "elastigirl", "violet parr", "dash parr", "jack jack", "remy", "wall e", "eve", "carl fredricksen", "russell"
+];
 
 const state = {
   enabled: Boolean(firebaseSettings.enabled),
@@ -29,6 +65,10 @@ window.GrammarQuestAuth = {
   clearActiveStudent,
   loadManagedStudents,
   loadStudentProgress
+};
+
+window.GrammarQuestAvatar = {
+  render: renderStudentAvatarSvg
 };
 
 async function initAuthService() {
@@ -173,7 +213,7 @@ function renderStudentLoginPanel() {
     <form class="auth-form" data-student-public-form>
       <label>
         <span>Student Login Name</span>
-        <input type="text" name="loginName" autocomplete="username" placeholder="spark-reader-27" required>
+        <input type="text" name="loginName" autocomplete="username" required>
       </label>
       <button class="btn btn-primary" type="submit">Start Student Practice</button>
     </form>
@@ -198,11 +238,34 @@ function renderStudentTools(includeParentModeButton) {
     <form class="create-student-form" data-create-student-form>
       <label class="student-field student-field-name">
         <span>Student Name</span>
-        <input type="text" name="studentName" autocomplete="off" placeholder="Raaga" required>
+        <input type="text" name="studentName" autocomplete="off" required>
       </label>
       <label class="student-field student-field-login">
         <span>Fun Login Name</span>
-        <input type="text" name="loginName" autocomplete="off" placeholder="sunny-reader-42" data-student-login-name required>
+        <input type="text" name="loginName" autocomplete="off" data-student-login-name required>
+      </label>
+      <div class="login-name-builder" aria-label="Fun login name builder">
+        <label>
+          <span>Favorite Bird</span>
+          <select name="favoriteBird" data-login-part="bird">${renderOptionList(LOGIN_BIRDS, "blue jay")}</select>
+        </label>
+        <label>
+          <span>Favorite Ocean Animal</span>
+          <select name="favoriteOceanAnimal" data-login-part="ocean">${renderOptionList(LOGIN_OCEAN_ANIMALS, "dolphin")}</select>
+        </label>
+        <label>
+          <span>Favorite Disney / Pixar Character</span>
+          <select name="favoriteCharacter" data-login-part="character">${renderOptionList(LOGIN_DISNEY_CHARACTERS, "mickey mouse")}</select>
+        </label>
+      </div>
+      <div class="student-avatar-preview" data-student-avatar-preview>
+        ${renderStudentAvatarSvg({ bird: "blue jay", ocean: "dolphin", character: "mickey mouse" })}
+      </div>
+      <label class="student-field student-field-grade">
+        <span>Default Grade</span>
+        <select name="defaultGrade" autocomplete="off">
+          ${renderGradeOptions("4")}
+        </select>
       </label>
       <button class="btn btn-secondary suggest-name-btn" type="button" data-suggest-login-name>Suggest Name</button>
       <button class="btn btn-primary create-student-btn" type="submit">Create Student</button>
@@ -234,7 +297,7 @@ function wireModalEvents() {
     if (providerButton) await signInWithProvider(providerButton.dataset.authProvider);
     if (authTab) activateAuthTab(authTab.dataset.authTab);
     if (signupButton) await signInWithEmail(event, "signup");
-    if (suggestButton) suggestLoginName(suggestButton);
+    if (suggestButton) await suggestLoginName(suggestButton);
     if (launchStudentButton) await handleSelectStudentById(launchStudentButton.dataset.launchStudentId);
     if (clearStudentButton) await clearActiveStudent();
     if (deleteStudentButton) await openDeleteStudentDialog(deleteStudentButton.dataset.deleteStudentId);
@@ -268,6 +331,18 @@ function wireModalEvents() {
     if (event.target.matches("[data-reset-progress-form]")) {
       event.preventDefault();
       await handleResetStudent(event.target.dataset.resetProgressStudentId, new FormData(event.target));
+    }
+  });
+
+  document.addEventListener("change", async event => {
+    const gradeSelect = event.target.closest("[data-student-default-grade-id]");
+    const loginPartSelect = event.target.closest("[data-login-part]");
+    if (gradeSelect) {
+      await handleDefaultGradeChange(gradeSelect.dataset.studentDefaultGradeId, gradeSelect.value);
+    }
+    if (loginPartSelect) {
+      updateAvatarPreview(loginPartSelect);
+      await suggestLoginName(loginPartSelect);
     }
   });
 
@@ -383,14 +458,20 @@ async function signOut() {
   renderAuthUi();
 }
 
-async function createManagedStudent({ studentName, loginName }) {
+async function createManagedStudent({ studentName, loginName, defaultGrade, avatarParts }) {
   await readyPromise;
   requireGrownup();
 
   const cleanName = String(studentName || "").trim();
   const normalizedLogin = normalizeLoginName(loginName);
+  const normalizedGrade = normalizeDefaultGrade(defaultGrade);
+  const normalizedAvatarParts = normalizeAvatarParts(avatarParts);
   if (!cleanName) throw new Error("Enter a student name.");
   if (!normalizedLogin) throw new Error("Enter a login name.");
+  const existingStudents = await loadManagedStudents();
+  if (existingStudents.some(student => normalizeStudentName(student.name) === normalizeStudentName(cleanName))) {
+    throw new Error("That student name already exists in this parent account. Use a unique student name.");
+  }
 
   const { db, firestoreModule } = state.firebase;
   const studentId = `student-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
@@ -408,6 +489,8 @@ async function createManagedStudent({ studentName, loginName }) {
       studentId,
       loginName: normalizedLogin,
       studentName: cleanName,
+      defaultGrade: normalizedGrade,
+      avatarParts: normalizedAvatarParts,
       createdAt: firestoreModule.serverTimestamp()
     });
     transaction.set(studentRef, {
@@ -415,6 +498,8 @@ async function createManagedStudent({ studentName, loginName }) {
       studentId,
       studentName: cleanName,
       loginName: normalizedLogin,
+      defaultGrade: normalizedGrade,
+      avatarParts: normalizedAvatarParts,
       progress: progressStore?.getDefaultProgress?.() || {},
       createdAt: firestoreModule.serverTimestamp(),
       updatedAt: firestoreModule.serverTimestamp()
@@ -424,6 +509,9 @@ async function createManagedStudent({ studentName, loginName }) {
     id: studentId,
     name: cleanName,
     loginName: normalizedLogin,
+    defaultGrade: normalizedGrade,
+    avatarParts: normalizedAvatarParts,
+    avatarSvg: renderStudentAvatarSvg(normalizedAvatarParts),
     ownerUid: state.user.uid
   };
 }
@@ -441,6 +529,8 @@ async function selectManagedStudent(identifier) {
     id: student.id,
     name: student.name,
     loginName: student.loginName,
+    defaultGrade: student.defaultGrade || "4",
+    avatarParts: normalizeAvatarParts(student.avatarParts),
     ownerUid: student.ownerUid || state.user?.uid || ""
   };
   state.sessionMode = "student";
@@ -475,6 +565,8 @@ async function loginStudentByName(loginName) {
     id: studentId,
     name: studentData.studentName || loginData.studentName || "Student",
     loginName: normalized,
+    defaultGrade: normalizeDefaultGrade(studentData.defaultGrade || loginData.defaultGrade || "4"),
+    avatarParts: normalizeAvatarParts(studentData.avatarParts || loginData.avatarParts),
     ownerUid: studentData.ownerUid || loginData.ownerUid || ""
   };
   state.sessionMode = "student";
@@ -502,6 +594,9 @@ async function loadManagedStudents() {
       id: data.studentId || docSnapshot.id,
       name: data.studentName || "Student",
       loginName: data.loginName || "",
+      defaultGrade: normalizeDefaultGrade(data.defaultGrade || "4"),
+      avatarParts: normalizeAvatarParts(data.avatarParts),
+      avatarSvg: renderStudentAvatarSvg(data.avatarParts),
       ownerUid: data.ownerUid || "",
       source: "Managed",
       progress,
@@ -524,6 +619,27 @@ async function deleteManagedStudent(studentId) {
     batch.delete(firestoreModule.doc(db, loginCollection(), student.loginName));
   }
   await batch.commit();
+}
+
+async function updateManagedStudentDefaultGrade(studentId, defaultGrade) {
+  await readyPromise;
+  requireGrownup();
+  const normalizedGrade = normalizeDefaultGrade(defaultGrade);
+  const student = await findManagedStudent(studentId);
+  const { db, firestoreModule } = state.firebase;
+  const batch = firestoreModule.writeBatch(db);
+  batch.update(managedStudentRef(db, firestoreModule, studentId), {
+    defaultGrade: normalizedGrade,
+    updatedAt: firestoreModule.serverTimestamp()
+  });
+  if (student.loginName) {
+    batch.set(firestoreModule.doc(db, loginCollection(), student.loginName), {
+      defaultGrade: normalizedGrade,
+      updatedAt: firestoreModule.serverTimestamp()
+    }, { merge: true });
+  }
+  await batch.commit();
+  return normalizedGrade;
 }
 
 async function resetStudentProgress(studentId, scopes) {
@@ -658,14 +774,34 @@ async function handleCreateStudent(formData, form) {
     showMessage("Creating student profile...");
     const student = await createManagedStudent({
       studentName: formData.get("studentName"),
-      loginName: formData.get("loginName")
+      loginName: formData.get("loginName"),
+      defaultGrade: formData.get("defaultGrade"),
+      avatarParts: {
+        bird: formData.get("favoriteBird"),
+        ocean: formData.get("favoriteOceanAnimal"),
+        character: formData.get("favoriteCharacter")
+      }
     });
-    showMessage(`${student.name} is ready. Student login name: ${student.loginName}`);
+    showMessage(`${student.name} is ready. Default grade: ${displayDefaultGrade(student.defaultGrade)}.`);
     const createForm = form || document.querySelector("[data-create-student-form]");
-    if (createForm) createForm.reset();
+    if (createForm) {
+      createForm.reset();
+      updateAvatarPreview(createForm);
+    }
     await renderStudentProfiles();
   } catch (error) {
     showMessage(error.message);
+  }
+}
+
+async function handleDefaultGradeChange(studentId, defaultGrade) {
+  try {
+    const normalizedGrade = await updateManagedStudentDefaultGrade(studentId, defaultGrade);
+    showParentNotice(`Default grade updated to ${displayDefaultGrade(normalizedGrade)}.`, "success");
+    await renderStudentProfiles();
+  } catch (error) {
+    showParentNotice(authErrorMessage(error), "error");
+    await renderStudentProfiles();
   }
 }
 
@@ -1025,10 +1161,20 @@ async function renderStudentProfiles() {
     const students = await loadManagedStudents();
     const html = students.map(student => `
       <article class="student-profile-card ${state.activeStudent?.id === student.id ? "active" : ""}">
+        <div class="student-profile-avatar">
+          ${renderStudentAvatarSvg(student.avatarParts)}
+        </div>
         <div>
           <strong>${escapeHtml(student.name)}</strong>
           <span>${escapeHtml(student.loginName)}</span>
+          <span>Default grade: ${escapeHtml(displayDefaultGrade(student.defaultGrade))}</span>
         </div>
+        <label class="student-grade-control">
+          <span>Default Grade</span>
+          <select data-student-default-grade-id="${escapeHtml(student.id)}">
+            ${renderGradeOptions(student.defaultGrade)}
+          </select>
+        </label>
         <div class="student-profile-actions">
           <button class="btn btn-secondary" type="button" data-reset-student-id="${escapeHtml(student.id)}">Reset Progress</button>
           <button class="btn btn-danger" type="button" data-delete-student-id="${escapeHtml(student.id)}">Delete Student</button>
@@ -1262,20 +1408,184 @@ function getPublicState() {
   };
 }
 
-function suggestLoginName(button) {
-  const scope = button?.closest("[data-grownup-tools], [data-auth-gate-grownup-tools]") || document;
+async function suggestLoginName(button) {
+  const scope = button?.closest("[data-create-student-form], [data-grownup-tools], [data-auth-gate-grownup-tools]") || document;
   const input = scope.querySelector("[data-student-login-name]");
   if (!input) return;
-  input.value = makeFunLoginName();
+  const parts = getLoginPartsFromScope(scope);
+  const baseName = normalizeLoginName(`${parts.bird}-${parts.ocean}-${parts.character}`);
+  input.value = await getAvailableLoginSuggestion(baseName);
 }
 
-function makeFunLoginName() {
-  const adjectives = ["spark", "brave", "clever", "sunny", "quick", "story", "bright", "mighty"];
-  const nouns = ["reader", "writer", "wizard", "scout", "pilot", "ranger", "thinker", "scribe"];
-  const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
-  const noun = nouns[Math.floor(Math.random() * nouns.length)];
-  const number = Math.floor(10 + Math.random() * 90);
-  return `${adjective}-${noun}-${number}`;
+function updateAvatarPreview(control) {
+  const scope = control?.closest("[data-create-student-form]") || document;
+  const preview = scope.querySelector("[data-student-avatar-preview]");
+  if (!preview) return;
+  preview.innerHTML = renderStudentAvatarSvg(getLoginPartsFromScope(scope));
+}
+
+function getLoginPartsFromScope(scope) {
+  return normalizeAvatarParts({
+    bird: scope.querySelector('[data-login-part="bird"]')?.value,
+    ocean: scope.querySelector('[data-login-part="ocean"]')?.value,
+    character: scope.querySelector('[data-login-part="character"]')?.value
+  });
+}
+
+async function getAvailableLoginSuggestion(baseName) {
+  const cleanBase = normalizeLoginName(baseName) || "student";
+  for (let suffix = 0; suffix < 1000; suffix += 1) {
+    const candidate = suffix ? `${cleanBase}-${suffix}` : cleanBase;
+    if (!(await loginNameExists(candidate))) return candidate;
+  }
+  return `${cleanBase}-${Date.now().toString(36)}`;
+}
+
+async function loginNameExists(loginName) {
+  if (!state.enabled || !state.firebase) return false;
+  const normalized = normalizeLoginName(loginName);
+  if (!normalized) return false;
+  const { db, firestoreModule } = state.firebase;
+  const snapshot = await firestoreModule.getDoc(firestoreModule.doc(db, loginCollection(), normalized));
+  return snapshot.exists();
+}
+
+function renderOptionList(options, selectedValue) {
+  const selected = String(selectedValue || "").toLowerCase();
+  return options.map(option => `
+    <option value="${escapeHtml(option)}" ${option.toLowerCase() === selected ? "selected" : ""}>${escapeHtml(titleCaseDisplay(option))}</option>
+  `).join("");
+}
+
+function renderGradeOptions(selectedGrade) {
+  const selected = normalizeDefaultGrade(selectedGrade);
+  return ["3", "4", "5", "6"].map(grade => `
+    <option value="${grade}" ${grade === selected ? "selected" : ""}>${displayDefaultGrade(grade)}</option>
+  `).join("");
+}
+
+function normalizeDefaultGrade(value) {
+  const grade = String(value || "").trim();
+  return ["3", "4", "5", "6"].includes(grade) ? grade : "4";
+}
+
+function displayDefaultGrade(value) {
+  return `Grade ${normalizeDefaultGrade(value)}`;
+}
+
+function normalizeAvatarParts(parts) {
+  const source = parts || {};
+  return {
+    bird: normalizeChoice(source.bird, LOGIN_BIRDS, "blue jay"),
+    ocean: normalizeChoice(source.ocean, LOGIN_OCEAN_ANIMALS, "dolphin"),
+    character: normalizeChoice(source.character, LOGIN_DISNEY_CHARACTERS, "mickey mouse")
+  };
+}
+
+function normalizeChoice(value, options, fallback) {
+  const clean = String(value || "").trim().toLowerCase();
+  return options.includes(clean) ? clean : fallback;
+}
+
+function renderStudentAvatarSvg(parts) {
+  const avatar = normalizeAvatarParts(parts);
+  const birdColor = colorFromText(avatar.bird, ["#2563eb", "#16a34a", "#f97316", "#db2777", "#7c3aed", "#0891b2"]);
+  const birdAccent = colorFromText(`${avatar.bird}-accent`, ["#fde68a", "#bfdbfe", "#fecaca", "#bbf7d0", "#ddd6fe", "#fed7aa"]);
+  const oceanColor = colorFromText(avatar.ocean, ["#0ea5e9", "#14b8a6", "#6366f1", "#06b6d4", "#0284c7", "#10b981"]);
+  const characterColor = colorFromText(avatar.character, ["#ef4444", "#f59e0b", "#8b5cf6", "#ec4899", "#22c55e", "#3b82f6"]);
+  const animal = getOceanAnimalShape(avatar.ocean, oceanColor);
+  const characterInitial = avatar.character.split(/\s+/).map(part => part[0]).join("").slice(0, 2).toUpperCase();
+  const title = `${titleCaseDisplay(avatar.bird)}, ${titleCaseDisplay(avatar.ocean)}, and ${titleCaseDisplay(avatar.character)} avatar`;
+
+  return `
+    <svg class="student-avatar-svg" viewBox="0 0 180 180" role="img" aria-label="${escapeHtml(title)}" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sea-${slugForSvg(title)}" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0" stop-color="#e0f2fe"/>
+          <stop offset="0.52" stop-color="#a7f3d0"/>
+          <stop offset="1" stop-color="#bfdbfe"/>
+        </linearGradient>
+        <radialGradient id="sun-${slugForSvg(title)}" cx="32%" cy="22%" r="52%">
+          <stop offset="0" stop-color="#fff7ed"/>
+          <stop offset="1" stop-color="#fef3c7" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="180" height="180" rx="36" fill="url(#sea-${slugForSvg(title)})"/>
+      <circle cx="56" cy="38" r="44" fill="url(#sun-${slugForSvg(title)})"/>
+      <path d="M0 121 C28 108 46 137 75 123 S125 106 180 124 L180 180 L0 180 Z" fill="#0ea5e9" opacity=".26"/>
+      <path d="M0 142 C34 128 58 156 91 141 S138 126 180 145 L180 180 L0 180 Z" fill="#0284c7" opacity=".24"/>
+      <path d="M18 137 C26 132 35 132 43 137 M118 132 C126 127 136 127 144 132" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+      ${animal}
+      <g transform="translate(74 48)">
+        <ellipse cx="23" cy="39" rx="23" ry="17" fill="${birdColor}"/>
+        <circle cx="43" cy="28" r="15" fill="${birdColor}"/>
+        <path d="M53 28 L70 22 L55 36 Z" fill="#f59e0b"/>
+        <circle cx="48" cy="24" r="3.2" fill="#0f172a"/>
+        <path d="M12 39 C24 20 39 23 44 38 C34 35 25 42 12 39 Z" fill="${birdAccent}" opacity=".9"/>
+        <path d="M21 56 L17 68 M34 55 L39 68" stroke="#92400e" stroke-width="4" stroke-linecap="round"/>
+        <path d="M27 14 C33 3 47 4 53 15" fill="none" stroke="${birdAccent}" stroke-width="5" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(112 92)">
+        <circle cx="31" cy="31" r="28" fill="#ffffff" opacity=".93"/>
+        <circle cx="31" cy="31" r="22" fill="${characterColor}" opacity=".9"/>
+        <text x="31" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="900" fill="#ffffff">${escapeHtml(characterInitial)}</text>
+        <path d="M13 12 C8 2 22 -4 25 8 M37 8 C41 -4 55 2 49 12" fill="${characterColor}" opacity=".82"/>
+        <path d="M17 52 C24 59 39 59 46 52" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+      </g>
+      <g opacity=".82">
+        <circle cx="35" cy="76" r="5" fill="#ffffff"/>
+        <circle cx="151" cy="58" r="4" fill="#ffffff"/>
+        <circle cx="32" cy="108" r="3" fill="#ffffff"/>
+        <path d="M149 23 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 Z" fill="#ffffff" opacity=".9"/>
+      </g>
+    </svg>
+  `;
+}
+
+function getOceanAnimalShape(oceanAnimal, fillColor) {
+  const type = getOceanAnimalType(oceanAnimal);
+  if (type === "turtle") {
+    return `<g transform="translate(33 86)"><ellipse cx="58" cy="34" rx="45" ry="27" fill="${fillColor}"/><path d="M28 21 C49 42 70 42 91 21 M23 34 H95 M42 12 C48 28 48 43 42 56 M74 12 C68 28 68 43 74 56" stroke="#ecfeff" stroke-width="4" opacity=".42"/><circle cx="107" cy="29" r="15" fill="${fillColor}"/><circle cx="112" cy="25" r="2.8" fill="#0f172a"/><path d="M18 20 L0 9 M18 48 L0 61 M93 15 L111 1 M91 53 L108 66" stroke="${fillColor}" stroke-width="13" stroke-linecap="round"/></g>`;
+  }
+  if (type === "octopus") {
+    return `<g transform="translate(37 83)"><ellipse cx="58" cy="34" rx="35" ry="31" fill="${fillColor}"/><circle cx="47" cy="27" r="4" fill="#0f172a"/><circle cx="68" cy="27" r="4" fill="#0f172a"/><path d="M48 44 C55 50 63 50 70 44" fill="none" stroke="#ecfeff" stroke-width="4" stroke-linecap="round"/><path d="M28 58 C15 78 33 82 43 64 M47 62 C39 84 61 84 58 64 M69 62 C81 84 98 75 84 58 M35 59 C20 67 9 56 24 48 M82 58 C102 65 111 50 91 46" fill="none" stroke="${fillColor}" stroke-width="13" stroke-linecap="round"/></g>`;
+  }
+  if (type === "crab") {
+    return `<g transform="translate(35 98)"><ellipse cx="56" cy="32" rx="38" ry="24" fill="${fillColor}"/><circle cx="43" cy="21" r="4" fill="#0f172a"/><circle cx="69" cy="21" r="4" fill="#0f172a"/><path d="M35 38 C47 48 66 48 78 38" fill="none" stroke="#ecfeff" stroke-width="4" stroke-linecap="round"/><path d="M18 26 L2 13 M94 26 L112 13 M20 42 L4 53 M92 42 L108 54" stroke="${fillColor}" stroke-width="10" stroke-linecap="round"/><circle cx="0" cy="12" r="10" fill="${fillColor}"/><circle cx="112" cy="12" r="10" fill="${fillColor}"/></g>`;
+  }
+  if (type === "shark") {
+    return `<g transform="translate(23 88)"><path d="M12 41 C42 5 95 7 130 39 C96 72 42 73 12 41 Z" fill="${fillColor}"/><path d="M78 16 L96 -7 L101 25 Z" fill="${fillColor}"/><path d="M124 39 L156 20 L146 43 L156 66 Z" fill="${fillColor}"/><circle cx="45" cy="33" r="4" fill="#0f172a"/><path d="M39 47 C56 56 80 56 99 47" fill="none" stroke="#ecfeff" stroke-width="5" stroke-linecap="round"/><path d="M102 48 l7 8 l7 -8 l7 8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/></g>`;
+  }
+  if (type === "seal") {
+    return `<g transform="translate(30 86)"><ellipse cx="62" cy="41" rx="48" ry="26" fill="${fillColor}"/><circle cx="108" cy="29" r="22" fill="${fillColor}"/><circle cx="116" cy="24" r="3.5" fill="#0f172a"/><path d="M117 34 C124 38 131 38 137 34" fill="none" stroke="#ecfeff" stroke-width="4" stroke-linecap="round"/><path d="M22 41 L0 23 M23 48 L0 66 M54 62 C59 77 79 77 84 62" stroke="${fillColor}" stroke-width="15" stroke-linecap="round"/></g>`;
+  }
+  return `<g transform="translate(25 88)"><path d="M12 40 C40 7 92 7 124 39 C92 72 41 74 12 40 Z" fill="${fillColor}"/><path d="M121 39 L153 16 L145 40 L153 65 Z" fill="${fillColor}"/><path d="M74 20 C82 6 100 5 110 19" fill="${fillColor}"/><circle cx="45" cy="32" r="4" fill="#0f172a"/><path d="M48 47 C62 54 83 54 98 47" fill="none" stroke="#ecfeff" stroke-width="5" stroke-linecap="round"/><path d="M29 52 C44 62 68 65 88 57" fill="none" stroke="#ffffff" stroke-width="4" opacity=".45"/></g>`;
+}
+
+function getOceanAnimalType(name) {
+  if (/turtle|terrapin/.test(name)) return "turtle";
+  if (/octopus|squid|cuttlefish|nautilus/.test(name)) return "octopus";
+  if (/crab|lobster|shrimp|krill/.test(name)) return "crab";
+  if (/shark|sawfish|ray|skate/.test(name)) return "shark";
+  if (/seal|walrus|otter|sea lion|manatee|dugong/.test(name)) return "seal";
+  return "fish";
+}
+
+function colorFromText(text, palette) {
+  const hash = String(text || "").split("").reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  return palette[hash % palette.length];
+}
+
+function slugForSvg(text) {
+  return normalizeLoginName(text).slice(0, 42) || "avatar";
+}
+
+function titleCaseDisplay(value) {
+  return String(value || "").replace(/\b[a-z]/g, letter => letter.toUpperCase());
+}
+
+function normalizeStudentName(value) {
+  return String(value || "").trim().toLowerCase().replace(/\s+/g, " ");
 }
 
 function normalizeLoginName(value) {
@@ -1292,6 +1602,9 @@ function saveActiveStudent(student) {
     localStorage.setItem("grammarQuestActiveStudentName", student.name);
     localStorage.setItem("grammarQuestActiveStudentLogin", student.loginName || "");
     localStorage.setItem("grammarQuestActiveStudentOwner", student.ownerUid || "");
+    localStorage.setItem("grammarQuestActiveStudentDefaultGrade", normalizeDefaultGrade(student.defaultGrade));
+    localStorage.setItem("grammarQuestActiveStudentAvatarParts", JSON.stringify(normalizeAvatarParts(student.avatarParts)));
+    localStorage.setItem("grammarQuestGrade", normalizeDefaultGrade(student.defaultGrade));
   } catch (error) {
     // Optional local state.
   }
@@ -1303,6 +1616,8 @@ function clearActiveStudentStorage() {
     localStorage.removeItem("grammarQuestActiveStudentName");
     localStorage.removeItem("grammarQuestActiveStudentLogin");
     localStorage.removeItem("grammarQuestActiveStudentOwner");
+    localStorage.removeItem("grammarQuestActiveStudentDefaultGrade");
+    localStorage.removeItem("grammarQuestActiveStudentAvatarParts");
   } catch (error) {
     // Optional local state.
   }
@@ -1316,10 +1631,20 @@ function loadActiveStudent() {
       id,
       name: localStorage.getItem("grammarQuestActiveStudentName") || "Student",
       loginName: localStorage.getItem("grammarQuestActiveStudentLogin") || "",
+      defaultGrade: normalizeDefaultGrade(localStorage.getItem("grammarQuestActiveStudentDefaultGrade") || "4"),
+      avatarParts: loadStoredAvatarParts(),
       ownerUid: localStorage.getItem("grammarQuestActiveStudentOwner") || ""
     };
   } catch (error) {
     return null;
+  }
+}
+
+function loadStoredAvatarParts() {
+  try {
+    return normalizeAvatarParts(JSON.parse(localStorage.getItem("grammarQuestActiveStudentAvatarParts") || "{}"));
+  } catch (error) {
+    return normalizeAvatarParts();
   }
 }
 

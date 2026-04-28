@@ -82,7 +82,7 @@
 
     activeSet = set;
     baseQuestions = [...set.questions];
-    selectedGrade = normalizeOption(loadSetting('grammarQuestGrade', '4'), gradeOptions, '4');
+    selectedGrade = getInitialGrade();
     selectedDifficulty = normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium');
     currentQuestions = selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
     currentIndex = 0;
@@ -116,7 +116,7 @@
       questions: subtopics.flatMap(subtopic => subtopic.questions)
     };
     baseQuestions = [...activeSet.questions];
-    selectedGrade = normalizeOption(loadSetting('grammarQuestGrade', '4'), gradeOptions, '4');
+    selectedGrade = getInitialGrade();
     selectedDifficulty = normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium');
     selectedMixedSubtopicIds = subtopics.map(subtopic => subtopic.id);
     selectedMixedQuestionLimit = normalizeMixedQuestionLimit(loadSetting('grammarQuestMixedQuestionLimit', mixedQuizConfig.questionsPerSubtopic || '4'));
@@ -2093,6 +2093,17 @@
     } catch (error) {
       return fallback;
     }
+  }
+
+  function getInitialGrade() {
+    const savedGrade = loadSetting('grammarQuestGrade', '');
+    if (savedGrade) return normalizeOption(savedGrade, gradeOptions, '4');
+    const auth = window.GrammarQuestAuth;
+    const authState = auth && typeof auth.getState === 'function' ? auth.getState() : {};
+    const defaultGrade = authState.studentMode && authState.activeStudent
+      ? authState.activeStudent.defaultGrade
+      : loadSetting('grammarQuestActiveStudentDefaultGrade', '');
+    return normalizeOption(defaultGrade || '4', gradeOptions, '4');
   }
 
   function saveQuestResult(percentage, correct, total, attempts) {

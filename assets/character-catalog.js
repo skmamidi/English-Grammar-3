@@ -5,6 +5,8 @@
 (function () {
   'use strict';
 
+  const characterSetStorageKey = 'grammarQuestCharacterSet';
+
   const characterSets = [
     {
       id: 'clue-crew',
@@ -166,8 +168,7 @@
       question && question.question
     ].filter(Boolean).join(' ');
     const concept = conceptMap.find(item => item.match.test(source)) || { title: 'Quest Clue', icon: '*' };
-    const setIndex = Math.abs(hashString(source || 'quest') + index) % characterSets.length;
-    const selectedSet = characterSets[setIndex];
+    const selectedSet = getResolvedCharacterSet(source || 'quest', index);
     const character = selectedSet.characters[index % selectedSet.characters.length];
     const emotion = mode === 'feedback'
       ? (isCorrect ? 'celebrate' : 'coaching')
@@ -243,6 +244,64 @@
   function renderCharacter(character, set, emotion) {
     if (set.id === 'sky-scrolls') return renderDragon(character, emotion);
     return renderStudent(character, emotion);
+  }
+
+  function getCharacterById(id) {
+    for (const set of characterSets) {
+      const character = set.characters.find(item => item.id === id);
+      if (character) return { set, character };
+    }
+    return null;
+  }
+
+  function getCharacterForSlot(slot, fallbackId) {
+    const selectedSet = getSelectedCharacterSet();
+    if (selectedSet) {
+      return {
+        set: selectedSet,
+        character: selectedSet.characters[Math.abs(slot || 0) % selectedSet.characters.length]
+      };
+    }
+    const fallback = getCharacterById(fallbackId);
+    if (fallback) return fallback;
+    const autoSet = getResolvedCharacterSet(fallbackId || 'quest', slot || 0);
+    return {
+      set: autoSet,
+      character: autoSet.characters[Math.abs(slot || 0) % autoSet.characters.length]
+    };
+  }
+
+  function getResolvedCharacterSet(seed, index) {
+    const selectedSet = getSelectedCharacterSet();
+    if (selectedSet) return selectedSet;
+    const setIndex = Math.abs(hashString(seed) + index) % characterSets.length;
+    return characterSets[setIndex];
+  }
+
+  function getSelectedCharacterSetId() {
+    let stored = 'auto';
+    try {
+      stored = window.localStorage.getItem(characterSetStorageKey) || 'auto';
+    } catch (err) {
+      stored = 'auto';
+    }
+    return stored === 'auto' || characterSets.some(set => set.id === stored) ? stored : 'auto';
+  }
+
+  function getSelectedCharacterSet() {
+    const selectedId = getSelectedCharacterSetId();
+    if (selectedId === 'auto') return null;
+    return characterSets.find(set => set.id === selectedId) || null;
+  }
+
+  function setSelectedCharacterSetId(setId) {
+    const normalized = setId === 'auto' || characterSets.some(set => set.id === setId) ? setId : 'auto';
+    try {
+      window.localStorage.setItem(characterSetStorageKey, normalized);
+    } catch (err) {
+      return normalized;
+    }
+    return normalized;
   }
 
   function renderStudent(character, emotion) {
@@ -342,6 +401,11 @@
 
   window.GrammarQuestCharacters = {
     sets: characterSets,
+    getSelectedCharacterSetId,
+    getSelectedCharacterSet,
+    setSelectedCharacterSetId,
+    getCharacterById,
+    getCharacterForSlot,
     getQuestionScene,
     renderCharacter,
     renderSceneCard

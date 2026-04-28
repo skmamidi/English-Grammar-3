@@ -160,6 +160,7 @@
         </div>
       `;
     const mixedSubtopicSelector = mixedQuizConfig ? renderMixedSubtopicSelector() : '';
+    const characterSetControls = renderCharacterSetControls();
 
     quizContainer.innerHTML = `
       <div class="start-screen">
@@ -168,6 +169,7 @@
         <p>${getStartScreenCopy(supportsLevelSelection)}</p>
         ${levelControls}
         ${mixedSubtopicSelector}
+        ${characterSetControls}
         <div class="quest-dashboard" aria-label="Saved quest progress">
           <div class="quest-stat">
             <span class="quest-stat-value">${progress.streakDays}</span>
@@ -205,6 +207,7 @@
       difficultySelect.addEventListener('change', updateSelection);
     }
     if (mixedQuizConfig) attachMixedSelectorHandlers();
+    attachCharacterSetHandlers();
 
     document.getElementById('start-btn').addEventListener('click', () => {
       currentQuestions = selectCurrentQuestions();
@@ -229,7 +232,7 @@
     const q = currentQuestions[currentIndex];
     const progress = loadProgress();
     const strategyHint = getStrategyHint(q);
-    const questionScene = renderCharacterScene({
+    const questionPrompt = renderQuestionPrompt(q, {
       question: q,
       index: currentIndex,
       mode: 'question'
@@ -256,8 +259,7 @@
           <span>Read carefully</span>
           <span>${reviewMode ? 'Review round' : 'Practice round'}</span>
         </div>
-        ${questionScene}
-        <div class="question-text">${escapeHtml(q.question)}</div>
+        ${questionPrompt}
         <div class="thinking-tools">
           <button type="button" class="strategy-btn" id="strategy-btn">Strategy clue</button>
           <div class="confidence-check" aria-label="Choose confidence level before answering">
@@ -454,6 +456,347 @@
       total: currentQuestions.length,
       reviewMode
     }, options));
+  }
+
+  function renderCharacterSetControls() {
+    const catalog = window.GrammarQuestCharacters;
+    if (!catalog || !Array.isArray(catalog.sets) || typeof catalog.getSelectedCharacterSetId !== 'function') {
+      return '';
+    }
+    const selectedId = catalog.getSelectedCharacterSetId();
+    return `
+      <div class="character-set-picker">
+        <label for="character-set-select">Character cast</label>
+        <select id="character-set-select">
+          <option value="auto" ${selectedId === 'auto' ? 'selected' : ''}>Auto rotate casts</option>
+          ${catalog.sets.map(set => `
+            <option value="${escapeHtml(set.id)}" ${selectedId === set.id ? 'selected' : ''}>${escapeHtml(set.name)}</option>
+          `).join('')}
+        </select>
+      </div>
+    `;
+  }
+
+  function attachCharacterSetHandlers() {
+    const select = document.getElementById('character-set-select');
+    const catalog = window.GrammarQuestCharacters;
+    if (!select || !catalog || typeof catalog.setSelectedCharacterSetId !== 'function') return;
+    select.addEventListener('change', () => {
+      catalog.setSelectedCharacterSetId(select.value);
+    });
+  }
+
+  function renderQuestionPrompt(question, options) {
+    if (question && question.visualScene && question.visualScene.type === 'dialogue-scene') {
+      return renderVisualQuestionScene(question.visualScene, question);
+    }
+    return `
+      ${renderCharacterScene(options)}
+      <div class="question-text">${escapeHtml(question.question)}</div>
+    `;
+  }
+
+  function renderVisualQuestionScene(scene, question) {
+    const dialogue = Array.isArray(scene.dialogue) ? scene.dialogue.slice(0, 2) : [];
+    const choiceCards = shouldRenderVisualChoiceCards(question)
+      ? `
+        <div class="visual-choice-cards" aria-label="Sentence cards from the scene">
+          ${question.choices.map((choice, index) => `
+            <div class="visual-choice-card">
+              <span>${String.fromCharCode(65 + index)}</span>
+              <p>${escapeHtml(choice)}</p>
+            </div>
+          `).join('')}
+        </div>
+      `
+      : '';
+    return `
+      <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
+        <div class="visual-scene-intro">
+          <div class="visual-scene-kicker">Visual question proof of concept</div>
+          <h3>${escapeHtml(scene.title || 'Question Scene')}</h3>
+          <p>${escapeHtml(scene.narration || '')}</p>
+        </div>
+        <div class="visual-stage">
+          ${renderSceneSetPiece(scene)}
+          <div class="visual-stage-board" aria-hidden="true">
+            <span>${escapeHtml(scene.board || 'Sentence lab')}</span>
+            <strong>${escapeHtml(scene.clue || 'Read for purpose.')}</strong>
+          </div>
+          <div class="visual-dialogue-strip">
+            ${dialogue.map((entry, index) => renderDialogueActor(entry, index)).join('')}
+          </div>
+        </div>
+        <div class="visual-mission">
+          <span>Mission question</span>
+          <strong>${escapeHtml(scene.prompt || question.question)}</strong>
+        </div>
+        ${choiceCards}
+      </section>
+    `;
+  }
+
+  function renderSceneSetPiece(scene) {
+    const setting = scene && scene.setting ? String(scene.setting) : 'classroom';
+    return `
+      <div class="visual-set-piece visual-set-piece-${escapeHtml(setting)}" aria-hidden="true">
+        ${getSceneSetPieceSvg(setting)}
+      </div>
+    `;
+  }
+
+  function getSceneSetPieceSvg(setting) {
+    const pieces = {
+      library: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="38" y="46" width="210" height="124" rx="14" fill="#bfdbfe" opacity="0.8" />
+          <rect x="56" y="65" width="174" height="13" rx="5" fill="#2563eb" opacity="0.42" />
+          <rect x="56" y="95" width="174" height="13" rx="5" fill="#14b8a6" opacity="0.42" />
+          <rect x="56" y="125" width="174" height="13" rx="5" fill="#f97316" opacity="0.42" />
+          <rect x="548" y="90" width="116" height="94" rx="12" fill="#fef3c7" stroke="#92400e" stroke-width="5" />
+          <path d="M568 112 H644" stroke="#92400e" stroke-width="6" stroke-linecap="round" />
+          <text x="606" y="150" text-anchor="middle" fill="#92400e" font-size="20" font-weight="800">RETURN</text>
+        </svg>
+      `,
+      storm: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="70" y="35" width="220" height="154" rx="16" fill="#dbeafe" stroke="#60a5fa" stroke-width="6" />
+          <path d="M180 37 V189 M72 112 H288" stroke="#60a5fa" stroke-width="5" opacity="0.8" />
+          <path d="M118 70 L104 98 M154 142 L140 171 M234 78 L220 106" stroke="#2563eb" stroke-width="6" stroke-linecap="round" opacity="0.55" />
+          <path d="M505 53 C540 23 600 37 611 82 C653 84 674 119 655 152 C624 204 516 174 493 145 C465 111 472 79 505 53 Z" fill="#94a3b8" opacity="0.36" />
+          <path d="M548 91 L520 134 H553 L529 184 L601 112 H561 L585 91 Z" fill="#facc15" opacity="0.78" />
+        </svg>
+      `,
+      bus: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="55" y="88" width="236" height="92" rx="18" fill="#facc15" stroke="#ca8a04" stroke-width="6" />
+          <rect x="79" y="105" width="58" height="34" rx="7" fill="#dbeafe" />
+          <rect x="149" y="105" width="58" height="34" rx="7" fill="#dbeafe" />
+          <circle cx="110" cy="184" r="18" fill="#111827" />
+          <circle cx="233" cy="184" r="18" fill="#111827" />
+          <rect x="548" y="48" width="94" height="106" rx="10" fill="#2563eb" />
+          <text x="595" y="84" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="900">BUS</text>
+          <text x="595" y="116" text-anchor="middle" fill="#bfdbfe" font-size="16" font-weight="800">LATE?</text>
+          <path d="M595 154 V218" stroke="#475569" stroke-width="8" stroke-linecap="round" />
+        </svg>
+      `,
+      notebook: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="65" y="42" width="210" height="158" rx="16" fill="#fef3c7" stroke="#92400e" stroke-width="5" />
+          <path d="M109 42 V200" stroke="#92400e" stroke-width="5" opacity="0.7" />
+          <path d="M132 82 H238 M132 114 H220 M132 146 H248" stroke="#2563eb" stroke-width="6" stroke-linecap="round" opacity="0.48" />
+          <circle cx="95" cy="78" r="5" fill="#92400e" />
+          <circle cx="95" cy="122" r="5" fill="#92400e" />
+          <circle cx="95" cy="166" r="5" fill="#92400e" />
+          <rect x="514" y="70" width="150" height="100" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="5" />
+          <text x="589" y="130" text-anchor="middle" fill="#4c1d95" font-size="54" font-weight="900">?</text>
+        </svg>
+      `,
+      classroom: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="50" y="55" width="130" height="155" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-width="5" />
+          <path d="M178 60 L248 38 V205 L178 210 Z" fill="#fed7aa" stroke="#c2410c" stroke-width="5" />
+          <circle cx="225" cy="124" r="7" fill="#92400e" />
+          <rect x="480" y="132" width="196" height="50" rx="10" fill="#fef3c7" stroke="#92400e" stroke-width="5" />
+          <path d="M506 116 H650 M528 96 H627" stroke="#2563eb" stroke-width="11" stroke-linecap="round" />
+          <path d="M505 181 L490 220 M650 181 L665 220" stroke="#92400e" stroke-width="7" stroke-linecap="round" />
+        </svg>
+      `,
+      science: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M62 48 H256 V196 H62 Z" fill="#e0f2fe" stroke="#0e7490" stroke-width="5" />
+          <path d="M62 48 L106 74 V222 L62 196 Z M256 48 L212 74 V222 L256 196 Z" fill="#bae6fd" stroke="#0e7490" stroke-width="5" />
+          <text x="159" y="103" text-anchor="middle" fill="#155e75" font-size="21" font-weight="900">SCIENCE</text>
+          <circle cx="132" cy="143" r="16" fill="#22c55e" opacity="0.72" />
+          <path d="M536 68 H622 L650 174 H508 Z" fill="#fef3c7" stroke="#ca8a04" stroke-width="5" />
+          <path d="M554 95 H608 M546 126 H620" stroke="#ca8a04" stroke-width="6" stroke-linecap="round" />
+        </svg>
+      `,
+      hallway: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="52" y="42" width="210" height="164" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="5" />
+          <path d="M122 42 V206 M192 42 V206 M72 82 H242 M72 122 H242 M72 162 H242" stroke="#2563eb" stroke-width="5" opacity="0.62" />
+          <rect x="516" y="54" width="128" height="158" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="5" />
+          <text x="580" y="126" text-anchor="middle" fill="#334155" font-size="20" font-weight="900">OFFICE</text>
+          <path d="M543 157 H618 M595 135 L622 157 L595 179" stroke="#16a34a" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      `,
+      trail: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M0 205 C155 125 232 246 364 158 C476 82 590 140 760 78 V260 H0 Z" fill="#bbf7d0" opacity="0.82" />
+          <path d="M216 260 C261 211 301 190 355 169 C380 196 427 218 484 260 Z" fill="#92400e" opacity="0.55" />
+          <path d="M114 78 L101 108 M156 116 L143 146 M592 69 L579 99 M631 107 L618 137" stroke="#38bdf8" stroke-width="7" stroke-linecap="round" opacity="0.76" />
+          <circle cx="535" cy="188" r="18" fill="#854d0e" opacity="0.5" />
+          <circle cx="414" cy="212" r="13" fill="#854d0e" opacity="0.5" />
+        </svg>
+      `,
+      desk: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="63" y="100" width="230" height="82" rx="12" fill="#fef3c7" stroke="#92400e" stroke-width="5" />
+          <path d="M93 182 L78 223 M263 182 L278 223" stroke="#92400e" stroke-width="8" stroke-linecap="round" />
+          <path d="M126 78 L208 78" stroke="#facc15" stroke-width="12" stroke-linecap="round" />
+          <path d="M166 58 L231 100" stroke="#ef4444" stroke-width="10" stroke-linecap="round" />
+          <rect x="526" y="76" width="104" height="112" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="5" />
+          <text x="578" y="133" text-anchor="middle" fill="#166534" font-size="20" font-weight="900">PLACE</text>
+        </svg>
+      `,
+      gym: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="62" y="58" width="168" height="128" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="5" />
+          <text x="146" y="103" text-anchor="middle" fill="#9a3412" font-size="22" font-weight="900">PRACTICE</text>
+          <path d="M95 129 H198 M95 157 H178" stroke="#ea580c" stroke-width="7" stroke-linecap="round" opacity="0.66" />
+          <rect x="538" y="45" width="120" height="164" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-width="5" />
+          <path d="M656 49 L704 35 V203 L656 209 Z" fill="#fef3c7" stroke="#ca8a04" stroke-width="5" />
+        </svg>
+      `,
+      badge: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <circle cx="157" cy="128" r="78" fill="#fef3c7" stroke="#f59e0b" stroke-width="7" />
+          <path d="M157 72 L174 111 L216 116 L184 143 L193 185 L157 163 L121 185 L130 143 L98 116 L140 111 Z" fill="#facc15" stroke="#ca8a04" stroke-width="5" />
+          <rect x="490" y="69" width="178" height="112" rx="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="5" />
+          <text x="579" y="122" text-anchor="middle" fill="#4c1d95" font-size="24" font-weight="900">READER</text>
+        </svg>
+      `,
+      mascot: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="74" y="52" width="210" height="146" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="5" />
+          <text x="179" y="93" text-anchor="middle" fill="#1e40af" font-size="22" font-weight="900">VOTE</text>
+          <path d="M113 129 H242 M113 160 H221" stroke="#2563eb" stroke-width="7" stroke-linecap="round" opacity="0.58" />
+          <rect x="535" y="84" width="96" height="96" rx="48" fill="#fed7aa" stroke="#c2410c" stroke-width="5" />
+          <path d="M559 139 Q584 164 609 139" fill="none" stroke="#7c2d12" stroke-width="6" stroke-linecap="round" />
+        </svg>
+      `,
+      bell: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M116 100 C116 62 148 38 180 38 C212 38 244 62 244 100 V150 L268 184 H92 L116 150 Z" fill="#facc15" stroke="#ca8a04" stroke-width="6" />
+          <circle cx="180" cy="193" r="16" fill="#ca8a04" />
+          <path d="M90 67 C61 43 54 111 82 95 M270 67 C299 43 306 111 278 95" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" />
+          <rect x="494" y="61" width="178" height="125" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="5" />
+          <text x="583" y="124" text-anchor="middle" fill="#334155" font-size="24" font-weight="900">RING?</text>
+        </svg>
+      `,
+      office: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="64" y="46" width="148" height="166" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-width="5" />
+          <path d="M212 50 L279 35 V205 L212 212 Z" fill="#fed7aa" stroke="#c2410c" stroke-width="5" />
+          <circle cx="255" cy="124" r="7" fill="#92400e" />
+          <rect x="511" y="68" width="160" height="88" rx="12" fill="#fef3c7" stroke="#92400e" stroke-width="5" />
+          <text x="591" y="121" text-anchor="middle" fill="#92400e" font-size="21" font-weight="900">FRONT OFFICE</text>
+        </svg>
+      `,
+      branch: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M147 225 V73" stroke="#854d0e" stroke-width="22" stroke-linecap="round" />
+          <circle cx="111" cy="75" r="48" fill="#22c55e" opacity="0.68" />
+          <circle cx="174" cy="61" r="54" fill="#16a34a" opacity="0.68" />
+          <circle cx="209" cy="106" r="44" fill="#22c55e" opacity="0.68" />
+          <path d="M448 76 C513 88 559 118 613 151" stroke="#854d0e" stroke-width="16" stroke-linecap="round" />
+          <path d="M545 119 L585 96 M562 132 L616 128" stroke="#854d0e" stroke-width="9" stroke-linecap="round" />
+          <path d="M447 102 L429 134 M505 132 L486 164" stroke="#ef4444" stroke-width="6" stroke-linecap="round" opacity="0.72" />
+        </svg>
+      `,
+      museum: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M76 88 L188 38 L300 88 Z" fill="#e2e8f0" stroke="#64748b" stroke-width="5" />
+          <rect x="93" y="88" width="194" height="108" fill="#f8fafc" stroke="#64748b" stroke-width="5" />
+          <path d="M124 97 V190 M172 97 V190 M220 97 V190 M268 97 V190" stroke="#94a3b8" stroke-width="10" />
+          <rect x="516" y="73" width="136" height="91" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="5" />
+          <text x="584" y="125" text-anchor="middle" fill="#166534" font-size="22" font-weight="900">OPEN 12</text>
+        </svg>
+      `,
+      postcard: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="62" y="52" width="252" height="152" rx="12" fill="#fffbeb" stroke="#ca8a04" stroke-width="5" />
+          <path d="M83 166 C121 111 150 145 182 105 C214 63 256 103 293 65 V204 H83 Z" fill="#f97316" opacity="0.32" />
+          <path d="M84 173 C126 136 157 156 194 118 C227 84 253 108 294 80" fill="none" stroke="#c2410c" stroke-width="6" stroke-linecap="round" />
+          <rect x="530" y="70" width="102" height="72" fill="#dbeafe" stroke="#2563eb" stroke-width="5" />
+          <path d="M546 125 L619 85" stroke="#2563eb" stroke-width="5" />
+        </svg>
+      `,
+      street: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M0 182 H760 V260 H0 Z" fill="#94a3b8" opacity="0.62" />
+          <path d="M82 202 H180 M240 202 H338 M398 202 H496 M556 202 H654" stroke="#ffffff" stroke-width="11" stroke-linecap="round" opacity="0.88" />
+          <rect x="484" y="98" width="154" height="62" rx="18" fill="#ef4444" stroke="#991b1b" stroke-width="5" />
+          <path d="M519 98 L543 68 H591 L617 98 Z" fill="#fecaca" stroke="#991b1b" stroke-width="5" />
+          <circle cx="519" cy="164" r="16" fill="#111827" />
+          <circle cx="608" cy="164" r="16" fill="#111827" />
+        </svg>
+      `,
+      shop: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="62" y="58" width="202" height="130" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="5" />
+          <text x="163" y="101" text-anchor="middle" fill="#166534" font-size="22" font-weight="900">SCHOOL STORE</text>
+          <text x="163" y="145" text-anchor="middle" fill="#166534" font-size="34" font-weight="900">50c</text>
+          <circle cx="546" cy="116" r="36" fill="#facc15" stroke="#ca8a04" stroke-width="5" />
+          <circle cx="606" cy="146" r="28" fill="#fde68a" stroke="#ca8a04" stroke-width="5" />
+        </svg>
+      `,
+      studio: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <rect x="58" y="50" width="128" height="160" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-width="5" />
+          <path d="M185 54 L258 35 V205 L185 210 Z" fill="#fed7aa" stroke="#c2410c" stroke-width="5" />
+          <circle cx="235" cy="124" r="7" fill="#92400e" />
+          <circle cx="583" cy="129" r="58" fill="#e2e8f0" stroke="#64748b" stroke-width="6" />
+          <path d="M583 129 L623 95" stroke="#16a34a" stroke-width="9" stroke-linecap="round" />
+          <path d="M527 130 H484 M639 130 H682 M584 73 V42 M584 187 V218" stroke="#94a3b8" stroke-width="7" stroke-linecap="round" />
+        </svg>
+      `,
+      lab: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M134 47 H202 M168 47 V113 L107 202 H229 L168 113" fill="#bae6fd" stroke="#0e7490" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M128 166 H208 L229 202 H107 Z" fill="#22c55e" opacity="0.66" />
+          <path d="M515 129 C545 101 585 106 608 134 C631 162 579 190 526 173 C491 161 488 147 515 129 Z" fill="#38bdf8" opacity="0.5" />
+          <text x="568" y="155" text-anchor="middle" fill="#075985" font-size="42" font-weight="900">!</text>
+        </svg>
+      `,
+      map: `
+        <svg viewBox="0 0 760 260" role="presentation">
+          <path d="M65 62 L190 37 L316 62 V199 L190 174 L65 199 Z" fill="#fef3c7" stroke="#92400e" stroke-width="5" />
+          <path d="M190 39 V174 M109 96 H278 M92 153 H247" stroke="#ca8a04" stroke-width="5" opacity="0.5" />
+          <rect x="133" y="104" width="38" height="34" fill="#2563eb" opacity="0.7" />
+          <rect x="236" y="81" width="44" height="36" fill="#16a34a" opacity="0.7" />
+          <path d="M536 163 V112 H609 V163 M523 113 L572 75 L622 113" fill="#fed7aa" stroke="#c2410c" stroke-width="5" stroke-linejoin="round" />
+          <rect x="557" y="131" width="30" height="32" fill="#92400e" />
+        </svg>
+      `
+    };
+    return pieces[setting] || pieces.classroom;
+  }
+
+  function shouldRenderVisualChoiceCards(question) {
+    if (!question || !Array.isArray(question.choices)) return false;
+    return question.choices.some(choice => {
+      const text = String(choice || '');
+      return text.length > 24 || /[.?!"]/.test(text);
+    });
+  }
+
+  function renderDialogueActor(entry, index) {
+    const resolved = getSceneCharacter(entry && entry.characterId, index);
+    const name = resolved ? resolved.character.name : 'Guide';
+    const art = resolved
+      ? window.GrammarQuestCharacters.renderCharacter(resolved.character, resolved.set, entry.emotion || 'curious')
+      : '';
+    return `
+      <div class="visual-actor visual-actor-${index + 1}">
+        <div class="visual-actor-art">${art}</div>
+        <div class="visual-speech-bubble">
+          <span>${escapeHtml(name)}</span>
+          <p>${escapeHtml(entry && entry.text ? entry.text : '')}</p>
+        </div>
+      </div>
+    `;
+  }
+
+  function getSceneCharacter(characterId, slot) {
+    const catalog = window.GrammarQuestCharacters;
+    if (!catalog) return null;
+    if (typeof catalog.getCharacterForSlot === 'function') {
+      return catalog.getCharacterForSlot(slot || 0, characterId);
+    }
+    if (typeof catalog.getCharacterById !== 'function') return null;
+    return catalog.getCharacterById(characterId);
   }
 
   function scrollQuizIntoView() {

@@ -29,6 +29,16 @@
             <path d="M20.6 14.8A8.4 8.4 0 0 1 9.2 3.4 8.4 8.4 0 1 0 20.6 14.8Z"></path>
           </svg>
         </button>
+        <button class="header-icon-link" id="badge-open" type="button" aria-label="Open badges and ranks" title="Badges">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"></path>
+            <path d="M6 4H4v3a3 3 0 0 0 3 3h1"></path>
+            <path d="M18 4h2v3a3 3 0 0 1-3 3h-1"></path>
+            <path d="M12 13v4"></path>
+            <path d="M8 20h8"></path>
+            <path d="M10 17h4"></path>
+          </svg>
+        </button>
         <a href="character-library.html" class="header-icon-link" aria-label="Open character library" title="Character Library">
           <svg aria-hidden="true" viewBox="0 0 24 24">
             <circle cx="9" cy="9" r="4"></circle>
@@ -54,11 +64,6 @@
 
   <main class="container">
     <section class="home-quest">
-      <div>
-        <div class="quest-kicker">99.9 Mastery Track</div>
-        <h1 class="page-title">English Language Mastery</h1>
-        <p class="page-subtitle">Build MAP, SOL, and national-standard readiness through adaptive practice, mastery evidence, and above-grade challenge work.</p>
-      </div>
       <div class="home-progress" id="home-progress" aria-label="Saved quest progress">
         <div class="quest-stat">
           <span class="quest-stat-value">0</span>
@@ -153,6 +158,27 @@
       </a>
     </div>
   </main>
+
+  <div class="badge-modal hidden" id="badge-modal" role="dialog" aria-modal="true" aria-labelledby="badge-title">
+    <div class="badge-dialog">
+      <button class="auth-close" type="button" id="badge-close" aria-label="Close badges">x</button>
+      <div class="quest-kicker">Rewards</div>
+      <h2 id="badge-title">Badges and Ranks</h2>
+      <div class="badge-summary" id="badge-summary"></div>
+      <div class="badge-section">
+        <h3>Badges</h3>
+        <div class="badge-catalog" id="badge-catalog"></div>
+      </div>
+      <div class="badge-section">
+        <h3>Streaks</h3>
+        <div class="badge-catalog" id="streak-catalog"></div>
+      </div>
+      <div class="badge-section">
+        <h3>Ranks</h3>
+        <div class="badge-catalog" id="rank-catalog"></div>
+      </div>
+    </div>
+  </div>
   <script src="assets/firebase-config.js"></script>
   <script src="assets/progress-store.js"></script>
   <script src="assets/auth-service.js"></script>
@@ -160,7 +186,59 @@
     (function () {
       const STORAGE_KEY = 'grammarQuestProgress';
       const progressEl = document.getElementById('home-progress');
+      const badgeButton = document.getElementById('badge-open');
+      const badgeModal = document.getElementById('badge-modal');
+      const badgeClose = document.getElementById('badge-close');
       if (!progressEl) return;
+
+      const badgeCatalog = [
+        {
+          name: 'First Quest',
+          kind: 'badge',
+          href: 'topics/vocabulary/index.html',
+          requirement: 'Complete any quiz.',
+          earned: progress => (progress.quizzesCompleted || 0) >= 1,
+          icon: 'flag'
+        },
+        {
+          name: '3-Day Trail',
+          kind: 'badge',
+          href: 'topics/vocabulary/index.html',
+          requirement: 'Practice on 3 days in a row.',
+          earned: progress => (progress.streakDays || 0) >= 3,
+          icon: 'flame'
+        },
+        {
+          name: 'Sharp-Eyed Editor',
+          kind: 'badge',
+          href: 'topics/grammar/index.html',
+          requirement: 'Score 90% or higher on a quiz.',
+          earned: progress => (progress.bestScore || 0) >= 90,
+          icon: 'eye'
+        },
+        {
+          name: 'Gem Keeper',
+          kind: 'badge',
+          href: 'topics/reading-comprehension/index.html',
+          requirement: 'Collect 100 star gems.',
+          earned: progress => (progress.totalGems || 0) >= 100,
+          icon: 'gem'
+        }
+      ];
+
+      const streakCatalog = [
+        { name: 'Trail Spark', requirement: 'Practice 1 day.', days: 1, href: 'topics/vocabulary/index.html', icon: 'spark' },
+        { name: 'Steady Flame', requirement: 'Practice 3 days in a row.', days: 3, href: 'topics/vocabulary/index.html', icon: 'flame' },
+        { name: 'Week Wanderer', requirement: 'Practice 7 days in a row.', days: 7, href: 'topics/punctuation/index.html', icon: 'map' },
+        { name: 'Focus Forge', requirement: 'Practice 14 days in a row.', days: 14, href: 'topics/reading-comprehension/index.html', icon: 'star' }
+      ];
+
+      const rankCatalog = [
+        { name: 'Trail Starter', gems: 0, href: 'topics/vocabulary/index.html', icon: 'boot' },
+        { name: 'Sentence Scout', gems: 50, href: 'topics/grammar/index.html', icon: 'compass' },
+        { name: 'Story Ranger', gems: 120, href: 'topics/reading-comprehension/index.html', icon: 'book' },
+        { name: 'Word Wizard', gems: 250, href: 'topics/vocabulary/index.html', icon: 'wand' }
+      ];
 
       function getRank(gems) {
         if (gems >= 250) return 'Word Wizard';
@@ -259,6 +337,67 @@
       `;
       }
 
+      function getBadgeSvg(icon, earned) {
+        const color = earned ? 'currentColor' : 'currentColor';
+        const pieces = {
+          flag: '<path d="M7 19V5"></path><path d="M7 5h9l-1.5 3L16 11H7"></path><circle cx="7" cy="19" r="1"></circle>',
+          flame: '<path d="M12 21c3 0 5-2 5-5 0-2.8-2-4.6-3.5-6.3-.8 2-2.1 3.1-3.7 4.1.1-2.5-.8-4.3-2.3-5.8C6.3 10 7 12 7 13.7 7 18 9 21 12 21Z"></path>',
+          eye: '<path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"></path><circle cx="12" cy="12" r="3"></circle>',
+          gem: '<path d="M6 3h12l4 6-10 12L2 9Z"></path><path d="M2 9h20"></path><path d="M8 3 6 9l6 12 6-12-2-6"></path>',
+          spark: '<path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8Z"></path>',
+          map: '<path d="M4 6 10 3l6 3 4-2v14l-4 2-6-3-6 3Z"></path><path d="M10 3v14"></path><path d="M16 6v14"></path>',
+          star: '<path d="m12 2 2.8 6 6.2.8-4.6 4.4 1.2 6.3L12 16.3 6.4 19.5l1.2-6.3L3 8.8 9.2 8Z"></path>',
+          boot: '<path d="M6 4h7v8l4 2 1 4H8c-2 0-3-1-3-3V4Z"></path><path d="M5 14h12"></path>',
+          compass: '<circle cx="12" cy="12" r="9"></circle><path d="m15 9-2 5-5 2 2-5Z"></path>',
+          book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21Z"></path><path d="M4 5.5V21"></path><path d="M8 7h8"></path>',
+          wand: '<path d="M15 4 20 9"></path><path d="M14 10 5 19"></path><path d="m13 5 6 6"></path><path d="M5 4v3"></path><path d="M3.5 5.5h3"></path>'
+        };
+        return `<svg class="badge-art" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${pieces[icon] || pieces.star}</svg>`;
+      }
+
+      function renderBadgeList(target, items, progress, getEarned) {
+        if (!target) return;
+        target.innerHTML = items.map(item => {
+          const earned = getEarned(item, progress);
+          return `
+            <a class="badge-item ${earned ? 'earned' : 'locked'}" href="${item.href}">
+              ${getBadgeSvg(item.icon, earned)}
+              <span>
+                <strong>${item.name}</strong>
+                <small>${item.requirement || `${item.gems} star gems`}</small>
+              </span>
+            </a>
+          `;
+        }).join('');
+      }
+
+      function renderBadges() {
+        const progress = loadProgress();
+        const earnedBadges = badgeCatalog.filter(item => item.earned(progress)).length;
+        const earnedStreaks = streakCatalog.filter(item => (progress.streakDays || 0) >= item.days).length;
+        const earnedRanks = rankCatalog.filter(item => (progress.totalGems || 0) >= item.gems).length;
+        const summary = document.getElementById('badge-summary');
+        if (summary) {
+          summary.innerHTML = `
+            <div><strong>${earnedBadges}/${badgeCatalog.length}</strong><span>badges</span></div>
+            <div><strong>${earnedStreaks}/${streakCatalog.length}</strong><span>streaks</span></div>
+            <div><strong>${earnedRanks}/${rankCatalog.length}</strong><span>ranks</span></div>
+          `;
+        }
+        renderBadgeList(document.getElementById('badge-catalog'), badgeCatalog, progress, (item, current) => item.earned(current));
+        renderBadgeList(document.getElementById('streak-catalog'), streakCatalog, progress, (item, current) => (current.streakDays || 0) >= item.days);
+        renderBadgeList(document.getElementById('rank-catalog'), rankCatalog, progress, (item, current) => (current.totalGems || 0) >= item.gems);
+      }
+
+      function openBadges() {
+        renderBadges();
+        if (badgeModal) badgeModal.classList.remove('hidden');
+      }
+
+      function closeBadges() {
+        if (badgeModal) badgeModal.classList.add('hidden');
+      }
+
       function renderMastery() {
         const progress = loadProgress();
         const mastery = normalizeMastery(progress.mastery);
@@ -310,9 +449,18 @@
 
       renderProgress();
       renderMastery();
+      renderBadges();
+      if (badgeButton) badgeButton.addEventListener('click', openBadges);
+      if (badgeClose) badgeClose.addEventListener('click', closeBadges);
+      if (badgeModal) {
+        badgeModal.addEventListener('click', event => {
+          if (event.target === badgeModal) closeBadges();
+        });
+      }
       window.addEventListener('grammarquest:progress-updated', () => {
         renderProgress();
         renderMastery();
+        renderBadges();
       });
     })();
   </script>

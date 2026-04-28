@@ -1,27 +1,24 @@
 /*
  * Firebase setup lives here so the app can be rolled back or disabled quickly.
  *
- * 1. Create a Firebase web app.
- * 2. Replace the placeholder firebaseConfig values below.
- * 3. Set enabled to true.
- *
  * This file is safe to serve publicly. Firebase web config identifies your
  * project, but Firestore Security Rules are what protect user data.
  */
 window.GQ_FIREBASE_CONFIG = {
-  enabled: false,
+  enabled: true,
   firebaseConfig: {
-    apiKey: "PASTE_API_KEY_HERE",
-    authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
-    projectId: "PASTE_PROJECT_ID",
-    storageBucket: "PASTE_PROJECT_ID.firebasestorage.app",
-    messagingSenderId: "PASTE_SENDER_ID",
-    appId: "PASTE_APP_ID"
+    apiKey: "AIzaSyBF6k1xBfv80UDnDT8vkHtL2v07UVtt670",
+    authDomain: "elementary-grammar-quest.firebaseapp.com",
+    projectId: "elementary-grammar-quest",
+    storageBucket: "elementary-grammar-quest.firebasestorage.app",
+    messagingSenderId: "98472448613",
+    appId: "1:98472448613:web:0f818332faa9c264e5ec8c",
+    measurementId: "G-4R8TLVEZJ7"
   },
   authProviders: {
     email: true,
     google: true,
-    apple: true
+    apple: false
   },
   firestore: {
     userCollection: "users",

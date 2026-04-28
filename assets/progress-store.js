@@ -26,6 +26,7 @@
     reports: {
       sessions: []
     },
+    activeQuiz: null,
     mastery: {
       domains: {},
       skills: {},
@@ -70,6 +71,7 @@
     normalized.lastPracticeDate = normalized.lastPracticeDate || "";
     normalized.badges = Array.isArray(normalized.badges) ? normalized.badges : [];
     normalized.reports = normalizeReports(normalized.reports);
+    normalized.activeQuiz = normalizeActiveQuiz(normalized.activeQuiz);
     normalized.mastery = normalizeMastery(normalized.mastery);
     return normalized;
   }
@@ -78,6 +80,20 @@
     const normalized = Object.assign(getDefaultReports(), reports || {});
     normalized.sessions = Array.isArray(normalized.sessions) ? normalized.sessions : [];
     return normalized;
+  }
+
+  function normalizeActiveQuiz(activeQuiz) {
+    if (!activeQuiz || activeQuiz.completed) return null;
+    const questions = Array.isArray(activeQuiz.questions) ? activeQuiz.questions : [];
+    if (!questions.length) return null;
+    return Object.assign({}, activeQuiz, {
+      questions,
+      attempts: Array.isArray(activeQuiz.attempts) ? activeQuiz.attempts : [],
+      currentIndex: Math.max(0, Number(activeQuiz.currentIndex) || 0),
+      score: Math.max(0, Number(activeQuiz.score) || 0),
+      hintsUsed: Math.max(0, Number(activeQuiz.hintsUsed) || 0),
+      lastSavedAt: activeQuiz.lastSavedAt || activeQuiz.startedAt || ""
+    });
   }
 
   function normalizeMastery(mastery) {
@@ -134,8 +150,17 @@
       lastPracticeDate: maxDateKey(local.lastPracticeDate, cloud.lastPracticeDate),
       badges: Array.from(badges),
       reports: mergeReports(local.reports, cloud.reports),
+      activeQuiz: chooseActiveQuiz(local.activeQuiz, cloud.activeQuiz),
       mastery: mergeMastery(local.mastery, cloud.mastery)
     });
+  }
+
+  function chooseActiveQuiz(localActive, cloudActive) {
+    const local = normalizeActiveQuiz(localActive);
+    const cloud = normalizeActiveQuiz(cloudActive);
+    if (!local) return cloud;
+    if (!cloud) return local;
+    return String(local.lastSavedAt || local.startedAt || "") > String(cloud.lastSavedAt || cloud.startedAt || "") ? local : cloud;
   }
 
   function mergeReports(localReports, cloudReports) {
@@ -454,6 +479,7 @@
     mergeProgress,
     normalizeMastery,
     normalizeReports,
+    normalizeActiveQuiz,
     setCloudAdapter,
     syncFromCloud,
     syncToCloud,

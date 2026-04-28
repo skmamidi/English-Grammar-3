@@ -710,6 +710,41 @@ body.auth-locked main {
   padding: 8px 10px;
 }
 
+.resume-quiz-card {
+  align-items: center;
+  background: var(--surface-subtle);
+  border: 1px solid var(--primary-border);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.resume-quiz-card div {
+  display: grid;
+  gap: 2px;
+}
+
+.resume-quiz-card span,
+.question-risk-row span {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.question-risk-list {
+  display: grid;
+  gap: 10px;
+}
+
+.question-risk-row {
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  gap: 4px;
+  padding-bottom: 10px;
+}
+
 .student-profile-chip {
   align-items: center;
   background: var(--surface-subtle);

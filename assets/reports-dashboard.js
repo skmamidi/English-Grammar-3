@@ -183,9 +183,16 @@
       });
     }).sort((a, b) => a.accuracy - b.accuracy || b.total - a.total);
 
+    const daily = buildDailyRows(sessions);
+    const topicStats = buildTopicRows(sessions);
+    const questionRisks = buildQuestionRisks(attempts);
+
     return Object.assign({}, student, {
       sessions,
       attempts,
+      daily,
+      topicStats,
+      questionRisks,
       accuracy,
       firstTry,
       totalQuestions: total,
@@ -326,6 +333,23 @@
         <b>${formatPercent(skill.accuracy)}</b>
       </div>
     `).join('');
+    const dailyRows = student.daily.slice(0, 7).map(day => `
+      <div class="skill-row">
+        <span>
+          <strong>${escapeHtml(formatDayLabel(day.date))}</strong>
+          <small>${day.questions} attempted · ${day.correct} correct · ${day.topicCount} topics</small>
+        </span>
+        <span class="skill-meter"><i style="width:${Math.round(day.accuracy * 100)}%"></i></span>
+        <b>${formatPercent(day.accuracy)}</b>
+      </div>
+    `).join('');
+
+    const riskRows = student.questionRisks.slice(0, 5).map(item => `
+      <div class="question-risk-row">
+        <strong>${escapeHtml(truncate(item.question, 90))}</strong>
+        <span>${item.misses}/${item.attempts} missed · ${escapeHtml(item.subtopicTitle || 'Mixed practice')} · last ${formatDate(item.lastMissedAt)}</span>
+      </div>
+    `).join('');
 
     target.innerHTML = `
       <div class="report-two-column">
@@ -342,6 +366,22 @@
             <span>${student.prioritySkill ? escapeHtml(student.prioritySkill.label) : 'Ready'}</span>
           </div>
           <div class="skill-list">${priorityRows || '<p class="empty-report">Skill evidence appears after quizzes.</p>'}</div>
+        </section>
+      </div>
+      <div class="report-two-column">
+        <section class="report-card">
+          <div class="report-panel-heading">
+            <h3>Daily Practice</h3>
+            <span>${student.daily.length} active days</span>
+          </div>
+          <div class="skill-list">${dailyRows || '<p class="empty-report">Daily stats appear after completed quizzes.</p>'}</div>
+        </section>
+        <section class="report-card">
+          <div class="report-panel-heading">
+            <h3>Questions to Revisit</h3>
+            <span>${student.questionRisks.length} repeated misses</span>
+          </div>
+          <div class="question-risk-list">${riskRows || '<p class="empty-report">No repeated misses yet.</p>'}</div>
         </section>
       </div>
     `;
@@ -484,7 +524,25 @@
       </div>
     `).join('');
 
+    const topicRows = student.topicStats.map(topic => `
+      <div class="skill-detail-row">
+        <div>
+          <strong>${escapeHtml(topic.label)}</strong>
+          <span>${topic.correct}/${topic.attempted} correct · ${topic.sessions} sessions</span>
+        </div>
+        <span class="skill-meter"><i style="width:${Math.round(topic.accuracy * 100)}%"></i></span>
+        <b>${formatPercent(topic.accuracy)}</b>
+      </div>
+    `).join('');
+
     target.innerHTML = `
+      <section class="report-card">
+        <div class="report-panel-heading">
+          <h3>Topic Coverage</h3>
+          <span>${student.topicStats.length} topics</span>
+        </div>
+        <div class="skill-detail-list">${topicRows || '<p class="empty-report">Topic evidence appears after completed quizzes.</p>'}</div>
+      </section>
       <section class="report-card">
         <div class="report-panel-heading">
           <h3>Skill Evidence</h3>
@@ -516,6 +574,67 @@
       .flatMap(session => (session.attempts || [])
         .filter(attempt => attempt.id === questionId)
         .map(attempt => Object.assign({ completedAt: session.completedAt }, attempt)));
+  }
+
+  function buildDailyRows(sessions) {
+    const daily = {};
+    sessions.forEach(session => {
+      const date = String(session.completedAt || '').slice(0, 10) || 'unknown';
+      if (!daily[date]) daily[date] = { date, sessions: 0, questions: 0, correct: 0, minutes: 0, topics: {} };
+      daily[date].sessions += 1;
+      daily[date].questions += Number(session.total) || 0;
+      daily[date].correct += Number(session.score) || 0;
+      daily[date].minutes += Math.round((Number(session.durationSeconds) || 0) / 60);
+      daily[date].topics[session.topic || 'English Language Arts'] = true;
+    });
+    return Object.keys(daily).map(date => Object.assign(daily[date], {
+      topicCount: Object.keys(daily[date].topics).length,
+      accuracy: daily[date].questions ? daily[date].correct / daily[date].questions : 0
+    })).sort((a, b) => b.date.localeCompare(a.date));
+  }
+
+  function buildTopicRows(sessions) {
+    const topics = {};
+    sessions.forEach(session => {
+      const key = session.topic || 'English Language Arts';
+      if (!topics[key]) topics[key] = { label: key, attempted: 0, correct: 0, sessions: 0 };
+      topics[key].attempted += Number(session.total) || 0;
+      topics[key].correct += Number(session.score) || 0;
+      topics[key].sessions += 1;
+    });
+    return Object.keys(topics).map(key => Object.assign(topics[key], {
+      accuracy: topics[key].attempted ? topics[key].correct / topics[key].attempted : 0
+    })).sort((a, b) => a.label.localeCompare(b.label));
+  }
+
+  function buildQuestionRisks(attempts) {
+    const questions = {};
+    attempts.forEach(attempt => {
+      const key = attempt.id || attempt.question;
+      if (!key) return;
+      if (!questions[key]) {
+        questions[key] = {
+          id: key,
+          question: attempt.question || '',
+          subtopicTitle: attempt.subtopicTitle || '',
+          correctChoice: attempt.correctChoice || '',
+          attempts: 0,
+          misses: 0,
+          lastMissedAt: ''
+        };
+      }
+      questions[key].attempts += 1;
+      if (!attempt.correct) {
+        questions[key].misses += 1;
+        questions[key].lastMissedAt = attempt.session?.completedAt || attempt.completedAt || '';
+      }
+    });
+    return Object.keys(questions)
+      .map(key => Object.assign(questions[key], {
+        missRate: questions[key].attempts ? questions[key].misses / questions[key].attempts : 0
+      }))
+      .filter(item => item.misses > 0)
+      .sort((a, b) => b.misses - a.misses || b.missRate - a.missRate);
   }
 
   function syncTabs() {
@@ -636,6 +755,13 @@
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return 'No date';
     return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
+
+  function formatDayLabel(value) {
+    if (!value || value === 'unknown') return 'Unknown day';
+    const date = new Date(`${value}T12:00:00`);
+    if (Number.isNaN(date.getTime())) return value;
+    return date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
   }
 
   function formatMinutes(seconds) {

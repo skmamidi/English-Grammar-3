@@ -161,6 +161,17 @@
       `;
     const mixedSubtopicSelector = mixedQuizConfig ? renderMixedSubtopicSelector() : '';
     const characterSetControls = renderCharacterSetControls();
+    const resumableQuiz = getResumableQuiz();
+    const resumeCard = resumableQuiz ? `
+        <div class="resume-quiz-card">
+          <div>
+            <strong>Resume unfinished quiz</strong>
+            <span>${escapeHtml(resumableQuiz.title || set.title)} · ${getResumePositionLabel(resumableQuiz)}</span>
+          </div>
+          <button class="btn btn-secondary" id="resume-quiz-btn" type="button">Resume</button>
+          <button class="btn btn-secondary" id="discard-resume-btn" type="button">Discard</button>
+        </div>
+      ` : '';
 
     quizContainer.innerHTML = `
       <div class="start-screen">
@@ -184,6 +195,7 @@
             <span class="quest-stat-label">rank</span>
           </div>
         </div>
+        ${resumeCard}
         <p class="quest-brief">Today's trail: ${escapeHtml(topicName)}. A score of 75% or higher earns a bonus reward.</p>
         <button class="btn btn-primary" id="start-btn">Start Quiz</button>
       </div>
@@ -209,6 +221,18 @@
     if (mixedQuizConfig) attachMixedSelectorHandlers();
     attachCharacterSetHandlers();
 
+    const resumeButton = document.getElementById('resume-quiz-btn');
+    if (resumeButton) {
+      resumeButton.addEventListener('click', () => resumeQuiz(resumableQuiz));
+    }
+    const discardButton = document.getElementById('discard-resume-btn');
+    if (discardButton) {
+      discardButton.addEventListener('click', () => {
+        clearActiveQuiz();
+        renderStartScreen(set);
+      });
+    }
+
     document.getElementById('start-btn').addEventListener('click', () => {
       currentQuestions = selectCurrentQuestions();
       currentIndex = 0;
@@ -220,9 +244,30 @@
       confidenceStats = [];
       attemptRecords = [];
       sessionStartedAt = Date.now();
+      saveActiveQuiz();
       startAssessmentGuard('quiz');
       renderQuestion();
     });
+  }
+
+  function resumeQuiz(savedQuiz) {
+    if (!savedQuiz || !Array.isArray(savedQuiz.questions) || !savedQuiz.questions.length) return;
+    currentQuestions = savedQuiz.questions;
+    currentIndex = Math.min(Math.max(0, Number(savedQuiz.currentIndex) || 0), currentQuestions.length);
+    score = Number(savedQuiz.score) || 0;
+    combo = Number(savedQuiz.combo) || 0;
+    missedQuestions = Array.isArray(savedQuiz.missedQuestions) ? savedQuiz.missedQuestions : [];
+    reviewMode = !!savedQuiz.reviewMode;
+    hintsUsed = Number(savedQuiz.hintsUsed) || 0;
+    confidenceStats = Array.isArray(savedQuiz.confidenceStats) ? savedQuiz.confidenceStats : [];
+    attemptRecords = Array.isArray(savedQuiz.attempts) ? savedQuiz.attempts : [];
+    sessionStartedAt = savedQuiz.startedAt ? Date.parse(savedQuiz.startedAt) || Date.now() : Date.now();
+    startAssessmentGuard('quiz');
+    if (currentIndex >= currentQuestions.length) {
+      renderResults();
+      return;
+    }
+    renderQuestion();
   }
 
   function renderQuestion() {
@@ -331,6 +376,7 @@
       grade: selectedGrade,
       difficulty: selectedDifficulty
     });
+    saveActiveQuiz({ nextIndex: Math.min(currentIndex + 1, currentQuestions.length - 1) });
     if (!isCorrect && !reviewMode && !missedQuestions.includes(q)) {
       missedQuestions.push(q);
     }
@@ -408,6 +454,7 @@
         renderResults();
       } else {
         currentIndex++;
+        saveActiveQuiz();
         renderQuestion();
       }
     });
@@ -1502,13 +1549,10 @@
       startedAt: sessionStartedAt ? new Date(sessionStartedAt).toISOString() : '',
       durationSeconds: sessionStartedAt ? Math.max(1, Math.round((Date.now() - sessionStartedAt) / 1000)) : 0
     });
+    progress.activeQuiz = null;
     progress.badges = updateBadges(progress);
 
-    if (progressStore) {
-      progressStore.saveLocalProgress(progress);
-    } else {
-      localStorage.setItem('grammarQuestProgress', JSON.stringify(progress));
-    }
+    saveProgress(progress);
 
     let message = 'Every answer moves your story forward.';
     if (streakBonus) {
@@ -1544,9 +1588,124 @@
       attempts: attempts.map((attempt, index) => serializeAttempt(attempt, index + 1, completedAt))
     };
 
+    return enrichReports({
+      sessions: [session].concat(reports.sessions || []).slice(0, 250)
+    });
+  }
+
+  function enrichReports(reports) {
+    const sessions = Array.isArray(reports.sessions) ? reports.sessions : [];
+    const daily = {};
+    const questions = {};
+    const topics = {};
+
+    sessions.forEach(session => {
+      const day = String(session.completedAt || '').slice(0, 10) || 'unknown';
+      if (!daily[day]) daily[day] = { date: day, sessions: 0, questions: 0, correct: 0, minutes: 0, topics: {} };
+      daily[day].sessions += 1;
+      daily[day].questions += Number(session.total) || 0;
+      daily[day].correct += Number(session.score) || 0;
+      daily[day].minutes += Math.round((Number(session.durationSeconds) || 0) / 60);
+      daily[day].topics[session.topic || 'English Language Arts'] = true;
+
+      const topicKey = session.topic || 'English Language Arts';
+      if (!topics[topicKey]) topics[topicKey] = { label: topicKey, attempted: 0, correct: 0, sessions: 0 };
+      topics[topicKey].attempted += Number(session.total) || 0;
+      topics[topicKey].correct += Number(session.score) || 0;
+      topics[topicKey].sessions += 1;
+
+      (session.attempts || []).forEach(attempt => {
+        const key = attempt.id || attempt.question;
+        if (!key) return;
+        if (!questions[key]) {
+          questions[key] = {
+            id: key,
+            question: attempt.question || '',
+            correctChoice: attempt.correctChoice || '',
+            subtopicTitle: attempt.subtopicTitle || '',
+            attempts: 0,
+            misses: 0,
+            lastMissedAt: ''
+          };
+        }
+        questions[key].attempts += 1;
+        if (!attempt.correct) {
+          questions[key].misses += 1;
+          questions[key].lastMissedAt = session.completedAt || '';
+        }
+      });
+    });
+
     return {
-      sessions: [session].concat(reports.sessions || []).slice(0, 100)
+      sessions,
+      daily: Object.keys(daily).map(key => Object.assign(daily[key], {
+        topicCount: Object.keys(daily[key].topics).length,
+        accuracy: daily[key].questions ? daily[key].correct / daily[key].questions : 0
+      })).sort((a, b) => b.date.localeCompare(a.date)),
+      topics: Object.keys(topics).map(key => Object.assign(topics[key], {
+        accuracy: topics[key].attempted ? topics[key].correct / topics[key].attempted : 0
+      })).sort((a, b) => a.label.localeCompare(b.label)),
+      questions: Object.keys(questions).map(key => Object.assign(questions[key], {
+        missRate: questions[key].attempts ? questions[key].misses / questions[key].attempts : 0
+      })).sort((a, b) => b.misses - a.misses || b.missRate - a.missRate)
     };
+  }
+
+  function getResumableQuiz() {
+    const progress = loadProgress();
+    const activeQuiz = progressStore && typeof progressStore.normalizeActiveQuiz === 'function'
+      ? progressStore.normalizeActiveQuiz(progress.activeQuiz)
+      : progress.activeQuiz;
+    if (!activeQuiz || !activeSet) return null;
+    const sameQuiz = activeQuiz.setId === (window.QUIZ_SET_ID || '')
+      || (mixedQuizConfig && activeQuiz.mixedTitle === mixedQuizConfig.title);
+    return sameQuiz ? activeQuiz : null;
+  }
+
+  function saveActiveQuiz(options) {
+    const progress = loadProgress();
+    const nextIndex = options && Number.isFinite(options.nextIndex) ? options.nextIndex : currentIndex;
+    progress.activeQuiz = {
+      setId: window.QUIZ_SET_ID || '',
+      mixedTitle: mixedQuizConfig ? mixedQuizConfig.title : '',
+      title: activeSet && activeSet.title || 'Practice Quiz',
+      topic: activeSet && activeSet.topic || 'English Language Arts',
+      grade: selectedGrade,
+      difficulty: selectedDifficulty,
+      questions: currentQuestions,
+      currentIndex: Math.min(Math.max(0, nextIndex), currentQuestions.length),
+      score,
+      combo,
+      reviewMode,
+      hintsUsed,
+      confidenceStats,
+      attempts: attemptRecords,
+      missedQuestions,
+      startedAt: sessionStartedAt ? new Date(sessionStartedAt).toISOString() : new Date().toISOString(),
+      lastSavedAt: new Date().toISOString()
+    };
+    saveProgress(progress, { sync: true });
+  }
+
+  function getResumePositionLabel(activeQuiz) {
+    const index = Number(activeQuiz.currentIndex) || 0;
+    const total = Array.isArray(activeQuiz.questions) ? activeQuiz.questions.length : 0;
+    if (index >= total) return 'ready for results';
+    return `Question ${index + 1} of ${total}`;
+  }
+
+  function clearActiveQuiz() {
+    const progress = loadProgress();
+    progress.activeQuiz = null;
+    saveProgress(progress, { sync: true });
+  }
+
+  function saveProgress(progress, options) {
+    if (progressStore) {
+      progressStore.saveLocalProgress(progress, options);
+    } else {
+      localStorage.setItem('grammarQuestProgress', JSON.stringify(progress));
+    }
   }
 
   function serializeAttempt(attempt, position, completedAt) {

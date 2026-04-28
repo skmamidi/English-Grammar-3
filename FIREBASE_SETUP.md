@@ -124,7 +124,8 @@ service cloud.firestore {
     }
 
     match /studentLoginNames/{loginName} {
-      allow read: if signedIn() && resource.data.ownerUid == request.auth.uid;
+      allow get: if signedIn();
+      allow list: if false;
       allow create: if isGrownup()
         && request.resource.data.ownerUid == request.auth.uid
         && request.resource.data.loginName == loginName;

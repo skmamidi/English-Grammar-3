@@ -70,6 +70,8 @@ async function initAuthUi() {
 }
 
 function injectAuthShell() {
+  document.body.classList.add("auth-pending");
+  tagReportLinks();
   document.querySelectorAll(".app-header .container").forEach(header => {
     if (header.querySelector("[data-auth-root]")) return;
     const root = document.createElement("div");
@@ -80,24 +82,25 @@ function injectAuthShell() {
 
   if (document.getElementById("auth-modal")) return;
 
-  const providers = firebaseSettings.authProviders || {};
-  const googleButton = providers.google === false ? "" : '<button class="btn btn-primary" type="button" data-auth-provider="google">Continue with Google</button>';
-  const appleButton = providers.apple === false ? "" : '<button class="btn btn-secondary" type="button" data-auth-provider="apple">Continue with Apple</button>';
-  const emailForm = providers.email === false ? "" : `
-      <form class="auth-form" data-auth-email-form>
-        <label>
-          <span>Grownup Email</span>
-          <input type="email" name="email" autocomplete="email" required>
-        </label>
-        <label>
-          <span>Password</span>
-          <input type="password" name="password" autocomplete="current-password" minlength="6" required>
-        </label>
-        <div class="auth-form-actions">
-          <button class="btn btn-primary" type="submit" data-auth-email-action="signin">Sign In</button>
-          <button class="btn btn-secondary" type="button" data-auth-email-action="signup">Create Grownup Account</button>
-        </div>
-      </form>`;
+  const gate = document.createElement("section");
+  gate.className = "auth-gate hidden";
+  gate.setAttribute("data-auth-gate", "");
+  gate.setAttribute("aria-live", "polite");
+  gate.innerHTML = `
+    <div class="auth-gate-card">
+      <div class="quest-kicker">English Language Mastery</div>
+      <h1 data-auth-gate-title>Grownup sign in</h1>
+      <p data-auth-gate-copy>Sign in to choose a student profile and start practice.</p>
+      <div data-auth-gate-signin>
+        ${renderSignInPanel()}
+      </div>
+      <div class="auth-gate-tools hidden" data-auth-gate-tools>
+        <div class="auth-tools" data-auth-gate-grownup-tools></div>
+      </div>
+      <p class="auth-message" data-auth-gate-message></p>
+    </div>
+  `;
+  document.body.prepend(gate);
 
   const modal = document.createElement("div");
   modal.id = "auth-modal";
@@ -106,34 +109,14 @@ function injectAuthShell() {
     <div class="auth-dialog" role="dialog" aria-modal="true" aria-labelledby="auth-title">
       <button class="auth-close" type="button" data-auth-close aria-label="Close sign in">x</button>
       <div class="quest-kicker">Managed Student Progress</div>
-      <h2 id="auth-title">Grownup sign in</h2>
-      <p class="auth-copy">Parents and teachers create student screen names. Students use those names inside the app without registering for Firebase.</p>
-      <div class="auth-actions">
-        ${googleButton}
-        ${appleButton}
+      <h2 id="auth-title" data-auth-title>Grownup sign in</h2>
+      <p class="auth-copy" data-auth-copy>Parents and teachers create student screen names. Students use those names inside the app without registering for Firebase.</p>
+      <div data-auth-signin-panel>
+        ${renderSignInPanel()}
       </div>
-      ${emailForm}
       <div class="auth-tools hidden" data-grownup-tools>
         <h3>Student Profiles</h3>
-        <form data-create-student-form>
-          <label>
-            <span>Student Name</span>
-            <input type="text" name="studentName" autocomplete="off" placeholder="Raaga" required>
-          </label>
-          <label>
-            <span>Fun Login Name</span>
-            <input type="text" name="loginName" autocomplete="off" data-student-login-name required>
-          </label>
-          <button class="btn btn-secondary" type="button" data-suggest-login-name>Suggest Name</button>
-          <button class="btn btn-primary" type="submit">Create Student</button>
-        </form>
-        <form data-select-student-form>
-          <label>
-            <span>Student Login Name</span>
-            <input type="text" name="loginName" autocomplete="off" placeholder="spark-reader-27" required>
-          </label>
-          <button class="btn btn-secondary" type="submit">Start Student Session</button>
-        </form>
+        ${renderStudentTools(true)}
         <div class="student-profile-list" data-student-profile-list></div>
       </div>
       <p class="auth-message" data-auth-message></p>
@@ -141,6 +124,60 @@ function injectAuthShell() {
   `;
   document.body.appendChild(modal);
   state.modal = modal;
+}
+
+function renderSignInPanel() {
+  const providers = firebaseSettings.authProviders || {};
+  const googleButton = providers.google === false ? "" : '<button class="btn btn-primary" type="button" data-auth-provider="google">Continue with Google</button>';
+  const appleButton = providers.apple === false ? "" : '<button class="btn btn-secondary" type="button" data-auth-provider="apple">Continue with Apple</button>';
+  const emailForm = providers.email === false ? "" : `
+    <form class="auth-form" data-auth-email-form>
+      <label>
+        <span>Grownup Email</span>
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" name="password" autocomplete="current-password" minlength="6" required>
+      </label>
+      <div class="auth-form-actions">
+        <button class="btn btn-primary" type="submit" data-auth-email-action="signin">Sign In</button>
+        <button class="btn btn-secondary" type="button" data-auth-email-action="signup">Create Grownup Account</button>
+      </div>
+    </form>`;
+
+  return `
+    <div class="auth-actions">
+      ${googleButton}
+      ${appleButton}
+    </div>
+    ${emailForm}
+  `;
+}
+
+function renderStudentTools(includeParentModeButton) {
+  return `
+    <form data-create-student-form>
+      <label>
+        <span>Student Name</span>
+        <input type="text" name="studentName" autocomplete="off" placeholder="Raaga" required>
+      </label>
+      <label>
+        <span>Fun Login Name</span>
+        <input type="text" name="loginName" autocomplete="off" data-student-login-name required>
+      </label>
+      <button class="btn btn-secondary" type="button" data-suggest-login-name>Suggest Name</button>
+      <button class="btn btn-primary" type="submit">Create Student</button>
+    </form>
+    <form data-select-student-form>
+      <label>
+        <span>Student Login Name</span>
+        <input type="text" name="loginName" autocomplete="off" placeholder="spark-reader-27" required>
+      </label>
+      <button class="btn btn-secondary" type="submit">Start Student Session</button>
+    </form>
+    ${includeParentModeButton ? '<button class="btn btn-secondary" type="button" data-clear-student-session>Return to parent mode</button>' : ''}
+  `;
 }
 
 function wireModalEvents() {
@@ -152,14 +189,16 @@ function wireModalEvents() {
     const signupButton = event.target.closest("[data-auth-email-action='signup']");
     const suggestButton = event.target.closest("[data-suggest-login-name]");
     const studentButton = event.target.closest("[data-student-id]");
+    const clearStudentButton = event.target.closest("[data-clear-student-session]");
 
     if (openButton) openModal();
     if (closeButton || event.target.id === "auth-modal") closeModal();
     if (signOutButton) await signOut();
     if (providerButton) await signInWithProvider(providerButton.dataset.authProvider);
     if (signupButton) await signInWithEmail(event, "signup");
-    if (suggestButton) suggestLoginName();
+    if (suggestButton) suggestLoginName(suggestButton);
     if (studentButton) await handleSelectStudentById(studentButton.dataset.studentId);
+    if (clearStudentButton) await clearActiveStudent();
   });
 
   document.addEventListener("submit", async event => {
@@ -170,7 +209,7 @@ function wireModalEvents() {
     if (event.target.matches("[data-create-student-form]")) {
       event.preventDefault();
       const formData = new FormData(event.target);
-      await handleCreateStudent(formData);
+      await handleCreateStudent(formData, event.target);
       return;
     }
     if (event.target.matches("[data-select-student-form]")) {
@@ -254,7 +293,7 @@ async function signInWithEmail(event, mode) {
   event.preventDefault();
   if (!state.enabled || !state.firebase) return showMessage("Add Firebase config first, then set enabled to true.");
 
-  const form = document.querySelector("[data-auth-email-form]");
+  const form = event.target.closest("[data-auth-email-form]");
   const formData = new FormData(form);
   const email = String(formData.get("email") || "").trim();
   const password = String(formData.get("password") || "");
@@ -400,7 +439,7 @@ async function refreshActiveStudentAdapter() {
   await progressStore.syncFromCloud();
 }
 
-async function handleCreateStudent(formData) {
+async function handleCreateStudent(formData, form) {
   try {
     showMessage("Creating student profile...");
     const student = await createManagedStudent({
@@ -408,10 +447,26 @@ async function handleCreateStudent(formData) {
       loginName: formData.get("loginName")
     });
     showMessage(`${student.name} is ready. Student login name: ${student.loginName}`);
+    const createForm = form || document.querySelector("[data-create-student-form]");
+    if (createForm) createForm.reset();
     await renderStudentProfiles();
   } catch (error) {
     showMessage(error.message);
   }
+}
+
+async function clearActiveStudent() {
+  state.activeStudent = null;
+  try {
+    localStorage.removeItem("grammarQuestActiveStudentId");
+    localStorage.removeItem("grammarQuestActiveStudentName");
+    localStorage.removeItem("grammarQuestActiveStudentLogin");
+  } catch (error) {
+    // Optional local state.
+  }
+  await refreshActiveStudentAdapter();
+  notifyAuthState();
+  renderAuthUi("Parent mode is active. Reports are available.");
 }
 
 async function handleSelectStudentByLogin(loginName) {
@@ -460,6 +515,13 @@ function loginCollection() {
 }
 
 function renderAuthUi(message) {
+  const signedIn = state.enabled && state.user;
+  const studentMode = signedIn && !!state.activeStudent?.id;
+  const parentMode = signedIn && !studentMode;
+
+  renderAuthGate({ signedIn, studentMode, parentMode });
+  renderReportAccess({ parentMode, studentMode });
+
   document.querySelectorAll("[data-auth-root]").forEach(root => {
     if (!state.enabled) {
       root.innerHTML = `
@@ -472,13 +534,13 @@ function renderAuthUi(message) {
     }
 
     if (state.user) {
-      const studentLabel = state.activeStudent?.name ? `Student: ${state.activeStudent.name}` : "Choose student";
+      const studentLabel = state.activeStudent?.name ? `Student: ${state.activeStudent.name}` : "Parent mode";
       root.innerHTML = `
         <div class="auth-signed-in">
           <button class="auth-pill" type="button" data-auth-open>
             <span class="auth-dot auth-dot-online"></span>
             ${escapeHtml(studentLabel)}
-            <span class="auth-role-label">Grownup</span>
+            <span class="auth-role-label">${studentMode ? "Student" : "Grownup"}</span>
           </button>
           <button class="auth-link-button" type="button" data-auth-signout>Sign out</button>
         </div>
@@ -498,27 +560,115 @@ function renderAuthUi(message) {
   if (message) showMessage(message);
 }
 
+function renderAuthGate({ signedIn, studentMode, parentMode }) {
+  const gate = document.querySelector("[data-auth-gate]");
+  const title = document.querySelector("[data-auth-gate-title]");
+  const copy = document.querySelector("[data-auth-gate-copy]");
+  const signInPanel = document.querySelector("[data-auth-gate-signin]");
+  const toolsWrap = document.querySelector("[data-auth-gate-tools]");
+  const tools = document.querySelector("[data-auth-gate-grownup-tools]");
+  const reportsPage = isReportsPage();
+  const shouldLock = state.enabled && (!signedIn || (reportsPage && studentMode) || (!studentMode && !reportsPage));
+
+  document.body.classList.toggle("auth-pending", false);
+  document.body.classList.toggle("auth-locked", shouldLock);
+  if (gate) gate.classList.toggle("hidden", !shouldLock);
+  if (!gate) return;
+
+  if (!signedIn) {
+    if (title) title.textContent = "Grownup sign in";
+    if (copy) copy.textContent = "Sign in to choose a student profile and start practice.";
+    if (signInPanel) signInPanel.classList.remove("hidden");
+    if (toolsWrap) toolsWrap.classList.add("hidden");
+    return;
+  }
+
+  if (studentMode && reportsPage) {
+    if (title) title.textContent = "Reports are protected";
+    if (copy) copy.textContent = "Reports are only available in parent mode.";
+    if (signInPanel) signInPanel.classList.add("hidden");
+    if (toolsWrap) toolsWrap.classList.remove("hidden");
+    if (tools) {
+      tools.innerHTML = '<button class="btn btn-primary" type="button" data-clear-student-session>Return to parent mode</button>';
+    }
+    return;
+  }
+
+  if (parentMode) {
+    if (title) title.textContent = "Choose a student";
+    if (copy) copy.textContent = "Create or choose a student profile before practice starts.";
+    if (signInPanel) signInPanel.classList.add("hidden");
+    if (toolsWrap) toolsWrap.classList.remove("hidden");
+    if (tools) {
+      tools.innerHTML = `
+        <h2>Student profiles</h2>
+        ${renderStudentTools(false)}
+        <div class="student-profile-list" data-student-profile-list></div>
+      `;
+    }
+    renderStudentProfiles();
+  }
+}
+
+function renderReportAccess({ parentMode, studentMode }) {
+  tagReportLinks();
+  document.querySelectorAll("[data-parent-report-link]").forEach(link => {
+    link.classList.toggle("hidden", state.enabled && !parentMode);
+    link.setAttribute("aria-hidden", state.enabled && !parentMode ? "true" : "false");
+  });
+
+  if (!isReportsPage() || !state.enabled) return;
+}
+
+function tagReportLinks() {
+  document.querySelectorAll('a[href$="reports.html"]').forEach(link => {
+    link.setAttribute("data-parent-report-link", "");
+  });
+}
+
+function isReportsPage() {
+  return /(^|\/)reports\.html$/.test(window.location.pathname);
+}
+
 async function renderGrownupTools() {
+  const signInPanel = document.querySelector("[data-auth-signin-panel]");
+  const title = document.querySelector("[data-auth-title]");
+  const copy = document.querySelector("[data-auth-copy]");
+  const signedIn = state.enabled && state.user;
+
+  if (signInPanel) signInPanel.classList.toggle("hidden", signedIn);
+  if (title) title.textContent = signedIn ? "Student profiles" : "Grownup sign in";
+  if (copy) {
+    copy.textContent = signedIn
+      ? "Add another student profile or choose an existing one for this grownup account."
+      : "Parents and teachers create student screen names. Students use those names inside the app without registering for Firebase.";
+  }
+
   const tools = document.querySelector("[data-grownup-tools]");
   if (!tools) return;
-  tools.classList.toggle("hidden", !(state.enabled && state.user));
-  if (state.enabled && state.user) await renderStudentProfiles();
+  tools.classList.toggle("hidden", !signedIn);
+  if (signedIn) await renderStudentProfiles();
 }
 
 async function renderStudentProfiles() {
-  const target = document.querySelector("[data-student-profile-list]");
-  if (!target || !state.user) return;
+  const targets = document.querySelectorAll("[data-student-profile-list]");
+  if (!targets.length || !state.user) return;
 
   try {
     const students = await loadManagedStudents();
-    target.innerHTML = students.map(student => `
+    const html = students.map(student => `
       <button class="student-profile-chip ${state.activeStudent?.id === student.id ? "active" : ""}" type="button" data-student-id="${escapeHtml(student.id)}">
         <strong>${escapeHtml(student.name)}</strong>
         <span>${escapeHtml(student.loginName)}</span>
       </button>
     `).join("") || '<p class="auth-copy">No student profiles yet.</p>';
+    targets.forEach(target => {
+      target.innerHTML = html;
+    });
   } catch (error) {
-    target.innerHTML = `<p class="auth-copy">${escapeHtml(error.message)}</p>`;
+    targets.forEach(target => {
+      target.innerHTML = `<p class="auth-copy">${escapeHtml(error.message)}</p>`;
+    });
   }
 }
 
@@ -546,8 +696,9 @@ function closeModal() {
 }
 
 function showMessage(message) {
-  const messageEl = document.querySelector("[data-auth-message]");
-  if (messageEl) messageEl.textContent = message || "";
+  document.querySelectorAll("[data-auth-message], [data-auth-gate-message]").forEach(messageEl => {
+    messageEl.textContent = message || "";
+  });
 }
 
 function notifyAuthState() {
@@ -566,8 +717,9 @@ function getPublicState() {
   };
 }
 
-function suggestLoginName() {
-  const input = document.querySelector("[data-student-login-name]");
+function suggestLoginName(button) {
+  const scope = button?.closest("[data-grownup-tools], [data-auth-gate-grownup-tools]") || document;
+  const input = scope.querySelector("[data-student-login-name]");
   if (!input) return;
   input.value = makeFunLoginName();
 }

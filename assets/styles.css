@@ -466,6 +466,55 @@ html[data-theme="dark"] .theme-toggle-moon {
   z-index: 500;
 }
 
+.auth-gate {
+  align-items: center;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 34%),
+    var(--bg);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  position: fixed;
+  z-index: 450;
+}
+
+.auth-gate.hidden,
+.auth-gate-tools.hidden,
+.auth-gate [data-auth-gate-signin].hidden,
+[data-parent-report-link].hidden {
+  display: none;
+}
+
+.auth-gate-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  max-height: calc(100vh - 48px);
+  max-width: 520px;
+  overflow: auto;
+  padding: 28px;
+  width: min(100%, 520px);
+}
+
+.auth-gate-card h1 {
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.auth-gate-card > p {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+body.auth-locked .app-header,
+body.auth-locked main {
+  display: none;
+}
+
 .auth-modal.hidden {
   display: none;
 }
@@ -539,7 +588,8 @@ html[data-theme="dark"] .theme-toggle-moon {
 
 .auth-form input,
 .auth-form select,
-.auth-tools input {
+.auth-tools input,
+.auth-gate input {
   border: 1px solid var(--border);
   border-radius: 10px;
   color: var(--text);
@@ -549,7 +599,8 @@ html[data-theme="dark"] .theme-toggle-moon {
 
 .auth-form input:focus,
 .auth-form select:focus,
-.auth-tools input:focus {
+.auth-tools input:focus,
+.auth-gate input:focus {
   border-color: var(--primary);
   outline: 3px solid var(--focus-ring-color);
 }
@@ -570,6 +621,8 @@ html[data-theme="dark"] .theme-toggle-moon {
 }
 
 .auth-tools.hidden,
+.auth-dialog [data-auth-signin-panel].hidden,
+.auth-gate [data-auth-signin-panel].hidden,
 .auth-code.hidden {
   display: none;
 }
@@ -3923,6 +3976,7 @@ html[data-theme="dark"] .auth-link-button {
 html[data-theme="dark"] .auth-form input,
 html[data-theme="dark"] .auth-form select,
 html[data-theme="dark"] .auth-tools input,
+html[data-theme="dark"] .auth-gate input,
 html[data-theme="dark"] .spelling-form input,
 html[data-theme="dark"] .correction-row input,
 html[data-theme="dark"] .report-filter input,

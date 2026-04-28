@@ -468,9 +468,7 @@ html[data-theme="dark"] .theme-toggle-moon {
 
 .auth-gate {
   align-items: center;
-  background:
-    radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 34%),
-    var(--bg);
+  background: var(--bg);
   display: flex;
   inset: 0;
   justify-content: center;
@@ -491,19 +489,19 @@ html[data-theme="dark"] .theme-toggle-moon {
 .auth-gate-card {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 16px;
   box-shadow: var(--shadow-lg);
   max-height: calc(100vh - 48px);
-  max-width: 520px;
+  max-width: 420px;
   overflow: auto;
-  padding: 28px;
-  width: min(100%, 520px);
+  padding: 26px;
+  width: min(100%, 420px);
 }
 
 .auth-gate-card h1 {
-  font-size: clamp(2rem, 5vw, 3.1rem);
-  line-height: 1;
-  margin-bottom: 10px;
+  font-size: 1.9rem;
+  line-height: 1.1;
+  margin-bottom: 16px;
 }
 
 .auth-gate-card > p {
@@ -512,27 +510,46 @@ html[data-theme="dark"] .theme-toggle-moon {
 }
 
 .auth-entry-grid {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 22px;
+  margin-top: 18px;
 }
 
-.auth-entry-card {
+.auth-tabs {
+  background: var(--surface-subtle);
   border: 1px solid var(--border);
   border-radius: 12px;
   display: grid;
-  gap: 8px;
-  padding: 18px;
+  gap: 4px;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
 }
 
-.auth-entry-card h2 {
-  font-size: 1.25rem;
-}
-
-.auth-entry-card p {
+.auth-tab {
+  background: transparent;
+  border: 0;
+  border-radius: 9px;
   color: var(--text-muted);
-  font-size: 0.92rem;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+  padding: 10px 12px;
+}
+
+.auth-tab.active {
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+  color: var(--text);
+}
+
+.auth-entry-panel {
+  display: none;
+}
+
+.auth-entry-panel.active {
+  display: block;
+}
+
+.auth-entry-panel .auth-actions {
+  margin-top: 0;
 }
 
 body.auth-locked .app-header,
@@ -3806,7 +3823,6 @@ body.auth-locked main {
   .reports-board,
   .selected-student-card,
   .character-library-grid,
-  .auth-entry-grid,
   .parent-dashboard-grid,
   .question-grid {
     grid-template-columns: 1fr;

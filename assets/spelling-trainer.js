@@ -175,6 +175,9 @@
       root.innerHTML = '<div class="card"><p class="page-subtitle">Spelling words are coming soon.</p></div>';
       return;
     }
+    state.selectedGrade = getInitialGrade();
+    state.selectedCount = normalizeCountOption(loadSetting('grammarQuestSpellingCount', state.selectedCount));
+    state.selectedDifficulty = normalizeDifficultyOption(loadSetting('grammarQuestSpellingDifficulty', state.selectedDifficulty));
     reset();
     renderStart();
   }
@@ -226,17 +229,29 @@
 
   function renderStart() {
     const progress = loadProgress();
+    const parentMode = isParentMode();
     const rank = getRank(progress.totalGems);
     const availableCount = getAvailableWords().length;
     const plannedCount = state.selectedCount === "all"
       ? availableCount
       : Math.min(state.selectedCount, availableCount);
+    const resumableLab = parentMode ? null : getResumableSpellingLab();
+    const resumeCard = resumableLab ? `
+        <div class="resume-quiz-card">
+          <div>
+            <strong>Resume unfinished spelling lab</strong>
+            <span>${escapeHtml(resumableLab.title || bank.title)} · ${getResumePositionLabel(resumableLab)}</span>
+          </div>
+          <button class="btn btn-secondary" id="resume-spelling" type="button">Resume</button>
+          <button class="btn btn-secondary" id="discard-spelling-resume" type="button">Discard</button>
+        </div>
+      ` : '';
     root.innerHTML = `
       <div class="start-screen spelling-start">
-        <div class="quest-kicker">New Trail</div>
+        <div class="quest-kicker">${parentMode ? 'Parent Question Preview' : 'New Trail'}</div>
         <h2>${escapeHtml(bank.title)}</h2>
         <p>Listen to each word, use the clue, then spell it in the box. The lab will spot patterns in missed words and give you memory tricks after every answer.</p>
-        <div class="quest-dashboard" aria-label="Saved quest progress">
+        ${parentMode ? '<div class="parent-preview-note">Preview mode is separate from student practice. Answers here do not change reports, gems, streaks, or mastery.</div>' : `<div class="quest-dashboard" aria-label="Saved quest progress">
           <div class="quest-stat">
             <span class="quest-stat-value">${progress.streakDays}</span>
             <span class="quest-stat-label">day streak</span>
@@ -249,7 +264,7 @@
             <span class="quest-stat-value">${escapeHtml(rank.name)}</span>
             <span class="quest-stat-label">rank</span>
           </div>
-        </div>
+        </div>`}
         <div class="spelling-setup" aria-label="Spelling lab setup">
           <div class="spelling-setup-group">
             <div class="setup-label">Grade Level</div>
@@ -270,13 +285,15 @@
             </div>
           </div>
         </div>
+        ${resumeCard}
         <p class="quest-brief">Mission: ${plannedCount} ${escapeHtml(getDifficultyLabel(state.selectedDifficulty).toLowerCase())} ${escapeHtml(getGradeLabel(state.selectedGrade))} spelling word${plannedCount === 1 ? "" : "s"} with sound, symbol, and syllable power.</p>
-        <button class="btn btn-primary" id="start-spelling">Start Spelling Lab</button>
+        <button class="btn btn-primary" id="start-spelling">${parentMode ? 'Preview Spelling Lab' : 'Start Spelling Lab'}</button>
       </div>
     `;
     document.querySelectorAll('[data-grade-option]').forEach(button => {
       button.addEventListener('click', () => {
         state.selectedGrade = Number(button.dataset.gradeOption);
+        saveSetting('grammarQuestSpellingGrade', String(state.selectedGrade));
         renderStart();
       });
     });
@@ -284,6 +301,7 @@
       button.addEventListener('click', () => {
         const value = button.dataset.countOption;
         state.selectedCount = value === "all" ? "all" : Number(value);
+        saveSetting('grammarQuestSpellingCount', String(state.selectedCount));
         renderStart();
       });
     });
@@ -293,11 +311,24 @@
         if (state.selectedCount !== "all" && getAvailableWords().length < state.selectedCount) {
           state.selectedCount = "all";
         }
+        saveSetting('grammarQuestSpellingDifficulty', state.selectedDifficulty);
         renderStart();
       });
     });
+    const resumeButton = document.getElementById('resume-spelling');
+    if (resumeButton) {
+      resumeButton.addEventListener('click', () => resumeSpellingLab(resumableLab));
+    }
+    const discardButton = document.getElementById('discard-spelling-resume');
+    if (discardButton) {
+      discardButton.addEventListener('click', () => {
+        clearActiveSpellingLab();
+        renderStart();
+      });
+    }
     document.getElementById('start-spelling').addEventListener('click', () => {
       buildQuestionSet();
+      saveActiveSpellingLab();
       startAssessmentGuard();
       renderQuestion();
     });
@@ -357,10 +388,12 @@
   }
 
   function renderQuestion() {
-    state.answered = false;
-    state.hintLevel = 0;
-    state.questionStartedAt = Date.now();
     const word = state.words[state.index];
+    const completedResult = getCompletedResultForIndex(state.index);
+    const isCompletedView = !!completedResult;
+    state.answered = isCompletedView;
+    state.hintLevel = isCompletedView ? Number(completedResult.hintsUsed) || 0 : 0;
+    if (!isCompletedView) state.questionStartedAt = Date.now();
     const progress = loadProgress();
     root.innerHTML = `
       <div class="quiz-header">
@@ -390,10 +423,11 @@
         </div>
         <form id="spelling-form" class="spelling-form" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false">
           <label for="spelling-answer">Spell the word</label>
-          <input id="spelling-answer" name="spelling-${state.index + 1}-${Date.now()}" type="text" inputmode="text" autocomplete="new-password" autocorrect="off" autocapitalize="none" spellcheck="false" data-form-type="other" aria-describedby="spelling-help paste-guard-message">
+          <input id="spelling-answer" name="spelling-${state.index + 1}-${Date.now()}" type="text" inputmode="text" autocomplete="new-password" autocorrect="off" autocapitalize="none" spellcheck="false" data-form-type="other" aria-describedby="spelling-help paste-guard-message" value="${escapeHtml(completedResult ? completedResult.attempt : '')}" ${isCompletedView ? 'disabled' : ''}>
           <div id="spelling-help" class="spelling-help">${escapeHtml(word.syllables.split("-").length)} syllable beat${word.syllables.includes("-") ? "s" : ""}</div>
           <div id="paste-guard-message" class="spelling-help paste-guard-message" aria-live="polite"></div>
-          <button class="btn btn-primary" type="submit">Check Spelling</button>
+          ${isCompletedView ? '<div class="answered-lock-note">Answered and locked for this attempt.</div>' : ''}
+          <button class="btn btn-primary" type="submit" ${isCompletedView ? 'disabled' : ''}>Check Spelling</button>
         </form>
       </div>
 
@@ -405,13 +439,17 @@
     document.getElementById('speak-word-slow').addEventListener('click', speakCurrentWordSlowly);
     document.getElementById('speak-clue').addEventListener('click', () => speakText(`${word.clue}. ${word.sentence.replace("____", "blank")}`));
     document.getElementById('hint-button').addEventListener('click', () => showNextHint(word));
-    document.getElementById('spelling-form').addEventListener('submit', handleSubmit);
     const answerInput = document.getElementById('spelling-answer');
-    answerInput.addEventListener('paste', blockPastedAnswer);
-    answerInput.addEventListener('drop', blockPastedAnswer);
-    answerInput.addEventListener('contextmenu', blockPastedAnswer);
-    answerInput.addEventListener('beforeinput', blockInsertedAnswer);
-    answerInput.focus();
+    if (isCompletedView) {
+      renderFeedback(word, completedResult.attempt, getAnalysisFromResult(completedResult), { completedView: true });
+    } else {
+      document.getElementById('spelling-form').addEventListener('submit', handleSubmit);
+      answerInput.addEventListener('paste', blockPastedAnswer);
+      answerInput.addEventListener('drop', blockPastedAnswer);
+      answerInput.addEventListener('contextmenu', blockPastedAnswer);
+      answerInput.addEventListener('beforeinput', blockInsertedAnswer);
+      answerInput.focus();
+    }
   }
 
   function blockPastedAnswer(event) {
@@ -454,7 +492,7 @@
     if (analysis.correct) state.score += 1;
     state.combo = analysis.correct ? state.combo + 1 : 0;
     state.results.push({
-      id: getWordAttemptId(word, state.index + 1),
+      id: getWordAttemptId(word),
       word: word.word,
       attempt,
       correct: analysis.correct,
@@ -467,8 +505,11 @@
       clue: word.clue,
       sentence: word.sentence,
       syllables: word.syllables,
-      memory: word.memory
+      memory: word.memory,
+      repaired: analysis.correct,
+      metadata: getSpellingAttemptMetadata(word, state.index + 1, analysis)
     });
+    saveActiveSpellingLab({ currentIndex: state.index });
 
     const scoreEl = document.querySelector('.quiz-score');
     if (scoreEl) scoreEl.textContent = `Score: ${state.score} / ${state.index + 1}`;
@@ -476,9 +517,12 @@
     renderFeedback(word, attempt, analysis);
   }
 
-  function renderFeedback(word, attempt, analysis) {
+  function renderFeedback(word, attempt, analysis, options) {
     const feedbackArea = document.getElementById('feedback-area');
     const controls = document.getElementById('controls');
+    const completedView = !!(options && options.completedView);
+    const currentResult = getCompletedResultForIndex(state.index);
+    const repairComplete = analysis.correct || !!(currentResult && currentResult.repaired);
     const patternChips = analysis.patterns.map(key => {
       const info = patternInfo[key] || { label: key };
       return `<span>${escapeHtml(info.label)}</span>`;
@@ -493,7 +537,7 @@
       ? `<div class="spelling-analysis"><strong>Hint trail used:</strong> ${state.hintLevel} hint${state.hintLevel === 1 ? "" : "s"}. Try one less hint next time for extra automaticity.</div>`
       : '';
     const spellScan = renderSpellScan(word.word, attempt);
-    const correctionReplay = analysis.correct ? '' : renderCorrectionReplay(word);
+    const correctionReplay = repairComplete ? '' : renderCorrectionReplay(word);
 
     feedbackArea.innerHTML = `
       <div class="feedback-box">
@@ -522,16 +566,25 @@
     controls.innerHTML = `
       <button class="btn btn-secondary" id="hear-again" type="button">Hear Again</button>
       <button class="btn btn-secondary" id="hear-slow" type="button">Hear Slowly</button>
-      <button class="btn btn-primary" id="next-word" type="button" ${analysis.correct ? '' : 'disabled'}>${isLast ? 'See Pattern Report' : 'Next Word'}</button>
+      ${completedView && state.index > 0 ? '<button class="btn btn-secondary" id="previous-word" type="button">Previous Word</button>' : ''}
+      <button class="btn btn-primary" id="next-word" type="button" ${repairComplete ? '' : 'disabled'}>${isLast ? 'See Pattern Report' : 'Next Word'}</button>
     `;
     document.getElementById('hear-again').addEventListener('click', speakCurrentWord);
     document.getElementById('hear-slow').addEventListener('click', speakCurrentWordSlowly);
-    if (!analysis.correct) attachCorrectionReplay(word);
+    if (!analysis.correct && !repairComplete) attachCorrectionReplay(word);
+    const previousButton = document.getElementById('previous-word');
+    if (previousButton) {
+      previousButton.addEventListener('click', () => {
+        state.index = Math.max(0, state.index - 1);
+        renderQuestion();
+      });
+    }
     document.getElementById('next-word').addEventListener('click', () => {
       if (isLast) {
         renderResults();
       } else {
         state.index += 1;
+        saveActiveSpellingLab({ currentIndex: state.index });
         renderQuestion();
       }
     });
@@ -652,6 +705,12 @@
         nextButton.disabled = false;
         message.textContent = 'Locked in. Nice repair.';
         form.classList.add('locked');
+        const currentResult = getCompletedResultForIndex(state.index);
+        if (currentResult) {
+          currentResult.repaired = true;
+          currentResult.repairedAt = new Date().toISOString();
+          saveActiveSpellingLab({ currentIndex: state.index });
+        }
       } else {
         input.classList.add('needs-answer');
         message.textContent = 'Almost. Copy the target spelling exactly once.';
@@ -916,7 +975,10 @@
       quizzesCompleted: 0,
       bestScore: 0,
       lastPracticeDate: '',
-      badges: []
+      badges: [],
+      reports: { sessions: [] },
+      activeQuiz: null,
+      mastery: {}
     };
     try {
       return Object.assign(fallback, JSON.parse(localStorage.getItem('grammarQuestProgress')) || {});
@@ -925,8 +987,105 @@
     }
   }
 
+  function saveProgress(progress, options) {
+    if (isParentMode()) return;
+    if (progressStore) {
+      progressStore.saveLocalProgress(progress, options);
+    } else {
+      localStorage.setItem('grammarQuestProgress', JSON.stringify(progress));
+    }
+  }
+
+  function getResumableSpellingLab() {
+    const progress = loadProgress();
+    const activeQuiz = progressStore && typeof progressStore.normalizeActiveQuiz === 'function'
+      ? progressStore.normalizeActiveQuiz(progress.activeQuiz)
+      : progress.activeQuiz;
+    if (!activeQuiz || activeQuiz.type !== 'spelling-lab') return null;
+    return activeQuiz.setId === 'sound-symbols-spelling-lab' ? activeQuiz : null;
+  }
+
+  function resumeSpellingLab(savedLab) {
+    if (!savedLab || !Array.isArray(savedLab.questions) || !savedLab.questions.length) return;
+    state.words = savedLab.questions;
+    state.index = Math.min(Math.max(0, Number(savedLab.currentIndex) || 0), state.words.length - 1);
+    state.score = Number(savedLab.score) || 0;
+    state.combo = Number(savedLab.combo) || 0;
+    state.results = Array.isArray(savedLab.attempts) ? savedLab.attempts : [];
+    state.selectedGrade = Number(savedLab.grade) || state.selectedGrade;
+    state.selectedDifficulty = savedLab.difficulty || state.selectedDifficulty;
+    state.selectedCount = savedLab.selectedCount || state.words.length;
+    state.sessionStartedAt = savedLab.startedAt ? Date.parse(savedLab.startedAt) || Date.now() : Date.now();
+    state.questionStartedAt = savedLab.questionStartedAt ? Date.parse(savedLab.questionStartedAt) || Date.now() : Date.now();
+    startAssessmentGuard();
+    if (state.results.length >= state.words.length && state.results.every(result => result.correct || result.repaired)) {
+      renderResults();
+      return;
+    }
+    renderQuestion();
+  }
+
+  function saveActiveSpellingLab(options) {
+    if (isParentMode() || !state.words.length) return;
+    const progress = loadProgress();
+    const currentIndex = options && Number.isFinite(options.currentIndex) ? options.currentIndex : state.index;
+    progress.activeQuiz = {
+      type: 'spelling-lab',
+      setId: 'sound-symbols-spelling-lab',
+      title: bank && bank.title || 'Spelling Lab',
+      topic: bank && bank.topic || 'Sound/Symbol Correspondences',
+      grade: String(state.selectedGrade),
+      difficulty: state.selectedDifficulty,
+      selectedCount: state.selectedCount,
+      questions: state.words,
+      currentIndex: Math.min(Math.max(0, currentIndex), state.words.length),
+      score: state.score,
+      combo: state.combo,
+      hintsUsed: state.results.reduce((sum, result) => sum + (Number(result.hintsUsed) || 0), 0),
+      attempts: state.results,
+      startedAt: state.sessionStartedAt ? new Date(state.sessionStartedAt).toISOString() : new Date().toISOString(),
+      questionStartedAt: state.questionStartedAt ? new Date(state.questionStartedAt).toISOString() : '',
+      lastSavedAt: new Date().toISOString()
+    };
+    saveProgress(progress, { sync: true });
+  }
+
+  function clearActiveSpellingLab() {
+    if (isParentMode()) return;
+    const progress = loadProgress();
+    progress.activeQuiz = null;
+    saveProgress(progress, { sync: true });
+  }
+
+  function getResumePositionLabel(activeQuiz) {
+    const index = Number(activeQuiz.currentIndex) || 0;
+    const total = Array.isArray(activeQuiz.questions) ? activeQuiz.questions.length : 0;
+    if (index >= total) return 'ready for results';
+    return `Word ${index + 1} of ${total}`;
+  }
+
+  function getCompletedResultForIndex(index) {
+    if (index < 0 || index >= state.results.length) return null;
+    return state.results[index] || null;
+  }
+
+  function getAnalysisFromResult(result) {
+    return {
+      correct: !!(result && result.correct),
+      detected: Array.isArray(result && result.detected) ? result.detected : [],
+      patterns: Array.isArray(result && result.patterns) ? result.patterns : []
+    };
+  }
+
   function saveQuestResult(percentage, correct, total) {
     const progress = loadProgress();
+    if (isParentMode()) {
+      return {
+        gemsEarned: 0,
+        message: 'Preview complete. Student progress was not changed.',
+        progress
+      };
+    }
     const today = getDateKey(0);
     const yesterday = getDateKey(-1);
     let streakBonus = 0;
@@ -953,13 +1112,10 @@
       startedAt: state.sessionStartedAt ? new Date(state.sessionStartedAt).toISOString() : '',
       durationSeconds: state.sessionStartedAt ? Math.max(1, Math.round((Date.now() - state.sessionStartedAt) / 1000)) : 0
     });
+    progress.activeQuiz = null;
     progress.badges = updateBadges(progress, percentage);
 
-    if (progressStore) {
-      progressStore.saveLocalProgress(progress);
-    } else {
-      localStorage.setItem('grammarQuestProgress', JSON.stringify(progress));
-    }
+    saveProgress(progress);
 
     let message = "Every spelled word strengthens your reading and writing speed.";
     if (streakBonus) message = "Three-day streak bonus unlocked.";
@@ -978,7 +1134,8 @@
       studentId: getActiveStudentId(),
       studentName: getActiveStudentName(),
       title: bank && bank.title || 'Spelling Lab',
-      topic: 'Spelling Lab',
+      topic: bank && bank.topic || 'Sound/Symbol Correspondences',
+      topicId: 'sound-symbols',
       grade: String(state.selectedGrade),
       difficulty: state.selectedDifficulty,
       score: summary.correct,
@@ -1021,10 +1178,11 @@
       trapTypes: Array.isArray(result.detected) ? result.detected : [],
       grade: String(result.grade || state.selectedGrade),
       difficulty: result.difficulty || getQuestionLevel(result),
-      subtopicId: 'spelling-patterns',
-      subtopicTitle: 'Spelling Patterns',
-      skills: ['spelling'].concat(patternLabels),
+      subtopicId: 'sound-symbols-spelling-lab',
+      subtopicTitle: 'Sound/Symbol Spelling Lab',
+      skills: ['sound-symbol encoding', 'spelling'].concat(patternLabels),
       standards: [{ id: 'CCSS.L.3-6.2', label: 'Language: Spelling and Conventions' }],
+      metadata: result.metadata || getSpellingAttemptMetadata(result, position, { patterns, detected: result.detected || [] }),
       spelling: {
         word: result.word || '',
         attempt: result.attempt || '',
@@ -1032,7 +1190,9 @@
         patternLabels,
         detected: Array.isArray(result.detected) ? result.detected : [],
         syllables: result.syllables || '',
-        memory: result.memory || ''
+        memory: result.memory || '',
+        repaired: !!result.repaired,
+        repairedAt: result.repairedAt || ''
       },
       completedAt
     };
@@ -1042,8 +1202,8 @@
     const mastery = normalizeMastery(existingMastery);
     (results || []).forEach(result => {
       const isCorrect = !!result.correct;
-      recordMastery(mastery, 'domains', 'spelling-lab', 'Spelling Lab', isCorrect, today);
-      recordMastery(mastery, 'subtopics', 'spelling-patterns', 'Spelling Patterns', isCorrect, today);
+      recordMastery(mastery, 'domains', 'sound-symbol-correspondences', 'Sound/Symbol Correspondences', isCorrect, today);
+      recordMastery(mastery, 'subtopics', 'sound-symbols-spelling-lab', 'Sound/Symbol Spelling Lab', isCorrect, today);
       recordMastery(mastery, 'difficulty', result.difficulty || 'medium', titleCase(result.difficulty || 'Medium'), isCorrect, today);
       recordMastery(mastery, 'cognitiveDemand', 'sound-symbol-encoding', 'Sound Symbol Encoding', isCorrect, today);
       recordMastery(mastery, 'standards', 'CCSS.L.3-6.2', 'Language: Spelling and Conventions', isCorrect, today);
@@ -1089,8 +1249,28 @@
     return 'Needs focus';
   }
 
-  function getWordAttemptId(word, position) {
-    return `spelling-${slugify(word && word.word || 'word')}-${position}`;
+  function getWordAttemptId(word) {
+    return `spelling-${slugify(word && word.word || 'word')}`;
+  }
+
+  function getSpellingAttemptMetadata(word, sequence, analysis) {
+    const patterns = Array.isArray(analysis && analysis.patterns)
+      ? analysis.patterns
+      : Array.isArray(word && word.patterns)
+        ? word.patterns
+        : [];
+    const difficulty = word && word.difficulty
+      ? word.difficulty
+      : getQuestionLevel(word || {});
+    return {
+      sourceSet: 'sound-symbols-spelling-lab',
+      sequence,
+      skills: ['sound-symbol encoding', 'spelling'].concat(patterns.map(getPatternLabel)),
+      spellingPatterns: patterns,
+      cognitiveDemand: 'sound-symbol-encoding',
+      primaryDifficulty: difficulty,
+      gradeLevels: [String(state.selectedGrade)]
+    };
   }
 
   function getPatternLabel(pattern) {
@@ -1106,12 +1286,52 @@
     return loadSetting('grammarQuestActiveStudentName', 'Current Learner');
   }
 
+  function getInitialGrade() {
+    const savedGrade = loadSetting('grammarQuestSpellingGrade', '');
+    if (savedGrade) return normalizeGradeOption(savedGrade);
+    const auth = window.GrammarQuestAuth;
+    const authState = auth && typeof auth.getState === 'function' ? auth.getState() : {};
+    const defaultGrade = authState.studentMode && authState.activeStudent
+      ? authState.activeStudent.defaultGrade
+      : loadSetting('grammarQuestActiveStudentDefaultGrade', '');
+    return normalizeGradeOption(defaultGrade || 4);
+  }
+
+  function normalizeGradeOption(value) {
+    const grade = Number(value);
+    return [3, 4, 5, 6].includes(grade) ? grade : 4;
+  }
+
+  function normalizeCountOption(value) {
+    if (value === "all") return "all";
+    const count = Number(value);
+    return [15, 25, 50, 100].includes(count) ? count : 25;
+  }
+
+  function normalizeDifficultyOption(value) {
+    return ["all", "easy", "medium", "hard"].includes(value) ? value : "all";
+  }
+
   function loadSetting(key, fallback) {
     try {
       return localStorage.getItem(key) || fallback;
     } catch (error) {
       return fallback;
     }
+  }
+
+  function saveSetting(key, value) {
+    try {
+      localStorage.setItem(key, value);
+    } catch (error) {
+      // Storage can be unavailable in private browsing; the lab can still run.
+    }
+  }
+
+  function isParentMode() {
+    const auth = window.GrammarQuestAuth;
+    const authState = auth && typeof auth.getState === 'function' ? auth.getState() : {};
+    return !!authState.parentMode;
   }
 
   function updateBadges(progress, percentage) {

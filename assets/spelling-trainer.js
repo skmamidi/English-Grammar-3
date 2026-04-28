@@ -15,7 +15,9 @@
     hintLevel: 0,
     selectedCount: 25,
     selectedGrade: 4,
-    selectedDifficulty: "all"
+    selectedDifficulty: "all",
+    sessionStartedAt: 0,
+    questionStartedAt: 0
   };
 
   const patternInfo = {
@@ -185,6 +187,8 @@
     state.answered = false;
     state.hintLevel = 0;
     state.results = [];
+    state.sessionStartedAt = 0;
+    state.questionStartedAt = 0;
   }
 
   function buildQuestionSet() {
@@ -199,6 +203,8 @@
     state.answered = false;
     state.hintLevel = 0;
     state.results = [];
+    state.sessionStartedAt = Date.now();
+    state.questionStartedAt = 0;
   }
 
   function getAvailableWords() {
@@ -353,6 +359,7 @@
   function renderQuestion() {
     state.answered = false;
     state.hintLevel = 0;
+    state.questionStartedAt = Date.now();
     const word = state.words[state.index];
     const progress = loadProgress();
     root.innerHTML = `
@@ -443,15 +450,24 @@
 
     const word = state.words[state.index];
     const analysis = analyzeAttempt(word, attempt);
+    const durationSeconds = state.questionStartedAt ? Math.max(1, Math.round((Date.now() - state.questionStartedAt) / 1000)) : 0;
     if (analysis.correct) state.score += 1;
     state.combo = analysis.correct ? state.combo + 1 : 0;
     state.results.push({
+      id: getWordAttemptId(word, state.index + 1),
       word: word.word,
       attempt,
       correct: analysis.correct,
       patterns: analysis.patterns,
       detected: analysis.detected,
-      hintsUsed: state.hintLevel
+      hintsUsed: state.hintLevel,
+      durationSeconds,
+      grade: state.selectedGrade,
+      difficulty: getQuestionLevel(word),
+      clue: word.clue,
+      sentence: word.sentence,
+      syllables: word.syllables,
+      memory: word.memory
     });
 
     const scoreEl = document.querySelector('.quiz-score');
@@ -909,7 +925,7 @@
     }
   }
 
-  function saveQuestResult(percentage, correct) {
+  function saveQuestResult(percentage, correct, total) {
     const progress = loadProgress();
     const today = getDateKey(0);
     const yesterday = getDateKey(-1);
@@ -928,6 +944,15 @@
     progress.totalGems += gemsEarned;
     progress.quizzesCompleted += 1;
     progress.bestScore = Math.max(progress.bestScore || 0, percentage);
+    progress.mastery = updateSpellingMastery(progress.mastery, state.results, today);
+    progress.reports = updateSpellingReports(progress.reports, state.results, {
+      percentage,
+      correct,
+      total,
+      completedAt: new Date().toISOString(),
+      startedAt: state.sessionStartedAt ? new Date(state.sessionStartedAt).toISOString() : '',
+      durationSeconds: state.sessionStartedAt ? Math.max(1, Math.round((Date.now() - state.sessionStartedAt) / 1000)) : 0
+    });
     progress.badges = updateBadges(progress, percentage);
 
     if (progressStore) {
@@ -941,6 +966,152 @@
     else if (masteryBonus) message = "Accuracy bonus unlocked for sharp spelling.";
 
     return { gemsEarned, message, progress };
+  }
+
+  function updateSpellingReports(existingReports, results, summary) {
+    const reports = progressStore && typeof progressStore.normalizeReports === 'function'
+      ? progressStore.normalizeReports(existingReports)
+      : { sessions: Array.isArray(existingReports && existingReports.sessions) ? existingReports.sessions : [] };
+    const completedAt = summary.completedAt || new Date().toISOString();
+    const session = {
+      id: `spelling-session-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      studentId: getActiveStudentId(),
+      studentName: getActiveStudentName(),
+      title: bank && bank.title || 'Spelling Lab',
+      topic: 'Spelling Lab',
+      grade: String(state.selectedGrade),
+      difficulty: state.selectedDifficulty,
+      score: summary.correct,
+      total: summary.total,
+      percentage: summary.percentage,
+      startedAt: summary.startedAt,
+      completedAt,
+      durationSeconds: summary.durationSeconds,
+      patternSummary: getPatternSummary().map(([key, count]) => ({
+        key,
+        label: getPatternLabel(key),
+        count
+      })),
+      attempts: (results || []).map((result, index) => serializeSpellingAttempt(result, index + 1, completedAt))
+    };
+
+    return {
+      sessions: [session].concat(reports.sessions || []).slice(0, 250)
+    };
+  }
+
+  function serializeSpellingAttempt(result, position, completedAt) {
+    const patterns = Array.isArray(result.patterns) ? result.patterns : [];
+    const patternLabels = patterns.map(getPatternLabel);
+    return {
+      id: result.id || `spelling-${slugify(result.word)}-${position}`,
+      position,
+      question: `Spell "${result.word}" from the clue: ${result.clue || ''}`,
+      choices: [],
+      selectedIndex: -1,
+      selectedChoice: result.attempt || '',
+      correctIndex: -1,
+      correctChoice: result.word || '',
+      correct: !!result.correct,
+      firstAttemptCorrect: !!result.correct,
+      confidence: result.hintsUsed ? 'exploring' : 'thinking',
+      hintUsed: Number(result.hintsUsed) > 0,
+      hintsUsed: Number(result.hintsUsed) || 0,
+      durationSeconds: Number(result.durationSeconds) || 0,
+      trapTypes: Array.isArray(result.detected) ? result.detected : [],
+      grade: String(result.grade || state.selectedGrade),
+      difficulty: result.difficulty || getQuestionLevel(result),
+      subtopicId: 'spelling-patterns',
+      subtopicTitle: 'Spelling Patterns',
+      skills: ['spelling'].concat(patternLabels),
+      standards: [{ id: 'CCSS.L.3-6.2', label: 'Language: Spelling and Conventions' }],
+      spelling: {
+        word: result.word || '',
+        attempt: result.attempt || '',
+        patterns,
+        patternLabels,
+        detected: Array.isArray(result.detected) ? result.detected : [],
+        syllables: result.syllables || '',
+        memory: result.memory || ''
+      },
+      completedAt
+    };
+  }
+
+  function updateSpellingMastery(existingMastery, results, today) {
+    const mastery = normalizeMastery(existingMastery);
+    (results || []).forEach(result => {
+      const isCorrect = !!result.correct;
+      recordMastery(mastery, 'domains', 'spelling-lab', 'Spelling Lab', isCorrect, today);
+      recordMastery(mastery, 'subtopics', 'spelling-patterns', 'Spelling Patterns', isCorrect, today);
+      recordMastery(mastery, 'difficulty', result.difficulty || 'medium', titleCase(result.difficulty || 'Medium'), isCorrect, today);
+      recordMastery(mastery, 'cognitiveDemand', 'sound-symbol-encoding', 'Sound Symbol Encoding', isCorrect, today);
+      recordMastery(mastery, 'standards', 'CCSS.L.3-6.2', 'Language: Spelling and Conventions', isCorrect, today);
+      (result.patterns || []).forEach(pattern => {
+        recordMastery(mastery, 'skills', slugify(getPatternLabel(pattern)), getPatternLabel(pattern), isCorrect, today);
+      });
+    });
+    return mastery;
+  }
+
+  function normalizeMastery(mastery) {
+    if (progressStore && typeof progressStore.normalizeMastery === 'function') {
+      return progressStore.normalizeMastery(mastery);
+    }
+    return {
+      domains: Object.assign({}, mastery && mastery.domains || {}),
+      skills: Object.assign({}, mastery && mastery.skills || {}),
+      cognitiveDemand: Object.assign({}, mastery && mastery.cognitiveDemand || {}),
+      difficulty: Object.assign({}, mastery && mastery.difficulty || {}),
+      subtopics: Object.assign({}, mastery && mastery.subtopics || {}),
+      standards: Object.assign({}, mastery && mastery.standards || {})
+    };
+  }
+
+  function recordMastery(mastery, group, key, label, isCorrect, today) {
+    if (!key) return;
+    if (!mastery[group]) mastery[group] = {};
+    const current = mastery[group][key] || { label, correct: 0, total: 0, lastPracticed: '', level: '' };
+    current.label = current.label || label || key;
+    current.correct += isCorrect ? 1 : 0;
+    current.total += 1;
+    current.lastPracticed = today;
+    current.level = getMasteryLevel(current.correct, current.total);
+    mastery[group][key] = current;
+  }
+
+  function getMasteryLevel(correct, total) {
+    if (total < 5) return 'Collecting evidence';
+    const accuracy = correct / total;
+    if (accuracy >= 0.92 && total >= 12) return 'Elite';
+    if (accuracy >= 0.85) return 'Secure';
+    if (accuracy >= 0.7) return 'Developing';
+    return 'Needs focus';
+  }
+
+  function getWordAttemptId(word, position) {
+    return `spelling-${slugify(word && word.word || 'word')}-${position}`;
+  }
+
+  function getPatternLabel(pattern) {
+    const info = patternInfo[pattern] || { label: pattern };
+    return info.label || pattern;
+  }
+
+  function getActiveStudentId() {
+    return loadSetting('grammarQuestActiveStudentId', 'current-learner');
+  }
+
+  function getActiveStudentName() {
+    return loadSetting('grammarQuestActiveStudentName', 'Current Learner');
+  }
+
+  function loadSetting(key, fallback) {
+    try {
+      return localStorage.getItem(key) || fallback;
+    } catch (error) {
+      return fallback;
+    }
   }
 
   function updateBadges(progress, percentage) {
@@ -1014,6 +1185,21 @@
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
+  }
+
+  function titleCase(text) {
+    return String(text || '')
+      .replace(/[-_]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function slugify(text) {
+    return String(text || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '');
   }
 
   function escapeHtml(text) {

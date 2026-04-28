@@ -29,7 +29,9 @@
   let hintsUsed = 0;
   let confidenceStats = [];
   let attemptRecords = [];
+  let reviewAttemptRecords = [];
   let sessionStartedAt = 0;
+  let questionStartedAt = 0;
   let mixedQuizConfig = null;
   let selectedMixedSubtopicIds = [];
   let selectedMixedQuestionLimit = '4';
@@ -97,6 +99,7 @@
     hintsUsed = 0;
     confidenceStats = [];
     attemptRecords = [];
+    reviewAttemptRecords = [];
 
     renderStartScreen(set);
   }
@@ -133,6 +136,7 @@
     hintsUsed = 0;
     confidenceStats = [];
     attemptRecords = [];
+    reviewAttemptRecords = [];
 
     renderStartScreen(activeSet);
   }
@@ -256,7 +260,9 @@
       hintsUsed = 0;
       confidenceStats = [];
       attemptRecords = [];
+      reviewAttemptRecords = [];
       sessionStartedAt = Date.now();
+      questionStartedAt = 0;
       if (!isParentMode()) saveActiveQuiz();
       startAssessmentGuard('quiz');
       renderQuestion();
@@ -274,7 +280,9 @@
     hintsUsed = Number(savedQuiz.hintsUsed) || 0;
     confidenceStats = Array.isArray(savedQuiz.confidenceStats) ? savedQuiz.confidenceStats : [];
     attemptRecords = Array.isArray(savedQuiz.attempts) ? savedQuiz.attempts : [];
+    reviewAttemptRecords = Array.isArray(savedQuiz.reviewAttempts) ? savedQuiz.reviewAttempts : [];
     sessionStartedAt = savedQuiz.startedAt ? Date.parse(savedQuiz.startedAt) || Date.now() : Date.now();
+    questionStartedAt = savedQuiz.questionStartedAt ? Date.parse(savedQuiz.questionStartedAt) || Date.now() : Date.now();
     startAssessmentGuard('quiz');
     if (currentIndex >= currentQuestions.length) {
       renderResults();
@@ -290,6 +298,7 @@
     answered = isCompletedView;
     currentConfidence = isCompletedView ? (completedAttempt.confidence || '') : '';
     hintUsedThisQuestion = isCompletedView ? !!completedAttempt.hintUsed : false;
+    if (!isCompletedView) questionStartedAt = Date.now();
     const progress = loadProgress();
     const strategyHint = getStrategyHint(q);
     const questionPrompt = renderQuestionPrompt(q, {
@@ -388,19 +397,24 @@
     const selectedIndex = parseInt(btn.dataset.index, 10);
     const q = currentQuestions[currentIndex];
     const isCorrect = selectedIndex === q.correct;
-
-    if (isCorrect) score++;
-    combo = isCorrect ? combo + 1 : 0;
-    confidenceStats.push({ confidence: currentConfidence || 'thinking', correct: isCorrect });
-    attemptRecords.push({
+    const durationSeconds = questionStartedAt ? Math.max(1, Math.round((Date.now() - questionStartedAt) / 1000)) : 0;
+    const attemptRecord = {
       question: q,
       selectedIndex,
       correct: isCorrect,
       confidence: currentConfidence || 'thinking',
       hintUsed: hintUsedThisQuestion,
       grade: selectedGrade,
-      difficulty: selectedDifficulty
-    });
+      difficulty: selectedDifficulty,
+      durationSeconds,
+      trapTypes: getSelectedTrapTypes(q, selectedIndex)
+    };
+
+    if (isCorrect) score++;
+    combo = isCorrect ? combo + 1 : 0;
+    confidenceStats.push({ confidence: currentConfidence || 'thinking', correct: isCorrect });
+    if (reviewMode) reviewAttemptRecords.push(attemptRecord);
+    else attemptRecords.push(attemptRecord);
     if (!isCorrect && !reviewMode && !missedQuestions.includes(q)) {
       missedQuestions.push(q);
     }
@@ -1330,18 +1344,19 @@
     endAssessmentGuard();
     const percentage = Math.round((score / currentQuestions.length) * 100);
     const parentMode = isParentMode();
+    const displayedAttempts = reviewMode ? reviewAttemptRecords : attemptRecords;
     const reward = parentMode
       ? { gemsEarned: 0, message: 'Preview complete. No student progress was changed.', progress: loadProgress() }
-      : reviewMode
-      ? { gemsEarned: 0, message: 'Review round complete. Mistakes turned into practice.', progress: loadProgress() }
+    : reviewMode
+      ? saveReviewOutcome(reviewAttemptRecords)
       : saveQuestResult(percentage, score, currentQuestions.length, attemptRecords);
     const progress = reward.progress;
     const rank = getRank(progress.totalGems);
     const badgeHtml = progress.badges.length
       ? `<div class="badge-row">${progress.badges.map(badge => `<span>${escapeHtml(badge)}</span>`).join('')}</div>`
       : '';
-    const confidenceReport = renderConfidenceReport(attemptRecords);
-    const subtopicReport = renderSubtopicReport(attemptRecords);
+    const confidenceReport = renderConfidenceReport(displayedAttempts);
+    const subtopicReport = renderSubtopicReport(displayedAttempts);
     let message = '';
     if (percentage >= 90) {
       message = 'Outstanding work! You have mastered this skill!';
@@ -1402,6 +1417,8 @@
         combo = 0;
         answered = false;
         reviewMode = true;
+        reviewAttemptRecords = [];
+        questionStartedAt = 0;
         startAssessmentGuard('review round');
         renderQuestion();
       });
@@ -1419,7 +1436,9 @@
         hintsUsed = 0;
         confidenceStats = [];
         attemptRecords = [];
+        reviewAttemptRecords = [];
         sessionStartedAt = 0;
+        questionStartedAt = 0;
         endAssessmentGuard();
         renderStartScreen(activeSet);
       } else {
@@ -2278,8 +2297,10 @@
       hintsUsed,
       confidenceStats,
       attempts: attemptRecords,
+      reviewAttempts: reviewAttemptRecords,
       missedQuestions,
       startedAt: sessionStartedAt ? new Date(sessionStartedAt).toISOString() : new Date().toISOString(),
+      questionStartedAt: questionStartedAt ? new Date(questionStartedAt).toISOString() : '',
       lastSavedAt: new Date().toISOString()
     };
     saveProgress(progress, { sync: true });
@@ -2329,6 +2350,8 @@
       firstAttemptCorrect: !!attempt.correct,
       confidence: attempt.confidence || 'thinking',
       hintUsed: !!attempt.hintUsed,
+      durationSeconds: Number(attempt.durationSeconds) || 0,
+      trapTypes: Array.isArray(attempt.trapTypes) ? attempt.trapTypes : [],
       grade: attempt.grade || selectedGrade,
       difficulty: attempt.difficulty || selectedDifficulty,
       subtopicId: subtopic.id,
@@ -2372,6 +2395,110 @@
       entries.forEach(entry => recordMastery(mastery, entry.group, entry.key, entry.label, isCorrect, today));
     });
     return mastery;
+  }
+
+  function saveReviewOutcome(reviewAttempts) {
+    const attempts = Array.isArray(reviewAttempts) ? reviewAttempts : [];
+    const progress = loadProgress();
+    if (!attempts.length || isParentMode()) {
+      return { gemsEarned: 0, message: 'Review round complete. Mistakes turned into practice.', progress };
+    }
+
+    const completedAt = new Date().toISOString();
+    const latestSession = progress.reports
+      && Array.isArray(progress.reports.sessions)
+      && progress.reports.sessions.find(session => session && Array.isArray(session.attempts));
+    if (!latestSession) {
+      return { gemsEarned: 0, message: 'Review round complete. No matching session was found to update.', progress };
+    }
+
+    const serialized = attempts.map((attempt, index) => serializeAttempt(attempt, index + 1, completedAt));
+    const byQuestionId = {};
+    serialized.forEach(attempt => {
+      const key = attempt.id || attempt.question;
+      if (!key) return;
+      byQuestionId[key] = attempt;
+    });
+
+    latestSession.attempts = latestSession.attempts.map(original => {
+      const key = original.id || original.question;
+      const review = byQuestionId[key];
+      if (!review) return original;
+      const reviewEntry = {
+        completedAt,
+        correct: !!review.correct,
+        selectedIndex: review.selectedIndex,
+        selectedChoice: review.selectedChoice,
+        confidence: review.confidence,
+        hintUsed: !!review.hintUsed,
+        durationSeconds: Number(review.durationSeconds) || 0,
+        trapTypes: Array.isArray(review.trapTypes) ? review.trapTypes : []
+      };
+      return Object.assign({}, original, {
+        reviewedAt: completedAt,
+        reviewCorrect: !!review.correct,
+        reviewAttempts: (Array.isArray(original.reviewAttempts) ? original.reviewAttempts : []).concat(reviewEntry)
+      });
+    });
+    latestSession.reviewedAt = completedAt;
+    latestSession.reviewSummary = buildReviewSummary(latestSession.attempts);
+    progress.reports = enrichReports(progress.reports);
+    progress.activeQuiz = null;
+    saveProgress(progress);
+    return { gemsEarned: 0, message: 'Review round saved. Mistakes turned into targeted practice evidence.', progress };
+  }
+
+  function buildReviewSummary(attempts) {
+    const reviewed = (attempts || []).filter(attempt => Array.isArray(attempt.reviewAttempts) && attempt.reviewAttempts.length);
+    const latest = reviewed.map(attempt => attempt.reviewAttempts[attempt.reviewAttempts.length - 1]);
+    return {
+      reviewed: reviewed.length,
+      corrected: latest.filter(attempt => attempt.correct).length,
+      stillMissed: latest.filter(attempt => !attempt.correct).length
+    };
+  }
+
+  function getSelectedTrapTypes(question, selectedIndex) {
+    const metadata = question && question.metadata || {};
+    const choiceTrap = getChoiceMetadataValue(metadata.choiceTrapTypes || metadata.distractorTypes || metadata.trapsByChoice, selectedIndex);
+    if (choiceTrap) return normalizeTrapList(choiceTrap);
+    if (Number(selectedIndex) !== Number(question && question.correct)) {
+      const general = metadata.trapTypes || metadata.commonTrapTypes || metadata.misconceptions;
+      if (general) return normalizeTrapList(general);
+      const explanation = question && question.explanation && question.explanation.incorrect
+        ? question.explanation.incorrect[selectedIndex]
+        : '';
+      return inferTrapTypes(question, explanation);
+    }
+    return [];
+  }
+
+  function getChoiceMetadataValue(value, selectedIndex) {
+    if (!value) return null;
+    if (Array.isArray(value)) return value[selectedIndex] || null;
+    if (typeof value === 'object') {
+      return value[selectedIndex] || value[String(selectedIndex)] || value[String.fromCharCode(65 + Number(selectedIndex))] || null;
+    }
+    return null;
+  }
+
+  function normalizeTrapList(value) {
+    if (Array.isArray(value)) return value.map(String).filter(Boolean);
+    if (typeof value === 'string') return value.split(/[,|]/).map(item => item.trim()).filter(Boolean);
+    return [];
+  }
+
+  function inferTrapTypes(question, explanation) {
+    const metadata = question && question.metadata || {};
+    const text = `${question && question.question || ''} ${explanation || ''} ${(metadata.skills || []).join(' ')}`.toLowerCase();
+    const traps = [];
+    if (/too broad|main idea|theme/.test(text)) traps.push('too broad or vague');
+    if (/unsupported|evidence|infer|inference|detail/.test(text)) traps.push('unsupported inference');
+    if (/capital/.test(text)) traps.push('capitalization rule confusion');
+    if (/comma|apostrophe|quotation|period|punctuat/.test(text)) traps.push('punctuation rule confusion');
+    if (/verb|tense|agreement|pronoun|noun|adjective|adverb/.test(text)) traps.push('grammar role confusion');
+    if (/prefix|suffix|root|meaning|context|vocabulary/.test(text)) traps.push('word meaning or word-part confusion');
+    return traps.length ? traps : ['incorrect distractor selected'];
   }
 
   function normalizeMastery(mastery) {

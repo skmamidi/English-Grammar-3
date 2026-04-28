@@ -493,6 +493,9 @@
   function renderQuestionInspector(attempt, student) {
     if (!attempt) return '<p class="empty-report">Choose a question to inspect the answer trail.</p>';
     const history = getQuestionHistory(student, attempt.id);
+    const trapTypes = Array.isArray(attempt.trapTypes) ? attempt.trapTypes : [];
+    const reviewAttempts = Array.isArray(attempt.reviewAttempts) ? attempt.reviewAttempts : [];
+    const latestReview = reviewAttempts.length ? reviewAttempts[reviewAttempts.length - 1] : null;
     return `
       <div class="inspector-section">
         <span class="quest-kicker">Question Detail</span>
@@ -511,6 +514,9 @@
           <div><dt>First attempt</dt><dd>${attempt.firstAttemptCorrect ? 'Correct' : 'Not yet'}</dd></div>
           <div><dt>Confidence</dt><dd>${escapeHtml(formatConfidence(attempt.confidence))}</dd></div>
           <div><dt>Hint opened</dt><dd>${attempt.hintUsed ? 'Yes' : 'No'}</dd></div>
+          <div><dt>Time on question</dt><dd>${formatSeconds(attempt.durationSeconds)}</dd></div>
+          <div><dt>Trap pattern</dt><dd>${escapeHtml(trapTypes.join(', ') || 'None recorded')}</dd></div>
+          <div><dt>Review result</dt><dd>${latestReview ? (latestReview.correct ? 'Corrected in review' : 'Still missed in review') : 'Not reviewed'}</dd></div>
           <div><dt>Skill</dt><dd>${escapeHtml((attempt.skills || []).map(titleCase).join(', ') || attempt.subtopicTitle || 'Mixed practice')}</dd></div>
         </dl>
       </div>
@@ -522,6 +528,15 @@
             <b class="${item.correct ? 'right-text' : 'wrong-text'}">${item.correct ? 'Right' : 'Missed'}</b>
           </div>
         `).join('') || '<p class="empty-report">No earlier attempts for this question.</p>'}
+        ${reviewAttempts.length ? `
+          <h3>Review Practice</h3>
+          ${reviewAttempts.map((item, index) => `
+            <div class="attempt-history-row">
+              <span>${ordinal(index + 1)} review · ${formatDate(item.completedAt)} · ${formatSeconds(item.durationSeconds)}</span>
+              <b class="${item.correct ? 'right-text' : 'wrong-text'}">${item.correct ? 'Corrected' : 'Still missed'}</b>
+            </div>
+          `).join('')}
+        ` : ''}
       </div>
     `;
   }
@@ -781,6 +796,15 @@
   function formatMinutes(seconds) {
     const minutes = Math.max(1, Math.round((Number(seconds) || 0) / 60));
     return `${minutes}m`;
+  }
+
+  function formatSeconds(seconds) {
+    const value = Number(seconds) || 0;
+    if (!value) return 'Not recorded';
+    if (value < 60) return `${Math.round(value)}s`;
+    const minutes = Math.floor(value / 60);
+    const remainder = Math.round(value % 60);
+    return remainder ? `${minutes}m ${remainder}s` : `${minutes}m`;
   }
 
   function formatConfidence(value) {

@@ -223,6 +223,14 @@
           requirement: 'Collect 100 star gems.',
           earned: progress => (progress.totalGems || 0) >= 100,
           icon: 'gem'
+        },
+        {
+          name: 'Sound-Symbol Star',
+          kind: 'badge',
+          href: 'topics/sound-symbols/index.html',
+          requirement: 'Score 90% or higher in the Spelling Lab.',
+          earned: progress => hasSpellingLabMastery(progress),
+          icon: 'spellstar'
         }
       ];
 
@@ -245,6 +253,20 @@
         if (gems >= 120) return 'Story Ranger';
         if (gems >= 50) return 'Sentence Scout';
         return 'Trail Starter';
+      }
+
+      function hasSpellingLabMastery(progress) {
+        const badges = Array.isArray(progress.badges) ? progress.badges : [];
+        if (badges.includes('Sound-Symbol Star')) return true;
+
+        const sessions = progress.reports && Array.isArray(progress.reports.sessions)
+          ? progress.reports.sessions
+          : [];
+        return sessions.some(session => {
+          const title = `${session.title || ''} ${session.topic || ''}`.toLowerCase();
+          const percentage = Number(session.percentage);
+          return title.includes('spelling') && percentage >= 90;
+        });
       }
 
       function loadProgress() {
@@ -344,6 +366,7 @@
           flame: '<path d="M12 21c3 0 5-2 5-5 0-2.8-2-4.6-3.5-6.3-.8 2-2.1 3.1-3.7 4.1.1-2.5-.8-4.3-2.3-5.8C6.3 10 7 12 7 13.7 7 18 9 21 12 21Z"></path>',
           eye: '<path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"></path><circle cx="12" cy="12" r="3"></circle>',
           gem: '<path d="M6 3h12l4 6-10 12L2 9Z"></path><path d="M2 9h20"></path><path d="M8 3 6 9l6 12 6-12-2-6"></path>',
+          spellstar: '<path d="M12 3.2 14.5 8l5.3.8-3.8 3.7.9 5.3-4.9-2.5-4.9 2.5.9-5.3-3.8-3.7 5.3-.8Z"></path><path d="M8.5 11.2h7"></path><path d="M10 13.8h4"></path><path d="M7 20h10"></path><path d="M9 20c0-1.7 1.3-3 3-3s3 1.3 3 3"></path>',
           spark: '<path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8Z"></path>',
           map: '<path d="M4 6 10 3l6 3 4-2v14l-4 2-6-3-6 3Z"></path><path d="M10 3v14"></path><path d="M16 6v14"></path>',
           star: '<path d="m12 2 2.8 6 6.2.8-4.6 4.4 1.2 6.3L12 16.3 6.4 19.5l1.2-6.3L3 8.8 9.2 8Z"></path>',

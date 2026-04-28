@@ -329,26 +329,30 @@ async function createManagedStudent({ studentName, loginName }) {
   const studentId = `student-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
   const indexRef = firestoreModule.doc(db, loginCollection(), normalizedLogin);
   const studentRef = managedStudentRef(db, firestoreModule, studentId);
-  const batch = firestoreModule.writeBatch(db);
 
-  batch.set(indexRef, {
-    ownerUid: state.user.uid,
-    studentId,
-    loginName: normalizedLogin,
-    studentName: cleanName,
-    createdAt: firestoreModule.serverTimestamp()
-  });
-  batch.set(studentRef, {
-    ownerUid: state.user.uid,
-    studentId,
-    studentName: cleanName,
-    loginName: normalizedLogin,
-    progress: progressStore?.getDefaultProgress?.() || {},
-    createdAt: firestoreModule.serverTimestamp(),
-    updatedAt: firestoreModule.serverTimestamp()
-  });
+  await firestoreModule.runTransaction(db, async transaction => {
+    const existingLogin = await transaction.get(indexRef);
+    if (existingLogin.exists()) {
+      throw new Error("That login name is already taken. Try the suggested name button.");
+    }
 
-  await batch.commit();
+    transaction.set(indexRef, {
+      ownerUid: state.user.uid,
+      studentId,
+      loginName: normalizedLogin,
+      studentName: cleanName,
+      createdAt: firestoreModule.serverTimestamp()
+    });
+    transaction.set(studentRef, {
+      ownerUid: state.user.uid,
+      studentId,
+      studentName: cleanName,
+      loginName: normalizedLogin,
+      progress: progressStore?.getDefaultProgress?.() || {},
+      createdAt: firestoreModule.serverTimestamp(),
+      updatedAt: firestoreModule.serverTimestamp()
+    });
+  });
   return selectManagedStudent(studentId);
 }
 

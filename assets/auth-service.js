@@ -3,6 +3,18 @@ const progressStore = window.GrammarQuestProgress;
 const AUTH_STATE_EVENT = "grammarquest:auth-state";
 const ACTIVE_STUDENT_EVENT = "grammarquest:active-student";
 const PARENT_BROWSE_EVENT = "grammarquest:parent-browse";
+const LOGIN_PERSONALITIES = [
+  "adventurous", "artistic", "brave", "bright", "calm", "careful", "cheerful", "clever", "confident", "considerate",
+  "creative", "curious", "determined", "eager", "encouraging", "energetic", "friendly", "generous", "gentle", "graceful",
+  "grateful", "happy", "helpful", "honest", "hopeful", "imaginative", "inventive", "joyful", "kind", "lively",
+  "loyal", "mindful", "patient", "playful", "polite", "positive", "resourceful", "respectful", "responsible", "smart",
+  "thoughtful", "trustworthy", "warm", "wise", "witty", "amazing", "awesome", "bold", "bubbly", "charming",
+  "compassionate", "cooperative", "courageous", "daring", "dependable", "diligent", "focused", "forgiving", "funny", "hardworking",
+  "humble", "inspiring", "jolly", "motivated", "observant", "optimistic", "organized", "original", "peaceful", "persistent",
+  "practical", "proud", "quick", "radiant", "reliable", "resilient", "sincere", "spirited", "steady", "strong",
+  "sunny", "supportive", "talented", "tenacious", "thankful", "vibrant", "welcoming", "wonderful", "zesty", "adaptable",
+  "balanced", "capable", "collaborative", "committed", "fair", "flexible", "genuine", "insightful", "neat", "proactive"
+];
 const LOGIN_BIRDS = [
   "albatross", "avocet", "bald eagle", "barn owl", "bee hummingbird", "belted kingfisher", "black swan", "blue jay", "bluebird", "bobolink",
   "booby", "bowerbird", "budgie", "canary", "cardinal", "cassowary", "chickadee", "cockatoo", "condor", "coot",
@@ -249,17 +261,37 @@ function renderStudentTools(includeParentModeButton) {
         <input type="text" name="loginName" autocomplete="off" data-student-login-name required>
       </label>
       <div class="login-name-builder" aria-label="Fun login name builder">
-        <label>
+        <label class="login-builder-field">
+          <span>Personality</span>
+          <select name="favoritePersonality" data-login-part="personality">${renderOptionList(LOGIN_PERSONALITIES, "creative")}</select>
+          <span class="login-ignore-option">
+            <input type="checkbox" data-login-ignore="personality">
+            <span>Ignore in suggested name</span>
+          </span>
+        </label>
+        <label class="login-builder-field">
           <span>Favorite Bird</span>
           <select name="favoriteBird" data-login-part="bird">${renderOptionList(LOGIN_BIRDS, "blue jay")}</select>
+          <span class="login-ignore-option">
+            <input type="checkbox" data-login-ignore="bird">
+            <span>Ignore in suggested name</span>
+          </span>
         </label>
-        <label>
+        <label class="login-builder-field">
           <span>Favorite Ocean Animal</span>
           <select name="favoriteOceanAnimal" data-login-part="ocean">${renderOptionList(LOGIN_OCEAN_ANIMALS, "dolphin")}</select>
+          <span class="login-ignore-option">
+            <input type="checkbox" data-login-ignore="ocean">
+            <span>Ignore in suggested name</span>
+          </span>
         </label>
-        <label>
+        <label class="login-builder-field">
           <span>Favorite Landmark</span>
           <select name="favoriteCharacter" data-login-part="character">${renderOptionList(LOGIN_LANDMARKS, "statue of liberty")}</select>
+          <span class="login-ignore-option">
+            <input type="checkbox" data-login-ignore="character">
+            <span>Ignore in suggested name</span>
+          </span>
         </label>
       </div>
       <div class="student-avatar-preview" data-student-avatar-preview>
@@ -341,12 +373,16 @@ function wireModalEvents() {
   document.addEventListener("change", async event => {
     const gradeSelect = event.target.closest("[data-student-default-grade-id]");
     const loginPartSelect = event.target.closest("[data-login-part]");
+    const loginIgnoreToggle = event.target.closest("[data-login-ignore]");
     if (gradeSelect) {
       await handleDefaultGradeChange(gradeSelect.dataset.studentDefaultGradeId, gradeSelect.value);
     }
     if (loginPartSelect) {
       updateAvatarPreview(loginPartSelect);
       await suggestLoginName(loginPartSelect);
+    }
+    if (loginIgnoreToggle) {
+      await suggestLoginName(loginIgnoreToggle);
     }
   });
 
@@ -1432,7 +1468,7 @@ async function suggestLoginName(button) {
   const input = scope.querySelector("[data-student-login-name]");
   if (!input) return;
   const parts = getLoginPartsFromScope(scope);
-  const baseName = normalizeLoginName(`${parts.bird}-${parts.ocean}-${parts.character}`);
+  const baseName = buildLoginNameBase(parts);
   input.value = await getAvailableLoginSuggestion(baseName);
 }
 
@@ -1444,12 +1480,36 @@ function updateAvatarPreview(control) {
 }
 
 function getLoginPartsFromScope(scope) {
-  return normalizeAvatarParts({
+  const avatarParts = normalizeAvatarParts({
     bird: scope.querySelector('[data-login-part="bird"]')?.value,
     ocean: scope.querySelector('[data-login-part="ocean"]')?.value,
     character: scope.querySelector('[data-login-part="character"]')?.value,
     studentName: scope.querySelector('[name="studentName"]')?.value
   });
+  return {
+    ...avatarParts,
+    personality: normalizeChoice(scope.querySelector('[data-login-part="personality"]')?.value, LOGIN_PERSONALITIES, "creative"),
+    ignoredLoginParts: getIgnoredLoginParts(scope)
+  };
+}
+
+function getIgnoredLoginParts(scope) {
+  return Array.from(scope.querySelectorAll("[data-login-ignore]:checked"))
+    .map(input => input.dataset.loginIgnore)
+    .filter(Boolean);
+}
+
+function buildLoginNameBase(parts) {
+  const ignored = new Set(parts.ignoredLoginParts || []);
+  const values = [
+    ["personality", parts.personality],
+    ["bird", parts.bird],
+    ["ocean", parts.ocean],
+    ["character", parts.character]
+  ]
+    .filter(([key, value]) => !ignored.has(key) && value)
+    .map(([, value]) => value);
+  return normalizeLoginName(values.join("-")) || "student";
 }
 
 async function getAvailableLoginSuggestion(baseName) {

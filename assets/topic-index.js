@@ -101,7 +101,7 @@
   function applyAuthModeUi(subtopics) {
     const auth = window.GrammarQuestAuth;
     const authState = auth && typeof auth.getState === 'function' ? auth.getState() : {};
-    const parentMode = !!authState.parentMode;
+    const parentMode = !!authState.parentMode && isParentBrowseOpen();
     document.body.classList.toggle('parent-question-browser', parentMode);
     const title = document.querySelector('.page-title');
     const subtitle = document.querySelector('.page-subtitle');
@@ -147,6 +147,14 @@
       }
       item.setAttribute('aria-label', `${getSubtopicTitle(item, set || {})} question preview`);
     });
+  }
+
+  function isParentBrowseOpen() {
+    try {
+      return new URLSearchParams(window.location.search).get('parentBrowse') === '1';
+    } catch (error) {
+      return false;
+    }
   }
 
   function renderSubtopicProgress(item, setEntry) {

@@ -683,13 +683,13 @@ body.auth-locked main {
 
 .create-student-form {
   align-items: end;
-  background: var(--surface-subtle);
+  background: linear-gradient(180deg, var(--surface-raised), var(--surface-subtle));
   border: 1px solid var(--border);
   border-radius: 12px;
   display: grid;
   gap: 12px;
-  grid-template-columns: minmax(150px, 1fr) minmax(170px, 1fr) auto;
-  padding: 14px;
+  grid-template-columns: 1fr;
+  padding: 16px;
 }
 
 .create-student-form .student-field {
@@ -698,6 +698,8 @@ body.auth-locked main {
 
 .create-student-form input {
   background: var(--card);
+  border-color: var(--control-border);
+  box-shadow: var(--control-shadow);
   min-height: 46px;
   width: 100%;
 }
@@ -728,12 +730,12 @@ body.auth-locked main {
 }
 
 .student-profile-card {
-  background: var(--surface-subtle);
+  background: linear-gradient(180deg, var(--surface-raised), var(--surface-subtle));
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 12px;
   display: grid;
-  gap: 12px;
-  padding: 12px;
+  gap: 16px;
+  padding: 16px;
 }
 
 .student-profile-card > div:first-child {
@@ -747,13 +749,15 @@ body.auth-locked main {
 }
 
 .student-profile-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .student-profile-actions .btn {
-  padding: 8px 10px;
+  min-height: 44px;
+  padding: 9px 12px;
+  white-space: normal;
 }
 
 .resume-quiz-card {
@@ -823,23 +827,24 @@ body.auth-locked main {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  margin-bottom: 24px;
-  padding: 22px;
+  margin: 0 0 24px;
+  overflow: hidden;
+  padding: clamp(20px, 3vw, 30px);
 }
 
 .parent-dashboard-header {
   align-items: start;
-  display: flex;
+  display: grid;
   gap: 16px;
-  justify-content: space-between;
-  margin-bottom: 18px;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  margin-bottom: 22px;
 }
 
 .parent-dashboard-actions {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 10px;
-  justify-content: flex-end;
+  justify-self: end;
+  width: min(100%, 320px);
 }
 
 .parent-dashboard-header h2 {
@@ -852,15 +857,21 @@ body.auth-locked main {
 
 .parent-dashboard-grid {
   display: grid;
-  gap: 16px;
-  grid-template-columns: minmax(260px, 0.8fr) minmax(320px, 1.2fr);
+  gap: 24px;
+  grid-template-columns: minmax(260px, 0.74fr) minmax(420px, 1.26fr);
 }
 
 .parent-dashboard-panel {
   border-top: 1px solid var(--border);
   display: grid;
-  gap: 12px;
-  padding-top: 16px;
+  gap: 14px;
+  min-width: 0;
+  padding-top: 18px;
+}
+
+.parent-dashboard-panel > h3 {
+  font-size: 1.15rem;
+  line-height: 1.2;
 }
 
 .parent-dashboard-notice {
@@ -983,6 +994,14 @@ body.auth-locked main {
 
 body.parent-mode .home-quest,
 body.parent-mode #mastery-panel {
+  display: none;
+}
+
+body.parent-mode:not(.parent-browse-open) main:not(.reports-shell) > :not([data-parent-dashboard]) {
+  display: none;
+}
+
+body.parent-mode.parent-browse-open main:not(.reports-shell) > [data-parent-dashboard] {
   display: none;
 }
 
@@ -2562,6 +2581,17 @@ body.parent-question-browser .subtopic-item {
   font-weight: 700;
   min-height: 44px;
   padding: 11px 14px;
+  text-align: center;
+}
+
+.answered-lock-note {
+  background: var(--surface-subtle);
+  border: 1px solid var(--soft-border);
+  border-radius: 12px;
+  color: var(--text-muted-strong);
+  font-size: 0.92rem;
+  font-weight: 800;
+  padding: 12px 14px;
   text-align: center;
 }
 
@@ -4206,6 +4236,7 @@ body.parent-question-browser .subtopic-item {
   .selected-student-card,
   .character-library-grid,
   .parent-dashboard-grid,
+  .parent-dashboard-header,
   .question-grid {
     grid-template-columns: 1fr;
   }
@@ -4303,6 +4334,11 @@ body.parent-question-browser .subtopic-item {
     flex-direction: column;
   }
 
+  .parent-dashboard-actions {
+    justify-self: stretch;
+    width: 100%;
+  }
+
   .parent-dashboard-actions,
   .parent-dialog-actions {
     justify-content: stretch;
@@ -4314,6 +4350,10 @@ body.parent-question-browser .subtopic-item {
   }
 
   .create-student-form {
+    grid-template-columns: 1fr;
+  }
+
+  .student-profile-actions {
     grid-template-columns: 1fr;
   }
 

@@ -220,7 +220,7 @@ function wireModalEvents() {
     const authTab = event.target.closest("[data-auth-tab]");
     const signupButton = event.target.closest("[data-auth-email-action='signup']");
     const suggestButton = event.target.closest("[data-suggest-login-name]");
-    const studentButton = event.target.closest("[data-student-id]");
+    const launchStudentButton = event.target.closest("[data-launch-student-id]");
     const clearStudentButton = event.target.closest("[data-clear-student-session]");
     const deleteStudentButton = event.target.closest("[data-delete-student-id]");
     const resetStudentButton = event.target.closest("[data-reset-student-id]");
@@ -235,7 +235,7 @@ function wireModalEvents() {
     if (authTab) activateAuthTab(authTab.dataset.authTab);
     if (signupButton) await signInWithEmail(event, "signup");
     if (suggestButton) suggestLoginName(suggestButton);
-    if (studentButton) await handleSelectStudentById(studentButton.dataset.studentId);
+    if (launchStudentButton) await handleSelectStudentById(launchStudentButton.dataset.launchStudentId);
     if (clearStudentButton) await clearActiveStudent();
     if (deleteStudentButton) await openDeleteStudentDialog(deleteStudentButton.dataset.deleteStudentId);
     if (resetStudentButton) await openResetStudentDialog(resetStudentButton.dataset.resetStudentId);
@@ -776,8 +776,10 @@ function renderAuthUi(message) {
 
   document.body.classList.toggle("parent-mode", parentMode);
   document.body.classList.toggle("student-mode", studentMode);
+  document.body.classList.toggle("parent-browse-open", parentMode && isParentBrowseOpen());
   renderAuthGate({ signedIn, studentMode, parentMode });
   renderReportAccess({ parentMode, studentMode });
+  preserveParentBrowseLinks(parentMode && isParentBrowseOpen());
   if (!parentMode) removeParentDashboard();
 
   document.querySelectorAll("[data-auth-root]").forEach(root => {
@@ -889,7 +891,7 @@ async function renderParentDashboard() {
         <p>Manage student profiles, review reports, reset progress, and browse questions without tracking grownup activity.</p>
       </div>
       <div class="parent-dashboard-actions">
-        <a class="btn btn-secondary" href="${appHomeHref()}">Browse Question Bank</a>
+        <a class="btn btn-secondary" href="${questionBankHref()}">Browse Question Bank</a>
         <a class="btn btn-primary" href="${reportsHref()}">View Reports</a>
       </div>
     </div>
@@ -931,6 +933,37 @@ function appHomeHref() {
   return window.location.pathname.includes("/topics/") ? "../../index.html" : "index.html";
 }
 
+function questionBankHref() {
+  return `${appHomeHref()}?parentBrowse=1`;
+}
+
+function isParentBrowseOpen() {
+  try {
+    return new URLSearchParams(window.location.search).get("parentBrowse") === "1";
+  } catch (error) {
+    return false;
+  }
+}
+
+function preserveParentBrowseLinks(shouldPreserve) {
+  document.querySelectorAll('a.topic-card[href], a[href*="topics/"][href$="index.html"]').forEach(link => {
+    const original = link.dataset.originalHref || link.getAttribute("href") || "";
+    if (!link.dataset.originalHref) link.dataset.originalHref = original;
+    if (!shouldPreserve) {
+      link.setAttribute("href", original);
+      return;
+    }
+    try {
+      const url = new URL(original, window.location.href);
+      url.searchParams.set("parentBrowse", "1");
+      link.setAttribute("href", url.pathname.replace(window.location.origin, "") + url.search + url.hash);
+    } catch (error) {
+      const separator = original.includes("?") ? "&" : "?";
+      link.setAttribute("href", `${original}${separator}parentBrowse=1`);
+    }
+  });
+}
+
 async function renderGrownupTools() {
   const signInPanel = document.querySelector("[data-auth-signin-panel]");
   const title = document.querySelector("[data-auth-title]");
@@ -964,7 +997,6 @@ async function renderStudentProfiles() {
           <span>${escapeHtml(student.loginName)}</span>
         </div>
         <div class="student-profile-actions">
-          <button class="btn btn-secondary" type="button" data-student-id="${escapeHtml(student.id)}">Launch Practice</button>
           <button class="btn btn-secondary" type="button" data-reset-student-id="${escapeHtml(student.id)}">Reset Progress</button>
           <button class="btn btn-danger" type="button" data-delete-student-id="${escapeHtml(student.id)}">Delete Student</button>
         </div>

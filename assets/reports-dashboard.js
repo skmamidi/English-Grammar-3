@@ -120,7 +120,7 @@
       else students.push(enriched);
     });
 
-    if (forceSample || students.length < 3 || (!sessions.length && !cloudStudents.length)) {
+    if (forceSample) {
       getSampleStudents().forEach(sample => {
         if (!students.some(student => student.id === sample.id)) students.push(enrichStudent(sample));
       });

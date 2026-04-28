@@ -276,10 +276,12 @@
   }
 
   function renderQuestion() {
-    answered = false;
-    currentConfidence = '';
-    hintUsedThisQuestion = false;
     const q = currentQuestions[currentIndex];
+    const completedAttempt = getCompletedAttemptForIndex(currentIndex);
+    const isCompletedView = !!completedAttempt;
+    answered = isCompletedView;
+    currentConfidence = isCompletedView ? (completedAttempt.confidence || '') : '';
+    hintUsedThisQuestion = isCompletedView ? !!completedAttempt.hintUsed : false;
     const progress = loadProgress();
     const strategyHint = getStrategyHint(q);
     const questionPrompt = renderQuestionPrompt(q, {
@@ -301,20 +303,22 @@
           <span>${progress.totalGems} gems</span>
           <span>Combo ${combo}</span>
         </div>
-        <div class="quiz-score">Score: ${score} / ${currentIndex}</div>
+        <div class="quiz-score">Score: ${score} / ${getCompletedQuestionCount()}</div>
       </div>
 
       <div class="question-box">
         ${questionPrompt}
-        <div class="thinking-tools">
-          <button type="button" class="strategy-btn" id="strategy-btn">Strategy clue</button>
-          <div class="confidence-check" aria-label="Choose confidence level before answering">
-            <span>How sure are you?</span>
-            <button type="button" class="confidence-btn" data-confidence="exploring">Need clues</button>
-            <button type="button" class="confidence-btn" data-confidence="thinking">Pretty sure</button>
-            <button type="button" class="confidence-btn" data-confidence="certain">I can prove it</button>
+        ${isCompletedView ? '<div class="answered-lock-note">Answered and locked for this attempt.</div>' : `
+          <div class="thinking-tools">
+            <button type="button" class="strategy-btn" id="strategy-btn">Strategy clue</button>
+            <div class="confidence-check" aria-label="Choose confidence level before answering">
+              <span>How sure are you?</span>
+              <button type="button" class="confidence-btn" data-confidence="exploring">Need clues</button>
+              <button type="button" class="confidence-btn" data-confidence="thinking">Pretty sure</button>
+              <button type="button" class="confidence-btn" data-confidence="certain">I can prove it</button>
+            </div>
           </div>
-        </div>
+        `}
         <div class="strategy-panel" id="strategy-panel" hidden>${escapeHtml(strategyHint)}</div>
         <div class="choices" id="choices">
           ${q.choices.map((choice, idx) => `
@@ -330,7 +334,8 @@
       <div class="controls" id="controls"></div>
     `;
 
-    document.getElementById('strategy-btn').addEventListener('click', () => {
+    const strategyButton = document.getElementById('strategy-btn');
+    if (strategyButton) strategyButton.addEventListener('click', () => {
       const panel = document.getElementById('strategy-panel');
       if (!panel) return;
       panel.hidden = !panel.hidden;
@@ -357,6 +362,13 @@
       btn.addEventListener('click', handleAnswer);
     });
 
+    if (isCompletedView) {
+      lockQuestionChoices(q, completedAttempt.selectedIndex);
+      renderFeedback(q, completedAttempt.selectedIndex, completedAttempt.correct, { completedView: true });
+    } else {
+      renderPreAnswerControls();
+    }
+
     scrollQuizIntoView();
   }
 
@@ -381,24 +393,21 @@
       grade: selectedGrade,
       difficulty: selectedDifficulty
     });
-    saveActiveQuiz({ nextIndex: Math.min(currentIndex + 1, currentQuestions.length - 1) });
     if (!isCorrect && !reviewMode && !missedQuestions.includes(q)) {
       missedQuestions.push(q);
     }
 
+    const nextIndex = currentIndex + 1;
+    if (!reviewMode && nextIndex >= currentQuestions.length) {
+      renderResults();
+      return;
+    }
+
+    saveActiveQuiz({ nextIndex });
+
     lockConfidenceChoice();
 
-    // Update choice buttons
-    document.querySelectorAll('.choice-btn').forEach((b, idx) => {
-      b.disabled = true;
-      if (idx === q.correct) {
-        b.classList.add('correct');
-      } else if (idx === selectedIndex && !isCorrect) {
-        b.classList.add('incorrect');
-      } else {
-        b.classList.add('unselected-wrong');
-      }
-    });
+    lockQuestionChoices(q, selectedIndex);
 
     // Render feedback
     renderFeedback(q, selectedIndex, isCorrect);
@@ -408,9 +417,41 @@
     if (scoreEl) scoreEl.textContent = `Score: ${score} / ${currentIndex + 1}`;
   }
 
-  function renderFeedback(q, selectedIndex, isCorrect) {
+  function lockQuestionChoices(q, selectedIndex) {
+    document.querySelectorAll('.choice-btn').forEach((b, idx) => {
+      b.disabled = true;
+      if (idx === q.correct) {
+        b.classList.add('correct');
+      } else if (idx === selectedIndex && !isCorrectAnswerIndex(q, selectedIndex)) {
+        b.classList.add('incorrect');
+      } else {
+        b.classList.add('unselected-wrong');
+      }
+    });
+  }
+
+  function isCorrectAnswerIndex(question, selectedIndex) {
+    return Number(selectedIndex) === Number(question && question.correct);
+  }
+
+  function getCompletedQuestionCount() {
+    return Math.min(attemptRecords.length, currentQuestions.length);
+  }
+
+  function getActiveUnansweredIndex() {
+    return Math.min(getCompletedQuestionCount(), currentQuestions.length - 1);
+  }
+
+  function getCompletedAttemptForIndex(index) {
+    if (reviewMode) return null;
+    if (index < 0 || index >= getCompletedQuestionCount()) return null;
+    return attemptRecords[index] || null;
+  }
+
+  function renderFeedback(q, selectedIndex, isCorrect, options) {
     const feedbackArea = document.getElementById('feedback-area');
     const controls = document.getElementById('controls');
+    const completedView = !!(options && options.completedView);
     const comboMessage = isCorrect && combo >= 3
       ? `<div class="quest-reward-note">Combo bonus charged: ${combo} correct answers in a row.</div>`
       : '';
@@ -453,20 +494,60 @@
     `;
 
     const isLast = currentIndex === currentQuestions.length - 1;
-    controls.innerHTML = `
-      <button class="btn btn-primary" id="next-btn">
-        ${isLast ? 'See Results' : 'Next Question'}
-      </button>
-    `;
-    document.getElementById('next-btn').addEventListener('click', () => {
-      if (isLast) {
-        renderResults();
-      } else {
-        currentIndex++;
-        saveActiveQuiz();
+    controls.innerHTML = renderQuestionControls(completedView);
+    attachQuestionControlHandlers();
+  }
+
+  function renderQuestionControls(completedView) {
+    const buttons = [];
+    const activeUnansweredIndex = getActiveUnansweredIndex();
+    if (!reviewMode && currentIndex > 0) {
+      buttons.push('<button class="btn btn-secondary" id="previous-question-btn" type="button">Previous Question</button>');
+    }
+    if (completedView && currentIndex < activeUnansweredIndex) {
+      const label = currentIndex + 1 === activeUnansweredIndex ? 'Return to Current Question' : 'Next Question';
+      buttons.push(`<button class="btn btn-primary" id="next-question-btn" type="button">${label}</button>`);
+    } else if (!completedView) {
+      buttons.push(`<button class="btn btn-primary" id="next-question-btn" type="button">${currentIndex === currentQuestions.length - 1 ? 'See Results' : 'Next Question'}</button>`);
+    }
+    return buttons.join('');
+  }
+
+  function renderPreAnswerControls() {
+    if (reviewMode || currentIndex <= 0 || getCompletedQuestionCount() <= 0) return;
+    const controls = document.getElementById('controls');
+    if (!controls) return;
+    controls.innerHTML = '<button class="btn btn-secondary" id="previous-question-btn" type="button">Previous Question</button>';
+    attachQuestionControlHandlers();
+  }
+
+  function attachQuestionControlHandlers() {
+    const previousButton = document.getElementById('previous-question-btn');
+    if (previousButton) {
+      previousButton.addEventListener('click', () => {
+        currentIndex = Math.max(0, currentIndex - 1);
         renderQuestion();
-      }
-    });
+      });
+    }
+
+    const nextButton = document.getElementById('next-question-btn');
+    if (nextButton) {
+      nextButton.addEventListener('click', () => {
+        const activeUnansweredIndex = getActiveUnansweredIndex();
+        if (!reviewMode && currentIndex < activeUnansweredIndex) {
+          currentIndex++;
+          renderQuestion();
+          return;
+        }
+        if (currentIndex === currentQuestions.length - 1) {
+          renderResults();
+        } else {
+          currentIndex++;
+          saveActiveQuiz();
+          renderQuestion();
+        }
+      });
+    }
   }
 
   function renderStudyAid(aid) {

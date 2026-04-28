@@ -1212,6 +1212,65 @@ html[data-theme="dark"] .theme-toggle-moon {
   max-width: 920px;
 }
 
+.question-prompt-card,
+.visual-prompt-card {
+  display: grid;
+  gap: 12px;
+  max-width: 100%;
+}
+
+.visual-prompt-card {
+  background: var(--primary-soft);
+  border: 1px solid var(--primary-border);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.prompt-passage,
+.prompt-task {
+  display: grid;
+  gap: 5px;
+}
+
+.prompt-passage span,
+.prompt-task span {
+  color: var(--primary-pill-text);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.prompt-passage p {
+  color: var(--text-strong);
+  font-size: clamp(1rem, 0.96rem + 0.16vw, 1.12rem);
+  font-weight: 680;
+  line-height: 1.55;
+}
+
+.prompt-annotation {
+  background: var(--surface-subtle);
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  color: var(--text-muted-strong);
+  font-size: clamp(0.96rem, 0.92rem + 0.12vw, 1.05rem);
+  font-weight: 760;
+  line-height: 1.45;
+  padding: 10px 12px;
+}
+
+.prompt-task {
+  border-top: 1px solid var(--primary-border);
+  padding-top: 12px;
+}
+
+.prompt-task strong {
+  color: var(--text-strong);
+  font-size: clamp(1.08rem, 1rem + 0.28vw, 1.28rem);
+  line-height: 1.35;
+}
+
 .question-scene {
   align-items: center;
   background:

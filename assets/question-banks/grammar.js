@@ -27450,6 +27450,300 @@
           "sourceSet": "grammar-friendly-letter",
           "sequence": 23
         }
+      },
+      {
+        "question": "Which of the following is capitalized correctly?",
+        "choices": [
+          "Dear Sir,",
+          "Dear sir,",
+          "Yours Truly,",
+          "yours truly,"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Dear Sir,. Dear Sir,",
+          "incorrect": [
+            "",
+            "Not: Dear sir,. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Yours Truly,. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: yours truly,. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "mechanics",
+            "usage"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-friendly-letter",
+          "sequence": 24,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which greeting is written correctly?",
+        "choices": [
+          "Dear Susie, Will you come and spend the night with me.",
+          "dear Susie, Will you come and spend the night with me?",
+          "dear Susie, Will you come and spend the night with me?",
+          "Dear Susie, Will you come and spend the night with me?"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Dear Susie, Will you come and spend the night with me?. Dear Susie, Will you come and spend the night with me?",
+          "incorrect": [
+            "Not: Dear Susie, Will you come and spend the night with me.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: dear Susie, Will you come and spend the night with me?. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: dear Susie, Will you come and spend the night with me?. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "mechanics",
+            "usage"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-friendly-letter",
+          "sequence": 25,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which greeting in a letter is correct?",
+        "choices": [
+          "d ear Mrs. Kennedy,",
+          "Dear Mrs. Kennedy,",
+          "dear Mrs. kennedy,",
+          "Dear Mrs. kennedy,"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Dear Mrs. Kennedy,. Dear Mrs. Kennedy,",
+          "incorrect": [
+            "Not: d ear Mrs. Kennedy,. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: dear Mrs. kennedy,. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Dear Mrs. kennedy,. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "mechanics",
+            "usage"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-friendly-letter",
+          "sequence": 26,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which of the underlined words should be capitalized? dear jolene, how was the party? I wish I could have been there. I miss you.",
+        "choices": [
+          "d ear, how, there love, Samantha",
+          "dear, how, love",
+          "dear, party, love",
+          "dear, how, party"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: dear, how, love. dear, how, love; capitali ze the salutation/greeting (Dear), capitalize the first word of a Great Expectations; sentence (How), capitalize the complimentary clo se (Love)",
+          "incorrect": [
+            "Not: d ear, how, there love, Samantha. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: dear, party, love. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: dear, how, party. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "mechanics",
+            "usage"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-friendly-letter",
+          "sequence": 27,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which of the following letter closings is correctly written?",
+        "choices": [
+          "you rs Truly,",
+          "Sincerely Yours,",
+          "Yours truly,",
+          "sincerely yours,"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Yours truly,. Yours truly,",
+          "incorrect": [
+            "Not: you rs Truly,. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Sincerely Yours,. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: sincerely yours,. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "mechanics",
+            "usage"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-friendly-letter",
+          "sequence": 28,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which of the following is not punctuated correctly?",
+        "choices": [
+          "Dear Bob:",
+          "How have you been?",
+          "I am going to start in the game Friday.",
+          "Are you getting along with your roommate?"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Dear Bob:. Dear Bob:; correct would be - Dear Bob,",
+          "incorrect": [
+            "",
+            "Not: How have you been?. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: I am going to start in the game Friday.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Are you getting along with your roommate?. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "mechanics",
+            "usage"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-friendly-letter",
+          "sequence": 29,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
       }
     ],
     "metadata": {

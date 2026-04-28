@@ -818,6 +818,349 @@
           "sourceSet": "capitalization-sentence-beginning",
           "sequence": 15
         }
+      },
+      {
+        "question": "Which of the following should have the first word capitalized?",
+        "choices": [
+          "after a while, the children became tired.",
+          "between the dotted lines.",
+          "under the branching elm tree.",
+          "on page ten in the math book."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: after a while, the children became tired.. After a while, the children became tired. This is a complete sentence, therefore the first word is capitalized.",
+          "incorrect": [
+            "",
+            "Not: between the dotted lines.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: under the branching elm tree.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: on page ten in the math book.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 16,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which of the underlined words below should be capitalized? churches, schools, and hospitals are all examples of buildings.",
+        "choices": [
+          "churches",
+          "schools",
+          "hospitals",
+          "buildings"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: churches. churches; Churches should be capitalized because it is the first word in a sentence.",
+          "incorrect": [
+            "",
+            "Not: schools. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: hospitals. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: buildings. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 17,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "__________ found a bag of candy. Which of the following completes the sentence correctly?",
+        "choices": [
+          "a Policeman",
+          "Four children",
+          "one old lady",
+          "a big dog"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Four children. Four children; a sentence starts with a capital letter.",
+          "incorrect": [
+            "Not: a Policeman. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: one old lady. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: a big dog. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 18,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Choose the missing words in the following sentenc e. ______________ ate lunch together.",
+        "choices": [
+          "yesterday, Margi and Mary",
+          "Yesterday, Margi and Mary",
+          "Yesterday, margi and Mary",
+          "Yesterday, Margi and mary"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Yesterday, Margi and Mary. Yesterday, Margi and Mary; the first word in a sentence (Yesterday) is capitalized and so are the proper nouns (Margi and Mary)",
+          "incorrect": [
+            "Not: yesterday, Margi and Mary. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Yesterday, margi and Mary. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Yesterday, Margi and mary. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 19,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which of the following must always be capitalized?",
+        "choices": [
+          "first word of a sentence",
+          "the word “doctor”",
+          "third word of a sentence",
+          "the word “river”"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: first word of a sentence. The first word of a sentence is always capitalized.",
+          "incorrect": [
+            "",
+            "Not: the word “doctor”. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: third word of a sentence. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: the word “river”. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 20,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which words in the passage below should be capitalized? my dog is a golden retriever and he loves water. you should see marshall dive for rocks! down under the surface he goes, and up he comes with a nose full of water and a huge rock in his mouth!",
+        "choices": [
+          "my, you, marshall, down",
+          "my, nose, rock, mouth",
+          "marshall, down, nose, water",
+          "my, you, marshall, water"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: my, you, marshall, down. my, you, marshall, down - Capitalize the first word in each sentence (My, You, Down) Capitalize proper nouns - Marshall.",
+          "incorrect": [
+            "",
+            "Not: my, nose, rock, mouth. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: marshall, down, nose, water. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: my, you, marshall, water. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 21,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence is written correctly?",
+        "choices": [
+          "all the children wanted to pet the cute, warm, cu ddly kitten.",
+          "the kitten was terrified at first when fifteen chil dren ran to pet it.",
+          "Many children Screamed with Laughter when the little cat meowed.",
+          "Two children in the class eventually became the kitty’s care takers."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Two children in the class eventually became the kitty’s care takers.. Two children in the class eventually became the kitty’s caretakers.",
+          "incorrect": [
+            "Not: all the children wanted to pet the cute, warm, cu ddly kitten.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: the kitten was terrified at first when fifteen chil dren ran to pet it.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Many children Screamed with Laughter when the little cat meowed.. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 22,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
       }
     ],
     "metadata": {
@@ -1648,6 +1991,153 @@
           "sourceSet": "capitalization-days-months-holidays",
           "sequence": 15
         }
+      },
+      {
+        "question": "Which sentence has been capitalized correctly?",
+        "choices": [
+          "Mayor Brown, the Mayor of our city, is a remarkable woman.",
+          "When we went to London on our vacations, we saw Queen Elizabeth II at the palace.",
+          "Dr. George Ellis, the Pediatric Doctor, was always available.",
+          "The president of the United States spoke to the nation on september 11."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: When we went to London on our vacations, we saw Queen Elizabeth II at the palace.. When we went to London on our vacation, we saw Queen Elizabeth II at the palace.",
+          "incorrect": [
+            "Not: Mayor Brown, the Mayor of our city, is a remarkable woman.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Dr. George Ellis, the Pediatric Doctor, was always available.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The president of the United States spoke to the nation on september 11.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "In the sentence below, which word needs a capital letter? I will have a party the first tuesday of May.",
+        "choices": [
+          "tuesday",
+          "first",
+          "party",
+          "will"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: tuesday. tuesday; Tuesday - is a day of the week and should be capitalized.",
+          "incorrect": [
+            "",
+            "Not: first. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: party. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: will. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 17,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which words should be capitalized? We crossed the mississippi river on a warm tuesday.",
+        "choices": [
+          "mississippi, warm",
+          "mississippi, river, tuesday",
+          "river, warm, tuesday",
+          "crossed, warm"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: mississippi, river, tuesday. mississippi, river, tuesday - all are proper nouns.",
+          "incorrect": [
+            "Not: mississippi, warm. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: river, warm, tuesday. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: crossed, warm. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 18,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
       }
     ],
     "metadata": {
@@ -2477,6 +2967,300 @@
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Which pair of words must be capitalized in the sentence below? The Lincoln high glee club sang before the los angeles lakers played last night.",
+        "choices": [
+          "club, sang",
+          "glee, angeles",
+          "los, played",
+          "laker s, night"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: glee, angeles. glee, angeles; The Lincoln High Glee Club sang before the Los Angeles Lakes played last night. Glee and Angeles are just 2 of the words that need to be capitalized. Romeo and Juliet",
+          "incorrect": [
+            "Not: club, sang. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: los, played. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: laker s, night. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-books-magazines-songs-plays",
+          "sequence": 16,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which sentence is correctly punctuated?",
+        "choices": [
+          "We read “Romeo and Juliet” in nin th grade.",
+          "We read Romeo and Juliet in ninth grade. Romeo and Juliet",
+          "We read Romeo and Juliet in ninth grade.",
+          "We read in ninth grade."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: We read in ninth grade.. We read in ninth grade. Play titles are italicized. E",
+          "incorrect": [
+            "Not: We read “Romeo and Juliet” in nin th grade.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: We read Romeo and Juliet in ninth grade. Romeo and Juliet. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: We read Romeo and Juliet in ninth grade.. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-books-magazines-songs-plays",
+          "sequence": 17,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the correctly capitalized words. ________________ is a book by Roald Dahl.",
+        "choices": [
+          "James and the giant peach",
+          "James and the Giant peach",
+          "james and the giant peach",
+          "James and the Giant Peach"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: James and the Giant Peach. James and the Giant Peach",
+          "incorrect": [
+            "Not: James and the giant peach. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: James and the Giant peach. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: james and the giant peach. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-books-magazines-songs-plays",
+          "sequence": 18,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Choose the correctly written book title.",
+        "choices": [
+          "Harry Po tter and The chamber of secrets",
+          "harry Potter and The Chamber of Secrets",
+          "Harry Potter and The Chamber of secrets",
+          "Harry Potter and The Chamber of Secrets"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Harry Potter and The Chamber of Secrets. Harry Potter and The Chamber of Secrets",
+          "incorrect": [
+            "Not: Harry Po tter and The chamber of secrets. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: harry Potter and The Chamber of Secrets. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Harry Potter and The Chamber of secrets. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-books-magazines-songs-plays",
+          "sequence": 19,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which of the following book titles is correctly capitalized?",
+        "choices": [
+          "Of Mice And Men",
+          "East of Eden",
+          "Charlotte’s web",
+          "island Of The Blue Dolphins"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: East of Eden. East of Eden",
+          "incorrect": [
+            "Not: Of Mice And Men. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Charlotte’s web. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: island Of The Blue Dolphins. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-books-magazines-songs-plays",
+          "sequence": 20,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which words in the book title should be capitalized? I enjoyed reading the novel call of the wild by Jack London.",
+        "choices": [
+          "call, the",
+          "call, wild",
+          "of, the",
+          "of, wild"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: call, wild. call, wild; I enjoyed readi ng the novel Call of the Wild by Jack London.",
+          "incorrect": [
+            "Not: call, the. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: of, the. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: of, wild. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-books-magazines-songs-plays",
+          "sequence": 21,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
         }
       }
     ],
@@ -3651,6 +4435,986 @@
           "sourceFile": "Basic-6_grammer and usage.pdf",
           "sourceQuestionNumber": 10
         }
+      },
+      {
+        "question": "Which words must be capitalized in this sentence? the new testament is part of the bible, christianity’s most holy book.",
+        "choices": [
+          "the, new, testament, holy, book",
+          "the, new, bible, holy, book",
+          "the, new, testament, bible, christianity’s",
+          "the, christianity’s, holy, book"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: the, new, testament, bible, christianity’s. the, new, testament, bible, christianity’s; The New Testament is part of the Bible, Christianity’s most holy book.",
+          "incorrect": [
+            "Not: the, new, testament, holy, book. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: the, new, bible, holy, book. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: the, christianity’s, holy, book. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 23,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Identify the correctly capitalized title.",
+        "choices": [
+          "dr. Jones",
+          "Al Smith, Teacher",
+          "President Allen",
+          "Mr. Jack Owen"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: President Allen. President Allen",
+          "incorrect": [
+            "Not: dr. Jones. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Al Smith, Teacher. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Mr. Jack Owen. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 24,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which words are not correctly capitalized? The Columbia river flows under The Broadway Bridge in Portland, Oregon.",
+        "choices": [
+          "R iver, The",
+          "Columbia, Portland",
+          "Broadway, O regon",
+          "Br idge, Portland"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: R iver, The. river, The; The Columbia River flows under the Broadway Bridge in Portland, Oregon.",
+          "incorrect": [
+            "",
+            "Not: Columbia, Portland. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Broadway, O regon. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Br idge, Portland. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 25,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which course title is correctly capitalized?",
+        "choices": [
+          "Histor y",
+          "English",
+          "Algebra",
+          "Chemistry"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: English. English; English is a langu age and therefore it is capitalized because it is a proper noun.",
+          "incorrect": [
+            "Not: Histor y. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Algebra. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Chemistry. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 26,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which of the underlined words below is incorrectly capitalized? Mary beth Adams was chosen to be the captain of the cheerleading squad.",
+        "choices": [
+          "captain",
+          "Adams",
+          "beth",
+          "Mary"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: beth. beth; Beth is a proper noun and should be capitalized.",
+          "incorrect": [
+            "Not: captain. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Adams. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Mary. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 27,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the correct missing words. ______________ are going to the movies.",
+        "choices": [
+          "Jim and i",
+          "jim and i",
+          "jim and I",
+          "Jim and I"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Jim and I. Jim and I",
+          "incorrect": [
+            "Not: Jim and i. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: jim and i. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: jim and I. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 28,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which sentence is written correctly?",
+        "choices": [
+          "i think I need to do my homework before playing.",
+          "I think I need to do my homework before playing.",
+          "I think i need to do my homework before playing.",
+          "i think i need to do my homework before playing."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I think I need to do my homework before playing.. I think I need to do my homework before playing, ‘I’ should be capitalized in the sentence.",
+          "incorrect": [
+            "Not: i think I need to do my homework before playing.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: I think i need to do my homework before playing.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: i think i need to do my homework before playing.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 29,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which word needs a capital letter? The students gave miss Smith a gift for her birthday.",
+        "choices": [
+          "birthday",
+          "gift",
+          "students",
+          "miss"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: miss. miss, correctly capitalized it should be Miss since it is a title.",
+          "incorrect": [
+            "Not: birthday. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: gift. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: students. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 30,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which word needs a capital letter? I let rita borrow my jacket and soccer ball.",
+        "choices": [
+          "jacket",
+          "rita",
+          "soccer",
+          "borrow"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: rita. rita; Rita is a proper noun and should be ca pitalized.",
+          "incorrect": [
+            "Not: jacket. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: soccer. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: borrow. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 31,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which of the following sentences is not capitalized correctly?",
+        "choices": [
+          "I won the race.",
+          "Mom said that I forgot to call.",
+          "Sally and i ate lunch together.",
+          "I saw a shooting star."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Sally and i ate lunch together.. Sally and i ate lunch together; correct: Sally and I ate lunch together.",
+          "incorrect": [
+            "Not: I won the race.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Mom said that I forgot to call.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: I saw a shooting star.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 32,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which of the following is a proper noun?",
+        "choices": [
+          "beth",
+          "girl",
+          "lady",
+          "woman"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: beth. beth; Beth should be capitalized because it is the name of a particular person, place, or thing.",
+          "incorrect": [
+            "",
+            "Not: girl. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: lady. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: woman. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 33,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which of the following sentences is written corre ctly?",
+        "choices": [
+          "i think i’ll call her.",
+          "She answered My letter.",
+          "I belie ve I’ll have a cookie.",
+          "She said i’m late."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I belie ve I’ll have a cookie.. I believe I’ll have a cookie.",
+          "incorrect": [
+            "Not: i think i’ll call her.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: She answered My letter.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: She said i’m late.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 34,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which of the following is a proper noun?",
+        "choices": [
+          "p umpkin",
+          "her mirror",
+          "my friends",
+          "Sandy Turner"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Sandy Turner. Sandy Turner; Sandy Turner is a proper noun because it is the name of a particular person, place, or thing.",
+          "incorrect": [
+            "Not: p umpkin. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: her mirror. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: my friends. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 35,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which words in the list below should be capitalized? buick vehicle chevrolet ford toyota",
+        "choices": [
+          "car, corvette, ford, toyota",
+          "car, buick, vehicle, corvette",
+          "buick, chevrolet, ford, toyota",
+          "buick, vehicle, ford, toyota"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: buick, chevrolet, ford, toyota. buick, chevrolet, ford, toyota; all are brand names of a product - Buick, Chevrolet, Ford, Toyota; the words ‘car’ and ‘vehicle’ tell what the product is and are not capitalized.",
+          "incorrect": [
+            "Not: car, corvette, ford, toyota. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: car, buick, vehicle, corvette. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: buick, vehicle, ford, toyota. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 36,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Identify the sentence below that is capitalized correctly.",
+        "choices": [
+          "Gerry loves Chinese food.",
+          "My mother can speak French and German.",
+          "We listened to spanish music at school.",
+          "My father bought an american car."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: My mother can speak French and German.. My mother can speak French and Germa n. Capitalize the names of countries, nationalities, and languages because they are proper nouns.",
+          "incorrect": [
+            "Not: Gerry loves Chinese food.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: We listened to spanish music at school.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: My father bought an american car.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 37,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which word from the sentence below is a proper noun? Mrs. Smith teaches math class at the high school.",
+        "choices": [
+          "Mrs. Smith",
+          "math",
+          "class",
+          "high school"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Mrs. Smith. Mrs. Smith is a proper noun.",
+          "incorrect": [
+            "",
+            "Not: math. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: class. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: high school. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 38,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which of the following sentences is written correctly?",
+        "choices": [
+          "The liberty bell is a famous American monument.",
+          "The Liberty bell is a Famous American monument.",
+          "The Liberty Bell is A Famous American monument.",
+          "The Liberty Bell is a famous American monument."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The Liberty Bell is a famous American monument.. The Liberty Bell is a famous American monument. All proper nouns are capitalized.",
+          "incorrect": [
+            "Not: The liberty bell is a famous American monument.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The Liberty bell is a Famous American monument.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The Liberty Bell is A Famous American monument.. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 39,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Read the following letter. dear Susan 1., Please meet me after school to take 2. your test 3.. sincerely, Mrs. Jones 4. Which lines need corrections?",
+        "choices": [
+          "1, 2, 3",
+          "1, 2",
+          "1",
+          "1, 4"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: 1, 4. 1, 4; Dear Susan and Sincerely, Mrs. Jones",
+          "incorrect": [
+            "Not: 1, 2, 3. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: 1, 2. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: 1. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 40,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which of the following sentences is capitalized correctly?",
+        "choices": [
+          "Tom joined the boy scouts of America.",
+          "Tom joined the boy Scouts of America",
+          "Tom joined the boy scouts of america.",
+          "Tom joined the Boy Scouts of America"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Tom joined the Boy Scouts of America. Tom joined the Boy Scouts of America.",
+          "incorrect": [
+            "Not: Tom joined the boy scouts of America.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Tom joined the boy Scouts of America. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Tom joined the boy scouts of america.. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 41,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which indicates the speaker is excited?",
+        "choices": [
+          "Su re, I can do that!",
+          "Sure, I can do that.",
+          "Sure, I can do that?",
+          "I can do that."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Su re, I can do that!. Sure, I can do that! A sentence ending in an exclamation point indicates excitement.",
+          "incorrect": [
+            "",
+            "Not: Sure, I can do that.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Sure, I can do that?. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: I can do that.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 42,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
       }
     ],
     "metadata": {
@@ -4480,6 +6244,790 @@
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Which words should be capitalized? On the continent of africa many kenyans speak swahili.",
+        "choices": [
+          "continent, africa, swahili",
+          "africa, kenyans, swahili",
+          "africa, kenyans, speak",
+          "continent, kenyans, swahili"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: africa, kenyans, swahili. africa, kenyans, swahili; Africa, Kenyans, Swahili",
+          "incorrect": [
+            "Not: continent, africa, swahili. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: africa, kenyans, speak. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: continent, kenyans, swahili. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which underlined word s should be capitalized? The civil war was an event that divided the united states into separate groups.",
+        "choices": [
+          "event, united, states, groups",
+          "civil, war, united, states",
+          "civil, united, states, groups",
+          "ev ent, united, states, groups"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: civil, war, united, states. civil, war, united, states; The Civil War was an event that divided the United States into separate groups.",
+          "incorrect": [
+            "Not: event, united, states, groups. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: civil, united, states, groups. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: ev ent, united, states, groups. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 17,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which words must be capitalized in this sentence? robb and steele Inc. is located in the E mpire State building.",
+        "choices": [
+          "robb, located, empire",
+          "robb, steele, building",
+          "steele, the, state",
+          "robb, incorporated, the"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: robb, steele, building. robb, steele, building; Written correctly - Robb and Steele Inc. is located in the Empire State Building. Robb, Steele, Building are the 3 words that need to be capitalized.",
+          "incorrect": [
+            "Not: robb, located, empire. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: steele, the, state. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: robb, incorporated, the. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 18,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which words should be capitalized? On the west side of town is a museum featuring a rtifacts from the far east.",
+        "choices": [
+          "w est, side",
+          "west, museum",
+          "far, east",
+          "west, east"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: far, east. far, east; On the west side of town is a museum featuring artifac ts from the Far East. Far East refers to a region, therefore it is capitalized.",
+          "incorrect": [
+            "Not: w est, side. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: west, museum. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: west, east. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 19,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which list includes all the words that should be capitalized in this sentence? The london philharmonic orchestra invited aerosmith to perform with them in their winter concert.",
+        "choices": [
+          "lon don, winter, concert",
+          "london, aerosmith",
+          "london, philharmonic, orchestra, aerosmi",
+          "london, philharmonic, orchestra"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: london, philharmonic, orchestra, aerosmi. london, philharmonic, orchestra, aerosmith; The London Philharmonic Orchestra invited Aerosmith to perform with them in their winter c oncert.",
+          "incorrect": [
+            "Not: lon don, winter, concert. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: london, aerosmith. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: london, philharmonic, orchestra. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 20,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which underlined word should be capitalized? When we went to the city, we saw senator Miller riding in a car in the parade.",
+        "choices": [
+          "we",
+          "senator",
+          "city",
+          "parade"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: senator. senator; when referring to a specific senator by name, it should be capitalized - Senator Miller.",
+          "incorrect": [
+            "Not: we. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: city. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: parade. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 21,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which word needs a capital letter? I will go to Yellowstone national Park this summer.",
+        "choices": [
+          "summer",
+          "will",
+          "this",
+          "national"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: national. national, Yellowstone National Park is a proper noun and should be capitalized.",
+          "incorrect": [
+            "Not: summer. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: will. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: this. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 22,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which underlined word or words below should be capitalized? The snake river is in a state with mountains and valleys.",
+        "choices": [
+          "snake river",
+          "state",
+          "mountains",
+          "valleys"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: snake river. snake river; Correctly capitalized Snake River since it is the proper name of a river.",
+          "incorrect": [
+            "",
+            "Not: state. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: mountains. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: valleys. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 23,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Choose the correct missing words. We wrote a letter to our state ____________ asking for his support.",
+        "choices": [
+          "sen ator Joe Allen",
+          "Senator Joe Allen",
+          "senator joe allen",
+          "senator joe Allen"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Senator Joe Allen. Senator Joe Allen",
+          "incorrect": [
+            "Not: sen ator Joe Allen. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: senator joe allen. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: senator joe Allen. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 24,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which underlined word should be capitalized? The Smith family drove through New York city on their vacation across the country.",
+        "choices": [
+          "family",
+          "vacation",
+          "city",
+          "country"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: city. city; New York City",
+          "incorrect": [
+            "Not: family. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: vacation. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: country. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 25,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which words are not capitalized correctly? Important landmarks within the United states are the Mississippi river, Rocky Mountains, and the Appalachian Mountains.",
+        "choices": [
+          "river, mountains",
+          "states, mountains",
+          "states, river",
+          "United, Mississippi"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: states, river. states, river; Should be United States, Mississippi River",
+          "incorrect": [
+            "Not: river, mountains. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: states, mountains. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: United, Mississippi. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 26,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which underlined words should be capitalized? The first battle of the civil war began at Fort Sumter off the coast of south carolina.",
+        "choices": [
+          "b attle, civil, coast, south",
+          "battle, war, coast, carolina",
+          "war, coast, south, carolina",
+          "civil, war, south, carolina"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: civil, war, south, carolina. civil, war, south, carolina; Civil War and South Carolina - both proper nouns.",
+          "incorrect": [
+            "Not: b attle, civil, coast, south. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: battle, war, coast, carolina. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: war, coast, south, carolina. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 27,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "If the poem “Lady of the Lake” is capitalized correctly, which of the following is also capitalized correctly?",
+        "choices": [
+          "“Hou nd of the Valley”",
+          "“boy of the Wilderness”",
+          "“Teacher of the animals”",
+          "“memory of the trees”"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: “Hou nd of the Valley”. “Hound of the Valley” - the words that are articles are not capitalized.",
+          "incorrect": [
+            "",
+            "Not: “boy of the Wilderness”. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “Teacher of the animals”. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “memory of the trees”. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 28,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which of the following is correctly capitalized?",
+        "choices": [
+          "Sp anish-american War",
+          "gulf-War",
+          "Civil War",
+          "Revolutionary war"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Civil War. Civil War; always capitalize historic events.",
+          "incorrect": [
+            "Not: Sp anish-american War. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: gulf-War. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Revolutionary war. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 29,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which of the following sentences is correctly capitalized?",
+        "choices": [
+          "My favorite team is the New York Yankees.",
+          "My uncle is on the Supreme Court.",
+          "I played in the Little League this summer.",
+          "We visited the Senate."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I played in the Little League this summer.. I played in the Little League this summer.",
+          "incorrect": [
+            "Not: My favorite team is the New York Yankees.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: My uncle is on the Supreme Court.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: We visited the Senate.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 30,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which word in the sentence below is not capitalized correctly? the team is going to Washington D.C.",
+        "choices": [
+          "the",
+          "team",
+          "going",
+          "Washington"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: the. the; The - the first word of a sentence should always be capitalized.",
+          "incorrect": [
+            "",
+            "Not: team. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: going. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Washington. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 31,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
         }
       }
     ],

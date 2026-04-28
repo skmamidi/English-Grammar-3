@@ -15452,6 +15452,1182 @@
           "sourceFile": "Basic-3_grammer and usage.pdf",
           "sourceQuestionNumber": 1
         }
+      },
+      {
+        "question": "Which contains a spelling error?",
+        "choices": [
+          "patios, radios, heros",
+          "altos, pianos, solos",
+          "potatoes, tomatoes, concertos",
+          "rodeos, videos, sopranos"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: patios, radios, heros. patios, radios, heros; correctly spelled - heroes",
+          "incorrect": [
+            "",
+            "Not: altos, pianos, solos. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: potatoes, tomatoes, concertos. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: rodeos, videos, sopranos. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 90,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Whic h word is spelled in correctly?",
+        "choices": [
+          "consist e ncy",
+          "appeara nce",
+          "prefer e nce",
+          "exce llance"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: exce llance. excellance; Correct spelling is excellence.",
+          "incorrect": [
+            "Not: consist e ncy. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: appeara nce. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: prefer e nce. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 91,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which title is capitalized correctly?",
+        "choices": [
+          "the President of the United States",
+          "doctor Tom Smith",
+          "Novelist John Steinbeck",
+          "The Pre sident of the class"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: the President of the United States. the President of the United States; to indicate preeminence or distinction in certain specified instances, a common-noun title immediately following the name of a person or used alone as a substitute for it is capitalized.",
+          "incorrect": [
+            "",
+            "Not: doctor Tom Smith. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Novelist John Steinbeck. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The Pre sident of the class. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 92,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which word is NOT spelled correctly?",
+        "choices": [
+          "st ationery",
+          "machinery",
+          "exemplary",
+          "disciplinery"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: disciplinery. disciplinery; Correct spelling: disciplinary",
+          "incorrect": [
+            "Not: st ationery. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: machinery. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: exemplary. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 93,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which underlined word below is NOT spelled correctly? Jupiter is larger than any planet in the solar sistem.",
+        "choices": [
+          "Jupiter",
+          "solar",
+          "sistem",
+          "larger"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: sistem. sistem; correctly spelled system.",
+          "incorrect": [
+            "Not: Jupiter. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: solar. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: larger. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 94,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "su press",
+          "dispair",
+          "conceive",
+          "tonsels"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: conceive. conceive; other words correctly spelled are: suppress, despair, and tonsils.",
+          "incorrect": [
+            "Not: su press. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: dispair. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: tonsels. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 95,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which sentence has all the words spelled correctly?",
+        "choices": [
+          "The plant grow strudy in the hot house.",
+          "Gold coins seem a better invistment.",
+          "Sometimes Alex feals week and tried.",
+          "The roasted goose looks sensational."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The roasted goose looks sensational.. The roasted goose looks sensational.",
+          "incorrect": [
+            "Not: The plant grow strudy in the hot house.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Gold coins seem a better invistment.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Sometimes Alex feals week and tried.. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 96,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which is spelled correctly?",
+        "choices": [
+          "curo us",
+          "curius",
+          "cureous",
+          "curious"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: curious. curious",
+          "incorrect": [
+            "Not: curo us. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: curius. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: cureous. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 97,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which is the correct spelling for more than one cemetery?",
+        "choices": [
+          "cemet eryes",
+          "cemeterys’",
+          "cemeteries",
+          "cemeterys"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cemeteries. cemeteries",
+          "incorrect": [
+            "Not: cemet eryes. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: cemeterys’. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: cemeterys. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 98,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which word is NOT spelled correctly?",
+        "choices": [
+          "d rinking",
+          "bakeing",
+          "shaking",
+          "batting"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: bakeing. bakeing; correctly spelled ‘baking’",
+          "incorrect": [
+            "Not: d rinking. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: shaking. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: batting. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 99,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Which underlined word is NOT spelled correctly? The grizzly bare frightened me in the forest.",
+        "choices": [
+          "griz zly",
+          "frightened",
+          "bare",
+          "forest"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: bare. bare; the correct use of the word would be spelled ‘bear’ - a large heavy mammal that has long shaggy hair and feeds largely on fruit, plant, matter and insects as well as flesh.",
+          "incorrect": [
+            "Not: griz zly. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: frightened. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: forest. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 100,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which underlined word is NOT spelled correctly? The ambulance stoped at the emergency entrance.",
+        "choices": [
+          "ambulance",
+          "stoped",
+          "emergency",
+          "entrance"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: stoped. stoped; correctly spelled ‘stopped’",
+          "incorrect": [
+            "Not: ambulance. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: emergency. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: entrance. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 101,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "recieving",
+          "receeving",
+          "receaving",
+          "receiving"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: receiving. receiving - follows the rule ‘i before e, except after c’",
+          "incorrect": [
+            "Not: recieving. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: receeving. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: receaving. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 102,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Select the sentence with all words spelled correctly.",
+        "choices": [
+          "Ann likes to read storys about partys.",
+          "The wifes made delicious loafs of bread.",
+          "The funny monkeys played with the toys",
+          "The branchs sank from the weight of the snow."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The funny monkeys played with the toys. The funny monkeys played with the toys. Misspelled words: A - stories/parties, B - wives/loaves, D - branches.",
+          "incorrect": [
+            "Not: Ann likes to read storys about partys.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The wifes made delicious loafs of bread.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: The branchs sank from the weight of the snow.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 103,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which spelling is correct?",
+        "choices": [
+          "secretary",
+          "secretery",
+          "secratary",
+          "secritary"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: secretary. secretary",
+          "incorrect": [
+            "",
+            "Not: secretery. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: secratary. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: secritary. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 104,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "misp ell",
+          "extrardinary",
+          "critisize",
+          "recommend"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: recommend. recommend; Correct spelling: A - misspell, B - extraordinary, C - criticize",
+          "incorrect": [
+            "Not: misp ell. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: extrardinary. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: critisize. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 105,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which sentence has all the words spelled correctly?",
+        "choices": [
+          "Grandma served warm apple pie for desert.",
+          "This car needs a thurough cleaning.",
+          "The captain of the ship wore a blue uniform.",
+          "I have seen a prairy dog."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The captain of the ship wore a blue uniform.. The captain of the ship wore a blue uniform. Incor rect spellings: A - dessert, B - thorough, D - prairie.",
+          "incorrect": [
+            "Not: Grandma served warm apple pie for desert.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: This car needs a thurough cleaning.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: I have seen a prairy dog.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 106,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "t eeth",
+          "teefe",
+          "teethe",
+          "teef"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: t eeth. teeth - plural of tooth",
+          "incorrect": [
+            "",
+            "Not: teefe. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: teethe. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: teef. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 107,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which sentence has the underlined word spelled correctly?",
+        "choices": [
+          "I think a letter has been omitted from that word.",
+          "Lisa benifited from the art lesson she took.",
+          "Sophia will flatten the clay with a rolling pin.",
+          "I need to sharpin my pencil for the exam."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Sophia will flatten the clay with a rolling pin.. Sophia will flatten the clay with a rolling pin. Corr ect spellings: A - omitted, B - benefited, D - sharpen.",
+          "incorrect": [
+            "Not: I think a letter has been omitted from that word.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Lisa benifited from the art lesson she took.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: I need to sharpin my pencil for the exam.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 108,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which spelling is correct?",
+        "choices": [
+          "t hiefs",
+          "thieves",
+          "thiefes",
+          "thieveses"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: thieves. thieves - (plural of thief) - people who steal, especially secretly.",
+          "incorrect": [
+            "Not: t hiefs. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: thiefes. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: thieveses. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 109,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "anonymous",
+          "anonimous",
+          "anonymous",
+          "anonimus"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: anonymous. anonymous",
+          "incorrect": [
+            "Not: anonymous. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: anonimous. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: anonimus. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 110,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which underlined word is NOT spelled correctly? Our teacher was absent yesterday, so we had a substatute.",
+        "choices": [
+          "t eacher",
+          "absent",
+          "yesterday",
+          "substatute"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: substatute. substatute; correct spelling - substitute",
+          "incorrect": [
+            "Not: t eacher. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: absent. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: yesterday. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 111,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 1
+        }
+      },
+      {
+        "question": "Which word is NOT spelled correctly?",
+        "choices": [
+          "sep arate",
+          "library",
+          "niusan ce",
+          "necessary"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: niusan ce. niusance; correct spelling - nuisance",
+          "incorrect": [
+            "Not: sep arate. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: library. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: necessary. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 112,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "d isapear",
+          "disappear",
+          "disappeer",
+          "disapeer"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: disappear. disappear",
+          "incorrect": [
+            "Not: d isapear. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: disappeer. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: disapeer. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "spelling",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 113,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
       }
     ],
     "metadata": {

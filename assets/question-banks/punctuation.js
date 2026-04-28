@@ -852,6 +852,349 @@
           "sourceFile": "Basic-3_grammer and usage.pdf",
           "sourceQuestionNumber": 3
         }
+      },
+      {
+        "question": "Which sentence needs a period at the end?",
+        "choices": [
+          "Why are you happy",
+          "What is your favorite color",
+          "We like to go to school",
+          "Where did you go yesterday"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: We like to go to school. We like to go to school. A statement is being made, therefore the sentence ends in a period.",
+          "incorrect": [
+            "Not: Why are you happy. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: What is your favorite color. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Where did you go yesterday. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 17,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which has the correct end mark?",
+        "choices": [
+          "Do you like to read",
+          "Do you like to read?",
+          "Do you like to read.",
+          "Do you like to read,"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Do you like to read?. Do you like to read?; A question is being asked, therefore the correct ending punctuation is a question mark.",
+          "incorrect": [
+            "Not: Do you like to read. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Do you like to read.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Do you like to read,. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 18,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which one has the correct mark?",
+        "choices": [
+          "Get in line for lunch",
+          "Get in line for lunch,",
+          "Get in line for lunch.",
+          "Get in line for lunch?"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Get in line for lunch.. Get in line for lunch. A statement is being made, therefore the correct ending punctuation is a period.",
+          "incorrect": [
+            "Not: Get in line for lunch. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Get in line for lunch,. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Get in line for lunch?. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 19,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which of the following is correct?",
+        "choices": [
+          "w here did you go?",
+          "What time is dinner.",
+          "who wants a rootbeer float?",
+          "When did you read that book?"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: When did you read that book?. When did you read that book? The question starts with a capital letter and ends with a question mark.",
+          "incorrect": [
+            "Not: w here did you go?. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: What time is dinner.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: who wants a rootbeer float?. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 20,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which sentence asks a question?",
+        "choices": [
+          "Do you want to go to the zoo",
+          "We picked apples from the apple tree",
+          "I like to walk to the pond",
+          "She went to the library"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Do you want to go to the zoo. Do you want to go to the zoo? ‘Do’ is an interrogative word or a question word.",
+          "incorrect": [
+            "",
+            "Not: We picked apples from the apple tree. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: I like to walk to the pond. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: She went to the library. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 21,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which punctuation is needed for the sentence below? Do you know the name of the governor of the state ___",
+        "choices": [
+          ";",
+          "!",
+          "?",
+          "."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ?. ?; the word “do” designates that a question is being asked.",
+          "incorrect": [
+            "Not: ;. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: !. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: .. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 22,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "How would you end this sentence?",
+        "choices": [
+          "The house is on fire.",
+          "The house is on fire?",
+          "The house is on fire",
+          "The house is on fire!"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The house is on fire!. The house is on fire! This is an exclamatory sentence and requires an excl amation point.",
+          "incorrect": [
+            "Not: The house is on fire.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The house is on fire?. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The house is on fire. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 23,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
       }
     ],
     "metadata": {
@@ -3296,6 +3639,447 @@
             "Not: For the project, we need poster board, colored pencils and, a folder with pockets. The words are right, but the mechanics are not.",
             "Not: For the project, we need, poster board, colored pencils, and a folder with pockets. Adds a comma where it does not belong."
           ]
+        }
+      },
+      {
+        "question": "Which blanks in the paragraph below need punctuation? Trees come in all shapes __A__ and sizes __B__ many trees are popular in landscaping __C__ how many trees are planted __D__ around your school __E__ at our school, each year the fifth grade plants a tree__F__ the trees help beautify our campus __G__",
+        "choices": [
+          "B, C, E, F, G",
+          "B, D, E",
+          "A, C, G",
+          "C, D, E, G"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: B, C, E, F, G. B, C, E, F, G; Trees come in all shapes and sizes. Many trees are popular in landscaping. F G How many trees are planted around your school? At our school, each year the fifth",
+          "incorrect": [
+            "",
+            "Not: B, D, E. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: A, C, G. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: C, D, E, G. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 16,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Wh ere should commas be placed in this sentence? While they waited __A__ for Santa Claus __B__ m y kids made chocolate chip __C__ cookies __D__ and they made sure __E__ there was plenty of cold milk.",
+        "choices": [
+          "B, E",
+          "A, C, E",
+          "B, D",
+          "A, C, D"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: B, D. B, D; Wh ile they waited for Santa Clause, my kids made chocolate chip cookies, and B D they made sure there was plenty of cold milk.",
+          "incorrect": [
+            "Not: B, E. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: A, C, E. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: A, C, D. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 17,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "In which sentence are the commas correct?",
+        "choices": [
+          "We went to the store and bought bread, eggs, and milk.",
+          "We, went to the store and bought bread eggs and milk.",
+          "We went to, the store and, bought bread eggs and milk.",
+          "We went, to the, store and bought bread eggs and milk."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: We went to the store and bought bread, eggs, and milk.. We went to the store and bought bread, eggs, and milk. A comma is correctly used to separate items in a series.",
+          "incorrect": [
+            "",
+            "Not: We, went to the store and bought bread eggs and milk.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: We went to, the store and, bought bread eggs and milk.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: We went, to the, store and bought bread eggs and milk.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 18,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence uses the comma in the correct place?",
+        "choices": [
+          "We went to the zoo and we, fed the animals.",
+          "We went to the zoo, and we fed the animals.",
+          "We went to the zoo and we fed the animals.",
+          "We went to the zoo and we fed, the animals."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: We went to the zoo, and we fed the animals.. We went to the zoo, and we fed the animals.; A comma is used before the conjunction ‘and’ to join two independent clauses.",
+          "incorrect": [
+            "Not: We went to the zoo and we, fed the animals.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: We went to the zoo and we fed the animals.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: We went to the zoo and we fed, the animals.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 19,
+          "sourceFile": "Basic-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence has the correct use of the comma?",
+        "choices": [
+          "If you practice often, skating is easy.",
+          "If you, practice often skating is easy.",
+          "If you practice often skating, is easy.",
+          "If you practice, often skating is easy."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: If you practice often, skating is easy.. If you practice often, skating is easy.",
+          "incorrect": [
+            "",
+            "Not: If you, practice often skating is easy.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: If you practice often skating, is easy.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: If you practice, often skating is easy.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 20,
+          "sourceFile": "Basic-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Choose the correct usage of a comma for an introductory word.",
+        "choices": [
+          "N o, you can’t eat a cookie.",
+          "No you can’t, eat a cookie.",
+          "No you can’t eat a cookie.",
+          "No you, can’t eat a cookie."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: N o, you can’t eat a cookie.. No, you can’t eat a cookie.",
+          "incorrect": [
+            "",
+            "Not: No you can’t, eat a cookie.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: No you can’t eat a cookie.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: No you, can’t eat a cookie.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 21,
+          "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which word should have a comma following it? Carrying a huge box the janitor knocked me into a drinking fountain.",
+        "choices": [
+          "huge",
+          "me",
+          "janitor",
+          "box"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: box. box; Carrying a huge box, the janitor knocked me into a drinking fountain.",
+          "incorrect": [
+            "Not: huge. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: me. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: janitor. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 22,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "Billy, on the other hand turned his report in yeste rday.",
+          "Billy, on the other hand, turned his report in yesterday.",
+          "Billy on the other hand turned his report in yesterday.",
+          "Billy on the other hand, turned his report in yeste rday."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Billy, on the other hand, turned his report in yesterday.. Billy, on the other hand, turned his report in yesterday. ‘on the other hand’ is a nonessential phrase, it is not necessary and adds i nformation that is not needed. Nonessential phrases need commas around them.",
+          "incorrect": [
+            "Not: Billy, on the other hand turned his report in yeste rday.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Billy on the other hand turned his report in yesterday.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Billy on the other hand, turned his report in yeste rday.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 23,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence uses commas correctly?",
+        "choices": [
+          "The students, gave the principal Mr. Smith a special award.",
+          "The students gave, Mr. Smith a special award.",
+          "The students gave the principal, Mr. Smith, a special award.",
+          "The students gave the principal Mr. Smith, a special award."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The students gave the principal, Mr. Smith, a special award.. The students gave the principal, Mr. Smith, a special award. “Mr. Smith” is nonessential information, it is separated with commas.",
+          "incorrect": [
+            "Not: The students, gave the principal Mr. Smith a special award.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The students gave, Mr. Smith a special award.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: The students gave the principal Mr. Smith, a special award.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 24,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
         }
       }
     ],
@@ -7372,6 +8156,202 @@
           "sourceSet": "punctuation-apostrophes-contractions",
           "sequence": 15
         }
+      },
+      {
+        "question": "Which is the contraction for ‘do not’?",
+        "choices": [
+          "donot",
+          "don’t",
+          "d’not",
+          "doonot"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: don’t. don’t; the contraction for do not is don’t.",
+          "incorrect": [
+            "Not: donot. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: d’not. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: doonot. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 16,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Choose the correct missing word. I know ________ the right choice.",
+        "choices": [
+          "you r",
+          "your’e",
+          "youre",
+          "you’re"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: you’re. you’re; the contraction for “you are” is “you’re”.",
+          "incorrect": [
+            "Not: you r. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: your’e. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: youre. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 17,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which sentence below uses capitalization correctly? A) Whenever I have time, I go and ride my bike. B) I’ll ask my mom, “will you come with me?” C) she usually stops what she’s doing to take a Bike ride. D) it’s a lot of fun.",
+        "choices": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: A. Whenever I have time, I go and ride my bike.",
+          "incorrect": [
+            "",
+            "Not: B. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: C. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: D. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 18,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence is written correctly?",
+        "choices": [
+          "The weatherman said that its going to be a warm day.",
+          "The weatherman said that it’s going to be a warm day.",
+          "The weatherman said that it going to be a warm day.",
+          "The weatherman said that its’ going to be a warm day."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The weatherman said that it’s going to be a warm day.. The weatherman said that it’s going to be a warm day. It’s is the contraction for ‘it is’.",
+          "incorrect": [
+            "Not: The weatherman said that its going to be a warm day.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: The weatherman said that it going to be a warm day.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The weatherman said that its’ going to be a warm day.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 19,
+          "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 2
+        }
       }
     ],
     "metadata": {
@@ -8382,6 +9362,104 @@
           "sequence": 19,
           "sourceFile": "Proficient-6_grammer and usage.pdf",
           "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly to show plural possession?",
+        "choices": [
+          "The boys’ uniform’s were worn and dirty, but the boy’s attitudes were still confident.",
+          "The boys’ uniforms were worn and dirty, but the boys’ attitudes were still confident.",
+          "The boys uniform’s were worn and dirty, but the boys attitudes were still confident.",
+          "The boy’s uniforms were worn and dirty, but the boys attitudes were still confident."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The boys’ uniforms were worn and dirty, but the boys’ attitudes were still confident.. The boys’ uniforms were worn and dirty, but the boys’ attitudes were still confident. Boys’ uniforms and boys’ attitudes show plural possession.",
+          "incorrect": [
+            "Not: The boys’ uniform’s were worn and dirty, but the boy’s attitudes were still confident.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: The boys uniform’s were worn and dirty, but the boys attitudes were still confident.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: The boy’s uniforms were worn and dirty, but the boys attitudes were still confident.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 20,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which words means the uniforms belong to both girls?",
+        "choices": [
+          "the girl’s uniforms",
+          "the girls’ uniforms’",
+          "the girls uniforms",
+          "the girls’ uniforms"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: the girls’ uniforms. the girls’ uniforms; when the plural of a noun that ends in ‘s’ is possessive, the new possessive noun is formed by adding and apostrophe after the ‘s’ (girls’)",
+          "incorrect": [
+            "Not: the girl’s uniforms. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: the girls’ uniforms’. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: the girls uniforms. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 21,
+          "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 10
         }
       }
     ],
@@ -26602,6 +27680,447 @@
           "reviewPriority": "high",
           "sourceSet": "punctuation-dialogue-mechanics",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "“I wonder,” Jane said, “if I should remind Jeff to pack his lunch?”",
+          "“I wonder” Jane said “if I should remind Jeff to pack his lunch?”",
+          "“I wonder,” Jane said “if I should remind Jeff to pack his lunch?”",
+          "“I wonder”, Jane said, “if I should remind, Jeff, to pack his lunch?”"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: “I wonder,” Jane said, “if I should remind Jeff to pack his lunch?”. “I wonder,” Jane said, “if I should remind Jeff to pack his lunch?”",
+          "incorrect": [
+            "",
+            "Not: “I wonder” Jane said “if I should remind Jeff to pack his lunch?”. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “I wonder,” Jane said “if I should remind Jeff to pack his lunch?”. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “I wonder”, Jane said, “if I should remind, Jeff, to pack his lunch?”. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 181,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which word or words should be capitalized? “before you go,” he said, “be sure to leave a note for me.”",
+        "choices": [
+          "before, be",
+          "before, he, be",
+          "before",
+          "be fore, me"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: before. before; “Before you go,” he said, “be sure to leave a note for me.”",
+          "incorrect": [
+            "Not: before, be. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: before, he, be. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: be fore, me. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 182,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Wh ic h sentence is capitalized correctly?",
+        "choices": [
+          "“stop,” the officer commanded, “you must wait h ere.”",
+          "“After practice,” coach said, “We are going to watch film.”",
+          "“I ordered a pizza,” Bob said. “why don’t you order dessert?”",
+          "“Before y ou go to the game,” Mom said, “you must clean your room.”"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: “Before y ou go to the game,” Mom said, “you must clean your room.”. “Before you go to the game,” Mom said, “you must clean your room.” B C",
+          "incorrect": [
+            "Not: “stop,” the officer commanded, “you must wait h ere.”. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “After practice,” coach said, “We are going to watch film.”. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “I ordered a pizza,” Bob said. “why don’t you order dessert?”. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 183,
+          "sourceFile": "Advanced-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which words should be capitalized? Susan asked, “mother, will my aunt and uncle be attending dad’s family re union with us?”",
+        "choices": [
+          "mo ther, dad’s family",
+          "mother, aunt, uncle",
+          "mother, aunt, uncle, dad’s",
+          "mother, dad’s"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: mother, dad’s. mother, dad’s; Mother and Dad’s should be capitalized beca use they are used as a name.",
+          "incorrect": [
+            "Not: mo ther, dad’s family. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: mother, aunt, uncle. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: mother, aunt, uncle, dad’s. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 184,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "In the sentence below, which underlined word should be capitalized? The small child asked, “ how many chairs do we need?”",
+        "choices": [
+          "child",
+          "how",
+          "chairs",
+          "we"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: how. how; “How many chairs do we need?”; When quoting, the first word of a complete sentence should be capitalized regardless of its placement within the main sentence.",
+          "incorrect": [
+            "Not: child. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: chairs. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: we. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 185,
+          "sourceFile": "Basic-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 9
+        }
+      },
+      {
+        "question": "Which underlined word should be capitalized? Jean asked, “ where did the girls put my keys?”",
+        "choices": [
+          "keys",
+          "girls",
+          "where",
+          "asked"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: where. where; “Where did the g irls put my keys?”; When quoting, the first word of a complete sentence should be capitalized regardless of its placement within the main sentence.",
+          "incorrect": [
+            "Not: keys. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: girls. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: asked. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 186,
+          "sourceFile": "Proficient-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 6
+        }
+      },
+      {
+        "question": "Wh en writing a direct quotation, which word or words are always ca pitalized?",
+        "choices": [
+          "all of the nouns",
+          "all of the important words",
+          "the last word in the quotation",
+          "the first word in the quotation"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: the first word in the quotation. the first word in the quotation",
+          "incorrect": [
+            "Not: all of the nouns. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: all of the important words. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: the last word in the quotation. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 187,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which words should be capitalized in the sentence below? as the young boy sauntered down the street, he yelled, “buy your newspaper from me!”",
+        "choices": [
+          "as, street",
+          "as, boy",
+          "as, buy",
+          "as, newspaper"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: as, buy. as, buy; capitalize the first word in a sentence an d the first word of a sentence that is a direct quote.",
+          "incorrect": [
+            "Not: as, street. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: as, boy. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: as, newspaper. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 188,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which of the following is written incorrectly?",
+        "choices": [
+          "“Hi,” said Jenny.",
+          "Tory answered, “how are you doing?”",
+          "‘I’m great,” said Amanda.",
+          "Laticia said, “Do you want to walk to school?”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Tory answered, “how are you doing?”. Tory answered, “how are you doing?”; corr ect - Tory answered, “How are you doing?”",
+          "incorrect": [
+            "Not: “Hi,” said Jenny.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: ‘I’m great,” said Amanda.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Laticia said, “Do you want to walk to school?”. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "editing"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 189,
+          "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
         }
       }
     ],

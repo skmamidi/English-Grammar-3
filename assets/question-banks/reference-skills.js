@@ -2433,6 +2433,349 @@
           "sourceSet": "reference-skills-italicize",
           "sequence": 15
         }
+      },
+      {
+        "question": "Which types of words are always capitalized?",
+        "choices": [
+          "street names, common nouns",
+          "general compass directions, titles",
+          "proper adjectives, cardinal numbers",
+          "proper nouns, geographical locations"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: proper nouns, geographical locations. Jaws proper nouns, geographical locations; examples: proper noun - Christopher, geographical location - Paris.",
+          "incorrect": [
+            "Not: street names, common nouns. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: general compass directions, titles. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: proper adjectives, cardinal numbers. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "titles",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence is correctly punctuated?",
+        "choices": [
+          "Shreyas’ going to the mall.",
+          "Shreya’s going to the mall.",
+          "Shrey’as going to the mall.",
+          "Shreyas’s going to the mall. Jaws"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Shreya’s going to the mall.. Shreya’s going to the mall. “Shreya’s” is the contraction for “ Shreya is”.",
+          "incorrect": [
+            "Not: Shreyas’ going to the mall.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "",
+            "Not: Shrey’as going to the mall.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Shreyas’s going to the mall. Jaws. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "titles",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 17,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which sentence correctly punctuates the movie title?",
+        "choices": [
+          "Jaws was a scary movie when it first came out.",
+          "“Jaws” was a scary movie when it first came out.",
+          "Jaws was a scary movie when it first came out.",
+          "was a scary movie when it first came out."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: was a scary movie when it first came out.. was a scary movie when it first came out. Movie titles are italicized.",
+          "incorrect": [
+            "Not: Jaws was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “Jaws” was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Jaws was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "titles",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 18,
+          "sourceFile": "Advanced-1_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which words should be capitalized? My friend, who is an exchange student from sweden, taught swedish phrases to the latin o club at my high school.",
+        "choices": [
+          "sw eden, swedish, latino",
+          "sweden, swedish",
+          "sweden, swedish, latino, club",
+          "sweden, swedish, latino, club, high school"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: sw eden, swedish, latino. sweden, swedish, latino; Countries, nationalities, and languages should be capitalized because they are proper nouns. Sports Illustrated",
+          "incorrect": [
+            "",
+            "Not: sweden, swedish. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: sweden, swedish, latino, club. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: sweden, swedish, latino, club, high school. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "titles",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 19,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 5
+        }
+      },
+      {
+        "question": "Which sentence uses commas correctly?",
+        "choices": [
+          "I w ent to the store and bought gold fish, pudding, and yogurt.",
+          "I went to the store, and bought gold fish, pudding, and yogurt.",
+          "I went to the store and bought, gold fish, pudding, and yogurt.",
+          "I went to the store and bought gold fish pudding, and yogurt. Sports Illustrated"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I w ent to the store and bought gold fish, pudding, and yogurt.. I went to the store and bought gold fish, pudding, and yogurt.",
+          "incorrect": [
+            "",
+            "Not: I went to the store, and bought gold fish, pudding, and yogurt.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: I went to the store and bought, gold fish, pudding, and yogurt.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: I went to the store and bought gold fish pudding, and yogurt. Sports Illustrated. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "titles",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 20,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "is a popular magazi ne.",
+          "Sports Illustrated is a popular magazine.",
+          "Sport s Illustrated is a popular magazine.",
+          "“Sports Illustrated” is a popular magazine."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: is a popular magazi ne.. is a popular magazine. Magazines are italicized.",
+          "incorrect": [
+            "",
+            "Not: Sports Illustrated is a popular magazine.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Sport s Illustrated is a popular magazine.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: “Sports Illustrated” is a popular magazine.. Check the capitalization, punctuation, or spelling clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "titles",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 21,
+          "sourceFile": "Advanced-3_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which sentence punctuates the title Great Expectations correctly?",
+        "choices": [
+          "Have you read Dickens’, Great Expectations? Great Expectations",
+          "Have you read Dickens’ “ Great Expectations ”?",
+          "Have you read Dickens’? Great Exp ectations",
+          "Have you read Dickens’? car"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Have you read Dickens’? car. Italicize titles of long works or for collections of short works.",
+          "incorrect": [
+            "Not: Have you read Dickens’, Great Expectations? Great Expectations. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Have you read Dickens’ “ Great Expectations ”?. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Have you read Dickens’? Great Exp ectations. Check the capitalization, punctuation, or spelling clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "titles",
+            "mechanics"
+          ],
+          "feedbackFocus": "use the mechanics clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 22,
+          "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
+          "sourceQuestionNumber": 8
+        }
       }
     ],
     "metadata": {

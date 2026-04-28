@@ -779,8 +779,10 @@ function renderAuthUi(message) {
   document.body.classList.toggle("parent-browse-open", parentMode && isParentBrowseOpen());
   renderAuthGate({ signedIn, studentMode, parentMode });
   renderReportAccess({ parentMode, studentMode });
+  renderParentReportsShell(parentMode);
   preserveParentBrowseLinks(parentMode && isParentBrowseOpen());
   if (!parentMode) removeParentDashboard();
+  if (!parentMode) removeParentTabs();
 
   document.querySelectorAll("[data-auth-root]").forEach(root => {
     if (!state.enabled) {
@@ -884,6 +886,7 @@ async function renderParentDashboard() {
   }
 
   dashboard.innerHTML = `
+    ${renderParentTabs("students")}
     <div class="parent-dashboard-header">
       <div>
         <div class="quest-kicker">Parent / Teacher</div>
@@ -911,8 +914,38 @@ async function renderParentDashboard() {
   await renderStudentProfiles();
 }
 
+function renderParentTabs(activeTab) {
+  return `
+    <nav class="parent-mode-tabs" aria-label="Parent workspace">
+      <a class="${activeTab === "students" ? "active" : ""}" href="${appHomeHref()}">Student Management</a>
+      <a class="${activeTab === "reports" ? "active" : ""}" href="${reportsHref()}">Reports</a>
+    </nav>
+  `;
+}
+
+function renderParentReportsShell(parentMode) {
+  if (!isReportsPage()) return;
+  const main = document.querySelector("main.reports-shell");
+  if (!main) return;
+  let tabs = main.querySelector("[data-parent-tabs]");
+  if (!parentMode) {
+    if (tabs) tabs.remove();
+    return;
+  }
+  if (!tabs) {
+    tabs = document.createElement("div");
+    tabs.setAttribute("data-parent-tabs", "");
+    main.prepend(tabs);
+  }
+  tabs.innerHTML = renderParentTabs("reports");
+}
+
 function removeParentDashboard() {
   document.querySelectorAll("[data-parent-dashboard]").forEach(item => item.remove());
+}
+
+function removeParentTabs() {
+  document.querySelectorAll("[data-parent-tabs]").forEach(item => item.remove());
 }
 
 function tagReportLinks() {

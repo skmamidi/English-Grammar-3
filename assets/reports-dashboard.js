@@ -814,7 +814,7 @@
     if (student.avatarSvg) return student.avatarSvg;
     const avatar = window.GrammarQuestAvatar;
     if (avatar && typeof avatar.render === 'function' && student.avatarParts) {
-      return avatar.render(student.avatarParts);
+      return avatar.render({ ...student.avatarParts, studentName: student.name });
     }
     return '';
   }

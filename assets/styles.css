@@ -739,8 +739,27 @@ body.auth-locked main {
   padding: 12px;
 }
 
-.login-name-builder label {
+.login-name-builder .login-builder-field {
+  display: grid;
+  gap: 7px;
   min-width: 0;
+}
+
+.login-ignore-option {
+  align-items: center;
+  color: var(--text-muted);
+  display: flex;
+  font-size: 0.82rem;
+  font-weight: 700;
+  gap: 8px;
+  line-height: 1.25;
+}
+
+.login-ignore-option input {
+  accent-color: var(--primary);
+  height: 16px;
+  margin: 0;
+  width: 16px;
 }
 
 .student-avatar-preview {

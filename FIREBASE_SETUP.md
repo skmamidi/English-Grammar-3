@@ -107,18 +107,21 @@ service cloud.firestore {
     }
 
     match /managedStudents/{studentId} {
-      allow read: if signedIn() && resource.data.ownerUid == request.auth.uid;
+      allow read: if (signedIn() && resource.data.ownerUid == request.auth.uid)
+        || resource.data.loginName is string;
       allow create: if signedIn()
         && request.resource.data.ownerUid == request.auth.uid
         && request.resource.data.studentId == studentId;
       allow update: if ownsStudent(studentId)
         && request.resource.data.ownerUid == request.auth.uid
         && request.resource.data.studentId == studentId;
+      allow update: if !signedIn()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["progress", "updatedAt"]);
       allow delete: if ownsStudent(studentId);
     }
 
     match /studentLoginNames/{loginName} {
-      allow get: if signedIn();
+      allow get: if true;
       allow list: if false;
       allow create: if signedIn()
         && request.resource.data.ownerUid == request.auth.uid

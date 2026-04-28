@@ -8,6 +8,7 @@ const state = {
   user: null,
   profile: null,
   activeStudent: loadActiveStudent(),
+  sessionMode: loadSessionMode(),
   syncStatus: firebaseSettings.enabled ? "idle" : "local",
   firebase: null,
   modal: null
@@ -23,6 +24,8 @@ window.GrammarQuestAuth = {
   open: () => openModal(),
   createManagedStudent,
   selectManagedStudent,
+  loginStudentByName,
+  clearActiveStudent,
   loadManagedStudents,
   loadStudentProgress
 };
@@ -89,10 +92,19 @@ function injectAuthShell() {
   gate.innerHTML = `
     <div class="auth-gate-card">
       <div class="quest-kicker">English Language Mastery</div>
-      <h1 data-auth-gate-title>Grownup sign in</h1>
-      <p data-auth-gate-copy>Sign in to choose a student profile and start practice.</p>
-      <div data-auth-gate-signin>
-        ${renderSignInPanel()}
+      <h1 data-auth-gate-title>Choose how to enter</h1>
+      <p data-auth-gate-copy>Students can start practice with a login name. Parents and teachers can manage students and reports.</p>
+      <div class="auth-entry-grid" data-auth-entry-grid>
+        <section class="auth-entry-card">
+          <h2>Student</h2>
+          <p>Use your student login name to continue practice.</p>
+          ${renderStudentLoginPanel()}
+        </section>
+        <section class="auth-entry-card">
+          <h2>Parent / Teacher</h2>
+          <p>Sign in to manage students and review progress.</p>
+          ${renderSignInPanel()}
+        </section>
       </div>
       <div class="auth-gate-tools hidden" data-auth-gate-tools>
         <div class="auth-tools" data-auth-gate-grownup-tools></div>
@@ -155,6 +167,18 @@ function renderSignInPanel() {
   `;
 }
 
+function renderStudentLoginPanel() {
+  return `
+    <form class="auth-form" data-student-public-form>
+      <label>
+        <span>Student Login Name</span>
+        <input type="text" name="loginName" autocomplete="username" placeholder="spark-reader-27" required>
+      </label>
+      <button class="btn btn-primary" type="submit">Start Student Practice</button>
+    </form>
+  `;
+}
+
 function renderStudentTools(includeParentModeButton) {
   return `
     <form data-create-student-form>
@@ -168,13 +192,6 @@ function renderStudentTools(includeParentModeButton) {
       </label>
       <button class="btn btn-secondary" type="button" data-suggest-login-name>Suggest Name</button>
       <button class="btn btn-primary" type="submit">Create Student</button>
-    </form>
-    <form data-select-student-form>
-      <label>
-        <span>Student Login Name</span>
-        <input type="text" name="loginName" autocomplete="off" placeholder="spark-reader-27" required>
-      </label>
-      <button class="btn btn-secondary" type="submit">Start Student Session</button>
     </form>
     ${includeParentModeButton ? '<button class="btn btn-secondary" type="button" data-clear-student-session>Return to parent mode</button>' : ''}
   `;
@@ -190,6 +207,8 @@ function wireModalEvents() {
     const suggestButton = event.target.closest("[data-suggest-login-name]");
     const studentButton = event.target.closest("[data-student-id]");
     const clearStudentButton = event.target.closest("[data-clear-student-session]");
+    const deleteStudentButton = event.target.closest("[data-delete-student-id]");
+    const resetStudentButton = event.target.closest("[data-reset-student-id]");
 
     if (openButton) openModal();
     if (closeButton || event.target.id === "auth-modal") closeModal();
@@ -199,6 +218,8 @@ function wireModalEvents() {
     if (suggestButton) suggestLoginName(suggestButton);
     if (studentButton) await handleSelectStudentById(studentButton.dataset.studentId);
     if (clearStudentButton) await clearActiveStudent();
+    if (deleteStudentButton) await handleDeleteStudent(deleteStudentButton.dataset.deleteStudentId);
+    if (resetStudentButton) await handleResetStudent(resetStudentButton.dataset.resetStudentId);
   });
 
   document.addEventListener("submit", async event => {
@@ -217,6 +238,11 @@ function wireModalEvents() {
       const loginName = String(new FormData(event.target).get("loginName") || "");
       await handleSelectStudentByLogin(loginName);
     }
+    if (event.target.matches("[data-student-public-form]")) {
+      event.preventDefault();
+      const loginName = String(new FormData(event.target).get("loginName") || "");
+      await handleStudentPublicLogin(loginName);
+    }
   });
 
   if (progressStore) {
@@ -232,7 +258,12 @@ async function handleAuthState(user) {
 
   if (!user) {
     state.profile = null;
-    if (progressStore) progressStore.setCloudAdapter(null);
+    if (state.sessionMode !== "student") {
+      state.sessionMode = "";
+      if (progressStore) progressStore.setCloudAdapter(null);
+    } else {
+      await refreshActiveStudentAdapter();
+    }
     state.syncStatus = "local";
     notifyAuthState();
     renderAuthUi();
@@ -240,6 +271,10 @@ async function handleAuthState(user) {
   }
 
   state.profile = await ensureGrownupProfile(user);
+  state.sessionMode = "parent";
+  saveSessionMode("parent");
+  clearActiveStudentStorage();
+  state.activeStudent = null;
   await refreshActiveStudentAdapter();
   closeModal();
   notifyAuthState();
@@ -312,8 +347,14 @@ async function signInWithEmail(event, mode) {
 }
 
 async function signOut() {
-  if (!state.firebase) return;
-  await state.firebase.authModule.signOut(state.firebase.auth);
+  state.activeStudent = null;
+  state.sessionMode = "";
+  saveSessionMode("");
+  clearActiveStudentStorage();
+  if (progressStore) progressStore.setCloudAdapter(null);
+  if (state.firebase) await state.firebase.authModule.signOut(state.firebase.auth);
+  notifyAuthState();
+  renderAuthUi();
 }
 
 async function createManagedStudent({ studentName, loginName }) {
@@ -353,7 +394,12 @@ async function createManagedStudent({ studentName, loginName }) {
       updatedAt: firestoreModule.serverTimestamp()
     });
   });
-  return selectManagedStudent(studentId);
+  return {
+    id: studentId,
+    name: cleanName,
+    loginName: normalizedLogin,
+    ownerUid: state.user.uid
+  };
 }
 
 async function selectManagedStudent(identifier) {
@@ -368,8 +414,45 @@ async function selectManagedStudent(identifier) {
   state.activeStudent = {
     id: student.id,
     name: student.name,
-    loginName: student.loginName
+    loginName: student.loginName,
+    ownerUid: student.ownerUid || state.user?.uid || ""
   };
+  state.sessionMode = "student";
+  saveSessionMode("student");
+  saveActiveStudent(state.activeStudent);
+  await refreshActiveStudentAdapter();
+  notifyAuthState();
+  window.dispatchEvent(new CustomEvent(ACTIVE_STUDENT_EVENT, { detail: state.activeStudent }));
+  renderAuthUi();
+  return state.activeStudent;
+}
+
+async function loginStudentByName(loginName) {
+  await readyPromise;
+  if (!state.enabled || !state.firebase) throw new Error("Firebase is not ready yet.");
+  const normalized = normalizeLoginName(loginName);
+  if (!normalized) throw new Error("Enter a student login name.");
+
+  const { db, firestoreModule } = state.firebase;
+  const loginSnapshot = await firestoreModule.getDoc(firestoreModule.doc(db, loginCollection(), normalized));
+  if (!loginSnapshot.exists()) throw new Error("That student login name was not found.");
+
+  const loginData = loginSnapshot.data();
+  const studentId = loginData.studentId || "";
+  if (!studentId) throw new Error("That student login is missing a profile.");
+
+  const studentSnapshot = await firestoreModule.getDoc(managedStudentRef(db, firestoreModule, studentId));
+  if (!studentSnapshot.exists()) throw new Error("That student profile was not found.");
+  const studentData = studentSnapshot.data();
+
+  state.activeStudent = {
+    id: studentId,
+    name: studentData.studentName || loginData.studentName || "Student",
+    loginName: normalized,
+    ownerUid: studentData.ownerUid || loginData.ownerUid || ""
+  };
+  state.sessionMode = "student";
+  saveSessionMode("student");
   saveActiveStudent(state.activeStudent);
   await refreshActiveStudentAdapter();
   notifyAuthState();
@@ -393,6 +476,7 @@ async function loadManagedStudents() {
       id: data.studentId || docSnapshot.id,
       name: data.studentName || "Student",
       loginName: data.loginName || "",
+      ownerUid: data.ownerUid || "",
       source: "Managed",
       progress,
       sessions: progress?.reports?.sessions || []
@@ -400,34 +484,103 @@ async function loadManagedStudents() {
   }).sort((a, b) => a.name.localeCompare(b.name));
 }
 
+async function deleteManagedStudent(studentId) {
+  await readyPromise;
+  requireGrownup();
+  const students = await loadManagedStudents();
+  const student = students.find(item => item.id === studentId);
+  if (!student) throw new Error("Student profile was not found.");
+
+  const { db, firestoreModule } = state.firebase;
+  const batch = firestoreModule.writeBatch(db);
+  batch.delete(managedStudentRef(db, firestoreModule, studentId));
+  if (student.loginName) {
+    batch.delete(firestoreModule.doc(db, loginCollection(), student.loginName));
+  }
+  await batch.commit();
+}
+
+async function resetStudentProgress(studentId, scope) {
+  await readyPromise;
+  requireGrownup();
+  const normalizedScope = String(scope || "").trim().toLowerCase();
+  const { db, firestoreModule } = state.firebase;
+  const ref = managedStudentRef(db, firestoreModule, studentId);
+  const snapshot = await firestoreModule.getDoc(ref);
+  if (!snapshot.exists()) throw new Error("Student profile was not found.");
+  const data = snapshot.data();
+  if (data.ownerUid !== state.user.uid) throw new Error("This student is not connected to the signed-in grownup.");
+
+  const current = progressStore?.normalizeReports ? data.progress || {} : data.progress || {};
+  const next = normalizedScope === "all"
+    ? progressStore?.getDefaultProgress?.() || {}
+    : resetProgressScope(current, normalizedScope);
+
+  await firestoreModule.updateDoc(ref, {
+    progress: next,
+    updatedAt: firestoreModule.serverTimestamp()
+  });
+}
+
+function resetProgressScope(progress, scope) {
+  const base = progressStore?.normalizeReports
+    ? progressStore.mergeProgress(progressStore.getDefaultProgress(), progress)
+    : Object.assign({}, progress);
+  const matches = value => String(value || "").trim().toLowerCase() === scope;
+  const sessions = Array.isArray(base.reports?.sessions) ? base.reports.sessions : [];
+  const removedSessionIds = new Set();
+
+  base.reports = Object.assign({}, base.reports, {
+    sessions: sessions.filter(session => {
+      const shouldRemove = matches(session.topicTitle) || matches(session.subtopicTitle) || matches(session.topicId) || matches(session.subtopicId);
+      if (shouldRemove && session.id) removedSessionIds.add(session.id);
+      return !shouldRemove;
+    })
+  });
+
+  if (base.mastery) {
+    Object.keys(base.mastery).forEach(groupKey => {
+      const group = base.mastery[groupKey] || {};
+      Object.keys(group).forEach(itemKey => {
+        const item = group[itemKey] || {};
+        if (matches(item.label) || matches(itemKey)) delete group[itemKey];
+      });
+    });
+  }
+
+  base.quizzesCompleted = Math.max(0, Number(base.quizzesCompleted || 0) - removedSessionIds.size);
+  return base;
+}
+
 async function loadStudentProgress(studentId) {
   await readyPromise;
-  if (!state.enabled || !state.firebase || !state.user || !studentId) return null;
+  if (!state.enabled || !state.firebase || !studentId) return null;
   const { db, firestoreModule } = state.firebase;
   const snapshot = await firestoreModule.getDoc(managedStudentRef(db, firestoreModule, studentId));
   if (!snapshot.exists()) return null;
   const data = snapshot.data();
-  if (data.ownerUid !== state.user.uid) throw new Error("This student is not connected to the signed-in grownup.");
+  if (state.user && state.sessionMode === "parent" && data.ownerUid !== state.user.uid) {
+    throw new Error("This student is not connected to the signed-in grownup.");
+  }
+  if (state.sessionMode === "student" && data.loginName !== state.activeStudent?.loginName) {
+    throw new Error("This student login does not match the active student.");
+  }
   return data.progress || null;
 }
 
 async function saveStudentProgress(studentId, progress) {
-  if (!state.firebase || !state.user || !studentId) return;
+  if (!state.firebase || !studentId) return;
   const { db, firestoreModule } = state.firebase;
   const ref = managedStudentRef(db, firestoreModule, studentId);
-  await firestoreModule.setDoc(ref, {
-    ownerUid: state.user.uid,
-    studentId,
-    studentName: state.activeStudent?.name || "Student",
-    loginName: state.activeStudent?.loginName || "",
+  await firestoreModule.updateDoc(ref, {
     progress,
     updatedAt: firestoreModule.serverTimestamp()
-  }, { merge: true });
+  });
 }
 
 async function refreshActiveStudentAdapter() {
   if (!progressStore) return;
-  if (!state.user || !state.activeStudent?.id) {
+  if (state.sessionMode !== "student" || !state.activeStudent?.id) {
     progressStore.setCloudAdapter(null);
     return;
   }
@@ -457,16 +610,22 @@ async function handleCreateStudent(formData, form) {
 
 async function clearActiveStudent() {
   state.activeStudent = null;
-  try {
-    localStorage.removeItem("grammarQuestActiveStudentId");
-    localStorage.removeItem("grammarQuestActiveStudentName");
-    localStorage.removeItem("grammarQuestActiveStudentLogin");
-  } catch (error) {
-    // Optional local state.
-  }
+  state.sessionMode = state.user ? "parent" : "";
+  saveSessionMode(state.sessionMode);
+  clearActiveStudentStorage();
   await refreshActiveStudentAdapter();
   notifyAuthState();
   renderAuthUi("Parent mode is active. Reports are available.");
+}
+
+async function handleStudentPublicLogin(loginName) {
+  try {
+    showMessage("Starting student practice...");
+    const student = await loginStudentByName(loginName);
+    showMessage(`${student.name} is ready. Progress will save to this profile.`);
+  } catch (error) {
+    showMessage(authErrorMessage(error));
+  }
 }
 
 async function handleSelectStudentByLogin(loginName) {
@@ -476,6 +635,29 @@ async function handleSelectStudentByLogin(loginName) {
     showMessage(`${student.name} is active. Progress will save to this profile.`);
   } catch (error) {
     showMessage(error.message);
+  }
+}
+
+async function handleDeleteStudent(studentId) {
+  if (!window.confirm("Delete this student profile and its progress? This cannot be undone.")) return;
+  try {
+    await deleteManagedStudent(studentId);
+    showMessage("Student profile deleted.");
+    await renderStudentProfiles();
+  } catch (error) {
+    showMessage(authErrorMessage(error));
+  }
+}
+
+async function handleResetStudent(studentId) {
+  const scope = window.prompt("Reset progress for what? Type ALL, a topic title, or a subtopic title.", "ALL");
+  if (!scope) return;
+  try {
+    await resetStudentProgress(studentId, scope);
+    showMessage(`Progress reset for ${scope}.`);
+    await renderStudentProfiles();
+  } catch (error) {
+    showMessage(authErrorMessage(error));
   }
 }
 
@@ -515,12 +697,13 @@ function loginCollection() {
 }
 
 function renderAuthUi(message) {
-  const signedIn = state.enabled && state.user;
-  const studentMode = signedIn && !!state.activeStudent?.id;
-  const parentMode = signedIn && !studentMode;
+  const signedIn = state.enabled && state.user && state.sessionMode !== "student";
+  const studentMode = state.sessionMode === "student" && !!state.activeStudent?.id;
+  const parentMode = signedIn && state.sessionMode !== "student";
 
   renderAuthGate({ signedIn, studentMode, parentMode });
   renderReportAccess({ parentMode, studentMode });
+  if (!parentMode) removeParentDashboard();
 
   document.querySelectorAll("[data-auth-root]").forEach(root => {
     if (!state.enabled) {
@@ -533,8 +716,8 @@ function renderAuthUi(message) {
       return;
     }
 
-    if (state.user) {
-      const studentLabel = state.activeStudent?.name ? `Student: ${state.activeStudent.name}` : "Parent mode";
+    if (state.user || studentMode) {
+      const studentLabel = studentMode ? `Student: ${state.activeStudent.name}` : "Parent mode";
       root.innerHTML = `
         <div class="auth-signed-in">
           <button class="auth-pill" type="button" data-auth-open>
@@ -551,7 +734,7 @@ function renderAuthUi(message) {
     root.innerHTML = `
       <button class="auth-pill" type="button" data-auth-open>
         <span class="auth-dot"></span>
-        Grownup sign in
+        Sign in
       </button>
     `;
   });
@@ -565,19 +748,21 @@ function renderAuthGate({ signedIn, studentMode, parentMode }) {
   const title = document.querySelector("[data-auth-gate-title]");
   const copy = document.querySelector("[data-auth-gate-copy]");
   const signInPanel = document.querySelector("[data-auth-gate-signin]");
+  const entryGrid = document.querySelector("[data-auth-entry-grid]");
   const toolsWrap = document.querySelector("[data-auth-gate-tools]");
   const tools = document.querySelector("[data-auth-gate-grownup-tools]");
   const reportsPage = isReportsPage();
-  const shouldLock = state.enabled && (!signedIn || (reportsPage && studentMode) || (!studentMode && !reportsPage));
+  const shouldLock = state.enabled && ((!signedIn && !studentMode) || (reportsPage && studentMode));
 
   document.body.classList.toggle("auth-pending", false);
   document.body.classList.toggle("auth-locked", shouldLock);
   if (gate) gate.classList.toggle("hidden", !shouldLock);
   if (!gate) return;
 
-  if (!signedIn) {
-    if (title) title.textContent = "Grownup sign in";
-    if (copy) copy.textContent = "Sign in to choose a student profile and start practice.";
+  if (!signedIn && !studentMode) {
+    if (title) title.textContent = "Choose how to enter";
+    if (copy) copy.textContent = "Students can start practice with a login name. Parents and teachers can manage students and reports.";
+    if (entryGrid) entryGrid.classList.remove("hidden");
     if (signInPanel) signInPanel.classList.remove("hidden");
     if (toolsWrap) toolsWrap.classList.add("hidden");
     return;
@@ -586,6 +771,7 @@ function renderAuthGate({ signedIn, studentMode, parentMode }) {
   if (studentMode && reportsPage) {
     if (title) title.textContent = "Reports are protected";
     if (copy) copy.textContent = "Reports are only available in parent mode.";
+    if (entryGrid) entryGrid.classList.add("hidden");
     if (signInPanel) signInPanel.classList.add("hidden");
     if (toolsWrap) toolsWrap.classList.remove("hidden");
     if (tools) {
@@ -594,20 +780,7 @@ function renderAuthGate({ signedIn, studentMode, parentMode }) {
     return;
   }
 
-  if (parentMode) {
-    if (title) title.textContent = "Choose a student";
-    if (copy) copy.textContent = "Create or choose a student profile before practice starts.";
-    if (signInPanel) signInPanel.classList.add("hidden");
-    if (toolsWrap) toolsWrap.classList.remove("hidden");
-    if (tools) {
-      tools.innerHTML = `
-        <h2>Student profiles</h2>
-        ${renderStudentTools(false)}
-        <div class="student-profile-list" data-student-profile-list></div>
-      `;
-    }
-    renderStudentProfiles();
-  }
+  if (parentMode) renderParentDashboard();
 }
 
 function renderReportAccess({ parentMode, studentMode }) {
@@ -620,6 +793,46 @@ function renderReportAccess({ parentMode, studentMode }) {
   if (!isReportsPage() || !state.enabled) return;
 }
 
+async function renderParentDashboard() {
+  const main = document.querySelector("main");
+  if (!main || isReportsPage()) return;
+
+  let dashboard = document.querySelector("[data-parent-dashboard]");
+  if (!dashboard) {
+    dashboard = document.createElement("section");
+    dashboard.className = "parent-dashboard";
+    dashboard.setAttribute("data-parent-dashboard", "");
+    main.prepend(dashboard);
+  }
+
+  dashboard.innerHTML = `
+    <div class="parent-dashboard-header">
+      <div>
+        <div class="quest-kicker">Parent / Teacher</div>
+        <h2>Student Management</h2>
+        <p>Manage student profiles, launch practice, review reports, and reset progress.</p>
+      </div>
+      <a class="btn btn-primary" href="${reportsHref()}">View Reports</a>
+    </div>
+    <div class="parent-dashboard-grid">
+      <div class="parent-dashboard-panel">
+        <h3>Add Student</h3>
+        ${renderStudentTools(false)}
+      </div>
+      <div class="parent-dashboard-panel">
+        <h3>Your Students</h3>
+        <div class="student-profile-list" data-student-profile-list></div>
+      </div>
+    </div>
+  `;
+
+  await renderStudentProfiles();
+}
+
+function removeParentDashboard() {
+  document.querySelectorAll("[data-parent-dashboard]").forEach(item => item.remove());
+}
+
 function tagReportLinks() {
   document.querySelectorAll('a[href$="reports.html"]').forEach(link => {
     link.setAttribute("data-parent-report-link", "");
@@ -628,6 +841,10 @@ function tagReportLinks() {
 
 function isReportsPage() {
   return /(^|\/)reports\.html$/.test(window.location.pathname);
+}
+
+function reportsHref() {
+  return window.location.pathname.includes("/topics/") ? "../../reports.html" : "reports.html";
 }
 
 async function renderGrownupTools() {
@@ -657,10 +874,17 @@ async function renderStudentProfiles() {
   try {
     const students = await loadManagedStudents();
     const html = students.map(student => `
-      <button class="student-profile-chip ${state.activeStudent?.id === student.id ? "active" : ""}" type="button" data-student-id="${escapeHtml(student.id)}">
-        <strong>${escapeHtml(student.name)}</strong>
-        <span>${escapeHtml(student.loginName)}</span>
-      </button>
+      <article class="student-profile-card ${state.activeStudent?.id === student.id ? "active" : ""}">
+        <div>
+          <strong>${escapeHtml(student.name)}</strong>
+          <span>${escapeHtml(student.loginName)}</span>
+        </div>
+        <div class="student-profile-actions">
+          <button class="btn btn-secondary" type="button" data-student-id="${escapeHtml(student.id)}">Launch Practice</button>
+          <button class="btn btn-secondary" type="button" data-reset-student-id="${escapeHtml(student.id)}">Reset Progress</button>
+          <button class="btn btn-secondary" type="button" data-delete-student-id="${escapeHtml(student.id)}">Delete</button>
+        </div>
+      </article>
     `).join("") || '<p class="auth-copy">No student profiles yet.</p>';
     targets.forEach(target => {
       target.innerHTML = html;
@@ -712,6 +936,9 @@ function getPublicState() {
     profile: state.profile,
     role: state.user ? "guardian" : "",
     activeStudent: state.activeStudent,
+    sessionMode: state.sessionMode,
+    parentMode: !!state.user && state.sessionMode !== "student",
+    studentMode: state.sessionMode === "student" && !!state.activeStudent,
     syncStatus: state.syncStatus,
     signedIn: !!state.user
   };
@@ -746,6 +973,18 @@ function saveActiveStudent(student) {
     localStorage.setItem("grammarQuestActiveStudentId", student.id);
     localStorage.setItem("grammarQuestActiveStudentName", student.name);
     localStorage.setItem("grammarQuestActiveStudentLogin", student.loginName || "");
+    localStorage.setItem("grammarQuestActiveStudentOwner", student.ownerUid || "");
+  } catch (error) {
+    // Optional local state.
+  }
+}
+
+function clearActiveStudentStorage() {
+  try {
+    localStorage.removeItem("grammarQuestActiveStudentId");
+    localStorage.removeItem("grammarQuestActiveStudentName");
+    localStorage.removeItem("grammarQuestActiveStudentLogin");
+    localStorage.removeItem("grammarQuestActiveStudentOwner");
   } catch (error) {
     // Optional local state.
   }
@@ -758,10 +997,28 @@ function loadActiveStudent() {
     return {
       id,
       name: localStorage.getItem("grammarQuestActiveStudentName") || "Student",
-      loginName: localStorage.getItem("grammarQuestActiveStudentLogin") || ""
+      loginName: localStorage.getItem("grammarQuestActiveStudentLogin") || "",
+      ownerUid: localStorage.getItem("grammarQuestActiveStudentOwner") || ""
     };
   } catch (error) {
     return null;
+  }
+}
+
+function saveSessionMode(mode) {
+  try {
+    if (mode) localStorage.setItem("grammarQuestSessionMode", mode);
+    else localStorage.removeItem("grammarQuestSessionMode");
+  } catch (error) {
+    // Optional local state.
+  }
+}
+
+function loadSessionMode() {
+  try {
+    return localStorage.getItem("grammarQuestSessionMode") || "";
+  } catch (error) {
+    return "";
   }
 }
 

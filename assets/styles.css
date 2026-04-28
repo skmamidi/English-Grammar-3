@@ -482,6 +482,7 @@ html[data-theme="dark"] .theme-toggle-moon {
 
 .auth-gate.hidden,
 .auth-gate-tools.hidden,
+.auth-entry-grid.hidden,
 .auth-gate [data-auth-gate-signin].hidden,
 [data-parent-report-link].hidden {
   display: none;
@@ -508,6 +509,30 @@ html[data-theme="dark"] .theme-toggle-moon {
 .auth-gate-card > p {
   color: var(--text-muted);
   font-size: 1rem;
+}
+
+.auth-entry-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 22px;
+}
+
+.auth-entry-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+}
+
+.auth-entry-card h2 {
+  font-size: 1.25rem;
+}
+
+.auth-entry-card p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
 }
 
 body.auth-locked .app-header,
@@ -656,6 +681,35 @@ body.auth-locked main {
   gap: 8px;
 }
 
+.student-profile-card {
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+}
+
+.student-profile-card > div:first-child {
+  display: grid;
+  gap: 2px;
+}
+
+.student-profile-card span {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.student-profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.student-profile-actions .btn {
+  padding: 8px 10px;
+}
+
 .student-profile-chip {
   align-items: center;
   background: var(--surface-subtle);
@@ -681,6 +735,44 @@ body.auth-locked main {
   color: var(--text-muted);
   font-size: 0.85rem;
   font-weight: 800;
+}
+
+.parent-dashboard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 24px;
+  padding: 22px;
+}
+
+.parent-dashboard-header {
+  align-items: start;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.parent-dashboard-header h2 {
+  font-size: 1.5rem;
+}
+
+.parent-dashboard-header p {
+  color: var(--text-muted);
+}
+
+.parent-dashboard-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(260px, 0.8fr) minmax(320px, 1.2fr);
+}
+
+.parent-dashboard-panel {
+  border-top: 1px solid var(--border);
+  display: grid;
+  gap: 12px;
+  padding-top: 16px;
 }
 
 .assessment-exit-modal {
@@ -3679,6 +3771,8 @@ body.auth-locked main {
   .reports-board,
   .selected-student-card,
   .character-library-grid,
+  .auth-entry-grid,
+  .parent-dashboard-grid,
   .question-grid {
     grid-template-columns: 1fr;
   }
@@ -3769,6 +3863,11 @@ body.auth-locked main {
 
   .character-library-hero {
     align-items: start;
+  }
+
+  .parent-dashboard-header {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .library-set-picker {

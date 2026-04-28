@@ -27,17 +27,21 @@ const LOGIN_OCEAN_ANIMALS = [
   "urchin", "vaquita", "walrus", "whale shark", "yellowfin tuna", "zebra shark", "pilot whale", "porpoise", "rockfish", "sunfish",
   "triggerfish", "wrasse", "mussel", "clam", "plankton", "remora", "sawfish", "scallop", "snapper", "wahoo"
 ];
-const LOGIN_DISNEY_CHARACTERS = [
-  "mickey mouse", "minnie mouse", "donald duck", "daisy duck", "goofy", "pluto", "oswald", "chip", "dale", "scrooge mcduck",
-  "snow white", "dopey", "grumpy", "cinderella", "fairy godmother", "alice", "cheshire cat", "peter pan", "tinker bell", "wendy darling",
-  "lady", "tramp", "aurora", "maleficent", "pongo", "perdita", "mowgli", "baloo", "bagheera", "winnie the pooh",
-  "piglet", "tigger", "eeyore", "robin hood", "little john", "ariel", "flounder", "sebastian", "ursula", "belle",
-  "beast", "lumiere", "cogsworth", "aladdin", "jasmine", "genie", "abu", "simba", "nala", "timon",
-  "pumbaa", "mufasa", "pocahontas", "meeko", "mulan", "mushu", "kuzco", "kronk", "stitch", "lilo",
-  "rapunzel", "flynn rider", "pascal", "tiana", "naveen", "vanellope", "ralph", "elsa", "anna", "olaf",
-  "moana", "maui", "heihei", "mirabel", "isabela", "luisa", "woody", "buzz lightyear", "jessie", "bo peep",
-  "rex", "slinky dog", "mr potato head", "sulley", "mike wazowski", "boo", "nemo", "marlin", "dory", "crush",
-  "mr incredible", "elastigirl", "violet parr", "dash parr", "jack jack", "remy", "wall e", "eve", "carl fredricksen", "russell"
+const LOGIN_LANDMARKS = [
+  "statue of liberty", "golden gate bridge", "empire state building", "mount rushmore", "grand canyon", "the white house", "gateway arch", "times square",
+  "united states capitol", "space needle", "hollywood sign", "niagara falls", "cn tower", "banff national park", "chichen itza", "teotihuacan",
+  "machu picchu", "christ the redeemer", "moai statues", "iguazu falls", "salar de uyuni", "angel falls", "galapagos islands", "sugarloaf mountain",
+  "torres del paine", "perito moreno glacier", "eiffel tower", "louvre museum", "notre-dame cathedral", "palace of versailles", "arc de triomphe",
+  "mont saint-michel", "colosseum", "leaning tower of pisa", "pantheon", "trevi fountain", "st. mark's basilica", "pompeii", "big ben", "stonehenge",
+  "tower bridge", "buckingham palace", "edinburgh castle", "giant's causeway", "la sagrada familia", "alhambra", "neuschwanstein castle",
+  "brandenburg gate", "cologne cathedral", "acropolis of athens", "santorini caldera", "st. basil's cathedral", "the kremlin and red square",
+  "hermitage museum", "st. peter's basilica", "sistine chapel", "the little mermaid statue", "matterhorn", "blue lagoon", "szechenyi chain bridge",
+  "prague astronomical clock", "great wall of china", "forbidden city", "terracotta army", "potala palace", "taj mahal", "golden temple",
+  "mount everest", "mount fuji", "fushimi inari shrine", "tokyo tower", "angkor wat", "petronas twin towers", "burj khalifa", "burj al arab",
+  "sheikh zayed grand mosque", "petra", "hagia sophia", "blue mosque", "cappadocia fairy chimneys", "western wall", "dome of the rock",
+  "shwedagon pagoda", "borobudur", "pyramids of giza", "great sphinx of giza", "luxor temple", "valley of the kings", "mount kilimanjaro",
+  "serengeti national park", "victoria falls", "table mountain", "robben island", "rock-hewn churches of lalibela", "sydney opera house",
+  "sydney harbour bridge", "uluru ayers rock", "great barrier reef", "milford sound", "hobbiton movie set"
 ];
 
 const state = {
@@ -254,12 +258,12 @@ function renderStudentTools(includeParentModeButton) {
           <select name="favoriteOceanAnimal" data-login-part="ocean">${renderOptionList(LOGIN_OCEAN_ANIMALS, "dolphin")}</select>
         </label>
         <label>
-          <span>Favorite Disney / Pixar Character</span>
-          <select name="favoriteCharacter" data-login-part="character">${renderOptionList(LOGIN_DISNEY_CHARACTERS, "mickey mouse")}</select>
+          <span>Favorite Landmark</span>
+          <select name="favoriteCharacter" data-login-part="character">${renderOptionList(LOGIN_LANDMARKS, "statue of liberty")}</select>
         </label>
       </div>
       <div class="student-avatar-preview" data-student-avatar-preview>
-        ${renderStudentAvatarSvg({ bird: "blue jay", ocean: "dolphin", character: "mickey mouse", studentName: "Student" })}
+        ${renderStudentAvatarSvg({ bird: "blue jay", ocean: "dolphin", character: "statue of liberty", studentName: "Student" })}
       </div>
       <label class="student-field student-field-grade">
         <span>Default Grade</span>
@@ -1102,11 +1106,19 @@ function isReportsPage() {
 }
 
 function reportsHref() {
-  return window.location.pathname.includes("/topics/") ? "../../reports.html" : "reports.html";
+  return `${rootRelativePath()}reports.html`;
 }
 
 function appHomeHref() {
-  return window.location.pathname.includes("/topics/") ? "../../index.html" : "index.html";
+  return `${rootRelativePath()}index.html`;
+}
+
+function rootRelativePath() {
+  const path = window.location.pathname || "";
+  if (!path.includes("/topics/")) return "";
+  const afterTopics = path.split("/topics/")[1] || "";
+  const depth = afterTopics.split("/").filter(Boolean).length;
+  return "../".repeat(Math.max(1, depth));
 }
 
 function questionBankHref() {
@@ -1122,7 +1134,7 @@ function isParentBrowseOpen() {
 }
 
 function preserveParentBrowseLinks(shouldPreserve) {
-  document.querySelectorAll('a.topic-card[href], a[href*="topics/"][href$="index.html"]').forEach(link => {
+  document.querySelectorAll('a.topic-card[href], a.subtopic-item[href], a.back-link[href], a[href*="topics/"][href$="index.html"]').forEach(link => {
     const original = link.dataset.originalHref || link.getAttribute("href") || "";
     if (!link.dataset.originalHref) link.dataset.originalHref = original;
     if (!shouldPreserve) {
@@ -1486,7 +1498,7 @@ function normalizeAvatarParts(parts) {
   return {
     bird: normalizeChoice(source.bird, LOGIN_BIRDS, "blue jay"),
     ocean: normalizeChoice(source.ocean, LOGIN_OCEAN_ANIMALS, "dolphin"),
-    character: normalizeChoice(source.character, LOGIN_DISNEY_CHARACTERS, "mickey mouse"),
+    character: normalizeChoice(source.character, LOGIN_LANDMARKS, "statue of liberty"),
     studentName: String(source.studentName || "").trim()
   };
 }
@@ -1501,9 +1513,11 @@ function renderStudentAvatarSvg(parts) {
   const birdColor = colorFromText(avatar.bird, ["#2563eb", "#16a34a", "#f97316", "#db2777", "#7c3aed", "#0891b2"]);
   const birdAccent = colorFromText(`${avatar.bird}-accent`, ["#fde68a", "#bfdbfe", "#fecaca", "#bbf7d0", "#ddd6fe", "#fed7aa"]);
   const oceanColor = colorFromText(avatar.ocean, ["#0ea5e9", "#14b8a6", "#6366f1", "#06b6d4", "#0284c7", "#10b981"]);
-  const characterColor = colorFromText(avatar.character, ["#ef4444", "#f59e0b", "#8b5cf6", "#ec4899", "#22c55e", "#3b82f6"]);
+  const landmarkColor = colorFromText(avatar.character, ["#ef4444", "#f59e0b", "#8b5cf6", "#ec4899", "#22c55e", "#3b82f6"]);
+  const landmarkAccent = colorFromText(`${avatar.character}-landmark`, ["#fef3c7", "#dbeafe", "#dcfce7", "#fce7f3", "#ede9fe", "#cffafe"]);
   const animal = getOceanAnimalShape(avatar.ocean, oceanColor);
   const bird = getBirdShape(avatar.bird, birdColor, birdAccent);
+  const landmark = getLandmarkShape(avatar.character, landmarkColor, landmarkAccent);
   const studentInitial = getStudentInitial(avatar.studentName);
   const title = `${titleCaseDisplay(avatar.bird)}, ${titleCaseDisplay(avatar.ocean)}, and ${titleCaseDisplay(avatar.character)} avatar for ${avatar.studentName || "Student"}`;
 
@@ -1529,10 +1543,10 @@ function renderStudentAvatarSvg(parts) {
       ${bird}
       <g transform="translate(112 92)">
         <circle cx="31" cy="31" r="28" fill="#ffffff" opacity=".93"/>
-        <circle cx="31" cy="31" r="22" fill="${characterColor}" opacity=".9"/>
-        <text x="31" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#ffffff">${escapeHtml(studentInitial)}</text>
-        <path d="M13 12 C8 2 22 -4 25 8 M37 8 C41 -4 55 2 49 12" fill="${characterColor}" opacity=".82"/>
-        <path d="M17 52 C24 59 39 59 46 52" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+        <circle cx="31" cy="31" r="22" fill="${landmarkAccent}" opacity=".94"/>
+        ${landmark}
+        <circle cx="48" cy="48" r="11" fill="${landmarkColor}" stroke="#ffffff" stroke-width="3"/>
+        <text x="48" y="53" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="900" fill="#ffffff">${escapeHtml(studentInitial)}</text>
       </g>
       <g opacity=".82">
         <circle cx="35" cy="76" r="5" fill="#ffffff"/>
@@ -1542,6 +1556,279 @@ function renderStudentAvatarSvg(parts) {
       </g>
     </svg>
   `;
+}
+
+const LANDMARK_SVG_TYPES = {
+  "statue of liberty": "statue",
+  "golden gate bridge": "suspensionBridge",
+  "empire state building": "skyscraper",
+  "mount rushmore": "mountainFaces",
+  "grand canyon": "canyon",
+  "the white house": "whiteHouse",
+  "gateway arch": "arch",
+  "times square": "billboards",
+  "united states capitol": "capitol",
+  "space needle": "needle",
+  "hollywood sign": "sign",
+  "niagara falls": "falls",
+  "cn tower": "tower",
+  "banff national park": "mountains",
+  "chichen itza": "steppedPyramid",
+  "teotihuacan": "steppedPyramid",
+  "machu picchu": "terraces",
+  "christ the redeemer": "crossStatue",
+  "moai statues": "heads",
+  "iguazu falls": "falls",
+  "salar de uyuni": "saltFlat",
+  "angel falls": "thinFalls",
+  "galapagos islands": "islands",
+  "sugarloaf mountain": "singlePeak",
+  "torres del paine": "jaggedPeaks",
+  "perito moreno glacier": "glacier",
+  "eiffel tower": "ironTower",
+  "louvre museum": "museumPyramid",
+  "notre-dame cathedral": "cathedral",
+  "palace of versailles": "palace",
+  "arc de triomphe": "triumphArch",
+  "mont saint-michel": "islandAbbey",
+  "colosseum": "arena",
+  "leaning tower of pisa": "leaningTower",
+  "pantheon": "domeTemple",
+  "trevi fountain": "fountain",
+  "st. mark's basilica": "basilica",
+  "pompeii": "columns",
+  "big ben": "clockTower",
+  "stonehenge": "stones",
+  "tower bridge": "towerBridge",
+  "buckingham palace": "palace",
+  "edinburgh castle": "castle",
+  "giant's causeway": "basalt",
+  "la sagrada familia": "spires",
+  "alhambra": "fortress",
+  "neuschwanstein castle": "fairyCastle",
+  "brandenburg gate": "gate",
+  "cologne cathedral": "gothicCathedral",
+  "acropolis of athens": "acropolis",
+  "santorini caldera": "caldera",
+  "st. basil's cathedral": "onionDomes",
+  "the kremlin and red square": "squareWalls",
+  "hermitage museum": "palace",
+  "st. peter's basilica": "basilicaDome",
+  "sistine chapel": "chapel",
+  "the little mermaid statue": "mermaid",
+  "matterhorn": "sharpMountain",
+  "blue lagoon": "lagoon",
+  "szechenyi chain bridge": "chainBridge",
+  "prague astronomical clock": "astronomicalClock",
+  "great wall of china": "greatWall",
+  "forbidden city": "palaceRoof",
+  "terracotta army": "warriors",
+  "potala palace": "tieredPalace",
+  "taj mahal": "mausoleum",
+  "golden temple": "goldTemple",
+  "mount everest": "snowMountain",
+  "mount fuji": "fuji",
+  "fushimi inari shrine": "torii",
+  "tokyo tower": "ironTower",
+  "angkor wat": "templeTowers",
+  "petronas twin towers": "twinTowers",
+  "burj khalifa": "needleSkyscraper",
+  "burj al arab": "sailHotel",
+  "sheikh zayed grand mosque": "mosque",
+  "petra": "rockCity",
+  "hagia sophia": "domeTemple",
+  "blue mosque": "mosque",
+  "cappadocia fairy chimneys": "chimneys",
+  "western wall": "wallStones",
+  "dome of the rock": "goldDome",
+  "shwedagon pagoda": "pagoda",
+  "borobudur": "buddhistTemple",
+  "pyramids of giza": "pyramids",
+  "great sphinx of giza": "sphinx",
+  "luxor temple": "templeColumns",
+  "valley of the kings": "desertTomb",
+  "mount kilimanjaro": "snowMountain",
+  "serengeti national park": "savanna",
+  "victoria falls": "falls",
+  "table mountain": "flatMountain",
+  "robben island": "islandPrison",
+  "rock-hewn churches of lalibela": "carvedChurch",
+  "sydney opera house": "operaHouse",
+  "sydney harbour bridge": "archBridge",
+  "uluru ayers rock": "monolith",
+  "great barrier reef": "reef",
+  "milford sound": "sound",
+  "hobbiton movie set": "roundDoor"
+};
+
+function getLandmarkShape(landmarkName, fillColor, accentColor) {
+  const type = LANDMARK_SVG_TYPES[landmarkName] || "tower";
+  const seed = numericSeed(landmarkName);
+  const shade = colorFromText(`${landmarkName}-shade`, ["#334155", "#475569", "#1f2937", "#0f766e", "#7c2d12"]);
+  const sun = colorFromText(`${landmarkName}-sun`, ["#facc15", "#fb923c", "#fcd34d", "#fef08a"]);
+  const line = `stroke="${shade}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"`;
+  const base = `<path d="M10 49 H52" ${line} opacity=".35"/>`;
+  const mountain = (extra = "") => `${base}<path d="M7 47 L22 22 L32 39 L42 17 L57 47 Z" fill="${fillColor}"/><path d="M22 22 l5 10 l5 -10 M42 17 l5 12 l5 -12" fill="${accentColor}" opacity=".92"/>${extra}`;
+  const bridge = (arch = false) => `${base}<path d="${arch ? "M8 42 C22 22 40 22 54 42" : "M8 36 C22 20 40 20 54 36"}" fill="none" ${line}/><path d="M13 20 V49 M49 20 V49" ${line}/><path d="M8 36 H54" ${line}/><path d="M18 36 V48 M28 36 V48 M38 36 V48 M48 36 V48" ${line} opacity=".55"/>`;
+  const dome = (minarets = false) => `${base}<path d="M17 44 H45 V31 C45 20 17 20 17 31 Z" fill="${fillColor}"/><path d="M31 14 C37 20 42 24 42 31 H20 C20 24 25 20 31 14 Z" fill="${accentColor}"/>${minarets ? '<path d="M10 47 V23 M52 47 V23 M10 23 l3 5 h-6 Z M52 23 l3 5 h-6 Z" ' + line + '/>' : ""}`;
+
+  switch (type) {
+    case "statue":
+      return `${base}<path d="M31 17 L38 47 H24 Z" fill="${fillColor}"/><path d="M25 22 L18 15 M37 22 L45 14" ${line}/><path d="M31 9 l3 7 h-6 Z" fill="${sun}"/><path d="M20 13 l-3 -7 M44 12 l3 -7" ${line}/>`;
+    case "suspensionBridge":
+    case "chainBridge":
+      return bridge(false);
+    case "archBridge":
+    case "towerBridge":
+      return `${bridge(type === "archBridge")}<path d="M10 23 H18 V49 H10 Z M44 23 H52 V49 H44 Z" fill="${fillColor}"/><path d="M13 18 h2 M47 18 h2" ${line}/>`;
+    case "skyscraper":
+      return `${base}<path d="M21 48 V14 L32 7 L43 14 V48 Z" fill="${fillColor}"/><path d="M27 19 H35 M27 27 H35 M27 35 H35" ${line} opacity=".65"/>`;
+    case "needleSkyscraper":
+      return `${base}<path d="M31 7 L39 48 H23 Z" fill="${fillColor}"/><path d="M26 26 H36" ${line}/><path d="M31 7 V3" ${line}/>`;
+    case "mountainFaces":
+      return `${mountain('<circle cx="21" cy="36" r="3" fill="#f8fafc"/><circle cx="33" cy="35" r="3" fill="#f8fafc"/><circle cx="44" cy="35" r="3" fill="#f8fafc"/>')}`;
+    case "canyon":
+      return `${base}<path d="M9 24 H54 L45 48 H16 Z" fill="${fillColor}"/><path d="M15 30 H48 M20 37 H43" ${line} opacity=".5"/>`;
+    case "whiteHouse":
+    case "capitol":
+      return `${base}<path d="M14 47 V31 H48 V47 Z" fill="${fillColor}"/><path d="M12 31 H50 L31 18 Z" fill="${accentColor}"/><path d="M21 47 V35 M31 47 V35 M41 47 V35" ${line}/>${type === "capitol" ? '<path d="M22 28 C22 14 40 14 40 28" fill="' + accentColor + '"/>' : ""}`;
+    case "arch":
+    case "triumphArch":
+      return `${base}<path d="M16 48 V19 H46 V48 H38 V32 C38 22 24 22 24 32 V48 Z" fill="${fillColor}"/><path d="M20 23 H42 M20 28 H42" ${line} opacity=".5"/>`;
+    case "billboards":
+      return `${base}<rect x="10" y="14" width="19" height="20" rx="2" fill="${fillColor}"/><rect x="33" y="10" width="19" height="25" rx="2" fill="${accentColor}"/><path d="M14 40 V34 M46 42 V35 M15 22 H24 M38 19 H48" ${line}/>`;
+    case "needle":
+    case "tower":
+      return `${base}<path d="M31 8 V48" ${line}/><ellipse cx="31" cy="20" rx="16" ry="5" fill="${fillColor}"/><path d="M24 48 L31 20 L38 48" fill="none" ${line}/>`;
+    case "sign":
+      return `${base}<path d="M11 28 H51" ${line}/><path d="M13 27 l4 -8 l4 8 M24 27 v-8 h7 M35 27 l4 -8 l4 8 M46 27 v-8" ${line}/>`;
+    case "falls":
+    case "thinFalls":
+      return `${base}<path d="M14 14 H49 V46 H14 Z" fill="${fillColor}" opacity=".45"/><path d="${type === "thinFalls" ? "M31 15 V48" : "M22 15 V48 M32 15 V48 M42 15 V48"}" stroke="#ffffff" stroke-width="${type === "thinFalls" ? 5 : 6}" stroke-linecap="round"/><path d="M15 47 C23 42 37 52 49 46" fill="none" stroke="${accentColor}" stroke-width="4"/>`;
+    case "mountains":
+    case "jaggedPeaks":
+    case "sharpMountain":
+    case "snowMountain":
+    case "fuji":
+    case "singlePeak":
+      return mountain(type === "fuji" ? `<path d="M18 47 C28 39 40 39 49 47" fill="none" stroke="${accentColor}" stroke-width="4"/>` : "");
+    case "steppedPyramid":
+    case "pyramids":
+      return `${base}<path d="M12 48 H50 L31 14 Z" fill="${fillColor}"/><path d="M19 39 H43 M23 31 H39 M27 23 H35" ${line} opacity=".5"/>`;
+    case "terraces":
+      return `${base}<path d="M10 46 H54 L46 20 L20 25 Z" fill="${fillColor}"/><path d="M15 40 H49 M18 34 H46 M22 28 H42" ${line} opacity=".58"/>`;
+    case "crossStatue":
+      return `${base}<circle cx="31" cy="15" r="5" fill="${fillColor}"/><path d="M31 20 V48 M16 27 H46" ${line}/>`;
+    case "heads":
+      return `${base}<path d="M15 45 V22 C15 14 28 14 28 22 V45 Z M35 45 V21 C35 13 49 13 49 21 V45 Z" fill="${fillColor}"/><path d="M19 28 h5 M39 28 h5 M21 37 h4 M41 37 h4" ${line} opacity=".6"/>`;
+    case "saltFlat":
+    case "lagoon":
+      return `${base}<path d="M11 42 C22 35 39 48 51 39" fill="none" stroke="${fillColor}" stroke-width="6"/><circle cx="45" cy="19" r="8" fill="${sun}"/><path d="M14 31 H48" ${line} opacity=".35"/>`;
+    case "islands":
+      return `${base}<path d="M13 43 C19 31 31 31 36 43 Z M31 45 C39 30 51 32 55 45 Z" fill="${fillColor}"/><path d="M22 31 C20 22 27 19 31 26" fill="none" ${line}/>`;
+    case "glacier":
+      return `${base}<path d="M13 47 L20 18 L31 47 L40 19 L51 47 Z" fill="${fillColor}"/><path d="M20 18 l4 11 l4 -11 M40 19 l4 10 l4 -10" fill="#ffffff" opacity=".9"/>`;
+    case "ironTower":
+      return `${base}<path d="M31 8 L47 48 H15 Z M24 27 H38 M20 39 H42" fill="none" ${line}/><path d="M27 17 H35" ${line}/>`;
+    case "museumPyramid":
+      return `${base}<path d="M13 47 L31 16 L49 47 Z" fill="${fillColor}" opacity=".7"/><path d="M21 47 L31 16 L41 47 M18 38 H44" ${line} opacity=".45"/>`;
+    case "cathedral":
+    case "gothicCathedral":
+      return `${base}<path d="M14 48 V25 L22 12 L30 25 V48 Z M32 48 V25 L40 12 L48 25 V48 Z" fill="${fillColor}"/><path d="M25 48 V36 C25 29 37 29 37 36 V48" fill="${accentColor}"/>`;
+    case "palace":
+    case "fortress":
+    case "castle":
+    case "fairyCastle":
+      return `${base}<path d="M12 48 V24 H22 V18 H28 V24 H36 V16 H43 V24 H51 V48 Z" fill="${fillColor}"/><path d="M25 48 V37 C25 31 38 31 38 37 V48" fill="${accentColor}"/>`;
+    case "islandAbbey":
+      return `${base}<path d="M12 48 C20 35 40 35 51 48 Z" fill="${fillColor}"/><path d="M24 38 V20 L31 12 L39 20 V38 Z" fill="${accentColor}"/>`;
+    case "arena":
+      return `${base}<ellipse cx="31" cy="31" rx="22" ry="13" fill="${fillColor}"/><ellipse cx="31" cy="31" rx="12" ry="6" fill="${accentColor}"/><path d="M14 34 H48" ${line} opacity=".45"/>`;
+    case "leaningTower":
+      return `${base}<g transform="rotate(-8 31 31)"><path d="M23 48 V14 H39 V48 Z" fill="${fillColor}"/><path d="M21 20 H41 M21 28 H41 M21 36 H41" ${line}/></g>`;
+    case "domeTemple":
+    case "basilicaDome":
+      return dome(false);
+    case "fountain":
+      return `${base}<path d="M18 35 C20 49 42 49 44 35 Z" fill="${fillColor}"/><path d="M31 15 V35 M20 25 C24 18 28 18 31 25 M42 25 C38 18 34 18 31 25" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>`;
+    case "basilica":
+      return `${base}<path d="M12 47 V28 H50 V47 Z" fill="${fillColor}"/><path d="M19 28 C19 14 31 14 31 28 C31 14 43 14 43 28" fill="${accentColor}"/><path d="M20 47 V35 M31 47 V35 M42 47 V35" ${line}/>`;
+    case "columns":
+    case "templeColumns":
+    case "acropolis":
+      return `${base}<path d="M11 25 H51 L31 14 Z" fill="${accentColor}"/><path d="M17 47 V27 M26 47 V27 M35 47 V27 M44 47 V27" ${line}/>`;
+    case "clockTower":
+    case "astronomicalClock":
+      return `${base}<path d="M21 48 V15 H41 V48 Z" fill="${fillColor}"/><circle cx="31" cy="27" r="8" fill="${accentColor}"/><path d="M31 27 V22 M31 27 L36 30" ${line}/>`;
+    case "stones":
+    case "basalt":
+      return `${base}<path d="M13 47 V25 H23 V47 M29 47 V18 H39 V47 M45 47 V27 H53 V47" fill="none" ${line}/><path d="M12 24 H54" ${line}/>`;
+    case "spires":
+      return `${base}<path d="M13 48 V25 L18 10 L23 25 V48 M27 48 V20 L32 7 L37 20 V48 M41 48 V25 L46 10 L51 25 V48" fill="${fillColor}"/>`;
+    case "gate":
+      return `${base}<path d="M12 47 V24 H50 V47 M19 24 V18 H43 V24 M22 47 V32 H40 V47" fill="none" ${line}/>`;
+    case "caldera":
+      return `${base}<path d="M9 39 C20 21 41 21 54 39" fill="none" stroke="${fillColor}" stroke-width="8"/><path d="M14 43 C25 35 38 49 49 41" fill="none" stroke="#ffffff" stroke-width="4"/>`;
+    case "onionDomes":
+      return `${base}<path d="M13 48 V30 H49 V48 Z" fill="${fillColor}"/><path d="M18 30 C11 17 28 12 31 27 C34 12 51 17 44 30 Z" fill="${accentColor}"/>`;
+    case "squareWalls":
+    case "wallStones":
+      return `${base}<path d="M12 47 V22 H50 V47 Z" fill="${fillColor}"/><path d="M12 31 H50 M12 39 H50 M22 22 V47 M36 22 V47" ${line} opacity=".55"/>`;
+    case "chapel":
+      return `${base}<path d="M18 48 V24 L31 13 L44 24 V48 Z" fill="${fillColor}"/><path d="M31 17 V9 M27 13 H35" ${line}/>`;
+    case "mermaid":
+      return `${base}<path d="M31 16 C39 24 36 35 30 41 C37 39 44 42 49 48 M30 41 C23 39 18 42 13 48" fill="none" ${line}/><circle cx="31" cy="13" r="5" fill="${fillColor}"/>`;
+    case "greatWall":
+      return `${base}<path d="M8 44 C20 30 35 54 55 31" fill="none" stroke="${fillColor}" stroke-width="9"/><path d="M13 39 h8 M30 44 h8 M46 35 h8" ${line} opacity=".55"/>`;
+    case "palaceRoof":
+    case "tieredPalace":
+      return `${base}<path d="M13 47 V34 H49 V47 Z M17 34 V25 H45 V34 Z M22 25 V17 H40 V25 Z" fill="${fillColor}"/><path d="M10 34 H52 M15 25 H47 M20 17 H42" ${line}/>`;
+    case "warriors":
+      return `${base}<circle cx="20" cy="23" r="6" fill="${fillColor}"/><circle cx="31" cy="20" r="7" fill="${fillColor}"/><circle cx="43" cy="24" r="6" fill="${fillColor}"/><path d="M16 47 V34 H46 V47" fill="${fillColor}"/>`;
+    case "mausoleum":
+      return `${base}<path d="M14 47 V31 H48 V47 Z" fill="${fillColor}"/><path d="M21 31 C21 14 41 14 41 31" fill="${accentColor}"/><path d="M9 47 V23 M53 47 V23" ${line}/>`;
+    case "goldTemple":
+    case "goldDome":
+    case "pagoda":
+    case "buddhistTemple":
+      return `${base}<path d="M14 47 V35 H48 V47 Z M18 35 L31 24 L44 35 Z M21 25 L31 13 L41 25 Z" fill="${type === "goldDome" ? sun : fillColor}"/><path d="M18 35 H44 M21 25 H41" ${line} opacity=".55"/>`;
+    case "torii":
+      return `${base}<path d="M12 19 H50 M16 25 H46 M20 25 V49 M42 25 V49" ${line}/>`;
+    case "templeTowers":
+      return `${base}<path d="M13 48 V31 L20 16 L27 31 V48 M27 48 V26 L34 11 L41 26 V48 M41 48 V31 L48 16 L55 31 V48" fill="${fillColor}"/>`;
+    case "twinTowers":
+      return `${base}<path d="M16 48 V13 H28 V48 Z M35 48 V13 H47 V48 Z" fill="${fillColor}"/><path d="M28 28 H35" ${line}/><path d="M22 13 V8 M41 13 V8" ${line}/>`;
+    case "sailHotel":
+      return `${base}<path d="M22 48 C25 17 39 9 48 43 C38 36 31 38 22 48 Z" fill="${fillColor}"/><path d="M22 48 V13" ${line}/>`;
+    case "mosque":
+      return dome(true);
+    case "rockCity":
+      return `${base}<path d="M13 47 V18 H49 V47 Z" fill="${fillColor}"/><path d="M23 47 V31 C23 24 39 24 39 31 V47 M20 24 H42" ${line} opacity=".65"/>`;
+    case "chimneys":
+      return `${base}<path d="M15 48 L20 18 H27 L30 48 M35 48 L40 16 H47 L50 48" fill="${fillColor}"/><path d="M18 17 H29 M38 15 H49" ${line}/>`;
+    case "desertTomb":
+      return `${base}<path d="M10 48 C20 28 42 28 54 48 Z" fill="${fillColor}"/><path d="M27 48 V35 C27 29 37 29 37 35 V48" fill="${accentColor}"/>`;
+    case "savanna":
+      return `${base}<circle cx="46" cy="18" r="8" fill="${sun}"/><path d="M17 47 C22 31 38 31 43 47 Z" fill="${fillColor}"/><path d="M21 31 C20 22 28 20 31 26" fill="none" ${line}/>`;
+    case "flatMountain":
+      return `${base}<path d="M10 47 L18 24 H48 L56 47 Z" fill="${fillColor}"/><path d="M19 24 H47" ${line}/>`;
+    case "islandPrison":
+      return `${base}<path d="M12 47 C19 34 42 34 52 47 Z" fill="${fillColor}"/><path d="M23 40 V25 H40 V40 Z" fill="${accentColor}"/><path d="M27 40 V28 M32 40 V28 M37 40 V28" ${line}/>`;
+    case "carvedChurch":
+      return `${base}<path d="M15 48 V20 H47 V48 Z" fill="${fillColor}"/><path d="M23 48 V34 C23 27 39 27 39 34 V48 M31 20 V12 M25 16 H37" ${line}/>`;
+    case "operaHouse":
+      return `${base}<path d="M12 47 C18 27 27 20 32 47 C35 26 45 20 53 47 Z" fill="${fillColor}"/><path d="M20 45 C29 36 38 36 49 45" fill="none" ${line} opacity=".55"/>`;
+    case "monolith":
+      return `${base}<path d="M15 47 C19 24 32 16 49 31 C52 39 48 45 42 47 Z" fill="${fillColor}"/>`;
+    case "reef":
+      return `${base}<path d="M17 47 V30 M17 34 C9 30 10 20 19 25 M26 47 V25 M26 30 C34 24 39 31 33 37 M42 47 V31 M42 35 C51 29 55 39 47 43" fill="none" stroke="${fillColor}" stroke-width="5" stroke-linecap="round"/><circle cx="33" cy="17" r="5" fill="${sun}"/>`;
+    case "sound":
+      return `${mountain('<path d="M15 47 C27 39 38 54 50 43" fill="none" stroke="#ffffff" stroke-width="4"/>')}`;
+    case "roundDoor":
+      return `${base}<path d="M13 48 C14 28 48 28 49 48 Z" fill="${fillColor}"/><circle cx="31" cy="39" r="10" fill="${accentColor}"/><circle cx="38" cy="39" r="2" fill="${shade}"/>`;
+    default:
+      return `${base}<path d="M24 48 V15 H38 V48 Z" fill="${fillColor}"/><path d="M20 48 H42" ${line}/>`;
+  }
 }
 
 function getStudentInitial(name) {

@@ -528,20 +528,10 @@
 
   function renderVisualQuestionScene(scene, question) {
     const dialogue = Array.isArray(scene.dialogue) ? scene.dialogue.slice(0, 2) : [];
-    const nameSubstitutions = getSceneNameSubstitutions(dialogue);
+    const actorSlotOffset = currentIndex * 2;
+    const nameSubstitutions = getSceneNameSubstitutions(dialogue, actorSlotOffset);
     const localize = value => applySceneNameSubstitutions(value, nameSubstitutions);
-    const choiceCards = shouldRenderVisualChoiceCards(question)
-      ? `
-        <div class="visual-choice-cards" aria-label="Sentence cards from the scene">
-          ${question.choices.map((choice, index) => `
-            <div class="visual-choice-card">
-              <span>${String.fromCharCode(65 + index)}</span>
-              <p>${escapeHtml(choice)}</p>
-            </div>
-          `).join('')}
-        </div>
-      `
-      : '';
+    const safeSceneText = value => scrubAnswerChoiceText(localize(value), question);
     return `
       <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
         <div class="visual-scene-intro">
@@ -551,29 +541,43 @@
           ${renderSceneSetPiece(scene)}
           <div class="visual-stage-board" aria-hidden="true">
             <span>${escapeHtml(scene.board || 'Sentence lab')}</span>
-            <strong>${escapeHtml(localize(scene.clue || 'Read for purpose.'))}</strong>
+            <strong>${escapeHtml(safeSceneText(scene.clue || 'Read for purpose.'))}</strong>
           </div>
           <div class="visual-dialogue-strip">
-            ${dialogue.map((entry, index) => renderDialogueActor(entry, index, localize)).join('')}
+            ${dialogue.map((entry, index) => renderDialogueActor(entry, index, safeSceneText, actorSlotOffset)).join('')}
           </div>
         </div>
         <div class="visual-mission">
           <span>Mission question</span>
           <strong>${escapeHtml(localize(scene.prompt || question.question))}</strong>
         </div>
-        ${choiceCards}
       </section>
     `;
   }
 
-  function getSceneNameSubstitutions(dialogue) {
+  function scrubAnswerChoiceText(value, question) {
+    let text = String(value == null ? '' : value);
+    const choices = question && Array.isArray(question.choices) ? question.choices : [];
+    choices.forEach(choice => {
+      const choiceText = cleanComparableText(choice);
+      if (choiceText.length < 12) return;
+      text = text.replace(new RegExp(escapeRegExp(choiceText), 'gi'), 'one answer choice');
+    });
+    return text;
+  }
+
+  function cleanComparableText(value) {
+    return String(value == null ? '' : value).replace(/\s+/g, ' ').trim();
+  }
+
+  function getSceneNameSubstitutions(dialogue, slotOffset) {
     const catalog = window.GrammarQuestCharacters;
     if (!catalog || !Array.isArray(dialogue)) return [];
     return dialogue.map((entry, index) => {
       const original = entry && entry.characterId && typeof catalog.getCharacterById === 'function'
         ? catalog.getCharacterById(entry.characterId)
         : null;
-      const resolved = getSceneCharacter(entry && entry.characterId, index);
+      const resolved = getSceneCharacter(entry && entry.characterId, (slotOffset || 0) + index);
       const replacement = resolved && typeof catalog.getCharacterDisplayName === 'function'
         ? catalog.getCharacterDisplayName(resolved.character)
         : (resolved ? resolved.character.name : '');
@@ -826,16 +830,8 @@
     return pieces[setting] || pieces.classroom;
   }
 
-  function shouldRenderVisualChoiceCards(question) {
-    if (!question || !Array.isArray(question.choices)) return false;
-    return question.choices.some(choice => {
-      const text = String(choice || '');
-      return text.length > 24 || /[.?!"]/.test(text);
-    });
-  }
-
-  function renderDialogueActor(entry, index, localizeText) {
-    const resolved = getSceneCharacter(entry && entry.characterId, index);
+  function renderDialogueActor(entry, index, localizeText, slotOffset) {
+    const resolved = getSceneCharacter(entry && entry.characterId, (slotOffset || 0) + index);
     const catalog = window.GrammarQuestCharacters;
     const name = resolved && catalog && typeof catalog.getCharacterDisplayName === 'function'
       ? catalog.getCharacterDisplayName(resolved.character)

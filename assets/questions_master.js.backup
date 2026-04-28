@@ -1008,8 +1008,8 @@ QUESTION_BANK['vocabulary-comparatives-superlatives'] = {
       question: "Which word correctly completes the sentence? This is the ___ book I have ever read.",
       choices: ["more boring", "most boring", "boringer", "boringest"],
       correct: 1,
-      explanation: { correct: "'Most boring' is correct because 'boring' has two syllables and ends in -ing. Two-syllable adjectives ending in -ing, -ed, -ful, or -less usually use 'more/most.'", incorrect: ["'more boring' is comparative, not superlative.","CORRECT: 'most boring' is the correct superlative.","'boringer' is not standard English.","'boringest' is not standard English."] },
-      studyAid: { definition: "Two-syllable adjectives ending in -y usually change to -ier/-iest. Others usually use more/most.", example: "happy → happier → happiest; boring → more boring → most boring", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
+      explanation: { correct: "'Most boring' is correct because 'boring' has two syllables and ends in -ing. Adjectives ending in -ing usually use 'more/most.'", incorrect: ["'more boring' is comparative, not superlative.","CORRECT: 'most boring' is the correct superlative.","'boringer' is not standard English.","'boringest' is not standard English."] },
+      studyAid: { definition: "Many two-syllable adjectives that do not end in -y use more/most, especially adjectives ending in -ing.", example: "boring → more boring → most boring; exciting → more exciting → most exciting", link: "https://www.khanacademy.org/humanities/grammar", linkText: "Khan Academy Grammar" }
     },
     {
       question: "What is the correct form? The blue whale is ___ than an elephant.",

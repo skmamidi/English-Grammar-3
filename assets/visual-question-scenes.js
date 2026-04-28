@@ -13,7 +13,7 @@
 
   const sentenceTypeScenes = {
     1: scene('The Library Return Case', 'library', 'Return desk', 'Mina reads the quiet sign, while Jo finds the sentence that gives an instruction.', [
-      line('mina-mapwise', 'curious', 'One sentence only tells us a fact: "The library closes at five."'),
+      line('mina-mapwise', 'curious', 'One sentence only tells a fact about the library schedule.'),
       line('jo-pocket', 'coaching', 'Another sentence tells someone what to do, even with a calm period.')
     ], 'Which speech card is a command even though it ends with a period?', 'A command tells someone to do something.'),
     2: scene('Storm Watch Window', 'storm', 'Classroom window', 'Ember and Azure sort storm sentences by purpose, not by topic.', [
@@ -33,7 +33,7 @@
       line('dex-decoder', 'coaching', 'Even with excitement, the sentence tells someone to do something.')
     ], 'What type of sentence is the student using?', 'Imperative sentences give commands or requests.'),
     6: scene('Science Fair Switch', 'science', 'Science fair poster', 'Azure turns a plain announcement into a sentence that asks directly.', [
-      line('azure-quill', 'curious', 'The poster starts as a statement: "The science fair begins on Monday."'),
+      line('azure-quill', 'curious', 'The poster starts as a plain announcement.'),
       line('ember-comma', 'coaching', 'To make it a direct question, the sentence must ask the reader.')
     ], 'Which revision turns the statement into a direct question?', 'A direct question asks for an answer.'),
     7: scene('Office Direction Puzzle', 'hallway', 'School hallway', 'Mina separates direct questions from a sentence that only wonders.', [
@@ -185,15 +185,14 @@
     const profile = getProfile(setId, set, question);
     const setting = inferSetting(question, set) || pick(profile.settings, setId + index);
     const actors = pick(actorCycle, setId + ':' + index);
-    const evidence = extractEvidence(question);
     const prompt = cleanPrompt(question.question);
     const title = getSceneTitle(profile, set, question, index);
-    const shortEvidence = evidence ? shorten(evidence, 98) : 'the strongest clue in the question';
+    const firstLine = getFirstLine(profile, question);
     const secondLine = getSecondLine(profile, question);
     const moods = getSceneMoods(question, profile);
 
     return scene(title, setting, profile.board, profile.narration, [
-      line(actors[0], moods[0], `I found the evidence: "${shortEvidence}"`),
+      line(actors[0], moods[0], firstLine),
       line(actors[1], moods[1], secondLine)
     ], prompt, getClue(profile, question));
   }
@@ -219,6 +218,33 @@
     const firstWords = source.split(/\s+/).filter(Boolean).slice(0, 3).join(' ');
     if (firstWords && firstWords.length > 7) return titleCase(firstWords) + ' Scene';
     return `${profile.title} ${((index % 4) + 1)}`;
+  }
+
+  function getFirstLine(profile, question) {
+    const text = [
+      profile && profile.title,
+      question && question.question,
+      question && question.studyAid && question.studyAid.definition
+    ].filter(Boolean).join(' ').toLowerCase();
+    if (/modifier/.test(text)) {
+      return 'I am checking which word or phrase the modifier is supposed to describe.';
+    }
+    if (/comparative|superlative|compare|more|most|-er|-est/.test(text)) {
+      return 'I am checking whether the sentence compares two things or more than two things.';
+    }
+    if (/sentence type|declarative|interrogative|imperative|exclamatory|question mark|period|exclamation/.test(text)) {
+      return 'I am checking what job the sentence is doing before I choose.';
+    }
+    if (/capital|proper noun|title/.test(text)) {
+      return 'I am checking which words name something specific.';
+    }
+    if (/punctuation|comma|apostrophe|quotation|colon/.test(text)) {
+      return 'I am checking how the punctuation helps the sentence read clearly.';
+    }
+    if (/reading|passage|story|theme|inference|evidence|main idea/.test(text)) {
+      return 'I am looking for the part of the text that supports the idea.';
+    }
+    return 'I am using the scene clue to understand what the question is asking.';
   }
 
   function getSecondLine(profile, question) {
@@ -248,17 +274,6 @@
     const definition = question && question.studyAid && question.studyAid.definition;
     if (definition) return shorten(definition, 88);
     return profile.clue;
-  }
-
-  function extractEvidence(question) {
-    const prompt = cleanPrompt(question && question.question ? question.question : '');
-    const quoted = prompt.match(/"([^"]+)"/) || prompt.match(/'([^']+)'/);
-    if (quoted && quoted[1]) return quoted[1];
-    const afterColon = prompt.split(':').slice(1).join(':').trim();
-    if (afterColon && afterColon.length > 4) return afterColon;
-    const correctChoice = question && Array.isArray(question.choices) ? question.choices[question.correct] : '';
-    if (correctChoice) return cleanPrompt(correctChoice);
-    return prompt;
   }
 
   function inferSetting(question, set) {

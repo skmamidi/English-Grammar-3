@@ -1786,44 +1786,6 @@ html[data-theme="dark"] .theme-toggle-moon {
   line-height: 1.35;
 }
 
-.visual-choice-cards {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.visual-choice-card {
-  align-items: start;
-  background: var(--surface-raised);
-  border: 1px solid var(--control-border);
-  border-radius: 14px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 34px minmax(0, 1fr);
-  min-height: 70px;
-  padding: 12px;
-}
-
-.visual-choice-card span {
-  align-items: center;
-  background: var(--choice-letter-bg);
-  border: 1px solid var(--choice-letter-border);
-  border-radius: 10px;
-  color: var(--text-muted-strong);
-  display: inline-flex;
-  font-size: 0.85rem;
-  font-weight: 850;
-  height: 34px;
-  justify-content: center;
-  width: 34px;
-}
-
-.visual-choice-card p {
-  color: var(--text);
-  font-weight: 740;
-  line-height: 1.35;
-}
-
 .visual-mission {
   background: var(--primary-soft);
   border: 1px solid var(--primary-border);
@@ -3647,10 +3609,6 @@ html[data-theme="dark"] .theme-toggle-moon {
 
   .visual-actor {
     grid-template-columns: minmax(90px, 118px) minmax(0, 1fr);
-  }
-
-  .visual-choice-cards {
-    grid-template-columns: 1fr;
   }
 
   .confidence-check {

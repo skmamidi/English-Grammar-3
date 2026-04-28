@@ -1142,6 +1142,56 @@
           "sourceSet": "vocabulary-base-words",
           "sequence": 21
         }
+      },
+      {
+        "question": "Which suffix best completes this sentence? Before Sheila recycles her aluminum cans, she crush__ all of them.",
+        "choices": [
+          "in g",
+          "es",
+          "est",
+          "er"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: es. es; crush( es ) – to compress forcefully",
+          "incorrect": [
+            "Not: in g. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: est. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: er. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sequence": 22,
+          "sourceFile": "Proficient-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -3871,6 +3921,1756 @@
           "sourceSet": "vocabulary-homophones",
           "sequence": 15
         }
+      },
+      {
+        "question": "Read the sentence below. The bite of a hobo spider is venomous. They rarely cause death. Which word would be used to combine these sentences into a complex sentence?",
+        "choices": [
+          "because",
+          "therefore",
+          "since",
+          "although"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: although. although; The bite of a hobo spider is venomous, although they rarely cause death.",
+          "incorrect": [
+            "Not: because. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: therefore. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: since. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence demonstrates correct subject-verb agreement?",
+        "choices": [
+          "The girls is walking from class to the gym.",
+          "My son are taking too long to return my phone call.",
+          "The children is playing kickball during recess.",
+          "Pe ople in the city honk their horn a lot."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Pe ople in the city honk their horn a lot.. People in the city honk their horn a lot. Subject (people) – Verb (honk)",
+          "incorrect": [
+            "Not: The girls is walking from class to the gym.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My son are taking too long to return my phone call.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The children is playing kickball during recess.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 17,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word would you use to combine the sentences below? Before you go to the game, you must clean your room. I’ll give you ten dollars, if you do a good job.",
+        "choices": [
+          "therefore",
+          "but",
+          "after",
+          "when"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: but. but; Before you go to the game, you must clean your room, but I’ll give you ten dollars, if you do a good job.",
+          "incorrect": [
+            "Not: therefore. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: after. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: when. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 18,
+          "sourceFile": "Advanced-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "If you are writing a letter to your grandmother about what your camping site looked like, which one of these are you most likely to write?",
+        "choices": [
+          "review",
+          "description",
+          "persuasive argument",
+          "narrative"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: description. description; Y ou are telling her what was there, describing the site to her. just enough.",
+          "incorrect": [
+            "Not: review. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: persuasive argument. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: narrative. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 19,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which choice is not correctly punctuated?",
+        "choices": [
+          "Leah, and my sister went shopping.",
+          "No, I don’t need any help.",
+          "“Last week,” she answered.",
+          "We have bread, pickles, and butter."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Leah, and my sister went shopping.. Leah, and my sister went shopping. –There is not a comma between two subjects.",
+          "incorrect": [
+            "",
+            "Not: No, I don’t need any help.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: “Last week,” she answered.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We have bread, pickles, and butter.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 20,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is a homophone?",
+        "choices": [
+          "melon",
+          "waste",
+          "steer",
+          "spear"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: waste. waste, The word is the matching homophone. their",
+          "incorrect": [
+            "Not: melon. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: steer. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: spear. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 21,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence uses the correct possessive pronoun?",
+        "choices": [
+          "It’s time for the game to start.",
+          "She said I could have the pencil.",
+          "My friend got a new bed yesterday.",
+          "I like their milkshakes the best."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: I like their milkshakes the best.. I like their milkshakes the best. The word is the possessive pronoun.",
+          "incorrect": [
+            "Not: It’s time for the game to start.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: She said I could have the pencil.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My friend got a new bed yesterday.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 22,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 25,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following would be included under the topic of fixing your car?",
+        "choices": [
+          "The correct kindof tires for your c ar.",
+          "How far to drive your car in one day.",
+          "Tools you need to work on your car.",
+          "How to remove bird poop fromyour bumper."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Tools you need to work on your car.. Tools you need to work on your car. A person would need tools to fix their car.",
+          "incorrect": [
+            "Not: The correct kindof tires for your c ar.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: How far to drive your car in one day.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: How to remove bird poop fromyour bumper.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 23,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence c ouldonly be about living on an island?",
+        "choices": [
+          "The ferry only came twice a day to take people to the mainland.",
+          "During the winter, it was hot, and the ocean water was warm.",
+          "Tourists came often in the summer, but in the winter, no one came.",
+          "There were cars everywhere, on every road during the summer."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The ferry only came twice a day to take people to the mainland.. The ferry only came twice a day to take people to the mainland. This is the only choice that wouldonly apply to living on an island. The other choices might be about an island, but they might not.",
+          "incorrect": [
+            "",
+            "Not: During the winter, it was hot, and the ocean water was warm.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Tourists came often in the summer, but in the winter, no one came.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: There were cars everywhere, on every road during the summer.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 24,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 45,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word needs a capital letter?",
+        "choices": [
+          "birthday",
+          "christmas",
+          "street th",
+          "holiday"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: christmas. christmas; Christmas is the name of a holiday and is a proper noun; therefore, it should be capitalized.",
+          "incorrect": [
+            "Not: birthday. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: street th. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: holiday. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 25,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following should have the first word capitalized?",
+        "choices": [
+          "the detective, a very clever fellow",
+          "did not find my money",
+          "a strange light was seen nearby",
+          "the child to the playground"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: a strange light was seen nearby. a strange light was seen nearby. This is the only complete sentence; therefore, it should start with a capital letter. A strange light was seen nearby.",
+          "incorrect": [
+            "Not: the detective, a very clever fellow. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: did not find my money. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: the child to the playground. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 26,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has the same meaning as the sentence below? Marilyn planned to spend the night ather grandmother’s house. She packed her favorite pajamas. She packed her favorite blanket. She packed her teddy bear.",
+        "choices": [
+          "Marilyn, who packed her grandmother, spent the night with her teddy bear, pajamas, and blanket.",
+          "Marilyn, who was spending the night with her grandmother, packed her favorite pajamas, teddy bear, and blanket.",
+          "Marilyn packed her grandmother, blanket, pajamas, and teddy bear to spend the night.",
+          "Grandmother, Marilyn, and the teddy bear packed their pajamas and blankets."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Marilyn, who was spending the night with her grandmother, packed her favorite pajamas, teddy bear, and blanket.. Marilyn, who was spending the night with her grandmother, packed her favorite pajamas, teddy bear, and blanket.",
+          "incorrect": [
+            "Not: Marilyn, who packed her grandmother, spent the night with her teddy bear, pajamas, and blanket.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Marilyn packed her grandmother, blanket, pajamas, and teddy bear to spend the night.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Grandmother, Marilyn, and the teddy bear packed their pajamas and blankets.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 27,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is missing an article?",
+        "choices": [
+          "In the woods, big tree fell over.",
+          "Shelly saton a swing at the park.",
+          "An octopus is smart enough to escape.",
+          "We leftour lunch on the picnic table."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: In the woods, big tree fell over.. In the woods, big tree fell over. There should be either or before.",
+          "incorrect": [
+            "",
+            "Not: Shelly saton a swing at the park.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: An octopus is smart enough to escape.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We leftour lunch on the picnic table.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 28,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which comma is in the correct place?",
+        "choices": [
+          "Mr, Tom Banks",
+          "792 Golden, Lane",
+          "Room 35,",
+          "Moons, KY 14582"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Moons, KY 14582. Moon s, KY; In an address there is a comma betwe en the city and the state.",
+          "incorrect": [
+            "Not: Mr, Tom Banks. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: 792 Golden, Lane. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Room 35,. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 29,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the best main topic for the words listed below. rides, clowns, sunshine, cotton candy",
+        "choices": [
+          "At the Fair",
+          "At the Zoo",
+          "At the Lake",
+          "At the Park"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: At the Fair. At the Fair; Rides, clowns, and cotton candy are found at fairs which are heldoutside where there is sunshine.",
+          "incorrect": [
+            "",
+            "Not: At the Zoo. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: At the Lake. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: At the Park. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 30,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is capitalized correctly?",
+        "choices": [
+          "We went to London on our Vacation.",
+          "The dog knockedover Mr. sands.",
+          "There was a tornado in Alabama.",
+          "My mom sent me a Birthday Card."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: There was a tornado in Alabama.. There was a tornado in Alabama. The Mr. Hews",
+          "incorrect": [
+            "Not: We went to London on our Vacation.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The dog knockedover Mr. sands.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: My mom sent me a Birthday Card.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 31,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence tells me there wa s a fire?",
+        "choices": [
+          "The wood was too wet to use.",
+          "The flames reached the ceiling.",
+          "I forgot the matches at home.",
+          "We cooked hamburgers on the stove."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The flames reached the ceiling.. The flame s reached the c eiling. There would not be flames without a fire.",
+          "incorrect": [
+            "Not: The wood was too wet to use.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: I forgot the matches at home.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We cooked hamburgers on the stove.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 32,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 37,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is outof order in the paragraph? 1) Our family wenton a camping trip. 2) Then, we went home. 3) When we got there, we set up our tent. 4) We hiked and ate s’mores.",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 2. 2) Then, we went home. This should be the last sentence in the paragraph.",
+          "incorrect": [
+            "Not: 1. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: 3. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: 4. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 33,
+          "sourceFile": "Basic-4_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence restates the main idea? All the children were picking up litter that was on the school ground.",
+        "choices": [
+          "There were dogs running around the school yard.",
+          "The custodian emptied the trash cans.",
+          "We met in frontof the school.",
+          "The litter was picked up by the children at school."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The litter was picked up by the children at school.. The litter was picked up by the children at school.",
+          "incorrect": [
+            "Not: There were dogs running around the school yard.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The custodian emptied the trash cans.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We met in frontof the school.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 34,
+          "sourceFile": "Basic-4_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Once there was a funny clown. The sentence above might be used to:",
+        "choices": [
+          "tell about a trip to the store",
+          "thank a friend",
+          "tell about a fish",
+          "begin a story"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: begin a story. begin a story; once - atone time in the past; formerly. This hints towards a story.",
+          "incorrect": [
+            "Not: tell about a trip to the store. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: thank a friend. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: tell about a fish. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 35,
+          "sourceFile": "Basic-5_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence most precisely describes an action?",
+        "choices": [
+          "He put stuff in a bag.",
+          "She packed.",
+          "They placed their clothes in duffel bags.",
+          "I took some junk for the trip."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: They placed their clothes in duffel bags.. They placed their clothes in duffel bags. The sentence precisely states what they did (placed), what they placed (clothes), and what they placed it in (duffel bags).",
+          "incorrect": [
+            "Not: He put stuff in a bag.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: She packed.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: I took some junk for the trip.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 36,
+          "sourceFile": "Basic-5_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence is written correctly?",
+        "choices": [
+          "M rs. Land asked, “who remembered their pencils? ”",
+          "“I need to walk the dog,” Dad told me.",
+          "“call me when you get home,” said Jody.",
+          "She said, “how are you today?”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: “I need to walk the dog,” Dad told me.. “I need to walk the dog,” Dad told me.",
+          "incorrect": [
+            "Not: M rs. Land asked, “who remembered their pencils? ”. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: “call me when you get home,” said Jody.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: She said, “how are you today?”. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 37,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the sentences below. liza and bobby looked forward to visiting their grandparents. grandma ruth and grandpa john lived in the country and had lots of farm animals. they were really excited about the horses. Which words should be capitalized?",
+        "choices": [
+          "liz a, bobby, grandparents, grandma ruth, grandpa john",
+          "liza, bobby, grandma ruth, grandpa john, they",
+          "liza, grandparents, country, animals, they",
+          "liza, bobby, grandparents, they, horses"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: liza, bobby, grandma ruth, grandpa john, they. liza, bobby, grandma ruth, grandpa john, they; Liza and Bobby looked forward to visiting their grandparents. Grandma Ruth and Grandpa John lived in the country and had lots of farm animals. They were really excited about the horses.",
+          "incorrect": [
+            "Not: liz a, bobby, grandparents, grandma ruth, grandpa john. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: liza, grandparents, country, animals, they. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: liza, bobby, grandparents, they, horses. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 38,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Identify where there should be a comma in the sentence below. My best friend moved to Denver Colorado.",
+        "choices": [
+          "My, best",
+          "friend, moved",
+          "moved, to",
+          "Denver, Colorado"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Denver, Colorado. Denver, Colorado; Always use a comma between city and state.",
+          "incorrect": [
+            "Not: My, best. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: friend, moved. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: moved, to. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 39,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 45,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "The students ironedout their problems. What does ‘ironedout’mean in the sentence above?",
+        "choices": [
+          "solved",
+          "putout",
+          "walked",
+          "sang"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: solved. solved - ironedout",
+          "incorrect": [
+            "",
+            "Not: putout. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: walked. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: sang. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 40,
+          "sourceFile": "Proficient-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "You are writing a story for young children about their first trip to the dentist. Which group of words is appropriate for your story?",
+        "choices": [
+          "gu m disease, loss of teeth, root canal",
+          "brush, floss, prevention",
+          "friendly dentist, happy teeth, tooth fairy",
+          "expense, anesthesia, pain"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: friendly dentist, happy teeth, tooth fairy. friendly dentist, happy teeth, tooth fairy; although other answer options a re also pertinent to the dentist the audience is young children and their first trip to the dentist.",
+          "incorrect": [
+            "Not: gu m disease, loss of teeth, root canal. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: brush, floss, prevention. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: expense, anesthesia, pain. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 41,
+          "sourceFile": "Proficient-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which setof words will complete the sentence below? I will mow the lawn _____ dinner and then water the plants _____.",
+        "choices": [
+          "now, later",
+          "after, now",
+          "before, afterward",
+          "at, now"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: before, afterward. before, afterward is 2. B Yes, I want to go to the store. There should be comma after an introductory word. judge",
+          "incorrect": [
+            "Not: now, later. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: after, now. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: at, now. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 42,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the sentence that is punctuated correctly.",
+        "choices": [
+          "Dr. Roman thank you for helping me.",
+          "Yes, I want to go to the store.",
+          "Later she wentout to her car.",
+          "The principal, called my mom."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Yes, I want to go to the store.. Yes, I want to go to the store. There should be a comma after an introductory word.",
+          "incorrect": [
+            "Not: Dr. Roman thank you for helping me.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Later she wentout to her car.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The principal, called my mom.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 43,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the following passage and identify the appropriate audience. Use three hoses to spray water over the whole area. When it is safe, head up to the roof to see if there is any damage.",
+        "choices": [
+          "gardeners",
+          "sailors",
+          "lifeguards",
+          "firefighters"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: firefighters. firefighters; Firefighters use water hoses and go up on roofs to check for damage.",
+          "incorrect": [
+            "Not: gardeners. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: sailors. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: lifeguards. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 44,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Who is their talking about in this sentence? Leo and Silas took the puppy over to their grandparent ’s house in Denver.",
+        "choices": [
+          "Leo and Silas",
+          "puppy",
+          "grandparent’s",
+          "the correct answer is not listed"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Leo and Silas. Leo and Silas; Their refers back to the subjectof the sentence.",
+          "incorrect": [
+            "",
+            "Not: puppy. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: grandparent’s. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: the correct answer is not listed. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 45,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 34,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence tells me there were dirty dishes in the sink?",
+        "choices": [
+          "There are pots and pans everywhere when I cook dinner.",
+          "I had to move the pots and pans so I could fill the sink with water.",
+          "We cleared all the dishes off the table before we broughtout dessert.",
+          "The water took a while to heat up when I turnedon the kitche n faucet."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I had to move the pots and pans so I could fill the sink with water.. I had to move the pots and pans so I could fill the sink with water. The pots and pans were in the sink and needed to be taken outof the sink so water could be put in it.",
+          "incorrect": [
+            "Not: There are pots and pans everywhere when I cook dinner.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: We cleared all the dishes off the table before we broughtout dessert.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The water took a while to heat up when I turnedon the kitche n faucet.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 46,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 37,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following should have the first word capitalized?",
+        "choices": [
+          "before 5 a.m., ringing so loudly, it woke me up",
+          "flew through a hole in the roof to their babies waiting below",
+          "after spending just ten minutes outside, I had a sunburn",
+          "completely soakedour shirts and shorts"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: after spending just ten minutes outside, I had a sunburn. after spending just ten minutes outside, I had a sunburn; This is a complete sentence because it has a subject and a verb. I was the only one",
+          "incorrect": [
+            "Not: before 5 a.m., ringing so loudly, it woke me up. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: flew through a hole in the roof to their babies waiting below. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: completely soakedour shirts and shorts. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 47,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence tells you I am home alone?",
+        "choices": [
+          "I didn’t answer the door when someone rang the doorbell.",
+          "The house is old and makes a lotof strange noises.",
+          "I made a small dinner since I was the only one there to eat it.",
+          "The only lighton in the house was the one in my bedroom."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I made a small dinner since I was the only one there to eat it.. I made a small dinner since I was the only one there to eat it. Saying means no one else was there.",
+          "incorrect": [
+            "Not: I didn’t answer the door when someone rang the doorbell.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The house is old and makes a lotof strange noises.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The only lighton in the house was the one in my bedroom.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 48,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence best describes the mood “cheerfulness”?",
+        "choices": [
+          "The lilacs are nice.",
+          "The lilacs will die and lose their petals.",
+          "The lilacs are purple.",
+          "The lilacs danced with gentle breezes."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The lilacs danced with gentle breezes.. The lilacs danced with gentle breezes. The word ‘danced’indicates ‘cheerfulness’.",
+          "incorrect": [
+            "Not: The lilacs are nice.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The lilacs will die and lose their petals.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The lilacs are purple.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 49,
+          "sourceFile": "Proficient-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which of the following would be a strong sentence starter for the topic below? “Lightning Storm”",
+        "choices": [
+          "The lights wentout.",
+          "Suddenly, there was a flash of lightning.",
+          "Maria shivered.",
+          "The room was dark."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Suddenly, there was a flash of lightning.. Suddenly, there was a flash of lightning.",
+          "incorrect": [
+            "Not: The lights wentout.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Maria shivered.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The room was dark.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sequence": 50,
+          "sourceFile": "Proficient-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -4685,6 +6485,206 @@
           "reviewPriority": "high",
           "sourceSet": "vocabulary-rhyming",
           "sequence": 15
+        }
+      },
+      {
+        "question": "Read the limerick. 1 – There once was an alien from space 2 – Who knew he was going to race 3 – The kids in the school 4 – ________________________ 5 – He won, but left not a trace. Which of the following lines would best fit line 4?",
+        "choices": [
+          "Wh om he thought very cool.",
+          "Thoughthe was groovy.",
+          "Wentoutside to play with him.",
+          "Could not run his pace."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Wh om he thought very cool.. Whom he thought very cool. The word ‘cool’rhymes with ‘school’. A -A- B-B-A",
+          "incorrect": [
+            "",
+            "Not: Thoughthe was groovy.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Wentoutside to play with him.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Could not run his pace.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-rhyming",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which of the following sentences have rhyming words?",
+        "choices": [
+          "Has a tiny tooth to show I have a double row",
+          "Has a tiny tooth to lose I have a new tooth",
+          "Has a tiny tooth to show I have a new one",
+          "Has a tiny tooth to show I have a new tooth"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Has a tiny tooth to show I have a double row. Has a tiny tooth to show I have a double row; ‘ show ’and ‘ row ’are rhyming words - they end with a sound that corresponds to another.",
+          "incorrect": [
+            "",
+            "Not: Has a tiny tooth to lose I have a new tooth. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Has a tiny tooth to show I have a new one. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Has a tiny tooth to show I have a new tooth. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-rhyming",
+          "sequence": 17,
+          "sourceFile": "Basic-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which rhyming word fits in this poem? From the sky Clouds are quickly Drifting _________",
+        "choices": [
+          "alo ng",
+          "through",
+          "by",
+          "around"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: by. by; Clouds quickly drift by.",
+          "incorrect": [
+            "Not: alo ng. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: through. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: around. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-rhyming",
+          "sequence": 18,
+          "sourceFile": "Basic-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Read the limerick. 1 - I went to the mall and paid cash 2 - For a coat and dress with a sash 3 - I jogged to my car 4 - _______________________ 5 - Just to run a stop sign and go crash! Which of the following lines would best fit line 4?",
+        "choices": [
+          "I o pened the door",
+          "Then, I drove very far",
+          "It was raining outside",
+          "I threw my bags in"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Then, I drove very far. Then, I drove very far; ‘far’rhymes with ‘car’.",
+          "incorrect": [
+            "Not: I o pened the door. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: It was raining outside. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I threw my bags in. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-rhyming",
+          "sequence": 19,
+          "sourceFile": "Proficient-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
         }
       }
     ],
@@ -7071,6 +9071,656 @@
           "sourceFile": "Proficient-7_grammer and usage.pdf",
           "sourceQuestionNumber": 4
         }
+      },
+      {
+        "question": "Which topic would be listed under in an outline?",
+        "choices": [
+          "crops",
+          "floods",
+          "timber",
+          "boulders"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: timber. timber; Timber is wood.",
+          "incorrect": [
+            "Not: crops. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: floods. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: boulders. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 46,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the antonym for the underlined word. The powerful leader made the people obey his rules.",
+        "choices": [
+          "easy",
+          "kind",
+          "weak",
+          "careful"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: weak. weak; P owerful means, weak means",
+          "incorrect": [
+            "Not: easy. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: kind. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: careful. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 47,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which setof words has similar meanings?",
+        "choices": [
+          "nation, county",
+          "blender, toaster",
+          "beard, mustache",
+          "error, mistake"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: error, mistake. error, mistake; Both of these words mean",
+          "incorrect": [
+            "Not: nation, county. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: blender, toaster. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: beard, mustache. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 48,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What word is the opposite of loose?",
+        "choices": [
+          "knot",
+          "open",
+          "tight",
+          "easy"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: tight. tight",
+          "incorrect": [
+            "Not: knot. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: open. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: easy. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 49,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has the same meaning as the sentences below. Elison packed his suitcase. Elison packed socks. Elison packed shirts. Elison packed an extra pair of shoes. Elison packed his teddy bear.",
+        "choices": [
+          "Eliso n packed socks, shirts, an extra pair of shoes, and his teddy bear in his suitcase.",
+          "Elison packed in his teddy bear a suitcase, extra pair of shoes, socks and shirts.",
+          "Elison packed socks, extra shoes, a teddy bear, and a suitcase in his shirts.",
+          "In his socks, Elison packed his teddy bear, extra shoes, a sui tcase, and his shirts."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Eliso n packed socks, shirts, an extra pair of shoes, and his teddy bear in his suitcase.. Elison packed socks, shirts, an extra pair of shoes, and his teddy bear in his suitcase.",
+          "incorrect": [
+            "",
+            "Not: Elison packed in his teddy bear a suitcase, extra pair of shoes, socks and shirts.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Elison packed socks, extra shoes, a teddy bear, and a suitcase in his shirts.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: In his socks, Elison packed his teddy bear, extra shoes, a sui tcase, and his shirts.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 50,
+          "sourceFile": "Basic-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which is the best way to describe a hurricane destroying beach houses?",
+        "choices": [
+          "The hurricane blew softly across the beach.",
+          "The hurricane gusts tore the beach houses to pieces.",
+          "The storm flew in and freshened the air around the beach houses.",
+          "The hurricane flitted through open windows like a soft melody."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The hurricane gusts tore the beach houses to pieces.. The hurricane gusts tore the beach houses to pieces. The key word is ‘tore’which signifies destruction.",
+          "incorrect": [
+            "Not: The hurricane blew softly across the beach.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The storm flew in and freshened the air around the beach houses.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The hurricane flitted through open windows like a soft melody.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 51,
+          "sourceFile": "Proficient-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which word means the same as the underlined w ord? My father opened his present first. He felthe couldn’t wait any longer.",
+        "choices": [
+          "cou ldn’t",
+          "longer",
+          "father",
+          "present"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: father. father; The father (he) felthe couldn’t wait any longer.",
+          "incorrect": [
+            "Not: cou ldn’t. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: longer. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: present. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 52,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 34,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Select the best definition for the underlined words. The alley cat was hanging around with another cat in the neighborhood.",
+        "choices": [
+          "sleep ing",
+          "befriending",
+          "organizing",
+          "shouting"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: befriending. befriending; befriend – to act as a friend",
+          "incorrect": [
+            "Not: sleep ing. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: organizing. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: shouting. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 53,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 36,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which is the best way to rewrite the sentence below without changing it? Jill tripped and hurtherself.",
+        "choices": [
+          "Jill stumbledon her way through the door and twisted her ankle.",
+          "Jill felt sick and left the room.",
+          "Jill hurther ankle when Jerry pushed her.",
+          "Jill broke her arm rollerblading."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Jill stumbledon her way through the door and twisted her ankle.. Jill stumbledon her way through the door and twisted her ankle. ‘Jill tripped’is synonymous with 'Jill stumbled’. “Twisted her ankle” is the way she “hurtherself”.",
+          "incorrect": [
+            "",
+            "Not: Jill felt sick and left the room.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Jill hurther ankle when Jerry pushed her.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Jill broke her arm rollerblading.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 54,
+          "sourceFile": "Proficient-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which words should be capitalized in the sentence below? the tornado caused by the thunderstorm destroyed three towns in in diana.",
+        "choices": [
+          "the, tornado, towns",
+          "the, thunderstorm, indiana",
+          "the, tornado, indiana",
+          "the, indiana"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: the, indiana. the, Indiana; is the first word and is the name of a state.",
+          "incorrect": [
+            "Not: the, tornado, towns. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: the, thunderstorm, indiana. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: the, tornado, indiana. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 55,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence would you use to write a story a bout boating?",
+        "choices": [
+          "I packed a sleeping bag and a lantern.",
+          "The fireworks were so loud I couldn’t sleep.",
+          "The wind caught the sail and pushed us forward.",
+          "People kept getting on andoff at every stop."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The wind caught the sail and pushed us forward.. The wind caught the sail and pushed us forward. This would happen on a sailboat. Restore destroy",
+          "incorrect": [
+            "Not: I packed a sleeping bag and a lantern.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The fireworks were so loud I couldn’t sleep.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: People kept getting on andoff at every stop.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 56,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 45,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the antonym for the underlined word. The town council decided to restore the park so people could use it again.",
+        "choices": [
+          "fix",
+          "destroy",
+          "add",
+          "open"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: destroy. destroy; means to bring something back to a previous condition, means to ruin beyond repair.",
+          "incorrect": [
+            "Not: fix. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: add. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: open. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 57,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What does the underlined word mean in this sentence? The stubborn nail refused to move.",
+        "choices": [
+          "ju mped",
+          "went",
+          "failed",
+          "begged"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: failed. failed; refused is synonymous with failed",
+          "incorrect": [
+            "Not: ju mped. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: went. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: begged. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sequence": 58,
+          "sourceFile": "Proficient-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -8590,6 +11240,156 @@
           "sequence": 30,
           "sourceFile": "Proficient-7_grammer and usage.pdf",
           "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which words best complete this sentence? Greg is ____________ his father, George.",
+        "choices": [
+          "tallest than",
+          "taller than",
+          "taller from",
+          "tall than"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: taller than. taller than; Greg is taller than his father, George.",
+          "incorrect": [
+            "Not: tallest than. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: taller from. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: tall than. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 31,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 36,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the correct wordor words to complete the sentence below. This one is _________ than thatone.",
+        "choices": [
+          "good",
+          "better",
+          "more good",
+          "be st"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: better. better; better - of more excellentor effective type or quality.",
+          "incorrect": [
+            "Not: good. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: more good. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: be st. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 32,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 37,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which setof words will complete the sentence below? The lettuce was ________ than the carrots, but the tomatoes were ______ ___ of all.",
+        "choices": [
+          "f resher, freshest",
+          "fresher, most freshest",
+          "more fresher, freshest",
+          "more fresher, most freshest"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: f resher, freshest. fresher, freshest; The lettuce was fresher than the carrots, but the tomatoes were the fre shestof all.",
+          "incorrect": [
+            "",
+            "Not: fresher, most freshest. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: more fresher, freshest. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: more fresher, most freshest. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-comparatives-superlatives",
+          "sequence": 33,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "language-usage-test"
         }
       }
     ],
@@ -16627,6 +19427,2056 @@
           "sequence": 113,
           "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 3
+        }
+      },
+      {
+        "question": "Which word in the list would NOT use the same criteria in selecting a movi e?",
+        "choices": [
+          "En glish",
+          "Spanish",
+          "Drama",
+          "French"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Drama. Drama, the other criteria are languages. Drama is a genre.",
+          "incorrect": [
+            "Not: En glish. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Spanish. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: French. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 114,
+          "sourceFile": "Advanced-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which of the following contains an error?",
+        "choices": [
+          "Mary seems to have growed an inch in the last week.",
+          "Her puppy has found where the bones were hidden.",
+          "Sam smiled happily as he left school early.",
+          "Susie ran from her car because of the pouring rain."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Mary seems to have growed an inch in the last week.. Mary seems to have growed an inch in the last week. Correct word is ‘grown’.",
+          "incorrect": [
+            "",
+            "Not: Her puppy has found where the bones were hidden.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Sam smiled happily as he left school early.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Susie ran from her car because of the pouring rain.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 115,
+          "sourceFile": "Advanced-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Choose the function of the underlined word(s). Joe built Ruff a dog house.",
+        "choices": [
+          "subject",
+          "directobject",
+          "indirectobject",
+          "predicate adjective"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: directobject. directobject; A directobject is a noun or pronoun that receives the action of a verb. It answers Who? or What? Joe built Ruff a dog house. Verb: built; Question: built what? Directobject: dog house (noun)",
+          "incorrect": [
+            "Not: subject. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: indirectobject. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: predicate adjective. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 116,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which words should be capitalized? Did you know the senator of massachusetts, senator kennedy, was once a secretary of transportation?",
+        "choices": [
+          "senator, massachusetts, senator,kennedy",
+          "senator, massachusetts, senator kennedy, secretary of transportation",
+          "massachusetts, secretary of transportation",
+          "massachusetts, senator kennedy"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: senator, massachusetts, senator,kennedy. senator, massachusetts, senator kennedy; Did you know the Senator of Massachusetts, Senator Kennedy, was once a secretary of transportation?",
+          "incorrect": [
+            "",
+            "Not: senator, massachusetts, senator kennedy, secretary of transportation. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: massachusetts, secretary of transportation. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: massachusetts, senator kennedy. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 117,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is NOT spelled correctly?",
+        "choices": [
+          "experience",
+          "efficiency",
+          "science",
+          "neighbor"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: neighbor. nieghbor; Correct spelling - neighbor",
+          "incorrect": [
+            "Not: experience. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: efficiency. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: science. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 118,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has a spelling error?",
+        "choices": [
+          "My aunt speaks three different languages.",
+          "Although I prefer milk, I will have water with my meal.",
+          "She thought she won a silver medal, but she won the bronze.",
+          "My brother and his wife like to go to mountains to hike."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: My aunt speaks three different languages.. My aunt speaks three different languages. Correct spelling: languages.",
+          "incorrect": [
+            "",
+            "Not: Although I prefer milk, I will have water with my meal.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: She thought she won a silver medal, but she won the bronze.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My brother and his wife like to go to mountains to hike.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 119,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is NOT written correctly?",
+        "choices": [
+          "Joyce has gone to the store several times this year.",
+          "John and Susan always hurry to school before the bell rings.",
+          "Julie went to the movie insteadof going to the library.",
+          "The teacher brung a variety of Halloween treats to her classes."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The teacher brung a variety of Halloween treats to her classes.. The teacher brung a variety of Halloween treats for her classes. The correct verb form is brought, not brung.",
+          "incorrect": [
+            "Not: Joyce has gone to the store several times this year.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: John and Susan always hurry to school before the bell rings.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Julie went to the movie insteadof going to the library.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 120,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 25,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which verb form is not used correctly?",
+        "choices": [
+          "The children have torn down their fort.",
+          "Harriet brung the umbrella into the house.",
+          "The brightly colored balloons have burst.",
+          "Jill is doing the best she can."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Harriet brung the umbrella into the house.. Harriet brung the umbrella into the house. Correct: Harriet brought the umbrella into the house.",
+          "incorrect": [
+            "Not: The children have torn down their fort.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The brightly colored balloons have burst.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Jill is doing the best she can.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 121,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 46,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which course title is correctly capitalized?",
+        "choices": [
+          "Language Arts",
+          "Geometry",
+          "Biology",
+          "Ge rman"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Ge rman. German; Capitalize the names of countries, nationalities and languages because they are proper nouns.",
+          "incorrect": [
+            "Not: Language Arts. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Geometry. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Biology. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 122,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 47,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "library",
+          "nineth",
+          "restarant",
+          "definitly"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: library. library; Correct spellings B – ninth, C – restaurant, D - definitely",
+          "incorrect": [
+            "",
+            "Not: nineth. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: restarant. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: definitly. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 123,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence best supports the opinion expressed below? Science is the best class I am taking this year.",
+        "choices": [
+          "My math teacher is fun, too.",
+          "We do a lotof fun experiments.",
+          "My class is after lunch.",
+          "This is the first class our teacher has taught."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: We do a lotof fun experiments.. We do a lotof fun experiments. This explains why the person enjoys science class. listener",
+          "incorrect": [
+            "Not: My math teacher is fun, too.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: My class is after lunch.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: This is the first class our teacher has taught.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 124,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the word that is spelled incorrectly.",
+        "choices": [
+          "whistle",
+          "gigantic",
+          "listner",
+          "sought"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: listner. list ner; The correct spelling is. waist",
+          "incorrect": [
+            "Not: whistle. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: gigantic. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: sought. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 125,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the word that is spelled correctly.",
+        "choices": [
+          "earing",
+          "poision",
+          "fantastick",
+          "knuckle"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: knuckle. knuckle; The other correct spellings would be earring, poison, and fantastic.",
+          "incorrect": [
+            "Not: earing. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: poision. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: fantastick. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 126,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is the best choice to replace the underlined word? Marcel handedout papers asking his friends to come to a surprise party for Michele.",
+        "choices": [
+          "tickets",
+          "cards",
+          "receipts",
+          "invitations"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: invitations. invitations; Invitations are cards people use to ask others to come to an event.",
+          "incorrect": [
+            "Not: tickets. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: cards. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: receipts. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 127,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What is the correct plural spelling of chalk?",
+        "choices": [
+          "chalks",
+          "chalkes",
+          "chalk’s",
+          "chalk"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: chalk. chalk; The singular and plural of the word are the same.",
+          "incorrect": [
+            "Not: chalks. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: chalkes. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: chalk’s. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 128,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 43,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "throogh",
+          "breathles",
+          "Feberuary",
+          "everyone"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: everyone. everyone; The other words spelled correctly are through, breathless, and February. strong fragile.",
+          "incorrect": [
+            "Not: throogh. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: breathles. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Feberuary. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 129,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 47,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence does not use vivid descriptors?",
+        "choices": [
+          "My friends rapidly walked the track.",
+          "I went walking.",
+          "One sunny day, I went walking.",
+          "One windy day, I went for a brisk walk."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I went walking.. I went walking. A vivid descriptor makes you feel as if you are there and appeals to the senses. Rapidly, sunny, windy, brisk are all descriptive words",
+          "incorrect": [
+            "Not: My friends rapidly walked the track.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: One sunny day, I went walking.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: One windy day, I went for a brisk walk.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 130,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which underlined wor d is incorrectly capitalized? My favorite classes in school are math, french, and art.",
+        "choices": [
+          "french",
+          "classes",
+          "art",
+          "math"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: french. french, Languages are proper nouns and should be capitalized – French.",
+          "incorrect": [
+            "",
+            "Not: classes. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: art. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: math. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 131,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the sentence. My sister and I are friends. This sentence is:",
+        "choices": [
+          "a command",
+          "a question",
+          "a statement",
+          "an exclamation"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: a statement. a statement; A statement declares a fact, opinion or idea.",
+          "incorrect": [
+            "Not: a command. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: a question. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: an exclamation. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 132,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which underlined word is NOT spelled correctly? My fr ei nds and I went to the movies together.",
+        "choices": [
+          "freinds",
+          "went",
+          "movies",
+          "together"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: freinds. freinds, Correct spelling: friends",
+          "incorrect": [
+            "",
+            "Not: went. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: movies. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: together. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 133,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What is the correct plural spelling of monkey?",
+        "choices": [
+          "monkeys",
+          "monkys",
+          "monkies",
+          "monkees"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: monkeys. monkeys; Rule: If there is a vowel before the “y” then “s” is added.",
+          "incorrect": [
+            "",
+            "Not: monkys. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: monkies. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: monkees. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 134,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 43,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "once there was a little boy who loved to play on the beach. The sentence above:",
+        "choices": [
+          "is correct",
+          "needs a comma",
+          "needs a capital letter",
+          "has a misspelled word"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: needs a capital letter. needs a capital letter; Once there was a little boy who loved to play on the beach.",
+          "incorrect": [
+            "Not: is correct. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: needs a comma. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: has a misspelled word. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 135,
+          "sourceFile": "Basic-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which word is not spelled correctly?",
+        "choices": [
+          "center",
+          "after",
+          "tube",
+          "swimm"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: swimm. swimm; The correc t spelling should be",
+          "incorrect": [
+            "Not: center. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: after. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: tube. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 136,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What is the correct plural spelling of pony?",
+        "choices": [
+          "ponys",
+          "ponyes",
+          "pones",
+          "ponies"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: ponies. ponies",
+          "incorrect": [
+            "Not: ponys. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: ponyes. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: pones. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 137,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 43,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "elese",
+          "screem",
+          "storie",
+          "trade"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: trade. trade; The other words spelled correctly would be else, scream, and story.",
+          "incorrect": [
+            "Not: elese. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: screem. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: storie. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 138,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 47,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the following sentence. Everyone hid behind the couches and chairs to wait for Steph. What would this sentence most likely describe?",
+        "choices": [
+          "library",
+          "wedding",
+          "party",
+          "picnic"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: party. party",
+          "incorrect": [
+            "Not: library. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: wedding. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: picnic. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 139,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the best title for this report. Wolves are interesting animals. Wolves live in packs. Wolves are mammals and care for their young. The strongest male is the leader.",
+        "choices": [
+          "Ye llowstone Park",
+          "Facts about Wolves",
+          "Wild Animals",
+          "Life in the Cave"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Facts about Wolves. Facts about Wolves; The report mentions things that are relevant to wolves.",
+          "incorrect": [
+            "Not: Ye llowstone Park. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Wild Animals. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Life in the Cave. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 140,
+          "sourceFile": "Basic-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which word is NOT spelled correctly?",
+        "choices": [
+          "f earless",
+          "attendence",
+          "beautiful",
+          "accidentally"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: attendence. attendence; Correct spelling - attendance",
+          "incorrect": [
+            "Not: f earless. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: beautiful. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: accidentally. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 141,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has all the words spelled correctly and makes sense?",
+        "choices": [
+          "The bandage was wound around the woond.",
+          "He could lead if he would get the ledout.",
+          "The wind was too strong to wind the sail.",
+          "A bass was paintedon the headof the base drum."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The wind was too strong to wind the sail.. The wind was too strong to wind the sail. A – woond (spelling error - wound) B – led (spellin g error – lead) D – (spelling errors - bass should be base and base should be bass).",
+          "incorrect": [
+            "Not: The bandage was wound around the woond.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: He could lead if he would get the ledout.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: A bass was paintedon the headof the base drum.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 142,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "If you were writing a letter to the editor, w hich sentence would you most likely use to persuade the town council to save a tree that was about to be cut down?",
+        "choices": [
+          "The tree is an oak tree and a landmark.",
+          "My dad and uncle used to climb that tree.",
+          "If thatoldoak tree is cut down, a piece of history will disappear too.",
+          "That tree has Nathan Hale’s initials carved in it, who was a Revolutionary War Hero."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: That tree has Nathan Hale’s initials carved in it, who was a Revolutionary War Hero.. That tree has Nathan Ha le’s initials carved in it, who was a Revolutionary War hero. This gives the tree historical significance with concrete evidence.",
+          "incorrect": [
+            "Not: The tree is an oak tree and a landmark.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My dad and uncle used to climb that tree.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: If thatoldoak tree is cut down, a piece of history will disappear too.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 143,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is NOT spelled correctly?",
+        "choices": [
+          "emb arrass",
+          "government",
+          "Wednesday",
+          "tomorrow"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: government. government; Correct spelling – government",
+          "incorrect": [
+            "Not: emb arrass. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Wednesday. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: tomorrow. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 144,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has a spelling error?",
+        "choices": [
+          "There are alotof people at the movies.",
+          "It is definitely hotoutside.",
+          "I sincerely hope that you do well on your test.",
+          "We should meet mom and dad at a restaurant."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: There are alotof people at the movies.. The re are alotof people at the movies. “alot” should be spelled “a lot”.",
+          "incorrect": [
+            "",
+            "Not: It is definitely hotoutside.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I sincerely hope that you do well on your test.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We should meet mom and dad at a restaurant.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 145,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the best missing word. The __________ were solved by the detective and the policeman.",
+        "choices": [
+          "myster ies",
+          "mystery",
+          "mysterys",
+          "mystrys"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: myster ies. mysteries; mystery (singular) – mysteries (plural)",
+          "incorrect": [
+            "",
+            "Not: mystery. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: mysterys. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: mystrys. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 146,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 49,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "choices": [
+          "recieve",
+          "disappear",
+          "wierd",
+          "intresting"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: disappear. disappear; Correct spellings A – receive, C – weird, D - interesting",
+          "incorrect": [
+            "Not: recieve. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: wierd. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: intresting. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 147,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "If you want to convince the library president to startopening the library on Satu rday afternoons, which would you most likely want to write?",
+        "choices": [
+          "review",
+          "description",
+          "persuasive argument",
+          "narrative"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: persuasive argument. persuasive argument; A persuasive argument is o ne where you try to convince someone of your opinion or idea.",
+          "incorrect": [
+            "Not: review. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: description. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: narrative. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 148,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is spelled incorrectly?",
+        "choices": [
+          "powder",
+          "afraid",
+          "strange",
+          "awfull"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: awfull. awfull; The word is spelled awful",
+          "incorrect": [
+            "Not: powder. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: afraid. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: strange. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 149,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the word that is spelled correctly.",
+        "choices": [
+          "blouose",
+          "throat",
+          "errase",
+          "bearde"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: throat. throat; The other words correctly spelled are: blouse, erase, beard.",
+          "incorrect": [
+            "Not: blouose. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: errase. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: bearde. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 150,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What is the correct plural spelling of elf?",
+        "choices": [
+          "elfes",
+          "elfs",
+          "elves",
+          "elvs"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: elves. elves",
+          "incorrect": [
+            "Not: elfes. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: elfs. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: elvs. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 151,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 43,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is spelled incorrectly?",
+        "choices": [
+          "excuse",
+          "threw",
+          "thorn",
+          "squeak"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: squeak. squeak; It should be squeak.",
+          "incorrect": [
+            "Not: excuse. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: threw. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: thorn. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 152,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 47,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the underlined words is used incorrectly? Many ships and plains have disappeared in the Bermuda Triangle for unknown reasons.",
+        "choices": [
+          "man y",
+          "plains",
+          "unknown",
+          "reasons"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: plains. plains; the correct spelling for this use would be planes - short for airplane (an aircraft)",
+          "incorrect": [
+            "Not: man y. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: unknown. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: reasons. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 153,
+          "sourceFile": "Proficient-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Identify the best word to complete the following sentence. My friends planned a ____________ party.",
+        "choices": [
+          "f ood",
+          "brave",
+          "surprise",
+          "wind"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: surprise. surprise - to occur or bring out suddenly without warning.",
+          "incorrect": [
+            "Not: f ood. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: brave. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: wind. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sequence": 154,
+          "sourceFile": "Proficient-4_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "writing-strategies-application-style"
         }
       }
     ],
@@ -26432,6 +31282,206 @@
           "reviewPriority": "high",
           "sourceSet": "vocabulary-figurative-language",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Read the sentence. I am so hungry I could eat a horse. What figure of speech does this sentence use?",
+        "choices": [
+          "metaphor",
+          "exaggeration",
+          "simile",
+          "personification"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: exaggeration. exaggeration; Exaggeration - the describing of something and making it more than it really is.",
+          "incorrect": [
+            "Not: metaphor. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: simile. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: personification. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sequence": 181,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following sentences does NOT contain a figure of speech?",
+        "choices": [
+          "She ran to her locker with urgency.",
+          "Because I was embarrassed my face was as red as a ripe tomato.",
+          "The angry clouds marched across the sky.",
+          "The rain came down in long knitting needles."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: She ran to her locker with urgency.. She ran to her locker with urgency. B – simile, C – personification, D - metaphor",
+          "incorrect": [
+            "",
+            "Not: Because I was embarrassed my face was as red as a ripe tomato.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The angry clouds marched across the sky.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The rain came down in long knitting needles.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sequence": 182,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 45,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following does NOT contain a figure of speech?",
+        "choices": [
+          "My love is like a red, red rose.",
+          "She moves like the night through the dimmed hallways.",
+          "He ran today’s race with much gusto.",
+          "The scream ing headlines alerted us thatour candidate had lost."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: He ran today’s race with much gusto.. He ran today’s race with much gusto. Answers A and B are similes (using the word ‘like’). Answer D is personification (human characteristics given to something non-human).",
+          "incorrect": [
+            "Not: My love is like a red, red rose.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: She moves like the night through the dimmed hallways.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The scream ing headlines alerted us thatour candidate had lost.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sequence": 183,
+          "sourceFile": "Advanced-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence below is NOT a simile?",
+        "choices": [
+          "The fluffy cloud loo ked like a baby lamb following its mother.",
+          "The tree stood tall and erect like a proud statesman.",
+          "The river twists and turns like a snake in retreat.",
+          "The meadow of yellow flowers was gold sprinkled upon the earth."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The meadow of yellow flowers was gold sprinkled upon the earth.. . The meadow of yellow flowers was gold sprinkled upon the earth. A simile is the comparison of one thing with another of a different kind, often using the word ‘like’or ‘as’. This sentence does not make a comparison.",
+          "incorrect": [
+            "Not: The fluffy cloud loo ked like a baby lamb following its mother.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The tree stood tall and erect like a proud statesman.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The river twists and turns like a snake in retreat.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word study",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sequence": 184,
+          "sourceFile": "Basic-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "writing-strategies-application-style"
         }
       }
     ],

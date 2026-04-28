@@ -803,6 +803,356 @@
           "sourceSet": "reference-skills-sub-heading",
           "sequence": 15
         }
+      },
+      {
+        "question": "Which topics would best complete the following outline? I. Sports equipment",
+        "choices": [
+          "cleated shoes",
+          "ice skates",
+          "bases",
+          "batting helmet"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: bases. bases; Bases is equipment usedor foundon a baseball field.",
+          "incorrect": [
+            "Not: cleated shoes. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: ice skates. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: batting helmet. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-sub-heading",
+          "sequence": 16,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the best main topic for the words listed below. programs, touch, battery, video",
+        "choices": [
+          "My New Television",
+          "My New Stove",
+          "My New Lawnmower",
+          "My New Computer"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: My New Computer. My New Computer; A computer runs programs, may have a touch screen, runs on a battery, and can play and record videos.",
+          "incorrect": [
+            "Not: My New Television. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My New Stove. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My New Lawnmower. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-sub-heading",
+          "sequence": 17,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which one would be the main topic in an outline?",
+        "choices": [
+          "Glacier",
+          "Red Woods",
+          "National Parks",
+          "Mount Rushmore"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: National Parks. National Parks; all of the other answer options can be found in a national park – the main topic.",
+          "incorrect": [
+            "Not: Glacier. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Red Woods. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Mount Rushmore. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-sub-heading",
+          "sequence": 18,
+          "sourceFile": "Basic-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which of the following would be a sub-heading in an outline about pets?",
+        "choices": [
+          "dogs",
+          "shoes",
+          "flowers",
+          "rocks"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: dogs. dogs; dogs are a type of pet.",
+          "incorrect": [
+            "",
+            "Not: shoes. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: flowers. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: rocks. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-sub-heading",
+          "sequence": 19,
+          "sourceFile": "Basic-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Choose the best main topic for the words listed below. hiking, animal tracks, flowers, logs",
+        "choices": [
+          "My Backpack",
+          "My Scrapbook",
+          "My Pet Animal",
+          "My N ature Walk"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: My N ature Walk. My Nature Walk; These are all things you would see or do while on a nature walk.",
+          "incorrect": [
+            "Not: My Backpack. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My Scrapbook. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My Pet Animal. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-sub-heading",
+          "sequence": 20,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the best main topic for the words listed below. machines, warehouses, jobs, trucks",
+        "choices": [
+          "My Trip to the Zoo",
+          "My Trip to the Farm",
+          "My Trip to the Factory",
+          "My Trip to the Airport"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: My Trip to the Factory. My Trip to the Factory; A factory has all of the items listed – machines to make things, warehouses to store items, jobs for the people to make things, and trucks to ship thing s to stores.",
+          "incorrect": [
+            "Not: My Trip to the Zoo. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My Trip to the Farm. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: My Trip to the Airport. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-sub-heading",
+          "sequence": 21,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the following topics. Paint brushes Water colors Art class Charcoal pencils Pen and ink Easels Which would be the main topic on an outline?",
+        "choices": [
+          "Wat er colors",
+          "Charcoal pencils",
+          "Pen and ink",
+          "Art class"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Art class. Art Class, this is the main topic and covers all of the other topics.",
+          "incorrect": [
+            "Not: Wat er colors. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Charcoal pencils. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Pen and ink. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-sub-heading",
+          "sequence": 22,
+          "sourceFile": "Proficient-4_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -2775,6 +3125,106 @@
           "sequence": 22,
           "sourceFile": "Proficient-2_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 8
+        }
+      },
+      {
+        "question": "Which book title is written correctly? The Changing Colors Of The Ocean",
+        "choices": [
+          "The Changing Colors of the ocean",
+          "The changing colors of the Ocean",
+          "The Changing Colors of the Ocean",
+          "The Changing Colors of the Ocean (properly formatted as a book title)"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The Changing Colors of the Ocean (properly formatted as a book title). The words and are not capitalized because they are not important words in the title.",
+          "incorrect": [
+            "Not: The Changing Colors of the ocean. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The changing colors of the Ocean. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The Changing Colors of the Ocean. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 23,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "A noted female author wrote the book, ____________________. Choose the correct title format to complete this sentence.",
+        "choices": [
+          "Sarah, Plain and tall",
+          "Sarah, Plain and Tall",
+          "“Sarah, Plain and Tall”",
+          "Sarah, plain and tall"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Sarah, Plain and Tall. For books - capitalize the first word and all the main words. Do not capitalize articles. Italicize the title of the book.",
+          "incorrect": [
+            "Not: Sarah, Plain and tall. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: “Sarah, Plain and Tall”. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Sarah, plain and tall. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-italicize",
+          "sequence": 24,
+          "sourceFile": "Basic-6_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
         }
       }
     ],
@@ -16128,6 +16578,156 @@
           "reviewPriority": "high",
           "sourceSet": "reference-skills-research-skills",
           "sequence": 180
+        }
+      },
+      {
+        "question": "You are assigned a research paper on primates. From the following list, choose which pair you would be sure to include.",
+        "choices": [
+          "lizards, monkeys",
+          "bears, parrots",
+          "apes, humans",
+          "chimps, kangaroos"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: apes, humans. apes, humans; Apes and humans are both considered primates.",
+          "incorrect": [
+            "Not: lizards, monkeys. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: bears, parrots. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: chimps, kangaroos. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-research-skills",
+          "sequence": 181,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "If a student selects “cars” as a topic for a research paper, which words would NOT provide the basis for appropriate information?",
+        "choices": [
+          "American trucks",
+          "Automobile engines",
+          "Interstate highways",
+          "Ford Motor Company"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Interstate highways. interstate highways, this does NOT best fit a research paper about “cars”.",
+          "incorrect": [
+            "Not: American trucks. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Automobile engines. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Ford Motor Company. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-research-skills",
+          "sequence": 182,
+          "sourceFile": "Advanced-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which of the following does a research paper require?",
+        "choices": [
+          "h umor",
+          "a story",
+          "a listof references",
+          "examples from personal experience"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: a listof references. a listof references; A research provides researc h on a topic and includes its references or sources.",
+          "incorrect": [
+            "Not: h umor. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: a story. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: examples from personal experience. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-research-skills",
+          "sequence": 183,
+          "sourceFile": "Proficient-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "writing-strategies-application-style"
         }
       }
     ],

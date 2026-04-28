@@ -63386,6 +63386,256 @@
           "sourceSet": "reading-comprehension-authors-purpose",
           "sequence": 180
         }
+      },
+      {
+        "question": "Which sentence uses the infinitive phrase for emphasis?",
+        "choices": [
+          "I like to eat ice cream with chocolate sauce.",
+          "We were tardy to class.",
+          "To read for pleasure is a goal of serious students.",
+          "We took a break to buy a snack from the vending machine."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: To read for pleasure is a goal of serious students.. To re ad for pleasure is a goal of serious s tudents. Infinitives are composedof “to” plus the verb and can be the subject, objector complement in a sentence.",
+          "incorrect": [
+            "Not: I like to eat ice cream with chocolate sauce.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We were tardy to class.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: We took a break to buy a snack from the vending machine.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sequence": 181,
+          "sourceFile": "Advanced-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Identify the sentence that contains a dependent clause.",
+        "choices": [
+          "The students will take an exam after lunch.",
+          "We ate the sandwiches, but we forgot about the potato salad.",
+          "When the movie ended, Sally took me home.",
+          "Finish your homework in the morning."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: When the movie ended, Sally took me home.. When the movie ended, Sally took me home. The dependent clause that cannot stand alone is, “When the movie ended”.",
+          "incorrect": [
+            "Not: The students will take an exam after lunch.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We ate the sandwiches, but we forgot about the potato salad.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Finish your homework in the morning.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sequence": 182,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence demonstrates correct subject – verb agreement?",
+        "choices": [
+          "Students in that English class write many essays.",
+          "The crowd from the game are walking outof the stadium.",
+          "A student with six classes are going to be easy.",
+          "Her class with twenty students are supposed to ride in that little van."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Students in that English class write many essays.. Students in that English class write many essays. Subject-verb agreement–Students write.",
+          "incorrect": [
+            "",
+            "Not: The crowd from the game are walking outof the stadium.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: A student with six classes are going to be easy.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Her class with twenty students are supposed to ride in that little van.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reading comprehension",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sequence": 183,
+          "sourceFile": "Advanced-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Read the following passage and identify the appropriate audience. Several large roads were built in the 1970’s because people were moving from the cities to the suburbs. The roads cost a lot to build but have become major routes of transportation in the United States.",
+        "choices": [
+          "people who like computers",
+          "people who like math",
+          "people who like houses",
+          "people who like maps"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: people who like maps. people who like maps; The roads would be added to maps.",
+          "incorrect": [
+            "Not: people who like computers. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: people who like math. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: people who like houses. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sequence": 184,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the following passage and identify the appropriate audience. The 4 grade is having a book exchange on Friday, October 14, in Room 16 at the Liberty School. Come, browse and bring a book to exchange.",
+        "choices": [
+          "teachers",
+          "ministers",
+          "nurses",
+          "students"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: students. students; The audience is the 4 grade students.",
+          "incorrect": [
+            "Not: teachers. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: ministers. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: nurses. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reading comprehension",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sequence": 185,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test"
+        }
       }
     ],
     "metadata": {

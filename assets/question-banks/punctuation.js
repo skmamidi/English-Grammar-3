@@ -1195,6 +1195,206 @@
           "sourceFile": "Basic-4_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 4
         }
+      },
+      {
+        "question": "Which of the following is an interrogative sentence?",
+        "choices": [
+          "When will your family be going on vacatio n",
+          "When Jerry calls please come get me",
+          "When you finish your math, you can watch TV",
+          "When the cookies are done, bring one to Mary"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: When will your family be going on vacatio n. When will your family be going on vacation; This is an interrogative sentence because it is asking a question when using the word “when”.",
+          "incorrect": [
+            "",
+            "Not: When Jerry calls please come get me. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: When you finish your math, you can watch TV. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: When the cookies are done, bring one to Mary. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 24,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 36,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence asks a question?",
+        "choices": [
+          "Put the mop away",
+          "We used a mop for the floor",
+          "The mop fell on the floor",
+          "Who has the mop"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Who has the mop. Who has the mop? ‘ Who ’is a question word.",
+          "incorrect": [
+            "Not: Put the mop away. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We used a mop for the floor. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The mop fell on the floor. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 25,
+          "sourceFile": "Basic-6_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence is not punctuated correctly?",
+        "choices": [
+          "I at e in a restaurant last night.",
+          "I have a dog with white spots?",
+          "I love this game!",
+          "Were you tardy again?"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I have a dog with white spots?. I have a dog with white spots? This is a statement not a question.",
+          "incorrect": [
+            "Not: I at e in a restaurant last night.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: I love this game!. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Were you tardy again?. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 26,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following is an interrogative sentence?",
+        "choices": [
+          "Wh en will your family be going on vacation",
+          "When Jerry calls please come get me",
+          "When you finish your math, you can watch TV",
+          "When the cookies are done, bring one to Mary"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Wh en will your family be going on vacation. When will your family be going on vacation? An interrogative sentence ask s a direct question and is punctuated with a question mark.",
+          "incorrect": [
+            "",
+            "Not: When Jerry calls please come get me. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: When you finish your math, you can watch TV. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: When the cookies are done, bring one to Mary. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-end-sentence",
+          "sequence": 27,
+          "sourceFile": "Proficient-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -4080,6 +4280,1106 @@
           "sequence": 24,
           "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "Before leaving for school while our hot chocolate cools my sister and I watch TV.",
+          "Before leaving for school while our hot chocolate cools, my sister and I watch TV.",
+          "Before leaving for school, while our hot chocolate cools, my sister and I watch TV.",
+          "Before leaving for school, while our hot chocolate cools, my sister and I, watch TV."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Before leaving for school, while our hot chocolate cools, my sister and I watch TV.. Before leaving for school, while our hot chocolate cools, my sister and I watch TV. Irrelevant information is set aside with commas.",
+          "incorrect": [
+            "Not: Before leaving for school while our hot chocolate cools my sister and I watch TV.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Before leaving for school while our hot chocolate cools, my sister and I watch TV.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Before leaving for school, while our hot chocolate cools, my sister and I, watch TV.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 25,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Where do commas belong in the sentence below? Exhausted __ tired __ of jogging __ around the track __ Elmer sat __ holding his A B C D E head __in his hands __ muttering to himself. F G This sentence is:",
+        "choices": [
+          "B, C, G",
+          "A, D, G",
+          "C, E, F",
+          "A, C, E"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: A, D, G. A, D, G; Exhausted, tiredof jogging around the track, Elmer sat holding his head in his hands, muttering to himself.",
+          "incorrect": [
+            "Not: B, C, G. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: C, E, F. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: A, C, E. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 26,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "Mary Richards, hoping to make the team practiced every day.",
+          "Mary Richards, hoping to make the team, practiced every day.",
+          "Mary Richardshoping to make the team practiced every day.",
+          "Mary Richardshoping to make the team, practiced every day."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Mary Richards, hoping to make the team, practiced every day.. Mary Richards, hoping to make the team, practiced every day. Irrelevant information is set aside with commas.",
+          "incorrect": [
+            "Not: Mary Richards, hoping to make the team practiced every day.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Mary Richardshoping to make the team practiced every day.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Mary Richardshoping to make the team, practiced every day.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 27,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the sentence. After you take the boxes to the dumpster, come back in side, and help me This sentence is a/an",
+        "choices": [
+          "command.",
+          "question.",
+          "statement.",
+          "exclamation."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: command.. command; The person is being told to do something. for",
+          "incorrect": [
+            "",
+            "Not: question.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: statement.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: exclamation.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 28,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is a command?",
+        "choices": [
+          "Are you going to finish your homework?",
+          "At the beginning of class.",
+          "I will call you later.",
+          "Answe r the phone."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Answe r the phone.. Answer the phone. “Answer” is commanding or telling you to do something.",
+          "incorrect": [
+            "Not: Are you going to finish your homework?. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: At the beginning of class.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I will call you later.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 29,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which comma is in the correct place?",
+        "choices": [
+          "May 9, 2020",
+          "May 9 2020",
+          "May 9 2, 020",
+          "May 9 202,0"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: May 9, 2020. May 9, 2020; A comma goes between the date and the year.",
+          "incorrect": [
+            "",
+            "Not: May 9 2020. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: May 9 2, 020. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: May 9 202,0. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 30,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "In which sentence are the commas used correctly?",
+        "choices": [
+          "We went to the store and bought bread, eggs, and milk.",
+          "We, went to the store and bought bread eggs and milk.",
+          "We went to, the store and, bought bread eggs and milk.",
+          "We went, to the store and bought bread eggs, and milk."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: We went to the store and bought bread, eggs, and milk.. We went to the store and bought bread, eggs, and milk. A comma is used after each word in a list: bread, eggs, and milk.",
+          "incorrect": [
+            "",
+            "Not: We, went to the store and bought bread eggs and milk.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We went to, the store and, bought bread eggs and milk.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We went, to the store and bought bread eggs, and milk.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 31,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has the comma in the correct place?",
+        "choices": [
+          "My friend lives, in Seattle Washington.",
+          "My friend lives in Seattle Washington.",
+          "My friend lives in Seattle, Washington.",
+          "My fr iend lives in, Seattle Washington."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: My friend lives in Seattle, Washington.. My friend lives in Seattle, Washington. Always use a comma between a city and state.",
+          "incorrect": [
+            "Not: My friend lives, in Seattle Washington.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My friend lives in Seattle Washington.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: My fr iend lives in, Seattle Washington.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 32,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 44,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which comma is used correctly in the closing of the letter?",
+        "choices": [
+          "Dear Mary, / I am doing well. / Your friend",
+          "Dear Mary, / I am doing well. / ,Your friend",
+          "Dear Mary, / I am doing well. / Your friend,",
+          "Dear Mary, / I am doing well. / Your, friend"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Dear Mary, / I am doing well. / Your friend,. Your friend, - is the correct closing for a letter.",
+          "incorrect": [
+            "Not: Dear Mary, / I am doing well. / Your friend. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Dear Mary, / I am doing well. / ,Your friend. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Dear Mary, / I am doing well. / Your, friend. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 33,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What parts would you use for a story?",
+        "choices": [
+          "comma",
+          "beginning, middle, end",
+          "ABC order",
+          "map skills"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: beginning, middle, end. beginning, middle, end",
+          "incorrect": [
+            "Not: comma. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: ABC order. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: map skills. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 34,
+          "sourceFile": "Basic-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Read the sentence. Are you coming home for dinner This sentence is a(n)",
+        "choices": [
+          "command",
+          "question",
+          "statement",
+          "exclamation"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: question. question; The sentence should end with a question mark.",
+          "incorrect": [
+            "Not: command. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: statement. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: exclamation. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 35,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Kevin has grown several inches according to his chart. This sentence:",
+        "choices": [
+          "is an exclamation",
+          "makes a statement",
+          "asks a question",
+          "give s a command"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: makes a statement. makes a statement.",
+          "incorrect": [
+            "Not: is an exclamation. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: asks a question. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: give s a command. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 36,
+          "sourceFile": "Basic-4_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "The thunder boomed The above sentence is:",
+        "choices": [
+          "a statement",
+          "a command",
+          "a question",
+          "an exclamation"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: a statement. a statement; 'The thunder boomed' is simply telling what happened with no emotion, so it is a statement.",
+          "incorrect": [
+            "",
+            "Not: a command. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: a question. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: an exclamation. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 37,
+          "sourceFile": "Basic-6_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Well do you want me to go to the store? In the sentence above, a comma should go between:",
+        "choices": [
+          "do, you",
+          "me, to",
+          "Well, do",
+          "go, to Sarah, Plain And Tall"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Well, do. Well, do",
+          "incorrect": [
+            "Not: do, you. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: me, to. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: go, to Sarah, Plain And Tall. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 38,
+          "sourceFile": "Basic-6_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "Sin ce, I’m starting in the game today, I’m really nervous.",
+          "Since I’m starting in the game today, I’m really n ervous.",
+          "Since I’m starting, in the game today I’m really nervous.",
+          "Since I’m starting in the game today; I’m really nervous."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Since I’m starting in the game today, I’m really n ervous.. Since I’m starting in the game today, I’m really n ervous. Since is a preposition that is the startof a preposit ional phrase. A comma is used to setoff the phrase at the beginning of the sentence to make the sentence clear.",
+          "incorrect": [
+            "Not: Sin ce, I’m starting in the game today, I’m really nervous.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Since I’m starting, in the game today I’m really nervous.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Since I’m starting in the game today; I’m really nervous.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 39,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the punctuation that should go in the blank. − James ___ clean up your room now!",
+        "choices": [
+          "!",
+          ".",
+          ",",
+          ":"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ,. , (comma); James, clean up your room now!",
+          "incorrect": [
+            "Not: !. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: .. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: :. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 40,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the sentences. Waiting impatiently (a) the students shoved (b) and jostled each other (c) at the bus stop. Weighed down by his heavy backpack (d) Pete was squeezed to the endof the line. The bright yellow bus (e) arrived in a blue of flashing lig hts and familiar faces. Knowing it was inevitable (f) the students boarde d the bus to school. Where should commas be placed in the passage above?",
+        "choices": [
+          "b, c, d",
+          "a, c, d",
+          "b, c, f",
+          "a, d, f"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: a, d, f. a, d, f; Waiting impatiently, (a) the students shoved and jostled each other at the bus stop. Weighed down by his heavy backpack, (d) Pete was squeezed to the endof the line. The bright yellow bus arrived in a blur of flashing l ights and familiar faces. Knowing it was inevit able, (f) the students boarded the school bus.",
+          "incorrect": [
+            "Not: b, c, d. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: a, c, d. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: b, c, f. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 41,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 35,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the sentence below. My friend who is a N.Y. Yankees fan has tickets to the season ’s opening game. After which wordor words should you place a comma?",
+        "choices": [
+          "f an",
+          "tickets",
+          "who, fan",
+          "friend, fan"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: friend, fan. friend, fan; Nonessential information should be setoff with commas.",
+          "incorrect": [
+            "Not: f an. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: tickets. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: who, fan. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 42,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "Jo se went to the game, and, Karla went to a movi e.",
+          "Jose went to the game and, Karla went to a movie.",
+          "Jose went to the game, and Karla went to a movie.",
+          "Jose went, to the game, and Karla, went to a movie."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Jose went to the game, and Karla went to a movie.. Jose went to the game, and Karla went to a movie. Rule: use a comma before any coord inating conjunction (Example: and, but, for, or, nor, so, yet)",
+          "incorrect": [
+            "Not: Jo se went to the game, and, Karla went to a movi e.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Jose went to the game and, Karla went to a movie.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Jose went, to the game, and Karla, went to a movie.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 43,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 47,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the sentence. I wish my hair had more curls and wasn’t so straight This sentence is a(n)",
+        "choices": [
+          "command.",
+          "question.",
+          "statement.",
+          "exclamation."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: statement.. st atement",
+          "incorrect": [
+            "Not: command.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: question.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: exclamation.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 44,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which comma is not in the correct place?",
+        "choices": [
+          "Newport, Rhode Island",
+          "April 25, 2009",
+          "apples, bananas, and pears",
+          "Yellowstone, National Park"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Yellowstone, National Park. Yellowstone, National Park; The name of the area is Yellowstone National Park so a comma should not be used.",
+          "incorrect": [
+            "Not: Newport, Rhode Island. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: April 25, 2009. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: apples, bananas, and pears. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 45,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "After which word should you place a comma? Because she volunteered to make cookies Beth had to go to the store to bu y ingredients.",
+        "choices": [
+          "cookies,",
+          "volunteered,",
+          "Because,",
+          "store, May 10, 2019"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: cookies,. cookies, Putting a comma after ‘cookies’separates the prepositional phrase and makes the sentence more clear.",
+          "incorrect": [
+            "",
+            "Not: volunteered,. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Because,. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: store, May 10, 2019. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-commas-series",
+          "sequence": 46,
+          "sourceFile": "Proficient-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "writing-strategies-application-style"
         }
       }
     ],
@@ -8352,6 +9652,706 @@
           "sourceFile": "Proficient-4_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 2
         }
+      },
+      {
+        "question": "Choose the sentence with the possessive form.",
+        "choices": [
+          "The dog buried its bone in the garden.",
+          "It’s been a long day.",
+          "She’s going to visit New York.",
+          "Gary said it’s arrived."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The dog buried its bone in the garden.. The dog buried its bone in the garden. Buried whose bone? “its bone” – shows possession",
+          "incorrect": [
+            "",
+            "Not: It’s been a long day.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: She’s going to visit New York.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Gary said it’s arrived.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 20,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the selection below. What a day it’s been! My math teacher gave me an award for improving my grades on fractions. Then, the cafeteria served my favorite food – chop suey! This afternoon, the principal announced that I had won a bike. I think this is the best day of my life. This paragraph is probably from a:",
+        "choices": [
+          "play",
+          "book report",
+          "poem",
+          "diary"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: diary. diary; Diary – a book in which one keeps a daily recordof events and experiences.",
+          "incorrect": [
+            "Not: play. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: book report. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: poem. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 21,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which group of words uses an abbreviation correctly?",
+        "choices": [
+          "Mrs. Smith is my boss.",
+          "We orderedour pizza w/o olives.",
+          "I hate to go to the Dr.’s office.",
+          "Don’t you have a dentist appt. today?"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Mrs. Smith is my boss.. Mrs.; Mrs. is the correct abbreviation for missus.",
+          "incorrect": [
+            "",
+            "Not: We orderedour pizza w/o olives.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I hate to go to the Dr.’s office.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Don’t you have a dentist appt. today?. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 22,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 18,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the best missing word. When you go to the movie, don’t _________ on the floor.",
+        "choices": [
+          "set",
+          "be setting",
+          "sit",
+          "sat"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: sit. sit; When you go to the movie, don’t siton the floor.",
+          "incorrect": [
+            "Not: set. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: be setting. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: sat. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 23,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 28,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "“Then my mom reminded me, ‘Don’t play in the fire,’just before I burned myself,” Tom said.",
+          "Then my mom reminded me, “Don’t play in the fire,” just before I burned myself,” Tom said.",
+          "“Then my mom reminded me, “Don’t play in the fire,” just before I burned myself,” Tom said.",
+          "“Then my mom reminded me, Don’t play in the fire, just before I burned myself,” Tom said."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: “Then my mom reminded me, ‘Don’t play in the fire,’just before I burned myself,” Tom said.. “Then my mom reminded me, ‘Don’t play in the fire,’just before I burned myself,” Tom said. Rule: Use single quotation marks when you a quotation within a quotation.",
+          "incorrect": [
+            "",
+            "Not: Then my mom reminded me, “Don’t play in the fire,” just before I burned myself,” Tom said.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: “Then my mom reminded me, “Don’t play in the fire,” just before I burned myself,” Tom said.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: “Then my mom reminded me, Don’t play in the fire, just before I burned myself,” Tom said.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 24,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What does the underlined expression mean? You can carry it. Bend at your knees and then pick it up. Easy does it.",
+        "choices": [
+          "it is notheavy",
+          "go slow",
+          "I cando it",
+          "don’t give up"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: go slow. go slow",
+          "incorrect": [
+            "Not: it is notheavy. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: I cando it. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: don’t give up. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 25,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 18,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is correct?",
+        "choices": [
+          "Kent don’t got no bike.",
+          "Kent doesn’t have a bike.",
+          "Kent gots know bike.",
+          "K ent not have a bike."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Kent doesn’t have a bike.. Kent doesn’t have a bike. Kent does not have a bike.",
+          "incorrect": [
+            "Not: Kent don’t got no bike.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Kent gots know bike.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: K ent not have a bike.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 26,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 25,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence below is written in Standard English?",
+        "choices": [
+          "I won’t be able to complete my assignment withou t the book.",
+          "Helen don’t need to help Sam with his math.",
+          "Harvey wouldnt’let me borrow his bicycle.",
+          "Whose knocking on the door?"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I won’t be able to complete my assignment withou t the book.. I won’t be able to complete my assignment without the book.",
+          "incorrect": [
+            "",
+            "Not: Helen don’t need to help Sam with his math.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Harvey wouldnt’let me borrow his bicycle.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Whose knocking on the door?. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 27,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the following passage and identify the appropriate audience. To install the sink correctly, you need to shutoff the water. If you don’t, the kitchen floor will have water all over it.",
+        "choices": [
+          "plumbers",
+          "mailmen",
+          "carpenters",
+          "toddlers"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: plumbers. plumbers",
+          "incorrect": [
+            "",
+            "Not: mailmen. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: carpenters. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: toddlers. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 28,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is correct?",
+        "choices": [
+          "I don’t have no pencil.",
+          "I have no pencil.",
+          "I gots no pencil.",
+          "I don’t have a pencil."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: I don’t have a pencil.. I don’t have a pencil.",
+          "incorrect": [
+            "Not: I don’t have no pencil.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I have no pencil.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I gots no pencil.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 29,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 25,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which contraction is written correctly?",
+        "choices": [
+          "wo’nt",
+          "wasn’t",
+          "wer’ent",
+          "is’nt"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: wasn’t. . wasn’t; the correct contraction for was not",
+          "incorrect": [
+            "Not: wo’nt. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: wer’ent. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: is’nt. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 30,
+          "sourceFile": "Basic-5_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence is correctly worded?",
+        "choices": [
+          "I don’t enjoy eating parsnips or turnips.",
+          "Don’t I eating enjoy parsnips or turnips.",
+          "Eating I parsnips enjoy don’tor turnips.",
+          "Parsnips or turnips don’t I enjoy."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I don’t enjoy eating parsnips or turnips.. . I don’t enjoy eating pars nips or turnips.",
+          "incorrect": [
+            "",
+            "Not: Don’t I eating enjoy parsnips or turnips.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Eating I parsnips enjoy don’tor turnips.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Parsnips or turnips don’t I enjoy.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 31,
+          "sourceFile": "Basic-6_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Select the best way to complete the sentence below. Unless I study hard, _________________________________________.",
+        "choices": [
+          "I w on’t understand the principles of the math theory.",
+          "understanding the principles of the math theory.",
+          "because the principles of the math theory are hard to understand.",
+          "the principles of the math theory are understanding."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I w on’t understand the principles of the math theory.. I won’t understand the principles of the math theory.",
+          "incorrect": [
+            "",
+            "Not: understanding the principles of the math theory.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: because the principles of the math theory are hard to understand.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: the principles of the math theory are understanding.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 32,
+          "sourceFile": "Proficient-4_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Read the selection below. What a day it’s been! My math teacher gave me an award for improving my grades on fractions. Then, the cafeteria served my favorite food – chop su ey! This afternoon, the principal announced that I had won a bike. I thin k this is the best day of my life. This paragraph is probably from a:",
+        "choices": [
+          "b ook report",
+          "poem",
+          "play",
+          "diary"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: diary. diary; a diary is a daily record, usually private, especially of the writer’s ow n experiences, observations, feelings, attitudes, etc.",
+          "incorrect": [
+            "Not: b ook report. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: poem. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: play. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sequence": 33,
+          "sourceFile": "Proficient-4_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -9460,6 +11460,356 @@
           "sequence": 21,
           "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 10
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly to show plural possession?",
+        "choices": [
+          "The actors costume’s were missing, but the actors attitudes were still positive and h opeful.",
+          "The actors’costume’s were missing, but the actor’s attitudes were still positive and hopeful.",
+          "The actors’costumes were missing, but the actors’attitudes were still positive and hopeful.",
+          "The actor’s costumes we re missing, but the actors attitudes were still positive and hopeful."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The actors’costumes were missing, but the actors’attitudes were still positive and hopeful.. The actors’costumes were missing, but the actors’attitudes were still positive and hopeful.",
+          "incorrect": [
+            "Not: The actors costume’s were missing, but the actors attitudes were still positive and h opeful.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The actors’costume’s were missing, but the actor’s attitudes were still positive and hopeful.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The actor’s costumes we re missing, but the actors attitudes were still positive and hopeful.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 22,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 35,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Your teacher assigns the topic “The Interstate Highway System” for a research paper. Which statement would not be in the contentof the paper?",
+        "choices": [
+          "The U.S. is a Nation of Drivers",
+          "My Car’s Blowouton the Highway",
+          "The Federal-Aid Highway Actof 1956",
+          "The Birth of the Interstate Highway System"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: My Car’s Blowouton the Highway. My Car’s Blowouton the Highway; A person’s personal experience with a tire blowout would not be relevant information for a research paper.",
+          "incorrect": [
+            "Not: The U.S. is a Nation of Drivers. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The Federal-Aid Highway Actof 1956. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The Birth of the Interstate Highway System. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 23,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the underlined words in the following sentences is an example of a regular possessive noun?",
+        "choices": [
+          "Someone’s parked in my parking spot.",
+          "The dancer’s costume has been torn.",
+          "Check in all of the literature book’s by three o’clock.",
+          "The neighbor dog’s barked at all the strangers walking by."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The dancer’s costume has been torn.. The dancer’s costume has been torn. “Dancer’s costume” shows ownership.",
+          "incorrect": [
+            "Not: Someone’s parked in my parking spot.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Check in all of the literature book’s by three o’clock.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The neighbor dog’s barked at all the strangers walking by.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 24,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the correct pronoun to complete the sentence below. Martha picked up the dog from the vet but forgot _____ bone.",
+        "choices": [
+          "our",
+          "we’s",
+          "his",
+          "them’s"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: his. his; The bone belongs to the dog.",
+          "incorrect": [
+            "Not: our. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: we’s. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: them’s. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 25,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Look at the listof instructions for how to make a bow l of cereal. 1. Getout a bowl and a spoon. 2. Pour the cereal into the bowl. 3. 4. Use a spoon to eat the cereal. Which direction belongs on line 3?",
+        "choices": [
+          "Pour milk on the cereal.",
+          "Wash your bowl.",
+          "Go to the kitchen.",
+          "Buy the cereal at the store."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Pour milk on the cereal.. Pour milk on the cereal.",
+          "incorrect": [
+            "",
+            "Not: Wash your bowl.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Go to the kitchen.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Buy the cereal at the store.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 26,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Pick the listof items that typically belongs in a pizza.",
+        "choices": [
+          "flour, cheese, ketchup",
+          "tomatoes, caramel, cheese",
+          "cheese, flour, sauce",
+          "sauce, syrup, flour"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cheese, flour, sauce. cheese, flour, sauce",
+          "incorrect": [
+            "Not: flour, cheese, ketchup. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: tomatoes, caramel, cheese. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: sauce, syrup, flour. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 27,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 18,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word is a possessive noun? We were jumping on the school’s trampolines during our gym classes.",
+        "choices": [
+          "we",
+          "school’s",
+          "trampolines",
+          "classes"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: school’s. school’s; The trampolines belong to the school.",
+          "incorrect": [
+            "Not: we. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: trampolines. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: classes. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-possessives",
+          "sequence": 28,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 31,
+          "sourceCategory": "language-usage-test"
         }
       }
     ],
@@ -28122,6 +30472,356 @@
           "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 8
         }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "“I’m taking a great class,” shouted Jason, “and I’m getting a credit for it in P.E.”",
+          "“I’m taking a great class,” shouted Jason. “and I’m getting a credit for it in P.E.”",
+          "“I’m taking a great class.” Shouted Jason, “and I’m getting a credit for it in P.E.”",
+          "“I’m taking a great class,” shouted Jason, and I’m getting a credit for it in P.E."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: “I’m taking a great class,” shouted Jason, “and I’m getting a credit for it in P.E.”. “I’m taking a great class,” shouted Jason, “and I’m getting a credit for it in P.E.”",
+          "incorrect": [
+            "",
+            "Not: “I’m taking a great class,” shouted Jason. “and I’m getting a credit for it in P.E.”. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: “I’m taking a great class.” Shouted Jason, “and I’m getting a credit for it in P.E.”. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: “I’m taking a great class,” shouted Jason, and I’m getting a credit for it in P.E.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 190,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which wordor words should be capitalized? “after you put your clothes away,” she said, “be sure to clean your room.”",
+        "choices": [
+          "after, be",
+          "after, she",
+          "after, she, be",
+          "after"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: after. After; After you put your clothes away,” she said, “be sure to clean your room.”",
+          "incorrect": [
+            "Not: after, be. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: after, she. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: after, she, be. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 191,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "My favorite quote is “I have a dream” by Martin Luther King.",
+          "My favorite quote is “I have a dream”, by Martin Luther King.",
+          "My favorite quote is, “I have a dream,” by Martin Luther King.",
+          "My favor ite quote is I have a dream,” by Martin Luther King."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: My favorite quote is, “I have a dream,” by Martin Luther King.. My favorite quote is, “I have a dream,” by Martin Luther King.",
+          "incorrect": [
+            "Not: My favorite quote is “I have a dream” by Martin Luther King.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My favorite quote is “I have a dream”, by Martin Luther King.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: My favor ite quote is I have a dream,” by Martin Luther King.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 192,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which poem title is correctly formatted? The Last Dog in Charge",
+        "choices": [
+          "The Last Dog in Charge (italicized)",
+          "The Last Dog in Charge",
+          "The Last Dog in Charge (underlined)",
+          "“The Last Dog in Charge”"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: “The Last Dog in Charge”. “The Last Dog in Charge”; Poems are formatted using quotation marks.",
+          "incorrect": [
+            "Not: The Last Dog in Charge (italicized). Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The Last Dog in Charge. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The Last Dog in Charge (underlined). Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 193,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which one do you not format using quotation marks?",
+        "choices": [
+          "movie titles",
+          "book chapters",
+          "song titles",
+          "poem titles"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: movie titles. movie titles; The correct format for movie titles is to italicize them. not correct.",
+          "incorrect": [
+            "",
+            "Not: book chapters. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: song titles. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: poem titles. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 194,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is punctuated correctly?",
+        "choices": [
+          "“I’ll order for all of us, Fred said”",
+          "“I’ll order for all of us”, Fred said.",
+          "I’ll order for all of us, “Fred said.”",
+          "“I’ll order for all of us,” Fred said."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: “I’ll order for all of us,” Fred said.. “I’ll order for all of us,” Fred said.",
+          "incorrect": [
+            "Not: “I’ll order for all of us, Fred said”. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: “I’ll order for all of us”, Fred said.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I’ll order for all of us, “Fred said.”. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 195,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 47,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Insert the correct punctuation in the blank for the followi ng passage. Shaun and his friend went to the beach. Shaun said, “Give me your hand __”",
+        "choices": [
+          "?",
+          ".",
+          "!",
+          ","
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: .. . (period); ‘Give me your hand’is a sta tementor command and it is being ‘said’.",
+          "incorrect": [
+            "Not: ?. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: !. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: ,. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-dialogue-mechanics",
+          "sequence": 196,
+          "sourceFile": "Basic-6_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -37141,6 +39841,256 @@
           "reviewPriority": "normal",
           "sourceSet": "punctuation-abbreviations-acronyms",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Which should be combined into one sentence?",
+        "choices": [
+          "Cindy left all her cosmetics at the offi ce. Her clothing appeared rumpled and wrinkled.",
+          "Martha fell when she tried to walk through the aisles in her classroom. Jack trippedover Sally’s backpack.",
+          "Joe wanted to earn an A in Mrs. Cosmo’s class. Mr. Smithexpected him to fail his class.",
+          "Janelle wanted her entire family to attend the reunion. Several of her grandchildren chose not to oblige."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Janelle wanted her entire family to attend the reunion. Several of her grandchildren chose not to oblige.. Janelle wanted her entire family to attend the reunion. Several of her grandchildren chose not to oblige. These two sentences could be combined with a conjunction such as: but, however, yet.",
+          "incorrect": [
+            "Not: Cindy left all her cosmetics at the offi ce. Her clothing appeared rumpled and wrinkled.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Martha fell when she tried to walk through the aisles in her classroom. Jack trippedover Sally’s backpack.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Joe wanted to earn an A in Mrs. Cosmo’s class. Mr. Smithexpected him to fail his class.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-abbreviations-acronyms",
+          "sequence": 181,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which choice is not a correct abbreviation?",
+        "choices": [
+          "Road – Rd.",
+          "Street – St.",
+          "Drive – Dr.",
+          "Lane – La."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Lane – La.. Lane – La. Lane is abbreviated Ln.",
+          "incorrect": [
+            "Not: Road – Rd.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Street – St.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Drive – Dr.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-abbreviations-acronyms",
+          "sequence": 182,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is capitalized correctly?",
+        "choices": [
+          "mr. and mrs. johns own the neighb orhood store.",
+          "My mother took me to see Dr. Fred E. Meyer.",
+          "James’sister, Mary b. Goode, is now a physician.",
+          "Mr. Sam R. smith conducted the symphony orchestra."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: My mother took me to see Dr. Fred E. Meyer.. My mother took me to see Dr. Fred E. Meyer. The abbreviation for doctor (Dr.) is always capitalized. A person’s name as well as middle initial is always capitalized.",
+          "incorrect": [
+            "Not: mr. and mrs. johns own the neighb orhood store.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: James’sister, Mary b. Goode, is now a physician.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Mr. Sam R. smith conducted the symphony orchestra.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-abbreviations-acronyms",
+          "sequence": 183,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following is capitalized correctly?",
+        "choices": [
+          "Dr. John mendez",
+          "Sir Richard Button",
+          "Mrs. betty smith",
+          "Mr. antonio Gallo"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Sir Richard Button. Sir Richard Button; Sir is always capitalized when used with a name. A name is a proper noun and should always be capitalized.",
+          "incorrect": [
+            "Not: Dr. John mendez. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Mrs. betty smith. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Mr. antonio Gallo. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-abbreviations-acronyms",
+          "sequence": 184,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Identify the correct missing word. Mrs. Porter, my fourth grade teacher, is helpful. _____ spends extra time with me to make sure I understand.",
+        "choices": [
+          "Her",
+          "I",
+          "He",
+          "She"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: She. She; She refers to Mrs. Porter",
+          "incorrect": [
+            "Not: Her. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: I. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: He. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "punctuation",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-abbreviations-acronyms",
+          "sequence": 185,
+          "sourceFile": "Proficient-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "writing-strategies-application-style"
         }
       }
     ],

@@ -1161,6 +1161,356 @@
           "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 6
         }
+      },
+      {
+        "question": "Which closing for a letter is correctly written?",
+        "choices": [
+          "Thank You,",
+          "your friend,",
+          "All the Best,",
+          "With love,"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: With love,. With love, - The first word is the only word capitalized in a closing.",
+          "incorrect": [
+            "Not: Thank You,. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: your friend,. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: All the Best,. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 23,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following should have the first word capitalized?",
+        "choices": [
+          "all the dishes in the dishwasher.",
+          "around the corner in the back.",
+          "dinner then again at breakfast.",
+          "he did send thatover. forests"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: he did send thatover. forests. he did send thatover; This is a sentence because it has a subject (he) and verb (did send).",
+          "incorrect": [
+            "Not: all the dishes in the dishwasher.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: around the corner in the back.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: dinner then again at breakfast.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 24,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has a capital letter in the correct place?",
+        "choices": [
+          "Polar bears like the cold.",
+          "polar Bears like the cold.",
+          "polar bears Like the cold.",
+          "polar bears like the Cold."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Polar bears like the cold.. Polar bears like the cold. Only first word in this sentence needs to be capitalized.",
+          "incorrect": [
+            "",
+            "Not: polar Bears like the cold.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: polar bears Like the cold.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: polar bears like the Cold.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 25,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which words should be capitalized in the sentence below? the plumber fixedour shower door and mr. hews mowedour grass.",
+        "choices": [
+          "the, plumber, hews",
+          "the, shower, mr,",
+          "the, plumber, shower,",
+          "the, mr., hews"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: the, mr., hews. the, mr., hews; is the first wordof the sentence, is a proper noun. being so full one can’t eat a nymore.",
+          "incorrect": [
+            "Not: the, plumber, hews. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: the, shower, mr,. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: the, plumber, shower,. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 26,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following should have the first word capitalized?",
+        "choices": [
+          "flew to its hidden nest in the tree",
+          "the waitress atour table",
+          "the rat chewed through the wire",
+          "that was found in the grocery store"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: the rat chewed through the wire. the rat chewed through the wire; This is a complete sentence whereas the others are fragments.",
+          "incorrect": [
+            "Not: flew to its hidden nest in the tree. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: the waitress atour table. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: that was found in the grocery store. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 27,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which words in the sentence are capitalized incorrectly? my mother asked, “do you want to go to Hawaii this spring?”",
+        "choices": [
+          "my, Haw aii",
+          "my, spring",
+          "my, Hawaii, do",
+          "my, do"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: my, do. my, do; The beginning of botheach sentence starts with a capital letter. My mother asked, “ Do you want to go to Hawaii this spring?",
+          "incorrect": [
+            "Not: my, Haw aii. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: my, spring. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: my, Hawaii, do. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 28,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word should start with a capital letter?",
+        "choices": [
+          "jupiter",
+          "comet",
+          "galaxy",
+          "asteroid"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: jupiter. Jupiter; This is the name of a planet so it should be capitalized.",
+          "incorrect": [
+            "",
+            "Not: comet. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: galaxy. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: asteroid. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sequence": 29,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test"
+        }
       }
     ],
     "metadata": {
@@ -2137,6 +2487,256 @@
           "sequence": 18,
           "sourceFile": "Proficient-3_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 4
+        }
+      },
+      {
+        "question": "Which pair of words must be capitalized in this sentence? Our town has a festival of trees during the christmas season.",
+        "choices": [
+          "town, festival",
+          "trees, season",
+          "christmas, town",
+          "festival, christmas"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: festival, christmas. festival, christmas; These are only 2 of the words that would be capitalized. Sentence correctly capitalized: Our town has a Festival of Trees during the Christmas season.",
+          "incorrect": [
+            "Not: town, festival. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: trees, season. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: christmas, town. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 19,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence is capitalized correctly?",
+        "choices": [
+          "Hanukkah begins on the last saturday in November.",
+          "Hanukkah begins on the last Saturday in november.",
+          "The last Saturday in November is the startof Hanukkah.",
+          "The last Saturday in November is the startof hanukkah."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The last Saturday in November is the startof Hanukkah.. The last Saturday in November is the startof Hanukkah.",
+          "incorrect": [
+            "Not: Hanukkah begins on the last saturday in November.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Hanukkah begins on the last Saturday in november.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The last Saturday in November is the startof hanukkah.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 20,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which word should not start with a capital letter?",
+        "choices": [
+          "Tuesday",
+          "April",
+          "Morning",
+          "Thanksgiving"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Morning. Morning; The word morning is not a proper noun so it should not be capitalized. swim.",
+          "incorrect": [
+            "Not: Tuesday. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: April. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Thanksgiving. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 21,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Read the passage below. It all started when I left school on the last day of the year. When I got home, the minivan was packed, and mom and dad were waiting for me. We stopped at McDonald’s on our wayoutof town. Choose the best title for the passage.",
+        "choices": [
+          "Wh en My Little Brother Was Born",
+          "My Trip To Eat",
+          "My Summer Trip",
+          "A Great Christmas Break"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: My Summer Trip. My Su mmer Trip; The last day of the school year and heading outof town indicate a summe r trip.",
+          "incorrect": [
+            "Not: Wh en My Little Brother Was Born. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My Trip To Eat. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: A Great Christmas Break. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 22,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has all the capital letters in the correct place?",
+        "choices": [
+          "We took the train from Paris to London on Tuesday.",
+          "Last May, we flew with my Cousin to Omaha, Nebraska.",
+          "The Pacific Ocean is home to Sea Lions and Dolphin s.",
+          "On Valentine’s Day, my Mom took me out to eat."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: We took the train from Paris to London on Tuesday.. We took the train from Paris to London on Tuesday.",
+          "incorrect": [
+            "",
+            "Not: Last May, we flew with my Cousin to Omaha, Nebraska.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The Pacific Ocean is home to Sea Lions and Dolphin s.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: On Valentine’s Day, my Mom took me out to eat.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sequence": 23,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "language-usage-test"
         }
       }
     ],
@@ -5415,6 +6015,1056 @@
           "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 9
         }
+      },
+      {
+        "question": "Which words should be capitalized? My cousins, uncle Fred, aunt Mary, and my mother came to my piano recital.",
+        "choices": [
+          "cousins, uncle Fred, aunt Mary, mother",
+          "cousins, uncle Fred, aunt Mary",
+          "uncle Fred, aunt Mary",
+          "mother"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: uncle Fred, aunt Mary. uncle Fred, aunt Mary; Sentence should read: My cousins, Uncle Fred, Aunt Mary, and my mother came to my piano recital.",
+          "incorrect": [
+            "Not: cousins, uncle Fred, aunt Mary, mother. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: cousins, uncle Fred, aunt Mary. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: mother. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 43,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 44,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which closing is capitalized correctly? 1. take care, 2. Take Care, 3. Take care, 4. TAKE CARE,",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 3. 3; Take care,",
+          "incorrect": [
+            "Not: 1. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: 2. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: 4. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 44,
+          "sourceFile": "Advanced-2_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which underlined wor d is incorrectly capitalized? On our next Vacation, we will visit the Alamo near San Antonio, Texas.",
+        "choices": [
+          "Vacation",
+          "Alamo",
+          "San",
+          "Antonio"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Vacation. Vacation. The word v acation is not a proper noun so it should not be capitalized. close.",
+          "incorrect": [
+            "",
+            "Not: Alamo. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: San. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Antonio. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 45,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence uses correct syntax?",
+        "choices": [
+          "The race of Blake is the winner.",
+          "Blake the winner of the race.",
+          "The winner of the race is Blake.",
+          "The race of the winner is Blake."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The winner of the race is Blake.. The winner of the race is Blake. Syntax – the arrangementof words and phrases to create well-formed sentences in language.",
+          "incorrect": [
+            "Not: The race of Blake is the winner.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Blake the winner of the race.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The race of the winner is Blake.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 46,
+          "sourceFile": "Basic-1_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which sentence has words capitalized correctly?",
+        "choices": [
+          "Our new address is 6405 Heather Glenn Lane.",
+          "Our new address is 6405 heather glenn lane.",
+          "Our new address is 6405 Heather glenn lane.",
+          "Our new address is 6405 Heather Glenn lane."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Our new address is 6405 Heather Glenn Lane.. Our new address is 6405 Heather Glenn Lane. Street names are proper nouns and are always capitalized. th",
+          "incorrect": [
+            "",
+            "Not: Our new address is 6405 heather glenn lane.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Our new address is 6405 Heather glenn lane.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Our new address is 6405 Heather Glenn lane.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 47,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which sentence has a capital letter in the correct place?",
+        "choices": [
+          "cats like to purr.",
+          "Cats like to purr.",
+          "cats Like to purr.",
+          "cats like to Purr."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Cats like to purr.. Cats like to purr. A complete sentence always starts with a capital letter.",
+          "incorrect": [
+            "Not: cats like to purr.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: cats Like to purr.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: cats like to Purr.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 48,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Choose the sentence that is capitalized correctly.",
+        "choices": [
+          "this is Northview school.",
+          "She goes to Johnson middle School.",
+          "My brother’s name is Jose.",
+          "I go to michael’s school."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: My brother’s name is Jose.. My brother’s name is Jose.",
+          "incorrect": [
+            "Not: this is Northview school.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: She goes to Johnson middle School.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: I go to michael’s school.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 49,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which words should be capitalized in the sentence below? Two little dogs named jessie and annie were once the only two in the Jones family. Three years later, sam, a german shepherd, was added to the happy household.",
+        "choices": [
+          "dogs, jessie, annie, sheph erd",
+          "jessie, annie, sam, german",
+          "jessie, family, german, household",
+          "annie, sam, ge rman, household"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: jessie, annie, sam, german. jessie, annie, sam, german; All proper nouns should be capitalized.",
+          "incorrect": [
+            "Not: dogs, jessie, annie, sheph erd. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: jessie, family, german, household. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: annie, sam, ge rman, household. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 50,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which underlined words should be capitalized? The b oy scouts of America, a youth organization, gets some funding from united way.",
+        "choices": [
+          "boy, scouts, united, way",
+          "boy, scouts, youth, way",
+          "united, way, youth, scouts",
+          "united, way, scouts, youth"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: boy, scouts, united, way. boy, scouts, united, way. All proper nouns should be capitalized. The Boy Scouts of America, a youth organization, gets some funding from United Way.",
+          "incorrect": [
+            "",
+            "Not: boy, scouts, youth, way. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: united, way, youth, scouts. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: united, way, scouts, youth. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 51,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 35,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which choice should be capitalized?",
+        "choices": [
+          "center street",
+          "first grade",
+          "living room",
+          "dump truck"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: center street. Center Street; This is the name of a road and should be capitalized",
+          "incorrect": [
+            "",
+            "Not: first grade. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: living room. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: dump truck. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 52,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What is the verb in this sentence? Samuel rode his bike.",
+        "choices": [
+          "Samuel",
+          "rode",
+          "his",
+          "bike"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: rode. rode",
+          "incorrect": [
+            "Not: Samuel. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: his. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: bike. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 53,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 46,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which genre is this passage? Soft white clouds rolled in Large raindrops fell from the clouds Smooth white shells washed in with the waves While rains pound ed the surf.",
+        "choices": [
+          "sh ort story",
+          "poem",
+          "nonfiction",
+          "autobiography"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: poem. poem - a composition that is characterized by great beauty of language or expression.",
+          "incorrect": [
+            "Not: sh ort story. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: nonfiction. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: autobiography. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 54,
+          "sourceFile": "Basic-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Choose the correct format to complete this sente nce. To get to the lake, turn ________ and then __________.",
+        "choices": [
+          "sou th, West",
+          "south, west",
+          "South, West",
+          "South, west"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: south, west. south, west; ‘south’and ‘west’are not capitalized because they merely indic ate a general location and not a region.",
+          "incorrect": [
+            "Not: sou th, West. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: South, West. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: South, west. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 55,
+          "sourceFile": "Basic-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "writing-strategies-application-style"
+        }
+      },
+      {
+        "question": "Which of the following is capitalized correctly?",
+        "choices": [
+          "My family loves campbell’s Chicken Noodle soup.",
+          "Do you have the new nintendo Video game?",
+          "Maria bought a Hershey’s candy bar.",
+          "We bought New crayola crayons."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Maria bought a Hershey’s candy bar.. Maria bought a Hershey’s candy bar. Hershey’s is a brand name and a proper noun. It shou ld be capitalized.",
+          "incorrect": [
+            "Not: My family loves campbell’s Chicken Noodle soup.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Do you have the new nintendo Video game?. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: We bought New crayola crayons.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 56,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Identify the correctorder of sentences in this par agraph. 1. Then she called her family to the table. 2. Everyone had a great time. 3. Maureen made a special birthday dinner for Sam. 4. She baked a cake and cooked a roast.",
+        "choices": [
+          "3, 4, 1, 2",
+          "1, 2, 3, 4",
+          "4, 3, 1, 2",
+          "2, 1, 4, 3"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: 3, 4, 1, 2. 3, 4, 1, 2; Maureen made a special birthday dinner for Sam. She baked a cake and cooked a ro ast. Then she called her family to the table. E veryon e had a great time.",
+          "incorrect": [
+            "",
+            "Not: 1, 2, 3, 4. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: 4, 3, 1, 2. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: 2, 1, 4, 3. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 57,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "When would you use formal language in writing?",
+        "choices": [
+          "in formational essay, research paper, business lett er",
+          "recipe, thank you note, grocery list",
+          "prescription, note card, outlines",
+          "friendly letter, personal narrative, character sketch"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: in formational essay, research paper, business lett er. informational essay, research paper, business letter; Formal la nguage is used for pro fessional or academic purposes.",
+          "incorrect": [
+            "",
+            "Not: recipe, thank you note, grocery list. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: prescription, note card, outlines. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: friendly letter, personal narrative, character sketch. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 58,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 18,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following sentences is capitalized correctly?",
+        "choices": [
+          "It has been a cold winter!",
+          "Yesterday, School was closed.",
+          "We heard the news on the radio station kftz.",
+          "We had fun, but i can’t wait until summer."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: It has been a cold winter!. It has been a cold winter! B – school, C – KFTZ, D - I",
+          "incorrect": [
+            "",
+            "Not: Yesterday, School was closed.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We heard the news on the radio station kftz.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We had fun, but i can’t wait until summer.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 59,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which of the following sentences is capitalized correctly?",
+        "choices": [
+          "We won a game against the Denver darts last week.",
+          "My sister plays for the cleveland cats.",
+          "My soccer team is the Cleveland Cougars.",
+          "Last year’s winners were the magic miners."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: My soccer team is the Cleveland Cougars.. My soccer team is the Cleveland Cougars. Cleveland Cougars is a proper noun (the name of a sports team).",
+          "incorrect": [
+            "Not: We won a game against the Denver darts last week.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: My sister plays for the cleveland cats.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Last year’s winners were the magic miners.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 60,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 44,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which underlined word is incorrectly capitalized?",
+        "choices": [
+          "We were tired after our hike up Mount Hood.",
+          "I asked the Judge if I could explain my answer.",
+          "People liked President Reagan’s speech.",
+          "We visited Capitol Hill on our trip south."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I asked the Judge if I could explain my answer.. I asked the Judge if I could explain my answer. The word is used here as a common noun.",
+          "incorrect": [
+            "Not: We were tired after our hike up Mount Hood.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: People liked President Reagan’s speech.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: We visited Capitol Hill on our trip south.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 61,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "What is the plural of homework?",
+        "choices": [
+          "homework",
+          "homeworks",
+          "homeswork",
+          "homeworkes"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: homework. homework; The singular and plural of the word are the same.",
+          "incorrect": [
+            "",
+            "Not: homeworks. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: homeswork. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: homeworkes. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 62,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 44,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which group of words would need capital letters?",
+        "choices": [
+          "car, t ruck, van",
+          "basketball, baseball, soccer",
+          "congress, senate, supreme court",
+          "green, blue, yellow"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: congress, senate, supreme court. congress, senate, supreme court; Congress, Senate and Supreme Court are all proper nouns and should be capitalized.",
+          "incorrect": [
+            "Not: car, t ruck, van. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: basketball, baseball, soccer. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: green, blue, yellow. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-proper-names-titles",
+          "sequence": 63,
+          "sourceFile": "Proficient-3_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "writing-strategies-application-style"
+        }
       }
     ],
     "metadata": {
@@ -7028,6 +8678,206 @@
           "sequence": 31,
           "sourceFile": "Proficient-5_Mechanics and Punctuation.pdf",
           "sourceQuestionNumber": 7
+        }
+      },
+      {
+        "question": "In the sentence below, which words must be capitalized? The washington monument sits along the potomac river in washington, d.c.",
+        "choices": [
+          "washington, sits, potomac, d.c.",
+          "monument, along, d.c., river",
+          "monument, river, washington, d.c.",
+          "washington, potomac, d.c., river, monument"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: washington, potomac, d.c., river, monument. washington, potomac, d.c., river, monument; The Washington Monument sits along the Potomac River in Washington, D.C.",
+          "incorrect": [
+            "Not: washington, sits, potomac, d.c.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: monument, along, d.c., river. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: monument, river, washington, d.c.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 32,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which words must be capitalized in this sentence? jeff attends king middle school in seattle, washington this year.",
+        "choices": [
+          "jeff, king, seattle, washington",
+          "attends, school, seattle, king, jeff",
+          "middle, washington, school, seattle, king, jeff",
+          "school, seattle, washington, jeff"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: middle, washington, school, seattle, king, jeff. middle, washington, school, seattle, king, jeff; Jeff attends King Middle School in Seattle, Washington this year.",
+          "incorrect": [
+            "Not: jeff, king, seattle, washington. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: attends, school, seattle, king, jeff. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: school, seattle, washington, jeff. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 33,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which group of words must all be capitalized in this sentence? spirit lake is locatedon the northeastern slope of mt. st. helens in southwest washington s tate.",
+        "choices": [
+          "spirit lake, helens, washington",
+          "spirit, northeastern, state",
+          "slope, mt., southwest",
+          "northeastern, mt., state"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: spirit lake, helens, washington. spirit lake, helens, washington; The sentence is correctly capitalized: Spirit Lake is locatedon the northeastern slope of Mt. St. Helens in southwest Washington State.",
+          "incorrect": [
+            "",
+            "Not: spirit, northeastern, state. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: slope, mt., southwest. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: northeastern, mt., state. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 34,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test"
+        }
+      },
+      {
+        "question": "Which place should be capitalized?",
+        "choices": [
+          "high school",
+          "walking trail",
+          "white house",
+          "dog park"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: white house. white house; The White House is the name of a specific place.",
+          "incorrect": [
+            "Not: high school. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: walking trail. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: dog park. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "mechanics",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sequence": 35,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "language-usage-test"
         }
       }
     ],

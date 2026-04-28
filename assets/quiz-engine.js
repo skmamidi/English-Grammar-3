@@ -582,14 +582,13 @@
     const safeSceneText = value => scrubAnswerChoiceText(localize(value), question);
     const prompt = getDisplayPromptParts(localize(scene.prompt || question.question));
     const promptText = prompt.task || prompt.fullText;
-    const guidanceText = safeSceneText(scene.clue || 'Read the clue, then test each answer choice.');
+    const guidanceText = safeSceneText(getQuestionStrategyClue(question, scene));
     const visualPrompt = prompt.type === 'passage' ? renderVisualPassagePrompt(prompt) : '';
     const integratedDialogue = getIntegratedSceneDialogue(dialogue, promptText, guidanceText);
     return `
       <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
         <div class="visual-scene-intro">
           <h3>${escapeHtml(scene.title || 'Question Scene')}</h3>
-          ${scene.narration ? `<p>${escapeHtml(safeSceneText(scene.narration))}</p>` : ''}
         </div>
         ${visualPrompt}
         <div class="visual-stage">
@@ -704,13 +703,11 @@
     return [0, 1].map(index => {
       const source = baseDialogue[index] || {};
       const isQuestion = index === 0;
-      const strategyText = source.text ? normalizePromptText(source.text) : 'I will test each answer choice against the clue.';
-      const clueAndStrategy = `${guidanceText} ${strategyText}`;
       return Object.assign({}, source, {
         characterId: source.characterId || fallbackCharacters[index],
         emotion: source.emotion || (isQuestion ? 'curious' : 'coaching'),
         label: isQuestion ? 'asks' : 'shares a clue',
-        text: isQuestion ? promptText : clueAndStrategy
+        text: isQuestion ? promptText : guidanceText
       });
     });
   }
@@ -1291,13 +1288,85 @@
   }
 
   function getStrategyHint(question) {
-    const focus = question.metadata && question.metadata.feedbackFocus
-      ? question.metadata.feedbackFocus
-      : 'name the rule, test it against each choice, and explain the deciding clue';
-    const rule = question.studyAid && question.studyAid.definition
-      ? question.studyAid.definition
-      : 'Read the question twice, then eliminate answers that break the rule.';
-    return `Rule to use: ${rule}`;
+    return `Clue to use: ${getQuestionStrategyClue(question)}`;
+  }
+
+  function getQuestionStrategyClue(question, scene) {
+    const prompt = stripPromptLeadIns(question && question.question ? question.question : '');
+    const skills = question && question.metadata && Array.isArray(question.metadata.skills)
+      ? question.metadata.skills.join(' ').toLowerCase()
+      : '';
+    const studyExample = question && question.studyAid && question.studyAid.example
+      ? normalizePromptText(question.studyAid.example)
+      : '';
+    const fallback = scene && scene.clue
+      ? normalizePromptText(scene.clue)
+      : '';
+
+    const contextMeaning = getContextMeaningClue(prompt);
+    if (contextMeaning) return contextMeaning;
+
+    const wordPart = getWordPartClue(prompt);
+    if (wordPart) return wordPart;
+
+    if (/homophone/.test(skills)) {
+      return 'Use the sentence meaning, not just the sound. Choose the word whose meaning fits the context.';
+    }
+    if (/synonym/.test(skills)) {
+      return 'Find the choice with nearly the same meaning as the target word, then check it in the sentence.';
+    }
+    if (/antonym/.test(skills)) {
+      return 'Find the choice with the opposite meaning of the target word, then check it in the sentence.';
+    }
+    if (/context|meaning/.test(skills)) {
+      return 'Use the surrounding words as evidence. Pick the meaning that makes the whole sentence make sense.';
+    }
+    if (/root|prefix|suffix|morphology|word origins/.test(skills)) {
+      return studyExample || 'Break the word into meaningful parts, then choose the answer that preserves those parts.';
+    }
+
+    return studyExample || fallback || 'Use the exact clue in the question, then eliminate choices that do not match it.';
+  }
+
+  function getContextMeaningClue(prompt) {
+    const quoted = prompt.match(/"([^"]+)"/);
+    const target = prompt.match(/\bwhat does\s+([A-Za-z'-]+)\s+(?:mean|most nearly mean)\b/i);
+    if (!quoted || !target) return '';
+    const sentence = quoted[1].trim();
+    const word = target[1].trim();
+    const clues = getSalientContextWords(sentence, word);
+    if (!clues.length) {
+      return `Use the quoted sentence to decide which meaning of "${word}" fits the context.`;
+    }
+    return `Use the context words "${clues.join('" and "')}" to decide which meaning of "${word}" fits.`;
+  }
+
+  function getWordPartClue(prompt) {
+    const rootMatch = prompt.match(/\broot\s+([A-Za-z'-]+)\s+means\s+([^.?!]+)[.?!]/i);
+    if (rootMatch) {
+      return `Use the root: ${rootMatch[1]} means ${rootMatch[2].trim()}. Choose the answer that keeps that meaning.`;
+    }
+    const partMatch = prompt.match(/\b(prefix|suffix)\s+(-?[A-Za-z]+-?)\s+(?:mean|means)\s+([^.?!]+)[.?!]/i);
+    if (partMatch) {
+      return `Use the ${partMatch[1]} ${partMatch[2]}: it means ${partMatch[3].trim()}. Choose the word or meaning that matches.`;
+    }
+    const asksPart = prompt.match(/\bwhat does the\s+(prefix|suffix|root)\s+(-?[A-Za-z]+-?)\s+mean\b/i);
+    if (asksPart) {
+      return `Focus on the ${asksPart[1]} ${asksPart[2]}. Choose its meaning, not a distractor from the whole word.`;
+    }
+    return '';
+  }
+
+  function getSalientContextWords(sentence, targetWord) {
+    const stopWords = new Set([
+      'a', 'an', 'and', 'are', 'at', 'but', 'by', 'for', 'from', 'in', 'is', 'it', 'of',
+      'on', 'or', 'the', 'to', 'was', 'were', 'with', 'this', 'that', 'these', 'those'
+    ]);
+    const target = String(targetWord || '').toLowerCase();
+    const words = String(sentence || '').toLowerCase().match(/[a-z']+/g) || [];
+    return words
+      .filter(word => word !== target && !stopWords.has(word))
+      .slice(0, 3);
   }
 
   function getConfidenceNudge(confidence) {

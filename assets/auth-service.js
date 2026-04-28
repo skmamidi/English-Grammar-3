@@ -1,11 +1,13 @@
 const firebaseSettings = window.GQ_FIREBASE_CONFIG || {};
 const progressStore = window.GrammarQuestProgress;
 const AUTH_STATE_EVENT = "grammarquest:auth-state";
+const ACTIVE_STUDENT_EVENT = "grammarquest:active-student";
 
 const state = {
   enabled: Boolean(firebaseSettings.enabled),
   user: null,
   profile: null,
+  activeStudent: loadActiveStudent(),
   syncStatus: firebaseSettings.enabled ? "idle" : "local",
   firebase: null,
   modal: null
@@ -19,9 +21,9 @@ window.GrammarQuestAuth = {
   ready: () => readyPromise,
   getState: () => getPublicState(),
   open: () => openModal(),
-  createStudentInvite,
-  linkStudentWithCode,
-  loadGuardianStudents,
+  createManagedStudent,
+  selectManagedStudent,
+  loadManagedStudents,
   loadStudentProgress
 };
 
@@ -42,7 +44,6 @@ async function initAuthService() {
     const app = appModule.initializeApp(firebaseSettings.firebaseConfig);
     const auth = authModule.getAuth(app);
     const db = firestoreModule.getFirestore(app);
-
     state.firebase = { auth, db, authModule, firestoreModule };
 
     await new Promise(resolve => {
@@ -69,8 +70,7 @@ async function initAuthUi() {
 }
 
 function injectAuthShell() {
-  const headers = document.querySelectorAll(".app-header .container");
-  headers.forEach(header => {
+  document.querySelectorAll(".app-header .container").forEach(header => {
     if (header.querySelector("[data-auth-root]")) return;
     const root = document.createElement("div");
     root.className = "auth-widget";
@@ -86,23 +86,16 @@ function injectAuthShell() {
   const emailForm = providers.email === false ? "" : `
       <form class="auth-form" data-auth-email-form>
         <label>
-          <span>Email</span>
+          <span>Grownup Email</span>
           <input type="email" name="email" autocomplete="email" required>
         </label>
         <label>
           <span>Password</span>
           <input type="password" name="password" autocomplete="current-password" minlength="6" required>
         </label>
-        <label>
-          <span>Account Type</span>
-          <select name="role" data-auth-role-select>
-            <option value="student">Student</option>
-            <option value="guardian">Parent / Teacher</option>
-          </select>
-        </label>
         <div class="auth-form-actions">
           <button class="btn btn-primary" type="submit" data-auth-email-action="signin">Sign In</button>
-          <button class="btn btn-secondary" type="button" data-auth-email-action="signup">Create Account</button>
+          <button class="btn btn-secondary" type="button" data-auth-email-action="signup">Create Grownup Account</button>
         </div>
       </form>`;
 
@@ -112,28 +105,37 @@ function injectAuthShell() {
   modal.innerHTML = `
     <div class="auth-dialog" role="dialog" aria-modal="true" aria-labelledby="auth-title">
       <button class="auth-close" type="button" data-auth-close aria-label="Close sign in">x</button>
-      <div class="quest-kicker">Cloud Progress</div>
-      <h2 id="auth-title">Sign in to save progress</h2>
-      <p class="auth-copy">Students save practice history. Parents and teachers can link students to view progress reports.</p>
+      <div class="quest-kicker">Managed Student Progress</div>
+      <h2 id="auth-title">Grownup sign in</h2>
+      <p class="auth-copy">Parents and teachers create student screen names. Students use those names inside the app without registering for Firebase.</p>
       <div class="auth-actions">
         ${googleButton}
         ${appleButton}
       </div>
       ${emailForm}
-      <div class="auth-tools hidden" data-auth-student-tools>
-        <h3>Student Sharing</h3>
-        <p>Generate a code for a parent or teacher. They can use it to view your reports.</p>
-        <button class="btn btn-secondary" type="button" data-create-invite>Generate Link Code</button>
-        <div class="auth-code hidden" data-invite-code></div>
+      <div class="auth-tools hidden" data-grownup-tools>
+        <h3>Student Profiles</h3>
+        <form data-create-student-form>
+          <label>
+            <span>Student Name</span>
+            <input type="text" name="studentName" autocomplete="off" placeholder="Raaga" required>
+          </label>
+          <label>
+            <span>Fun Login Name</span>
+            <input type="text" name="loginName" autocomplete="off" data-student-login-name required>
+          </label>
+          <button class="btn btn-secondary" type="button" data-suggest-login-name>Suggest Name</button>
+          <button class="btn btn-primary" type="submit">Create Student</button>
+        </form>
+        <form data-select-student-form>
+          <label>
+            <span>Student Login Name</span>
+            <input type="text" name="loginName" autocomplete="off" placeholder="spark-reader-27" required>
+          </label>
+          <button class="btn btn-secondary" type="submit">Start Student Session</button>
+        </form>
+        <div class="student-profile-list" data-student-profile-list></div>
       </div>
-      <form class="auth-tools hidden" data-auth-guardian-tools>
-        <h3>Link a Student</h3>
-        <label>
-          <span>Student Code</span>
-          <input type="text" name="inviteCode" autocomplete="off" placeholder="ABC123">
-        </label>
-        <button class="btn btn-secondary" type="submit">Link Student</button>
-      </form>
       <p class="auth-message" data-auth-message></p>
     </div>
   `;
@@ -148,14 +150,16 @@ function wireModalEvents() {
     const signOutButton = event.target.closest("[data-auth-signout]");
     const providerButton = event.target.closest("[data-auth-provider]");
     const signupButton = event.target.closest("[data-auth-email-action='signup']");
-    const inviteButton = event.target.closest("[data-create-invite]");
+    const suggestButton = event.target.closest("[data-suggest-login-name]");
+    const studentButton = event.target.closest("[data-student-id]");
 
     if (openButton) openModal();
     if (closeButton || event.target.id === "auth-modal") closeModal();
     if (signOutButton) await signOut();
     if (providerButton) await signInWithProvider(providerButton.dataset.authProvider);
     if (signupButton) await signInWithEmail(event, "signup");
-    if (inviteButton) await handleCreateInvite();
+    if (suggestButton) suggestLoginName();
+    if (studentButton) await handleSelectStudentById(studentButton.dataset.studentId);
   });
 
   document.addEventListener("submit", async event => {
@@ -163,10 +167,16 @@ function wireModalEvents() {
       await signInWithEmail(event, "signin");
       return;
     }
-    if (event.target.matches("[data-auth-guardian-tools]")) {
+    if (event.target.matches("[data-create-student-form]")) {
       event.preventDefault();
-      const code = String(new FormData(event.target).get("inviteCode") || "").trim();
-      await handleLinkStudent(code);
+      const formData = new FormData(event.target);
+      await handleCreateStudent(formData);
+      return;
+    }
+    if (event.target.matches("[data-select-student-form]")) {
+      event.preventDefault();
+      const loginName = String(new FormData(event.target).get("loginName") || "");
+      await handleSelectStudentByLogin(loginName);
     }
   });
 
@@ -190,37 +200,22 @@ async function handleAuthState(user) {
     return;
   }
 
-  state.profile = await ensureUserProfile(user);
-
-  if (state.profile.role === "student") {
-    setActiveStudent(user.uid, state.profile.displayName || displayName(user));
-    if (progressStore) {
-      progressStore.setCloudAdapter({
-        load: () => loadStudentProgress(user.uid),
-        save: progress => saveStudentProgress(user.uid, progress)
-      });
-      await progressStore.syncFromCloud();
-    }
-  } else if (progressStore) {
-    progressStore.setCloudAdapter(null);
-  }
-
+  state.profile = await ensureGrownupProfile(user);
+  await refreshActiveStudentAdapter();
   closeModal();
   notifyAuthState();
   renderAuthUi();
 }
 
-async function ensureUserProfile(user, roleOverride) {
+async function ensureGrownupProfile(user) {
   const { db, firestoreModule } = state.firebase;
   const ref = userDocRef(db, firestoreModule, user.uid);
   const snapshot = await firestoreModule.getDoc(ref);
-  const existing = snapshot.exists() ? snapshot.data() : null;
-  const role = normalizeRole(roleOverride || existing?.role || loadPendingRole() || "student");
-  const display = existing?.displayName || user.displayName || user.email || (role === "guardian" ? "Parent / Teacher" : "Student");
+  const existing = snapshot.exists() ? snapshot.data() : {};
   const profile = {
     uid: user.uid,
-    role,
-    displayName: display,
+    role: "guardian",
+    displayName: existing.displayName || user.displayName || user.email || "Grownup",
     email: user.email || "",
     updatedAt: firestoreModule.serverTimestamp()
   };
@@ -229,15 +224,12 @@ async function ensureUserProfile(user, roleOverride) {
     createdAt: firestoreModule.serverTimestamp()
   }, profile), { merge: true });
 
-  clearPendingRole();
-  return Object.assign({}, existing || {}, profile, { updatedAt: existing?.updatedAt || "" });
+  return Object.assign({}, existing, profile, { updatedAt: existing.updatedAt || "" });
 }
 
 async function signInWithProvider(providerName) {
   if (!state.enabled || !state.firebase) return showMessage("Add Firebase config first, then set enabled to true.");
 
-  const role = selectedRole();
-  savePendingRole(role);
   const { auth, authModule } = state.firebase;
   let provider;
   if (providerName === "google") {
@@ -251,7 +243,7 @@ async function signInWithProvider(providerName) {
   }
 
   try {
-    showMessage("Opening sign-in...");
+    showMessage("Opening grownup sign-in...");
     await authModule.signInWithPopup(auth, provider);
   } catch (error) {
     showMessage(authErrorMessage(error));
@@ -266,12 +258,10 @@ async function signInWithEmail(event, mode) {
   const formData = new FormData(form);
   const email = String(formData.get("email") || "").trim();
   const password = String(formData.get("password") || "");
-  const role = normalizeRole(formData.get("role"));
   const { auth, authModule } = state.firebase;
 
   try {
-    showMessage(mode === "signup" ? "Creating account..." : "Signing in...");
-    savePendingRole(role);
+    showMessage(mode === "signup" ? "Creating grownup account..." : "Signing in...");
     if (mode === "signup") {
       await authModule.createUserWithEmailAndPassword(auth, email, password);
     } else {
@@ -287,123 +277,165 @@ async function signOut() {
   await state.firebase.authModule.signOut(state.firebase.auth);
 }
 
-async function loadStudentProgress(studentUid) {
-  if (!state.firebase) return null;
+async function createManagedStudent({ studentName, loginName }) {
+  await readyPromise;
+  requireGrownup();
+
+  const cleanName = String(studentName || "").trim();
+  const normalizedLogin = normalizeLoginName(loginName);
+  if (!cleanName) throw new Error("Enter a student name.");
+  if (!normalizedLogin) throw new Error("Enter a login name.");
+
   const { db, firestoreModule } = state.firebase;
-  const ref = studentProgressRef(db, firestoreModule, studentUid);
-  const snapshot = await firestoreModule.getDoc(ref);
-  return snapshot.exists() ? snapshot.data().progress : null;
+  const studentId = `student-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+  const indexRef = firestoreModule.doc(db, loginCollection(), normalizedLogin);
+  const studentRef = managedStudentRef(db, firestoreModule, studentId);
+  const existingLogin = await firestoreModule.getDoc(indexRef);
+  if (existingLogin.exists()) {
+    throw new Error("That login name is already taken. Try the suggested name button.");
+  }
+  const batch = firestoreModule.writeBatch(db);
+
+  batch.set(indexRef, {
+    ownerUid: state.user.uid,
+    studentId,
+    loginName: normalizedLogin,
+    studentName: cleanName,
+    createdAt: firestoreModule.serverTimestamp()
+  });
+  batch.set(studentRef, {
+    ownerUid: state.user.uid,
+    studentId,
+    studentName: cleanName,
+    loginName: normalizedLogin,
+    progress: progressStore?.getDefaultProgress?.() || {},
+    createdAt: firestoreModule.serverTimestamp(),
+    updatedAt: firestoreModule.serverTimestamp()
+  });
+
+  await batch.commit();
+  return selectManagedStudent(studentId);
 }
 
-async function saveStudentProgress(studentUid, progress) {
-  if (!state.firebase) return;
+async function selectManagedStudent(identifier) {
+  await readyPromise;
+  requireGrownup();
+
+  const students = await loadManagedStudents();
+  const normalized = normalizeLoginName(identifier);
+  const student = students.find(item => item.id === identifier || item.loginName === normalized);
+  if (!student) throw new Error("That student login name was not found for this grownup account.");
+
+  state.activeStudent = {
+    id: student.id,
+    name: student.name,
+    loginName: student.loginName
+  };
+  saveActiveStudent(state.activeStudent);
+  await refreshActiveStudentAdapter();
+  notifyAuthState();
+  window.dispatchEvent(new CustomEvent(ACTIVE_STUDENT_EVENT, { detail: state.activeStudent }));
+  renderAuthUi();
+  return state.activeStudent;
+}
+
+async function loadManagedStudents() {
+  await readyPromise;
+  if (!state.enabled || !state.firebase || !state.user) return [];
+
   const { db, firestoreModule } = state.firebase;
-  const ref = studentProgressRef(db, firestoreModule, studentUid);
-  const name = getActiveStudentName();
+  const studentsRef = firestoreModule.collection(db, managedStudentCollection());
+  const query = firestoreModule.query(studentsRef, firestoreModule.where("ownerUid", "==", state.user.uid));
+  const snapshot = await firestoreModule.getDocs(query);
+  return snapshot.docs.map(docSnapshot => {
+    const data = docSnapshot.data();
+    const progress = data.progress || progressStore?.getDefaultProgress?.() || {};
+    return {
+      id: data.studentId || docSnapshot.id,
+      name: data.studentName || "Student",
+      loginName: data.loginName || "",
+      source: "Managed",
+      progress,
+      sessions: progress?.reports?.sessions || []
+    };
+  }).sort((a, b) => a.name.localeCompare(b.name));
+}
+
+async function loadStudentProgress(studentId) {
+  await readyPromise;
+  if (!state.enabled || !state.firebase || !state.user || !studentId) return null;
+  const { db, firestoreModule } = state.firebase;
+  const snapshot = await firestoreModule.getDoc(managedStudentRef(db, firestoreModule, studentId));
+  if (!snapshot.exists()) return null;
+  const data = snapshot.data();
+  if (data.ownerUid !== state.user.uid) throw new Error("This student is not connected to the signed-in grownup.");
+  return data.progress || null;
+}
+
+async function saveStudentProgress(studentId, progress) {
+  if (!state.firebase || !state.user || !studentId) return;
+  const { db, firestoreModule } = state.firebase;
+  const ref = managedStudentRef(db, firestoreModule, studentId);
   await firestoreModule.setDoc(ref, {
-    studentUid,
-    studentName: name,
+    ownerUid: state.user.uid,
+    studentId,
+    studentName: state.activeStudent?.name || "Student",
+    loginName: state.activeStudent?.loginName || "",
     progress,
     updatedAt: firestoreModule.serverTimestamp()
   }, { merge: true });
 }
 
-async function createStudentInvite() {
-  await readyPromise;
-  if (!state.enabled || !state.firebase || !state.user) throw new Error("Sign in as a student first.");
-  if (state.profile?.role !== "student") throw new Error("Only student accounts can create link codes.");
+async function refreshActiveStudentAdapter() {
+  if (!progressStore) return;
+  if (!state.user || !state.activeStudent?.id) {
+    progressStore.setCloudAdapter(null);
+    return;
+  }
 
-  const { db, firestoreModule } = state.firebase;
-  const code = makeInviteCode();
-  const ref = firestoreModule.doc(db, inviteCollection(), code);
-  const expiresAt = new Date(Date.now() + 1000 * 60 * 60 * 24 * 14).toISOString();
-  await firestoreModule.setDoc(ref, {
-    code,
-    studentUid: state.user.uid,
-    studentName: state.profile.displayName || displayName(state.user),
-    createdBy: state.user.uid,
-    createdAt: firestoreModule.serverTimestamp(),
-    expiresAt
+  progressStore.setCloudAdapter({
+    load: () => loadStudentProgress(state.activeStudent.id),
+    save: progress => saveStudentProgress(state.activeStudent.id, progress)
   });
-  return { code, expiresAt };
+  await progressStore.syncFromCloud();
 }
 
-async function linkStudentWithCode(code) {
-  await readyPromise;
-  if (!state.enabled || !state.firebase || !state.user) throw new Error("Sign in as a parent or teacher first.");
-  if (state.profile?.role !== "guardian") throw new Error("Use a parent / teacher account to link students.");
-
-  const normalizedCode = normalizeInviteCode(code);
-  if (!normalizedCode) throw new Error("Enter a student code.");
-
-  const { db, firestoreModule } = state.firebase;
-  const inviteRef = firestoreModule.doc(db, inviteCollection(), normalizedCode);
-  const inviteSnapshot = await firestoreModule.getDoc(inviteRef);
-  if (!inviteSnapshot.exists()) throw new Error("That student code was not found.");
-
-  const invite = inviteSnapshot.data();
-  if (invite.expiresAt && new Date(invite.expiresAt).getTime() < Date.now()) {
-    throw new Error("That student code has expired. Ask the student for a new one.");
-  }
-
-  const linkRef = guardianStudentRef(db, firestoreModule, state.user.uid, invite.studentUid);
-  await firestoreModule.setDoc(linkRef, {
-    studentUid: invite.studentUid,
-    studentName: invite.studentName || "Student",
-    inviteCode: normalizedCode,
-    linkedAt: firestoreModule.serverTimestamp()
-  }, { merge: true });
-
-  return { studentUid: invite.studentUid, studentName: invite.studentName || "Student" };
-}
-
-async function loadGuardianStudents() {
-  await readyPromise;
-  if (!state.enabled || !state.firebase || !state.user || state.profile?.role !== "guardian") return [];
-
-  const { db, firestoreModule } = state.firebase;
-  const linksRef = firestoreModule.collection(db, userCollection(), state.user.uid, "students");
-  const snapshot = await firestoreModule.getDocs(linksRef);
-  const students = [];
-
-  for (const docSnapshot of snapshot.docs) {
-    const link = docSnapshot.data();
-    const progress = await loadStudentProgress(link.studentUid);
-    students.push({
-      id: link.studentUid,
-      name: link.studentName || "Student",
-      source: "Linked",
-      progress: progress || progressStore?.getDefaultProgress?.() || {},
-      sessions: progress?.reports?.sessions || []
+async function handleCreateStudent(formData) {
+  try {
+    showMessage("Creating student profile...");
+    const student = await createManagedStudent({
+      studentName: formData.get("studentName"),
+      loginName: formData.get("loginName")
     });
-  }
-
-  return students;
-}
-
-async function handleCreateInvite() {
-  try {
-    showMessage("Creating student code...");
-    const invite = await createStudentInvite();
-    const target = document.querySelector("[data-invite-code]");
-    if (target) {
-      target.classList.remove("hidden");
-      target.textContent = invite.code;
-    }
-    showMessage("Share this code with a parent or teacher.");
+    showMessage(`${student.name} is ready. Student login name: ${student.loginName}`);
+    await renderStudentProfiles();
   } catch (error) {
     showMessage(error.message);
   }
 }
 
-async function handleLinkStudent(code) {
+async function handleSelectStudentByLogin(loginName) {
   try {
-    showMessage("Linking student...");
-    const linked = await linkStudentWithCode(code);
-    showMessage(`${linked.studentName} is linked. Open Reports to view progress.`);
-    window.dispatchEvent(new CustomEvent(AUTH_STATE_EVENT, { detail: getPublicState() }));
+    showMessage("Starting student session...");
+    const student = await selectManagedStudent(loginName);
+    showMessage(`${student.name} is active. Progress will save to this profile.`);
   } catch (error) {
     showMessage(error.message);
+  }
+}
+
+async function handleSelectStudentById(studentId) {
+  try {
+    const student = await selectManagedStudent(studentId);
+    showMessage(`${student.name} is active. Progress will save to this profile.`);
+  } catch (error) {
+    showMessage(error.message);
+  }
+}
+
+function requireGrownup() {
+  if (!state.enabled || !state.firebase || !state.user) {
+    throw new Error("Sign in with a grownup account first.");
   }
 }
 
@@ -411,24 +443,20 @@ function userDocRef(db, firestoreModule, uid) {
   return firestoreModule.doc(db, userCollection(), uid);
 }
 
-function studentProgressRef(db, firestoreModule, uid) {
-  return firestoreModule.doc(db, progressCollection(), uid);
-}
-
-function guardianStudentRef(db, firestoreModule, guardianUid, studentUid) {
-  return firestoreModule.doc(db, userCollection(), guardianUid, "students", studentUid);
+function managedStudentRef(db, firestoreModule, studentId) {
+  return firestoreModule.doc(db, managedStudentCollection(), studentId);
 }
 
 function userCollection() {
   return firebaseSettings.firestore?.userCollection || "users";
 }
 
-function progressCollection() {
-  return firebaseSettings.firestore?.progressCollection || "studentProgress";
+function managedStudentCollection() {
+  return firebaseSettings.firestore?.managedStudentCollection || "managedStudents";
 }
 
-function inviteCollection() {
-  return firebaseSettings.firestore?.inviteCollection || "studentInvites";
+function loginCollection() {
+  return firebaseSettings.firestore?.loginCollection || "studentLoginNames";
 }
 
 function renderAuthUi(message) {
@@ -444,13 +472,13 @@ function renderAuthUi(message) {
     }
 
     if (state.user) {
-      const roleLabel = state.profile?.role === "guardian" ? "Parent / Teacher" : "Student";
+      const studentLabel = state.activeStudent?.name ? `Student: ${state.activeStudent.name}` : "Choose student";
       root.innerHTML = `
         <div class="auth-signed-in">
           <button class="auth-pill" type="button" data-auth-open>
             <span class="auth-dot auth-dot-online"></span>
-            ${escapeHtml(displayName(state.user))}
-            <span class="auth-role-label">${escapeHtml(roleLabel)}</span>
+            ${escapeHtml(studentLabel)}
+            <span class="auth-role-label">Grownup</span>
           </button>
           <button class="auth-link-button" type="button" data-auth-signout>Sign out</button>
         </div>
@@ -461,20 +489,37 @@ function renderAuthUi(message) {
     root.innerHTML = `
       <button class="auth-pill" type="button" data-auth-open>
         <span class="auth-dot"></span>
-        Sign in
+        Grownup sign in
       </button>
     `;
   });
 
-  renderRoleTools();
+  renderGrownupTools();
   if (message) showMessage(message);
 }
 
-function renderRoleTools() {
-  const studentTools = document.querySelector("[data-auth-student-tools]");
-  const guardianTools = document.querySelector("[data-auth-guardian-tools]");
-  if (studentTools) studentTools.classList.toggle("hidden", !(state.user && state.profile?.role === "student"));
-  if (guardianTools) guardianTools.classList.toggle("hidden", !(state.user && state.profile?.role === "guardian"));
+async function renderGrownupTools() {
+  const tools = document.querySelector("[data-grownup-tools]");
+  if (!tools) return;
+  tools.classList.toggle("hidden", !(state.enabled && state.user));
+  if (state.enabled && state.user) await renderStudentProfiles();
+}
+
+async function renderStudentProfiles() {
+  const target = document.querySelector("[data-student-profile-list]");
+  if (!target || !state.user) return;
+
+  try {
+    const students = await loadManagedStudents();
+    target.innerHTML = students.map(student => `
+      <button class="student-profile-chip ${state.activeStudent?.id === student.id ? "active" : ""}" type="button" data-student-id="${escapeHtml(student.id)}">
+        <strong>${escapeHtml(student.name)}</strong>
+        <span>${escapeHtml(student.loginName)}</span>
+      </button>
+    `).join("") || '<p class="auth-copy">No student profiles yet.</p>';
+  } catch (error) {
+    target.innerHTML = `<p class="auth-copy">${escapeHtml(error.message)}</p>`;
+  }
 }
 
 function openModal() {
@@ -487,8 +532,9 @@ function openModal() {
   if (!state.enabled) {
     showMessage("Firebase is currently disabled. Add your config in assets/firebase-config.js, then set enabled to true.");
   } else if (state.user) {
-    const role = state.profile?.role === "guardian" ? "parent / teacher" : "student";
-    showMessage(`Signed in as a ${role}. Progress sync is ${state.syncStatus}.`);
+    showMessage(state.activeStudent?.name
+      ? `${state.activeStudent.name} is active. Progress sync is ${state.syncStatus}.`
+      : "Create or choose a student profile before practice.");
   } else {
     showMessage("");
   }
@@ -513,81 +559,58 @@ function getPublicState() {
     enabled: state.enabled,
     user: state.user,
     profile: state.profile,
-    role: state.profile?.role || "",
+    role: state.user ? "guardian" : "",
+    activeStudent: state.activeStudent,
     syncStatus: state.syncStatus,
     signedIn: !!state.user
   };
 }
 
-function displayName(user) {
-  return state.profile?.displayName || user.displayName || user.email || "Signed in";
+function suggestLoginName() {
+  const input = document.querySelector("[data-student-login-name]");
+  if (!input) return;
+  input.value = makeFunLoginName();
 }
 
-function selectedRole() {
-  const select = document.querySelector("[data-auth-role-select]");
-  return normalizeRole(select && select.value);
+function makeFunLoginName() {
+  const adjectives = ["spark", "brave", "clever", "sunny", "quick", "story", "bright", "mighty"];
+  const nouns = ["reader", "writer", "wizard", "scout", "pilot", "ranger", "thinker", "scribe"];
+  const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
+  const noun = nouns[Math.floor(Math.random() * nouns.length)];
+  const number = Math.floor(10 + Math.random() * 90);
+  return `${adjective}-${noun}-${number}`;
 }
 
-function normalizeRole(role) {
-  return role === "guardian" ? "guardian" : "student";
+function normalizeLoginName(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
-function savePendingRole(role) {
+function saveActiveStudent(student) {
   try {
-    sessionStorage.setItem("grammarQuestPendingRole", normalizeRole(role));
+    localStorage.setItem("grammarQuestActiveStudentId", student.id);
+    localStorage.setItem("grammarQuestActiveStudentName", student.name);
+    localStorage.setItem("grammarQuestActiveStudentLogin", student.loginName || "");
   } catch (error) {
-    // Session storage is optional; default role still works.
+    // Optional local state.
   }
 }
 
-function loadPendingRole() {
+function loadActiveStudent() {
   try {
-    return sessionStorage.getItem("grammarQuestPendingRole") || "";
+    const id = localStorage.getItem("grammarQuestActiveStudentId") || "";
+    if (!id) return null;
+    return {
+      id,
+      name: localStorage.getItem("grammarQuestActiveStudentName") || "Student",
+      loginName: localStorage.getItem("grammarQuestActiveStudentLogin") || ""
+    };
   } catch (error) {
-    return "";
+    return null;
   }
-}
-
-function clearPendingRole() {
-  try {
-    sessionStorage.removeItem("grammarQuestPendingRole");
-  } catch (error) {
-    // Nothing to clear.
-  }
-}
-
-function setActiveStudent(uid, name) {
-  try {
-    localStorage.setItem("grammarQuestActiveStudentId", uid);
-    localStorage.setItem("grammarQuestActiveStudentName", name || "Student");
-  } catch (error) {
-    // Progress still saves without the friendly local labels.
-  }
-}
-
-function getActiveStudentName() {
-  try {
-    return localStorage.getItem("grammarQuestActiveStudentName") || state.profile?.displayName || "Student";
-  } catch (error) {
-    return state.profile?.displayName || "Student";
-  }
-}
-
-function normalizeInviteCode(code) {
-  return String(code || "").replace(/[^a-z0-9]/gi, "").toUpperCase();
-}
-
-function makeInviteCode() {
-  const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
-  let code = "";
-  const cryptoObj = window.crypto || window.msCrypto;
-  const values = new Uint8Array(6);
-  if (cryptoObj && cryptoObj.getRandomValues) cryptoObj.getRandomValues(values);
-  for (let i = 0; i < 6; i++) {
-    const value = values[i] || Math.floor(Math.random() * alphabet.length);
-    code += alphabet[value % alphabet.length];
-  }
-  return code;
 }
 
 function authErrorMessage(error) {
@@ -597,6 +620,7 @@ function authErrorMessage(error) {
   if (code === "auth/email-already-in-use") return "That email already has an account. Try signing in instead.";
   if (code === "auth/invalid-credential" || code === "auth/wrong-password") return "Email or password was not recognized.";
   if (code === "auth/weak-password") return "Use a password with at least 6 characters.";
+  if (code === "permission-denied") return "Firebase rules blocked that action. Check FIREBASE_SETUP.md.";
   return error && error.message ? error.message : "Something went wrong. Try again.";
 }
 

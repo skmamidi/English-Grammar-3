@@ -1,47 +1,52 @@
-# Firebase Student and Parent/Teacher Setup
+# Firebase Setup: Grownup Accounts and Managed Student Profiles
 
 Firebase is disabled by default. The app still works with local browser progress until you add a Firebase project and set `enabled: true` in `assets/firebase-config.js`.
 
 ## What This Implements
 
-The app now uses separate account roles:
+Students do **not** register directly with Firebase.
 
-- **Student** accounts save quiz progress, mastery, sessions, and reports.
-- **Parent / Teacher** accounts link students with a student-generated code and can read linked student reports.
-- Parent / Teacher accounts cannot write student progress.
+- Parents and teachers create normal grownup Firebase accounts.
+- Grownups create managed student profiles.
+- Each student profile gets a fun, unique app login name such as `spark-reader-27`.
+- Students use that screen name inside the app to start a student session.
+- Cloud writes are protected by the signed-in grownup account.
+- Reports show all student profiles owned by the grownup.
 
-Cloud data is stored as:
+This avoids collecting student email addresses or asking younger kids to manage real accounts.
+
+## Cloud Data Model
 
 ```txt
-users/{uid}
-  role: "student" | "guardian"
+users/{grownupUid}
+  role: "guardian"
   displayName
   email
 
-studentProgress/{studentUid}
-  studentUid
+managedStudents/{studentId}
+  ownerUid: grownupUid
+  studentId
   studentName
+  loginName
   progress
+  createdAt
   updatedAt
 
-users/{guardianUid}/students/{studentUid}
-  studentUid
+studentLoginNames/{loginName}
+  ownerUid: grownupUid
+  studentId
+  loginName
   studentName
-  inviteCode
-  linkedAt
-
-studentInvites/{inviteCode}
-  studentUid
-  studentName
-  createdBy
-  expiresAt
+  createdAt
 ```
+
+`studentLoginNames` is used only to reserve unique screen names. Student progress lives on `managedStudents/{studentId}`.
 
 ## 1. Create the Firebase Project
 
 1. Open the [Firebase console](https://console.firebase.google.com/).
 2. Create a project.
-3. Google Analytics is optional for this app.
+3. Google Analytics is optional.
 4. In the project overview, click the Web app icon.
 5. Register the app.
 6. Copy the generated `firebaseConfig` object.
@@ -61,6 +66,8 @@ In Firebase Console:
 7. Open **Authentication > Settings > Authorized domains**.
 8. Confirm `localhost` is listed for local testing.
 9. Add your deployed site domain when you publish the app.
+
+Only grownups authenticate with Firebase. Student screen-name sessions are app-level profiles under the grownup account.
 
 ## 3. Create Firestore
 
@@ -82,61 +89,47 @@ service cloud.firestore {
       return request.auth != null;
     }
 
-    function userDoc(uid) {
-      return /databases/$(database)/documents/users/$(uid);
-    }
-
     function isSelf(uid) {
       return signedIn() && request.auth.uid == uid;
     }
 
-    function isStudent(uid) {
-      return exists(userDoc(uid)) && get(userDoc(uid)).data.role == "student";
-    }
-
-    function isGuardian(uid) {
-      return exists(userDoc(uid)) && get(userDoc(uid)).data.role == "guardian";
-    }
-
-    function hasGuardianLink(studentUid) {
+    function isGrownup() {
       return signedIn()
-        && exists(/databases/$(database)/documents/users/$(request.auth.uid)/students/$(studentUid));
+        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "guardian";
+    }
+
+    function ownsStudent(studentId) {
+      return isGrownup()
+        && exists(/databases/$(database)/documents/managedStudents/$(studentId))
+        && get(/databases/$(database)/documents/managedStudents/$(studentId)).data.ownerUid == request.auth.uid;
     }
 
     match /users/{uid} {
       allow create: if isSelf(uid)
-        && request.resource.data.role in ["student", "guardian"];
+        && request.resource.data.role == "guardian";
       allow read, update: if isSelf(uid);
       allow delete: if false;
-
-      match /students/{studentUid} {
-        allow read: if isSelf(uid);
-        allow create, update: if isSelf(uid)
-          && isGuardian(uid)
-          && request.resource.data.studentUid == studentUid
-          && exists(/databases/$(database)/documents/studentInvites/$(request.resource.data.inviteCode))
-          && get(/databases/$(database)/documents/studentInvites/$(request.resource.data.inviteCode)).data.studentUid == studentUid;
-        allow delete: if isSelf(uid);
-      }
     }
 
-    match /studentProgress/{studentUid} {
-      allow read: if isSelf(studentUid) || hasGuardianLink(studentUid);
-      allow create, update: if isSelf(studentUid)
-        && isStudent(studentUid)
-        && request.resource.data.studentUid == studentUid;
-      allow delete: if false;
+    match /managedStudents/{studentId} {
+      allow read: if signedIn() && resource.data.ownerUid == request.auth.uid;
+      allow create: if isGrownup()
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.studentId == studentId;
+      allow update: if ownsStudent(studentId)
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.studentId == studentId;
+      allow delete: if ownsStudent(studentId);
     }
 
-    match /studentInvites/{inviteCode} {
-      allow get: if signedIn();
-      allow list: if false;
-      allow create: if signedIn()
-        && request.resource.data.createdBy == request.auth.uid
-        && request.resource.data.studentUid == request.auth.uid
-        && isStudent(request.auth.uid);
-      allow update, delete: if signedIn()
-        && resource.data.createdBy == request.auth.uid;
+    match /studentLoginNames/{loginName} {
+      allow read: if signedIn() && resource.data.ownerUid == request.auth.uid;
+      allow create: if isGrownup()
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.loginName == loginName;
+      allow update: if false;
+      allow delete: if signedIn() && resource.data.ownerUid == request.auth.uid;
     }
   }
 }
@@ -175,17 +168,38 @@ http://127.0.0.1:8000/
 Test this sequence:
 
 1. With `enabled: false`, confirm the header says **Local progress**.
-2. Set `enabled: true` after adding config.
-3. Create a **Student** account.
-4. Complete a quiz.
-5. Open the sign-in panel and generate a student link code.
-6. Sign out.
-7. Create a **Parent / Teacher** account.
-8. Enter the student code.
-9. Open `reports.html`.
-10. Confirm the linked student appears with cloud-loaded progress.
+2. Paste Firebase config into `assets/firebase-config.js`.
+3. Set `enabled: true`.
+4. Create or sign in to a grownup account.
+5. Open the auth panel.
+6. Create a student profile.
+7. Use the suggested fun login name or enter your own.
+8. Start a student session with that login name.
+9. Complete a quiz.
+10. Open `reports.html`.
+11. Confirm the student appears with progress and question-level evidence.
 
-## 7. Rollback
+## 7. What Codex Can Help With
+
+I can help with:
+
+- Updating the app code.
+- Adjusting Firestore rules.
+- Testing local rendering and local progress behavior.
+- Debugging Firebase console errors once you paste config.
+- Reviewing deployed behavior once you share the deployed URL or error messages.
+
+I need you to do:
+
+- Create the Firebase project.
+- Paste the Firebase config into `assets/firebase-config.js`.
+- Enable Auth providers.
+- Create Firestore.
+- Publish the Firestore rules.
+- Configure Apple Developer settings if you want Apple login.
+- Add your production domain under Firebase Authorized Domains.
+
+## 8. Rollback
 
 Fast rollback:
 

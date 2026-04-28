@@ -105,7 +105,7 @@
 
   function loadLocalProgress() {
     try {
-      return normalizeProgress(JSON.parse(localStorage.getItem(STORAGE_KEY)));
+      return normalizeProgress(JSON.parse(localStorage.getItem(getStorageKey())));
     } catch (error) {
       return getDefaultProgress();
     }
@@ -114,7 +114,7 @@
   function saveLocalProgress(progress, options) {
     const shouldSync = !options || options.sync !== false;
     const normalized = normalizeProgress(progress);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized));
+    localStorage.setItem(getStorageKey(), JSON.stringify(normalized));
     window.dispatchEvent(new CustomEvent(PROGRESS_UPDATED_EVENT, { detail: normalized }));
 
     if (shouldSync) scheduleCloudSave(normalized);
@@ -230,6 +230,19 @@
 
   function setSyncStatus(status) {
     window.dispatchEvent(new CustomEvent(SYNC_STATUS_EVENT, { detail: { status } }));
+  }
+
+  function getActiveStudentId() {
+    try {
+      return localStorage.getItem("grammarQuestActiveStudentId") || "";
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function getStorageKey() {
+    const activeStudentId = getActiveStudentId();
+    return activeStudentId ? `${STORAGE_KEY}:${activeStudentId}` : STORAGE_KEY;
   }
 
   function startActiveAssessment(details) {
@@ -431,6 +444,7 @@
 
   window.GrammarQuestProgress = {
     STORAGE_KEY,
+    getStorageKey,
     PROGRESS_UPDATED_EVENT,
     SYNC_STATUS_EVENT,
     ACTIVE_ASSESSMENT_EVENT,

@@ -532,27 +532,42 @@
     const nameSubstitutions = getSceneNameSubstitutions(dialogue, actorSlotOffset);
     const localize = value => applySceneNameSubstitutions(value, nameSubstitutions);
     const safeSceneText = value => scrubAnswerChoiceText(localize(value), question);
+    const promptText = localize(scene.prompt || question.question);
+    const guidanceText = safeSceneText(scene.clue || 'Read the clue, then test each answer choice.');
+    const integratedDialogue = getIntegratedSceneDialogue(dialogue, promptText, guidanceText);
     return `
       <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
         <div class="visual-scene-intro">
           <h3>${escapeHtml(scene.title || 'Question Scene')}</h3>
+          ${scene.narration ? `<p>${escapeHtml(safeSceneText(scene.narration))}</p>` : ''}
         </div>
         <div class="visual-stage">
           ${renderSceneSetPiece(scene)}
           <div class="visual-stage-board" aria-hidden="true">
-            <span>${escapeHtml(scene.board || 'Sentence lab')}</span>
-            <strong>${escapeHtml(safeSceneText(scene.clue || 'Read for purpose.'))}</strong>
+            <span>${escapeHtml(scene.board || 'Question lab')}</span>
+            <strong>Listen to the team, then choose the best answer.</strong>
           </div>
           <div class="visual-dialogue-strip">
-            ${dialogue.map((entry, index) => renderDialogueActor(entry, index, safeSceneText, actorSlotOffset)).join('')}
+            ${integratedDialogue.map((entry, index) => renderDialogueActor(entry, index, value => value, actorSlotOffset)).join('')}
           </div>
-        </div>
-        <div class="visual-mission">
-          <span>Mission question</span>
-          <strong>${escapeHtml(localize(scene.prompt || question.question))}</strong>
         </div>
       </section>
     `;
+  }
+
+  function getIntegratedSceneDialogue(dialogue, promptText, guidanceText) {
+    const baseDialogue = Array.isArray(dialogue) ? dialogue.slice(0, 2) : [];
+    const fallbackCharacters = ['dex-decoder', 'piper-prism'];
+    return [0, 1].map(index => {
+      const source = baseDialogue[index] || {};
+      const isQuestion = index === 0;
+      return Object.assign({}, source, {
+        characterId: source.characterId || fallbackCharacters[index],
+        emotion: source.emotion || (isQuestion ? 'curious' : 'coaching'),
+        label: isQuestion ? 'asks' : 'shares a clue',
+        text: isQuestion ? promptText : guidanceText
+      });
+    });
   }
 
   function scrubAnswerChoiceText(value, question) {
@@ -852,7 +867,7 @@
           ${petArt ? `<div class="visual-pet-badge"><span>${escapeHtml(petName)}</span>${petArt}</div>` : ''}
         </div>
         <div class="visual-speech-bubble">
-          <span>${escapeHtml(name)}</span>
+          <span>${escapeHtml(entry && entry.label ? `${name} ${entry.label}` : name)}</span>
           <p>${escapeHtml(localizeText ? localizeText(entry && entry.text ? entry.text : '') : (entry && entry.text ? entry.text : ''))}</p>
         </div>
       </div>

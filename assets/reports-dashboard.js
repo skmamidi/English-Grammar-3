@@ -134,15 +134,15 @@
       await auth.ready();
       const authState = auth.getState ? auth.getState() : {};
       if (!authState.signedIn) return [];
-      if (authState.role === 'guardian' && typeof auth.loadGuardianStudents === 'function') {
-        return await auth.loadGuardianStudents();
+      if (authState.signedIn && typeof auth.loadManagedStudents === 'function') {
+        return await auth.loadManagedStudents();
       }
-      if (authState.role === 'student' && typeof auth.loadStudentProgress === 'function') {
-        const progress = await auth.loadStudentProgress(authState.user.uid);
+      if (authState.activeStudent && typeof auth.loadStudentProgress === 'function') {
+        const progress = await auth.loadStudentProgress(authState.activeStudent.id);
         return [{
-          id: authState.user.uid,
-          name: authState.profile && authState.profile.displayName || authState.user.email || 'Student',
-          avatar: getInitials(authState.profile && authState.profile.displayName || authState.user.email || 'Student'),
+          id: authState.activeStudent.id,
+          name: authState.activeStudent.name || 'Student',
+          avatar: getInitials(authState.activeStudent.name || 'Student'),
           source: 'Cloud',
           progress: progress || {},
           sessions: progress && progress.reports && Array.isArray(progress.reports.sessions) ? progress.reports.sessions : []

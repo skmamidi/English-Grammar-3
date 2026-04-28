@@ -1498,9 +1498,8 @@ html[data-theme="dark"] .theme-toggle-moon {
   display: grid;
   gap: 16px;
   grid-template-areas:
-    "set board"
-    "dialogue dialogue";
-  grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.85fr);
+    "set dialogue";
+  grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.25fr);
   overflow: hidden;
   padding: clamp(14px, 2.4vw, 22px);
   position: relative;
@@ -1540,7 +1539,7 @@ html[data-theme="dark"] .theme-toggle-moon {
   display: grid;
   gap: clamp(14px, 2vw, 18px);
   grid-area: dialogue;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   position: relative;
   z-index: 2;
 }
@@ -1549,7 +1548,7 @@ html[data-theme="dark"] .theme-toggle-moon {
   align-items: center;
   display: grid;
   gap: 12px;
-  grid-template-columns: minmax(104px, 136px) minmax(0, 1fr);
+  grid-template-columns: minmax(92px, 124px) minmax(0, 1fr);
   justify-items: stretch;
   min-width: 0;
   position: relative;
@@ -1896,60 +1895,6 @@ html[data-theme="dark"] .theme-toggle-moon {
   color: var(--text);
   font-weight: 760;
   overflow-wrap: anywhere;
-}
-
-.visual-stage-board {
-  align-self: center;
-  background: var(--surface-strong);
-  border: 4px solid rgba(255, 255, 255, 0.68);
-  border-radius: 14px;
-  box-shadow: 0 18px 42px -30px rgb(15 23 42 / 0.8);
-  color: #ffffff;
-  display: grid;
-  gap: 7px;
-  grid-area: board;
-  min-height: 124px;
-  padding: 16px;
-  position: relative;
-  text-align: center;
-  z-index: 2;
-}
-
-.visual-stage-board span {
-  color: #bfdbfe;
-  font-size: 0.78rem;
-  font-weight: 850;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.visual-stage-board strong {
-  align-self: center;
-  font-size: clamp(0.98rem, 0.92rem + 0.18vw, 1.08rem);
-  line-height: 1.35;
-}
-
-.visual-mission {
-  background: var(--primary-soft);
-  border: 1px solid var(--primary-border);
-  border-radius: 14px;
-  display: grid;
-  gap: 5px;
-  padding: 14px 16px;
-}
-
-.visual-mission span {
-  color: var(--primary-pill-text);
-  font-size: 0.78rem;
-  font-weight: 850;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.visual-mission strong {
-  color: var(--text-strong);
-  font-size: clamp(1.02rem, 0.96rem + 0.24vw, 1.2rem);
-  line-height: 1.35;
 }
 
 .choices {
@@ -3736,7 +3681,6 @@ html[data-theme="dark"] .theme-toggle-moon {
 
   .visual-stage {
     grid-template-areas:
-      "board"
       "set"
       "dialogue";
     grid-template-columns: 1fr;
@@ -4128,11 +4072,6 @@ html[data-theme="dark"] .visual-stage {
     radial-gradient(circle at 18% 22%, rgba(96, 165, 250, 0.12), transparent 30%),
     radial-gradient(circle at 82% 20%, rgba(251, 146, 60, 0.12), transparent 28%),
     linear-gradient(135deg, rgba(45, 212, 191, 0.08), rgba(196, 181, 253, 0.08));
-}
-
-html[data-theme="dark"] .visual-stage-board {
-  background: #0f172a;
-  border-color: rgba(148, 163, 184, 0.34);
 }
 
 html[data-theme="dark"] .question-text,

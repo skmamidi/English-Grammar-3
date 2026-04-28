@@ -229,6 +229,11 @@
     const q = currentQuestions[currentIndex];
     const progress = loadProgress();
     const strategyHint = getStrategyHint(q);
+    const questionScene = renderCharacterScene({
+      question: q,
+      index: currentIndex,
+      mode: 'question'
+    });
 
     quizContainer.innerHTML = `
       <div class="quiz-header">
@@ -251,6 +256,7 @@
           <span>Read carefully</span>
           <span>${reviewMode ? 'Review round' : 'Practice round'}</span>
         </div>
+        ${questionScene}
         <div class="question-text">${escapeHtml(q.question)}</div>
         <div class="thinking-tools">
           <button type="button" class="strategy-btn" id="strategy-btn">Strategy clue</button>
@@ -305,6 +311,8 @@
     document.querySelectorAll('.choice-btn').forEach(btn => {
       btn.addEventListener('click', handleAnswer);
     });
+
+    scrollQuizIntoView();
   }
 
   function handleAnswer(e) {
@@ -379,9 +387,16 @@
     const studyAidHtml = renderStudyAid(q.studyAid);
     const selectedExplanation = getSelectedExplanation(q, selectedIndex, isCorrect);
     const learningReflection = renderLearningReflection(isCorrect);
+    const feedbackScene = renderCharacterScene({
+      question: q,
+      index: currentIndex,
+      mode: 'feedback',
+      isCorrect
+    });
 
     feedbackArea.innerHTML = `
       <div class="feedback-box">
+        ${feedbackScene}
         <div class="feedback-summary">
           <div class="feedback-title ${isCorrect ? 'correct' : 'incorrect'}">
             ${isCorrect ? 'Correct! Star gem found.' : 'Not quite. The trail is still open.'}
@@ -429,6 +444,24 @@
     }
     html += '</div>';
     return html;
+  }
+
+  function renderCharacterScene(options) {
+    const catalog = window.GrammarQuestCharacters;
+    if (!catalog || typeof catalog.renderSceneCard !== 'function') return '';
+    return catalog.renderSceneCard(Object.assign({
+      set: activeSet,
+      total: currentQuestions.length,
+      reviewMode
+    }, options));
+  }
+
+  function scrollQuizIntoView() {
+    if (!quizContainer) return;
+    const header = document.querySelector('.app-header');
+    const offset = (header ? header.offsetHeight : 0) + 16;
+    const top = quizContainer.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
   }
 
   function renderResults() {

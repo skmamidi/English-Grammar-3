@@ -12,11 +12,19 @@
 
   document.addEventListener('DOMContentLoaded', initReports);
 
-  function initReports() {
-    state.students = buildStudents();
+  async function initReports() {
+    renderLoadingState();
+    state.students = await buildStudents();
     state.selectedStudentId = state.students[0] ? state.students[0].id : '';
     bindEvents();
     render();
+    window.addEventListener('grammarquest:auth-state', async () => {
+      state.students = await buildStudents();
+      if (!state.students.some(student => student.id === state.selectedStudentId)) {
+        state.selectedStudentId = state.students[0] ? state.students[0].id : '';
+      }
+      render();
+    });
   }
 
   function bindEvents() {
@@ -33,8 +41,8 @@
 
     if (print) print.addEventListener('click', () => window.print());
     if (seed) {
-      seed.addEventListener('click', () => {
-        state.students = buildStudents(true);
+      seed.addEventListener('click', async () => {
+        state.students = await buildStudents(true);
         if (!state.students.some(student => student.id === state.selectedStudentId)) {
           state.selectedStudentId = state.students[0] ? state.students[0].id : '';
         }
@@ -60,12 +68,22 @@
     renderDetail();
   }
 
-  function buildStudents(forceSample) {
+  function renderLoadingState() {
+    const list = document.getElementById('student-list');
+    const summary = document.getElementById('student-summary');
+    const detail = document.getElementById('report-detail');
+    if (list) list.innerHTML = '<p class="empty-report">Loading reports...</p>';
+    if (summary) summary.innerHTML = '';
+    if (detail) detail.innerHTML = '';
+  }
+
+  async function buildStudents(forceSample) {
     const progress = loadProgress();
     const sessions = progress.reports && Array.isArray(progress.reports.sessions)
       ? progress.reports.sessions
       : [];
     const groups = {};
+    const cloudStudents = await loadCloudStudents();
 
     sessions.forEach(session => {
       const id = session.studentId || 'current-learner';
@@ -93,12 +111,48 @@
     groups['current-learner'].progress = progress;
 
     const students = Object.keys(groups).map(id => enrichStudent(groups[id]));
-    if (forceSample || students.length < 3 || !sessions.length) {
+    cloudStudents.forEach(student => {
+      const enriched = enrichStudent(student);
+      const existingIndex = students.findIndex(item => item.id === enriched.id);
+      if (existingIndex >= 0) students[existingIndex] = enriched;
+      else students.push(enriched);
+    });
+
+    if (forceSample || students.length < 3 || (!sessions.length && !cloudStudents.length)) {
       getSampleStudents().forEach(sample => {
         if (!students.some(student => student.id === sample.id)) students.push(enrichStudent(sample));
       });
     }
     return students.sort((a, b) => b.lastActivity.localeCompare(a.lastActivity) || a.name.localeCompare(b.name));
+  }
+
+  async function loadCloudStudents() {
+    const auth = window.GrammarQuestAuth;
+    if (!auth || typeof auth.ready !== 'function') return [];
+
+    try {
+      await auth.ready();
+      const authState = auth.getState ? auth.getState() : {};
+      if (!authState.signedIn) return [];
+      if (authState.role === 'guardian' && typeof auth.loadGuardianStudents === 'function') {
+        return await auth.loadGuardianStudents();
+      }
+      if (authState.role === 'student' && typeof auth.loadStudentProgress === 'function') {
+        const progress = await auth.loadStudentProgress(authState.user.uid);
+        return [{
+          id: authState.user.uid,
+          name: authState.profile && authState.profile.displayName || authState.user.email || 'Student',
+          avatar: getInitials(authState.profile && authState.profile.displayName || authState.user.email || 'Student'),
+          source: 'Cloud',
+          progress: progress || {},
+          sessions: progress && progress.reports && Array.isArray(progress.reports.sessions) ? progress.reports.sessions : []
+        }];
+      }
+    } catch (error) {
+      console.warn('Could not load cloud reports:', error);
+    }
+
+    return [];
   }
 
   function enrichStudent(student) {

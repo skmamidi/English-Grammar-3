@@ -25,6 +25,8 @@ window.GQ_FIREBASE_CONFIG = {
   },
   firestore: {
     userCollection: "users",
+    progressCollection: "studentProgress",
+    inviteCollection: "studentInvites",
     progressDocument: "questProgress"
   }
 };

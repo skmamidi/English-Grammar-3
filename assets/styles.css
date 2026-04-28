@@ -421,6 +421,15 @@ html[data-theme="dark"] .theme-toggle-moon {
   background: var(--primary-soft-hover);
 }
 
+.auth-role-label {
+  background: rgb(255 255 255 / 0.78);
+  border: 1px solid var(--primary-border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  padding: 2px 7px;
+}
+
 .auth-pill-muted {
   background: var(--surface-subtle);
   border-color: var(--border);
@@ -497,14 +506,16 @@ html[data-theme="dark"] .theme-toggle-moon {
 }
 
 .auth-copy,
-.auth-message {
+.auth-message,
+.auth-tools p {
   color: var(--text-muted);
   font-size: 0.95rem;
 }
 
 .auth-actions,
 .auth-form,
-.auth-form-actions {
+.auth-form-actions,
+.auth-tools {
   display: grid;
   gap: 10px;
 }
@@ -526,7 +537,9 @@ html[data-theme="dark"] .theme-toggle-moon {
   gap: 6px;
 }
 
-.auth-form input {
+.auth-form input,
+.auth-form select,
+.auth-tools input {
   border: 1px solid var(--border);
   border-radius: 10px;
   color: var(--text);
@@ -534,7 +547,9 @@ html[data-theme="dark"] .theme-toggle-moon {
   padding: 11px 12px;
 }
 
-.auth-form input:focus {
+.auth-form input:focus,
+.auth-form select:focus,
+.auth-tools input:focus {
   border-color: var(--primary);
   outline: 3px solid var(--focus-ring-color);
 }
@@ -546,6 +561,41 @@ html[data-theme="dark"] .theme-toggle-moon {
 .auth-message {
   margin-top: 14px;
   min-height: 1.4em;
+}
+
+.auth-tools {
+  border-top: 1px solid var(--border);
+  margin-top: 18px;
+  padding-top: 18px;
+}
+
+.auth-tools.hidden,
+.auth-code.hidden {
+  display: none;
+}
+
+.auth-tools h3 {
+  font-size: 1rem;
+}
+
+.auth-tools label {
+  color: var(--text);
+  display: grid;
+  font-size: 0.86rem;
+  font-weight: 800;
+  gap: 6px;
+}
+
+.auth-code {
+  background: var(--surface-subtle);
+  border: 1px dashed var(--primary);
+  border-radius: 10px;
+  color: var(--primary-dark);
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  padding: 12px;
+  text-align: center;
 }
 
 .assessment-exit-modal {
@@ -3764,6 +3814,8 @@ html[data-theme="dark"] .theme-toggle-moon {
   }
 
   .app-header .container {
+    align-items: flex-start;
+    flex-direction: column;
     gap: 12px;
   }
 
@@ -3832,6 +3884,8 @@ html[data-theme="dark"] .auth-link-button {
 }
 
 html[data-theme="dark"] .auth-form input,
+html[data-theme="dark"] .auth-form select,
+html[data-theme="dark"] .auth-tools input,
 html[data-theme="dark"] .spelling-form input,
 html[data-theme="dark"] .correction-row input,
 html[data-theme="dark"] .report-filter input,

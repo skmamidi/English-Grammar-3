@@ -117,7 +117,7 @@
       settings: ['notebook', 'library', 'lab', 'classroom'],
       board: 'Punctuation board',
       clue: 'End marks and small marks change how a sentence works.',
-      narration: 'The team checks which punctuation clue changes the sentence.'
+      narration: ''
     },
     {
       match: /capital|proper|title|holiday|place|sentence-beginning/i,
@@ -125,7 +125,7 @@
       settings: ['map', 'museum', 'notebook', 'library'],
       board: 'Capital board',
       clue: 'Names, titles, dates, and sentence starts need capitals.',
-      narration: 'The team looks for the word that needs a capital letter.'
+      narration: ''
     },
     {
       match: /vocabulary|word|synonym|antonym|homophone|meaning|spelling|syllable|prefix|suffix|root/i,
@@ -133,7 +133,7 @@
       settings: ['notebook', 'shop', 'library', 'science'],
       board: 'Word workshop',
       clue: 'Context, word parts, and sound patterns reveal the answer.',
-      narration: 'The team studies the word clue before choosing an answer.'
+      narration: ''
     },
     {
       match: /reading|inference|theme|evidence|author|main idea|story|compare|fact|opinion|genre|poetry/i,
@@ -141,7 +141,7 @@
       settings: ['library', 'notebook', 'map', 'badge'],
       board: 'Evidence wall',
       clue: 'The best answer must match the text evidence.',
-      narration: 'The team follows the evidence from the passage.'
+      narration: ''
     },
     {
       match: /reference|dictionary|research|media|alphabetical|nonfiction|subject-object|italicize/i,
@@ -149,7 +149,7 @@
       settings: ['library', 'notebook', 'science', 'map'],
       board: 'Reference desk',
       clue: 'Use the feature, source, or order clue to narrow the choices.',
-      narration: 'The team checks the reference tool that fits the task.'
+      narration: ''
     },
     {
       match: /grammar|sentence|noun|verb|adjective|adverb|pronoun|tense|subject|predicate|clause|article/i,
@@ -157,7 +157,7 @@
       settings: ['classroom', 'desk', 'notebook', 'science'],
       board: 'Grammar lab',
       clue: 'The sentence job and word role point to the answer.',
-      narration: 'The team tests the sentence to see how its words work.'
+      narration: ''
     }
   ];
 
@@ -244,15 +244,51 @@
     if (/reading|passage|story|theme|inference|evidence|main idea/.test(text)) {
       return 'I am looking for the part of the text that supports the idea.';
     }
-    return 'I am using the scene clue to understand what the question is asking.';
+    return 'I am looking for the exact words that prove the answer.';
   }
 
   function getSecondLine(profile, question) {
+    const prompt = cleanPrompt(question && question.question);
+    const contextMeaning = getContextMeaningClue(prompt);
+    if (contextMeaning) return contextMeaning;
+    const wordPart = getWordPartClue(prompt);
+    if (wordPart) return wordPart;
     const skills = question && question.metadata && Array.isArray(question.metadata.skills)
       ? question.metadata.skills.slice(0, 2).join(' and ')
       : '';
-    if (skills) return `I will use ${skills} clues and test each answer choice.`;
-    return 'I will compare each answer with the clue before choosing.';
+    if (skills) return `I will use the ${skills} clue in the question.`;
+    return 'I will use the exact clue in the question.';
+  }
+
+  function getContextMeaningClue(prompt) {
+    const quoted = String(prompt || '').match(/"([^"]+)"/);
+    const target = String(prompt || '').match(/\bwhat does\s+([A-Za-z'-]+)\s+(?:mean|most nearly mean)\b/i);
+    if (!quoted || !target) return '';
+    const clues = getSalientContextWords(quoted[1], target[1]);
+    if (!clues.length) return `Use the quoted sentence to decide which meaning of "${target[1]}" fits.`;
+    return `Use "${clues.join('" and "')}" to decide which meaning of "${target[1]}" fits.`;
+  }
+
+  function getWordPartClue(prompt) {
+    const rootMatch = String(prompt || '').match(/\broot\s+([A-Za-z'-]+)\s+means\s+([^.?!]+)[.?!]/i);
+    if (rootMatch) return `Use the root ${rootMatch[1]}, which means ${rootMatch[2].trim()}.`;
+    const partMatch = String(prompt || '').match(/\b(prefix|suffix)\s+(-?[A-Za-z]+-?)\s+(?:mean|means)\s+([^.?!]+)[.?!]/i);
+    if (partMatch) return `Use the ${partMatch[1]} ${partMatch[2]}, which means ${partMatch[3].trim()}.`;
+    const asksPart = String(prompt || '').match(/\bwhat does the\s+(prefix|suffix|root)\s+(-?[A-Za-z]+-?)\s+mean\b/i);
+    if (asksPart) return `Focus on the ${asksPart[1]} ${asksPart[2]}.`;
+    return '';
+  }
+
+  function getSalientContextWords(sentence, targetWord) {
+    const stopWords = new Set([
+      'a', 'an', 'and', 'are', 'at', 'but', 'by', 'for', 'from', 'in', 'is', 'it', 'of',
+      'on', 'or', 'the', 'to', 'was', 'were', 'with', 'this', 'that', 'these', 'those'
+    ]);
+    const target = String(targetWord || '').toLowerCase();
+    const words = String(sentence || '').toLowerCase().match(/[a-z']+/g) || [];
+    return words
+      .filter(word => word !== target && !stopWords.has(word))
+      .slice(0, 3);
   }
 
   function getSceneMoods(question, profile) {

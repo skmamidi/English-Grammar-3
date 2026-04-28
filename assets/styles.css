@@ -832,6 +832,33 @@ body.auth-locked main {
   padding: clamp(20px, 3vw, 30px);
 }
 
+.parent-mode-tabs {
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 22px;
+  padding: 4px;
+}
+
+.parent-mode-tabs a {
+  border-radius: 9px;
+  color: var(--text-muted);
+  font-weight: 850;
+  min-height: 44px;
+  padding: 10px 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.parent-mode-tabs a.active {
+  background: var(--card);
+  box-shadow: var(--control-shadow);
+  color: var(--text);
+}
+
 .parent-dashboard-header {
   align-items: start;
   display: grid;
@@ -994,6 +1021,10 @@ body.auth-locked main {
 
 body.parent-mode .home-quest,
 body.parent-mode #mastery-panel {
+  display: none;
+}
+
+body.parent-mode .header-actions a[href$="character-library.html"] {
   display: none;
 }
 

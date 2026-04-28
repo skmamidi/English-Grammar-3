@@ -329,10 +329,6 @@ async function createManagedStudent({ studentName, loginName }) {
   const studentId = `student-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
   const indexRef = firestoreModule.doc(db, loginCollection(), normalizedLogin);
   const studentRef = managedStudentRef(db, firestoreModule, studentId);
-  const existingLogin = await firestoreModule.getDoc(indexRef);
-  if (existingLogin.exists()) {
-    throw new Error("That login name is already taken. Try the suggested name button.");
-  }
   const batch = firestoreModule.writeBatch(db);
 
   batch.set(indexRef, {
@@ -772,7 +768,9 @@ function authErrorMessage(error) {
   if (code === "auth/email-already-in-use") return "That email already has an account. Try signing in instead.";
   if (code === "auth/invalid-credential" || code === "auth/wrong-password") return "Email or password was not recognized.";
   if (code === "auth/weak-password") return "Use a password with at least 6 characters.";
-  if (code === "permission-denied") return "Firebase rules blocked that action. Check FIREBASE_SETUP.md.";
+  if (code === "permission-denied" || /missing or insufficient permissions/i.test(error?.message || "")) {
+    return "Firebase rules blocked that action. Publish the latest Firestore rules, then try again.";
+  }
   return error && error.message ? error.message : "Something went wrong. Try again.";
 }
 

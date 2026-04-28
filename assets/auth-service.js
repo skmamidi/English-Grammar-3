@@ -623,6 +623,9 @@ async function handleStudentPublicLogin(loginName) {
     showMessage("Starting student practice...");
     const student = await loginStudentByName(loginName);
     showMessage(`${student.name} is ready. Progress will save to this profile.`);
+    if (isReportsPage()) {
+      window.location.href = appHomeHref();
+    }
   } catch (error) {
     showMessage(authErrorMessage(error));
   }
@@ -845,6 +848,10 @@ function isReportsPage() {
 
 function reportsHref() {
   return window.location.pathname.includes("/topics/") ? "../../reports.html" : "reports.html";
+}
+
+function appHomeHref() {
+  return window.location.pathname.includes("/topics/") ? "../../index.html" : "index.html";
 }
 
 async function renderGrownupTools() {

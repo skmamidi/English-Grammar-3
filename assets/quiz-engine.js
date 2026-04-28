@@ -536,6 +536,7 @@
     const prompt = getDisplayPromptParts(localize(scene.prompt || question.question));
     const promptText = prompt.task || prompt.fullText;
     const guidanceText = safeSceneText(scene.clue || 'Read the clue, then test each answer choice.');
+    const visualPrompt = prompt.type === 'passage' ? renderVisualPassagePrompt(prompt) : '';
     const integratedDialogue = getIntegratedSceneDialogue(dialogue, promptText, guidanceText);
     return `
       <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
@@ -543,17 +544,13 @@
           <h3>${escapeHtml(scene.title || 'Question Scene')}</h3>
           ${scene.narration ? `<p>${escapeHtml(safeSceneText(scene.narration))}</p>` : ''}
         </div>
+        ${visualPrompt}
         <div class="visual-stage">
           ${renderSceneSetPiece(scene)}
-          <div class="visual-stage-board" aria-hidden="true">
-            <span>${escapeHtml(scene.board || 'Question lab')}</span>
-            <strong>Listen to the team, then choose the best answer.</strong>
-          </div>
           <div class="visual-dialogue-strip">
             ${integratedDialogue.map((entry, index) => renderDialogueActor(entry, index, value => value, actorSlotOffset)).join('')}
           </div>
         </div>
-        ${renderDisplayPrompt(prompt, 'visual')}
       </section>
     `;
   }
@@ -608,6 +605,20 @@
     `;
   }
 
+  function renderVisualPassagePrompt(prompt) {
+    return `
+      <div class="visual-prompt-card visual-prompt-card-passage">
+        <div class="prompt-passage">
+          <span>Passage</span>
+          <p>${escapeHtml(prompt.passage)}</p>
+        </div>
+        ${prompt.annotation ? `
+          <p class="prompt-annotation">${escapeHtml(prompt.annotation)}</p>
+        ` : ''}
+      </div>
+    `;
+  }
+
   function normalizePromptText(value) {
     return String(value == null ? '' : value)
       .replace(/\r\n?/g, '\n')
@@ -646,11 +657,13 @@
     return [0, 1].map(index => {
       const source = baseDialogue[index] || {};
       const isQuestion = index === 0;
+      const strategyText = source.text ? normalizePromptText(source.text) : 'I will test each answer choice against the clue.';
+      const clueAndStrategy = `${guidanceText} ${strategyText}`;
       return Object.assign({}, source, {
         characterId: source.characterId || fallbackCharacters[index],
         emotion: source.emotion || (isQuestion ? 'curious' : 'coaching'),
         label: isQuestion ? 'asks' : 'shares a clue',
-        text: isQuestion ? promptText : guidanceText
+        text: isQuestion ? promptText : clueAndStrategy
       });
     });
   }

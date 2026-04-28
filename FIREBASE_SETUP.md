@@ -93,14 +93,8 @@ service cloud.firestore {
       return signedIn() && request.auth.uid == uid;
     }
 
-    function isGrownup() {
-      return signedIn()
-        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
-        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "guardian";
-    }
-
     function ownsStudent(studentId) {
-      return isGrownup()
+      return signedIn()
         && exists(/databases/$(database)/documents/managedStudents/$(studentId))
         && get(/databases/$(database)/documents/managedStudents/$(studentId)).data.ownerUid == request.auth.uid;
     }
@@ -114,7 +108,7 @@ service cloud.firestore {
 
     match /managedStudents/{studentId} {
       allow read: if signedIn() && resource.data.ownerUid == request.auth.uid;
-      allow create: if isGrownup()
+      allow create: if signedIn()
         && request.resource.data.ownerUid == request.auth.uid
         && request.resource.data.studentId == studentId;
       allow update: if ownsStudent(studentId)
@@ -126,7 +120,7 @@ service cloud.firestore {
     match /studentLoginNames/{loginName} {
       allow get: if signedIn();
       allow list: if false;
-      allow create: if isGrownup()
+      allow create: if signedIn()
         && request.resource.data.ownerUid == request.auth.uid
         && request.resource.data.loginName == loginName;
       allow update: if false;

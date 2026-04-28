@@ -592,7 +592,7 @@
         </div>
         ${visualPrompt}
         <div class="visual-stage">
-          ${renderSceneSetPiece(scene)}
+          ${renderSceneSetPiece(scene, question)}
           <div class="visual-dialogue-strip">
             ${integratedDialogue.map((entry, index) => renderDialogueActor(entry, index, value => value, actorSlotOffset)).join('')}
           </div>
@@ -759,13 +759,207 @@
     return text;
   }
 
-  function renderSceneSetPiece(scene) {
+  function renderSceneSetPiece(scene, question) {
     const setting = scene && scene.setting ? String(scene.setting) : 'classroom';
+    const questionSvg = getQuestionSetPieceSvg(question, scene);
     return `
       <div class="visual-set-piece visual-set-piece-${escapeHtml(setting)}" aria-hidden="true">
-        ${getSceneSetPieceSvg(setting)}
+        ${questionSvg || getSceneSetPieceSvg(setting)}
       </div>
     `;
+  }
+
+  function getQuestionSetPieceSvg(question, scene) {
+    const prompt = stripPromptLeadIns(question && question.question ? question.question : '');
+    const choices = question && Array.isArray(question.choices) ? question.choices : [];
+    const contextMeaning = getContextMeaningDetails(prompt);
+    if (contextMeaning && choices.length) {
+      return getMeaningChoiceSvg(contextMeaning, choices, question.correct);
+    }
+    const wordPart = getWordPartDetails(prompt);
+    if (wordPart) {
+      return getWordPartSvg(wordPart, choices, question && question.correct);
+    }
+    const skills = question && question.metadata && Array.isArray(question.metadata.skills)
+      ? question.metadata.skills.join(' ').toLowerCase()
+      : '';
+    if (/punctuation|comma|apostrophe|quotation|period|colon/.test(skills)) {
+      return getMechanicsSvg(prompt, 'Mark the exact punctuation clue.');
+    }
+    if (/capital|proper/.test(skills)) {
+      return getMechanicsSvg(prompt, 'Find the word that names something specific.');
+    }
+    if (/sentence|noun|verb|adjective|adverb|pronoun|tense|subject|predicate/.test(skills)) {
+      return getMechanicsSvg(prompt, 'Test the word job inside the sentence.');
+    }
+    if (/reading|inference|theme|evidence|main idea|detail/.test(skills)) {
+      return getEvidenceSvg(prompt);
+    }
+    return '';
+  }
+
+  function getContextMeaningDetails(prompt) {
+    const quoted = String(prompt || '').match(/"([^"]+)"/);
+    const target = String(prompt || '').match(/\bwhat does\s+([A-Za-z'-]+)\s+(?:mean|most nearly mean)\b/i);
+    if (!quoted || !target) return null;
+    return {
+      sentence: quoted[1].trim(),
+      word: target[1].trim(),
+      clues: getSalientContextWords(quoted[1], target[1])
+    };
+  }
+
+  function getWordPartDetails(prompt) {
+    const text = String(prompt || '');
+    const rootMatch = text.match(/\broot\s+([A-Za-z'-]+)\s+means\s+([^.?!]+)[.?!]/i);
+    if (rootMatch) {
+      return { kind: 'root', part: rootMatch[1], meaning: rootMatch[2].trim(), prompt: text };
+    }
+    const partMatch = text.match(/\b(prefix|suffix)\s+(-?[A-Za-z]+-?)\s+(?:mean|means)\s+([^.?!]+)[.?!]/i);
+    if (partMatch) {
+      return { kind: partMatch[1].toLowerCase(), part: partMatch[2], meaning: partMatch[3].trim(), prompt: text };
+    }
+    const asksPart = text.match(/\bwhat does the\s+(prefix|suffix|root)\s+(-?[A-Za-z]+-?)\s+mean\b/i);
+    if (asksPart) {
+      return { kind: asksPart[1].toLowerCase(), part: asksPart[2], meaning: 'meaning clue', prompt: text };
+    }
+    return null;
+  }
+
+  function getMeaningChoiceSvg(details, choices, correctIndex) {
+    const sentenceParts = splitSentenceAroundWord(details.sentence, details.word);
+    const clueText = details.clues.length
+      ? `Context clue: ${details.clues.join(' + ')}`
+      : 'Context clue: quoted sentence';
+    const cards = choices.slice(0, 4).map((choice, index) => {
+      const x = index % 2 === 0 ? 58 : 392;
+      const y = index < 2 ? 118 : 188;
+      const selected = index === correctIndex;
+      return `
+        <g>
+          <rect x="${x}" y="${y}" width="292" height="52" rx="14" fill="${selected ? '#dcfce7' : '#ffffff'}" stroke="${selected ? '#16a34a' : '#cbd5e1'}" stroke-width="${selected ? '5' : '3'}" />
+          ${getChoiceIconSvg(choice, x + 28, y + 26, selected)}
+          <text x="${x + 62}" y="${y + 33}" fill="#1f2937" font-size="17" font-weight="900">${escapeSvgText(shortenSvgText(choice, 25))}</text>
+        </g>
+      `;
+    }).join('');
+    return `
+      <svg viewBox="0 0 760 260" role="presentation">
+        <rect x="34" y="28" width="692" height="72" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="4" />
+        <text x="58" y="58" fill="#1e3a8a" font-size="17" font-weight="900">Use the sentence context</text>
+        <text x="58" y="84" fill="#111827" font-size="20" font-weight="900">
+          ${sentenceParts.before ? `<tspan>${escapeSvgText(shortenSvgText(sentenceParts.before, 18))} </tspan>` : ''}
+          <tspan fill="#2563eb">${escapeSvgText(details.word)}</tspan>
+          ${sentenceParts.after ? `<tspan> ${escapeSvgText(shortenSvgText(sentenceParts.after, 28))}</tspan>` : ''}
+        </text>
+        <rect x="458" y="45" width="226" height="36" rx="18" fill="#fef3c7" stroke="#f59e0b" stroke-width="3" />
+        <text x="571" y="69" text-anchor="middle" fill="#92400e" font-size="16" font-weight="900">${escapeSvgText(shortenSvgText(clueText, 28))}</text>
+        ${cards}
+      </svg>
+    `;
+  }
+
+  function getChoiceIconSvg(choice, cx, cy, selected) {
+    const text = String(choice || '').toLowerCase();
+    const stroke = selected ? '#15803d' : '#475569';
+    if (/flying mammal|animal|bat\b/.test(text) && !/baseball|stick/.test(text)) {
+      return `
+        <path d="M${cx - 24} ${cy - 2} C${cx - 15} ${cy - 24} ${cx - 5} ${cy - 8} ${cx} ${cy - 17} C${cx + 5} ${cy - 8} ${cx + 15} ${cy - 24} ${cx + 24} ${cy - 2} C${cx + 12} ${cy - 8} ${cx + 8} ${cy + 11} ${cx} ${cy + 4} C${cx - 8} ${cy + 11} ${cx - 12} ${cy - 8} ${cx - 24} ${cy - 2} Z" fill="#334155" />
+        <circle cx="${cx}" cy="${cy - 5}" r="7" fill="#111827" />
+      `;
+    }
+    if (/baseball|stick|cricket|club/.test(text)) {
+      return `
+        <path d="M${cx - 18} ${cy + 15} L${cx + 19} ${cy - 20}" stroke="${stroke}" stroke-width="10" stroke-linecap="round" />
+        <path d="M${cx + 10} ${cy - 28} L${cx + 28} ${cy - 10}" stroke="#f59e0b" stroke-width="9" stroke-linecap="round" />
+      `;
+    }
+    if (/hit|strike|swing/.test(text)) {
+      return `
+        <circle cx="${cx - 8}" cy="${cy + 6}" r="9" fill="#f8fafc" stroke="${stroke}" stroke-width="3" />
+        <path d="M${cx + 2} ${cy + 6} L${cx + 24} ${cy - 12}" stroke="${stroke}" stroke-width="8" stroke-linecap="round" />
+        <path d="M${cx - 24} ${cy - 9} H${cx - 9}" stroke="#ef4444" stroke-width="5" stroke-linecap="round" />
+      `;
+    }
+    if (/paper|fold/.test(text)) {
+      return `
+        <path d="M${cx - 19} ${cy + 18} L${cx + 20} ${cy - 18} L${cx + 13} ${cy + 17} Z" fill="#e0f2fe" stroke="${stroke}" stroke-width="3" />
+        <path d="M${cx + 20} ${cy - 18} L${cx - 2} ${cy + 3}" stroke="${stroke}" stroke-width="3" />
+      `;
+    }
+    return `
+      <circle cx="${cx}" cy="${cy}" r="20" fill="#eef2ff" stroke="${stroke}" stroke-width="3" />
+      <text x="${cx}" y="${cy + 7}" text-anchor="middle" fill="${stroke}" font-size="22" font-weight="900">?</text>
+    `;
+  }
+
+  function getWordPartSvg(details, choices, correctIndex) {
+    const correct = Array.isArray(choices) && choices[correctIndex] ? choices[correctIndex] : details.meaning;
+    return `
+      <svg viewBox="0 0 760 260" role="presentation">
+        <rect x="46" y="42" width="668" height="176" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4" />
+        <text x="80" y="78" fill="#334155" font-size="18" font-weight="900">${escapeSvgText(titleCase(details.kind))} clue</text>
+        <rect x="82" y="102" width="158" height="72" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="5" />
+        <text x="161" y="146" text-anchor="middle" fill="#1e3a8a" font-size="29" font-weight="900">${escapeSvgText(shortenSvgText(details.part, 12))}</text>
+        <text x="290" y="148" text-anchor="middle" fill="#64748b" font-size="38" font-weight="900">means</text>
+        <rect x="356" y="102" width="210" height="72" rx="16" fill="#fef3c7" stroke="#f59e0b" stroke-width="5" />
+        <text x="461" y="146" text-anchor="middle" fill="#92400e" font-size="24" font-weight="900">${escapeSvgText(shortenSvgText(details.meaning, 18))}</text>
+        <path d="M583 138 H640" stroke="#16a34a" stroke-width="8" stroke-linecap="round" />
+        <path d="M620 116 L644 138 L620 160" fill="none" stroke="#16a34a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+        <text x="644" y="204" text-anchor="end" fill="#166534" font-size="19" font-weight="900">Answer must match: ${escapeSvgText(shortenSvgText(correct, 24))}</text>
+      </svg>
+    `;
+  }
+
+  function getMechanicsSvg(prompt, clue) {
+    const display = stripPromptLeadIns(prompt).replace(/\s+/g, ' ');
+    return `
+      <svg viewBox="0 0 760 260" role="presentation">
+        <rect x="58" y="46" width="644" height="154" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="4" />
+        <path d="M96 92 H664 M96 132 H664 M96 172 H520" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round" />
+        <rect x="86" y="64" width="236" height="36" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3" />
+        <text x="204" y="88" text-anchor="middle" fill="#166534" font-size="16" font-weight="900">${escapeSvgText(shortenSvgText(clue, 29))}</text>
+        <text x="96" y="130" fill="#111827" font-size="20" font-weight="900">${escapeSvgText(shortenSvgText(display, 56))}</text>
+        <circle cx="628" cy="166" r="28" fill="#fef3c7" stroke="#f59e0b" stroke-width="4" />
+        <text x="628" y="176" text-anchor="middle" fill="#92400e" font-size="34" font-weight="900">?</text>
+      </svg>
+    `;
+  }
+
+  function getEvidenceSvg(prompt) {
+    const display = stripPromptLeadIns(prompt).replace(/\s+/g, ' ');
+    return `
+      <svg viewBox="0 0 760 260" role="presentation">
+        <rect x="70" y="38" width="394" height="182" rx="16" fill="#fffbeb" stroke="#ca8a04" stroke-width="4" />
+        <path d="M108 82 H425 M108 118 H402 M108 154 H430" stroke="#f59e0b" stroke-width="7" stroke-linecap="round" opacity="0.45" />
+        <rect x="116" y="102" width="248" height="31" rx="15" fill="#bfdbfe" opacity="0.9" />
+        <text x="108" y="191" fill="#111827" font-size="17" font-weight="900">${escapeSvgText(shortenSvgText(display, 42))}</text>
+        <circle cx="594" cy="126" r="56" fill="none" stroke="#2563eb" stroke-width="12" />
+        <path d="M633 165 L676 208" stroke="#2563eb" stroke-width="14" stroke-linecap="round" />
+      </svg>
+    `;
+  }
+
+  function splitSentenceAroundWord(sentence, word) {
+    const pattern = new RegExp(`\\b${escapeRegExp(word)}\\b`, 'i');
+    const match = String(sentence || '').match(pattern);
+    if (!match) return { before: '', after: String(sentence || '') };
+    const start = match.index;
+    const end = start + match[0].length;
+    return {
+      before: sentence.slice(0, start).trim(),
+      after: sentence.slice(end).trim()
+    };
+  }
+
+  function shortenSvgText(value, maxLength) {
+    const text = String(value || '').replace(/\s+/g, ' ').trim();
+    if (text.length <= maxLength) return text;
+    return text.slice(0, Math.max(0, maxLength - 3)).replace(/\s+\S*$/, '') + '...';
+  }
+
+  function escapeSvgText(value) {
+    return escapeHtml(value).replace(/"/g, '&quot;');
   }
 
   function getSceneSetPieceSvg(setting) {

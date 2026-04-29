@@ -1,0 +1,3039 @@
+/**
+ * English Language Quiz App - vocabulary subchunk: vocabulary-figurative-language 3
+ * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:041e92e61c710171efb551fb136d83a18d6219365195cdcfd882655e3c0e721f.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Figurative Language",
+  "topic": "Vocabulary / Word Study",
+  "questions": [
+    {
+      "id": "vocabulary-figurative-language-q0101",
+      "version": 1,
+      "contentHash": "sha256:acf5bf75a87e3066ac34c6c4f0ec826a34d477bf16fa0363d536e9442bbbda4f",
+      "question": "Grade 4 Easy: Choose the best answer. Which line includes imagery?",
+      "choices": [
+        "The recipe has steps.",
+        "The kitchen is a room.",
+        "Warm cinnamon filled the kitchen air.",
+        "The plate was round."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Imagery uses sensory details.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Warm cinnamon filled the kitchen air.. Imagery uses sensory details.",
+        "incorrect": [
+          "Not: The recipe has steps.. Imagery uses sensory details.",
+          "Not: The kitchen is a room.. Imagery uses sensory details.",
+          "",
+          "Not: The plate was round.. Imagery uses sensory details."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 101,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0102",
+      "version": 1,
+      "contentHash": "sha256:23bf61156525b37a1f650ca65e4fcff122d446a7cc26832955a58fc059a7d59d",
+      "question": "Grade 4 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
+      "choices": [
+        "His backpack was missing.",
+        "His backpack truly weighed 2,000 pounds.",
+        "His backpack was empty.",
+        "His backpack felt very heavy."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Hyperbole exaggerates to make a point.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: His backpack felt very heavy.. Hyperbole exaggerates to make a point.",
+        "incorrect": [
+          "Not: His backpack was missing.. Hyperbole exaggerates to make a point.",
+          "Not: His backpack truly weighed 2,000 pounds.. Hyperbole exaggerates to make a point.",
+          "Not: His backpack was empty.. Hyperbole exaggerates to make a point.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 102,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0103",
+      "version": 1,
+      "contentHash": "sha256:ad9334ce39b23ab5e838e9ac385caf09a34b665d8ea720fae403b616c7bdc0ae",
+      "question": "Grade 4 Easy: Choose the best answer. Which sentence uses a metaphor?",
+      "choices": [
+        "The library was a treasure chest of stories.",
+        "The library opened at nine.",
+        "The books stood on shelves.",
+        "The librarian smiled."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor says one thing is another to show a likeness.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The library was a treasure chest of stories.. A metaphor says one thing is another to show a likeness.",
+        "incorrect": [
+          "",
+          "Not: The library opened at nine.. A metaphor says one thing is another to show a likeness.",
+          "Not: The books stood on shelves.. A metaphor says one thing is another to show a likeness.",
+          "Not: The librarian smiled.. A metaphor says one thing is another to show a likeness."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 103,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0104",
+      "version": 1,
+      "contentHash": "sha256:d933992c89e1886d1da972a981ef2476e96788654da94d095c060c392517e925",
+      "question": "Grade 4 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
+      "choices": [
+        "silly",
+        "mysterious",
+        "cheerful",
+        "ordinary"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Word choice can create mood.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: mysterious. Word choice can create mood.",
+        "incorrect": [
+          "Not: silly. Word choice can create mood.",
+          "",
+          "Not: cheerful. Word choice can create mood.",
+          "Not: ordinary. Word choice can create mood."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 104,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0105",
+      "version": 1,
+      "contentHash": "sha256:fd354bd957bea4e07d9abc7d153ce2ed93a2b770ee4bf0e8c18de594f1c3db1a",
+      "question": "Grade 4 Easy: Choose the best answer. Which sentence uses a simile?",
+      "choices": [
+        "The kite had a string.",
+        "The kite was red.",
+        "The kite dipped like a bird in the wind.",
+        "The kite flew on Saturday."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A simile uses like or as to compare.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The kite dipped like a bird in the wind.. A simile uses like or as to compare.",
+        "incorrect": [
+          "Not: The kite had a string.. A simile uses like or as to compare.",
+          "Not: The kite was red.. A simile uses like or as to compare.",
+          "",
+          "Not: The kite flew on Saturday.. A simile uses like or as to compare."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 105,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0106",
+      "version": 1,
+      "contentHash": "sha256:08d36c310fc7f52ef23fe3fa93b03d495d5ed354e4bb44ecc26e5b14ce7c0efc",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
+      "choices": [
+        "The puppy was bright yellow.",
+        "The puppy made thunder.",
+        "The puppy was afraid of storms.",
+        "The puppy moved very fast."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A simile compares two unlike things using like or as.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The puppy moved very fast.. A simile compares two unlike things using like or as.",
+        "incorrect": [
+          "Not: The puppy was bright yellow.. A simile compares two unlike things using like or as.",
+          "Not: The puppy made thunder.. A simile compares two unlike things using like or as.",
+          "Not: The puppy was afraid of storms.. A simile compares two unlike things using like or as.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 106,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0107",
+      "version": 1,
+      "contentHash": "sha256:189f5ffabff2372b21eedc55c8403e2fc2894fde011a969fea1a9ccf36743ab1",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
+      "choices": [
+        "The idea slowly developed into something bigger.",
+        "The idea was planted outside.",
+        "The plan was about gardening.",
+        "The seed disappeared."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor compares without using like or as.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The idea slowly developed into something bigger.. A metaphor compares without using like or as.",
+        "incorrect": [
+          "",
+          "Not: The idea was planted outside.. A metaphor compares without using like or as.",
+          "Not: The plan was about gardening.. A metaphor compares without using like or as.",
+          "Not: The seed disappeared.. A metaphor compares without using like or as."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 107,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0108",
+      "version": 1,
+      "contentHash": "sha256:b8dc3d40916dde3b779b7003abbcf3e25a56ef64fc642e0b558fc434286cded6",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses personification?",
+      "choices": [
+        "The gate was made of wood.",
+        "The old gate groaned in the wind.",
+        "The gate stood near the fence.",
+        "The gate had a latch."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Personification gives human actions or qualities to nonhuman things.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The old gate groaned in the wind.. Personification gives human actions or qualities to nonhuman things.",
+        "incorrect": [
+          "Not: The gate was made of wood.. Personification gives human actions or qualities to nonhuman things.",
+          "",
+          "Not: The gate stood near the fence.. Personification gives human actions or qualities to nonhuman things.",
+          "Not: The gate had a latch.. Personification gives human actions or qualities to nonhuman things."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 108,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0109",
+      "version": 1,
+      "contentHash": "sha256:3090f520a3aa12e70fe1cb55a60ad2f282c7d4d0ca2fbac85a7bf889d5a30722",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
+      "choices": [
+        "Jamal saw insects.",
+        "Jamal ate too quickly.",
+        "Jamal felt nervous.",
+        "Jamal wanted to leave school."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "An idiom means something different from its literal words.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Jamal felt nervous.. An idiom means something different from its literal words.",
+        "incorrect": [
+          "Not: Jamal saw insects.. An idiom means something different from its literal words.",
+          "Not: Jamal ate too quickly.. An idiom means something different from its literal words.",
+          "",
+          "Not: Jamal wanted to leave school.. An idiom means something different from its literal words."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 109,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0110",
+      "version": 1,
+      "contentHash": "sha256:3fd5c3c2f6b2f678383750953bfca944b4447d0503136a48fbfc5969ed1c29ec",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses hyperbole?",
+      "choices": [
+        "The zipper is metal.",
+        "I told you once yesterday.",
+        "The backpack is blue.",
+        "I have told you a million times to zip your backpack."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Hyperbole is an exaggeration for effect.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: I have told you a million times to zip your backpack.. Hyperbole is an exaggeration for effect.",
+        "incorrect": [
+          "Not: The zipper is metal.. Hyperbole is an exaggeration for effect.",
+          "Not: I told you once yesterday.. Hyperbole is an exaggeration for effect.",
+          "Not: The backpack is blue.. Hyperbole is an exaggeration for effect.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 110,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0111",
+      "version": 1,
+      "contentHash": "sha256:d8ce249d2623ee74a680075a15b61c46d2eda11a9af978b7a07023b2f9e3eb4f",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. Which phrase is alliteration?",
+      "choices": [
+        "silver stars shone softly",
+        "bright red wagon",
+        "jump over the log",
+        "rain fell today"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Alliteration repeats beginning sounds.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: silver stars shone softly. Alliteration repeats beginning sounds.",
+        "incorrect": [
+          "",
+          "Not: bright red wagon. Alliteration repeats beginning sounds.",
+          "Not: jump over the log. Alliteration repeats beginning sounds.",
+          "Not: rain fell today. Alliteration repeats beginning sounds."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 111,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0112",
+      "version": 1,
+      "contentHash": "sha256:028b7a7842105768770eb12a3088a14bee8440710fc8cd73ab5eed282657e187",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is onomatopoeia?",
+      "choices": [
+        "bright",
+        "buzz",
+        "careful",
+        "silent"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Onomatopoeia is a word that imitates a sound.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: buzz. Onomatopoeia is a word that imitates a sound.",
+        "incorrect": [
+          "Not: bright. Onomatopoeia is a word that imitates a sound.",
+          "",
+          "Not: careful. Onomatopoeia is a word that imitates a sound.",
+          "Not: silent. Onomatopoeia is a word that imitates a sound."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 112,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0113",
+      "version": 1,
+      "contentHash": "sha256:0549c345eb85a9edb0abd8b03661c1abce5efec60159fdd650266a5a946f4aa6",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
+      "choices": [
+        "The classroom was outside.",
+        "The classroom had bees.",
+        "The classroom was busy.",
+        "The classroom was empty."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor compares the busy classroom to a beehive.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The classroom was busy.. A metaphor compares the busy classroom to a beehive.",
+        "incorrect": [
+          "Not: The classroom was outside.. A metaphor compares the busy classroom to a beehive.",
+          "Not: The classroom had bees.. A metaphor compares the busy classroom to a beehive.",
+          "",
+          "Not: The classroom was empty.. A metaphor compares the busy classroom to a beehive."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 113,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0114",
+      "version": 1,
+      "contentHash": "sha256:cdf8c955bc3ab296f46cfc034d545313c5ec22b609bf909766426a914476cb5a",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"The moon peeked through the clouds\" show?",
+      "choices": [
+        "rhyme",
+        "literal fact only",
+        "alliteration",
+        "personification"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "The moon is described as if it can peek like a person.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: personification. The moon is described as if it can peek like a person.",
+        "incorrect": [
+          "Not: rhyme. The moon is described as if it can peek like a person.",
+          "Not: literal fact only. The moon is described as if it can peek like a person.",
+          "Not: alliteration. The moon is described as if it can peek like a person.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 114,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0115",
+      "version": 1,
+      "contentHash": "sha256:f3729fc5f3ec7b1908f348d8b2880b9f0555e7b1e722e0418a16ded9354b00e3",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"hold your horses\" mean?",
+      "choices": [
+        "wait or slow down",
+        "ride horses",
+        "run faster",
+        "feed animals"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Idioms must be understood by meaning, not word by word.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: wait or slow down. Idioms must be understood by meaning, not word by word.",
+        "incorrect": [
+          "",
+          "Not: ride horses. Idioms must be understood by meaning, not word by word.",
+          "Not: run faster. Idioms must be understood by meaning, not word by word.",
+          "Not: feed animals. Idioms must be understood by meaning, not word by word."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 115,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0116",
+      "version": 1,
+      "contentHash": "sha256:820aecf3cd94fbe1202e0057fda4ae6cbe6869d2c34360a6331cadf58e552079",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. Which line includes imagery?",
+      "choices": [
+        "The kitchen is a room.",
+        "Warm cinnamon filled the kitchen air.",
+        "The recipe has steps.",
+        "The plate was round."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Imagery uses sensory details.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Warm cinnamon filled the kitchen air.. Imagery uses sensory details.",
+        "incorrect": [
+          "Not: The kitchen is a room.. Imagery uses sensory details.",
+          "",
+          "Not: The recipe has steps.. Imagery uses sensory details.",
+          "Not: The plate was round.. Imagery uses sensory details."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 116,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0117",
+      "version": 1,
+      "contentHash": "sha256:aa2b3968595bedfea700e1221a3fe1eca923ca0633d111c78d27d146f5d606f9",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
+      "choices": [
+        "His backpack was empty.",
+        "His backpack truly weighed 2,000 pounds.",
+        "His backpack felt very heavy.",
+        "His backpack was missing."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Hyperbole exaggerates to make a point.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: His backpack felt very heavy.. Hyperbole exaggerates to make a point.",
+        "incorrect": [
+          "Not: His backpack was empty.. Hyperbole exaggerates to make a point.",
+          "Not: His backpack truly weighed 2,000 pounds.. Hyperbole exaggerates to make a point.",
+          "",
+          "Not: His backpack was missing.. Hyperbole exaggerates to make a point."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 117,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0118",
+      "version": 1,
+      "contentHash": "sha256:11017e9d492aedc3a335c10a613739f92f05590b7477eb4ec0e1c1c2f9ac8c13",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
+      "choices": [
+        "The librarian smiled.",
+        "The library opened at nine.",
+        "The books stood on shelves.",
+        "The library was a treasure chest of stories."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor says one thing is another to show a likeness.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The library was a treasure chest of stories.. A metaphor says one thing is another to show a likeness.",
+        "incorrect": [
+          "Not: The librarian smiled.. A metaphor says one thing is another to show a likeness.",
+          "Not: The library opened at nine.. A metaphor says one thing is another to show a likeness.",
+          "Not: The books stood on shelves.. A metaphor says one thing is another to show a likeness.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 118,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0119",
+      "version": 1,
+      "contentHash": "sha256:e9e58893efecd088ee691f881dc0c1fd4d5d8714cb27faa13c7d901454ce729d",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
+      "choices": [
+        "mysterious",
+        "silly",
+        "cheerful",
+        "ordinary"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Word choice can create mood.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: mysterious. Word choice can create mood.",
+        "incorrect": [
+          "",
+          "Not: silly. Word choice can create mood.",
+          "Not: cheerful. Word choice can create mood.",
+          "Not: ordinary. Word choice can create mood."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 119,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0120",
+      "version": 1,
+      "contentHash": "sha256:611bb492f3e15ff29f7cb6bfc9ae2e3355c9bbf087a5cd2cd4931ce7c5ae7970",
+      "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
+      "choices": [
+        "The kite was red.",
+        "The kite dipped like a bird in the wind.",
+        "The kite had a string.",
+        "The kite flew on Saturday."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A simile uses like or as to compare.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The kite dipped like a bird in the wind.. A simile uses like or as to compare.",
+        "incorrect": [
+          "Not: The kite was red.. A simile uses like or as to compare.",
+          "",
+          "Not: The kite had a string.. A simile uses like or as to compare.",
+          "Not: The kite flew on Saturday.. A simile uses like or as to compare."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 120,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0121",
+      "version": 1,
+      "contentHash": "sha256:270a150901f6c5a68e0751d902d5b58397da7c5c132dabaafd0d1fb60ad3f2eb",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
+      "choices": [
+        "The puppy was afraid of storms.",
+        "The puppy made thunder.",
+        "The puppy moved very fast.",
+        "The puppy was bright yellow."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A simile compares two unlike things using like or as.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The puppy moved very fast.. A simile compares two unlike things using like or as.",
+        "incorrect": [
+          "Not: The puppy was afraid of storms.. A simile compares two unlike things using like or as.",
+          "Not: The puppy made thunder.. A simile compares two unlike things using like or as.",
+          "",
+          "Not: The puppy was bright yellow.. A simile compares two unlike things using like or as."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 121,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0122",
+      "version": 1,
+      "contentHash": "sha256:28d04433715a80f9e424d5a425f7233777c1c8a0538a9d70603e80172beff6fb",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
+      "choices": [
+        "The seed disappeared.",
+        "The idea was planted outside.",
+        "The plan was about gardening.",
+        "The idea slowly developed into something bigger."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor compares without using like or as.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The idea slowly developed into something bigger.. A metaphor compares without using like or as.",
+        "incorrect": [
+          "Not: The seed disappeared.. A metaphor compares without using like or as.",
+          "Not: The idea was planted outside.. A metaphor compares without using like or as.",
+          "Not: The plan was about gardening.. A metaphor compares without using like or as.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 122,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0123",
+      "version": 1,
+      "contentHash": "sha256:9482f88647f29a643cb9262587438088ec1e95b5793a6e37d81df39cd84e6795",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses personification?",
+      "choices": [
+        "The old gate groaned in the wind.",
+        "The gate was made of wood.",
+        "The gate stood near the fence.",
+        "The gate had a latch."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Personification gives human actions or qualities to nonhuman things.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The old gate groaned in the wind.. Personification gives human actions or qualities to nonhuman things.",
+        "incorrect": [
+          "",
+          "Not: The gate was made of wood.. Personification gives human actions or qualities to nonhuman things.",
+          "Not: The gate stood near the fence.. Personification gives human actions or qualities to nonhuman things.",
+          "Not: The gate had a latch.. Personification gives human actions or qualities to nonhuman things."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 123,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0124",
+      "version": 1,
+      "contentHash": "sha256:f275abcf57b340de0763b43a05859d5c119e8b49c98498fde8177ceb23ad84b7",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
+      "choices": [
+        "Jamal ate too quickly.",
+        "Jamal felt nervous.",
+        "Jamal saw insects.",
+        "Jamal wanted to leave school."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "An idiom means something different from its literal words.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Jamal felt nervous.. An idiom means something different from its literal words.",
+        "incorrect": [
+          "Not: Jamal ate too quickly.. An idiom means something different from its literal words.",
+          "",
+          "Not: Jamal saw insects.. An idiom means something different from its literal words.",
+          "Not: Jamal wanted to leave school.. An idiom means something different from its literal words."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 124,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0125",
+      "version": 1,
+      "contentHash": "sha256:9f06217cd754c00cd9ed580a81b6cf865d8828dc4438dd128721a5782c2200dd",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses hyperbole?",
+      "choices": [
+        "The backpack is blue.",
+        "I told you once yesterday.",
+        "I have told you a million times to zip your backpack.",
+        "The zipper is metal."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Hyperbole is an exaggeration for effect.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: I have told you a million times to zip your backpack.. Hyperbole is an exaggeration for effect.",
+        "incorrect": [
+          "Not: The backpack is blue.. Hyperbole is an exaggeration for effect.",
+          "Not: I told you once yesterday.. Hyperbole is an exaggeration for effect.",
+          "",
+          "Not: The zipper is metal.. Hyperbole is an exaggeration for effect."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 125,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0126",
+      "version": 1,
+      "contentHash": "sha256:9da718f12edf5c30c318beb74515c777cf99664eb3dfc0abee3b7b1718dd83c0",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which phrase is alliteration?",
+      "choices": [
+        "rain fell today",
+        "bright red wagon",
+        "jump over the log",
+        "silver stars shone softly"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Alliteration repeats beginning sounds.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: silver stars shone softly. Alliteration repeats beginning sounds.",
+        "incorrect": [
+          "Not: rain fell today. Alliteration repeats beginning sounds.",
+          "Not: bright red wagon. Alliteration repeats beginning sounds.",
+          "Not: jump over the log. Alliteration repeats beginning sounds.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 126,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0127",
+      "version": 1,
+      "contentHash": "sha256:54b952a87877770408ed9c303deeccb506133f0d1e4fdfc7c7ae846319056898",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is onomatopoeia?",
+      "choices": [
+        "buzz",
+        "bright",
+        "careful",
+        "silent"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Onomatopoeia is a word that imitates a sound.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: buzz. Onomatopoeia is a word that imitates a sound.",
+        "incorrect": [
+          "",
+          "Not: bright. Onomatopoeia is a word that imitates a sound.",
+          "Not: careful. Onomatopoeia is a word that imitates a sound.",
+          "Not: silent. Onomatopoeia is a word that imitates a sound."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 127,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0128",
+      "version": 1,
+      "contentHash": "sha256:88fd06a0c4baab60a5c62b7c8ccff9b6a4640e8963445a3d788ebdaf3b7bb131",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"The classroom was a beehive of activity\" mean?",
+      "choices": [
+        "The classroom had bees.",
+        "The classroom was busy.",
+        "The classroom was outside.",
+        "The classroom was empty."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor compares the busy classroom to a beehive.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The classroom was busy.. A metaphor compares the busy classroom to a beehive.",
+        "incorrect": [
+          "Not: The classroom had bees.. A metaphor compares the busy classroom to a beehive.",
+          "",
+          "Not: The classroom was outside.. A metaphor compares the busy classroom to a beehive.",
+          "Not: The classroom was empty.. A metaphor compares the busy classroom to a beehive."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 128,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0129",
+      "version": 1,
+      "contentHash": "sha256:d482af68f30522035c2114a0890e54d915a3797851cf0bf53805f422ff7ad067",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"The moon peeked through the clouds\" show?",
+      "choices": [
+        "alliteration",
+        "literal fact only",
+        "personification",
+        "rhyme"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "The moon is described as if it can peek like a person.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: personification. The moon is described as if it can peek like a person.",
+        "incorrect": [
+          "Not: alliteration. The moon is described as if it can peek like a person.",
+          "Not: literal fact only. The moon is described as if it can peek like a person.",
+          "",
+          "Not: rhyme. The moon is described as if it can peek like a person."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 129,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0130",
+      "version": 1,
+      "contentHash": "sha256:35ad98ca16ba0e094e4f28d09a0fc17adcf08341ce8819ba79014630ca0bcbfb",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"hold your horses\" mean?",
+      "choices": [
+        "feed animals",
+        "ride horses",
+        "run faster",
+        "wait or slow down"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Idioms must be understood by meaning, not word by word.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: wait or slow down. Idioms must be understood by meaning, not word by word.",
+        "incorrect": [
+          "Not: feed animals. Idioms must be understood by meaning, not word by word.",
+          "Not: ride horses. Idioms must be understood by meaning, not word by word.",
+          "Not: run faster. Idioms must be understood by meaning, not word by word.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 130,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0131",
+      "version": 1,
+      "contentHash": "sha256:2ab0f2f5bdf199fc07a5a08ae8dcd3d38b71c002ca4b5df0f7c8a259477e9f88",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
+      "choices": [
+        "Warm cinnamon filled the kitchen air.",
+        "The kitchen is a room.",
+        "The recipe has steps.",
+        "The plate was round."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Imagery uses sensory details.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Warm cinnamon filled the kitchen air.. Imagery uses sensory details.",
+        "incorrect": [
+          "",
+          "Not: The kitchen is a room.. Imagery uses sensory details.",
+          "Not: The recipe has steps.. Imagery uses sensory details.",
+          "Not: The plate was round.. Imagery uses sensory details."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 131,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0132",
+      "version": 1,
+      "contentHash": "sha256:ba4e8c0d2bb09b9019e925f4ce7efebc7ca2a5f5df30e886241ceba5ba9b24be",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
+      "choices": [
+        "His backpack truly weighed 2,000 pounds.",
+        "His backpack felt very heavy.",
+        "His backpack was empty.",
+        "His backpack was missing."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Hyperbole exaggerates to make a point.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: His backpack felt very heavy.. Hyperbole exaggerates to make a point.",
+        "incorrect": [
+          "Not: His backpack truly weighed 2,000 pounds.. Hyperbole exaggerates to make a point.",
+          "",
+          "Not: His backpack was empty.. Hyperbole exaggerates to make a point.",
+          "Not: His backpack was missing.. Hyperbole exaggerates to make a point."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 132,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0133",
+      "version": 1,
+      "contentHash": "sha256:72f33532c5ad98992b038a3e570eff9f2ceb63d83a25d3c03fb35f65c83ddc58",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
+      "choices": [
+        "The books stood on shelves.",
+        "The library opened at nine.",
+        "The library was a treasure chest of stories.",
+        "The librarian smiled."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor says one thing is another to show a likeness.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The library was a treasure chest of stories.. A metaphor says one thing is another to show a likeness.",
+        "incorrect": [
+          "Not: The books stood on shelves.. A metaphor says one thing is another to show a likeness.",
+          "Not: The library opened at nine.. A metaphor says one thing is another to show a likeness.",
+          "",
+          "Not: The librarian smiled.. A metaphor says one thing is another to show a likeness."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 133,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0134",
+      "version": 1,
+      "contentHash": "sha256:4abd22e59faacfb548f8f194cbecdc7e6560b26aebe510028359b0725c068a37",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
+      "choices": [
+        "ordinary",
+        "silly",
+        "cheerful",
+        "mysterious"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Word choice can create mood.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: mysterious. Word choice can create mood.",
+        "incorrect": [
+          "Not: ordinary. Word choice can create mood.",
+          "Not: silly. Word choice can create mood.",
+          "Not: cheerful. Word choice can create mood.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 134,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0135",
+      "version": 1,
+      "contentHash": "sha256:6019dbaa93c8e2fa67f6fe4ca21240b4ec3a3a65dca26320818a8f0b444b92df",
+      "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
+      "choices": [
+        "The kite dipped like a bird in the wind.",
+        "The kite was red.",
+        "The kite had a string.",
+        "The kite flew on Saturday."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A simile uses like or as to compare.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The kite dipped like a bird in the wind.. A simile uses like or as to compare.",
+        "incorrect": [
+          "",
+          "Not: The kite was red.. A simile uses like or as to compare.",
+          "Not: The kite had a string.. A simile uses like or as to compare.",
+          "Not: The kite flew on Saturday.. A simile uses like or as to compare."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 135,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0136",
+      "version": 1,
+      "contentHash": "sha256:d35278502aa54dc9de00f61e32f7fd973c7fb0ef888cc1655d48130e7dca71a0",
+      "question": "Grade 5 Easy: Choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
+      "choices": [
+        "The puppy was afraid of storms.",
+        "The puppy made thunder.",
+        "The puppy moved very fast.",
+        "The puppy was bright yellow."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A simile compares two unlike things using like or as.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The puppy moved very fast.. A simile compares two unlike things using like or as.",
+        "incorrect": [
+          "Not: The puppy was afraid of storms.. A simile compares two unlike things using like or as.",
+          "Not: The puppy made thunder.. A simile compares two unlike things using like or as.",
+          "",
+          "Not: The puppy was bright yellow.. A simile compares two unlike things using like or as."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 136,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0137",
+      "version": 1,
+      "contentHash": "sha256:a80c307a2559440be1c64f5ea25a71eee58863e51c98d33e4f79737b5bf375a8",
+      "question": "Grade 5 Easy: Choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
+      "choices": [
+        "The seed disappeared.",
+        "The idea was planted outside.",
+        "The plan was about gardening.",
+        "The idea slowly developed into something bigger."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor compares without using like or as.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The idea slowly developed into something bigger.. A metaphor compares without using like or as.",
+        "incorrect": [
+          "Not: The seed disappeared.. A metaphor compares without using like or as.",
+          "Not: The idea was planted outside.. A metaphor compares without using like or as.",
+          "Not: The plan was about gardening.. A metaphor compares without using like or as.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 137,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0138",
+      "version": 1,
+      "contentHash": "sha256:a095d413fe040a4fab55fa48bbb42ca0689463f565d51ecc992cd5881b28a463",
+      "question": "Grade 5 Easy: Choose the best answer. Which sentence uses personification?",
+      "choices": [
+        "The old gate groaned in the wind.",
+        "The gate was made of wood.",
+        "The gate stood near the fence.",
+        "The gate had a latch."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Personification gives human actions or qualities to nonhuman things.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The old gate groaned in the wind.. Personification gives human actions or qualities to nonhuman things.",
+        "incorrect": [
+          "",
+          "Not: The gate was made of wood.. Personification gives human actions or qualities to nonhuman things.",
+          "Not: The gate stood near the fence.. Personification gives human actions or qualities to nonhuman things.",
+          "Not: The gate had a latch.. Personification gives human actions or qualities to nonhuman things."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 138,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0139",
+      "version": 1,
+      "contentHash": "sha256:92b20c38db8c32cc4d2143b4f312e81e64a8011bf77dd8041b055f6656184ac1",
+      "question": "Grade 5 Easy: Choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
+      "choices": [
+        "Jamal ate too quickly.",
+        "Jamal felt nervous.",
+        "Jamal saw insects.",
+        "Jamal wanted to leave school."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "An idiom means something different from its literal words.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Jamal felt nervous.. An idiom means something different from its literal words.",
+        "incorrect": [
+          "Not: Jamal ate too quickly.. An idiom means something different from its literal words.",
+          "",
+          "Not: Jamal saw insects.. An idiom means something different from its literal words.",
+          "Not: Jamal wanted to leave school.. An idiom means something different from its literal words."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 139,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0140",
+      "version": 1,
+      "contentHash": "sha256:b1ae7999533b6d868d51a19494cf537e39c074e422451b2b0ccd0f454747faa2",
+      "question": "Grade 5 Easy: Choose the best answer. Which sentence uses hyperbole?",
+      "choices": [
+        "The backpack is blue.",
+        "I told you once yesterday.",
+        "I have told you a million times to zip your backpack.",
+        "The zipper is metal."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Hyperbole is an exaggeration for effect.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: I have told you a million times to zip your backpack.. Hyperbole is an exaggeration for effect.",
+        "incorrect": [
+          "Not: The backpack is blue.. Hyperbole is an exaggeration for effect.",
+          "Not: I told you once yesterday.. Hyperbole is an exaggeration for effect.",
+          "",
+          "Not: The zipper is metal.. Hyperbole is an exaggeration for effect."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 140,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0141",
+      "version": 1,
+      "contentHash": "sha256:352aa1acc508f9af88b4fafd31ea161faaa500f3da9515a69b625cd3924bf9b3",
+      "question": "Grade 5 Easy: Choose the best answer. Which phrase is alliteration?",
+      "choices": [
+        "rain fell today",
+        "bright red wagon",
+        "jump over the log",
+        "silver stars shone softly"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Alliteration repeats beginning sounds.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: silver stars shone softly. Alliteration repeats beginning sounds.",
+        "incorrect": [
+          "Not: rain fell today. Alliteration repeats beginning sounds.",
+          "Not: bright red wagon. Alliteration repeats beginning sounds.",
+          "Not: jump over the log. Alliteration repeats beginning sounds.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 141,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0142",
+      "version": 1,
+      "contentHash": "sha256:4478f2547de33a050a41d317abd921e29be3f91e04e5b702a815102575d49c0f",
+      "question": "Grade 5 Easy: Choose the best answer. Which word is onomatopoeia?",
+      "choices": [
+        "buzz",
+        "bright",
+        "careful",
+        "silent"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Onomatopoeia is a word that imitates a sound.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: buzz. Onomatopoeia is a word that imitates a sound.",
+        "incorrect": [
+          "",
+          "Not: bright. Onomatopoeia is a word that imitates a sound.",
+          "Not: careful. Onomatopoeia is a word that imitates a sound.",
+          "Not: silent. Onomatopoeia is a word that imitates a sound."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 142,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0143",
+      "version": 1,
+      "contentHash": "sha256:1956b2b1e476dd41a78b817014273ccac5b52888c118d45bdf1f15e51afbfbbc",
+      "question": "Grade 5 Easy: Choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
+      "choices": [
+        "The classroom had bees.",
+        "The classroom was busy.",
+        "The classroom was outside.",
+        "The classroom was empty."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor compares the busy classroom to a beehive.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The classroom was busy.. A metaphor compares the busy classroom to a beehive.",
+        "incorrect": [
+          "Not: The classroom had bees.. A metaphor compares the busy classroom to a beehive.",
+          "",
+          "Not: The classroom was outside.. A metaphor compares the busy classroom to a beehive.",
+          "Not: The classroom was empty.. A metaphor compares the busy classroom to a beehive."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 143,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0144",
+      "version": 1,
+      "contentHash": "sha256:9cd849bf0eee71d838abfb1e8ba4f53bfe4b9a106e5de03144692cb72e903ba1",
+      "question": "Grade 5 Easy: Choose the best answer. What does \"The moon peeked through the clouds\" show?",
+      "choices": [
+        "alliteration",
+        "literal fact only",
+        "personification",
+        "rhyme"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "The moon is described as if it can peek like a person.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: personification. The moon is described as if it can peek like a person.",
+        "incorrect": [
+          "Not: alliteration. The moon is described as if it can peek like a person.",
+          "Not: literal fact only. The moon is described as if it can peek like a person.",
+          "",
+          "Not: rhyme. The moon is described as if it can peek like a person."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 144,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0145",
+      "version": 1,
+      "contentHash": "sha256:84976c354987df6f43f3e3c76438306df025a725aba56fdf8d7a5cb398ac6d84",
+      "question": "Grade 5 Easy: Choose the best answer. What does \"hold your horses\" mean?",
+      "choices": [
+        "feed animals",
+        "ride horses",
+        "run faster",
+        "wait or slow down"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Idioms must be understood by meaning, not word by word.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: wait or slow down. Idioms must be understood by meaning, not word by word.",
+        "incorrect": [
+          "Not: feed animals. Idioms must be understood by meaning, not word by word.",
+          "Not: ride horses. Idioms must be understood by meaning, not word by word.",
+          "Not: run faster. Idioms must be understood by meaning, not word by word.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 145,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0146",
+      "version": 1,
+      "contentHash": "sha256:ab53ab7184ea8527ae359ecd8dec3da1cf2067d4c88e4e3de20d00cdbf33c184",
+      "question": "Grade 5 Easy: Choose the best answer. Which line includes imagery?",
+      "choices": [
+        "Warm cinnamon filled the kitchen air.",
+        "The kitchen is a room.",
+        "The recipe has steps.",
+        "The plate was round."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Imagery uses sensory details.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Warm cinnamon filled the kitchen air.. Imagery uses sensory details.",
+        "incorrect": [
+          "",
+          "Not: The kitchen is a room.. Imagery uses sensory details.",
+          "Not: The recipe has steps.. Imagery uses sensory details.",
+          "Not: The plate was round.. Imagery uses sensory details."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 146,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0147",
+      "version": 1,
+      "contentHash": "sha256:a27de723ad7ef90883eb5471d43b33ac6c185c004adba777bc6a92c900832351",
+      "question": "Grade 5 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
+      "choices": [
+        "His backpack truly weighed 2,000 pounds.",
+        "His backpack felt very heavy.",
+        "His backpack was empty.",
+        "His backpack was missing."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Hyperbole exaggerates to make a point.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: His backpack felt very heavy.. Hyperbole exaggerates to make a point.",
+        "incorrect": [
+          "Not: His backpack truly weighed 2,000 pounds.. Hyperbole exaggerates to make a point.",
+          "",
+          "Not: His backpack was empty.. Hyperbole exaggerates to make a point.",
+          "Not: His backpack was missing.. Hyperbole exaggerates to make a point."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 147,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0148",
+      "version": 1,
+      "contentHash": "sha256:5930513e3a81cbda81fb3563160107ae17eeb16155e54f7ef2201a8e86d47f92",
+      "question": "Grade 5 Easy: Choose the best answer. Which sentence uses a metaphor?",
+      "choices": [
+        "The books stood on shelves.",
+        "The library opened at nine.",
+        "The library was a treasure chest of stories.",
+        "The librarian smiled."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A metaphor says one thing is another to show a likeness.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The library was a treasure chest of stories.. A metaphor says one thing is another to show a likeness.",
+        "incorrect": [
+          "Not: The books stood on shelves.. A metaphor says one thing is another to show a likeness.",
+          "Not: The library opened at nine.. A metaphor says one thing is another to show a likeness.",
+          "",
+          "Not: The librarian smiled.. A metaphor says one thing is another to show a likeness."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 148,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0149",
+      "version": 1,
+      "contentHash": "sha256:520100bf2986c2c3fec4a150a37f33642590c83091d136acbbdaaffe865c68e3",
+      "question": "Grade 5 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
+      "choices": [
+        "ordinary",
+        "silly",
+        "cheerful",
+        "mysterious"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "Word choice can create mood.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: mysterious. Word choice can create mood.",
+        "incorrect": [
+          "Not: ordinary. Word choice can create mood.",
+          "Not: silly. Word choice can create mood.",
+          "Not: cheerful. Word choice can create mood.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 149,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0150",
+      "version": 1,
+      "contentHash": "sha256:d97c90c26b7ce1d62f49f78b084d5c50d35dffc2fc62ecebfa048f8c4b90d0f1",
+      "question": "Grade 5 Easy: Choose the best answer. Which sentence uses a simile?",
+      "choices": [
+        "The kite dipped like a bird in the wind.",
+        "The kite was red.",
+        "The kite had a string.",
+        "The kite flew on Saturday."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Figurative language uses words creatively, often beyond their literal meaning.",
+        "example": "A simile uses like or as to compare.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The kite dipped like a bird in the wind.. A simile uses like or as to compare.",
+        "incorrect": [
+          "",
+          "Not: The kite was red.. A simile uses like or as to compare.",
+          "Not: The kite had a string.. A simile uses like or as to compare.",
+          "Not: The kite flew on Saturday.. A simile uses like or as to compare."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "word meaning",
+          "author's craft"
+        ],
+        "standards": [
+          "L.3-6.5"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "high",
+        "sourceSet": "vocabulary-figurative-language",
+        "sequence": 150,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["vocabulary-figurative-language"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["vocabulary-figurative-language"] = chunkSet;
+  }
+})();

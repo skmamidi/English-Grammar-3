@@ -5,7 +5,7 @@ window.QUESTION_MANIFEST = {
     "artifactSchemaVersion": 1,
     "generatorVersion": 1,
     "sourceType": "json",
-    "sourceHash": "sha256:afcd62e1e4da7f46e77fc8d5f1115ed627ed742839a1835c73e263d01c7ed628",
+    "sourceHash": "sha256:f3767dbfb9dd2c9b8c8a2f59c9907ee24e92fc8cc37e74d394f042901346ec49",
     "sourceFiles": [
       "assets/question-bank-source/capitalization.json",
       "assets/question-bank-source/grammar.json",
@@ -34,6 +34,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "capitalization.capitalization",
+          "questionCount": 45
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 45
+        }
       ]
     },
     {
@@ -53,6 +65,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "capitalization.capitalization",
+          "questionCount": 30
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 30
+        }
       ]
     },
     {
@@ -72,6 +96,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "capitalization.capitalization",
+          "questionCount": 21
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 21
+        }
       ]
     },
     {
@@ -91,6 +127,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "capitalization.capitalization",
+          "questionCount": 67
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 67
+        }
       ]
     },
     {
@@ -110,6 +158,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "capitalization.capitalization",
+          "questionCount": 44
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 44
+        }
       ]
     },
     {
@@ -129,6 +189,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 34
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 34
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 34
+        }
       ]
     },
     {
@@ -148,6 +224,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 18
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 18
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 18
+        }
       ]
     },
     {
@@ -167,6 +259,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 15
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 154
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 154
+        }
       ]
     },
     {
@@ -186,6 +294,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 46
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 54
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 8
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 54
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 8
+        }
       ]
     },
     {
@@ -205,6 +337,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 39
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 76
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 20
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 76
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 20
+        }
       ]
     },
     {
@@ -224,6 +380,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 15
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 16
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 16
+        }
       ]
     },
     {
@@ -243,6 +415,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 24
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 24
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 24
+        }
       ]
     },
     {
@@ -262,6 +450,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 28
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 34
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 5
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 34
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 5
+        }
       ]
     },
     {
@@ -281,6 +493,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 16
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 16
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 16
+        }
       ]
     },
     {
@@ -300,6 +528,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 48
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 52
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 4
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 52
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 4
+        }
       ]
     },
     {
@@ -319,6 +571,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 19
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 61
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 32
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 61
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 32
+        }
       ]
     },
     {
@@ -338,6 +614,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 26
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 40
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 13
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 40
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 13
+        }
       ]
     },
     {
@@ -357,6 +657,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 51
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 51
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 51
+        }
       ]
     },
     {
@@ -376,6 +692,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 17
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 17
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 17
+        }
       ]
     },
     {
@@ -395,6 +727,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 36
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 37
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 37
+        }
       ]
     },
     {
@@ -414,6 +762,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 63
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 73
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 5
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 73
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 5
+        }
       ]
     },
     {
@@ -433,6 +805,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 23
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 37
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 8
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 37
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 8
+        }
       ]
     },
     {
@@ -452,6 +848,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 31
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 37
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 37
+        }
       ]
     },
     {
@@ -471,6 +883,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 15
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 15
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 15
+        }
       ]
     },
     {
@@ -490,6 +918,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 15
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 15
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 15
+        }
       ]
     },
     {
@@ -497,7 +941,45 @@ window.QUESTION_MANIFEST = {
       "title": "Sentence Correction",
       "topic": "Grammar",
       "domain": "grammar",
-      "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction.js",
+      "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction-005.js",
+          "firstSequence": 201,
+          "lastSequence": 250,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction-006.js",
+          "firstSequence": 251,
+          "lastSequence": 300,
+          "questionCount": 50
+        }
+      ],
       "questionCount": 300,
       "gradesSupported": [
         3,
@@ -509,6 +991,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 275
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 300
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 14
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 300
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 14
+        }
       ]
     },
     {
@@ -528,6 +1034,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 6
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 186
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 6
+        },
+        {
+          "standardId": "W.3-6.2",
+          "questionCount": 180
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 186
+        }
       ]
     },
     {
@@ -547,6 +1077,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 3
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 3
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 3
+        },
+        {
+          "standardId": "W.3-6.1",
+          "questionCount": 180
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 3
+        }
       ]
     },
     {
@@ -566,6 +1120,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 3
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 3
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 3
+        },
+        {
+          "standardId": "W.3-6.2",
+          "questionCount": 180
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 3
+        }
       ]
     },
     {
@@ -585,6 +1163,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 21
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 21
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 21
+        },
+        {
+          "standardId": "W.3-6.3",
+          "questionCount": 180
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 21
+        }
       ]
     },
     {
@@ -592,7 +1194,39 @@ window.QUESTION_MANIFEST = {
       "title": "Revising & Editing Strategy",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy.js",
+      "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy-005.js",
+          "firstSequence": 201,
+          "lastSequence": 241,
+          "questionCount": 41
+        }
+      ],
       "questionCount": 241,
       "gradesSupported": [
         3,
@@ -604,6 +1238,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 241
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 241
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 241
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 241
+        }
       ]
     },
     {
@@ -623,6 +1277,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 6
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 23
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 2
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 203
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 2
+        }
       ]
     },
     {
@@ -642,6 +1320,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 184
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 4
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 184
+        },
+        {
+          "standardId": "L.4-6.1",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -649,7 +1347,39 @@ window.QUESTION_MANIFEST = {
       "title": "Pronoun Agreement & Case",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case.js",
+      "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case-005.js",
+          "firstSequence": 201,
+          "lastSequence": 231,
+          "questionCount": 31
+        }
+      ],
       "questionCount": 231,
       "gradesSupported": [
         3,
@@ -661,6 +1391,30 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.sentence-analysis",
+          "questionCount": 44
+        },
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 51
+        },
+        {
+          "skillId": "grammar.writing",
+          "questionCount": 7
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 231
+        },
+        {
+          "standardId": "W.3-6.5",
+          "questionCount": 7
+        }
       ]
     },
     {
@@ -680,6 +1434,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -699,6 +1460,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1-3",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -718,6 +1486,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "L.5-6.1",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -737,6 +1512,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "grammar.usage",
+          "questionCount": 16
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.1",
+          "questionCount": 16
+        },
+        {
+          "standardId": "L.3-6.3",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -756,6 +1547,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "L.2-6.1",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -775,6 +1573,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 72
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 72
+        }
       ]
     },
     {
@@ -794,6 +1604,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 24
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 24
+        }
       ]
     },
     {
@@ -813,6 +1635,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 36
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 36
+        }
       ]
     },
     {
@@ -832,6 +1666,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 57
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 57
+        }
       ]
     },
     {
@@ -851,6 +1697,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 15
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 15
+        }
       ]
     },
     {
@@ -870,6 +1728,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 15
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 15
+        }
       ]
     },
     {
@@ -889,6 +1759,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 15
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 15
+        }
       ]
     },
     {
@@ -908,6 +1790,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 15
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 15
+        }
       ]
     },
     {
@@ -927,6 +1821,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 75
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 75
+        }
       ]
     },
     {
@@ -946,6 +1852,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 28
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 28
+        }
       ]
     },
     {
@@ -965,6 +1883,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 180
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 180
+        },
+        {
+          "standardId": "L.4-6.2",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -984,6 +1918,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 196
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 196
+        }
       ]
     },
     {
@@ -1003,6 +1949,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "punctuation.conventions",
+          "questionCount": 5
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.2-6.2",
+          "questionCount": 180
+        },
+        {
+          "standardId": "L.3-6.2",
+          "questionCount": 5
+        }
       ]
     },
     {
@@ -1022,6 +1984,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 52
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 52
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 52
+        }
       ]
     },
     {
@@ -1041,6 +2019,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 31
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 31
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 31
+        }
       ]
     },
     {
@@ -1060,6 +2054,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 26
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 26
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 26
+        }
       ]
     },
     {
@@ -1079,6 +2089,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 19
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 19
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 19
+        }
       ]
     },
     {
@@ -1098,6 +2124,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 45
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 45
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 45
+        }
       ]
     },
     {
@@ -1117,6 +2159,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 72
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 72
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 72
+        }
       ]
     },
     {
@@ -1124,7 +2182,33 @@ window.QUESTION_MANIFEST = {
       "title": "Main Idea & Supporting Details",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details.js",
+      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details-004.js",
+          "firstSequence": 151,
+          "lastSequence": 210,
+          "questionCount": 49
+        }
+      ],
       "questionCount": 199,
       "gradesSupported": [
         3,
@@ -1136,6 +2220,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 199
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI.2-6.2",
+          "questionCount": 180
+        },
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 199
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 199
+        }
       ]
     },
     {
@@ -1143,7 +2247,45 @@ window.QUESTION_MANIFEST = {
       "title": "Summarizing",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing.js",
+      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing-005.js",
+          "firstSequence": 201,
+          "lastSequence": 250,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing-006.js",
+          "firstSequence": 251,
+          "lastSequence": 287,
+          "questionCount": 28
+        }
+      ],
       "questionCount": 278,
       "gradesSupported": [
         3,
@@ -1155,6 +2297,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 278
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 278
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 278
+        }
       ]
     },
     {
@@ -1162,7 +2320,39 @@ window.QUESTION_MANIFEST = {
       "title": "Text Evidence",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence.js",
+      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence-005.js",
+          "firstSequence": 201,
+          "lastSequence": 229,
+          "questionCount": 23
+        }
+      ],
       "questionCount": 223,
       "gradesSupported": [
         3,
@@ -1174,6 +2364,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 223
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 223
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 223
+        }
       ]
     },
     {
@@ -1193,6 +2399,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 2
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 2
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 2
+        },
+        {
+          "standardId": "RL.2-6.3",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1200,7 +2426,33 @@ window.QUESTION_MANIFEST = {
       "title": "Theme / Lesson / Moral",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-theme-lesson-moral.js",
+      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-theme-lesson-moral-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-theme-lesson-moral-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-theme-lesson-moral-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-theme-lesson-moral-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-theme-lesson-moral-004.js",
+          "firstSequence": 151,
+          "lastSequence": 289,
+          "questionCount": 32
+        }
+      ],
       "questionCount": 182,
       "gradesSupported": [
         3,
@@ -1212,6 +2464,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 182
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 182
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 182
+        },
+        {
+          "standardId": "RL.2-6.2",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1219,7 +2491,39 @@ window.QUESTION_MANIFEST = {
       "title": "Author's Purpose",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose.js",
+      "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose-005.js",
+          "firstSequence": 201,
+          "lastSequence": 253,
+          "questionCount": 9
+        }
+      ],
       "questionCount": 209,
       "gradesSupported": [
         3,
@@ -1231,6 +2535,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 209
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI.2-6.6",
+          "questionCount": 180
+        },
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 209
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 209
+        }
       ]
     },
     {
@@ -1250,6 +2574,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "RI.3-6.5",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1269,6 +2600,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 11
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 11
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 11
+        },
+        {
+          "standardId": "RI/RL.3-6.9",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1288,6 +2639,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 9
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 9
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 9
+        },
+        {
+          "standardId": "RL.3-6.4-5",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1307,6 +2678,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 7
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 7
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 7
+        },
+        {
+          "standardId": "RL.2-6.5",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1326,6 +2717,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "RL.3-6.6",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1345,6 +2743,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 2
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 2
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 2
+        },
+        {
+          "standardId": "RL/RI.4-6.4",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1364,6 +2782,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reading-comprehension.comprehension",
+          "questionCount": 9
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "ELA.3-6.TestReadiness",
+          "questionCount": 180
+        },
+        {
+          "standardId": "RI/RL.2-6.1",
+          "questionCount": 9
+        },
+        {
+          "standardId": "RI/RL.2-6.2",
+          "questionCount": 9
+        }
       ]
     },
     {
@@ -1383,6 +2821,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 22
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 22
+        }
       ]
     },
     {
@@ -1402,6 +2852,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 15
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 15
+        }
       ]
     },
     {
@@ -1421,6 +2883,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 24
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 24
+        }
       ]
     },
     {
@@ -1440,6 +2914,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 31
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 31
+        }
       ]
     },
     {
@@ -1459,6 +2945,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 55
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 55
+        }
       ]
     },
     {
@@ -1478,6 +2976,18 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 3
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 183
+        }
       ]
     },
     {
@@ -1497,6 +3007,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 180
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI.3-6.6-8",
+          "questionCount": 180
+        },
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1504,7 +3030,45 @@ window.QUESTION_MANIFEST = {
       "title": "Nonfiction Text Features",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features-005.js",
+          "firstSequence": 201,
+          "lastSequence": 250,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features-006.js",
+          "firstSequence": 251,
+          "lastSequence": 298,
+          "questionCount": 48
+        }
+      ],
       "questionCount": 298,
       "gradesSupported": [
         3,
@@ -1516,6 +3080,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "reference-skills.reference-research",
+          "questionCount": 298
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "RI.2-6.5-7",
+          "questionCount": 180
+        },
+        {
+          "standardId": "W.3-6.7-8",
+          "questionCount": 298
+        }
       ]
     },
     {
@@ -1535,6 +3115,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 62
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 62
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 62
+        }
       ]
     },
     {
@@ -1554,7 +3150,9 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
-      ]
+      ],
+      "skillCoverage": [],
+      "standardCoverage": []
     },
     {
       "id": "vocabulary-contractions",
@@ -1573,7 +3171,9 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
-      ]
+      ],
+      "skillCoverage": [],
+      "standardCoverage": []
     },
     {
       "id": "vocabulary-homophones",
@@ -1592,6 +3192,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 69
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 69
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 69
+        }
       ]
     },
     {
@@ -1611,6 +3227,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 6
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 6
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 6
+        }
       ]
     },
     {
@@ -1630,6 +3262,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 59
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 59
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 59
+        }
       ]
     },
     {
@@ -1649,6 +3297,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 18
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 18
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 18
+        }
       ]
     },
     {
@@ -1668,6 +3332,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 143
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 143
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 143
+        }
       ]
     },
     {
@@ -1687,6 +3367,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 186
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 186
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 186
+        }
       ]
     },
     {
@@ -1706,14 +3402,48 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
-      ]
+      ],
+      "skillCoverage": [],
+      "standardCoverage": []
     },
     {
       "id": "vocabulary-figurative-language",
       "title": "Figurative Language",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language.js",
+      "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language-001.js",
+      "chunks": [
+        {
+          "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language-001.js",
+          "firstSequence": 1,
+          "lastSequence": 50,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language-002.js",
+          "firstSequence": 51,
+          "lastSequence": 100,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language-003.js",
+          "firstSequence": 101,
+          "lastSequence": 150,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language-004.js",
+          "firstSequence": 151,
+          "lastSequence": 200,
+          "questionCount": 50
+        },
+        {
+          "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language-005.js",
+          "firstSequence": 201,
+          "lastSequence": 306,
+          "questionCount": 21
+        }
+      ],
       "questionCount": 221,
       "gradesSupported": [
         3,
@@ -1725,6 +3455,22 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 221
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 221
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 221
+        }
       ]
     },
     {
@@ -1744,6 +3490,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1763,6 +3516,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 180
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.2-6.4",
+          "questionCount": 180
+        },
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 180
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1782,6 +3555,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 2
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.2-6.5",
+          "questionCount": 180
+        },
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 2
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 2
+        }
       ]
     },
     {
@@ -1801,6 +3594,26 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [
+        {
+          "skillId": "vocabulary.word-study",
+          "questionCount": 9
+        }
+      ],
+      "standardCoverage": [
+        {
+          "standardId": "L.3-6.5",
+          "questionCount": 9
+        },
+        {
+          "standardId": "L.4-6.4",
+          "questionCount": 9
+        },
+        {
+          "standardId": "RF.2-5.3",
+          "questionCount": 180
+        }
       ]
     },
     {
@@ -1820,6 +3633,13 @@ window.QUESTION_MANIFEST = {
         "easy",
         "hard",
         "medium"
+      ],
+      "skillCoverage": [],
+      "standardCoverage": [
+        {
+          "standardId": "RF/L.2-5",
+          "questionCount": 180
+        }
       ]
     }
   ]

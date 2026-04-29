@@ -16,7 +16,7 @@
     const shuffle = typeof options.shuffle === 'function' ? options.shuffle : shuffleArray;
     if (!source.length) return [];
     if (!source.some(question => question.metadata && question.metadata.difficultyByGrade)) {
-      return shuffle([...source]).slice(0, Math.min(targetQuestionCount, source.length));
+      return selectUniqueQuestions(shuffle([...source]), Math.min(targetQuestionCount, source.length));
     }
 
     const levelQuestions = source.filter(question => questionSupportsGrade(question, grade));
@@ -33,9 +33,10 @@
       else fallback.push(entry);
     });
 
-    return shuffle(exact).concat(shuffle(adjacent), shuffle(fallback))
-      .map(entry => entry.question)
-      .slice(0, Math.min(targetQuestionCount, levelQuestions.length));
+    return selectUniqueQuestions(
+      shuffle(exact).concat(shuffle(adjacent), shuffle(fallback)).map(entry => entry.question),
+      Math.min(targetQuestionCount, levelQuestions.length)
+    );
   }
 
   function selectCurrentQuestions(state, options = {}) {
@@ -64,7 +65,8 @@
       ? 'max'
       : Math.max(4, Number(state && state.selectedMixedQuestionLimit) || Number(mixedQuizConfig.questionsPerSubtopic) || 4);
     const selected = [];
-    getActiveMixedSubtopics(state).forEach(subtopic => {
+    const activeSubtopics = getActiveMixedSubtopics(state);
+    activeSubtopics.forEach(subtopic => {
       if (limit === 'max') {
         selected.push(...shuffle([...subtopic.questions]));
         return;
@@ -76,18 +78,70 @@
         shuffle
       ));
     });
-    return shuffle(selected);
+    return fillUniqueQuestionSelection(selectUniqueQuestions(shuffle(selected), selected.length), activeSubtopics, selected.length, shuffle);
   }
 
   function fillQuestionGroup(preferred, allQuestions, count, shuffle = shuffleArray) {
     const source = Array.isArray(allQuestions) ? allQuestions : [];
     const limit = Math.min(count, source.length);
-    const picked = (Array.isArray(preferred) ? preferred : []).slice(0, limit);
+    const picked = selectUniqueQuestions(Array.isArray(preferred) ? preferred : [], limit);
     if (picked.length >= limit) return picked;
 
     const pickedSet = new Set(picked);
-    const fallback = shuffle([...source]).filter(question => !pickedSet.has(question));
+    const pickedFingerprints = new Set(picked.map(getQuestionFingerprint));
+    const fallback = shuffle([...source]).filter(question => {
+      const fingerprint = getQuestionFingerprint(question);
+      return !pickedSet.has(question) && !pickedFingerprints.has(fingerprint);
+    });
     return picked.concat(fallback.slice(0, limit - picked.length));
+  }
+
+  function fillUniqueQuestionSelection(preferred, subtopics, count, shuffle = shuffleArray) {
+    const picked = selectUniqueQuestions(preferred, count);
+    if (picked.length >= count) return picked;
+
+    const pickedSet = new Set(picked);
+    const pickedFingerprints = new Set(picked.map(getQuestionFingerprint));
+    const fallback = shuffle((Array.isArray(subtopics) ? subtopics : [])
+      .flatMap(subtopic => Array.isArray(subtopic && subtopic.questions) ? subtopic.questions : []))
+      .filter(question => {
+        const fingerprint = getQuestionFingerprint(question);
+        return !pickedSet.has(question) && !pickedFingerprints.has(fingerprint);
+      });
+    return picked.concat(fallback.slice(0, count - picked.length));
+  }
+
+  function selectUniqueQuestions(questions, limit) {
+    const selected = [];
+    const fingerprints = new Set();
+    (Array.isArray(questions) ? questions : []).some(question => {
+      const fingerprint = getQuestionFingerprint(question);
+      if (!fingerprints.has(fingerprint)) {
+        fingerprints.add(fingerprint);
+        selected.push(question);
+      }
+      return selected.length >= limit;
+    });
+    return selected;
+  }
+
+  function getQuestionFingerprint(question) {
+    const prompt = normalizeQuestionText(question && question.question)
+      .replace(/^grade\s+\d+\s+(easy|medium|hard)\s*:\s*/i, '')
+      .replace(/^(choose the best answer|use the context to choose the best answer|analyze the details and choose the strongest answer)\.?\s*/i, '');
+    const choices = Array.isArray(question && question.choices)
+      ? question.choices.map(normalizeQuestionText).sort().join('|')
+      : '';
+    return `${prompt}::${choices}`;
+  }
+
+  function normalizeQuestionText(value) {
+    return String(value || '')
+      .replace(/[“”]/g, '"')
+      .replace(/[‘’]/g, "'")
+      .trim()
+      .replace(/\s+/g, ' ')
+      .toLowerCase();
   }
 
   function getActiveMixedSubtopics(state) {
@@ -193,6 +247,9 @@
     selectCurrentQuestions,
     selectMixedQuestions,
     fillQuestionGroup,
+    fillUniqueQuestionSelection,
+    selectUniqueQuestions,
+    getQuestionFingerprint,
     getActiveMixedSubtopics,
     questionSupportsGrade,
     getDifficultyDistance,

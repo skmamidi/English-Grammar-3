@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1128,7 +1261,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1184,7 +1324,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1240,7 +1387,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1296,7 +1450,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1352,7 +1513,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1408,7 +1576,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1464,7 +1639,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1520,7 +1702,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1576,7 +1765,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1632,7 +1828,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1688,7 +1891,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1744,7 +1954,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1800,7 +2017,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1856,7 +2080,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1912,7 +2143,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1968,7 +2206,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2024,7 +2269,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2080,7 +2332,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2136,7 +2395,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2192,7 +2458,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2248,7 +2521,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-word-meaning-context",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2309,6 +2589,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2370,6 +2657,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2431,6 +2725,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2492,6 +2793,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2553,6 +2861,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2614,6 +2929,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2675,6 +2997,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2736,6 +3065,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2797,6 +3133,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2858,6 +3201,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2919,6 +3269,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -2980,6 +3337,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3041,6 +3405,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3102,6 +3473,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3163,6 +3541,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3224,6 +3609,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3285,6 +3677,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3346,6 +3745,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3407,6 +3813,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3468,6 +3881,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3529,6 +3949,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3590,6 +4017,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3651,6 +4085,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3712,6 +4153,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3773,6 +4221,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3834,6 +4289,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3895,6 +4357,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -3956,6 +4425,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4017,6 +4493,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4078,6 +4561,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4139,6 +4629,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4200,6 +4697,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4261,6 +4765,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4322,6 +4833,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4383,6 +4901,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4444,6 +4969,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4505,6 +5037,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4566,6 +5105,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4627,6 +5173,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4688,6 +5241,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4749,6 +5309,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4810,6 +5377,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4871,6 +5445,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4932,6 +5513,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -4993,6 +5581,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -5054,6 +5649,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -5115,6 +5717,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -5176,6 +5785,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -5237,6 +5853,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -5298,7 +5921,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 90
+          "sequence": 90,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5359,7 +5989,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 92
+          "sequence": 92,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5420,7 +6057,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 95
+          "sequence": 95,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5481,7 +6125,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 97
+          "sequence": 97,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5542,7 +6193,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 100
+          "sequence": 100,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5603,7 +6261,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5664,7 +6329,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 103
+          "sequence": 103,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5725,7 +6397,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 104
+          "sequence": 104,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5786,7 +6465,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 105
+          "sequence": 105,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5847,7 +6533,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 106
+          "sequence": 106,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5908,7 +6601,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 107
+          "sequence": 107,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5969,7 +6669,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6030,7 +6737,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6091,7 +6805,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6152,7 +6873,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6213,7 +6941,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 61
+          "sequence": 61,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6274,7 +7009,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 108
+          "sequence": 108,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6335,7 +7077,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 109
+          "sequence": 109,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6396,7 +7145,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6457,7 +7213,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 110
+          "sequence": 110,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6518,7 +7281,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 111
+          "sequence": 111,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6579,7 +7349,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 112
+          "sequence": 112,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6640,7 +7417,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 113
+          "sequence": 113,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6701,7 +7485,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 114
+          "sequence": 114,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6762,7 +7553,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 115
+          "sequence": 115,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6823,7 +7621,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 116
+          "sequence": 116,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6884,7 +7689,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6945,7 +7757,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 117
+          "sequence": 117,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7006,7 +7825,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 73
+          "sequence": 73,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7067,7 +7893,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 119
+          "sequence": 119,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7128,7 +7961,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 120
+          "sequence": 120,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7189,7 +8029,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 121
+          "sequence": 121,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7250,7 +8097,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 124
+          "sequence": 124,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7311,7 +8165,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 125
+          "sequence": 125,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7372,7 +8233,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 128
+          "sequence": 128,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7433,7 +8301,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 130
+          "sequence": 130,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7494,7 +8369,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 135
+          "sequence": 135,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7555,7 +8437,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 143
+          "sequence": 143,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7616,7 +8505,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 148
+          "sequence": 148,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7677,7 +8573,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 150
+          "sequence": 150,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7738,7 +8641,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 131
+          "sequence": 131,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7799,7 +8709,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 156
+          "sequence": 156,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7860,7 +8777,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 169
+          "sequence": 169,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7921,7 +8845,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 175
+          "sequence": 175,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7982,7 +8913,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 192
+          "sequence": 192,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8043,7 +8981,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 136
+          "sequence": 136,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8104,7 +9049,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 210
+          "sequence": 210,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8165,7 +9117,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 224
+          "sequence": 224,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8226,7 +9185,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 257
+          "sequence": 257,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8287,7 +9253,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 258
+          "sequence": 258,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8348,7 +9321,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 277
+          "sequence": 277,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8409,7 +9389,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 294
+          "sequence": 294,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8470,7 +9457,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 295
+          "sequence": 295,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8531,7 +9525,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 300
+          "sequence": 300,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       }
     ],

@@ -9283,22 +9283,22 @@
         {
           "id": "grammar-pronouns-q0147",
           "version": 1,
-          "contentHash": "sha256:4ca293c6531e8d3cf3db7fda98ab01086156be0fdb8146f96d569ab6cf22ea81",
+          "contentHash": "sha256:92ba82bff01995b7b3795dcb6aaa3b3ba5876ce7f10a2356174e604c71676ac7",
           "question": "Which is the correct syllabication of the word advantageous?",
           "choices": [
-            "ad v-ant-ageous",
-            "ad -vant-age-ous",
-            "ad -van- -geous ta",
-            "ad -vant-age-ous"
+            "ad-vant-a-geous",
+            "ad-van-tage-ous",
+            "ad-van-ta-geous",
+            "ad-vant-age-ous"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: ad -van- -geous ta. van- -geous; Advantageous favorable; giving advantage. ad ta –",
+            "correct": "Answer: ad-van-ta-geous. Advantageous divides into four syllables: ad, van, ta, and geous.",
             "incorrect": [
-              "Not: ad v-ant-ageous. Use the language rule, word clue, or sentence context to check this choice.",
-              "Not: ad -vant-age-ous. Use the language rule, word clue, or sentence context to check this choice.",
+              "Not: ad-vant-a-geous. This split does not follow the natural syllable sounds in advantageous.",
+              "Not: ad-van-tage-ous. This split joins sounds that should be separated around ta.",
               "",
-              "Not: ad -vant-age-ous. Use the language rule, word clue, or sentence context to check this choice."
+              "Not: ad-vant-age-ous. This split does not separate the middle syllables correctly."
             ]
           },
           "studyAid": {
@@ -20777,22 +20777,22 @@
         {
           "id": "grammar-run-on-sentences-q0019",
           "version": 1,
-          "contentHash": "sha256:b22dd293b27a882fd5d8fd81656dd0691dd8bec3b0fc5bd74e63f162a65ec250",
+          "contentHash": "sha256:6931555489a570048cdcc0165ced28f1deb1c52f1a5032e3810d6a8074b37a77",
           "question": "Which sentence is a run-on sentence? (1) My brother and I plan to go to the football game on Friday night. (2) We need to buy tickets, they are $7.50. (3) It is the homecoming game. (4) We are excited for therivalry.",
           "choices": [
             "Sentence 1",
-            "Sentence",
-            "Sentence",
-            "Sentence"
+            "Sentence 2",
+            "Sentence 3",
+            "Sentence 4"
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: Sentence. Sentence 2; We need to buy tickets. They are $7.",
+            "correct": "Answer: Sentence 2. It joins two complete thoughts with only a comma: We need to buy tickets, they are $7.50.",
             "incorrect": [
-              "Not: Sentence 1. Use the grammar rule and the sentence context to check this choice.",
+              "Not: Sentence 1. It is a complete sentence, not a run-on.",
               "",
-              "Not: Sentence. Use the grammar rule and the sentence context to check this choice.",
-              "Not: Sentence. Use the grammar rule and the sentence context to check this choice."
+              "Not: Sentence 3. It is a complete sentence, not a run-on.",
+              "Not: Sentence 4. It has a spacing typo, but it is not the run-on sentence."
             ]
           },
           "studyAid": {
@@ -23682,22 +23682,22 @@
         {
           "id": "grammar-subject-predicate-q0027",
           "version": 1,
-          "contentHash": "sha256:d7b8365abde6184a801f895bb5c14a67b3b5f95704e1adc128d4a744aa3d82d6",
-          "question": "Which sentence has the subject underlined?",
+          "contentHash": "sha256:4a1065716c0fd302efbebd807aba92d7403aecb67887437696d4c4f31101e350",
+          "question": "Which choice identifies the complete subject of the sentence: The bunny feels cuddly?",
           "choices": [
-            "The bunny feels cuddly.",
-            "The bunny feels cuddly.",
-            "The bunny fee ls cuddly.",
-            "The bunny feels cuddly."
+            "bunny",
+            "The bunny",
+            "feels cuddly",
+            "cuddly"
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: The bunny feels cuddly.. Bunny is the subject of the sentence.",
+            "correct": "Answer: The bunny. The complete subject tells who the sentence is about.",
             "incorrect": [
-              "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question.",
+              "Not: bunny. Bunny is the simple subject, but the complete subject includes The.",
               "",
-              "Not: The bunny fee ls cuddly.. Check the grammar or usage clue in the question.",
-              "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question."
+              "Not: feels cuddly. This is the predicate, not the subject.",
+              "Not: cuddly. This describes the bunny; it is not the subject."
             ]
           },
           "metadata": {
@@ -45437,21 +45437,21 @@
         {
           "id": "grammar-friendly-letter-q0025",
           "version": 1,
-          "contentHash": "sha256:b74bce65a5a1f698d0c73de31393785beb51d0d678f6a2bd9a719b099752e834",
+          "contentHash": "sha256:1dba4e5804d3ec91f304261e9d5d4838597626caed7e321ea596853eaa1a0fc2",
           "question": "Which greeting is written correctly?",
           "choices": [
             "Dear Susie, Will you come and spend the night with me.",
             "dear Susie, Will you come and spend the night with me?",
-            "dear Susie, Will you come and spend the night with me?",
+            "Dear Susie Will you come and spend the night with me?",
             "Dear Susie, Will you come and spend the night with me?"
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: Dear Susie, Will you come and spend the night with me?. Dear Susie, Will you come and spend the night with me?",
+            "correct": "Answer: Dear Susie, Will you come and spend the night with me? The greeting starts with a capital letter, uses a comma after the name, and ends the question with a question mark.",
             "incorrect": [
-              "Not: Dear Susie, Will you come and spend the night with me.. Check the capitalization, punctuation, or spelling clue in the question.",
-              "Not: dear Susie, Will you come and spend the night with me?. Check the capitalization, punctuation, or spelling clue in the question.",
-              "Not: dear Susie, Will you come and spend the night with me?. Check the capitalization, punctuation, or spelling clue in the question.",
+              "Not: Dear Susie, Will you come and spend the night with me. A question should end with a question mark.",
+              "Not: dear Susie, Will you come and spend the night with me? The greeting should begin with a capital letter.",
+              "Not: Dear Susie Will you come and spend the night with me? The greeting needs a comma after Susie.",
               ""
             ]
           },

@@ -16,12 +16,14 @@ const {
 } = require('../generate-question-manifest');
 const {
   buildQuestionChunkScript,
+  buildQuestionSubchunkScript,
   getExpectedChunkPath,
   getExpectedChunkRelativePath,
+  getExpectedSubchunkPath,
   writeQuestionChunks
 } = require('../generate-question-chunks');
 const {
-  loadChunkBank,
+  loadEntryChunkBank,
   validateQuestionChunkSet
 } = require('./chunk-qa');
 
@@ -43,7 +45,12 @@ function runDomainGate(domain, options = {}) {
 
   entries.forEach(entry => {
     const expectedChunkFile = getExpectedChunkRelativePath({ domain, setId: entry.id });
-    if (entry.chunkFile !== expectedChunkFile) {
+    const expectedSubchunkFile = Array.isArray(entry.chunks) && entry.chunks.length ? entry.chunks[0].chunkFile : '';
+    if (entry.chunks && entry.chunkFile !== expectedSubchunkFile) {
+      errors.push(`${entry.id}: chunkFile is ${formatValue(entry.chunkFile)}; expected first subchunk ${formatValue(expectedSubchunkFile)}.`);
+      return;
+    }
+    if (!entry.chunks && entry.chunkFile !== expectedChunkFile) {
       errors.push(`${entry.id}: chunkFile is ${formatValue(entry.chunkFile)}; expected ${formatValue(expectedChunkFile)}.`);
       return;
     }
@@ -54,15 +61,17 @@ function runDomainGate(domain, options = {}) {
       return;
     }
 
-    const expectedPath = getExpectedChunkPath({ domain, setId: entry.id }, root);
-    if (!fs.existsSync(expectedPath)) {
-      errors.push(`${entry.id}: chunk file is missing at ${path.relative(root, expectedPath)}.`);
-      return;
-    }
+    const expectedPaths = getExpectedPaths({ entry, domain, root });
+    expectedPaths.forEach(expectedPath => {
+      if (!fs.existsSync(expectedPath)) {
+        errors.push(`${entry.id}: chunk file is missing at ${path.relative(root, expectedPath)}.`);
+      }
+    });
+    if (expectedPaths.some(expectedPath => !fs.existsSync(expectedPath))) return;
 
     let chunkBank;
     try {
-      chunkBank = loadChunkBank(entry.chunkFile, { repoRoot: root });
+      chunkBank = loadEntryChunkBank(entry, { repoRoot: root }).chunkBank;
     } catch (error) {
       errors.push(`${entry.id}: chunk file could not be loaded: ${error.message}`);
       return;
@@ -76,19 +85,35 @@ function runDomainGate(domain, options = {}) {
     validateManifestEntry({ entry, sourceSet: sourceRecord.set, errors });
     validateQuestionChunkSet({
       setId: entry.id,
+      domain,
       sourceSet: sourceRecord.set,
       chunkSet: chunkBank && chunkBank[entry.id]
     }).errors.forEach(error => errors.push(error));
 
-    const expectedContents = buildQuestionChunkScript({
+    const buildOptions = {
       domain,
       setId: entry.id,
       sourceFile: sourceRecord.relativeFile,
       set: sourceRecord.set
-    });
-    const actualContents = fs.readFileSync(expectedPath, 'utf8');
-    if (actualContents !== expectedContents) {
-      errors.push(`${entry.id}: checked-in chunk file does not match deterministic generated output.`);
+    };
+    if (Array.isArray(entry.chunks) && entry.chunks.length) {
+      entry.chunks.forEach((chunk, index) => {
+        const expectedContents = buildQuestionSubchunkScript(Object.assign({}, buildOptions, {
+          fullSet: sourceRecord.set,
+          questions: sourceRecord.set.questions.filter(question => chunk.ids.includes(question.id)),
+          chunkIndex: index + 1
+        }));
+        const actualContents = fs.readFileSync(getExpectedSubchunkPath({ domain, setId: entry.id, index: index + 1 }, root), 'utf8');
+        if (actualContents !== expectedContents) {
+          errors.push(`${entry.id}: checked-in subchunk ${index + 1} does not match deterministic generated output.`);
+        }
+      });
+    } else {
+      const expectedContents = buildQuestionChunkScript(buildOptions);
+      const actualContents = fs.readFileSync(getExpectedChunkPath({ domain, setId: entry.id }, root), 'utf8');
+      if (actualContents !== expectedContents) {
+        errors.push(`${entry.id}: checked-in chunk file does not match deterministic generated output.`);
+      }
     }
   });
 
@@ -101,6 +126,13 @@ function runDomainGate(domain, options = {}) {
     .forEach(item => errors.push(`${item.relativePath}: stale chunk file exists.`));
 
   return { domain, checked: entries.length, errors };
+}
+
+function getExpectedPaths({ entry, domain, root }) {
+  if (Array.isArray(entry.chunks) && entry.chunks.length) {
+    return entry.chunks.map((chunk, index) => getExpectedSubchunkPath({ domain, setId: entry.id, index: index + 1 }, root));
+  }
+  return [getExpectedChunkPath({ domain, setId: entry.id }, root)];
 }
 
 function validateManifestEntry({ entry, sourceSet, errors }) {

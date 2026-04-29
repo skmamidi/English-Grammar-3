@@ -31,6 +31,54 @@ test('content QA reports invalid correct indexes with actionable locations', () 
   assert.ok(issue.location);
 });
 
+test('live question banks do not repeat answer choice text within a question', () => {
+  const result = validateContent();
+  const duplicateChoiceErrors = result.errors.filter(issue =>
+    issue.ruleId === 'duplicate-choice' ||
+    issue.ruleId === 'duplicate-correct-answer-text'
+  );
+
+  assert.equal(
+    duplicateChoiceErrors.length,
+    0,
+    duplicateChoiceErrors.map(issue => `${issue.relativeFile} ${issue.setId} ${issue.location}: ${issue.message}`).join('\n')
+  );
+});
+
+test('underlined-word prompts expose renderable underline targets', () => {
+  const result = validateContent();
+  const reported = result.questions.find(item => item.question.id === 'vocabulary-comparatives-superlatives-q0017');
+  assert.ok(reported, 'expected reported underlined-word question in live bank');
+
+  const html = renderQuizPromptForTest(reported.question);
+
+  assert.match(html, /<u>I<\/u>/);
+  assert.match(html, /<u>After<\/u>/);
+  assert.match(html, /<u>several<\/u>/);
+  assert.match(html, /<u>the<\/u>/);
+});
+
+test('content QA fails underlined-word prompts when choices cannot be located in the sentence', () => {
+  const question = makeQaQuestion(1, {
+    question: 'Which underlined word is used incorrectly in the sentence? The bright comet crossed the sky.',
+    choices: ['river', 'garden', 'music', 'window'],
+    correct: 0,
+    explanation: {
+      correct: 'The intended underlined word must appear in the sentence.',
+      incorrect: [
+        '',
+        'This choice is not present in the sentence.',
+        'This choice is not present in the sentence.',
+        'This choice is not present in the sentence.'
+      ]
+    }
+  });
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', [question]));
+
+  assertIssue(result.errors, 'missing-underlined-choice-target');
+});
+
 test('content QA fails malformed explanation arrays', () => {
   const result = validateContent();
   const first = result.questions.find(item => item.question.explanation && Array.isArray(item.question.explanation.incorrect));
@@ -314,4 +362,37 @@ function runVisualSceneEnhancer(bank) {
   };
   vm.createContext(context);
   vm.runInContext(code, context, { filename: 'assets/visual-question-scenes.js' });
+}
+
+function renderQuizPromptForTest(question) {
+  const context = {
+    console,
+    window: {
+      addEventListener() {}
+    },
+    document: {
+      readyState: 'loading',
+      addEventListener() {},
+      getElementById() { return null; },
+      createElement() {
+        return {
+          _text: '',
+          set textContent(value) {
+            this._text = String(value == null ? '' : value);
+            this.innerHTML = this._text
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;');
+          },
+          get textContent() {
+            return this._text;
+          },
+          innerHTML: ''
+        };
+      }
+    }
+  };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(repoRoot, 'assets', 'quiz-engine.js'), 'utf8'), context, { filename: 'assets/quiz-engine.js' });
+  return context.window.GrammarQuestPromptFormatting.renderQuestionPromptForTest(question);
 }

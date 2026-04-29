@@ -61,7 +61,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 1,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -114,7 +122,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 2,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -166,7 +182,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -218,7 +242,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -271,7 +303,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 5,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -324,7 +364,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 6,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -376,7 +424,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -428,7 +484,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -480,7 +544,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -532,7 +604,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -584,7 +664,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -636,7 +724,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -688,7 +784,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -740,7 +844,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -792,7 +904,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -845,7 +965,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 16,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -898,7 +1026,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 17,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -950,7 +1086,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1002,7 +1146,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1055,7 +1207,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 20,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1108,7 +1268,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 21,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1160,7 +1328,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1212,7 +1388,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1264,7 +1448,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1316,7 +1508,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1368,7 +1568,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1420,7 +1628,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1472,7 +1688,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1524,7 +1748,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1576,7 +1808,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1629,7 +1869,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 31,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1682,7 +1930,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 32,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1734,7 +1990,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1786,7 +2050,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1839,7 +2111,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 35,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1892,7 +2172,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 36,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1944,7 +2232,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -1996,7 +2292,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2048,7 +2352,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2100,7 +2412,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2152,7 +2472,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2204,7 +2532,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2256,7 +2592,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 43
+          "sequence": 43,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2308,7 +2652,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2360,7 +2712,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2413,7 +2773,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 46,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2466,7 +2834,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 47,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2518,7 +2894,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2570,7 +2954,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2623,7 +3015,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 50,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2676,7 +3076,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 51,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2728,7 +3136,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2780,7 +3196,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 53
+          "sequence": 53,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2832,7 +3256,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2884,7 +3316,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2936,7 +3376,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -2988,7 +3436,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 57
+          "sequence": 57,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3040,7 +3496,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 58
+          "sequence": 58,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3092,7 +3556,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3144,7 +3616,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 60
+          "sequence": 60,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3197,7 +3677,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 61,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3250,7 +3738,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 62,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3302,7 +3798,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 63
+          "sequence": 63,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3354,7 +3858,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 64
+          "sequence": 64,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3407,7 +3919,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 65,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3460,7 +3980,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 66,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3512,7 +4040,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 67
+          "sequence": 67,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3564,7 +4100,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 68
+          "sequence": 68,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3616,7 +4160,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 69
+          "sequence": 69,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3668,7 +4220,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 70
+          "sequence": 70,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3720,7 +4280,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 71
+          "sequence": 71,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3772,7 +4340,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 72
+          "sequence": 72,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3824,7 +4400,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 73
+          "sequence": 73,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3876,7 +4460,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 74
+          "sequence": 74,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3928,7 +4520,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 75
+          "sequence": 75,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -3981,7 +4581,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 76,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4034,7 +4642,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 77,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4086,7 +4702,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 78
+          "sequence": 78,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4138,7 +4762,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 79
+          "sequence": 79,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4191,7 +4823,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 80,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4244,7 +4884,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 81,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4296,7 +4944,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4348,7 +5004,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 83
+          "sequence": 83,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4400,7 +5064,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 84
+          "sequence": 84,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4452,7 +5124,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 85
+          "sequence": 85,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4504,7 +5184,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 86
+          "sequence": 86,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4556,7 +5244,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 87
+          "sequence": 87,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4608,7 +5304,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 88
+          "sequence": 88,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4660,7 +5364,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 89
+          "sequence": 89,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4712,7 +5424,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 90
+          "sequence": 90,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4765,7 +5485,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 91,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4818,7 +5546,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 92,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4870,7 +5606,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 93
+          "sequence": 93,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4922,7 +5666,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 94
+          "sequence": 94,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -4975,7 +5727,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 95,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5028,7 +5788,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 96,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5080,7 +5848,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 97
+          "sequence": 97,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5132,7 +5908,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 98
+          "sequence": 98,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5184,7 +5968,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 99
+          "sequence": 99,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5236,7 +6028,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 100
+          "sequence": 100,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5288,7 +6088,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5340,7 +6148,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 102
+          "sequence": 102,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5392,7 +6208,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 103
+          "sequence": 103,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5444,7 +6268,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 104
+          "sequence": 104,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5496,7 +6328,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 105
+          "sequence": 105,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5549,7 +6389,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 106,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5602,7 +6450,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 107,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5654,7 +6510,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 108
+          "sequence": 108,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5706,7 +6570,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 109
+          "sequence": 109,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5759,7 +6631,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 110,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5812,7 +6692,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 111,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5864,7 +6752,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 112
+          "sequence": 112,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5916,7 +6812,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 113
+          "sequence": 113,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -5968,7 +6872,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 114
+          "sequence": 114,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6020,7 +6932,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 115
+          "sequence": 115,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6072,7 +6992,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 116
+          "sequence": 116,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6124,7 +7052,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 117
+          "sequence": 117,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6176,7 +7112,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 118
+          "sequence": 118,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6228,7 +7172,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 119
+          "sequence": 119,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6280,7 +7232,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 120
+          "sequence": 120,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6333,7 +7293,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 121,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6386,7 +7354,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 122,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6438,7 +7414,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 123
+          "sequence": 123,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6490,7 +7474,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 124
+          "sequence": 124,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6543,7 +7535,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 125,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6596,7 +7596,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 126,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6648,7 +7656,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 127
+          "sequence": 127,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6700,7 +7716,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 128
+          "sequence": 128,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6752,7 +7776,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 129
+          "sequence": 129,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6804,7 +7836,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 130
+          "sequence": 130,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6856,7 +7896,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 131
+          "sequence": 131,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6908,7 +7956,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 132
+          "sequence": 132,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -6960,7 +8016,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 133
+          "sequence": 133,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7012,7 +8076,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 134
+          "sequence": 134,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7064,7 +8136,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 135
+          "sequence": 135,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7117,7 +8197,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 136,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7170,7 +8258,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 137,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7222,7 +8318,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 138
+          "sequence": 138,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7274,7 +8378,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 139
+          "sequence": 139,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7327,7 +8439,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 140,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7380,7 +8500,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 141,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7432,7 +8560,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 142
+          "sequence": 142,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7484,7 +8620,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 143
+          "sequence": 143,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7536,7 +8680,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 144
+          "sequence": 144,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7588,7 +8740,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 145
+          "sequence": 145,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7640,7 +8800,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 146
+          "sequence": 146,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7692,7 +8860,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 147
+          "sequence": 147,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7744,7 +8920,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 148
+          "sequence": 148,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7796,7 +8980,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 149
+          "sequence": 149,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7848,7 +9040,15 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 150
+          "sequence": 150,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7901,7 +9101,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 151,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -7954,7 +9162,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 152,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8006,7 +9222,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 153
+          "sequence": 153,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8058,7 +9282,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 154
+          "sequence": 154,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8111,7 +9343,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 155,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8164,7 +9404,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 156,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8216,7 +9464,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 157
+          "sequence": 157,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8268,7 +9524,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 158
+          "sequence": 158,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8320,7 +9584,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 159
+          "sequence": 159,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8372,7 +9644,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 160
+          "sequence": 160,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8424,7 +9704,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 161
+          "sequence": 161,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8476,7 +9764,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 162
+          "sequence": 162,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8528,7 +9824,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 163
+          "sequence": 163,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8580,7 +9884,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 164
+          "sequence": 164,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8632,7 +9944,15 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 165
+          "sequence": 165,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8685,7 +10005,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 166,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8738,7 +10066,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 167,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8790,7 +10126,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 168
+          "sequence": 168,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8842,7 +10186,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 169
+          "sequence": 169,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8895,7 +10247,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 170,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -8948,7 +10308,15 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
           "sequence": 171,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9000,7 +10368,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 172
+          "sequence": 172,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9052,7 +10428,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 173
+          "sequence": 173,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9104,7 +10488,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 174
+          "sequence": 174,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9156,7 +10548,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 175
+          "sequence": 175,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9208,7 +10608,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 176
+          "sequence": 176,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9260,7 +10668,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 177
+          "sequence": 177,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9312,7 +10728,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 178
+          "sequence": 178,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9364,7 +10788,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 179
+          "sequence": 179,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9416,7 +10848,15 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 180
+          "sequence": 180,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.2-6.4",
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       }
     ],

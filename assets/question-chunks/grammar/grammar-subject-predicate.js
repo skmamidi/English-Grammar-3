@@ -2,7 +2,7 @@
  * English Language Quiz App - grammar chunk: grammar-subject-predicate
  * Generated from assets/question-bank-source/grammar.json.
  * Generator version: 1.
- * Source hash: sha256:bb2e6e446075d9bed93d3795d22ae2ed97ce64ac006d3dcc9bc9bd31be8bd0d4.
+ * Source hash: sha256:6ca395d88bfd66c878d99568fbc5dd353b53d4cd831a6e2895bf94e9750b76a6.
  */
 (function () {
   'use strict';
@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1128,7 +1261,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1184,7 +1324,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1240,7 +1387,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1296,7 +1450,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1352,7 +1513,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "grammar-subject-predicate",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1410,6 +1578,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1468,28 +1643,35 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
       {
         "id": "grammar-subject-predicate-q0027",
         "version": 1,
-        "contentHash": "sha256:d7b8365abde6184a801f895bb5c14a67b3b5f95704e1adc128d4a744aa3d82d6",
-        "question": "Which sentence has the subject underlined?",
+        "contentHash": "sha256:4a1065716c0fd302efbebd807aba92d7403aecb67887437696d4c4f31101e350",
+        "question": "Which choice identifies the complete subject of the sentence: The bunny feels cuddly?",
         "choices": [
-          "The bunny feels cuddly.",
-          "The bunny feels cuddly.",
-          "The bunny fee ls cuddly.",
-          "The bunny feels cuddly."
+          "bunny",
+          "The bunny",
+          "feels cuddly",
+          "cuddly"
         ],
         "correct": 1,
         "explanation": {
-          "correct": "Answer: The bunny feels cuddly.. Bunny is the subject of the sentence.",
+          "correct": "Answer: The bunny. The complete subject tells who the sentence is about.",
           "incorrect": [
-            "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question.",
+            "Not: bunny. Bunny is the simple subject, but the complete subject includes The.",
             "",
-            "Not: The bunny fee ls cuddly.. Check the grammar or usage clue in the question.",
-            "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question."
+            "Not: feels cuddly. This is the predicate, not the subject.",
+            "Not: cuddly. This describes the bunny; it is not the subject."
           ]
         },
         "metadata": {
@@ -1526,6 +1708,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1584,6 +1773,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1643,6 +1839,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1702,6 +1906,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1761,6 +1973,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1820,6 +2040,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1879,6 +2107,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1939,7 +2175,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       }
     ],

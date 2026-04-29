@@ -15,10 +15,15 @@ const {
 const { CHUNKED_DOMAINS } = require('./question-chunk-config');
 const {
   buildQuestionChunkScript,
+  buildSubchunkDescriptors,
   getChunkedSets,
   getExpectedChunkRelativePath,
   writeQuestionChunks
 } = require('./generate-question-chunks');
+const {
+  buildQuestionSkillTags,
+  loadSkillTaxonomy
+} = require('./qa/question-skill-taxonomy');
 const {
   buildQuestionManifestProvenance,
   validateManifestProvenance
@@ -29,7 +34,8 @@ const DEFAULT_MANIFEST_PATH = path.join(repoRoot, 'assets', 'question-manifest.j
 const DEFAULT_MANIFEST_SCRIPT_PATH = path.join(repoRoot, 'assets', 'question-manifest.js');
 
 function generateManifest(bankLoad) {
-  const sets = flattenQuestionBanks(bankLoad).map(record => buildSetManifest(record));
+  const taxonomy = loadSkillTaxonomy();
+  const sets = flattenQuestionBanks(bankLoad).map(record => buildSetManifest(record, taxonomy));
   const totalQuestions = sets.reduce((sum, set) => sum + set.questionCount, 0);
 
   return {
@@ -40,11 +46,11 @@ function generateManifest(bankLoad) {
   };
 }
 
-function buildSetManifest(record) {
+function buildSetManifest(record, taxonomy) {
   const set = record.set || {};
   const questions = Array.isArray(set.questions) ? set.questions : [];
-  const questionManifests = questions.map((question, index) => buildQuestionManifest(question, index + 1));
   const domain = getDomain(record);
+  const questionManifests = questions.map((question, index) => buildQuestionManifest(question, index + 1, domain, taxonomy));
   const manifest = {
     id: record.setId,
     title: set.title || '',
@@ -53,18 +59,32 @@ function buildSetManifest(record) {
     questionCount: questionManifests.length,
     gradesSupported: getSupportedGrades(set, questionManifests),
     difficultiesSupported: getSupportedDifficulties(set, questionManifests),
+    skillCoverage: buildCoverage(questionManifests, 'skillIds', 'skillId'),
+    standardCoverage: buildCoverage(questionManifests, 'standardIds', 'standardId'),
     questions: questionManifests
   };
 
   if (CHUNKED_DOMAINS.has(domain)) {
-    manifest.chunkFile = getExpectedChunkRelativePath({ domain, setId: record.setId });
+    const chunks = buildSubchunkDescriptors({
+      domain,
+      setId: record.setId,
+      sourceFile: record.relativeFile,
+      set
+    });
+    if (chunks.length) {
+      manifest.chunks = chunks;
+      manifest.chunkFile = chunks[0].chunkFile;
+    } else {
+      manifest.chunkFile = getExpectedChunkRelativePath({ domain, setId: record.setId });
+    }
   }
 
   return manifest;
 }
 
-function buildQuestionManifest(question, fallbackSequence) {
+function buildQuestionManifest(question, fallbackSequence, domain, taxonomy) {
   const metadata = question && question.metadata || {};
+  const tags = buildQuestionSkillTags({ question, domain, taxonomy });
   const sequence = Number.isInteger(Number(metadata.sequence)) && Number(metadata.sequence) > 0
     ? Number(metadata.sequence)
     : fallbackSequence;
@@ -76,7 +96,9 @@ function buildQuestionManifest(question, fallbackSequence) {
     sequence,
     gradeLevels: normalizeSortedNumbers(metadata.gradeLevels),
     difficultyByGrade: sortObjectValues(metadata.difficultyByGrade),
-    skills: normalizeSortedStrings(metadata.skills)
+    skills: normalizeSortedStrings(metadata.skills),
+    skillIds: tags.skillIds,
+    standardIds: tags.standardIds
   };
 }
 
@@ -158,11 +180,33 @@ function buildIndexManifest(manifest) {
       topic: set.topic,
       domain: set.domain,
       chunkFile: set.chunkFile,
+      chunks: Array.isArray(set.chunks)
+        ? set.chunks.map(chunk => ({
+          chunkFile: chunk.chunkFile,
+          firstSequence: chunk.firstSequence,
+          lastSequence: chunk.lastSequence,
+          questionCount: chunk.questionCount
+        }))
+        : undefined,
       questionCount: set.questionCount,
       gradesSupported: set.gradesSupported,
-      difficultiesSupported: set.difficultiesSupported
+      difficultiesSupported: set.difficultiesSupported,
+      skillCoverage: set.skillCoverage,
+      standardCoverage: set.standardCoverage
     }))
   };
+}
+
+function buildCoverage(questions, property, keyName) {
+  const coverage = new Map();
+  questions.forEach(question => {
+    (Array.isArray(question[property]) ? question[property] : []).forEach(id => {
+      const current = coverage.get(id) || { [keyName]: id, questionCount: 0 };
+      current.questionCount += 1;
+      coverage.set(id, current);
+    });
+  });
+  return Array.from(coverage.values()).sort((a, b) => a[keyName].localeCompare(b[keyName]));
 }
 
 function getChunkedDomains() {

@@ -60,7 +60,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -112,7 +116,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -164,7 +172,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -216,7 +228,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -268,7 +284,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -320,7 +340,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -372,7 +396,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -424,7 +452,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -476,7 +508,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -528,7 +564,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -580,7 +620,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -632,7 +676,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -684,7 +732,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -736,7 +788,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -788,7 +844,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -840,7 +900,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -892,7 +956,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -944,7 +1012,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -996,7 +1068,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1048,7 +1124,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1100,7 +1180,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1152,7 +1236,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1204,7 +1292,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1256,7 +1348,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1308,7 +1404,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1360,7 +1460,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1412,7 +1516,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1464,7 +1572,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1516,7 +1628,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1568,7 +1684,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1620,7 +1740,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1672,7 +1796,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1724,7 +1852,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1776,7 +1908,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1828,7 +1964,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1880,7 +2020,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1932,7 +2076,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -1984,7 +2132,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2036,7 +2188,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2088,7 +2244,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2140,7 +2300,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2192,7 +2356,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2244,7 +2412,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 43
+          "sequence": 43,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2296,7 +2468,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2348,7 +2524,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2400,7 +2580,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 46
+          "sequence": 46,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2452,7 +2636,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 47
+          "sequence": 47,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2504,7 +2692,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2556,7 +2748,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2608,7 +2804,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2660,7 +2860,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2712,7 +2916,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2764,7 +2972,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 53
+          "sequence": 53,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2816,7 +3028,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2868,7 +3084,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2920,7 +3140,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -2972,7 +3196,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 57
+          "sequence": 57,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3024,7 +3252,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 58
+          "sequence": 58,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3076,7 +3308,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3128,7 +3364,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 60
+          "sequence": 60,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3180,7 +3420,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 61
+          "sequence": 61,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3232,7 +3476,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 62
+          "sequence": 62,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3284,7 +3532,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 63
+          "sequence": 63,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3336,7 +3588,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 64
+          "sequence": 64,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3388,7 +3644,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 65
+          "sequence": 65,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3440,7 +3700,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 66
+          "sequence": 66,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3492,7 +3756,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 67
+          "sequence": 67,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3544,7 +3812,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 68
+          "sequence": 68,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3596,7 +3868,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 69
+          "sequence": 69,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3648,7 +3924,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 70
+          "sequence": 70,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3700,7 +3980,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 71
+          "sequence": 71,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3752,7 +4036,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 72
+          "sequence": 72,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3804,7 +4092,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 73
+          "sequence": 73,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3856,7 +4148,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 74
+          "sequence": 74,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3908,7 +4204,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 75
+          "sequence": 75,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -3960,7 +4260,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 76
+          "sequence": 76,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4012,7 +4316,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 77
+          "sequence": 77,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4064,7 +4372,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 78
+          "sequence": 78,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4116,7 +4428,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 79
+          "sequence": 79,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4168,7 +4484,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 80
+          "sequence": 80,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4220,7 +4540,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 81
+          "sequence": 81,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4272,7 +4596,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4324,7 +4652,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 83
+          "sequence": 83,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4376,7 +4708,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 84
+          "sequence": 84,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4428,7 +4764,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 85
+          "sequence": 85,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4480,7 +4820,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 86
+          "sequence": 86,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4532,7 +4876,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 87
+          "sequence": 87,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4584,7 +4932,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 88
+          "sequence": 88,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4636,7 +4988,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 89
+          "sequence": 89,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4688,7 +5044,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 90
+          "sequence": 90,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4740,7 +5100,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 91
+          "sequence": 91,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4792,7 +5156,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 92
+          "sequence": 92,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4844,7 +5212,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 93
+          "sequence": 93,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4896,7 +5268,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 94
+          "sequence": 94,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -4948,7 +5324,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 95
+          "sequence": 95,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5000,7 +5380,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 96
+          "sequence": 96,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5052,7 +5436,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 97
+          "sequence": 97,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5104,7 +5492,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 98
+          "sequence": 98,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5156,7 +5548,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 99
+          "sequence": 99,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5208,7 +5604,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 100
+          "sequence": 100,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5260,7 +5660,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5312,7 +5716,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 102
+          "sequence": 102,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5364,7 +5772,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 103
+          "sequence": 103,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5416,7 +5828,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 104
+          "sequence": 104,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5468,7 +5884,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 105
+          "sequence": 105,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5520,7 +5940,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 106
+          "sequence": 106,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5572,7 +5996,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 107
+          "sequence": 107,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5624,7 +6052,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 108
+          "sequence": 108,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5676,7 +6108,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 109
+          "sequence": 109,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5728,7 +6164,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 110
+          "sequence": 110,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5780,7 +6220,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 111
+          "sequence": 111,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5832,7 +6276,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 112
+          "sequence": 112,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5884,7 +6332,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 113
+          "sequence": 113,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5936,7 +6388,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 114
+          "sequence": 114,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -5988,7 +6444,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 115
+          "sequence": 115,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6040,7 +6500,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 116
+          "sequence": 116,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6092,7 +6556,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 117
+          "sequence": 117,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6144,7 +6612,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 118
+          "sequence": 118,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6196,7 +6668,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 119
+          "sequence": 119,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6248,7 +6724,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 120
+          "sequence": 120,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6300,7 +6780,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 121
+          "sequence": 121,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6352,7 +6836,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 122
+          "sequence": 122,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6404,7 +6892,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 123
+          "sequence": 123,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6456,7 +6948,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 124
+          "sequence": 124,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6508,7 +7004,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 125
+          "sequence": 125,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6560,7 +7060,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 126
+          "sequence": 126,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6612,7 +7116,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 127
+          "sequence": 127,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6664,7 +7172,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 128
+          "sequence": 128,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6716,7 +7228,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 129
+          "sequence": 129,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6768,7 +7284,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 130
+          "sequence": 130,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6820,7 +7340,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 131
+          "sequence": 131,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6872,7 +7396,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 132
+          "sequence": 132,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6924,7 +7452,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 133
+          "sequence": 133,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -6976,7 +7508,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 134
+          "sequence": 134,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7028,7 +7564,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 135
+          "sequence": 135,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7080,7 +7620,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 136
+          "sequence": 136,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7132,7 +7676,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 137
+          "sequence": 137,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7184,7 +7732,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 138
+          "sequence": 138,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7236,7 +7788,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 139
+          "sequence": 139,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7288,7 +7844,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 140
+          "sequence": 140,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7340,7 +7900,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 141
+          "sequence": 141,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7392,7 +7956,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 142
+          "sequence": 142,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7444,7 +8012,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 143
+          "sequence": 143,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7496,7 +8068,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 144
+          "sequence": 144,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7548,7 +8124,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 145
+          "sequence": 145,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7600,7 +8180,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 146
+          "sequence": 146,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7652,7 +8236,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 147
+          "sequence": 147,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7704,7 +8292,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 148
+          "sequence": 148,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7756,7 +8348,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 149
+          "sequence": 149,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7808,7 +8404,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 150
+          "sequence": 150,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7860,7 +8460,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 151
+          "sequence": 151,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7912,7 +8516,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 152
+          "sequence": 152,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -7964,7 +8572,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 153
+          "sequence": 153,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8016,7 +8628,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 154
+          "sequence": 154,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8068,7 +8684,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 155
+          "sequence": 155,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8120,7 +8740,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 156
+          "sequence": 156,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8172,7 +8796,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 157
+          "sequence": 157,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8224,7 +8852,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 158
+          "sequence": 158,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8276,7 +8908,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 159
+          "sequence": 159,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8328,7 +8964,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 160
+          "sequence": 160,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8380,7 +9020,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 161
+          "sequence": 161,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8432,7 +9076,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 162
+          "sequence": 162,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8484,7 +9132,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 163
+          "sequence": 163,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8536,7 +9188,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 164
+          "sequence": 164,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8588,7 +9244,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 165
+          "sequence": 165,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8640,7 +9300,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 166
+          "sequence": 166,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8692,7 +9356,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 167
+          "sequence": 167,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8744,7 +9412,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 168
+          "sequence": 168,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8796,7 +9468,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 169
+          "sequence": 169,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8848,7 +9524,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 170
+          "sequence": 170,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8900,7 +9580,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 171
+          "sequence": 171,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -8952,7 +9636,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 172
+          "sequence": 172,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9004,7 +9692,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 173
+          "sequence": 173,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9056,7 +9748,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 174
+          "sequence": 174,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9108,7 +9804,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 175
+          "sequence": 175,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9160,7 +9860,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 176
+          "sequence": 176,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9212,7 +9916,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 177
+          "sequence": 177,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9264,7 +9972,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 178
+          "sequence": 178,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9316,7 +10028,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 179
+          "sequence": 179,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9368,7 +10084,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-compare-contrast",
-          "sequence": 180
+          "sequence": 180,
+          "skillIds": [],
+          "standardIds": [
+            "RI/RL.3-6.9"
+          ]
         }
       },
       {
@@ -9429,6 +10149,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9490,6 +10217,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9551,6 +10285,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9612,6 +10353,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9673,6 +10421,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9734,6 +10489,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9795,6 +10557,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9856,6 +10625,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9917,6 +10693,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -9978,6 +10761,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -10039,6 +10829,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       }

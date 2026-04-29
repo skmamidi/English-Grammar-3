@@ -62,7 +62,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -116,7 +118,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -170,7 +174,9 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -224,7 +230,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -278,7 +286,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -332,7 +342,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -386,7 +398,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -440,7 +454,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -494,7 +510,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -548,7 +566,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -602,7 +622,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -656,7 +678,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -710,7 +734,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -764,7 +790,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -809,7 +837,9 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-modifier-words",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [],
+          "standardIds": []
         },
         "explanation": {
           "correct": "Answer: The class almost finished the mural before lunch. A modifier should be placed close to the word or phrase it describes.",

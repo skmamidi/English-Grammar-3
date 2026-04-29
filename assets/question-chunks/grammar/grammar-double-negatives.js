@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -839,7 +937,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-double-negatives",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         },
         "explanation": {
           "correct": "Answer: We did not see anybody near the gate. A double negative uses two negative words where standard English usually needs one.",
@@ -906,6 +1011,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -964,6 +1076,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1022,6 +1141,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       }

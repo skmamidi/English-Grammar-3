@@ -2,7 +2,7 @@
  * English Language Quiz App - punctuation chunk: punctuation-quotation-marks
  * Generated from assets/question-bank-source/punctuation.json.
  * Generator version: 1.
- * Source hash: sha256:3752d777e926c634d79eddd1c0f96ec694bf3ab3691b80d5e5b9348eefb7c4c2.
+ * Source hash: sha256:c4f872375e071cfad5e8d5525986e689fff256a1f8d63bbdd42cf79a9498f5ec.
  */
 (function () {
   'use strict';
@@ -64,7 +64,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -120,7 +126,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -176,7 +188,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -232,7 +250,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -288,7 +312,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -344,7 +374,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -400,7 +436,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -456,7 +498,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -512,7 +560,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -568,7 +622,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -624,7 +684,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -680,7 +746,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -736,7 +808,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -792,7 +870,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -839,7 +923,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-quotation-marks",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         },
         "explanation": {
           "correct": "Answer: \"I found the map,\" said Nora, \"but the trail is missing.\". When a speaker tag interrupts one quoted sentence, use commas and keep the second part lowercase unless it begins a proper noun.",
@@ -909,7 +999,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -970,7 +1066,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1031,28 +1133,34 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
         "id": "punctuation-quotation-marks-q0022",
         "version": 1,
-        "contentHash": "sha256:b194c5fddd107a224e4ed1c652a0638be512cec5c46982fb3e0dffd8ce36a97d",
+        "contentHash": "sha256:11d25f8cdab5306d57ba59dba568e057f84ba87990ca685037774086f9659bb0",
         "question": "Read the following paragraph and determine which sentence has the incorrect punctuation of direct speech. (1) (2) I was so excited for the first day of school. My alarm went off, and I jumped out of bed. n’t forget to brush your teeth before you come downstairs” mom said. (3) “Do (4) “Where’s my toothbrush?” I replied back.",
         "choices": [
           "Sentence 1",
-          "Sentence",
-          "Sentence",
-          "Sentence"
+          "Sentence 2",
+          "Sentence 3",
+          "Sentence 4"
         ],
         "correct": 2,
         "explanation": {
-          "correct": "Answer: Sentence. Sentence 3; Sentence 3 is incorrect because there should be a comma inside the ending quotation mark.",
+          "correct": "Answer: Sentence 3. The direct speech is incorrectly punctuated and split from the speaker tag.",
           "incorrect": [
-            "Not: Sentence 1. Use the mechanics rule and sentence context to check this choice.",
-            "Not: Sentence. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Sentence 1. This sentence is not the direct-speech punctuation error.",
+            "Not: Sentence 2. This sentence is not the direct-speech punctuation error.",
             "",
-            "Not: Sentence. Use the mechanics rule and sentence context to check this choice."
+            "Not: Sentence 4. The quotation marks around the question are punctuated correctly."
           ]
         },
         "studyAid": {
@@ -1092,7 +1200,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1153,7 +1267,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1214,7 +1334,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1275,7 +1401,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1336,7 +1468,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1397,7 +1535,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 65
+          "sequence": 65,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1458,7 +1602,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 71
+          "sequence": 71,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1519,7 +1669,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 75
+          "sequence": 75,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1580,7 +1736,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1641,7 +1803,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 85
+          "sequence": 85,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1702,28 +1870,34 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 92
+          "sequence": 92,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
         "id": "punctuation-quotation-marks-q0102",
         "version": 1,
-        "contentHash": "sha256:e5e4191d8813fdff0365ca744c168caf1019eda0a9f44303825624dcd43f878b",
+        "contentHash": "sha256:afe729a62a77402e03c996b361f320e19022178ca0124f4e2aee12ae4ba03a43",
         "question": "Read the following paragraph and determine which sentence has the incorrect punctuation of direct speech. (1) I got to basketball practice late, because my alarm didn’t go off. (2) “Run laps,” my coach said. (3) “Do I really have to I asked him.” (4) My coach responded, “Yes, get on? the court!”",
         "choices": [
           "Sentence 1",
-          "Sentence",
-          "Sentence",
-          "Sentence"
+          "Sentence 2",
+          "Sentence 3",
+          "Sentence 4"
         ],
         "correct": 2,
         "explanation": {
-          "correct": "Answer: Sentence. Sentence 3; Sentence 3 is incorrect because the entire sentence is i n quotation marks. Do I really have to I asked him. Only the direct speech should be: “?”",
+          "correct": "Answer: Sentence 3. The quoted question should keep the question mark inside the quotation marks before the speaker tag.",
           "incorrect": [
-            "Not: Sentence 1. Use the mechanics rule and sentence context to check this choice.",
-            "Not: Sentence. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Sentence 1. This sentence is not the direct-speech punctuation error.",
+            "Not: Sentence 2. This command is punctuated correctly as direct speech.",
             "",
-            "Not: Sentence. Use the mechanics rule and sentence context to check this choice."
+            "Not: Sentence 4. This choice is not the sentence with the quoted question error."
           ]
         },
         "studyAid": {
@@ -1763,7 +1937,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 102
+          "sequence": 102,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1824,7 +2004,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 113
+          "sequence": 113,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1885,7 +2071,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1946,7 +2138,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 116
+          "sequence": 116,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2007,7 +2205,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 131
+          "sequence": 131,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2068,7 +2272,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 209
+          "sequence": 209,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2129,7 +2339,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 218
+          "sequence": 218,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       }
     ],

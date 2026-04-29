@@ -2,7 +2,7 @@
  * English Language Quiz App - grammar chunk: grammar-friendly-letter
  * Generated from assets/question-bank-source/grammar.json.
  * Generator version: 1.
- * Source hash: sha256:fb20c08f243648846a57a8b9ff597ba275421ee3bfa203e4767599e47d812e52.
+ * Source hash: sha256:e329fe721d3db061ded31e4cb7a3a2eea6be66623aa36cc96f08a185739add8f.
  */
 (function () {
   'use strict';
@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1128,7 +1261,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1184,7 +1324,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1240,7 +1387,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1296,7 +1450,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-friendly-letter",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1354,27 +1515,33 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
       {
         "id": "grammar-friendly-letter-q0025",
         "version": 1,
-        "contentHash": "sha256:b74bce65a5a1f698d0c73de31393785beb51d0d678f6a2bd9a719b099752e834",
+        "contentHash": "sha256:1dba4e5804d3ec91f304261e9d5d4838597626caed7e321ea596853eaa1a0fc2",
         "question": "Which greeting is written correctly?",
         "choices": [
           "Dear Susie, Will you come and spend the night with me.",
           "dear Susie, Will you come and spend the night with me?",
-          "dear Susie, Will you come and spend the night with me?",
+          "Dear Susie Will you come and spend the night with me?",
           "Dear Susie, Will you come and spend the night with me?"
         ],
         "correct": 3,
         "explanation": {
-          "correct": "Answer: Dear Susie, Will you come and spend the night with me?. Dear Susie, Will you come and spend the night with me?",
+          "correct": "Answer: Dear Susie, Will you come and spend the night with me? The greeting starts with a capital letter, uses a comma after the name, and ends the question with a question mark.",
           "incorrect": [
-            "Not: Dear Susie, Will you come and spend the night with me.. Check the capitalization, punctuation, or spelling clue in the question.",
-            "Not: dear Susie, Will you come and spend the night with me?. Check the capitalization, punctuation, or spelling clue in the question.",
-            "Not: dear Susie, Will you come and spend the night with me?. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Dear Susie, Will you come and spend the night with me. A question should end with a question mark.",
+            "Not: dear Susie, Will you come and spend the night with me? The greeting should begin with a capital letter.",
+            "Not: Dear Susie Will you come and spend the night with me? The greeting needs a comma after Susie.",
             ""
           ]
         },
@@ -1412,6 +1579,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1470,6 +1643,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1528,6 +1707,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1586,6 +1771,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1644,6 +1835,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -1703,6 +1900,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1762,6 +1967,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1821,6 +2034,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1880,6 +2101,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1939,6 +2168,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -1998,6 +2235,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -2057,6 +2302,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -2116,6 +2369,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       }

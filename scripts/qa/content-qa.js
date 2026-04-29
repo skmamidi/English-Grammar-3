@@ -13,6 +13,10 @@ const {
   buildQuestionId,
   computeContentHash
 } = require('./question-metadata');
+const {
+  loadSkillTaxonomy,
+  validateQuestionSkillTags
+} = require('./question-skill-taxonomy');
 
 function validateContent(options = {}) {
   const bankLoad = loadQuestionBanks(options);
@@ -21,6 +25,7 @@ function validateContent(options = {}) {
 
 function validateLoadedContent(bankLoad, options = {}) {
   const issues = [];
+  const taxonomy = options.taxonomy || loadSkillTaxonomy();
   const sets = flattenQuestionBanks(bankLoad);
   const questions = flattenQuestions(bankLoad);
 
@@ -35,7 +40,7 @@ function validateLoadedContent(bankLoad, options = {}) {
   });
 
   sets.forEach(record => validateSet(record, issues));
-  questions.forEach(record => validateQuestion(record, issues));
+  questions.forEach(record => validateQuestion(record, issues, taxonomy));
   validateUniqueQuestionKeys(sets, issues);
   validateStableQuestionIdentity(sets, issues);
   runContentQualityRules(sets, questions, issues, options);
@@ -104,7 +109,7 @@ const QUALITY_RULES = [{
   }
 }, {
   id: 'duplicate-choice',
-  defaultSeverity: 'warning',
+  defaultSeverity: 'error',
   scope: 'question',
   run(record, issues) {
     const question = record.question || {};
@@ -122,7 +127,7 @@ const QUALITY_RULES = [{
   }
 }, {
   id: 'duplicate-correct-answer-text',
-  defaultSeverity: 'warning',
+  defaultSeverity: 'error',
   scope: 'question',
   run(record, issues) {
     const question = record.question || {};
@@ -136,6 +141,17 @@ const QUALITY_RULES = [{
     if (duplicateIndexes.length) {
       addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), `Correct answer text is duplicated at choice ${duplicateIndexes.join(', ')}.`, this.id, getQuestionId(question));
     }
+  }
+}, {
+  id: 'missing-underlined-choice-target',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    const prompt = String(question.question || '');
+    if (!isChoiceBasedUnderlinedPrompt(prompt)) return;
+    if (getUnderlineChoiceTargets(prompt, question.choices).length) return;
+    addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Prompt refers to underlined word choices, but none of the answer choices can be found in the sentence for underlining.', this.id, getQuestionId(question));
   }
 }, {
   id: 'placeholder-text',
@@ -326,7 +342,7 @@ function validateSet(record, issues) {
   }
 }
 
-function validateQuestion(record, issues) {
+function validateQuestion(record, issues, taxonomy) {
   const question = record.question || {};
   const location = questionLocation(question, record.questionNumber - 1);
   if (!question.question || typeof question.question !== 'string') {
@@ -368,6 +384,15 @@ function validateQuestion(record, issues) {
       }
     });
   }
+  const taxonomyResult = validateQuestionSkillTags({
+    question,
+    domain: record.domain,
+    setId: record.setId,
+    taxonomy
+  });
+  taxonomyResult.errors.forEach(error => {
+    addIssue(issues, 'error', record.file, record.setId, location, error, 'question-skill-taxonomy', getQuestionId(question));
+  });
 }
 
 function validateUniqueQuestionKeys(sets, issues) {
@@ -410,6 +435,48 @@ function normalizeText(value) {
 
 function normalizeChoiceText(value) {
   return String(value || '').trim().replace(/\s+/g, ' ');
+}
+
+function isChoiceBasedUnderlinedPrompt(prompt) {
+  const text = String(prompt || '');
+  if (!/\bwhich\b[\s\S]{0,80}\bunderlined\s+wo\s*rds?\b/i.test(text)) return false;
+  if (/\b(used in place|replace|same meaning|means?|meaning|definition|synonym|antonym)\b/i.test(text)) return false;
+  const searchText = getUnderlineSearchText(text);
+  return /\w/.test(searchText);
+}
+
+function getUnderlineChoiceTargets(prompt, choices) {
+  const body = getUnderlineSearchText(prompt);
+  const seen = new Set();
+  return (Array.isArray(choices) ? choices : [])
+    .flatMap(getUnderlineChoiceCandidates)
+    .filter(choice => choice && !/^correct as is\.?$/i.test(choice) && choice.length <= 80)
+    .filter(choice => {
+      const key = normalizeChoiceText(choice).toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return buildFlexibleWordRegExp(choice).test(body);
+    });
+}
+
+function getUnderlineSearchText(prompt) {
+  const text = String(prompt || '');
+  const questionIndex = text.indexOf('?');
+  return questionIndex >= 0 ? text.slice(questionIndex + 1) : text;
+}
+
+function getUnderlineChoiceCandidates(choice) {
+  const text = normalizeChoiceText(choice);
+  if (!text) return [];
+  const parts = text.split(/\s*,\s*/).map(part => part.trim()).filter(Boolean);
+  return parts.length > 1 ? parts.concat(text) : [text];
+}
+
+function buildFlexibleWordRegExp(value) {
+  const pattern = normalizeChoiceText(value)
+    .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    .replace(/\s+/g, '\\s+');
+  return new RegExp(`(^|(?<=\\W))${pattern}(?=$|\\W)`, 'i');
 }
 
 function addIssue(issues, level, file, setId, location, message, ruleId = '', questionId = '') {

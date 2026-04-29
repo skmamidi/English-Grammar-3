@@ -64,7 +64,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -120,7 +126,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -176,7 +188,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -232,7 +250,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -288,7 +312,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -344,7 +374,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -400,7 +436,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -456,7 +498,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -512,7 +560,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -568,7 +622,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -624,7 +684,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -680,7 +746,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -736,7 +808,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -792,7 +870,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -848,7 +932,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-colon-time",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       }
     ],

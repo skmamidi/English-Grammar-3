@@ -64,7 +64,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -120,7 +126,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -176,7 +188,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -232,7 +250,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -288,7 +312,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -344,7 +374,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -400,7 +436,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -456,7 +498,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -512,7 +560,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -568,7 +622,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -624,7 +684,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -680,7 +746,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -736,7 +808,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -792,7 +870,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -848,7 +932,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "punctuation-end-sentence",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -906,6 +996,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -964,6 +1060,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1022,6 +1124,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1080,6 +1188,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1138,6 +1252,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1196,6 +1316,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1254,6 +1380,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1312,6 +1444,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1371,6 +1509,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1430,6 +1574,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1489,6 +1639,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1548,6 +1704,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1609,7 +1771,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1670,7 +1838,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1731,7 +1905,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1792,7 +1972,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1853,7 +2039,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1914,7 +2106,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1975,7 +2173,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2036,7 +2240,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2097,7 +2307,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2158,7 +2374,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2219,7 +2441,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2280,7 +2508,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2341,7 +2575,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2402,7 +2642,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2463,7 +2709,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2524,7 +2776,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 57
+          "sequence": 57,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2585,7 +2843,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 61
+          "sequence": 61,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2646,7 +2910,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 62
+          "sequence": 62,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2707,7 +2977,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 64
+          "sequence": 64,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2768,7 +3044,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 69
+          "sequence": 69,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2829,7 +3111,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 72
+          "sequence": 72,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2890,7 +3178,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 86
+          "sequence": 86,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2951,7 +3245,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 94
+          "sequence": 94,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3012,7 +3312,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 95
+          "sequence": 95,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3073,7 +3379,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 105
+          "sequence": 105,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3134,7 +3446,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 115
+          "sequence": 115,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3195,7 +3513,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3256,7 +3580,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3317,7 +3647,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 58
+          "sequence": 58,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3378,7 +3714,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3439,7 +3781,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 65
+          "sequence": 65,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3500,7 +3848,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 60
+          "sequence": 60,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3561,7 +3915,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 107
+          "sequence": 107,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3622,7 +3982,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 118
+          "sequence": 118,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3683,7 +4049,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 167
+          "sequence": 167,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3744,7 +4116,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 197
+          "sequence": 197,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3805,7 +4183,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 206
+          "sequence": 206,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3866,7 +4250,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 212
+          "sequence": 212,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3927,7 +4317,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 227
+          "sequence": 227,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -3988,7 +4384,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 239
+          "sequence": 239,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -4049,7 +4451,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 242
+          "sequence": 242,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -4110,7 +4518,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 245
+          "sequence": 245,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -4171,7 +4585,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 248
+          "sequence": 248,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -4232,7 +4652,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 251
+          "sequence": 251,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -4293,7 +4719,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 299
+          "sequence": 299,
+          "skillIds": [
+            "punctuation.conventions"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       }
     ],

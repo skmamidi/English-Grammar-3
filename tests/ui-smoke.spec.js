@@ -895,6 +895,8 @@ async function assertReportsPage(page, baseURL) {
             correct: true,
             firstAttemptCorrect: true,
             skills: ['sentence types'],
+            skillIds: ['grammar.sentence-analysis'],
+            standardIds: ['L.3-6.1'],
             subtopicId: 'grammar-sentence-types',
             subtopicTitle: 'Sentence Types'
           }, {
@@ -910,6 +912,8 @@ async function assertReportsPage(page, baseURL) {
             correct: true,
             firstAttemptCorrect: true,
             skills: ['sentence types'],
+            skillIds: ['grammar.sentence-analysis'],
+            standardIds: ['L.3-6.1'],
             subtopicId: 'grammar-sentence-types',
             subtopicTitle: 'Sentence Types'
           }]
@@ -1109,8 +1113,9 @@ async function assertChunkBackedSubtopicRequests(page, requests, file, expected)
     requests.some(url => url.endsWith('/assets/question-loader.js')),
     `${file} should request the loader abstraction`
   );
+  const expectedChunkFiles = getExpectedChunkFiles(expected.chunkFile);
   assert.ok(
-    requests.some(url => url.endsWith(`/${expected.chunkFile}`)),
+    requests.some(url => expectedChunkFiles.some(chunkFile => url.endsWith(`/${chunkFile}`))),
     `${file} should request its ${expected.domain} chunk`
   );
   assert.equal(
@@ -1118,6 +1123,18 @@ async function assertChunkBackedSubtopicRequests(page, requests, file, expected)
     false,
     `${file} should not request any full question bank`
   );
+}
+
+function getExpectedChunkFiles(chunkFile) {
+  const manifest = questionManifest;
+  const subchunkPrefix = chunkFile.replace(/\.js$/, '-');
+  const entry = (manifest.sets || []).find(set => {
+    return set.chunkFile === chunkFile ||
+      set.chunkFile === chunkFile.replace(/\.js$/, '-001.js') ||
+      (Array.isArray(set.chunks) && set.chunks.some(chunk => chunk.chunkFile === chunkFile || chunk.chunkFile.startsWith(subchunkPrefix)));
+  });
+  if (entry && Array.isArray(entry.chunks) && entry.chunks.length) return entry.chunks.map(chunk => chunk.chunkFile);
+  return [chunkFile];
 }
 
 async function assertLoaderBackedResume(page, file) {

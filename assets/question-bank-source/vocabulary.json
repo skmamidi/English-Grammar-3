@@ -33448,22 +33448,22 @@
         {
           "id": "vocabulary-spelling-q0110",
           "version": 1,
-          "contentHash": "sha256:7a47ae5e52fee3f360fb8689c873e1e877277fbe4886f46ee0e2fc61c689b71d",
+          "contentHash": "sha256:718d8064ae68015409803ad4020d643be62ac1983340fd7bc96925e67d34dc01",
           "question": "Which word is spelled correctly?",
           "choices": [
-            "anonymous",
+            "annonymous",
             "anonimous",
             "anonymous",
             "anonimus"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: anonymous. anonymous",
+            "correct": "Answer: anonymous. Anonymous is spelled a-n-o-n-y-m-o-u-s.",
             "incorrect": [
-              "Not: anonymous. Check the capitalization, punctuation, or spelling clue in the question.",
-              "Not: anonimous. Check the capitalization, punctuation, or spelling clue in the question.",
+              "Not: annonymous. Anonymous has one n after the initial a.",
+              "Not: anonimous. The middle vowel pattern should be y-m-o-u-s.",
               "",
-              "Not: anonimus. Check the capitalization, punctuation, or spelling clue in the question."
+              "Not: anonimus. The ending should be -ymous."
             ]
           },
           "metadata": {
@@ -89223,21 +89223,21 @@
         {
           "id": "vocabulary-syllables-decoding-q0183",
           "version": 1,
-          "contentHash": "sha256:a92d85eedfc0c874cdca658b174521e9cb8b7a4121eedadbd84fd0cd42e26c03",
+          "contentHash": "sha256:e7647af77814966a835b2808a4f76316a31e65e0ef205dee0bdfeff42ffdf5cc",
           "question": "What is the correct syllabication of the word “computer”?",
           "choices": [
             "com-put-er",
-            "com-pu-ter",
+            "co-mpu-ter",
             "comp-uter",
             "com-pu-ter"
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: com-pu-ter. com- -ter; Computer an electronic device for storing and processing data. pu –",
+            "correct": "Answer: com-pu-ter. Computer has three syllables: com, pu, and ter.",
             "incorrect": [
-              "Not: com-put-er. Use the word clue, word part, or usage rule to check this choice.",
-              "Not: com-pu-ter. Use the word clue, word part, or usage rule to check this choice.",
-              "Not: comp-uter. Use the word clue, word part, or usage rule to check this choice.",
+              "Not: com-put-er. This split incorrectly groups put as the middle syllable.",
+              "Not: co-mpu-ter. This split breaks the first two syllables in the wrong place.",
+              "Not: comp-uter. This split leaves only two syllables.",
               ""
             ]
           },

@@ -7,6 +7,10 @@ const {
   buildQuestionId,
   computeContentHash
 } = require('./question-metadata');
+const {
+  loadSkillTaxonomy,
+  validateQuestionSkillTags
+} = require('./question-skill-taxonomy');
 const { CHUNK_MIGRATION_ORDER } = require('../question-chunk-config');
 
 const VALID_GRADES = new Set([3, 4, 5, 6]);
@@ -17,6 +21,7 @@ function validateQuestionSourceFiles(options = {}) {
   const root = options.repoRoot || repoRoot;
   const files = options.files || getJsonBankFiles(root);
   const errors = [];
+  const taxonomy = options.taxonomy || loadSkillTaxonomy();
   const seenQuestionIds = new Map();
   let setCount = 0;
   let questionCount = 0;
@@ -36,6 +41,7 @@ function validateQuestionSourceFiles(options = {}) {
       file,
       relativeFile,
       errors,
+      taxonomy,
       seenQuestionIds,
       counters: {
         addSet() { setCount += 1; },
@@ -52,7 +58,7 @@ function validateQuestionSourceFiles(options = {}) {
   };
 }
 
-function validateDomainSource({ source, file, relativeFile, errors, seenQuestionIds, counters }) {
+function validateDomainSource({ source, file, relativeFile, errors, taxonomy, seenQuestionIds, counters }) {
   const expectedDomain = path.basename(file, '.json');
   const label = relativeFile || file;
 
@@ -89,13 +95,14 @@ function validateDomainSource({ source, file, relativeFile, errors, seenQuestion
       set,
       relativeFile: label,
       errors,
+      taxonomy,
       seenQuestionIds,
       counters
     });
   });
 }
 
-function validateSet({ source, setId, set, relativeFile, errors, seenQuestionIds, counters }) {
+function validateSet({ source, setId, set, relativeFile, errors, taxonomy, seenQuestionIds, counters }) {
   const label = `${relativeFile} | ${setId}`;
   if (!set || typeof set !== 'object' || Array.isArray(set)) {
     errors.push(`${label}: set must be an object.`);
@@ -125,6 +132,7 @@ function validateSet({ source, setId, set, relativeFile, errors, seenQuestionIds
       setId,
       relativeFile,
       errors,
+      taxonomy,
       seenQuestionIds,
       setQuestionIds,
       sequences
@@ -132,7 +140,7 @@ function validateSet({ source, setId, set, relativeFile, errors, seenQuestionIds
   });
 }
 
-function validateQuestion({ question, index, setId, relativeFile, errors, seenQuestionIds, setQuestionIds, sequences }) {
+function validateQuestion({ question, index, setId, relativeFile, errors, taxonomy, seenQuestionIds, setQuestionIds, sequences }) {
   const metadata = question && question.metadata || {};
   const sequence = Number(metadata.sequence);
   const questionLabel = `${relativeFile} | ${setId} | ${question && question.id || `question ${index + 1}`}`;
@@ -144,6 +152,7 @@ function validateQuestion({ question, index, setId, relativeFile, errors, seenQu
 
   validateQuestionIdentity({ question, metadata, sequence, setId, questionLabel, errors, seenQuestionIds, setQuestionIds, sequences });
   validateQuestionShape({ question, metadata, setId, questionLabel, errors });
+  validateQuestionTaxonomy({ question, setId, questionLabel, taxonomy, errors });
   validateQuestionHash({ question, questionLabel, errors });
 }
 
@@ -229,6 +238,18 @@ function validateQuestionShape({ question, metadata, questionLabel, errors }) {
   }
 }
 
+function validateQuestionTaxonomy({ question, setId, questionLabel, taxonomy, errors }) {
+  const result = validateQuestionSkillTags({
+    question,
+    domain: getDomainFromSetId(setId),
+    setId,
+    taxonomy
+  });
+  result.errors.forEach(error => {
+    errors.push(`${questionLabel}: ${error.split(' | ').pop()}`);
+  });
+}
+
 function validateQuestionHash({ question, questionLabel, errors }) {
   if (!question.contentHash) {
     errors.push(`${questionLabel}: contentHash is required.`);
@@ -258,5 +279,9 @@ function runCli() {
 module.exports = {
   validateQuestionSourceFiles
 };
+
+function getDomainFromSetId(setId) {
+  return CHUNK_MIGRATION_ORDER.find(domain => String(setId || '').startsWith(`${domain}-`)) || String(setId || '').split('-')[0];
+}
 
 if (require.main === module) runCli();

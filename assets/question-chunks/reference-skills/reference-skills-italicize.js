@@ -2,7 +2,7 @@
  * English Language Quiz App - reference-skills chunk: reference-skills-italicize
  * Generated from assets/question-bank-source/reference-skills.json.
  * Generator version: 1.
- * Source hash: sha256:c4ca7846c1c8fcba832bccbb26322881f2173f53f14aab315f2fc62c2f8aa738.
+ * Source hash: sha256:9f53f47c88c29a1cf9eb1ba0cb8660afee21ae8b41c1ba61e1b63a6a658a377b.
  */
 (function () {
   'use strict';
@@ -64,7 +64,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -120,7 +126,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -176,7 +188,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -232,7 +250,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -288,7 +312,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -344,7 +374,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -400,7 +436,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -456,7 +498,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -512,7 +560,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -568,7 +622,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -624,7 +684,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -680,7 +746,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -736,7 +808,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -792,7 +870,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -848,7 +932,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-italicize",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -906,6 +996,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -964,27 +1060,33 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
       {
         "id": "reference-skills-italicize-q0018",
         "version": 1,
-        "contentHash": "sha256:39457600687f4e7617c465dcb5476fd106f4bc038a1021eba8c1836832488252",
+        "contentHash": "sha256:bfdb31c7049c6f8762e9da9f11327d9e6471a9e2926261429a0ad47cc3a3ca10",
         "question": "Which sentence correctly punctuates the movie title?",
         "choices": [
           "Jaws was a scary movie when it first came out.",
           "“Jaws” was a scary movie when it first came out.",
-          "Jaws was a scary movie when it first came out.",
-          "was a scary movie when it first came out."
+          "/Jaws/ was a scary movie when it first came out.",
+          "*Jaws* was a scary movie when it first came out."
         ],
         "correct": 3,
         "explanation": {
-          "correct": "Answer: was a scary movie when it first came out.. was a scary movie when it first came out. Movie titles are italicized.",
+          "correct": "Answer: *Jaws* was a scary movie when it first came out. Movie titles are italicized.",
           "incorrect": [
-            "Not: Jaws was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
-            "Not: “Jaws” was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
-            "Not: Jaws was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
+            "Not: Jaws was a scary movie when it first came out. A movie title should be italicized.",
+            "Not: “Jaws” was a scary movie when it first came out. Movie titles use italics, not quotation marks.",
+            "Not: /Jaws/ was a scary movie when it first came out. Slashes do not show standard italics.",
             ""
           ]
         },
@@ -1022,6 +1124,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1080,6 +1188,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1138,6 +1252,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1196,6 +1316,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1254,6 +1380,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1313,6 +1445,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1372,6 +1510,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       }

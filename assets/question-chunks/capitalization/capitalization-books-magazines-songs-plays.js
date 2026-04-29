@@ -65,7 +65,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -122,7 +128,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -179,7 +191,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -236,7 +254,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -293,7 +317,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -350,7 +380,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -407,7 +443,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -464,7 +506,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -521,7 +569,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -578,7 +632,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -635,7 +695,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -692,7 +758,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -749,7 +821,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -806,7 +884,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -863,7 +947,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-books-magazines-songs-plays",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -921,6 +1011,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -979,6 +1075,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1037,6 +1139,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1095,6 +1203,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1153,6 +1267,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1211,6 +1331,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       }

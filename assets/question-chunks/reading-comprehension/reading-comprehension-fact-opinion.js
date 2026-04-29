@@ -2,7 +2,7 @@
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-fact-opinion
  * Generated from assets/question-bank-source/reading-comprehension.json.
  * Generator version: 1.
- * Source hash: sha256:c1ceeea7d3be5ff87e1e391456d1ed689909890bc3cb87a948b27ee46e129baf.
+ * Source hash: sha256:a504ac46ea83411a2947a79689c12a9bb614c421db4dd521209e9152010200d6.
  */
 (function () {
   'use strict';
@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1128,7 +1261,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1184,7 +1324,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1240,7 +1387,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1296,7 +1450,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1352,7 +1513,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1408,7 +1576,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1464,7 +1639,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1520,7 +1702,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1576,7 +1765,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1632,7 +1828,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-opinion",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1693,6 +1896,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1754,6 +1964,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1815,6 +2032,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1876,6 +2100,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1937,6 +2168,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1998,6 +2236,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2059,6 +2304,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2120,6 +2372,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2181,6 +2440,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2242,6 +2508,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2303,6 +2576,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2364,6 +2644,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2425,28 +2712,35 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
       {
         "id": "reading-comprehension-fact-opinion-q0161",
         "version": 1,
-        "contentHash": "sha256:2aad4aadf3f076baa1a41dd130344c0fbd546ea26600796760541913d1626692",
+        "contentHash": "sha256:34b9781c942f847417fc246769a8143a51de98977187eb7d7fbf436c04b22f02",
         "question": "Read the sentences and answer the questions. 1. The Pacific Ocean is the most beautiful ocean. 2. Cars are more convenient thantrucks. 3. All politicians are dishonest. 4. Denver is the capital of Colorado. Whic sentence tells a fact, not an opinion? h",
         "choices": [
           "sentence 1",
-          "sentence",
-          "sentence",
-          "sentence"
+          "sentence 4",
+          "sentence 3",
+          "sentence 2"
         ],
         "correct": 1,
         "explanation": {
-          "correct": "Answer: sentence. sentence 4; Fact something that has actual existence. Denver is the capital of Colorado. –",
+          "correct": "Answer: sentence 4. Denver is the capital of Colorado is a fact that can be checked.",
           "incorrect": [
-            "Not: sentence 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence 1. Calling the Pacific Ocean the most beautiful ocean is an opinion.",
             "",
-            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
-            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence."
+            "Not: sentence 3. Saying all politicians are dishonest is an opinionated claim.",
+            "Not: sentence 2. Saying cars are more convenient than trucks is an opinion."
           ]
         },
         "studyAid": {
@@ -2486,6 +2780,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2547,6 +2848,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2608,6 +2916,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       }

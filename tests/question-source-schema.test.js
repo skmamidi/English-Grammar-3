@@ -30,6 +30,9 @@ test('real canonical JSON sources pass schema validation', () => {
   ['correct outside choices', question => { question.correct = 12; }, /correct answer must reference a valid choice/],
   ['invalid difficulty', question => { question.metadata.difficultyByGrade['4'] = 'expert'; }, /invalid difficulty "expert"/],
   ['invalid grade level', question => { question.metadata.gradeLevels = [2]; }, /invalid grade level 2/],
+  ['unknown skill id', question => { question.metadata.skillIds = ['grammar.unknown-skill']; }, /unknown skillId "grammar\.unknown-skill"/],
+  ['domain-incompatible skill id', question => { question.metadata.skillIds = ['vocabulary.word-study']; }, /does not belong to domain "grammar"/],
+  ['unknown standard id', question => { question.metadata.standardIds = ['NOT.A.STANDARD']; }, /unknown standardId "NOT\.A\.STANDARD"/],
   ['domain mismatch', null, /domain is "vocabulary"; expected "grammar"/, source => { source.domain = 'vocabulary'; }]
 ].forEach(([name, mutateQuestion, expected, mutateSource]) => {
   test(`schema validation fails for ${name}`, () => {

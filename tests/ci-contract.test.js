@@ -26,6 +26,7 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['qa:questions'], /npm run qa:question-consistency/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:manifest/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:chunks/);
+  assert.match(pkg.scripts['qa:questions'], /npm run qa:chunk-size/);
   assert.match(pkg.scripts.test, /npm run qa:content/);
   assert.match(pkg.scripts.test, /npm run test:unit/);
   assert.match(pkg.scripts.test, /npm run test:ui/);
@@ -43,6 +44,8 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-api-budget\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/learner-state-repository\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/chunk-size-budget\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/question-skill-taxonomy\.test\.js/);
   assert.match(pkg.scripts['test:unit'], /tests\/service-worker-cache\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');

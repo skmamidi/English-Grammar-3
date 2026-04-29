@@ -5,6 +5,7 @@ const test = require('node:test');
 const vm = require('vm');
 
 const core = require('../assets/quiz-selection-core');
+const { loadQuestionBanks } = require('../scripts/qa/bank-loader');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -26,6 +27,16 @@ function q(id, grades, difficultyByGrade, sourceSet = 'alpha') {
       sequence
     }
   };
+}
+
+function semanticVariant(id, question, choices, correct) {
+  const questionRecord = q(id, [4], { 4: 'easy' }, 'alpha');
+  return Object.assign(questionRecord, {
+    id,
+    question,
+    choices,
+    correct
+  });
 }
 
 test('shared selection core exports the pure selector API for Node callers', () => {
@@ -69,6 +80,109 @@ test('shared selection core preserves mixed per-subtopic and max semantics', () 
     selectedDifficulty: 'medium'
   }, { shuffle: identity });
   assert.equal(maxMode.length, 10);
+});
+
+test('shared selection core does not select repeated semantic variants from a set', () => {
+  const questions = [
+    semanticVariant('alpha-q0001', 'Grade 3 Easy: Choose the best answer. Which detail best supports the topic sentence "Libraries help students learn"?', [
+      'The library carpet is blue.',
+      'Students can borrow books, use computers, and ask librarians for help.',
+      'Some doors have handles.',
+      'Lunch begins at noon.'
+    ], 1),
+    semanticVariant('alpha-q0002', 'Grade 3 Easy: Choose the best answer. Which detail best supports the topic sentence "Libraries help students learn"?', [
+      'Lunch begins at noon.',
+      'The library carpet is blue.',
+      'Some doors have handles.',
+      'Students can borrow books, use computers, and ask librarians for help.'
+    ], 3),
+    semanticVariant('alpha-q0003', 'Grade 3 Easy: Choose the best answer. Which detail best supports the topic sentence "Gardens need regular care"?', [
+      'Plants need water, sunlight, and space to grow.',
+      'Shoes come in many sizes.',
+      'The hallway has lockers.',
+      'Some clocks are round.'
+    ], 0)
+  ];
+
+  const selected = core.selectQuestionsForLevel(questions, '4', 'easy', {
+    targetQuestionCount: 3,
+    shuffle: identity
+  });
+
+  assert.deepEqual(selected.map(question => question.id), ['alpha-q0001', 'alpha-q0003']);
+});
+
+test('shared selection core de-dupes repeated semantic variants across mixed subtopics', () => {
+  const repeatedAlpha = semanticVariant('alpha-q0001', 'Grade 3 Easy: Choose the best answer. Which detail best supports the topic sentence "Libraries help students learn"?', [
+    'The library carpet is blue.',
+    'Students can borrow books, use computers, and ask librarians for help.',
+    'Some doors have handles.',
+    'Lunch begins at noon.'
+  ], 1);
+  const repeatedBeta = Object.assign({}, repeatedAlpha, {
+    id: 'beta-q0001',
+    metadata: Object.assign({}, repeatedAlpha.metadata, {
+      sourceSet: 'beta',
+      sequence: 1
+    })
+  });
+  const uniqueBeta = semanticVariant('beta-q0002', 'Grade 3 Easy: Choose the best answer. Which detail best supports the topic sentence "Gardens need regular care"?', [
+    'Plants need water, sunlight, and space to grow.',
+    'Shoes come in many sizes.',
+    'The hallway has lockers.',
+    'Some clocks are round.'
+  ], 0);
+
+  const selected = core.selectMixedQuestions({
+    mixedQuizConfig: {
+      questionsPerSubtopic: 2,
+      subtopics: [
+        { id: 'alpha', questions: [repeatedAlpha] },
+        { id: 'beta', questions: [repeatedBeta, uniqueBeta] }
+      ]
+    },
+    selectedMixedSubtopicIds: ['alpha', 'beta'],
+    selectedMixedQuestionLimit: '2',
+    selectedGrade: '4',
+    selectedDifficulty: 'easy'
+  }, { shuffle: identity });
+
+  assert.deepEqual(selected.map(question => question.id), ['alpha-q0001', 'beta-q0002']);
+});
+
+test('live paragraph-structure selection avoids repeated question fingerprints', () => {
+  const bankLoad = loadQuestionBanks();
+  const paragraphStructure = bankLoad.bank['grammar-paragraph-structure'];
+  assert.ok(paragraphStructure, 'expected live paragraph structure set');
+
+  const selected = core.selectQuestionsForLevel(paragraphStructure.questions, '4', 'easy', {
+    targetQuestionCount: 15,
+    shuffle: identity
+  });
+  const fingerprints = selected.map(core.getQuestionFingerprint);
+
+  assert.equal(new Set(fingerprints).size, fingerprints.length);
+  assert.ok(selected.length >= 10, 'expected selector to preserve a useful quiz length after de-duping');
+});
+
+test('live subtopic selections never repeat question fingerprints', () => {
+  const bankLoad = loadQuestionBanks();
+  const failures = [];
+
+  Object.entries(bankLoad.bank).forEach(([setId, set]) => {
+    getSupportedLevels(set.questions).forEach(({ grade, difficulty }) => {
+      const selected = core.selectQuestionsForLevel(set.questions, grade, difficulty, {
+        targetQuestionCount: 15,
+        shuffle: identity
+      });
+      const fingerprints = selected.map(core.getQuestionFingerprint);
+      if (new Set(fingerprints).size !== fingerprints.length) {
+        failures.push(`${setId} grade ${grade} ${difficulty}`);
+      }
+    });
+  });
+
+  assert.deepEqual(failures, []);
 });
 
 test('shared selection core normalizes subtopic selection requests', () => {
@@ -117,3 +231,19 @@ test('quiz-domain browser wrapper exposes the same core selectors', () => {
   assert.equal(context.window.GrammarQuestQuizDomain.selectMixedQuestions, context.window.GrammarQuestSelectionCore.selectMixedQuestions);
   assert.equal(context.window.GrammarQuestQuizDomain.getQuestionRef, context.window.GrammarQuestSelectionCore.getQuestionRef);
 });
+
+function getSupportedLevels(questions) {
+  const levels = new Map();
+  (Array.isArray(questions) ? questions : []).forEach(question => {
+    const grades = question && question.metadata && Array.isArray(question.metadata.gradeLevels)
+      ? question.metadata.gradeLevels
+      : [];
+    grades.forEach(grade => {
+      const difficulty = question.metadata.difficultyByGrade && question.metadata.difficultyByGrade[String(grade)]
+        ? question.metadata.difficultyByGrade[String(grade)]
+        : 'medium';
+      levels.set(`${grade}:${difficulty}`, { grade: String(grade), difficulty: String(difficulty) });
+    });
+  });
+  return Array.from(levels.values());
+}

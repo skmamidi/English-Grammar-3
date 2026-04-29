@@ -64,7 +64,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -120,7 +122,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -176,7 +180,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -232,7 +238,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -288,7 +296,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -344,7 +354,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -400,7 +412,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -456,7 +470,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -512,7 +528,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -568,7 +586,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -624,7 +644,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -680,7 +702,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -736,7 +760,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -792,7 +818,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -848,7 +876,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "vocabulary-rhyming",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -907,6 +937,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -966,6 +1003,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -1025,6 +1069,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -1084,6 +1135,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -1145,6 +1203,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       },
@@ -1206,6 +1271,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
           ]
         }
       }

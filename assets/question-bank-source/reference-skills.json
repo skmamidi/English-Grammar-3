@@ -3098,21 +3098,21 @@
         {
           "id": "reference-skills-italicize-q0018",
           "version": 1,
-          "contentHash": "sha256:39457600687f4e7617c465dcb5476fd106f4bc038a1021eba8c1836832488252",
+          "contentHash": "sha256:bfdb31c7049c6f8762e9da9f11327d9e6471a9e2926261429a0ad47cc3a3ca10",
           "question": "Which sentence correctly punctuates the movie title?",
           "choices": [
             "Jaws was a scary movie when it first came out.",
             "“Jaws” was a scary movie when it first came out.",
-            "Jaws was a scary movie when it first came out.",
-            "was a scary movie when it first came out."
+            "/Jaws/ was a scary movie when it first came out.",
+            "*Jaws* was a scary movie when it first came out."
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: was a scary movie when it first came out.. was a scary movie when it first came out. Movie titles are italicized.",
+            "correct": "Answer: *Jaws* was a scary movie when it first came out. Movie titles are italicized.",
             "incorrect": [
-              "Not: Jaws was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
-              "Not: “Jaws” was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
-              "Not: Jaws was a scary movie when it first came out.. Check the capitalization, punctuation, or spelling clue in the question.",
+              "Not: Jaws was a scary movie when it first came out. A movie title should be italicized.",
+              "Not: “Jaws” was a scary movie when it first came out. Movie titles use italics, not quotation marks.",
+              "Not: /Jaws/ was a scary movie when it first came out. Slashes do not show standard italics.",
               ""
             ]
           },

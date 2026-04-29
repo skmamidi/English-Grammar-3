@@ -1,0 +1,1467 @@
+/**
+ * English Language Quiz App - vocabulary subchunk: vocabulary-figurative-language 5
+ * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:041e92e61c710171efb551fb136d83a18d6219365195cdcfd882655e3c0e721f.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Figurative Language",
+  "topic": "Vocabulary / Word Study",
+  "questions": [
+    {
+      "id": "vocabulary-figurative-language-q0201",
+      "version": 1,
+      "contentHash": "sha256:f76f9803d8ab7bb6c787cc33d5472f99ee2f27ff584fe64c4f596d795ca953d0",
+      "question": "What is the meaning of the “ran like the wind”? simile",
+      "choices": [
+        "ran away",
+        "ran straight",
+        "ran very fast",
+        "ran slow"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: ran very fast. ran very fast “Ran like the wind” means to move or run very quickly.",
+        "incorrect": [
+          "Not: ran away. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: ran straight. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: ran slow. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 6,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 201,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0202",
+      "version": 1,
+      "contentHash": "sha256:87edddfd48038d38ec840d5274a5ab91b6558e2bfa2b93335c5dbb640382b795",
+      "question": "Which of the following s would best complete the comparison? simile Allison never wanted to do anything her friends suggested, she only wanted to do things her way. Her friends said she was ______________.",
+      "choices": [
+        "as brave as a lion",
+        "as old as the hills",
+        "as stubborn as a mule",
+        "as smart as an owl"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: as stubborn as a mule. as stubborn as a mule; The fact that Allison didn’t want to do things that h er friends suggested indicates that she was “stubborn as a mule”.",
+        "incorrect": [
+          "Not: as brave as a lion. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: as old as the hills. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: as smart as an owl. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "passage-context",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 7,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 202,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0203",
+      "version": 1,
+      "contentHash": "sha256:6fc3c0f33bc6e6de822759dc54c3411d976f66305e4a29dda6d62b1debd5c6b9",
+      "question": "Which would the adage “don’t judge a book by its cover” mean? For example: When the kids thought the new girl at school was odd because of her purple hair and different clothing, the teacher told them not to judge a book by its cover.",
+      "choices": [
+        "things may not appear how they seem",
+        "things are always what they look like",
+        "different is OK",
+        "being rude to new kids is not nice"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: things may not appear how they seem. things may not appear how they seem adage is another way of saying a proverb.; An “Don’t judge a book by its cover” means one shouldn’t prejudice the worth or value of something by its outward appearance alone.",
+        "incorrect": [
+          "",
+          "Not: things are always what they look like. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: different is OK. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: being rude to new kids is not nice. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "passage-context",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 8,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 203,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0205",
+      "version": 1,
+      "contentHash": "sha256:215147d67eccba32d19fb94a64551f61f99b8193aac527262267e1adb7fbc915",
+      "question": "What is the meaning of the “raining cats and dogs idiom”?",
+      "choices": [
+        "too many animals",
+        "light drizzle and rain",
+        "loud rain",
+        "heavy rain"
+      ],
+      "correct": 3,
+      "explanation": {
+        "correct": "Answer: heavy rain. heavy rain; This is a Spanish idiom used to describe particularly heavy rain.",
+        "incorrect": [
+          "Not: too many animals. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: light drizzle and rain. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: loud rain. Use the word clue, word part, or usage rule to check this choice.",
+          ""
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 6,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 205,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0206",
+      "version": 1,
+      "contentHash": "sha256:9201d1beccd4d944127635089238097f5dd5ab589629efc4bcc52c6f28293a57",
+      "question": "Which of the following metaphors would best complete the comparison? When Vanessa gave all of her toys to charity, everyone said she had ________________.",
+      "choices": [
+        "a lot of toys",
+        "a heart of gold",
+        "the voice of an angel",
+        "made a lot of money"
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: a heart of gold. a heart of gold; Someone with a heart of gold is known as someone that is valued for his/her goodness.",
+        "incorrect": [
+          "Not: a lot of toys. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: the voice of an angel. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: made a lot of money. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 7,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 206,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0207",
+      "version": 1,
+      "contentHash": "sha256:9985954e3d36f0fa6a6d5a05baf5ee65d7380e6af26cdb5601e8fdc800bac326",
+      "question": "Which would the adage “stop and smell the roses” mean? For example: My dad was always busy with work and my mom told him he should stop and smell the roses.",
+      "choices": [
+        "get something done",
+        "slow down",
+        "be quiet",
+        "use air freshener"
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: slow down. “Stop and smell the roses” is an idiom that means to relax, to take time out of slow down; one’s busy schedule and enjoy or appreciate the beauty of life.",
+        "incorrect": [
+          "Not: get something done. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: be quiet. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: use air freshener. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 8,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 207,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0208",
+      "version": 1,
+      "contentHash": "sha256:d9595c7b3ab65f22a48dbbb994b6b2a182466bc3002b6fe96687c815264e645d",
+      "question": "What is the meaning of the following proverb? “Don’t put off until tomorrow what can do today.” you",
+      "choices": [
+        "have someone else do it",
+        "don’t worry about it",
+        "do it now",
+        "do it later"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: do it now. do it now This proverb means to not delay or hesitate to do something if you can finish; or accomplish it today.",
+        "incorrect": [
+          "Not: have someone else do it. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: don’t worry about it. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: do it later. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 9,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 208,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0209",
+      "version": 1,
+      "contentHash": "sha256:fd7197bbb780376f9c3d4debf3f6f23049c6059e40427c0ed2dfdb1d347bcc90",
+      "question": "Which of the following would best complete the comparison? similes I don’t like to get up in the morning, and my mom says I always move _____________.",
+      "choices": [
+        "as cold as ice",
+        "as easy as apple pie",
+        "as slow as molasses",
+        "as quick as lightning"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: as slow as molasses. as slow as molasses; This is an idiom meaning painfully slow.",
+        "incorrect": [
+          "Not: as cold as ice. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: as easy as apple pie. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: as quick as lightning. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 7,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 209,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0210",
+      "version": 1,
+      "contentHash": "sha256:9b8a021542f03179a391d42f732e06e5a808a96584bf335cb6746e3fc9e53771",
+      "question": "What does the proverb “every dog has its day” mean? For example: When my brother couldn’t win a single game, his coach told him not to worry because every dog has its day.",
+      "choices": [
+        "everyone should quit trying",
+        "everyone will be successful sometime",
+        "no one will ever win",
+        "ev eryone has a dog"
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: everyone will be successful sometime. everyone will be successful sometime “Every dog has its day” means that everyone is; successful or happy at some time in their life.",
+        "incorrect": [
+          "Not: everyone should quit trying. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: no one will ever win. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: ev eryone has a dog. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "passage-context",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 8,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 210,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0211",
+      "version": 1,
+      "contentHash": "sha256:e3361648de42497bef55efbc570e61a9c8aed67559cd208494f7b5b11cf51af1",
+      "question": "What is the meaning of the following? idiom “A bull in a china shop”",
+      "choices": [
+        "quiet",
+        "gentle",
+        "clumsy",
+        "loud"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: clumsy. means a person who breaks things or often makes mistakes or causes clumsy; This idiom damage; clumsy.",
+        "incorrect": [
+          "Not: quiet. Use the word clue, word part, or usage rule to check this choice.",
+          "Not: gentle. Use the word clue, word part, or usage rule to check this choice.",
+          "",
+          "Not: loud. Use the word clue, word part, or usage rule to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+        "example": "Check the sentence clue or word part, then test each answer choice.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "figurative language",
+          "vocabulary",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+        "estimatedTimeSeconds": 55,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+        "sourceQuestionNumber": 9,
+        "sourceCategory": "vocabulary-and-usage",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 211,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0212",
+      "version": 1,
+      "contentHash": "sha256:498480fdf97601db6b923527f1afe788b2b074c5104c2f454721060e794f5571",
+      "question": "What is the meaning of the simile “wise as an owl”?",
+      "choices": [
+        "d ull",
+        "pretty",
+        "stupid",
+        "smart"
+      ],
+      "correct": 3,
+      "explanation": {
+        "correct": "Answer: smart. smart; This simile means someone who is really smart.",
+        "incorrect": [
+          "Not: d ull. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: pretty. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: stupid. Use the language rule, word clue, or sentence context to check this choice.",
+          ""
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 60,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+        "sourceQuestionNumber": 15,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 212,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0213",
+      "version": 1,
+      "contentHash": "sha256:b6d6392afc103ae78f64067b917e9f32af6f410f606a33df6ac9334841a680cf",
+      "question": "What is the meaning of the following idiom? “A ghost of a chance”",
+      "choices": [
+        "not likely",
+        "very likely",
+        "haunted",
+        "scared"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: not likely. not likely; “A ghost of a chance” means that a person has a very little chance of succeeding.",
+        "incorrect": [
+          "",
+          "Not: very likely. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: haunted. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: scared. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 60,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+        "sourceQuestionNumber": 51,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 213,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0214",
+      "version": 1,
+      "contentHash": "sha256:9611990f03362732cf314dae587369e2c766569348441c3cd293b373436897a8",
+      "question": "What is the meaning of the simile? stiff as a board",
+      "choices": [
+        "good to build with",
+        "unbreakable",
+        "difficult or impossible to bend",
+        "no sense of humor"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: difficult or impossible to bend. difficult or to impossible bend",
+        "incorrect": [
+          "Not: good to build with. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: unbreakable. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: no sense of humor. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 60,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+        "sourceQuestionNumber": 15,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 214,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0215",
+      "version": 1,
+      "contentHash": "sha256:712d22ee811601da568750d7e4289aa9224e052ac3882cd034cd0f81dc6fd2ca",
+      "question": "What is the meaning of the idiom? take it easy",
+      "choices": [
+        "do not work",
+        "take a nap",
+        "relax",
+        "do something the easy way"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: relax. relax",
+        "incorrect": [
+          "Not: do not work. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: take a nap. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: do something the easy way. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 60,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+        "sourceQuestionNumber": 51,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 215,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0216",
+      "version": 1,
+      "contentHash": "sha256:5080f637901c9377ccb7ede10c15bf7043aa7994bf455e3ec0d5a57e65874ba9",
+      "question": "What is the meaning of the underlined idiom below? Xavier was flexible. He was always ready to gofishing at the drop of a hat.",
+      "choices": [
+        "sp ur of the moment",
+        "accidentally drop a hat",
+        "according to plan",
+        "all the time"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: sp ur of the moment. spur of the moment; The drop of a hat means that you will do something spur of the moment or without having planned beforehand.",
+        "incorrect": [
+          "",
+          "Not: accidentally drop a hat. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: according to plan. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: all the time. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+        "sourceQuestionNumber": 15,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 216,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0217",
+      "version": 1,
+      "contentHash": "sha256:4a0e9ffdd3e60598c70cb07b2d511877eeedcb48171f7e45655a6fbded8f849f",
+      "question": "What is meant by the idiom costs an arm and a leg in the sentence below? I’d like to have a new sports car, but it may cost an arm and a leg.",
+      "choices": [
+        "make a bad situation worse",
+        "give away a secret",
+        "be very expen sive",
+        "put me in debt"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: be very expen sive. be very expensive; This idiom is used when someone thinks the cost of something is unreasonably high.",
+        "incorrect": [
+          "Not: make a bad situation worse. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: give away a secret. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: put me in debt. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+        "sourceQuestionNumber": 39,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 217,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0218",
+      "version": 1,
+      "contentHash": "sha256:d30114b7e9ffd3aceddbf7840556f066d781861645173c5bee8c05d58d259e5c",
+      "question": "What is the meaning of the idiom? once in a blue moon",
+      "choices": [
+        "happens in outer space",
+        "happens very rarely",
+        "happens when the flowers bloom",
+        "happens every month"
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: happens very rarely. happens very rarely; A blue moon is what a second full moon in the same month is called.",
+        "incorrect": [
+          "Not: happens in outer space. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: happens when the flowers bloom. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: happens every month. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+        "sourceQuestionNumber": 51,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 218,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0219",
+      "version": 1,
+      "contentHash": "sha256:afd24c4d421558ff110dec0b94fa3ec7dd493f5a5bcc4e8d7a8497d8800d25d8",
+      "question": "What does the metaphor in the first sentence mean? The was an angry, dragon. Its sky green sky, wind fiercely blew the trees sideways and rain pounded the rooftops.",
+      "choices": [
+        "Dragons were the rooftops. on",
+        "The sky made the trees look like dragons.",
+        "The sky was stormy.",
+        "None of the above."
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: The sky was stormy.. was stormy. metaphor compares The sky The sky to an angry, dragon. are green They both green; they both blow fiercely.",
+        "incorrect": [
+          "Not: Dragons were the rooftops. on. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: The sky made the trees look like dragons.. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: None of the above.. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+        "sourceQuestionNumber": 15,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 219,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0237",
+      "version": 1,
+      "contentHash": "sha256:16a387a6042d142485dd6ae1ac93d66f2788c889603e316303bf400434545f79",
+      "question": "What is the meaning of the idiom “heart of gold”? Mallory has a heart of gold. I have never seen her angry with anyone.",
+      "choices": [
+        "quiet and shy",
+        "good and kind",
+        "mean and nasty",
+        "sneaky and mistrustful"
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: good and kind. good and If has a heart kind; someone of gold, are emphasizing that they are you very good and kind to other people.",
+        "incorrect": [
+          "Not: quiet and shy. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: mean and nasty. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: sneaky and mistrustful. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+        "sourceQuestionNumber": 33,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 237,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0270",
+      "version": 1,
+      "contentHash": "sha256:b3aa5720c45876fab5b5e544d6c90fea1970cc041af0d09392dd3d8435225f97",
+      "question": "What is the meaning of the simile? busy as a beaver",
+      "choices": [
+        "making dams",
+        "working in a zoo",
+        "doing a lot of things",
+        "playing in the water"
+      ],
+      "correct": 2,
+      "explanation": {
+        "correct": "Answer: doing a lot of things. doing a lot things of",
+        "incorrect": [
+          "Not: making dams. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: working in a zoo. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: playing in the water. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+        "sourceQuestionNumber": 15,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 270,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-figurative-language-q0306",
+      "version": 1,
+      "contentHash": "sha256:16a8d47e5b68fd8a4758f3a20691717f5d8547ad6fcc69b76392f33b1d300b9f",
+      "question": "What is the meaning of the idiom? a little birdie told me",
+      "choices": [
+        "what I am telling you is not true",
+        "someone told me a secret",
+        "this is news from another country",
+        "my younger brother/sister told me"
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: someone told me a secret. someone told me a secret",
+        "incorrect": [
+          "Not: what I am telling you is not true. Use the language rule, word clue, or sentence context to check this choice.",
+          "",
+          "Not: this is news from another country. Use the language rule, word clue, or sentence context to check this choice.",
+          "Not: my younger brother/sister told me. Use the language rule, word clue, or sentence context to check this choice."
+        ]
+      },
+      "studyAid": {
+        "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+        "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+        "link": "https://www.readingrockets.org/topics/vocabulary",
+        "linkText": "Reading Rockets - Vocabulary"
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "vocabulary",
+          "language usage",
+          "language",
+          "grade 4"
+        ],
+        "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "normal",
+        "sourceSet": "vocabulary-figurative-language",
+        "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+        "sourceQuestionNumber": 51,
+        "sourceCategory": "language-usage-test",
+        "sourceGrade": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "sequence": 306,
+        "skillIds": [
+          "vocabulary.word-study"
+        ],
+        "standardIds": [
+          "L.3-6.5",
+          "L.4-6.4"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["vocabulary-figurative-language"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["vocabulary-figurative-language"] = chunkSet;
+  }
+})();

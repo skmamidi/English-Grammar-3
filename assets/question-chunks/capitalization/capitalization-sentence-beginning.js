@@ -65,7 +65,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -122,7 +128,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -179,7 +191,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -236,7 +254,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -293,7 +317,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -350,7 +380,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -407,7 +443,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -464,7 +506,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -521,7 +569,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -578,7 +632,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -635,7 +695,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -692,7 +758,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -749,7 +821,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -806,7 +884,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -863,7 +947,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-sentence-beginning",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -921,6 +1011,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -979,6 +1075,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1037,6 +1139,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1095,6 +1203,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1153,6 +1267,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1211,6 +1331,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1269,6 +1395,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1328,6 +1460,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1387,6 +1525,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1446,6 +1590,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1505,6 +1655,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1564,6 +1720,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1623,6 +1785,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1682,6 +1850,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1743,7 +1917,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1804,7 +1984,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1865,7 +2051,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 74
+          "sequence": 74,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1926,7 +2118,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 84
+          "sequence": 84,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -1987,7 +2185,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 91
+          "sequence": 91,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2048,7 +2252,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2109,7 +2319,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 111
+          "sequence": 111,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2170,7 +2386,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2231,7 +2453,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2292,7 +2520,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 71
+          "sequence": 71,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2353,7 +2587,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 104
+          "sequence": 104,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2414,7 +2654,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 140
+          "sequence": 140,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2475,7 +2721,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 152
+          "sequence": 152,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2536,7 +2788,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 203
+          "sequence": 203,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2597,7 +2855,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 275
+          "sequence": 275,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2658,7 +2922,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 305
+          "sequence": 305,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       }
     ],

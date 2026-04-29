@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1128,7 +1261,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1184,7 +1324,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1240,7 +1387,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1296,7 +1450,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1352,7 +1513,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1408,7 +1576,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1464,7 +1639,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1520,7 +1702,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1576,7 +1765,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1632,7 +1828,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1688,7 +1891,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1744,7 +1954,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1800,7 +2017,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1856,7 +2080,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1912,7 +2143,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1968,7 +2206,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2024,7 +2269,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2080,7 +2332,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2136,7 +2395,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2192,7 +2458,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2248,7 +2521,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2304,7 +2584,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2360,7 +2647,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2416,7 +2710,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 43
+          "sequence": 43,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2472,7 +2773,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2528,7 +2836,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2584,7 +2899,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 46
+          "sequence": 46,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2640,7 +2962,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 47
+          "sequence": 47,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2696,7 +3025,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2752,7 +3088,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-analogies",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -2813,6 +3156,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2874,6 +3224,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2935,6 +3292,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       }

@@ -1,0 +1,3039 @@
+/**
+ * English Language Quiz App - reading-comprehension subchunk: reading-comprehension-text-evidence 3
+ * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:d9b222a515d6e4439c5a43daf586cb5dc42a0686df1cf46e92befc3feae814ce.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Text Evidence",
+  "topic": "Reading Comprehension",
+  "questions": [
+    {
+      "id": "reading-comprehension-text-evidence-q0101",
+      "version": 1,
+      "contentHash": "sha256:e2c43baa011f65743ad9282b9870fa0ab365db1b53ac56f1cf9bff85a093a16d",
+      "question": "Read the passage. Grade 4 foundation passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper.\n\nWhich sentence from the passage best supports this idea: The plan changed how much paper the school used.",
+      "choices": [
+        "The nurse checked the first-aid supplies after lunch.",
+        "By winter break, the school ordered fewer boxes of printer paper.",
+        "The passage says every reader already knew about recycling team.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: By winter break, the school ordered fewer boxes of printer paper.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The nurse checked the first-aid supplies after lunch.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about recycling team.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 101,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0102",
+      "version": 1,
+      "contentHash": "sha256:59858f3f9fa6a61168a38d2263d21ad5bc3e29d0b00fb16992cd487ffab28429",
+      "question": "Read the passage. Grade 4 foundation passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories.\n\nWhich detail is the strongest evidence for the answer, \"The exhibit included both objects and personal stories.\"?",
+      "choices": [
+        "The passage says every reader already knew about museum exhibit.",
+        "A rainstorm delayed the baseball game.",
+        "Visitors could press buttons to hear recordings of elders telling memories.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Visitors could press buttons to hear recordings of elders telling memories.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about museum exhibit.. The strongest evidence directly supports the idea in the question.",
+          "Not: A rainstorm delayed the baseball game.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 102,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0103",
+      "version": 1,
+      "contentHash": "sha256:1b6a465b4189f063edeff414f0c82291fd76cc9043b4ef5ddf274b9f549d8d4d",
+      "question": "Read the passage. Grade 4 foundation passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course.\n\nWhich sentence from the passage best supports this idea: The club used mistakes as information.",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The principal announced picture day over the speaker.",
+        "The passage says every reader already knew about robotics club.",
+        "Each time the robot missed a turn, members adjusted the code and tested again."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Each time the robot missed a turn, members adjusted the code and tested again.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The principal announced picture day over the speaker.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about robotics club.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 103,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0104",
+      "version": 1,
+      "contentHash": "sha256:fb16396a51dcc04001b88a5eb18bd2bbfcfbcb4494d1ae9bc01e6ef874acde24",
+      "question": "Read the passage. Grade 4 foundation passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal.\n\nWhich detail is the strongest evidence for the answer, \"The cart was designed for students with little time before class.\"?",
+      "choices": [
+        "Students who arrived close to the bell could still choose a quick meal.",
+        "The science lab received new magnifying glasses.",
+        "The passage says every reader already knew about school breakfast.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students who arrived close to the bell could still choose a quick meal.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: The science lab received new magnifying glasses.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about school breakfast.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 104,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0105",
+      "version": 1,
+      "contentHash": "sha256:bd8074d9598a61c7b889ced217b9d93ecbc5751df624ac5ad789fba27e270ca0",
+      "question": "Read the passage. Grade 4 foundation passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek.\n\nWhich sentence from the passage best supports this idea: The signs gave visitors both directions and information.",
+      "choices": [
+        "The post office closed early on Saturday.",
+        "They added arrows, distance signs, and small plaques naming common trees.",
+        "The passage says every reader already knew about nature trail.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They added arrows, distance signs, and small plaques naming common trees.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The post office closed early on Saturday.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about nature trail.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 105,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0106",
+      "version": 1,
+      "contentHash": "sha256:80ad0030c57dc72b6065789e27b5d6cb3c840e828dfa046b89cddb2a72f215dc",
+      "question": "Read the passage. Grade 4 developing passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong. These details show that students used careful daily routines to help a garden grow.\n\nWhich sentence from the passage best supports this idea: The students used observations to care for the plants.",
+      "choices": [
+        "The passage says every reader already knew about school garden.",
+        "The art room displayed clay bowls near the window.",
+        "They recorded how tall the seedlings grew.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They recorded how tall the seedlings grew.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about school garden.. The strongest evidence directly supports the idea in the question.",
+          "Not: The art room displayed clay bowls near the window.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 106,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0107",
+      "version": 1,
+      "contentHash": "sha256:f1e3268b39729d6eb12df85cb7c9db93d9aca11122356dda07dab9642618312e",
+      "question": "Read the passage. Grade 4 developing passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books. These details show that student volunteers organized books and labels to make the library easier to use.\n\nWhich detail is the strongest evidence for the answer, \"The volunteers helped readers find materials more efficiently.\"?",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The cafeteria served tomato soup on Thursday.",
+        "The passage says every reader already knew about library helpers.",
+        "They sorted returned books by call number before placing them on shelves."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They sorted returned books by call number before placing them on shelves.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The cafeteria served tomato soup on Thursday.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about library helpers.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 107,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0108",
+      "version": 1,
+      "contentHash": "sha256:8965f87bdd86f2c111be0f82162ab37b4293c46553110c21f74b2128cf6c439b",
+      "question": "Read the passage. Grade 4 developing passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose. These details show that a science club collected and reused rainwater to care for plants.\n\nWhich sentence from the passage best supports this idea: The rain barrel reduced the need for hose water.",
+      "choices": [
+        "Members used the stored water on dry afternoons instead of turning on the hose.",
+        "A soccer team practiced corner kicks after school.",
+        "The passage says every reader already knew about rain barrel.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Members used the stored water on dry afternoons instead of turning on the hose.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: A soccer team practiced corner kicks after school.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about rain barrel.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 108,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0109",
+      "version": 1,
+      "contentHash": "sha256:31e07bdb0e7ad3bbb2f7ed449858c28f702dff442a4ffeabbe5cc8339cf7b33b",
+      "question": "Read the passage. Grade 4 developing passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey. These details show that student reporters gathered facts and published school news.\n\nWhich detail is the strongest evidence for the answer, \"The reporters tried to make the newspaper accurate.\"?",
+      "choices": [
+        "The playground slide was painted blue over spring break.",
+        "They interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The passage says every reader already knew about class newspaper.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They interviewed teachers, wrote short articles, and checked facts before printing.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The playground slide was painted blue over spring break.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about class newspaper.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 109,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0110",
+      "version": 1,
+      "contentHash": "sha256:ed28ac7d21f69aa876c7fdb637c069fc239031e80b1b50257337ef22ac79a3dc",
+      "question": "Read the passage. Grade 4 developing passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash. These details show that families cleaned litter from the beach and encouraged visitors to keep it clean.\n\nWhich sentence from the passage best supports this idea: The cleanup made the beach safer for wildlife.",
+      "choices": [
+        "The passage says every reader already knew about beach cleanup.",
+        "The town band played a concert in the park.",
+        "They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about beach cleanup.. The strongest evidence directly supports the idea in the question.",
+          "Not: The town band played a concert in the park.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 110,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0111",
+      "version": 1,
+      "contentHash": "sha256:041ecc7903042d289daea6da8b2175906b73eb6ce72b5afc7e58d9086d6f7084",
+      "question": "Read the passage. Grade 4 developing passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors. These details show that a safety officer taught students important bike safety habits.\n\nWhich detail is the strongest evidence for the answer, \"A helmet must fit correctly to protect a rider.\"?",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The school choir rehearsed a song about the moon.",
+        "The passage says every reader already knew about bike safety.",
+        "She showed how helmets should sit flat and snug on a rider's head."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: She showed how helmets should sit flat and snug on a rider's head.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The school choir rehearsed a song about the moon.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about bike safety.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 111,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0112",
+      "version": 1,
+      "contentHash": "sha256:29b8f6c06270f0d3e58b1b011cf61e751fdc25265cfe760e25856847bb2b9641",
+      "question": "Read the passage. Grade 4 developing passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes. These details show that transportation planners improved bus service so people could reach useful places.\n\nWhich sentence from the passage best supports this idea: The new bus route served community needs.",
+      "choices": [
+        "The new route stopped near the clinic, grocery store, and community center.",
+        "A bakery sold cinnamon rolls before sunrise.",
+        "The passage says every reader already knew about city buses.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The new route stopped near the clinic, grocery store, and community center.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: A bakery sold cinnamon rolls before sunrise.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about city buses.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 112,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0113",
+      "version": 1,
+      "contentHash": "sha256:8e92318874cf163d91ae48617c61ca78263c82ab75fc1527794a5fb2f056dfde",
+      "question": "Read the passage. Grade 4 developing passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began. These details show that actors and crew members cooperated to get a play ready.\n\nWhich detail is the strongest evidence for the answer, \"The production required more than acting.\"?",
+      "choices": [
+        "A math poster showed different kinds of triangles.",
+        "Actors practiced lines while stage crew members painted scenery and tested lights.",
+        "The passage says every reader already knew about school play.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Actors practiced lines while stage crew members painted scenery and tested lights.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: A math poster showed different kinds of triangles.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about school play.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 113,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0114",
+      "version": 1,
+      "contentHash": "sha256:fded499fb68432ed209f21fb0ca89db1122a9994c97871737385fee7ed6f64f3",
+      "question": "Read the passage. Grade 4 developing passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds. These details show that cafeteria food scraps were collected and turned into compost for flowers.\n\nWhich sentence from the passage best supports this idea: Food scraps can become useful instead of being thrown away.",
+      "choices": [
+        "The passage says every reader already knew about compost bin.",
+        "A new scoreboard was installed in the gym.",
+        "After several weeks, the dark compost was mixed into flower beds.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: After several weeks, the dark compost was mixed into flower beds.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about compost bin.. The strongest evidence directly supports the idea in the question.",
+          "Not: A new scoreboard was installed in the gym.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 114,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0115",
+      "version": 1,
+      "contentHash": "sha256:23794c2d5e59edacc563b9ff0b5643990e6d0c02fe4ce1674967b95a2dcd8340",
+      "question": "Read the passage. Grade 4 developing passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights. These details show that science students recorded weather measurements and used them to find patterns.\n\nWhich detail is the strongest evidence for the answer, \"The students gathered more than one kind of weather evidence.\"?",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The music teacher tuned a violin before class.",
+        "The passage says every reader already knew about weather station.",
+        "They measured rainfall, wind direction, temperature, and cloud cover every day."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They measured rainfall, wind direction, temperature, and cloud cover every day.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The music teacher tuned a violin before class.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about weather station.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 115,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0116",
+      "version": 1,
+      "contentHash": "sha256:826707233cf62f55e80c06275c5b23b6c15158191d7b9dbc506313a43f6b1d18",
+      "question": "Read the passage. Grade 4 developing passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper. These details show that a recycling team used bins and reminders to reduce paper waste.\n\nWhich sentence from the passage best supports this idea: The plan changed how much paper the school used.",
+      "choices": [
+        "By winter break, the school ordered fewer boxes of printer paper.",
+        "The nurse checked the first-aid supplies after lunch.",
+        "The passage says every reader already knew about recycling team.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: By winter break, the school ordered fewer boxes of printer paper.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: The nurse checked the first-aid supplies after lunch.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about recycling team.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 116,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0117",
+      "version": 1,
+      "contentHash": "sha256:5d736f6837f7988ef4e9fee65be7b2a2ada51058813bd4b2aa1ab7a9c71e0aea",
+      "question": "Read the passage. Grade 4 developing passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories. These details show that museum workers created an exhibit that helped visitors learn local history.\n\nWhich detail is the strongest evidence for the answer, \"The exhibit included both objects and personal stories.\"?",
+      "choices": [
+        "A rainstorm delayed the baseball game.",
+        "Visitors could press buttons to hear recordings of elders telling memories.",
+        "The passage says every reader already knew about museum exhibit.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Visitors could press buttons to hear recordings of elders telling memories.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: A rainstorm delayed the baseball game.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about museum exhibit.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 117,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0118",
+      "version": 1,
+      "contentHash": "sha256:12018a3e65cfdfc276c61b0117acdab2132066ac5c82ea8c524d9637c322f5ea",
+      "question": "Read the passage. Grade 4 developing passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course. These details show that club members tested a robot, changed its code, and used notes to improve it.\n\nWhich sentence from the passage best supports this idea: The club used mistakes as information.",
+      "choices": [
+        "The passage says every reader already knew about robotics club.",
+        "The principal announced picture day over the speaker.",
+        "Each time the robot missed a turn, members adjusted the code and tested again.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Each time the robot missed a turn, members adjusted the code and tested again.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about robotics club.. The strongest evidence directly supports the idea in the question.",
+          "Not: The principal announced picture day over the speaker.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 118,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0119",
+      "version": 1,
+      "contentHash": "sha256:808688fa0e5ed5f3b777b143b9c516e79965d036eccc0a5cf77c708ee4294d24",
+      "question": "Read the passage. Grade 4 developing passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal. These details show that school leaders made breakfast easier for busy students to get.\n\nWhich detail is the strongest evidence for the answer, \"The cart was designed for students with little time before class.\"?",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The science lab received new magnifying glasses.",
+        "The passage says every reader already knew about school breakfast.",
+        "Students who arrived close to the bell could still choose a quick meal."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students who arrived close to the bell could still choose a quick meal.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The science lab received new magnifying glasses.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about school breakfast.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 119,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0120",
+      "version": 1,
+      "contentHash": "sha256:21a4696385273f11b2bd46377eaa1721c2a684df76d41b689658c042cbcba048",
+      "question": "Read the passage. Grade 4 developing passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek. These details show that park rangers marked a trail so visitors could navigate and learn.\n\nWhich sentence from the passage best supports this idea: The signs gave visitors both directions and information.",
+      "choices": [
+        "They added arrows, distance signs, and small plaques naming common trees.",
+        "The post office closed early on Saturday.",
+        "The passage says every reader already knew about nature trail.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They added arrows, distance signs, and small plaques naming common trees.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: The post office closed early on Saturday.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about nature trail.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 120,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0121",
+      "version": 1,
+      "contentHash": "sha256:ce2a5e73af5451bb2fd92984ada11d7a54a3428683cf1fa92358545e41d8a7e5",
+      "question": "Read the passage. Grade 4 challenge passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong. Because the passage connects actions with results, readers can see why daily care helped the school garden grow well.\n\nWhich sentence from the passage best supports this idea: The students used observations to care for the plants.",
+      "choices": [
+        "The art room displayed clay bowls near the window.",
+        "They recorded how tall the seedlings grew.",
+        "The passage says every reader already knew about school garden.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They recorded how tall the seedlings grew.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The art room displayed clay bowls near the window.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about school garden.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 121,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0122",
+      "version": 1,
+      "contentHash": "sha256:add37a1480971ea0d6c13b1aba8ba6061c25cc3e9bda710dafb9354506688dc9",
+      "question": "Read the passage. Grade 4 challenge passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books. Because the passage connects actions with results, readers can see why student helpers organized the library so readers could find books faster.\n\nWhich detail is the strongest evidence for the answer, \"The volunteers helped readers find materials more efficiently.\"?",
+      "choices": [
+        "The passage says every reader already knew about library helpers.",
+        "The cafeteria served tomato soup on Thursday.",
+        "They sorted returned books by call number before placing them on shelves.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They sorted returned books by call number before placing them on shelves.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about library helpers.. The strongest evidence directly supports the idea in the question.",
+          "Not: The cafeteria served tomato soup on Thursday.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 122,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0123",
+      "version": 1,
+      "contentHash": "sha256:525eef039b9b23f9798f2d973bdbde3907676adafbcc75705aae2c9a10c51a6b",
+      "question": "Read the passage. Grade 4 challenge passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose. Because the passage connects actions with results, readers can see why a rain barrel helped the club save water for plants.\n\nWhich sentence from the passage best supports this idea: The rain barrel reduced the need for hose water.",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "A soccer team practiced corner kicks after school.",
+        "The passage says every reader already knew about rain barrel.",
+        "Members used the stored water on dry afternoons instead of turning on the hose."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Members used the stored water on dry afternoons instead of turning on the hose.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: A soccer team practiced corner kicks after school.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about rain barrel.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 123,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0124",
+      "version": 1,
+      "contentHash": "sha256:50cd4709393927834503ac6f295c6a6ab850cbea37b7a15049c85f0333372d42",
+      "question": "Read the passage. Grade 4 challenge passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey. Because the passage connects actions with results, readers can see why the class newspaper gave students a careful way to share school news.\n\nWhich detail is the strongest evidence for the answer, \"The reporters tried to make the newspaper accurate.\"?",
+      "choices": [
+        "They interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The playground slide was painted blue over spring break.",
+        "The passage says every reader already knew about class newspaper.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They interviewed teachers, wrote short articles, and checked facts before printing.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: The playground slide was painted blue over spring break.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about class newspaper.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 124,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0125",
+      "version": 1,
+      "contentHash": "sha256:f4d3e69fcc445d18fbf2db46e94b6f6a49f70968fba197961d0522d075e9c148",
+      "question": "Read the passage. Grade 4 challenge passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash. Because the passage connects actions with results, readers can see why the cleanup protected the beach by removing harmful litter.\n\nWhich sentence from the passage best supports this idea: The cleanup made the beach safer for wildlife.",
+      "choices": [
+        "The town band played a concert in the park.",
+        "They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The passage says every reader already knew about beach cleanup.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The town band played a concert in the park.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about beach cleanup.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 125,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0126",
+      "version": 1,
+      "contentHash": "sha256:24c36d01f6da6d0bb3ba74582ed2451c85bf1240969e8d1324eab72774fbdd82",
+      "question": "Read the passage. Grade 4 challenge passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors. Because the passage connects actions with results, readers can see why bike riders can prevent injuries by following safety rules.\n\nWhich detail is the strongest evidence for the answer, \"A helmet must fit correctly to protect a rider.\"?",
+      "choices": [
+        "The passage says every reader already knew about bike safety.",
+        "The school choir rehearsed a song about the moon.",
+        "She showed how helmets should sit flat and snug on a rider's head.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: She showed how helmets should sit flat and snug on a rider's head.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about bike safety.. The strongest evidence directly supports the idea in the question.",
+          "Not: The school choir rehearsed a song about the moon.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 126,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0127",
+      "version": 1,
+      "contentHash": "sha256:4f8eb6dd899915ad4826bde6995be583efb007ce5ed148603fad45dfb288994b",
+      "question": "Read the passage. Grade 4 challenge passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes. Because the passage connects actions with results, readers can see why new bus routes made important places easier to reach.\n\nWhich sentence from the passage best supports this idea: The new bus route served community needs.",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "A bakery sold cinnamon rolls before sunrise.",
+        "The passage says every reader already knew about city buses.",
+        "The new route stopped near the clinic, grocery store, and community center."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The new route stopped near the clinic, grocery store, and community center.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: A bakery sold cinnamon rolls before sunrise.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about city buses.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 127,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0128",
+      "version": 1,
+      "contentHash": "sha256:bf90f569a67f4b3ffd42da24c3e324ca26555198a896a0893a03b0994fa6604c",
+      "question": "Read the passage. Grade 4 challenge passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began. Because the passage connects actions with results, readers can see why many students worked together to prepare the school play.\n\nWhich detail is the strongest evidence for the answer, \"The production required more than acting.\"?",
+      "choices": [
+        "Actors practiced lines while stage crew members painted scenery and tested lights.",
+        "A math poster showed different kinds of triangles.",
+        "The passage says every reader already knew about school play.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Actors practiced lines while stage crew members painted scenery and tested lights.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: A math poster showed different kinds of triangles.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about school play.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 128,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0129",
+      "version": 1,
+      "contentHash": "sha256:1d102726b91a843b3a3339aa53832501754efdc0822b5a7a7b29388113714a44",
+      "question": "Read the passage. Grade 4 challenge passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds. Because the passage connects actions with results, readers can see why composting changed cafeteria scraps into useful soil material.\n\nWhich sentence from the passage best supports this idea: Food scraps can become useful instead of being thrown away.",
+      "choices": [
+        "A new scoreboard was installed in the gym.",
+        "After several weeks, the dark compost was mixed into flower beds.",
+        "The passage says every reader already knew about compost bin.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: After several weeks, the dark compost was mixed into flower beds.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: A new scoreboard was installed in the gym.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about compost bin.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 129,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0130",
+      "version": 1,
+      "contentHash": "sha256:50eaee7bcfcce4f584430a5ce331c62fc1b6a17c85bafd3573358df40f67bc74",
+      "question": "Read the passage. Grade 4 challenge passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights. Because the passage connects actions with results, readers can see why students collected weather data to notice local patterns.\n\nWhich detail is the strongest evidence for the answer, \"The students gathered more than one kind of weather evidence.\"?",
+      "choices": [
+        "The passage says every reader already knew about weather station.",
+        "The music teacher tuned a violin before class.",
+        "They measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They measured rainfall, wind direction, temperature, and cloud cover every day.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about weather station.. The strongest evidence directly supports the idea in the question.",
+          "Not: The music teacher tuned a violin before class.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 130,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0131",
+      "version": 1,
+      "contentHash": "sha256:eeaf01879d10d1846f9a773dc15ded1e74b09145245875ee5e361d595734ce49",
+      "question": "Read the passage. Grade 4 challenge passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper. Because the passage connects actions with results, readers can see why the recycling team helped the school waste less paper.\n\nWhich sentence from the passage best supports this idea: The plan changed how much paper the school used.",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The nurse checked the first-aid supplies after lunch.",
+        "The passage says every reader already knew about recycling team.",
+        "By winter break, the school ordered fewer boxes of printer paper."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: By winter break, the school ordered fewer boxes of printer paper.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The nurse checked the first-aid supplies after lunch.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about recycling team.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 131,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0132",
+      "version": 1,
+      "contentHash": "sha256:a08ac560c9751e107624355e8c01d785c4b45a941ed2994a1cd3acd58421890b",
+      "question": "Read the passage. Grade 4 challenge passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories. Because the passage connects actions with results, readers can see why the exhibit used artifacts and voices to teach local history.\n\nWhich detail is the strongest evidence for the answer, \"The exhibit included both objects and personal stories.\"?",
+      "choices": [
+        "Visitors could press buttons to hear recordings of elders telling memories.",
+        "A rainstorm delayed the baseball game.",
+        "The passage says every reader already knew about museum exhibit.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Visitors could press buttons to hear recordings of elders telling memories.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: A rainstorm delayed the baseball game.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about museum exhibit.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 132,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0133",
+      "version": 1,
+      "contentHash": "sha256:46e3dcc3bf3508de6e3e00411374486b2d544f00545235a7511b5a8a6cf0b424",
+      "question": "Read the passage. Grade 4 challenge passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course. Because the passage connects actions with results, readers can see why testing and revising helped the robotics club improve its robot.\n\nWhich sentence from the passage best supports this idea: The club used mistakes as information.",
+      "choices": [
+        "The principal announced picture day over the speaker.",
+        "Each time the robot missed a turn, members adjusted the code and tested again.",
+        "The passage says every reader already knew about robotics club.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Each time the robot missed a turn, members adjusted the code and tested again.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The principal announced picture day over the speaker.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about robotics club.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 133,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0134",
+      "version": 1,
+      "contentHash": "sha256:ebd592d99a12f6c852de3f626104842bf54fbace2b800cbb10651a2af5e2f1d7",
+      "question": "Read the passage. Grade 4 challenge passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal. Because the passage connects actions with results, readers can see why the breakfast cart helped more students start the day with food.\n\nWhich detail is the strongest evidence for the answer, \"The cart was designed for students with little time before class.\"?",
+      "choices": [
+        "The passage says every reader already knew about school breakfast.",
+        "The science lab received new magnifying glasses.",
+        "Students who arrived close to the bell could still choose a quick meal.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students who arrived close to the bell could still choose a quick meal.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about school breakfast.. The strongest evidence directly supports the idea in the question.",
+          "Not: The science lab received new magnifying glasses.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 134,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0135",
+      "version": 1,
+      "contentHash": "sha256:10fd3e157a91cdd8087cdbc534259605aa0682a3f18315a598e24ef32fc5ecd4",
+      "question": "Read the passage. Grade 4 challenge passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek. Because the passage connects actions with results, readers can see why trail signs helped visitors move safely and learn about nature.\n\nWhich sentence from the passage best supports this idea: The signs gave visitors both directions and information.",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The post office closed early on Saturday.",
+        "The passage says every reader already knew about nature trail.",
+        "They added arrows, distance signs, and small plaques naming common trees."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They added arrows, distance signs, and small plaques naming common trees.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The post office closed early on Saturday.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about nature trail.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 135,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0136",
+      "version": 1,
+      "contentHash": "sha256:26d20500689b73412dd394a3062cc8e9250f22ef4596ad68db0302a735da1fc5",
+      "question": "Read the passage. Grade 5 foundation passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong.\n\nWhich sentence from the passage best supports this idea: The students used observations to care for the plants.",
+      "choices": [
+        "They recorded how tall the seedlings grew.",
+        "The art room displayed clay bowls near the window.",
+        "The passage says every reader already knew about school garden.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They recorded how tall the seedlings grew.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: The art room displayed clay bowls near the window.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about school garden.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 136,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0137",
+      "version": 1,
+      "contentHash": "sha256:a3b27b9cafb01719324c78177371083aa92cce68f1781b7d6baeddb2bcd6ad62",
+      "question": "Read the passage. Grade 5 foundation passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books.\n\nWhich detail is the strongest evidence for the answer, \"The volunteers helped readers find materials more efficiently.\"?",
+      "choices": [
+        "The cafeteria served tomato soup on Thursday.",
+        "They sorted returned books by call number before placing them on shelves.",
+        "The passage says every reader already knew about library helpers.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They sorted returned books by call number before placing them on shelves.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The cafeteria served tomato soup on Thursday.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about library helpers.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 137,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0138",
+      "version": 1,
+      "contentHash": "sha256:6d433ff3340719744b3ce66353cc1cc6041f65e289d0de52e093dd7c3fd6f9ad",
+      "question": "Read the passage. Grade 5 foundation passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose.\n\nWhich sentence from the passage best supports this idea: The rain barrel reduced the need for hose water.",
+      "choices": [
+        "The passage says every reader already knew about rain barrel.",
+        "A soccer team practiced corner kicks after school.",
+        "Members used the stored water on dry afternoons instead of turning on the hose.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Members used the stored water on dry afternoons instead of turning on the hose.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about rain barrel.. The strongest evidence directly supports the idea in the question.",
+          "Not: A soccer team practiced corner kicks after school.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 138,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0139",
+      "version": 1,
+      "contentHash": "sha256:c7f7871e1c245b6687fc640f198d6f7c914600c249bd484b515f65cad057fab5",
+      "question": "Read the passage. Grade 5 foundation passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey.\n\nWhich detail is the strongest evidence for the answer, \"The reporters tried to make the newspaper accurate.\"?",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "The playground slide was painted blue over spring break.",
+        "The passage says every reader already knew about class newspaper.",
+        "They interviewed teachers, wrote short articles, and checked facts before printing."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They interviewed teachers, wrote short articles, and checked facts before printing.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: The playground slide was painted blue over spring break.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about class newspaper.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 139,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0140",
+      "version": 1,
+      "contentHash": "sha256:0e74ddf900a0d8d2da17e40b3d2999601ef666a31e10aa7d99afa2b8d1192703",
+      "question": "Read the passage. Grade 5 foundation passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash.\n\nWhich sentence from the passage best supports this idea: The cleanup made the beach safer for wildlife.",
+      "choices": [
+        "They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The town band played a concert in the park.",
+        "The passage says every reader already knew about beach cleanup.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: The town band played a concert in the park.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about beach cleanup.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 140,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0141",
+      "version": 1,
+      "contentHash": "sha256:64e98e251a6aeb9a70b2353ef47cc7af3c5ae04c75b0b949a8e6c9946d29bec7",
+      "question": "Read the passage. Grade 5 foundation passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors.\n\nWhich detail is the strongest evidence for the answer, \"A helmet must fit correctly to protect a rider.\"?",
+      "choices": [
+        "The school choir rehearsed a song about the moon.",
+        "She showed how helmets should sit flat and snug on a rider's head.",
+        "The passage says every reader already knew about bike safety.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: She showed how helmets should sit flat and snug on a rider's head.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The school choir rehearsed a song about the moon.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about bike safety.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 141,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0142",
+      "version": 1,
+      "contentHash": "sha256:be3c60d749ad27953b22d259224622a96c2bf622b59dba4d69e7a547c6df59af",
+      "question": "Read the passage. Grade 5 foundation passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes.\n\nWhich sentence from the passage best supports this idea: The new bus route served community needs.",
+      "choices": [
+        "The passage says every reader already knew about city buses.",
+        "A bakery sold cinnamon rolls before sunrise.",
+        "The new route stopped near the clinic, grocery store, and community center.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The new route stopped near the clinic, grocery store, and community center.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about city buses.. The strongest evidence directly supports the idea in the question.",
+          "Not: A bakery sold cinnamon rolls before sunrise.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 142,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0143",
+      "version": 1,
+      "contentHash": "sha256:33961d3f666b4beef34e729473744ff5ae789689eecb3431e27777896d24d86e",
+      "question": "Read the passage. Grade 5 foundation passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began.\n\nWhich detail is the strongest evidence for the answer, \"The production required more than acting.\"?",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "A math poster showed different kinds of triangles.",
+        "The passage says every reader already knew about school play.",
+        "Actors practiced lines while stage crew members painted scenery and tested lights."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Actors practiced lines while stage crew members painted scenery and tested lights.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: A math poster showed different kinds of triangles.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about school play.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 143,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0144",
+      "version": 1,
+      "contentHash": "sha256:8044c6f4bcec0e1e85cf90eb8b43173a58172bb1099fde5ee09664d4f3f18a03",
+      "question": "Read the passage. Grade 5 foundation passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds.\n\nWhich sentence from the passage best supports this idea: Food scraps can become useful instead of being thrown away.",
+      "choices": [
+        "After several weeks, the dark compost was mixed into flower beds.",
+        "A new scoreboard was installed in the gym.",
+        "The passage says every reader already knew about compost bin.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: After several weeks, the dark compost was mixed into flower beds.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: A new scoreboard was installed in the gym.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about compost bin.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 144,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0145",
+      "version": 1,
+      "contentHash": "sha256:0560a6b913511f9abf6f562c30ae55793951a8390593fb59031d4983424ed698",
+      "question": "Read the passage. Grade 5 foundation passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights.\n\nWhich detail is the strongest evidence for the answer, \"The students gathered more than one kind of weather evidence.\"?",
+      "choices": [
+        "The music teacher tuned a violin before class.",
+        "They measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "The passage says every reader already knew about weather station.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They measured rainfall, wind direction, temperature, and cloud cover every day.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The music teacher tuned a violin before class.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about weather station.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 145,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0146",
+      "version": 1,
+      "contentHash": "sha256:86ec16f5e3f289e0042e77c6051b29904c5da7b98fc1e30219af7f955389a176",
+      "question": "Read the passage. Grade 5 foundation passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper.\n\nWhich sentence from the passage best supports this idea: The plan changed how much paper the school used.",
+      "choices": [
+        "The passage says every reader already knew about recycling team.",
+        "The nurse checked the first-aid supplies after lunch.",
+        "By winter break, the school ordered fewer boxes of printer paper.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: By winter break, the school ordered fewer boxes of printer paper.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about recycling team.. The strongest evidence directly supports the idea in the question.",
+          "Not: The nurse checked the first-aid supplies after lunch.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 146,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0147",
+      "version": 1,
+      "contentHash": "sha256:0a5cb5c719228b74e1a99b6b93ecc13469223051329f4a8ae56656f3462b523d",
+      "question": "Read the passage. Grade 5 foundation passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories.\n\nWhich detail is the strongest evidence for the answer, \"The exhibit included both objects and personal stories.\"?",
+      "choices": [
+        "The title names the topic but gives no proof.",
+        "A rainstorm delayed the baseball game.",
+        "The passage says every reader already knew about museum exhibit.",
+        "Visitors could press buttons to hear recordings of elders telling memories."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Visitors could press buttons to hear recordings of elders telling memories.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question.",
+          "Not: A rainstorm delayed the baseball game.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about museum exhibit.. The strongest evidence directly supports the idea in the question.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 147,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0148",
+      "version": 1,
+      "contentHash": "sha256:4f08f0dd828e27182d2fbf3c2d1c8d20ed167c6dba82bd04749e4c4c3aba55a4",
+      "question": "Read the passage. Grade 5 foundation passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course.\n\nWhich sentence from the passage best supports this idea: The club used mistakes as information.",
+      "choices": [
+        "Each time the robot missed a turn, members adjusted the code and tested again.",
+        "The principal announced picture day over the speaker.",
+        "The passage says every reader already knew about robotics club.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Each time the robot missed a turn, members adjusted the code and tested again.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "",
+          "Not: The principal announced picture day over the speaker.. The strongest evidence directly supports the idea in the question.",
+          "Not: The passage says every reader already knew about robotics club.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 148,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0149",
+      "version": 1,
+      "contentHash": "sha256:a815f08823724f821ac7732dfdd672bc4ef09825171a0eb0d2b20c639ff12c4a",
+      "question": "Read the passage. Grade 5 foundation passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal.\n\nWhich detail is the strongest evidence for the answer, \"The cart was designed for students with little time before class.\"?",
+      "choices": [
+        "The science lab received new magnifying glasses.",
+        "Students who arrived close to the bell could still choose a quick meal.",
+        "The passage says every reader already knew about school breakfast.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students who arrived close to the bell could still choose a quick meal.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The science lab received new magnifying glasses.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The passage says every reader already knew about school breakfast.. The strongest evidence directly supports the idea in the question.",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 149,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-text-evidence-q0150",
+      "version": 1,
+      "contentHash": "sha256:cbaa3c4fbbe2ec9e765d850cc3df655718931a4ef62eaa6deef6bfd3a069d612",
+      "question": "Read the passage. Grade 5 foundation passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek.\n\nWhich sentence from the passage best supports this idea: The signs gave visitors both directions and information.",
+      "choices": [
+        "The passage says every reader already knew about nature trail.",
+        "The post office closed early on Saturday.",
+        "They added arrows, distance signs, and small plaques naming common trees.",
+        "The title names the topic but gives no proof."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Text evidence is a word, sentence, or detail from the passage that supports an answer.",
+        "example": "To prove that students measured carefully, choose the sentence that says what they measured.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They added arrows, distance signs, and small plaques naming common trees.. The strongest evidence directly supports the idea in the question.",
+        "incorrect": [
+          "Not: The passage says every reader already knew about nature trail.. The strongest evidence directly supports the idea in the question.",
+          "Not: The post office closed early on Saturday.. The strongest evidence directly supports the idea in the question.",
+          "",
+          "Not: The title names the topic but gives no proof.. The strongest evidence directly supports the idea in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text evidence",
+          "explicit details",
+          "supporting answers"
+        ],
+        "standards": [
+          "RI/RL.2-6.1"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-text-evidence",
+        "sequence": 150,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["reading-comprehension-text-evidence"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["reading-comprehension-text-evidence"] = chunkSet;
+  }
+})();

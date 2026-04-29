@@ -28,15 +28,15 @@
     const entry = getManifestEntry(setId);
     if (!entry) throw new Error(`Question loader: no manifest entry for "${setId}".`);
 
-    const sourcePath = entry.chunkFile;
-    if (!sourcePath) throw new Error(`Question loader: manifest entry for "${setId}" is missing chunkFile.`);
+    const sourcePaths = getSetChunkFiles(entry);
+    if (!sourcePaths.length) throw new Error(`Question loader: manifest entry for "${setId}" is missing chunkFile.`);
 
-    if (isOffline() && !(await hasCachedQuestionChunk(sourcePath))) {
+    if (isOffline() && !(await hasCachedQuestionChunks(sourcePaths))) {
       window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING = true;
       throw new Error(`Question loader: "${setId}" is unavailable offline until its chunk has been loaded once.`);
     }
 
-    await loadQuestionScript(sourcePath);
+    await loadQuestionScripts(sourcePaths);
     const loaded = getGlobalSet(setId);
     if (!loaded || !Array.isArray(loaded.questions) || loaded.questions.length === 0) {
       throw new Error(`Question loader: "${setId}" did not load a usable question set.`);
@@ -143,12 +143,24 @@
     return false;
   }
 
+  async function hasCachedQuestionChunks(sourcePaths) {
+    const paths = Array.isArray(sourcePaths) ? sourcePaths : [];
+    for (const sourcePath of paths) {
+      if (!(await hasCachedQuestionChunk(sourcePath))) return false;
+    }
+    return true;
+  }
+
   async function hydrateQuestionRefs(questionRefs) {
     const refs = Array.isArray(questionRefs) ? questionRefs : [];
-    const sourceSets = Array.from(new Set(refs
-      .map(ref => ref && ref.sourceSet)
-      .filter(Boolean)));
-    const sets = await loadSets(sourceSets);
+    const refsBySet = refs.reduce((index, ref) => {
+      if (ref && ref.sourceSet) {
+        if (!index[ref.sourceSet]) index[ref.sourceSet] = [];
+        index[ref.sourceSet].push(ref);
+      }
+      return index;
+    }, {});
+    const sets = await Promise.all(Object.keys(refsBySet).map(setId => loadSetForRefs(setId, refsBySet[setId])));
     const questionsById = {};
 
     sets.forEach(set => {
@@ -161,6 +173,17 @@
       if (!ref || !ref.id) return null;
       return questionsById[ref.id] || null;
     });
+  }
+
+  async function loadSetForRefs(setId, refs) {
+    const entry = getManifestEntry(setId);
+    const chunkFiles = getChunkFilesForRefs(entry, refs);
+    if (!chunkFiles.length) return loadSet(setId);
+    await loadQuestionScripts(chunkFiles);
+    const loaded = getGlobalSet(setId);
+    if (!loaded || !Array.isArray(loaded.questions)) return loadSet(setId);
+    setCache[setId] = normalizeQuestionSet(setId, loaded);
+    return setCache[setId];
   }
 
   function normalizeSelectionRequest(request) {
@@ -416,6 +439,33 @@
     return window.QUESTION_BANK && window.QUESTION_BANK[setId];
   }
 
+  function getSetChunkFiles(entry) {
+    if (entry && Array.isArray(entry.chunks) && entry.chunks.length) {
+      return entry.chunks.map(chunk => chunk && chunk.chunkFile).filter(Boolean);
+    }
+    return entry && entry.chunkFile ? [entry.chunkFile] : [];
+  }
+
+  function getChunkFilesForRefs(entry, refs) {
+    if (!entry || !Array.isArray(entry.chunks) || !entry.chunks.length) return [];
+    const normalizedRefs = Array.isArray(refs) ? refs : [];
+    const neededIds = new Set(normalizedRefs
+      .map(ref => ref && ref.id)
+      .filter(Boolean));
+    const neededSequences = normalizedRefs
+      .map(ref => Number(ref && ref.sequence))
+      .filter(sequence => Number.isFinite(sequence) && sequence > 0);
+    return entry.chunks
+      .filter(chunk => {
+        if (Array.isArray(chunk.ids) && chunk.ids.some(id => neededIds.has(id))) return true;
+        const first = Number(chunk.firstSequence);
+        const last = Number(chunk.lastSequence);
+        return Number.isFinite(first) && Number.isFinite(last) && neededSequences.some(sequence => sequence >= first && sequence <= last);
+      })
+      .map(chunk => chunk.chunkFile)
+      .filter(Boolean);
+  }
+
   function normalizeQuestionSet(setId, set) {
     if (set && !set.id) set.id = setId;
     return set;
@@ -444,6 +494,13 @@
     });
 
     return loadedPaths[resolvedPath];
+  }
+
+  function loadQuestionScripts(sourcePaths) {
+    const paths = Array.isArray(sourcePaths) ? sourcePaths : [];
+    return paths.reduce((promise, sourcePath) => {
+      return promise.then(() => loadQuestionScript(sourcePath));
+    }, Promise.resolve());
   }
 
   function resolveAssetPath(sourcePath) {

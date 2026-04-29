@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "standards": [
+    "ELA.3-6.TestReadiness",
+    "L.2-6.1",
+    "L.2-6.2",
+    "L.2-6.4",
+    "L.2-6.5",
+    "L.3-6.1",
+    "L.3-6.1-3",
+    "L.3-6.2",
+    "L.3-6.3",
+    "L.3-6.5",
+    "L.4-6.1",
+    "L.4-6.2",
+    "L.4-6.4",
+    "L.5-6.1",
+    "RF.2-5.3",
+    "RF/L.2-5",
+    "RI.2-6.2",
+    "RI.2-6.5-7",
+    "RI.2-6.6",
+    "RI.3-6.5",
+    "RI.3-6.6-8",
+    "RI/RL.2-6.1",
+    "RI/RL.2-6.2",
+    "RI/RL.3-6.9",
+    "RL.2-6.2",
+    "RL.2-6.3",
+    "RL.2-6.5",
+    "RL.3-6.4-5",
+    "RL.3-6.6",
+    "RL/RI.4-6.4",
+    "W.3-6.1",
+    "W.3-6.2",
+    "W.3-6.3",
+    "W.3-6.5",
+    "W.3-6.7-8"
+  ],
+  "skills": [
+    {
+      "id": "grammar.sentence-analysis",
+      "label": "Sentence Analysis",
+      "domain": "grammar",
+      "standards": ["L.3-6.1"],
+      "aliases": ["sentence analysis", "sentence types", "clauses", "complex sentences", "subject predicate"]
+    },
+    {
+      "id": "grammar.usage",
+      "label": "Grammar Usage",
+      "domain": "grammar",
+      "standards": ["L.3-6.1"],
+      "aliases": ["grammar", "usage", "grammar and usage", "language", "language usage", "mechanics", "editing"]
+    },
+    {
+      "id": "grammar.writing",
+      "label": "Writing Development",
+      "domain": "grammar",
+      "standards": ["W.3-6.5"],
+      "aliases": ["writing", "paragraphs", "revision", "word choice", "clarity", "topic sentence", "supporting details"]
+    },
+    {
+      "id": "capitalization.capitalization",
+      "label": "Capitalization",
+      "domain": "capitalization",
+      "standards": ["L.3-6.2"],
+      "aliases": ["capitalization", "proper nouns", "common capitalization pitfalls", "mechanics", "editing"]
+    },
+    {
+      "id": "punctuation.conventions",
+      "label": "Punctuation Conventions",
+      "domain": "punctuation",
+      "standards": ["L.3-6.2"],
+      "aliases": ["punctuation", "commas", "quotation marks", "apostrophes", "mechanics", "editing"]
+    },
+    {
+      "id": "reading-comprehension.comprehension",
+      "label": "Reading Comprehension",
+      "domain": "reading-comprehension",
+      "standards": ["RI/RL.2-6.1", "RI/RL.2-6.2"],
+      "aliases": ["reading comprehension", "main idea", "supporting details", "text evidence", "summarizing", "author's purpose", "theme"]
+    },
+    {
+      "id": "reference-skills.reference-research",
+      "label": "Reference and Research Skills",
+      "domain": "reference-skills",
+      "standards": ["W.3-6.7-8"],
+      "aliases": ["reference skills", "dictionary", "guide words", "research skills", "media literacy", "alphabetical order", "text features"]
+    },
+    {
+      "id": "vocabulary.word-study",
+      "label": "Vocabulary and Word Study",
+      "domain": "vocabulary",
+      "standards": ["L.3-6.5", "L.4-6.4"],
+      "aliases": ["vocabulary", "word study", "vocabulary and usage", "word meaning", "context clues", "prefixes", "suffixes", "homophones", "spelling"]
+    }
+  ]
+}

@@ -205,9 +205,37 @@
       badges: Array.isArray(input.badges) ? input.badges : [],
       reports: normalizeReports(input.reports),
       activeQuiz: normalizeActiveQuiz(input.activeQuiz),
-      mastery: input.mastery && typeof input.mastery === 'object' ? input.mastery : { domains: {}, skills: {}, cognitiveDemand: {}, difficulty: {}, subtopics: {}, standards: {} },
+      mastery: normalizeMastery(input.mastery),
       lastUpdatedAt: input.lastUpdatedAt || ''
     };
+  }
+
+  function normalizeMastery(mastery) {
+    const input = mastery && typeof mastery === 'object' ? mastery : {};
+    return {
+      domains: normalizeMasteryGroup(input.domains),
+      skills: normalizeMasteryGroup(input.skills),
+      cognitiveDemand: normalizeMasteryGroup(input.cognitiveDemand),
+      difficulty: normalizeMasteryGroup(input.difficulty),
+      subtopics: normalizeMasteryGroup(input.subtopics),
+      standards: normalizeMasteryGroup(input.standards)
+    };
+  }
+
+  function normalizeMasteryGroup(group) {
+    const normalized = {};
+    Object.keys(group || {}).forEach(key => {
+      const item = group[key] || {};
+      normalized[key] = {
+        label: item.label || key,
+        correct: Number(item.correct) || 0,
+        total: Number(item.total) || 0,
+        lastPracticed: item.lastPracticed || '',
+        level: item.level || '',
+        questionRefs: normalizeStringArray(item.questionRefs)
+      };
+    });
+    return normalized;
   }
 
   function normalizeReports(reports) {
@@ -230,7 +258,9 @@
     return Object.assign({}, attempt, {
       questionId: attempt.questionId || attempt.id || '',
       questionVersion: Number(attempt.questionVersion) || 0,
-      questionHash: attempt.questionHash || attempt.contentHash || ''
+      questionHash: attempt.questionHash || attempt.contentHash || '',
+      skillIds: normalizeStringArray(attempt.skillIds),
+      standardIds: normalizeStringArray(attempt.standardIds)
     });
   }
 
@@ -280,6 +310,12 @@
 
   function looksLikeStableQuestionId(id) {
     return /^[a-z0-9]+(?:-[a-z0-9]+)*-q\d{4}$/i.test(String(id || ''));
+  }
+
+  function normalizeStringArray(values) {
+    return (Array.isArray(values) ? values : [])
+      .map(value => String(value || '').trim())
+      .filter(Boolean);
   }
 
   return {

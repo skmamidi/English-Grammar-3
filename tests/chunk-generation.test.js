@@ -8,8 +8,10 @@ const { flattenQuestionBanks, loadQuestionBanks } = require('../scripts/qa/bank-
 const { CHUNK_MIGRATION_ORDER } = require('../scripts/question-chunk-config');
 const {
   buildQuestionChunkScript,
+  buildQuestionSubchunkScript,
   getChunkedSets,
   getExpectedChunkPath,
+  getExpectedSubchunkPath,
   writeQuestionChunks
 } = require('../scripts/generate-question-chunks');
 const {
@@ -49,6 +51,14 @@ test('chunk validation fails when a chunk has stale content', () => {
   assert.match(result.errors[0], /capitalization-proper-names-titles/);
   assert.match(result.errors[0], /q0001/);
   assert.match(result.errors[0], /contentHash/);
+});
+
+test('generated chunks preserve stable skill and standard ids for runtime reporting', () => {
+  const chunkBank = loadChunkBank('assets/question-chunks/grammar/grammar-sentence-types.js');
+  const question = chunkBank['grammar-sentence-types'].questions[0];
+
+  assert.ok(question.metadata.skillIds.includes('grammar.sentence-analysis'));
+  assert.ok(question.metadata.standardIds.includes('L.3-6.1'));
 });
 
 test('manifest validation fails when a declared chunk is missing', () => {
@@ -127,7 +137,7 @@ test('writeQuestionChunks dry run reports expected chunk paths for every questio
   assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js')));
   assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/punctuation/punctuation-commas-series.js')));
   assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/vocabulary/vocabulary-homophones.js')));
-  assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details.js')));
+  assert.ok(paths.some(chunkPath => /assets\/question-chunks\/reading-comprehension\/reading-comprehension-main-idea-supporting-details-(001|002)\.js$/.test(chunkPath)));
   assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/grammar/grammar-sentence-types.js')));
 });
 
@@ -167,12 +177,32 @@ test('checked-in chunk files match deterministic generated output', () => {
 
   getChunkedSets(manifest).forEach(entry => {
     const sourceRecord = sourceRecords.get(entry.id);
-    const expected = buildQuestionChunkScript({
+    const buildOptions = {
       domain: entry.domain,
       setId: entry.id,
       sourceFile: sourceRecord.relativeFile,
       set: sourceRecord.set
-    });
+    };
+    if (Array.isArray(entry.chunks) && entry.chunks.length) {
+      entry.chunks.forEach((chunk, index) => {
+        const questions = sourceRecord.set.questions.filter(question => chunk.ids.includes(question.id));
+        const expected = buildQuestionSubchunkScript(Object.assign({}, buildOptions, {
+          fullSet: sourceRecord.set,
+          questions,
+          chunkIndex: index + 1
+        }));
+        const actual = fs.readFileSync(getExpectedSubchunkPath({
+          domain: entry.domain,
+          setId: entry.id,
+          index: index + 1
+        }), 'utf8');
+
+        assert.equal(actual, expected, `${entry.id} subchunk ${index + 1} should match generated output`);
+      });
+      return;
+    }
+
+    const expected = buildQuestionChunkScript(buildOptions);
     const actual = fs.readFileSync(getExpectedChunkPath({
       domain: entry.domain,
       setId: entry.id
@@ -203,7 +233,17 @@ test('every manifest set is chunk-backed', () => {
 
   assert.ok(manifest.sets.length > 0, 'expected manifest sets');
   manifest.sets.forEach(set => {
-    assert.equal(set.chunkFile, `assets/question-chunks/${set.domain}/${set.id}.js`);
+    assert.ok(set.chunkFile, `${set.id} should expose a chunkFile`);
+    if (Array.isArray(set.chunks) && set.chunks.length) {
+      assert.equal(set.chunkFile, set.chunks[0].chunkFile);
+      assert.equal(set.chunks.reduce((sum, chunk) => sum + chunk.questionCount, 0), set.questionCount);
+      assert.deepEqual(
+        set.chunks.flatMap(chunk => chunk.ids).sort(),
+        set.questions.map(question => question.id).sort()
+      );
+    } else {
+      assert.equal(set.chunkFile, `assets/question-chunks/${set.domain}/${set.id}.js`);
+    }
   });
 });
 

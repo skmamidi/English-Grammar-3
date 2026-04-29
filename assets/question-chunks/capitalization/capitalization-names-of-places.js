@@ -2,7 +2,7 @@
  * English Language Quiz App - capitalization chunk: capitalization-names-of-places
  * Generated from assets/question-bank-source/capitalization.json.
  * Generator version: 1.
- * Source hash: sha256:0daa6174cc11b06733690ae5d080d16ddb073d14fd0e1f21ad9853a9e2fd2a15.
+ * Source hash: sha256:101619f633563e7a4670f9f77fa41d9d43d113128e526fabdc5f28985ec210d3.
  */
 (function () {
   'use strict';
@@ -65,7 +65,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -122,7 +128,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -179,7 +191,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -236,7 +254,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -293,7 +317,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -350,7 +380,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -407,7 +443,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -464,7 +506,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -521,7 +569,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -578,7 +632,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -635,7 +695,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -692,7 +758,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -749,7 +821,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -806,7 +884,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -863,7 +947,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "capitalization-names-of-places",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -921,6 +1011,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -979,6 +1075,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1037,6 +1139,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1095,6 +1203,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1153,6 +1267,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1211,6 +1331,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1269,6 +1395,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1327,6 +1459,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1385,6 +1523,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1443,6 +1587,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1501,6 +1651,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1559,6 +1715,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1617,6 +1779,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1675,6 +1843,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1733,6 +1907,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1791,6 +1971,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1850,6 +2036,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1909,6 +2101,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -1968,6 +2166,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -2027,6 +2231,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
           ]
         }
       },
@@ -2088,28 +2298,34 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
         "id": "capitalization-names-of-places-q0037",
         "version": 1,
-        "contentHash": "sha256:c837e1d0bd96b8a7b9f77f235439fd73c8355d195619c7ad9bf05f04ce74f635",
+        "contentHash": "sha256:cd72d67f32305b0962abf53db7f1b4e56da18dcb76ab446638a5d4e37ac144ae",
         "question": "Identify the sentence with the correct capitalization.",
         "choices": [
-          "Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.",
+          "Adam went to McDonald’s and ordered a Pepsi, although he preferred a coke.",
           "Adam went to mcDonald’s and ordered a Pepsi, although he preferred a Coke.",
           "Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.",
           "Adam went to McDonald’s and ordered a Pepsi, although her preferred a Coke."
         ],
         "correct": 2,
         "explanation": {
-          "correct": "Answer: Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.. Adam went to McDonald’s and ordered a Pepsi, although her preferred a C oke. Capitalize names of people (Adam), places (McDonald’s), and products (Pepsi and Coke)",
+          "correct": "Answer: Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke. Capitalize names of people (Adam), places (McDonald’s), and products (Pepsi and Coke).",
           "incorrect": [
-            "Not: Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.. Use the mechanics rule and sentence context to check this choice.",
-            "Not: Adam went to mcDonald’s and ordered a Pepsi, although he preferred a Coke.. Use the mechanics rule and sentence context to check this choice.",
+            "Not: Adam went to McDonald’s and ordered a Pepsi, although he preferred a coke. Product names like Coke should be capitalized.",
+            "Not: Adam went to mcDonald’s and ordered a Pepsi, although he preferred a Coke. McDonald’s is a place or business name and should be capitalized.",
             "",
-            "Not: Adam went to McDonald’s and ordered a Pepsi, although her preferred a Coke.. Use the mechanics rule and sentence context to check this choice."
+            "Not: Adam went to McDonald’s and ordered a Pepsi, although her preferred a Coke. The pronoun should be he in this sentence."
           ]
         },
         "studyAid": {
@@ -2149,7 +2365,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2210,7 +2432,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2271,7 +2499,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2332,7 +2566,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2393,7 +2633,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2454,7 +2700,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2515,7 +2767,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       },
       {
@@ -2576,7 +2834,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 137
+          "sequence": 137,
+          "skillIds": [
+            "capitalization.capitalization"
+          ],
+          "standardIds": [
+            "L.3-6.2"
+          ]
         }
       }
     ],

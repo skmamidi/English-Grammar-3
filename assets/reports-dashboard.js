@@ -182,10 +182,14 @@
     const skillMap = {};
 
     attempts.forEach(attempt => {
-      const skills = attempt.skills && attempt.skills.length ? attempt.skills : [attempt.subtopicTitle || 'Mixed practice'];
+      const stableSkillIds = Array.isArray(attempt.skillIds) ? attempt.skillIds.filter(Boolean) : [];
+      const skills = stableSkillIds.length
+        ? stableSkillIds
+        : (attempt.skills && attempt.skills.length ? attempt.skills : [attempt.subtopicTitle || 'Mixed practice']);
       skills.forEach(skill => {
-        const key = slugify(skill);
-        if (!skillMap[key]) skillMap[key] = { label: titleCase(skill), correct: 0, total: 0 };
+        const key = stableSkillIds.length ? String(skill) : slugify(skill);
+        const label = stableSkillIds.length ? String(skill) : titleCase(skill);
+        if (!skillMap[key]) skillMap[key] = { label, correct: 0, total: 0 };
         skillMap[key].correct += attempt.correct ? 1 : 0;
         skillMap[key].total += 1;
       });
@@ -1044,7 +1048,7 @@
     if (detail.visualScene && detail.visualScene.type === 'dialogue-scene') {
       return renderSavedVisualQuestionScene(detail.visualScene, detail);
     }
-    return renderDisplayPromptForReport(getDisplayPromptParts(detail.question), 'question');
+    return renderDisplayPromptForReport(getDisplayPromptParts(detail.question, detail), 'question');
   }
 
   function renderFullQuestionPronunciationControls(detail) {
@@ -1161,7 +1165,7 @@
   }
 
   function renderSavedVisualQuestionScene(scene, detail) {
-    const prompt = getDisplayPromptParts(scene.prompt || detail.question);
+    const prompt = getDisplayPromptParts(scene.prompt || detail.question, detail);
     const dialogue = Array.isArray(scene.dialogue) ? scene.dialogue.slice(0, 2) : [];
     return `
       <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
@@ -1183,9 +1187,10 @@
     `;
   }
 
-  function getDisplayPromptParts(value) {
+  function getDisplayPromptParts(value, detail) {
     const fullText = normalizePromptText(value);
     const withoutLeadIn = stripPromptLeadIns(fullText);
+    const underlineTargets = getUnderlineTargetsForReport(withoutLeadIn, detail);
     const passageMatch = withoutLeadIn.match(/^Read the passage\.\s*(?:Grade\s+\d+\s+[a-z-]+\s+passage:\s*)?([\s\S]+)$/i);
     const passageSource = passageMatch ? passageMatch[1].trim() : withoutLeadIn;
     const split = passageSource.split(/\n\s*\n/);
@@ -1197,7 +1202,8 @@
         fullText: [passageParts.join(' '), task].filter(Boolean).join(' '),
         passage: passageParts.join(' '),
         annotation: '',
-        task
+        task,
+        underlineTargets
       };
     }
     return {
@@ -1205,27 +1211,88 @@
       fullText: withoutLeadIn,
       passage: '',
       annotation: '',
-      task: withoutLeadIn
+      task: withoutLeadIn,
+      underlineTargets
     };
   }
 
   function renderDisplayPromptForReport(prompt, variant) {
     if (!prompt || !prompt.fullText) return '';
     if (prompt.type !== 'passage') {
-      return `<div class="${variant}-prompt-card ${variant}-prompt-card-plain"><div class="question-text">${escapeHtml(prompt.task || prompt.fullText)}</div></div>`;
+      return `<div class="${variant}-prompt-card ${variant}-prompt-card-plain"><div class="question-text">${renderPromptTextWithUnderlinesForReport(prompt.task || prompt.fullText, prompt.underlineTargets)}</div></div>`;
     }
     return `
       <div class="${variant}-prompt-card ${variant}-prompt-card-passage">
         <div class="prompt-passage">
           <span>Passage</span>
-          <p>${escapeHtml(prompt.passage)}</p>
+          <p>${renderPromptTextWithUnderlinesForReport(prompt.passage, prompt.underlineTargets)}</p>
         </div>
         <div class="prompt-task">
           <span>Question</span>
-          <strong>${escapeHtml(prompt.task)}</strong>
+          <strong>${renderPromptTextWithUnderlinesForReport(prompt.task, prompt.underlineTargets)}</strong>
         </div>
       </div>
     `;
+  }
+
+  function getUnderlineTargetsForReport(promptText, detail) {
+    if (!/underlined/i.test(promptText || '')) return [];
+    const choices = detail && Array.isArray(detail.choices) ? detail.choices : [];
+    const body = getUnderlineSearchTextForReport(promptText);
+    const seen = new Set();
+    return choices
+      .flatMap(choice => getUnderlineChoiceCandidatesForReport(choice))
+      .filter(choice => choice && !/^correct as is\.?$/i.test(choice) && choice.length <= 80)
+      .filter(choice => {
+        const key = choice.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return buildFlexibleWordRegExpForReport(choice).test(body);
+      });
+  }
+
+  function getUnderlineChoiceCandidatesForReport(choice) {
+    const text = String(choice || '').trim().replace(/\s+/g, ' ');
+    if (!text) return [];
+    const parts = text.split(/\s*,\s*/).map(part => part.trim()).filter(Boolean);
+    return parts.length > 1 ? parts.concat(text) : [text];
+  }
+
+  function getUnderlineSearchTextForReport(promptText) {
+    const text = String(promptText || '');
+    const questionIndex = text.indexOf('?');
+    return questionIndex >= 0 ? text.slice(questionIndex + 1) : text;
+  }
+
+  function renderPromptTextWithUnderlinesForReport(text, targets) {
+    const source = String(text || '');
+    const activeTargets = Array.isArray(targets) ? targets.filter(Boolean).sort((a, b) => b.length - a.length) : [];
+    if (!activeTargets.length) return escapeHtml(source);
+    let html = '';
+    let index = 0;
+    while (index < source.length) {
+      const match = activeTargets
+        .map(target => {
+          const found = source.slice(index).match(buildFlexibleWordRegExpForReport(target));
+          return found && found.index === 0 ? found[0] : '';
+        })
+        .find(Boolean);
+      if (match) {
+        html += `<u>${escapeHtml(match)}</u>`;
+        index += match.length;
+      } else {
+        html += escapeHtml(source[index]);
+        index += 1;
+      }
+    }
+    return html;
+  }
+
+  function buildFlexibleWordRegExpForReport(value) {
+    const pattern = String(value || '').trim()
+      .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      .replace(/\s+/g, '\\s+');
+    return new RegExp(`(^|(?<=\\W))${pattern}(?=$|\\W)`, 'i');
   }
 
   function renderFullQuestionExplanations(detail) {

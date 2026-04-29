@@ -91,6 +91,40 @@ test('loader hydrates question refs from chunk-backed source sets', async () => 
   assert.match(questions[0].question, /capitalized|Capitalized|edited|version/);
 });
 
+test('loader hydrates refs from only the needed oversized subchunk', async () => {
+  const manifest = loadManifest();
+  const oversized = manifest.sets.find(set => Array.isArray(set.chunks) && set.chunks.length > 1);
+  assert.ok(oversized, 'expected at least one subchunked set');
+  const targetChunk = oversized.chunks[1];
+  const questionId = targetChunk.ids[0];
+  const context = createLoaderContext({ manifest: buildIndexManifest(manifest) });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  const questions = await context.window.GrammarQuestQuestionLoader.hydrateQuestionRefs([{
+    id: questionId,
+    sourceSet: oversized.id,
+    sequence: targetChunk.firstSequence
+  }]);
+
+  assert.equal(questions.length, 1);
+  assert.equal(questions[0].id, questionId);
+  assert.deepEqual(context.loadedScriptPaths, [targetChunk.chunkFile]);
+});
+
+test('loader can assemble a full oversized set from all generated subchunks', async () => {
+  const manifest = loadManifest();
+  const oversized = manifest.sets.find(set => Array.isArray(set.chunks) && set.chunks.length > 1);
+  const context = createLoaderContext({ manifest: buildIndexManifest(manifest) });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  const set = await context.window.GrammarQuestQuestionLoader.loadSet(oversized.id);
+  assert.equal(set.id, oversized.id);
+  assert.equal(set.questions.length, oversized.questionCount);
+  assert.deepEqual(context.loadedScriptPaths, oversized.chunks.map(chunk => chunk.chunkFile));
+});
+
 test('loader sends server selection request and hydrates returned refs when enabled', async () => {
   const requests = [];
   const context = createLoaderContext({

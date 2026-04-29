@@ -11,8 +11,14 @@ const { CHUNKED_DOMAINS } = require('./question-chunk-config');
 const {
   buildQuestionChunkProvenance
 } = require('./question-artifact-provenance');
+const {
+  enrichQuestionWithSkillTags,
+  loadSkillTaxonomy
+} = require('./qa/question-skill-taxonomy');
 
 const CHUNK_ROOT = path.posix.join('assets', 'question-chunks');
+const SUBCHUNK_BYTE_THRESHOLD = 500 * 1024;
+const SUBCHUNK_QUESTION_COUNT = 50;
 
 function getChunkedSets(manifest) {
   return (manifest.sets || []).filter(set => set && CHUNKED_DOMAINS.has(set.domain));
@@ -28,6 +34,40 @@ function getExpectedChunkRelativePath({ domain, setId }) {
   return path.posix.join(CHUNK_ROOT, domain, `${setId}.js`);
 }
 
+function getExpectedSubchunkPath({ domain, setId, index }, root = repoRoot) {
+  return path.join(root, getExpectedSubchunkRelativePath({ domain, setId, index }));
+}
+
+function getExpectedSubchunkRelativePath({ domain, setId, index }) {
+  const suffix = String(index).padStart(3, '0');
+  return path.posix.join(CHUNK_ROOT, domain, `${setId}-${suffix}.js`);
+}
+
+function shouldSubchunkSet(input) {
+  const options = normalizeBuildOptions(input);
+  const fullScript = buildQuestionChunkScript(options);
+  return Buffer.byteLength(fullScript, 'utf8') > SUBCHUNK_BYTE_THRESHOLD;
+}
+
+function buildSubchunkDescriptors(input) {
+  const options = normalizeBuildOptions(input);
+  const questions = Array.isArray(options.set && options.set.questions) ? options.set.questions : [];
+  if (!shouldSubchunkSet(options)) return [];
+  const chunks = [];
+  for (let start = 0; start < questions.length; start += SUBCHUNK_QUESTION_COUNT) {
+    const slice = questions.slice(start, start + SUBCHUNK_QUESTION_COUNT);
+    const index = chunks.length + 1;
+    chunks.push({
+      chunkFile: getExpectedSubchunkRelativePath({ domain: options.domain, setId: options.setId, index }),
+      firstSequence: getQuestionSequence(slice[0], start + 1),
+      lastSequence: getQuestionSequence(slice[slice.length - 1], start + slice.length),
+      questionCount: slice.length,
+      ids: slice.map(question => question.id).filter(Boolean)
+    });
+  }
+  return chunks;
+}
+
 function buildQuestionChunkScript(input, legacySet, legacySourceFile) {
   const options = normalizeBuildOptions(input, legacySet, legacySourceFile);
   const domain = options.domain || getDomainFromSource(options.sourceFile, options.setId);
@@ -36,6 +76,7 @@ function buildQuestionChunkScript(input, legacySet, legacySourceFile) {
     sourceFile: options.sourceFile,
     set: options.set
   });
+  const enrichedSet = enrichSetWithSkillTags(options.set, { domain, taxonomy: loadSkillTaxonomy() });
 
   return `/**
  * English Language Quiz App - ${domain} chunk: ${options.setId}
@@ -45,8 +86,44 @@ function buildQuestionChunkScript(input, legacySet, legacySourceFile) {
  */
 (function () {
   'use strict';
-  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, ${JSON.stringify({ [options.setId]: options.set }, null, 2)}
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, ${JSON.stringify({ [options.setId]: enrichedSet }, null, 2)}
   );
+})();
+`;
+}
+
+function buildQuestionSubchunkScript(input) {
+  const options = normalizeBuildOptions(input);
+  const domain = options.domain || getDomainFromSource(options.sourceFile, options.setId);
+  const provenance = buildQuestionChunkProvenance({
+    setId: options.setId,
+    sourceFile: options.sourceFile,
+    set: options.fullSet || options.set
+  });
+  const set = Object.assign({}, options.set || {}, {
+    questions: Array.isArray(options.questions) ? options.questions : []
+  });
+  const enrichedSet = enrichSetWithSkillTags(set, { domain, taxonomy: loadSkillTaxonomy() });
+
+  return `/**
+ * English Language Quiz App - ${domain} subchunk: ${options.setId} ${options.chunkIndex}
+ * Generated from ${options.sourceFile}.
+ * Generator version: ${provenance.generatorVersion}.
+ * Source hash: ${provenance.sourceHash}.
+ */
+(function () {
+  'use strict';
+  const chunkSet = ${JSON.stringify(enrichedSet, null, 2)};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank[${JSON.stringify(options.setId)}];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank[${JSON.stringify(options.setId)}] = chunkSet;
+  }
 })();
 `;
 }
@@ -66,28 +143,55 @@ function writeQuestionChunks(manifest, bankLoad, options = {}) {
     const sourceRecord = sourceRecords.get(entry.id);
     if (!sourceRecord) throw new Error(`${entry.id}: source set missing for chunk generation.`);
 
-    const chunkPath = getExpectedChunkPath({ domain: entry.domain, setId: entry.id }, root);
-    const relativePath = path.relative(root, chunkPath);
-    const contents = buildQuestionChunkScript({
+    const buildOptions = {
       domain: entry.domain,
       setId: entry.id,
       sourceFile: sourceRecord.relativeFile,
       set: sourceRecord.set
-    });
-    expectedFiles.add(chunkPath);
-
-    if (fs.existsSync(chunkPath) && fs.readFileSync(chunkPath, 'utf8') === contents) {
-      summary.unchanged.push({ path: chunkPath, relativePath });
+    };
+    const subchunks = Array.isArray(entry.chunks) ? entry.chunks : [];
+    if (subchunks.length) {
+      subchunks.forEach((chunk, chunkIndex) => {
+        const chunkPath = path.join(root, chunk.chunkFile);
+        const relativePath = path.relative(root, chunkPath);
+        const questions = sourceRecord.set.questions.filter(question => chunk.ids.includes(question.id));
+        const contents = buildQuestionSubchunkScript(Object.assign({}, buildOptions, {
+          fullSet: sourceRecord.set,
+          questions,
+          chunkIndex: chunkIndex + 1
+        }));
+        expectedFiles.add(chunkPath);
+        writeChunkIfChanged({ chunkPath, relativePath, contents, summary, dryRun });
+      });
       return;
     }
 
-    summary.written.push({ path: chunkPath, relativePath, contents });
-    if (!dryRun) {
-      fs.mkdirSync(path.dirname(chunkPath), { recursive: true });
-      fs.writeFileSync(chunkPath, contents);
-    }
+    const chunkPath = getExpectedChunkPath({ domain: entry.domain, setId: entry.id }, root);
+    const relativePath = path.relative(root, chunkPath);
+    const contents = buildQuestionChunkScript(buildOptions);
+    expectedFiles.add(chunkPath);
+    writeChunkIfChanged({ chunkPath, relativePath, contents, summary, dryRun });
   });
 
+  removeStaleChunks({ root, expectedFiles, summary, dryRun });
+
+  return summary;
+}
+
+function writeChunkIfChanged({ chunkPath, relativePath, contents, summary, dryRun }) {
+  if (fs.existsSync(chunkPath) && fs.readFileSync(chunkPath, 'utf8') === contents) {
+    summary.unchanged.push({ path: chunkPath, relativePath });
+    return;
+  }
+
+  summary.written.push({ path: chunkPath, relativePath, contents });
+  if (!dryRun) {
+    fs.mkdirSync(path.dirname(chunkPath), { recursive: true });
+    fs.writeFileSync(chunkPath, contents);
+  }
+}
+
+function removeStaleChunks({ root, expectedFiles, summary, dryRun }) {
   CHUNKED_DOMAINS.forEach(domain => {
     const domainDir = path.join(root, CHUNK_ROOT, domain);
     if (!fs.existsSync(domainDir)) return;
@@ -106,8 +210,6 @@ function writeQuestionChunks(manifest, bankLoad, options = {}) {
         if (!dryRun) fs.unlinkSync(chunkPath);
       });
   });
-
-  return summary;
 }
 
 function normalizeBuildOptions(input, legacySet, legacySourceFile) {
@@ -121,10 +223,22 @@ function normalizeBuildOptions(input, legacySet, legacySourceFile) {
   };
 }
 
+function getQuestionSequence(question, fallback) {
+  const sequence = question && question.metadata && Number(question.metadata.sequence);
+  return Number.isInteger(sequence) && sequence > 0 ? sequence : fallback;
+}
+
 function getDomainFromSource(sourceFile, setId) {
   const basename = path.basename(sourceFile || '', '.js');
   if (basename) return basename;
   return String(setId || '').split('-')[0];
+}
+
+function enrichSetWithSkillTags(set, options) {
+  const questions = Array.isArray(set && set.questions) ? set.questions : [];
+  return Object.assign({}, set || {}, {
+    questions: questions.map(question => enrichQuestionWithSkillTags(question, options))
+  });
 }
 
 function formatSummary(summary) {
@@ -151,11 +265,19 @@ function runCli(argv = process.argv.slice(2)) {
 
 module.exports = {
   CHUNKED_DOMAINS,
+  SUBCHUNK_BYTE_THRESHOLD,
+  SUBCHUNK_QUESTION_COUNT,
+  buildSubchunkDescriptors,
   getChunkedSets,
   buildQuestionChunkScript,
+  buildQuestionSubchunkScript,
   writeQuestionChunks,
   getExpectedChunkPath,
-  getExpectedChunkRelativePath
+  getExpectedChunkRelativePath,
+  getExpectedSubchunkPath,
+  getExpectedSubchunkRelativePath,
+  enrichSetWithSkillTags,
+  shouldSubchunkSet
 };
 
 if (require.main === module) runCli();

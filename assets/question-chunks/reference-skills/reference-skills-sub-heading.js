@@ -64,7 +64,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -120,7 +126,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -176,7 +188,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -232,7 +250,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -288,7 +312,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -344,7 +374,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -400,7 +436,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -456,7 +498,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -512,7 +560,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -568,7 +622,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -624,7 +684,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -680,7 +746,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -736,7 +808,13 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -792,7 +870,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -848,7 +932,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-sub-heading",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -907,6 +997,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -966,6 +1062,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1025,6 +1127,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1084,6 +1192,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1143,6 +1257,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1202,6 +1322,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       },
@@ -1261,6 +1387,12 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
           ]
         }
       }

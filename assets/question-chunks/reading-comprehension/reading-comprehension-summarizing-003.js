@@ -1,0 +1,3039 @@
+/**
+ * English Language Quiz App - reading-comprehension subchunk: reading-comprehension-summarizing 3
+ * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:e8c5a5d96c69766fbf4e54c93bc46ca34147d991112dbb4e1cb663821994f96e.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Summarizing",
+  "topic": "Reading Comprehension",
+  "questions": [
+    {
+      "id": "reading-comprehension-summarizing-q0101",
+      "version": 1,
+      "contentHash": "sha256:4ddf9c8fe47bfd77bfd02ec32850806d59c93aa409e8121075a0e901f6e84578",
+      "question": "Read the passage. Grade 4 foundation passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.",
+        "The passage explains that a recycling team used bins and reminders to reduce paper waste.",
+        "The passage proves that recycling team is the most exciting topic in school.",
+        "The nurse checked the first-aid supplies after lunch."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a recycling team used bins and reminders to reduce paper waste.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that recycling team is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The nurse checked the first-aid supplies after lunch.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 101,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0102",
+      "version": 1,
+      "contentHash": "sha256:582011059cb4e8a4be85ab7e33f9869aeeaa2671b1ae7fa4271f46897bc46dc5",
+      "question": "Read the passage. Grade 4 foundation passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage proves that museum exhibit is the most exciting topic in school.",
+        "The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.",
+        "The passage explains that museum workers created an exhibit that helped visitors learn local history.",
+        "A rainstorm delayed the baseball game."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that museum workers created an exhibit that helped visitors learn local history.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that museum exhibit is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: A rainstorm delayed the baseball game.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 102,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0103",
+      "version": 1,
+      "contentHash": "sha256:09d6b069203f17f55679106f679c85a0c86d6ab9d317f6cc09e91a7c20bfc259",
+      "question": "Read the passage. Grade 4 foundation passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The principal announced picture day over the speaker.",
+        "The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.",
+        "The passage proves that robotics club is the most exciting topic in school.",
+        "The passage explains that club members tested a robot, changed its code, and used notes to improve it."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that club members tested a robot, changed its code, and used notes to improve it.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The principal announced picture day over the speaker.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that robotics club is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 103,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0104",
+      "version": 1,
+      "contentHash": "sha256:0829e38e97fb52929730546989b2bf35d6dd1554b39ab9904101d38893c7a3a3",
+      "question": "Read the passage. Grade 4 foundation passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage explains that school leaders made breakfast easier for busy students to get.",
+        "The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.",
+        "The passage proves that school breakfast is the most exciting topic in school.",
+        "The science lab received new magnifying glasses."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that school leaders made breakfast easier for busy students to get.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that school breakfast is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The science lab received new magnifying glasses.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 104,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0105",
+      "version": 1,
+      "contentHash": "sha256:99911654822ce4311e69f86fd6a80398fd02f39c2d0369ddafcb1695eb16f8f4",
+      "question": "Read the passage. Grade 4 foundation passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.",
+        "The passage explains that park rangers marked a trail so visitors could navigate and learn.",
+        "The passage proves that nature trail is the most exciting topic in school.",
+        "The post office closed early on Saturday."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that park rangers marked a trail so visitors could navigate and learn.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that nature trail is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The post office closed early on Saturday.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 105,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0106",
+      "version": 1,
+      "contentHash": "sha256:f1f927be98cbc1f46f31f41675be827b50dbba221c6ea0cd7e899e9bacc6e18f",
+      "question": "Read the passage. Grade 4 developing passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong. These details show that students used careful daily routines to help a garden grow.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that school garden is the most exciting topic in school.",
+        "The passage is only about this detail: students watered the seedlings each morning and recorded how tall they grew.",
+        "The passage explains that students used careful daily routines to help a garden grow.",
+        "The art room displayed clay bowls near the window."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that students used careful daily routines to help a garden grow.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that school garden is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: students watered the seedlings each morning and recorded how tall they grew.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The art room displayed clay bowls near the window.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 106,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0107",
+      "version": 1,
+      "contentHash": "sha256:bd743b3ac9c4a82e6b2c86e28109f8ddc6ab8b652759eb63a82f1243ee3b1a5e",
+      "question": "Read the passage. Grade 4 developing passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books. These details show that student volunteers organized books and labels to make the library easier to use.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The cafeteria served tomato soup on Thursday.",
+        "The passage is only about this detail: they sorted returned books by call number before placing them on shelves.",
+        "The passage proves that library helpers is the most exciting topic in school.",
+        "The passage explains that student volunteers organized books and labels to make the library easier to use."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that student volunteers organized books and labels to make the library easier to use.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The cafeteria served tomato soup on Thursday.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they sorted returned books by call number before placing them on shelves.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that library helpers is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 107,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0108",
+      "version": 1,
+      "contentHash": "sha256:121f79db19110f5049239e69a478cfa78a1f3fc4d0770684a34c192e0f7094d9",
+      "question": "Read the passage. Grade 4 developing passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose. These details show that a science club collected and reused rainwater to care for plants.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that a science club collected and reused rainwater to care for plants.",
+        "The passage is only about this detail: the barrel caught water from the roof during storms.",
+        "The passage proves that rain barrel is the most exciting topic in school.",
+        "A soccer team practiced corner kicks after school."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a science club collected and reused rainwater to care for plants.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: the barrel caught water from the roof during storms.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that rain barrel is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A soccer team practiced corner kicks after school.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 108,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0109",
+      "version": 1,
+      "contentHash": "sha256:b42ecdf6930a207e2b6fa603a7577f06b4fe8ac636aba6dd860d0c8a47a73562",
+      "question": "Read the passage. Grade 4 developing passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey. These details show that student reporters gathered facts and published school news.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage is only about this detail: they interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The passage explains that student reporters gathered facts and published school news.",
+        "The passage proves that class newspaper is the most exciting topic in school.",
+        "The playground slide was painted blue over spring break."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that student reporters gathered facts and published school news.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: they interviewed teachers, wrote short articles, and checked facts before printing.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that class newspaper is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The playground slide was painted blue over spring break.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 109,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0110",
+      "version": 1,
+      "contentHash": "sha256:4fdd6dd5cc0982859e723aa5831af271c8c0f624e431048efa9b03a0c11b99d7",
+      "question": "Read the passage. Grade 4 developing passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash. These details show that families cleaned litter from the beach and encouraged visitors to keep it clean.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that beach cleanup is the most exciting topic in school.",
+        "The passage is only about this detail: they filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The passage explains that families cleaned litter from the beach and encouraged visitors to keep it clean.",
+        "The town band played a concert in the park."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that families cleaned litter from the beach and encouraged visitors to keep it clean.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that beach cleanup is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The town band played a concert in the park.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 110,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0111",
+      "version": 1,
+      "contentHash": "sha256:ffbe4b71b46866d4353fdd24d81b842a6702b48285657fd4bda43af5a94e38c7",
+      "question": "Read the passage. Grade 4 developing passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors. These details show that a safety officer taught students important bike safety habits.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The school choir rehearsed a song about the moon.",
+        "The passage is only about this detail: she showed how helmets should sit flat and snug on a rider's head.",
+        "The passage proves that bike safety is the most exciting topic in school.",
+        "The passage explains that a safety officer taught students important bike safety habits."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a safety officer taught students important bike safety habits.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The school choir rehearsed a song about the moon.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: she showed how helmets should sit flat and snug on a rider's head.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that bike safety is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 111,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0112",
+      "version": 1,
+      "contentHash": "sha256:0c5762358b2df40372787349f241fab669e9d5c4888b4181189a772cf54c0f44",
+      "question": "Read the passage. Grade 4 developing passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes. These details show that transportation planners improved bus service so people could reach useful places.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that transportation planners improved bus service so people could reach useful places.",
+        "The passage is only about this detail: the new route stopped near the clinic, grocery store, and community center.",
+        "The passage proves that city buses is the most exciting topic in school.",
+        "A bakery sold cinnamon rolls before sunrise."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that transportation planners improved bus service so people could reach useful places.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: the new route stopped near the clinic, grocery store, and community center.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that city buses is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A bakery sold cinnamon rolls before sunrise.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 112,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0113",
+      "version": 1,
+      "contentHash": "sha256:fa09e8c152f9fbfa8e31e9ad78d9cad9a91768c80513c0b62ae52e8da1c0cdf9",
+      "question": "Read the passage. Grade 4 developing passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began. These details show that actors and crew members cooperated to get a play ready.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage is only about this detail: actors practiced lines while stage crew members painted scenery and tested lights.",
+        "The passage explains that actors and crew members cooperated to get a play ready.",
+        "The passage proves that school play is the most exciting topic in school.",
+        "A math poster showed different kinds of triangles."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that actors and crew members cooperated to get a play ready.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: actors practiced lines while stage crew members painted scenery and tested lights.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that school play is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A math poster showed different kinds of triangles.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 113,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0114",
+      "version": 1,
+      "contentHash": "sha256:3ec28d63fa0b60fa64831fd59a33b4845ab1750141c4816e9b356f022570ac84",
+      "question": "Read the passage. Grade 4 developing passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds. These details show that cafeteria food scraps were collected and turned into compost for flowers.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that compost bin is the most exciting topic in school.",
+        "The passage is only about this detail: fruit peels and vegetable ends went into a covered bin behind the cafeteria.",
+        "The passage explains that cafeteria food scraps were collected and turned into compost for flowers.",
+        "A new scoreboard was installed in the gym."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that cafeteria food scraps were collected and turned into compost for flowers.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that compost bin is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: fruit peels and vegetable ends went into a covered bin behind the cafeteria.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: A new scoreboard was installed in the gym.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 114,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0115",
+      "version": 1,
+      "contentHash": "sha256:4ca02f95262e4f834ca89b1508e9b94ee92147f110b69ebfdb75ff985b44906b",
+      "question": "Read the passage. Grade 4 developing passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights. These details show that science students recorded weather measurements and used them to find patterns.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The music teacher tuned a violin before class.",
+        "The passage is only about this detail: they measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "The passage proves that weather station is the most exciting topic in school.",
+        "The passage explains that science students recorded weather measurements and used them to find patterns."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that science students recorded weather measurements and used them to find patterns.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The music teacher tuned a violin before class.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they measured rainfall, wind direction, temperature, and cloud cover every day.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that weather station is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 115,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0116",
+      "version": 1,
+      "contentHash": "sha256:c4e2e9e92d46f6dd9bc90fc6e313522fb0031712c10d57c0a1c68da3e086c104",
+      "question": "Read the passage. Grade 4 developing passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper. These details show that a recycling team used bins and reminders to reduce paper waste.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that a recycling team used bins and reminders to reduce paper waste.",
+        "The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.",
+        "The passage proves that recycling team is the most exciting topic in school.",
+        "The nurse checked the first-aid supplies after lunch."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a recycling team used bins and reminders to reduce paper waste.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that recycling team is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The nurse checked the first-aid supplies after lunch.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 116,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0117",
+      "version": 1,
+      "contentHash": "sha256:f360dc697ccaf7732782c9f678d1766ad59781ff17e29c16e5847496b2797996",
+      "question": "Read the passage. Grade 4 developing passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories. These details show that museum workers created an exhibit that helped visitors learn local history.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.",
+        "The passage explains that museum workers created an exhibit that helped visitors learn local history.",
+        "The passage proves that museum exhibit is the most exciting topic in school.",
+        "A rainstorm delayed the baseball game."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that museum workers created an exhibit that helped visitors learn local history.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that museum exhibit is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A rainstorm delayed the baseball game.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 117,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0118",
+      "version": 1,
+      "contentHash": "sha256:25268eb9887c03ea1a61176e00d1694bae2b88ed41eb4a718a819891da7284ca",
+      "question": "Read the passage. Grade 4 developing passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course. These details show that club members tested a robot, changed its code, and used notes to improve it.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that robotics club is the most exciting topic in school.",
+        "The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.",
+        "The passage explains that club members tested a robot, changed its code, and used notes to improve it.",
+        "The principal announced picture day over the speaker."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that club members tested a robot, changed its code, and used notes to improve it.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that robotics club is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The principal announced picture day over the speaker.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 118,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0119",
+      "version": 1,
+      "contentHash": "sha256:115b0ee0a7fc90d337236524d97272a364779237fcc9dfc1b38fe8c84879e7f6",
+      "question": "Read the passage. Grade 4 developing passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal. These details show that school leaders made breakfast easier for busy students to get.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The science lab received new magnifying glasses.",
+        "The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.",
+        "The passage proves that school breakfast is the most exciting topic in school.",
+        "The passage explains that school leaders made breakfast easier for busy students to get."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that school leaders made breakfast easier for busy students to get.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The science lab received new magnifying glasses.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that school breakfast is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 119,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0120",
+      "version": 1,
+      "contentHash": "sha256:77d025e3aa4a15218244d75609829e5aed3368c9b3111200a0beb4cccd5a63e7",
+      "question": "Read the passage. Grade 4 developing passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek. These details show that park rangers marked a trail so visitors could navigate and learn.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that park rangers marked a trail so visitors could navigate and learn.",
+        "The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.",
+        "The passage proves that nature trail is the most exciting topic in school.",
+        "The post office closed early on Saturday."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that park rangers marked a trail so visitors could navigate and learn.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that nature trail is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The post office closed early on Saturday.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 120,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0121",
+      "version": 1,
+      "contentHash": "sha256:cefd912f7872f621e2fef8c5aa0e1dc3a432e97ec45ecdaeb1c4cff8d50b22d7",
+      "question": "Read the passage. Grade 4 challenge passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong. Because the passage connects actions with results, readers can see why daily care helped the school garden grow well.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage is only about this detail: students watered the seedlings each morning and recorded how tall they grew.",
+        "The passage explains that students used careful daily routines to help a garden grow.",
+        "The passage proves that school garden is the most exciting topic in school.",
+        "The art room displayed clay bowls near the window."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that students used careful daily routines to help a garden grow.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: students watered the seedlings each morning and recorded how tall they grew.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that school garden is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The art room displayed clay bowls near the window.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 121,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0122",
+      "version": 1,
+      "contentHash": "sha256:6e3f96f8c504d4e7d1d84aec62788bbe94bc6c945bc426eb162f46ea1aa2f6e3",
+      "question": "Read the passage. Grade 4 challenge passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books. Because the passage connects actions with results, readers can see why student helpers organized the library so readers could find books faster.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage proves that library helpers is the most exciting topic in school.",
+        "The passage is only about this detail: they sorted returned books by call number before placing them on shelves.",
+        "The passage explains that student volunteers organized books and labels to make the library easier to use.",
+        "The cafeteria served tomato soup on Thursday."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that student volunteers organized books and labels to make the library easier to use.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that library helpers is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they sorted returned books by call number before placing them on shelves.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The cafeteria served tomato soup on Thursday.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 122,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0123",
+      "version": 1,
+      "contentHash": "sha256:60d6b989d4131f301c28c036cc1a3b5b6c47e9778f4427bfc9a4d0d4d4e59e75",
+      "question": "Read the passage. Grade 4 challenge passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose. Because the passage connects actions with results, readers can see why a rain barrel helped the club save water for plants.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "A soccer team practiced corner kicks after school.",
+        "The passage is only about this detail: the barrel caught water from the roof during storms.",
+        "The passage proves that rain barrel is the most exciting topic in school.",
+        "The passage explains that a science club collected and reused rainwater to care for plants."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a science club collected and reused rainwater to care for plants.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: A soccer team practiced corner kicks after school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: the barrel caught water from the roof during storms.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that rain barrel is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 123,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0124",
+      "version": 1,
+      "contentHash": "sha256:953aff8ec35d2fcd33d5e66ee9b98c6f0222b5e9f96899982a593508e796792c",
+      "question": "Read the passage. Grade 4 challenge passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey. Because the passage connects actions with results, readers can see why the class newspaper gave students a careful way to share school news.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage explains that student reporters gathered facts and published school news.",
+        "The passage is only about this detail: they interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The passage proves that class newspaper is the most exciting topic in school.",
+        "The playground slide was painted blue over spring break."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that student reporters gathered facts and published school news.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: they interviewed teachers, wrote short articles, and checked facts before printing.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that class newspaper is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The playground slide was painted blue over spring break.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 124,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0125",
+      "version": 1,
+      "contentHash": "sha256:9bfc7cc207db7b4b65d02199ac16779d13a499df984a769b4f2d8626ff3372dd",
+      "question": "Read the passage. Grade 4 challenge passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash. Because the passage connects actions with results, readers can see why the cleanup protected the beach by removing harmful litter.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage is only about this detail: they filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The passage explains that families cleaned litter from the beach and encouraged visitors to keep it clean.",
+        "The passage proves that beach cleanup is the most exciting topic in school.",
+        "The town band played a concert in the park."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that families cleaned litter from the beach and encouraged visitors to keep it clean.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: they filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that beach cleanup is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The town band played a concert in the park.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 125,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0126",
+      "version": 1,
+      "contentHash": "sha256:574f7c3f3c9ccec34634d055c14da4d8e7cfe43f8cbd358be3bf294badf6186e",
+      "question": "Read the passage. Grade 4 challenge passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors. Because the passage connects actions with results, readers can see why bike riders can prevent injuries by following safety rules.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage proves that bike safety is the most exciting topic in school.",
+        "The passage is only about this detail: she showed how helmets should sit flat and snug on a rider's head.",
+        "The passage explains that a safety officer taught students important bike safety habits.",
+        "The school choir rehearsed a song about the moon."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a safety officer taught students important bike safety habits.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that bike safety is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: she showed how helmets should sit flat and snug on a rider's head.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The school choir rehearsed a song about the moon.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 126,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0127",
+      "version": 1,
+      "contentHash": "sha256:0b06a993b65b1fd845677b9e631f1cd38d6b74624e8c11554668fbede23aed16",
+      "question": "Read the passage. Grade 4 challenge passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes. Because the passage connects actions with results, readers can see why new bus routes made important places easier to reach.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "A bakery sold cinnamon rolls before sunrise.",
+        "The passage is only about this detail: the new route stopped near the clinic, grocery store, and community center.",
+        "The passage proves that city buses is the most exciting topic in school.",
+        "The passage explains that transportation planners improved bus service so people could reach useful places."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that transportation planners improved bus service so people could reach useful places.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: A bakery sold cinnamon rolls before sunrise.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: the new route stopped near the clinic, grocery store, and community center.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that city buses is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 127,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0128",
+      "version": 1,
+      "contentHash": "sha256:06fc8c7131bcc7b6ceda985d5daef9580adbee96d26e89aac3b3ec8067752832",
+      "question": "Read the passage. Grade 4 challenge passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began. Because the passage connects actions with results, readers can see why many students worked together to prepare the school play.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage explains that actors and crew members cooperated to get a play ready.",
+        "The passage is only about this detail: actors practiced lines while stage crew members painted scenery and tested lights.",
+        "The passage proves that school play is the most exciting topic in school.",
+        "A math poster showed different kinds of triangles."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that actors and crew members cooperated to get a play ready.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: actors practiced lines while stage crew members painted scenery and tested lights.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that school play is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A math poster showed different kinds of triangles.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 128,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0129",
+      "version": 1,
+      "contentHash": "sha256:0db9d1ebdd93ecf43f1d6f0e7d31038debfdf80c455b44a7b0e390e0d9138e3d",
+      "question": "Read the passage. Grade 4 challenge passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds. Because the passage connects actions with results, readers can see why composting changed cafeteria scraps into useful soil material.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage is only about this detail: fruit peels and vegetable ends went into a covered bin behind the cafeteria.",
+        "The passage explains that cafeteria food scraps were collected and turned into compost for flowers.",
+        "The passage proves that compost bin is the most exciting topic in school.",
+        "A new scoreboard was installed in the gym."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that cafeteria food scraps were collected and turned into compost for flowers.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: fruit peels and vegetable ends went into a covered bin behind the cafeteria.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that compost bin is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A new scoreboard was installed in the gym.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 129,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0130",
+      "version": 1,
+      "contentHash": "sha256:2c22428425647291c0b349e1ef763e8e052efa8d3581700fe7cd734061699261",
+      "question": "Read the passage. Grade 4 challenge passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights. Because the passage connects actions with results, readers can see why students collected weather data to notice local patterns.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage proves that weather station is the most exciting topic in school.",
+        "The passage is only about this detail: they measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "The passage explains that science students recorded weather measurements and used them to find patterns.",
+        "The music teacher tuned a violin before class."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that science students recorded weather measurements and used them to find patterns.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that weather station is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they measured rainfall, wind direction, temperature, and cloud cover every day.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The music teacher tuned a violin before class.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 130,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0131",
+      "version": 1,
+      "contentHash": "sha256:6b48657dcf532fec6036c6ae4bb73eea73316f27ec4a7522e00d2d2e268cb199",
+      "question": "Read the passage. Grade 4 challenge passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper. Because the passage connects actions with results, readers can see why the recycling team helped the school waste less paper.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The nurse checked the first-aid supplies after lunch.",
+        "The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.",
+        "The passage proves that recycling team is the most exciting topic in school.",
+        "The passage explains that a recycling team used bins and reminders to reduce paper waste."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a recycling team used bins and reminders to reduce paper waste.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The nurse checked the first-aid supplies after lunch.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that recycling team is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 131,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0132",
+      "version": 1,
+      "contentHash": "sha256:3bbf0d508b42eae0db878fb9c824d6e32d40daf795b326cdf5ea3351f68f1232",
+      "question": "Read the passage. Grade 4 challenge passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories. Because the passage connects actions with results, readers can see why the exhibit used artifacts and voices to teach local history.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage explains that museum workers created an exhibit that helped visitors learn local history.",
+        "The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.",
+        "The passage proves that museum exhibit is the most exciting topic in school.",
+        "A rainstorm delayed the baseball game."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that museum workers created an exhibit that helped visitors learn local history.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that museum exhibit is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A rainstorm delayed the baseball game.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 132,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0133",
+      "version": 1,
+      "contentHash": "sha256:68d36ac569bc6c270d691d869f70493035bdf15bdcbfc5f9ec7c2d0d3c86f233",
+      "question": "Read the passage. Grade 4 challenge passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course. Because the passage connects actions with results, readers can see why testing and revising helped the robotics club improve its robot.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.",
+        "The passage explains that club members tested a robot, changed its code, and used notes to improve it.",
+        "The passage proves that robotics club is the most exciting topic in school.",
+        "The principal announced picture day over the speaker."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that club members tested a robot, changed its code, and used notes to improve it.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that robotics club is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The principal announced picture day over the speaker.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 133,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0134",
+      "version": 1,
+      "contentHash": "sha256:6cdb8e00f5181e76d8156cbe41dc99544247cd897e634de00bf61a08bd2201fa",
+      "question": "Read the passage. Grade 4 challenge passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal. Because the passage connects actions with results, readers can see why the breakfast cart helped more students start the day with food.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage proves that school breakfast is the most exciting topic in school.",
+        "The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.",
+        "The passage explains that school leaders made breakfast easier for busy students to get.",
+        "The science lab received new magnifying glasses."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that school leaders made breakfast easier for busy students to get.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that school breakfast is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The science lab received new magnifying glasses.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 134,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0135",
+      "version": 1,
+      "contentHash": "sha256:85c2a02525493f9b9a47be62f36b10834dcb47fc5d40d28f63217f9a54b16008",
+      "question": "Read the passage. Grade 4 challenge passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek. Because the passage connects actions with results, readers can see why trail signs helped visitors move safely and learn about nature.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The post office closed early on Saturday.",
+        "The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.",
+        "The passage proves that nature trail is the most exciting topic in school.",
+        "The passage explains that park rangers marked a trail so visitors could navigate and learn."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that park rangers marked a trail so visitors could navigate and learn.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The post office closed early on Saturday.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that nature trail is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 135,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0136",
+      "version": 1,
+      "contentHash": "sha256:1cfd9c5e198aaf44950a16dfc6be20b858b5464ee397f61faff5bacb7435db6b",
+      "question": "Read the passage. Grade 5 foundation passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that students used careful daily routines to help a garden grow.",
+        "The passage is only about this detail: students watered the seedlings each morning and recorded how tall they grew.",
+        "The passage proves that school garden is the most exciting topic in school.",
+        "The art room displayed clay bowls near the window."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that students used careful daily routines to help a garden grow.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: students watered the seedlings each morning and recorded how tall they grew.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that school garden is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The art room displayed clay bowls near the window.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 136,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0137",
+      "version": 1,
+      "contentHash": "sha256:07f46f4859023a7fe1dd02431be23a384793e08423b2b1f4de3b8e2dfd294948",
+      "question": "Read the passage. Grade 5 foundation passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage is only about this detail: they sorted returned books by call number before placing them on shelves.",
+        "The passage explains that student volunteers organized books and labels to make the library easier to use.",
+        "The passage proves that library helpers is the most exciting topic in school.",
+        "The cafeteria served tomato soup on Thursday."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that student volunteers organized books and labels to make the library easier to use.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: they sorted returned books by call number before placing them on shelves.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that library helpers is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The cafeteria served tomato soup on Thursday.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 137,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0138",
+      "version": 1,
+      "contentHash": "sha256:6bb5d2d2df454dfe3d9bbfeae0989dec3ea368e96fbb91815dda5b30befbd22a",
+      "question": "Read the passage. Grade 5 foundation passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that rain barrel is the most exciting topic in school.",
+        "The passage is only about this detail: the barrel caught water from the roof during storms.",
+        "The passage explains that a science club collected and reused rainwater to care for plants.",
+        "A soccer team practiced corner kicks after school."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a science club collected and reused rainwater to care for plants.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that rain barrel is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: the barrel caught water from the roof during storms.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: A soccer team practiced corner kicks after school.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 138,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0139",
+      "version": 1,
+      "contentHash": "sha256:28f2b0d08d64f1485d0273980f821514467cb87366e98edede4d6b56ba0c765a",
+      "question": "Read the passage. Grade 5 foundation passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The playground slide was painted blue over spring break.",
+        "The passage is only about this detail: they interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The passage proves that class newspaper is the most exciting topic in school.",
+        "The passage explains that student reporters gathered facts and published school news."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that student reporters gathered facts and published school news.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The playground slide was painted blue over spring break.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they interviewed teachers, wrote short articles, and checked facts before printing.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that class newspaper is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 139,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0140",
+      "version": 1,
+      "contentHash": "sha256:608c59cffaa0d2ee934fc88a6341847c0441a07b4accef92dc8a461d3679a617",
+      "question": "Read the passage. Grade 5 foundation passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that families cleaned litter from the beach and encouraged visitors to keep it clean.",
+        "The passage is only about this detail: they filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The passage proves that beach cleanup is the most exciting topic in school.",
+        "The town band played a concert in the park."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that families cleaned litter from the beach and encouraged visitors to keep it clean.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: they filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that beach cleanup is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The town band played a concert in the park.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 140,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0141",
+      "version": 1,
+      "contentHash": "sha256:a4de0a0d7bc7fb61b190cd5e2e175135ef1efb9917a3ad079572d44f195c1520",
+      "question": "Read the passage. Grade 5 foundation passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage is only about this detail: she showed how helmets should sit flat and snug on a rider's head.",
+        "The passage explains that a safety officer taught students important bike safety habits.",
+        "The passage proves that bike safety is the most exciting topic in school.",
+        "The school choir rehearsed a song about the moon."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a safety officer taught students important bike safety habits.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: she showed how helmets should sit flat and snug on a rider's head.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that bike safety is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The school choir rehearsed a song about the moon.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 141,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0142",
+      "version": 1,
+      "contentHash": "sha256:b0e1fde164a385cbe5c8558e0c2513923cbe62da5c1c88c8e0c8b1c9f007e5d5",
+      "question": "Read the passage. Grade 5 foundation passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that city buses is the most exciting topic in school.",
+        "The passage is only about this detail: the new route stopped near the clinic, grocery store, and community center.",
+        "The passage explains that transportation planners improved bus service so people could reach useful places.",
+        "A bakery sold cinnamon rolls before sunrise."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that transportation planners improved bus service so people could reach useful places.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that city buses is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: the new route stopped near the clinic, grocery store, and community center.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: A bakery sold cinnamon rolls before sunrise.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 142,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0143",
+      "version": 1,
+      "contentHash": "sha256:f80f66ca59312a8d6b08f54234fb1440e59091d3a726066988ba503bb48a9929",
+      "question": "Read the passage. Grade 5 foundation passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "A math poster showed different kinds of triangles.",
+        "The passage is only about this detail: actors practiced lines while stage crew members painted scenery and tested lights.",
+        "The passage proves that school play is the most exciting topic in school.",
+        "The passage explains that actors and crew members cooperated to get a play ready."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that actors and crew members cooperated to get a play ready.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: A math poster showed different kinds of triangles.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: actors practiced lines while stage crew members painted scenery and tested lights.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that school play is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 143,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0144",
+      "version": 1,
+      "contentHash": "sha256:70ec7d32bfb2d88051d13bd8f3da969fc1d43e77e8f4685089e5c0e851362f01",
+      "question": "Read the passage. Grade 5 foundation passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that cafeteria food scraps were collected and turned into compost for flowers.",
+        "The passage is only about this detail: fruit peels and vegetable ends went into a covered bin behind the cafeteria.",
+        "The passage proves that compost bin is the most exciting topic in school.",
+        "A new scoreboard was installed in the gym."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that cafeteria food scraps were collected and turned into compost for flowers.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: fruit peels and vegetable ends went into a covered bin behind the cafeteria.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that compost bin is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: A new scoreboard was installed in the gym.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 144,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0145",
+      "version": 1,
+      "contentHash": "sha256:f6a9e66e5417050c5cc9d64db8f6090f1c24cbae3730d67778a783a7e6c69904",
+      "question": "Read the passage. Grade 5 foundation passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage is only about this detail: they measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "The passage explains that science students recorded weather measurements and used them to find patterns.",
+        "The passage proves that weather station is the most exciting topic in school.",
+        "The music teacher tuned a violin before class."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that science students recorded weather measurements and used them to find patterns.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: they measured rainfall, wind direction, temperature, and cloud cover every day.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that weather station is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The music teacher tuned a violin before class.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 145,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0146",
+      "version": 1,
+      "contentHash": "sha256:5ecdd0934ed734db2ee90064e748afadbfb2316a3c61ce8304a96a78cb53fcaa",
+      "question": "Read the passage. Grade 5 foundation passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that recycling team is the most exciting topic in school.",
+        "The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.",
+        "The passage explains that a recycling team used bins and reminders to reduce paper waste.",
+        "The nurse checked the first-aid supplies after lunch."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that a recycling team used bins and reminders to reduce paper waste.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that recycling team is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they placed blue bins in classrooms and reminded students to use both sides of paper.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The nurse checked the first-aid supplies after lunch.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 146,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0147",
+      "version": 1,
+      "contentHash": "sha256:6e895e0cf08d5ff69b56fbe88b41f1ab74f11d19f63935bc2dee2860f9664c72",
+      "question": "Read the passage. Grade 5 foundation passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "A rainstorm delayed the baseball game.",
+        "The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.",
+        "The passage proves that museum exhibit is the most exciting topic in school.",
+        "The passage explains that museum workers created an exhibit that helped visitors learn local history."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that museum workers created an exhibit that helped visitors learn local history.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: A rainstorm delayed the baseball game.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they displayed old tools, photographs, letters, and a map of the first town road.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that museum exhibit is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 147,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0148",
+      "version": 1,
+      "contentHash": "sha256:10452e77331aff805d30651a3578a71f0fda206e85d907cf0342e33102368996",
+      "question": "Read the passage. Grade 5 foundation passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage explains that club members tested a robot, changed its code, and used notes to improve it.",
+        "The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.",
+        "The passage proves that robotics club is the most exciting topic in school.",
+        "The principal announced picture day over the speaker."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that club members tested a robot, changed its code, and used notes to improve it.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "",
+          "Not: The passage is only about this detail: each time the robot missed a turn, members adjusted the code and tested again.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage proves that robotics club is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The principal announced picture day over the speaker.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 148,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0149",
+      "version": 1,
+      "contentHash": "sha256:7c2892dfea34196051cfdd66fd8819b9a03565f5e30347b57a33c6d93afde3a5",
+      "question": "Read the passage. Grade 5 foundation passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal.\n\nWhich summary includes the most important idea without adding an opinion?",
+      "choices": [
+        "The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.",
+        "The passage explains that school leaders made breakfast easier for busy students to get.",
+        "The passage proves that school breakfast is the most exciting topic in school.",
+        "The science lab received new magnifying glasses."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that school leaders made breakfast easier for busy students to get.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage is only about this detail: the cart offered fruit, yogurt, and whole-grain muffins near the front door.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The passage proves that school breakfast is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The science lab received new magnifying glasses.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 149,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-summarizing-q0150",
+      "version": 1,
+      "contentHash": "sha256:471161e840b7754513365dc991520499c78ddd158349f7b6543bfbb29ad5e6c2",
+      "question": "Read the passage. Grade 5 foundation passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek.\n\nWhich sentence is the best summary?",
+      "choices": [
+        "The passage proves that nature trail is the most exciting topic in school.",
+        "The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.",
+        "The passage explains that park rangers marked a trail so visitors could navigate and learn.",
+        "The post office closed early on Saturday."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A summary retells the most important ideas in a shorter way without adding personal opinions.",
+        "example": "A strong summary includes the topic, key actions or ideas, and the result.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The passage explains that park rangers marked a trail so visitors could navigate and learn.. A strong summary is brief, accurate, and focused on the most important ideas.",
+        "incorrect": [
+          "Not: The passage proves that nature trail is the most exciting topic in school.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "Not: The passage is only about this detail: they added arrows, distance signs, and small plaques naming common trees.. A strong summary is brief, accurate, and focused on the most important ideas.",
+          "",
+          "Not: The post office closed early on Saturday.. A strong summary is brief, accurate, and focused on the most important ideas."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "summarizing",
+          "central idea",
+          "key details"
+        ],
+        "standards": [
+          "RI/RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-summarizing",
+        "sequence": 150,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["reading-comprehension-summarizing"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["reading-comprehension-summarizing"] = chunkSet;
+  }
+})();

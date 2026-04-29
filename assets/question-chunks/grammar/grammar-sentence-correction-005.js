@@ -1,0 +1,3193 @@
+/**
+ * English Language Quiz App - grammar subchunk: grammar-sentence-correction 5
+ * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:0f2b7521bc86346b157ad1cd7366b502f42d76efaf7c5cbdb02d38ab7ecc6334.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Sentence Correction",
+  "topic": "Grammar",
+  "questions": [
+    {
+      "id": "grammar-sentence-correction-q0201",
+      "version": 1,
+      "contentHash": "sha256:a913e3f2121b6ca2042eed27c86948d38de7ef739e4927ec1a4d4ec5d3885f3f",
+      "question": "Choose the best correction for this sentence: \"Wow, that movie at the grand theater was scary\"",
+      "choices": [
+        "Wow, that movie at the Grand Theater was scary!",
+        "Wow, that movie at the grand theater was scary.",
+        "Wow that movie at the Grand Theater was scary!",
+        "Wow, that movie at the Grand Theater was scary"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Wow, that movie at the Grand Theater was scary! It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Wow, that movie at the grand theater was scary. Uses . where ! is needed.",
+          "Not: Wow that movie at the Grand Theater was scary! Missing a needed comma.",
+          "Not: Wow, that movie at the Grand Theater was scary. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 201,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0202",
+      "version": 1,
+      "contentHash": "sha256:ac0dbed82e8ebb461ea92183b0ca123bb0ca69d536ccb22ab77fd4a481ce9e40",
+      "question": "Choose the best correction for this sentence: \"At 715 we is gonna have a speaker from phoenix arizona\"",
+      "choices": [
+        "At 7:15, we are going to have a speaker from Phoenix, Arizona.",
+        "At 715 we is gonna have a speaker from phoenix arizona.",
+        "At 7:15 we are going to have a speaker from Phoenix, Arizona.",
+        "At 7:15, we are going to have a speaker from Phoenix, Arizona?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: At 7:15, we are going to have a speaker from Phoenix, Arizona. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: At 715 we is gonna have a speaker from phoenix arizona. Missing a needed comma.",
+          "Not: At 7:15 we are going to have a speaker from Phoenix, Arizona. Missing a needed comma.",
+          "Not: At 7:15, we are going to have a speaker from Phoenix, Arizona? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 202,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0203",
+      "version": 1,
+      "contentHash": "sha256:dd63b51a23c19e6f0a42b12fa7d552ef9934d8dccfd71c9cb063ed5c0908a22d",
+      "question": "Choose the best correction for this sentence: \"We watched the eclipse from hour backyard\"",
+      "choices": [
+        "We watched the eclipse from our backyard.",
+        "We watched the eclipse from hour backyard.",
+        "We watched the eclipse from our backyard?",
+        "We watched the eclipse from our backyard"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: We watched the eclipse from our backyard. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: We watched the eclipse from hour backyard. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: We watched the eclipse from our backyard? Uses ? where . is needed.",
+          "Not: We watched the eclipse from our backyard. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 203,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0204",
+      "version": 1,
+      "contentHash": "sha256:32bf715a9fb36db32a318a093676d615eca43a9333549181111bfb3a3bfb8de1",
+      "question": "Choose the best correction for this sentence: \"Her brother plays basketball soccer and tennis\"",
+      "choices": [
+        "Her brother plays basketball, soccer, and tennis.",
+        "Her brother plays basketball soccer and tennis.",
+        "Her brother plays basketball soccer, and tennis.",
+        "Her brother plays basketball, soccer, and tennis?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Her brother plays basketball, soccer, and tennis. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Her brother plays basketball soccer and tennis. Missing a needed comma.",
+          "Not: Her brother plays basketball soccer, and tennis. Missing a needed comma.",
+          "Not: Her brother plays basketball, soccer, and tennis? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 204,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0205",
+      "version": 1,
+      "contentHash": "sha256:d94f6b5badc46ea92066131625262a9deec3a0b5770ad75d96bc801754a6305f",
+      "question": "Choose the best correction for this sentence: \"If you saw jacob, will you tell him that i need to see him\"",
+      "choices": [
+        "If you see Jacob, will you tell him that I need to see him?",
+        "If you saw jacob, will you tell him that i need to see him.",
+        "If you see Jacob will you tell him that I need to see him?",
+        "If you see Jacob, will you tell him that I need to see him."
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: If you see Jacob, will you tell him that I need to see him? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: If you saw jacob, will you tell him that i need to see him. Uses . where ? is needed.",
+          "Not: If you see Jacob will you tell him that I need to see him? Missing a needed comma.",
+          "Not: If you see Jacob, will you tell him that I need to see him. Uses . where ? is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 205,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0206",
+      "version": 1,
+      "contentHash": "sha256:19d7e3a301c04edaf23d7d87a259adf3b3b54f0adeed68100fa6f1011b8ccfd4",
+      "question": "Choose the best correction for this sentence: \"The playground at herman park was flooded during the month of october\"",
+      "choices": [
+        "The playground at Herman Park was flooded during the month of October.",
+        "The playground at Herman Park was flooded during the month of October?",
+        "The playground at Herman Park was flooded during the month of October",
+        "The playground at Herman Park was flooded during the month of October. (check capitalization)"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: The playground at Herman Park was flooded during the month of October. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: The playground at Herman Park was flooded during the month of October? Uses ? where . is needed.",
+          "Not: The playground at Herman Park was flooded during the month of October. Missing the correct end punctuation.",
+          "Not: The playground at Herman Park was flooded during the month of October. (check capitalization). Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 206,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0207",
+      "version": 1,
+      "contentHash": "sha256:3e0e1301643f82df6b9102d6f679d29878e92a092d65fda8ff8190ce873c6b78",
+      "question": "Choose the best correction for this sentence: \"At 545 the doorbell rang, and we got our pizza from joes pizza palace\"",
+      "choices": [
+        "At 5:45 the doorbell rang, and we got our pizza from Joe's Pizza Palace.",
+        "At 545 the doorbell rang, and we got our pizza from joes pizza palace.",
+        "At 5:45 the doorbell rang and we got our pizza from Joe's Pizza Palace.",
+        "At 5:45 the doorbell rang, and we got our pizza from Joes Pizza Palace."
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: At 5:45 the doorbell rang, and we got our pizza from Joe's Pizza Palace. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: At 545 the doorbell rang, and we got our pizza from joes pizza palace. Missing a needed apostrophe.",
+          "Not: At 5:45 the doorbell rang and we got our pizza from Joe's Pizza Palace. Missing a needed comma.",
+          "Not: At 5:45 the doorbell rang, and we got our pizza from Joes Pizza Palace. Missing a needed apostrophe."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 207,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0208",
+      "version": 1,
+      "contentHash": "sha256:f7d053205c5e6c7ffc331981a08f94c87f81e275b7ab7db3c03644552dc28d19",
+      "question": "Choose the best correction for this sentence: \"Mrs smothers asked will you be out of town long\"",
+      "choices": [
+        "Mrs. Smothers asked, \"Will you be out of town long?\"",
+        "Mrs smothers asked will you be out of town long.",
+        "Mrs. Smothers asked \"Will you be out of town long?\"",
+        "Mrs. Smothers asked, Will you be out of town long?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Mrs. Smothers asked, \"Will you be out of town long?\". It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Mrs smothers asked will you be out of town long. Missing a needed comma.",
+          "Not: Mrs. Smothers asked \"Will you be out of town long?\". Missing a needed comma.",
+          "Not: Mrs. Smothers asked, Will you be out of town long? Missing needed quotation marks."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 208,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0209",
+      "version": 1,
+      "contentHash": "sha256:90c371734d67d1d3d75f470c133d92cb3b483d3c2e831edd59e51929aa2f50ab",
+      "question": "Choose the best correction for this sentence: \"We is watching carefully to learn how to put the life jacket on\"",
+      "choices": [
+        "We are watching carefully to learn how to put the life jacket on.",
+        "We is watching carefully to learn how to put the life jacket on.",
+        "We are watching carefully to learn how to put the life jacket on?",
+        "We are watching carefully to learn how to put the life jacket on"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: We are watching carefully to learn how to put the life jacket on. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: We is watching carefully to learn how to put the life jacket on. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: We are watching carefully to learn how to put the life jacket on? Uses ? where . is needed.",
+          "Not: We are watching carefully to learn how to put the life jacket on. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 209,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0210",
+      "version": 1,
+      "contentHash": "sha256:d9fc172e2a9f35a86371cec15a66785ac180a15aae6edcde0111a26d6a58d737",
+      "question": "Choose the best correction for this sentence: \"The officer said do you know how fast you was going\"",
+      "choices": [
+        "The officer said, \"Do you know how fast you were going?\"",
+        "The officer said do you know how fast you was going.",
+        "The officer said \"Do you know how fast you were going?\"",
+        "The officer said, Do you know how fast you were going?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: The officer said, \"Do you know how fast you were going?\". It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: The officer said do you know how fast you was going. Missing a needed comma.",
+          "Not: The officer said \"Do you know how fast you were going?\". Missing a needed comma.",
+          "Not: The officer said, Do you know how fast you were going? Missing needed quotation marks."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 210,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0211",
+      "version": 1,
+      "contentHash": "sha256:408af8481ab7e3a84413e24923f5b23ffe17e450b21a26e18bcef14b09c6d0b1",
+      "question": "Choose the best correction for this sentence: \"He dont like no vegetables fruits or nuts\"",
+      "choices": [
+        "He doesn't like any vegetables, fruits, or nuts.",
+        "He dont like no vegetables fruits or nuts.",
+        "He doesn't like any vegetables fruits, or nuts.",
+        "He doesnt like any vegetables, fruits, or nuts."
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: He doesn't like any vegetables, fruits, or nuts. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: He dont like no vegetables fruits or nuts. Missing a needed comma.",
+          "Not: He doesn't like any vegetables fruits, or nuts. Missing a needed comma.",
+          "Not: He doesnt like any vegetables, fruits, or nuts. Missing a needed apostrophe."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 211,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0212",
+      "version": 1,
+      "contentHash": "sha256:051e0dbeeefda067a9dd4aceee33f52653db102b1b705096210da39cef1a48ef",
+      "question": "Choose the best correction for this sentence: \"Mother asked what time is you gonna be home today\"",
+      "choices": [
+        "Mother asked, \"What time are you going to be home today?\"",
+        "Mother asked what time is you gonna be home today.",
+        "Mother asked \"What time are you going to be home today?\"",
+        "Mother asked, What time are you going to be home today?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Mother asked, \"What time are you going to be home today?\". It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Mother asked what time is you gonna be home today. Missing a needed comma.",
+          "Not: Mother asked \"What time are you going to be home today?\". Missing a needed comma.",
+          "Not: Mother asked, What time are you going to be home today? Missing needed quotation marks."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 212,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0213",
+      "version": 1,
+      "contentHash": "sha256:94ac1d6459e6674c134fd49aaa259edefeaaf9be8d7101f4eed19b2db2684b8d",
+      "question": "Choose the best correction for this sentence: \"Alicia asked is we gonna carve a pumpkin for halloween\"",
+      "choices": [
+        "Alicia asked, \"Are we going to carve a pumpkin for Halloween?\"",
+        "Alicia asked is we gonna carve a pumpkin for halloween.",
+        "Alicia asked \"Are we going to carve a pumpkin for Halloween?\"",
+        "Alicia asked, Are we going to carve a pumpkin for Halloween?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Alicia asked, \"Are we going to carve a pumpkin for Halloween?\". It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Alicia asked is we gonna carve a pumpkin for halloween. Missing a needed comma.",
+          "Not: Alicia asked \"Are we going to carve a pumpkin for Halloween?\". Missing a needed comma.",
+          "Not: Alicia asked, Are we going to carve a pumpkin for Halloween? Missing needed quotation marks."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 213,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0214",
+      "version": 1,
+      "contentHash": "sha256:ba2d5f51b31307ec7dd3cf169cb23db16beff7b30626c3c7a4e25c2898f916ce",
+      "question": "Choose the best correction for this sentence: \"He has broke the cords on them blinds before\"",
+      "choices": [
+        "He has broken the cords on those blinds before.",
+        "He has broke the cords on them blinds before.",
+        "He has broken the cords on those blinds before?",
+        "He has broken the cords on those blinds before"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: He has broken the cords on those blinds before. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: He has broke the cords on them blinds before. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: He has broken the cords on those blinds before? Uses ? where . is needed.",
+          "Not: He has broken the cords on those blinds before. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 214,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0215",
+      "version": 1,
+      "contentHash": "sha256:b2b4d9def7ec8cb9bfaf053c22b00af02eea26f4e84fce2aae88998436002f1f",
+      "question": "Choose the best correction for this sentence: \"I got to sisters and won brother in my family\"",
+      "choices": [
+        "I have two sisters and one brother in my family.",
+        "I got to sisters and won brother in my family.",
+        "I have two sisters and one brother in my family?",
+        "I have two sisters and one brother in my family"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: I have two sisters and one brother in my family. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: I got to sisters and won brother in my family. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: I have two sisters and one brother in my family? Uses ? where . is needed.",
+          "Not: I have two sisters and one brother in my family. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 215,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0216",
+      "version": 1,
+      "contentHash": "sha256:748b563a5080ee7b7bcd299a6542c454efb7248931afe84189a4d4bab1221e2c",
+      "question": "Choose the best correction for this sentence: \"Me and ed is going to the grocery store to get pasta\"",
+      "choices": [
+        "Ed and I are going to the grocery store to get pasta.",
+        "Me and ed is going to the grocery store to get pasta.",
+        "Ed and I are going to the grocery store to get pasta?",
+        "Ed and I are going to the grocery store to get pasta"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Ed and I are going to the grocery store to get pasta. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Me and ed is going to the grocery store to get pasta. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Ed and I are going to the grocery store to get pasta? Uses ? where . is needed.",
+          "Not: Ed and I are going to the grocery store to get pasta. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 216,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0217",
+      "version": 1,
+      "contentHash": "sha256:f42579336824998e0220effcb02b673b5064112ff1dd20f67931eef995c59912",
+      "question": "Choose the best correction for this sentence: \"What instrument does you play\"",
+      "choices": [
+        "What instrument do you play?",
+        "What instrument does you play?",
+        "What instrument do you play.",
+        "What instrument do you play"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: What instrument do you play? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: What instrument does you play? Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: What instrument do you play. Uses . where ? is needed.",
+          "Not: What instrument do you play. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 217,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0218",
+      "version": 1,
+      "contentHash": "sha256:a0bb216fb4e6a9a13e035bbfdffd0a9f551d2b4a8fb232a3a6e4321272d2156f",
+      "question": "Choose the best correction for this sentence: \"Helen rided a horse in the parade on sunday\"",
+      "choices": [
+        "Helen rode a horse in the parade on Sunday.",
+        "Helen rided a horse in the parade on sunday.",
+        "Helen rode a horse in the parade on Sunday?",
+        "Helen rode a horse in the parade on Sunday"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Helen rode a horse in the parade on Sunday. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Helen rided a horse in the parade on sunday. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Helen rode a horse in the parade on Sunday? Uses ? where . is needed.",
+          "Not: Helen rode a horse in the parade on Sunday. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 218,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0219",
+      "version": 1,
+      "contentHash": "sha256:a27a33ec58b2c44f3460737ff4776d8a5d8ea7e9b1d952cd8d044b58ccc7a643",
+      "question": "Choose the best correction for this sentence: \"Me and him have a book report that is do tuesday\"",
+      "choices": [
+        "He and I have a book report that is due Tuesday.",
+        "Me and him have a book report that is do tuesday.",
+        "He and I have a book report that is due Tuesday?",
+        "He and I have a book report that is due Tuesday"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: He and I have a book report that is due Tuesday. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Me and him have a book report that is do tuesday. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: He and I have a book report that is due Tuesday? Uses ? where . is needed.",
+          "Not: He and I have a book report that is due Tuesday. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 219,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0220",
+      "version": 1,
+      "contentHash": "sha256:a019a61e84e52da1ae5ca57b63cead199385177749a03584e71221eed05beecb",
+      "question": "Choose the best correction for this sentence: \"Dad run in the marathon yesterday\"",
+      "choices": [
+        "Dad ran in the marathon yesterday.",
+        "Dad run in the marathon yesterday.",
+        "Dad ran in the marathon yesterday?",
+        "Dad ran in the marathon yesterday"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Dad ran in the marathon yesterday. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Dad run in the marathon yesterday. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Dad ran in the marathon yesterday? Uses ? where . is needed.",
+          "Not: Dad ran in the marathon yesterday. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 220,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0221",
+      "version": 1,
+      "contentHash": "sha256:0e9a9986e0324ab0c30eb233a71d692b09b505c6216482c117b8d2970fb7f70d",
+      "question": "Choose the best correction for this sentence: \"Will you gimme another peace of paper\"",
+      "choices": [
+        "Will you give me another piece of paper?",
+        "Will you gimme another peace of paper?",
+        "Will you give me another piece of paper.",
+        "Will you give me another piece of paper"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Will you give me another piece of paper? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Will you gimme another peace of paper? Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Will you give me another piece of paper. Uses . where ? is needed.",
+          "Not: Will you give me another piece of paper. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "spot the exception, then explain why the other choices follow the rule",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 221,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0222",
+      "version": 1,
+      "contentHash": "sha256:21121a7f34a01e8fe3bed8641a083973c5f6953f66509046fb123e56d80a4660",
+      "question": "Choose the best correction for this sentence: \"We is gonna go to dinner and to a movie on saturday\"",
+      "choices": [
+        "We are going to go to dinner and to a movie on Saturday.",
+        "We is gonna go to dinner and to a movie on saturday.",
+        "We are going to go to dinner and to a movie on Saturday?",
+        "We are going to go to dinner and to a movie on Saturday"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: We are going to go to dinner and to a movie on Saturday. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: We is gonna go to dinner and to a movie on saturday. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: We are going to go to dinner and to a movie on Saturday? Uses ? where . is needed.",
+          "Not: We are going to go to dinner and to a movie on Saturday. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 222,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0223",
+      "version": 1,
+      "contentHash": "sha256:d032cb7bea5ac215b4e3f93b4d284396af279d8c3a11d33db6676142f78501c6",
+      "question": "Choose the best correction for this sentence: \"Please turn them lights on\"",
+      "choices": [
+        "Please turn those lights on.",
+        "Please turn them lights on.",
+        "Please turn those lights on?",
+        "Please turn those lights on"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Please turn those lights on. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Please turn them lights on. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Please turn those lights on? Uses ? where . is needed.",
+          "Not: Please turn those lights on. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 223,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0224",
+      "version": 1,
+      "contentHash": "sha256:fd3198b8a6a5dfec37a268343557a109559a19077dccaed56894ac3c2d9de9d0",
+      "question": "Choose the best correction for this sentence: \"Last friday, we took a family picture at mark smith studio\"",
+      "choices": [
+        "Last Friday, we took a family picture at Mark Smith Studio.",
+        "Last Friday we took a family picture at Mark Smith Studio.",
+        "Last Friday, we took a family picture at Mark Smith Studio?",
+        "Last Friday, we took a family picture at Mark Smith Studio"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Last Friday, we took a family picture at Mark Smith Studio. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Last Friday we took a family picture at Mark Smith Studio. Missing a needed comma.",
+          "Not: Last Friday, we took a family picture at Mark Smith Studio? Uses ? where . is needed.",
+          "Not: Last Friday, we took a family picture at Mark Smith Studio. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 224,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0225",
+      "version": 1,
+      "contentHash": "sha256:0892792b376d641b720ea74f4581e63728fd5bb70a8aa29a7b03ca1fc2e8edbd",
+      "question": "Choose the best correction for this sentence: \"Grandmothers making me an blew dress\"",
+      "choices": [
+        "Grandmother is making me a blue dress.",
+        "Grandmothers making me an blew dress.",
+        "Grandmother is making me a blue dress?",
+        "Grandmother is making me a blue dress"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Grandmother is making me a blue dress. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Grandmothers making me an blew dress. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Grandmother is making me a blue dress? Uses ? where . is needed.",
+          "Not: Grandmother is making me a blue dress. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 225,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0226",
+      "version": 1,
+      "contentHash": "sha256:8e87da2360f2fa63855a0ef488e4117f3ffe0525c43b00b9a6e914c218d378c6",
+      "question": "Choose the best correction for this sentence: \"Would you like sum cinnamon toast\"",
+      "choices": [
+        "Would you like some cinnamon toast?",
+        "Would you like sum cinnamon toast?",
+        "Would you like some cinnamon toast.",
+        "Would you like some cinnamon toast"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Would you like some cinnamon toast? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Would you like sum cinnamon toast? Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Would you like some cinnamon toast. Uses . where ? is needed.",
+          "Not: Would you like some cinnamon toast. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 226,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0227",
+      "version": 1,
+      "contentHash": "sha256:893ec583047df1d902b8d707fe2a4fb110b84867f2f7860267e52982298784a7",
+      "question": "Choose the best correction for this sentence: \"The dog chewed my knew shoes\"",
+      "choices": [
+        "The dog chewed my new shoes.",
+        "The dog chewed my knew shoes.",
+        "The dog chewed my new shoes?",
+        "The dog chewed my new shoes"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: The dog chewed my new shoes. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: The dog chewed my knew shoes. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: The dog chewed my new shoes? Uses ? where . is needed.",
+          "Not: The dog chewed my new shoes. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 227,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0228",
+      "version": 1,
+      "contentHash": "sha256:bdb72db1b7527979e134993f21594fc46457faaa2eaf7be6f28bc0f1fb8c7aee",
+      "question": "Choose the best correction for this sentence: \"Did you get your ears pierced at bertrams fine jewelry\"",
+      "choices": [
+        "Did you get your ears pierced at Bertram's Fine Jewelry?",
+        "Did you get your ears pierced at bertrams fine jewelry?",
+        "Did you get your ears pierced at Bertram's Fine Jewelry.",
+        "Did you get your ears pierced at Bertram's Fine Jewelry"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Did you get your ears pierced at Bertram's Fine Jewelry? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Did you get your ears pierced at bertrams fine jewelry? Missing a needed apostrophe.",
+          "Not: Did you get your ears pierced at Bertram's Fine Jewelry. Uses . where ? is needed.",
+          "Not: Did you get your ears pierced at Bertram's Fine Jewelry. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 228,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0229",
+      "version": 1,
+      "contentHash": "sha256:43a8840b7299fe5635966296873989ad6e2e6e9915eae63825d691951b195cdb",
+      "question": "Choose the best correction for this sentence: \"I talk so much last week that my throat hurt\"",
+      "choices": [
+        "I talked so much last week that my throat hurt.",
+        "I talk so much last week that my throat hurt.",
+        "I talked so much last week that my throat hurt?",
+        "I talked so much last week that my throat hurt"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: I talked so much last week that my throat hurt. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: I talk so much last week that my throat hurt. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: I talked so much last week that my throat hurt? Uses ? where . is needed.",
+          "Not: I talked so much last week that my throat hurt. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 229,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0230",
+      "version": 1,
+      "contentHash": "sha256:6295f99cefa5b3b47f0ff291f17eb7437d10586d2bfdd6a97d56e238362ce7aa",
+      "question": "Choose the best correction for this sentence: \"I got a doctors appointment tuesday at\"",
+      "choices": [
+        "I have a doctor's appointment Tuesday at 7:45.",
+        "I got a doctors appointment tuesday at.",
+        "I have a doctors appointment Tuesday at 7:45.",
+        "I have a doctor's appointment Tuesday at 7:45?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: I have a doctor's appointment Tuesday at 7:45. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: I got a doctors appointment tuesday at. Missing a needed apostrophe.",
+          "Not: I have a doctors appointment Tuesday at 7:45. Missing a needed apostrophe.",
+          "Not: I have a doctor's appointment Tuesday at 7:45? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 230,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0231",
+      "version": 1,
+      "contentHash": "sha256:3cd50314085fa14c2788b43fc055008c65be00b44bb9ebabd08db8fd28c4fdee",
+      "question": "Choose the best correction for this sentence: \"Who wrote the book charlotte's web\"",
+      "choices": [
+        "Who wrote the book Charlotte's Web?",
+        "Who wrote the book Charlottes Web?",
+        "Who wrote the book Charlotte's Web.",
+        "Who wrote the book Charlotte's Web"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Who wrote the book Charlotte's Web? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Who wrote the book Charlottes Web? Missing a needed apostrophe.",
+          "Not: Who wrote the book Charlotte's Web. Uses . where ? is needed.",
+          "Not: Who wrote the book Charlotte's Web. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 231,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0232",
+      "version": 1,
+      "contentHash": "sha256:69fd3efdcad107819bfe01ebc3f50a9a37af3179f6d3c6d2b3e7dcfb30328ca2",
+      "question": "Choose the best correction for this sentence: \"Please set the alarm clock to woke up at 600 am\"",
+      "choices": [
+        "Please set the alarm clock to wake up at 6:00 a.m.",
+        "Please set the alarm clock to woke up at 600 am.",
+        "Please set the alarm clock to wake up at 6:00 a.m?",
+        "Please set the alarm clock to wake up at 6:00 a.m"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Please set the alarm clock to wake up at 6:00 a.m. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Please set the alarm clock to woke up at 600 am. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Please set the alarm clock to wake up at 6:00 a.m? Uses ? where . is needed.",
+          "Not: Please set the alarm clock to wake up at 6:00 a.m. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 232,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0233",
+      "version": 1,
+      "contentHash": "sha256:62cc3d558013d5728172d7c87e890f3d79c5c822130ff87c845c2060eaa1003c",
+      "question": "Choose the best correction for this sentence: \"Were only allowed to watch one our of television on saturdays\"",
+      "choices": [
+        "We're only allowed to watch one hour of television on Saturdays.",
+        "Were only allowed to watch one our of television on saturdays.",
+        "Were only allowed to watch one hour of television on Saturdays.",
+        "We're only allowed to watch one hour of television on Saturdays?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: We're only allowed to watch one hour of television on Saturdays. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Were only allowed to watch one our of television on saturdays. Missing a needed apostrophe.",
+          "Not: Were only allowed to watch one hour of television on Saturdays. Missing a needed apostrophe.",
+          "Not: We're only allowed to watch one hour of television on Saturdays? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 233,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0234",
+      "version": 1,
+      "contentHash": "sha256:df489bfd77701aca416ec74d7c41d17b1c43ae7cad59d17af55dbdbbc95e161f",
+      "question": "Choose the best correction for this sentence: \"Did you vote for ben lily or armond for class president\"",
+      "choices": [
+        "Did you vote for Ben, Lily, or Armond for class president?",
+        "Did you vote for ben lily or armond for class president?",
+        "Did you vote for Ben Lily, or Armond for class president?",
+        "Did you vote for Ben, Lily, or Armond for class president."
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Did you vote for Ben, Lily, or Armond for class president? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Did you vote for ben lily or armond for class president? Missing a needed comma.",
+          "Not: Did you vote for Ben Lily, or Armond for class president? Missing a needed comma.",
+          "Not: Did you vote for Ben, Lily, or Armond for class president. Uses . where ? is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 234,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0235",
+      "version": 1,
+      "contentHash": "sha256:5cb19ab0e835e58e14a99343feeb4e6208807926adab1d8ed1d351f3cc2d73dd",
+      "question": "Choose the best correction for this sentence: \"My friend alicia drives to fast\"",
+      "choices": [
+        "My friend Alicia drives too fast.",
+        "My friend alicia drives to fast.",
+        "My friend Alicia drives too fast?",
+        "My friend Alicia drives too fast"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: My friend Alicia drives too fast. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: My friend alicia drives to fast. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: My friend Alicia drives too fast? Uses ? where . is needed.",
+          "Not: My friend Alicia drives too fast. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 235,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0236",
+      "version": 1,
+      "contentHash": "sha256:8d010a30364bec64a715ff57688deaf03948658014e41388b80c7bb11adff516",
+      "question": "Choose the best correction for this sentence: \"Dr barger run past the nurse he gave a patient a note\"",
+      "choices": [
+        "Dr. Barger ran past the nurse, and he gave a patient a note.",
+        "Dr barger run past the nurse he gave a patient a note.",
+        "Dr. Barger ran past the nurse and he gave a patient a note.",
+        "Dr. Barger ran past the nurse, and he gave a patient a note?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Dr. Barger ran past the nurse, and he gave a patient a note. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Dr barger run past the nurse he gave a patient a note. Missing a needed comma.",
+          "Not: Dr. Barger ran past the nurse and he gave a patient a note. Missing a needed comma.",
+          "Not: Dr. Barger ran past the nurse, and he gave a patient a note? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "spot the exception, then explain why the other choices follow the rule",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 236,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0237",
+      "version": 1,
+      "contentHash": "sha256:70c494e7f5ff9c7bf0ed3a8f88fb1464f65354bc51d352463e47957428ecfe36",
+      "question": "Choose the best correction for this sentence: \"Bruce he is gonna be a snake in the play\"",
+      "choices": [
+        "Bruce is going to be a snake in the play.",
+        "Bruce he is gonna be a snake in the play.",
+        "Bruce is going to be a snake in the play?",
+        "Bruce is going to be a snake in the play"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Bruce is going to be a snake in the play. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Bruce he is gonna be a snake in the play. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Bruce is going to be a snake in the play? Uses ? where . is needed.",
+          "Not: Bruce is going to be a snake in the play. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 237,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0238",
+      "version": 1,
+      "contentHash": "sha256:725a96ff20aa1c50d86abc2908ebe74bd35a335aea4372177bdae2b14d0b6a19",
+      "question": "Choose the best correction for this sentence: \"Did you read the short story called sleeping ugly\"",
+      "choices": [
+        "Did you read the short story called \"Sleeping Ugly\"?",
+        "Did you read the short story called sleeping ugly?",
+        "Did you read the short story called \"Sleeping Ugly\".",
+        "Did you read the short story called \"Sleeping Ugly\""
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Did you read the short story called \"Sleeping Ugly\"? It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Did you read the short story called sleeping ugly? Missing needed quotation marks.",
+          "Not: Did you read the short story called \"Sleeping Ugly\". Uses . where ? is needed.",
+          "Not: Did you read the short story called \"Sleeping Ugly\". Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 238,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0239",
+      "version": 1,
+      "contentHash": "sha256:c0fad72702860e0fe40b5f785f38f133c7e2f910e0b9d0552059f6c380502b4f",
+      "question": "Choose the best correction for this sentence: \"Im gonna be a model when i grow up\"",
+      "choices": [
+        "I'm going to be a model when I grow up.",
+        "Im gonna be a model when i grow up.",
+        "Im going to be a model when I grow up.",
+        "I'm going to be a model when I grow up?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: I'm going to be a model when I grow up. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Im gonna be a model when i grow up. Missing a needed apostrophe.",
+          "Not: Im going to be a model when I grow up. Missing a needed apostrophe.",
+          "Not: I'm going to be a model when I grow up? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 239,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0240",
+      "version": 1,
+      "contentHash": "sha256:6ea89db34a0b42153bd3e5a981ad610084d6b0fd7a411407caabbc1a6acd506d",
+      "question": "Choose the best correction for this sentence: \"Lester, my brother, will be six years old on friday\"",
+      "choices": [
+        "Lester, my brother, will be six years old on Friday.",
+        "Lester my brother, will be six years old on Friday.",
+        "Lester, my brother, will be six years old on Friday?",
+        "Lester, my brother, will be six years old on Friday"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Lester, my brother, will be six years old on Friday. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Lester my brother, will be six years old on Friday. Missing a needed comma.",
+          "Not: Lester, my brother, will be six years old on Friday? Uses ? where . is needed.",
+          "Not: Lester, my brother, will be six years old on Friday. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 240,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0241",
+      "version": 1,
+      "contentHash": "sha256:e96f638c48ba2da19caf1285ba609c862d8ed66c2b5376e44932c2e51976ecd6",
+      "question": "Choose the best correction for this sentence: \"The falcon caught its prey while flying it was a pigeon\"",
+      "choices": [
+        "The falcon caught its prey while flying; it was a pigeon.",
+        "The falcon caught its prey while flying it was a pigeon.",
+        "The falcon caught its prey while flying; it was a pigeon?",
+        "The falcon caught its prey while flying; it was a pigeon"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: The falcon caught its prey while flying; it was a pigeon. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: The falcon caught its prey while flying it was a pigeon. The words are right, but the mechanics are not.",
+          "Not: The falcon caught its prey while flying; it was a pigeon? Uses ? where . is needed.",
+          "Not: The falcon caught its prey while flying; it was a pigeon. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 241,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0242",
+      "version": 1,
+      "contentHash": "sha256:9af79ce54d6095cf9354677e9605c4a4bc8e7adb1600aa6d4da4d185c2c0f4ea",
+      "question": "Choose the best correction for this sentence: \"We have forgot to water the plants i hope they arent dead\"",
+      "choices": [
+        "We have forgotten to water the plants; I hope they aren't dead.",
+        "We have forgot to water the plants i hope they arent dead.",
+        "We have forgotten to water the plants; I hope they arent dead.",
+        "We have forgotten to water the plants; I hope they aren't dead?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: We have forgotten to water the plants; I hope they aren't dead. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: We have forgot to water the plants i hope they arent dead. Missing a needed apostrophe.",
+          "Not: We have forgotten to water the plants; I hope they arent dead. Missing a needed apostrophe.",
+          "Not: We have forgotten to water the plants; I hope they aren't dead? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 242,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0243",
+      "version": 1,
+      "contentHash": "sha256:8aba672313733a92bdd4ef60c810978425457aea5d792ecefcf1354a2ecd8324",
+      "question": "Choose the best correction for this sentence: \"In gym we jump rope play volleyball and run\"",
+      "choices": [
+        "In gym we jump rope, play volleyball, and run.",
+        "In gym we jump rope play volleyball and run.",
+        "In gym we jump rope play volleyball, and run.",
+        "In gym we jump rope, play volleyball, and run?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: In gym we jump rope, play volleyball, and run. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: In gym we jump rope play volleyball and run. Missing a needed comma.",
+          "Not: In gym we jump rope play volleyball, and run. Missing a needed comma.",
+          "Not: In gym we jump rope, play volleyball, and run? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 243,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0244",
+      "version": 1,
+      "contentHash": "sha256:94e39cc3b59ab0732dda615f1af228abdea7bf260909b40e17f306a394e86391",
+      "question": "Choose the best correction for this sentence: \"Our class went to the houston zoo on a field trip last april\"",
+      "choices": [
+        "Our class went to the Houston Zoo on a field trip last April.",
+        "Our class went to the Houston Zoo on a field trip last April?",
+        "Our class went to the Houston Zoo on a field trip last April",
+        "Our class went to the Houston Zoo on a field trip last April. (check capitalization)"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Our class went to the Houston Zoo on a field trip last April. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Our class went to the Houston Zoo on a field trip last April? Uses ? where . is needed.",
+          "Not: Our class went to the Houston Zoo on a field trip last April. Missing the correct end punctuation.",
+          "Not: Our class went to the Houston Zoo on a field trip last April. (check capitalization). Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 244,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0245",
+      "version": 1,
+      "contentHash": "sha256:411e67674d7f26eec31172e558df06456b066f58d1672708f6496f5e234146e0",
+      "question": "Choose the best correction for this sentence: \"Dont be late for your piano lessons said mother\"",
+      "choices": [
+        "\"Don't be late for your piano lessons,\" said Mother.",
+        "Dont be late for your piano lessons said mother.",
+        "\"Don't be late for your piano lessons\" said Mother.",
+        "\"Dont be late for your piano lessons,\" said Mother."
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: \"Don't be late for your piano lessons,\" said Mother. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Dont be late for your piano lessons said mother. Missing a needed comma.",
+          "Not: \"Don't be late for your piano lessons\" said Mother. Missing a needed comma.",
+          "Not: \"Dont be late for your piano lessons,\" said Mother. Missing a needed apostrophe."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 245,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0246",
+      "version": 1,
+      "contentHash": "sha256:cf16e3c129ced65cc7f50f121d4e54e7e17774335778219128a1fb951f82d624",
+      "question": "Choose the best correction for this sentence: \"Our team wears read shirts for field day last month\"",
+      "choices": [
+        "Our team wore red shirts for field day last month.",
+        "Our team wears read shirts for field day last month.",
+        "Our team wore red shirts for field day last month?",
+        "Our team wore red shirts for field day last month"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: Our team wore red shirts for field day last month. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Our team wears read shirts for field day last month. Leaves a capitalization, punctuation, spelling, grammar, or meaning error.",
+          "Not: Our team wore red shirts for field day last month? Uses ? where . is needed.",
+          "Not: Our team wore red shirts for field day last month. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 246,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0247",
+      "version": 1,
+      "contentHash": "sha256:625daa32d17f07aaf1ea355fdd8c4bac923564b885718dbda93bb79015e58f20",
+      "question": "Choose the best correction for this sentence: \"What are you going to do after school today asked sandy\"",
+      "choices": [
+        "\"What are you going to do after school today?\" asked Sandy.",
+        "What are you going to do after school today asked sandy?",
+        "What are you going to do after school today? asked Sandy.",
+        "\"What are you going to do after school today?\" asked Sandy?"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: \"What are you going to do after school today?\" asked Sandy. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: What are you going to do after school today asked sandy? Uses ? where . is needed.",
+          "Not: What are you going to do after school today? asked Sandy. Missing needed quotation marks.",
+          "Not: \"What are you going to do after school today?\" asked Sandy? Uses ? where . is needed."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 247,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0248",
+      "version": 1,
+      "contentHash": "sha256:22b1070fca99ca7ac7ac78d055c2bcfbbe6ee9427032ad605ba7f28dac98bfe1",
+      "question": "Choose the best correction for this sentence: \"Ive got to tell you what our assignment is in social studies\"",
+      "choices": [
+        "I've got to tell you what our assignment is in social studies.",
+        "Ive got to tell you what our assignment is in social studies.",
+        "I've got to tell you what our assignment is in social studies?",
+        "I've got to tell you what our assignment is in social studies"
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: I've got to tell you what our assignment is in social studies. It fixes the sentence without changing the meaning.",
+        "incorrect": [
+          "",
+          "Not: Ive got to tell you what our assignment is in social studies. Missing a needed apostrophe.",
+          "Not: I've got to tell you what our assignment is in social studies? Uses ? where . is needed.",
+          "Not: I've got to tell you what our assignment is in social studies. Missing the correct end punctuation."
+        ]
+      },
+      "studyAid": {
+        "definition": "A correct sentence follows capitalization, punctuation, spelling, and grammar rules.",
+        "example": "Correct: \"She went to the store.\" Incorrect: \"she went to the store\"",
+        "link": "https://www.grammar-monster.com/common_grammar_errors.htm",
+        "linkText": "Grammar Monster - Common Grammar Errors"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "medium",
+          "6": "medium"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-edit",
+        "languageDemand": "extended-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "compare every choice against the full rule, not justhe first visible error",
+        "estimatedTimeSeconds": 75,
+        "reviewPriority": "high",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 248,
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0249",
+      "version": 1,
+      "contentHash": "sha256:f8056af13fc7863afdaa273314544a5d754272e7016e7d2973349a604effb8b3",
+      "question": "My complaint to the principal is about the student counsel, and whether they will raise enough capital to fundour new computer lab. In the above sentence:",
+      "choices": [
+        "‘princip al ’ should be ‘princip le ’.",
+        "‘ counsel’ should be council’.",
+        "‘whether’ should be ‘weather’.",
+        "‘ capital’ should be ‘capitol’."
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: ‘ counsel’ should be council’.. ‘ counsel’ should be ‘council’; council - an advisory or",
+        "incorrect": [
+          "Not: ‘princip al ’ should be ‘princip le ’.. Check the grammar or usage clue in the question.",
+          "",
+          "Not: ‘whether’ should be ‘weather’.. Check the grammar or usage clue in the question.",
+          "Not: ‘ capital’ should be ‘capitol’.. Check the grammar or usage clue in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "hard",
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+        "estimatedTimeSeconds": 60,
+        "reviewPriority": "normal",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 249,
+        "sourceFile": "Advanced-2_grammer and usage.pdf",
+        "sourceQuestionNumber": 1,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    },
+    {
+      "id": "grammar-sentence-correction-q0250",
+      "version": 1,
+      "contentHash": "sha256:89c4f099f0806860cf4e8edd41cc67c4f9e9495dba5496387fcd109fb27e3c55",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "There are several chairs around the swimming pool.",
+        "There is several chairs around the swimming pool.",
+        "There’s several chairs around the swimming pool.",
+        "They’ re several chairs around the swimming pool."
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: There are several chairs around the swimming pool.. There are several chairs around the swimming pool.",
+        "incorrect": [
+          "",
+          "Not: There is several chairs around the swimming pool.. Check the grammar or usage clue in the question.",
+          "Not: There’s several chairs around the swimming pool.. Check the grammar or usage clue in the question.",
+          "Not: They’ re several chairs around the swimming pool.. Check the grammar or usage clue in the question."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "difficultyByGrade": {
+          "3": "hard",
+          "4": "hard",
+          "5": "hard",
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "grammar",
+          "usage",
+          "sentence analysis"
+        ],
+        "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+        "estimatedTimeSeconds": 60,
+        "reviewPriority": "normal",
+        "sourceSet": "grammar-sentence-correction",
+        "sequence": 250,
+        "sourceFile": "Advanced-2_grammer and usage.pdf",
+        "sourceQuestionNumber": 4,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "skillIds": [
+          "grammar.sentence-analysis",
+          "grammar.usage"
+        ],
+        "standardIds": [
+          "L.3-6.1"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["grammar-sentence-correction"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["grammar-sentence-correction"] = chunkSet;
+  }
+})();

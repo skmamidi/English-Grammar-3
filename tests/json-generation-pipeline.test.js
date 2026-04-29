@@ -10,8 +10,10 @@ const {
 } = require('../scripts/qa/bank-loader');
 const {
   buildQuestionChunkScript,
+  buildQuestionSubchunkScript,
   getChunkedSets,
   getExpectedChunkPath,
+  getExpectedSubchunkPath,
   writeQuestionChunks
 } = require('../scripts/generate-question-chunks');
 const {
@@ -55,12 +57,31 @@ test('every chunk generated from JSON matches the committed browser chunk file',
   getChunkedSets(manifest).forEach(entry => {
     const sourceRecord = sourceRecords.get(entry.id);
     assert.equal(sourceRecord.sourceType, 'json');
-    const expected = buildQuestionChunkScript({
+    const buildOptions = {
       domain: entry.domain,
       setId: entry.id,
       sourceFile: sourceRecord.relativeFile,
       set: sourceRecord.set
-    });
+    };
+    if (Array.isArray(entry.chunks) && entry.chunks.length) {
+      entry.chunks.forEach((chunk, index) => {
+        const expected = buildQuestionSubchunkScript(Object.assign({}, buildOptions, {
+          fullSet: sourceRecord.set,
+          questions: sourceRecord.set.questions.filter(question => chunk.ids.includes(question.id)),
+          chunkIndex: index + 1
+        }));
+        const actual = fs.readFileSync(getExpectedSubchunkPath({
+          domain: entry.domain,
+          setId: entry.id,
+          index: index + 1
+        }), 'utf8');
+
+        assert.equal(actual, expected, `${entry.id} subchunk ${index + 1} should be generated from JSON source`);
+      });
+      return;
+    }
+
+    const expected = buildQuestionChunkScript(buildOptions);
     const actual = fs.readFileSync(getExpectedChunkPath({
       domain: entry.domain,
       setId: entry.id

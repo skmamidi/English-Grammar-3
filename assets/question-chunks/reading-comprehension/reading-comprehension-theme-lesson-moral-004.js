@@ -1,0 +1,2035 @@
+/**
+ * English Language Quiz App - reading-comprehension subchunk: reading-comprehension-theme-lesson-moral 4
+ * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:241a1441fae465646677b5ff7ac016f33012e80e68a789fea29681f6ee48d8aa.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Theme / Lesson / Moral",
+  "topic": "Reading Comprehension",
+  "questions": [
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0151",
+      "version": 1,
+      "contentHash": "sha256:84b3854768af6d6bb0fc83079a6414761c1e5dd93a7e277c02cf6995dbb2affd",
+      "question": "Read the story. Grade 5 developing story: Lena was at the classroom supply table when her group's poster tore right before the science fair. Lena felt the pressure of the moment, but she calmly taped the back, asked for a spare sheet, and divided the repair jobs. In the end, the group finished on time.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "Lena should have ignored the problem.",
+        "Winning is the only goal.",
+        "The story is only about the classroom supply table.",
+        "Staying calm helps people solve problems."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Staying calm helps people solve problems.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: Lena should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: Winning is the only goal.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: The story is only about the classroom supply table.. A theme is a message that fits the whole story, not just a single detail.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 151,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0152",
+      "version": 1,
+      "contentHash": "sha256:501d40af422a290e4d4b3ac6a9214b03637a82f30f464bb2b17f2e6baab0084b",
+      "question": "Read the story. Grade 5 developing story: Mateo was at the school bus line when a younger student dropped a folder and papers scattered. Mateo felt the pressure of the moment, but Mateo stepped out of line, gathered the papers, and helped sort them by subject. In the end, the younger student smiled and found the missing homework.\n\nWhich detail best supports this theme: Small acts of kindness can matter.",
+      "choices": [
+        "Mateo helped sort the papers even though the bus line was moving.",
+        "The story names the school bus line.",
+        "Mateo has a common first name.",
+        "People should ignore problems that are not their own."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Mateo helped sort the papers even though the bus line was moving.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "",
+          "Not: The story names the school bus line.. A theme should be supported by what the character does or learns.",
+          "Not: Mateo has a common first name.. A theme should be supported by what the character does or learns.",
+          "Not: People should ignore problems that are not their own.. A theme should be supported by what the character does or learns."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 152,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0153",
+      "version": 1,
+      "contentHash": "sha256:7e524cc0340433e3639edb4df4b9c50f91ee1b944ed0f506c90814f2168774c9",
+      "question": "Read the story. Grade 5 developing story: Priya was at the community garden when her bean plants wilted after several hot days. Priya felt the pressure of the moment, but she checked the soil, moved mulch around the stems, and changed the watering schedule. In the end, new green leaves appeared the next week.\n\nWhy is \"Careful observation can lead to better choices.\" a stronger theme than \"Guessing quickly is better than studying a problem.\"?",
+      "choices": [
+        "It is longer than the other answer.",
+        "It matches the character's actions and the resolution.",
+        "It names the setting exactly.",
+        "It describes only the first sentence."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 153,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0154",
+      "version": 1,
+      "contentHash": "sha256:1e37eaefca7cb1a97c725eed96098def7fa17e449727a726bbeaa21c0b1e933b",
+      "question": "Read the story. Grade 5 developing story: Noah was at the music room when he kept missing the same measure during recorder practice. Noah felt the pressure of the moment, but he slowed the song down, clapped the rhythm, and practiced four notes at a time. In the end, he played the measure correctly during rehearsal.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "The story is only about the music room.",
+        "A person should stop when something feels difficult.",
+        "Practice works best when it is patient and focused.",
+        "Noah should have ignored the problem."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Practice works best when it is patient and focused.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: The story is only about the music room.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: A person should stop when something feels difficult.. A theme is a message that fits the whole story, not just a single detail.",
+          "",
+          "Not: Noah should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 154,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0155",
+      "version": 1,
+      "contentHash": "sha256:043ee9dad6ac1e414f7a5993d70011f1c4d29d26881848f21787fd3d6f0ae104",
+      "question": "Read the story. Grade 5 developing story: Ari was at the lunch table when two friends argued about who should choose the game at recess. Ari felt the pressure of the moment, but Ari suggested each friend pick one round and then vote on a final round. In the end, both friends agreed and the argument ended.\n\nWhich detail best supports this theme: Fair solutions can help people work through conflict.",
+      "choices": [
+        "The loudest person should always decide.",
+        "The story names the lunch table.",
+        "Ari has a common first name.",
+        "Ari suggested that each friend choose one round."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Ari suggested that each friend choose one round.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "Not: The loudest person should always decide.. A theme should be supported by what the character does or learns.",
+          "Not: The story names the lunch table.. A theme should be supported by what the character does or learns.",
+          "Not: Ari has a common first name.. A theme should be supported by what the character does or learns.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 155,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0156",
+      "version": 1,
+      "contentHash": "sha256:147300b3ad11161ccdb316c98612441a96956b3b267e1500622c2610e5e44957",
+      "question": "Read the story. Grade 5 developing story: Sofia was at the school art show when she worried that her painting looked different from everyone else's. Sofia felt the pressure of the moment, but she listened as visitors asked about her unusual colors and bold shapes. In the end, she began to feel proud of her own style.\n\nWhy is \"Being different can be a strength.\" a stronger theme than \"Everyone's work should look the same.\"?",
+      "choices": [
+        "It matches the character's actions and the resolution.",
+        "It is longer than the other answer.",
+        "It names the setting exactly.",
+        "It describes only the first sentence."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "",
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 156,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0157",
+      "version": 1,
+      "contentHash": "sha256:152ed4d122d94d25b1f515d66860e852976918ed303d623ceba831f83580a5c4",
+      "question": "Read the story. Grade 5 developing story: Evan was at the soccer field when his team was losing and he had not scored. Evan felt the pressure of the moment, but he passed to a teammate who had a clear shot instead of kicking from a bad angle. In the end, the teammate scored and the team cheered together.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "Only the person who scores helps a team.",
+        "Teamwork often matters more than personal attention.",
+        "The story is only about the soccer field.",
+        "Evan should have ignored the problem."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Teamwork often matters more than personal attention.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: Only the person who scores helps a team.. A theme is a message that fits the whole story, not just a single detail.",
+          "",
+          "Not: The story is only about the soccer field.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: Evan should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 157,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0158",
+      "version": 1,
+      "contentHash": "sha256:42b79b9356bf8f613f9ddd02b5f931eb64822380d77a0f74c551765fb57da18f",
+      "question": "Read the story. Grade 5 developing story: Mina was at the hallway before the spelling bee when she felt nervous after hearing older students practice difficult words. Mina felt the pressure of the moment, but she breathed slowly, reviewed her word cards, and remembered how much she had studied. In the end, she walked onto the stage feeling steady.\n\nWhich detail best supports this theme: Preparation can give courage during a challenge.",
+      "choices": [
+        "Mina has a common first name.",
+        "The story names the hallway before the spelling bee.",
+        "Mina reviewed her word cards and remembered how much she had studied.",
+        "Feeling nervous means a person is not prepared."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Mina reviewed her word cards and remembered how much she had studied.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "Not: Mina has a common first name.. A theme should be supported by what the character does or learns.",
+          "Not: The story names the hallway before the spelling bee.. A theme should be supported by what the character does or learns.",
+          "",
+          "Not: Feeling nervous means a person is not prepared.. A theme should be supported by what the character does or learns."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 158,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0159",
+      "version": 1,
+      "contentHash": "sha256:36aaf286dd6d6d85ec23ec8cb87d28d7f65ae50003a8a608e06eba4dbb59e3ed",
+      "question": "Read the story. Grade 5 developing story: Caleb was at the animal shelter when a shy dog hid whenever visitors came near. Caleb felt the pressure of the moment, but Caleb sat quietly nearby each week and let the dog approach when ready. In the end, the dog eventually rested its head beside him.\n\nWhy is \"Trust can grow when people are patient.\" a stronger theme than \"Rushing others is the best way to earn trust.\"?",
+      "choices": [
+        "It describes only the first sentence.",
+        "It is longer than the other answer.",
+        "It names the setting exactly.",
+        "It matches the character's actions and the resolution."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending.",
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 159,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0160",
+      "version": 1,
+      "contentHash": "sha256:6991ba4180b284946d81ed4d5ed754f515f92c9edcd4b9c64cd6100e679ba59d",
+      "question": "Read the story. Grade 5 developing story: Jada was at a rainy field trip when the outdoor scavenger hunt had to be canceled. Jada felt the pressure of the moment, but she helped classmates create an indoor museum hunt using exhibit clues. In the end, the class discovered details they might have missed.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "A changed plan can still lead to a good experience.",
+        "A day is ruined when the first plan changes.",
+        "The story is only about a rainy field trip.",
+        "Jada should have ignored the problem."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A changed plan can still lead to a good experience.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "",
+          "Not: A day is ruined when the first plan changes.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: The story is only about a rainy field trip.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: Jada should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 160,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0161",
+      "version": 1,
+      "contentHash": "sha256:080d67de5516613caa304bb51df1369b9223460ed0731d0b7502822d1f01fddb",
+      "question": "Read the story. Grade 5 developing story: Omar was at the computer lab when his slideshow disappeared when the program froze. Omar felt the pressure of the moment, but he checked the autosave folder and rebuilt two missing slides from his notes. In the end, his presentation was ready before class ended.\n\nWhich detail best supports this theme: Setbacks are easier to handle with a plan.",
+      "choices": [
+        "The story names the computer lab.",
+        "Omar rebuilt two missing slides from his notes.",
+        "Omar has a common first name.",
+        "A problem is a reason to quit immediately."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Omar rebuilt two missing slides from his notes.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "Not: The story names the computer lab.. A theme should be supported by what the character does or learns.",
+          "",
+          "Not: Omar has a common first name.. A theme should be supported by what the character does or learns.",
+          "Not: A problem is a reason to quit immediately.. A theme should be supported by what the character does or learns."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 161,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0162",
+      "version": 1,
+      "contentHash": "sha256:f1dae2566dfaafd6cf0487bd19a85e1b9dfe7c43bb19f41cf140cbbc9abd55ad",
+      "question": "Read the story. Grade 5 developing story: Nora was at the neighborhood sidewalk when an elderly neighbor struggled to carry groceries up the steps. Nora felt the pressure of the moment, but Nora asked permission, carried two light bags, and held the gate open. In the end, the neighbor thanked her and invited her to pick tomatoes later.\n\nWhy is \"Communities grow stronger when people notice each other's needs.\" a stronger theme than \"Neighbors should never depend on one another.\"?",
+      "choices": [
+        "It names the setting exactly.",
+        "It is longer than the other answer.",
+        "It matches the character's actions and the resolution.",
+        "It describes only the first sentence."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 162,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0163",
+      "version": 1,
+      "contentHash": "sha256:0d29e77830c48ac5d913a11211af38da2e6b8dbf9429dde85bcc49f5e8577b5c",
+      "question": "Read the story. Grade 5 developing story: Ben was at the chess club table when he lost three games in a row. Ben felt the pressure of the moment, but he asked his opponent to show the move that trapped his queen. In the end, he used the lesson to avoid the trap in the next game.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "Ben should have ignored the problem.",
+        "People should pretend they never make mistakes.",
+        "The story is only about the chess club table.",
+        "Mistakes can become lessons when people are willing to learn."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Mistakes can become lessons when people are willing to learn.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: Ben should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: People should pretend they never make mistakes.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: The story is only about the chess club table.. A theme is a message that fits the whole story, not just a single detail.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 163,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0164",
+      "version": 1,
+      "contentHash": "sha256:5ca2d33af748ebcdeb3034cd49ee6fd4b27f9919c7f11a4a59691eeb60a5a15d",
+      "question": "Read the story. Grade 5 developing story: Talia was at the school hallway after dismissal when she found a wallet with lunch money and a student ID. Talia felt the pressure of the moment, but she took it to the office before leaving for practice. In the end, the owner got the wallet back before the buses left.\n\nWhich detail best supports this theme: Doing the right thing matters even when no one is watching.",
+      "choices": [
+        "Talia took the wallet to the office before leaving.",
+        "The story names the school hallway after dismissal.",
+        "Talia has a common first name.",
+        "Found items belong to the person who finds them."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Talia took the wallet to the office before leaving.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "",
+          "Not: The story names the school hallway after dismissal.. A theme should be supported by what the character does or learns.",
+          "Not: Talia has a common first name.. A theme should be supported by what the character does or learns.",
+          "Not: Found items belong to the person who finds them.. A theme should be supported by what the character does or learns."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 164,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0165",
+      "version": 1,
+      "contentHash": "sha256:8e972596fda911cc0a731ef96900f750a1841f5eec8b380ca0684626547f9c74",
+      "question": "Read the story. Grade 5 developing story: Diego was at the creek behind the park when he saw that stepping stones had shifted after heavy rain. Diego felt the pressure of the moment, but he warned younger children to use the bridge and told a ranger. In the end, the crossing was closed until it could be repaired.\n\nWhy is \"Speaking up can protect others.\" a stronger theme than \"Safety problems should be kept secret.\"?",
+      "choices": [
+        "It is longer than the other answer.",
+        "It matches the character's actions and the resolution.",
+        "It names the setting exactly.",
+        "It describes only the first sentence."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 165,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0166",
+      "version": 1,
+      "contentHash": "sha256:9d8206546b0cc109dcbf3b035785cc76dfbeb6ba0bbf170067c160e329b16186",
+      "question": "Read the story. Grade 5 challenge story: Lena was at the classroom supply table when her group's poster tore right before the science fair. At first, the situation seemed discouraging. Instead of reacting too quickly, Lena thought about what mattered most: she wanted her group to feel ready instead of giving up. Then she calmly taped the back, asked for a spare sheet, and divided the repair jobs. In the end, the group finished on time.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "The story is only about the classroom supply table.",
+        "Winning is the only goal.",
+        "Staying calm helps people solve problems.",
+        "Lena should have ignored the problem."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Staying calm helps people solve problems.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: The story is only about the classroom supply table.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: Winning is the only goal.. A theme is a message that fits the whole story, not just a single detail.",
+          "",
+          "Not: Lena should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 166,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0167",
+      "version": 1,
+      "contentHash": "sha256:2a4e81c62c6efd879eac591bbaabc5e9c6879df2f753a9e53891405c77ad9191",
+      "question": "Read the story. Grade 5 challenge story: Mateo was at the school bus line when a younger student dropped a folder and papers scattered. At first, the situation seemed discouraging. Instead of reacting too quickly, Mateo thought about what mattered most: he noticed someone needed help more than he needed to keep his place. Then Mateo stepped out of line, gathered the papers, and helped sort them by subject. In the end, the younger student smiled and found the missing homework.\n\nWhich detail best supports this theme: Small acts of kindness can matter.",
+      "choices": [
+        "People should ignore problems that are not their own.",
+        "The story names the school bus line.",
+        "Mateo has a common first name.",
+        "Mateo helped sort the papers even though the bus line was moving."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Mateo helped sort the papers even though the bus line was moving.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "Not: People should ignore problems that are not their own.. A theme should be supported by what the character does or learns.",
+          "Not: The story names the school bus line.. A theme should be supported by what the character does or learns.",
+          "Not: Mateo has a common first name.. A theme should be supported by what the character does or learns.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 167,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0168",
+      "version": 1,
+      "contentHash": "sha256:c8787f477945e9116174860171494cb0936d37e283b42cc5f6381a5a9c7a03e3",
+      "question": "Read the story. Grade 5 challenge story: Priya was at the community garden when her bean plants wilted after several hot days. At first, the situation seemed discouraging. Instead of reacting too quickly, Priya thought about what mattered most: she wanted to understand what the plants needed before trying a solution. Then she checked the soil, moved mulch around the stems, and changed the watering schedule. In the end, new green leaves appeared the next week.\n\nWhy is \"Careful observation can lead to better choices.\" a stronger theme than \"Guessing quickly is better than studying a problem.\"?",
+      "choices": [
+        "It matches the character's actions and the resolution.",
+        "It is longer than the other answer.",
+        "It names the setting exactly.",
+        "It describes only the first sentence."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "",
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 168,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0169",
+      "version": 1,
+      "contentHash": "sha256:8d75909a7f64bf1b120cc0f07fe0bdae02b0f1372851157e219a81ca7445a3d0",
+      "question": "Read the story. Grade 5 challenge story: Noah was at the music room when he kept missing the same measure during recorder practice. At first, the situation seemed discouraging. Instead of reacting too quickly, Noah thought about what mattered most: he wanted to improve even after the mistake felt frustrating. Then he slowed the song down, clapped the rhythm, and practiced four notes at a time. In the end, he played the measure correctly during rehearsal.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "A person should stop when something feels difficult.",
+        "Practice works best when it is patient and focused.",
+        "The story is only about the music room.",
+        "Noah should have ignored the problem."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Practice works best when it is patient and focused.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: A person should stop when something feels difficult.. A theme is a message that fits the whole story, not just a single detail.",
+          "",
+          "Not: The story is only about the music room.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: Noah should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 169,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0170",
+      "version": 1,
+      "contentHash": "sha256:292c735605445998dca0fcb8c5818ea13d3c599d6f5257812904d7d3181e72a9",
+      "question": "Read the story. Grade 5 challenge story: Ari was at the lunch table when two friends argued about who should choose the game at recess. At first, the situation seemed discouraging. Instead of reacting too quickly, Ari thought about what mattered most: ari wanted both friends to feel heard. Then Ari suggested each friend pick one round and then vote on a final round. In the end, both friends agreed and the argument ended.\n\nWhich detail best supports this theme: Fair solutions can help people work through conflict.",
+      "choices": [
+        "Ari has a common first name.",
+        "The story names the lunch table.",
+        "Ari suggested that each friend choose one round.",
+        "The loudest person should always decide."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Ari suggested that each friend choose one round.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "Not: Ari has a common first name.. A theme should be supported by what the character does or learns.",
+          "Not: The story names the lunch table.. A theme should be supported by what the character does or learns.",
+          "",
+          "Not: The loudest person should always decide.. A theme should be supported by what the character does or learns."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 170,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0171",
+      "version": 1,
+      "contentHash": "sha256:3f4c2e83c3feeb57afbc6861d3ed1cde02fd5ae5fe26b388451d8dd7c8c49909",
+      "question": "Read the story. Grade 5 challenge story: Sofia was at the school art show when she worried that her painting looked different from everyone else's. At first, the situation seemed discouraging. Instead of reacting too quickly, Sofia thought about what mattered most: she wanted her work to show what she imagined. Then she listened as visitors asked about her unusual colors and bold shapes. In the end, she began to feel proud of her own style.\n\nWhy is \"Being different can be a strength.\" a stronger theme than \"Everyone's work should look the same.\"?",
+      "choices": [
+        "It describes only the first sentence.",
+        "It is longer than the other answer.",
+        "It names the setting exactly.",
+        "It matches the character's actions and the resolution."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending.",
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 171,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0172",
+      "version": 1,
+      "contentHash": "sha256:1b716215091a533f5329f6043c63a7e9a746292397cfd60d0594ef25c4a5564b",
+      "question": "Read the story. Grade 5 challenge story: Evan was at the soccer field when his team was losing and he had not scored. At first, the situation seemed discouraging. Instead of reacting too quickly, Evan thought about what mattered most: he cared more about helping the team than being the scorer. Then he passed to a teammate who had a clear shot instead of kicking from a bad angle. In the end, the teammate scored and the team cheered together.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "Teamwork often matters more than personal attention.",
+        "Only the person who scores helps a team.",
+        "The story is only about the soccer field.",
+        "Evan should have ignored the problem."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Teamwork often matters more than personal attention.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "",
+          "Not: Only the person who scores helps a team.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: The story is only about the soccer field.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: Evan should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 172,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0173",
+      "version": 1,
+      "contentHash": "sha256:65aa5655d3256067a99585312854b550cf568fb08aaa333bc69ad8f335f38116",
+      "question": "Read the story. Grade 5 challenge story: Mina was at the hallway before the spelling bee when she felt nervous after hearing older students practice difficult words. At first, the situation seemed discouraging. Instead of reacting too quickly, Mina thought about what mattered most: she wanted to manage her nerves so she could do her best. Then she breathed slowly, reviewed her word cards, and remembered how much she had studied. In the end, she walked onto the stage feeling steady.\n\nWhich detail best supports this theme: Preparation can give courage during a challenge.",
+      "choices": [
+        "The story names the hallway before the spelling bee.",
+        "Mina reviewed her word cards and remembered how much she had studied.",
+        "Mina has a common first name.",
+        "Feeling nervous means a person is not prepared."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Mina reviewed her word cards and remembered how much she had studied.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "Not: The story names the hallway before the spelling bee.. A theme should be supported by what the character does or learns.",
+          "",
+          "Not: Mina has a common first name.. A theme should be supported by what the character does or learns.",
+          "Not: Feeling nervous means a person is not prepared.. A theme should be supported by what the character does or learns."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 173,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0174",
+      "version": 1,
+      "contentHash": "sha256:8f381748af09aab8b09b3f447a2a966aab898d1b154d9e5fed05980dc9aa1a6c",
+      "question": "Read the story. Grade 5 challenge story: Caleb was at the animal shelter when a shy dog hid whenever visitors came near. At first, the situation seemed discouraging. Instead of reacting too quickly, Caleb thought about what mattered most: he wanted the dog to feel safe, not rushed. Then Caleb sat quietly nearby each week and let the dog approach when ready. In the end, the dog eventually rested its head beside him.\n\nWhy is \"Trust can grow when people are patient.\" a stronger theme than \"Rushing others is the best way to earn trust.\"?",
+      "choices": [
+        "It names the setting exactly.",
+        "It is longer than the other answer.",
+        "It matches the character's actions and the resolution.",
+        "It describes only the first sentence."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 174,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0175",
+      "version": 1,
+      "contentHash": "sha256:45e10663f196820d7423a370bc64b9ce79e9b472963575b879b6589f4a8292fb",
+      "question": "Read the story. Grade 5 challenge story: Jada was at a rainy field trip when the outdoor scavenger hunt had to be canceled. At first, the situation seemed discouraging. Instead of reacting too quickly, Jada thought about what mattered most: she wanted the trip to stay interesting even after plans changed. Then she helped classmates create an indoor museum hunt using exhibit clues. In the end, the class discovered details they might have missed.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "Jada should have ignored the problem.",
+        "A day is ruined when the first plan changes.",
+        "The story is only about a rainy field trip.",
+        "A changed plan can still lead to a good experience."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A changed plan can still lead to a good experience.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: Jada should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: A day is ruined when the first plan changes.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: The story is only about a rainy field trip.. A theme is a message that fits the whole story, not just a single detail.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 175,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0176",
+      "version": 1,
+      "contentHash": "sha256:40b95c9d733137d2848511da7846b6369aa6ebe95f0066143d16944e61de88a6",
+      "question": "Read the story. Grade 5 challenge story: Omar was at the computer lab when his slideshow disappeared when the program froze. At first, the situation seemed discouraging. Instead of reacting too quickly, Omar thought about what mattered most: he wanted to recover his work instead of quitting. Then he checked the autosave folder and rebuilt two missing slides from his notes. In the end, his presentation was ready before class ended.\n\nWhich detail best supports this theme: Setbacks are easier to handle with a plan.",
+      "choices": [
+        "Omar rebuilt two missing slides from his notes.",
+        "The story names the computer lab.",
+        "Omar has a common first name.",
+        "A problem is a reason to quit immediately."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Omar rebuilt two missing slides from his notes.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "",
+          "Not: The story names the computer lab.. A theme should be supported by what the character does or learns.",
+          "Not: Omar has a common first name.. A theme should be supported by what the character does or learns.",
+          "Not: A problem is a reason to quit immediately.. A theme should be supported by what the character does or learns."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 176,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0177",
+      "version": 1,
+      "contentHash": "sha256:7ae73902370277c2f8a49e00b2033a6a7d75edb274418f1b2338a6f7abfd4537",
+      "question": "Read the story. Grade 5 challenge story: Nora was at the neighborhood sidewalk when an elderly neighbor struggled to carry groceries up the steps. At first, the situation seemed discouraging. Instead of reacting too quickly, Nora thought about what mattered most: she saw a way to make someone's task easier. Then Nora asked permission, carried two light bags, and held the gate open. In the end, the neighbor thanked her and invited her to pick tomatoes later.\n\nWhy is \"Communities grow stronger when people notice each other's needs.\" a stronger theme than \"Neighbors should never depend on one another.\"?",
+      "choices": [
+        "It is longer than the other answer.",
+        "It matches the character's actions and the resolution.",
+        "It names the setting exactly.",
+        "It describes only the first sentence."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 177,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0178",
+      "version": 1,
+      "contentHash": "sha256:645c82ed47bdbc49e12a12b82137dcf92655dd99bad53ac4761ce8dabb153f38",
+      "question": "Read the story. Grade 5 challenge story: Ben was at the chess club table when he lost three games in a row. At first, the situation seemed discouraging. Instead of reacting too quickly, Ben thought about what mattered most: he wanted to learn from mistakes instead of hiding them. Then he asked his opponent to show the move that trapped his queen. In the end, he used the lesson to avoid the trap in the next game.\n\nWhich theme, lesson, or moral best fits the story?",
+      "choices": [
+        "The story is only about the chess club table.",
+        "People should pretend they never make mistakes.",
+        "Mistakes can become lessons when people are willing to learn.",
+        "Ben should have ignored the problem."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Mistakes can become lessons when people are willing to learn.. A theme is a message that fits the whole story, not just a single detail.",
+        "incorrect": [
+          "Not: The story is only about the chess club table.. A theme is a message that fits the whole story, not just a single detail.",
+          "Not: People should pretend they never make mistakes.. A theme is a message that fits the whole story, not just a single detail.",
+          "",
+          "Not: Ben should have ignored the problem.. A theme is a message that fits the whole story, not just a single detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 178,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0179",
+      "version": 1,
+      "contentHash": "sha256:dd54f887cc164a5dd5d88e2a3022e3ea789ad3416ba0968105bbefcb25b32311",
+      "question": "Read the story. Grade 5 challenge story: Talia was at the school hallway after dismissal when she found a wallet with lunch money and a student ID. At first, the situation seemed discouraging. Instead of reacting too quickly, Talia thought about what mattered most: she knew the wallet belonged to someone else. Then she took it to the office before leaving for practice. In the end, the owner got the wallet back before the buses left.\n\nWhich detail best supports this theme: Doing the right thing matters even when no one is watching.",
+      "choices": [
+        "Found items belong to the person who finds them.",
+        "The story names the school hallway after dismissal.",
+        "Talia has a common first name.",
+        "Talia took the wallet to the office before leaving."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Talia took the wallet to the office before leaving.. A theme should be supported by what the character does or learns.",
+        "incorrect": [
+          "Not: Found items belong to the person who finds them.. A theme should be supported by what the character does or learns.",
+          "Not: The story names the school hallway after dismissal.. A theme should be supported by what the character does or learns.",
+          "Not: Talia has a common first name.. A theme should be supported by what the character does or learns.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 179,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0180",
+      "version": 1,
+      "contentHash": "sha256:fa31766ff448a819204058446655076852aeeaff52469ada0744208e3eba36d7",
+      "question": "Read the story. Grade 5 challenge story: Diego was at the creek behind the park when he saw that stepping stones had shifted after heavy rain. At first, the situation seemed discouraging. Instead of reacting too quickly, Diego thought about what mattered most: he wanted others to stay safe. Then he warned younger children to use the bridge and told a ranger. In the end, the crossing was closed until it could be repaired.\n\nWhy is \"Speaking up can protect others.\" a stronger theme than \"Safety problems should be kept secret.\"?",
+      "choices": [
+        "It matches the character's actions and the resolution.",
+        "It is longer than the other answer.",
+        "It names the setting exactly.",
+        "It describes only the first sentence."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A theme, lesson, or moral is the bigger message a reader can learn from a story.",
+        "example": "A story about a character practicing patiently may show that focused practice helps people improve.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: It matches the character's actions and the resolution.. The strongest theme matches the important events and the ending.",
+        "incorrect": [
+          "",
+          "Not: It is longer than the other answer.. The strongest theme matches the important events and the ending.",
+          "Not: It names the setting exactly.. The strongest theme matches the important events and the ending.",
+          "Not: It describes only the first sentence.. The strongest theme matches the important events and the ending."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          6
+        ],
+        "difficultyByGrade": {
+          "6": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "theme",
+          "lesson",
+          "moral",
+          "literary reading"
+        ],
+        "standards": [
+          "RL.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sequence": 180,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2",
+          "RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0209",
+      "version": 1,
+      "contentHash": "sha256:e8cf38892351680e5f8c652a7347ced9981cea7c167b8806442057e981901f6e",
+      "question": "Review the passage. Cheers to the former Idaho Gov. Phil Batt. He’s being recognized later this month with American Civil Liberties Union’s Equal Justice Award. If he did nothing else, Batt deserves the honor simply for creating the Idaho Human Rights Commission 33 years ago when he was an Idaho lawmaker., consider Batt’s record as governor in the But mid -1990s. He went against members of his own party-- indeed his own professionto insist on equal treatment for farm workers under Idaho’s worker compensation law. He vigorous -Nazis who had set up operations in northern ly condemned neo Idaho. And he put logic ahead of politics by commuting the strongest sentence of Donald M. Paradis – the manthe courts later freed when new evidence proved him innocent of a 20-year-. old crime From the passage, Tom can prove that Gov. Batt is:",
+      "choices": [
+        "concerned about human rights.",
+        "a good family man.",
+        "a hardworking man.",
+        "a religious man."
+      ],
+      "correct": 0,
+      "explanation": {
+        "correct": "Answer: concerned about human rights.. concerned about human rights; “He’s being recognized later this month with American Civil Liberties Union’s Equal Justice Award.”",
+        "incorrect": [
+          "",
+          "Not: a good family man.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+          "Not: a hardworking man.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+          "Not: a religious man.. Use the passage, text feature, or story detail to check this choice against the evidence."
+        ]
+      },
+      "studyAid": {
+        "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+        "example": "Find the detail in the passage that supports the answer.",
+        "link": "https://www.readingrockets.org/topics/comprehension",
+        "linkText": "Reading Rockets-Comprehension"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3
+        ],
+        "difficultyByGrade": {
+          "3": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "passage-context",
+        "skills": [
+          "informational text",
+          "reading comprehension",
+          "reading",
+          "grade 3"
+        ],
+        "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sourceFile": "Proficient-7_Informational Text.pdf",
+        "sourceQuestionNumber": 9,
+        "sourceCategory": "informational-text",
+        "sourceGrade": 3,
+        "sequence": 209,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-theme-lesson-moral-q0289",
+      "version": 1,
+      "contentHash": "sha256:d1fd7931cb46a94caf8c5d5fee7e883006146e9f24648129fef4dde3d2642921",
+      "question": "Read the passage. We couldn’t wait for summer vacation to start! It was the last day of school, and we were so excited to get out and start the games and fun of summer. My personal favorite thing about summer is getting to sleep in late and stay the night at my friends’ houses for parties and sleepovers. I love school, but I always look forward to summer! The theme of this story is ___________________.",
+      "choices": [
+        "Schoo l is boring.",
+        "I always look forward to summer.",
+        "Summer is coming soon.",
+        "Parties are fun."
+      ],
+      "correct": 1,
+      "explanation": {
+        "correct": "Answer: I always look forward to summer.. I always look forward to summer. This is confirmed by the opening senten ce stating that the writer couldn’t wait for summer and closes with “I always look forwa rd to summer!”",
+        "incorrect": [
+          "Not: Schoo l is boring.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+          "",
+          "Not: Summer is coming soon.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+          "Not: Parties are fun.. Use the passage, text feature, or story detail to check this choice against the evidence."
+        ]
+      },
+      "studyAid": {
+        "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+        "example": "Find the detail in the passage that supports the answer.",
+        "link": "https://www.readingrockets.org/topics/comprehension",
+        "linkText": "Reading Rockets-Comprehension"
+      },
+      "metadata": {
+        "gradeLevels": [
+          3
+        ],
+        "difficultyByGrade": {
+          "3": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "infer-and-support",
+        "languageDemand": "passage-context",
+        "skills": [
+          "literature",
+          "reading comprehension",
+          "reading",
+          "grade 3"
+        ],
+        "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reading-comprehension-theme-lesson-moral",
+        "sourceFile": "Proficient-2_Literature.pdf",
+        "sourceQuestionNumber": 9,
+        "sourceCategory": "literature",
+        "sourceGrade": 3,
+        "sequence": 289,
+        "testFocus": [
+          "MAP"
+        ],
+        "Test focus": [
+          "MAP"
+        ],
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["reading-comprehension-theme-lesson-moral"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["reading-comprehension-theme-lesson-moral"] = chunkSet;
+  }
+})();

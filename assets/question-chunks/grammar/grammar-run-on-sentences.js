@@ -2,7 +2,7 @@
  * English Language Quiz App - grammar chunk: grammar-run-on-sentences
  * Generated from assets/question-bank-source/grammar.json.
  * Generator version: 1.
- * Source hash: sha256:0cc71bc6a570ca151f20bacdfc3a33b2bbcd35e53cf922b11fc66c4e9cf72adf.
+ * Source hash: sha256:1e63189097aa62e1339268c6755f99083dc002452e81f1780e6262b62f4f87b9.
  */
 (function () {
   'use strict';
@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -839,7 +937,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "grammar-run-on-sentences",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         },
         "explanation": {
           "correct": "Answer: The thunder grew louder, so we hurried inside. A run-on sentence joins complete thoughts without the punctuation or connecting word they need.",
@@ -854,22 +959,22 @@
       {
         "id": "grammar-run-on-sentences-q0019",
         "version": 1,
-        "contentHash": "sha256:b22dd293b27a882fd5d8fd81656dd0691dd8bec3b0fc5bd74e63f162a65ec250",
+        "contentHash": "sha256:6931555489a570048cdcc0165ced28f1deb1c52f1a5032e3810d6a8074b37a77",
         "question": "Which sentence is a run-on sentence? (1) My brother and I plan to go to the football game on Friday night. (2) We need to buy tickets, they are $7.50. (3) It is the homecoming game. (4) We are excited for therivalry.",
         "choices": [
           "Sentence 1",
-          "Sentence",
-          "Sentence",
-          "Sentence"
+          "Sentence 2",
+          "Sentence 3",
+          "Sentence 4"
         ],
         "correct": 1,
         "explanation": {
-          "correct": "Answer: Sentence. Sentence 2; We need to buy tickets. They are $7.",
+          "correct": "Answer: Sentence 2. It joins two complete thoughts with only a comma: We need to buy tickets, they are $7.50.",
           "incorrect": [
-            "Not: Sentence 1. Use the grammar rule and the sentence context to check this choice.",
+            "Not: Sentence 1. It is a complete sentence, not a run-on.",
             "",
-            "Not: Sentence. Use the grammar rule and the sentence context to check this choice.",
-            "Not: Sentence. Use the grammar rule and the sentence context to check this choice."
+            "Not: Sentence 3. It is a complete sentence, not a run-on.",
+            "Not: Sentence 4. It has a spacing typo, but it is not the run-on sentence."
           ]
         },
         "studyAid": {
@@ -909,7 +1014,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       }
     ],

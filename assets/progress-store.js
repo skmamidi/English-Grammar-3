@@ -102,7 +102,9 @@
     return Object.assign({}, attempt, {
       questionId,
       questionVersion: Number(attempt.questionVersion) || 0,
-      questionHash: attempt.questionHash || attempt.contentHash || ""
+      questionHash: attempt.questionHash || attempt.contentHash || "",
+      skillIds: normalizeStringArray(attempt.skillIds),
+      standardIds: normalizeStringArray(attempt.standardIds)
     });
   }
 
@@ -189,7 +191,8 @@
         correct: Number(item.correct) || 0,
         total: Number(item.total) || 0,
         lastPracticed: item.lastPracticed || "",
-        level: item.level || ""
+        level: item.level || "",
+        questionRefs: normalizeStringArray(item.questionRefs)
       };
     });
     return normalized;
@@ -278,8 +281,10 @@
     }
     return updateProgress(progress => {
       const reports = normalizeReports(progress.reports);
-      reports.sessions = [normalizeReportSession(session)].concat(reports.sessions || []).filter(Boolean).slice(0, 250);
+      const normalizedSession = normalizeReportSession(session);
+      reports.sessions = [normalizedSession].concat(reports.sessions || []).filter(Boolean).slice(0, 250);
       progress.reports = normalizeReports(reports);
+      progress.mastery = projectMasteryFromSession(progress.mastery, normalizedSession);
       return progress;
     }, options);
   }
@@ -389,7 +394,8 @@
           correct: Math.max(Number(localItem.correct) || 0, Number(cloudItem.correct) || 0),
           total: Math.max(Number(localItem.total) || 0, Number(cloudItem.total) || 0),
           lastPracticed: maxDateKey(localItem.lastPracticed, cloudItem.lastPracticed),
-          level: localItem.level || cloudItem.level || ""
+          level: localItem.level || cloudItem.level || "",
+          questionRefs: Array.from(new Set(normalizeStringArray(localItem.questionRefs).concat(normalizeStringArray(cloudItem.questionRefs)))).slice(0, 50)
         };
       });
     });
@@ -401,6 +407,57 @@
     if (!a) return b || "";
     if (!b) return a || "";
     return a > b ? a : b;
+  }
+
+  function projectMasteryFromSession(existingMastery, session) {
+    const mastery = normalizeMastery(existingMastery);
+    const completedAt = session && session.completedAt || "";
+    (session && Array.isArray(session.attempts) ? session.attempts : []).forEach(attempt => {
+      const questionId = getAttemptQuestionId(attempt);
+      const isCorrect = !!attempt.correct;
+      normalizeStringArray(attempt.skillIds).forEach(skillId => {
+        recordMastery(mastery, "skills", skillId, skillId, isCorrect, completedAt, questionId);
+      });
+      normalizeStringArray(attempt.standardIds).forEach(standardId => {
+        recordMastery(mastery, "standards", standardId, standardId, isCorrect, completedAt, questionId);
+      });
+    });
+    return mastery;
+  }
+
+  function recordMastery(mastery, group, key, label, isCorrect, lastPracticed, questionId) {
+    if (!key) return;
+    const current = mastery[group][key] || {
+      label: label || key,
+      correct: 0,
+      total: 0,
+      lastPracticed: "",
+      level: "",
+      questionRefs: []
+    };
+    current.label = current.label || label || key;
+    current.correct += isCorrect ? 1 : 0;
+    current.total += 1;
+    current.lastPracticed = maxDateKey(current.lastPracticed, lastPracticed);
+    current.level = getMasteryLevel(current.correct, current.total);
+    current.questionRefs = Array.from(new Set(normalizeStringArray(current.questionRefs).concat(questionId))).slice(0, 50);
+    mastery[group][key] = current;
+  }
+
+  function getMasteryLevel(correct, total) {
+    if (total < 1) return "";
+    const accuracy = correct / total;
+    if (total < 5 && accuracy >= 0.8) return "Collecting evidence";
+    if (accuracy >= 0.92 && total >= 12) return "Elite";
+    if (accuracy >= 0.85) return "Secure";
+    if (accuracy >= 0.7) return "Developing";
+    return "Needs focus";
+  }
+
+  function normalizeStringArray(values) {
+    return (Array.isArray(values) ? values : [])
+      .map(value => String(value || "").trim())
+      .filter(Boolean);
   }
 
   function setCloudAdapter(adapter) {

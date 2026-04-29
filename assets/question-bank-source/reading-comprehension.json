@@ -9769,22 +9769,22 @@
         {
           "id": "reading-comprehension-fact-opinion-q0161",
           "version": 1,
-          "contentHash": "sha256:2aad4aadf3f076baa1a41dd130344c0fbd546ea26600796760541913d1626692",
+          "contentHash": "sha256:34b9781c942f847417fc246769a8143a51de98977187eb7d7fbf436c04b22f02",
           "question": "Read the sentences and answer the questions. 1. The Pacific Ocean is the most beautiful ocean. 2. Cars are more convenient thantrucks. 3. All politicians are dishonest. 4. Denver is the capital of Colorado. Whic sentence tells a fact, not an opinion? h",
           "choices": [
             "sentence 1",
-            "sentence",
-            "sentence",
-            "sentence"
+            "sentence 4",
+            "sentence 3",
+            "sentence 2"
           ],
           "correct": 1,
           "explanation": {
-            "correct": "Answer: sentence. sentence 4; Fact something that has actual existence. Denver is the capital of Colorado. –",
+            "correct": "Answer: sentence 4. Denver is the capital of Colorado is a fact that can be checked.",
             "incorrect": [
-              "Not: sentence 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
+              "Not: sentence 1. Calling the Pacific Ocean the most beautiful ocean is an opinion.",
               "",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence."
+              "Not: sentence 3. Saying all politicians are dishonest is an opinionated claim.",
+              "Not: sentence 2. Saying cars are more convenient than trucks is an opinion."
             ]
           },
           "studyAid": {
@@ -24396,21 +24396,21 @@
         {
           "id": "reading-comprehension-main-idea-supporting-details-q0191",
           "version": 1,
-          "contentHash": "sha256:411818f8e3d1f78524060c24f1c033c1c763ae751cb8fbdde579b09f9ccc10ba",
+          "contentHash": "sha256:90bc2c2381ffedbc227cfb15cd5b0f47a8ae645a08f658b6d14bd4f79528830e",
           "question": "Read the sentences in the story below. 1. Some children like cheese pizza. 2. Others like pepperoni pizza. 3. Kathy likes sausage pizza. 4. Many children like to eat pizza. Which sentence is the main idea of this story?",
           "choices": [
             "sentence 1",
-            "sentence",
-            "sentence",
-            "sentence"
+            "sentence 2",
+            "sentence 3",
+            "sentence 4"
           ],
           "correct": 3,
           "explanation": {
-            "correct": "Answer: sentence. sentence 4; Each sentence tells of different people liking differe nt types of pizza; therefore, “Many children like to eat pizza” is the main idea of the story.",
+            "correct": "Answer: sentence 4. Many children like to eat pizza states the main idea; the other sentences give examples.",
             "incorrect": [
-              "Not: sentence 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+              "Not: sentence 1. It gives one example of a pizza some children like.",
+              "Not: sentence 2. It gives another example, not the main idea.",
+              "Not: sentence 3. It gives one child’s favorite pizza, not the main idea.",
               ""
             ]
           },
@@ -37433,22 +37433,22 @@
         {
           "id": "reading-comprehension-summarizing-q0229",
           "version": 1,
-          "contentHash": "sha256:4e5c103ebb0840507bef9d4ad55383ae77ac98473c848cd82370797ec93554b4",
+          "contentHash": "sha256:4c4c207dbf112cb4da650d6acb549a667f781155da19af73a8cdd993d132fb98",
           "question": "Read the following and answer the question. 1. They carried their sacks to the car and went home. 2. Mother paid for the clothes and the clerk put them in a sack. 3. Mother and Beth went to the store to shop for clothes. 4. Beth found a pair of shoes and mother found a dress. Which sentence tells what Mother and Beth did first?",
           "choices": [
             "sentence 1",
-            "sentence",
-            "sentence",
+            "sentence 2",
+            "sentence 3",
             "sentence 4"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: sentence. sentence 3; Mother and Beth went to the store to shop for clothes. This sentence had to occur first in order for the other three sentences to happen.",
+            "correct": "Answer: sentence 3. Mother and Beth went to the store before they found items, paid, and went home.",
             "incorrect": [
-              "Not: sentence 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+              "Not: sentence 1. Going home happened after shopping and paying.",
+              "Not: sentence 2. Paying happened after they chose clothes.",
               "",
-              "Not: sentence 4. Use the passage, text feature, or story detail to check this choice against the evidence."
+              "Not: sentence 4. Finding shoes and a dress happened after they went to the store."
             ]
           },
           "studyAid": {
@@ -37677,22 +37677,22 @@
         {
           "id": "reading-comprehension-summarizing-q0233",
           "version": 1,
-          "contentHash": "sha256:ee98734eb4b0b4fef75b9181e7d1a6fda913f0576c88ab944548e175c915bb46",
+          "contentHash": "sha256:33a901fc5e8ba5b1e0525411250a414892d5a070f06f5688d39bcdb797573a32",
           "question": "Read the following sentences and answer the question. 1. James got out of bed when his alarm clock rang. 2. James ran out the door to catch the bus. 3. James ate his breakfast of oatmeal and fruit juice. 4. James brushed his teeth with his purple toothbrush. Which sentence tells what James did first?",
           "choices": [
             "sentence 1",
-            "sentence",
-            "sentence",
-            "sentence"
+            "sentence 2",
+            "sentence 3",
+            "sentence 4"
           ],
           "correct": 0,
           "explanation": {
-            "correct": "Answer: sentence 1. sentence 1; James got out of bed when his alarm clock rang.",
+            "correct": "Answer: sentence 1. James got out of bed before eating, brushing his teeth, or running for the bus.",
             "incorrect": [
               "",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
-              "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence."
+              "Not: sentence 2. Running out the door happened after he got up.",
+              "Not: sentence 3. Eating breakfast happened after he got up.",
+              "Not: sentence 4. Brushing his teeth happened after he got up."
             ]
           },
           "studyAid": {
@@ -123175,22 +123175,22 @@
         {
           "id": "reading-comprehension-book-genres-q0272",
           "version": 1,
-          "contentHash": "sha256:22f8261d80da1c11852f3bfaa4bd224b9d5058ed12351504c5fa30feb324b39d",
+          "contentHash": "sha256:d36c71db5e4df33dd8e56caa4ab851e3ef27ac079180d01068580d272712c49d",
           "question": "Read the sentences: 1. Gorillas are plant-eating creatures. 2. Gorillas can be found in Africa. 3. All gorillas are ugly, scary and mean. 4. Scientists think gorillas could have been as tall as ten feet. Which of the above sentences are non-fiction?",
           "choices": [
-            "2, 3,",
-            "1, 2,",
-            "1, 2,",
-            "N one of the above."
+            "2 and 3",
+            "1 and 2",
+            "1, 2, and 4",
+            "None of the above"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: 1, 2,. 1, 2, 4; Non -fiction is based on fact. Sentence 3 is an opinion.",
+            "correct": "Answer: 1, 2, and 4. These statements give factual information about gorillas; sentence 3 is an opinion.",
             "incorrect": [
-              "Not: 2, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
-              "Not: 1, 2,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+              "Not: 2 and 3. Sentence 3 is an opinion, not nonfiction.",
+              "Not: 1 and 2. Sentence 4 is also factual information about gorillas.",
               "",
-              "Not: N one of the above.. Use the passage, text feature, or story detail to check this choice against the evidence."
+              "Not: None of the above. Several of the sentences are factual nonfiction statements."
             ]
           },
           "studyAid": {

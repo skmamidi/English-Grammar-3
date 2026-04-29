@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-fact-fantasy",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       }
     ],

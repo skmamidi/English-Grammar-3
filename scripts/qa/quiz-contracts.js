@@ -3,10 +3,10 @@
 const quizDomain = require('../../assets/quiz-domain');
 
 function validateSerializedAttempt(attempt) {
-  const required = ['id', 'questionId', 'questionVersion', 'questionHash', 'question', 'selectedChoice', 'correctChoice', 'correct', 'firstAttemptCorrect', 'skills', 'subtopicId', 'subtopicTitle'];
+  const required = ['id', 'questionId', 'questionVersion', 'questionHash', 'question', 'selectedChoice', 'correctChoice', 'correct', 'firstAttemptCorrect', 'skills', 'skillIds', 'standardIds', 'subtopicId', 'subtopicTitle'];
   return required.filter(key => {
     if (!(key in (attempt || {}))) return true;
-    if (key === 'skills') return !Array.isArray(attempt.skills);
+    if (key === 'skills' || key === 'skillIds' || key === 'standardIds') return !Array.isArray(attempt[key]);
     if (key === 'correct' || key === 'firstAttemptCorrect') return typeof attempt[key] !== 'boolean';
     if (key === 'questionVersion') return !Number.isFinite(Number(attempt[key]));
     return attempt[key] === undefined || attempt[key] === null;

@@ -1,0 +1,3089 @@
+/**
+ * English Language Quiz App - reading-comprehension subchunk: reading-comprehension-main-idea-supporting-details 2
+ * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:2124c0e778bd5d477ad0d8b3edbef4cfadb6057b960b9555c356396a64c03631.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Main Idea & Supporting Details",
+  "topic": "Reading Comprehension",
+  "questions": [
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0051",
+      "version": 1,
+      "contentHash": "sha256:8df2600e1542af505a56b078191970dafa8d3e5c1bbe3118ef154cdaa2c01fa2",
+      "question": "Read the passage. Grade 3 foundation passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The work showed that a safety officer taught students important bike safety habits.",
+        "She showed how helmets should sit flat and snug on a rider's head.",
+        "She reminded riders to signal turns and watch for opening car doors.",
+        "The school choir rehearsed a song about the moon."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The school choir rehearsed a song about the moon.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: The work showed that a safety officer taught students important bike safety habits.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: She showed how helmets should sit flat and snug on a rider's head.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: She reminded riders to signal turns and watch for opening car doors.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 51,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0052",
+      "version": 1,
+      "contentHash": "sha256:c4b3310ccb76cd0e424e17e7806c3c68a21ceb36dc9f8eab95815e42d8c4af2a",
+      "question": "Read the passage. Grade 3 foundation passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "New bus routes made important places easier to reach.",
+        "One detail is that the new route stopped near the clinic, grocery store, and community center.",
+        "A bakery sold cinnamon rolls before sunrise.",
+        "The passage is mostly about a problem with city buses."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: New bus routes made important places easier to reach.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "",
+          "Not: One detail is that the new route stopped near the clinic, grocery store, and community center.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: A bakery sold cinnamon rolls before sunrise.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with city buses.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 52,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0053",
+      "version": 1,
+      "contentHash": "sha256:64e95ec7c966535777f3644e5f27f17d6801cfbef4e875d04cae17c67937b48b",
+      "question": "Read the passage. Grade 3 foundation passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began.\n\nWhich detail best supports this main idea: Many students worked together to prepare the school play.",
+      "choices": [
+        "A math poster showed different kinds of triangles.",
+        "Actors practiced lines while stage crew members painted scenery and tested lights.",
+        "The passage never mentions school play.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Actors practiced lines while stage crew members painted scenery and tested lights.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: A math poster showed different kinds of triangles.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The passage never mentions school play.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 53,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0054",
+      "version": 1,
+      "contentHash": "sha256:a8f45b7ebe873b1b66b49967eabe56ad577547bb51d90df1dcb2b1b872e19113",
+      "question": "Read the passage. Grade 3 foundation passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "After several weeks, the dark compost was mixed into flower beds.",
+        "Fruit peels and vegetable ends went into a covered bin behind the cafeteria.",
+        "A new scoreboard was installed in the gym.",
+        "The work showed that cafeteria food scraps were collected and turned into compost for flowers."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A new scoreboard was installed in the gym.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: After several weeks, the dark compost was mixed into flower beds.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: Fruit peels and vegetable ends went into a covered bin behind the cafeteria.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: The work showed that cafeteria food scraps were collected and turned into compost for flowers.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 54,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0055",
+      "version": 1,
+      "contentHash": "sha256:b2972f4e8f50bcf190daeefc536b4729f6d1410c0cbe9bc847998e0f85d9d90e",
+      "question": "Read the passage. Grade 3 foundation passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The passage is mostly about a problem with weather station.",
+        "One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "The music teacher tuned a violin before class.",
+        "Students collected weather data to notice local patterns."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students collected weather data to notice local patterns.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: The passage is mostly about a problem with weather station.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The music teacher tuned a violin before class.. The best answer states what the whole passage is mostly about, not just one detail.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 55,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0056",
+      "version": 1,
+      "contentHash": "sha256:4e35b494f38185043a3ab8f38baf4a5aeb6c9c7548dd1426e9b3afc95157bd76",
+      "question": "Read the passage. Grade 3 foundation passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper.\n\nWhich detail best supports this main idea: The recycling team helped the school waste less paper.",
+      "choices": [
+        "They placed blue bins in classrooms and reminded students to use both sides of paper.",
+        "The nurse checked the first-aid supplies after lunch.",
+        "The passage never mentions recycling team.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They placed blue bins in classrooms and reminded students to use both sides of paper.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "",
+          "Not: The nurse checked the first-aid supplies after lunch.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions recycling team.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 56,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0057",
+      "version": 1,
+      "contentHash": "sha256:b3cc892d8fbf16a4036fca4a7086e2ee2fd05a197003bb9c91d7761db74e2399",
+      "question": "Read the passage. Grade 3 foundation passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "They displayed old tools, photographs, letters, and a map of the first town road.",
+        "A rainstorm delayed the baseball game.",
+        "Visitors could press buttons to hear recordings of elders telling memories.",
+        "The work showed that museum workers created an exhibit that helped visitors learn local history."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A rainstorm delayed the baseball game.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: They displayed old tools, photographs, letters, and a map of the first town road.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: Visitors could press buttons to hear recordings of elders telling memories.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that museum workers created an exhibit that helped visitors learn local history.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 57,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0058",
+      "version": 1,
+      "contentHash": "sha256:b541b0e1cfbbd0bd7cd82cbac4ac337d59ea55b6f66c740f30065876d3b59c78",
+      "question": "Read the passage. Grade 3 foundation passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The principal announced picture day over the speaker.",
+        "One detail is that each time the robot missed a turn, members adjusted the code and tested again.",
+        "Testing and revising helped the robotics club improve its robot.",
+        "The passage is mostly about a problem with robotics club."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Testing and revising helped the robotics club improve its robot.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: The principal announced picture day over the speaker.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that each time the robot missed a turn, members adjusted the code and tested again.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: The passage is mostly about a problem with robotics club.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 58,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0059",
+      "version": 1,
+      "contentHash": "sha256:ea424f8eb4b8eb180594850932b1faca4bfebb2dab2970567e0c909bcf6e50db",
+      "question": "Read the passage. Grade 3 foundation passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal.\n\nWhich detail best supports this main idea: The breakfast cart helped more students start the day with food.",
+      "choices": [
+        "The author gives an opinion without facts.",
+        "The science lab received new magnifying glasses.",
+        "The passage never mentions school breakfast.",
+        "The cart offered fruit, yogurt, and whole-grain muffins near the front door."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The cart offered fruit, yogurt, and whole-grain muffins near the front door.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The science lab received new magnifying glasses.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions school breakfast.. A supporting detail must come from the passage and help prove the main idea.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 59,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0060",
+      "version": 1,
+      "contentHash": "sha256:09eda485923c829d8d6bd659e014e10b152c559f454f346701cc13897324fba4",
+      "question": "Read the passage. Grade 3 foundation passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The post office closed early on Saturday.",
+        "They added arrows, distance signs, and small plaques naming common trees.",
+        "A new bench gave hikers a place to rest near the creek.",
+        "The work showed that park rangers marked a trail so visitors could navigate and learn."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The post office closed early on Saturday.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "",
+          "Not: They added arrows, distance signs, and small plaques naming common trees.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: A new bench gave hikers a place to rest near the creek.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that park rangers marked a trail so visitors could navigate and learn.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 60,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0061",
+      "version": 1,
+      "contentHash": "sha256:d212686238bd5e730abe636c87abec3031feeafe3e43dd8cfb20bf9d89ff219c",
+      "question": "Read the passage. Grade 3 developing passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong. These details show that students used careful daily routines to help a garden grow.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "One detail is that students watered the seedlings each morning and recorded how tall they grew.",
+        "Daily care helped the school garden grow well.",
+        "The art room displayed clay bowls near the window.",
+        "The passage is mostly about a problem with school garden."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Daily care helped the school garden grow well.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: One detail is that students watered the seedlings each morning and recorded how tall they grew.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: The art room displayed clay bowls near the window.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with school garden.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 61,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0062",
+      "version": 1,
+      "contentHash": "sha256:9ad804666d485d3e2ea8988de24326210afae1ef5eeb9f4e0e8477193878b879",
+      "question": "Read the passage. Grade 3 developing passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books. These details show that student volunteers organized books and labels to make the library easier to use.\n\nWhich detail best supports this main idea: Student helpers organized the library so readers could find books faster.",
+      "choices": [
+        "The passage never mentions library helpers.",
+        "The cafeteria served tomato soup on Thursday.",
+        "They sorted returned books by call number before placing them on shelves.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They sorted returned books by call number before placing them on shelves.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The passage never mentions library helpers.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The cafeteria served tomato soup on Thursday.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 62,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0063",
+      "version": 1,
+      "contentHash": "sha256:6a5ff3848d1f5bee1775855f139586206ab7e0ab2b5409f3493271cc82f47259",
+      "question": "Read the passage. Grade 3 developing passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose. These details show that a science club collected and reused rainwater to care for plants.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The work showed that a science club collected and reused rainwater to care for plants.",
+        "The barrel caught water from the roof during storms.",
+        "Members used the stored water on dry afternoons instead of turning on the hose.",
+        "A soccer team practiced corner kicks after school."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A soccer team practiced corner kicks after school.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: The work showed that a science club collected and reused rainwater to care for plants.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The barrel caught water from the roof during storms.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: Members used the stored water on dry afternoons instead of turning on the hose.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 63,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0064",
+      "version": 1,
+      "contentHash": "sha256:cbfd8a69de1f868d2cb52b1d4dbede31cf9a249f02aa4fc8303bd28987c73f05",
+      "question": "Read the passage. Grade 3 developing passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey. These details show that student reporters gathered facts and published school news.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The class newspaper gave students a careful way to share school news.",
+        "One detail is that they interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The playground slide was painted blue over spring break.",
+        "The passage is mostly about a problem with class newspaper."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The class newspaper gave students a careful way to share school news.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "",
+          "Not: One detail is that they interviewed teachers, wrote short articles, and checked facts before printing.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The playground slide was painted blue over spring break.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with class newspaper.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 64,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0065",
+      "version": 1,
+      "contentHash": "sha256:a1af11b3c4e601093f8ae0afc294b0b3451ee6f35bd6658b39b9865d90456601",
+      "question": "Read the passage. Grade 3 developing passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash. These details show that families cleaned litter from the beach and encouraged visitors to keep it clean.\n\nWhich detail best supports this main idea: The cleanup protected the beach by removing harmful litter.",
+      "choices": [
+        "The town band played a concert in the park.",
+        "They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The passage never mentions beach cleanup.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The town band played a concert in the park.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The passage never mentions beach cleanup.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 65,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0066",
+      "version": 1,
+      "contentHash": "sha256:006fec4c0b091b0dc78b1d9a79d26bc5c6e3dde7858cddc61c316c9d7dd9e2dc",
+      "question": "Read the passage. Grade 3 developing passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors. These details show that a safety officer taught students important bike safety habits.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "She reminded riders to signal turns and watch for opening car doors.",
+        "She showed how helmets should sit flat and snug on a rider's head.",
+        "The school choir rehearsed a song about the moon.",
+        "The work showed that a safety officer taught students important bike safety habits."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The school choir rehearsed a song about the moon.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: She reminded riders to signal turns and watch for opening car doors.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: She showed how helmets should sit flat and snug on a rider's head.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: The work showed that a safety officer taught students important bike safety habits.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 66,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0067",
+      "version": 1,
+      "contentHash": "sha256:755fde187ac797e141c3af290070c2aad50959b52a43465bc30b4fba6bec00fa",
+      "question": "Read the passage. Grade 3 developing passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes. These details show that transportation planners improved bus service so people could reach useful places.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The passage is mostly about a problem with city buses.",
+        "One detail is that the new route stopped near the clinic, grocery store, and community center.",
+        "A bakery sold cinnamon rolls before sunrise.",
+        "New bus routes made important places easier to reach."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: New bus routes made important places easier to reach.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: The passage is mostly about a problem with city buses.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that the new route stopped near the clinic, grocery store, and community center.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: A bakery sold cinnamon rolls before sunrise.. The best answer states what the whole passage is mostly about, not just one detail.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 67,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0068",
+      "version": 1,
+      "contentHash": "sha256:f82ebf077ed636aee56788ad62252efedb9880219b3bc9dbc8683dfc439b3299",
+      "question": "Read the passage. Grade 3 developing passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began. These details show that actors and crew members cooperated to get a play ready.\n\nWhich detail best supports this main idea: Many students worked together to prepare the school play.",
+      "choices": [
+        "Actors practiced lines while stage crew members painted scenery and tested lights.",
+        "A math poster showed different kinds of triangles.",
+        "The passage never mentions school play.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Actors practiced lines while stage crew members painted scenery and tested lights.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "",
+          "Not: A math poster showed different kinds of triangles.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions school play.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 68,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0069",
+      "version": 1,
+      "contentHash": "sha256:7f255be39d34383afbd38454a764ffb874e380f95ad526e4f597b0b7ffa9df47",
+      "question": "Read the passage. Grade 3 developing passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds. These details show that cafeteria food scraps were collected and turned into compost for flowers.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "Fruit peels and vegetable ends went into a covered bin behind the cafeteria.",
+        "A new scoreboard was installed in the gym.",
+        "After several weeks, the dark compost was mixed into flower beds.",
+        "The work showed that cafeteria food scraps were collected and turned into compost for flowers."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A new scoreboard was installed in the gym.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: Fruit peels and vegetable ends went into a covered bin behind the cafeteria.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: After several weeks, the dark compost was mixed into flower beds.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that cafeteria food scraps were collected and turned into compost for flowers.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 69,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0070",
+      "version": 1,
+      "contentHash": "sha256:e81977d47e1891bc181f762c08136c03d0944b455adb24ed01b1419f16bc0084",
+      "question": "Read the passage. Grade 3 developing passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights. These details show that science students recorded weather measurements and used them to find patterns.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The music teacher tuned a violin before class.",
+        "One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "Students collected weather data to notice local patterns.",
+        "The passage is mostly about a problem with weather station."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students collected weather data to notice local patterns.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: The music teacher tuned a violin before class.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: The passage is mostly about a problem with weather station.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 70,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0071",
+      "version": 1,
+      "contentHash": "sha256:3a905a02359ec426a7114da3b7a6ab6a9cc7628a3ed92a6fdf0de2ebfdce7b3a",
+      "question": "Read the passage. Grade 3 developing passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper. These details show that a recycling team used bins and reminders to reduce paper waste.\n\nWhich detail best supports this main idea: The recycling team helped the school waste less paper.",
+      "choices": [
+        "The author gives an opinion without facts.",
+        "The nurse checked the first-aid supplies after lunch.",
+        "The passage never mentions recycling team.",
+        "They placed blue bins in classrooms and reminded students to use both sides of paper."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They placed blue bins in classrooms and reminded students to use both sides of paper.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The nurse checked the first-aid supplies after lunch.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions recycling team.. A supporting detail must come from the passage and help prove the main idea.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 71,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0072",
+      "version": 1,
+      "contentHash": "sha256:4945242302eb4dd8eeb0f24ef7766cd18ade212d923927fdd51f08488226db29",
+      "question": "Read the passage. Grade 3 developing passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories. These details show that museum workers created an exhibit that helped visitors learn local history.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "A rainstorm delayed the baseball game.",
+        "They displayed old tools, photographs, letters, and a map of the first town road.",
+        "Visitors could press buttons to hear recordings of elders telling memories.",
+        "The work showed that museum workers created an exhibit that helped visitors learn local history."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A rainstorm delayed the baseball game.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "",
+          "Not: They displayed old tools, photographs, letters, and a map of the first town road.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: Visitors could press buttons to hear recordings of elders telling memories.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that museum workers created an exhibit that helped visitors learn local history.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 72,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0073",
+      "version": 1,
+      "contentHash": "sha256:dc701d75c528dc6953a6fab9cc6c1d60c1a6fdacf1331c5aff1eb5df7ce44fe6",
+      "question": "Read the passage. Grade 3 developing passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course. These details show that club members tested a robot, changed its code, and used notes to improve it.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "One detail is that each time the robot missed a turn, members adjusted the code and tested again.",
+        "Testing and revising helped the robotics club improve its robot.",
+        "The principal announced picture day over the speaker.",
+        "The passage is mostly about a problem with robotics club."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Testing and revising helped the robotics club improve its robot.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: One detail is that each time the robot missed a turn, members adjusted the code and tested again.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: The principal announced picture day over the speaker.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with robotics club.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 73,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0074",
+      "version": 1,
+      "contentHash": "sha256:e355a84b4e0968c939af6beb4200b5734029e28ff225564645dd1345a48f8de9",
+      "question": "Read the passage. Grade 3 developing passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal. These details show that school leaders made breakfast easier for busy students to get.\n\nWhich detail best supports this main idea: The breakfast cart helped more students start the day with food.",
+      "choices": [
+        "The passage never mentions school breakfast.",
+        "The science lab received new magnifying glasses.",
+        "The cart offered fruit, yogurt, and whole-grain muffins near the front door.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The cart offered fruit, yogurt, and whole-grain muffins near the front door.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The passage never mentions school breakfast.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The science lab received new magnifying glasses.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 74,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0075",
+      "version": 1,
+      "contentHash": "sha256:935c1812e7b9e4f6e60ec6869067e7692e58550e15f7058db3577df08feb9380",
+      "question": "Read the passage. Grade 3 developing passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek. These details show that park rangers marked a trail so visitors could navigate and learn.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The work showed that park rangers marked a trail so visitors could navigate and learn.",
+        "They added arrows, distance signs, and small plaques naming common trees.",
+        "A new bench gave hikers a place to rest near the creek.",
+        "The post office closed early on Saturday."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The post office closed early on Saturday.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: The work showed that park rangers marked a trail so visitors could navigate and learn.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: They added arrows, distance signs, and small plaques naming common trees.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: A new bench gave hikers a place to rest near the creek.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 70,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 75,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0076",
+      "version": 1,
+      "contentHash": "sha256:992118938568dcb259da5365a05d14ca54e58c124940cfd259e6d161eb4b2969",
+      "question": "Read the passage. Grade 3 challenge passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong. Because the passage connects actions with results, readers can see why daily care helped the school garden grow well.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "Daily care helped the school garden grow well.",
+        "One detail is that students watered the seedlings each morning and recorded how tall they grew.",
+        "The art room displayed clay bowls near the window.",
+        "The passage is mostly about a problem with school garden."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Daily care helped the school garden grow well.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "",
+          "Not: One detail is that students watered the seedlings each morning and recorded how tall they grew.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The art room displayed clay bowls near the window.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with school garden.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 76,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0077",
+      "version": 1,
+      "contentHash": "sha256:f46a7be91b1700a24d5d34479f8c0d81095d5cb9c5749c168aa666973640150a",
+      "question": "Read the passage. Grade 3 challenge passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books. Because the passage connects actions with results, readers can see why student helpers organized the library so readers could find books faster.\n\nWhich detail best supports this main idea: Student helpers organized the library so readers could find books faster.",
+      "choices": [
+        "The cafeteria served tomato soup on Thursday.",
+        "They sorted returned books by call number before placing them on shelves.",
+        "The passage never mentions library helpers.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They sorted returned books by call number before placing them on shelves.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The cafeteria served tomato soup on Thursday.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The passage never mentions library helpers.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 77,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0078",
+      "version": 1,
+      "contentHash": "sha256:948eb1f8231f7970fdd7cb7886fc8229fdeb9c8604f8430279c5a032268a92b2",
+      "question": "Read the passage. Grade 3 challenge passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose. Because the passage connects actions with results, readers can see why a rain barrel helped the club save water for plants.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "Members used the stored water on dry afternoons instead of turning on the hose.",
+        "The barrel caught water from the roof during storms.",
+        "A soccer team practiced corner kicks after school.",
+        "The work showed that a science club collected and reused rainwater to care for plants."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A soccer team practiced corner kicks after school.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: Members used the stored water on dry afternoons instead of turning on the hose.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The barrel caught water from the roof during storms.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: The work showed that a science club collected and reused rainwater to care for plants.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 78,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0079",
+      "version": 1,
+      "contentHash": "sha256:857d5e33f5b5e9b743732415ebe21fced62fe2bb0cb44ef97741410e2ff014f2",
+      "question": "Read the passage. Grade 3 challenge passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey. Because the passage connects actions with results, readers can see why the class newspaper gave students a careful way to share school news.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The passage is mostly about a problem with class newspaper.",
+        "One detail is that they interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The playground slide was painted blue over spring break.",
+        "The class newspaper gave students a careful way to share school news."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The class newspaper gave students a careful way to share school news.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: The passage is mostly about a problem with class newspaper.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that they interviewed teachers, wrote short articles, and checked facts before printing.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The playground slide was painted blue over spring break.. The best answer states what the whole passage is mostly about, not just one detail.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 79,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0080",
+      "version": 1,
+      "contentHash": "sha256:0cb18d3fe89cc8b35a5475a9f0a81d1739d705a2c3d349887bc7f7828a3abea8",
+      "question": "Read the passage. Grade 3 challenge passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash. Because the passage connects actions with results, readers can see why the cleanup protected the beach by removing harmful litter.\n\nWhich detail best supports this main idea: The cleanup protected the beach by removing harmful litter.",
+      "choices": [
+        "They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.",
+        "The town band played a concert in the park.",
+        "The passage never mentions beach cleanup.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "",
+          "Not: The town band played a concert in the park.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions beach cleanup.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 80,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0081",
+      "version": 1,
+      "contentHash": "sha256:c0eed87e39e1e940c7b085cf5de0b8f6df29f1c8b101d3811d25d6e29a963fb4",
+      "question": "Read the passage. Grade 3 challenge passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors. Because the passage connects actions with results, readers can see why bike riders can prevent injuries by following safety rules.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "She showed how helmets should sit flat and snug on a rider's head.",
+        "The school choir rehearsed a song about the moon.",
+        "She reminded riders to signal turns and watch for opening car doors.",
+        "The work showed that a safety officer taught students important bike safety habits."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The school choir rehearsed a song about the moon.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: She showed how helmets should sit flat and snug on a rider's head.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: She reminded riders to signal turns and watch for opening car doors.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that a safety officer taught students important bike safety habits.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 81,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0082",
+      "version": 1,
+      "contentHash": "sha256:d6a4181851d09581caa5a1e9d28819dc9c11d6fbb2d258ce23fddd4d4608dfbe",
+      "question": "Read the passage. Grade 3 challenge passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes. Because the passage connects actions with results, readers can see why new bus routes made important places easier to reach.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "A bakery sold cinnamon rolls before sunrise.",
+        "One detail is that the new route stopped near the clinic, grocery store, and community center.",
+        "New bus routes made important places easier to reach.",
+        "The passage is mostly about a problem with city buses."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: New bus routes made important places easier to reach.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: A bakery sold cinnamon rolls before sunrise.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that the new route stopped near the clinic, grocery store, and community center.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: The passage is mostly about a problem with city buses.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 82,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0083",
+      "version": 1,
+      "contentHash": "sha256:0dc18281e1d0ba5c6bc161fa1e9e39f64f3260158992d385dfe02cf9caf3f4e2",
+      "question": "Read the passage. Grade 3 challenge passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began. Because the passage connects actions with results, readers can see why many students worked together to prepare the school play.\n\nWhich detail best supports this main idea: Many students worked together to prepare the school play.",
+      "choices": [
+        "The author gives an opinion without facts.",
+        "A math poster showed different kinds of triangles.",
+        "The passage never mentions school play.",
+        "Actors practiced lines while stage crew members painted scenery and tested lights."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Actors practiced lines while stage crew members painted scenery and tested lights.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: A math poster showed different kinds of triangles.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions school play.. A supporting detail must come from the passage and help prove the main idea.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 83,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0084",
+      "version": 1,
+      "contentHash": "sha256:185b90f8f62e26fcea4d48791a38cd97d2bfa79aead08426939fe80e870545fe",
+      "question": "Read the passage. Grade 3 challenge passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds. Because the passage connects actions with results, readers can see why composting changed cafeteria scraps into useful soil material.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "A new scoreboard was installed in the gym.",
+        "Fruit peels and vegetable ends went into a covered bin behind the cafeteria.",
+        "After several weeks, the dark compost was mixed into flower beds.",
+        "The work showed that cafeteria food scraps were collected and turned into compost for flowers."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A new scoreboard was installed in the gym.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "",
+          "Not: Fruit peels and vegetable ends went into a covered bin behind the cafeteria.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: After several weeks, the dark compost was mixed into flower beds.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that cafeteria food scraps were collected and turned into compost for flowers.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 84,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0085",
+      "version": 1,
+      "contentHash": "sha256:2c83f950f276250d231368cd9fd8348cd18668d82eb06725466dfc18e2cde2ff",
+      "question": "Read the passage. Grade 3 challenge passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights. Because the passage connects actions with results, readers can see why students collected weather data to notice local patterns.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "Students collected weather data to notice local patterns.",
+        "The music teacher tuned a violin before class.",
+        "The passage is mostly about a problem with weather station."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students collected weather data to notice local patterns.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: The music teacher tuned a violin before class.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with weather station.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 85,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0086",
+      "version": 1,
+      "contentHash": "sha256:131a4891912bd59bffb7417c9fbb2169631f196706a8cddc1ab6f721d103bf4e",
+      "question": "Read the passage. Grade 3 challenge passage: A recycling team reduced paper waste at school. They placed blue bins in classrooms and reminded students to use both sides of paper. By winter break, the school ordered fewer boxes of printer paper. Because the passage connects actions with results, readers can see why the recycling team helped the school waste less paper.\n\nWhich detail best supports this main idea: The recycling team helped the school waste less paper.",
+      "choices": [
+        "The passage never mentions recycling team.",
+        "The nurse checked the first-aid supplies after lunch.",
+        "They placed blue bins in classrooms and reminded students to use both sides of paper.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They placed blue bins in classrooms and reminded students to use both sides of paper.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The passage never mentions recycling team.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The nurse checked the first-aid supplies after lunch.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 86,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0087",
+      "version": 1,
+      "contentHash": "sha256:d4d87561acb081005c63853648f4a3bd45d309f6777c2e4a85b5011ca4a0a852",
+      "question": "Read the passage. Grade 3 challenge passage: Museum workers built an exhibit about local history. They displayed old tools, photographs, letters, and a map of the first town road. Visitors could press buttons to hear recordings of elders telling memories. Because the passage connects actions with results, readers can see why the exhibit used artifacts and voices to teach local history.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The work showed that museum workers created an exhibit that helped visitors learn local history.",
+        "They displayed old tools, photographs, letters, and a map of the first town road.",
+        "Visitors could press buttons to hear recordings of elders telling memories.",
+        "A rainstorm delayed the baseball game."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A rainstorm delayed the baseball game.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: The work showed that museum workers created an exhibit that helped visitors learn local history.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: They displayed old tools, photographs, letters, and a map of the first town road.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: Visitors could press buttons to hear recordings of elders telling memories.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 87,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0088",
+      "version": 1,
+      "contentHash": "sha256:e460bd57464a01bee227bbee012333f83e96ca5bc5d2e7648c7e03da3cc40eac",
+      "question": "Read the passage. Grade 3 challenge passage: Club members improved a robot through testing. Each time the robot missed a turn, members adjusted the code and tested again. They kept notes about which wheel speed worked best on the course. Because the passage connects actions with results, readers can see why testing and revising helped the robotics club improve its robot.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "Testing and revising helped the robotics club improve its robot.",
+        "One detail is that each time the robot missed a turn, members adjusted the code and tested again.",
+        "The principal announced picture day over the speaker.",
+        "The passage is mostly about a problem with robotics club."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Testing and revising helped the robotics club improve its robot.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "",
+          "Not: One detail is that each time the robot missed a turn, members adjusted the code and tested again.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The principal announced picture day over the speaker.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with robotics club.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 88,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0089",
+      "version": 1,
+      "contentHash": "sha256:b7370af1326bf7b289b38deef565c8f324c9de4a0e93e186103c6f817f649009",
+      "question": "Read the passage. Grade 3 challenge passage: School leaders started a breakfast cart. The cart offered fruit, yogurt, and whole-grain muffins near the front door. Students who arrived close to the bell could still choose a quick meal. Because the passage connects actions with results, readers can see why the breakfast cart helped more students start the day with food.\n\nWhich detail best supports this main idea: The breakfast cart helped more students start the day with food.",
+      "choices": [
+        "The science lab received new magnifying glasses.",
+        "The cart offered fruit, yogurt, and whole-grain muffins near the front door.",
+        "The passage never mentions school breakfast.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The cart offered fruit, yogurt, and whole-grain muffins near the front door.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The science lab received new magnifying glasses.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The passage never mentions school breakfast.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 89,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0090",
+      "version": 1,
+      "contentHash": "sha256:05af583e7b69d16b8bd25ae54330ce46cd900b95296be7736732a16c0ccb969e",
+      "question": "Read the passage. Grade 3 challenge passage: Park rangers marked a trail for visitors. They added arrows, distance signs, and small plaques naming common trees. A new bench gave hikers a place to rest near the creek. Because the passage connects actions with results, readers can see why trail signs helped visitors move safely and learn about nature.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "A new bench gave hikers a place to rest near the creek.",
+        "They added arrows, distance signs, and small plaques naming common trees.",
+        "The post office closed early on Saturday.",
+        "The work showed that park rangers marked a trail so visitors could navigate and learn."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The post office closed early on Saturday.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: A new bench gave hikers a place to rest near the creek.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: They added arrows, distance signs, and small plaques naming common trees.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: The work showed that park rangers marked a trail so visitors could navigate and learn.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 90,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 90,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0091",
+      "version": 1,
+      "contentHash": "sha256:ad43758edb5592b4cd661f79e8b8c1cc26cfbd1cb1f408ed580f36cca4b99fa0",
+      "question": "Read the passage. Grade 4 foundation passage: A class kept a school garden healthy. Students watered the seedlings each morning and recorded how tall they grew. They also moved the shade cloth when the afternoon sun became too strong.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The passage is mostly about a problem with school garden.",
+        "One detail is that students watered the seedlings each morning and recorded how tall they grew.",
+        "The art room displayed clay bowls near the window.",
+        "Daily care helped the school garden grow well."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Daily care helped the school garden grow well.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: The passage is mostly about a problem with school garden.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that students watered the seedlings each morning and recorded how tall they grew.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The art room displayed clay bowls near the window.. The best answer states what the whole passage is mostly about, not just one detail.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 91,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0092",
+      "version": 1,
+      "contentHash": "sha256:576400404d072cf71b828bd002f28a7d2669762d316f318c83d741d58ab74270",
+      "question": "Read the passage. Grade 4 foundation passage: Student volunteers made the library easier to use. They sorted returned books by call number before placing them on shelves. They made bright shelf labels for mystery, science, and biography books.\n\nWhich detail best supports this main idea: Student helpers organized the library so readers could find books faster.",
+      "choices": [
+        "They sorted returned books by call number before placing them on shelves.",
+        "The cafeteria served tomato soup on Thursday.",
+        "The passage never mentions library helpers.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They sorted returned books by call number before placing them on shelves.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "",
+          "Not: The cafeteria served tomato soup on Thursday.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions library helpers.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 92,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0093",
+      "version": 1,
+      "contentHash": "sha256:c6dff9cb2e3269c6eed0b3d80a8ff18491c5f0a5976ed387e2c7d9919a0b8e84",
+      "question": "Read the passage. Grade 4 foundation passage: A science club collected rainwater for outdoor plants. The barrel caught water from the roof during storms. Members used the stored water on dry afternoons instead of turning on the hose.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The barrel caught water from the roof during storms.",
+        "A soccer team practiced corner kicks after school.",
+        "Members used the stored water on dry afternoons instead of turning on the hose.",
+        "The work showed that a science club collected and reused rainwater to care for plants."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A soccer team practiced corner kicks after school.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: The barrel caught water from the roof during storms.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "",
+          "Not: Members used the stored water on dry afternoons instead of turning on the hose.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that a science club collected and reused rainwater to care for plants.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 93,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0094",
+      "version": 1,
+      "contentHash": "sha256:98f8b548fae74f8db3bf1613ce712d12732e02e869102d16b702dd0c9dbf145a",
+      "question": "Read the passage. Grade 4 foundation passage: Young reporters created a newspaper for their school. They interviewed teachers, wrote short articles, and checked facts before printing. The first issue included a sports column, a book review, and a lunch survey.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "The playground slide was painted blue over spring break.",
+        "One detail is that they interviewed teachers, wrote short articles, and checked facts before printing.",
+        "The class newspaper gave students a careful way to share school news.",
+        "The passage is mostly about a problem with class newspaper."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The class newspaper gave students a careful way to share school news.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: The playground slide was painted blue over spring break.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: One detail is that they interviewed teachers, wrote short articles, and checked facts before printing.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: The passage is mostly about a problem with class newspaper.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 94,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0095",
+      "version": 1,
+      "contentHash": "sha256:75cf015cd5733254bbef0b1b4ac6f7e133628717ee95e164670b0c52d1b2eaf4",
+      "question": "Read the passage. Grade 4 foundation passage: Families removed litter from the beach. They filled ten bags with plastic wrappers, bottle caps, and broken fishing line. Afterward, volunteers posted signs reminding visitors to pack out trash.\n\nWhich detail best supports this main idea: The cleanup protected the beach by removing harmful litter.",
+      "choices": [
+        "The author gives an opinion without facts.",
+        "The town band played a concert in the park.",
+        "The passage never mentions beach cleanup.",
+        "They filled ten bags with plastic wrappers, bottle caps, and broken fishing line."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: They filled ten bags with plastic wrappers, bottle caps, and broken fishing line.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The town band played a concert in the park.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: The passage never mentions beach cleanup.. A supporting detail must come from the passage and help prove the main idea.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 95,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0096",
+      "version": 1,
+      "contentHash": "sha256:a9cd6b0647d4b3cd4664ed19ed09c8619bf08f97aaf629125b4e7ebf5616baa1",
+      "question": "Read the passage. Grade 4 foundation passage: A safety officer taught students how to ride bikes safely. She showed how helmets should sit flat and snug on a rider's head. She reminded riders to signal turns and watch for opening car doors.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The school choir rehearsed a song about the moon.",
+        "She showed how helmets should sit flat and snug on a rider's head.",
+        "She reminded riders to signal turns and watch for opening car doors.",
+        "The work showed that a safety officer taught students important bike safety habits."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: The school choir rehearsed a song about the moon.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "",
+          "Not: She showed how helmets should sit flat and snug on a rider's head.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: She reminded riders to signal turns and watch for opening car doors.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: The work showed that a safety officer taught students important bike safety habits.. A detail that does not connect to the main idea does not belong in the paragraph."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 96,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0097",
+      "version": 1,
+      "contentHash": "sha256:620775dd969c6f7b63e99ce24914600bcd4457656bd20ce914f34ac64365463e",
+      "question": "Read the passage. Grade 4 foundation passage: Transportation planners added bus routes near busy neighborhoods. The new route stopped near the clinic, grocery store, and community center. Riders waited less time because buses arrived every fifteen minutes.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "One detail is that the new route stopped near the clinic, grocery store, and community center.",
+        "New bus routes made important places easier to reach.",
+        "A bakery sold cinnamon rolls before sunrise.",
+        "The passage is mostly about a problem with city buses."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: New bus routes made important places easier to reach.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "Not: One detail is that the new route stopped near the clinic, grocery store, and community center.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "",
+          "Not: A bakery sold cinnamon rolls before sunrise.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with city buses.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 97,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0098",
+      "version": 1,
+      "contentHash": "sha256:8f3724fdb4b34f0ca69903f32e894a43dcab62189c88fbde6c82627d9f8e7b29",
+      "question": "Read the passage. Grade 4 foundation passage: Cast members prepared a play through teamwork. Actors practiced lines while stage crew members painted scenery and tested lights. When a curtain rope tangled, two students fixed it before rehearsal began.\n\nWhich detail best supports this main idea: Many students worked together to prepare the school play.",
+      "choices": [
+        "The passage never mentions school play.",
+        "A math poster showed different kinds of triangles.",
+        "Actors practiced lines while stage crew members painted scenery and tested lights.",
+        "The author gives an opinion without facts."
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Actors practiced lines while stage crew members painted scenery and tested lights.. A supporting detail must come from the passage and help prove the main idea.",
+        "incorrect": [
+          "Not: The passage never mentions school play.. A supporting detail must come from the passage and help prove the main idea.",
+          "Not: A math poster showed different kinds of triangles.. A supporting detail must come from the passage and help prove the main idea.",
+          "",
+          "Not: The author gives an opinion without facts.. A supporting detail must come from the passage and help prove the main idea."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 98,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0099",
+      "version": 1,
+      "contentHash": "sha256:0f6b6e95859fd83e631a8122ac6b7ee0a806c6b2390588048ed3d9932726161c",
+      "question": "Read the passage. Grade 4 foundation passage: Cafeteria workers turned food scraps into compost. Fruit peels and vegetable ends went into a covered bin behind the cafeteria. After several weeks, the dark compost was mixed into flower beds.\n\nWhich sentence would NOT belong in a paragraph with this same main idea?",
+      "choices": [
+        "The work showed that cafeteria food scraps were collected and turned into compost for flowers.",
+        "Fruit peels and vegetable ends went into a covered bin behind the cafeteria.",
+        "After several weeks, the dark compost was mixed into flower beds.",
+        "A new scoreboard was installed in the gym."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: A new scoreboard was installed in the gym.. A detail that does not connect to the main idea does not belong in the paragraph.",
+        "incorrect": [
+          "Not: The work showed that cafeteria food scraps were collected and turned into compost for flowers.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: Fruit peels and vegetable ends went into a covered bin behind the cafeteria.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          "Not: After several weeks, the dark compost was mixed into flower beds.. A detail that does not connect to the main idea does not belong in the paragraph.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 99,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    },
+    {
+      "id": "reading-comprehension-main-idea-supporting-details-q0100",
+      "version": 1,
+      "contentHash": "sha256:eb70c1b941acec467a27706f2df44265700e53859f7fdd3a996ab9374a622e3c",
+      "question": "Read the passage. Grade 4 foundation passage: Science students tracked local weather patterns. They measured rainfall, wind direction, temperature, and cloud cover every day. Their chart showed that cool mornings often followed clear nights.\n\nWhat is the main idea of the passage?",
+      "choices": [
+        "Students collected weather data to notice local patterns.",
+        "One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.",
+        "The music teacher tuned a violin before class.",
+        "The passage is mostly about a problem with weather station."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "A main idea tells what a whole passage is mostly about. Supporting details explain or prove that idea.",
+        "example": "If a passage explains how a rain barrel saves water, details about collecting and reusing rainwater support the main idea.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: Students collected weather data to notice local patterns.. The best answer states what the whole passage is mostly about, not just one detail.",
+        "incorrect": [
+          "",
+          "Not: One detail is that they measured rainfall, wind direction, temperature, and cloud cover every day.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The music teacher tuned a violin before class.. The best answer states what the whole passage is mostly about, not just one detail.",
+          "Not: The passage is mostly about a problem with weather station.. The best answer states what the whole passage is mostly about, not just one detail."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "main idea",
+          "supporting details",
+          "informational reading"
+        ],
+        "standards": [
+          "RI.2-6.2"
+        ],
+        "feedbackFocus": "read the whole prompt, find the exact evidence, and choose the answer that best matches the full text",
+        "estimatedTimeSeconds": 50,
+        "reviewPriority": "high",
+        "sourceSet": "reading-comprehension-main-idea-supporting-details",
+        "sequence": 100,
+        "skillIds": [
+          "reading-comprehension.comprehension"
+        ],
+        "standardIds": [
+          "RI.2-6.2",
+          "RI/RL.2-6.1",
+          "RI/RL.2-6.2"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["reading-comprehension-main-idea-supporting-details"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["reading-comprehension-main-idea-supporting-details"] = chunkSet;
+  }
+})();

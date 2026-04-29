@@ -56,6 +56,7 @@
   };
 
   let preferredSpeechVoice = null;
+  let speechSequenceTimer = null;
 
   const patternInfo = {
     "tricky-sight": {
@@ -1139,32 +1140,39 @@
 
   function speakWordSlowly(word) {
     if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
+    cancelSpeechPlayback();
 
     const pronunciation = getPronunciationProfile(word);
     const syllables = pronunciation.slow;
     const stressIndex = getPrimaryStressIndex(word, syllables, pronunciation.stressIndex);
+    const profile = getSpeechPlaybackProfile();
     const utterances = [
-      createUtterance(pronunciation.speech, { rate: 0.56, pitch: 1.02 })
+      createUtterance(createWordPlaybackText(pronunciation.speech), {
+        rate: profile.slowWordRate,
+        pitch: 1.02
+      })
     ];
 
     if (syllables.length > 1) {
       syllables.forEach((syllable, index) => {
         utterances.push(createUtterance(syllable, {
-          rate: 0.5,
+          rate: profile.syllableRate,
           pitch: index === stressIndex ? 1.12 : 0.98,
           volume: index === stressIndex ? 1 : 0.82
         }));
       });
-      utterances.push(createUtterance(pronunciation.speech, { rate: 0.62, pitch: 1.04 }));
+      utterances.push(createUtterance(pronunciation.speech, {
+        rate: profile.repeatRate,
+        pitch: 1.04
+      }));
     }
 
-    utterances.forEach(utterance => window.speechSynthesis.speak(utterance));
+    speakUtteranceSequence(utterances, profile.syllableGapMs);
   }
 
   function speakWord(word, options = {}) {
     const pronunciation = getPronunciationProfile(word);
-    speakText(pronunciation.speech, options);
+    speakText(createWordPlaybackText(pronunciation.speech), options);
   }
 
   function getPronunciationProfile(word) {
@@ -1206,7 +1214,7 @@
 
   function speakText(text, options = {}) {
     if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
+    cancelSpeechPlayback();
     const utterance = createUtterance(text, options);
     window.speechSynthesis.speak(utterance);
   }
@@ -1215,11 +1223,67 @@
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
     const voice = getPreferredSpeechVoice();
+    const profile = getSpeechPlaybackProfile();
     if (voice) utterance.voice = voice;
-    utterance.rate = options.rate || 0.78;
-    utterance.pitch = options.pitch || 1.04;
-    utterance.volume = options.volume || 1;
+    utterance.rate = options.rate ?? profile.wordRate;
+    utterance.pitch = options.pitch ?? profile.pitch;
+    utterance.volume = options.volume ?? 1;
     return utterance;
+  }
+
+  function createWordPlaybackText(text) {
+    const word = String(text || '').trim();
+    return word ? `Listen. ${word}. ${word}.` : '';
+  }
+
+  function cancelSpeechPlayback() {
+    if (speechSequenceTimer) {
+      window.clearTimeout(speechSequenceTimer);
+      speechSequenceTimer = null;
+    }
+    window.speechSynthesis.cancel();
+  }
+
+  function speakUtteranceSequence(utterances, gapMs) {
+    let index = 0;
+    const playNext = () => {
+      if (index >= utterances.length) return;
+      const utterance = utterances[index];
+      index += 1;
+      let settled = false;
+      const queueNext = () => {
+        if (settled) return;
+        settled = true;
+        speechSequenceTimer = window.setTimeout(playNext, gapMs);
+      };
+      utterance.onend = queueNext;
+      utterance.onerror = queueNext;
+      window.speechSynthesis.speak(utterance);
+      const fallbackMs = Math.max(900, Math.min(2400, String(utterance.text || '').length * 95));
+      speechSequenceTimer = window.setTimeout(queueNext, fallbackMs);
+    };
+    playNext();
+  }
+
+  function getSpeechPlaybackProfile() {
+    const mobileSafari = isMobileSafari();
+    return {
+      wordRate: mobileSafari ? 0.84 : 0.78,
+      slowWordRate: mobileSafari ? 0.72 : 0.62,
+      syllableRate: mobileSafari ? 0.68 : 0.58,
+      repeatRate: mobileSafari ? 0.76 : 0.68,
+      syllableGapMs: mobileSafari ? 360 : 240,
+      pitch: mobileSafari ? 1 : 1.04
+    };
+  }
+
+  function isMobileSafari() {
+    const userAgent = navigator.userAgent || '';
+    const vendor = navigator.vendor || '';
+    const isiOS = /iPad|iPhone|iPod/.test(userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    const isWebKit = /Apple/.test(vendor) && /Safari/i.test(userAgent);
+    const isOtherIOSBrowser = /CriOS|FxiOS|EdgiOS|OPiOS/i.test(userAgent);
+    return isiOS && isWebKit && !isOtherIOSBrowser;
   }
 
   function prepareSpeechVoices() {
@@ -1254,8 +1318,9 @@
     if (lang === 'en-us') score += 80;
     else if (lang.startsWith('en-us')) score += 70;
     else if (lang.startsWith('en')) score += 35;
+    if (voice.localService) score += 8;
     if (voice.default) score += 5;
-    if (/samantha|ava|allison|zoe|karen|moira|tessa|victoria|google us english|microsoft (aria|jenny|guy)|natural|premium|enhanced/.test(name)) score += 20;
+    if (/samantha|alex|ava|allison|zoe|karen|moira|tessa|victoria|nicky|eddy|reed|shelley|siri|google us english|microsoft (aria|jenny|guy)|natural|premium|enhanced/.test(name)) score += 20;
     if (/compact|novelty|whisper|zarvox|bells|boing|bubbles|cellos|deranged|hysterical|trinoids/.test(name)) score -= 80;
     return score;
   }

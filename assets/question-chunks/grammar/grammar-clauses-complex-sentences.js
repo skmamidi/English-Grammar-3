@@ -60,7 +60,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -112,7 +119,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -164,7 +178,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -216,7 +237,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -268,7 +296,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -320,7 +355,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -372,7 +414,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -424,7 +473,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -476,7 +532,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -528,7 +591,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -580,7 +650,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -632,7 +709,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -684,7 +768,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -736,7 +827,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -788,7 +886,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -840,7 +945,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -892,7 +1004,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -944,7 +1063,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -996,7 +1122,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1048,7 +1181,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1100,7 +1240,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1152,7 +1299,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1204,7 +1358,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1256,7 +1417,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1308,7 +1476,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1360,7 +1535,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1412,7 +1594,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1464,7 +1653,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1516,7 +1712,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1568,7 +1771,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1620,7 +1830,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1672,7 +1889,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1724,7 +1948,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1776,7 +2007,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1828,7 +2066,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1880,7 +2125,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1932,7 +2184,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -1984,7 +2243,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2036,7 +2302,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2088,7 +2361,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2140,7 +2420,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2192,7 +2479,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2244,7 +2538,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 43
+          "sequence": 43,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2296,7 +2597,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2348,7 +2656,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2400,7 +2715,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 46
+          "sequence": 46,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2452,7 +2774,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 47
+          "sequence": 47,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2504,7 +2833,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2556,7 +2892,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2608,7 +2951,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2660,7 +3010,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2712,7 +3069,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2764,7 +3128,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 53
+          "sequence": 53,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2816,7 +3187,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2868,7 +3246,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2920,7 +3305,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -2972,7 +3364,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 57
+          "sequence": 57,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3024,7 +3423,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 58
+          "sequence": 58,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3076,7 +3482,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3128,7 +3541,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 60
+          "sequence": 60,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3180,7 +3600,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 61
+          "sequence": 61,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3232,7 +3659,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 62
+          "sequence": 62,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3284,7 +3718,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 63
+          "sequence": 63,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3336,7 +3777,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 64
+          "sequence": 64,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3388,7 +3836,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 65
+          "sequence": 65,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3440,7 +3895,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 66
+          "sequence": 66,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3492,7 +3954,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 67
+          "sequence": 67,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3544,7 +4013,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 68
+          "sequence": 68,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3596,7 +4072,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 69
+          "sequence": 69,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3648,7 +4131,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 70
+          "sequence": 70,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3700,7 +4190,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 71
+          "sequence": 71,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3752,7 +4249,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 72
+          "sequence": 72,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3804,7 +4308,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 73
+          "sequence": 73,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3856,7 +4367,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 74
+          "sequence": 74,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3908,7 +4426,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 75
+          "sequence": 75,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -3960,7 +4485,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 76
+          "sequence": 76,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4012,7 +4544,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 77
+          "sequence": 77,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4064,7 +4603,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 78
+          "sequence": 78,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4116,7 +4662,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 79
+          "sequence": 79,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4168,7 +4721,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 80
+          "sequence": 80,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4220,7 +4780,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 81
+          "sequence": 81,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4272,7 +4839,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4324,7 +4898,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 83
+          "sequence": 83,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4376,7 +4957,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 84
+          "sequence": 84,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4428,7 +5016,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 85
+          "sequence": 85,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4480,7 +5075,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 86
+          "sequence": 86,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4532,7 +5134,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 87
+          "sequence": 87,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4584,7 +5193,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 88
+          "sequence": 88,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4636,7 +5252,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 89
+          "sequence": 89,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4688,7 +5311,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 90
+          "sequence": 90,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4740,7 +5370,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 91
+          "sequence": 91,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4792,7 +5429,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 92
+          "sequence": 92,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4844,7 +5488,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 93
+          "sequence": 93,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4896,7 +5547,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 94
+          "sequence": 94,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -4948,7 +5606,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 95
+          "sequence": 95,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5000,7 +5665,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 96
+          "sequence": 96,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5052,7 +5724,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 97
+          "sequence": 97,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5104,7 +5783,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 98
+          "sequence": 98,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5156,7 +5842,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 99
+          "sequence": 99,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5208,7 +5901,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 100
+          "sequence": 100,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5260,7 +5960,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5312,7 +6019,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 102
+          "sequence": 102,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5364,7 +6078,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 103
+          "sequence": 103,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5416,7 +6137,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 104
+          "sequence": 104,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5468,7 +6196,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 105
+          "sequence": 105,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5520,7 +6255,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 106
+          "sequence": 106,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5572,7 +6314,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 107
+          "sequence": 107,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5624,7 +6373,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 108
+          "sequence": 108,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5676,7 +6432,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 109
+          "sequence": 109,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5728,7 +6491,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 110
+          "sequence": 110,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5780,7 +6550,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 111
+          "sequence": 111,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5832,7 +6609,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 112
+          "sequence": 112,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5884,7 +6668,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 113
+          "sequence": 113,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5936,7 +6727,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 114
+          "sequence": 114,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -5988,7 +6786,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 115
+          "sequence": 115,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6040,7 +6845,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 116
+          "sequence": 116,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6092,7 +6904,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 117
+          "sequence": 117,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6144,7 +6963,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 118
+          "sequence": 118,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6196,7 +7022,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 119
+          "sequence": 119,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6248,7 +7081,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 120
+          "sequence": 120,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6300,7 +7140,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 121
+          "sequence": 121,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6352,7 +7199,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 122
+          "sequence": 122,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6404,7 +7258,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 123
+          "sequence": 123,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6456,7 +7317,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 124
+          "sequence": 124,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6508,7 +7376,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 125
+          "sequence": 125,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6560,7 +7435,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 126
+          "sequence": 126,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6612,7 +7494,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 127
+          "sequence": 127,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6664,7 +7553,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 128
+          "sequence": 128,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6716,7 +7612,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 129
+          "sequence": 129,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6768,7 +7671,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 130
+          "sequence": 130,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6820,7 +7730,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 131
+          "sequence": 131,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6872,7 +7789,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 132
+          "sequence": 132,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6924,7 +7848,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 133
+          "sequence": 133,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -6976,7 +7907,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 134
+          "sequence": 134,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7028,7 +7966,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 135
+          "sequence": 135,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7080,7 +8025,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 136
+          "sequence": 136,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7132,7 +8084,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 137
+          "sequence": 137,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7184,7 +8143,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 138
+          "sequence": 138,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7236,7 +8202,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 139
+          "sequence": 139,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7288,7 +8261,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 140
+          "sequence": 140,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7340,7 +8320,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 141
+          "sequence": 141,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7392,7 +8379,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 142
+          "sequence": 142,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7444,7 +8438,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 143
+          "sequence": 143,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7496,7 +8497,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 144
+          "sequence": 144,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7548,7 +8556,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 145
+          "sequence": 145,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7600,7 +8615,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 146
+          "sequence": 146,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7652,7 +8674,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 147
+          "sequence": 147,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7704,7 +8733,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 148
+          "sequence": 148,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7756,7 +8792,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 149
+          "sequence": 149,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7808,7 +8851,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 150
+          "sequence": 150,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7860,7 +8910,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 151
+          "sequence": 151,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7912,7 +8969,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 152
+          "sequence": 152,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -7964,7 +9028,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 153
+          "sequence": 153,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8016,7 +9087,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 154
+          "sequence": 154,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8068,7 +9146,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 155
+          "sequence": 155,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8120,7 +9205,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 156
+          "sequence": 156,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8172,7 +9264,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 157
+          "sequence": 157,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8224,7 +9323,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 158
+          "sequence": 158,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8276,7 +9382,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 159
+          "sequence": 159,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8328,7 +9441,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 160
+          "sequence": 160,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8380,7 +9500,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 161
+          "sequence": 161,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8432,7 +9559,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 162
+          "sequence": 162,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8484,7 +9618,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 163
+          "sequence": 163,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8536,7 +9677,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 164
+          "sequence": 164,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8588,7 +9736,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 165
+          "sequence": 165,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8640,7 +9795,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 166
+          "sequence": 166,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8692,7 +9854,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 167
+          "sequence": 167,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8744,7 +9913,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 168
+          "sequence": 168,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8796,7 +9972,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 169
+          "sequence": 169,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8848,7 +10031,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 170
+          "sequence": 170,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8900,7 +10090,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 171
+          "sequence": 171,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -8952,7 +10149,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 172
+          "sequence": 172,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9004,7 +10208,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 173
+          "sequence": 173,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9056,7 +10267,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 174
+          "sequence": 174,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9108,7 +10326,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 175
+          "sequence": 175,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9160,7 +10385,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 176
+          "sequence": 176,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9212,7 +10444,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 177
+          "sequence": 177,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9264,7 +10503,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 178
+          "sequence": 178,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9316,7 +10562,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 179
+          "sequence": 179,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9368,7 +10621,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "grammar-clauses-complex-sentences",
-          "sequence": 180
+          "sequence": 180,
+          "skillIds": [
+            "grammar.sentence-analysis"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "L.4-6.1"
+          ]
         }
       },
       {
@@ -9426,6 +10686,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -9484,6 +10751,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -9542,6 +10816,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       },
@@ -9600,6 +10881,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
           ]
         }
       }

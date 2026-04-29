@@ -62,7 +62,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -116,7 +123,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -170,7 +184,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -224,7 +245,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -278,7 +306,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -332,7 +367,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -386,7 +428,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -440,7 +489,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -494,7 +550,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -548,7 +611,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -602,7 +672,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -656,7 +733,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -710,7 +794,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -764,7 +855,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -818,7 +916,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -872,7 +977,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -926,7 +1038,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -980,7 +1099,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1034,7 +1160,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1088,7 +1221,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1142,7 +1282,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1196,7 +1343,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1250,7 +1404,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1304,7 +1465,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1358,7 +1526,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1412,7 +1587,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1466,7 +1648,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1520,7 +1709,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1574,7 +1770,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1628,7 +1831,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1682,7 +1892,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1736,7 +1953,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1790,7 +2014,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1844,7 +2075,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1898,7 +2136,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1952,7 +2197,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2006,7 +2258,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2060,7 +2319,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2114,7 +2380,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2168,7 +2441,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2222,7 +2502,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2276,7 +2563,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2330,7 +2624,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 43
+          "sequence": 43,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2384,7 +2685,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2438,7 +2746,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2492,7 +2807,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 46
+          "sequence": 46,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2546,7 +2868,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 47
+          "sequence": 47,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2600,7 +2929,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2654,7 +2990,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2708,7 +3051,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2762,7 +3112,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2816,7 +3173,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2870,7 +3234,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 53
+          "sequence": 53,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2924,7 +3295,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2978,7 +3356,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3032,7 +3417,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3086,7 +3478,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 57
+          "sequence": 57,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3140,7 +3539,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 58
+          "sequence": 58,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3194,7 +3600,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3248,7 +3661,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 60
+          "sequence": 60,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3302,7 +3722,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 61
+          "sequence": 61,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3356,7 +3783,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 62
+          "sequence": 62,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3410,7 +3844,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 63
+          "sequence": 63,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3464,7 +3905,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 64
+          "sequence": 64,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3518,7 +3966,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 65
+          "sequence": 65,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3572,7 +4027,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 66
+          "sequence": 66,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3626,7 +4088,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 67
+          "sequence": 67,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3680,7 +4149,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 68
+          "sequence": 68,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3734,7 +4210,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 69
+          "sequence": 69,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3788,7 +4271,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 70
+          "sequence": 70,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3842,7 +4332,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 71
+          "sequence": 71,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3896,7 +4393,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 72
+          "sequence": 72,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3950,7 +4454,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 73
+          "sequence": 73,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4004,7 +4515,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 74
+          "sequence": 74,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4058,7 +4576,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 75
+          "sequence": 75,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4112,7 +4637,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 76
+          "sequence": 76,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4166,7 +4698,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 77
+          "sequence": 77,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4220,7 +4759,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 78
+          "sequence": 78,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4274,7 +4820,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 79
+          "sequence": 79,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4328,7 +4881,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 80
+          "sequence": 80,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4382,7 +4942,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 81
+          "sequence": 81,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4436,7 +5003,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4490,7 +5064,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 83
+          "sequence": 83,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4544,7 +5125,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 84
+          "sequence": 84,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4598,7 +5186,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 85
+          "sequence": 85,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4652,7 +5247,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 86
+          "sequence": 86,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4706,7 +5308,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 87
+          "sequence": 87,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4760,7 +5369,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 88
+          "sequence": 88,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4814,7 +5430,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 89
+          "sequence": 89,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4868,7 +5491,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 90
+          "sequence": 90,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4922,7 +5552,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 91
+          "sequence": 91,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -4976,7 +5613,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 92
+          "sequence": 92,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5030,7 +5674,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 93
+          "sequence": 93,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5084,7 +5735,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 94
+          "sequence": 94,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5138,7 +5796,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 95
+          "sequence": 95,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5192,7 +5857,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 96
+          "sequence": 96,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5246,7 +5918,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 97
+          "sequence": 97,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5300,7 +5979,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 98
+          "sequence": 98,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5354,7 +6040,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 99
+          "sequence": 99,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5408,7 +6101,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 100
+          "sequence": 100,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5462,7 +6162,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5516,7 +6223,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 102
+          "sequence": 102,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5570,7 +6284,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 103
+          "sequence": 103,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5624,7 +6345,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 104
+          "sequence": 104,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5678,7 +6406,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 105
+          "sequence": 105,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5732,7 +6467,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 106
+          "sequence": 106,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5786,7 +6528,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 107
+          "sequence": 107,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5840,7 +6589,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 108
+          "sequence": 108,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5894,7 +6650,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 109
+          "sequence": 109,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -5948,7 +6711,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 110
+          "sequence": 110,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6002,7 +6772,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 111
+          "sequence": 111,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6056,7 +6833,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 112
+          "sequence": 112,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6110,7 +6894,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 113
+          "sequence": 113,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6164,7 +6955,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 114
+          "sequence": 114,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6218,7 +7016,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 115
+          "sequence": 115,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6272,7 +7077,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 116
+          "sequence": 116,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6326,7 +7138,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 117
+          "sequence": 117,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6380,7 +7199,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 118
+          "sequence": 118,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6434,7 +7260,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 119
+          "sequence": 119,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6488,7 +7321,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 120
+          "sequence": 120,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6542,7 +7382,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 121
+          "sequence": 121,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6596,7 +7443,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 122
+          "sequence": 122,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6650,7 +7504,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 123
+          "sequence": 123,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6704,7 +7565,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 124
+          "sequence": 124,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6758,7 +7626,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 125
+          "sequence": 125,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6812,7 +7687,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 126
+          "sequence": 126,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6866,7 +7748,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 127
+          "sequence": 127,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6920,7 +7809,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 128
+          "sequence": 128,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -6974,7 +7870,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 129
+          "sequence": 129,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7028,7 +7931,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 130
+          "sequence": 130,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7082,7 +7992,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 131
+          "sequence": 131,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7136,7 +8053,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 132
+          "sequence": 132,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7190,7 +8114,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 133
+          "sequence": 133,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7244,7 +8175,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 134
+          "sequence": 134,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7298,7 +8236,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 135
+          "sequence": 135,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7352,7 +8297,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 136
+          "sequence": 136,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7406,7 +8358,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 137
+          "sequence": 137,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7460,7 +8419,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 138
+          "sequence": 138,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7514,7 +8480,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 139
+          "sequence": 139,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7568,7 +8541,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 140
+          "sequence": 140,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7622,7 +8602,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 141
+          "sequence": 141,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7676,7 +8663,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 142
+          "sequence": 142,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7730,7 +8724,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 143
+          "sequence": 143,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7784,7 +8785,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 144
+          "sequence": 144,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7838,7 +8846,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 145
+          "sequence": 145,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7892,7 +8907,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 146
+          "sequence": 146,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -7946,7 +8968,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 147
+          "sequence": 147,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8000,7 +9029,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 148
+          "sequence": 148,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8054,7 +9090,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 149
+          "sequence": 149,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8108,7 +9151,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 150
+          "sequence": 150,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8162,7 +9212,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 151
+          "sequence": 151,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8216,7 +9273,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 152
+          "sequence": 152,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8270,7 +9334,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 153
+          "sequence": 153,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8324,7 +9395,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 154
+          "sequence": 154,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8378,7 +9456,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 155
+          "sequence": 155,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8432,7 +9517,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 156
+          "sequence": 156,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8486,7 +9578,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 157
+          "sequence": 157,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8540,7 +9639,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 158
+          "sequence": 158,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8594,7 +9700,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 159
+          "sequence": 159,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8648,7 +9761,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 160
+          "sequence": 160,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8702,7 +9822,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 161
+          "sequence": 161,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8756,7 +9883,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 162
+          "sequence": 162,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8810,7 +9944,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 163
+          "sequence": 163,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8864,7 +10005,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 164
+          "sequence": 164,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8918,7 +10066,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 165
+          "sequence": 165,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -8972,7 +10127,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 166
+          "sequence": 166,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9026,7 +10188,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 167
+          "sequence": 167,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9080,7 +10249,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 168
+          "sequence": 168,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9134,7 +10310,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 169
+          "sequence": 169,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9188,7 +10371,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 170
+          "sequence": 170,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9242,7 +10432,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 171
+          "sequence": 171,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9296,7 +10493,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 172
+          "sequence": 172,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9350,7 +10554,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 173
+          "sequence": 173,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9404,7 +10615,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 174
+          "sequence": 174,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9458,7 +10676,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 175
+          "sequence": 175,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9512,7 +10737,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 176
+          "sequence": 176,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9566,7 +10798,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 177
+          "sequence": 177,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9620,7 +10859,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 178
+          "sequence": 178,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9674,7 +10920,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 179
+          "sequence": 179,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -9728,7 +10981,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-media-literacy",
-          "sequence": 180
+          "sequence": 180,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "RI.3-6.6-8",
+            "W.3-6.7-8"
+          ]
         }
       }
     ],

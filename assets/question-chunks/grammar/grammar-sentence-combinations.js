@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1128,7 +1261,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1184,7 +1324,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1240,7 +1387,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1296,7 +1450,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1352,7 +1513,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1408,7 +1576,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1464,7 +1639,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1520,7 +1702,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1576,7 +1765,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1632,7 +1828,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1688,7 +1891,14 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1744,7 +1954,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1800,7 +2017,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1856,7 +2080,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1912,7 +2143,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -1968,7 +2206,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2024,7 +2269,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2080,7 +2332,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2136,7 +2395,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2192,7 +2458,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2248,7 +2521,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2304,7 +2584,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2360,7 +2647,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2416,7 +2710,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 43
+          "sequence": 43,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2472,7 +2773,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2528,7 +2836,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2584,7 +2899,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 46
+          "sequence": 46,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2640,7 +2962,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 47
+          "sequence": 47,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2696,7 +3025,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2752,7 +3088,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2808,7 +3151,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2864,7 +3214,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2920,7 +3277,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -2976,7 +3340,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 53
+          "sequence": 53,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3032,7 +3403,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3088,7 +3466,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3144,7 +3529,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3200,7 +3592,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 57
+          "sequence": 57,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3256,7 +3655,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 58
+          "sequence": 58,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3312,7 +3718,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 59
+          "sequence": 59,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3368,7 +3781,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 60
+          "sequence": 60,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3424,7 +3844,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 61
+          "sequence": 61,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3480,7 +3907,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 62
+          "sequence": 62,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3536,7 +3970,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "grammar-sentence-combinations",
-          "sequence": 63
+          "sequence": 63,
+          "skillIds": [
+            "grammar.sentence-analysis",
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3595,6 +4036,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -3654,6 +4103,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -3713,6 +4170,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -3772,6 +4237,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -3831,6 +4304,14 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "grammar.usage",
+            "grammar.writing"
+          ],
+          "standardIds": [
+            "L.3-6.1",
+            "W.3-6.5"
           ]
         }
       },
@@ -3892,7 +4373,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 81
+          "sequence": 81,
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -3953,7 +4440,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 88
+          "sequence": 88,
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -4014,7 +4507,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 183
+          "sequence": 183,
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -4075,7 +4574,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 190
+          "sequence": 190,
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       },
       {
@@ -4136,7 +4641,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 292
+          "sequence": 292,
+          "skillIds": [
+            "grammar.usage"
+          ],
+          "standardIds": [
+            "L.3-6.1"
+          ]
         }
       }
     ],

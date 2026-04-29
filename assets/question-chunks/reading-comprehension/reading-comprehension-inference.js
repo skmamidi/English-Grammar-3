@@ -64,7 +64,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -120,7 +127,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -176,7 +190,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -232,7 +253,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -288,7 +316,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -344,7 +379,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -400,7 +442,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -456,7 +505,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -512,7 +568,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -568,7 +631,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -624,7 +694,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -680,7 +757,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -736,7 +820,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -792,7 +883,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -848,7 +946,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -904,7 +1009,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -960,7 +1072,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1016,7 +1135,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1072,7 +1198,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1128,7 +1261,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1184,7 +1324,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1240,7 +1387,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1296,7 +1450,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1352,7 +1513,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1408,7 +1576,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1464,7 +1639,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1520,7 +1702,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1576,7 +1765,14 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-inference",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -1637,6 +1833,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1698,6 +1901,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1759,6 +1969,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1820,6 +2037,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1881,6 +2105,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -1942,6 +2173,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2003,6 +2241,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2064,6 +2309,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2125,6 +2377,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2186,6 +2445,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2247,6 +2513,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2308,6 +2581,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2369,6 +2649,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2430,6 +2717,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2491,6 +2785,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2552,6 +2853,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2613,6 +2921,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2674,6 +2989,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2735,6 +3057,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2796,6 +3125,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2857,6 +3193,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2918,6 +3261,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -2980,7 +3330,14 @@
           "Test focus": [
             "MAP"
           ],
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -3041,6 +3398,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3102,6 +3466,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3163,6 +3534,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3224,6 +3602,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3285,6 +3670,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3346,6 +3738,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3407,6 +3806,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3468,6 +3874,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3529,6 +3942,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3590,6 +4010,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3651,6 +4078,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3712,6 +4146,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3774,7 +4215,14 @@
           "Test focus": [
             "MAP"
           ],
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
+          ]
         }
       },
       {
@@ -3835,6 +4283,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3896,6 +4351,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -3957,6 +4419,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -4018,6 +4487,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -4079,6 +4555,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -4140,6 +4623,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -4201,6 +4691,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       },
@@ -4262,6 +4759,13 @@
           ],
           "Test focus": [
             "MAP"
+          ],
+          "skillIds": [
+            "reading-comprehension.comprehension"
+          ],
+          "standardIds": [
+            "RI/RL.2-6.1",
+            "RI/RL.2-6.2"
           ]
         }
       }

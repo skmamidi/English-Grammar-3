@@ -61,7 +61,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 1,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -114,7 +118,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 2,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -166,7 +174,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -218,7 +230,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -270,7 +286,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -322,7 +342,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -374,7 +398,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -426,7 +454,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -478,7 +510,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -530,7 +566,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -582,7 +622,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -634,7 +678,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -687,7 +735,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 13,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -740,7 +792,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 14,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -792,7 +848,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -845,7 +905,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 16,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -898,7 +962,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 17,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -950,7 +1018,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1002,7 +1074,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1054,7 +1130,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1106,7 +1186,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1158,7 +1242,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1210,7 +1298,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1262,7 +1354,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1314,7 +1410,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1366,7 +1466,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1418,7 +1522,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1471,7 +1579,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 28,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1524,7 +1636,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 29,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1576,7 +1692,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1629,7 +1749,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 31,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1682,7 +1806,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 32,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1734,7 +1862,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1786,7 +1918,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1838,7 +1974,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1890,7 +2030,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1942,7 +2086,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -1994,7 +2142,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2046,7 +2198,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2098,7 +2254,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2150,7 +2310,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2202,7 +2366,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2255,7 +2423,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 43,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2308,7 +2480,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 44,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2360,7 +2536,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2413,7 +2593,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 46,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2466,7 +2650,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 47,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2518,7 +2706,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2570,7 +2762,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2622,7 +2818,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2674,7 +2874,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2726,7 +2930,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2778,7 +2986,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 53
+          "sequence": 53,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2830,7 +3042,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 54
+          "sequence": 54,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2882,7 +3098,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 55
+          "sequence": 55,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2934,7 +3154,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 56
+          "sequence": 56,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -2986,7 +3210,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 57
+          "sequence": 57,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3039,7 +3267,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 58,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3092,7 +3324,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 59,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3144,7 +3380,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 60
+          "sequence": 60,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3197,7 +3437,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 61,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3250,7 +3494,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 62,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3302,7 +3550,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 63
+          "sequence": 63,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3354,7 +3606,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 64
+          "sequence": 64,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3406,7 +3662,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 65
+          "sequence": 65,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3458,7 +3718,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 66
+          "sequence": 66,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3510,7 +3774,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 67
+          "sequence": 67,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3562,7 +3830,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 68
+          "sequence": 68,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3614,7 +3886,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 69
+          "sequence": 69,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3666,7 +3942,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 70
+          "sequence": 70,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3718,7 +3998,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 71
+          "sequence": 71,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3770,7 +4054,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 72
+          "sequence": 72,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3823,7 +4111,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 73,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3876,7 +4168,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 74,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3928,7 +4224,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 75
+          "sequence": 75,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -3981,7 +4281,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 76,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4034,7 +4338,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 77,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4086,7 +4394,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 78
+          "sequence": 78,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4138,7 +4450,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 79
+          "sequence": 79,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4190,7 +4506,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 80
+          "sequence": 80,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4242,7 +4562,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 81
+          "sequence": 81,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4294,7 +4618,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 82
+          "sequence": 82,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4346,7 +4674,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 83
+          "sequence": 83,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4398,7 +4730,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 84
+          "sequence": 84,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4450,7 +4786,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 85
+          "sequence": 85,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4502,7 +4842,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 86
+          "sequence": 86,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4554,7 +4898,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 87
+          "sequence": 87,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4607,7 +4955,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 88,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4660,7 +5012,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 89,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4712,7 +5068,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 90
+          "sequence": 90,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4765,7 +5125,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 91,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4818,7 +5182,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 92,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4870,7 +5238,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 93
+          "sequence": 93,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4922,7 +5294,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 94
+          "sequence": 94,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -4974,7 +5350,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 95
+          "sequence": 95,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5026,7 +5406,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 96
+          "sequence": 96,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5078,7 +5462,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 97
+          "sequence": 97,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5130,7 +5518,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 98
+          "sequence": 98,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5182,7 +5574,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 99
+          "sequence": 99,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5234,7 +5630,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 100
+          "sequence": 100,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5286,7 +5686,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 101
+          "sequence": 101,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5338,7 +5742,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 102
+          "sequence": 102,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5391,7 +5799,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 103,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5444,7 +5856,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 104,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5496,7 +5912,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 105
+          "sequence": 105,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5549,7 +5969,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 106,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5602,7 +6026,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 107,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5654,7 +6082,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 108
+          "sequence": 108,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5706,7 +6138,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 109
+          "sequence": 109,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5758,7 +6194,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 110
+          "sequence": 110,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5810,7 +6250,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 111
+          "sequence": 111,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5862,7 +6306,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 112
+          "sequence": 112,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5914,7 +6362,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 113
+          "sequence": 113,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -5966,7 +6418,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 114
+          "sequence": 114,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6018,7 +6474,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 115
+          "sequence": 115,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6070,7 +6530,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 116
+          "sequence": 116,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6122,7 +6586,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 117
+          "sequence": 117,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6175,7 +6643,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 118,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6228,7 +6700,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 119,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6280,7 +6756,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 120
+          "sequence": 120,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6333,7 +6813,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 121,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6386,7 +6870,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 122,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6438,7 +6926,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 123
+          "sequence": 123,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6490,7 +6982,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 124
+          "sequence": 124,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6542,7 +7038,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 125
+          "sequence": 125,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6594,7 +7094,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 126
+          "sequence": 126,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6646,7 +7150,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 127
+          "sequence": 127,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6698,7 +7206,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 128
+          "sequence": 128,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6750,7 +7262,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 129
+          "sequence": 129,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6802,7 +7318,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 130
+          "sequence": 130,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6854,7 +7374,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 131
+          "sequence": 131,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6906,7 +7430,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 132
+          "sequence": 132,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -6959,7 +7487,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 133,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7012,7 +7544,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 134,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7064,7 +7600,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 135
+          "sequence": 135,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7117,7 +7657,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 136,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7170,7 +7714,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 137,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7222,7 +7770,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 138
+          "sequence": 138,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7274,7 +7826,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 139
+          "sequence": 139,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7326,7 +7882,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 140
+          "sequence": 140,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7378,7 +7938,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 141
+          "sequence": 141,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7430,7 +7994,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 142
+          "sequence": 142,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7482,7 +8050,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 143
+          "sequence": 143,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7534,7 +8106,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 144
+          "sequence": 144,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7586,7 +8162,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 145
+          "sequence": 145,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7638,7 +8218,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 146
+          "sequence": 146,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7690,7 +8274,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 147
+          "sequence": 147,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7743,7 +8331,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 148,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7796,7 +8388,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 149,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7848,7 +8444,11 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 150
+          "sequence": 150,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7901,7 +8501,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 151,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -7954,7 +8558,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 152,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8006,7 +8614,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 153
+          "sequence": 153,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8058,7 +8670,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 154
+          "sequence": 154,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8110,7 +8726,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 155
+          "sequence": 155,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8162,7 +8782,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 156
+          "sequence": 156,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8214,7 +8838,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 157
+          "sequence": 157,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8266,7 +8894,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 158
+          "sequence": 158,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8318,7 +8950,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 159
+          "sequence": 159,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8370,7 +9006,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 160
+          "sequence": 160,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8422,7 +9062,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 161
+          "sequence": 161,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8474,7 +9118,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 162
+          "sequence": 162,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8527,7 +9175,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 163,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8580,7 +9232,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 164,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8632,7 +9288,11 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 165
+          "sequence": 165,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8685,7 +9345,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 166,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8738,7 +9402,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 167,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8790,7 +9458,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 168
+          "sequence": 168,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8842,7 +9514,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 169
+          "sequence": 169,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8894,7 +9570,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 170
+          "sequence": 170,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8946,7 +9626,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 171
+          "sequence": 171,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -8998,7 +9682,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 172
+          "sequence": 172,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9050,7 +9738,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 173
+          "sequence": 173,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9102,7 +9794,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 174
+          "sequence": 174,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9154,7 +9850,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 175
+          "sequence": 175,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9206,7 +9906,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 176
+          "sequence": 176,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9258,7 +9962,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 177
+          "sequence": 177,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9311,7 +10019,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 178,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9364,7 +10076,11 @@
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 179,
-          "allowDuplicateContentHash": true
+          "allowDuplicateContentHash": true,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9416,7 +10132,11 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 180
+          "sequence": 180,
+          "skillIds": [],
+          "standardIds": [
+            "L.2-6.5"
+          ]
         }
       },
       {
@@ -9477,7 +10197,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 181
+          "sequence": 181,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       },
       {
@@ -9538,7 +10265,14 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 182
+          "sequence": 182,
+          "skillIds": [
+            "vocabulary.word-study"
+          ],
+          "standardIds": [
+            "L.3-6.5",
+            "L.4-6.4"
+          ]
         }
       }
     ],

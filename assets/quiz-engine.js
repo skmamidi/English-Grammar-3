@@ -53,6 +53,11 @@
   window.GrammarQuestQuizEngine = {
     start
   };
+  window.GrammarQuestPromptFormatting = {
+    renderQuestionPromptForTest(question) {
+      return renderDisplayPrompt(getDisplayPromptParts(question && question.question, question), 'question');
+    }
+  };
 
   function start() {
     quizContainer = document.getElementById('quiz-root');
@@ -1090,7 +1095,7 @@
     if (scene) {
       return renderVisualQuestionScene(scene, question);
     }
-    const prompt = getDisplayPromptParts(question && question.question);
+    const prompt = getDisplayPromptParts(question && question.question, question);
     return `
       ${renderCharacterScene(options)}
       ${renderDisplayPrompt(prompt, 'question')}
@@ -1103,7 +1108,7 @@
     const nameSubstitutions = getSceneNameSubstitutions(dialogue, actorSlotOffset);
     const localize = value => applySceneNameSubstitutions(value, nameSubstitutions);
     const safeSceneText = value => scrubAnswerChoiceText(localize(value), question);
-    const prompt = getDisplayPromptParts(localize(scene.prompt || question.question));
+    const prompt = getDisplayPromptParts(localize(scene.prompt || question.question), question);
     const promptText = prompt.task || prompt.fullText;
     const guidanceText = safeSceneText(getQuestionStrategyClue(question, scene));
     const visualPrompt = prompt.type === 'passage'
@@ -1126,9 +1131,10 @@
     `;
   }
 
-  function getDisplayPromptParts(value) {
+  function getDisplayPromptParts(value, question) {
     const fullText = normalizePromptText(value);
     const withoutLeadIn = stripPromptLeadIns(fullText);
+    const underlineTargets = getUnderlineTargets(withoutLeadIn, question);
     const passageMatch = withoutLeadIn.match(/^Read the passage\.\s*(?:Grade\s+\d+\s+[a-z-]+\s+passage:\s*)?([\s\S]+)$/i);
     const passageSource = passageMatch ? passageMatch[1].trim() : withoutLeadIn;
     const split = passageSource.split(/\n\s*\n/);
@@ -1142,7 +1148,8 @@
         fullText: [passageParts.join(' '), annotation, task].filter(Boolean).join(' '),
         passage: passageParts.join(' '),
         annotation,
-        task
+        task,
+        underlineTargets
       };
     }
     return {
@@ -1150,27 +1157,28 @@
       fullText: withoutLeadIn,
       passage: '',
       annotation: '',
-      task: withoutLeadIn
+      task: withoutLeadIn,
+      underlineTargets
     };
   }
 
   function renderDisplayPrompt(prompt, variant) {
     if (!prompt || !prompt.fullText) return '';
     if (prompt.type !== 'passage') {
-      return `<div class="${variant}-prompt-card ${variant}-prompt-card-plain"><div class="question-text">${escapeHtml(prompt.task || prompt.fullText)}</div></div>`;
+      return `<div class="${variant}-prompt-card ${variant}-prompt-card-plain"><div class="question-text">${renderPromptTextWithUnderlines(prompt.task || prompt.fullText, prompt.underlineTargets)}</div></div>`;
     }
     return `
       <div class="${variant}-prompt-card ${variant}-prompt-card-passage">
         <div class="prompt-passage">
           <span>Passage</span>
-          <p>${escapeHtml(prompt.passage)}</p>
+          <p>${renderPromptTextWithUnderlines(prompt.passage, prompt.underlineTargets)}</p>
         </div>
         ${prompt.annotation ? `
-          <p class="prompt-annotation">${escapeHtml(prompt.annotation)}</p>
+          <p class="prompt-annotation">${renderPromptTextWithUnderlines(prompt.annotation, prompt.underlineTargets)}</p>
         ` : ''}
         <div class="prompt-task">
           <span>Question</span>
-          <strong>${escapeHtml(prompt.task)}</strong>
+          <strong>${renderPromptTextWithUnderlines(prompt.task, prompt.underlineTargets)}</strong>
         </div>
       </div>
     `;
@@ -1207,6 +1215,70 @@
         </div>
       </div>
     `;
+  }
+
+  function getUnderlineTargets(promptText, question) {
+    if (!/underlined/i.test(promptText || '')) return [];
+    const choices = question && Array.isArray(question.choices) ? question.choices : [];
+    const body = getUnderlineSearchText(promptText);
+    const seen = new Set();
+    return choices
+      .flatMap(choice => getUnderlineChoiceCandidates(choice))
+      .filter(choice => choice && !/^correct as is\.?$/i.test(choice) && choice.length <= 80)
+      .filter(choice => {
+        const key = choice.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return choiceAppearsInText(body, choice);
+      });
+  }
+
+  function getUnderlineChoiceCandidates(choice) {
+    const text = String(choice || '').trim().replace(/\s+/g, ' ');
+    if (!text) return [];
+    const parts = text.split(/\s*,\s*/).map(part => part.trim()).filter(Boolean);
+    return parts.length > 1 ? parts.concat(text) : [text];
+  }
+
+  function getUnderlineSearchText(promptText) {
+    const text = String(promptText || '');
+    const questionIndex = text.indexOf('?');
+    return questionIndex >= 0 ? text.slice(questionIndex + 1) : text;
+  }
+
+  function choiceAppearsInText(text, choice) {
+    return buildFlexibleWordRegExp(choice).test(text);
+  }
+
+  function renderPromptTextWithUnderlines(text, targets) {
+    const source = String(text || '');
+    const activeTargets = Array.isArray(targets) ? targets.filter(Boolean).sort((a, b) => b.length - a.length) : [];
+    if (!activeTargets.length) return escapeHtml(source);
+    let html = '';
+    let index = 0;
+    while (index < source.length) {
+      const match = activeTargets
+        .map(target => {
+          const found = source.slice(index).match(buildFlexibleWordRegExp(target));
+          return found && found.index === 0 ? found[0] : '';
+        })
+        .find(Boolean);
+      if (match) {
+        html += `<u>${escapeHtml(match)}</u>`;
+        index += match.length;
+      } else {
+        html += escapeHtml(source[index]);
+        index += 1;
+      }
+    }
+    return html;
+  }
+
+  function buildFlexibleWordRegExp(value) {
+    const pattern = String(value || '').trim()
+      .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      .replace(/\s+/g, '\\s+');
+    return new RegExp(`(^|(?<=\\W))${pattern}(?=$|\\W)`, 'i');
   }
 
   function normalizePromptText(value) {
@@ -2866,6 +2938,8 @@
       subtopicId: subtopic.id,
       subtopicTitle: subtopic.title,
       skills: Array.isArray(metadata.skills) ? metadata.skills : [],
+      skillIds: Array.isArray(metadata.skillIds) ? metadata.skillIds : [],
+      standardIds: getQuestionStandardIds(question),
       standards: getQuestionStandards(question),
       completedAt
     };
@@ -2893,9 +2967,15 @@
         { group: 'subtopics', key: getQuestionSubtopic(question).id, label: getQuestionSubtopic(question).title }
       ];
 
-      (metadata.skills || []).forEach(skill => {
-        entries.push({ group: 'skills', key: slugify(skill), label: titleCase(skill) });
-      });
+      if (Array.isArray(metadata.skillIds) && metadata.skillIds.length) {
+        metadata.skillIds.forEach(skillId => {
+          entries.push({ group: 'skills', key: skillId, label: skillId });
+        });
+      } else {
+        (metadata.skills || []).forEach(skill => {
+          entries.push({ group: 'skills', key: slugify(skill), label: titleCase(skill) });
+        });
+      }
 
       (metadata.testFocus || metadata['Test focus'] || []).forEach(focus => {
         entries.push({ group: 'testFocus', key: slugify(focus), label: String(focus) });
@@ -3052,6 +3132,10 @@
     if (/grammar|punctuation|capitalization/i.test(topic) || skills.some(skill => /grammar|punctuation|capitalization|usage|sentence/i.test(skill))) inferred.push({ id: 'CCSS.L.3-6.1-3', label: 'Language: Conventions & Knowledge' });
     if (/reference/i.test(topic) || skills.some(skill => /dictionary|reference|alphabet/i.test(skill))) inferred.push({ id: 'ELA.Reference.3-6', label: 'Reference & Research Skills' });
     return inferred.length ? inferred : [{ id: 'ELA.3-6.Mixed', label: 'Mixed ELA Practice' }];
+  }
+
+  function getQuestionStandardIds(question) {
+    return getQuestionStandards(question).map(standard => standard.id);
   }
 
   function getMasteryLevel(correct, total) {

@@ -19,7 +19,7 @@ npm test
 
 That command runs:
 
-- `npm run qa:questions` for JSON schema validation, canonical JSON source validation, generated manifest drift, and generated question-chunk validation.
+- `npm run qa:questions` for JSON schema validation, canonical JSON source validation, generated manifest drift, generated question-chunk validation, and chunk size budget checks.
 - `npm run qa:content` for question-bank loading, content contracts, duplicate derived keys, coverage checks, and size snapshots.
 - `npm run test:unit` for quiz selection and progress/report contracts using Node's built-in test runner.
 - `npm run test:ui` for core Playwright smoke tests against a local static server.
@@ -71,6 +71,7 @@ The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks t
 - Add new questions with stable ids that match `metadata.sequence` (for example `grammar-sentence-types-q0042`), keep `metadata.sourceSet` equal to the containing set id, and use unique sequence numbers within each set.
 - Increment `version` when changing learner-facing meaning, and regenerate `contentHash` whenever prompt, choices, answer, explanation, study aid, or authored visual scene content changes.
 - Run `npm run qa:schema` before generating artifacts when editing question source.
+- Skill and standards tagging is validated against `assets/question-skill-taxonomy.json`; explicit unknown `metadata.skillIds` or `metadata.standardIds` fail schema and content QA, while known legacy `metadata.skills` labels are mapped deterministically into generated runtime artifacts.
 - Use `npm run questions:normalize` after editing source questions to fill missing ids, normalize source metadata, and refresh content hashes in canonical JSON.
 - Authoring tools operate on `assets/question-bank-source/*.json` by default. Legacy JS bank coverage is fixture-only under `tests/fixtures/legacy-bank-conversion`.
 - Runtime question artifacts are generated from JSON in this order: `assets/question-bank-source/*.json` -> `assets/question-manifest.json` -> `assets/question-manifest.js` -> `assets/question-chunks/**/*.js`.
@@ -82,7 +83,7 @@ The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks t
 - Runtime learner progress flows through `GrammarQuestProgress`, which delegates persistence to `GrammarQuestLearnerStateRepository` when the repository boundary is loaded. Production pages must load `assets/learner-state-repository.js` before `assets/progress-store.js`.
 - `npm run json:write` remains a migration helper for refreshing JSON from old legacy banks; normal content work should edit JSON directly.
 - Legacy conversion coverage is fixture-based, so live JSON edits are not expected to match retired JS banks.
-- `npm run qa:questions` verifies JSON sources and generated runtime artifacts are current.
+- `npm run qa:questions` verifies JSON sources, generated runtime artifacts, and generated chunk size budgets are current.
 - Server-side question selection is an opt-in pilot behind `GrammarQuestQuestionLoader.loadSelectedQuiz`. Normal static runs keep chunk loading as the default; use `QUESTION_SELECTION_API=1 npm run test:ui` to exercise API and fallback paths across grammar, capitalization, punctuation, reading-comprehension, reference-skills, and vocabulary mixed quizzes.
 - Mixed-quiz server selection domains are listed in `assets/question-selection-rollout.js`. Enable domains with `GRAMMAR_QUEST_CONFIG.serverQuestionSelectionPilotDomains`; remove a domain from that list to roll it back to generated chunk loading without changing the page.
 - Mixed-quiz API requests preserve existing count semantics: `setIds.length * questionsPerSubtopic`, capped by `GRAMMAR_QUEST_CONFIG.maxServerSelectionQuestions` or the default `60`; `max` mode requests the cap and marks `countMode: "max"`.

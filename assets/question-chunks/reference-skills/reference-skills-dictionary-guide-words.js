@@ -64,7 +64,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -120,7 +126,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -176,7 +188,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -232,7 +250,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -288,7 +312,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -344,7 +374,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -400,7 +436,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -456,7 +498,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -512,7 +560,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -568,7 +622,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -624,7 +684,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -680,7 +746,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -736,7 +808,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -792,7 +870,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -848,7 +932,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -904,7 +994,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -960,7 +1056,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1016,7 +1118,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1072,7 +1180,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1128,7 +1242,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1184,7 +1304,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 21
+          "sequence": 21,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1240,7 +1366,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 22
+          "sequence": 22,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1296,7 +1428,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 23
+          "sequence": 23,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1352,7 +1490,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 24
+          "sequence": 24,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1408,7 +1552,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 25
+          "sequence": 25,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1464,7 +1614,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 26
+          "sequence": 26,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1520,7 +1676,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 27
+          "sequence": 27,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1576,7 +1738,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 28
+          "sequence": 28,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1632,7 +1800,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 29
+          "sequence": 29,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1688,7 +1862,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 30
+          "sequence": 30,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1744,7 +1924,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 31
+          "sequence": 31,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1800,7 +1986,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 32
+          "sequence": 32,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1856,7 +2048,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 33
+          "sequence": 33,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1912,7 +2110,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 34
+          "sequence": 34,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -1968,7 +2172,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 35
+          "sequence": 35,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2024,7 +2234,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 36
+          "sequence": 36,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2080,7 +2296,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 37
+          "sequence": 37,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2136,7 +2358,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 38
+          "sequence": 38,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2192,7 +2420,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 39
+          "sequence": 39,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2248,7 +2482,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 40
+          "sequence": 40,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2304,7 +2544,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 41
+          "sequence": 41,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2360,7 +2606,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "high",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 42
+          "sequence": 42,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2416,7 +2668,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 43
+          "sequence": 43,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2472,7 +2730,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 44
+          "sequence": 44,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2528,7 +2792,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 45
+          "sequence": 45,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2584,7 +2854,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 46
+          "sequence": 46,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2640,7 +2916,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 47
+          "sequence": 47,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2696,7 +2978,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 48
+          "sequence": 48,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2752,7 +3040,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 49
+          "sequence": 49,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2808,7 +3102,13 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 50
+          "sequence": 50,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2864,7 +3164,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 51
+          "sequence": 51,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2920,7 +3226,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 52
+          "sequence": 52,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -2976,7 +3288,13 @@
           "estimatedTimeSeconds": 75,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-dictionary-guide-words",
-          "sequence": 53
+          "sequence": 53,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3037,7 +3355,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 153
+          "sequence": 153,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       },
       {
@@ -3098,7 +3422,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 234
+          "sequence": 234,
+          "skillIds": [
+            "reference-skills.reference-research"
+          ],
+          "standardIds": [
+            "W.3-6.7-8"
+          ]
         }
       }
     ],

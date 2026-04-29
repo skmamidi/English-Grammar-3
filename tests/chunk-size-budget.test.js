@@ -2,19 +2,27 @@ const assert = require('node:assert/strict');
 const test = require('node:test');
 
 const {
-  summarizeChunkSizeBudget
+  DEFAULT_FAILURE_BYTES,
+  DEFAULT_WARNING_BYTES,
+  collectChunkSizeBudget
 } = require('../scripts/qa/chunk-size-budget');
 
-test('chunk size budget report ranks largest chunks and flags preload warnings', () => {
-  const summary = summarizeChunkSizeBudget([
-    { path: 'assets/question-chunks/grammar/small.js', bytes: 80 * 1024 },
-    { path: 'assets/question-chunks/reading-comprehension/large.js', bytes: 420 * 1024 },
-    { path: 'assets/question-chunks/vocabulary/medium.js', bytes: 180 * 1024 }
-  ], {
-    preloadWarningBytes: 250 * 1024
-  });
+test('generated browser question chunks stay below the hard size budget', () => {
+  const report = collectChunkSizeBudget();
 
-  assert.equal(summary.totalChunks, 3);
-  assert.equal(summary.largestChunks[0].path, 'assets/question-chunks/reading-comprehension/large.js');
-  assert.deepEqual(summary.preloadWarnings.map(item => item.path), ['assets/question-chunks/reading-comprehension/large.js']);
+  assert.equal(report.failureBytes, DEFAULT_FAILURE_BYTES);
+  assert.equal(report.warningBytes, DEFAULT_WARNING_BYTES);
+  assert.deepEqual(
+    report.failures.map(file => file.path),
+    [],
+    `oversized chunks:\n${report.failures.map(file => `${file.sizeBytes} ${file.path}`).join('\n')}`
+  );
+});
+
+test('chunk size budget reports largest generated chunks for diagnostics', () => {
+  const report = collectChunkSizeBudget({ limit: 5 });
+
+  assert.ok(report.largest.length > 0, 'expected generated chunk files');
+  assert.ok(report.largest.every(file => file.path.startsWith('assets/question-chunks/')));
+  assert.ok(report.largest.every(file => Number.isInteger(file.sizeBytes) && file.sizeBytes > 0));
 });

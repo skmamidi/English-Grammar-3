@@ -51,6 +51,10 @@ test('manifest exposes compact lookup metadata without learner-facing prompts', 
   assert.ok(set.difficultiesSupported.includes('medium'));
   assert.ok(set.questions[0].id.startsWith('grammar-sentence-types-q'));
   assert.ok(set.questions[0].contentHash.startsWith('sha256:'));
+  assert.ok(set.skillCoverage.some(skill => skill.skillId === 'grammar.sentence-analysis'));
+  assert.ok(set.standardCoverage.some(standard => standard.standardId === 'L.3-6.1'));
+  assert.ok(set.questions[0].skillIds.includes('grammar.sentence-analysis'));
+  assert.ok(set.questions[0].standardIds.includes('L.3-6.1'));
   assert.equal(Object.hasOwn(set.questions[0], 'question'), false);
   assert.equal(Object.hasOwn(set.questions[0], 'choices'), false);
   assert.equal(Object.hasOwn(set.questions[0], 'explanation'), false);
@@ -62,8 +66,18 @@ test('all manifest entries point to checked-in chunk files', () => {
   assert.ok(manifest.sets.length > 0, 'expected manifest sets');
   manifest.sets.forEach(set => {
     assert.equal(Object.hasOwn(set, 'bankFile'), false);
-    assert.equal(set.chunkFile, `assets/question-chunks/${set.domain}/${set.id}.js`);
     assert.ok(fs.existsSync(path.join(__dirname, '..', set.chunkFile)), `${set.chunkFile} should exist`);
+    if (Array.isArray(set.chunks) && set.chunks.length) {
+      assert.equal(set.chunkFile, set.chunks[0].chunkFile);
+      assert.equal(set.chunks.reduce((sum, chunk) => sum + chunk.questionCount, 0), set.questionCount);
+      set.chunks.forEach(chunk => {
+        assert.ok(fs.existsSync(path.join(__dirname, '..', chunk.chunkFile)), `${chunk.chunkFile} should exist`);
+        assert.ok(chunk.firstSequence <= chunk.lastSequence, `${chunk.chunkFile} should expose a valid sequence range`);
+        assert.equal(chunk.ids.length, chunk.questionCount, `${chunk.chunkFile} should expose ids for its questions`);
+      });
+    } else {
+      assert.equal(set.chunkFile, `assets/question-chunks/${set.domain}/${set.id}.js`);
+    }
   });
 });
 
@@ -78,6 +92,8 @@ test('checked-in manifest script exposes index metadata as a browser global', ()
   );
   assert.equal(Object.hasOwn(context.window.QUESTION_MANIFEST.sets[0], 'questions'), false);
   assert.equal(Object.hasOwn(context.window.QUESTION_MANIFEST.sets[0], 'bankFile'), false);
+  assert.ok(Array.isArray(context.window.QUESTION_MANIFEST.sets[0].skillCoverage));
+  assert.ok(Array.isArray(context.window.QUESTION_MANIFEST.sets[0].standardCoverage));
   [
     'questions',
     'question',

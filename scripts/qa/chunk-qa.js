@@ -13,10 +13,13 @@ const {
   computeQuestionSetSourceHash,
   parseQuestionChunkProvenance
 } = require('../question-artifact-provenance');
+const {
+  enrichQuestionWithSkillTags
+} = require('./question-skill-taxonomy');
 
 function getChunkManifestEntries(manifest) {
   return (manifest && Array.isArray(manifest.sets) ? manifest.sets : [])
-    .filter(set => set && set.chunkFile);
+    .filter(set => set && (set.chunkFile || Array.isArray(set.chunks)));
 }
 
 function loadChunkBank(chunkFile, options = {}) {
@@ -60,12 +63,11 @@ function validateQuestionChunks(manifest, bankLoad, options = {}) {
     let chunkBank;
     let chunkContents;
     try {
-      const root = options.repoRoot || repoRoot;
-      const chunkPath = path.isAbsolute(entry.chunkFile) ? entry.chunkFile : path.join(root, entry.chunkFile);
-      chunkContents = readChunkFile(chunkPath, entry.chunkFile);
-      chunkBank = loadChunkBankFromContents(chunkContents, chunkPath);
+      const loaded = loadEntryChunkBank(entry, options);
+      chunkBank = loaded.chunkBank;
+      chunkContents = loaded.chunkContents;
     } catch (error) {
-      errors.push(`${entry.id}: chunk file could not be loaded from ${entry.chunkFile}: ${error.message}`);
+      errors.push(`${entry.id}: chunk file could not be loaded: ${error.message}`);
       return;
     }
 
@@ -82,6 +84,7 @@ function validateQuestionChunks(manifest, bankLoad, options = {}) {
 
     validateQuestionChunkSet({
       setId: entry.id,
+      domain: entry.domain || sourceRecord.domain,
       sourceSet: sourceRecord.set,
       chunkSet: chunkBank && chunkBank[entry.id]
     }).errors.forEach(error => errors.push(error));
@@ -90,26 +93,72 @@ function validateQuestionChunks(manifest, bankLoad, options = {}) {
   return { errors };
 }
 
+function loadEntryChunkBank(entry, options = {}) {
+  const root = options.repoRoot || repoRoot;
+  const chunkFiles = Array.isArray(entry.chunks) && entry.chunks.length
+    ? entry.chunks.map(chunk => chunk.chunkFile)
+    : [entry.chunkFile];
+  const aggregate = {};
+  const contents = [];
+  chunkFiles.forEach(chunkFile => {
+    const chunkPath = path.isAbsolute(chunkFile) ? chunkFile : path.join(root, chunkFile);
+    const chunkContents = readChunkFile(chunkPath, chunkFile);
+    const bank = loadChunkBankFromContents(chunkContents, chunkPath);
+    mergeChunkBank(aggregate, bank);
+    contents.push(chunkContents);
+  });
+  return {
+    chunkBank: aggregate,
+    chunkContents: contents.join('\n')
+  };
+}
+
+function mergeChunkBank(target, source) {
+  Object.keys(source || {}).forEach(setId => {
+    const incoming = source[setId];
+    if (!target[setId]) {
+      target[setId] = incoming;
+      return;
+    }
+    const existingQuestions = Array.isArray(target[setId].questions) ? target[setId].questions : [];
+    const incomingQuestions = Array.isArray(incoming && incoming.questions) ? incoming.questions : [];
+    const seen = new Set(existingQuestions.map(question => question && question.id));
+    incomingQuestions.forEach(question => {
+      if (!seen.has(question && question.id)) existingQuestions.push(question);
+    });
+    target[setId].questions = existingQuestions;
+  });
+}
+
 function validateChunkProvenance({ entry, sourceRecord, chunkContents }) {
   const errors = [];
-  const provenance = parseQuestionChunkProvenance(chunkContents);
+  const provenances = parseQuestionChunkProvenances(chunkContents);
   const expectedHash = computeQuestionSetSourceHash(entry.id, sourceRecord.set);
   const expectedSourceFile = sourceRecord.relativeFile;
 
-  if (provenance.sourceFile !== expectedSourceFile) {
-    errors.push(`${entry.id}: chunk provenance source file is ${formatValue(provenance.sourceFile)}; expected ${formatValue(expectedSourceFile)}.`);
-  }
-  if (provenance.generatorVersion !== QUESTION_GENERATOR_VERSION) {
-    errors.push(`${entry.id}: chunk generator version is ${formatValue(provenance.generatorVersion)}; expected ${QUESTION_GENERATOR_VERSION}.`);
-  }
-  if (provenance.sourceHash !== expectedHash) {
-    errors.push(`${entry.id}: chunk source hash is ${formatValue(provenance.sourceHash)}; expected ${expectedHash}.`);
-  }
+  provenances.forEach(provenance => {
+    if (provenance.sourceFile !== expectedSourceFile) {
+      errors.push(`${entry.id}: chunk provenance source file is ${formatValue(provenance.sourceFile)}; expected ${formatValue(expectedSourceFile)}.`);
+    }
+    if (provenance.generatorVersion !== QUESTION_GENERATOR_VERSION) {
+      errors.push(`${entry.id}: chunk generator version is ${formatValue(provenance.generatorVersion)}; expected ${QUESTION_GENERATOR_VERSION}.`);
+    }
+    if (provenance.sourceHash !== expectedHash) {
+      errors.push(`${entry.id}: chunk source hash is ${formatValue(provenance.sourceHash)}; expected ${expectedHash}.`);
+    }
+  });
 
   return { errors };
 }
 
-function validateQuestionChunkSet({ setId, sourceSet, chunkSet }) {
+function parseQuestionChunkProvenances(contents) {
+  const text = String(contents || '');
+  const blocks = text.split('/**').filter(block => block.includes('Generated from'));
+  const provenances = blocks.map(block => parseQuestionChunkProvenance(`/**${block}`));
+  return provenances.length ? provenances : [parseQuestionChunkProvenance(text)];
+}
+
+function validateQuestionChunkSet({ setId, domain, sourceSet, chunkSet }) {
   const errors = [];
   const label = setId || 'unknown set';
 
@@ -136,11 +185,23 @@ function validateQuestionChunkSet({ setId, sourceSet, chunkSet }) {
     chunkQuestions
   }).errors.forEach(error => errors.push(error));
 
-  if (JSON.stringify(chunkSet) !== JSON.stringify(sourceSet)) {
+  const expectedSet = enrichSetForRuntime(sourceSet, domain || getDomainFromSetId(setId));
+  if (JSON.stringify(chunkSet) !== JSON.stringify(expectedSet)) {
     errors.push(`${label}: chunk content differs from source bank.`);
   }
 
   return { errors };
+}
+
+function enrichSetForRuntime(set, domain) {
+  const questions = Array.isArray(set && set.questions) ? set.questions : [];
+  return Object.assign({}, set || {}, {
+    questions: questions.map(question => enrichQuestionWithSkillTags(question, { domain }))
+  });
+}
+
+function getDomainFromSetId(setId) {
+  return String(setId || '').split('-')[0];
 }
 
 function compareQuestionSummaries(input, legacyChunkQuestions, legacySetId) {
@@ -201,6 +262,7 @@ module.exports = {
   validateQuestionChunks,
   validateQuestionChunkSet,
   compareQuestionSummaries,
+  loadEntryChunkBank,
   validateChunkProvenance
 };
 

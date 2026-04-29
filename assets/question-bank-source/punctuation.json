@@ -6746,22 +6746,22 @@
         {
           "id": "punctuation-quotation-marks-q0022",
           "version": 1,
-          "contentHash": "sha256:b194c5fddd107a224e4ed1c652a0638be512cec5c46982fb3e0dffd8ce36a97d",
+          "contentHash": "sha256:11d25f8cdab5306d57ba59dba568e057f84ba87990ca685037774086f9659bb0",
           "question": "Read the following paragraph and determine which sentence has the incorrect punctuation of direct speech. (1) (2) I was so excited for the first day of school. My alarm went off, and I jumped out of bed. n’t forget to brush your teeth before you come downstairs” mom said. (3) “Do (4) “Where’s my toothbrush?” I replied back.",
           "choices": [
             "Sentence 1",
-            "Sentence",
-            "Sentence",
-            "Sentence"
+            "Sentence 2",
+            "Sentence 3",
+            "Sentence 4"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Sentence. Sentence 3; Sentence 3 is incorrect because there should be a comma inside the ending quotation mark.",
+            "correct": "Answer: Sentence 3. The direct speech is incorrectly punctuated and split from the speaker tag.",
             "incorrect": [
-              "Not: Sentence 1. Use the mechanics rule and sentence context to check this choice.",
-              "Not: Sentence. Use the mechanics rule and sentence context to check this choice.",
+              "Not: Sentence 1. This sentence is not the direct-speech punctuation error.",
+              "Not: Sentence 2. This sentence is not the direct-speech punctuation error.",
               "",
-              "Not: Sentence. Use the mechanics rule and sentence context to check this choice."
+              "Not: Sentence 4. The quotation marks around the question are punctuated correctly."
             ]
           },
           "studyAid": {
@@ -7417,22 +7417,22 @@
         {
           "id": "punctuation-quotation-marks-q0102",
           "version": 1,
-          "contentHash": "sha256:e5e4191d8813fdff0365ca744c168caf1019eda0a9f44303825624dcd43f878b",
+          "contentHash": "sha256:afe729a62a77402e03c996b361f320e19022178ca0124f4e2aee12ae4ba03a43",
           "question": "Read the following paragraph and determine which sentence has the incorrect punctuation of direct speech. (1) I got to basketball practice late, because my alarm didn’t go off. (2) “Run laps,” my coach said. (3) “Do I really have to I asked him.” (4) My coach responded, “Yes, get on? the court!”",
           "choices": [
             "Sentence 1",
-            "Sentence",
-            "Sentence",
-            "Sentence"
+            "Sentence 2",
+            "Sentence 3",
+            "Sentence 4"
           ],
           "correct": 2,
           "explanation": {
-            "correct": "Answer: Sentence. Sentence 3; Sentence 3 is incorrect because the entire sentence is i n quotation marks. Do I really have to I asked him. Only the direct speech should be: “?”",
+            "correct": "Answer: Sentence 3. The quoted question should keep the question mark inside the quotation marks before the speaker tag.",
             "incorrect": [
-              "Not: Sentence 1. Use the mechanics rule and sentence context to check this choice.",
-              "Not: Sentence. Use the mechanics rule and sentence context to check this choice.",
+              "Not: Sentence 1. This sentence is not the direct-speech punctuation error.",
+              "Not: Sentence 2. This command is punctuated correctly as direct speech.",
               "",
-              "Not: Sentence. Use the mechanics rule and sentence context to check this choice."
+              "Not: Sentence 4. This choice is not the sentence with the quoted question error."
             ]
           },
           "studyAid": {

@@ -1,0 +1,3003 @@
+/**
+ * English Language Quiz App - reference-skills subchunk: reference-skills-nonfiction-text-features 2
+ * Generated from assets/question-bank-source/reference-skills.json.
+ * Generator version: 1.
+ * Source hash: sha256:fc4f503823b957839179fa6da16c1bb60cc64dfc4aa400de69f9ff56fc8ec6e1.
+ */
+(function () {
+  'use strict';
+  const chunkSet = {
+  "title": "Nonfiction Text Features",
+  "topic": "Reference Skills / Misc.",
+  "questions": [
+    {
+      "id": "reference-skills-nonfiction-text-features-q0051",
+      "version": 1,
+      "contentHash": "sha256:b42485e7729b24115d5e2db03a056e080284f0d766f1af39df7d8d487f4866de",
+      "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
+      "choices": [
+        "a novel's dialogue",
+        "a lunch menu",
+        "a sports schedule",
+        "a glossary or dictionary"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Glossaries and dictionaries explain word meanings.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a glossary or dictionary. Glossaries and dictionaries explain word meanings.",
+        "incorrect": [
+          "Not: a novel's dialogue. Glossaries and dictionaries explain word meanings.",
+          "Not: a lunch menu. Glossaries and dictionaries explain word meanings.",
+          "Not: a sports schedule. Glossaries and dictionaries explain word meanings.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 51,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0052",
+      "version": 1,
+      "contentHash": "sha256:e469be18c909b84bb50386fefabbebc54588ce5a93a52a751c09a4c3b97b2c4b",
+      "question": "Grade 3 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
+      "choices": [
+        "sea turtle nesting habits",
+        "turtles nice",
+        "ocean stuff",
+        "animals everywhere"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Strong search terms use specific keywords.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: sea turtle nesting habits. Strong search terms use specific keywords.",
+        "incorrect": [
+          "",
+          "Not: turtles nice. Strong search terms use specific keywords.",
+          "Not: ocean stuff. Strong search terms use specific keywords.",
+          "Not: animals everywhere. Strong search terms use specific keywords."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 52,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0053",
+      "version": 1,
+      "contentHash": "sha256:6f0ae4b859e4391a2bb2a56f0f773e50f50cbbe0703476b18ecb3630ff3d4781",
+      "question": "Grade 3 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
+      "choices": [
+        "an anonymous comment with no source",
+        "a national weather agency page",
+        "a toy advertisement",
+        "a joke page"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Credible sources have expertise and reliable information.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a national weather agency page. Credible sources have expertise and reliable information.",
+        "incorrect": [
+          "Not: an anonymous comment with no source. Credible sources have expertise and reliable information.",
+          "",
+          "Not: a toy advertisement. Credible sources have expertise and reliable information.",
+          "Not: a joke page. Credible sources have expertise and reliable information."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 53,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0054",
+      "version": 1,
+      "contentHash": "sha256:4e6916570e9e76332c5b2c840d6db6381a46cbcd487bd40ec6f72f0cad7e0110",
+      "question": "Grade 3 Easy: Choose the best answer. What does a caption do?",
+      "choices": [
+        "shows alphabetical topics",
+        "lists every chapter",
+        "explains a picture or diagram",
+        "marks dialogue"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Captions help readers understand images.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: explains a picture or diagram. Captions help readers understand images.",
+        "incorrect": [
+          "Not: shows alphabetical topics. Captions help readers understand images.",
+          "Not: lists every chapter. Captions help readers understand images.",
+          "",
+          "Not: marks dialogue. Captions help readers understand images."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 54,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0055",
+      "version": 1,
+      "contentHash": "sha256:4856a4f057b7bc3f7b64ffcc1480253b7cc02c6d411eb2c139075d01ba855479",
+      "question": "Grade 3 Easy: Choose the best answer. What does an index help readers find?",
+      "choices": [
+        "the price of the book",
+        "the author's favorite food",
+        "only the title page",
+        "pages where specific topics appear"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "An index lists topics alphabetically with page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: pages where specific topics appear. An index lists topics alphabetically with page numbers.",
+        "incorrect": [
+          "Not: the price of the book. An index lists topics alphabetically with page numbers.",
+          "Not: the author's favorite food. An index lists topics alphabetically with page numbers.",
+          "Not: only the title page. An index lists topics alphabetically with page numbers.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 55,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0056",
+      "version": 1,
+      "contentHash": "sha256:91a181c8417c810f14c08d77182fc9ee62997e9257fe13ab7ddcbb2aea51472e",
+      "question": "Grade 3 Easy: Choose the best answer. What is media bias?",
+      "choices": [
+        "a slant that favors one side or viewpoint",
+        "a spelling pattern",
+        "a type of rhyme",
+        "a table of contents"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Bias can affect how information is presented.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a slant that favors one side or viewpoint. Bias can affect how information is presented.",
+        "incorrect": [
+          "",
+          "Not: a spelling pattern. Bias can affect how information is presented.",
+          "Not: a type of rhyme. Bias can affect how information is presented.",
+          "Not: a table of contents. Bias can affect how information is presented."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 56,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0057",
+      "version": 1,
+      "contentHash": "sha256:86633f8f86eeaa133d21d730a19e63751ea4e8304b60c2d3ba4c96ade01346f5",
+      "question": "Grade 3 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
+      "choices": [
+        "The backpack has two pockets.",
+        "This backpack is the strongest choice for students.",
+        "The backpack weighs one pound.",
+        "The backpack is blue."
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Ads often make claims to persuade.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: This backpack is the strongest choice for students.. Ads often make claims to persuade.",
+        "incorrect": [
+          "Not: The backpack has two pockets.. Ads often make claims to persuade.",
+          "",
+          "Not: The backpack weighs one pound.. Ads often make claims to persuade.",
+          "Not: The backpack is blue.. Ads often make claims to persuade."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 57,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0058",
+      "version": 1,
+      "contentHash": "sha256:21e953d3aa12d6fe0a2920a464ed6758f55ea5e6bd5ff0d2fb53d57dfc089a34",
+      "question": "Grade 3 Easy: Choose the best answer. Which evidence would best support a product claim?",
+      "choices": [
+        "a funny picture",
+        "a bigger font",
+        "results from a fair test comparing the product to others",
+        "a catchy song only"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Evidence should prove the claim.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: results from a fair test comparing the product to others. Evidence should prove the claim.",
+        "incorrect": [
+          "Not: a funny picture. Evidence should prove the claim.",
+          "Not: a bigger font. Evidence should prove the claim.",
+          "",
+          "Not: a catchy song only. Evidence should prove the claim."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 58,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0059",
+      "version": 1,
+      "contentHash": "sha256:79ecd0af9deda273f81a31108bb9bf059d9a1da55674341599cb335351a2eee5",
+      "question": "Grade 3 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
+      "choices": [
+        "a stanza",
+        "a glossary",
+        "a dialogue tag",
+        "a bar graph"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Graphs show numerical information clearly.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a bar graph. Graphs show numerical information clearly.",
+        "incorrect": [
+          "Not: a stanza. Graphs show numerical information clearly.",
+          "Not: a glossary. Graphs show numerical information clearly.",
+          "Not: a dialogue tag. Graphs show numerical information clearly.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 59,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0060",
+      "version": 1,
+      "contentHash": "sha256:47eadb75eb05da7449095a2f6f5f1f6c21dec0e987a62b411329dbd661a74eab",
+      "question": "Grade 3 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
+      "choices": [
+        "table of contents",
+        "caption",
+        "footnote only",
+        "dialogue"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A table of contents lists major sections and page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: table of contents. A table of contents lists major sections and page numbers.",
+        "incorrect": [
+          "",
+          "Not: caption. A table of contents lists major sections and page numbers.",
+          "Not: footnote only. A table of contents lists major sections and page numbers.",
+          "Not: dialogue. A table of contents lists major sections and page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 60,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0061",
+      "version": 1,
+      "contentHash": "sha256:74a60488a7b7469f67c1b16fc506db4dfe523f2506dc16e29484b2ae2e38050a",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. What does a caption do?",
+      "choices": [
+        "lists every chapter",
+        "explains a picture or diagram",
+        "shows alphabetical topics",
+        "marks dialogue"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Captions help readers understand images.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: explains a picture or diagram. Captions help readers understand images.",
+        "incorrect": [
+          "Not: lists every chapter. Captions help readers understand images.",
+          "",
+          "Not: shows alphabetical topics. Captions help readers understand images.",
+          "Not: marks dialogue. Captions help readers understand images."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 61,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0062",
+      "version": 1,
+      "contentHash": "sha256:1b0ab577e9f20cb73409dbaa5267e73cc678ed068c6467f2b3f48367762eec71",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. What does an index help readers find?",
+      "choices": [
+        "only the title page",
+        "the author's favorite food",
+        "pages where specific topics appear",
+        "the price of the book"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "An index lists topics alphabetically with page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: pages where specific topics appear. An index lists topics alphabetically with page numbers.",
+        "incorrect": [
+          "Not: only the title page. An index lists topics alphabetically with page numbers.",
+          "Not: the author's favorite food. An index lists topics alphabetically with page numbers.",
+          "",
+          "Not: the price of the book. An index lists topics alphabetically with page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 62,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0063",
+      "version": 1,
+      "contentHash": "sha256:d52338aa6448be0de347ee4b77a33f2b70ca168c7a572fa91b350e938cde01aa",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
+      "choices": [
+        "a stanza",
+        "a glossary",
+        "a dialogue tag",
+        "a bar graph"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Graphs show numerical information clearly.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a bar graph. Graphs show numerical information clearly.",
+        "incorrect": [
+          "Not: a stanza. Graphs show numerical information clearly.",
+          "Not: a glossary. Graphs show numerical information clearly.",
+          "Not: a dialogue tag. Graphs show numerical information clearly.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 63,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0064",
+      "version": 1,
+      "contentHash": "sha256:e4826093a3cbefeeb39b6a85d94f26bc22cfe88ffaf0bbc4be0f4fd663266da4",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
+      "choices": [
+        "table of contents",
+        "caption",
+        "footnote only",
+        "dialogue"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A table of contents lists major sections and page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: table of contents. A table of contents lists major sections and page numbers.",
+        "incorrect": [
+          "",
+          "Not: caption. A table of contents lists major sections and page numbers.",
+          "Not: footnote only. A table of contents lists major sections and page numbers.",
+          "Not: dialogue. A table of contents lists major sections and page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 64,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0065",
+      "version": 1,
+      "contentHash": "sha256:82593c1090b579f832b537149e12ed8f498d60fa7d59f5fc2ebfe50e85598537",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
+      "choices": [
+        "an atlas",
+        "a thesaurus",
+        "a recipe",
+        "a calendar"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A thesaurus lists synonyms and related words.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a thesaurus. A thesaurus lists synonyms and related words.",
+        "incorrect": [
+          "Not: an atlas. A thesaurus lists synonyms and related words.",
+          "",
+          "Not: a recipe. A thesaurus lists synonyms and related words.",
+          "Not: a calendar. A thesaurus lists synonyms and related words."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 65,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0066",
+      "version": 1,
+      "contentHash": "sha256:a0e79f87b5b8df22b45c719fff7450429160f5b144d6baafeebf64559086f37f",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
+      "choices": [
+        "a sports schedule",
+        "a lunch menu",
+        "a glossary or dictionary",
+        "a novel's dialogue"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Glossaries and dictionaries explain word meanings.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a glossary or dictionary. Glossaries and dictionaries explain word meanings.",
+        "incorrect": [
+          "Not: a sports schedule. Glossaries and dictionaries explain word meanings.",
+          "Not: a lunch menu. Glossaries and dictionaries explain word meanings.",
+          "",
+          "Not: a novel's dialogue. Glossaries and dictionaries explain word meanings."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 66,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0067",
+      "version": 1,
+      "contentHash": "sha256:a51b31a448f064b0e5bb7ea26bb678d4d313c7b95473aabfafd707991f02ef48",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
+      "choices": [
+        "animals everywhere",
+        "turtles nice",
+        "ocean stuff",
+        "sea turtle nesting habits"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Strong search terms use specific keywords.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: sea turtle nesting habits. Strong search terms use specific keywords.",
+        "incorrect": [
+          "Not: animals everywhere. Strong search terms use specific keywords.",
+          "Not: turtles nice. Strong search terms use specific keywords.",
+          "Not: ocean stuff. Strong search terms use specific keywords.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 67,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0068",
+      "version": 1,
+      "contentHash": "sha256:8fab648d49a94da9994885ea6fdf4e935f8a39951ed47439f1d8d22a4f96d0dc",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
+      "choices": [
+        "a national weather agency page",
+        "an anonymous comment with no source",
+        "a toy advertisement",
+        "a joke page"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Credible sources have expertise and reliable information.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a national weather agency page. Credible sources have expertise and reliable information.",
+        "incorrect": [
+          "",
+          "Not: an anonymous comment with no source. Credible sources have expertise and reliable information.",
+          "Not: a toy advertisement. Credible sources have expertise and reliable information.",
+          "Not: a joke page. Credible sources have expertise and reliable information."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 68,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0069",
+      "version": 1,
+      "contentHash": "sha256:74a60488a7b7469f67c1b16fc506db4dfe523f2506dc16e29484b2ae2e38050a",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. What does a caption do?",
+      "choices": [
+        "lists every chapter",
+        "explains a picture or diagram",
+        "shows alphabetical topics",
+        "marks dialogue"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Captions help readers understand images.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: explains a picture or diagram. Captions help readers understand images.",
+        "incorrect": [
+          "Not: lists every chapter. Captions help readers understand images.",
+          "",
+          "Not: shows alphabetical topics. Captions help readers understand images.",
+          "Not: marks dialogue. Captions help readers understand images."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 69,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0070",
+      "version": 1,
+      "contentHash": "sha256:1b0ab577e9f20cb73409dbaa5267e73cc678ed068c6467f2b3f48367762eec71",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. What does an index help readers find?",
+      "choices": [
+        "only the title page",
+        "the author's favorite food",
+        "pages where specific topics appear",
+        "the price of the book"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "An index lists topics alphabetically with page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: pages where specific topics appear. An index lists topics alphabetically with page numbers.",
+        "incorrect": [
+          "Not: only the title page. An index lists topics alphabetically with page numbers.",
+          "Not: the author's favorite food. An index lists topics alphabetically with page numbers.",
+          "",
+          "Not: the price of the book. An index lists topics alphabetically with page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 70,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0071",
+      "version": 1,
+      "contentHash": "sha256:5b6dfd28f265f16b3e179d52952f04297fe0d80634db4111beafc63caac8c570",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. What is media bias?",
+      "choices": [
+        "a table of contents",
+        "a spelling pattern",
+        "a type of rhyme",
+        "a slant that favors one side or viewpoint"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Bias can affect how information is presented.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a slant that favors one side or viewpoint. Bias can affect how information is presented.",
+        "incorrect": [
+          "Not: a table of contents. Bias can affect how information is presented.",
+          "Not: a spelling pattern. Bias can affect how information is presented.",
+          "Not: a type of rhyme. Bias can affect how information is presented.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 71,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0072",
+      "version": 1,
+      "contentHash": "sha256:8ddf34ccbe748321750ac4834b64fac85ddd04a3348fee0691c9e0b3d1b0bef7",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
+      "choices": [
+        "This backpack is the strongest choice for students.",
+        "The backpack has two pockets.",
+        "The backpack weighs one pound.",
+        "The backpack is blue."
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Ads often make claims to persuade.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: This backpack is the strongest choice for students.. Ads often make claims to persuade.",
+        "incorrect": [
+          "",
+          "Not: The backpack has two pockets.. Ads often make claims to persuade.",
+          "Not: The backpack weighs one pound.. Ads often make claims to persuade.",
+          "Not: The backpack is blue.. Ads often make claims to persuade."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 72,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0073",
+      "version": 1,
+      "contentHash": "sha256:c916eff1a0ad3500dfaaf938e45f02c15f10cc8a4fb2bacb199e05a231f5dbc7",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
+      "choices": [
+        "a bigger font",
+        "results from a fair test comparing the product to others",
+        "a funny picture",
+        "a catchy song only"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Evidence should prove the claim.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: results from a fair test comparing the product to others. Evidence should prove the claim.",
+        "incorrect": [
+          "Not: a bigger font. Evidence should prove the claim.",
+          "",
+          "Not: a funny picture. Evidence should prove the claim.",
+          "Not: a catchy song only. Evidence should prove the claim."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 73,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0074",
+      "version": 1,
+      "contentHash": "sha256:1c8ce08af77f5a8ef1fe3258b230bbec9fd8f5f60927fd34d14e7566f0ff7f11",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
+      "choices": [
+        "a dialogue tag",
+        "a glossary",
+        "a bar graph",
+        "a stanza"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Graphs show numerical information clearly.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a bar graph. Graphs show numerical information clearly.",
+        "incorrect": [
+          "Not: a dialogue tag. Graphs show numerical information clearly.",
+          "Not: a glossary. Graphs show numerical information clearly.",
+          "",
+          "Not: a stanza. Graphs show numerical information clearly."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 74,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0075",
+      "version": 1,
+      "contentHash": "sha256:bd30642a48cff0a3c7322b2bc2f5d63ac13003596dbd180fdc0c11ebbc52c8a1",
+      "question": "Grade 3 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
+      "choices": [
+        "dialogue",
+        "caption",
+        "footnote only",
+        "table of contents"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A table of contents lists major sections and page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: table of contents. A table of contents lists major sections and page numbers.",
+        "incorrect": [
+          "Not: dialogue. A table of contents lists major sections and page numbers.",
+          "Not: caption. A table of contents lists major sections and page numbers.",
+          "Not: footnote only. A table of contents lists major sections and page numbers.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "medium"
+        },
+        "primaryDifficulty": "medium",
+        "intrinsicDifficulty": "medium",
+        "cognitiveDemand": "apply-with-context",
+        "languageDemand": "sentence-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 65,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 75,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0076",
+      "version": 1,
+      "contentHash": "sha256:2fcf5f360b39742412e793fbd30e4bcf9baa876126f3ed65f7c9cb1b8be2b636",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
+      "choices": [
+        "explains a picture or diagram",
+        "lists every chapter",
+        "shows alphabetical topics",
+        "marks dialogue"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Captions help readers understand images.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: explains a picture or diagram. Captions help readers understand images.",
+        "incorrect": [
+          "",
+          "Not: lists every chapter. Captions help readers understand images.",
+          "Not: shows alphabetical topics. Captions help readers understand images.",
+          "Not: marks dialogue. Captions help readers understand images."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 76,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0077",
+      "version": 1,
+      "contentHash": "sha256:ca75dd8980bbb01c1545c84914212e57de9eae0d4b292fd4ba2fa702e70e0341",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
+      "choices": [
+        "the author's favorite food",
+        "pages where specific topics appear",
+        "only the title page",
+        "the price of the book"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "An index lists topics alphabetically with page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: pages where specific topics appear. An index lists topics alphabetically with page numbers.",
+        "incorrect": [
+          "Not: the author's favorite food. An index lists topics alphabetically with page numbers.",
+          "",
+          "Not: only the title page. An index lists topics alphabetically with page numbers.",
+          "Not: the price of the book. An index lists topics alphabetically with page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 77,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0078",
+      "version": 1,
+      "contentHash": "sha256:9d21dd05601fb4458ac9d249ba972b5b2e0f7da2323b030b7d968053af0286b3",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
+      "choices": [
+        "a dialogue tag",
+        "a glossary",
+        "a bar graph",
+        "a stanza"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Graphs show numerical information clearly.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a bar graph. Graphs show numerical information clearly.",
+        "incorrect": [
+          "Not: a dialogue tag. Graphs show numerical information clearly.",
+          "Not: a glossary. Graphs show numerical information clearly.",
+          "",
+          "Not: a stanza. Graphs show numerical information clearly."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 78,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0079",
+      "version": 1,
+      "contentHash": "sha256:158d294f8a0cc091b21730bb4d3c6739591e2e754608fbf2f8d890ea801bf401",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
+      "choices": [
+        "dialogue",
+        "caption",
+        "footnote only",
+        "table of contents"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A table of contents lists major sections and page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: table of contents. A table of contents lists major sections and page numbers.",
+        "incorrect": [
+          "Not: dialogue. A table of contents lists major sections and page numbers.",
+          "Not: caption. A table of contents lists major sections and page numbers.",
+          "Not: footnote only. A table of contents lists major sections and page numbers.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 79,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0080",
+      "version": 1,
+      "contentHash": "sha256:850fba051745b9eb9a25e1bd5db325793876709209be068c9b884bb05bcfb761",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
+      "choices": [
+        "a thesaurus",
+        "an atlas",
+        "a recipe",
+        "a calendar"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A thesaurus lists synonyms and related words.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a thesaurus. A thesaurus lists synonyms and related words.",
+        "incorrect": [
+          "",
+          "Not: an atlas. A thesaurus lists synonyms and related words.",
+          "Not: a recipe. A thesaurus lists synonyms and related words.",
+          "Not: a calendar. A thesaurus lists synonyms and related words."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 80,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0081",
+      "version": 1,
+      "contentHash": "sha256:f2493c677a524c61a9ea29fabfb68d5e78a6fb4468b026107ab78791084badf6",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
+      "choices": [
+        "a lunch menu",
+        "a glossary or dictionary",
+        "a sports schedule",
+        "a novel's dialogue"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Glossaries and dictionaries explain word meanings.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a glossary or dictionary. Glossaries and dictionaries explain word meanings.",
+        "incorrect": [
+          "Not: a lunch menu. Glossaries and dictionaries explain word meanings.",
+          "",
+          "Not: a sports schedule. Glossaries and dictionaries explain word meanings.",
+          "Not: a novel's dialogue. Glossaries and dictionaries explain word meanings."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 81,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0082",
+      "version": 1,
+      "contentHash": "sha256:1dbc05b5a9eec160b1143bc1bcf3f841647266802e8ff264e0342f27b8d84e00",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
+      "choices": [
+        "ocean stuff",
+        "turtles nice",
+        "sea turtle nesting habits",
+        "animals everywhere"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Strong search terms use specific keywords.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: sea turtle nesting habits. Strong search terms use specific keywords.",
+        "incorrect": [
+          "Not: ocean stuff. Strong search terms use specific keywords.",
+          "Not: turtles nice. Strong search terms use specific keywords.",
+          "",
+          "Not: animals everywhere. Strong search terms use specific keywords."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 82,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0083",
+      "version": 1,
+      "contentHash": "sha256:fe67320a0dcf7c5c8df21353e67ddcf228adfc8417c4a418d34b03957af2fd86",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
+      "choices": [
+        "a joke page",
+        "an anonymous comment with no source",
+        "a toy advertisement",
+        "a national weather agency page"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Credible sources have expertise and reliable information.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a national weather agency page. Credible sources have expertise and reliable information.",
+        "incorrect": [
+          "Not: a joke page. Credible sources have expertise and reliable information.",
+          "Not: an anonymous comment with no source. Credible sources have expertise and reliable information.",
+          "Not: a toy advertisement. Credible sources have expertise and reliable information.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 83,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0084",
+      "version": 1,
+      "contentHash": "sha256:2fcf5f360b39742412e793fbd30e4bcf9baa876126f3ed65f7c9cb1b8be2b636",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
+      "choices": [
+        "explains a picture or diagram",
+        "lists every chapter",
+        "shows alphabetical topics",
+        "marks dialogue"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Captions help readers understand images.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: explains a picture or diagram. Captions help readers understand images.",
+        "incorrect": [
+          "",
+          "Not: lists every chapter. Captions help readers understand images.",
+          "Not: shows alphabetical topics. Captions help readers understand images.",
+          "Not: marks dialogue. Captions help readers understand images."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 84,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0085",
+      "version": 1,
+      "contentHash": "sha256:ca75dd8980bbb01c1545c84914212e57de9eae0d4b292fd4ba2fa702e70e0341",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
+      "choices": [
+        "the author's favorite food",
+        "pages where specific topics appear",
+        "only the title page",
+        "the price of the book"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "An index lists topics alphabetically with page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: pages where specific topics appear. An index lists topics alphabetically with page numbers.",
+        "incorrect": [
+          "Not: the author's favorite food. An index lists topics alphabetically with page numbers.",
+          "",
+          "Not: only the title page. An index lists topics alphabetically with page numbers.",
+          "Not: the price of the book. An index lists topics alphabetically with page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 85,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0086",
+      "version": 1,
+      "contentHash": "sha256:e559859f84e8d85a9dbeedd5586bceccbda9b6337c5df7291946577654badfad",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What is media bias?",
+      "choices": [
+        "a type of rhyme",
+        "a spelling pattern",
+        "a slant that favors one side or viewpoint",
+        "a table of contents"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Bias can affect how information is presented.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a slant that favors one side or viewpoint. Bias can affect how information is presented.",
+        "incorrect": [
+          "Not: a type of rhyme. Bias can affect how information is presented.",
+          "Not: a spelling pattern. Bias can affect how information is presented.",
+          "",
+          "Not: a table of contents. Bias can affect how information is presented."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 86,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0087",
+      "version": 1,
+      "contentHash": "sha256:361fca0c59365472a13c5ae6d072d901b13f67b1c213badab6806394054c2a21",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
+      "choices": [
+        "The backpack is blue.",
+        "The backpack has two pockets.",
+        "The backpack weighs one pound.",
+        "This backpack is the strongest choice for students."
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Ads often make claims to persuade.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: This backpack is the strongest choice for students.. Ads often make claims to persuade.",
+        "incorrect": [
+          "Not: The backpack is blue.. Ads often make claims to persuade.",
+          "Not: The backpack has two pockets.. Ads often make claims to persuade.",
+          "Not: The backpack weighs one pound.. Ads often make claims to persuade.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 87,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0088",
+      "version": 1,
+      "contentHash": "sha256:176933112d55fcc9c7172b20a56ccf43ae5323d82eaab88f33ec75de14410cc4",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
+      "choices": [
+        "results from a fair test comparing the product to others",
+        "a bigger font",
+        "a funny picture",
+        "a catchy song only"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Evidence should prove the claim.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: results from a fair test comparing the product to others. Evidence should prove the claim.",
+        "incorrect": [
+          "",
+          "Not: a bigger font. Evidence should prove the claim.",
+          "Not: a funny picture. Evidence should prove the claim.",
+          "Not: a catchy song only. Evidence should prove the claim."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 88,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0089",
+      "version": 1,
+      "contentHash": "sha256:5bdf1797d0d46a8eb8bd581f93790e0294baac23f26c2963d68510977e78dd5c",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
+      "choices": [
+        "a glossary",
+        "a bar graph",
+        "a dialogue tag",
+        "a stanza"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Graphs show numerical information clearly.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a bar graph. Graphs show numerical information clearly.",
+        "incorrect": [
+          "Not: a glossary. Graphs show numerical information clearly.",
+          "",
+          "Not: a dialogue tag. Graphs show numerical information clearly.",
+          "Not: a stanza. Graphs show numerical information clearly."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 89,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0090",
+      "version": 1,
+      "contentHash": "sha256:14ba25cc6b790ad236bfd8745fe8620c40133ce23429abe044c0e0ebd0414878",
+      "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
+      "choices": [
+        "footnote only",
+        "caption",
+        "table of contents",
+        "dialogue"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A table of contents lists major sections and page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: table of contents. A table of contents lists major sections and page numbers.",
+        "incorrect": [
+          "Not: footnote only. A table of contents lists major sections and page numbers.",
+          "Not: caption. A table of contents lists major sections and page numbers.",
+          "",
+          "Not: dialogue. A table of contents lists major sections and page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          4
+        ],
+        "difficultyByGrade": {
+          "4": "hard"
+        },
+        "primaryDifficulty": "hard",
+        "intrinsicDifficulty": "hard",
+        "cognitiveDemand": "analyze-and-explain",
+        "languageDemand": "extended-context",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 85,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 90,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0091",
+      "version": 1,
+      "contentHash": "sha256:8790a9a918c664afd37d1e71c887b93c0b6f19aba4d0dbfa05e3ac18f64c98c5",
+      "question": "Grade 4 Easy: Choose the best answer. What does a caption do?",
+      "choices": [
+        "explains a picture or diagram",
+        "lists every chapter",
+        "shows alphabetical topics",
+        "marks dialogue"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Captions help readers understand images.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: explains a picture or diagram. Captions help readers understand images.",
+        "incorrect": [
+          "",
+          "Not: lists every chapter. Captions help readers understand images.",
+          "Not: shows alphabetical topics. Captions help readers understand images.",
+          "Not: marks dialogue. Captions help readers understand images."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 91,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0092",
+      "version": 1,
+      "contentHash": "sha256:75d9184098e24746cd5eae41c4345840d0ddc63967aeed34429cbc3449bd1c8d",
+      "question": "Grade 4 Easy: Choose the best answer. What does an index help readers find?",
+      "choices": [
+        "the author's favorite food",
+        "pages where specific topics appear",
+        "only the title page",
+        "the price of the book"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "An index lists topics alphabetically with page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: pages where specific topics appear. An index lists topics alphabetically with page numbers.",
+        "incorrect": [
+          "Not: the author's favorite food. An index lists topics alphabetically with page numbers.",
+          "",
+          "Not: only the title page. An index lists topics alphabetically with page numbers.",
+          "Not: the price of the book. An index lists topics alphabetically with page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 92,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0093",
+      "version": 1,
+      "contentHash": "sha256:4583f4c45e772ccf57337f08b90ea90eed5cd79927555b4ae3ff36067edbd4ff",
+      "question": "Grade 4 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
+      "choices": [
+        "a dialogue tag",
+        "a glossary",
+        "a bar graph",
+        "a stanza"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Graphs show numerical information clearly.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a bar graph. Graphs show numerical information clearly.",
+        "incorrect": [
+          "Not: a dialogue tag. Graphs show numerical information clearly.",
+          "Not: a glossary. Graphs show numerical information clearly.",
+          "",
+          "Not: a stanza. Graphs show numerical information clearly."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 93,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0094",
+      "version": 1,
+      "contentHash": "sha256:705ecd733f0937a9cda306bcd35525eb2a85ff54ab9c443d22dabf7ae48b800e",
+      "question": "Grade 4 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
+      "choices": [
+        "dialogue",
+        "caption",
+        "footnote only",
+        "table of contents"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A table of contents lists major sections and page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: table of contents. A table of contents lists major sections and page numbers.",
+        "incorrect": [
+          "Not: dialogue. A table of contents lists major sections and page numbers.",
+          "Not: caption. A table of contents lists major sections and page numbers.",
+          "Not: footnote only. A table of contents lists major sections and page numbers.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 94,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0095",
+      "version": 1,
+      "contentHash": "sha256:33e774c0dd0c3c20a8be5de6ec03e85ef0ef782d7325a63a968bc6c7205aced3",
+      "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
+      "choices": [
+        "a thesaurus",
+        "an atlas",
+        "a recipe",
+        "a calendar"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "A thesaurus lists synonyms and related words.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a thesaurus. A thesaurus lists synonyms and related words.",
+        "incorrect": [
+          "",
+          "Not: an atlas. A thesaurus lists synonyms and related words.",
+          "Not: a recipe. A thesaurus lists synonyms and related words.",
+          "Not: a calendar. A thesaurus lists synonyms and related words."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 95,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0096",
+      "version": 1,
+      "contentHash": "sha256:ce075fee28af513aa9cbc9710ad07bbe1eaffb7616cdab992612df98b26c5af1",
+      "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
+      "choices": [
+        "a lunch menu",
+        "a glossary or dictionary",
+        "a sports schedule",
+        "a novel's dialogue"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Glossaries and dictionaries explain word meanings.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a glossary or dictionary. Glossaries and dictionaries explain word meanings.",
+        "incorrect": [
+          "Not: a lunch menu. Glossaries and dictionaries explain word meanings.",
+          "",
+          "Not: a sports schedule. Glossaries and dictionaries explain word meanings.",
+          "Not: a novel's dialogue. Glossaries and dictionaries explain word meanings."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 96,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0097",
+      "version": 1,
+      "contentHash": "sha256:07f55a9f0d5ce310b2adc65ea4d5aff25af6d8660d209f877aa7f74c2e8ea75d",
+      "question": "Grade 4 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
+      "choices": [
+        "ocean stuff",
+        "turtles nice",
+        "sea turtle nesting habits",
+        "animals everywhere"
+      ],
+      "correct": 2,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Strong search terms use specific keywords.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: sea turtle nesting habits. Strong search terms use specific keywords.",
+        "incorrect": [
+          "Not: ocean stuff. Strong search terms use specific keywords.",
+          "Not: turtles nice. Strong search terms use specific keywords.",
+          "",
+          "Not: animals everywhere. Strong search terms use specific keywords."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 97,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0098",
+      "version": 1,
+      "contentHash": "sha256:d6dd0dbb033918f207ba79e24cea21af6f300e2d988e812a7e851e015ecb8d2f",
+      "question": "Grade 4 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
+      "choices": [
+        "a joke page",
+        "an anonymous comment with no source",
+        "a toy advertisement",
+        "a national weather agency page"
+      ],
+      "correct": 3,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Credible sources have expertise and reliable information.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: a national weather agency page. Credible sources have expertise and reliable information.",
+        "incorrect": [
+          "Not: a joke page. Credible sources have expertise and reliable information.",
+          "Not: an anonymous comment with no source. Credible sources have expertise and reliable information.",
+          "Not: a toy advertisement. Credible sources have expertise and reliable information.",
+          ""
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 98,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0099",
+      "version": 1,
+      "contentHash": "sha256:8790a9a918c664afd37d1e71c887b93c0b6f19aba4d0dbfa05e3ac18f64c98c5",
+      "question": "Grade 4 Easy: Choose the best answer. What does a caption do?",
+      "choices": [
+        "explains a picture or diagram",
+        "lists every chapter",
+        "shows alphabetical topics",
+        "marks dialogue"
+      ],
+      "correct": 0,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "Captions help readers understand images.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: explains a picture or diagram. Captions help readers understand images.",
+        "incorrect": [
+          "",
+          "Not: lists every chapter. Captions help readers understand images.",
+          "Not: shows alphabetical topics. Captions help readers understand images.",
+          "Not: marks dialogue. Captions help readers understand images."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 99,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    },
+    {
+      "id": "reference-skills-nonfiction-text-features-q0100",
+      "version": 1,
+      "contentHash": "sha256:75d9184098e24746cd5eae41c4345840d0ddc63967aeed34429cbc3449bd1c8d",
+      "question": "Grade 4 Easy: Choose the best answer. What does an index help readers find?",
+      "choices": [
+        "the author's favorite food",
+        "pages where specific topics appear",
+        "only the title page",
+        "the price of the book"
+      ],
+      "correct": 1,
+      "studyAid": {
+        "definition": "Reference, research, media, and text-feature skills help readers locate, evaluate, and use information.",
+        "example": "An index lists topics alphabetically with page numbers.",
+        "link": "https://www.thecorestandards.org/ELA-Literacy/",
+        "linkText": "Common Core ELA standards"
+      },
+      "explanation": {
+        "correct": "Answer: pages where specific topics appear. An index lists topics alphabetically with page numbers.",
+        "incorrect": [
+          "Not: the author's favorite food. An index lists topics alphabetically with page numbers.",
+          "",
+          "Not: only the title page. An index lists topics alphabetically with page numbers.",
+          "Not: the price of the book. An index lists topics alphabetically with page numbers."
+        ]
+      },
+      "metadata": {
+        "gradeLevels": [
+          5
+        ],
+        "difficultyByGrade": {
+          "5": "easy"
+        },
+        "primaryDifficulty": "easy",
+        "intrinsicDifficulty": "easy",
+        "cognitiveDemand": "identify-and-apply",
+        "languageDemand": "short-prompt",
+        "skills": [
+          "text features",
+          "nonfiction reading"
+        ],
+        "standards": [
+          "RI.2-6.5-7"
+        ],
+        "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+        "estimatedTimeSeconds": 45,
+        "reviewPriority": "normal",
+        "sourceSet": "reference-skills-nonfiction-text-features",
+        "sequence": 100,
+        "allowDuplicateContentHash": true,
+        "skillIds": [
+          "reference-skills.reference-research"
+        ],
+        "standardIds": [
+          "RI.2-6.5-7",
+          "W.3-6.7-8"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "gradesSupported": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "difficultiesSupported": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+  }
+};
+  const bank = window.QUESTION_BANK = window.QUESTION_BANK || {};
+  const existing = bank["reference-skills-nonfiction-text-features"];
+  if (existing && Array.isArray(existing.questions)) {
+    const seen = new Set(existing.questions.map(question => question && question.id));
+    chunkSet.questions.forEach(question => {
+      if (!seen.has(question && question.id)) existing.questions.push(question);
+    });
+  } else {
+    bank["reference-skills-nonfiction-text-features"] = chunkSet;
+  }
+})();

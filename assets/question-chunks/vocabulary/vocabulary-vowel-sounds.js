@@ -65,7 +65,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 1
+          "sequence": 1,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -122,7 +124,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 2
+          "sequence": 2,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -179,7 +183,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 3
+          "sequence": 3,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -236,7 +242,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 4
+          "sequence": 4,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -293,7 +301,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 5
+          "sequence": 5,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -350,7 +360,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 6
+          "sequence": 6,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -406,7 +418,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 7
+          "sequence": 7,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -463,7 +477,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 8
+          "sequence": 8,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -520,7 +536,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 9
+          "sequence": 9,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -577,7 +595,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 10
+          "sequence": 10,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -634,7 +654,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 11
+          "sequence": 11,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -691,7 +713,9 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 12
+          "sequence": 12,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -748,7 +772,9 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 13
+          "sequence": 13,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -805,7 +831,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 14
+          "sequence": 14,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -862,7 +890,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 15
+          "sequence": 15,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -919,7 +949,9 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 16
+          "sequence": 16,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -976,7 +1008,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 17
+          "sequence": 17,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -1033,7 +1067,9 @@
           "estimatedTimeSeconds": 55,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 18
+          "sequence": 18,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -1090,7 +1126,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 19
+          "sequence": 19,
+          "skillIds": [],
+          "standardIds": []
         }
       },
       {
@@ -1147,7 +1185,9 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-vowel-sounds",
-          "sequence": 20
+          "sequence": 20,
+          "skillIds": [],
+          "standardIds": []
         }
       }
     ],

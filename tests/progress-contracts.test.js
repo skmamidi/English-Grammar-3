@@ -77,12 +77,15 @@ test('saved session attempt contract contains report dashboard fields', () => {
     correct: true,
     firstAttemptCorrect: true,
     skills: ['sentence types'],
+    skillIds: ['grammar.sentence-analysis'],
+    standardIds: ['L.3-6.1'],
     subtopicId: 'grammar-sentence-types',
     subtopicTitle: 'Sentence Types'
   };
 
   assert.deepEqual(validateSerializedAttempt(attempt), []);
   assert.deepEqual(validateSerializedAttempt(Object.assign({}, attempt, { skills: 'sentence types' })), ['skills']);
+  assert.deepEqual(validateSerializedAttempt(Object.assign({}, attempt, { skillIds: 'grammar.sentence-analysis' })), ['skillIds']);
 });
 
 test('active quiz contract preserves resumable state', () => {
@@ -183,6 +186,8 @@ test('empty and sample progress objects normalize for report consumers', () => {
           correct: true,
           firstAttemptCorrect: true,
           skills: ['grammar'],
+          skillIds: ['grammar.usage'],
+          standardIds: ['L.3-6.1'],
           subtopicId: 'grammar',
           subtopicTitle: 'Grammar'
         }]
@@ -275,6 +280,36 @@ test('question report fixture QA warns when questionId is a report record id', (
     id: 'question-report-123',
     questionId: 'grammar-sentence-types-q0004'
   }), []);
+});
+
+test('progress store projects skill-id mastery from saved sessions', () => {
+  const { progressStore } = loadProgressStoreForTest();
+  const completedAt = '2030-04-29T12:00:00.000Z';
+  const progress = progressStore.appendSavedSession({
+    id: 'session-skill-id',
+    completedAt,
+    attempts: [{
+      questionId: 'grammar-sentence-types-q0001',
+      questionVersion: 1,
+      questionHash: 'sha256:abc',
+      correct: false,
+      skills: ['sentence types'],
+      skillIds: ['grammar.sentence-analysis'],
+      standardIds: ['L.3-6.1'],
+      subtopicId: 'grammar-sentence-types',
+      subtopicTitle: 'Sentence Types'
+    }]
+  }, { sync: false });
+
+  assert.deepEqual(JSON.parse(JSON.stringify(progress.mastery.skills['grammar.sentence-analysis'])), {
+    label: 'grammar.sentence-analysis',
+    correct: 0,
+    total: 1,
+    lastPracticed: completedAt,
+    level: 'Needs focus',
+    questionRefs: ['grammar-sentence-types-q0001']
+  });
+  assert.equal(progress.mastery.standards['L.3-6.1'].total, 1);
 });
 
 test('runtime progress store delegates active quiz and saved sessions to learner state repository', () => {

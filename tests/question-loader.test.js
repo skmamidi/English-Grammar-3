@@ -5,7 +5,7 @@ const test = require('node:test');
 const vm = require('vm');
 
 const { loadQuestionBanks } = require('../scripts/qa/bank-loader');
-const { buildIndexManifest, loadManifest } = require('../scripts/generate-question-manifest');
+const { buildIndexManifest, getSourceSet, loadManifest } = require('../scripts/generate-question-manifest');
 
 const repoRoot = path.resolve(__dirname, '..');
 const loaderScript = fs.readFileSync(path.join(repoRoot, 'assets', 'question-loader.js'), 'utf8');
@@ -36,6 +36,21 @@ test('loader resolves a set by id from chunk manifest', async () => {
   assert.equal(set.topic, 'Capitalization');
   assert.ok(set.questions.length > 0);
   assert.ok(set.questions.every(question => question.id.startsWith('capitalization-proper-names-titles-q')));
+});
+
+test('loader returns canonical source-bank content for chunk-loaded sets', async () => {
+  const context = createLoaderContext({
+    manifest: buildIndexManifest(loadManifest())
+  });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  const set = await context.window.GrammarQuestQuestionLoader.loadSet('capitalization-proper-names-titles');
+  const sourceSet = getSourceSet(loadQuestionBanks(), 'capitalization-proper-names-titles');
+  const canonicalContent = Object.assign({}, set);
+  delete canonicalContent.id;
+
+  assert.deepEqual(toJsonValue(canonicalContent), toJsonValue(sourceSet));
 });
 
 test('loader hydrates question refs from chunk-backed source sets', async () => {
@@ -104,4 +119,8 @@ function createScriptLoadingDocument(context) {
   document.documentElement = document.head;
   document.body = document.head;
   return document;
+}
+
+function toJsonValue(value) {
+  return JSON.parse(JSON.stringify(value));
 }

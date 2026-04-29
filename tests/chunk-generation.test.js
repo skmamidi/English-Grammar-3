@@ -14,15 +14,17 @@ const {
 const {
   generateManifest,
   getSourceSet,
+  validateManifest
+} = require('../scripts/generate-question-manifest');
+const {
   loadChunkBank,
-  validateManifest,
   validateQuestionChunkSet,
   validateQuestionChunks
-} = require('../scripts/generate-question-manifest');
+} = require('../scripts/qa/chunk-qa');
 
 test('chunk files exactly match source bank sets', () => {
   const bankLoad = loadQuestionBanks();
-  const manifest = generateManifest(bankLoad);
+  const manifest = loadMutableManifest();
   const result = validateQuestionChunks(manifest, bankLoad);
 
   assert.deepEqual(result.errors, []);
@@ -42,7 +44,54 @@ test('chunk validation fails when a chunk has stale content', () => {
     chunkSet: chunkBank['capitalization-proper-names-titles']
   });
 
-  assert.ok(result.errors.some(error => error.includes('contentHash')));
+  assert.match(result.errors[0], /capitalization-proper-names-titles/);
+  assert.match(result.errors[0], /q0001/);
+  assert.match(result.errors[0], /contentHash/);
+});
+
+test('manifest validation fails when a declared chunk is missing', () => {
+  const manifest = loadMutableManifest();
+  manifest.sets.find(set => set.chunkFile).chunkFile = 'assets/question-chunks/missing.js';
+
+  assert.throws(
+    () => validateManifest(manifest, loadQuestionBanks(), { validateChunks: true }),
+    /missing\.js/
+  );
+});
+
+test('chunk validation reports question id order drift', () => {
+  const bankLoad = loadQuestionBanks();
+  const sourceSet = getSourceSet(bankLoad, 'capitalization-proper-names-titles');
+  const result = validateQuestionChunkSet({
+    setId: 'capitalization-proper-names-titles',
+    sourceSet,
+    chunkSet: Object.assign({}, sourceSet, {
+      questions: sourceSet.questions.slice(1).concat(sourceSet.questions[0])
+    })
+  });
+
+  assert.match(result.errors[0], /question 1 id/);
+  assert.match(result.errors[0], /capitalization-proper-names-titles/);
+});
+
+test('chunk validation requires each chunk to populate exactly the declared set id', () => {
+  const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'question-chunk-validation-'));
+  const chunkDir = path.join(tempRoot, 'assets', 'question-chunks', 'capitalization');
+  const chunkPath = path.join(chunkDir, 'capitalization-proper-names-titles.js');
+  fs.mkdirSync(chunkDir, { recursive: true });
+  fs.writeFileSync(chunkPath, [
+    '(function () {',
+    '  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, {',
+    '    "capitalization-proper-names-titles": { title: "x", topic: "x", questions: [] },',
+    '    "capitalization-extra": { title: "x", topic: "x", questions: [] }',
+    '  });',
+    '})();'
+  ].join('\n'));
+
+  const manifest = loadMutableManifest();
+  const result = validateQuestionChunks(manifest, loadQuestionBanks(), { repoRoot: tempRoot });
+
+  assert.ok(result.errors.some(error => /expected exactly capitalization-proper-names-titles/.test(error)));
 });
 
 test('chunk generation is deterministic', () => {
@@ -142,3 +191,7 @@ test('manifest validation fails if a declared chunk is stale', () => {
     /Question chunk validation failed/
   );
 });
+
+function loadMutableManifest() {
+  return JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'assets', 'question-manifest.json'), 'utf8'));
+}

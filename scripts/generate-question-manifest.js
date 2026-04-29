@@ -2,12 +2,16 @@
 
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
 const {
   repoRoot,
   loadQuestionBanks,
   flattenQuestionBanks
 } = require('./qa/bank-loader');
+const {
+  loadChunkBank,
+  validateQuestionChunkSet,
+  validateQuestionChunks
+} = require('./qa/chunk-qa');
 const {
   CHUNKED_DOMAINS,
   buildQuestionChunkScript,
@@ -161,107 +165,18 @@ function getSourceSet(bankLoad, setId) {
   return record ? record.set : null;
 }
 
-function loadChunkBank(chunkFile) {
-  const chunkPath = path.isAbsolute(chunkFile) ? chunkFile : path.join(repoRoot, chunkFile);
-  const context = {
-    window: { QUESTION_BANK: {} },
-    console
-  };
-
-  vm.createContext(context);
-  vm.runInContext(fs.readFileSync(chunkPath, 'utf8'), context, { filename: chunkPath });
-  return context.window.QUESTION_BANK || {};
-}
-
-function validateQuestionChunks(manifest, bankLoad) {
-  const errors = [];
-
-  getChunkedSets(manifest).forEach(entry => {
-    const sourceSet = getSourceSet(bankLoad, entry.id);
-    let chunkBank = null;
-
-    if (!sourceSet) {
-      errors.push(`${entry.id}: source set missing`);
-      return;
-    }
-
-    try {
-      chunkBank = loadChunkBank(entry.chunkFile);
-    } catch (error) {
-      errors.push(`${entry.id}: chunk file could not be loaded from ${entry.chunkFile}: ${error.message}`);
-      return;
-    }
-
-    const chunkSet = chunkBank && chunkBank[entry.id];
-    validateQuestionChunkSet({
-      setId: entry.id,
-      sourceSet,
-      chunkSet
-    }).errors.forEach(error => errors.push(error));
-  });
-
-  return { errors };
-}
-
-function validateQuestionChunkSet({ setId, sourceSet, chunkSet }) {
-  const errors = [];
-
-  if (!sourceSet) errors.push(`${setId}: source set missing`);
-  if (!chunkSet) errors.push(`${setId}: chunk set missing`);
-  if (!sourceSet || !chunkSet) return { errors };
-
-  if (sourceSet.title !== chunkSet.title) {
-    errors.push(`${setId}: title differs between source bank and chunk`);
-  }
-  if (sourceSet.topic !== chunkSet.topic) {
-    errors.push(`${setId}: topic differs between source bank and chunk`);
-  }
-
-  const sourceQuestions = Array.isArray(sourceSet.questions) ? sourceSet.questions : [];
-  const chunkQuestions = Array.isArray(chunkSet.questions) ? chunkSet.questions : [];
-  if (sourceQuestions.length !== chunkQuestions.length) {
-    errors.push(`${setId}: question count is ${chunkQuestions.length}; expected ${sourceQuestions.length}`);
-  }
-
-  const maxQuestions = Math.min(sourceQuestions.length, chunkQuestions.length);
-  for (let index = 0; index < maxQuestions; index += 1) {
-    const sourceQuestion = sourceQuestions[index] || {};
-    const chunkQuestion = chunkQuestions[index] || {};
-    const label = sourceQuestion.id || chunkQuestion.id || `question ${index + 1}`;
-
-    if (sourceQuestion.id !== chunkQuestion.id) {
-      errors.push(`${setId}: question ${index + 1} id is ${chunkQuestion.id}; expected ${sourceQuestion.id}`);
-      break;
-    }
-    if (sourceQuestion.version !== chunkQuestion.version) {
-      errors.push(`${setId}/${label}: version is ${chunkQuestion.version}; expected ${sourceQuestion.version}`);
-      break;
-    }
-    if (sourceQuestion.contentHash !== chunkQuestion.contentHash) {
-      errors.push(`${setId}/${label}: contentHash is ${chunkQuestion.contentHash}; expected ${sourceQuestion.contentHash}`);
-      break;
-    }
-  }
-
-  if (JSON.stringify(chunkSet) !== JSON.stringify(sourceSet)) {
-    errors.push(`${setId}: chunk content differs from source bank`);
-  }
-
-  return { errors };
-}
-
 function validateManifest(manifest, bankLoad = loadQuestionBanks(), options = {}) {
   const expected = generateManifest(bankLoad);
-  const actualJson = JSON.stringify(manifest);
-  const expectedJson = JSON.stringify(expected);
-  if (actualJson !== expectedJson) {
-    throw new Error(getManifestDriftMessage(manifest, expected));
-  }
   if (options.validateChunks) {
     const chunkResult = validateQuestionChunks(manifest, bankLoad);
     if (chunkResult.errors.length) {
       throw new Error(`Question chunk validation failed:\n${chunkResult.errors.join('\n')}`);
     }
+  }
+  const actualJson = JSON.stringify(manifest);
+  const expectedJson = JSON.stringify(expected);
+  if (actualJson !== expectedJson) {
+    throw new Error(getManifestDriftMessage(manifest, expected));
   }
   return expected;
 }

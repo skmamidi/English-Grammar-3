@@ -549,6 +549,8 @@
       clue: word.clue,
       sentence: word.sentence,
       syllables: word.syllables,
+      pronunciation: word.pronunciation || '',
+      pronunciationSyllables: Array.isArray(word.pronunciationSyllables) ? word.pronunciationSyllables : [],
       memory: word.memory,
       repaired: analysis.correct,
       metadata: getSpellingAttemptMetadata(word, state.index + 1, analysis)
@@ -792,6 +794,8 @@
         clue: word.clue || '',
         sentence: word.sentence || '',
         syllables: word.syllables || '',
+        pronunciation: word.pronunciation || '',
+        pronunciationSyllables: Array.isArray(word.pronunciationSyllables) ? word.pronunciationSyllables : [],
         patterns,
         patternLabels,
         detected: analysis.detected || [],
@@ -1489,6 +1493,10 @@
         patternLabels,
         detected: Array.isArray(result.detected) ? result.detected : [],
         syllables: result.syllables || '',
+        clue: result.clue || '',
+        sentence: result.sentence || '',
+        pronunciation: result.pronunciation || '',
+        pronunciationSyllables: Array.isArray(result.pronunciationSyllables) ? result.pronunciationSyllables : [],
         memory: result.memory || '',
         repaired: !!result.repaired,
         repairedAt: result.repairedAt || ''

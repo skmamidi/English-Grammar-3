@@ -6191,6 +6191,108 @@
           "sourceGrade": 3,
           "sequence": 210
         }
+      },
+      {
+        "question": "Which sentence does not use the word meat or meet correctly?",
+        "choices": [
+          "We cooked the meat on the barbecue grill.",
+          "Please meet us for ice cream.",
+          "He doesn’t like to eat meet.",
+          "Sally fed her dog some meat."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: He doesn’t like to eat meet.. He doesn’t like to eat meet. meet – come into the presence or company of someone; meat – the flesh of an animal as food.",
+          "incorrect": [
+            "Not: We cooked the meat on the barbecue grill.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Please meet us for ice cream.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Sally fed her dog some meat.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word meaning, word relationships, and context clues.",
+          "example": "Reread the sentence and test which choice keeps the meaning clear.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets-Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 276
+        }
+      },
+      {
+        "question": "Read the passage. During the meeting at the school, the PTO met with the teachers and principal to discuss how they could raise money to buy new playground equipment. The principal said it was going to cost $5,000, but the school budget only had $250.00 left to spend for the year. The PTO said they would be able to kick in half of the money necessary for the purchase. What is the meaning of “kick in” in this passage?",
+        "choices": [
+          "The PTO will give them a loan.",
+          "The PTO will help them organize fund-raisers.",
+          "The PTO will donate the money.",
+          "The PTO does not have any funds."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The PTO will donate the money.. The PTO will donate the money. Inthis case, kick-“in” means to give, help, or donate.",
+          "incorrect": [
+            "Not: The PTO will give them a loan.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The PTO will help them organize fund-raisers.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The PTO does not have any funds.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask readers to use word meaning, word relationships, and context clues.",
+          "example": "Reread the sentence and test which choice keeps the meaning clear.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets-Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 281
+        }
       }
     ],
     "metadata": {

@@ -36589,6 +36589,4478 @@
           "sourceGrade": 3,
           "sequence": 191
         }
+      },
+      {
+        "question": "When buying a new computer, where could you find the most objective, reliable information about the overall quality of computers?",
+        "choices": [
+          "A person who sells computers",
+          "A friend who has a computer",
+          "A school computer technician",
+          "A report in a consumer magazine"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: A report in a consumer magazine. report in a consumer magazine. This is the most reliable and objective source because it A gives unbiased ratings and reviews.",
+          "incorrect": [
+            "Not: A person who sells computers. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: A friend who has a computer. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: A school computer technician. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 2
+        }
+      },
+      {
+        "question": "If you were given a book on outer space, where would you look for cannibal galaxies in the glossary?",
+        "choices": [
+          "u nder the “C” section",
+          "under the “G” section",
+          "under the “B” section",
+          "under the space section"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: under the “G” section. under the “G” section; You would look at “G” for galaxies.",
+          "incorrect": [
+            "Not: u nder the “C” section. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: under the “B” section. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: under the space section. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 6
+        }
+      },
+      {
+        "question": "Read the ragraph. pa Braille is a system of communication used by the blind. It was developed by Louis Braille, a blind French student, in 1824. The code consists of an alphabet using combinations of small raised dots. The dots are imprinted on paper and ca n be felt, and thus read, by running the fingers across the page. The basic unit of the code is called a “cell” that is two dots wide and three dots high. Each letter is formed by different combinations of these dots. Numbers, punctuation marks, and even a system for writing music are also expressed by using different arrangements. These small dots, which may seem insignificant to the sighted, have opened up the entire world of books and reading for the blind. Which answer contains two details presented in the paragraph?",
+        "choices": [
+          "Braille is a system of indented marks read by the public.",
+          "Braille, developed in 1800, is a series of consistent dots.",
+          "Braille creates letters with cells, but does not create numbers.",
+          "Braille is a system of communicationthat has opened a new world for the blind."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Braille is a system of communicationthat has opened a new world for the blind.. Braille is a system of communicationthat has opened a new world for the blind.",
+          "incorrect": [
+            "Not: Braille is a system of indented marks read by the public.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Braille, developed in 1800, is a series of consistent dots.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Braille creates letters with cells, but does not create numbers.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 8
+        }
+      },
+      {
+        "question": "Your teacher gives you the assignment to read a selection on environmental issues and then answer a specific vocabulary question. After reading the selection, whatwould be the best procedure to find the answer?",
+        "choices": [
+          "reread the entire selection",
+          "choose the answer that makes sense",
+          "use prior knowledge from your history class",
+          "look in the selec tion for the vocabulary word(s) mentioned in the question"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: look in the selec tion for the vocabulary word(s) mentioned in the question. look in the selection for the vocabulary word(s) mentioned in the question",
+          "incorrect": [
+            "Not: reread the entire selection. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: choose the answer that makes sense. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: use prior knowledge from your history class. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 9
+        }
+      },
+      {
+        "question": "Which of the following would best support the conclusion that doctors make more money than lawyers?",
+        "choices": [
+          "law yers charge by the hour",
+          "Dr. Jones has the biggest house in the neighborhood.",
+          "doctors get longer vacations",
+          "a graph in Newsweek magazine that shows Ameri candoctors’ and lawyers’ salaries"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: a graph in Newsweek magazine that shows Ameri candoctors’ and lawyers’ salaries. a graph in Newsweek magazine that shows Ameri candoctors’ salaries and lawyers’ salaries. This would give concrete factual informa tionto support a conclusion.",
+          "incorrect": [
+            "Not: law yers charge by the hour. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Dr. Jones has the biggest house in the neighborhood.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: doctors get longer vacations. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 13
+        }
+      },
+      {
+        "question": "The guide words on page 115 of the dictionary are. lament large – Which word would also appear onthis page?",
+        "choices": [
+          "laid",
+          "lemon",
+          "language",
+          "lamb"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: language. language ent guage-; lam – lan lar ge",
+          "incorrect": [
+            "Not: laid. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: lemon. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: lamb. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 20
+        }
+      },
+      {
+        "question": "Read the paragraph. The old deserted house was creepy. Boards and shingles creaked menacingly as the wind blew through them. Filmy cobwebs brushed against the shattered windows. An eerie moan echoed down the long hallway and filled the dark corridor. How does the author support the conclusion that the house was creepy?",
+        "choices": [
+          "by comparing the house to the other less creepy houses",
+          "by describing the sounds and sights in the spooky house",
+          "by describing the contents in each room of the house",
+          "by explaining why the house is deserted"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: by describing the sounds and sights in the spooky house. by describing the sounds and sights in the spooky house; The author used words such as creaked, eerie moan, filmy cobwebs, and echoed to describe sounds and sights in the house.",
+          "incorrect": [
+            "Not: by comparing the house to the other less creepy houses. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: by describing the contents in each room of the house. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: by explaining why the house is deserted. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 23
+        }
+      },
+      {
+        "question": "Read the passages.",
+        "choices": [
+          "In Mrs. Weston’s class, the students were engaged i n discussion about designing a rubric. Students were brainstorming and asking questions. In the end, they had a scoring rubric designed by them.",
+          "In Mrs. Wilcox’s class, the teacher handed the students a rubric. The rubric was explained and some student s asked questions. In the end, students had a scoring guide. Which of the following is true of statements A and B? A. both classes were engaged in the desig ning process B. both classes received a rubric from the teacher",
+          "both classes had a rubric",
+          "b oth classes brainstormed"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: both classes had a rubric. both classes had a rubric; The last sentence of each passagestates that the students had a rubric (one class desig ned the rubricand the other rubric was designed by the teacher).",
+          "incorrect": [
+            "Not: In Mrs. Weston’s class, the students were engaged i n discussion about designing a rubric. Students were brainstorming and asking questions. In the end, they had a scoring rubric designed by them.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: In Mrs. Wilcox’s class, the teacher handed the students a rubric. The rubric was explained and some student s asked questions. In the end, students had a scoring guide. Which of the following is true of statements A and B? A. both classes were engaged in the desig ning process B. both classes received a rubric from the teacher. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: b oth classes brainstormed. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 25
+        }
+      },
+      {
+        "question": "Read the bibliography. Miller, Marshal. Courage. New York: Macmillan Publishing Co, 1968. This book demonstrated how Mathers overcomes his fear. I used it a s an example of how even brave people can suffer from fear. This bibliography includes information to show:",
+        "choices": [
+          "why the book was used in writingg the research paper.",
+          "why the author wrote the book.",
+          "where the book was set.",
+          "w here the book was written."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: why the book was used in writingg the research paper.. why the book was used in writing the research paper.",
+          "incorrect": [
+            "",
+            "Not: why the author wrote the book.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: where the book was set.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: w here the book was written.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 27
+        }
+      },
+      {
+        "question": "Read the label from a prescription. Wh en should Doug drink milk?",
+        "choices": [
+          "2-3 hours after a meal –",
+          "after he has taken all of the capsules",
+          "at least four times a day",
+          "with the capsules to wash them down"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: with the capsules to wash them down. with the capsules to wash them down; Take 2 capsu les with milk [to wash them down].",
+          "incorrect": [
+            "Not: 2-3 hours after a meal –. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: after he has taken all of the capsules. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: at least four times a day. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 28
+        }
+      },
+      {
+        "question": "Read the advertisement and answer the question. Do you enjoy kites? If you order right away, we will give you directions f or making kites out of all kinds of ma terials sticks, straws, socks, and more. All of this for only – $10.95. Hurry! Time is limited. Wh a is this ad trying to get the reader to do? t",
+        "choices": [
+          "Buy a ready- -fly kite. to",
+          "Buy information about sock puppets.",
+          "Buy information about sticks and straws.",
+          "Buy information about kite making."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Buy information about kite making.. Buy information about kite making. The advertisement is selling directions about how to make a kite out of all different materials.",
+          "incorrect": [
+            "Not: Buy a ready- -fly kite. to. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Buy information about sock puppets.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Buy information about sticks and straws.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 34
+        }
+      },
+      {
+        "question": "Read the index. Informationon lake formation would be found on:",
+        "choices": [
+          "p ages 129 and 140",
+          "pages 128, 129 and 131",
+          "pages 85 and 86",
+          "pages 80, 86 and 131"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: pages 128, 129 and 131. pages 128, 129 and 131; Lakes f ormation, 128-129, 131 –",
+          "incorrect": [
+            "Not: p ages 129 and 140. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: pages 85 and 86. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: pages 80, 86 and 131. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 36
+        }
+      },
+      {
+        "question": "Study the weather map. Inc. What southeast city had the high temperature for December 4, 2002?",
+        "choices": [
+          "Jacksonville, FL",
+          "Mob ile, AL",
+          "New Orleans, LA",
+          "Jack son, MS"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: New Orleans, LA. New Orleans, LA; The map is of the southeastern United States. New Orle ans, LA has the high temperature.",
+          "incorrect": [
+            "Not: Jacksonville, FL. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Mob ile, AL. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Jack son, MS. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 39
+        }
+      },
+      {
+        "question": "Read the paragraph from a guide to winter snowmobiling Experience the opportunity of touring Yellowstone National Park on a snowmobile. We will ride from West Yellowstone and make stops at Old Fait hful, Mammoth, and the upper and lower falls. Plan a minimum of 5 hours for this guided tour. Cost is $50.00 per person. Riders can rent or bring his/her own snowmobile. Tickets are a vailable at Basin Motor Sports. We’ll see you on December 1st for a sceni c -filled day. Which of the following best restatesthese directi ons?",
+        "choices": [
+          "The tour takes place on December 1 st, rentals are available, and costs $5 0.00 per person.",
+          "The tour is self-guided, costs $50.00 per snowmobile, and lasts about 5 hours.",
+          "The tour goes north to south, takes 5 hours, and costs $50.00 per person.",
+          "The tour is self-guided, costs $50.00 per person, and includes four stops."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The tour takes place on December 1 st, rentals are available, and costs $5 0.00 per person.. The tour takes place on December 1 st, rentals are available, and costs $5 0.00 per person.",
+          "incorrect": [
+            "",
+            "Not: The tour is self-guided, costs $50.00 per snowmobile, and lasts about 5 hours.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The tour goes north to south, takes 5 hours, and costs $50.00 per person.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The tour is self-guided, costs $50.00 per person, and includes four stops.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 40
+        }
+      },
+      {
+        "question": "How much does the sign say it costs to buy one kitten?",
+        "choices": [
+          "$3",
+          "521 -7746",
+          "Free",
+          "$5"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: $5. $5; The kittens are $5 each (cost for one kitten).",
+          "incorrect": [
+            "Not: $3. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 521 -7746. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Free. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 48
+        }
+      },
+      {
+        "question": "Read the directions and answer the question. These are the Classroom Rules: Listen and follow your teacher’s directions Be polite to others Respect others’ property Be prepared to learn Which statement below is one of the classroom rules.",
+        "choices": [
+          "Respect the teacher.",
+          "Raise your hand to speak.",
+          "Walk slowly and be careful.",
+          "Be polite to others."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Be polite to others.. Be polite to others. This is the second rule.",
+          "incorrect": [
+            "Not: Respect the teacher.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Raise your hand to speak.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Walk slowly and be careful.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 49
+        }
+      },
+      {
+        "question": "Look at thistable of contents and answer the question. The story, “Pigs are Cute!” starts on which page?",
+        "choices": [
+          "p age 12",
+          "page 28",
+          "page 8",
+          "page 20"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p age 12. page 12; In the table of contents, Pigs are Cute (Jane Black) starts on page",
+          "incorrect": [
+            "",
+            "Not: page 28. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: page 8. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: page 20. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 56
+        }
+      },
+      {
+        "question": "Read the schedule and answer the question. What show is right after Lizards?",
+        "choices": [
+          "Lu nch Break",
+          "Birds",
+          "Snakes",
+          "Mammals"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Birds. Birds; 10:00 Lizards followed by 11:00 Birds.",
+          "incorrect": [
+            "Not: Lu nch Break. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Snakes. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Mammals. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 59
+        }
+      },
+      {
+        "question": "Read the Table of Contents and answer the question. The story “Quiet Please” starts on which page?",
+        "choices": [
+          "10",
+          "33",
+          "25",
+          "41"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 33. 33; Quiet Please! (Joan C lark) ………..33.",
+          "incorrect": [
+            "Not: 10. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 25. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 41. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 69
+        }
+      },
+      {
+        "question": "Read the paragraph. Cells make up all liv ing thing s. There are millions of different types of cells in the human b ody. Scientists believe that f urther study of the make -up of cells can lead to a cure for cancer. Scientists continue their research in laboratoriesevery da y. Which sentence best describes an assumption in this paragraph?",
+        "choices": [
+          "Cells make up all living thing s.",
+          "Scientists believe that further study of the make-up of cells can lead to a cure for cancer.",
+          "There are millio ns of different types o f cells in the h um an body.",
+          "Sc ientists contin ue their research in the laboratoriesevery day."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Scientists believe that further study of the make-up of cells can lead to a cure for cancer.. Scientists believe that further study of the make-up of cells can lead to a cure for cancer.",
+          "incorrect": [
+            "Not: Cells make up all living thing s.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: There are millio ns of different types o f cells in the h um an body.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Sc ientists contin ue their research in the laboratoriesevery day.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 91
+        }
+      },
+      {
+        "question": "Read the following paragraph. It’s been a cold fall. Every morning the grass is covered with frost. Ice hangs off the bottom of cars. As we walk to school, our fingers freeze inside our gloves and our cheeks are bright red when we enter our classrooms. I can’t wait until spring! Which of the follow ing cannot be proven by the paragraph?",
+        "choices": [
+          "The weather was freezing.",
+          "Winter would be warmer than it was last year.",
+          "Even with gloves, the cold reached their hands.",
+          "T he students’ cheeks are red from the cold."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Winter would be warmer than it was last year.. Winter would be warmer than it was last year. This is not stated in the paragraph and there is no proof of it.",
+          "incorrect": [
+            "Not: The weather was freezing.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Even with gloves, the cold reached their hands.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: T he students’ cheeks are red from the cold.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 92
+        }
+      },
+      {
+        "question": "The best source of information to determine the date Pearl Harbor was bombed would be:",
+        "choices": [
+          "internet search",
+          "picture book",
+          "dictionary",
+          "advertisement"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: internet search. internet search",
+          "incorrect": [
+            "",
+            "Not: picture book. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: dictionary. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: advertisement. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 93
+        }
+      },
+      {
+        "question": "Which bibliography lists magazines?",
+        "choices": [
+          "Ockerman, T., Survival Skills for Dummies. Clearinghouse Books, New York, 1999. Trank, W., Surviving in the Outdoors. MacMillan, Chicago, 2001.",
+          "Abrams, D., “Life in the Wilderness.” Outdoor Life, March 18, 2000, pp. 62-65. Jones, M., “Outdoor Survival.” Boy’s Life, June 5, 1999, pp. 12 -18.",
+          "“Wilderness Survival.” http://www.wildsurv.com. “Living Outdoors.” http://www.liveout.com.",
+          "Brown, O., Thriving in the Outdoors. Merrill, Dallas, 1998. Webb, C., On My Own. Prentice-Hall, San Francisco, 1999."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Abrams, D., “Life in the Wilderness.” Outdoor Life, March 18, 2000, pp. 62-65. Jones, M., “Outdoor Survival.” Boy’s Life, June 5, 1999, pp. 12 -18.. Abrams, D., “Life in the Wilderness.” Outdoor Life, March 18, 2019, pp. 62 -",
+          "incorrect": [
+            "Not: Ockerman, T., Survival Skills for Dummies. Clearinghouse Books, New York, 1999. Trank, W., Surviving in the Outdoors. MacMillan, Chicago, 2001.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: “Wilderness Survival.” http://www.wildsurv.com. “Living Outdoors.” http://www.liveout.com.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Brown, O., Thriving in the Outdoors. Merrill, Dallas, 1998. Webb, C., On My Own. Prentice-Hall, San Francisco, 1999.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 95
+        }
+      },
+      {
+        "question": "Read the label.",
+        "choices": [
+          "contains 0% juice",
+          "contains 3% juice",
+          "contains 13% juice",
+          "contains 10% juice"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: contains 10% juice. contains 10% juice; The label at the top states “Contains 10% Juice”",
+          "incorrect": [
+            "Not: contains 0% juice. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: contains 3% juice. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: contains 13% juice. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 96
+        }
+      },
+      {
+        "question": "Where would you find the best information for a report about Chinese architecture?",
+        "choices": [
+          "you r teacher",
+          "a dictionary",
+          "a person who lived in China with his family for three year",
+          "a television documentary about Chinese building s and architecture"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: a television documentary about Chinese building s and architecture. a television documentary about Chinese buildings and architect ure. A documentary is a presentation (film or novel) expressing or dealing with factual events.",
+          "incorrect": [
+            "Not: you r teacher. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a dictionary. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a person who lived in China with his family for three year. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 102
+        }
+      },
+      {
+        "question": "Look at the chapter summaries. What information is found in Section 3:",
+        "choices": [
+          "d efinition of life science",
+          "how to form a hypothesis",
+          "definition of temperature",
+          "the scientific method"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: definition of temperature. def inition of temperature; Under Vocabulary, the definition of temperature can be found on page",
+          "incorrect": [
+            "Not: d efinition of life science. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: how to form a hypothesis. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: the scientific method. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 104
+        }
+      },
+      {
+        "question": "Read the passage. Golf is a great sport. The goal is to hit a ball into eighteen small h oles with the least amount of shots as possible. Talented golfers can usually complete eac h shot with three to five hits, but amateurs like me take nine or ten shots per hole. It’s best to play on a warm, sunny day, but many golfers go out as soon as the snow melts in the spring. It’s unsafe to play golf during a rainstorm because there have been instances where lightning has struck a golfer’s club. Which of the following is a provable fact based on the preceding paragraph?",
+        "choices": [
+          "Goo d golfers never hit more thanthree shots per hole.",
+          "There are eighteen holes in a game of golf.",
+          "It’s safe to play in the rain if you don’t see lightning.",
+          "Golfers get their best scores on warm, sunny days."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: There are eighteen holes in a game of golf.. There are eighteen holes in a game of golf. The second sentence in the passagestatesthis fact.",
+          "incorrect": [
+            "Not: Goo d golfers never hit more thanthree shots per hole.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: It’s safe to play in the rain if you don’t see lightning.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Golfers get their best scores on warm, sunny days.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 106
+        }
+      },
+      {
+        "question": "Look at the label. How many servings does this product contain?",
+        "choices": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 1. 1; Serving Size: 1 Bottle",
+          "incorrect": [
+            "Not: 0. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 2. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 3. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 108
+        }
+      },
+      {
+        "question": "Read the paragraph. Television shows are great. Some people complain about violence and bad language, but they just don’t understand what makes good entertainment. My friends and I love the sitcoms about teenagers. Those movie stars are just like us and understand how we feel. Television improves our understanding of the real world and makes us better people. Which statement is true about the paragraph?",
+        "choices": [
+          "The paragraphis mostly fact.",
+          "There are no opinions in the paragraph.",
+          "The whole paragraph expresses opinions.",
+          "The paragraph expresses facts and opinionsequally."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The whole paragraph expresses opinions.. The whole paragraph expresses opinions.",
+          "incorrect": [
+            "Not: The paragraphis mostly fact.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: There are no opinions in the paragraph.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The paragraph expresses facts and opinionsequally.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 113
+        }
+      },
+      {
+        "question": "Read the recipe. What type of chocolate is suggested for this recipe?",
+        "choices": [
+          "Hershey’s M ilk",
+          "Baker’s Unsweetened",
+          "Ghirardelli Dark",
+          "Semi-sweet"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Baker’s Unsweetened. Baker’s Unsweetened; The recipe calls for 4 squares BAKER’s Unsweet ened Chocolate.",
+          "incorrect": [
+            "Not: Hershey’s M ilk. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Ghirardelli Dark. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Semi-sweet. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 118
+        }
+      },
+      {
+        "question": "Read the following advertisement, keeping in mind that in a food label, ing redients are listed in order from greatest amount to least. Ingredients: tomato puree (water, tomato paste), high fructose corn syrup, wheat flour, salt, spice extract, vitamin C (ascorbic acid), cit ric acid. According to the soup label, tomato soup mainly contains what ingredient(s)?",
+        "choices": [
+          "sw eetener",
+          "tomato paste and water",
+          "vitamin C",
+          "citric acid"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: tomato paste and water. tomato paste and water; The soup label lists tomato puree (water, t omato paste) as the first ingredient; therefore, it is the ingredient with the greatest amount.",
+          "incorrect": [
+            "Not: sw eetener. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: vitamin C. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: citric acid. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 121
+        }
+      },
+      {
+        "question": "Read the following bibliography entry. Dickens, Charles.. United States of America: Tom Doherty A Tale of Two Cities Associates, 1998. This is a bibliography entry for a(n) _________.",
+        "choices": [
+          "magazine",
+          "internet source",
+          "book",
+          "personal interview"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: book. book; This is the correct bibliography format for the book A Tale of Two Cities.",
+          "incorrect": [
+            "Not: magazine. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: internet source. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: personal interview. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 122
+        }
+      },
+      {
+        "question": "Read the paragraph. Scientificand medical research has improved ove r the years. Our use of monkeys, rats, mice, rabbits, and other animals has helped us make numerous adva nces in medicine. We need to continue those practices to find cures and treatme nts for more illnesses. Which person would be most likely to disagree with this paragraph?",
+        "choices": [
+          "a scientific researcher",
+          "a forest ranger",
+          "an animal rights activist",
+          "a college professor"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: an animal rights activist. an animal rights activist – someone who believes in justice for all animals. They don’t condone testing, factory farming, and other systemic mistrea tment of animals.",
+          "incorrect": [
+            "Not: a scientific researcher. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a forest ranger. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: a college professor. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 123
+        }
+      },
+      {
+        "question": "Read the passage. “Each [leaf] was shaped like an inverted umbrella spiked on a massive trun k…” The Pit of Win gs, page 60. What can be inferred from this line?",
+        "choices": [
+          "The leaves are cup-shaped with thick stems.",
+          "The leaves protect against the rain.",
+          "The leaves are large and round.",
+          "The leaves are deciduous."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The leaves are cup-shaped with thick stems.. The leaves are cup-shaped with thick stems. Cup shaped – “shaped like an inverted umbrella”; thick stems – “massive trunk”.",
+          "incorrect": [
+            "",
+            "Not: The leaves protect against the rain.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The leaves are large and round.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The leaves are deciduous.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 125
+        }
+      },
+      {
+        "question": "Read the following directions What should the measurements be of the bottom sashing unit?",
+        "choices": [
+          "1 1/2 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches x",
+          "4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches",
+          "4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches",
+          "4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches x"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches 4 1/2 x 29 1/2 inches. 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 29 1/2 inches; The fifth 29 1/2 inches; The fifth 29 1/2 inches; The fifth 29 1/2 inches; The fifth 29 1/2 inches; The fifth 29 1/2 inches; The fifth 29 1/2 inches; The fifth 29 1/2 inches; The fifth sentence of step 4 mentions the measurement for the x bottom sashing unit.",
+          "incorrect": [
+            "Not: 1 1/2 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches x. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches 4 1/2 x 15 1/2 inches. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 4 1/2 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches 21 1/2 inches x. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 130
+        }
+      },
+      {
+        "question": "Read the recipe. (Phillips, Felts, Blackman). If you choose to bake this recipe, what alterna tive cooking method is recommended?",
+        "choices": [
+          "D utch oven cooking",
+          "microwave cooking",
+          "convection oven cooking",
+          "stove top cooking"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: microwave cooking. microwave cooking; At the bottom of the recipe an alternative method of cooking is listed-*Microwave.",
+          "incorrect": [
+            "Not: D utch oven cooking. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: convection oven cooking. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: stove top cooking. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 131
+        }
+      },
+      {
+        "question": "Read the sign and answer the question. How long is the yard sale open?",
+        "choices": [
+          "9 hours",
+          "8 hours",
+          "12 hours",
+          "24 hours"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: 9 hours. 9 hours; The yard sale is open from 7:30 a.m. to 4:30 p.m., which is 9 hour s.",
+          "incorrect": [
+            "",
+            "Not: 8 hours. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 12 hours. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 24 hours. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 132
+        }
+      },
+      {
+        "question": "Look at the page below. M cGraw -Hill Companies, 1999. What information is given in the vocabulary list for Chapter 11 Highlights?",
+        "choices": [
+          "the correct definition",
+          "the illustration corresponding with the vocabulary word",
+          "the location of the vocabulary definition",
+          "chapter summary"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: the location of the vocabulary definition. the location of the vocabulary definition; The vocabulary lists tells what page to find the definition for each vocabulary word.",
+          "incorrect": [
+            "Not: the correct definition. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the illustration corresponding with the vocabulary word. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: chapter summary. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 140
+        }
+      },
+      {
+        "question": "Read the directions below. Lift up the brush. Dip in water. Dip the brush into the paint tray. Apply the brush tip to the paper. What will directions above help you to do?",
+        "choices": [
+          "p aint a house",
+          "lift up the brush",
+          "dip the brush into paint.",
+          "create a picture"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: create a picture. paint a picture; The last step applies the brush to paper; therefore, they are creating a picture.",
+          "incorrect": [
+            "Not: p aint a house. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: lift up the brush. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: dip the brush into paint.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 145
+        }
+      },
+      {
+        "question": "Review the Table of Contents. What is Chapter 8 about, and on what page does it begin?",
+        "choices": [
+          "Hered ity, Evolution and Classification, Page 102",
+          "The History of Life on Earth, Page 174",
+          "The Study of Living Things, Page",
+          "The Evolution of Living Things, Page 148"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The History of Life on Earth, Page 174. The History of Life on Earth, Page 174",
+          "incorrect": [
+            "Not: Hered ity, Evolution and Classification, Page 102. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The Study of Living Things, Page. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The Evolution of Living Things, Page 148. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 146
+        }
+      },
+      {
+        "question": "In the chapter titled, “Stream Fish,” what information would be included?",
+        "choices": [
+          "Fern s",
+          "Starfish",
+          "Shells",
+          "Salmon"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Salmon. Salmon a fish that matures in the sea but migratesto freshwater streams to spawn. –",
+          "incorrect": [
+            "Not: Fern s. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Starfish. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Shells. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 148
+        }
+      },
+      {
+        "question": "After reading a story in your language textbook, you need to find the definitions for several vocabulary words in the story. Where would be the best place to look?",
+        "choices": [
+          "d ictionary",
+          "glossary",
+          "thesaurus",
+          "encyclopedia"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: glossary. glossary an alphabetical list of terms or words found in or relating to a specific subject – and includes their meanings. The glossary is found in the textbook that the story was in.",
+          "incorrect": [
+            "Not: d ictionary. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: thesaurus. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: encyclopedia. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 149
+        }
+      },
+      {
+        "question": "Read the recipe and answer the question. What do you do after boiling the noodles?",
+        "choices": [
+          "layer the ingredients",
+          "fry the meat and cheese",
+          "fry the meat and add the sauce",
+          "cook for 45 minutes"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: fry the meat and add the sauce. fry the meat and add the sauce",
+          "incorrect": [
+            "Not: layer the ingredients. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: fry the meat and cheese. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: cook for 45 minutes. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 150
+        }
+      },
+      {
+        "question": "Read the sentences. • Earthquakes can cause massive destruction. • Earthquakes have killed people. • Earthquakes are unpredictable. • Earthquakes have caused train wrecks and car accidents. Which opinion can be formed based on these facts?",
+        "choices": [
+          "Ear thquakes are frightening.",
+          "Earthquakes are scheduled.",
+          "Earthquakes are fun.",
+          "Earthquakes are measured on a scientific scale."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Ear thquakes are frightening.. Earthquakes are frightening. The cause destruction, train wrecks, kill peopl e, are unpredictable. All of this is frightening.",
+          "incorrect": [
+            "",
+            "Not: Earthquakes are scheduled.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Earthquakes are fun.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Earthquakes are measured on a scientific scale.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 151
+        }
+      },
+      {
+        "question": "Review the Bibliography. Who is the author of? The Essentials of Astronomy",
+        "choices": [
+          "Jon Erickson",
+          "Charles Brass",
+          "Harper Perennial",
+          "Isaac Asimov"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Charles Brass. Charles Brass; The author is listed immediately before the book title.",
+          "incorrect": [
+            "Not: Jon Erickson. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Harper Perennial. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Isaac Asimov. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 156
+        }
+      },
+      {
+        "question": "Read the recipe. What are the total cups of flour and sugar needed?",
+        "choices": [
+          "4 cups",
+          "2 cups",
+          "5 cup s",
+          "8 cups"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 5 cup s. 5 cup s; 2 cups flour + 1 cup brown sugar + 2 cups sugar = 5 cups",
+          "incorrect": [
+            "Not: 4 cups. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 2 cups. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 8 cups. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 160
+        }
+      },
+      {
+        "question": "Read the notice. When will Dr. Schou be speaking at the meeting?",
+        "choices": [
+          "November 6th at 6:30 p.m.",
+          "November 6th at 8:00 p.m.",
+          "November 7 th at 3:30 p.m.",
+          "November 6th at 6:30 a.m."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: November 6th at 6:30 p.m.. November 6th at 6:30 p.m.",
+          "incorrect": [
+            "",
+            "Not: November 6th at 8:00 p.m.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: November 7 th at 3:30 p.m.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: November 6th at 6:30 a.m.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 165
+        }
+      },
+      {
+        "question": "Read the directions. How far apart should the unbaked cookies be placed on the pan?",
+        "choices": [
+          "1 inch",
+          "3 fingers",
+          "1 1/4 inches",
+          "2 inches"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: 2 inches. 2 inches; Place 2 inches apart on ungreased cookie sheet.",
+          "incorrect": [
+            "Not: 1 inch. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 3 fingers. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1 1/4 inches. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 166
+        }
+      },
+      {
+        "question": "Study the recipe and then answer the question. After beating the wire whisk for 2 minutes, what comes next?",
+        "choices": [
+          "pour the milk into the large bowl",
+          "gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping",
+          "spoon 1 Tbsp. of crushed cookies into cups",
+          "spoon the pudding into cups"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping gently stir in 1/2 of the whipped topping. gently stir in 1/2 of the whipped topping; The fourth sentence states what t gently stir in 1/2 of the whipped topping; The fourth sentence states what t gently stir in 1/2 of the whipped topping; The fourth sentence states what t gently stir in 1/2 of the whipped topping; The fourth sentence states what t gently stir in 1/2 of the whipped topping; The fourth sentence states what t gently stir in 1/2 of the whipped topping; The fourth sentence states what t gently stir in 1/2 of the whipped topping; The fourth sentence states what t gently stir in 1/2 of the whipped topping; The fourth sentence states what to do after beating with the wire whisk for 2 minutes.",
+          "incorrect": [
+            "Not: pour the milk into the large bowl. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: spoon 1 Tbsp. of crushed cookies into cups. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: spoon the pudding into cups. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 170
+        }
+      },
+      {
+        "question": "Read the passage. “The morning of the fight, Tompkins Square was a beehive of activity with numerous workers setting up the ring, the seats, and the guest speakers’ stand. The scheduled bouts began shortly after noon and the park had begun filling up even earlier.” (Teacher authors: Phillips, Blackman, Felts). Given the passage, which is fact?",
+        "choices": [
+          "It is morning.",
+          "It is night.",
+          "It is a holiday.",
+          "Everyone wasexcited about the fight."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: It is morning.. It is morning. It is morning is the best answer opti on, as it is the only fact listed as an option.",
+          "incorrect": [
+            "",
+            "Not: It is night.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: It is a holiday.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Everyone wasexcited about the fight.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 171
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Fred came home from school. He made a snack. He poured a glass of milk and it tasted sour. “This milk is spoiled,” he said. He looked back at the refrigerator and noticed that it was unplugged. Why was Fred’s milk spoiled?",
+        "choices": [
+          "The milk was not spoiled.",
+          "The refrigerator was unplugged.",
+          "The milk was too old.",
+          "The refrigerator was working."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The refrigerator was unplugged.. The refrigerator was unplugged. Fred noticed that the refrigerator was unplugged.",
+          "incorrect": [
+            "Not: The milk was not spoiled.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The milk was too old.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The refrigerator was working.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 175
+        }
+      },
+      {
+        "question": "Where would you look in a book to see where Chapter 6 begins and ends?",
+        "choices": [
+          "Index",
+          "Glossary",
+          "Reference Section",
+          "Table of Contents"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Table of Contents. Table of Contents a list of chapters or sections given at the front of a book or periodical. –",
+          "incorrect": [
+            "Not: Index. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Glossary. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Reference Section. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 188
+        }
+      },
+      {
+        "question": "Review the index. Index. Focus. McGraw-Hill, 1985.626. The term “descriptive” on page 179, is a subtopic of:",
+        "choices": [
+          "Simile",
+          "Root",
+          "Verbs",
+          "Word(s)"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Word(s). Word(s) s; “descriptive” fall under the category of “Word(s”",
+          "incorrect": [
+            "Not: Simile. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Root. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Verbs. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 190
+        }
+      },
+      {
+        "question": "Read the recipe. How many cookies will one batch make?",
+        "choices": [
+          "24",
+          "12",
+          "6",
+          "1"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 12. 12; The recipe makes 12 c ookies.",
+          "incorrect": [
+            "Not: 24. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 6. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 196
+        }
+      },
+      {
+        "question": "Where is the best place to look for a map of Canada?",
+        "choices": [
+          "at las",
+          "vacation guide",
+          "dictionary",
+          "almanac"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: at las. atlas a book of maps or charts. –",
+          "incorrect": [
+            "",
+            "Not: vacation guide. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: dictionary. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: almanac. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 197
+        }
+      },
+      {
+        "question": "Read the following directions and answer the question. What should you do after you read each question caref ully?",
+        "choices": [
+          "Hand in your test to your teacher.",
+          "Read each question carefully.",
+          "Read your library book until everyone else is finished.",
+          "Circle the letter for the best answer."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Circle the letter for the best answer.. Circle the letter for the best answer. This is #2 in the test directions.",
+          "incorrect": [
+            "Not: Hand in your test to your teacher.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Read each question carefully.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Read your library book until everyone else is finished.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 198
+        }
+      },
+      {
+        "question": "Review the index. To find information on fables, what two pages would you use?",
+        "choices": [
+          "24 and 29",
+          "55 and 307",
+          "55 and 56",
+          "97 and 307"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 55 and 56. 55 and 56; Fable 55, 56",
+          "incorrect": [
+            "Not: 24 and 29. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 55 and 307. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 97 and 307. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 199
+        }
+      },
+      {
+        "question": "Read the bibliography. The editors of what company helped Kendrick Frazier write Solar System Planet Earth?",
+        "choices": [
+          "Chelsea House",
+          "TimeTime-Life Books",
+          "Doubleday",
+          "Terrance Dolan"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: TimeTime-Life Books. Time-Life Books; Kendrick Frazier of Time- Time Life Books.",
+          "incorrect": [
+            "Not: Chelsea House. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Doubleday. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Terrance Dolan. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 204
+        }
+      },
+      {
+        "question": "In a textbook, what does “See Also” mean in an index?",
+        "choices": [
+          "choose another topic.",
+          "look up another word",
+          "no information available",
+          "footnote or endnote"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: look up another word. look up another word",
+          "incorrect": [
+            "Not: choose another topic.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: no information available. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: footnote or endnote. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 205
+        }
+      },
+      {
+        "question": "Read the table of contents. Index. Focus. McGraw-Hill, 1985.626. If the poem “If Once You Have Slept on an Island” begins on page 253, on what page would “Rip Van Winkle” end?",
+        "choices": [
+          "page 252",
+          "page 236",
+          "page 250",
+          "page 25"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: page 252. page 252; “Rip Van Winkle” ends the page before “If Once you have Slept on an Island” begins (page 253). Therefore, it ends on page 252.",
+          "incorrect": [
+            "",
+            "Not: page 236. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: page 250. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: page 25. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 206
+        }
+      },
+      {
+        "question": "Read the paragraph. Enjoy a terrific looking lawn with Super Green grass seed. Your lawn will look the best out of the entire neighborhood. Your lawn will look like professionals take care of it daily. Remember, ask for Super Green. How does the writer appeal to you?",
+        "choices": [
+          "by telling you what a good buy Super Green is",
+          "by telling you the specific research that developed Super Green",
+          "by telling you your yard looks like a professional takes care of it",
+          "by using people’s comments about how your yard looks"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: by telling you your yard looks like a professional takes care of it. by telling you your yard looks like a professional takes care of it. “Your lawn will look like professionals take care of it daily.”",
+          "incorrect": [
+            "Not: by telling you what a good buy Super Green is. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: by telling you the specific research that developed Super Green. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: by using people’s comments about how your yard looks. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 207
+        }
+      },
+      {
+        "question": "In a social studies book index, what letters are used for maps and photographs?",
+        "choices": [
+          "s and i",
+          "m and s",
+          "p and i",
+          "m and p"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: m and p. m and p; m for maps and p for photographs",
+          "incorrect": [
+            "Not: s and i. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: m and s. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: p and i. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 208
+        }
+      },
+      {
+        "question": "Read the label. What do you do before heating contents in the mic rowave?",
+        "choices": [
+          "cover the dish",
+          "rinse the dish",
+          "stir the contents",
+          "heat for 3-4 minutes"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: cover the dish.-cover the dish; “cover; heat 3 4 minutes.”",
+          "incorrect": [
+            "",
+            "Not: rinse the dish. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: stir the contents. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: heat for 3-4 minutes. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 216
+        }
+      },
+      {
+        "question": "Read the paragraph. Samantha was dusting the furniture while Peter vacuumed the carpets. Ea rlier that morning, Peter cleaned the bathroom and kitchen floors. Everyone was getting ready for the party that evening. Soon, Maria would sweep the porch. Who did the most jobs?",
+        "choices": [
+          "Samantha",
+          "Maria",
+          "Peter",
+          "Paul"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Peter. Peter; Peter vacuumed the carpets, cleaned the bathroom, and cleaned the kitchen floors.",
+          "incorrect": [
+            "Not: Samantha. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Maria. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Paul. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 217
+        }
+      },
+      {
+        "question": "Review the bulletin. At what time should the band students be in their seats?",
+        "choices": [
+          "6: 30 p.m.",
+          "7:00 p.m.",
+          "7:15 p.m.",
+          "7:30 p.m."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 7:15 p.m.. 7:15 p.m.; The students should be in their seats and be ready to warm-up at 7:15 p.m. sharp!",
+          "incorrect": [
+            "Not: 6: 30 p.m.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 7:00 p.m.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 7:30 p.m.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 219
+        }
+      },
+      {
+        "question": "Read the directions and answer the question. When making this art project, you need to: Whatwould happen if you left out step #3?",
+        "choices": [
+          "the shapes would not fit",
+          "the shapes would fall off the frame",
+          "the gloss would not cover the pieces",
+          "you wouldn’t have enough colored shapes"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: the shapes would fall off the frame. the shapes would fall off the frame; If you left out step #3, the shapes would not be glued to the frame. They would fall off.",
+          "incorrect": [
+            "Not: the shapes would not fit. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: the gloss would not cover the pieces. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: you wouldn’t have enough colored shapes. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 220
+        }
+      },
+      {
+        "question": "Read the paragraph. Some people don’t like to use computers. They think that it is too hard and they break down too often. Don’t they realize that computers save us time and effort? Surely these anti-computer people are confused. What assumption is underlying this paragraph?",
+        "choices": [
+          "Everyon e should use and appreciate computers.",
+          "Most computers don’t break down.",
+          "People are breaking computers.",
+          "Computers can help educate students."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Everyon e should use and appreciate computers.. Everyone should use and appreciate computers. Computers save us time and effort.",
+          "incorrect": [
+            "",
+            "Not: Most computers don’t break down.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: People are breaking computers.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Computers can help educate students.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 221
+        }
+      },
+      {
+        "question": "Read the table of contents. What is the last page of Chapter 2?",
+        "choices": [
+          "2",
+          "27",
+          "61",
+          "96"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 61. 61; Chapter 2 ends the page before Chapter 3 starts (page 62); therefore C hapter 2 ends on page",
+          "incorrect": [
+            "Not: 2. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 27. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 96. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 226
+        }
+      },
+      {
+        "question": "Read the passage. At the very time of the humiliation at Fort Duquesne when George Washington, — Daniel Boone, and General Edward Braddock were defeated by French and Indian foes —a Mohawk Indian was readying himself for a warriors’ dance. The Mohawk — name Warraghiyagey (war--- YAH-gay) painted bright designs on his naked rag ee — chest, stepped into a deerskin kilt adorned with porcupine quills, and do nned a cap topped with a single eagle feather. Tied to his wrists and ankles were dried deer’s hoofs that rattled as he moved. He ate of ceremonial dog meat and threw a red-painted hatchet onto a war post. Soon he would lead the strenuous danc e. From Colonies to Country: 1710 -1791. Book 3, Second Edition. Oxford University Press, 1999. In the last three sentences, to whom does “he” r efer?",
+        "choices": [
+          "Fort Duquesne",
+          "Daniel Boone",
+          "George Washington",
+          "Warraghiyagey"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Warraghiyagey. Warraghiyagey; “He” refers to Warraghiyagey, the Mohawk India nthat was readying. himself far a warriors’ dance",
+          "incorrect": [
+            "Not: Fort Duquesne. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Daniel Boone. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: George Washington. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 227
+        }
+      },
+      {
+        "question": "Read the following paragraph. The spring air was fresh and clean, and the sun was warming the hillside. Flowers were beginning to bloom, forming a rainbow of colors throughout the meadows. All the animals were coming out from their homes to welcome the new morning, and I knew this was going to be a wonderful day as I peeked out of my tent. What canyou generalize about the author’s opinion?",
+        "choices": [
+          "The author lives in Calif ornia.",
+          "The author is a man.",
+          "The author is camping.",
+          "The author is tired."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The author is camping.. The author is camping. The author peeks out of his tent which tells the reader thathe is camping.",
+          "incorrect": [
+            "Not: The author lives in Calif ornia.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The author is a man.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The author is tired.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 232
+        }
+      },
+      {
+        "question": "Read the ragraph. pa I could live on chocolate! Every season is chocolate season. In the fall, stores sell giant bags of candy bars for Halloween. At Christmas, boxes of chocolate covered almonds are as common as ants at a picnic. Spring means baskets full of hollow chocolate bunnies. Best of all, who can resist a dripping ice cream cone on a summer day? Which of the following does NOT express how the writer feels about this topic?",
+        "choices": [
+          "There is not enough chocolate in August.",
+          "Chocolate is available all the time.",
+          "Chocolate is the best food.",
+          "There are so many kinds of chocolate."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: There is not enough chocolate in August.. There is not enough chocolate in August. The paragraph never mentions August or the lack of chocolate.",
+          "incorrect": [
+            "",
+            "Not: Chocolate is available all the time.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Chocolate is the best food.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: There are so many kinds of chocolate.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 234
+        }
+      },
+      {
+        "question": "Directions for washing the dishes: 1. Dry the dishes off and put them away. 2. Put the dirty dishes in the water and scrub them clean. 3. Fill the sink with warm water and soap. 4. Rinse the dishes with clean water. What is the correct order of the sentences above?",
+        "choices": [
+          "1, 2, 3,",
+          "3, 1, 2,",
+          "2, 3, 1,",
+          "3, 2, 4, 1"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: 3, 2, 4, 1. 3, 2, 4, 1",
+          "incorrect": [
+            "Not: 1, 2, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 3, 1, 2,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 2, 3, 1,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 236
+        }
+      },
+      {
+        "question": "Read the story and answer the question. It was my second grade school year. I was playing on the merry- -round at the first gorecess. My friend, Seth, challenged me to stand and lean over a bar while he pushed me as fast as he could for 5 minutes. At first, it was fun! I was having the ride of my life! Then, I suddenly felt dizzy. My stomach was moving up and down, churning wildly. I knew I was going to be sick. I had to live up to the challenge, I hung on for dear life. Suddenly, I let out a cry, “Stop! I’m sick!” Seth stopped the merry- -round. I go thought I was going to die. Seth helped me into the bathroom. When I emerged, I vowed never to participate in a merry- -round challenge again. go What type of writing is this?",
+        "choices": [
+          "autobiographical",
+          "a legend",
+          "a tall tale",
+          "poetry"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: autobiographical. autobiographical – a written work dealing with the writer’ s own life.",
+          "incorrect": [
+            "",
+            "Not: a legend. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a tall tale. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: poetry. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 239
+        }
+      },
+      {
+        "question": "Read the paragraph. Junk food is the worst poisonto hit society in the last hundred years. Everyday millions of young people suck down sugary sodas, gulp greasy French fries, and gorge on candy bars and potato chips. Cigarettes may cause lung cancer, but ou r country’s addictionto junk food will surely be our demise as our children grow to adulthood unhealthy and unhappy. What is the assumption underlying this paragraph?",
+        "choices": [
+          "Ju nk food should be eatenonly on occasions.",
+          "Eating junk food is worse than smoking cigarettes.",
+          "Healthy food can cure many diseases.",
+          "Young people eat more junk food than adults."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Eating junk food is worse than smoking cigarettes.. Eating junk food is worse than smoking cigarettes. The paragraph states that cigarettes cause lung cancer but junk food will be the demise of our children as they grow into adulthood.",
+          "incorrect": [
+            "Not: Ju nk food should be eatenonly on occasions.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Healthy food can cure many diseases.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Young people eat more junk food than adults.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 241
+        }
+      },
+      {
+        "question": "Read the following paragraph. As the teacher started to hand out the science tests, Jake felt a lump in his throat. His hand was shaking as he wrote his name on the top sheet of his test. As he read the first question, beads of sweat began to form on his forehead, and he had no idea what the correct answers were on the entire test. What canyou infer?",
+        "choices": [
+          "Jake is tired from not getting enough sleep.",
+          "Jake did not study for his test.",
+          "Jake is confident about his test.",
+          "Jake’s teacher is mean."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Jake did not study for his test.. Jake did not study for his test. Jake was worried as soon as the tea cher began to hand out the tests. Jake had no idea what the correct answers were on the entire test. This infers that Jake did not study.",
+          "incorrect": [
+            "Not: Jake is tired from not getting enough sleep.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Jake is confident about his test.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Jake’s teacher is mean.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 242
+        }
+      },
+      {
+        "question": "Read the passage.passage. Reintroducing native wolves to Yellowstone Park was a huge mistake. These beasts are cruel undiscriminating hunters. They invade ranches in the middle of the night and savagely destroy any livestock they come across. They are dirty, diseased brutes who spread viruses to all the animals in their paths. They should be sent back to where they came from. What does the writer assume in the paragraph?",
+        "choices": [
+          "that there are no positive qualities aboutwolves",
+          "that they prefer eating livestock to other animals",
+          "thatwolves will spread disease to humans",
+          "that no one is safe from wolves"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: that there are no positive qualities aboutwolves. that there are no positives qualities aboutwolves; The writer has a negative opinion regarding wolves and does not state anything positive about them.",
+          "incorrect": [
+            "",
+            "Not: that they prefer eating livestock to other animals. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: thatwolves will spread disease to humans. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: that no one is safe from wolves. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 244
+        }
+      },
+      {
+        "question": "Read the passage. As I walked along the hiking trail, I felt so happy and peaceful. It was a beautiful day, and I loved to enjoy nature. The sky was a crystal clean blue that seemed to go on forever. As I walked up the hill, I noticed the magnificent Aspen trees lining the trail. They were tall with paper white bark that peeled back in spots like thin tissue paper. They rose up into the sky like skyscrapers and swayed back and forth in the gentle breeze. As they danced side to side in the air, the y seemed to make a gentle sound, like a musical lullaby. It was a wonderful day for a hike. How does the author try to help you picture the trees?",
+        "choices": [
+          "comp ares them to other trees",
+          "explains what nature is really like on the trail",
+          "describes how they look and sound",
+          "describes how tall and wide they are"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: describes how they look and sound. describes how they look and sound; The author used personification and similes to describe how the trees look and sound.",
+          "incorrect": [
+            "Not: comp ares them to other trees. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: explains what nature is really like on the trail. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: describes how tall and wide they are. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 247
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Just as the clock struck midnight, Greg was awakened by a sound coming from outside his window. He jumped out of bed to inquire about the sound. As he approached the window, he saw Robot R2D2 landing his spacecraft. The bright green lights from the spacecraft’s anti-gravity boosters caused Greg to cry out in excitement. What does the author portray in this paragraph?",
+        "choices": [
+          "a science fiction setting",
+          "a historical fiction setting",
+          "a tall tale setting",
+          "a mystery setting"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: a science fiction setting. a science fiction setting a setting that is fiction based on imagined future scientific or – technological advances; frequently portraying space or time travel.",
+          "incorrect": [
+            "",
+            "Not: a historical fiction setting. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a tall tale setting. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a mystery setting. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 249
+        }
+      },
+      {
+        "question": "Read the passage. Peter ran into the house after school to get ready for his soccer game. This was the big championship, and he had been anticipating it for weeks. He knew he needed to be there ontime, or the coach would really be upset, and the game was about an hour’s drive away. He wanted to leave early. Peter was starting to feel anxious as he noticed the time on the hallway clock. He only had one and a half hours to get there. He dashed into the kitchento see if his mother was ready to take him. “I have a millionthings to do before we can leave!” she tol d Peter. How does his mother’s comment make Peter feel?",
+        "choices": [
+          "relaxed",
+          "hopeful",
+          "hopeless",
+          "empathetic"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: hopeless. hop eless-beyond optimism or hope, desperate.",
+          "incorrect": [
+            "Not: relaxed. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: hopeful. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: empathetic. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 250
+        }
+      },
+      {
+        "question": "Read the paragraph. Jane and Henry were the best of friends. They grew up on the same street and played together all through grade school. They felt like they knew everything about each other. Now that they were both in high school, they didn’t spend as much time together. Jane was running for class president that year, and most everyone was planning to vote for her. Henry felt left out and decided to run againsther. When he realized that Jane was still winning, he chall enged her to a debate in front of the school. He knew that if he promised free pizza for lunch every Frida y, thathe might have a chance at winning. Why was Henry running for class president?",
+        "choices": [
+          "He is jealous of Jane’s popularity at school.",
+          "He wants to finish high school.",
+          "He loves to eat pizza on Fridays.",
+          "He wants to support Jane."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: He is jealous of Jane’s popularity at school.. He is jealous of Jane’s popularity at school.",
+          "incorrect": [
+            "",
+            "Not: He wants to finish high school.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He loves to eat pizza on Fridays.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He wants to support Jane.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 251
+        }
+      },
+      {
+        "question": "Read the following paragraph. George Washington was a great man. He was the first president of the United States. We have been studying presidents in social studies class, and we are currently doing research on Ronald Reagan. He was an actor before he got into politics. Whichis a statement of opinion?",
+        "choices": [
+          "George Washington was the first president of the United States",
+          "They are studying presidents in social studies.",
+          "George Washington was a great. man",
+          "Ronald Reagan was an actor."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: George Washington was a great. man. George Washington was a great man. Being a ‘great man’ is an opinion.",
+          "incorrect": [
+            "Not: George Washington was the first president of the United States. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They are studying presidents in social studies.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Ronald Reagan was an actor.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 252
+        }
+      },
+      {
+        "question": "Read the ragraph. pa School was cancelled during an unexpected snowstorm last May. A) We woke up expecting spring flowers only to find the gardens c overed in a foot of snow. B) The front door was blocked shut by a massive drift that had blown agains t it. C) We re-started the heater, made a batch of hot chocolate, and settled in for the day. D) Last year there was a little snow, but we still had drou ght conditions through the summer. Which sentence does not belong?",
+        "choices": [
+          "sentence A",
+          "sentence B",
+          "sentence C",
+          "sentence D"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: sentence D. sentence D; This sentence reflects on last year and not the present condi tions.",
+          "incorrect": [
+            "Not: sentence A. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence B. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence C. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 254
+        }
+      },
+      {
+        "question": "Read the paragraph. Schools need to prepare students to be successful, productive citizens in our society. In order for teachers to help students learnthe cu rriculum and apply it to the real world, they must have the support of parents. Parents are the single mos t important factor in the daily lives of students, and without their help and support of schools, students will not thrive. What does the author want in the paragraph?",
+        "choices": [
+          "St udents to work harder.",
+          "Parents to get involved.",
+          "Teachers to teach better lessons.",
+          "Parents to give more money to the schools."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Parents to get involved.. Parents to get involved. The paragraph states that schools need the help and support of parents or students will not thrive.",
+          "incorrect": [
+            "Not: St udents to work harder.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Teachers to teach better lessons.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Parents to give more money to the schools.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 257
+        }
+      },
+      {
+        "question": "Read the poem and answer the question. I wish for a rainbow to color the sky, My friends would notice as it catches my eye. The colors would be vivid and bright for all to see, I’d walk through the village with it followi ng me. Tall trees may stretch to amazing heights, But keep my rainbow in perfect sight. My rainbow would bring all who can see a mome nt of pleasure, Which everyone would be lucky to have such a treasure. My rainbow, yousee, is a wonderful treat, My wish, my hope is for something special to me et. The lines of this poem are an example of:",
+        "choices": [
+          "p ersonification",
+          "simile",
+          "rhyme",
+          "metaphor"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: rhyme. rhyme when a word, syllable, or line has or ends with a sound that corresponds to – another.",
+          "incorrect": [
+            "Not: p ersonification. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: simile. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: metaphor. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 259
+        }
+      },
+      {
+        "question": "Read the passage. Until I was eleven years old I attended an English school. I felt very American and, often thought I had to speak up for my country. At recess, for instance, the English children would sometimes tease me by making fun of America. I never let that pass even if it meant a fight. Meet the Writer, I Wander About in History...” Elements of Literature. Holt, Rinehart, Winston 1997. What is the person who wrote the paragraph trying to say?",
+        "choices": [
+          "She did not care about America.",
+          "She stood up for her country.",
+          "She wanted to go back to America.",
+          "She was a teacher in China."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: She stood up for her country.. She stood up for her country. She never let classmatestease her about being American and stood up to them even if it meant a fight.",
+          "incorrect": [
+            "Not: She did not care about America.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: She wanted to go back to America.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: She was a teacher in China.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 279
+        }
+      },
+      {
+        "question": "Read the paragraph. When I first got up this morning, I knew it was going to be a terrible day. To begin with, my alarm clock didn’twork, and there wasn’t any hot water for my shower. Then, I went downstairs to find out I didn’t have time for breakfast, because the school bus was already stopped in front of my house. nt How is the paragraph organized?",
+        "choices": [
+          "by location",
+          "no organizational plan",
+          "by main idea",
+          "by sequence of events"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: by sequence of events. by sequence of events; First event Then next event.",
+          "incorrect": [
+            "Not: by location. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: no organizational plan. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: by main idea. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use informational features such as indexes, labels, tables, bibliographies, directions, and headings.",
+          "example": "Match the question to the exact feature, label, or listed detail before choosing.",
+          "link": "https://www.readingrockets.org/topics/comprehension/articles/using-text-features-support-comprehension",
+          "linkText": "Reading Rockets-Text Features"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "reference skills",
+            "informational text",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-nonfiction-text-features",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 283
+        }
       }
     ],
     "metadata": {

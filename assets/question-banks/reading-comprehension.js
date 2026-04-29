@@ -2709,6 +2709,58 @@
           "sourceGrade": 3,
           "sequence": 73
         }
+      },
+      {
+        "question": "Lead is to pencil as ink is to _________.",
+        "choices": [
+          "eraser",
+          "poster",
+          "pin",
+          "pen"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: pen. pen an implement for writing or drawing that uses ink. –",
+          "incorrect": [
+            "Not: eraser. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: poster. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: pin. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-analogies",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 43
+        }
       }
     ],
     "metadata": {
@@ -4263,6 +4315,110 @@
           "sourceGrade": 3,
           "sequence": 199
         }
+      },
+      {
+        "question": "Which group could be classified as parts of the body?",
+        "choices": [
+          "eyes, nose, eyeglasses",
+          "hands, feet, mouth",
+          "see, taste, smell",
+          "jacket, hat, boots"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: hands, feet, mouth. hands, feet, mouth; all of these are parts of the body.",
+          "incorrect": [
+            "Not: eyes, nose, eyeglasses. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: see, taste, smell. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: jacket, hat, boots. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-categorizing",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 42
+        }
+      },
+      {
+        "question": "Read the list and answer the question. Animals in the Zoo Bears Monkeys Birds What kind of animals are onthis list?",
+        "choices": [
+          "zoo animals",
+          "pets",
+          "monkeys",
+          "bears"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: zoo animals. zoo animals; The title of the list states “Animals in the Zoo”.",
+          "incorrect": [
+            "",
+            "Not: pets. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: monkeys. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: bears. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-categorizing",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 44
+        }
       }
     ],
     "metadata": {
@@ -5129,6 +5285,526 @@
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
           "sequence": 160
+        }
+      },
+      {
+        "question": "Read the passage: They are the only mammals that fly. They are very helpful to farmers because they eat so many insects. Bat droppings are used as a fertilizer. Bats are an important part of our ecosystem, even though many people are afraid of them. The writer thinks bats:",
+        "choices": [
+          "are scary and awful.",
+          "are an important part of our ecosystem.",
+          "eat fertilizer.",
+          "sleep all night."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: are an important part of our ecosystem.. are an important part of our ecosystem. This is stated in the last sentence in the passage.",
+          "incorrect": [
+            "Not: are scary and awful.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: eat fertilizer.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sleep all night.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 41
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Tamarins are monkeys. They are in great danger. They live in the forest areas of Brazil. Many people in Brazil are building homes along the coast of the Atlantic Ocean. They are cutting downtrees from the forested areas to help build their homes. Why are the tamarins in danger?",
+        "choices": [
+          "Their homes are being destroyed.",
+          "They live in Brazil.",
+          "They are monkeys.",
+          "They live along the coast."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Their homes are being destroyed.. Their homes are being destroyed. The story states that the monkeys are in great danger because they live in the forest and they are cutting down the trees to build homes.",
+          "incorrect": [
+            "",
+            "Not: They live in Brazil.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They are monkeys.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They live along the coast.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 50
+        }
+      },
+      {
+        "question": "Which sentence does not belong?",
+        "choices": [
+          "In the winter, some animals go into deep sleep cal led hibernation.",
+          "Many birdsescape the cold by flying south.",
+          "Leaves change colors because of the cold weather.",
+          "Some animals live on fat stored in their bodies."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Leaves change colors because of the cold weather.. Leaves change colors because of the cold weather. This is the only se ntence that does NOT address animals. Therefore, this sentence does not belong.",
+          "incorrect": [
+            "Not: In the winter, some animals go into deep sleep cal led hibernation.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Many birdsescape the cold by flying south.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Some animals live on fat stored in their bodies.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 62
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Terry was at school. He left his classroom to pay for his school lunch. As he left the classroom, he put his money in his pocket. His pocket had a hole in it. Wh en Terry got to the lunchroom to pay for his lunch, he didn’t have any money. Terry lost his money because ____________________.",
+        "choices": [
+          "he forgot to bring it to school",
+          "he had a hole in his pocket",
+          "his mother forgot to give him his lunch money",
+          "He forgot to bring it with him"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: he had a hole in his pocket. he had a hole in his pocket; Terry put his money in his pocket and his pocket had a hole i n it.",
+          "incorrect": [
+            "Not: he forgot to bring it to school. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: his mother forgot to give him his lunch money. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He forgot to bring it with him. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 72
+        }
+      },
+      {
+        "question": "Look at the illustratio n below. The girls are excited because:",
+        "choices": [
+          "Educ ation opens doors.",
+          "They don’t have homework.",
+          "They like their gr aduatio n gowns.",
+          "Their families are proud."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Educ ation opens doors.. Educ ation opens doors. They both gr aduated and ex press that they have a bright future ahead of them because of their educatio n.",
+          "incorrect": [
+            "",
+            "Not: They don’t have homework.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They like their gr aduatio n gowns.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Their families are proud.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 100
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. The football game started earlier last Saturday. The games us ually start at 7:00 p.m. Now that it is getting closer to winter, it is nice that the games are earlier in the day, so we don’t have to wear our heavy coats. Why are football games starting earlier?",
+        "choices": [
+          "It is getting warmer.",
+          "The players are ontime.",
+          "It is getting colder.",
+          "We can cheer longer."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: It is getting colder.. It is getting colder. It is getting closer to winter (colder) so the games are s tarting earlier.",
+          "incorrect": [
+            "Not: It is getting warmer.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The players are ontime.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: We can cheer longer.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 154
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. It was raining hard and the wind was blowing. The teacher said that we could play games in the classroom during recess time. Why are the children staying in at recess?",
+        "choices": [
+          "It is too hot.",
+          "The classroom was messy.",
+          "The weather was bad.",
+          "The teacher was sick."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The weather was bad.. The weather was bad. It was raining hard and the wind was blowing. These are not idea l conditions for recess.",
+          "incorrect": [
+            "Not: It is too hot.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The classroom was messy.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The teacher was sick.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 174
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. “What a mess!” Megan screamed as she walked into her bedroom. Papers were scattered all over the floor, and her posters had fallen off the wall. She ran across the room to close her window. Why was Megan’s room so messy?",
+        "choices": [
+          "because she cleaned her room",
+          "because her sister made a mess",
+          "because she forgot to clean it",
+          "because the wind had blown everything around"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: because the wind had blown everything around. because the wind had blown everything around; Megan’s window was open and the wind created a mess in her room.",
+          "incorrect": [
+            "Not: because she cleaned her room. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: because her sister made a mess. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: because she forgot to clean it. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 218
+        }
+      },
+      {
+        "question": "Select the reason below thatwould best support a writer’s conclusion that teachers are more important than computers.",
+        "choices": [
+          "Teachers can play games with students just as well as compu ters.",
+          "Research shows that students learn 87% more from their teachers than from computers.",
+          "Teachers aren’t very proficient with computers, so they seldom use them in class.",
+          "Teacher s are paid thousands of dollars per year and are therefore more effective than computers."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Research shows that students learn 87% more from their teachers than from computers.. Research shows that students learn 87% more from their teachers than from computers. This reason gives the most evidence to support the conclusion that teachers are more important than computers.",
+          "incorrect": [
+            "Not: Teachers can play games with students just as well as compu ters.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Teachers aren’t very proficient with computers, so they seldom use them in class.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Teacher s are paid thousands of dollars per year and are therefore more effective than computers.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 235
+        }
+      },
+      {
+        "question": "Read the passage. As Marc wrestled for the state championship, his grandfather called out, “Pin him boy! You’re as strong as an ox!” What canyou guess about Marc’s grandfather?",
+        "choices": [
+          "He lacked confidence in Marc’s ability to win because Marc was weak.",
+          "He had confidence in Marc’s ability to win because Marc was strong.",
+          "He thought Marc was an ox.",
+          "He thought Marc was wrestling an ox."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: He had confidence in Marc’s ability to win because Marc was strong.. He had confidence in Marc’s ability to win because he was strong. Marc’s grandfather compared Marc’s strength to that of an ox, therefore he thoughthe could pin his opponent and win.",
+          "incorrect": [
+            "Not: He lacked confidence in Marc’s ability to win because Marc was weak.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: He thought Marc was an ox.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He thought Marc was wrestling an ox.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-cause-effect",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 240
         }
       }
     ],
@@ -8129,6 +8805,422 @@
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
           "sequence": 139
+        }
+      },
+      {
+        "question": "Which of the following would have the most accurate, reliable information on the importance of lawn pesticides?",
+        "choices": [
+          "a homeowner who has had his lawn sprayed with pesticides",
+          "a pilot who sprays pesticides on crops for farmers",
+          "a well researched book that compares natural methods to pesticides",
+          "an environmentalist who opposes pesticides"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: a well researched book that compares natural methods to pesticides. a well-researched book that compares natural methods to pesticides; This information will compare the findings of natural methods to chemical methods.",
+          "incorrect": [
+            "Not: a homeowner who has had his lawn sprayed with pesticides. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a pilot who sprays pesticides on crops for farmers. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: an environmentalist who opposes pesticides. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 3
+        }
+      },
+      {
+        "question": "Read the story. At recess time, the 4th grade class was playing a fun game of soccer on the playground. Three 6th graders joined the game and things got rough. The 4th graders decided that they would never allow any 6th graders to play wi th them again. What bias do the 4 th grade students have?",
+        "choices": [
+          "They think 6th graders are better players.",
+          "They think 6th graders are not funto play with.",
+          "They think only 4 th graders should play soccer.",
+          "They think all 6th graders play roughly."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: They think all 6th graders play roughly.. They think all 6th graders play roughly. The story states that they would ne ver allow “any 6th graders” to play with them. This is biased because not all 6th graders are rough, maybe only the ones that played soccer with them for that particular game.",
+          "incorrect": [
+            "Not: They think 6th graders are better players.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They think 6th graders are not funto play with.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They think only 4 th graders should play soccer.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 51
+        }
+      },
+      {
+        "question": "Read the passage. One is more likely to be killed by another hunter than a bear. You should have fear when out in the wilderness. That is the wildlife’s home, and they did not invite you, that is the risk you take for being out there. I have nothing against hunters; I used to be one myself. But, I am against unnecessary slaughter of wildlife. To me it is the true act of a coward. In the author’s opinion, people should:",
+        "choices": [
+          "r esp ect the wilderness as the wildli fe’s home",
+          "fear bears more than other hunters",
+          "dress warmly while hunting",
+          "promote unnecessary slaughter of wildlife"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: r esp ect the wilderness as the wildli fe’s home. respect the wilderness as the wildlife’s home",
+          "incorrect": [
+            "",
+            "Not: fear bears more than other hunters. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: dress warmly while hunting. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: promote unnecessary slaughter of wildlife. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 101
+        }
+      },
+      {
+        "question": "Read the sentences and answer the question. • There are many places to go for entertainment. • City living means long, boring drives to work. • There are too many people in the city. • New York is one of the largest cities. Which sentence supports the opinionthat living in the city is fun?",
+        "choices": [
+          "There are many places to go for entertainment.",
+          "City living means long, boring drives to work.",
+          "There are too many people in the city.",
+          "New York is one of the largest cities."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: There are many places to go for entertainment.. There are many places to go for entertainment. Entertainment is what people do for fun; therefore, this sentence supports the opinionthat living in the city is fun.",
+          "incorrect": [
+            "",
+            "Not: City living means long, boring drives to work.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: There are too many people in the city.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: New York is one of the largest cities.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 141
+        }
+      },
+      {
+        "question": "Read the passage. “In Idaho Falls live two awesome ladies. Several years ago, it was the good fortune of May and Phyllis to come into some unexpected money. Not only theirs but also many others lives have beentouched by that good fortune.”-The Idaho News mailbox P.O. Box 1800, Idah o Falls, Idah o83403. Which word shows opinion in this passage?",
+        "choices": [
+          "f ortune",
+          "money",
+          "awesome",
+          "unexpected"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: awesome. awesome (adj.) inspiring awe –",
+          "incorrect": [
+            "Not: f ortune. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: money. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: unexpected. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 142
+        }
+      },
+      {
+        "question": "Read the sentences and answer the questions. 1. The Pacific Ocean is the most beautiful ocean. 2. Cars are more convenient thantrucks. 3. All politicians are dishonest. 4. Denver is the capital of Colorado. Whic sentence tells a fact, not an opinion? h",
+        "choices": [
+          "sentence 1",
+          "sentence",
+          "sentence",
+          "sentence"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: sentence. sentence 4; Fact something that has actual existence. Denver is the capital of Colorado. –",
+          "incorrect": [
+            "Not: sentence 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 161
+        }
+      },
+      {
+        "question": "Which sentence is not a fact, but an opinion?",
+        "choices": [
+          "There is no school next Monday.",
+          "I’m going to a movie with my best friend.",
+          "We’re going to see an adventure film.",
+          "Adventure films are much better than love storie s."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Adventure films are much better than love storie s.. Adventure films are much better than love stories. Something being better than another is a opinion, not a fact. person’s",
+          "incorrect": [
+            "Not: There is no school next Monday.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: I’m going to a movie with my best friend.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: We’re going to see an adventure film.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 222
+        }
+      },
+      {
+        "question": "Read the sentence: I’ve always felt that pie would be a much better dessert to serve at weddings than cake. Which of the following phrases gives the reader a clue that the sentence is an opinion?",
+        "choices": [
+          "I’ve always felt",
+          "pie would be",
+          "to serve at weddings",
+          "than cake"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I’ve always felt. Felt an experience, emotion or sensation. I’ve always felt. –",
+          "incorrect": [
+            "",
+            "Not: pie would be. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to serve at weddings. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: than cake. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-fact-opinion",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 255
         }
       }
     ],
@@ -11557,6 +12649,370 @@
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
           "sequence": 196
+        }
+      },
+      {
+        "question": "Read the list and answer the question. Things to do on Tuesday: 1. Go to the library 2. Buy carrots at the market 3. Call the telephone company 4. Wrap Shelly’s birthday present. What do you think Maria will do with her list?",
+        "choices": [
+          "t ake it to school",
+          "color it purple",
+          "use it to check each thing off as she completes it",
+          "use it to fold and decorate a birthday card"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: use it to check each thing off as she completes it. use it to check each thing off as she completes it. The list is numbered 1 -4, indicating that Maria can easily check each item off the list as she completes it.",
+          "incorrect": [
+            "Not: t ake it to school. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: color it purple. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: use it to fold and decorate a birthday card. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 54
+        }
+      },
+      {
+        "question": "If Jacob wanted to read a book about animals, which title would he probably choose?",
+        "choices": [
+          "The Dolphin Story",
+          "Singing a Song",
+          "Through the Tunnel",
+          "Lost in Caves"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The Dolphin Story. The Dolphin Story; This is the only title that includes an animal name.",
+          "incorrect": [
+            "",
+            "Not: Singing a Song. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Through the Tunnel. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Lost in Caves. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 158
+        }
+      },
+      {
+        "question": "Read the passage. Scientists are still not able to predict ear thquakes, but they are co ntinuing to discover various indicators of possible earthquakes. Scientist using a Richter Scale, which gives a numerical indication of the severity of the earthquake, typically measure earthquakes. This passage is most likely from a:",
+        "choices": [
+          "jo urnal",
+          "novel",
+          "play",
+          "essay"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: essay. essay; An essay is a short piece of writing on a particular subject.",
+          "incorrect": [
+            "Not: jo urnal. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: novel. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: play. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 248
+        }
+      },
+      {
+        "question": "Read the story. Kate woke in the middle of the night. She was shaking. She ran to her parents’ room crying. They hugged her, told her she was okay and tucked her back in bed. From the story, you can tell _________________.",
+        "choices": [
+          "Kate is late for school.",
+          "Kate likes to play jokes.",
+          "Kate had a bad dream.",
+          "Kate had a fight with her sister."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Kate had a bad dream.. Kate had a bad d ream. Kate woke in the middle o f the night crying; implying that she had a bad dream.",
+          "incorrect": [
+            "Not: Kate is late for school.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Kate likes to play jokes.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Kate had a fight with her sister.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 264
+        }
+      },
+      {
+        "question": "Read the story. Sue and Al went everywhere together. They went to the park to play. They went swimming at the pool. They ate lunch together and even had dinner at each other’s house. We can tell that Sue and Al were ___________________.",
+        "choices": [
+          "school buddies",
+          "not friends",
+          "brother and sister",
+          "best friends"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: best friends. best friends; They went everywhere together and had dinner at each other’s house.",
+          "incorrect": [
+            "Not: school buddies. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: not friends. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: brother and sister. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 266
+        }
+      },
+      {
+        "question": "Read the passage. The zoo is a very exciting place to visit. You can see lots of amazing animals. You can learn interesting facts about them. You will never be bored at the zoo. From this passage, you can tell that:",
+        "choices": [
+          "Amazing animals live in the zoo.",
+          "The zoo is a boring place to go.",
+          "The zoo is a great place to visit.",
+          "Zoo animals are fun."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The zoo is a great place to visit.. The zoo is a great place to visit.",
+          "incorrect": [
+            "Not: Amazing animals live in the zoo.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The zoo is a boring place to go.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Zoo animals are fun.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 270
+        }
+      },
+      {
+        "question": "Read the passage. Now, all the Crocketts were big, but Davy was big even for a Crockett. He weighed two hundred pounds, fourteen ounces, and he was as frisky as a wildcat. His ma and his Aunt Ketinah stood over Davy, trying to get him to sleep. “Davy is Born”. Elements of Literature: Second Course. Holt, Rinehart, Winston 1997. Which was NOT true of Davy Crockett?",
+        "choices": [
+          "He was a big man.",
+          "He was a city boy.",
+          "He was as frisky as a wild cat.",
+          "He weighed 200 pounds and 14 ounces."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: He was a city boy.. He was a city boy. The passage does not mention anything about being a city boy.",
+          "incorrect": [
+            "Not: He was a big man.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: He was as frisky as a wild cat.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He weighed 200 pounds and 14 ounces.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-inference",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 288
         }
       }
     ],
@@ -20941,6 +22397,630 @@
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
           "sequence": 159
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Leo the lion went to the park one day. He sat on the bench and watched everyone playing on the toys. Then, he ate lunch thathe had brought along. Leo had peanut butter and jelly sandwiches. Which title tells the main idea of this story?",
+        "choices": [
+          "Going to the Park",
+          "Leo Picnics in the Park",
+          "Lions like Peanut Butter and Jelly",
+          "Where did Leo Go?"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Leo Picnics in the Park. Leo Picnics in the Park; The passage is about eating his packed lunc h in the park.",
+          "incorrect": [
+            "Not: Going to the Park. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Lions like Peanut Butter and Jelly. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Where did Leo Go?. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 14
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Jenny wanted a pet for her birthday. Her mom and dad took her to the pet store. First, Jenny looked at the birds. Then, she looked at the kittens. Finally, she looked at the puppies. A puppy jumped up and licked her face. Jenny wanted to take him home. What is the main idea of the story?",
+        "choices": [
+          "pet stores",
+          "birds",
+          "choosing a pet",
+          "pet food"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: choosing a pet. choosing a pet; The story introduces the different types of pets that Jenny looked at.",
+          "incorrect": [
+            "Not: pet stores. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: birds. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: pet food. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 46
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Insects live in many places. Some live on land. Some live in water. Others live in the air. Some insectseven live in the ground. What is the main idea of the story?",
+        "choices": [
+          "Insects live in many places.",
+          "Insects live in the air.",
+          "Insects live in the ground.",
+          "Insects live in water."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Insects live in many places.. Insects live in many places. The story tells us the different places that insects live: land, air, water, in the ground. Therefore, the main idea is “Insects live in many places”.",
+          "incorrect": [
+            "",
+            "Not: Insects live in the air.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Insects live in the ground.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Insects live in water.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 55
+        }
+      },
+      {
+        "question": "Read the sentences in the story below. 1. Some children like cheese pizza. 2. Others like pepperoni pizza. 3. Kathy likes sausage pizza. 4. Many children like to eat pizza. Which sentence is the main idea of this story?",
+        "choices": [
+          "sentence 1",
+          "sentence",
+          "sentence",
+          "sentence"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: sentence. sentence 4; Each sentence tells of different people liking differe nt types of pizza; therefore, “Many children like to eat pizza” is the main idea of the story.",
+          "incorrect": [
+            "Not: sentence 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 74
+        }
+      },
+      {
+        "question": "Read the selection from Island of the Blue Dolphins and answer the question. I do not remember much of this time, except that many suns rose and set. I thought about what I was going to do now that I was alone. I did not leave the villa ge. Not until I had eaten all of the abalones did I leave and thenonly to gather more. Yet, I doremember the day that I decided I would never liv e in the village again. (Teacher author: Bev Holtom) What is the main idea from this passage?",
+        "choices": [
+          "She lives in the village with her brother.",
+          "She likes to eat abalones.",
+          "She is leaving the village.",
+          "She is alone and must survive"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: She is alone and must survive. She is alone and must survive. The second sentence states that she is alone.",
+          "incorrect": [
+            "Not: She lives in the village with her brother.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: She likes to eat abalones.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: She is leaving the village.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 133
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Dear Judy, Thank you for helping me with my bike. You are a very good friend. I enjoy playing with you because you are always nice to me. I am lucky to have you for a friend. From, Katy What is the main idea of the note?",
+        "choices": [
+          "Judy fixed Katy’s bike.",
+          "Judy is a good friend to Katy.",
+          "Katy is glad her bike is fixed.",
+          "Katy likes to write notes."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Judy is a good friend to Katy.. Judy is a good friend to K aty. This is what Katy tells Judy in her note.",
+          "incorrect": [
+            "Not: Judy fixed Katy’s bike.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Katy is glad her bike is fixed.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Katy likes to write notes.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 143
+        }
+      },
+      {
+        "question": "Read the passages and answer the question. Owls have different nesting habits. Some build nests intree hallows, others in old buildings, and some on the ground. Most build their nests intrees because their colors make them hard to see. Olivia Owl couldn’t decide where to build her nest. Her mother had builther nest in a tree, but Olivia wanted more protection for her babies. She looked and looked until finally, she found the perfect spot. It was an old barn. What is the main idea of these two passages?",
+        "choices": [
+          "Owls blend into their surroundings.",
+          "Owls are awake at night.",
+          "Owls lay eggs.",
+          "Owls build their nests in many different places."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Owls build their nests in many different places.. Owls build their nests in many different places. Tree hallows, old buildings, the ground, and a barn are just a few places owls might build nests.",
+          "incorrect": [
+            "Not: Owls blend into their surroundings.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Owls are awake at night.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Owls lay eggs.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 153
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Saturn is a large planet. The only planet bigger than Saturn is Jupiter. Saturn is called a gas giant because of its size. It is also known for having rings. Saturn is the second largest planet in our solar system. What is the main idea of the passage?",
+        "choices": [
+          "Jupiter is a large planet.",
+          "Saturn is known for having rings.",
+          "Jupiter is a gas giant.",
+          "Saturn is a large planet."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Saturn is a large planet.. Saturn is a large planet. The main idea is stated i nthe first sentence with supporting evidence in the following sentences.",
+          "incorrect": [
+            "Not: Jupiter is a large planet.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Saturn is known for having rings.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Jupiter is a gas giant.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 163
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Shannon went on a walk with her friend. They had a great time talk ing, getting exercise, and enjoying the weather. They went all around the walking path, and back to their cars. They decided they would go againtomorrow. What is the main idea of the passage?",
+        "choices": [
+          "Shannon and her friend were walking.",
+          "Shannon was with her best friend.",
+          "Shannon loved the weather.",
+          "Walking is the best exercise."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Shannon and her friend were walking.. Shannon and her friend were walking. The first sentence of the passage i ntroduces the main idea with supporting thoughts in the following sentences.",
+          "incorrect": [
+            "",
+            "Not: Shannon was with her best friend.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Shannon loved the weather.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Walking is the best exercise.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 164
+        }
+      },
+      {
+        "question": "Read the following and answer the question. Butterflies are insects that have scales on their wings. They have thousands of these tiny, colored scales on each wing. The scales are arranged in different ways to make colorful patterns on the butterflies’ wings. Flutter, flutter, flutter the butterfly does go. Flying through the air, its wings all aglow. Pitter, patter, putter colors they do sing, See the colorful patterns on their wings. What is the main idea of these two pieces of writing?",
+        "choices": [
+          "But terflies are insects.",
+          "Butterflies can fly.",
+          "Butterflies have scales that create colorful patterns on their wings.",
+          "Butterflies are interesting insects."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Butterflies have scales that create colorful patterns on their wings.. Butterflies have scales and create colorful patterns on their wi ngs. Both pieces address the colorful patterns that butterflies have on their wi ngs.",
+          "incorrect": [
+            "Not: But terflies are insects.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Butterflies can fly.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Butterflies are interesting insects.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 193
+        }
+      },
+      {
+        "question": "Jose wants to identify different kinds of bears. Which book should he get?",
+        "choices": [
+          "Pa nda Bears",
+          "Smokey The Bear",
+          "Polar Bears",
+          "All About Bears"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: All About Bears. All About Bears; All About Bears would cover and identify different kinds of bears.",
+          "incorrect": [
+            "Not: Pa nda Bears. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Smokey The Bear. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Polar Bears. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 200
+        }
+      },
+      {
+        "question": "Read the poem and answer the question. “Hurray for Poetry” By: Patricia Hubbell Dance a Poem! March a Poem! Leap a Poem! Yes! Eat a Poem! Slip a Poem! Slurp a Poem! Yes! Love a Poem! Live a Poem! Be a Poem! Yes! What is the main idea of this poem?",
+        "choices": [
+          "you can dance to poems",
+          "get involved in poetry",
+          "you can eat poems",
+          "you canonly write about poetry"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: get involved in poetry. get involved in poetry; The author encourages the reader to get involved in poetry by dancing a poem, marching a poem, …loving a poem, living a poem!",
+          "incorrect": [
+            "Not: you can dance to poems. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: you can eat poems. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: you canonly write about poetry. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-main-idea-supporting-details",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 210
         }
       }
     ],
@@ -31314,6 +33394,3750 @@
           "sourceGrade": 3,
           "sequence": 194
         }
+      },
+      {
+        "question": "Read the passage. “And did you really have the three wishes granted?” asked Mrs. White. “I did,” said the sergeant major, and his glass tapped against his strong teeth. “And has anybody else wished?” inquired the old lady. “The first man had his three wishes, yes,” was the reply. “I don’t know what the first two were, but the third was for death. That’s how I got the paw.” His tones were so grave that a hush fell upon the group. W., The Monkey s Paw and O ther Tales of Mystery and the Macabre, Academy Chicago Publishers, Chicago, 19 97. Which statement best supports the conclusion that the Monkey’s Paw will bring heartache?",
+        "choices": [
+          "The wishes didn’twork.",
+          "No one was able to make a wish.",
+          "The third wish was for death.",
+          "The first man had his three wishes."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The third wish was for death.. The third wish was for death. “I don’t know what the first two were, but the third was for death.” This quote refers to the three wishes, the third wish being for death.",
+          "incorrect": [
+            "Not: The wishes didn’twork.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: No one was able to make a wish.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The first man had his three wishes.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 1
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Scientist, Jack Futureman, sat in his laboratory working on his new discovery. “This will change the world! He thought to himself. “Where should I go first with my amazing new invention?” He could go back to the past and witness World War I or travel into the future to see what new technologiesexist. The possibilities were endless! What is Jack’s invention?",
+        "choices": [
+          "a time machine",
+          "an airplane",
+          "a vacuum cleaner",
+          "an encyclopedia"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: a time machine. a time machine; Going back in the past or into the future indicates a time machine.",
+          "incorrect": [
+            "",
+            "Not: an airplane. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a vacuum cleaner. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: an encyclopedia. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 4
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. When making a peanut butter sandwich, first gather all of the ingredients: bread, peanut butter, and jelly. Lay the two pieces of bread on a plate. Next, with a butter knife, spread the peanut butter on one side of the bread. What should be the next step?",
+        "choices": [
+          "Spread the jelly on the other piece of bread.",
+          "Eat the sandwich.",
+          "Cut the sandwich in half.",
+          "Put the plate away."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Spread the jelly on the other piece of bread.. Spread the jelly on the other piece of bread. It is a peanut butter and jelly sandwich; spreading the jelly on a piece of bread naturally follows spreading the peanut butter on a piece of bread.",
+          "incorrect": [
+            "",
+            "Not: Eat the sandwich.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Cut the sandwich in half.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Put the plate away.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 5
+        }
+      },
+      {
+        "question": "Read the passage. First, take the chunk of clay and mold it into the shape that you want. Take the clay sculptor and shave away any rough edges. Sponge off the rough edges and make sure the clay stays moist. Continue sculpting until you are satisfied with the final sh ape. Bake in the kiln at setting C for 5 hours, or until you think the clay is sufficiently 760  hardened. Remove, cool, then glaze. Whatwould you do to check if the clay is hard enough?",
+        "choices": [
+          "t ry to speed up the timer so you can check the sculpture and see if it’s finished",
+          "wait for the timer to go off and whenthe kiln co ols, check your work",
+          "openthe kiln and look at your sculpture",
+          "take your sculpture out after 2 hours and then fix it again a second time after 2 more hours"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: wait for the timer to go off and whenthe kiln co ols, check your work. wait for the timer to go off and whenthe kiln cools, check your work",
+          "incorrect": [
+            "Not: t ry to speed up the timer so you can check the sculpture and see if it’s finished. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: openthe kiln and look at your sculpture. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: take your sculpture out after 2 hours and then fix it again a second time after 2 more hours. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 7
+        }
+      },
+      {
+        "question": "Read the information about shipping and handling charges. If you wish toreceive an order totaling $90.00 within 3 days, how much would the s hipping cost be?",
+        "choices": [
+          "$1 6.50",
+          "$10.50",
+          "$26.50",
+          "$15.00"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: $1 6.50. $16.50; $9.50 (ground rate) + $7.00 (3 day rate) = $16.50 total shipping cost",
+          "incorrect": [
+            "",
+            "Not: $10.50. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: $26.50. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: $15.00. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 16
+        }
+      },
+      {
+        "question": "Read the passage. On Wednesday, the soda machine ran out of my favorite beverage. Two days ago, the chip machine was not accepting change. The repairman came o n Tuesday and fixed the soda machine. I am really hoping class will get over quickly, because I can’t wait for a soda. What happened on Tuesday?",
+        "choices": [
+          "I w anted a soda.",
+          "The chip machine broke.",
+          "The repairman fixed the soda machine.",
+          "The soda machine broke."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The repairman fixed the soda machine.. The repairman fixed the soda machine. The repairman came on Tuesday and fixed the soda machine.",
+          "incorrect": [
+            "Not: I w anted a soda.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The chip machine broke.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The soda machine broke.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 18
+        }
+      },
+      {
+        "question": "Read the passage. True! nervous very, very dread fully nervous I had been and am; but why will you — say that I am mad? T he disease had sharpened my senses not destroyed not dulled — them. Above all was the sense of hearing acute. I heard all th ings in the heaven and in the earth. I heard many things in hell. How, then, am I m ad? Hearken! And observe how health ily how calmly I can tell y ou the w hole story. — Elements of Lit erature. Holt, Rinehart and Winston. 1 997 What inference canyou m ake about the narrator?",
+        "choices": [
+          "The narrator is unabashedly happy.",
+          "The narrator is quite mad.",
+          "The narrator is a minister.",
+          "T he narrator has a strong sense of smell."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The narrator is quite mad.. The narrator is quite mad. He is defending himself a s to why he is accused of being mad.",
+          "incorrect": [
+            "Not: The narrator is unabashedly happy.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The narrator is a minister.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: T he narrator has a strong sense of smell.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 21
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Michelle had waited for her new dance costume for two months. It finally arrived! She ran to her room to try it on. Everything fit, except the skirt. It was too long. Just then, the phone rang. It was Jessica, a girl in her dance class. “I got my costume!” said Jessica, “and it’s too short!” What do you think will happen next?",
+        "choices": [
+          "The girls will trade skirts.",
+          "Jessica will hang up the phone.",
+          "Michelle’s mother will buy her a new skirt.",
+          "They will both miss the dance."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The girls will trade skirts.. The girls will trade skirts. Michelle’s skirt was too long and Jessica’s was too short, so they trade skirts.",
+          "incorrect": [
+            "",
+            "Not: Jessica will hang up the phone.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Michelle’s mother will buy her a new skirt.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They will both miss the dance.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 24
+        }
+      },
+      {
+        "question": "Read the note. What did Jen do after the movie?",
+        "choices": [
+          "ate pizza",
+          "went to the mall",
+          "got some ice cream",
+          "went bowling"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: got some ice cream. got some ice cream; pizza then movie then ice cream.",
+          "incorrect": [
+            "Not: ate pizza. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: went to the mall. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: went bowling. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 29
+        }
+      },
+      {
+        "question": "Read the passage. She was alone and still, gazing out to sea; and when she felt his presence and the worship of hiseyes her eyes turned to him in quiet sufferance of his gaze, without shame or wantonness. Long, long she suffered his gaze and then quietly withdrew her eyes from his and bent them towards the stream, gently stirring the water with her foot hither and thither. The first faint noise of gently moving water broke the silence, low and faint and whispering, faint as the bells of sleep; hither and thither, hither and thither: and a faint flame trembled on her cheek. A Portrait of the Artist as a Young Man. B edford Books, 199 3. What can be determined from this passage?",
+        "choices": [
+          "they are best friends",
+          "they are strangers to each other",
+          "they ar e relatives",
+          "they are husband and wife"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: they are strangers to each other. they are strangers to each other",
+          "incorrect": [
+            "Not: they are best friends. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: they ar e relatives. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: they are husband and wife. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 30
+        }
+      },
+      {
+        "question": "Read the passage. His mother clipped coupons from magazines and newspapers, kept a vegetable garden in the summer, and shopped at JC Penney and Walmart. Their family ate a lot of frijoles, which was okay because nothing else tasted so good, though one time Alfonso had Chinese pot stickers and thought they were the next best food in the world. He didn’t ask his mother for braces again, even when she was i n a better mood. Elements o f Literature. Holt, R inehart and Win ston. 1997 How does Alfonso support his assumptionthat his mother will not pay for braces?",
+        "choices": [
+          "He t ells how she likes to go shopping.",
+          "He likes pot stickers almost as much as frijoles.",
+          "He explains about her garden.",
+          "He details her efforts to save money."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: He details her efforts to save money.. He details her efforts to save. Alfonso’s mother shops and discount stores, clips coupons and grows her own vegetables; therefore, he ass umes that she does not have the extra money to pay for braces.",
+          "incorrect": [
+            "Not: He t ells how she likes to go shopping.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He likes pot stickers almost as much as frijoles.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He explains about her garden.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 31
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Mary was standing on the sidewalk. Then, she saw a butterfly. She got a net. She chased the butterfly. What will happen next?",
+        "choices": [
+          "Mary will try to catch the spider.",
+          "Mary will try to catch the moth.",
+          "Mary will try to catch the butterfly.",
+          "Mary will run and play."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Mary will try to catch the butterfly.. Mary will try to catch the butterfly. Mary is chasing the butterfly. The next step in the story is to try to catch the butterfly with the net.",
+          "incorrect": [
+            "Not: Mary will try to catch the spider.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Mary will try to catch the moth.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Mary will run and play.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 45
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Sam woke up and saw the sun shining in the sky. He packed his swimming suit, a towel, a beach ball, and his sandals in his bag. Then, he went to the kitchen and made a sack lunch. Sam is most likely going to ________________.",
+        "choices": [
+          "school",
+          "the beach",
+          "the mall",
+          "the library"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: the beach. the beach; Sam is taking his swim suit, a towel, beach ball and sa ndals. All of these items indicate thathe is going to the beach.",
+          "incorrect": [
+            "Not: school. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: the mall. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the library. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 52
+        }
+      },
+      {
+        "question": "Read the passage. Ben and Kim went to the zoo after school with their mother. They saw many animals. Ben liked the monkey. He thought the monkey was funny. Kim liked the ti ger. She thought the tiger was colorful. Why did Ben like the monkey?",
+        "choices": [
+          "He was big.",
+          "He was colorful.",
+          "He was funny.",
+          "He was an animal."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: He was funny.. He was funny. Ben liked the money because “he thought the monkey was funny.”",
+          "incorrect": [
+            "Not: He was big.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He was colorful.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: He was an animal.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 57
+        }
+      },
+      {
+        "question": "Read the story and answer the question. It was raining outside. Sue got out of bed and got dressed for school. Then, she ate breakfast and grabbed her backpack. Before Sue left the house, she probably __________________.",
+        "choices": [
+          "p icked up her umbrella",
+          "gother sunglasses",
+          "made a sandwich",
+          "put on sandals"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p icked up her umbrella. picked up her umbrella; It was raining so Sue probably p icked up her umbrella.",
+          "incorrect": [
+            "",
+            "Not: gother sunglasses. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: made a sandwich. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: put on sandals. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 60
+        }
+      },
+      {
+        "question": "Read the sentence. “Before we begin, we all need to make sure we have our lines memorized, our costumes fit, we have enough make- up, and the stage and props are ready,” the tall man said. Which person would not participate in the above scene?",
+        "choices": [
+          "actor",
+          "seamstress",
+          "nurse",
+          "actress"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: nurse. nurse; A nurse would not have to memorize lines, wear a costume, use a stage or props.",
+          "incorrect": [
+            "Not: actor. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: seamstress. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: actress. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 61
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Chris couldn’t wait to get started. “Get the flour, sugar, butter, milk, and eggs,” said Mom. “Can I really break the eggs this time?” asked Chris. “Yes, but be careful,” said Mom. Chris broke the eggs and stirred in the flour, sugar, butter and milk. After mixing the dough, Chris put balls of dough on a sheet, and Mom put the s heet in the oven. What is Chris doing in the story?",
+        "choices": [
+          "making cookies",
+          "doing the wash",
+          "making pizza",
+          "drawing a picture"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: making cookies. making cookies; Chis listed all of the ingredients and steps to make cookie dough.",
+          "incorrect": [
+            "",
+            "Not: doing the wash. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: making pizza. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: drawing a picture. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 63
+        }
+      },
+      {
+        "question": "The first-grade studentsentered an art contest. They all drew pictures. Ji m drew a picture of his mother. Jane drew a picture of a sailboat. Susandrew a picture of a farm. What did Jane draw a picture of?",
+        "choices": [
+          "Jan e drew a picture of a farm.",
+          "Jane drew a picture of a sailboat.",
+          "Jane drew a picture of her mother.",
+          "Jane drew a picture of a cat."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Jane drew a picture of a sailboat.. Jane drew a picture of a sailboat.",
+          "incorrect": [
+            "Not: Jan e drew a picture of a farm.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Jane drew a picture of her mother.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Jane drew a picture of a cat.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 66
+        }
+      },
+      {
+        "question": "Read the passage. John and Todd went to a butterfly garden after school. They saw many butterflies. Two blue butterflies were sitting on a flower. A big orange butterfly flew by their heads. Who was sitting on a flower?",
+        "choices": [
+          "two blue butterflies",
+          "John and Todd",
+          "a big orange butterfly",
+          "Mom"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: two blue butterflies. two blue butterflies; “Two blue butterflies were sitting on a flower.” 3 rd sentence in passage",
+          "incorrect": [
+            "",
+            "Not: John and Todd. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a big orange butterfly. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Mom. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 67
+        }
+      },
+      {
+        "question": "Read the story and answer the question. John was getting ready to go to school. First, he ate his breakfast. Next, he washed his face. Then, he brushed his teeth. Last, he got dres sed. Before he went out the door, he grabbed his book bag. What did John do first?",
+        "choices": [
+          "He grab bed his book bag.",
+          "He ate his breakfast.",
+          "He made his bed.",
+          "He washed his face."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: He ate his breakfast.. He ate his breakfast. “First, he ate his breakfast.” 2 nd sentence in the story.",
+          "incorrect": [
+            "Not: He grab bed his book bag.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: He made his bed.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He washed his face.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 70
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. This is how you make jello. It is easy to do. First, put the jello mix from the jello box into a bowl. Next, add one cup of boiling hot water. Stir until jello mix is no longer seen. Put the bowl of jello in the refrigerator until it is firm. What do these sentences tell about?",
+        "choices": [
+          "How to eat jello.",
+          "How to make jello.",
+          "Where to buy jello.",
+          "When to eat jello."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: How to make jello.. How to make jello. The first sentence a ddresses what the passage is about, “This is how you make jello.”",
+          "incorrect": [
+            "Not: How to eat jello.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Where to buy jello.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: When to eat jello.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 76
+        }
+      },
+      {
+        "question": "Read the passage. Chris painted a picture for her dad. First, she painted a yellow sun in the sky. Next, she painted green grass. Then, she painted purple flowers in the grass. Her dad gave her a hug when she gave him the painting. What color of paint did Chris use first?",
+        "choices": [
+          "yellow",
+          "purple",
+          "blue",
+          "green"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: yellow. yellow; “First, she painted a yellow sun in the sky.”",
+          "incorrect": [
+            "",
+            "Not: purple. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: blue. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: green. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 77
+        }
+      },
+      {
+        "question": "Read the following and answer the question. 1. They carried their sacks to the car and went home. 2. Mother paid for the clothes and the clerk put them in a sack. 3. Mother and Beth went to the store to shop for clothes. 4. Beth found a pair of shoes and mother found a dress. Which sentence tells what Mother and Beth did first?",
+        "choices": [
+          "sentence 1",
+          "sentence",
+          "sentence",
+          "sentence 4"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: sentence. sentence 3; Mother and Beth went to the store to shop for clothes. This sentence had to occur first in order for the other three sentences to happen.",
+          "incorrect": [
+            "Not: sentence 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: sentence 4. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 80
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Jack set the plates on the table. He put a napkin next to each plate. Then, he placed a knife, fork and a spoonon the napkin. Next, he put a glass by each plate. The story is about __________________?",
+        "choices": [
+          "f orks",
+          "washing the dishes",
+          "spoon s",
+          "setting the table"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: setting the table. setting the table; The passage describes what is used to set a table: plate, napkin, knife, fork, spoon, and glass.",
+          "incorrect": [
+            "Not: f orks. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: washing the dishes. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: spoon s. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 82
+        }
+      },
+      {
+        "question": "Read the passage and answer the question below. Kathy picked up her toys. Then, she made her bed. After that, she dusted her bookshelf and put her clothes away. What happened after Kathy made her bed?",
+        "choices": [
+          "She put her clothes away.",
+          "She dusted her bookshelf.",
+          "She picked up her toys.",
+          "She washed the window."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: She dusted her bookshelf.. She dusted her bookshelf. she made her bed. After that, she dusted her bookshelf…”",
+          "incorrect": [
+            "Not: She put her clothes away.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: She picked up her toys.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: She washed the window.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 85
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. He spread out his hood more than ever, and Rikki saw the spectacle- mark on the back of it that looks exactly like the eye part of a hook-and-eye fastening. He was afraid for the minute; but it is impossible for a mongoose to stay frightened for any length of time, and though Rikki had never met a live cobra before, his mother had fed him on dead ones, and he knew that all a grown mongoose’s business in life was to fight and eat snakes. Nag knew that too, and at the bottom of his cold hearthe was afraid. Why was Nag concerned?",
+        "choices": [
+          "He knew mongoose ate cobras.",
+          "Rikki had disappeared into the grass.",
+          "Rikki saw the mark on his head.",
+          "He knew Rikki had never met cobra."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: He knew mongoose ate cobras.. He knew mongoose ate cobras.",
+          "incorrect": [
+            "",
+            "Not: Rikki had disappeared into the grass.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Rikki saw the mark on his head.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He knew Rikki had never met cobra.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 87
+        }
+      },
+      {
+        "question": "Read the following sentences and answer the question. 1. James got out of bed when his alarm clock rang. 2. James ran out the door to catch the bus. 3. James ate his breakfast of oatmeal and fruit juice. 4. James brushed his teeth with his purple toothbrush. Which sentence tells what James did first?",
+        "choices": [
+          "sentence 1",
+          "sentence",
+          "sentence",
+          "sentence"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: sentence 1. sentence 1; James got out of bed when his alarm clock rang.",
+          "incorrect": [
+            "",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sentence. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 89
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Chris put on her winter jacket and went outside to play with her new red sled. It was cold and cloudy. After a few minutes, the wind began to blow. Soon it was snowing heavy, wet snow. Chris ran inside and took off her wet clothing. Now she would have to play inside. In which order did the events happen?",
+        "choices": [
+          "The wind blew; Chris went outside; it began to snow; Chris played inside",
+          "Chris played inside; Chris went outside; it snowed; the wind blew",
+          "Chris went outside; Chris played with a new red sled; the wind blew; it snowed",
+          "Chris brought a new sled; the wind blew; it snowed; Chris put on her winter jacket"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Chris went outside; Chris played with a new red sled; the wind blew; it snowed. Chris went outside; Chris played with a new red sled; the wind blew; it snowed.",
+          "incorrect": [
+            "Not: The wind blew; Chris went outside; it began to snow; Chris played inside. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Chris played inside; Chris went outside; it snowed; the wind blew. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Chris brought a new sled; the wind blew; it snowed; Chris put on her winter jacket. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 90
+        }
+      },
+      {
+        "question": "Read the passage. It looked like the end of Jason s journey, and Amy was intears as she climbed ou t of the plane. The principal of the Institute and his wife, Mr. and Mrs. Shaw, brought Amy into their house and gave her some clean clothes; she had a bath and a meal, and then they went, carrying huge umbrellas, out into the rainy night, to look at Jason. They had to cross the field which was like a sea of mud: mud which had probably saved the plane from an even worse crash by slowing it down a bit. “Amy Johnson, Queen of the Ai r.” Adventu re Stories. New York: Kingfisher Books. 221 What did Amy and the Shaws do after Amy’s bath and meal?",
+        "choices": [
+          "They went out to look at Jason.",
+          "They comforted Amy as she cried.",
+          "They brought Amy into their house.",
+          "They climbed out of the plane."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: They went out to look at Jason.. They went out to look at Jason.",
+          "incorrect": [
+            "",
+            "Not: They comforted Amy as she cried.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They brought Amy into their house.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They climbed out of the plane.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 97
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Mary and her mother wanted to bake a cake. They mixed eggs, flour, suga r, and baking powder in a bowl. Mary helped pour the c ake mix into the pan. The y preheated the oven. What will Mary and her mother do next?",
+        "choices": [
+          "eat the cake",
+          "put the cake in the oven",
+          "cut the cake into pieces",
+          "put frosting on the cake"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: put the cake in the oven. put the cake in the oven; After they mix all the i ngredients together, pour the mix into a pan, preheat the oven; the next step is to put the cake in the oven.",
+          "incorrect": [
+            "Not: eat the cake. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: cut the cake into pieces. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: put frosting on the cake. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 103
+        }
+      },
+      {
+        "question": "Read the statement. “I’m so glad the 1 st grade students remembered to clean up their art proje ct before they went home!” Who would most likely agree with this s tatement?",
+        "choices": [
+          "a mother",
+          "a student",
+          "the principal",
+          "a janitor"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: a janitor. a janitor- a person employed as a caretaker of a building; a cus todian.",
+          "incorrect": [
+            "Not: a mother. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a student. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the principal. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 105
+        }
+      },
+      {
+        "question": "Review the sentences. 1. Then, I fell twice, hard, once dropping my gun. 2. Later, we flushed a covey of quail and I killed two over the bank. 3. It was a bright, cold day, and the ground covered with a sleet that had frozen. 4. I took the young Irish Setter for a little walk up the road. If these sentences made a story, which events would occur first and last?",
+        "choices": [
+          "3,",
+          "2,",
+          "1,",
+          "4, 3"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: 3,. 3, 2; It was a bright, cold day, and the ground cov ered with a sleet that had frozen. Later, we flushed a covey of quail and I killed two over the bank.",
+          "incorrect": [
+            "",
+            "Not: 2,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 4, 3. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 109
+        }
+      },
+      {
+        "question": "Read the passage. [Mother] went back to work, closing the door. At first the sound of the boy dragging brush annoyed her. Then he began to chop. The blows were rhythmicand steady, and shortly she had forgotten him, the sound no more of an interruptionthan a consistent rain. She supposed an hour and a half passed, for when she stopped and stretched, and heard the boy’s steps on the cabin stoop, the sun was droppi ng behind the farthest mountain, and the valleys were purple with something deeper thanthe asters. “A Mother in Manv ille.” Living in the Heart. After the boy dragged the brush, what did he do?",
+        "choices": [
+          "He b eganto stretch.",
+          "He watched the sunset.",
+          "He began to chop.",
+          "He listened to the rain."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: He began to chop.. T the boy dragging brush annoyed her. Then he began to chop. hen he began to chop. “…",
+          "incorrect": [
+            "Not: He b eganto stretch.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: He watched the sunset.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: He listened to the rain.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 116
+        }
+      },
+      {
+        "question": "Read the passage. Once the flower buds are formed, it doesn’t matter if the plant is kept indoors or in deep shade. Full suntends to fade the flowers faster, while cool temperatures prolong their staying power. Although a light frostwon’t harm most mums, play it safe and bring them indoors if a cold snap threatens. First for Women 30 Sept. 2002: 86. In the passage the phrase “full sun” means:",
+        "choices": [
+          "n o shade",
+          "light half of the day",
+          "deep shade",
+          "cool temperatures"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: n o shade. no shade; If there is full sun, thenthere is no shad e.",
+          "incorrect": [
+            "",
+            "Not: light half of the day. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: deep shade. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: cool temperatures. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 127
+        }
+      },
+      {
+        "question": "Read the passage. Leaves often change color before they fall. As autumn approaches, chlor ophyll, the green pigment used in photosynthesis, breaks down. As chlorophyll is lost from leaves, other yellow and orange pigments are rev ealed. These pigments were always present in the leaves but were hidden by the gree n chlorophyll. Some leaves also have red pigments, which also become visible when chlorophyll is broken down. 31 1. Holt Science and T echnology. Holt, Rein hart, a n d Winston: 2001. What causes green leaves to change color in the fall?",
+        "choices": [
+          "the amount of orange pigment increases",
+          "the amount of yellow pigment stays the same",
+          "chlorophyll breaks down",
+          "chlorophyll changes intored pigment"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: chlorophyll breaks down. chlorophyll breaks down; In the second sentence, autumn is synonymous with fall; this is whenthe green leaves change because chlorophyll breaks down.",
+          "incorrect": [
+            "Not: the amount of orange pigment increases. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the amount of yellow pigment stays the same. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: chlorophyll changes intored pigment. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 136
+        }
+      },
+      {
+        "question": "Read the passage. When I had made an end of these labors, it was four o’clock— still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart for what had I now to fear? There entered three men, who — introduced themselves, with perfect suavity, as officers of the police. A shriek had been heard by a neighbor during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they (the officers) had been deputed to search the premises. “The Tell Tale Heart.” (Phillips, Bla ckman, Felts).-What happens next?",
+        "choices": [
+          "The police search the house.",
+          "The police leave the man’s house.",
+          "The police arrest the man.",
+          "The police ask for information."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The police search the house.. The police search the house. The last sentence states that the police had been sent to search the premises; therefore, that is what happens next.",
+          "incorrect": [
+            "",
+            "Not: The police leave the man’s house.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The police arrest the man.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The police ask for information.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 138
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. It was a cold and cloudy day outside. The wind began to blow, and then small raindrops started to cover the ground. The wind howled through the trees, and we knew the storm was upon us. What happened before raindrops fell?",
+        "choices": [
+          "The wind howled through the trees.",
+          "It was a cold and cloudy day.",
+          "The storm was upon us.",
+          "The wind began to blow."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The wind began to blow.. The wind began to blow. The wind began to blow and thenthe raindrops fell.",
+          "incorrect": [
+            "Not: The wind howled through the trees.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: It was a cold and cloudy day.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The storm was upon us.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 157
+        }
+      },
+      {
+        "question": "Choose the direction the passage is describing. We planted the sunflower seeds so they would get full sun in the morning. By doing this, the sunflowers would get larger because the area was shady in the afternoon. What direction were the sunflowers in the morning.",
+        "choices": [
+          "N orth",
+          "South",
+          "East",
+          "West"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: East. East; The sun rises in the east and sets in the west; therefore, the sunflowers were facing east in the morning.",
+          "incorrect": [
+            "Not: N orth. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: South. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: West. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 159
+        }
+      },
+      {
+        "question": "Read the list. 1. The houses collapse. 2. The earth begins to shake. 3. Beams crack. 4. Everything is still. What is the correct order for theseevents?",
+        "choices": [
+          "1, 3, 2,",
+          "4, 2, 3, 1",
+          "1, 2, 3,",
+          "3, 2, 1,"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 4, 2, 3, 1. 4, 2, 3, 1; Everything is still; The earth quake begi ns; Beams crack; The houses collapse.",
+          "incorrect": [
+            "Not: 1, 3, 2,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 1, 2, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 3, 2, 1,. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 167
+        }
+      },
+      {
+        "question": "Read the following passage. Chris rode his brand-new bike down the twisting path. As he rushed along, he began toremember what his mother had told him before he left. “Make sure to wear your helmet,” she pleaded as Chris ran out the door. Suddenly, a dog ran across the path. He swerved to miss it and ended up rolling onto the grass. Guiltily, he kept thinking about his mother’s advice. What should Chris have done before his ride?",
+        "choices": [
+          "kissed his mom good-bye",
+          "fixed his brakes",
+          "put on his helmet",
+          "tied his shoe"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: put on his helmet. put on his helmet; His mother pleaded with him to wear his helmet.",
+          "incorrect": [
+            "Not: kissed his mom good-bye. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: fixed his brakes. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: tied his shoe. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 169
+        }
+      },
+      {
+        "question": "Read the story and answer the question. The Smith family all loaded up early Saturday morning to take their family vacation to the beach. They started off at 6:00 in the morning, since they had a l ong, ten -h our drive ahead of them. They sang songs and played games together to pass the time before lunch. At lunchtime, they stopped at a nic e park by the highway to eat their picnic lunches. It was nice to take a break from riding in the car. After lu nch, they all got back in the car to finish the long drive to the beach. Once they got a few miles from the park, they suddenly heard a loud noise and the car started to wobble back and for th. What probably happened next?",
+        "choices": [
+          "They pulled off to the side of the road to check the tires.",
+          "They kept driving, hoping everything was all right.",
+          "They ate dinner at the park.",
+          "They arrived at the beach."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: They pulled off to the side of the road to check the tires.. They pulled off to the side of the road to check the tires. A loud noise and the car wobbling indicated a possible tire problem, so they pulled off to check the tires.",
+          "incorrect": [
+            "",
+            "Not: They kept driving, hoping everything was all right.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They ate dinner at the park.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They arrived at the beach.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 173
+        }
+      },
+      {
+        "question": "Read the list. 1. He reeled in the huge fish. 2. He baited his hoo k. 3. He cast out his line. 4. He sat pat iently for a bite. What is the correct order for theseevents?",
+        "choices": [
+          "3, 4, 2, 1",
+          "1, 2, 3,",
+          "2, 3, 4, 1",
+          "3, 2, 1,"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 2, 3, 4, 1. 2, 3, 4, 1; He baited his hook; He cast out his line; He sat patiently for a bite; He reeled in the huge fish.",
+          "incorrect": [
+            "Not: 3, 4, 2, 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1, 2, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 3, 2, 1,. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 177
+        }
+      },
+      {
+        "question": "Read the story. The dark sky, filled with angry, swirling clo uds, reflected G reg Ridley’s mood as he sat on the stoop of his building. His f ather’s voice came to him again, first r eading the letter the principal had sent to the house, then lecturing endlessly about his poor efforts in math. Holt, Rinehart and Wins ton 199 7. The mo od or fee ling of this story is:",
+        "choices": [
+          "joyf ul",
+          "ang er",
+          "amu sing",
+          "m ystery"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: ang er. anger a stron g feeling of annoyance, displeasure, or ho s tility. –",
+          "incorrect": [
+            "Not: joyf ul. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: amu sing. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: m ystery. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 181
+        }
+      },
+      {
+        "question": "Read the sentences.",
+        "choices": [
+          "The guard dribbled the ball, m ade a lay-up and tied the end of the game.",
+          "The people in the stands stood for the half time show.",
+          "The crowd cheered in the 3 rd quarter as the center made a 3-pt. shot.",
+          "The hom e team was walking to the basketball court for the start of the game. Which event happened last? A. D B. C C. B D. A 2 Read the following story and answer question s 3- 5. Climbing out of the car, my heart raced, as I wasexcited to begin our family hiking trip. I skipped up the trail happily. T he sun shone brightly, and I was having a terrific time. Thenthe hill became steeper, but I still bounded up the trail. My parents were calling for me to slow do wn because we still had a long way to go. Sure enough, my legs began to burn, and my breathing was deeper. I had been hiking too q uickly. I slowed dow n my pace, and started to feel more stable. We f inished the hike, and I was glad I had listened to my parents because if I had kept up the fast pace, I wo uld have never made it."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The hom e team was walking to the basketball court for the start of the game. Which event happened last? A. D B. C C. B D. A 2 Read the following story and answer question s 3- 5. Climbing out of the car, my heart raced, as I wasexcited to begin our family hiking trip. I skipped up the trail happily. T he sun shone brightly, and I was having a terrific time. Thenthe hill became steeper, but I still bounded up the trail. My parents were calling for me to slow do wn because we still had a long way to go. Sure enough, my legs began to burn, and my breathing was deeper. I had been hiking too q uickly. I slowed dow n my pace, and started to feel more stable. We f inished the hike, and I was glad I had listened to my parents because if I had kept up the fast pace, I wo uld have never made it.. A; The guard dribbled the ball, made a lay-up and tied the end of the game.",
+          "incorrect": [
+            "Not: The guard dribbled the ball, m ade a lay-up and tied the end of the game.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The people in the stands stood for the half time show.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The crowd cheered in the 3 rd quarter as the center made a 3-pt. shot.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 182
+        }
+      },
+      {
+        "question": "Which event occ urred first and last?",
+        "choices": [
+          "sun shone brightly, hill became more steep",
+          "climbed out of the car; listened to my parents",
+          "skipping up the trail; legs be ganto burn",
+          "slo wed dow n my pace; listened to my parents"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: climbed out of the car; listened to my parents. climbed out of the car; listened to my parents",
+          "incorrect": [
+            "Not: sun shone brightly, hill became more steep. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: skipping up the trail; legs be ganto burn. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: slo wed dow n my pace; listened to my parents. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 183
+        }
+      },
+      {
+        "question": "What happened first in the story?",
+        "choices": [
+          "I skipped up the trail.",
+          "My parents were calling for me to slow dow n.",
+          "My legs began to bu rn, and my breathing was deeper.",
+          "I slow ed dow n my pace."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I skipped up the trail.. I skipped up the trail. Found in the second sentence of the story.",
+          "incorrect": [
+            "",
+            "Not: My parents were calling for me to slow dow n.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: My legs began to bu rn, and my breathing was deeper.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: I slow ed dow n my pace.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 184
+        }
+      },
+      {
+        "question": "Read the list. 1. Boil potato es until tender. 2. Place potato es in a p. ot 3. Peel potatoes. 4. Cover with water. What is the correct order?",
+        "choices": [
+          "3, 2, 4, 1",
+          "4, 1, 3,",
+          "1, 4, 3,",
+          "3, 1, 4,"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: 3, 2, 4, 1. 3, 2, 4, 1; Peel potatoes, Place potatoes in a p, Cover with water; Boil potat oes until tender.",
+          "incorrect": [
+            "",
+            "Not: 4, 1, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1, 4, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 3, 1, 4,. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 187
+        }
+      },
+      {
+        "question": "Read the announcement. Girls and boys, ages 10 through 14, cantrainto bec ome conflict counselors intwo-week sessions beg inning May 12. In the first week, sessions will start at 8:0 0a.m. and end at 4:00p.m. on Monday, Tuesday, and Wednesd ay. In the second week, sessions will run from 9:00 a.m. to 3:00p.m. on Monday, Tuesday, and Wednesday. A maximum of 10 students will be selected to participate. How long will the training session last on Monday of the second w eek?",
+        "choices": [
+          "8 hours",
+          "6 hours",
+          "12 hours",
+          "1 6 hou rs"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 6 hours. 6 hours; The session is from 9:00 a.m. to 3:00 p.m. This is a total of 6 hours.",
+          "incorrect": [
+            "Not: 8 hours. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 12 hours. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1 6 hou rs. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 189
+        }
+      },
+      {
+        "question": "Read the sentence and answer the question. Michelle went straight home after school and finished her chores, did all of her homework, and made sure the house was clean for her mom. How do you think Michelle’s mother will feel when she gets home?",
+        "choices": [
+          "h appy that Michelle cooked her dinner",
+          "sad because she wanted to cleanthe house",
+          "angry at Michelle for not doing her homework",
+          "proud of Michelle for doing so much"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: proud of Michelle for doing so much. proud of Michelle for doing so much; Michelle accomplished a lo t after school and was very responsible. Her actions would make her mother proud.",
+          "incorrect": [
+            "Not: h appy that Michelle cooked her dinner. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: sad because she wanted to cleanthe house. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: angry at Michelle for not doing her homework. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 192
+        }
+      },
+      {
+        "question": "Read the weather forecast. Whichis the best summary of this weather report?",
+        "choices": [
+          "St orms in Alaska will create big waves far a way.",
+          "Big waves will cause serious storms in Alaska",
+          "Pacific storm moves farther eastward.",
+          "The surf will decrease on Wednesday."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: St orms in Alaska will create big waves far a way.. Storms in Alaska will create big waves far away. “…while generating large wave s more than 2,000 miles a way.”",
+          "incorrect": [
+            "",
+            "Not: Big waves will cause serious storms in Alaska. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Pacific storm moves farther eastward.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The surf will decrease on Wednesday.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 194
+        }
+      },
+      {
+        "question": "Read the sentences. 1. The final score was Tigers 6 and Lions 5. 2. The Tiger outfielder slid into home plate, tying the game in the ninth inning. 3. The crowd cheered as the third out in the fourth inning was made. 4. The home team was taking the field for the start of the game. Which order do theseevents occur?",
+        "choices": [
+          "3, 1, 4,",
+          "2, 1, 3,",
+          "1, 4, 2,",
+          "4, 3, 2 1"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: 4, 3, 2 1. 4, 3, 2, 1; The home team was taking the field for the start of the game. The crowd cheered as the third out in the fourth inning was made. The Tiger outfielder slid into home plate, tying the game in the ninth inning. The final score was Tigers 6 and Lions",
+          "incorrect": [
+            "Not: 3, 1, 4,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 2, 1, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1, 4, 2,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 201
+        }
+      },
+      {
+        "question": "Read the passage. “Don’t be a fool, Bilbo Baggins!” he said to himself, “thinking of dragons and all that outlandish nonsense at your age!” So, he put on an apron, lit fires, boiled water, and washed up. Then he had a nice little breakfast in the kitchen before turning out the dining room. By that time the sun was shining; and the front door was open, letting in a warm spring breeze. Bilbo began to whistle loudly and to forget about the night before. In fact, he was just sitting down to a nice little second breakfast in the dining room by the open window, when in walked Galdalf. R.R. The Hobbit. (Teacher authors: Phillips, Blackman, Felts). What did Bilbo doright after he put on his apron?",
+        "choices": [
+          "lit fires",
+          "boiled water",
+          "whistled loudly",
+          "washed up"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: lit fires. lit fires; he put on an apron, lit fires “… …”",
+          "incorrect": [
+            "",
+            "Not: boiled water. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: whistled loudly. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: washed up. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 203
+        }
+      },
+      {
+        "question": "Read the passage. Sam bought a heart- shaped locket to give to his sister for her birthday. Sam’s sister told her friend at recess, “I’ve always wanted a locket, but I don’t have enough money to buy one.” Sam overheard what she said and smiled to himself. What happened first?",
+        "choices": [
+          "Sam smiled to himself.",
+          "Sam bought a birthday present.",
+          "Sam’s sister had a birthday party.",
+          "Sam’s sister talked to her best friend."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Sam bought a birthday present.. Sam bought a birthday present. The first line states that bought his sister a heart- Sam shaped locket for her birthday.",
+          "incorrect": [
+            "Not: Sam smiled to himself.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Sam’s sister had a birthday party.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Sam’s sister talked to her best friend.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 212
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Thomas and John were playing behind John’s house after school. They were exploring and trying to find a good place to build a secret fort. As they walked by a small cliff, Thomas saw an opening to a cave. They slowly walked inside to explore and decide whether this would be a good place for their fort. After careful inspections, they decided it was perfect. There was just enough room for everything they wanted to do, and no one would ever discover their secret fort. They ran back to John’s house to get their fort supplies. Whichis the best summary of this passage?",
+        "choices": [
+          "Thomas found a cave opening.",
+          "Thomas and John were exploring outside.",
+          "John was afraid of the cave entrance.",
+          "Thomas and John found a cave for their fort."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Thomas and John found a cave for their fort.. Thomas and John found a cave for their fort. At the beginning of the passage they set out find a good place for their secret fort. By the end of the passage they found a cave and to were gathering supplies for their fort.",
+          "incorrect": [
+            "Not: Thomas found a cave opening.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Thomas and John were exploring outside.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: John was afraid of the cave entrance.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 214
+        }
+      },
+      {
+        "question": "The note on the table read: What are the children supposed to do after school?",
+        "choices": [
+          "get a snack",
+          "watch TV",
+          "cleanthe playroom",
+          "go to their friend’s house"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cleanthe playroom. cleanthe playroom; Mom knew they would do a super job cleaning the playroom.",
+          "incorrect": [
+            "Not: get a snack. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: watch TV. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: go to their friend’s house. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 215
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. He was not the same. The plane passing by without rescuing him had changed him completely. He was not the same and would never be like he had been before. The old Brian was weak, now he was new, stronger and would not give up so he could survive. How do you think Brian has changed?",
+        "choices": [
+          "Brian was stronger, more aware and careful.",
+          "Brian felt sorry for himself and wanted to give up.",
+          "Brian is angry because he’s made mistakes.",
+          "Brian has not changed at all."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Brian was stronger, more aware and careful.. Brian was stronger, more aware and careful. Brian use to be weak, buthe now has to be strong, aware and careful in order to survive.",
+          "incorrect": [
+            "",
+            "Not: Brian felt sorry for himself and wanted to give up.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Brian is angry because he’s made mistakes.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Brian has not changed at all.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 225
+        }
+      },
+      {
+        "question": "Read the passage. On a warm, summer day, the tall green giant of the hills looked down upon the village below and cried. He wanted more than anything to become friends with them, buthe knew from past experiences that they were too afraid of him because of his horrible appearance. The people of the village were small in stature and plain looking. The giant was a horrible sight, with orange warts covering his face, yello w eyes, blue hair and standing almost 50 feet tall and weigh several tons. The earth seemed to shake ed when he walked, and he knew that the people of the village thoughthe was a monster. They had run him out of the village years ago with fi re torches, chanting and waiving him out forever. His thoughts were interrupted by the sobbing sounds coming from nearby. He went to investigate and found a small child, lost in the hills. She was blind and could not find her way back home. The giant spoke to her in a so ft voice, and because she couldn’t see his appearance, she was not afraid. He invited her into his house for cookies and milk, and then he led her back to the gates of the village. They both promised to keep intouch and be great friends. The little girl skipped away happily and the giant s heart felt lighter. What is the purpose of this passage?",
+        "choices": [
+          "to show that you can’t always judge people based on their appearance",
+          "to warn people away from giants",
+          "to describe what giants are supposed to look like",
+          "to keep people away from monsters"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: to show that you can’t always judge people based on their appearance. to Eventhough the show that you can’t always judge people based on their appearance; giant was not pleasant to look at, he was very nic e, wouldn’t hurt anyone, and had a kind heart.",
+          "incorrect": [
+            "",
+            "Not: to warn people away from giants. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to describe what giants are supposed to look like. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to keep people away from monsters. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 230
+        }
+      },
+      {
+        "question": "Read the passage. When I was growing up on the farm, we roseevery morning with the sunto start our day. The first thing that I always did was start the cows to milking, and then I started cleaning the stalls. All of the animals had to be fed before we ever thought about breakfast, and boy oh boy, did we have lots of animals! There were cows, horses, pigs, goats, chickens, mules, rabbits, sheep, dogs, cats, and even a pet rat! It was a tough childhood, but that’s all I knew, so I never complained. Chores were just part of l ife, and I lived a very full life up until I was 18. What is the purpose of this passage?",
+        "choices": [
+          "to describe how to milk the cows",
+          "to show how hard life is in the city",
+          "to show thathe hated doing chores",
+          "to describe what life is like on the farm"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: to describe what life is like on the farm. to what life is like on the farm; The author describes the chores he did every describe morning on the farm until he was",
+          "incorrect": [
+            "Not: to describe how to milk the cows. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to show how hard life is in the city. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to show thathe hated doing chores. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 238
+        }
+      },
+      {
+        "question": "Read the passage. Tommy and his family had just moved into a new house. The green paint was fresh and the carpet was all brand new. After school, Tommy came straight home to finish unpacking the boxes in his room and put away all of his clothes. He was so excited to finally have his own room, after having to share a room with his younger brother for four years. The only real problem was that every time he went into the bathroom, he would hit his head on the doorway trim. He was definitely going to have to learnto duck when he went in there from now on. What canyou infer from this passage?",
+        "choices": [
+          "To mmy does not like the house.",
+          "Tommy is very tall compared to the house.",
+          "The boxes are very full.",
+          "There are other people in the house."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Tommy is very tall compared to the house.. Tommy is very tall compared to the house. This is inferred becauseevery time Tommy went into the bathroom, he would hit his head on the doorway trim.",
+          "incorrect": [
+            "Not: To mmy does not like the house.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The boxes are very full.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: There are other people in the house.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 256
+        }
+      },
+      {
+        "question": "Read the passage. Where the Red Fern Grows is a book of adventure, compassion and maturity. The main character, Billy, is a young boy who must grow up fast as he learns to care for and traintwo hunting hounds. Billy is faced with many adverse situa tions, where he must overcome the obstacles of life and endure the consequences of nature. This wonderful book provides both laughs and tears as you are takenon the a dventure of a lifetime. What type of writing is this?",
+        "choices": [
+          "essay",
+          "newspaper article",
+          "book review",
+          "non-fiction"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: essay. essay; An essay is a short piece of writing on a particular subject.",
+          "incorrect": [
+            "",
+            "Not: newspaper article. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: book review. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: non-fiction. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 258
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Tyler was up early. He had to help his dad with an important job. They wer e going to paint Grandpa Peterson’s fence. After breakfast, Tyler and his father gathered up all the necessary supplies. They carried brushes, drop clothes and buckets of paint to their truck. Then, off they drove to Grandpa Pete rson’s house. Driving as close to the fence as possible, they hopped out and removed the supplies from the ba ck of the truck. Tyler helped his father spread the drop cloths over the bushes that decorated the bottom of the fence. Then, they opened the cans of paint and began work ing. They worked for several hours. Finally, the job was done. The dull gray wood was now a shiny, clean white. Swiftly, they walked to Grandpa Peterson’s door tori ng the bell. When Grandpa emerged, he was surprised at the site of the masterpi ece. What does the author mean by the use of the word “master pie ce”?",
+        "choices": [
+          "Wh en someone paints a fence, it is always called a masterpiece.",
+          "Painted works of art are sometimes called masterpieces, when someone c onsiders the piece a great model.",
+          "Masterpieces are usually artistic paintings found on fences.",
+          "The author used the word masterpieces incorrectly, because masterpieces are only found in art museums."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Painted works of art are sometimes called masterpieces, when someone c onsiders the piece a great model.. Painted works of art are sometimes called mast erpieces, when someone considers the piece a great model.",
+          "incorrect": [
+            "Not: Wh en someone paints a fence, it is always called a masterpiece.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Masterpieces are usually artistic paintings found on fences.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The author used the word masterpieces incorrectly, because masterpieces are only found in art museums.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 260
+        }
+      },
+      {
+        "question": "Andy went for a walk down the street. On his walk, he saw many things. First, he saw a big dog. Then, he saw a fluffy cat. Next, he saw a green worm. Last, Andy saw a ladybug. What did Andy see first?",
+        "choices": [
+          "gree n worm",
+          "big dog",
+          "little ladybug",
+          "pretty little flower"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: big dog. big dog; ‘First, he saw a big dog.’",
+          "incorrect": [
+            "Not: gree n worm. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: little ladybug. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: pretty little flower. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 261
+        }
+      },
+      {
+        "question": "Grandma took Annto the fair. First, they looked at a table with jam. Next, they bought some cake. After eating their cake, Grand ma bought tickets for a quilt raffle. Later, they rode on the ponies. What did Ann and her grandma do last?",
+        "choices": [
+          "b ought a cake",
+          "rode on the ponies",
+          "look at the table with jam",
+          "ate the cake"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: rode on the ponies. rode on the ponies; “Later, they rode on the ponies.”",
+          "incorrect": [
+            "Not: b ought a cake. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: look at the table with jam. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: ate the cake. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 262
+        }
+      },
+      {
+        "question": "Read the story. On Monday morning, Carmen got up early, made her bed, ate her breakfast and was glad her backpack was all packed and ready to go. At school she had a great day. At the end of the day, she was the first one to be ready to go home. After reading the story, you can tell that Carmen _________________.",
+        "choices": [
+          "is a poor student",
+          "is a well-organized person",
+          "doesn’t like school",
+          "needs a new backpack"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: is a well-organized person. is a well-organized person",
+          "incorrect": [
+            "Not: is a poor student. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: doesn’t like school. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: needs a new backpack. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 265
+        }
+      },
+      {
+        "question": "Read the story. Vicki was walking home from school. She was walking behind Mr. Jones, who had his hands full of groceries. She saw something fall from Mr. Jones’ pock et. Vicki looked down and saw a ten-dollar bill. What should Vicki do next?",
+        "choices": [
+          "Go buy candy.",
+          "Walk on the money.",
+          "Cross the street.",
+          "Give the money back to Mr. Jones."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Give the money back to Mr. Jones.. Give the money back to Mr. Jones. This is the ho norable and right thing to do.",
+          "incorrect": [
+            "Not: Go buy candy.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Walk on the money.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Cross the street.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 269
+        }
+      },
+      {
+        "question": "Read the story. It was a beautiful, sunny day, and Sara wanted to go swimming. She got up early in the morning to ask her mother if itwould be okay to take her friend, Jenny, with them to the local swimming pool. Her mother was busy getting breakfast ready, and she told Sara thatwould be fine, but she had to do all her chores and eat a good breakfast first. Sara was delighted, and she hurried to make her bed, clean up her room and straighten her clothes in the closet. Once she was finished, she heard her mother calling her for breakfast. It was a wonderful breakfast, but she barely tasted it because she was so excited to go swimming. She immediately called Jenny to invite her and they had a wonderful time at the pool that day. What kind of passage is this?",
+        "choices": [
+          "folk tale",
+          "historical fiction",
+          "realistic fiction",
+          "fable"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: realistic fiction. realistic fiction; Realistic fiction is a story that could have actually occurred to people or animals in a believable setting.",
+          "incorrect": [
+            "Not: folk tale. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: historical fiction. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: fable. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 274
+        }
+      },
+      {
+        "question": "Read the story. Maria opened her locker to gether books for class. It wasempty! What happened to her things? Was this a joke? Whoseexperience is shared in this passage?",
+        "choices": [
+          "a parent s",
+          "a teacher’s",
+          "a custodian’s",
+          "Maria’s"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Maria’s. Maria’s; It is Maria’sexperience because it is Maria’s locker.",
+          "incorrect": [
+            "Not: a parent s. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a teacher’s. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a custodian’s. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 275
+        }
+      },
+      {
+        "question": "Read the passage. Alice and Frank were very hard workers. They had lived on the same property for many years. They had four children: Beth, Frances, Peter, Paul. Every morning the entire family would wake up with the sunrise and roosters. Alice would start breakfast, Frank and the boys would cleanthe stalls and feed the livestock. Beth and Frances milked the cows. After all the chores were finished, they would all come back to the house for a nice, warm breakfast. What is the setting of this passage?",
+        "choices": [
+          "a city",
+          "a farm",
+          "a park",
+          "a small neighborhood"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: a farm. a farm; Key things found on a farm are roosters, stalls, livestock and cows.",
+          "incorrect": [
+            "Not: a city. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: a park. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a small neighborhood. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 277
+        }
+      },
+      {
+        "question": "Read the passage. Doug was five years old and just learning toride his bike. He was off to a great start, but then he lost his balance and crashed onto the grass. He was not hurt, buthe started to cry because it scared him. His father ran to his side to make sure he was okay. Then, his father laughed and said, “It’s a good thing you didn’t hurt the grass!” Why did Doug’s father make this joke?",
+        "choices": [
+          "to make Doug laugh and feel better",
+          "to make Doug cry more",
+          "toremind Doug to be more careful",
+          "to be mean"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: to make Doug laugh and feel better. to make Doug laugh and feel better; Doug’s dad was making a joke because it is silly to think that grass has feelings and grass is not as important as Doug.",
+          "incorrect": [
+            "",
+            "Not: to make Doug cry more. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: toremind Doug to be more careful. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to be mean. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 278
+        }
+      },
+      {
+        "question": "Read the poem. The fox ran swiftly He was after his dinner Now he is sleepy. The poem is an example of:",
+        "choices": [
+          "a fable",
+          "a sonnet",
+          "a parable",
+          "a haiku"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: a haiku. a haiku – a poem consisting of 3 lines consisting of 5/7/5 syllables.",
+          "incorrect": [
+            "Not: a fable. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a sonnet. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a parable. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 280
+        }
+      },
+      {
+        "question": "Read the passage. I got up and walked to the curb to see what the commotion was. About a block away I saw a crowd of little kids yelling, with the d ogs yipping and growling around someone who was walking down the middle of the street. I watched the group as it slowly came closer and saw that in the center of the strange procession was a man we aring a tall black hat. He paused now and thento peer at something in his hand and then at the houses on either side of the street. I felt cold and hot at the same time as I recognized the man. “Oh no!” I whispered. “It’s Grandpa!” Eleme nts of Literatu re. Holt, Rin ehart, Win ston 1997. Who is the narrator?",
+        "choices": [
+          "the grandchild",
+          "the grandpa",
+          "the policeman",
+          "the neighborhood child"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: the grandchild. the grandchild; The narrator recognized his grandpa, so the narrator is a grandchild.",
+          "incorrect": [
+            "",
+            "Not: the grandpa. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the policeman. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the neighborhood child. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 286
+        }
+      },
+      {
+        "question": "Read the story. I don’t have much work to do around the house like some girls. My mother does that. And I don’t have to earn my pocket money by hustling; George runs errands for the big boys and sells Christmas cards. And anything else that’s got to get done, my father does. All I have to do in life is mind my brother Raymond, which isenough. Sometimes I slip and say my little brother Raymond. But as any fool can see he’s much bigger and he’s older too. But a lot of people call him my little brother cause he needs looking after cause he’s not quite right. And a lot of smart mouths got lots to say about that too, especially when George was minding him. But now, if anybody has anything to say to Raymond, anything to say about his big head, they have to come by me. And I don’ t play the dozens or believe in standing around with somebody in my face doing a lot of talking. I much rather just knock you down and take my chanceseven if I am a little girl with skinny arms and a squeaky voice, which is how I go the name Squeaky. And if things get toorough, I run. And as anybody can tell you, I’m the fastest thing ontwo feet. “Ray mond’s Run. Elements o f Literature: The Course. Ho lt, Rinehart, Winston 1997. Which of these is not true of the main character in this passage?",
+        "choices": [
+          "She minds her brother, Raymond.",
+          "She is the fastest thing ontwo feet.",
+          "She likes to play cards.",
+          "She is always ready for a fight."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: She likes to play cards.. She likes to play cards. Playing cards is not mentioned in the passage.",
+          "incorrect": [
+            "Not: She minds her brother, Raymond.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: She is the fastest thing ontwo feet.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: She is always ready for a fight.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-summarizing",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 287
+        }
       }
     ],
     "metadata": {
@@ -40385,6 +46209,2190 @@
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
           "sequence": 3
+        }
+      },
+      {
+        "question": "Study the NFL football standings. How many losses have the New York Jets had so far this season?",
+        "choices": [
+          "5",
+          "3",
+          "4",
+          "0"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: 5. 5; N.Y. Jets find the L column and it is 5 (losses). –",
+          "incorrect": [
+            "",
+            "Not: 3. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 4. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 0. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-1_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 10
+        }
+      },
+      {
+        "question": "Read the passage. What can be concluded about the Bed and Breakfast?",
+        "choices": [
+          "Itwould be a good place to stay.",
+          "There are norooms left torent.",
+          "The owner likes to play the piano.",
+          "The owner is a gardener."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Itwould be a good place to stay.. Itwould be a good place to stay. Everything he saw was pleasant and looked wonderful.",
+          "incorrect": [
+            "",
+            "Not: There are norooms left torent.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The owner likes to play the piano.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The owner is a gardener.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 11
+        }
+      },
+      {
+        "question": "Read the following logical argument. Some people are creative, some people are ambitious, and all people are curious. If these statements are facts, which one of the following sentences is defin itely true?",
+        "choices": [
+          "all people are ambitious",
+          "some curious people are creative",
+          "curious people are never amb itious",
+          "ambitious people are always creative"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: some curious people are creative. some curious people are creative; All people are curious and some are creative; therefore, some curious people are also creative people.",
+          "incorrect": [
+            "Not: all people are ambitious. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: curious people are never amb itious. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: ambitious people are always creative. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 12
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. The sun was shining in the bright, blue sky. It was beautiful weather for this time of year. Beads of sweat formed on Robert’s face as he pedaled up the s treet. “I can’t wait to swim when we get there!” he called to Sara, w ho was riding ahead of him. “Yes, it will feel wonderful!” What are Robert and Sara going to do?",
+        "choices": [
+          "go shopping",
+          "go to school",
+          "go swimming",
+          "ride the bus"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: go swimming. to where they are go swimming; They were hot and couldn’t wait to swim whenthey get going.",
+          "incorrect": [
+            "Not: go shopping. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: go to school. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: ride the bus. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 15
+        }
+      },
+      {
+        "question": "Read the definition. What is the second definition of fledgling?",
+        "choices": [
+          "a young bird just able to fly",
+          "ready to fly",
+          "not able to fly",
+          "a young, inexperienced person"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: a young, inexperienced person. young, inexperienced person; a young, inexperienced person",
+          "incorrect": [
+            "Not: a young bird just able to fly. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: ready to fly. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: not able to fly. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 17
+        }
+      },
+      {
+        "question": "Read the announcement. Which of the following times canyou attend the fair?",
+        "choices": [
+          "Friday at 2:00 p.m.",
+          "Saturday at 12:00 p.m.",
+          "Sat urday at 8:00 a.m.",
+          "Friday at 6:00 p.m."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Saturday at 12:00 p.m.. Saturday at 12:00 p.m.; This is the only time to attend the Craft Fair when it will be open.",
+          "incorrect": [
+            "Not: Friday at 2:00 p.m.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Sat urday at 8:00 a.m.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Friday at 6:00 p.m.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-2_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 19
+        }
+      },
+      {
+        "question": "Read the sentences. 1. Peter was 13 when he sailed to America. 2. Peter lived in New York City. 3. Peter probably liked school. 4. Peter became a carpenter. What statement is not conclusive?",
+        "choices": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 3. 3; Peter probably liked school. Probably is not a conclusive word. Peter might or might not like school.",
+          "incorrect": [
+            "Not: 4. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 2. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 1. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 22
+        }
+      },
+      {
+        "question": "Which of the following details indicatesthat the girl was angry?",
+        "choices": [
+          "Te ars began toroll down her face.",
+          "She stared at the rest of the class.",
+          "She slammed the door in frustration.",
+          "She didn’t utter a word."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: She slammed the door in frustration.. She slammed the door in frustration. This is an actionthat indicates anger.",
+          "incorrect": [
+            "Not: Te ars began toroll down her face.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: She stared at the rest of the class.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: She didn’t utter a word.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 32
+        }
+      },
+      {
+        "question": "Read the letters.",
+        "choices": [
+          "I support a leash law at the community walking path. Eventhe gentlest dogs can become aggressive if they’re threatened. Keepour citizens safe – use a leash! Dr. Maury Atchley Veterinarian",
+          "A leash law is ridiculous. My dog is well trained and stays righto n my heel as I jog. I vote no! Benjamin Goe Chairman, Running Club",
+          "My classmates and I enjoy playing with the dogs down by the walking path. We have never met a meandog. Don’t deny us our rights! Sally Traynor 6th Grader",
+          "I support the leash law. I hate those dang dogs always running through my rose gardens. Keep them leashed! Harriet Mulner President, Rose Society Which writer seems most qualified to judge whether or not the town should implement a “leash law”? A. D r. Maury Atchley B. Benjamin Goe C. Sally Traynor D. Harriet Mulner"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I support a leash law at the community walking path. Eventhe gentlest dogs can become aggressive if they’re threatened. Keepour citizens safe – use a leash! Dr. Maury Atchley Veterinarian. Dr. Maury Atchley; He is a veterinarian and is the most objective and qualified judge concerning animal (dog) behavior.",
+          "incorrect": [
+            "",
+            "Not: A leash law is ridiculous. My dog is well trained and stays righto n my heel as I jog. I vote no! Benjamin Goe Chairman, Running Club. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: My classmates and I enjoy playing with the dogs down by the walking path. We have never met a meandog. Don’t deny us our rights! Sally Traynor 6th Grader. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: I support the leash law. I hate those dang dogs always running through my rose gardens. Keep them leashed! Harriet Mulner President, Rose Society Which writer seems most qualified to judge whether or not the town should implement a “leash law”? A. D r. Maury Atchley B. Benjamin Goe C. Sally Traynor D. Harriet Mulner. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 33
+        }
+      },
+      {
+        "question": "Read the catalog entry. From what material is the shirt made?",
+        "choices": [
+          "50 % cotton, 50% polyester",
+          "100% cotton",
+          "100% polyester",
+          "100% silk"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: 100% cotton. 100% cotton; The shirt is made of “white 1 00% preshrunk cotton”.",
+          "incorrect": [
+            "Not: 50 % cotton, 50% polyester. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 100% polyester. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 100% silk. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 35
+        }
+      },
+      {
+        "question": "Read the passage. Plants need nutrients to make their food and get energy. Some plants that grow in poor soil get the nutrients they need by “eating” a nimals. A sweet -smelling liquid attracts insects to a pitcher plant. Once an i nsect enters the tube-shaped l eaf of the plant, hairs that point downward stop it from leaving. The insect falls into the pool of liquid inside the leaf. The liquid dissolves the insect, and the plant uses the nutrients. Why do plants eat animals or insects?",
+        "choices": [
+          "they are natural predators",
+          "they do not eat animals or insects",
+          "they need them to produce a sweet liquid that provides nutrients",
+          "they need the nutrients"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: they need the nutrients. they need the nutrients; Some plants that grow in poor soil get the nutrients they need by “eating” animals.",
+          "incorrect": [
+            "Not: they are natural predators. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: they do not eat animals or insects. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: they need them to produce a sweet liquid that provides nutrients. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 37
+        }
+      },
+      {
+        "question": "Read the letter. The purpose of the letter is to:",
+        "choices": [
+          "t ell Amie what to bring to the party",
+          "invite Amie to the party",
+          "thank Amie for attending the party",
+          "tell Amie she’s sorry she missed her at school"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: t ell Amie what to bring to the party. tell Amie what to bring to the party; This is an informal letter reminding Amie to bring her sleeping bag and favorite video.",
+          "incorrect": [
+            "",
+            "Not: invite Amie to the party. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: thank Amie for attending the party. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: tell Amie she’s sorry she missed her at school. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Advanced-4_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 38
+        }
+      },
+      {
+        "question": "Ryan likes to play ball. He likes his pet dog. His favorite toy is a truck. He is a little boy. What is he?",
+        "choices": [
+          "a boy",
+          "a dog",
+          "a girl",
+          "a ball"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: a boy. a boy; The last sentence states that The boy is referred to as both “Ryan”, “he”, and “his. he is a little boy.",
+          "incorrect": [
+            "",
+            "Not: a dog. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a girl. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a ball. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-1_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 47
+        }
+      },
+      {
+        "question": "Read the riddle and answer the question. I live in the water. I can swim. I have scales. I breathe through gills. What am I?",
+        "choices": [
+          "a dog",
+          "a whale",
+          "a house",
+          "a fish"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: a fish. a fish lives in water, swims, has scales, breathes through gills. –",
+          "incorrect": [
+            "Not: a dog. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a whale. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a house. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 53
+        }
+      },
+      {
+        "question": "Read the story and answer the question. You cando many things at the beach. Whenthe tide is out, you can fill your pail full of sea water. You can build sand castles in the sand on the beach. You can jump in the waves and swim. What is this story mostly about?",
+        "choices": [
+          "Wh enthe tide is out, you can fill your pail.",
+          "You can build sand castles.",
+          "You can jump in the waves and swim.",
+          "There are many things to do at the beach."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: There are many things to do at the beach.. There are many things to do at the beach. The story provides many activiti es a person cando at the beach.",
+          "incorrect": [
+            "Not: Wh enthe tide is out, you can fill your pail.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: You can build sand castles.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: You can jump in the waves and swim.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 64
+        }
+      },
+      {
+        "question": "Read the titles of the books. Which book tells you something about plants?",
+        "choices": [
+          "Going to the Fair",
+          "The Lady with an Alligator",
+          "Pumpkin, Pumpkin",
+          "My Friend, Ben"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Pumpkin, Pumpkin. Pumpkin, Pumpkin; A pumpkin is a type of plant; therefore, this book tells us something about plants.",
+          "incorrect": [
+            "Not: Going to the Fair. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The Lady with an Alligator. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: My Friend, Ben. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 65
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Little Jon looked out of the window, and let his mind rove over the greening valley in the distance. Suddenly he began to hum a little song about valleys. The humming changed to singing words. He wondered where he had heard it. Little Jon began to sing when:",
+        "choices": [
+          "he didn’t know the words.",
+          "he saw the green grass.",
+          "he was singing with friends.",
+          "he looked out the window."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: he looked out the window.. he looked out the window. “Little Jon looked out the window... suddenly he began to hum a little song.”",
+          "incorrect": [
+            "Not: he didn’t know the words.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: he saw the green grass.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: he was singing with friends.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-3_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 68
+        }
+      },
+      {
+        "question": "Which word is not like the others?",
+        "choices": [
+          "p ig",
+          "zebra",
+          "rose",
+          "rabbit"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: rose. rose; A rose is a plant, the rest of the answers are animals.",
+          "incorrect": [
+            "Not: p ig. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: zebra. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: rabbit. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 71
+        }
+      },
+      {
+        "question": "Choose the missing word. It has two blades. You cut it. It is sharp. It is a _________.",
+        "choices": [
+          "p air of scissors",
+          "crayon",
+          "book",
+          "pen"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p air of scissors. pair of scissors consists of two sharp blades that are used for cutting. –",
+          "incorrect": [
+            "",
+            "Not: crayon. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: book. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: pen. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 75
+        }
+      },
+      {
+        "question": "Read the story and answer the question. A pig’s nose is called a snout. The pig’s snout is strong and flexible. Pigs use their snouts for rooting around in dirt. They uncover foods such as roots, mushrooms, and earthworms. Pigs use their snouts to __________________________.",
+        "choices": [
+          "smell",
+          "uncover food",
+          "make noises",
+          "eat mushrooms"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: uncover food. uncover food; “They (pigs) uncover foods such as roots, mushrooms, and earthworms.”",
+          "incorrect": [
+            "Not: smell. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: make noises. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: eat mushrooms. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 78
+        }
+      },
+      {
+        "question": "The word “hilarious” belongs with which group?",
+        "choices": [
+          "lit tle, small",
+          "big, large",
+          "funny, humorous",
+          "high, tall"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: funny, humorous. funny, humorous Funny and humorous are both synonyms for hilarious.",
+          "incorrect": [
+            "Not: lit tle, small. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: big, large. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: high, tall. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 81
+        }
+      },
+      {
+        "question": "Read the letter and answer the question. Who has the chicken pox?",
+        "choices": [
+          "M rs. Hansen",
+          "Maria",
+          "Mrs. Smith",
+          "James Smith"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: James Smith. James Smith; The author of the letter, James Smith, writesthathe has the chicken pox.",
+          "incorrect": [
+            "Not: M rs. Hansen. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Maria. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Mrs. Smith. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 83
+        }
+      },
+      {
+        "question": "Read the story and answer the question. The children were playing on the playground. The bell rang and they li ned up at the door. They waited for the teacher to let them in. Why did the children line up at the door?",
+        "choices": [
+          "recess was over",
+          "school was over",
+          "they were introuble",
+          "there was a fire"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: recess was over. recess was over; The bell rang indicating that recess was over; so, the children lined up.",
+          "incorrect": [
+            "",
+            "Not: school was over. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: they were introuble. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: there was a fire. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 84
+        }
+      },
+      {
+        "question": "Read story and complete the sentence below. Patty’s grandma lives far away. She lives in New Y ork. When she comes to visit, she always brings Patty presents. She takes her to the park. She helps Patty cl ean her bedroom. She helps her bake cookies. She eventeaches Patty how to quilt. The story tells that __________________.",
+        "choices": [
+          "Pa tty’s grandma never visits Patty.",
+          "Patty’s grandma was not very helpful.",
+          "Patty’s grandma is helpful and fun when she comes to visit.",
+          "Patty didn’t like to do things with her grandma."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Patty’s grandma is helpful and fun when she comes to visit.. The story tells of all of the Patty’s grandma is helpful and fun when she comes to visit. activities that Patty and her grandma do together when her grandma comes to visit.",
+          "incorrect": [
+            "Not: Pa tty’s grandma never visits Patty.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Patty’s grandma was not very helpful.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Patty didn’t like to do things with her grandma.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 86
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Pupas hatch from eggs. The pupa eats and becomes a caterpillar. Caterpill ars form a chrysalis. A butterfly emerges from the chrysalis. What do all these sentences describe?",
+        "choices": [
+          "The lifecycle of an egg.",
+          "The lifecycle of a caterpillar.",
+          "The lifecycle of a butterfly.",
+          "The lifecycle of a pupa."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The lifecycle of a butterfly.. The lifecycle of a butterfly. In the final step, “A butterfly emerges,” which tells the lifecycle of a butterfly.",
+          "incorrect": [
+            "Not: The lifecycle of an egg.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The lifecycle of a caterpillar.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The lifecycle of a pupa.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Basic-5_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 88
+        }
+      },
+      {
+        "question": "Read the passage. Billy has all the weapons and versatility to become a Grand Slam Champion. He can out-slug his opponents from the baseline or suffocate them at the net. But, the deciding factor co uld be his deceptively powerful serve! You cantell the competitive nature of the above passage from the writer’s use of:",
+        "choices": [
+          "humor",
+          "exaggeration",
+          "seriousness",
+          "word choice"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: word choice. word choice; Word Choice was carefully selected to inc rease the impact on the audience. Competitive nature words-– “out slug his opponents” “suffocate them at the net”",
+          "incorrect": [
+            "Not: humor. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: exaggeration. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: seriousness. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 98
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Jan Brett, an author of many children’s books, uses many of the stories tol d to her by her Swedish grandmother. She illustrates her book s with the cheerful colors and patterns often used in Northern European countries. Based onthis message, which statement best desc ribes Jan Brett?",
+        "choices": [
+          "She plans to move to Sweden.",
+          "She believes children should read.",
+          "Her work is not important.",
+          "Her stories tell about her family’s history."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Her stories tell about her family’s history.. Jan Brett uses many stories told by her Swedish Her stories tell about her family’s history. grandmother.",
+          "incorrect": [
+            "Not: She plans to move to Sweden.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: She believes children should read.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Her work is not important.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 107
+        }
+      },
+      {
+        "question": "Read the following passage. The temperature hit 104 degrees. All of the k ids were miserable. There was nothing to do. The movies at the theater were all boring. A t the pool, the lifeguards were mean and enforced the rules by whistling and yelling at us. Winter would be so much better. Which phrase from the passage is fact?",
+        "choices": [
+          "The temperature was 104 degrees.",
+          "The movies were boring.",
+          "The lifeguards were mean.",
+          "Winter would be much better."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The temperature was 104 degrees.. The temperature was 104 degrees. This is the only fact, the other o ptions are opinion (mean, boring, better).",
+          "incorrect": [
+            "",
+            "Not: The movies were boring.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The lifeguards were mean.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Winter would be much better.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 111
+        }
+      },
+      {
+        "question": "Students must have exceptional qualities in able to join the student counci l. Which of the reasons below is the least valued reason for being invited to join the st udent council?",
+        "choices": [
+          "h igh grades",
+          "good citizenship",
+          "participation in school activities",
+          "being 10 years old"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: being 10 years old. Being 10 years old; Being 10 years old is not an ex ceptional quality, it is a fact based on age.",
+          "incorrect": [
+            "Not: h igh grades. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: good citizenship. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: participation in school activities. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 112
+        }
+      },
+      {
+        "question": "Read the passage. “I want that dress,” Kelly said as a beautiful red and blue party outfit caught her eye. She was going to a holiday party with her friends that night and she wanted the perfect thing to wear. It was made from silk and had shiny beads sewn around the trim that sparkled like diamonds. Itwould truly be the hit of the par ty. Kelly’s dress is made from:",
+        "choices": [
+          "silk",
+          "cotton",
+          "wool",
+          "linen"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: silk. silk; The third sentence in the passagestates that the dress was made from silk.",
+          "incorrect": [
+            "",
+            "Not: cotton. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: wool. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: linen. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 135
+        }
+      },
+      {
+        "question": "Read the passage. Wolves are carnivorous, predatory animals. They live together in packs with an alpha male who is the dominant leader. Wolves hunt mostly at dusk, and they prey on elk, deer, coyotes, rabbits, and other animals in their habitat. Sometimes, they even prey on moose. What is the alpha male?",
+        "choices": [
+          "the pack",
+          "the prey",
+          "the elk",
+          "the leader"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: the leader. the leader; The second sentence states that the alpha male is the domina nt leader.",
+          "incorrect": [
+            "Not: the pack. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the prey. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: the elk. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 137
+        }
+      },
+      {
+        "question": "Look at the picture and answer the question. Which of the above items in this picture are inanimate.?",
+        "choices": [
+          "t able",
+          "man",
+          "cat",
+          "window"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: t able. table; An inanimate object is a thing that is not alive. The table is not aliv e.",
+          "incorrect": [
+            "",
+            "Not: man. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: cat. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: window. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 144
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. Jenny and Billy rode their bikes to the park on Saturday. Jenny was riding much faster than Billy, and she came to a busy street crossing. “Wait for me, and we’ll cross together!” Who is speaking?",
+        "choices": [
+          "Jen ny and Billy",
+          "Jenny",
+          "Billy",
+          "Billy’s mom"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Billy. Billy; Jenny was riding in front of Billy. Billy asked her to wai t for him so they could cross the busy street together.",
+          "incorrect": [
+            "Not: Jen ny and Billy. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Jenny. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Billy’s mom. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-1_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 147
+        }
+      },
+      {
+        "question": "Read the passage. My mom asked my sister and me to go to the store and buy some bread cheese and milk. How should this sentence look?",
+        "choices": [
+          "b uy some bread, cheese and milk.",
+          "buy some bread, cheese, milk.",
+          "buy some bread cheese, and milk.",
+          "Buys some bread. Cheese and milk."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: b uy some bread, cheese and milk.. buy some bread, cheese and milk.",
+          "incorrect": [
+            "",
+            "Not: buy some bread, cheese, milk.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: buy some bread cheese, and milk.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Buys some bread. Cheese and milk.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 155
+        }
+      },
+      {
+        "question": "Which event took plac e in the middle of the story?",
+        "choices": [
+          "I was glad I listened to my parents.",
+          "Climbing out of the car, my heart raced.",
+          "I slowed down my pace, and started to feel more stable.",
+          "I skipped u p the trail."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I slowed down my pace, and started to feel more stable.. I slowed down my pace, and started to feel more stable.",
+          "incorrect": [
+            "Not: I was glad I listened to my parents.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Climbing out of the car, my heart raced.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: I skipped u p the trail.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 185
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. As soon as the sun came up, Angie ran to look out the window. She was so excited to see snow on the ground. What is the word she referring to?",
+        "choices": [
+          "a child",
+          "a boy",
+          "a girl",
+          "a neighbor"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: a girl. a girl; She is referring to Angie.",
+          "incorrect": [
+            "Not: a child. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a boy. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: a neighbor. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-5_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 186
+        }
+      },
+      {
+        "question": "Read the passage. “The alarm clock rang. Lali opened her eyes, stretched out her arm, and pushed in the small knob that shut off the noise. She lay back staring at the ceiling. Off in a corner the paint was peeling and a large crack made that section buckle. Every day she cleaned the small chips of paint that fell on the dresser top and fl oor.” Stories of Newco mers, “Lali from In Nueva York”, P age 183. (Teacher authors: Phillips, Blackman, Felts). What canyou determine about the house that Lali lives in?",
+        "choices": [
+          "Lali lives in a poor, rundown house.",
+          "The house is in a wealthy neighborhood.",
+          "The house is in the country.",
+          "Lali grew up in this house."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Lali lives in a poor, rundown house.. Lali lives in a poor, rundown house. The paint in her house was peeling and it had a crack in it.",
+          "incorrect": [
+            "",
+            "Not: The house is in a wealthy neighborhood.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The house is in the country.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Lali grew up in this house.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 191
+        }
+      },
+      {
+        "question": "Which of these sentences occurred in the past?",
+        "choices": [
+          "It is pouring rain and the streets are beginning to f lood.",
+          "A storm happened last year in Florida.",
+          "Trees are bending and snapping in the fierce winds.",
+          "Rescue crews are filling sand bags to stop the flooding."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: A storm happened last year in Florida.. A storm happened last y ear in Florida. “Happened” is a past tense verb and “last year” indicates it was in the past.",
+          "incorrect": [
+            "Not: It is pouring rain and the streets are beginning to f lood.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Trees are bending and snapping in the fierce winds.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Rescue crews are filling sand bags to stop the flooding.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-6_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 195
+        }
+      },
+      {
+        "question": "Read the sentences and answer the question. “Whatwould I know about skateboarding?” Kim said to Louis. “I wouldn’t know a skateboard from a scooter.” These sentences show that:",
+        "choices": [
+          "Louis doesn’t know anything about skateboards.",
+          "Kim is asking Louis to help her learnto skateboard.",
+          "Kim doesn’t know anything about skateboards.",
+          "Louis does not like skateboarding."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Kim doesn’t know anything about skateboards.. Kim doesn’t know anything about skateboards. She wouldn’t know a skateboard from a scooter.",
+          "incorrect": [
+            "Not: Louis doesn’t know anything about skateboards.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Kim is asking Louis to help her learnto skateboard.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Louis does not like skateboarding.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 202
+        }
+      },
+      {
+        "question": "Read the sentences and answer the question. 1. I think I will read this book. 2. Sara is going to come over to study. 3. Last year, I got a new bicycle. 4. Tomorrow, we are going to the store. Which sentence happened in the past?",
+        "choices": [
+          "3",
+          "2",
+          "1",
+          "4"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: 3. 3; Last year, I got a new bicycle. Last year is in the past.",
+          "incorrect": [
+            "",
+            "Not: 2. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 4. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 211
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. It was an awful sound. I was pushed forward in my seat and felt the straps pulling me back. I looked around and saw that our car was off the road, and we were crunched up against a telephone pole. There was no possible way to avoid the accident, but I knew that our seat belts had saved our lives. My dad was sitting i nthe driver’s seat, trying to take off his seat belt so he could check to see if I was okay. I will always wear my seat belt, and I hope everyone else does too. What does the author want you to care about?",
+        "choices": [
+          "looking for telephone poles",
+          "wearing your seat belt",
+          "sitting up straight",
+          "riding in the car"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: wearing your seat belt. wearing your seat belt; The author shared her experience o f being in a car accident and how she knew the seat belt saved her life.",
+          "incorrect": [
+            "Not: looking for telephone poles. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: sitting up straight. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: riding in the car. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-8_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 213
+        }
+      },
+      {
+        "question": "Review the passage. Carson -Dellosa Pub., Grade 5, 2001. What? is the clam’s body like",
+        "choices": [
+          "h ard",
+          "soft",
+          "salty",
+          "bumpy"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: soft. soft soft; “The clam’s body lives in the shell…”",
+          "incorrect": [
+            "Not: h ard. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: salty. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: bumpy. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-text-evidence",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 229
         }
       }
     ],
@@ -49586,6 +57594,110 @@
           "sourceSet": "reading-comprehension-story-elements",
           "sequence": 180
         }
+      },
+      {
+        "question": "Read the story and answer the question. Who is telling the story?",
+        "choices": [
+          "Lin da",
+          "Kathy",
+          "Ann",
+          "Sue"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Sue. Sue; S ue is telling the story. “Kathy called out to me.” “Me” is Sue.",
+          "incorrect": [
+            "Not: Lin da. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Kathy. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Ann. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-story-elements",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 79
+        }
+      },
+      {
+        "question": "What is the purpose of using dialogue in a story?",
+        "choices": [
+          "to make a story longer",
+          "to add vivid details and descriptions",
+          "to demonstrate how to properly punctuate dialogue",
+          "to bring characters to life and communicate emo tions"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: to bring characters to life and communicate emo tions. to bring characters to life and communicate emo tions; dialogue a conversation between – two or more persons.",
+          "incorrect": [
+            "Not: to make a story longer. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to add vivid details and descriptions. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to demonstrate how to properly punctuate dialogue. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-story-elements",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 117
+        }
       }
     ],
     "metadata": {
@@ -58785,6 +66897,110 @@
           "reviewPriority": "high",
           "sourceSet": "reading-comprehension-theme-lesson-moral",
           "sequence": 180
+        }
+      },
+      {
+        "question": "Review the passage. Cheers to the former Idaho Gov. Phil Batt. He’s being recognized later this month with American Civil Liberties Union’s Equal Justice Award. If he did nothing else, Batt deserves the honor simply for creating the Idaho Human Rights Commission 33 years ago when he was an Idaho lawmaker., consider Batt’s record as governor in the But mid -1990s. He went against members of his own party-- indeed his own professionto insist on equal treatment for farm workers under Idaho’s worker compensation law. He vigorous -Nazis who had set up operations in northern ly condemned neo Idaho. And he put logic ahead of politics by commuting the strongest sentence of Donald M. Paradis – the manthe courts later freed when new evidence proved him innocent of a 20-year-. old crime From the passage, Tom can prove that Gov. Batt is:",
+        "choices": [
+          "concerned about human rights.",
+          "a good family man.",
+          "a hardworking man.",
+          "a religious man."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: concerned about human rights.. concerned about human rights; “He’s being recognized later this month with American Civil Liberties Union’s Equal Justice Award.”",
+          "incorrect": [
+            "",
+            "Not: a good family man.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a hardworking man.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: a religious man.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-theme-lesson-moral",
+          "sourceFile": "Proficient-7_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 209
+        }
+      },
+      {
+        "question": "Read the passage. We couldn’t wait for summer vacation to start! It was the last day of school, and we were so excited to get out and start the games and fun of summer. My personal favorite thing about summer is getting to sleep in late and stay the night at my friends’ houses for parties and sleepovers. I love school, but I always look forward to summer! The theme of this story is ___________________.",
+        "choices": [
+          "Schoo l is boring.",
+          "I always look forward to summer.",
+          "Summer is coming soon.",
+          "Parties are fun."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: I always look forward to summer.. I always look forward to summer. This is confirmed by the opening senten ce stating that the writer couldn’t wait for summer and closes with “I always look forwa rd to summer!”",
+          "incorrect": [
+            "Not: Schoo l is boring.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Summer is coming soon.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Parties are fun.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-theme-lesson-moral",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 289
         }
       }
     ],
@@ -68107,6 +76323,1202 @@
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
           "sequence": 170
+        }
+      },
+      {
+        "question": "Read the advertisement. If Jerry is looking for a bed for his St. Bernard do g, what price can he expect to p ay?",
+        "choices": [
+          "$31.99",
+          "$25.99",
+          "$39.99",
+          "$ 56.99"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: $ 56.99. $$56.99; A St. Bernard dog would require an extra large dog bed for $56.",
+          "incorrect": [
+            "Not: $31.99. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: $25.99. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: $39.99. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Advanced-3_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 26
+        }
+      },
+      {
+        "question": "Read the story and answer the question. Who yelled?",
+        "choices": [
+          "D ad",
+          "Rachel",
+          "the teacher",
+          "John"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Rachel. Rachel; shouted Rachel. “Where is my pencil?”",
+          "incorrect": [
+            "Not: D ad. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: the teacher. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: John. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Basic-2_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 58
+        }
+      },
+      {
+        "question": "Read the advertisement, then complete the sentence below. If you eat Campbell’s Soup for lunch you will ___ __________.",
+        "choices": [
+          "b e hungry 1 hour later",
+          "eat too much",
+          "have fun",
+          "get sick to your stomach"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: have fun. have fun; “Eat Campbell’s Soup for lunch today and have FUN!”",
+          "incorrect": [
+            "Not: b e hungry 1 hour later. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: eat too much. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: get sick to your stomach. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Basic-4_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 73
+        }
+      },
+      {
+        "question": "Look at the ad. This ad makes you want to buy the garbage bags because:",
+        "choices": [
+          "They are cheap.",
+          "They are black.",
+          "They are thick.",
+          "They are made of plastic."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: They are thick.. They are thick. They are the only 3-ply bag; which means they are thick.",
+          "incorrect": [
+            "Not: They are cheap.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They are black.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: They are made of plastic.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 94
+        }
+      },
+      {
+        "question": "Look at the. ad How does this ad catch your attention?",
+        "choices": [
+          "of fers great craft ideas",
+          "appeal to save money",
+          "free computer time",
+          "gardening ideas"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: appeal to save money. appeal to save money; O ne Free Year catches the reader’s attention and a ppeals to saving money.",
+          "incorrect": [
+            "Not: of fers great craft ideas. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: free computer time. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: gardening ideas. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 114
+        }
+      },
+      {
+        "question": "Read the following advertisement. Worldwide Headquarters: 1932 Wynnton Road, Columbus, Georgia 31999 -0001. What is a benefit of AFLAC insurance?",
+        "choices": [
+          "AFLAC p ays cash directly to you to help with loss of income.",
+          "It is the most expensive insurance planyou can buy.",
+          "An AFLAC associate will answer your questions on Thursday.",
+          "This plan is comprehensive and you do not need another insurance plan."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: AFLAC p ays cash directly to you to help with loss of income.. AFLAC pays cash directly to you to help with the loss of income. This is stated in the second sentence of the advertisement.",
+          "incorrect": [
+            "",
+            "Not: It is the most expensive insurance planyou can buy.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: An AFLAC associate will answer your questions on Thursday.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: This plan is comprehensive and you do not need another insurance plan.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 120
+        }
+      },
+      {
+        "question": "Read the classified advertisement. Choose the correct statement.",
+        "choices": [
+          "The golden retriever was lost in Idaho Falls.",
+          "The dog was found wearing a purple collar.",
+          "The black lab found in Shelley is a female dog.",
+          "The black lab is around six months old."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The black lab is around six months old.. The black lab is around six months old.. “approx. 6 mo. old” means around six months old",
+          "incorrect": [
+            "Not: The golden retriever was lost in Idaho Falls.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The dog was found wearing a purple collar.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The black lab found in Shelley is a female dog.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 124
+        }
+      },
+      {
+        "question": "Read the advertisement. NIE Program Ad vertisement. Jeanet te Edmister 542 -6777. Where should donated books be taken?",
+        "choices": [
+          "to the NIE office",
+          "to Jeanette Edmister",
+          "to 333 Southgate Mile",
+          "to the Post Register Circulation Department"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: to the Post Register Circulation Department. to the Post Register Circulation Department; The second paragrap h states that donated books should be takento the Post Register Circulation Department.",
+          "incorrect": [
+            "Not: to the NIE office. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to Jeanette Edmister. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to 333 Southgate Mile. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 126
+        }
+      },
+      {
+        "question": "Read the passage. Abraham Lincoln wasn’t the sort of man who could lose himself in a crowd. After all, he stood six feet four inches tall, and to top it off, he wore a high silk hat. His height was mostly in his long, bony legs. When he sat in a chair, he seemed no taller than anyone else. It was only when he stood up that he towered above other men. At first glance most people thoughthe was homely. Lincolnthought so too, referring once to his, “poor, lean, lank face.” As a young man he was sensitive about his ga wky looks, but intime, he learned to laugh at himself. When a rival called h-im “two faced” during a political debate, Lincoln replied: “I leave it to m y audience. If I had another face, do you think I’d wear this one?” According to those who knew him, Lincol n was a man of many faces. In repose he often seemed sad and gloomy. But w hen he began to speak, hisexpression changed. “The Mysteriou s Mr. Lincoln, Elements of Literature, Introductory Cou rse. Holt, Rinehart and Winston, 1997. Select the appropriate genre for this passage.",
+        "choices": [
+          "non fiction",
+          "fiction",
+          "personal note",
+          "journal"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: non fiction. non-fiction prose writing that is based on facts, real events, and real people, such as a – biography or history.",
+          "incorrect": [
+            "",
+            "Not: fiction. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: personal note. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: journal. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 128
+        }
+      },
+      {
+        "question": "Read the classified advertisement. Mary loves animals. She has had cats, dogs, horses, hamsters, and even a s nake! There is not a pet she doesn’t love. Barbara is allergic to fur and has only one pet: a turtle. Which statement do you know is true?",
+        "choices": [
+          "Barbara loves do gs.",
+          "Mary would like having a pet cat.",
+          "Barbara is allergic to snakes.",
+          "Mary is allowed to have any pet she wants."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Mary would like having a pet cat.. Mary would like having a pet cat. There isn’t a pet that Mary doesn’t love and she has had cats. Therefore, Mary would like having a cat.",
+          "incorrect": [
+            "Not: Barbara loves do gs.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: Barbara is allergic to snakes.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Mary is allowed to have any pet she wants.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 134
+        }
+      },
+      {
+        "question": "Read the passage. What is this ad trying to sell?",
+        "choices": [
+          "yummy d rinks",
+          "juicy punch",
+          "juicy candy",
+          "cool drinks"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: juicy punch. juicy punch",
+          "incorrect": [
+            "Not: yummy d rinks. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: juicy candy. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: cool drinks. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-2_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 152
+        }
+      },
+      {
+        "question": "Read the passage. What is the purpose of this advertisement?",
+        "choices": [
+          "to sell tomatoes",
+          "to read for fun",
+          "to sell Soupy Soup",
+          "to sell chicken"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: to sell Soupy Soup. to sell Soupy Soup; The advertisement asks you to try and buy some Soupy Soup.",
+          "incorrect": [
+            "Not: to sell tomatoes. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: to read for fun. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: to sell chicken. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 162
+        }
+      },
+      {
+        "question": "Read the ad then answer the question. What canyou believe about this ad?",
+        "choices": [
+          "it is organically grown",
+          "it smells better than anything in the world",
+          "others will want hair as nice as yours",
+          "superhair is the best buy"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: superhair is the best buy. superhair is the best buy; Compared to other shampoos, superhair is the best money can buy.",
+          "incorrect": [
+            "Not: it is organically grown. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: it smells better than anything in the world. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: others will want hair as nice as yours. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 172
+        }
+      },
+      {
+        "question": "Read the sentence. Rachel painted her face. Inthis sentence, her is a _________?",
+        "choices": [
+          "verb",
+          "ad verb",
+          "noun",
+          "pronoun"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: pronoun. pronoun; A pronoun refers to a nounthat is already mentio ned. “Her” is a pronoun and refers to Rachel.",
+          "incorrect": [
+            "Not: verb. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: ad verb. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: noun. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 176
+        }
+      },
+      {
+        "question": "Read the following advertisement. Jennifer has the whitest teeth in her class. She is oftentold that she has a beautiful smile. Jennifer’s, mom bought a new toothpaste called “WOW” that taste s like peppermint. It has special ingredients that fight c avities, prevent gum disease and whitenteeth. If you want to have a beautiful smile like Jennifer, buy “WOW” toothpaste. What product is being advertised?",
+        "choices": [
+          "tooth whitener",
+          "cavity fighter",
+          "toothpaste",
+          "peppermint"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: toothpaste. toothpaste; The passage describes all of the qualities of the WOW toothpaste.",
+          "incorrect": [
+            "Not: tooth whitener. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: cavity fighter. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: peppermint. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 178
+        }
+      },
+      {
+        "question": "Read the ad. FOR SALE: Beautiful, red sailboat. 2 years old, like new. Has been used only 3 times. Which words in the ad are an opinion?",
+        "choices": [
+          "red sailboat",
+          "beautiful",
+          "2 year old s",
+          "been used only 3 times."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: beautiful. beautiful; Beautiful means that it is aesthetically pleasing. This is the opinion of the observer.",
+          "incorrect": [
+            "Not: red sailboat. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: 2 year old s. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: been used only 3 times.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 223
+        }
+      },
+      {
+        "question": "Look at the ad. To whom would this ad appeal?",
+        "choices": [
+          "t ruck drivers",
+          "cat lovers",
+          "football fans",
+          "bankers"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: football fans. football fans; The Super Bowl is a football sporting event; so, the ad would appeal to football fans.",
+          "incorrect": [
+            "Not: t ruck drivers. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: cat lovers. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: bankers. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 224
+        }
+      },
+      {
+        "question": "Read the advertisement. Real men don’t cook! Who wants to spend a lazy Sunday slaving over a cookbook? With our BigMan canned meals, it’s aseasy as dumping it into a bowl and turning on the microwave. “Keep those BigMandinners comin’, Ma!” Who is the most discriminated against in the advertisement?",
+        "choices": [
+          "men",
+          "children",
+          "women",
+          "the elderly"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: women. women; Ma, a woman, is told to keep the meals coming. Therefore, a woman is the one most discriminated against.",
+          "incorrect": [
+            "Not: men. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: children. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: the elderly. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 231
+        }
+      },
+      {
+        "question": "Read the advertisement. The advertiser wants you to:",
+        "choices": [
+          "try something new",
+          "please your family",
+          "do what others are doing",
+          "avoid stress"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: please your family. please your family; The title of the advertisement is Make your Family Happy!",
+          "incorrect": [
+            "Not: try something new. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: do what others are doing. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: avoid stress. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 233
+        }
+      },
+      {
+        "question": "Read the advertisement. Who is the most likely audience for this advertisement?",
+        "choices": [
+          "teenagers",
+          "grandparents",
+          "store managers",
+          "people with pets"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: teenagers. teenagers; Teenagers are the likely target for this advertisement. It a ddresses their age range and interests wit h “Dance Party Explosion”.",
+          "incorrect": [
+            "",
+            "Not: grandparents. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: store managers. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: people with pets. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 243
+        }
+      },
+      {
+        "question": "Jack was planning to run for class president, since this was his senior year. He wanted to print fliers to post around the school building to persuade students to vote for him. Which slogan would be the most persuasive?",
+        "choices": [
+          "Vote for Jack.",
+          "Please vote for Jack.",
+          "If you want someone who won’t slack, vote Jack!",
+          "If you want a good person, vote for me."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: If you want someone who won’t slack, vote Jack!. If you want someone who won’t slack, vote Jack! This slogan is said withexpression. It is persuasive, catchy and rhymes.",
+          "incorrect": [
+            "Not: Vote for Jack.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Please vote for Jack.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: If you want a good person, vote for me.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 245
+        }
+      },
+      {
+        "question": "Read the advertisement. What will this company send if you order the Mul tiplication Memorizer?",
+        "choices": [
+          "colorf ul pictures and a study guide",
+          "study guides and flashcards",
+          "cassette tapes and study guides",
+          "flash cards, study guide and tapes"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: flash cards, study guide and tapes. flash cards, study guide and tapes; this is the most inclusive answer.",
+          "incorrect": [
+            "Not: colorf ul pictures and a study guide. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: study guides and flashcards. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: cassette tapes and study guides. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Advanced-2_Literature.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 246
+        }
+      },
+      {
+        "question": "Read the advertisement. What does the advertisement claim about their product?",
+        "choices": [
+          "It is funto use.",
+          "It is safe to use while exercising.",
+          "Using this product eliminates stress.",
+          "It cleans without having to scrub."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: It cleans without having to scrub.. It cleans without having to scrub. The advertisement sta tes “No scrubbing necessary.”",
+          "incorrect": [
+            "Not: It is funto use.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: It is safe to use while exercising.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Using this product eliminates stress.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-authors-purpose",
+          "sourceFile": "Advanced-3_Literature.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 253
         }
       }
     ],
@@ -86176,6 +95588,370 @@
           "sourceGrade": 3,
           "sequence": 195
         }
+      },
+      {
+        "question": "Review the passage. Now, the Star-Belly Sneetches Had bellies with stars The Plain-Belly Sneetches Had non uponthars. Those stars weren’t so big. They were really so small You might think such a thing wouldn’t matter at all. But because they had stars, all the Star- Belly Sneetches. Would brag. “We’re the best kind of Sneetch on the beaches.” With their snoots in the air, they wou ld sniff and they’d snort. “We’ll have nothing to do with the Plain sort!” -Belly And whenever they met some, whenthey were out walking, They’d hike right on past them without eventalking. Whenthe Star-Belly children went out to play ball, Could a Plain Belly get in the game? Not at all. You o nly could play if your bellies had stars And the Plain-Belly children had none uponthars. Seuss). “T he Sneetches. Elements of Lit erature, Introductory Course. Holt, Rinehart and Winston, Harcourt Brace and Company, 1997. What is the problem and possible resolution for this passage?",
+        "choices": [
+          "The Star- Belly Sneetches don’t like the Plain Belly Sneetches because they are shorter, and they should move to another part of the country.",
+          "The Plain Belly Sneetches don’t like the Star -Belly Sneetches because they act funny, and they should tell them to leave them alone.",
+          "The Star-Belly Sneetches and the Plain Belly Sneetches are good friends, and they shou ld make plans together.",
+          "T he Star- Belly Sneetches don’t like the Plain Belly Sneetches because they lo ok different, and they should learnto accept them and not judge them."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: T he Star- Belly Sneetches don’t like the Plain Belly Sneetches because they lo ok different, and they should learnto accept them and not judge them.. The Star- Belly Sneetches don’t like the Plain Belly Sneetches because they look different, and they should learnto accept them and not judge them.",
+          "incorrect": [
+            "Not: The Star- Belly Sneetches don’t like the Plain Belly Sneetches because they are shorter, and they should move to another part of the country.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The Plain Belly Sneetches don’t like the Star -Belly Sneetches because they act funny, and they should tell them to leave them alone.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The Star-Belly Sneetches and the Plain Belly Sneetches are good friends, and they shou ld make plans together.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-10_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 99
+        }
+      },
+      {
+        "question": "Read the passage. A substance made up of one type of atom is called an element. Whentwo or more atoms jointogether, they form what is called a molecule. How do molecules and elements differ?",
+        "choices": [
+          "M olecules containtwo or more atoms, and elem ents containone atom.",
+          "They have the same number of atoms.",
+          "Elements do not have atoms.",
+          "Molecules are made up of elements."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: M olecules containtwo or more atoms, and elem ents containone atom.. Molecules containtwo or more atoms, and elements containone atom.",
+          "incorrect": [
+            "",
+            "Not: They have the same number of atoms.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Elements do not have atoms.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Molecules are made up of elements.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 115
+        }
+      },
+      {
+        "question": "Read the passage. There are many different kinds of cats. They come in all colors and sizes. T wo of the most common household cats are the domestic long-hair and the domestic short-hair. The long-hair cats have flat, furry faces and large eyes. Their long fur often causes allergic reactions for many people. More people own short-hair cats because it is a more common breed. Based on the passage, which type of cat are most people allergic to?",
+        "choices": [
+          "domestic short- hair",
+          "certain colored cats",
+          "larger cats",
+          "domestic long-hair"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: domestic long-hair. domestic long-hair; The long fur of the domestic lo -hair cats often cause allergic ng reactions for many people.",
+          "incorrect": [
+            "Not: domestic short- hair. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: certain colored cats. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: larger cats. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-3_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 168
+        }
+      },
+      {
+        "question": "Read the passage and answer the question. John and Michael left for the game around 4:00 p.m. Mary and Tanisha left ab out the same time to go swimming. The boys finished their game and came home to get an ice-cold drink. The girls swam a little longer thanthe game lasted, but came home and popped some popcorn. Which events happened at the same time?",
+        "choices": [
+          "They all came home at the same time.",
+          "They all had their treats at the same time.",
+          "They all went to the same place.",
+          "They all left around the same time."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: They all left around the same time.. They all left around the same time. John and Michael left at 4:00 p.m. Ma ry and Tanisha left about the same time.",
+          "incorrect": [
+            "Not: They all came home at the same time.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They all had their treats at the same time.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: They all went to the same place.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 179
+        }
+      },
+      {
+        "question": "Read the passage. It was a gloomy day. My brother and I stared out the windows with frowns on our faces. Nothing would ever be the same. The mood or feeling of this story is:",
+        "choices": [
+          "sad",
+          "funny",
+          "scary",
+          "ridiculous"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: sad. sad; The words ‘gloomy’ and ‘frowns’ indicate sadness.",
+          "incorrect": [
+            "",
+            "Not: funny. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: scary. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: ridiculous. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 271
+        }
+      },
+      {
+        "question": "Read the passage. It was a rainy and cold morning, but the children all wanted to play outside. Their mother told them to wear jackets and hats, so they would not get sick or catch a cold. They all agreed, but as soon as they were out of their mother’s sight, they took off their jackets and hats so they could play football without any bulky clothing on. What do you think will happen?",
+        "choices": [
+          "The children will go back home.",
+          "The children will get sick because they were wet and cold.",
+          "The children will win the game of football.",
+          "The children will want to play a different game."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The children will get sick because they were wet and cold.. The children will get sick because they were wet and cold. The children were told to wear their jackets and hats so they would not catch a cold. They took their jackets and hats off; therefore, it is likely they got sick.",
+          "incorrect": [
+            "Not: The children will go back home.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: The children will win the game of football.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: The children will want to play a different game.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 273
+        }
+      },
+      {
+        "question": "Read the passage. Charles has football practice at the same time as tryouts for the school play. He wants to do both. What should he do?",
+        "choices": [
+          "quit football",
+          "do not try out for the play",
+          "ask his parents to call the principal",
+          "talk to the football coach and drama teacher about his conflict"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: talk to the football coach and drama teacher about his conflict. talk to the football coach and drama teacher about his conflict",
+          "incorrect": [
+            "Not: quit football. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: do not try out for the play. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: ask his parents to call the principal. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "analyze-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-compare-contrast",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 285
+        }
       }
     ],
     "metadata": {
@@ -95300,6 +105076,370 @@
           "sourceGrade": 3,
           "sequence": 174
         }
+      },
+      {
+        "question": "Review the poem. Fame is a bee. It has a song--- It has a sting--- Ah, too, it has a wing. Elements o f Literature Intro ductory Course. Holt, Rinehart and Wins ton,, Harcourt Brace and Co mpany, 1997. This is an example of:",
+        "choices": [
+          "mood",
+          "simile",
+          "met aphor",
+          "irony"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: met aphor. metaphor figure of speech in which a word or phrase denotes one kind of object or idea – and is used in place of another suggesting a likene ss or analogy.",
+          "incorrect": [
+            "Not: mood. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: simile. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: irony. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-12_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 119
+        }
+      },
+      {
+        "question": "Review the poem. The Storm In fury and terror The tempest broke, It tore up the pine And shattered the oak, Yet the hummingbird hovered Within the hour Sipping clear rain From a trumpet flower. “The Storm.” Elements o f Literature, Introductory Course. Holt, Rinehart and Wins ton, Harcourt Brace and Company, 1997. The author’s use of ______________ appeals to the senses of the rea der.",
+        "choices": [
+          "figure of speech",
+          "irony",
+          "image ry",
+          "metaphor"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: image ry. imagery visual descriptive or figurative language, especially in literary w ork. –",
+          "incorrect": [
+            "Not: figure of speech. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: irony. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: metaphor. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-13_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 129
+        }
+      },
+      {
+        "question": "Review the poem. It falls down, Like sheets of ice. Blanketing the ground, With a freezing slice. Melting to water, As it touches the ground, WET! What is the author referring to in this poem?",
+        "choices": [
+          "rain",
+          "snow",
+          "w ind",
+          "clouds"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: snow. snow atmospheric water vapor frozen into ice crystals and falling in light white flakes or – lying on the ground as a white layer.",
+          "incorrect": [
+            "Not: rain. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: w ind. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: clouds. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-14_Informational Text.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 139
+        }
+      },
+      {
+        "question": "Read the poem. The flicker of light It burns in the shadows. How wondrous it is The miracle of nature. How can such a simple thing Be such a wonder? A bug? With lightening? How canthis be? What a wondrous sight! What is the author referring to in this poem?",
+        "choices": [
+          "ligh tening",
+          "ligh tening bugs",
+          "storms",
+          "nature"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: ligh tening bugs. lightening bugs soft-bodied beetles also called fireflies known for their co nspicuous – emission of light during twilight to attract mates or prey.",
+          "incorrect": [
+            "Not: ligh tening. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: storms. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: nature. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-4_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 180
+        }
+      },
+      {
+        "question": "Read the definition and short passage. Onomatopoeia a formation of words by imitating sounds (Ex. Buzz) – The old copper tea kettle perched on the stove like a bird on a branch. Steam whistled from the top. Grandma came bustling in the room to make tea for us. Which of the above word(s) represents onomatopoeia?",
+        "choices": [
+          "perched on the stove like a bird on a branch",
+          "bustling",
+          "old copper tea kettle",
+          "whistled"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: whistled. whistled; whistle a clear high-pitched sound made by forcing breath through a small – hole between partly closed lips, or between o ne’s teeth.",
+          "incorrect": [
+            "Not: perched on the stove like a bird on a branch. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: bustling. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: old copper tea kettle. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 282
+        }
+      },
+      {
+        "question": "Read the passage. Today, while cooking oatmeal she is Madame Butterfly until she sighs and points the wooden spoon at me. I could’ve been somebody, you know? Esperanza, you go to school and study hard. That Madame Butterfly was a fool. She stirs the oatmeal. Look at my compadres. She means Izaura whose husband left and Yolanda whose husband is dead. Got to take care your own, she says shaking her head. of “A Smart Cookie”. E lements of Lit erature. Holt, Rinehart, Winston 1997. The underlined sentence is a:",
+        "choices": [
+          "simile",
+          "metaphor",
+          "personification",
+          "symbolism"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: metaphor. metaphor; A metaphor is a comparisonthat says one thing is the other. “…she is Madame Butterfly.”",
+          "incorrect": [
+            "Not: simile. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: personification. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: symbolism. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 284
+        }
+      },
+      {
+        "question": "Read the poem. She came out pulling ather gloves, face bright with rouge. I smiled. What is the mood or feeling of the poem?",
+        "choices": [
+          "jo yful",
+          "sad",
+          "funny",
+          "frightening"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: jo yful. joyful; “face bright with rouge. I smiled” signify jo y.",
+          "incorrect": [
+            "",
+            "Not: sad. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: funny. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: frightening. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-poetry-skills",
+          "sourceFile": "Proficient-2_Literature.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 290
+        }
       }
     ],
     "metadata": {
@@ -104191,6 +114331,318 @@
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
           "sequence": 157
+        }
+      },
+      {
+        "question": "Read the list. Setting Characters Problem Plot Resolution What literary device do theseelements describe?",
+        "choices": [
+          "story descriptions",
+          "genres",
+          "story structure",
+          "fiction"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: story structure. story structure formula to use as a guide while writing a novel. –",
+          "incorrect": [
+            "Not: story descriptions. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: genres. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: fiction. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-book-genres",
+          "sourceFile": "Proficient-11_Informational Text.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 110
+        }
+      },
+      {
+        "question": "Read the non-fiction passage. One difference between insects and all other ani mals is the number of legs they have. Only insects have six legs in the entire animal king dom. Adult insects have four wings and two antennae on their heads. If this is true, you can conclude that:",
+        "choices": [
+          "Sp iders have wings; therefore, they are insects.",
+          "All animals are insects.",
+          "Insects are only found in North America.",
+          "A grasshopper is an insect."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: A grasshopper is an insect.. A grasshopper is an insect. A grasshopper has six legs, two pair of wings, and two antennae.",
+          "incorrect": [
+            "Not: Sp iders have wings; therefore, they are insects.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: All animals are insects.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: Insects are only found in North America.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "informational text",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-book-genres",
+          "sourceFile": "Proficient-9_Informational Text.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "informational-text",
+          "sourceGrade": 3,
+          "sequence": 228
+        }
+      },
+      {
+        "question": "What kind of writing is this? Dear Jill, I went to the zoo with my mother. I like to see the animals! Can you come to the zoo with me on Saturday? Your friend, Jack",
+        "choices": [
+          "friendly letter",
+          "tell a story",
+          "tell facts",
+          "formal letter"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: friendly letter. friendly letter",
+          "incorrect": [
+            "",
+            "Not: tell a story. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: tell facts. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: formal letter. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-book-genres",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 263
+        }
+      },
+      {
+        "question": "Read the passage. Bats are nocturnal animals. Bats come in many sizes and shapes. Bats hunt for food at night. Bats usually live in caves. What kind of writing is this?",
+        "choices": [
+          "poetry",
+          "fairy tale",
+          "non-fict ion",
+          "fiction"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: non-fict ion. non-f iction; prose writing that is based on facts, re al events, and real people.",
+          "incorrect": [
+            "Not: poetry. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: fairy tale. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: fiction. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-book-genres",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 267
+        }
+      },
+      {
+        "question": "Read the following Mary had a little lamb. Whose fleece was white as snow, And Everywhere that Mary went, The lamb was sure to go. What kind of writing is this?",
+        "choices": [
+          "poetry",
+          "non-fiction",
+          "fiction",
+          "fairy tale"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: poetry. poetry literary work that lends to the expression of feelings and ideas by the use of – distinctive style and rhythm.",
+          "incorrect": [
+            "",
+            "Not: non-fiction. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: fiction. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: fairy tale. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-book-genres",
+          "sourceFile": "Basic-1_Literature.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 268
+        }
+      },
+      {
+        "question": "Read the sentences: 1. Gorillas are plant-eating creatures. 2. Gorillas can be found in Africa. 3. All gorillas are ugly, scary and mean. 4. Scientists think gorillas could have been as tall as ten feet. Which of the above sentences are non-fiction?",
+        "choices": [
+          "2, 3,",
+          "1, 2,",
+          "1, 2,",
+          "N one of the above."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 1, 2,. 1, 2, 4; Non -fiction is based on fact. Sentence 3 is an opinion.",
+          "incorrect": [
+            "Not: 2, 3,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: 1, 2,. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: N one of the above.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-book-genres",
+          "sourceFile": "Proficient-1_Literature.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 272
         }
       }
     ],
@@ -122103,6 +132555,58 @@
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
           "sequence": 189
+        }
+      },
+      {
+        "question": "Read the story. It was John’s birthday. He had his friends over to celebrate. They were playing games, eating pizza and drinking grape juice. The doorbell rang, and in walked Ryan. As Ryan walked through the door, Buddy, John’s dog, slipped in. Buddy, happy to be part of the party, started racing around the room, wagging his tail and jumping up on everyone. Just as Buddy jumped up on John, a cup of grape juice flew out of his hand. John ran to get a towel and wipe up the grape juice. He was worried the juice would leave a stain. Which detail helps to build suspense?",
+        "choices": [
+          "It was John’s birthday.",
+          "John ran to get a towel to wipe up the stain.",
+          "As Ryan walked through the door, Buddy, John’s dog slipped in.",
+          "They we re playing games, eating pizza and drinking grape juice."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: As Ryan walked through the door, Buddy, John’s dog slipped in.. As Ryan walked through the door, Buddy, John’s dog slipped in. “Slipped in” signifies that Buddy was not supposed to be inside which leads to the suspense that something unexpected might happen.",
+          "incorrect": [
+            "Not: It was John’s birthday.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "Not: John ran to get a towel to wipe up the stain.. Use the passage, text feature, or story detail to check this choice against the evidence.",
+            "",
+            "Not: They we re playing games, eating pizza and drinking grape juice.. Use the passage, text feature, or story detail to check this choice against the evidence."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reading comprehension means using passage details to understand ideas, events, author choices, and literary elements.",
+          "example": "Find the detail in the passage that supports the answer.",
+          "link": "https://www.readingrockets.org/topics/comprehension",
+          "linkText": "Reading Rockets-Comprehension"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "literature",
+            "reading comprehension",
+            "reading",
+            "grade 3"
+          ],
+          "feedbackFocus": "use the passage, text feature, or story detail and compare each answer choice to the evidence",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "normal",
+          "sourceSet": "reading-comprehension-tone-mood",
+          "sourceFile": "Advanced-1_Literature.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "literature",
+          "sourceGrade": 3,
+          "sequence": 237
         }
       }
     ],

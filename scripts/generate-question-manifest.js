@@ -45,7 +45,7 @@ function buildSetManifest(record) {
     title: set.title || '',
     topic: set.topic || '',
     domain,
-    bankFile: record.relativeFile,
+    bankFile: record.runtimeBankFile || record.relativeFile,
     questionCount: questionManifests.length,
     gradesSupported: getSupportedGrades(set, questionManifests),
     difficultiesSupported: getSupportedDifficulties(set, questionManifests),
@@ -77,6 +77,7 @@ function buildQuestionManifest(question, fallbackSequence) {
 }
 
 function getDomain(record) {
+  if (record.domain) return record.domain;
   const basename = path.basename(record.relativeFile || '', '.js');
   if (basename) return basename;
   return String(record.setId || '').split('-')[0];
@@ -135,7 +136,11 @@ function writeManifest(manifest, file = DEFAULT_MANIFEST_PATH) {
 }
 
 function writeManifestScript(manifest, file = DEFAULT_MANIFEST_SCRIPT_PATH) {
-  fs.writeFileSync(file, `window.QUESTION_MANIFEST = ${JSON.stringify(buildIndexManifest(manifest), null, 2)};\n`);
+  fs.writeFileSync(file, buildManifestScript(manifest));
+}
+
+function buildManifestScript(manifest) {
+  return `window.QUESTION_MANIFEST = ${JSON.stringify(buildIndexManifest(manifest), null, 2)};\n`;
 }
 
 function buildIndexManifest(manifest) {
@@ -179,6 +184,15 @@ function validateManifest(manifest, bankLoad = loadQuestionBanks(), options = {}
     throw new Error(getManifestDriftMessage(manifest, expected));
   }
   return expected;
+}
+
+function validateManifestScript(manifest, file = DEFAULT_MANIFEST_SCRIPT_PATH) {
+  const expectedScript = buildManifestScript(manifest);
+  const actualScript = fs.readFileSync(file, 'utf8');
+  if (actualScript !== expectedScript) {
+    throw new Error(`Question manifest script is stale. Regenerate ${path.relative(repoRoot, file)}.`);
+  }
+  return expectedScript;
 }
 
 function getManifestDriftMessage(actual, expected) {
@@ -225,6 +239,7 @@ function runCli(argv = process.argv.slice(2)) {
     writeQuestionChunks(generated, bankLoad);
   } else {
     validateManifest(loadManifest(manifestPath), bankLoad, { validateChunks: shouldCheckChunks });
+    validateManifestScript(generated);
   }
 
   const stats = fs.statSync(manifestPath);
@@ -244,6 +259,7 @@ module.exports = {
   generateManifest,
   buildQuestionChunkScript,
   buildIndexManifest,
+  buildManifestScript,
   getChunkedDomains,
   getChunkedSets,
   getSourceSet,
@@ -252,6 +268,7 @@ module.exports = {
   validateQuestionChunkSet,
   validateQuestionChunks,
   validateManifest,
+  validateManifestScript,
   writeManifest,
   writeManifestScript,
   writeQuestionChunks

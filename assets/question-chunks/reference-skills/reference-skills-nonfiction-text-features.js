@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - reference-skills chunk: reference-skills-nonfiction-text-features
- * Generated from assets/question-banks/reference-skills.js.
+ * Generated from assets/question-bank-source/reference-skills.json.
  */
 (function () {
   'use strict';

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-language-mastery.local/schemas/question-bank.schema.json",
+  "title": "Question Bank Source",
+  "type": "object",
+  "required": ["schemaVersion", "domain", "sets"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sets": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "$ref": "./question-set.schema.json"
+      }
+    }
+  }
+}

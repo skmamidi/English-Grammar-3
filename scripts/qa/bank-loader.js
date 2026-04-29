@@ -6,13 +6,28 @@ const vm = require('vm');
 
 const repoRoot = path.resolve(__dirname, '..', '..');
 const bankDir = path.join(repoRoot, 'assets', 'question-banks');
+const jsonBankDir = path.join(repoRoot, 'assets', 'question-bank-source');
 
-function getBankFiles(root = repoRoot) {
+function getLegacyBankFiles(root = repoRoot) {
   const dir = path.join(root, 'assets', 'question-banks');
+  if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir)
     .filter(file => file.endsWith('.js'))
     .map(file => path.join(dir, file))
     .sort();
+}
+
+function getJsonBankFiles(root = repoRoot) {
+  const dir = path.join(root, 'assets', 'question-bank-source');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter(file => file.endsWith('.json'))
+    .map(file => path.join(dir, file))
+    .sort();
+}
+
+function getBankFiles(root = repoRoot, options = {}) {
+  return resolveBankFiles(root, options).files;
 }
 
 function createBrowserLikeContext() {
@@ -61,8 +76,19 @@ function createMemoryStorage(seed = {}) {
 
 function loadQuestionBanks(options = {}) {
   const root = options.repoRoot || repoRoot;
-  const files = options.files || getBankFiles(root);
-  const sharedContext = options.sharedContext !== false;
+  const resolved = options.files
+    ? { files: options.files, sourceType: options.sourceType || inferSourceType(options.files[0]) }
+    : resolveBankFiles(root, options);
+  const files = resolved.files;
+  const sourceType = resolved.sourceType;
+
+  if (sourceType === 'json') return loadJsonQuestionBanks({ root, files });
+
+  return loadLegacyQuestionBanks({ root, files, sharedContext: options.sharedContext });
+}
+
+function loadLegacyQuestionBanks({ root, files, sharedContext: configuredSharedContext }) {
+  const sharedContext = configuredSharedContext !== false;
   const loaded = [];
   const shared = createBrowserLikeContext();
   shared.window.QUESTION_BANK = {};
@@ -79,9 +105,13 @@ function loadQuestionBanks(options = {}) {
     Object.keys(currentBank).forEach(key => {
       if (!sharedContext || !beforeKeys.has(key)) fileBank[key] = currentBank[key];
     });
+    const relativeFile = path.relative(root, file).split(path.sep).join('/');
     loaded.push({
       file,
-      relativeFile: path.relative(root, file),
+      relativeFile,
+      sourceType: 'javascript',
+      domain: getDomainFromBankFile(file),
+      runtimeBankFile: relativeFile,
       bank: fileBank,
       bytes: Buffer.byteLength(code)
     });
@@ -93,11 +123,60 @@ function loadQuestionBanks(options = {}) {
   };
 }
 
+function loadJsonQuestionBanks({ root, files }) {
+  const loaded = files.map(file => {
+    const code = fs.readFileSync(file, 'utf8');
+    const parsed = JSON.parse(code);
+    const domain = parsed.domain || getDomainFromBankFile(file);
+    const bank = parsed.sets && typeof parsed.sets === 'object' && !Array.isArray(parsed.sets)
+      ? parsed.sets
+      : {};
+
+    return {
+      file,
+      relativeFile: path.relative(root, file).split(path.sep).join('/'),
+      sourceType: 'json',
+      domain,
+      runtimeBankFile: path.posix.join('assets', 'question-banks', `${domain}.js`),
+      bank,
+      bytes: Buffer.byteLength(code)
+    };
+  });
+
+  return {
+    files: loaded,
+    bank: Object.assign({}, ...loaded.map(item => item.bank))
+  };
+}
+
+function resolveBankFiles(root, options = {}) {
+  const sourceType = options.sourceType || 'auto';
+  if (sourceType === 'json') return { files: getJsonBankFiles(root), sourceType: 'json' };
+  if (sourceType === 'legacy' || sourceType === 'javascript' || sourceType === 'js') {
+    return { files: getLegacyBankFiles(root), sourceType: 'javascript' };
+  }
+
+  const jsonFiles = getJsonBankFiles(root);
+  if (jsonFiles.length) return { files: jsonFiles, sourceType: 'json' };
+  return { files: getLegacyBankFiles(root), sourceType: 'javascript' };
+}
+
+function inferSourceType(file) {
+  return String(file || '').endsWith('.json') ? 'json' : 'javascript';
+}
+
+function getDomainFromBankFile(file) {
+  return path.basename(file || '', path.extname(file || ''));
+}
+
 function flattenQuestionBanks(bankLoad) {
   return bankLoad.files.flatMap(fileRecord => {
     return Object.entries(fileRecord.bank).map(([setId, set]) => ({
       file: fileRecord.file,
       relativeFile: fileRecord.relativeFile,
+      sourceType: fileRecord.sourceType,
+      domain: fileRecord.domain,
+      runtimeBankFile: fileRecord.runtimeBankFile,
       setId,
       set
     }));
@@ -146,8 +225,11 @@ function getBankSizeSummary(bankLoad) {
 module.exports = {
   repoRoot,
   bankDir,
+  jsonBankDir,
   createMemoryStorage,
   getBankFiles,
+  getJsonBankFiles,
+  getLegacyBankFiles,
   loadQuestionBanks,
   flattenQuestionBanks,
   flattenQuestions,

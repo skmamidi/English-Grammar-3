@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-multiple-meaning-words
- * Generated from assets/question-banks/vocabulary.js.
+ * Generated from assets/question-bank-source/vocabulary.json.
  */
 (function () {
   'use strict';

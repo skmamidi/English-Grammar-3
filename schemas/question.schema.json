@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-language-mastery.local/schemas/question.schema.json",
+  "title": "Question",
+  "type": "object",
+  "required": ["id", "version", "contentHash", "question", "metadata"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "contentHash": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "correct": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["sourceSet", "sequence", "gradeLevels", "difficultyByGrade", "skills"],
+      "additionalProperties": true,
+      "properties": {
+        "sourceSet": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "gradeLevels": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "difficultyByGrade": {
+          "type": "object",
+          "minProperties": 1
+        },
+        "skills": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

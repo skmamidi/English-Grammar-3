@@ -20,11 +20,15 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   const pkg = readJson('package.json');
 
   assert.equal(pkg.scripts['install:browsers'], 'playwright install chromium');
+  assert.match(pkg.scripts.test, /npm run qa:questions/);
+  assert.match(pkg.scripts['qa:questions'], /npm run qa:schema/);
+  assert.match(pkg.scripts['qa:questions'], /npm run qa:json-source/);
+  assert.match(pkg.scripts['qa:questions'], /npm run qa:manifest/);
+  assert.match(pkg.scripts['qa:questions'], /npm run qa:chunks/);
   assert.match(pkg.scripts.test, /npm run qa:content/);
-  assert.match(pkg.scripts.test, /npm run qa:manifest/);
-  assert.match(pkg.scripts.test, /npm run qa:chunks/);
   assert.match(pkg.scripts.test, /npm run test:unit/);
   assert.match(pkg.scripts.test, /npm run test:ui/);
+  assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
 });
 
 test('github qa workflow uses npm ci, installs chromium, and runs npm test', () => {

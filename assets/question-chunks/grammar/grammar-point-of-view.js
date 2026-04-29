@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-point-of-view
- * Generated from assets/question-banks/grammar.js.
+ * Generated from assets/question-bank-source/grammar.json.
  */
 (function () {
   'use strict';

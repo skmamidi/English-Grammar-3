@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-singular-plural-nouns
- * Generated from assets/question-banks/grammar.js.
+ * Generated from assets/question-bank-source/grammar.json.
  */
 (function () {
   'use strict';

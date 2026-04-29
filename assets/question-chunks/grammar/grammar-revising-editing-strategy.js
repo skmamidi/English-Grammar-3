@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-revising-editing-strategy
- * Generated from assets/question-banks/grammar.js.
+ * Generated from assets/question-bank-source/grammar.json.
  */
 (function () {
   'use strict';

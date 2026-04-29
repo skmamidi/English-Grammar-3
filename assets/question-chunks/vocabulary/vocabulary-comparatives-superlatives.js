@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-comparatives-superlatives
- * Generated from assets/question-banks/vocabulary.js.
+ * Generated from assets/question-bank-source/vocabulary.json.
  */
 (function () {
   'use strict';

@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-sentence-types
- * Generated from assets/question-banks/grammar.js.
+ * Generated from assets/question-bank-source/grammar.json.
  */
 (function () {
   'use strict';

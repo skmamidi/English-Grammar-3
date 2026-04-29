@@ -1,6 +1,6 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-prepositions-prepositional-phrases
- * Generated from assets/question-banks/grammar.js.
+ * Generated from assets/question-bank-source/grammar.json.
  */
 (function () {
   'use strict';

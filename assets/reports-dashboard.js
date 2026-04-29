@@ -11,6 +11,7 @@
     fullQuestion: null,
     query: ''
   };
+  let preferredFullQuestionSpeechVoice = null;
 
   document.addEventListener('DOMContentLoaded', initReports);
 
@@ -897,6 +898,7 @@
       explanation: item.explanation || null,
       studyAid: item.studyAid || null,
       visualScene: item.visualScene || null,
+      spelling: item.spelling || null,
       correct: typeof item.correct === 'boolean' ? item.correct : selectedIndex >= 0 && selectedIndex === correctIndex,
       topic: item.title || item.topic || item.subtopicTitle || '',
       grade: item.grade || '',
@@ -919,6 +921,7 @@
     modal.addEventListener('click', event => {
       if (event.target === modal || event.target.closest('[data-close-full-question]')) closeFullQuestionModal();
     });
+    bindFullQuestionPronunciationControls(modal, detail);
     document.addEventListener('keydown', handleFullQuestionKeydown);
   }
 
@@ -955,6 +958,7 @@
   function renderFullQuestionStudentView(detail) {
     return `
       <div class="question-box full-question-student-view">
+        ${renderFullQuestionPronunciationControls(detail)}
         ${renderQuestionPromptForReport(detail)}
         <div class="choices">
           ${detail.choices.map((choice, index) => {
@@ -1019,6 +1023,119 @@
       return renderSavedVisualQuestionScene(detail.visualScene, detail);
     }
     return renderDisplayPromptForReport(getDisplayPromptParts(detail.question), 'question');
+  }
+
+  function renderFullQuestionPronunciationControls(detail) {
+    if (!getFullQuestionSpellingWord(detail)) return '';
+    return `
+      <div class="spelling-listen-row full-question-spelling-listen-row">
+        <button class="btn btn-primary" type="button" data-full-question-speak="word">Play Word</button>
+        <button class="btn btn-secondary" type="button" data-full-question-speak="slow">Play Slowly</button>
+        <button class="btn btn-secondary" type="button" data-full-question-speak="clue">Play Clue</button>
+      </div>
+    `;
+  }
+
+  function bindFullQuestionPronunciationControls(root, detail) {
+    root.querySelectorAll('[data-full-question-speak]').forEach(button => {
+      button.addEventListener('click', () => {
+        speakFullQuestionSpelling(detail, button.dataset.fullQuestionSpeak);
+      });
+    });
+  }
+
+  function speakFullQuestionSpelling(detail, mode) {
+    if (!('speechSynthesis' in window)) return;
+    const spelling = detail.spelling || {};
+    const word = getFullQuestionSpellingWord(detail);
+    if (!word) return;
+    if (mode === 'clue') {
+      const clue = spelling.clue || detail.question || '';
+      const sentence = spelling.sentence ? ` ${String(spelling.sentence).replace('____', 'blank')}` : '';
+      speakFullQuestionText(`${clue}.${sentence}`);
+      return;
+    }
+    if (mode === 'slow') {
+      speakFullQuestionWordSlowly(detail);
+      return;
+    }
+    speakFullQuestionText(spelling.pronunciation || word);
+  }
+
+  function speakFullQuestionWordSlowly(detail) {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    const spelling = detail.spelling || {};
+    const word = getFullQuestionSpellingWord(detail);
+    const speech = spelling.pronunciation || word;
+    const syllables = getFullQuestionPronunciationSyllables(detail);
+    const utterances = [createFullQuestionUtterance(speech, { rate: 0.56, pitch: 1.02 })];
+    if (syllables.length > 1) {
+      syllables.forEach((syllable, index) => {
+        utterances.push(createFullQuestionUtterance(syllable, {
+          rate: 0.5,
+          pitch: index === 0 ? 1.12 : 0.98,
+          volume: index === 0 ? 1 : 0.82
+        }));
+      });
+      utterances.push(createFullQuestionUtterance(speech, { rate: 0.62, pitch: 1.04 }));
+    }
+    utterances.forEach(utterance => window.speechSynthesis.speak(utterance));
+  }
+
+  function speakFullQuestionText(text, options) {
+    if (!('speechSynthesis' in window)) return;
+    const value = String(text || '').trim();
+    if (!value) return;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(createFullQuestionUtterance(value, options || {}));
+  }
+
+  function createFullQuestionUtterance(text, options) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    const voice = getFullQuestionSpeechVoice();
+    if (voice) utterance.voice = voice;
+    utterance.rate = options.rate || 0.78;
+    utterance.pitch = options.pitch || 1.04;
+    utterance.volume = options.volume || 1;
+    return utterance;
+  }
+
+  function getFullQuestionSpeechVoice() {
+    if (preferredFullQuestionSpeechVoice) return preferredFullQuestionSpeechVoice;
+    if (!('speechSynthesis' in window)) return null;
+    const voices = window.speechSynthesis.getVoices();
+    preferredFullQuestionSpeechVoice = voices
+      .filter(voice => /^en(-|_)?/i.test(voice.lang || ''))
+      .sort((a, b) => scoreFullQuestionSpeechVoice(b) - scoreFullQuestionSpeechVoice(a))[0] || null;
+    return preferredFullQuestionSpeechVoice;
+  }
+
+  function scoreFullQuestionSpeechVoice(voice) {
+    const name = `${voice.name || ''} ${voice.voiceURI || ''}`.toLowerCase();
+    const lang = String(voice.lang || '').toLowerCase();
+    let score = 0;
+    if (lang === 'en-us') score += 80;
+    else if (lang.startsWith('en-us')) score += 70;
+    else if (lang.startsWith('en')) score += 35;
+    if (voice.default) score += 5;
+    if (/samantha|ava|allison|zoe|karen|moira|tessa|victoria|google us english|microsoft (aria|jenny|guy)|natural|premium|enhanced/.test(name)) score += 20;
+    if (/compact|novelty|whisper|zarvox|bells|boing|bubbles|cellos|deranged|hysterical|trinoids/.test(name)) score -= 80;
+    return score;
+  }
+
+  function getFullQuestionPronunciationSyllables(detail) {
+    const spelling = detail.spelling || {};
+    const dataSlow = Array.isArray(spelling.pronunciationSyllables) ? spelling.pronunciationSyllables : null;
+    const syllables = dataSlow || String(spelling.syllables || getFullQuestionSpellingWord(detail)).split('-');
+    return syllables.map(part => String(part || '').trim()).filter(Boolean);
+  }
+
+  function getFullQuestionSpellingWord(detail) {
+    const spelling = detail && detail.spelling;
+    if (!spelling) return '';
+    return String(spelling.word || detail.correctChoice || '').trim();
   }
 
   function renderSavedVisualQuestionScene(scene, detail) {

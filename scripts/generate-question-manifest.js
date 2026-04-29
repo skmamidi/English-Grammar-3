@@ -8,11 +8,17 @@ const {
   loadQuestionBanks,
   flattenQuestionBanks
 } = require('./qa/bank-loader');
+const {
+  CHUNKED_DOMAINS,
+  buildQuestionChunkScript,
+  getChunkedSets,
+  getExpectedChunkRelativePath,
+  writeQuestionChunks
+} = require('./generate-question-chunks');
 
 const MANIFEST_SCHEMA_VERSION = 1;
 const DEFAULT_MANIFEST_PATH = path.join(repoRoot, 'assets', 'question-manifest.json');
 const DEFAULT_MANIFEST_SCRIPT_PATH = path.join(repoRoot, 'assets', 'question-manifest.js');
-const CHUNKED_DOMAINS = new Set(['capitalization']);
 
 function generateManifest(bankLoad) {
   const sets = flattenQuestionBanks(bankLoad).map(record => buildSetManifest(record));
@@ -43,7 +49,7 @@ function buildSetManifest(record) {
   };
 
   if (CHUNKED_DOMAINS.has(domain)) {
-    manifest.chunkFile = `assets/question-chunks/${domain}/${record.setId}.js`;
+    manifest.chunkFile = getExpectedChunkRelativePath({ domain, setId: record.setId });
   }
 
   return manifest;
@@ -150,63 +156,9 @@ function getChunkedDomains() {
   return new Set(CHUNKED_DOMAINS);
 }
 
-function getChunkedSets(manifest) {
-  return (manifest.sets || []).filter(set => set && set.chunkFile);
-}
-
 function getSourceSet(bankLoad, setId) {
   const record = flattenQuestionBanks(bankLoad).find(item => item.setId === setId);
   return record ? record.set : null;
-}
-
-function getSourceRecord(bankLoad, setId) {
-  return flattenQuestionBanks(bankLoad).find(item => item.setId === setId) || null;
-}
-
-function buildQuestionChunkScript(setId, set, sourceFile) {
-  const domain = getDomain({
-    setId,
-    relativeFile: sourceFile
-  });
-  return `/**
- * English Language Quiz App - ${domain} chunk: ${setId}
- * Generated from ${sourceFile}.
- */
-(function () {
-  'use strict';
-  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, ${JSON.stringify({ [setId]: set }, null, 2)}
-  );
-})();
-`;
-}
-
-function writeQuestionChunks(manifest, bankLoad) {
-  const expectedFiles = new Set();
-
-  getChunkedSets(manifest).forEach(entry => {
-    const sourceRecord = getSourceRecord(bankLoad, entry.id);
-    if (!sourceRecord) throw new Error(`${entry.id}: source set missing for chunk generation.`);
-
-    const chunkPath = path.join(repoRoot, entry.chunkFile);
-    expectedFiles.add(chunkPath);
-    fs.mkdirSync(path.dirname(chunkPath), { recursive: true });
-    fs.writeFileSync(
-      chunkPath,
-      buildQuestionChunkScript(entry.id, sourceRecord.set, sourceRecord.relativeFile)
-    );
-  });
-
-  getChunkedDomains().forEach(domain => {
-    const domainDir = path.join(repoRoot, 'assets', 'question-chunks', domain);
-    if (!fs.existsSync(domainDir)) return;
-
-    fs.readdirSync(domainDir)
-      .filter(file => file.endsWith('.js'))
-      .forEach(file => {
-        const chunkPath = path.join(domainDir, file);
-        if (!expectedFiles.has(chunkPath)) fs.unlinkSync(chunkPath);
-      });
-  });
 }
 
 function loadChunkBank(chunkFile) {

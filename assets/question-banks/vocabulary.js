@@ -10,6 +10,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-base-words-q0001",
+        "version": 1,
+        "contentHash": "sha256:8dd7a189851ebe225c9786acf761013d00323d5fd91458ddee9c51047bdcffb1",
         "question": "Break apart 'unhappily.' Which choice correctly names the prefix, base word, and suffix?",
         "choices": [
           "un- / happy / -ly",
@@ -64,6 +67,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0002",
+        "version": 1,
+        "contentHash": "sha256:4ff1101d7c064fed990dc204b9d39e69a4030bcdc6f4d3d06293018aa2568431",
         "question": "In the sentence 'Maya will reread the chapter before the quiz,' what does the prefix re- in reread mean?",
         "choices": [
           "not",
@@ -118,6 +124,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0003",
+        "version": 1,
+        "contentHash": "sha256:190b11b1c62344c6efca2414206970fe4efad0a14e51ef7a3cd71357fb476cd6",
         "question": "Which word means 'full of care' rather than 'without care'?",
         "choices": [
           "careless",
@@ -172,6 +181,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0004",
+        "version": 1,
+        "contentHash": "sha256:0b00f628bbe7f5531b78923d98481a879cbb4b8b8b2cba669b6944b4ca853ebf",
         "question": "The school rule says the hallway is impassable during repairs. What does impassable mean?",
         "choices": [
           "easy to pass through",
@@ -226,6 +238,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0005",
+        "version": 1,
+        "contentHash": "sha256:5474d7746ecea6e97c2506ef8a5b3963ecc1ef0a489b9da08ec6cf3bef996170",
         "question": "Which word uses a prefix to show that an oven is heated before food goes in?",
         "choices": [
           "reheat",
@@ -280,6 +295,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0006",
+        "version": 1,
+        "contentHash": "sha256:80797167d0cc91e722a2a2d391afe86756bafcd83a9aa5ca2b78c4effd81a526",
         "question": "In 'The hikers were fearless during the storm,' what does the suffix -less add to the meaning?",
         "choices": [
           "full of",
@@ -334,6 +352,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0007",
+        "version": 1,
+        "contentHash": "sha256:4747a6d323354cded97c63ba288827abc52022929ada15f2b34a2e1ba75ef817",
         "question": "Which word has all three parts: a prefix, a base word, and a suffix?",
         "choices": [
           "unfair",
@@ -388,6 +409,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0008",
+        "version": 1,
+        "contentHash": "sha256:8e15b4686c5823675a2637734a1561dcdf70bc04ed7e24e4d55bf7eb1d261b78",
         "question": "A teacher asks you to rewrite a paragraph. What should you do?",
         "choices": [
           "write it for the first time",
@@ -442,6 +466,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0009",
+        "version": 1,
+        "contentHash": "sha256:019538fc76e5e87b250ee8b4bb80c3a696f9075d76fbd634b96791317335addb",
         "question": "Which suffix can change the verb 'teach' into a noun meaning a person who teaches?",
         "choices": [
           "-ful",
@@ -496,6 +523,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0010",
+        "version": 1,
+        "contentHash": "sha256:d4de2fb6a3ecc80dab6232a6aa88e8647f1f17831b8e0aef51e8510a056a4b07",
         "question": "If a creature is invisible in a story, what can readers infer about it?",
         "choices": [
           "It is very easy to see.",
@@ -550,6 +580,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0011",
+        "version": 1,
+        "contentHash": "sha256:b1b69de20367db563b3d26ac8998062c0ef55b3f0da8c2ec9876498997a7147c",
         "question": "In 'The footprints disappear at the riverbank,' what does disappear mean?",
         "choices": [
           "appear quickly",
@@ -604,6 +637,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0012",
+        "version": 1,
+        "contentHash": "sha256:1bbbb819916b0aacd78fe9a7bc20da07d2d9893ddac76c908dcd3aa24964c39d",
         "question": "Which word means 'the result or act of agreeing'?",
         "choices": [
           "disagree",
@@ -658,6 +694,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0013",
+        "version": 1,
+        "contentHash": "sha256:86299d19e413c50534aefb6684e753d89399502635fbd3e016b928d903fdf69b",
         "question": "If you overcook pasta, what did the prefix over- help show?",
         "choices": [
           "not cooked",
@@ -712,6 +751,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0014",
+        "version": 1,
+        "contentHash": "sha256:fe3b836548866f1e1c7d532f6ba14a745af69eff146ca6856130261959287a49",
         "question": "Which choice best explains the word uncomfortable?",
         "choices": [
           "very comfortable",
@@ -766,6 +808,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0015",
+        "version": 1,
+        "contentHash": "sha256:7b9c4dda132dd8a62acd7e53988e04a52cc49a3007c6aa9ccefa1fc57e1a201f",
         "question": "Which suffix changes the adjective 'quick' into a noun meaning the quality of being quick?",
         "choices": [
           "-ness",
@@ -820,6 +865,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0016",
+        "version": 1,
+        "contentHash": "sha256:48c869ef6f3d990ff357228ed69ace8a9ff1de9e9cd3cdb13f70e7514a47bc27",
         "question": "In 'He disagreed with his friend,' which word part is added to the beginning of disagreed?",
         "choices": [
           "prefix dis-",
@@ -874,6 +922,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0017",
+        "version": 1,
+        "contentHash": "sha256:d2941d2c7ebfc5994eea51bdf2215df6f2a75bd5e8009310dba783b1b30621fc",
         "question": "In 'Soon it will be time for a restful vacation,' which word part is added to the end of restful?",
         "choices": [
           "prefix re-",
@@ -928,6 +979,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0018",
+        "version": 1,
+        "contentHash": "sha256:d7790419e2c0270a14b3accbd3a0670487d2338e9036fa85b0c864a88dd03da8",
         "question": "Which analysis of the word untie is correct?",
         "choices": [
           "un- is a prefix meaning not or reverse",
@@ -982,6 +1036,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0019",
+        "version": 1,
+        "contentHash": "sha256:02d2c307caad38d59f26d629762bda9f3681c30c5f9cb5d0631a23cc2f452900",
         "question": "Which analysis of the word easily is correct?",
         "choices": [
           "eas- is a prefix",
@@ -1036,6 +1093,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0020",
+        "version": 1,
+        "contentHash": "sha256:fc220c1fe03d95d6be2dac6d610e372ba3f98f58cca69df5f65bcc1b658a7b17",
         "question": "Which word part in valuable shows that something is 'able to have value'?",
         "choices": [
           "prefix val-",
@@ -1090,6 +1150,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0021",
+        "version": 1,
+        "contentHash": "sha256:784190a33dd66b71f5a8d75cfe2e6138bce46f2ebed457c3e7eb5755b65f4aa6",
         "question": "In hibernating, which ending shows that the action is happening or continuing?",
         "choices": [
           "prefix hi-",
@@ -1144,6 +1207,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0022",
+        "version": 1,
+        "contentHash": "sha256:f9dcabe8c34dfa9aa330f091e5f1021c0fb49e5e1666af01482a6e9d46920111",
         "question": "Which suffix best completes this sentence? Before Sheila recycles her aluminum cans, she crush__ all of them.",
         "choices": [
           "in g",
@@ -1200,6 +1266,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0023",
+        "version": 1,
+        "contentHash": "sha256:512730299cf3c09c7465c6ffb488c51396dc882f4e1519084aad81592942dd21",
         "question": "Which prefix means across?",
         "choices": [
           "con -",
@@ -1248,7 +1317,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 20,
+          "sequence": 23,
           "testFocus": [
             "MAP"
           ],
@@ -1258,6 +1327,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0072",
+        "version": 1,
+        "contentHash": "sha256:5d964511836c8f3613ab936311e22c5c53a3cf17b88fcf8d6473e1d33d0214aa",
         "question": "Which sentence uses one of the suffixes -er, -less, -ful, -ary, -able, or -y incorrectly?",
         "choices": [
           "Don was ful after eating so much.",
@@ -1316,6 +1388,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0078",
+        "version": 1,
+        "contentHash": "sha256:941d3f5bd9bbe442e0f2bc1279ddfd29dffed876c446bdc87d825c4dff2ed4ef",
         "question": "Choose the correct suffix. Those new pencils have been very use___!",
         "choices": [
           "er",
@@ -1374,6 +1449,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0088",
+        "version": 1,
+        "contentHash": "sha256:63d9a313e9ad5bdc647e0844acce39cff75a9e0649bfffee2b8565c4c2d5e42f",
         "question": "Choose the correct suffix. Juan has been a very good help___.",
         "choices": [
           "er",
@@ -1432,6 +1510,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0092",
+        "version": 1,
+        "contentHash": "sha256:0b6142b866aa4da8e171a12bd8a47095fea72143a79f08904f831ae9b6a1401e",
         "question": "Which suffix means without?",
         "choices": [
           "- able",
@@ -1490,6 +1571,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0101",
+        "version": 1,
+        "contentHash": "sha256:13697653fee9fd2d37489e7d2ac7dd22018bbe9d64c8420fed1f36fcd4bbaa50",
         "question": "Read the answers and decide which sentence uses one of the prefixes dis-, un-, or re- incorrectly.",
         "choices": [
           "We had to disconnect our telephone when we moved.",
@@ -1548,6 +1632,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0150",
+        "version": 1,
+        "contentHash": "sha256:bb1f07faa9ee221e6616cf5126d6bf2d25cd9da87db11966dd03a554d71ac178",
         "question": "Read the sentence and choose the correct suffix. The steep and icy road appeared to be very danger____.",
         "choices": [
           "ful",
@@ -1606,6 +1693,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0152",
+        "version": 1,
+        "contentHash": "sha256:02e105abe5f54abcc7cf9f782ab19b0cb2504700499d468bfd4d62429f3684c0",
         "question": "Read the definitions of the prefixes. anti – against con – with pre – before Given these prefixes, which word would mean unfriendly or not wanting to be aro und others?",
         "choices": [
           "an tidote",
@@ -1664,6 +1754,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0205",
+        "version": 1,
+        "contentHash": "sha256:d5e918daeab3af13fcdf878cb0556323540b494acc2f84bc5436cf1395412a0a",
         "question": "What suffix added to the word breath changes the meaning?",
         "choices": [
           "s",
@@ -1722,6 +1815,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0032",
+        "version": 1,
+        "contentHash": "sha256:2a35cb79e84ed81eec579fd787ee16d4e9cba4c980a0afc3d4d4c3271fec88d0",
         "question": "The prefix “dis” means “apart.” When added to the word “mounted” it changes its meaning.-What is the definition of the word “dismounted?”",
         "choices": [
           "stood behind",
@@ -1776,10 +1872,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 5
+          "sequence": 32
         }
       },
       {
+        "id": "vocabulary-base-words-q0033",
+        "version": 1,
+        "contentHash": "sha256:66efaef184801243635a6ff8fac0f14f3d290d38bf12405d55c11c3297d66c62",
         "question": "What is the meaning of the root word “dem”?",
         "choices": [
           "people",
@@ -1834,10 +1933,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 6
+          "sequence": 33
         }
       },
       {
+        "id": "vocabulary-base-words-q0034",
+        "version": 1,
+        "contentHash": "sha256:2f86a55bdb0a6e1d23502dd1452a9f6a4b667b42afefbd307f0bf695d8430ead",
         "question": "The prefix “” means “.” When added to the word “” it changes its inter- between state meaning. What is the definition of the word “” interstate?",
         "choices": [
           "st ate of mind",
@@ -1892,10 +1994,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 15
+          "sequence": 34
         }
       },
       {
+        "id": "vocabulary-base-words-q0035",
+        "version": 1,
+        "contentHash": "sha256:5b5d268144b42922c19b160c35ed703b9390f015b4a8d494bde74d9a16eff2db",
         "question": "What is the mean chron ing of the root word “”?",
         "choices": [
           "every",
@@ -1950,10 +2055,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 16
+          "sequence": 35
         }
       },
       {
+        "id": "vocabulary-base-words-q0026",
+        "version": 1,
+        "contentHash": "sha256:4d3a72cbaab9f3c53049eb69559a2d28570c518d96147eac907312fc4f17fb9d",
         "question": "What is the mean graph ing of the root word “”?",
         "choices": [
           "call",
@@ -2012,6 +2120,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0037",
+        "version": 1,
+        "contentHash": "sha256:8c91de875d7128e18ff5bc739e793f10cae4c06584020e5dbab2cb0165489188",
         "question": "If the root word alter means other, what would alternate mean? “” “”",
         "choices": [
           "t o be silent",
@@ -2066,10 +2177,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 32
+          "sequence": 37
         }
       },
       {
+        "id": "vocabulary-base-words-q0038",
+        "version": 1,
+        "contentHash": "sha256:49e616e8b6e2a5a12eb5b54352ebb72f41de01384159eb06e351aaf77e2d9572",
         "question": "What is the meaning of the root word flex? “”",
         "choices": [
           "b end",
@@ -2124,10 +2238,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 33
+          "sequence": 38
         }
       },
       {
+        "id": "vocabulary-base-words-q0043",
+        "version": 1,
+        "contentHash": "sha256:660ad23a7acc55deb7ad94e4b866c37c85c44854fa39f62186bdb7975cbfcf78",
         "question": "If the root word fract means break, then what would the word fracture mean? “” “”",
         "choices": [
           "to break",
@@ -2186,6 +2303,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0044",
+        "version": 1,
+        "contentHash": "sha256:b6b7c241b064c3aff52456beb6ec06f1b672cb3194a3894e529a8e37feb02e86",
         "question": "What is the meaning of the root word geo? “”",
         "choices": [
           "w ithout",
@@ -2244,6 +2364,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0052",
+        "version": 1,
+        "contentHash": "sha256:13bc02b6ac202f807e65a10a0ee0cdf22dd16e0553038037f42191c282398021",
         "question": "Read the following sentence, use the context clues, and choose the word t hat best fits the meaning of the underlined word. I have to ask to be excused from the dinner table.",
         "choices": [
           "explanation",
@@ -2302,6 +2425,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0053",
+        "version": 1,
+        "contentHash": "sha256:dc658cc873463bf8ee24e72848bb3506262b8fbc16ad1b363d049c66bf493ec5",
         "question": "If the root word fin means end, then what would the word final mean? “” “”",
         "choices": [
           "mo re",
@@ -2360,6 +2486,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0054",
+        "version": 1,
+        "contentHash": "sha256:4bf28aa2063ab649bc8248645d80696d868e84cc37211415d4608f81ed77a104",
         "question": "What is the meaning of the root word therm? “”",
         "choices": [
           "cold",
@@ -2418,6 +2547,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0058",
+        "version": 1,
+        "contentHash": "sha256:4aec9c0cc6bb93da79bc19e82076f80e38a86e85eafecc5b4c0ed0d328a705e6",
         "question": "Which of the following words would be a synonym for lost?",
         "choices": [
           "f ound",
@@ -2476,6 +2608,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0062",
+        "version": 1,
+        "contentHash": "sha256:6d4fac49284eeaf8995c7d52b6ede34c37b360a1629f1107cff6f29cd2b4d8c4",
         "question": "If the root word “” means circular, what would the word “” mean? cyclo cyclone",
         "choices": [
           "rotating wind",
@@ -2534,6 +2669,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0063",
+        "version": 1,
+        "contentHash": "sha256:2eb81ba637d19bd14f1998bb9f4dd5699a51ab206b639b3e785458369ca19e46",
         "question": "What is the meaning of the root word “frag”?",
         "choices": [
           "piece",
@@ -2592,6 +2730,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0071",
+        "version": 1,
+        "contentHash": "sha256:6b801545709472cad2343ac4bce716298ba08803883f46bc20b4cb8903e925f5",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits the meaning. Trey practiced and worked hard all summer, then at football camp he achieved his goal of earning the quarterback position.",
         "choices": [
           "fulfilled",
@@ -2650,6 +2791,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0048",
+        "version": 1,
+        "contentHash": "sha256:b0ad60eec61880a4a9e0cddca19799ba75dae5c6377032fee8d9a1a660f56f40",
         "question": "If the root word “” means to call, what would the word “vocalize” mean? voc",
         "choices": [
           "to use the ears",
@@ -2704,10 +2848,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 72
+          "sequence": 48
         }
       },
       {
+        "id": "vocabulary-base-words-q0073",
+        "version": 1,
+        "contentHash": "sha256:febcaeb92418133f977092907a603ebdc7ddbe04a5477da48fdf85f194393ea2",
         "question": "miss What is the meaning of the root word “”?",
         "choices": [
           "lonely",
@@ -2766,6 +2913,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0081",
+        "version": 1,
+        "contentHash": "sha256:3a009903d49c77d35ad04776d56cb5f9922210bc962c925d0849622bf1117c13",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits the meaning. The dance instructor was going to demonstrate the dance move in front of the class before they try it.",
         "choices": [
           "ignore",
@@ -2824,6 +2974,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0083",
+        "version": 1,
+        "contentHash": "sha256:ac39bf0c9466fed73d7ae822b0b53639d9891adbc90bccf477b5f70d0590ca61",
         "question": "If the root word “spir” means breath, then what would the word “expire” mean?",
         "choices": [
           "send out",
@@ -2882,6 +3035,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0084",
+        "version": 1,
+        "contentHash": "sha256:1efb21be32c2da9d0440ea117e0062057fca16fceee3e415e3f6a61578e9629f",
         "question": "What is the meaning of the root word “port”?",
         "choices": [
           "call",
@@ -2940,6 +3096,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0055",
+        "version": 1,
+        "contentHash": "sha256:bcccc094ef328648a556ec5c3b35ffef0ab90f505645c005a040253a5f3cd0e3",
         "question": "If the root word means to see, then what would the word mean? scope microscope",
         "choices": [
           "too small to see",
@@ -2994,10 +3153,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 6
+          "sequence": 55
         }
       },
       {
+        "id": "vocabulary-base-words-q0042",
+        "version": 1,
+        "contentHash": "sha256:bfdd17e45938c9856b6582c908b11450b7be2eb806f8c633bcc0727c065821c8",
         "question": "What does the root word mean as in the word? aud audio",
         "choices": [
           "see",
@@ -3056,6 +3218,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0057",
+        "version": 1,
+        "contentHash": "sha256:dd89d3ab71b1ae184ada338e74dc7e93c81e2d078d91f951cf3df9b217559119",
         "question": "If the root word means power, then what would the mean? dyna word dynamite",
         "choices": [
           "blast",
@@ -3114,6 +3279,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0120",
+        "version": 1,
+        "contentHash": "sha256:280da7fb1ebd029aefaf8a5df342d49c8b70f5e0b22ae5ba26b6e52292c2ca3e",
         "question": "If the prefix means life or living matter what does the word mean? bio “,” biosphere",
         "choices": [
           "Ear th’s surface inhabited by living things",
@@ -3172,6 +3340,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0159",
+        "version": 1,
+        "contentHash": "sha256:04ac74a684af12e395025dcc10c2b46ae616325ca0a5a3756528e6a610462d7a",
         "question": "If the root word means hundred, then what would the word mean? cent percent",
         "choices": [
           "numbers up to a hundred",
@@ -3230,6 +3401,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0195",
+        "version": 1,
+        "contentHash": "sha256:ac84d97bdb2eed70562407f8fcc8de86739ca5a50551f4988fbb9069f071edfe",
         "question": "What does the root word mean as in the word act react?",
         "choices": [
           "to do",
@@ -3288,6 +3462,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0213",
+        "version": 1,
+        "contentHash": "sha256:b7b5997cc5fcbee846dd83c9a53e9124d7a0d6712e7a67b2fe4bb2d7a66082dd",
         "question": "If the root word means write, then what would the word mean? graph autograph",
         "choices": [
           "have the privilege",
@@ -3346,6 +3523,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0255",
+        "version": 1,
+        "contentHash": "sha256:656ac14e6564eb32dc132d723556f1a47c99692d9efb648e5568f2acd4d47090",
         "question": "What is the meaning of the prefix? non",
         "choices": [
           "not",
@@ -3404,6 +3584,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0261",
+        "version": 1,
+        "contentHash": "sha256:03476c705fdc44e270d347c137e837ad5fdb26a6f1d117110e432febff0bcb49",
         "question": "If the root word means to pu ll, then wh at woul d the word tract tr actor mean?",
         "choices": [
           "related to pulling",
@@ -3462,6 +3645,9 @@
         }
       },
       {
+        "id": "vocabulary-base-words-q0297",
+        "version": 1,
+        "contentHash": "sha256:3e90fa6c4842a741132a7e0d44a8d8c219b875c54aa6f1ed8a34546c157a8f84",
         "question": "What does the root word mean as in the word? meter thermometer",
         "choices": [
           "sickness",
@@ -3540,6 +3726,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-vowel-sounds-q0001",
+        "version": 1,
+        "contentHash": "sha256:cfb42e9f700dc4f94056eedeedfa6a7088bc3c223f3202c0d97b6bdd4979896a",
         "question": "In the word 'train,' what sound does the vowel team 'ai' make?",
         "choices": [
           "Short a as in 'cat'",
@@ -3594,6 +3783,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0002",
+        "version": 1,
+        "contentHash": "sha256:f659db886fcbca15df4ce6aee73ed3294782ab91de3b5618c0f5c1f96aece205",
         "question": "Which word has the same vowel sound as 'meat'?",
         "choices": [
           "met",
@@ -3648,6 +3840,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0003",
+        "version": 1,
+        "contentHash": "sha256:e58904ef2adefdc4803f0308a85649e69dcd144b6afa3c855a64f9d9299bcacc",
         "question": "What vowel sound do you hear in the word 'moon'?",
         "choices": [
           "Short u as in 'cup'",
@@ -3702,6 +3897,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0004",
+        "version": 1,
+        "contentHash": "sha256:3b5f65d8910721ae7fe4092f9e3edb5e8f16f9e8e0ade57453ae8d41d88f39fb",
         "question": "Which word has a different vowel sound from the others?",
         "choices": [
           "boat",
@@ -3756,6 +3954,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0005",
+        "version": 1,
+        "contentHash": "sha256:d7f0e3e6f3862b77885a21c891a2828ebd716c77a78f9018ba5e20e427d7ba5b",
         "question": "In the word 'light,' what sound does 'igh' make?",
         "choices": [
           "Short i",
@@ -3810,6 +4011,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0006",
+        "version": 1,
+        "contentHash": "sha256:62b7df493621718b0c1cf1af5806a09d680a190def7ad0459e7be37c255f29a1",
         "question": "Which word has the same vowel sound as 'cloud'?",
         "choices": [
           "clue",
@@ -3864,6 +4068,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0007",
+        "version": 1,
+        "contentHash": "sha256:3970be01c14786813b17065a37080792462265ec1854de1b27e8d64205486c00",
         "question": "What sound does the 'y' make at the end of 'happy'?",
         "choices": [
           "Long i",
@@ -3917,6 +4124,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0008",
+        "version": 1,
+        "contentHash": "sha256:95ea0c91d61eb342320bafa4023cdce2efa49d53977bd05cb291ae6cfcd81005",
         "question": "Which word has a short vowel sound?",
         "choices": [
           "cake",
@@ -3971,6 +4181,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0009",
+        "version": 1,
+        "contentHash": "sha256:383032ca296df9643c6c3bde56d1e0eea6ec3169cbb071498597024f4b2f872b",
         "question": "In the word 'bread,' what sound does 'ea' make?",
         "choices": [
           "Long e as in 'bead'",
@@ -4025,6 +4238,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0010",
+        "version": 1,
+        "contentHash": "sha256:602b8bc75a6a7fa332d944cf74b4c1fa2608bcb736306a860661232be2acef50",
         "question": "Which word has the same vowel sound as 'coin'?",
         "choices": [
           "cone",
@@ -4079,6 +4295,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0011",
+        "version": 1,
+        "contentHash": "sha256:9640f4f17a8fafcfb8262793ae0cd8d3b6aea621d9cf455469065250fbf22140",
         "question": "What sound does 'aw' make in the word 'saw'?",
         "choices": [
           "Short a",
@@ -4133,6 +4352,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0012",
+        "version": 1,
+        "contentHash": "sha256:56f2b1ecb2f2686025c14cdf7aadb6b364147c5b855b0179cc95411b6946dc2a",
         "question": "Which word has a long o sound?",
         "choices": [
           "sock",
@@ -4187,6 +4409,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0013",
+        "version": 1,
+        "contentHash": "sha256:c811797385c5b4ae315dc0f0a1e7b43203ae6bbe540522014e43459f308d7140",
         "question": "In the word 'caught,' what sound does 'augh' make?",
         "choices": [
           "Short a",
@@ -4241,6 +4466,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0014",
+        "version": 1,
+        "contentHash": "sha256:d779b82dbda6d1503bd1f2884ed238ed3d4119bc0183e717e65b42d0e04222a7",
         "question": "Which word has the same vowel sound as 'few'?",
         "choices": [
           "fed",
@@ -4295,6 +4523,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0015",
+        "version": 1,
+        "contentHash": "sha256:08863b0829b94beae6cc7e844d80f237ec50fd52dd893d574c117d8c3dee620e",
         "question": "What vowel sound do you hear in the word 'first'?",
         "choices": [
           "Short i",
@@ -4349,6 +4580,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0016",
+        "version": 1,
+        "contentHash": "sha256:0088b63808ebf61b79fbd2abd463289d42d5dc75c372c7f40acdb0cf9f652889",
         "question": "The /ei/ in \"reindeer\" sounds most like the vowel sound in:",
         "choices": [
           "let",
@@ -4403,6 +4637,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0017",
+        "version": 1,
+        "contentHash": "sha256:adc911b97b0496b90c960ae2ab3601fee9ac135c4590da58c9aa94785bfe97be",
         "question": "The /oo/ in \"school\" sounds most like the vowel sound in:",
         "choices": [
           "out",
@@ -4457,6 +4694,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0018",
+        "version": 1,
+        "contentHash": "sha256:cdd4d8b410c50856ac8fe749713966f5b5bec6ed9d599725c092e7316f2c0eab",
         "question": "The /u/ in \"mule\" sounds most like the vowel sounds in:",
         "choices": [
           "pull",
@@ -4511,6 +4751,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0019",
+        "version": 1,
+        "contentHash": "sha256:942a00884e30c85a8e78bb147e1d824eb338c844d24db60608f17e42dea191e4",
         "question": "Choose the word that has the same vowel sound as the /ea/ in \"spread.\"",
         "choices": [
           "beneath",
@@ -4565,6 +4808,9 @@
         }
       },
       {
+        "id": "vocabulary-vowel-sounds-q0020",
+        "version": 1,
+        "contentHash": "sha256:8a0cf9bdf2c62d24f3ba1f4d0a5f58253efc2a85564c3cb789db7c8c4f59815a",
         "question": "Choose the word that has the same sound as the /ow/ in \"cow.\"",
         "choices": [
           "blow",
@@ -4639,6 +4885,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-contractions-q0001",
+        "version": 1,
+        "contentHash": "sha256:7257bb23bdd3ec9d9912f578f1f1b485392edd47d732860cbef1862aacdcdb5e",
         "question": "Which two words make the contraction 'won't'?",
         "choices": [
           "will not",
@@ -4692,6 +4941,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0002",
+        "version": 1,
+        "contentHash": "sha256:627f29b5c3d273f2de93315a0044c3a7ec5f40a9a3ace34b58b01cffed2596a0",
         "question": "What is the contraction for 'they are'?",
         "choices": [
           "their",
@@ -4745,6 +4997,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0003",
+        "version": 1,
+        "contentHash": "sha256:2a345ddba30a81fbadfb2e39c0ab4378010309bf3463aa6b18dc5506527a17cd",
         "question": "Which sentence uses a contraction correctly?",
         "choices": [
           "I dont like spinach.",
@@ -4798,6 +5053,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0004",
+        "version": 1,
+        "contentHash": "sha256:b4388ac0e69bb10f75a948fa3671e7ebeed39ffdc577baa2bee29abd04ac3b07",
         "question": "What two words make up 'she'll'?",
         "choices": [
           "she will",
@@ -4851,6 +5109,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0005",
+        "version": 1,
+        "contentHash": "sha256:cf3e44b05b0287bdd0bbf1f344f8f345278eb6722817e53783055b8c2ea3c971",
         "question": "Which contraction is spelled correctly?",
         "choices": [
           "did'nt",
@@ -4904,6 +5165,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0006",
+        "version": 1,
+        "contentHash": "sha256:75a305627ca137600e2624d8debf05c9b720eb9d55c9548acc29290a0a2819d3",
         "question": "What is the contraction for 'it is'?",
         "choices": [
           "its",
@@ -4957,6 +5221,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0007",
+        "version": 1,
+        "contentHash": "sha256:924b8a0a9d9155a7fda0e91039d37b98bf3695e5d78c9c505848c34546c85051",
         "question": "Which two words form 'could've'?",
         "choices": [
           "could of",
@@ -5010,6 +5277,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0008",
+        "version": 1,
+        "contentHash": "sha256:f1fb811f2576c2bdca5c99bef463f262f50d86b1721deb91b1cb62a0edf2ce62",
         "question": "What is the contraction for 'you are'?",
         "choices": [
           "your",
@@ -5063,6 +5333,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0009",
+        "version": 1,
+        "contentHash": "sha256:cadcd8847444178d3bd7372650570250c3bd11ffa62ee4cc530977458aedcc29",
         "question": "Which sentence uses a contraction correctly?",
         "choices": [
           "Hes going to the store.",
@@ -5116,6 +5389,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0010",
+        "version": 1,
+        "contentHash": "sha256:3088e3f4bec17f71d3f23d4468283b1e8f37585e8001ff745752fdc053c8c665",
         "question": "What two words make the contraction 'shan't'?",
         "choices": [
           "shall not",
@@ -5169,6 +5445,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0011",
+        "version": 1,
+        "contentHash": "sha256:b571bf42a0b1032b7175aa89de7544f623864c7fad93641ef4561bf0038f0cb3",
         "question": "Which word is the contraction for 'does not'?",
         "choices": [
           "dont",
@@ -5222,6 +5501,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0012",
+        "version": 1,
+        "contentHash": "sha256:ac0c3e077f2031bc1cfd622df3527df584c9647e2cd8b845cbfc627a5a97350e",
         "question": "What is the contraction for 'I would'?",
         "choices": [
           "I'ld",
@@ -5275,6 +5557,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0013",
+        "version": 1,
+        "contentHash": "sha256:5342b5bff6ee0f923bde07b69dfcfb483ce7053e62f2d9cc12fb86d991e3a2bb",
         "question": "Which contraction is formed incorrectly?",
         "choices": [
           "is not → isn't",
@@ -5328,6 +5613,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0014",
+        "version": 1,
+        "contentHash": "sha256:b0489812d54f99fa3e11293cb7068db7f842eba214d8c90f176cff6363eeb943",
         "question": "What two words make 'mightn't'?",
         "choices": [
           "might not",
@@ -5381,6 +5669,9 @@
         }
       },
       {
+        "id": "vocabulary-contractions-q0015",
+        "version": 1,
+        "contentHash": "sha256:c148a78c5997a07dd6b26251a742fbaff08491dc568d4ad2a6249ac79407037c",
         "question": "Which sentence correctly uses a contraction in dialogue?",
         "choices": [
           "'I cant believe it,' she said.",
@@ -5454,6 +5745,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-homophones-q0001",
+        "version": 1,
+        "contentHash": "sha256:183ab4bf3ca345408c3b26ac52f8fc97b15083e44664ea7912e2816788d09591",
         "question": "Which word means 'to receive or agree to something'?",
         "choices": [
           "except",
@@ -5507,6 +5801,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0002",
+        "version": 1,
+        "contentHash": "sha256:25aade2b3e4a3a67cc14129a264cdda194790b6b6e342b9b206766933c47edea",
         "question": "Fill in the blank: I need to ___ my room before dinner.",
         "choices": [
           "clean",
@@ -5560,6 +5857,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0003",
+        "version": 1,
+        "contentHash": "sha256:85a05d6e1b93346bc1e0391dbc3d32a162c4d0c0c37359aa876d190decbe5a96",
         "question": "Which sentence uses 'their' correctly?",
         "choices": [
           "Their going to the park.",
@@ -5613,6 +5913,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0004",
+        "version": 1,
+        "contentHash": "sha256:9394e994af051e20732349aa85ab66e590c48e111129a74d86433bd74e8adb11",
         "question": "What is the correct word? The ___ of the mountain was snowy.",
         "choices": [
           "peak",
@@ -5666,6 +5969,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0005",
+        "version": 1,
+        "contentHash": "sha256:b23a5f7723de82cb8d205fcd1b4a1125912c717aa7a21a56bb3e7c23b884f298",
         "question": "Which word means 'to cut with teeth'?",
         "choices": [
           "byte",
@@ -5719,6 +6025,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0006",
+        "version": 1,
+        "contentHash": "sha256:f05e8d94160ec2f604e956fc0b2832228d2d70496c31da563996182825f397b9",
         "question": "Fill in the blank: Please ___ the letter in the mailbox.",
         "choices": [
           "male",
@@ -5772,6 +6081,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0007",
+        "version": 1,
+        "contentHash": "sha256:d579f4e2bf59688f9d6474aec248ba447d6089d59abed79b9473baee27485d53",
         "question": "Which sentence uses 'hear' correctly?",
         "choices": [
           "I can here the music.",
@@ -5825,6 +6137,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0008",
+        "version": 1,
+        "contentHash": "sha256:661d165be8b24dd86c0f83e67daaba4fb77c8da0f3061a0967307e98e08f4df7",
         "question": "What is the correct word? She wore a ___ dress to the party.",
         "choices": [
           "read",
@@ -5878,6 +6193,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0009",
+        "version": 1,
+        "contentHash": "sha256:d9f27374062ccccf9d3be46e0f3c8cd49b5f85bd41a6ae3fee4861efb4fa4c49",
         "question": "Which word means 'a long passage in a building'?",
         "choices": [
           "isle",
@@ -5931,6 +6249,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0010",
+        "version": 1,
+        "contentHash": "sha256:32ecfd4beb17c9d9a2bba76494f4655e071bb14fcd4176ce6aa6673e6b182cc3",
         "question": "Fill in the blank: The squirrel buried ___ nuts under the tree.",
         "choices": [
           "it's",
@@ -5984,6 +6305,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0011",
+        "version": 1,
+        "contentHash": "sha256:6c483bb96b2203f57cf4cea4d5542d7beb3a1d17e0cf4f5d6e8245adff3e5a99",
         "question": "Which word means 'to influence or have power over'?",
         "choices": [
           "effect",
@@ -6037,6 +6361,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0012",
+        "version": 1,
+        "contentHash": "sha256:4a1c3111bf99d2debc6327406485fd44bcfb078546fac2a57072473686e7230e",
         "question": "What is the correct word? The ___ of the story was exciting.",
         "choices": [
           "plain",
@@ -6090,6 +6417,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0013",
+        "version": 1,
+        "contentHash": "sha256:60508736afa9782a24cb96c4edd8a39168cc17d9233ee03d1996bc44c7499045",
         "question": "Which sentence uses 'right' correctly to mean 'correct'?",
         "choices": [
           "Turn left at the light, not right.",
@@ -6143,6 +6473,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0014",
+        "version": 1,
+        "contentHash": "sha256:d3b21c309ebfa625c007f9c13c43b6596e645aed7000d51adadcc2a745377ad2",
         "question": "Fill in the blank: Do you know ___ coming to the party?",
         "choices": [
           "who's",
@@ -6196,6 +6529,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0015",
+        "version": 1,
+        "contentHash": "sha256:2c26c114f1d89eb2c403753e6fd878036c8f80d7f20f4ee71d20655936d66d22",
         "question": "Which word means 'to rest on a surface'?",
         "choices": [
           "lie",
@@ -6249,6 +6585,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0016",
+        "version": 1,
+        "contentHash": "sha256:8600450ff4feb5208909711a5c2e310592a9d236c69d489fd6ce63e3cdddda80",
         "question": "Read the sentence below. The bite of a hobo spider is venomous. They rarely cause death. Which word would be used to combine these sentences into a complex sentence?",
         "choices": [
           "because",
@@ -6305,6 +6644,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0017",
+        "version": 1,
+        "contentHash": "sha256:4c44c0d69a2d25cbd2ce80624e792457d1ce2f6d51c3b32df7921f05d6968964",
         "question": "Which sentence demonstrates correct subject-verb agreement?",
         "choices": [
           "The girls is walking from class to the gym.",
@@ -6361,6 +6703,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0018",
+        "version": 1,
+        "contentHash": "sha256:21c11da90ee63f31b59857bbbde275c11388a35b472e765c0a637b1455bb31f7",
         "question": "Which word would you use to combine the sentences below? Before you go to the game, you must clean your room. I’ll give you ten dollars, if you do a good job.",
         "choices": [
           "therefore",
@@ -6417,6 +6762,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0019",
+        "version": 1,
+        "contentHash": "sha256:558108d09912f7f69b77e3d9805c2a0aeb288b95da0e12dad9cf6432a54db4af",
         "question": "If you are writing a letter to your grandmother about what your camping site looked like, which one of these are you most likely to write?",
         "choices": [
           "review",
@@ -6473,6 +6821,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0020",
+        "version": 1,
+        "contentHash": "sha256:c4fc3efcc03582e1fdadeb268375518e7229ef7a2bbd03f2061db0a59f61a4b5",
         "question": "Which choice is not correctly punctuated?",
         "choices": [
           "Leah, and my sister went shopping.",
@@ -6529,6 +6880,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0021",
+        "version": 1,
+        "contentHash": "sha256:92249a1947262cc9ad8718b641bbfe91d5b460a5ec21e80b841dd719f946e449",
         "question": "Which word is a homophone?",
         "choices": [
           "melon",
@@ -6585,6 +6939,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0022",
+        "version": 1,
+        "contentHash": "sha256:d0ef3171dddb26fffc570596732f89ca33bc3cdcf5c5614b00dcfc0d3f9f7415",
         "question": "Which sentence uses the correct possessive pronoun?",
         "choices": [
           "It’s time for the game to start.",
@@ -6641,6 +6998,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0023",
+        "version": 1,
+        "contentHash": "sha256:112c1bf7732565aa89cb5ef0fe9342562d908a87b6efe728d39d088d7e93ffe9",
         "question": "Which of the following would be included under the topic of fixing your car?",
         "choices": [
           "The correct kindof tires for your c ar.",
@@ -6697,6 +7057,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0024",
+        "version": 1,
+        "contentHash": "sha256:ba1c2c22cbf61678697da56f5e491a76fcd85c4cd2d3e7d6755f00d311a7bdd9",
         "question": "Which sentence c ouldonly be about living on an island?",
         "choices": [
           "The ferry only came twice a day to take people to the mainland.",
@@ -6753,6 +7116,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0025",
+        "version": 1,
+        "contentHash": "sha256:c203c13e16f33a4ffb97cce18295f9303e848ca037fdeab656bb367befc373d1",
         "question": "Which word needs a capital letter?",
         "choices": [
           "birthday",
@@ -6809,6 +7175,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0026",
+        "version": 1,
+        "contentHash": "sha256:32fe95e345dd6e9cfbfb7feb2ed97da6d732eaf90a659fb032a069245ec041c3",
         "question": "Which of the following should have the first word capitalized?",
         "choices": [
           "the detective, a very clever fellow",
@@ -6865,6 +7234,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0027",
+        "version": 1,
+        "contentHash": "sha256:5f6b2574ab734b921b47c070f305b0221d137c290448c837ce94081d9efbf72d",
         "question": "Which sentence has the same meaning as the sentence below? Marilyn planned to spend the night ather grandmother’s house. She packed her favorite pajamas. She packed her favorite blanket. She packed her teddy bear.",
         "choices": [
           "Marilyn, who packed her grandmother, spent the night with her teddy bear, pajamas, and blanket.",
@@ -6921,6 +7293,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0028",
+        "version": 1,
+        "contentHash": "sha256:88370a800ff1df5f0c9e6f9dc22e7418ed3d570469ca004946d1d850bd661c19",
         "question": "Which sentence is missing an article?",
         "choices": [
           "In the woods, big tree fell over.",
@@ -6977,6 +7352,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0029",
+        "version": 1,
+        "contentHash": "sha256:32a70d7b68e69f27768c65974189a0e6296df4925ff9889e83b9f204863b6a52",
         "question": "Which comma is in the correct place?",
         "choices": [
           "Mr, Tom Banks",
@@ -7033,6 +7411,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0030",
+        "version": 1,
+        "contentHash": "sha256:b7d5d4614348c2cdc5627e62ab1e6431f7ace2cd880d2ee009e72ac519abb96c",
         "question": "Choose the best main topic for the words listed below. rides, clowns, sunshine, cotton candy",
         "choices": [
           "At the Fair",
@@ -7089,6 +7470,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0031",
+        "version": 1,
+        "contentHash": "sha256:e5c6f59cba8eb4a91b2c07331e0da6714dfa0cb587e874d92edb8b0071c4da7f",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "We went to London on our Vacation.",
@@ -7145,6 +7529,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0032",
+        "version": 1,
+        "contentHash": "sha256:dff964a05946cf0f1ac04c1e3ec41457be19cf527155978d51e64ad730419c34",
         "question": "Which sentence tells me there wa s a fire?",
         "choices": [
           "The wood was too wet to use.",
@@ -7201,6 +7588,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0033",
+        "version": 1,
+        "contentHash": "sha256:8ff87f5d65e63ff36704ff8cfd9e2c2ddd51375eb2e4ad342d20cca253509c45",
         "question": "Which sentence is outof order in the paragraph? 1) Our family wenton a camping trip. 2) Then, we went home. 3) When we got there, we set up our tent. 4) We hiked and ate s’mores.",
         "choices": [
           "1",
@@ -7257,6 +7647,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0034",
+        "version": 1,
+        "contentHash": "sha256:327f7b089244495c04f56102c64705057c7b85bc2e8c445a45b62e977b5c30b1",
         "question": "Which sentence restates the main idea? All the children were picking up litter that was on the school ground.",
         "choices": [
           "There were dogs running around the school yard.",
@@ -7313,6 +7706,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0035",
+        "version": 1,
+        "contentHash": "sha256:f6e8262cd53c29b956b7277f89380c44c0413d3424b29b87f6351e389821404a",
         "question": "Once there was a funny clown. The sentence above might be used to:",
         "choices": [
           "tell about a trip to the store",
@@ -7369,6 +7765,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0036",
+        "version": 1,
+        "contentHash": "sha256:44df3a1f96e352c3bb595da5db21ddb615d1470f5e3874315861d8f23133aa9f",
         "question": "Which sentence most precisely describes an action?",
         "choices": [
           "He put stuff in a bag.",
@@ -7425,6 +7824,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0037",
+        "version": 1,
+        "contentHash": "sha256:6e74b0c0fa8fafcdb41814518c548dad4a35451d174e14c7f218cc102a1797d9",
         "question": "Which sentence is written correctly?",
         "choices": [
           "M rs. Land asked, “who remembered their pencils? ”",
@@ -7481,6 +7883,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0038",
+        "version": 1,
+        "contentHash": "sha256:50ef175077a8c7507ee53659084f9ba74875557e8351b6efe8ea9a65e5301e3b",
         "question": "Read the sentences below. liza and bobby looked forward to visiting their grandparents. grandma ruth and grandpa john lived in the country and had lots of farm animals. they were really excited about the horses. Which words should be capitalized?",
         "choices": [
           "liz a, bobby, grandparents, grandma ruth, grandpa john",
@@ -7537,6 +7942,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0039",
+        "version": 1,
+        "contentHash": "sha256:4a9872c733f59a3ef8d4b4df3ca60e95a049aeec53c578c457b65c40f5e86077",
         "question": "Identify where there should be a comma in the sentence below. My best friend moved to Denver Colorado.",
         "choices": [
           "My, best",
@@ -7593,6 +8001,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0040",
+        "version": 1,
+        "contentHash": "sha256:eaacef28649c4d531a44255d5db26d8af631e2333beeac9166d9591a56450a23",
         "question": "The students ironedout their problems. What does ‘ironedout’mean in the sentence above?",
         "choices": [
           "solved",
@@ -7649,6 +8060,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0041",
+        "version": 1,
+        "contentHash": "sha256:a25fa3ed5630a799d726949a00a4cc3f333e20fee37d63add25213aab4d1efee",
         "question": "You are writing a story for young children about their first trip to the dentist. Which group of words is appropriate for your story?",
         "choices": [
           "gu m disease, loss of teeth, root canal",
@@ -7705,6 +8119,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0042",
+        "version": 1,
+        "contentHash": "sha256:dd3cc670d3b2dac79020477040f7fa89aee40c1b43675d9d2b6c14b0e35784c6",
         "question": "Which setof words will complete the sentence below? I will mow the lawn _____ dinner and then water the plants _____.",
         "choices": [
           "now, later",
@@ -7761,6 +8178,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0043",
+        "version": 1,
+        "contentHash": "sha256:a44057c58940f5d72338842d3b39e8731e5c63f1e17f8dad1ea7fe8a8c917159",
         "question": "Choose the sentence that is punctuated correctly.",
         "choices": [
           "Dr. Roman thank you for helping me.",
@@ -7817,6 +8237,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0044",
+        "version": 1,
+        "contentHash": "sha256:9926ec6a6e9d58edf3f35ade0e380d6e2bdcfb5779a59ea7a1aa66cf456c6e69",
         "question": "Read the following passage and identify the appropriate audience. Use three hoses to spray water over the whole area. When it is safe, head up to the roof to see if there is any damage.",
         "choices": [
           "gardeners",
@@ -7873,6 +8296,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0045",
+        "version": 1,
+        "contentHash": "sha256:c59908fb290300616ffb56ed21a17edab73fa5a87994a7267a36c0ab818d830f",
         "question": "Who is their talking about in this sentence? Leo and Silas took the puppy over to their grandparent ’s house in Denver.",
         "choices": [
           "Leo and Silas",
@@ -7929,6 +8355,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0046",
+        "version": 1,
+        "contentHash": "sha256:74992c00252daa29e5156ee0522db5c3d6d612ff2c6600c9711560d629bc0382",
         "question": "Which sentence tells me there were dirty dishes in the sink?",
         "choices": [
           "There are pots and pans everywhere when I cook dinner.",
@@ -7985,6 +8414,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0047",
+        "version": 1,
+        "contentHash": "sha256:6c44f03e587273533c401f3c3d7843274464fccaf80379fb8897a38eb6b9d544",
         "question": "Which of the following should have the first word capitalized?",
         "choices": [
           "before 5 a.m., ringing so loudly, it woke me up",
@@ -8041,6 +8473,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0048",
+        "version": 1,
+        "contentHash": "sha256:b66e1081ad39dd99c4caa94ee6dad1405614f3f49a8aa79d392fcc2ab50b1993",
         "question": "Which sentence tells you I am home alone?",
         "choices": [
           "I didn’t answer the door when someone rang the doorbell.",
@@ -8097,6 +8532,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0049",
+        "version": 1,
+        "contentHash": "sha256:cc2772a06be83168f272fdd97f56572509f86869117d2da56b89de0047bd1ec6",
         "question": "Which sentence best describes the mood “cheerfulness”?",
         "choices": [
           "The lilacs are nice.",
@@ -8153,6 +8591,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0050",
+        "version": 1,
+        "contentHash": "sha256:4be2820fdd0fec43ca1b588c6e0a51e913c3098a18f7314fb5b6d5dbc1a5d04d",
         "question": "Which of the following would be a strong sentence starter for the topic below? “Lightning Storm”",
         "choices": [
           "The lights wentout.",
@@ -8209,6 +8650,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0210",
+        "version": 1,
+        "contentHash": "sha256:5316fb6ed2a38e0ef9d2c16f06a7b7d43ce8c0bd4f3cab80174baef55c6b535c",
         "question": "Which pair of words sounds alike?",
         "choices": [
           "upset/angry",
@@ -8267,6 +8711,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0276",
+        "version": 1,
+        "contentHash": "sha256:a49b49901a0a1149df525829599e72ef741b11177097d0b0bcd6bf33a5bad8ef",
         "question": "Which sentence does not use the word meat or meet correctly?",
         "choices": [
           "We cooked the meat on the barbecue grill.",
@@ -8324,6 +8771,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0281",
+        "version": 1,
+        "contentHash": "sha256:053aa453a173437658de73e095a82eb0f1205efe3f0d156330f90012c3e613e2",
         "question": "Read the passage. During the meeting at the school, the PTO met with the teachers and principal to discuss how they could raise money to buy new playground equipment. The principal said it was going to cost $5,000, but the school budget only had $250.00 left to spend for the year. The PTO said they would be able to kick in half of the money necessary for the purchase. What is the meaning of “kick in” in this passage?",
         "choices": [
           "The PTO will give them a loan.",
@@ -8381,6 +8831,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0054",
+        "version": 1,
+        "contentHash": "sha256:d26ddd41f6935d9270c67c82651c8005bd2839cf450b86f03cd246b547e27fd0",
         "question": "Choose the word that best completes the sentence. The burglar’s fingerprint was left on the door. It was the most _______ evidence during the jury trial. With this evidence, they had to convict her.",
         "choices": [
           "obvious",
@@ -8436,10 +8889,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 7
+          "sequence": 54
         }
       },
       {
+        "id": "vocabulary-homophones-q0055",
+        "version": 1,
+        "contentHash": "sha256:7ca545e21bff7148c8a44094e0cb350f0017dd8959308b0a5115ff348554667d",
         "question": "Choose the word that best completes the sentence. If I happen to be all alone and in an _____ mood, I play a game of solitaire.",
         "choices": [
           "id al",
@@ -8495,10 +8951,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 17
+          "sequence": 55
         }
       },
       {
+        "id": "vocabulary-homophones-q0056",
+        "version": 1,
+        "contentHash": "sha256:10e93ad4dec16c92a0870e99596eff1136e2593b1eeb35e7b0593e3ece5d1db0",
         "question": "Choose the word that best completes the sentence. I chose to have chocolate ________ for dessert. It is my favorite.",
         "choices": [
           "mousse",
@@ -8554,10 +9013,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 27
+          "sequence": 56
         }
       },
       {
+        "id": "vocabulary-homophones-q0057",
+        "version": 1,
+        "contentHash": "sha256:a16d47bb3941364c424fb378650ac30fc02e26b3f8f0a2b87effdeb1cfca996e",
         "question": "Choose the word that best completes the sentence. Someone who decides to _______ a car has committed a crime.",
         "choices": [
           "st ill",
@@ -8613,10 +9075,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 34
+          "sequence": 57
         }
       },
       {
+        "id": "vocabulary-homophones-q0058",
+        "version": 1,
+        "contentHash": "sha256:1eb0f2de788ee12eadb6db0dac6ad789b48c46c15dcfdb18b623890b49ae293b",
         "question": "Choose the word that fits best in the blank and shows the correct punctuation. Today is your ____________ birthday.",
         "choices": [
           "f athers’",
@@ -8672,10 +9137,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 43
+          "sequence": 58
         }
       },
       {
+        "id": "vocabulary-homophones-q0059",
+        "version": 1,
+        "contentHash": "sha256:6fa0f3c9742132b3305a1bb6175227e7985b0a6254dc02ab798f43edff3db2b8",
         "question": "Choose the word that best completes the sentence. The mayor ______ into the town hall meeting to show off his new suit. H e had a very high opinion of himself.",
         "choices": [
           "meandered",
@@ -8731,10 +9199,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 47
+          "sequence": 59
         }
       },
       {
+        "id": "vocabulary-homophones-q0067",
+        "version": 1,
+        "contentHash": "sha256:2eef1ea0e8ec7027f00efb5857c437eddb0bee61435d6ca90c888e4d730dd83c",
         "question": "Choose the word that best completes the sentence. Kyle was __________ about his citizenship award. He had never wanted anything more!",
         "choices": [
           "jo yous",
@@ -8794,6 +9265,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0077",
+        "version": 1,
+        "contentHash": "sha256:7ad04bff01d77b640e74887818624a8f4dbbb82169c112228be84c2e1f7125aa",
         "question": "Choose the word that best completes the sentence. The football fans __________ to the front of the line so they could be the first to buy tickets.",
         "choices": [
           "clamb ered",
@@ -8853,6 +9327,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0087",
+        "version": 1,
+        "contentHash": "sha256:74645a8e7e5f155e328203e19cf10f894a53c65d924e0025d8d08e567f8104aa",
         "question": "Choose the word that best completes the sentence. Later that day my grandpa bought me a ________ of new shoes.",
         "choices": [
           "p ear",
@@ -8912,6 +9389,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0097",
+        "version": 1,
+        "contentHash": "sha256:2b72d27c25d67f328c7d4d9aa92497f26e5b44f588e4e4f9a2b5c80d41d71f76",
         "question": "Choose the word that best completes the sentence. My mother and I went to the store to _____ me a new pair of tennis shoes.",
         "choices": [
           "by",
@@ -8971,6 +9451,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0107",
+        "version": 1,
+        "contentHash": "sha256:47c8f20580ff9cd61125cdd02ee896d0b32e4a95f3c9db90fa57805767dcc578",
         "question": "Choose the word that best completes the sentence. Gloria was told that it would take two weeks for her sprained ankle to ______.",
         "choices": [
           "h eel",
@@ -9030,6 +9513,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0114",
+        "version": 1,
+        "contentHash": "sha256:30c99ab66f8b52c644fb7f7dc8a2c7d82c312d3ca4ee6e9870d78d90a894a338",
         "question": "Choose the word that best completes the sentence. There were so many ________ in the doctor’s waiting room.",
         "choices": [
           "patients",
@@ -9089,6 +9575,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0066",
+        "version": 1,
+        "contentHash": "sha256:d099e299c328161fc394dc18ff0117304f5b2dab1d8586be64d1809344342149",
         "question": "What is the correct word to complete the sentence? When my mom was young, she ________ scarves out of yarn for her family.",
         "choices": [
           "maid",
@@ -9143,10 +9632,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 32
+          "sequence": 66
         }
       },
       {
+        "id": "vocabulary-homophones-q0068",
+        "version": 1,
+        "contentHash": "sha256:740bb3517d715df675497ce84fadb0b1ac8b00d08336a4a9c375380ac3f83d10",
         "question": "Choose the correct word to complete the sentence. I am so sorry for your ______. Your dog gave you and your family many happy memories.",
         "choices": [
           "lose",
@@ -9201,10 +9693,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 47
+          "sequence": 68
         }
       },
       {
+        "id": "vocabulary-homophones-q0164",
+        "version": 1,
+        "contentHash": "sha256:bb89bc2df0307aae88f937f802c6ef1901b4012296e6d5c5258117faa8298c81",
         "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” I ran into the store an hour before it closed to buy some milk.",
         "choices": [
           "will run into",
@@ -9263,6 +9758,9 @@
         }
       },
       {
+        "id": "vocabulary-homophones-q0256",
+        "version": 1,
+        "contentHash": "sha256:6ed9a0df78a0ef0af49301db6e6292f129fb3a3118b69b4eaeb6baf5c018243a",
         "question": "Fill the blank with the correct word ch oice. in I the race by one second.",
         "choices": [
           "lose",
@@ -9341,6 +9839,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-rhyming-q0001",
+        "version": 1,
+        "contentHash": "sha256:6efd33cd7b6b5d2824fc158e9373b2ce6d54593b710f3a6c2c8e151473006e1f",
         "question": "Which word rhymes with 'thunder'?",
         "choices": [
           "thunder",
@@ -9394,6 +9895,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0002",
+        "version": 1,
+        "contentHash": "sha256:eb0e395dcbe3904f25c6598547ab0e46bed6aad8c2071318ea8476469905e76e",
         "question": "Which word does NOT rhyme with the others?",
         "choices": [
           "light",
@@ -9447,6 +9951,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0003",
+        "version": 1,
+        "contentHash": "sha256:ce97842ad25fad723adec4c4c4c606fac3414d554a8291dc92674fea61cc2936",
         "question": "What word rhymes with 'ocean'?",
         "choices": [
           "motion",
@@ -9500,6 +10007,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0004",
+        "version": 1,
+        "contentHash": "sha256:e500c76a69ed001687a96a406fb2fb43f1742937700aa35d8b6128efd6ba8b6a",
         "question": "Which pair of words are perfect rhymes?",
         "choices": [
           "love / move",
@@ -9553,6 +10063,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0005",
+        "version": 1,
+        "contentHash": "sha256:658d6d77366d9cf53d54455bc4a2259eb090fbc639467f22d106714f2a5b80ef",
         "question": "Which word rhymes with 'enough'?",
         "choices": [
           "cough",
@@ -9606,6 +10119,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0006",
+        "version": 1,
+        "contentHash": "sha256:d6f749076469ecdce8f0447cf6e45b6d35db23024634a17e8bdc0f10565f4429",
         "question": "Which word does NOT rhyme with 'heard'?",
         "choices": [
           "bird",
@@ -9659,6 +10175,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0007",
+        "version": 1,
+        "contentHash": "sha256:f15322a1cb7945f7e99d5d3412df6d17838956c832447e46bec7e56be7e32dc0",
         "question": "What is a rhyming word for 'measure'?",
         "choices": [
           "pleasure",
@@ -9712,6 +10231,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0008",
+        "version": 1,
+        "contentHash": "sha256:fafb800a554837da1c864af2a5e8e0c00a3413ce9910241e6a27a66dcbf9de80",
         "question": "Which word rhymes with 'plumber'?",
         "choices": [
           "number",
@@ -9765,6 +10287,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0009",
+        "version": 1,
+        "contentHash": "sha256:0a47a0e0ce05d2dfdd78ceedb20b2cbc079acf5205992a4d53496c7477f70ff9",
         "question": "Which word does NOT rhyme with 'weight'?",
         "choices": [
           "eight",
@@ -9818,6 +10343,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0010",
+        "version": 1,
+        "contentHash": "sha256:1e90690b51f34ab3146085da97d50ad2e4ccfcf683cd9d0b8a157579592865fc",
         "question": "What word rhymes with 'circle'?",
         "choices": [
           "cycle",
@@ -9871,6 +10399,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0011",
+        "version": 1,
+        "contentHash": "sha256:6177ea40623f61a5b64c4505ccf6592e05020c6026ae7cfb2984e24c3f313074",
         "question": "Which word rhymes with 'through'?",
         "choices": [
           "threw",
@@ -9924,6 +10455,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0012",
+        "version": 1,
+        "contentHash": "sha256:a1306d76e2b0c1307ad9523f50d14cc3274e3a45b1ecab654bb04b2282849809",
         "question": "Which pair does NOT rhyme?",
         "choices": [
           "bear / pear",
@@ -9977,6 +10511,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0013",
+        "version": 1,
+        "contentHash": "sha256:32f7b605916b106f7d2f881f5d644afcf55ef4cf2ddd92065ab1b2e9911307b6",
         "question": "What word rhymes with 'choir'?",
         "choices": [
           "chair",
@@ -10030,6 +10567,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0014",
+        "version": 1,
+        "contentHash": "sha256:ee8334e5b2f0f2c5e5ee29a22abe5e59410d5132f6c11e5310989a8a1a51bf09",
         "question": "Which word rhymes with 'sword'?",
         "choices": [
           "word",
@@ -10083,6 +10623,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0015",
+        "version": 1,
+        "contentHash": "sha256:3271dffc509ccb6981376fdea89d5134443c3adad05e0cb8cddc5acfbfe6a189",
         "question": "Which word does NOT rhyme with 'dove' (the bird)?",
         "choices": [
           "love",
@@ -10136,6 +10679,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0016",
+        "version": 1,
+        "contentHash": "sha256:05430512e6293af3532796c87af499acfe8dd4092f56470cd122ab4a2fb5e989",
         "question": "Read the limerick. 1 – There once was an alien from space 2 – Who knew he was going to race 3 – The kids in the school 4 – ________________________ 5 – He won, but left not a trace. Which of the following lines would best fit line 4?",
         "choices": [
           "Wh om he thought very cool.",
@@ -10192,6 +10738,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0017",
+        "version": 1,
+        "contentHash": "sha256:9695961485620c5bcd87331eb94ee029e598396c8fa88b2cf119a9484d1c5aec",
         "question": "Which of the following sentences have rhyming words?",
         "choices": [
           "Has a tiny tooth to show I have a double row",
@@ -10248,6 +10797,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0018",
+        "version": 1,
+        "contentHash": "sha256:1347c11a29f0c3f8eb79d23ae01ef2c858a031f83967323a61be5acab96b8c8b",
         "question": "Which rhyming word fits in this poem? From the sky Clouds are quickly Drifting _________",
         "choices": [
           "alo ng",
@@ -10304,6 +10856,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0019",
+        "version": 1,
+        "contentHash": "sha256:e88bcc76df6d621d977533fcc6c4e2953a372d06b1e1205cd4ee449d5b344519",
         "question": "Read the limerick. 1 - I went to the mall and paid cash 2 - For a coat and dress with a sash 3 - I jogged to my car 4 - _______________________ 5 - Just to run a stop sign and go crash! Which of the following lines would best fit line 4?",
         "choices": [
           "I o pened the door",
@@ -10360,6 +10915,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0020",
+        "version": 1,
+        "contentHash": "sha256:5d2f1722d4e9889b781f14b5532b132a78935aa38295fde214b28695c762c3bf",
         "question": "Choose the word that rhymes with book.",
         "choices": [
           "moon",
@@ -10408,7 +10966,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 17,
+          "sequence": 20,
           "testFocus": [
             "MAP"
           ],
@@ -10418,6 +10976,9 @@
         }
       },
       {
+        "id": "vocabulary-rhyming-q0214",
+        "version": 1,
+        "contentHash": "sha256:288d4dc0d9e053e18f9f6aaf89bb0a30b4aaad3def43c32250c4a8fdf1862ffa",
         "question": "What word rhymes with bear?",
         "choices": [
           "d ear",
@@ -10496,6 +11057,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-synonyms-antonyms-q0001",
+        "version": 1,
+        "contentHash": "sha256:cd2d28a941463b7965c5472043ffb400c3dc30bb1f88b627f2738148eeb1b1a1",
         "question": "Which word is a synonym for 'enormous'?",
         "choices": [
           "tiny",
@@ -10549,6 +11113,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0002",
+        "version": 1,
+        "contentHash": "sha256:f0838ac7f282674714c2e536fc28d1fcc9d87dd1f7c71b2881385fe553c7e32d",
         "question": "What is the antonym of 'generous'?",
         "choices": [
           "kind",
@@ -10602,6 +11169,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0003",
+        "version": 1,
+        "contentHash": "sha256:fb25bdc2a3c5253065850b98aa6745824f041386b861bb68cb1c51caa6cebbc9",
         "question": "Which pair are synonyms?",
         "choices": [
           "begin / end",
@@ -10655,6 +11225,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0004",
+        "version": 1,
+        "contentHash": "sha256:6335b5e0d85e8dc8e17f7beeb44e62aa5c2e37a2a670307d488bde97772e2f82",
         "question": "What is the antonym of 'ancient'?",
         "choices": [
           "old",
@@ -10708,6 +11281,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0005",
+        "version": 1,
+        "contentHash": "sha256:b32bf04c49659aceb8906ec00ecaf0b005de7ebf5e407d8336e4d443312b3cb4",
         "question": "Which word is a synonym for 'brilliant'?",
         "choices": [
           "dull",
@@ -10761,6 +11337,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0006",
+        "version": 1,
+        "contentHash": "sha256:8cec2278d146c8ebc3a0c70deb65ab9ef4957d946fe3359bc03a2c579df7db31",
         "question": "What is the antonym of 'arrogant'?",
         "choices": [
           "proud",
@@ -10814,6 +11393,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0007",
+        "version": 1,
+        "contentHash": "sha256:c93644f95dd28a9c84072b0335a684b024e0ad727114bc7d2529eaec250fbda6",
         "question": "Which pair are antonyms?",
         "choices": [
           "joyful / cheerful",
@@ -10867,6 +11449,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0008",
+        "version": 1,
+        "contentHash": "sha256:4de65bca9b07df243e791e3801e724b360942e90c670e591f502e287f87053d2",
         "question": "What is a synonym for 'drenched'?",
         "choices": [
           "dry",
@@ -10920,6 +11505,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0009",
+        "version": 1,
+        "contentHash": "sha256:48c7305732f9b4d83db9aaedbb715e80364460c05bb06eb21b9d0d7c4616aacc",
         "question": "Which word is the antonym of 'frequently'?",
         "choices": [
           "often",
@@ -10973,6 +11561,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0010",
+        "version": 1,
+        "contentHash": "sha256:ec43f81c2ce974cc83a843a34b6fab4556aa4c2b147e1cde56e2174da788dabb",
         "question": "Which pair are synonyms?",
         "choices": [
           "gloomy / sunny",
@@ -11026,6 +11617,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0011",
+        "version": 1,
+        "contentHash": "sha256:f9f20b13dfebf6fbe9c64a300aa691605eb7d74ccaecab4491f955ec26dbfc4a",
         "question": "What is the antonym of 'cooperate'?",
         "choices": [
           "help",
@@ -11079,6 +11673,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0012",
+        "version": 1,
+        "contentHash": "sha256:e7d38d319a1c0b1d7a9878ae625975df00f8e342c8a4308c91f18b74b65012cc",
         "question": "Which word is a synonym for 'cautious'?",
         "choices": [
           "careless",
@@ -11132,6 +11729,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0013",
+        "version": 1,
+        "contentHash": "sha256:7be21ac3b9fe465bb84934419f583b4e99009b0c18b2c4fcd54af42616fd4ce0",
         "question": "What is the antonym of 'expand'?",
         "choices": [
           "grow",
@@ -11185,6 +11785,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0014",
+        "version": 1,
+        "contentHash": "sha256:90222913d3ccbb0b5abaf6d856b255e20b07b0fab3a2767a9d7152c5d96773bd",
         "question": "Which pair are antonyms?",
         "choices": [
           "magnificent / splendid",
@@ -11238,6 +11841,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0015",
+        "version": 1,
+        "contentHash": "sha256:f0865e4f74d701c5f54b3751c0284bd41a27afbeeb6bb0663a5fd4e43ca9791d",
         "question": "What is a synonym for 'migrate'?",
         "choices": [
           "stay",
@@ -11291,6 +11897,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0016",
+        "version": 1,
+        "contentHash": "sha256:a4dfa57ae77a6aa63b50548a2682ffbd3d0d441932a351619fe42ca63650b931",
         "question": "Which word is an antonym for hot?",
         "choices": [
           "cold",
@@ -11344,6 +11953,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0017",
+        "version": 1,
+        "contentHash": "sha256:911069d7bc2168cb3a888fe68e0bf11c4c9eedbcd70a9f5ed9fa48a5eebed0a4",
         "question": "Which word is an antonym for even?",
         "choices": [
           "odd",
@@ -11397,6 +12009,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0018",
+        "version": 1,
+        "contentHash": "sha256:3234a7c825d94984569c857ba677ae40f1e6afc62281d78a40837579213abe4a",
         "question": "Which word is a synonym for enormous?",
         "choices": [
           "huge",
@@ -11446,10 +12061,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-synonyms-antonyms",
-          "sequence": 18
+          "sequence": 18,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0019",
+        "version": 1,
+        "contentHash": "sha256:73cd88ac429c2e7da00eca4a5b220422fd69f8d10f21f598d180b5c9d836b8ff",
         "question": "Which word is an antonym for cheerful?",
         "choices": [
           "sad",
@@ -11503,6 +12122,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0020",
+        "version": 1,
+        "contentHash": "sha256:3c8e1bd31e41fb59f67b284849597d6255648db580dc7b4c3dda3627f7e4262a",
         "question": "Choose a synonym for each word below: smart?",
         "choices": [
           "intelligent",
@@ -11556,6 +12178,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0021",
+        "version": 1,
+        "contentHash": "sha256:4254eaa58558b0eaa5e6e0361aa381f0daaee6d7b881b87544954c1eb31c21b9",
         "question": "Choose a synonym for each word below: said?",
         "choices": [
           "spoke",
@@ -11609,6 +12234,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0022",
+        "version": 1,
+        "contentHash": "sha256:0596460c07abc5485535f9844ff2c0102924d6048fbcb6794c869c0d26a1ae44",
         "question": "Which word is an antonym for interesting?",
         "choices": [
           "boring",
@@ -11662,6 +12290,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0023",
+        "version": 1,
+        "contentHash": "sha256:dbe72ce6351b2fc4d510c78d730d62f574b8dbc6df470665ef111e1c4d1d33b8",
         "question": "Which word is an antonym for finish?",
         "choices": [
           "start",
@@ -11715,6 +12346,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0024",
+        "version": 1,
+        "contentHash": "sha256:7d646914452ed33e9f64347a43d10958d5a8ec8638514fa6bf066de916909bfc",
         "question": "Which word is a synonym for afraid?",
         "choices": [
           "scared",
@@ -11768,6 +12402,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0025",
+        "version": 1,
+        "contentHash": "sha256:868beaa43192fa2de564dc5ef3b6b7d9042bde41ba26819125189b3832df4a44",
         "question": "Choose an antonym for the word light?",
         "choices": [
           "dark",
@@ -11821,6 +12458,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0026",
+        "version": 1,
+        "contentHash": "sha256:b539d36079317afe5d08cd4c95d3a5296d6f20cb2abcb944ecfefb5674e75187",
         "question": "Synonyms or antonyms? on, off?",
         "choices": [
           "antonyms",
@@ -11874,6 +12514,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0027",
+        "version": 1,
+        "contentHash": "sha256:9bcf4da2b9a95cb42aaf733beca646cbe1f43a817e3bb3e78e911fe79c7ac823",
         "question": "Synonyms or antonyms? glad, happy?",
         "choices": [
           "synonyms",
@@ -11927,6 +12570,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0028",
+        "version": 1,
+        "contentHash": "sha256:792e9d7f1980548d7029a7bfd5513991a85aed15d4d7d01d8da7c6bb8752c75b",
         "question": "Which word is a synonym for argue?",
         "choices": [
           "fight",
@@ -11980,6 +12626,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0029",
+        "version": 1,
+        "contentHash": "sha256:4649008a96b29a0631bf5c7c6faedf5cceacc1ba778bbf6953ce14be0f506caa",
         "question": "Which word is a synonym for hit?",
         "choices": [
           "strike",
@@ -12033,6 +12682,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0030",
+        "version": 1,
+        "contentHash": "sha256:91ce3f2cb2eaec720c26b04c5d87871422183b7fda5ed658a302fcfe47dc96e1",
         "question": "Synonyms or antonyms? now, later?",
         "choices": [
           "antonyms",
@@ -12086,6 +12738,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0031",
+        "version": 1,
+        "contentHash": "sha256:2a33d27dcfc854922a4efc748839159ee96c2919047e7097b76a13e1f31ccd5b",
         "question": "Synonyms or antonyms? normal, unusual?",
         "choices": [
           "antonyms",
@@ -12139,6 +12794,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0032",
+        "version": 1,
+        "contentHash": "sha256:d9cbb088753d8678b62bc285a2db1cfdfdcfefec1227a87e075a8602754a0b3d",
         "question": "Which word is a synonym for burglar?",
         "choices": [
           "thief (answers will vary)",
@@ -12192,6 +12850,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0033",
+        "version": 1,
+        "contentHash": "sha256:33f5bb7fe76ad0cec302b46d7486c94e5ff34140519d21feaa826f4bdb4447a7",
         "question": "Synonyms or antonyms? dull, bright?",
         "choices": [
           "antonyms",
@@ -12245,6 +12906,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0034",
+        "version": 1,
+        "contentHash": "sha256:5311ad1597dda384de30f355e07208fcab11ba8073938a1115f732de432b3aa8",
         "question": "Synonyms or antonyms? bruise, wound?",
         "choices": [
           "synonyms",
@@ -12298,6 +12962,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0035",
+        "version": 1,
+        "contentHash": "sha256:a9740264afe9906287293c3f451e08abf073fbe3b63ac99e971a015368e01440",
         "question": "Which word is a synonym for ill?",
         "choices": [
           "sick",
@@ -12351,6 +13018,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0036",
+        "version": 1,
+        "contentHash": "sha256:3234a7c825d94984569c857ba677ae40f1e6afc62281d78a40837579213abe4a",
         "question": "Which word is a synonym for enormous?",
         "choices": [
           "huge",
@@ -12400,10 +13070,14 @@
           "estimatedTimeSeconds": 35,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-synonyms-antonyms",
-          "sequence": 36
+          "sequence": 36,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0037",
+        "version": 1,
+        "contentHash": "sha256:b984b33d1d3b85706258ec99103d0f2dd94cc72f36bdb71bed649a364002bd6a",
         "question": "Synonyms, antonyms, or homophones? dark, bright?",
         "choices": [
           "antonyms",
@@ -12457,6 +13131,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0038",
+        "version": 1,
+        "contentHash": "sha256:4ea1ffccf36f8a5eaf4360bdc20ee1accfe9829b5ce7892c3463db0452b94c5c",
         "question": "Synonyms, antonyms, or homophones? sight, site?",
         "choices": [
           "homophones",
@@ -12510,6 +13187,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0039",
+        "version": 1,
+        "contentHash": "sha256:b73807024880efc72ffb324b2aa159f60f7287966ed62c91488d67ba1a016421",
         "question": "Synonyms, antonyms, or homophones? grow, shrink?",
         "choices": [
           "antonyms",
@@ -12563,6 +13243,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0040",
+        "version": 1,
+        "contentHash": "sha256:397405093a912941c9a4bfb5e44cc85061ed10dc8abdc9a33c14fa14fbb9e3be",
         "question": "Synonyms, antonyms, or homophones? mystery, puzzle?",
         "choices": [
           "synonyms",
@@ -12616,6 +13299,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0041",
+        "version": 1,
+        "contentHash": "sha256:237eec3b2e46605b66ed45918228a1917e9db65067945053f13cc4a4973d2504",
         "question": "Give the synonym for predicate.",
         "choices": [
           "art icle",
@@ -12671,6 +13357,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0042",
+        "version": 1,
+        "contentHash": "sha256:f41f4af0edaa46f2ae90d44dcc3e0ea6a8fe7f4277a1e5d549007e51cecca54d",
         "question": "Which words have the same meaning as the underlined words in the following sentence? Pete found his homework under his bed.",
         "choices": [
           "below the bed.",
@@ -12726,6 +13415,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0043",
+        "version": 1,
+        "contentHash": "sha256:53c15d26d7ea81820d54aba039a9327d01a5c82c7976c18f28e609d2a2b75768",
         "question": "What does the word “especially” mean in the following sentence? She is especially fondof that teddy bear.",
         "choices": [
           "rat her",
@@ -12781,6 +13473,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0044",
+        "version": 1,
+        "contentHash": "sha256:17c90b99a97af6c13d43e0c4604592083720944c99f6b05338c20a5924952e1f",
         "question": "Which two sentences have the same meaning? A) In the kitchen the family was busy. B) The family busiedothers in the kitchen. C) The others busied the family in the kitchen. D) The family was busy in the kitchen.",
         "choices": [
           "B and C",
@@ -12836,6 +13531,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0045",
+        "version": 1,
+        "contentHash": "sha256:6d571d0a377accd079d5b483fe88e10ee72d59b965ef9c47cb9688c6f45b3a97",
         "question": "Which choice means nearly the same as the underlined verb? The wind has driven the cattle to find shelter.",
         "choices": [
           "h as thrown",
@@ -12891,6 +13589,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0046",
+        "version": 1,
+        "contentHash": "sha256:1eda04a380c3ab63a60e3ed8810b1ef48ffa3f0f7863c0222b524fae366b31b3",
         "question": "Which topic would be listed under in an outline?",
         "choices": [
           "crops",
@@ -12947,6 +13648,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0047",
+        "version": 1,
+        "contentHash": "sha256:7d2f3074e71d23be9520d34751a25d3cac9844a5ea10aa0cb5811bc9e835db08",
         "question": "Choose the antonym for the underlined word. The powerful leader made the people obey his rules.",
         "choices": [
           "easy",
@@ -13003,6 +13707,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0048",
+        "version": 1,
+        "contentHash": "sha256:745d4eddada4ba3248ec498fdabc78600a1d3ca1a8fa01edb6dc50fd6372ee05",
         "question": "Which setof words has similar meanings?",
         "choices": [
           "nation, county",
@@ -13059,6 +13766,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0049",
+        "version": 1,
+        "contentHash": "sha256:575e60b7e9d8df83f78c1293f60ca0cb70e8d23570c5d62949c47faf704f0d9f",
         "question": "What word is the opposite of loose?",
         "choices": [
           "knot",
@@ -13115,6 +13825,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0050",
+        "version": 1,
+        "contentHash": "sha256:ce5416986bdb01f76ae8ebda963cb9215a25ea3be0c1115c2be46c69e56fdaf3",
         "question": "Which sentence has the same meaning as the sentences below. Elison packed his suitcase. Elison packed socks. Elison packed shirts. Elison packed an extra pair of shoes. Elison packed his teddy bear.",
         "choices": [
           "Eliso n packed socks, shirts, an extra pair of shoes, and his teddy bear in his suitcase.",
@@ -13171,6 +13884,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0051",
+        "version": 1,
+        "contentHash": "sha256:2cab32152f1277e968dd737e54b64df3b78203bd31d5e78d3b174cb4cfc3b389",
         "question": "Which is the best way to describe a hurricane destroying beach houses?",
         "choices": [
           "The hurricane blew softly across the beach.",
@@ -13227,6 +13943,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0052",
+        "version": 1,
+        "contentHash": "sha256:40257b967ca3f66daf6ef1c5a9aa41615dfac2a5c1c786edd83b8d67c7cfaaa8",
         "question": "Which word means the same as the underlined w ord? My father opened his present first. He felthe couldn’t wait any longer.",
         "choices": [
           "cou ldn’t",
@@ -13283,6 +14002,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0053",
+        "version": 1,
+        "contentHash": "sha256:8a49c1bf1fff2451bfbf157b4afcbb5acf81353c2a7029ea9a55127e80bda556",
         "question": "Select the best definition for the underlined words. The alley cat was hanging around with another cat in the neighborhood.",
         "choices": [
           "sleep ing",
@@ -13339,6 +14061,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0054",
+        "version": 1,
+        "contentHash": "sha256:f3d937a9efbd2cde011b3644ed8524c053acf2922831998fda53084d454cb804",
         "question": "Which is the best way to rewrite the sentence below without changing it? Jill tripped and hurtherself.",
         "choices": [
           "Jill stumbledon her way through the door and twisted her ankle.",
@@ -13395,6 +14120,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0055",
+        "version": 1,
+        "contentHash": "sha256:61548205ec45c34d431ff66fd69f585c276dc109421e5eb8f75e7b3812c992ff",
         "question": "Which words should be capitalized in the sentence below? the tornado caused by the thunderstorm destroyed three towns in in diana.",
         "choices": [
           "the, tornado, towns",
@@ -13451,6 +14179,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0056",
+        "version": 1,
+        "contentHash": "sha256:c39fb0ab7bc6bb6fef0cf558173671642625914b765e4e754a8d8b5404ea98dd",
         "question": "Which sentence would you use to write a story a bout boating?",
         "choices": [
           "I packed a sleeping bag and a lantern.",
@@ -13507,6 +14238,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0057",
+        "version": 1,
+        "contentHash": "sha256:37d57b640425ecc44579b0bfde6ea4c064af16022cd9f9dd3e8b4963b668b6b5",
         "question": "Choose the antonym for the underlined word. The town council decided to restore the park so people could use it again.",
         "choices": [
           "fix",
@@ -13563,6 +14297,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0058",
+        "version": 1,
+        "contentHash": "sha256:b7f8edbfc8bb0a58e5cbbf9d50930accf7b4646550aac114a8630d95ed908d6f",
         "question": "What does the underlined word mean in this sentence? The stubborn nail refused to move.",
         "choices": [
           "ju mped",
@@ -13619,6 +14356,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0059",
+        "version": 1,
+        "contentHash": "sha256:b4b456fc205cd3ccb96267b152b032c542add9d7fff89514d0686e240f28bcf6",
         "question": "Read the passage. It was a cold and chilling night, and the cattle were restless. As the sun dropped behind the mountain range, the animals all started to come alive with anticipation. This was a night of the hunter and the hunted. The wolves were on the prowl for a meal, and the cattle knew they were being watched. Choose the word that is an antonym for restless.",
         "choices": [
           "excited",
@@ -13667,7 +14407,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 7,
+          "sequence": 59,
           "testFocus": [
             "MAP"
           ],
@@ -13677,6 +14417,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0060",
+        "version": 1,
+        "contentHash": "sha256:84a4e33497d4f16cc8bc8bfd225d04231fec3b6a951d9480f62b160faf41feb3",
         "question": "Which word means the opposite of mother?",
         "choices": [
           "mom",
@@ -13725,7 +14468,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 12,
+          "sequence": 60,
           "testFocus": [
             "MAP"
           ],
@@ -13735,6 +14478,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0061",
+        "version": 1,
+        "contentHash": "sha256:821727de972e044b07bd4a15fef676b6334fb2aefecb0b856f6547f2c3730dfa",
         "question": "The opposite of dark is _________.",
         "choices": [
           "light",
@@ -13783,7 +14529,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 14,
+          "sequence": 61,
           "testFocus": [
             "MAP"
           ],
@@ -13793,6 +14539,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0090",
+        "version": 1,
+        "contentHash": "sha256:efc373364b75b5d9d764a26da539f68faf68f01bc4157ed85e59312e17b92377",
         "question": "Jerry had to work hard to finish mowing the lawn. What is the opposite of work?",
         "choices": [
           "eat",
@@ -13851,6 +14600,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0097",
+        "version": 1,
+        "contentHash": "sha256:f6c29e83c312567375cd674ebc9b4644dc7aa7a3d70b0e29021f7fda29b42412",
         "question": "Which word pairs are opposites.",
         "choices": [
           "look/see",
@@ -13909,6 +14661,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0100",
+        "version": 1,
+        "contentHash": "sha256:90181cb06a83be1115c68fd27d6f187f4b66bcd1ebc28032a08f135728080e68",
         "question": "Which word means the opposite of hard?",
         "choices": [
           "h ot",
@@ -13967,6 +14722,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0148",
+        "version": 1,
+        "contentHash": "sha256:512be847d65c72471055d75c76f01b0955e142b7e6c33b85911cc905d1eb910b",
         "question": "Which word is the opposite of shrink?",
         "choices": [
           "d isappear",
@@ -14025,6 +14783,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0200",
+        "version": 1,
+        "contentHash": "sha256:7faed1b233926f963ac8b97b1881ac7a67b9d640e5cd89be315763ca200628b3",
         "question": "Read the sentence and choose the word that is not an antonym for the underlined word. Alice and Jack were very excited about getting a new car.",
         "choices": [
           "sad",
@@ -14083,6 +14844,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0206",
+        "version": 1,
+        "contentHash": "sha256:6d149a488311984119c7a4ac16f9c127c15b069e273993890cee8eec4e312f84",
         "question": "Read the sentence and choose the best synonym for the u nderlined word. In the gloom of the rainy dawn, Kayla scanned the horizon searching for the long -promised arrival of the horse-drawn carriage.",
         "choices": [
           "looked",
@@ -14141,6 +14905,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0211",
+        "version": 1,
+        "contentHash": "sha256:3fb6ba929f3482d5fa869c7aa47eeef0b5e48bcf0e8dbcf7e8e60d6b5cc7b002",
         "question": "Kathy wore a colorful costume to the Halloween party. What is a synonym for colorful?",
         "choices": [
           "bright",
@@ -14199,6 +14966,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0213",
+        "version": 1,
+        "contentHash": "sha256:5c10c293f1753a8c396adda943e73bb5545e6fe7457c80da6d0d60fa7e31131c",
         "question": "Choose the best synonym for the underlined word below. Fran asked for a duplicate of the original letter.",
         "choices": [
           "answer",
@@ -14257,6 +15027,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0070",
+        "version": 1,
+        "contentHash": "sha256:c9745d33e57e93f3feef16b18d452ea29ef56cae4f1537bdddfe85c8e1bd6229",
         "question": "What is the antonym for the underlined word? The doctor was exhilarated that her patient was getting better. er",
         "choices": [
           "overjoyed",
@@ -14311,10 +15084,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 10
+          "sequence": 70
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0071",
+        "version": 1,
+        "contentHash": "sha256:bc441a839529ee714dedb76aa0e1d2c05703f2e91508363f7906cf7168ce8059",
         "question": "What is the synonym for the underlined word? The doctor requested a duplicate of my medical records.",
         "choices": [
           "copy",
@@ -14369,10 +15145,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 20
+          "sequence": 71
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0072",
+        "version": 1,
+        "contentHash": "sha256:2e22f01adb5153a121b8370e84c4858a8eeb3b153dea17c76dd9ae4691f2ec31",
         "question": "According to the thesaurus entry below, what is a synonym for the word “veteran”? Veteran n. old-time, skilled, trained, adept, expert, old, pro, steady, versed, battle- scarred, – been around, exercised, from way back, hardened, incurred, practical, practiced, proficient, sophisticated, up to speed, weathered, wise to ways, worldly.",
         "choices": [
           "professor",
@@ -14427,10 +15206,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 25
+          "sequence": 72
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0073",
+        "version": 1,
+        "contentHash": "sha256:783c089e9c394442ce5516174c363088638d8c6cf2db507352ec56f36adf5044",
         "question": "Choose the correct set of antonyms.",
         "choices": [
           "radiant, dull",
@@ -14485,10 +15267,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 30
+          "sequence": 73
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0074",
+        "version": 1,
+        "contentHash": "sha256:cefb3aebc57e85ee6ac271aed05af41c05a2278ffcf6c03988756d0a5fe96b8f",
         "question": "Which reference material would you use to fi nd a synonym for a word?",
         "choices": [
           "d ictionary",
@@ -14543,10 +15328,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 35
+          "sequence": 74
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0075",
+        "version": 1,
+        "contentHash": "sha256:2960114590aae8633b1ef005a474ba654b81c98c60b7e0b4505daf7959011416",
         "question": "Which of the following words would be an antonym for devastated? “”",
         "choices": [
           "misera ble",
@@ -14601,10 +15389,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 39
+          "sequence": 75
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0076",
+        "version": 1,
+        "contentHash": "sha256:934281d678021977c0898da6faed59494ae353061cc1282003f3e841820fa9ee",
         "question": "Which of the following words would be a synonym for enormous? “”",
         "choices": [
           "h uge",
@@ -14659,10 +15450,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 49
+          "sequence": 76
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0069",
+        "version": 1,
+        "contentHash": "sha256:a402fe951a02e29a5133811b24bb0cab9f2f780f52cc899adfffa81454450a37",
         "question": "would be a Which of the following words “”? synonym for frivolous",
         "choices": [
           "insignificant",
@@ -14721,6 +15515,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0080",
+        "version": 1,
+        "contentHash": "sha256:88097ec1c4f677c1ebf31f1fb1357b5ebe4812d872c4c4973dfe5f133616e1c9",
         "question": "Choose the antonym for the underlined word. After the long hike and not eating all day, the hikers were famished.",
         "choices": [
           "hungry",
@@ -14779,6 +15576,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0079",
+        "version": 1,
+        "contentHash": "sha256:17af458301731017fc749150507158372e69b8dd0f813a6e6fd5dfdcaa9368cd",
         "question": "Which of the following words would be a synonym for “”? repulsive",
         "choices": [
           "beautiful",
@@ -14833,10 +15633,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 90
+          "sequence": 79
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0081",
+        "version": 1,
+        "contentHash": "sha256:6e0402ae24019cfd84fcac4c77292270513ce7a574f877bd6999f857d87f9219",
         "question": "Which of the following? is not a synonym for “edge” Edge – n. edge, verge, brink, brow, brim, margin, border, confine, skirt, rim, flange, side, mouth; jaws, chops, chaps, fauces; lip, muzzle. threshold, door, porch; coast, shore. frame fringe, flounce, frill, list, trimming, edging, skirting, hem, selvedge, welt, furbelow, valance, gimp, adj. border, marginal, skirting; labial, labiat ed, marginated.",
         "choices": [
           "b rim",
@@ -14891,10 +15694,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 12
+          "sequence": 81
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0082",
+        "version": 1,
+        "contentHash": "sha256:938785b09b0f30a7eb191d4b61d8a78b96c07a925e766aede7e1d5b3f0e4651b",
         "question": "Choose the correct set of synonyms for the word silent.",
         "choices": [
           "quiet, noisy",
@@ -14949,10 +15755,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 21
+          "sequence": 82
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0083",
+        "version": 1,
+        "contentHash": "sha256:2fc0ae7fa85c3f66311faf6bce982296906145bbcc7069f5ff9a9f184abd3b53",
         "question": "Which is the antonym for the word active?",
         "choices": [
           "en ergetic",
@@ -15007,10 +15816,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 24
+          "sequence": 83
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0084",
+        "version": 1,
+        "contentHash": "sha256:341c8b003184d951771a5ec9de7408b1c3bbb831adb7838d645142e71c354ca9",
         "question": "Choose the antonym for the underlined word. The little girl was devastated that her fish died.",
         "choices": [
           "very misera ble",
@@ -15065,10 +15877,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 48
+          "sequence": 84
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0062",
+        "version": 1,
+        "contentHash": "sha256:4b2eb156f3d2d6e941c74758b906c8b26ae18da890efab357e66182f52991232",
         "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” Madelyn had the biggest, most colorful birthday cake I had ever seen.",
         "choices": [
           "most colorful, birthday, biggest cake",
@@ -15127,6 +15942,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0085",
+        "version": 1,
+        "contentHash": "sha256:5df2bffeb9179e8756237a1be93266cfb64a7f339faff661d69bd87bfc5ca175",
         "question": "Choose the correct set of synonyms for the word damaged.",
         "choices": [
           "broken, down-run",
@@ -15181,10 +15999,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 72
+          "sequence": 85
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0086",
+        "version": 1,
+        "contentHash": "sha256:3c995b604d75383ab41c7bfc92fc6e2d3c8d0df1748133f40f0b092e9d5f72d7",
         "question": "Which answer is the antonym for the word? adequate",
         "choices": [
           "friend",
@@ -15239,10 +16060,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 75
+          "sequence": 86
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0099",
+        "version": 1,
+        "contentHash": "sha256:43f582f904b88f345c4d04248210c46a851e9d996d05d707c8d5c8fdbf3e8ea8",
         "question": "Choose the antonym for the underlined word. The towel was from being left near the sprinklers. moist",
         "choices": [
           "wet",
@@ -15301,6 +16125,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0108",
+        "version": 1,
+        "contentHash": "sha256:2862c05e1bdeb905b4224fdce8b38caed801621d91bf1ffaa9748a651c6e15a3",
         "question": "Read the following sentence. Use the context clues to choose the word that best fits the meaning of the underlined word. The rabbit bounded away when it heard the fox.",
         "choices": [
           "in jured",
@@ -15359,6 +16186,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0123",
+        "version": 1,
+        "contentHash": "sha256:7a12a477ee568c04b5d52b1c2fe1bf560ac2248d7d632aabe4058349ecf93da9",
         "question": "Choose the correct set of synonyms for the word. crazy",
         "choices": [
           "b ird, cuckoo",
@@ -15417,6 +16247,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0126",
+        "version": 1,
+        "contentHash": "sha256:7a31eefd641cb9ecdd0566f6aa3203766caa172949712f18a7e26fb950ad63f4",
         "question": "Find the correct set of antonyms.",
         "choices": [
           "p eculiar and general",
@@ -15475,6 +16308,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0174",
+        "version": 1,
+        "contentHash": "sha256:64e07b477c661e323155833cbd5248d8d75e43e802f346a133c68a0a95bda638",
         "question": "Choose the correct set of synonyms for the word gradual.",
         "choices": [
           "loud, noisy",
@@ -15533,6 +16369,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0177",
+        "version": 1,
+        "contentHash": "sha256:b097328f3ce5fc90db8429bdca9666e7743d71bb5a6101346588acbd07ff28bc",
         "question": "Which answer is the antonym for the? word proceed",
         "choices": [
           "increase",
@@ -15591,6 +16430,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0201",
+        "version": 1,
+        "contentHash": "sha256:d6f8ef15de05b6b9d2b3c9e5e50d49b1bb9787fe2bbc0e9ad8d559fced0c6a7a",
         "question": "Choose the antonym for the underlined word. Running five laps around the field is the penalty for being late to practice.",
         "choices": [
           "punishment",
@@ -15649,6 +16491,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0216",
+        "version": 1,
+        "contentHash": "sha256:c8200b9cb4a703a3cab2e7da108dc5936840cda87bdba3701ea27bd195f28a41",
         "question": "Which of the following synonyms for is a verb? notch Notch – n. notch, dent, nick; indent; dimple. embrasure, battlement; saw, tooth, crenel, vandyke; jag. notch, cut, depression; v. nick, dent, jag, scarify, scratch, crenulate. adj. crimp, notched.",
         "choices": [
           "cut",
@@ -15707,6 +16552,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0225",
+        "version": 1,
+        "contentHash": "sha256:177ef070b4ff32cecf6e718e1d98c9297c1f4ec4a82616c71f8c8d9c7f786134",
         "question": "Choose the correct set of synonyms for “big.”",
         "choices": [
           "minute, gigantic",
@@ -15765,6 +16613,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0243",
+        "version": 1,
+        "contentHash": "sha256:42b91397f7bb6bc21237d0ed11f7144320eb869f958bdb129a4892ed1730ce83",
         "question": "Which of the following words would be an antonym for frigid?",
         "choices": [
           "chilly",
@@ -15823,6 +16674,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0276",
+        "version": 1,
+        "contentHash": "sha256:c95bfb1b332f925968137eb181a88a26f1ea8877eb067668bd4e4bd1956f722c",
         "question": "Choose the correct set of synonyms for the word energetic.",
         "choices": [
           "exhausted, sleepy",
@@ -15881,6 +16735,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0279",
+        "version": 1,
+        "contentHash": "sha256:cf25b4d727ffb5af6e3d763d9ef9d052a8f41253441ad02724577722d4b5affb",
         "question": "Which answer is the antonym for the word? spotless",
         "choices": [
           "kind",
@@ -15939,6 +16796,9 @@
         }
       },
       {
+        "id": "vocabulary-synonyms-antonyms-q0303",
+        "version": 1,
+        "contentHash": "sha256:4af78dd0c7de560aff902986afe4fa9d4ff266936f64ab0a379655731626b48f",
         "question": "Choose the antonym for the und erlined word. Our apartment was adjacent to my grandmother’s.",
         "choices": [
           "below",
@@ -16017,6 +16877,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-comparatives-superlatives-q0001",
+        "version": 1,
+        "contentHash": "sha256:71f7599e06b91c39a0bcc452ffed3d4264da3e4f9c6d798245b9e6f6a362e745",
         "question": "Which sentence uses the comparative form correctly?",
         "choices": [
           "This book is more better than that one.",
@@ -16068,6 +16931,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0002",
+        "version": 1,
+        "contentHash": "sha256:e6c5539cc5c31a395717b3d44ad74960fbcdec131be99153bcf49074881c3a69",
         "question": "What is the superlative form of 'happy'?",
         "choices": [
           "more happy",
@@ -16119,6 +16985,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0003",
+        "version": 1,
+        "contentHash": "sha256:dfe87e78aac19f7c3124198b390bb4852c27cf177946c62a0d6d6c913858c006",
         "question": "Which sentence is correct?",
         "choices": [
           "Of the two dogs, this one is the most fast.",
@@ -16170,6 +17039,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0004",
+        "version": 1,
+        "contentHash": "sha256:d698a1b125e8636c3e34a54d708dea1dd0af2cd41603003b7e5816a7e71bde4f",
         "question": "What is the correct comparative form of 'beautiful'?",
         "choices": [
           "beautifuller",
@@ -16221,6 +17093,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0005",
+        "version": 1,
+        "contentHash": "sha256:c067ee28f11a834a82243ba7d1f10f5b10b74ab76e2f35b0220333e6f6470117",
         "question": "Which sentence uses the superlative correctly?",
         "choices": [
           "She is the more intelligent student in the class.",
@@ -16272,6 +17147,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0006",
+        "version": 1,
+        "contentHash": "sha256:c4efed6112f24d0177314ac602c2664545ef015774d2dcc26cf87389dd37dc4b",
         "question": "What is the comparative form of 'bad'?",
         "choices": [
           "badder",
@@ -16323,6 +17201,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0007",
+        "version": 1,
+        "contentHash": "sha256:7d884d8cc38fb8b308812861010e6bcb618a02a16961c07be562611b456faf19",
         "question": "Which sentence is written correctly?",
         "choices": [
           "My cat is the most cutest pet in the world.",
@@ -16374,6 +17255,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0008",
+        "version": 1,
+        "contentHash": "sha256:a48cb3d8d882382daaecee7976dc7211bcad579e12374d461895c0d945d945f3",
         "question": "What is the correct comparative form of 'far' (distance)?",
         "choices": [
           "more far",
@@ -16425,6 +17309,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0009",
+        "version": 1,
+        "contentHash": "sha256:e3c15a6f7fd21dc5f0d16fc31100f703a43f4c6407f799a211d7fd8870a42910",
         "question": "Which word correctly completes the sentence? This test was ___ than the last one.",
         "choices": [
           "difficult",
@@ -16476,6 +17363,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0010",
+        "version": 1,
+        "contentHash": "sha256:77df7702952ec112f04a5a564e32807becaab3e53eb393b28b48e04f8021a8ef",
         "question": "What is the superlative form of 'little' (amount)?",
         "choices": [
           "littler",
@@ -16527,6 +17417,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0011",
+        "version": 1,
+        "contentHash": "sha256:1a7a08ac21da19a1d9e18ba3be306f8bc601cd87c3c7fa7cd46e94035cf4fd02",
         "question": "Which sentence is correct?",
         "choices": [
           "Of all the players, he is the more tall.",
@@ -16578,6 +17471,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0012",
+        "version": 1,
+        "contentHash": "sha256:1d5d4992d894733fd4ee18f8a18bf132a11a525b1cc26fca2cc8c0b51cb00b58",
         "question": "What is the comparative form of 'well' (health)?",
         "choices": [
           "weller",
@@ -16629,6 +17525,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0013",
+        "version": 1,
+        "contentHash": "sha256:f685051bfae3d5557ee63e51ce7e11bad105e23de385743ed621361cadd1f0e2",
         "question": "Which word correctly completes the sentence? This is the ___ book I have ever read.",
         "choices": [
           "more boring",
@@ -16680,6 +17579,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0014",
+        "version": 1,
+        "contentHash": "sha256:533abd7deeb3805ae904aa1f6b118c0f23dee59a142036d3f8058d14ceaba7b1",
         "question": "What is the correct form? The blue whale is ___ than an elephant.",
         "choices": [
           "more big",
@@ -16731,6 +17633,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0015",
+        "version": 1,
+        "contentHash": "sha256:bf7ed48e3e009e70818ae5a5678c82f76de48ad7b1ebd42f43cff0e3d677e7db",
         "question": "Which sentence uses the comparative correctly?",
         "choices": [
           "This problem is more harder than the first one.",
@@ -16782,6 +17687,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0016",
+        "version": 1,
+        "contentHash": "sha256:40fe9eb1b7b4064c87c9500ec63ff9ce4db6f778ae738a56c675f9923ad55156",
         "question": "Which sentence shows a superlative adverb?",
         "choices": [
           "Beth completed the process very efficiently.",
@@ -16837,6 +17745,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0017",
+        "version": 1,
+        "contentHash": "sha256:8de2d7409a95fc5292877b8a575f070e85ae7012bc3dade5a79542f9cb6a29bd",
         "question": "Which underlined word is used incorrectly in the sentence? After the first session, several students in the class can sew pajamas better than I.",
         "choices": [
           "After",
@@ -16892,6 +17803,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0018",
+        "version": 1,
+        "contentHash": "sha256:66cae68d1444955015c0a692ff68f5210b8163158ad41410124f542256e2b5dc",
         "question": "Which one of the comparative forms is incorrect?",
         "choices": [
           "good - better- best",
@@ -16947,6 +17861,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0019",
+        "version": 1,
+        "contentHash": "sha256:b6049170e1753c9f2dbe72141384e7d851fc81fae4abc6d748ba4e7553e9ac53",
         "question": "Which is the superlative form of the adjective?",
         "choices": [
           "taller",
@@ -17002,6 +17919,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0020",
+        "version": 1,
+        "contentHash": "sha256:ffb9e3910a79aa2eaa34fcc41c7a9f53112c97da969aecde0790bcca018eac59",
         "question": "Which set of comparative adjectives is NOT written correctly?",
         "choices": [
           "h appy - happier - happiest",
@@ -17057,6 +17977,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0021",
+        "version": 1,
+        "contentHash": "sha256:b74e67759b5a9e729d1e34f29a8d3dd0ae0485d34d8756f962bbdca3d1789616",
         "question": "Which sentence contains the correct comparison?",
         "choices": [
           "Belind a is the olde st of the two sisters.",
@@ -17112,6 +18035,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0022",
+        "version": 1,
+        "contentHash": "sha256:0eb3003de1aecb3ae9138903ea69211259522194a85d72222c9187ad91c8dcf8",
         "question": "Choose the best missing word. Yesterday was the _______ day of the year.",
         "choices": [
           "cold er",
@@ -17167,6 +18093,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0023",
+        "version": 1,
+        "contentHash": "sha256:9c36ce21abc8ad02c8c7d879d475e4ddb3c0d547f74c82ecb0921b8d79599f5d",
         "question": "Choose the best missing word. Many people think peanut butter is _______ than jelly.",
         "choices": [
           "good",
@@ -17222,6 +18151,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0024",
+        "version": 1,
+        "contentHash": "sha256:1c50994b46e5aa1091dff43eaf6296c0130d35a057e798f08f31ea2dc8cca5d6",
         "question": "Choose the correct wordor words to complete this sentence? Elvis was the __________ singer of all time.",
         "choices": [
           "great",
@@ -17277,6 +18209,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0025",
+        "version": 1,
+        "contentHash": "sha256:083b29e87b2e6223ffe97ae2caeed8905623643c7f6d8d8498619a97244bd10b",
         "question": "Choose the correct word to complete this sentence. The right answer is usually the _________ choice.",
         "choices": [
           "worst",
@@ -17332,6 +18267,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0026",
+        "version": 1,
+        "contentHash": "sha256:553e6165c2e302cc7153320d41ae6d0e5fbd08756f8c14ab1b4336c436f71876",
         "question": "Choose the missing word. Yesterday, I had the _______ dinner ever.",
         "choices": [
           "b addest",
@@ -17387,6 +18325,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0027",
+        "version": 1,
+        "contentHash": "sha256:fc12d52c04e34f172815c3ecc1a679c58d99668a450656a23000f855ebfd479d",
         "question": "Choose the best missing wordor words. My broken leg was the ______ injury I have ever had.",
         "choices": [
           "p ainfullest",
@@ -17442,6 +18383,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0028",
+        "version": 1,
+        "contentHash": "sha256:a76638324ff8b8d347d88af6c474c4d7e52086b8a1dd090e54adfd7d061b9f80",
         "question": "Choose the best missing wordor words. Joey was the _____ childon the block when he got a new bike for his birthday.",
         "choices": [
           "mo re happy",
@@ -17497,6 +18441,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0029",
+        "version": 1,
+        "contentHash": "sha256:c919fa02d13b4d0878633879bf244588b474acb1865bb77e9f476cff41a0d7a2",
         "question": "Choose the best missing wordor words. She was _______ after the race than before.",
         "choices": [
           "t ired",
@@ -17552,6 +18499,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0030",
+        "version": 1,
+        "contentHash": "sha256:b262bb3748411416d04c24c2d02ca7d9ffb10379dcb96360d81d101a436888ef",
         "question": "Which group of letters are adjectives? Several older homes stood along the pleas ant tree-lined block. A B C D E F",
         "choices": [
           "A, C, D",
@@ -17607,6 +18557,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0031",
+        "version": 1,
+        "contentHash": "sha256:8187b73f79a3c603522c418c1b57cb48fdc535c122ad1f0d361e692d99693ac6",
         "question": "Which words best complete this sentence? Greg is ____________ his father, George.",
         "choices": [
           "tallest than",
@@ -17663,6 +18616,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0032",
+        "version": 1,
+        "contentHash": "sha256:44175e28e44fdd74f96432ad7e6f099ba6a880b83188cf79971583697d0ae419",
         "question": "Choose the correct wordor words to complete the sentence below. This one is _________ than thatone.",
         "choices": [
           "good",
@@ -17719,6 +18675,9 @@
         }
       },
       {
+        "id": "vocabulary-comparatives-superlatives-q0033",
+        "version": 1,
+        "contentHash": "sha256:1659ab0b8a078d89461c7dee5763d5bfdb9e9dc244fedc55c278349e5c59dbf4",
         "question": "Which setof words will complete the sentence below? The lettuce was ________ than the carrots, but the tomatoes were ______ ___ of all.",
         "choices": [
           "f resher, freshest",
@@ -17795,6 +18754,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-word-meaning-context-q0001",
+        "version": 1,
+        "contentHash": "sha256:67aa847de140b2b9fcb530cfa1d43855c6f767d9908cab65afc933083f356d66",
         "question": "In the sentence 'The arid desert had no water for miles,' what does 'arid' mean?",
         "choices": [
           "wet and rainy",
@@ -17848,6 +18810,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0002",
+        "version": 1,
+        "contentHash": "sha256:408eaaf3fc548eb7b8445da46641e03b1497a88e8a1c089cf57200733f814527",
         "question": "'The boy was ecstatic when he won the race.' What does 'ecstatic' mean?",
         "choices": [
           "very sad",
@@ -17901,6 +18866,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0003",
+        "version": 1,
+        "contentHash": "sha256:cb72efd4a44ac2801339dd53c6cd791afd9108b92de9762aa57edae8a39c9c73",
         "question": "'The mammoth building towered over the small houses.' What does 'mammoth' mean?",
         "choices": [
           "tiny",
@@ -17954,6 +18922,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0004",
+        "version": 1,
+        "contentHash": "sha256:6a0224a4c47ad77b44303f15e2eafe3ad88120050a1e09abdef6b888a2a323cd",
         "question": "'After the long hike, the weary travelers finally sat down.' What does 'weary' mean?",
         "choices": [
           "excited",
@@ -18007,6 +18978,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0005",
+        "version": 1,
+        "contentHash": "sha256:08dd5151177ce149dc21acf7212258e82a4af465b8afe2afdae4b24e03354ceb",
         "question": "'The student was meticulous, checking every answer three times.' What does 'meticulous' mean?",
         "choices": [
           "careless",
@@ -18060,6 +19034,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0006",
+        "version": 1,
+        "contentHash": "sha256:c4843caaaae55f1d076fb989160b63d98f840fe922cdca8c93b415314c3a3710",
         "question": "'Unlike her gregarious sister, Maya was quiet and shy.' What does 'gregarious' mean?",
         "choices": [
           "outgoing and sociable",
@@ -18113,6 +19090,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0007",
+        "version": 1,
+        "contentHash": "sha256:c0ad7b20309fb3c2f6d8ae965b12e73feeb34e7d49d53ccb6317fc44df6ebbd4",
         "question": "'The odor from the garbage was so pungent that everyone covered their noses.' What does 'pungent' mean?",
         "choices": [
           "pleasant",
@@ -18166,6 +19146,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0008",
+        "version": 1,
+        "contentHash": "sha256:3eba61d16c6c6a5a0ee5b4bbc4c550ad940d7e63b958801d7c63c88454bf1fac",
         "question": "'The old house looked dilapidated, with broken windows and a sagging roof.' What does 'dilapidated' mean?",
         "choices": [
           "newly built",
@@ -18219,6 +19202,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0009",
+        "version": 1,
+        "contentHash": "sha256:a07019784726541d38e9c269fddabc8fab07338d23f98b8dd9200258dd15a8d3",
         "question": "'The doctor gave the patient a placebo, which was just a sugar pill with no real medicine.' What does 'placebo' mean?",
         "choices": [
           "a strong drug",
@@ -18272,6 +19258,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0010",
+        "version": 1,
+        "contentHash": "sha256:0acbc28f46309fe02ddad54731f055025e0872b5461a7eaee61f390a1136d1e9",
         "question": "'The serpent slithered silently through the grass.' What does 'serpent' mean?",
         "choices": [
           "bird",
@@ -18325,6 +19314,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0011",
+        "version": 1,
+        "contentHash": "sha256:54b85b56c53a7a6247f9933e0db8783a49e2efdd3db12163c28f177f3c015b09",
         "question": "'The children were jubilant because school was canceled due to snow.' What does 'jubilant' mean?",
         "choices": [
           "worried",
@@ -18378,6 +19370,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0012",
+        "version": 1,
+        "contentHash": "sha256:42b8831ae7eb8236b5c5891493e52a62ee39d165bc738885da1a1dfb4ac57973",
         "question": "'The recipe said to simmer the soup, not let it boil rapidly.' What does 'simmer' mean?",
         "choices": [
           "cook at high heat",
@@ -18431,6 +19426,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0013",
+        "version": 1,
+        "contentHash": "sha256:7227c821e9eeb1253e564d485640a74d1c31e7d98c9573fac5c3193221adff9b",
         "question": "'The terrain was so rugged that our car could barely drive over the rocks and holes.' What does 'rugged' mean?",
         "choices": [
           "smooth and flat",
@@ -18484,6 +19482,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0014",
+        "version": 1,
+        "contentHash": "sha256:e44aa307aa868b3ec38cadd9495991c980067c06f2154f821e7f5e7142f08c37",
         "question": "'The witness was candid, telling the whole truth without hiding anything.' What does 'candid' mean?",
         "choices": [
           "dishonest",
@@ -18537,6 +19538,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0015",
+        "version": 1,
+        "contentHash": "sha256:b47d7d912c62299e1dfb587bf3167a67562a3b946c25f79aae977d45cbbb94f2",
         "question": "'The athlete showed great fortitude, continuing to run even though her leg hurt badly.' What does 'fortitude' mean?",
         "choices": [
           "fear",
@@ -18590,6 +19594,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0016",
+        "version": 1,
+        "contentHash": "sha256:1fb9c2408d1e83540b5e84fee226329dadbcfcc54f89716b6e7cdeba51f4a1a8",
         "question": "Use context clues to determine the meaning of the bolded word below. The door was ajar, and we felt a breeze from outside.",
         "choices": [
           "broken",
@@ -18643,6 +19650,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0017",
+        "version": 1,
+        "contentHash": "sha256:c74ec8f3044d6b47741b2a5146e52378274e4d465eae9c3db2981309f85dd8aa",
         "question": "The cars waited for the pedestrian to walk across the street.",
         "choices": [
           "runner",
@@ -18696,6 +19706,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0018",
+        "version": 1,
+        "contentHash": "sha256:91fa1753d06c1900b4628b06386296b5b1332157d474df213070b8ec9e7a13b4",
         "question": "He had never ridden a horse before and was a novice.",
         "choices": [
           "beginner",
@@ -18749,6 +19762,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0019",
+        "version": 1,
+        "contentHash": "sha256:ecea78562ba90ae84d1aeaae3679286288ebc047f8a74e43b0876f77851e8bc6",
         "question": "He hadn't had lunch and was famished by dinnertime.",
         "choices": [
           "full",
@@ -18802,6 +19818,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0020",
+        "version": 1,
+        "contentHash": "sha256:ea23613cc02c60b1cebd44e5d87112dc3534664ea583de91cca35e1580533265",
         "question": "After borrowing money from her friend, she was indebted to her for $2.",
         "choices": [
           "paid",
@@ -18855,6 +19874,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0021",
+        "version": 1,
+        "contentHash": "sha256:bb48d5903e87f3af68f9ae2c57d9965dac93bec0ee8291bd3279d49390b7a250",
         "question": "We could not see the sun because it was overcast.",
         "choices": [
           "sunny",
@@ -18908,6 +19930,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0022",
+        "version": 1,
+        "contentHash": "sha256:204a74a5e8943ca63e6a4b51a3035068ef88e30738d03ea77896481f3c2e271a",
         "question": "The noisy kids were told to vacate the movie theater.",
         "choices": [
           "leave",
@@ -18961,6 +19986,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0023",
+        "version": 1,
+        "contentHash": "sha256:ab4365980169ee30f03a9d19acfd8e8583fcf9be0273dc5fe0aa5627feafa50e",
         "question": "Rex is a feisty dog and is always ready to fight.",
         "choices": [
           "aggressive",
@@ -19014,6 +20042,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0024",
+        "version": 1,
+        "contentHash": "sha256:9df0bec3a1fb9d043f2746cc17e2596abac3374102a6509180e50b024fb2b2d8",
         "question": "Hanna didn't know where the Indian Ocean was, so she looked in an atlas.",
         "choices": [
           "book of poems",
@@ -19067,6 +20098,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0025",
+        "version": 1,
+        "contentHash": "sha256:0fd9ce3f827e0421ed9035f0c75064ba58ab763d7d6fe51902bae14182f641d7",
         "question": "Don't forget to put quotation marks around dialogue.",
         "choices": [
           "dancing",
@@ -19120,6 +20154,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0026",
+        "version": 1,
+        "contentHash": "sha256:2a2e9be7430dc58293a452ca23e481c5b59e1416477adab6155f388a40efad74",
         "question": "His brother bothered him all afternoon and made him irate.",
         "choices": [
           "sad",
@@ -19173,6 +20210,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0027",
+        "version": 1,
+        "contentHash": "sha256:1b29bf85146792cb9003f3e6bd6d8cf8f3941b86d73800414347e3f0ea6b2931",
         "question": "Use context clues to determine the meaning of the bolded word below. The hummingbird hovered above the flower.",
         "choices": [
           "ran fast",
@@ -19226,6 +20266,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0028",
+        "version": 1,
+        "contentHash": "sha256:7cacdf00756037f0c62579a2443424938d7db5f1d8b3ba4e38197efcde8823ee",
         "question": "Use context clues to determine the meaning of the bolded word below. The bully tried to antagonize the smaller boy by taking his hat and holding it out of reach.",
         "choices": [
           "bother",
@@ -19279,6 +20322,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0029",
+        "version": 1,
+        "contentHash": "sha256:88335cd36eef2e800692649e1eeed253e101c8fca36a01a7476baa263ae0a3e5",
         "question": "Use context clues to determine the meaning of the bolded words below. When Rachel won the prize she had always wanted, she was elated.",
         "choices": [
           "happy",
@@ -19332,6 +20378,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0030",
+        "version": 1,
+        "contentHash": "sha256:02fbd9bfe7a1cc2c1d0714fdcecfe69f1c8d6e431ec26d45fdfa416c40d2a37b",
         "question": "Use context clues to determine the meaning of the bolded words below. She was persistent and didn't give up trying out for the team.",
         "choices": [
           "sleepy",
@@ -19385,6 +20434,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0031",
+        "version": 1,
+        "contentHash": "sha256:ced87eb89ea0e3c374ae93ffdb74554a48c822a7383a9060f1865b694ba901ad",
         "question": "Use context clues to determine the meaning of the bolded words below. On Halloween, he will masquerade as a ghost by using a sheet.",
         "choices": [
           "hide",
@@ -19438,6 +20490,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0032",
+        "version": 1,
+        "contentHash": "sha256:f6563afb27a5e1bdca4beb6b3c9fdf4c81e69e9d02d179267be19e5b2a33f7e6",
         "question": "Use context clues to determine the meaning of the bolded words below. He was ailing, so he stayed home from school and went to the doctor.",
         "choices": [
           "sick",
@@ -19491,6 +20546,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0033",
+        "version": 1,
+        "contentHash": "sha256:3019abb1d32f2765f581800c965ab862f04b91c8654130c29ef4858bf1aee899",
         "question": "Use context clues to determine the meaning of the bolded word below. The book was so enthralling that we wanted to keep on reading.",
         "choices": [
           "scary",
@@ -19544,6 +20602,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0034",
+        "version": 1,
+        "contentHash": "sha256:ae0ea7d27b1fb57da5c7ca53f1371e5b7e60d90fb872f3982a64451eba6c108e",
         "question": "Use context clues to determine the meaning of the bolded words below. He wrote an inaccurate answer for the math problem and had to correct it.",
         "choices": [
           "wrong",
@@ -19597,6 +20658,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0035",
+        "version": 1,
+        "contentHash": "sha256:a439620b99d3136092b99225fbf8b0bb50f48ad5b74ff4648b6dfd450d1c19ac",
         "question": "Use context clues to determine the meaning of the bolded words below. The rubbish was laying outside and around the trash can, making a big mess.",
         "choices": [
           "treasure",
@@ -19650,6 +20714,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0036",
+        "version": 1,
+        "contentHash": "sha256:3af1360ed57a3488b3c1b51786cb04e0728158ca9dfed8f33b856326ddf1a587",
         "question": "Use context clues to determine the meaning of the bolded words below. He pleaded with his dad to increase his allowance to $5 a week.",
         "choices": [
           "ignored",
@@ -19703,6 +20770,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0037",
+        "version": 1,
+        "contentHash": "sha256:7829b54a9fb96a3297d25ca9c27195aef7e82592e37585571e02f4fa5628a8c2",
         "question": "Use context clues to determine the meaning of the bolded words below. The dog's incessant barking all day long drove the neighborhood crazy.",
         "choices": [
           "quiet",
@@ -19756,6 +20826,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0038",
+        "version": 1,
+        "contentHash": "sha256:4b3ad91d7cba6b1b12d135b2d84b454cbbf235e49a897001a45e003abec6c8e2",
         "question": "Use context clues to determine the meaning of the bolded word below. My family resides at 1702 Morning Park Lane.",
         "choices": [
           "eats",
@@ -19809,6 +20882,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0039",
+        "version": 1,
+        "contentHash": "sha256:fe4d104fea124455894125204e909f6059c43c394668fa6f596ab0e611bd57e4",
         "question": "Use context clues to determine the meaning of the bolded word below. He tells good jokes and is very humorous.",
         "choices": [
           "serious",
@@ -19862,6 +20938,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0040",
+        "version": 1,
+        "contentHash": "sha256:b45ba6de307c1c758bd41dc236c7ae1fd57cf6573d68f1aff7ca76b3974b5a37",
         "question": "Use context clues to determine the meaning of the bolded word below. The lion tamer's shirt was tattered after the lion tried to scratch him.",
         "choices": [
           "torn",
@@ -19915,6 +20994,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0041",
+        "version": 1,
+        "contentHash": "sha256:4db25da0977e494e5971db73896714d66ecb871ff842577eb63b39e1eb183779",
         "question": "Read the passage. Suddenly he wished that he hadn’t left his bed, that he’d stayed away from the Hatching Ground. Now everyone would see his ignominious failure. So, he scrambled as desperately to reach the shadowy walls of the Hatching Ground as he had struggled to cross the bowl. He mustn’t be seen. Which word in this story means the same as shameful.",
         "choices": [
           "ignominious",
@@ -19963,7 +21045,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 6,
+          "sequence": 41,
           "testFocus": [
             "MAP"
           ],
@@ -19973,6 +21055,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0042",
+        "version": 1,
+        "contentHash": "sha256:04ac2ffa0bdac39bc5dd79430d81c702b22d340ce4be24fa1b9f06b453d433dd",
         "question": "Read the paragraph. “It is fear, Mr. Holmes. It is terror.” She raised her veil as she spoke, and we could see that she was indeed in a pitiable state of agitation, her face all drawn and gray, with restless, frightened eyes, like those of some hunted animal. Her features and figure were those of a woman of thirty, buther hair was shot with premature gray, and her expression was weary and haggard. Sherlock Holmes ran her over with one of his quick, all-comprehensive glances. In this paragraph, what does the word agitation mean?",
         "choices": [
           "mixed up",
@@ -20021,7 +21106,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 8,
+          "sequence": 42,
           "testFocus": [
             "MAP"
           ],
@@ -20031,6 +21116,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0043",
+        "version": 1,
+        "contentHash": "sha256:c64734319c5c8c0bb73f3f2d5f5f10bec812f171b06050635e5f3b8ddebfcf0e",
         "question": "On Halloween, the bat was flying in the dark night. What does bat mean?",
         "choices": [
           "hit",
@@ -20079,7 +21167,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 13,
+          "sequence": 43,
           "testFocus": [
             "MAP"
           ],
@@ -20089,6 +21177,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0044",
+        "version": 1,
+        "contentHash": "sha256:128a52e8c021aa621bd829887a3c83c072802bce81b6d271725b0e846682dcfd",
         "question": "Which word means to “do again”?",
         "choices": [
           "undo",
@@ -20137,7 +21228,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 15,
+          "sequence": 44,
           "testFocus": [
             "MAP"
           ],
@@ -20147,6 +21238,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0045",
+        "version": 1,
+        "contentHash": "sha256:5efacd367ae62cc5bf48f15cc729e1e0d81fe73586ec64d6e17dfded6386c7f9",
         "question": "Sara has a new red velvet bonnet to wear on her head in the Christmas program. The word bonnet probably means:",
         "choices": [
           "hat",
@@ -20195,7 +21289,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 18,
+          "sequence": 45,
           "testFocus": [
             "MAP"
           ],
@@ -20205,6 +21299,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0046",
+        "version": 1,
+        "contentHash": "sha256:169a058d92a7e89edde4872763c69269e0fa69e1652ef9f7c3e14a444b299141",
         "question": "Read the paragraph: At last, the children got to school. They were happy to see their teacher. The engine on the school bus had broken and was smoking. Another bus had to bring the students to school. In the paragraph, engine means:",
         "choices": [
           "lunch",
@@ -20253,7 +21350,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 19,
+          "sequence": 46,
           "testFocus": [
             "MAP"
           ],
@@ -20263,6 +21360,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0063",
+        "version": 1,
+        "contentHash": "sha256:ad2dcaca6bc56454e07a9adcda088f89f481c99ab4ccfe87b42ca4fd4a50ee96",
         "question": "Which person does not belong in a family?",
         "choices": [
           "mo ther",
@@ -20321,6 +21421,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0064",
+        "version": 1,
+        "contentHash": "sha256:b7a0a4e73686ea4376c8d450f8b010ad721d98ca2706fe7945c85a3d13c19772",
         "question": "I can bounce a ________.",
         "choices": [
           "glass",
@@ -20379,6 +21482,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0065",
+        "version": 1,
+        "contentHash": "sha256:69ccee825db2537dac45b326e7e0a020c1d1f92bf664daf3cf004d64ece002fc",
         "question": "Choose the correct word. Please raise your _______ arm.",
         "choices": [
           "rit e",
@@ -20437,6 +21543,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0066",
+        "version": 1,
+        "contentHash": "sha256:64e8ea9ebccd5dae51276bd0c4218c81f69057b907f49ebc041b1fd6b06012d5",
         "question": "It is not _________ to talk with strangers.",
         "choices": [
           "h appy",
@@ -20495,6 +21604,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0067",
+        "version": 1,
+        "contentHash": "sha256:962511ec5a219daf30ab41b0bf22927d48fb608d43497c14603172567bd0e448",
         "question": "Choose the correct word ending. The sing__ sang a beautiful song.",
         "choices": [
           "er",
@@ -20553,6 +21665,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0068",
+        "version": 1,
+        "contentHash": "sha256:ea0e52fc9df3f34e41c2d4f56ff70db4106c11f28ee10e1fa78904f15ff5d2ca",
         "question": "Choose the correct word for the sentence below. Don’t ______ your coat when it is cold outside.",
         "choices": [
           "rez ip",
@@ -20611,6 +21726,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0069",
+        "version": 1,
+        "contentHash": "sha256:3e56ff892b7a73db864bda2f97710e353009b22bd41eb94365213e1d02b95136",
         "question": "Choose the word that belongs with man and fan.",
         "choices": [
           "f at",
@@ -20669,6 +21787,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0070",
+        "version": 1,
+        "contentHash": "sha256:07f00b4f1692f50112982f69c810c19e27093fa04d3e1a72b16a4881d8335f6b",
         "question": "Read the sentence and choose the correct word. Since it ________ last night, we had to wear our boots to school.",
         "choices": [
           "slid e",
@@ -20727,6 +21848,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0071",
+        "version": 1,
+        "contentHash": "sha256:739c78f2e5977cdf3053ee5518a4bbdfb4ae2c410be376dd96d3e59844843376",
         "question": "I will help mother dress the turkey. What does the word dress mean?",
         "choices": [
           "ou tfit",
@@ -20785,6 +21909,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0074",
+        "version": 1,
+        "contentHash": "sha256:7b5bd5d0c38e61fab9b51320aa0d767702391f24cf1712d9bfe91966302a3fe2",
         "question": "To eat, you need a __________.",
         "choices": [
           "coat",
@@ -20843,6 +21970,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0075",
+        "version": 1,
+        "contentHash": "sha256:6a9e949adf897c446c30a131f9daca4f37a6edf07f3f8d0e76196ee88dce34f9",
         "question": "The sunset was a beautiful ____________.",
         "choices": [
           "sight",
@@ -20901,6 +22031,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0076",
+        "version": 1,
+        "contentHash": "sha256:29222ef049286ed72100afbded760c2f419aa1f3bbb7f789c3368e5fbea5bb9c",
         "question": "Choose the word that has both /a/ and short /i/.",
         "choices": [
           "ab out",
@@ -20959,6 +22092,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0077",
+        "version": 1,
+        "contentHash": "sha256:fc0d18fe6e9d04078b20f492bbf763a34b73f7d45ebcb10bb869f22664ba71b3",
         "question": "Fred lost his left sock. What does sock mean?",
         "choices": [
           "look",
@@ -21017,6 +22153,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0080",
+        "version": 1,
+        "contentHash": "sha256:22d4611c262c0222c17a410a314506685726ea2581b20ed672e35c371c9939b4",
         "question": "The ___________ rushed to the burning building.",
         "choices": [
           "h ot",
@@ -21075,6 +22214,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0081",
+        "version": 1,
+        "contentHash": "sha256:b7080624f32d00b88fce8d35fabb277d49ea11d33805c23c3c52e9bab62543aa",
         "question": "Rachel was ecstatic when she won the prize at the fair. In the sentence, ecstatic mean s:",
         "choices": [
           "scared",
@@ -21133,6 +22275,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0083",
+        "version": 1,
+        "contentHash": "sha256:aef2ba731569a5015780e5a9e9e735c4d1ee7b23f364989593130f1793d5acdd",
         "question": "January, February, March, ____________.",
         "choices": [
           "Su nday",
@@ -21191,6 +22336,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0084",
+        "version": 1,
+        "contentHash": "sha256:eedb4aa916c62168d52c4fab24091b839d489d80e5a6e87194b46c3d418f5c32",
         "question": "In school we write on __________.",
         "choices": [
           "p aper",
@@ -21249,6 +22397,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0085",
+        "version": 1,
+        "contentHash": "sha256:348d6a7e61c4f38d4fca5e1ddde0974beea6edd508098cd06bf33b294fecca00",
         "question": "Jane laughed at the funny clown when she was at the circus. Which word means the same as laughed?",
         "choices": [
           "cried",
@@ -21307,6 +22458,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0086",
+        "version": 1,
+        "contentHash": "sha256:e30ffe42334b2ab4adae7f99ceb2b50c5f743f7cdfcac73b444395a837d74e28",
         "question": "Choose the missing word. We hope that we _______ the game.",
         "choices": [
           "w it",
@@ -21365,6 +22519,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0087",
+        "version": 1,
+        "contentHash": "sha256:4db6a2c5ea537b65183afb0f5a6975c064d9670b5c30823c157b1cb0b20f8f93",
         "question": "Which word is a compound word?",
         "choices": [
           "sister",
@@ -21423,6 +22580,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0089",
+        "version": 1,
+        "contentHash": "sha256:fabbdf66aa5cf368c8693124524aeeff03a2a9a374a013d3cf86cff008e372c2",
         "question": "Last summer we packed our suitcases and went on a long trip. We drove to Montana and visited my grandma. It was such a fun trip. In the story, what does trip mean?",
         "choices": [
           "vacation",
@@ -21481,6 +22641,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0091",
+        "version": 1,
+        "contentHash": "sha256:faac60165bd08aa52a3717850741b15f81c535f30619f4faceb808b5dae8a156",
         "question": "Hilda was very blue when her puppy was missing. In the sentence, the word blue means:",
         "choices": [
           "cold",
@@ -21539,6 +22702,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0093",
+        "version": 1,
+        "contentHash": "sha256:768f99953b76f93276f429f22e3d11b0078c6809bb2c6a45af481133d1aae652",
         "question": "Which animal belongs in a zoo?",
         "choices": [
           "cat",
@@ -21597,6 +22763,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0094",
+        "version": 1,
+        "contentHash": "sha256:0ace36c4b03c3ddc1a4c9921dd5cf9e97ecfe38d788383672a7570370d62ac47",
         "question": "The sweater is made of fabric that is warm and soft. What does fabric mean?",
         "choices": [
           "clot h",
@@ -21655,6 +22824,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0096",
+        "version": 1,
+        "contentHash": "sha256:87bb2f04ec01ac2c463096b4e223a510ec924aba831061364c124714293533b0",
         "question": "Choose the correct contraction for “you are”.",
         "choices": [
           "your",
@@ -21713,6 +22885,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0098",
+        "version": 1,
+        "contentHash": "sha256:09a07d2623286b328d78ec76c4bcec1f6722e2cb46280606a1872ff5b4b62563",
         "question": "The class was surprised when their teacher told them to “zip it up” when they were too noisy. What does “zip it up” mean in this sentence?",
         "choices": [
           "go away",
@@ -21771,6 +22946,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0099",
+        "version": 1,
+        "contentHash": "sha256:88fbfe4f0bf5d16c8cb4f60f214a50c42955c5aadbe5e998c391a3f34ab66290",
         "question": "From the dock, we could see the _________ shining in the dark.",
         "choices": [
           "lighthouse",
@@ -21829,6 +23007,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0102",
+        "version": 1,
+        "contentHash": "sha256:368c9e6886a24403d0701ab5eccaf00fea15eb32156bf0390c0a5aaef73ac814",
         "question": "Which group of letters only contains vowels?",
         "choices": [
           "a, o, n, d",
@@ -21887,6 +23068,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0145",
+        "version": 1,
+        "contentHash": "sha256:54558f8f549780649df23800a5674232fe26d14da1d53c358af36856e5cd3b9f",
         "question": "Read the list. hook, worm, rod, reel The above items are used for _________.",
         "choices": [
           "f ishing",
@@ -21945,6 +23129,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0146",
+        "version": 1,
+        "contentHash": "sha256:363407b20de12ff9bf6dc6f99c79b7e5c6fc0c0008c5b3d2ede29720957bb132",
         "question": "Read the passage. Washing our hands before meals is important to our health. Some dirt ha s germs and germs causedisease. If we eat with dirty hands, the germs can enter our bodies with the food. So, if you want to look good and stay healthy, you m ust keep yourself clean. Which words persuade the reader to wash their hands?",
         "choices": [
           "t o look good",
@@ -22003,6 +23190,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0149",
+        "version": 1,
+        "contentHash": "sha256:19a188307f6f0c188817407904e5663a1afae79f271b6771f6e0dc999cd13b9a",
         "question": "The new puppies were playing in the yard. The black one scampered while the white one tried to catch him. In this sentence, the word scampered means:",
         "choices": [
           "d og",
@@ -22061,6 +23251,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0151",
+        "version": 1,
+        "contentHash": "sha256:5d723ed70e994150903b4449db11c609917a576576519e87acfc6fa71b06ccf0",
         "question": "Read the passage. Yes, Utzel hated everybody and everything, buthe adored his daughter. H e daydreamed that a rich young man would fall in love with her, marry her, and “Utzel and H is Daughter, Poverty,” p age 149. Teacher auth ors: Phillips, provide for his wife and his fat her- in -law. But not a young man in the village showed Blackman, Felts). the slightest interest in poverty. In the passage, what does the compound word daydream ed mean?",
         "choices": [
           "p leasant thoughts",
@@ -22119,6 +23312,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0153",
+        "version": 1,
+        "contentHash": "sha256:3993176668c2cf6cdad6b79ea6f291d0ff90e8d5cce83d3657420f6a8cf54e70",
         "question": "Complete the sentence. The farmer went into the fields to _______ his seeds.",
         "choices": [
           "so",
@@ -22177,6 +23373,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0197",
+        "version": 1,
+        "contentHash": "sha256:2e2f72609bc6b10a091222beeb57fd62dc43c2f80e33995ba136e598c99c04b1",
         "question": "Look at the list of words: Computer Television Digital Camera Calculator How are the above items alike?",
         "choices": [
           "All the words have the letter “C”.",
@@ -22235,6 +23434,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0198",
+        "version": 1,
+        "contentHash": "sha256:79644af61f8ff14d069e249f3b782a1e603d2ca5b2078e35177f07b69df5d570",
         "question": "To which of the five senses does this set of words appeal: hot, cold, rough, soft?",
         "choices": [
           "t ouch",
@@ -22293,6 +23495,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0201",
+        "version": 1,
+        "contentHash": "sha256:1a24785a53c8974fc3b5bd081b272ac475d139cb8f66b2b41030b8c10cfe0517",
         "question": "Which sentence uses an underlined saying correctly?",
         "choices": [
           "Sh e was really in a fix when she forgot to do her homework.",
@@ -22351,6 +23556,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0202",
+        "version": 1,
+        "contentHash": "sha256:5812872394a6b93ad2faabbc3d5e39f35330f7754019d1285395476aa181c592",
         "question": "Choose the correct contraction for the underlined words. It does not make sense to put your shoes on before your socks.",
         "choices": [
           "isn’t",
@@ -22409,6 +23617,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0203",
+        "version": 1,
+        "contentHash": "sha256:55e51660c1366a378936a62db363c4882ff3a24b3c2cc25498472f84f40d1d89",
         "question": "Read the passage. We selected for our victim the only child of a prominent citizen named Ebenezer Henry. “The Rans om of Red Chi ef” page 25. (T eacher au th ors: Phillips, Blackman, Felts). Dorset. The fat her was respectable and tight, a mortgage fancier and a stern, upright collection-plate passer and forecloser. The kid was a boy of ten, with freckles. In the passage, what does the word prominent mean?",
         "choices": [
           "u nnoticeable",
@@ -22467,6 +23678,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0207",
+        "version": 1,
+        "contentHash": "sha256:171d9afbb73fc706b8ab01bc440f1f0b4a6f34f8760c2339ab40ea7e592e5653",
         "question": "Which group of words are all examples of fruit?",
         "choices": [
           "rasp berries, pears, apples, ice cream",
@@ -22525,6 +23739,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0208",
+        "version": 1,
+        "contentHash": "sha256:48ba3a591049cc46560bbb3471ff043ad191e01130d9ee6a49e04a37711703d5",
         "question": "Read the phrases. Not! No way. Never. Don’t even think about it. The above phrases are all alike because:",
         "choices": [
           "they are short phrases",
@@ -22583,6 +23800,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0209",
+        "version": 1,
+        "contentHash": "sha256:3dcfa5c1bba7f838b9e452a39ac5b57f9ca63e43f046d74d9d59d375d19670c3",
         "question": "Read the story. An eight-year old boy named Justin lived next door. He had brown hair, brown eyes, and a few freckles. He was fairly short for his age. This summer, Justin was learning to ride his skateboard. He practiced every day until he could balance and stay on his board without falling off. He then tried to jump off the curb and land on his board without crashing. He tried and tried, but each time, he fell off. Finally, he picked up his skateboard, threw it on the ground, and began to cry. At the same time, the neighbor across the street watching from her window saw him throw his skateboard and decided that Justin had a terrible temper. “Bec ause he’s so small, he just can’t skate very well,” she said. What wrong idea did Justin’s neighbor have?",
         "choices": [
           "Small boys should not ride skateboards.",
@@ -22641,6 +23861,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0212",
+        "version": 1,
+        "contentHash": "sha256:9e903d7248887371e2705b412d1a57db8ce41d5fce8ce8ce43fe9354c4bf4b83",
         "question": "Choose the word that is divided correctly.",
         "choices": [
           "hun/dred",
@@ -22699,6 +23922,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0215",
+        "version": 1,
+        "contentHash": "sha256:fcf72c54f1a6dfa2395fbc95a33b4675e45bdede42736cb5f15fd8138242050c",
         "question": "Fill in the blank. When we went to Cheyenne, we drove ________ a tunnel.",
         "choices": [
           "t hrew",
@@ -22757,6 +23983,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0090",
+        "version": 1,
+        "contentHash": "sha256:5c73faf3cf79cdd3085b9cc7b4fd04b9d2bba15879863ad291cb8e244a5dccaf",
         "question": "Choose the best replacement adjective for the underlined word in the sentence below. The shouting next door told me that they were having their nightly quarrel.",
         "choices": [
           "meeting",
@@ -22811,10 +24040,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 1
+          "sequence": 90
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0092",
+        "version": 1,
+        "contentHash": "sha256:ab5ad1966882fceb6df8551e8eef1f8dec971be5454e12d69fcbbb5cfecafcce",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. Everyone was very fortunate that they were not hurt in the car accident.",
         "choices": [
           "lucky",
@@ -22869,10 +24101,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 4
+          "sequence": 92
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0095",
+        "version": 1,
+        "contentHash": "sha256:53dc8fd984bd31b2fae6e243dc9f1f53cae7fa37a2aa1bfc957b558df784e1ab",
         "question": "The word “cease” most nearly means: If the arguing does not cease immediately, you will both be sent to your room.",
         "choices": [
           "b ecome less noisy",
@@ -22927,10 +24162,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 11
+          "sequence": 95
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0097",
+        "version": 1,
+        "contentHash": "sha256:94f25c4d5c6cfac8ebc228bde946cf8d20068dd6eea3a6faa4e1d0ee66a3e817",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. There are several different ways minerals ca n be ext racted from the earth, but two main methods are called surface mining and subsurface mining.",
         "choices": [
           "t o put in",
@@ -22985,10 +24223,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 14
+          "sequence": 97
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0100",
+        "version": 1,
+        "contentHash": "sha256:e3b3ce6cfb1202afa66ba4074373497e8435b0a00022e7cd7a94597c4c0c893d",
         "question": "The word “” most nearly navigate means: The 4,000 passenger cruise ship was able to safely navigate the Panama Canal.",
         "choices": [
           "d rive",
@@ -23043,10 +24284,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 21
+          "sequence": 100
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0101",
+        "version": 1,
+        "contentHash": "sha256:e6b0feea49909d5219f9c61f832711d48e7f969cb6a4095a2048304dc8d2ca8c",
         "question": "Read the three dictionary definitions for the word “due”. Then choose the sentence that uses it as an adjective. Due [ doo ] adjective 1. expected to arrive at a certain time 2. required or owed noun 3. a fee or required payment adverb 4. referring to a compass, exactly or directly",
         "choices": [
           "I h ave to pay my club dues before the first of the month.",
@@ -23101,10 +24345,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 23
+          "sequence": 101
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0103",
+        "version": 1,
+        "contentHash": "sha256:4a9deef6e3669e9644b91ac1a064ce2f4de28e8ca2c7745ef5dfa0afbc6268ea",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. When it healed, and fears of never being able to do gymnastics again Sarah’s were assuaged, she was seldom self-conscious about h injury. er",
         "choices": [
           "w orsened",
@@ -23159,10 +24406,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 24
+          "sequence": 103
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0104",
+        "version": 1,
+        "contentHash": "sha256:46061c403748bdffdb0e83b22fc66b00435c2686431606076b4529cf40050fbb",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. Dawn did not want to approach the dog, it looked mean and was snarling at her.",
         "choices": [
           "loo k out",
@@ -23217,10 +24467,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 31
+          "sequence": 104
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0105",
+        "version": 1,
+        "contentHash": "sha256:0bc5145bbd7f68aab78b1358f3031565586fbf973b784fc9ed7fba1d04357a37",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. I had to select one toy, and it was hard because I wanted them both.",
         "choices": [
           "d ivide",
@@ -23275,10 +24528,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 41
+          "sequence": 105
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0106",
+        "version": 1,
+        "contentHash": "sha256:a09ae62e02704e2523fc3e196df272947958f3bfda2bab8289c766b89b1d9e0a",
         "question": "Read the following sentence, use the context clues, and choose the word that best fits the meaning of the underlined word. The doctor had to consult w ith his colleagues before coming up with a diagnosis.",
         "choices": [
           "rest rict",
@@ -23333,10 +24589,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 42
+          "sequence": 106
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0107",
+        "version": 1,
+        "contentHash": "sha256:bb05d1535c92ebb522dc006054c6fa0d6d238021595933ce935055c4b74e0e48",
         "question": "Which reference source would you use to find part of speech for a word? the",
         "choices": [
           "p hone book",
@@ -23391,10 +24650,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 46
+          "sequence": 107
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0050",
+        "version": 1,
+        "contentHash": "sha256:ee59af12f3fb57e0b752458c1ae8fd91e63bd9489c4f08e43ebecb1318c7fa6c",
         "question": "Choose the best word to complete the sentence. The dog was so ________, it had to have a muzzle and be put on a chain.",
         "choices": [
           "happy",
@@ -23453,6 +24715,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0051",
+        "version": 1,
+        "contentHash": "sha256:4fc007dc9fe73186e8ffaa83a063a76d0d56fe347c4bd1872f2f5c1e93686c88",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. My brothers are both lifeguards, but they work at different pools and don’t see each other very often.",
         "choices": [
           "sep arate",
@@ -23511,6 +24776,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0056",
+        "version": 1,
+        "contentHash": "sha256:5819fe296705af56c75abde2cbcc0feb7f9be643cc487ac33219bd1a522631d9",
         "question": "If a word had multiple meanings, which reference source would you use to see what the different meanings were?",
         "choices": [
           "d ictionary",
@@ -23569,6 +24837,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0059",
+        "version": 1,
+        "contentHash": "sha256:1a5d3ff1b1bfc03de5b0a2328604a3b1349b283a0cc6adf160528b91108315bb",
         "question": "Which word best completes the sentence? The young girl _______ as her older brother left for college.",
         "choices": [
           "f ailed",
@@ -23627,6 +24898,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0061",
+        "version": 1,
+        "contentHash": "sha256:137192e3edb346ffbcdf642a7eea059d1dd5f092d2ab898a7c7fdd0f42e6d016",
         "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits the meaning. Our camp counselor told us to bring the necessary supplies to the art center, or we wouldn’t be able to do the project.",
         "choices": [
           "optional",
@@ -23685,6 +24959,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0108",
+        "version": 1,
+        "contentHash": "sha256:522f0cc17c419da6a79256f7a0a8129f580ca0fd598eacf1a6fb6460bd72564f",
         "question": "Which reference material would you use to find information on how to make strawberry jelly?",
         "choices": [
           "dictionary",
@@ -23739,10 +25016,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 65
+          "sequence": 108
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0109",
+        "version": 1,
+        "contentHash": "sha256:eec35deaeeb5ed7b4a7824517011320da543ef25c27d6276e79abb5ce0f406fd",
         "question": "Which reference material would you use to find how to pronounce a word?",
         "choices": [
           "dictionary",
@@ -23797,10 +25077,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 75
+          "sequence": 109
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0082",
+        "version": 1,
+        "contentHash": "sha256:190df4eb26d8783fcce02363bc234a2576378ec99c496a1b2131dcb140d6381e",
         "question": "Read the following sentence, use the context clues, and choose the word that best fits the meaning of the underlined word. Everyone thought she was lying, but Jessica declared she was telling the truth.",
         "choices": [
           "proclaimed",
@@ -23859,6 +25142,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0110",
+        "version": 1,
+        "contentHash": "sha256:0a1ff98919e3c1a47f9e0fe24a075a7e14ab71acb50018ab92d441a1bb4c6818",
         "question": "Which reference material would you use to find information about a European country?",
         "choices": [
           "glossary",
@@ -23913,10 +25199,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 86
+          "sequence": 110
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0111",
+        "version": 1,
+        "contentHash": "sha256:edea71b6281a9ba1fc9d24d4227aee94eb3321a176ac706eb65b267cd32e3b0a",
         "question": "Choose the correct word for the sentence below. My dog is the _________ when he gets his dog treat with peanut butter on top.",
         "choices": [
           "h appy",
@@ -23971,10 +25260,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 16
+          "sequence": 111
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0112",
+        "version": 1,
+        "contentHash": "sha256:fe9cc20e9998d1d9517b31ff4fc6c7b6db9c84351750a10726f32eebe3b27488",
         "question": "Use the correct word to complete the sentence. They fell in love and decided to _________ in December.",
         "choices": [
           "marry",
@@ -24029,10 +25321,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 20
+          "sequence": 112
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0113",
+        "version": 1,
+        "contentHash": "sha256:45120d5f817e65c3b7f84d970a184f74c217b728c144f5e2efe4d698ab4311d8",
         "question": "Choose the word that best completes the sentence. Trey is a(n) ________. He always likes to be the center of attention and can perform in an instant.",
         "choices": [
           "in trovert",
@@ -24087,10 +25382,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 29
+          "sequence": 113
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0114",
+        "version": 1,
+        "contentHash": "sha256:3ee796c07bc2f819c36ce4d33c0e80f3a805c94fa2d3b8f08cd0c47da151f65e",
         "question": "What word best completes the sentence? My mom was __________ with me when I went outside to play instea d of finishing my chores.",
         "choices": [
           "h orrified",
@@ -24145,10 +25443,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 33
+          "sequence": 114
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0115",
+        "version": 1,
+        "contentHash": "sha256:43f0f463c0f2a4c5f23407e323de1214ec5b27f768e97b8da37e03341a15ccd7",
         "question": "Read the following sentence, use the context clues to choose t he word that best fits the meaning of the underlined word. Environmentalists and scientists have established that recycling is good for our planet.",
         "choices": [
           "at tended",
@@ -24203,10 +25504,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 39
+          "sequence": 115
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0116",
+        "version": 1,
+        "contentHash": "sha256:79a6494a09ce16082b4ac422d7d326a6f2f5f124924ffea8d73da395a99e00e9",
         "question": "Choose the correct word to complete the sentence. Josh _______ the ball and broke the window.",
         "choices": [
           "t hrew",
@@ -24261,10 +25565,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 41
+          "sequence": 116
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0054",
+        "version": 1,
+        "contentHash": "sha256:1995a65a74e80700a31c06b2fef4b667552f8bbf085baeb55f48b35f97e79ecb",
         "question": "Use the context the sentence to determine the meaning the of underlined word. Choose the word that best fits the meaning. Having a heated indoor and outdoor pool at the hotel was a luxury Rachel was not expecting.",
         "choices": [
           "problem",
@@ -24323,6 +25630,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0117",
+        "version": 1,
+        "contentHash": "sha256:6bd4c4abc735282a347999f3aeccec2f960d08dd1642573037d1a3334b5e02aa",
         "question": "Choose the correct the sentence word for below. I water skiing at the lake this summer.",
         "choices": [
           "gone",
@@ -24377,10 +25687,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 67
+          "sequence": 117
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0073",
+        "version": 1,
+        "contentHash": "sha256:10046830c85fcff5e4d8c243fd399d478cfec4220766b84433f07c64eed56708",
         "question": "Replace the underlined words with the answer that shows people were very afraid of seeing the pirate. No one wanted to be down by the sea at night because they were afraid of seeing Old Eyepatch Joe.",
         "choices": [
           "were worried about",
@@ -24439,6 +25752,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0119",
+        "version": 1,
+        "contentHash": "sha256:b9d95fe74a12500ecb78f662b926c51858dea9ceea2567a86acee219e82e775b",
         "question": "What is the correct order of the words in the sentence? Fariq and his family visited the Statue of Liberty yesterday although it was cold, alarmingly and snowy.",
         "choices": [
           "Fariq and his family visited the Statue of Li berty yesterday although it wa s cold alarmingly, and snowy.",
@@ -24493,10 +25809,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 112
+          "sequence": 119
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0120",
+        "version": 1,
+        "contentHash": "sha256:cd360db6e8f6e3313653bd0592542aaf4bd4228a4e933fe8c217cab613865728",
         "question": "Read the passage below. What does the speaker mean when he co mpares Alex to a brick wall? The starting keeper was out with a concussion, so Alex was finally ge tting to play. He had practiced and prepared for this opportunity. He knew he could do it. Alex was a brick wall.",
         "choices": [
           "He w ould not let a ball get by him.",
@@ -24551,10 +25870,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 114
+          "sequence": 120
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0121",
+        "version": 1,
+        "contentHash": "sha256:79ac44baf275754f7fd0f36e14cacdf00032534ed81448b248d475d570c86b94",
         "question": "What is the correct word to complete the sentence? I gave all the _______ answers on the test and got 100%.",
         "choices": [
           "w rite",
@@ -24609,10 +25931,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 119
+          "sequence": 121
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0124",
+        "version": 1,
+        "contentHash": "sha256:dc1fd492b1336010f2159bf18d07b0f53462a4c17c8cd695b90df0788e89fb3c",
         "question": "What error did the writer make in the sentence below? I can’t take another breathe until I know how this mov ie ends.",
         "choices": [
           "Sh e should use the. word “breath” rather than “breathe”",
@@ -24671,6 +25996,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0125",
+        "version": 1,
+        "contentHash": "sha256:f98814ec0a542d2a90adb3d6ba7c94f8de72614788a3f1835c4960ec41644bc1",
         "question": "Based on the sentence below, what is the best meaning for the word gawked? It was cold and snowing outside. My mother gawked at me when I came out wearing shorts and sandals.",
         "choices": [
           "glan ced at",
@@ -24729,6 +26057,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0128",
+        "version": 1,
+        "contentHash": "sha256:9decd8c562e161eb7ef2c9039d0b797b607299a8c86f4e6ea802aa6431e0e4bf",
         "question": "What does the word mean in the sentence below? despondent The poor woman was despondent after losing her purse at the State Fair.",
         "choices": [
           "overjo yed",
@@ -24787,6 +26118,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0130",
+        "version": 1,
+        "contentHash": "sha256:6a117daae14ab21d4a56c3af2481efdef0cc83456d1a94f5b3d87703d125efb4",
         "question": "Fill in the blank with the correct word choice. That haunted house was the reason __________ I couldn’t sleep very well.",
         "choices": [
           "w here",
@@ -24845,6 +26179,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0135",
+        "version": 1,
+        "contentHash": "sha256:21ea18690e0428db4ea7bcf0050dca8825b200e7b09e7e16f0e399fd27a8e6fc",
         "question": "What word best completes the sentence? The prosecutor presented his case. The jury had a great deal of ________ to sort through before reaching a verdict.",
         "choices": [
           "ref utation",
@@ -24903,6 +26240,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0143",
+        "version": 1,
+        "contentHash": "sha256:49b95578a5ae0b78961ad8a45cfd1872f48dcab4884f106a00f860148d4345b5",
         "question": "Choose the correct word to complete the sentence. You have been very moody these _______ few weeks.",
         "choices": [
           "p assed",
@@ -24961,6 +26301,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0148",
+        "version": 1,
+        "contentHash": "sha256:fc57f06271bcae79b5b4deb76e6b2d120648340401a99134f2de47e1ecb3bb30",
         "question": "Choose the correct word to complete the sentence below. The death of my grandmother deeply ____________ me.",
         "choices": [
           "effected",
@@ -25019,6 +26362,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0150",
+        "version": 1,
+        "contentHash": "sha256:490406f362e91e8f1b65c3f8d5828b62e166d35a2b058ada4597c221da4b4b15",
         "question": "Choose the word that best completes the sentence. A few remaining ruins are all that are left of that once mighty but now ______ civilization.",
         "choices": [
           "existe nt",
@@ -25077,6 +26423,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0131",
+        "version": 1,
+        "contentHash": "sha256:495f1c282ccffd174a1a7d41a63f834c2d2ec349deb0e1b69e6bba98b1f1add3",
         "question": "Identify the sentence that contains two prepositio nal phrases.",
         "choices": [
           "Ab dul went into the room to get his basketball.",
@@ -25131,10 +26480,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 151
+          "sequence": 131
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0156",
+        "version": 1,
+        "contentHash": "sha256:85efb0b6179bfa0886a2990ce97225d4e15a1dd7c181d6b37ac5f0e70c0c46c8",
         "question": "Use the context the sentence to deter mine the meaning the of underlined word. Choose the word or phrase that best fits the meaning. Mr. Fetter modified the test to make it easier for the students.",
         "choices": [
           "change",
@@ -25193,6 +26545,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0169",
+        "version": 1,
+        "contentHash": "sha256:188fcf265355aa8f56e654c3a0617d0a8ce94a47d86462e9d3ffd5b361de6aaa",
         "question": "Choose the correct word for the sentence below. The train engine smoke into the clear night air on our trip last week.",
         "choices": [
           "blows",
@@ -25251,6 +26606,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0175",
+        "version": 1,
+        "contentHash": "sha256:9b7f6c5779ee0e233dbba67fcf7ae288b91f3af12bde95a1fba84337da6b05ed",
         "question": "Replace the with that the bear was and mean. underlined words one shows wild The growling bear sounded like he wanted to eat us.",
         "choices": [
           "ferocious",
@@ -25309,6 +26667,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0192",
+        "version": 1,
+        "contentHash": "sha256:97e575fad99e3a36a0a34bc98511c2e4f0590fd7ed662456ff4ca23d5681330a",
         "question": "Read the sentence, following use the context to the clues choose word that fits the best meaning of the underlined word. The hiker acquired so many colorful rocks on his walk that his backpack was full.",
         "choices": [
           "saw",
@@ -25367,6 +26728,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0136",
+        "version": 1,
+        "contentHash": "sha256:0fa171e7ac4baa2b765c271a7a75f6258e5ccdcc0d4a66c2582401d8c6731739",
         "question": "Use the context the sentence to determine the meaning the of underlined word. Choose the word that best fits the meaning. I tried to ignore the sound of the dog barking, but it kept me awake all night.",
         "choices": [
           "overlook",
@@ -25421,10 +26785,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 207
+          "sequence": 136
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0210",
+        "version": 1,
+        "contentHash": "sha256:2478d73030c90684eaac6bc5faff0e90ab6b8fa78c78c0b87afc66434dae3f00",
         "question": "Read sentence. the context tofollowing Use clues choose the that word best fits the meaning of the underlined word. In math class, we had tofigure out twenty-five problems in a minute.",
         "choices": [
           "leader",
@@ -25483,6 +26850,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0224",
+        "version": 1,
+        "contentHash": "sha256:cf487e42460661cd452cd40220b320769f0d6157b7a7ac70bfb8b5483ef642b1",
         "question": "Use the correct word to complete the sentence. I asked my mom to how to knit. me",
         "choices": [
           "teach",
@@ -25541,6 +26911,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0257",
+        "version": 1,
+        "contentHash": "sha256:6fd23727c106ab75f3b558246ba2928cfe7daa615ca647da0171454450efa391",
         "question": "Choose the sentence that is punc tuated correctly.",
         "choices": [
           "Mrs. Dennis went shopping, to the groomers, and to w ork.",
@@ -25599,6 +26972,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0258",
+        "version": 1,
+        "contentHash": "sha256:70738de1c6460fd64923872c867e14a4ffa0050446f6247a20adc6c07d9bed41",
         "question": "Use the context the sentence determine the meaning the underlined word. Choose of to of the word or phrase that best fits the meaning. The twitch in Carol’s mouth almost gave away the surprise, but she managed to keep a straight face until Marguerite brought out the c ake.",
         "choices": [
           "jerky movement",
@@ -25657,6 +27033,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0277",
+        "version": 1,
+        "contentHash": "sha256:16648d4250de9afa725b33eaa5fb1e681915e77f5093cc0386aa9f0827d34c64",
         "question": "Replace the underlined word with one that shows the skateboard quickly went dow n the hill. Manny chased the runaway skateboard as it went down the hill.",
         "choices": [
           "flew",
@@ -25715,6 +27094,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0294",
+        "version": 1,
+        "contentHash": "sha256:5651bf24c1302d6ce2704bc501fd8c03c0b58c54df5e29ed4604e9ebf8ede1de",
         "question": "Read the following sentence, use the context clues choose the word that best fits the to meaning of the underlined word. The old pier was still standing because it had been built on the stout pilings that been driven deep into the rock bed.",
         "choices": [
           "well-known",
@@ -25773,6 +27155,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0295",
+        "version": 1,
+        "contentHash": "sha256:feb0fb0e15a308dbcca4c85aa3806877f383386e8e269221e98daad27cdd6069",
         "question": "Choose the best answer complete the following sentence. to After I’mowed the lawn, I swimmin g at the park.",
         "choices": [
           "am going",
@@ -25831,6 +27216,9 @@
         }
       },
       {
+        "id": "vocabulary-word-meaning-context-q0300",
+        "version": 1,
+        "contentHash": "sha256:a3d9cc711cd3be2c1e6d3314079aed2af9ca6c27c84842557a83e12becbc6c4d",
         "question": "Replace the underlined words with one that shows the broke forcefully. wood The woo d was damaged under the weight of the pool.",
         "choices": [
           "splintered",
@@ -25909,6 +27297,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-spelling-q0001",
+        "version": 1,
+        "contentHash": "sha256:d5e3c699169c5d47accee1f3d011db7e8200c9921aeb9d24bf5a58ef9970bd2a",
         "question": "Which word is spelled correctly?",
         "choices": [
           "accomodate",
@@ -25962,6 +27353,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0002",
+        "version": 1,
+        "contentHash": "sha256:b439aa7d04bc4da6e4724e42e131ebf9b93a58f9869f4980f86846f37c769596",
         "question": "Which spelling follows the 'i before e' rule correctly?",
         "choices": [
           "freind",
@@ -26015,6 +27409,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0003",
+        "version": 1,
+        "contentHash": "sha256:cb1709fe8521ee4f583e6937d35ea9535cac29cdf08a30c6ca028e5309e390b1",
         "question": "Which word is spelled correctly?",
         "choices": [
           "definately",
@@ -26068,6 +27465,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0004",
+        "version": 1,
+        "contentHash": "sha256:77a338d17264fc0ba6149699c2661c2d1be41e9a636fb8f6f82adfce7b523891",
         "question": "Which word uses the correct doubling rule when adding -ing?",
         "choices": [
           "runing",
@@ -26121,6 +27521,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0005",
+        "version": 1,
+        "contentHash": "sha256:4644a11e5688d05bf8806dff5677e04318eefc6279894b3ed854ecd3a91191b9",
         "question": "Which word is spelled correctly?",
         "choices": [
           "occurance",
@@ -26174,6 +27577,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0006",
+        "version": 1,
+        "contentHash": "sha256:c9969b6a36539ea0a10d544bf4148f656e635aa2583bfbc1af6bb278c175e71c",
         "question": "Which spelling is correct for the plural of 'potato'?",
         "choices": [
           "potatos",
@@ -26227,6 +27633,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0007",
+        "version": 1,
+        "contentHash": "sha256:981cc470210beaf721f0cbb9555c112092425d91f03a22ddcb9954a37d7b2b3a",
         "question": "Which word is spelled correctly?",
         "choices": [
           "separate",
@@ -26280,6 +27689,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0008",
+        "version": 1,
+        "contentHash": "sha256:602cebb4e98509fe6d63688f8b2125ec3bcc4d5d9d460edb63f9c58f333fee78",
         "question": "Which word drops the silent 'e' before adding -ing?",
         "choices": [
           "makeing",
@@ -26333,6 +27745,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0009",
+        "version": 1,
+        "contentHash": "sha256:f04bdc13856d10c20aef9add4337712f40194a245e80198bab78024c51374e89",
         "question": "Which word is spelled correctly?",
         "choices": [
           "embarass",
@@ -26386,6 +27801,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0010",
+        "version": 1,
+        "contentHash": "sha256:fa43a8f622b06e782af3585e2aa75c366fb76e0f52110615329cac7dbb64e809",
         "question": "Which is the correct spelling?",
         "choices": [
           "conveniant",
@@ -26439,6 +27857,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0011",
+        "version": 1,
+        "contentHash": "sha256:e619b0ce4adc02b556c4b6c43d95646f098a23d43a964c59ae04f7ff06343681",
         "question": "Which word is spelled correctly?",
         "choices": [
           "mispell",
@@ -26492,6 +27913,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0012",
+        "version": 1,
+        "contentHash": "sha256:ed24a38b9d61afbc516d8437192d04d5de022db95b586fd4ee9a42a06a9f261d",
         "question": "Which spelling correctly adds -ly to 'true'?",
         "choices": [
           "truely",
@@ -26545,6 +27969,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0013",
+        "version": 1,
+        "contentHash": "sha256:40232bec2b7c8eb66da55fe0c3b372e07705e3c496d7f8d9e97cf91302f569e5",
         "question": "Which word is spelled correctly?",
         "choices": [
           "rythm",
@@ -26598,6 +28025,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0014",
+        "version": 1,
+        "contentHash": "sha256:6ea2541b06bedc09426ffdce952dfdfa15b6688759c8b5c1d425bbb9c6b55daa",
         "question": "Which is the correct spelling of the word meaning 'to go before'?",
         "choices": [
           "procede",
@@ -26651,6 +28081,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0015",
+        "version": 1,
+        "contentHash": "sha256:41d401f4278eff35ec5532572830864026f0424f0853a2ef336b631ff3c01f0e",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "does",
@@ -26704,6 +28137,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0016",
+        "version": 1,
+        "contentHash": "sha256:e3df6dcf0a76fbf65e019615fedcb9b02de01b57ccd5546b98d7573165de88dc",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "today",
@@ -26757,6 +28193,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0017",
+        "version": 1,
+        "contentHash": "sha256:42425567f304b03e918b6347d0394d41ee02187ad45b3d629c429204739077d4",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "bowl",
@@ -26810,6 +28249,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0018",
+        "version": 1,
+        "contentHash": "sha256:4b889f7675ba0372ad73fe7880237355c89099e3f6ed3f6d286861b8535bc4d8",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "frend",
@@ -26863,6 +28305,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0019",
+        "version": 1,
+        "contentHash": "sha256:72bc7a5e45c6fcaaa988ab8141e35d3bd30af0b65c836c2d758e1ecc9e3940d4",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "happiness",
@@ -26916,6 +28361,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0020",
+        "version": 1,
+        "contentHash": "sha256:170886926b20f5f0e04b6629155f3a5c7a54ff687eedf27ca61828ccafb1ee51",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "whanted",
@@ -26969,6 +28417,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0021",
+        "version": 1,
+        "contentHash": "sha256:ac4cb72628c68a75a9d7127bd4b4a397e9f91ee8ddb2f5ee7839356002e99b92",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "neare",
@@ -27022,6 +28473,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0022",
+        "version": 1,
+        "contentHash": "sha256:5024f1776ff33404f0a7c0f0f6264686f22375c9d09dccab4f013ffb2b90933a",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "sete",
@@ -27075,6 +28529,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0023",
+        "version": 1,
+        "contentHash": "sha256:e16b18da9658bbb665be65db94736a81fbad1bbf77be8bee8176ba302f196aa1",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "inneresting",
@@ -27128,6 +28585,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0024",
+        "version": 1,
+        "contentHash": "sha256:0687df09539bfc841987a5727863cacfcdc8fa14d84f5b4e50ebc98c644c23fe",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "sappose",
@@ -27181,6 +28641,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0025",
+        "version": 1,
+        "contentHash": "sha256:309f0bfcd98625ce79c8ec69c5bf6381a7ef09fbc79daa2c94ed7d6810e7eefe",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "mowce",
@@ -27234,6 +28697,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0026",
+        "version": 1,
+        "contentHash": "sha256:e5e77955bf8b0c6d383763651cae0c29d228b4ad927ef9356c4f824de8a57d4d",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "douwt",
@@ -27287,6 +28753,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0027",
+        "version": 1,
+        "contentHash": "sha256:e1f33d680331b5ecd62b068b109585aac3b97b56a71c611aa5e82768ec86145b",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "juggle",
@@ -27340,6 +28809,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0028",
+        "version": 1,
+        "contentHash": "sha256:ec37fb423d931d565b904d3cf51be124d24cbc50b7d8a3091aa045227581ea82",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "seat",
@@ -27393,6 +28865,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0029",
+        "version": 1,
+        "contentHash": "sha256:c763971fc96a5f63470ba65df12806f9cfbc8f8f43bf11ad541514dc0eaddb4b",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "enemies",
@@ -27446,6 +28921,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0030",
+        "version": 1,
+        "contentHash": "sha256:460bd81fc4d677aa9c01a4fb36a6213f02e5784b859abdc9f216e3a089faefbc",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "voiced",
@@ -27499,6 +28977,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0031",
+        "version": 1,
+        "contentHash": "sha256:1ada00b15291a8362f550355fa1a4ad7296575d803c2a683393fcf56b5481cbf",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "duz",
@@ -27552,6 +29033,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0032",
+        "version": 1,
+        "contentHash": "sha256:f39940e2cff567ae07dd9c42c90f056574e94fc2978ddd8febe2038aa6b729a8",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "pen-cil",
@@ -27605,6 +29089,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0033",
+        "version": 1,
+        "contentHash": "sha256:f923ccc786d73960fefcc74d0b2169074816e6329921d8cc5ca2362ab999b358",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "play-ground",
@@ -27658,6 +29145,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0034",
+        "version": 1,
+        "contentHash": "sha256:785af8e41997f77f0a0099141d8cf6753739613ff12320b95e28ab487f511e16",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "are",
@@ -27711,6 +29201,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0035",
+        "version": 1,
+        "contentHash": "sha256:601f01aff4af08af9b0acf5cb4df3cc4143afaf942da0f751ce3521fb5ca5c8e",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "where",
@@ -27764,6 +29257,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0036",
+        "version": 1,
+        "contentHash": "sha256:b50466bd3f771bfa78620b9e470d4aef933b25ca43851ce097d831c91da1d24d",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "product",
@@ -27817,6 +29313,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0037",
+        "version": 1,
+        "contentHash": "sha256:3413f58e411acfb9ff3b25b6b5b789a7dcee9f8692a07bdc84fa75a5b28b5a32",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "sum-mer",
@@ -27870,6 +29369,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0038",
+        "version": 1,
+        "contentHash": "sha256:88be793555f347aa628ac045c5b78d22ef6982f449dfd58b9df4d4028f24faee",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "fish-ing",
@@ -27923,6 +29425,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0039",
+        "version": 1,
+        "contentHash": "sha256:ca167ca34ae340ac4949881a8b72965c3dad4a4c162be89e04a31c08957f6512",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "knew",
@@ -27976,6 +29481,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0040",
+        "version": 1,
+        "contentHash": "sha256:ac5f7cabe94cb9909385b80fcc9c94a6db5571289160f6356d41cdaaffc929a1",
         "question": "Choose one word that has 3 syllables.",
         "choices": [
           "playground",
@@ -28029,6 +29537,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0041",
+        "version": 1,
+        "contentHash": "sha256:6cde4aabd62dd5f31c2f00b0046ee12ace66644aed9f494c4f2fcd503705c0a4",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "dropping",
@@ -28082,6 +29593,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0042",
+        "version": 1,
+        "contentHash": "sha256:98519ada070322bd32a2d4248c0dd35b862fb01087d9a5114e201a4d0ca60c34",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "zipper",
@@ -28135,6 +29649,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0043",
+        "version": 1,
+        "contentHash": "sha256:84d5be45f779cc19a1f0705eeae48f7fbdb9a16982a82c9ba3b5eeb33180e17c",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "ornge",
@@ -28188,6 +29705,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0044",
+        "version": 1,
+        "contentHash": "sha256:1d92983b04013a65400c31e1d3004a9d99220cbda579ac4faf99a05d0c3146eb",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "swimming",
@@ -28241,6 +29761,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0045",
+        "version": 1,
+        "contentHash": "sha256:15974f3cf913fca915ad3aaa7dfbcbde577711effed158d173fdf85db26451b6",
         "question": "Choose one word that has 3 syllables.",
         "choices": [
           "number",
@@ -28294,6 +29817,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0046",
+        "version": 1,
+        "contentHash": "sha256:e26962edb17636ab4115ea102996c6a66e2c9cf86794831d5cd781e204c2e258",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "rough",
@@ -28347,6 +29873,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0047",
+        "version": 1,
+        "contentHash": "sha256:2f5b8517749ebca79325869774a073399989260ff24532ad24beec4558920b33",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "scare",
@@ -28400,6 +29929,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0048",
+        "version": 1,
+        "contentHash": "sha256:d36f11a6dfd00c0bfe7f2fe2582bad5e211bb34315fd6f09fd5ae8157a1035a0",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "jump-ing",
@@ -28453,6 +29985,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0049",
+        "version": 1,
+        "contentHash": "sha256:8101953614a07032b6844e46361bfa687b874a176d6277a7c69416fdb745f705",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "foot-ball",
@@ -28506,6 +30041,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0050",
+        "version": 1,
+        "contentHash": "sha256:e547eeace620929118b3e44e4778d7ae646e6af631a046d51f8a7e7d6e4bce44",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "remoke",
@@ -28559,6 +30097,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0051",
+        "version": 1,
+        "contentHash": "sha256:4308107e45a7198f906e584f65e40a3907370dffa59a5b551ca2b96ccbd945a1",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "afraid",
@@ -28612,6 +30153,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0052",
+        "version": 1,
+        "contentHash": "sha256:f38b0c8632317e578ae62a14f6153f7e1a9389edac93f43eea81505306843706",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "coler",
@@ -28665,6 +30209,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0053",
+        "version": 1,
+        "contentHash": "sha256:cac62e9594c4f2a4a8a0497e745b1edc803723fecc8666f419c8df5188809dab",
         "question": "Choose one word that has 2 syllables.",
         "choices": [
           "lipstick",
@@ -28718,6 +30265,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0054",
+        "version": 1,
+        "contentHash": "sha256:664548bb29fea037384ccc82c3ebbeed0045eb33a009822826a1a46d23c53cd0",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "daisy",
@@ -28771,6 +30321,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0055",
+        "version": 1,
+        "contentHash": "sha256:bab2af17746d10e2c4e3644ca0bafcd6d28b47c89e9388608d14c8380b9193b0",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "swim-ming",
@@ -28824,6 +30377,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0056",
+        "version": 1,
+        "contentHash": "sha256:30067e0ec4c96739aad2adc24d0f7312fbc1932cc11758fa8e45be9afc06dc34",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "cam-el",
@@ -28877,6 +30433,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0057",
+        "version": 1,
+        "contentHash": "sha256:73e1acd49199f6f72bb627fd3a6188f0e7d3beca672bf049eb0f92ee15633161",
         "question": "Choose the correct spelling.",
         "choices": [
           "measure",
@@ -28930,6 +30489,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0058",
+        "version": 1,
+        "contentHash": "sha256:710d1705b44d395db5eac3cf2913b9cc554641de494128885766da69cd029c5a",
         "question": "Choose the correct spelling.",
         "choices": [
           "cage",
@@ -28983,6 +30545,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0059",
+        "version": 1,
+        "contentHash": "sha256:a464340d0b30bb1577c5e5e6a97e42ba71eb4c7a302dbe52085669b7e54a76b9",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "magnet",
@@ -29036,6 +30601,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0060",
+        "version": 1,
+        "contentHash": "sha256:27357fd0b0b53c5ee42b9223de253d00750ab11cbc6f76ca99d0ea8a9309b7bd",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "malebox",
@@ -29089,6 +30657,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0061",
+        "version": 1,
+        "contentHash": "sha256:58919058bcbd044dcbebcaa04ca1b2ca6f7d631210f3d40bf336fc0dc0d81233",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "animal",
@@ -29142,6 +30713,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0062",
+        "version": 1,
+        "contentHash": "sha256:c08e7647ceaaa734e7c961a7128b345b9423f33919d4490d5ac256627ad3ddf3",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "dangeris",
@@ -29195,6 +30769,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0063",
+        "version": 1,
+        "contentHash": "sha256:30f78cb535e3153d5851fef48f5f19bcd6509e80cbf2d4591b54e7fb22d3ca3d",
         "question": "Choose the correct way to divide the word into syllables.",
         "choices": [
           "con-ver-sa-tion",
@@ -29248,6 +30825,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0064",
+        "version": 1,
+        "contentHash": "sha256:f803f9dd9bafc3984c1ed18f2feeaaaf0d8634c33a59d37955d4ec5b2e5c9ae3",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "sugar",
@@ -29301,6 +30881,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0065",
+        "version": 1,
+        "contentHash": "sha256:8a45943456880fea521b6c9ddbc64118298aa4cb8ad111324d52b30bca959556",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "doller",
@@ -29354,6 +30937,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0066",
+        "version": 1,
+        "contentHash": "sha256:a048d8818d72befdb7e4efea98abb07d6fceddc9694ae979cba1645870eca1c5",
         "question": "Choose one word with 2 syllables.",
         "choices": [
           "frozen",
@@ -29407,6 +30993,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0067",
+        "version": 1,
+        "contentHash": "sha256:51b26733edde769b4c05f9553bfe33cb86104116499784ddbf076dc0946cc1d9",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "lo-lli-pop",
@@ -29460,6 +31049,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0068",
+        "version": 1,
+        "contentHash": "sha256:36edc7d542da9bad6f97f51542cd6bb61d8e73dd890ed053bbbf9cca07ac654a",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "mel-ody",
@@ -29513,6 +31105,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0069",
+        "version": 1,
+        "contentHash": "sha256:29f1f040d23d93ba2080de49ba16035f8f52449aaa6ee31e86828e64452a5b9c",
         "question": "Choose one word that has 3 syllables.",
         "choices": [
           "earthquake",
@@ -29566,6 +31161,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0070",
+        "version": 1,
+        "contentHash": "sha256:e5fdb2fde7f5709cf3d6efd0e521d42f8cf0155953741ead76e34639c6423936",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "erase",
@@ -29619,6 +31217,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0071",
+        "version": 1,
+        "contentHash": "sha256:f963588ef52b565b00aec03978430958f497db2acfa33be57ec3d638ef782ca2",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "revew",
@@ -29672,6 +31273,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0072",
+        "version": 1,
+        "contentHash": "sha256:e1dcaac0f0424de9a92136a0661b2c515c4d537f7d41c875bba343abf6be0ef6",
         "question": "Choose the correct way to divide the word into syllables.",
         "choices": [
           "rod-e-o",
@@ -29725,6 +31329,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0073",
+        "version": 1,
+        "contentHash": "sha256:dfb4a480577ee68775c344716d4f7e88eed2b80db8ce07faed67ddf84389f5e4",
         "question": "Choose one word that has 3 syllables.",
         "choices": [
           "charming",
@@ -29778,6 +31385,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0074",
+        "version": 1,
+        "contentHash": "sha256:c6c599ddc26cbf7610707b095053cc2a80d41277ef2f8564a39206d617939168",
         "question": "Choose the correct way to divide the word into syllables.",
         "choices": [
           "in-for-ma-tion",
@@ -29831,6 +31441,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0075",
+        "version": 1,
+        "contentHash": "sha256:2482831fd611be74318a8cd9918556ca9f34e4105aac5df59da4d432a088fc54",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "puzle",
@@ -29884,6 +31497,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0076",
+        "version": 1,
+        "contentHash": "sha256:7426e4ac1f28f9136da301e36ed93cf4186134da6445a199a6dd1640511a04eb",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "realy",
@@ -29937,6 +31553,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0077",
+        "version": 1,
+        "contentHash": "sha256:cf0e5793e5087ceb8b387497fde2173f62a97e5f71273fd66ca30d33a46014b8",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "supposed",
@@ -29990,6 +31609,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0078",
+        "version": 1,
+        "contentHash": "sha256:788c9d4287eebf00d46971106c29854f7774f6c6f1c3a21aee35f978d7ab9e89",
         "question": "Choose the correct spelling of the word.",
         "choices": [
           "farthest",
@@ -30043,6 +31665,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0079",
+        "version": 1,
+        "contentHash": "sha256:952115bf8afb2aa24f5cea8943cb5b1ffef5775508000e9961cf103c32846df9",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "pumpkin",
@@ -30096,6 +31721,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0080",
+        "version": 1,
+        "contentHash": "sha256:210325401d957adf23289cf5563594db329de278dd900fee3ea5e82e0d6f3a7e",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "baskitball",
@@ -30149,6 +31777,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0081",
+        "version": 1,
+        "contentHash": "sha256:fb358b51266a80d49976b35bede645ea74cb52510d9a1957181ea291c7b93614",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "al-li-ga-tor",
@@ -30202,6 +31833,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0082",
+        "version": 1,
+        "contentHash": "sha256:f4f7fcee5cfea7e994c446156e1a2af4253cee702c4f5ad204c3c46ba92c0332",
         "question": "Choose the correct way to divide each word into syllables.",
         "choices": [
           "al-pha-bet",
@@ -30255,6 +31889,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0083",
+        "version": 1,
+        "contentHash": "sha256:bd2ee23a45221eb76a4fa32588144cb03fed4f7a6a70713a12e34eb570b64df0",
         "question": "Divide each word into syllables: rotate",
         "choices": [
           "ro-tate",
@@ -30308,6 +31945,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0084",
+        "version": 1,
+        "contentHash": "sha256:19f2f807e0305513e31b0dcc2bf368ec22d4727928e604831699c3ff1abcc027",
         "question": "Divide each word into syllables: huddle",
         "choices": [
           "hud-dle",
@@ -30361,6 +32001,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0085",
+        "version": 1,
+        "contentHash": "sha256:9a283438d4099b6b30483710728a6f90496d1b2470a572f917897492ef5bda1c",
         "question": "Choose the word that is not spelled correctly.",
         "choices": [
           "illegal",
@@ -30414,6 +32057,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0086",
+        "version": 1,
+        "contentHash": "sha256:f663ac05f6144dfcc64f2899232f16c684b95ba7e031eceb528c9058eb533810",
         "question": "It is conceivable that this is the eighth time I’ve complained about studying speling in grammar class. In the above sentence:",
         "choices": [
           "‘conceivable’ should be ‘concievale’.",
@@ -30469,6 +32115,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0087",
+        "version": 1,
+        "contentHash": "sha256:a0b57163828c413b2aeedaca25c5ee06263cbb315263e3529457f102cfde2696",
         "question": "Which word is NOT spelled correctly?",
         "choices": [
           "acheive",
@@ -30524,6 +32173,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0088",
+        "version": 1,
+        "contentHash": "sha256:63264c13680036fdd08b1110a856d0891917169a4bb3d375b7b3f3809aac5b23",
         "question": "Which underlined word is NOT spelled correctly? Does the packet contain an extra pair of scissers?",
         "choices": [
           "p acket",
@@ -30579,6 +32231,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0089",
+        "version": 1,
+        "contentHash": "sha256:0cd5a9299a05c17f7874543961bfbbecae4a2aefa17219c9a7e00470bb6a43db",
         "question": "Which underlined word it NOT spelled correctly? Nate accidentaly spilled his glass of milk.",
         "choices": [
           "acciden taly",
@@ -30634,6 +32289,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0090",
+        "version": 1,
+        "contentHash": "sha256:dae9544ac65e44f99610701aead969a3c60396fdeec50b8584989af8833dd12f",
         "question": "Which contains a spelling error?",
         "choices": [
           "patios, radios, heros",
@@ -30689,6 +32347,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0091",
+        "version": 1,
+        "contentHash": "sha256:d03bdb9b77cf92921f8ee0857ae0f5dffad30d3f702781686d8c29db144160bc",
         "question": "Whic h word is spelled in correctly?",
         "choices": [
           "consist e ncy",
@@ -30744,6 +32405,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0092",
+        "version": 1,
+        "contentHash": "sha256:ce37dd79e64540e569d0acdd3239e9485e101a8752fe1153b605db255aed40e0",
         "question": "Which title is capitalized correctly?",
         "choices": [
           "the President of the United States",
@@ -30799,6 +32463,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0093",
+        "version": 1,
+        "contentHash": "sha256:dbd576c36b3d9b4a24aac711f03f30bff7aa327412b62dc77e7f793e07cb467f",
         "question": "Which word is NOT spelled correctly?",
         "choices": [
           "st ationery",
@@ -30854,6 +32521,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0094",
+        "version": 1,
+        "contentHash": "sha256:e8e9656de8e75f136bcedfba3a8eac34714b94bac86152e7db4b77962fcce9d1",
         "question": "Which underlined word below is NOT spelled correctly? Jupiter is larger than any planet in the solar sistem.",
         "choices": [
           "Jupiter",
@@ -30909,6 +32579,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0095",
+        "version": 1,
+        "contentHash": "sha256:a3c9ed4b4c6a43c37cf9237ce0257aee528c755f7f76c1557803e2666d620fb6",
         "question": "Which word is spelled correctly?",
         "choices": [
           "su press",
@@ -30964,6 +32637,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0096",
+        "version": 1,
+        "contentHash": "sha256:d24ac8c42b190a89c6033597ffbd24ac453a7aeb7b7ee0ea6f78f814bdcc0d99",
         "question": "Which sentence has all the words spelled correctly?",
         "choices": [
           "The plant grow strudy in the hot house.",
@@ -31019,6 +32695,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0097",
+        "version": 1,
+        "contentHash": "sha256:f9a2b611a93d0a22d3431389d26715a584c26ac56052f9f9eb0965b6d84d15d5",
         "question": "Which is spelled correctly?",
         "choices": [
           "curo us",
@@ -31074,6 +32753,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0098",
+        "version": 1,
+        "contentHash": "sha256:04a94e4350500a64a38c915aefd4d98b2063058409178c0ec23ae98677b2995e",
         "question": "Which is the correct spelling for more than one cemetery?",
         "choices": [
           "cemet eryes",
@@ -31129,6 +32811,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0099",
+        "version": 1,
+        "contentHash": "sha256:1698d0c45031d133d9ee31e7e9bb6ea8d9a4a46fc378c77489cae19121a09951",
         "question": "Which word is NOT spelled correctly?",
         "choices": [
           "d rinking",
@@ -31184,6 +32869,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0100",
+        "version": 1,
+        "contentHash": "sha256:eeedfa06d2ff52856e2524eb1fc2612cbcbee3b1ce5c910f31482f6ec55f44c3",
         "question": "Which underlined word is NOT spelled correctly? The grizzly bare frightened me in the forest.",
         "choices": [
           "griz zly",
@@ -31239,6 +32927,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0101",
+        "version": 1,
+        "contentHash": "sha256:00e92e9f374cb6fee46337e3ef192fe5fe1662707f19110c56cbe140c9d4a09a",
         "question": "Which underlined word is NOT spelled correctly? The ambulance stoped at the emergency entrance.",
         "choices": [
           "ambulance",
@@ -31294,6 +32985,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0102",
+        "version": 1,
+        "contentHash": "sha256:0105c50133c342f970755672bfeb06dd30f5b22c30bc1b391ad66d5b3734a59b",
         "question": "Which word is spelled correctly?",
         "choices": [
           "recieving",
@@ -31349,6 +33043,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0103",
+        "version": 1,
+        "contentHash": "sha256:31d5792a00a0332f0af365ccabe10264a5e69a44eec7ca7816bc5aa1b6dab62c",
         "question": "Select the sentence with all words spelled correctly.",
         "choices": [
           "Ann likes to read storys about partys.",
@@ -31404,6 +33101,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0104",
+        "version": 1,
+        "contentHash": "sha256:38ad2a24835499c2952deadfb4529b5a6b94786d553786c28247060157dc8c6f",
         "question": "Which spelling is correct?",
         "choices": [
           "secretary",
@@ -31459,6 +33159,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0105",
+        "version": 1,
+        "contentHash": "sha256:42d43165045d8b16aa731aa3746addaad167fd9f9966abf62444e79fda365cdd",
         "question": "Which word is spelled correctly?",
         "choices": [
           "misp ell",
@@ -31514,6 +33217,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0106",
+        "version": 1,
+        "contentHash": "sha256:ec1df86a363cbdb830e9843664c691236963173f81566360a95e46764f64173d",
         "question": "Which sentence has all the words spelled correctly?",
         "choices": [
           "Grandma served warm apple pie for desert.",
@@ -31569,6 +33275,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0107",
+        "version": 1,
+        "contentHash": "sha256:296667f8c0c443dc9201bccabde71267f4a019e0b15398385bf1e45365fcbad7",
         "question": "Which word is spelled correctly?",
         "choices": [
           "t eeth",
@@ -31624,6 +33333,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0108",
+        "version": 1,
+        "contentHash": "sha256:13ee9f310d68bce4361f207837dbba89b41afb6a763a7f32ea2787bfe7580767",
         "question": "Which sentence has the underlined word spelled correctly?",
         "choices": [
           "I think a letter has been omitted from that word.",
@@ -31679,6 +33391,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0109",
+        "version": 1,
+        "contentHash": "sha256:3348082b2a10ac71ddbc9bb68415afed1324c195f00e22905b605ec30e924fe7",
         "question": "Which spelling is correct?",
         "choices": [
           "t hiefs",
@@ -31734,6 +33449,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0110",
+        "version": 1,
+        "contentHash": "sha256:7a47ae5e52fee3f360fb8689c873e1e877277fbe4886f46ee0e2fc61c689b71d",
         "question": "Which word is spelled correctly?",
         "choices": [
           "anonymous",
@@ -31789,6 +33507,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0111",
+        "version": 1,
+        "contentHash": "sha256:74edf70977020390bfeeab252777c72b836a60124d65573a1f3ee467d35789f1",
         "question": "Which underlined word is NOT spelled correctly? Our teacher was absent yesterday, so we had a substatute.",
         "choices": [
           "t eacher",
@@ -31844,6 +33565,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0112",
+        "version": 1,
+        "contentHash": "sha256:df7fe2bf7e42ba249d5f3cf96d9fdd73b5672c692f6ca67875520d501200336d",
         "question": "Which word is NOT spelled correctly?",
         "choices": [
           "sep arate",
@@ -31899,6 +33623,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0113",
+        "version": 1,
+        "contentHash": "sha256:c536e9530b514248bfe5be71341cf83182ee7fd996ef2735512491097aabdb82",
         "question": "Which word is spelled correctly?",
         "choices": [
           "d isapear",
@@ -31954,6 +33681,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0114",
+        "version": 1,
+        "contentHash": "sha256:6313c860b0471773d3eb2197bfc38aad7f309821371037dcf84796f7aff0e1a5",
         "question": "Which word in the list would NOT use the same criteria in selecting a movi e?",
         "choices": [
           "En glish",
@@ -32010,6 +33740,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0115",
+        "version": 1,
+        "contentHash": "sha256:bf8f13be6b0ed25da97a603132cdbbb33945aa6921c84ea02185100c29e45d55",
         "question": "Which of the following contains an error?",
         "choices": [
           "Mary seems to have growed an inch in the last week.",
@@ -32066,6 +33799,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0116",
+        "version": 1,
+        "contentHash": "sha256:c3bb7ce655781a68b19e05a6788ad685bb7679dfd654c49135825f518d104a6f",
         "question": "Choose the function of the underlined word(s). Joe built Ruff a dog house.",
         "choices": [
           "subject",
@@ -32122,6 +33858,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0117",
+        "version": 1,
+        "contentHash": "sha256:5897f5d429b965eb86fe10bbb5134490890d03ab6818e7060b31cf96d17993d9",
         "question": "Which words should be capitalized? Did you know the senator of massachusetts, senator kennedy, was once a secretary of transportation?",
         "choices": [
           "senator, massachusetts, senator,kennedy",
@@ -32178,6 +33917,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0118",
+        "version": 1,
+        "contentHash": "sha256:fbf765aca85f92cfe1810c6cbcd064cc87a91e79e17f0c0b344aaf5400c1d75a",
         "question": "Which word is NOT spelled correctly?",
         "choices": [
           "experience",
@@ -32234,6 +33976,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0119",
+        "version": 1,
+        "contentHash": "sha256:78eaa31e0786f8e0b1c1042493e3108eb65922a0385d8a8636641e5ebcbc2166",
         "question": "Which sentence has a spelling error?",
         "choices": [
           "My aunt speaks three different languages.",
@@ -32290,6 +34035,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0120",
+        "version": 1,
+        "contentHash": "sha256:e912427e428b86495ee511c03377748ce5d879c622c33d7c9df3895a402d5800",
         "question": "Which sentence is NOT written correctly?",
         "choices": [
           "Joyce has gone to the store several times this year.",
@@ -32346,6 +34094,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0121",
+        "version": 1,
+        "contentHash": "sha256:4153dc987139ba877a970351c923141290f0eedcae86db7cb01b548e9a1da9f0",
         "question": "Which verb form is not used correctly?",
         "choices": [
           "The children have torn down their fort.",
@@ -32402,6 +34153,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0122",
+        "version": 1,
+        "contentHash": "sha256:99a7a63bd7e34c39b2c327350575d651636675d40037b41df3399b67cdf57a59",
         "question": "Which course title is correctly capitalized?",
         "choices": [
           "Language Arts",
@@ -32458,6 +34212,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0123",
+        "version": 1,
+        "contentHash": "sha256:349fa9eb883ca9f07785a3dbcd466c2aa45c422f80f3c8693828bff5c4e70a78",
         "question": "Which word is spelled correctly?",
         "choices": [
           "library",
@@ -32514,6 +34271,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0124",
+        "version": 1,
+        "contentHash": "sha256:0e03035ca2d0ff863edecb33f1fbbf17d8cc5b9c45f8f0083642a062d2cd180b",
         "question": "Which sentence best supports the opinion expressed below? Science is the best class I am taking this year.",
         "choices": [
           "My math teacher is fun, too.",
@@ -32570,6 +34330,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0125",
+        "version": 1,
+        "contentHash": "sha256:9e6487b2c006c77cdd545e2b34a4e2d5364cfcf49eea0901ad4426c6adb90994",
         "question": "Choose the word that is spelled incorrectly.",
         "choices": [
           "whistle",
@@ -32626,6 +34389,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0126",
+        "version": 1,
+        "contentHash": "sha256:1346b4deff9a1ddea17f4a21dbe59793f0fe6e9f48d53172fd47e21aac45b839",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "earing",
@@ -32682,6 +34448,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0127",
+        "version": 1,
+        "contentHash": "sha256:c8f0da2fdee5941f0f9ab8358f1e25faf2e4611e3156b7f6c67a29b8e16d5b59",
         "question": "Which word is the best choice to replace the underlined word? Marcel handedout papers asking his friends to come to a surprise party for Michele.",
         "choices": [
           "tickets",
@@ -32738,6 +34507,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0128",
+        "version": 1,
+        "contentHash": "sha256:bdd5cce67c5627fb3d461744d225ffe54db8e567d938d5949d27023c4f031093",
         "question": "What is the correct plural spelling of chalk?",
         "choices": [
           "chalks",
@@ -32794,6 +34566,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0129",
+        "version": 1,
+        "contentHash": "sha256:7f68b23d1434126bdd7b45b22f36b0f83bf6dc652aef57085b95781b74ce5a88",
         "question": "Which word is spelled correctly?",
         "choices": [
           "throogh",
@@ -32850,6 +34625,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0130",
+        "version": 1,
+        "contentHash": "sha256:aff29962650e5491cc25828dc84dede72248ed86f32cb55d59f926ee3618610b",
         "question": "Which sentence does not use vivid descriptors?",
         "choices": [
           "My friends rapidly walked the track.",
@@ -32906,6 +34684,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0131",
+        "version": 1,
+        "contentHash": "sha256:461c5d16670e5d4da9bb1ba719c4e39e8d75077cc77c1bf4c0295d124df92415",
         "question": "Which underlined wor d is incorrectly capitalized? My favorite classes in school are math, french, and art.",
         "choices": [
           "french",
@@ -32962,6 +34743,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0132",
+        "version": 1,
+        "contentHash": "sha256:c0ad99091e1a3237070c3d700267c9263a0171794c6646f0589d23df8a0cf1ce",
         "question": "Read the sentence. My sister and I are friends. This sentence is:",
         "choices": [
           "a command",
@@ -33018,6 +34802,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0133",
+        "version": 1,
+        "contentHash": "sha256:c0b618f52ed003c373c252062fbac14e1b048ecbced23353169304311fb05d12",
         "question": "Which underlined word is NOT spelled correctly? My fr ei nds and I went to the movies together.",
         "choices": [
           "freinds",
@@ -33074,6 +34861,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0134",
+        "version": 1,
+        "contentHash": "sha256:5ce8707e654350abc631703dae78252baf7d1892407a1d5da2d7fc457e92c117",
         "question": "What is the correct plural spelling of monkey?",
         "choices": [
           "monkeys",
@@ -33130,6 +34920,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0135",
+        "version": 1,
+        "contentHash": "sha256:7226f1f11ff6a982775d6d5c9a403da383ac20d68d1e621e0e537b6fa0edb576",
         "question": "once there was a little boy who loved to play on the beach. The sentence above:",
         "choices": [
           "is correct",
@@ -33186,6 +34979,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0136",
+        "version": 1,
+        "contentHash": "sha256:baf8def107bc5609587d6bf76681dd65bd6d89794a35aa4bcbb5ece0fe1247d1",
         "question": "Which word is not spelled correctly?",
         "choices": [
           "center",
@@ -33242,6 +35038,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0137",
+        "version": 1,
+        "contentHash": "sha256:6775007e7b965549bb8ead0e8ca1ff89873f2cc3ddec6a85ff38d0cb02d5869b",
         "question": "What is the correct plural spelling of pony?",
         "choices": [
           "ponys",
@@ -33298,6 +35097,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0138",
+        "version": 1,
+        "contentHash": "sha256:2b6caef6248e827ca1d24dd3a9c0757b706caa024d29755f60ac50be38feb3ce",
         "question": "Which word is spelled correctly?",
         "choices": [
           "elese",
@@ -33354,6 +35156,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0139",
+        "version": 1,
+        "contentHash": "sha256:639b99220bda88d8bc8c3e58ac22fafaa171c1dc4c0445824a173765e34aac8a",
         "question": "Read the following sentence. Everyone hid behind the couches and chairs to wait for Steph. What would this sentence most likely describe?",
         "choices": [
           "library",
@@ -33410,6 +35215,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0140",
+        "version": 1,
+        "contentHash": "sha256:d0b05a4e879cd35556b2581f3c21b6632a8c6f9a95c69ecf8b9725e9558f5389",
         "question": "Choose the best title for this report. Wolves are interesting animals. Wolves live in packs. Wolves are mammals and care for their young. The strongest male is the leader.",
         "choices": [
           "Ye llowstone Park",
@@ -33466,6 +35274,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0141",
+        "version": 1,
+        "contentHash": "sha256:e93a2720ae9c2cbff5a69e3ec1586fe879b69035f7b2923a6d5db6bb566008d4",
         "question": "Which word is NOT spelled correctly?",
         "choices": [
           "f earless",
@@ -33522,6 +35333,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0142",
+        "version": 1,
+        "contentHash": "sha256:a99da7791da8c8f8db2f34a35179d3fdedb09c05c92383164f0289ad76a966ca",
         "question": "Which sentence has all the words spelled correctly and makes sense?",
         "choices": [
           "The bandage was wound around the woond.",
@@ -33578,6 +35392,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0143",
+        "version": 1,
+        "contentHash": "sha256:febc97209de9c21f87c50a11637ad84f01ea4db1bc10362c8573ff70b8588b28",
         "question": "If you were writing a letter to the editor, w hich sentence would you most likely use to persuade the town council to save a tree that was about to be cut down?",
         "choices": [
           "The tree is an oak tree and a landmark.",
@@ -33634,6 +35451,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0144",
+        "version": 1,
+        "contentHash": "sha256:1e33a022c7eb7fd975475077e279046ee0d081d068fca4f31103a52cc2bcf424",
         "question": "Which word is NOT spelled correctly?",
         "choices": [
           "emb arrass",
@@ -33690,6 +35510,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0145",
+        "version": 1,
+        "contentHash": "sha256:08932e507f4bdd49d18871e58dc2fd103f117c590f35070b2e3914825225cb8d",
         "question": "Which sentence has a spelling error?",
         "choices": [
           "There are alotof people at the movies.",
@@ -33746,6 +35569,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0146",
+        "version": 1,
+        "contentHash": "sha256:f5eb9a4c85a22c80a8216d83786224230ea0c98ab08673bb5f2625ccd8bebaee",
         "question": "Choose the best missing word. The __________ were solved by the detective and the policeman.",
         "choices": [
           "myster ies",
@@ -33802,6 +35628,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0147",
+        "version": 1,
+        "contentHash": "sha256:e9e050afba6f81c6fe1d9c3e47f2b633444f78a41eee41d1b0731bcbb722020e",
         "question": "Which word is spelled correctly?",
         "choices": [
           "recieve",
@@ -33858,6 +35687,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0148",
+        "version": 1,
+        "contentHash": "sha256:4b0ea322d4d374cf16aa180181d675110ef58765c834d6ef428c80e6406a793d",
         "question": "If you want to convince the library president to startopening the library on Satu rday afternoons, which would you most likely want to write?",
         "choices": [
           "review",
@@ -33914,6 +35746,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0149",
+        "version": 1,
+        "contentHash": "sha256:14d2a1224ec1a7d8cb0800c78af91caea1686b77792128cfbdae87bf857d7417",
         "question": "Which word is spelled incorrectly?",
         "choices": [
           "powder",
@@ -33970,6 +35805,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0150",
+        "version": 1,
+        "contentHash": "sha256:e269b02cf1e31def6eeba632b13f216f45908b298c14059540b170fdec210d40",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "blouose",
@@ -34026,6 +35864,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0151",
+        "version": 1,
+        "contentHash": "sha256:ca6228162fd29015c1c0a983cc9712ec81eb6328f002239223953427d4ae08de",
         "question": "What is the correct plural spelling of elf?",
         "choices": [
           "elfes",
@@ -34082,6 +35923,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0152",
+        "version": 1,
+        "contentHash": "sha256:489e67b71daade68abfe1ecfedaf7798f732fcc0c997262d4ceb9202edaff385",
         "question": "Which word is spelled incorrectly?",
         "choices": [
           "excuse",
@@ -34138,6 +35982,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0153",
+        "version": 1,
+        "contentHash": "sha256:5e494ba21e2b983a6f1f28d93df9935a336ac5ae6d243f670b97e78c59108381",
         "question": "Which of the underlined words is used incorrectly? Many ships and plains have disappeared in the Bermuda Triangle for unknown reasons.",
         "choices": [
           "man y",
@@ -34194,6 +36041,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0154",
+        "version": 1,
+        "contentHash": "sha256:e59c15fe93b0747ab20222379c3ed3ff6e9d1e8573897ca1954e58102ec781f1",
         "question": "Identify the best word to complete the following sentence. My friends planned a ____________ party.",
         "choices": [
           "f ood",
@@ -34250,6 +36100,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0155",
+        "version": 1,
+        "contentHash": "sha256:66aab06ad7bad915a377ac37db2617f194431c845f479f33e0d87c606f15f0c4",
         "question": "Which word in the list below is not spelled correctly?",
         "choices": [
           "mischievous",
@@ -34305,10 +36158,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 8
+          "sequence": 155
         }
       },
       {
+        "id": "vocabulary-spelling-q0156",
+        "version": 1,
+        "contentHash": "sha256:25be5de8d5df325e531cb3deb1c95b69ad7774dac5619074c938c6a75b2a5a37",
         "question": "In which section of the following sentence is a word used incorrectly? The heard of cattle ate twice as many bales of hay during the winter.",
         "choices": [
           "The heard of cattle",
@@ -34364,10 +36220,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 16
+          "sequence": 156
         }
       },
       {
+        "id": "vocabulary-spelling-q0157",
+        "version": 1,
+        "contentHash": "sha256:ebf82e5c99de15b72d5bb94074a5b23cfc9e61c718c60aa344bcd4bf4839af35",
         "question": "Which word in the list below is spelled correctly? in",
         "choices": [
           "raspberry",
@@ -34423,10 +36282,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 20
+          "sequence": 157
         }
       },
       {
+        "id": "vocabulary-spelling-q0158",
+        "version": 1,
+        "contentHash": "sha256:c76c0b0aa7d3e5b2009d8dde32606f26d1f9c817f271d13c3d194160694965f7",
         "question": "In which section of the following sentence is a word used incorrectly? The baby bird’s high pitched cheap could be heard from inside the house.",
         "choices": [
           "The baby bird’s",
@@ -34482,10 +36344,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 26
+          "sequence": 158
         }
       },
       {
+        "id": "vocabulary-spelling-q0159",
+        "version": 1,
+        "contentHash": "sha256:83b688dc99bb77ffe55c19cea2430bd249446929a97c6bddd82f47d18900ecc9",
         "question": "Which word in the list below is spelled correctly? in",
         "choices": [
           "exceed",
@@ -34541,10 +36406,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 30
+          "sequence": 159
         }
       },
       {
+        "id": "vocabulary-spelling-q0160",
+        "version": 1,
+        "contentHash": "sha256:e876fd3c8b61dab3c8be21d962d5bd6143ea4824b36578ff26a1b750b22bdde3",
         "question": "In which section of the following sentence is a word used incorrectly? I rode my bike to the store, but my bicycle petal broke.",
         "choices": [
           "I rode my bike to",
@@ -34600,10 +36468,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 36
+          "sequence": 160
         }
       },
       {
+        "id": "vocabulary-spelling-q0161",
+        "version": 1,
+        "contentHash": "sha256:268d04a7c84f2bbcf11676b21bf476320d7e966e5cb3af997b06d53d778802ef",
         "question": "Which word in the list below is spelled correctly? in",
         "choices": [
           "accommodate",
@@ -34659,10 +36530,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 40
+          "sequence": 161
         }
       },
       {
+        "id": "vocabulary-spelling-q0162",
+        "version": 1,
+        "contentHash": "sha256:5e9bc835404fd4033f50669c281eb544a5e0547315f035322c26d04ca7991504",
         "question": "Find the misspelled word.",
         "choices": [
           "ost rich",
@@ -34718,10 +36592,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 46
+          "sequence": 162
         }
       },
       {
+        "id": "vocabulary-spelling-q0163",
+        "version": 1,
+        "contentHash": "sha256:226c3ee7bc23eb72efd582bfe8904a3037e3070d7bfecd2b4fd394a061ecf8d3",
         "question": "Find the word that is co rrectly spelled.",
         "choices": [
           "cranberries",
@@ -34777,10 +36654,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 56
+          "sequence": 163
         }
       },
       {
+        "id": "vocabulary-spelling-q0164",
+        "version": 1,
+        "contentHash": "sha256:8610199e05b1dc0b9706d3dcc2d99000f4673013bb76c6a1d99234c21a7f13ad",
         "question": "In whic h section of the following sentence is a word used incorrectly? Aunt Joann e scent me a bunch of red sweaters.",
         "choices": [
           "Aunt Joanne",
@@ -34836,10 +36716,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 60
+          "sequence": 164
         }
       },
       {
+        "id": "vocabulary-spelling-q0165",
+        "version": 1,
+        "contentHash": "sha256:e082462e85e6e6a8a4bf7a3d4ecad1c453918c962ff1e3575c12fa5c99cd9d8b",
         "question": "Choose the word that is incorrectly spelled in the sentence below. Carrington ordered steak for dinner, but the serve r forgot to bring her a steak knive to cut with.",
         "choices": [
           "or dered",
@@ -34895,10 +36778,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 66
+          "sequence": 165
         }
       },
       {
+        "id": "vocabulary-spelling-q0166",
+        "version": 1,
+        "contentHash": "sha256:b852a58823b601b5e67d52f830958ecc29511f645e093ee41591decd60613330",
         "question": "In which section of the following sentence is a word used incorrectly? I will write a note to accept your invitation.",
         "choices": [
           "I will write a",
@@ -34954,10 +36840,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 70
+          "sequence": 166
         }
       },
       {
+        "id": "vocabulary-spelling-q0167",
+        "version": 1,
+        "contentHash": "sha256:68013aa849a52e924f4207f78e47e08645b33a1fe82f092b189107dacef4019d",
         "question": "Which word below is spelled incorrectly?",
         "choices": [
           "misp elled",
@@ -35013,10 +36902,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 79
+          "sequence": 167
         }
       },
       {
+        "id": "vocabulary-spelling-q0168",
+        "version": 1,
+        "contentHash": "sha256:c9e834c2a250b5cba2a72dda51deccd1a45a3382a6d437fe9d289e7b26147b59",
         "question": "In which section of the following sentence is a word used incorrectly? We could not wait to eat the meet my dad grilled.",
         "choices": [
           "We could not wait",
@@ -35072,10 +36964,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 80
+          "sequence": 168
         }
       },
       {
+        "id": "vocabulary-spelling-q0169",
+        "version": 1,
+        "contentHash": "sha256:3372969700aef18e9a55ae42feeec091220dcdc9ad947fde00555cfb0183ec04",
         "question": "In which section of the following sentence is a word used incorrectly? My mom wants me to learn how to knit and so my own clothes.",
         "choices": [
           "My mom wants me",
@@ -35131,10 +37026,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 88
+          "sequence": 169
         }
       },
       {
+        "id": "vocabulary-spelling-q0170",
+        "version": 1,
+        "contentHash": "sha256:123d9116e5429033f3d1e89afea962f30fd53b7bd38b91b84d0d28cbce2a4239",
         "question": "Which word in the list below is spelled correctly?",
         "choices": [
           "p roblum",
@@ -35190,10 +37088,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 90
+          "sequence": 170
         }
       },
       {
+        "id": "vocabulary-spelling-q0171",
+        "version": 1,
+        "contentHash": "sha256:448a56fbb23f1948f358192c0dfe10780b46a053a146875f65fae75d4f232845",
         "question": "In which section of the following sentence is a word used incorrectly? I threw the ball up so high in the sky it got lost in the bright son.",
         "choices": [
           "I t hrew the ball up",
@@ -35249,10 +37150,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 96
+          "sequence": 171
         }
       },
       {
+        "id": "vocabulary-spelling-q0172",
+        "version": 1,
+        "contentHash": "sha256:b2dcb183a1696cb3e957f01bcafa999dc3f08d37e598407566ce5fd1e7a92251",
         "question": "Which word in the list below is spelled correctly? in",
         "choices": [
           "cookout",
@@ -35308,10 +37212,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 100
+          "sequence": 172
         }
       },
       {
+        "id": "vocabulary-spelling-q0173",
+        "version": 1,
+        "contentHash": "sha256:72c052d9add578eec11ef908f01b0b655dc3b5e1efbec27e737b9d2fe05bf4e1",
         "question": "Which word in the list below is spelled correctly? in",
         "choices": [
           "government",
@@ -35367,10 +37274,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 110
+          "sequence": 173
         }
       },
       {
+        "id": "vocabulary-spelling-q0174",
+        "version": 1,
+        "contentHash": "sha256:6a9524c0d155e2773144fef2a12d141d0331216b6b75304f02ecf3a36d456b32",
         "question": "In which section of the following sentence is a word used incorrectly? I think there dog is the meanest dog in the neighborhood.",
         "choices": [
           "I think there dog",
@@ -35426,10 +37336,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 116
+          "sequence": 174
         }
       },
       {
+        "id": "vocabulary-spelling-q0175",
+        "version": 1,
+        "contentHash": "sha256:7a99c08129234a869229d6d81e578f37e605efd2f29f2fe493a7ac2e93821b73",
         "question": "Which word in the list below is spelled correctly? in",
         "choices": [
           "restaurant",
@@ -35485,10 +37398,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 120
+          "sequence": 175
         }
       },
       {
+        "id": "vocabulary-spelling-q0176",
+        "version": 1,
+        "contentHash": "sha256:9e6f43ecc0e989f08362ff085adb0876d05c31e26a20bbab3bfdea27654b3f57",
         "question": "Choose the word that is incorrectly spelled.",
         "choices": [
           "mo nkeys",
@@ -35543,10 +37459,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 23
+          "sequence": 176
         }
       },
       {
+        "id": "vocabulary-spelling-q0177",
+        "version": 1,
+        "contentHash": "sha256:88d984efe8559d3c8f6e44dcea9116e8c2f6c57d0e505c41fc298d84124bca6e",
         "question": "Choose the word that is spelled incorrectly.",
         "choices": [
           "narrower",
@@ -35601,10 +37520,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 74
+          "sequence": 177
         }
       },
       {
+        "id": "vocabulary-spelling-q0178",
+        "version": 1,
+        "contentHash": "sha256:4a4b5d831675ef4d5b2a24127eb355d96ea8b26d50be4fd7a4932ab050e1c293",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "manaege",
@@ -35659,10 +37581,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 80
+          "sequence": 178
         }
       },
       {
+        "id": "vocabulary-spelling-q0179",
+        "version": 1,
+        "contentHash": "sha256:ebb29ad1a3dbe6c28c19d704ab8d50765a2ea0677e4a905652913a4ac37c2dda",
         "question": "Identify the correctly spelled word that best completes the sentence. Valerie asked her teacher, “Could you please ___ ______ the question and make it easier to understand?”",
         "choices": [
           "clearify",
@@ -35717,10 +37642,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 110
+          "sequence": 179
         }
       },
       {
+        "id": "vocabulary-spelling-q0180",
+        "version": 1,
+        "contentHash": "sha256:ed907ab54cd82a9a14c80dfd22f8addac2b33e2923a6031e563f2c201eb7a186",
         "question": "Ch oose the sentence that contains a misspelled word.",
         "choices": [
           "D uring migration, the butterflies fly south to Mexic o.",
@@ -35775,10 +37703,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 113
+          "sequence": 180
         }
       },
       {
+        "id": "vocabulary-spelling-q0181",
+        "version": 1,
+        "contentHash": "sha256:211735b7f398e9934e9a5fc21a733a0d1cf924ce7855f6821a94471543054369",
         "question": "Identify the correct word to complete the sentence. Abdul practiced his spelling words to ________ that he was ready for the test.",
         "choices": [
           "in sure",
@@ -35833,10 +37764,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 121
+          "sequence": 181
         }
       },
       {
+        "id": "vocabulary-spelling-q0182",
+        "version": 1,
+        "contentHash": "sha256:5b4851747a0afb27a5697bc8b494de86f27b3ad3094d99425212ad1b5fe8c644",
         "question": "Choose the sentence with the misspelled word.",
         "choices": [
           "I w as so embarassed when I tripped and dropped my cafeteria tray.",
@@ -35891,10 +37825,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 134
+          "sequence": 182
         }
       },
       {
+        "id": "vocabulary-spelling-q0183",
+        "version": 1,
+        "contentHash": "sha256:5e7c193263c1e7132ace8678bb94456b92a2d3349d87eaff286b0161fa3b571f",
         "question": "Choose the word that is used incorrectly. We pride the door off the hinges using a crowbar and a hammer.",
         "choices": [
           "pride",
@@ -35949,10 +37886,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 176
+          "sequence": 183
         }
       },
       {
+        "id": "vocabulary-spelling-q0184",
+        "version": 1,
+        "contentHash": "sha256:ba645cd112c1a2b454507dadaa926ed0664d63c3f4cebf4892b30d906b83ace2",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "anchor",
@@ -36007,10 +37947,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 182
+          "sequence": 184
         }
       },
       {
+        "id": "vocabulary-spelling-q0278",
+        "version": 1,
+        "contentHash": "sha256:2bf74fd28224bd0861e8964b0c10103d69d9027b700bc7f311a44ca805169737",
         "question": "Choose the word that is spelled inc orrectly.",
         "choices": [
           "lonely",
@@ -36069,6 +38012,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-q0284",
+        "version": 1,
+        "contentHash": "sha256:e089a432937a82ec5633620b7007e49c480cd239b706ff354b661108b7085629",
         "question": "Choose the word that is spelled correctly.",
         "choices": [
           "empeathy",
@@ -36147,6 +38093,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-modifier-words-q0001",
+        "version": 1,
+        "contentHash": "sha256:6122af5528cd8d1d78f0a981e1000c40cd87fe890ec163a27a27d9a44df18c26",
         "question": "Which modifier best describes HOW the cat slept?",
         "choices": [
           "The cat slept on the couch.",
@@ -36198,6 +38147,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0002",
+        "version": 1,
+        "contentHash": "sha256:77b5ef9fdb05c8b9ecd915429f8833f97e0a2a6a74a7168b4aceb25c219e7d7d",
         "question": "Which sentence contains a modifier that tells WHERE?",
         "choices": [
           "She sang beautifully.",
@@ -36249,6 +38201,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0003",
+        "version": 1,
+        "contentHash": "sha256:e7ff3bbaca9c8c1a9d2f5329bc84f9aaf2d552798cfa02a0d8134776f9e38df8",
         "question": "In the sentence 'The extremely tall tree swayed,' what does 'extremely' modify?",
         "choices": [
           "tree",
@@ -36300,6 +38255,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0004",
+        "version": 1,
+        "contentHash": "sha256:3a669718b846e91ef5fdf31cfbd0eda28b3a736408570f4ace7ebad2fca5f0a7",
         "question": "Which sentence uses a modifier correctly?",
         "choices": [
           "Running fast, the tree was passed by the boy.",
@@ -36351,6 +38309,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0005",
+        "version": 1,
+        "contentHash": "sha256:c052d63b6a8f89046463399e2e76fb4c97c871343757739b319e23d80df0f081",
         "question": "What does the modifier 'almost' modify in 'She almost scored a goal'?",
         "choices": [
           "She",
@@ -36402,6 +38363,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0006",
+        "version": 1,
+        "contentHash": "sha256:8b84e302a02fba5dd372644016c0e5138a4dafca3965ca48c5ea6fe831dfe7b4",
         "question": "Which sentence has a misplaced modifier?",
         "choices": [
           "The teacher gave a test to the students on Monday.",
@@ -36453,6 +38417,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0007",
+        "version": 1,
+        "contentHash": "sha256:03ab47567ff5e9c58b8309b5b9e1f96ab018d9ffedbbe6c3b8fda034fab53ccb",
         "question": "Which word is an intensifier modifier?",
         "choices": [
           "slowly",
@@ -36504,6 +38471,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0008",
+        "version": 1,
+        "contentHash": "sha256:44fb2299f280520be73f63d6c27280526cab510a6ace7b0bc5cbd533b7d207b6",
         "question": "In 'The children played outside happily,' which word is the modifier?",
         "choices": [
           "children",
@@ -36555,6 +38525,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0009",
+        "version": 1,
+        "contentHash": "sha256:4821e0b5c470a9df7b2a59e11a6af5e0fdb386ef2f7df052bcea7c022060e921",
         "question": "Which sentence uses 'only' correctly to show one person did the work?",
         "choices": [
           "Only she did the homework.",
@@ -36606,6 +38579,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0010",
+        "version": 1,
+        "contentHash": "sha256:b625587cd4d10b8c55decaad35f8d753a9c58f1b4e111de06ef98d12b84f719b",
         "question": "What does 'too' modify in 'The soup was too hot'?",
         "choices": [
           "soup",
@@ -36657,6 +38633,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0011",
+        "version": 1,
+        "contentHash": "sha256:3c33852c714f9549c91ca1ed1af0b218b7f56e7329ef03fd3fa1644ac0d1533d",
         "question": "Which sentence contains a modifier that tells TO WHAT EXTENT?",
         "choices": [
           "She completely finished the puzzle.",
@@ -36708,6 +38687,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0012",
+        "version": 1,
+        "contentHash": "sha256:a85e65fb33ce54e74207dcc11f40471f9698bf2dce398f3f7aaf4d85bcf58169",
         "question": "Which is a limiting modifier?",
         "choices": [
           "beautifully",
@@ -36759,6 +38741,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0013",
+        "version": 1,
+        "contentHash": "sha256:cd7f6159e53012f22de7f0dff39fef58ab6ed95d466757285848f3cf1360e6c6",
         "question": "Which sentence is unclear because of modifier placement?",
         "choices": [
           "I almost ate the whole pizza.",
@@ -36810,6 +38795,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0014",
+        "version": 1,
+        "contentHash": "sha256:474769557f52a82b151d0678bdb305f185a67c5b9982274721b7f13fee3b736a",
         "question": "Which word is NOT a modifier?",
         "choices": [
           "swiftly",
@@ -36861,6 +38849,9 @@
         }
       },
       {
+        "id": "vocabulary-modifier-words-q0015",
+        "version": 1,
+        "contentHash": "sha256:31ecf69ca1ad772a612aa5b0599d8225178e4379c6f578abee793a1930c74589",
         "question": "Which sentence uses the modifier clearly, so readers know what was almost finished?",
         "choices": [
           "Almost the class finished the mural before lunch.",
@@ -36932,6 +38923,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-figurative-language-q0001",
+        "version": 1,
+        "contentHash": "sha256:5a32d039437a45333e7eed7e056b3baa94267288c3d2630069c876b0b586b1a4",
         "question": "Grade 2 Easy: Choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy moved very fast.",
@@ -36982,6 +38976,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0002",
+        "version": 1,
+        "contentHash": "sha256:9b93d412938528f9a4740ec1ab43d758369a03b02cdf720f459c2ec9f627137e",
         "question": "Grade 2 Easy: Choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The idea was planted outside.",
@@ -37032,6 +39029,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0003",
+        "version": 1,
+        "contentHash": "sha256:477230a6c425286ab52ad9a8cc8d689895677a072cb32c7e53c59ccf9f0d3c8d",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence uses personification?",
         "choices": [
           "The gate stood near the fence.",
@@ -37082,6 +39082,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0004",
+        "version": 1,
+        "contentHash": "sha256:f6853118fa3d5c45583d1bfb325240facde43a901b2e191759c2f31322ff073a",
         "question": "Grade 2 Easy: Choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal wanted to leave school.",
@@ -37132,6 +39135,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0005",
+        "version": 1,
+        "contentHash": "sha256:4a572e54fccb29d5d9811e33eb83a1f02b8cf7421c66c6a8d56aab876b7e764d",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "I have told you a million times to zip your backpack.",
@@ -37182,6 +39188,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0006",
+        "version": 1,
+        "contentHash": "sha256:d34d5c6f53c05eec78087ca33cf08ce8abcf5642a507a40144d063b55dee4c79",
         "question": "Grade 2 Easy: Choose the best answer. Which phrase is alliteration?",
         "choices": [
           "bright red wagon",
@@ -37232,6 +39241,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0007",
+        "version": 1,
+        "contentHash": "sha256:6c5eb8f41fe9ac6f9990966303b1e2cc996c43686fac22c2f4356fb20864a980",
         "question": "Grade 2 Easy: Choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "careful",
@@ -37282,6 +39294,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0008",
+        "version": 1,
+        "contentHash": "sha256:eb7c88d863bd5819867336e63f6a1dfff5c87ec62579ca41fc663225a5fc0a61",
         "question": "Grade 2 Easy: Choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was empty.",
@@ -37332,6 +39347,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0009",
+        "version": 1,
+        "contentHash": "sha256:33d5c6f96c647e7c7237a82e38af890cb37424b64446aa96287f720e7de12241",
         "question": "Grade 2 Easy: Choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "personification",
@@ -37382,6 +39400,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0010",
+        "version": 1,
+        "contentHash": "sha256:593bf4b7e038660eba6be9a94e164a5a6f2e6fe2b6f6123e73f1f790d1d1c5a4",
         "question": "Grade 2 Easy: Choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "ride horses",
@@ -37432,6 +39453,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0011",
+        "version": 1,
+        "contentHash": "sha256:6f887587a90a46067627b3e88b7f66cfd0b999df8b5a082d1e627373321c127b",
         "question": "Grade 2 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "The recipe has steps.",
@@ -37482,6 +39506,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0012",
+        "version": 1,
+        "contentHash": "sha256:2b6c8e1fa9454f4e306748d77a7d88b29383686511e30b93f4d538304fb99bb1",
         "question": "Grade 2 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was missing.",
@@ -37532,6 +39559,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0013",
+        "version": 1,
+        "contentHash": "sha256:a0f0cb6e770ca515f6586c16477ee155e83129b80fd6cd19d120972654f184a9",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library was a treasure chest of stories.",
@@ -37582,6 +39612,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0014",
+        "version": 1,
+        "contentHash": "sha256:ecabc9f9e3547a6e5d8db3463b8ce4ae76847832ec50761d7df2f20a3112c19f",
         "question": "Grade 2 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "silly",
@@ -37632,6 +39665,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0015",
+        "version": 1,
+        "contentHash": "sha256:017205c14220728d2db09b2c3555bcad0a51368e729f95134f36058700fd5564",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite had a string.",
@@ -37682,6 +39718,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0016",
+        "version": 1,
+        "contentHash": "sha256:20fca5cfb853dcd32bdb59b9822e8c9e5078ad45284b4de01a29df902d697b3d",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy was bright yellow.",
@@ -37732,6 +39771,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0017",
+        "version": 1,
+        "contentHash": "sha256:841c4d519f37d4ac5aad081e8e1f4b8f12b036d9b6dd290cbab9575df6bb8b5f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The idea slowly developed into something bigger.",
@@ -37782,6 +39824,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0018",
+        "version": 1,
+        "contentHash": "sha256:462fbc0faca2e66519441d78c2cf0038c1f82a481485674bd8873bd211c2f6de",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence uses personification?",
         "choices": [
           "The gate was made of wood.",
@@ -37832,6 +39877,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0019",
+        "version": 1,
+        "contentHash": "sha256:c90dc2bac8607d9aaa80b5d2c31f3dbd598ce305bfe29baad46dca37beae4047",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal saw insects.",
@@ -37882,6 +39930,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0020",
+        "version": 1,
+        "contentHash": "sha256:a1f20336a9d966fa6f752338301bc2084962c8b6be18bda239b5d291ec8112dd",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "The zipper is metal.",
@@ -37932,6 +39983,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0021",
+        "version": 1,
+        "contentHash": "sha256:457a2c44e245f1c5c8808630ed6d231095309638b286eae17bb104d7a4e7b4cc",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which phrase is alliteration?",
         "choices": [
           "silver stars shone softly",
@@ -37982,6 +40036,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0022",
+        "version": 1,
+        "contentHash": "sha256:406411d53f80a9d527a14814f7623f4defa335e31c119bd221a88b1ca5f8c358",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "bright",
@@ -38032,6 +40089,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0023",
+        "version": 1,
+        "contentHash": "sha256:c086b02332dbc5aaa6c433cabed4ac40037fdb60d86e39129c11e2fb39639711",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was outside.",
@@ -38082,6 +40142,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0024",
+        "version": 1,
+        "contentHash": "sha256:7fd55504951825c3d15cab6f610cc85250225dc464baac986948e4ce9194a54f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "rhyme",
@@ -38132,6 +40195,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0025",
+        "version": 1,
+        "contentHash": "sha256:d7817acc70d25d69909611b53c8d00dfb11c3fd9a935e5d34849d2019441f282",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "wait or slow down",
@@ -38182,6 +40248,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0026",
+        "version": 1,
+        "contentHash": "sha256:0b1a55590b7c3936585a65360ffe254e276bdc3cf2840faf98c80e262eac78cf",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "The kitchen is a room.",
@@ -38232,6 +40301,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0027",
+        "version": 1,
+        "contentHash": "sha256:cd15be883db9d44e81beacd3fac1458b18c2decbe402f3123de5b37902bc8f6b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was empty.",
@@ -38282,6 +40354,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0028",
+        "version": 1,
+        "contentHash": "sha256:7e2d558f998ca6ed970f917bc28dc61e34ccebc131b298b9fabec5e0af49cf98",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The librarian smiled.",
@@ -38332,6 +40407,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0029",
+        "version": 1,
+        "contentHash": "sha256:cd49516f7fb6e349546e6d870dc5816524aa1bc1d684dbea0fc4aaf524cf002f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "mysterious",
@@ -38382,6 +40460,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0030",
+        "version": 1,
+        "contentHash": "sha256:db360894fc21c706c75875f02d11aa836d62f22ff4e6a6afdc6cd38fa8ac2d1e",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite was red.",
@@ -38432,6 +40513,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0031",
+        "version": 1,
+        "contentHash": "sha256:469ecd3082e17499317999bf67c17bf5b2012f79e279e6b02f8f8a95ff65f6da",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy was afraid of storms.",
@@ -38482,6 +40566,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0032",
+        "version": 1,
+        "contentHash": "sha256:27db5aeef428e7e06c8df1e8699b2ed8148aca7b69fb4639daf86c7b275e769f",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The seed disappeared.",
@@ -38532,6 +40619,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0033",
+        "version": 1,
+        "contentHash": "sha256:8c0cef9f110d68c9f6346ebb11aedac5bf4dbf9d9b7f85f9a725dd7f57003d8a",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence uses personification?",
         "choices": [
           "The old gate groaned in the wind.",
@@ -38582,6 +40672,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0034",
+        "version": 1,
+        "contentHash": "sha256:177d7698ecb48f0af1ec2e988adc6e9476a6580e0d382495a744982c0daeb274",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal ate too quickly.",
@@ -38632,6 +40725,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0035",
+        "version": 1,
+        "contentHash": "sha256:5f8b337585f9c8e7eab4b05e868ee26bcfc7966f37024429732d707eb958f5e6",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence uses hyperbole?",
         "choices": [
           "The backpack is blue.",
@@ -38682,6 +40778,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0036",
+        "version": 1,
+        "contentHash": "sha256:dccef3c7c14b4c43f08fedc0d613e74e54db5c494cde835e00a1acaa47e45a1f",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which phrase is alliteration?",
         "choices": [
           "rain fell today",
@@ -38732,6 +40831,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0037",
+        "version": 1,
+        "contentHash": "sha256:3b2d4a216ace1728df89c7b3017c7ee92eb10699eb855c5a25430a4fdbae55ae",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is onomatopoeia?",
         "choices": [
           "buzz",
@@ -38782,6 +40884,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0038",
+        "version": 1,
+        "contentHash": "sha256:36ea7868b0c8424517502797d448eefb40ed79d697d835985bd77ec476dfbc91",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom had bees.",
@@ -38832,6 +40937,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0039",
+        "version": 1,
+        "contentHash": "sha256:0623bcf81ba8792171eec94469eb0bdf163c30258629d5be89de0fad86f07a70",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "alliteration",
@@ -38882,6 +40990,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0040",
+        "version": 1,
+        "contentHash": "sha256:50b51ae483629f4d883a423cb9cae742522598d36c37e9631e4eb9e919afde03",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does \"hold your horses\" mean?",
         "choices": [
           "feed animals",
@@ -38932,6 +41043,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0041",
+        "version": 1,
+        "contentHash": "sha256:38075c035f89023bf0a4adf1b935e8dc8a716a5719ed05fdd0363d1268b55cd0",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "Warm cinnamon filled the kitchen air.",
@@ -38982,6 +41096,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0042",
+        "version": 1,
+        "contentHash": "sha256:d5f3e0f95092b98fecff127b00eb66c3b7ab53f8d2438583c9f0293ca88c2ff8",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack truly weighed 2,000 pounds.",
@@ -39032,6 +41149,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0043",
+        "version": 1,
+        "contentHash": "sha256:3c4dd88733fcf2a4936251a907237f0f6c34d79b565caa7f6c142d9049e9d7dc",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The books stood on shelves.",
@@ -39082,6 +41202,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0044",
+        "version": 1,
+        "contentHash": "sha256:3de2311b9550c2b94ef487c02ed253293bd9c9724bc92a1679846d60b3550a44",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "ordinary",
@@ -39132,6 +41255,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0045",
+        "version": 1,
+        "contentHash": "sha256:cfd2eda8e6699afc93185143a309628b600202888d5ab0ae831df30548bee9e5",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite dipped like a bird in the wind.",
@@ -39182,6 +41308,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0046",
+        "version": 1,
+        "contentHash": "sha256:1a6de24b84a444e9d1eaaacd719f715c3337f3b71a3e2351f407dc32e107ed9f",
         "question": "Grade 3 Easy: Choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy was afraid of storms.",
@@ -39232,6 +41361,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0047",
+        "version": 1,
+        "contentHash": "sha256:2ea31945780e0e24c5048ea1fed2ecef89e7e821ff745b124095ac7ce8c46f68",
         "question": "Grade 3 Easy: Choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The seed disappeared.",
@@ -39282,6 +41414,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0048",
+        "version": 1,
+        "contentHash": "sha256:752aed0dcbdc9a51bb14dd8ec18c2cba5a2f196dfe8d4f87477bd26aac29720e",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence uses personification?",
         "choices": [
           "The old gate groaned in the wind.",
@@ -39332,6 +41467,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0049",
+        "version": 1,
+        "contentHash": "sha256:04f975793e6c35920c2c070fe87e0d630fe45d0f8d183fccafcd8ddaf967116d",
         "question": "Grade 3 Easy: Choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal ate too quickly.",
@@ -39382,6 +41520,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0050",
+        "version": 1,
+        "contentHash": "sha256:98b9aa1b5c57be77afabc2687541fa39d17922ba4b8cb2af74b5c72bd6896777",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "The backpack is blue.",
@@ -39432,6 +41573,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0051",
+        "version": 1,
+        "contentHash": "sha256:e603557187ae0c2174a3312abddd08ce7b60b22eda6766ac70ada02666f4398c",
         "question": "Grade 3 Easy: Choose the best answer. Which phrase is alliteration?",
         "choices": [
           "rain fell today",
@@ -39482,6 +41626,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0052",
+        "version": 1,
+        "contentHash": "sha256:bd645986aa67cbc996244a73277bf4b8aa7d4c49ceb74ae7678879af42272e71",
         "question": "Grade 3 Easy: Choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "buzz",
@@ -39532,6 +41679,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0053",
+        "version": 1,
+        "contentHash": "sha256:82007f345821fc6cdd9fe0597217785f4cdb0024b8fb4e568853506091ad00a2",
         "question": "Grade 3 Easy: Choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom had bees.",
@@ -39582,6 +41732,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0054",
+        "version": 1,
+        "contentHash": "sha256:55091821ae87d81f9fbcc2ad52bae1838dfb5a61f84640761945d75f4bd61ccc",
         "question": "Grade 3 Easy: Choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "alliteration",
@@ -39632,6 +41785,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0055",
+        "version": 1,
+        "contentHash": "sha256:dcd997eb69f7ab6903b63d6eeb52983561b020749d53b5442a686da91b64780e",
         "question": "Grade 3 Easy: Choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "feed animals",
@@ -39682,6 +41838,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0056",
+        "version": 1,
+        "contentHash": "sha256:ee4e9f818e2d3661fbb52a146be1882d66d19c6e651dfbcf4cfce605660805e4",
         "question": "Grade 3 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "Warm cinnamon filled the kitchen air.",
@@ -39732,6 +41891,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0057",
+        "version": 1,
+        "contentHash": "sha256:698a5537d5dbe64e1d8fd973597ced402b74b635305b4c9ad33a55aee0ab6a73",
         "question": "Grade 3 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack truly weighed 2,000 pounds.",
@@ -39782,6 +41944,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0058",
+        "version": 1,
+        "contentHash": "sha256:e6e7cb705608e2fb6373a9b1b24e37fd2b44508b66e486625e92f191cf1f96d6",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The books stood on shelves.",
@@ -39832,6 +41997,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0059",
+        "version": 1,
+        "contentHash": "sha256:4934191fef3441ce08602b5845f5c8225e621dc46d4999047c94d4a43655f910",
         "question": "Grade 3 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "ordinary",
@@ -39882,6 +42050,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0060",
+        "version": 1,
+        "contentHash": "sha256:b15b09f9275916aaaf9ea00fe280bd1b5b170ff4d9d5cf6d2b18c4df8e09c6da",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite dipped like a bird in the wind.",
@@ -39932,6 +42103,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0061",
+        "version": 1,
+        "contentHash": "sha256:cd9be57964eb752a8757dd0f5038b7615a57b5068c37161057559726d013b3c4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy made thunder.",
@@ -39982,6 +42156,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0062",
+        "version": 1,
+        "contentHash": "sha256:56da64c723d7fc919eaf54d5176b5b624f7170cd9fdde3ee5c942628476f4266",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The plan was about gardening.",
@@ -40032,6 +42209,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0063",
+        "version": 1,
+        "contentHash": "sha256:d3b2d39ec187f720b28c93d822888f26ca9c7988cb774bf62869f1faee8c6e1e",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence uses personification?",
         "choices": [
           "The gate had a latch.",
@@ -40082,6 +42262,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0064",
+        "version": 1,
+        "contentHash": "sha256:98587a33f9cae44be48d70b7c378ff227760f0ab916e29227dd81be4dbd4dc41",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal felt nervous.",
@@ -40132,6 +42315,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0065",
+        "version": 1,
+        "contentHash": "sha256:be226971df66c398e36fdfdc24913f49454d480fa0361b85cd0af03526365de3",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "I told you once yesterday.",
@@ -40182,6 +42368,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0066",
+        "version": 1,
+        "contentHash": "sha256:51dfea6c5a2626b601a2a001c02f056ef185b430eba0f64721b2ce1ce0fe1d73",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which phrase is alliteration?",
         "choices": [
           "jump over the log",
@@ -40232,6 +42421,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0067",
+        "version": 1,
+        "contentHash": "sha256:76defc4e7e8f69cdf8548062702ab7c70cf729aec1091cbaec30ca8762d9610e",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "silent",
@@ -40282,6 +42474,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0068",
+        "version": 1,
+        "contentHash": "sha256:178ef83a26d123075c3be87e37d56e944d369978adffa21d2c0293e29525a054",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was busy.",
@@ -40332,6 +42527,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0069",
+        "version": 1,
+        "contentHash": "sha256:72b97aac1199be68c6277aa4f934cbac8d2208c98b84ad3757c9060c6e59cd5e",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "literal fact only",
@@ -40382,6 +42580,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0070",
+        "version": 1,
+        "contentHash": "sha256:7e3c24f6d529181b97adfbeb9dc89349252547ae7dcb32dc2b7702e8d8baef1a",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "run faster",
@@ -40432,6 +42633,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0071",
+        "version": 1,
+        "contentHash": "sha256:badbed7a1030a1b278e62610c2ef1400883ac83cdcc3c5d0d8d5827aa4c40e70",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "The plate was round.",
@@ -40482,6 +42686,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0072",
+        "version": 1,
+        "contentHash": "sha256:27a6976c661a22109c73553946c595ddd76791a15127b62088b00e934b52e56c",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack felt very heavy.",
@@ -40532,6 +42739,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0073",
+        "version": 1,
+        "contentHash": "sha256:762fe552ce143b16251c39fb76d9f55617b51f7dc15ba427f29794b30f4b15dd",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library opened at nine.",
@@ -40582,6 +42792,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0074",
+        "version": 1,
+        "contentHash": "sha256:291dfca894d90d2cbcbc35844b151b4444b509a87b90b58609d5e776b20e6cef",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "cheerful",
@@ -40632,6 +42845,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0075",
+        "version": 1,
+        "contentHash": "sha256:f4b4d3c06cb763499ec715a792c095a752ce94d4e568f3c7ebf834857e0cdc5a",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite flew on Saturday.",
@@ -40682,6 +42898,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0076",
+        "version": 1,
+        "contentHash": "sha256:6c794d1b4d59c5c0ca8f98f27dfe2b01e3ba9c77fc7a40bc5b3db0aebd8ecf5c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy moved very fast.",
@@ -40732,6 +42951,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0077",
+        "version": 1,
+        "contentHash": "sha256:721eab6781b64326cf6ab4e6b16e6ccc96295c0edd9134966c23e95ec72ba3ad",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The idea was planted outside.",
@@ -40782,6 +43004,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0078",
+        "version": 1,
+        "contentHash": "sha256:81e5a025a08c7516035cfaa2cb6a178e53619927a96e5729d8f9080a6fb19c8e",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence uses personification?",
         "choices": [
           "The gate stood near the fence.",
@@ -40832,6 +43057,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0079",
+        "version": 1,
+        "contentHash": "sha256:4de5e6f7a495e493e2f981878c645ad8cdc81a76f87bba289c126c570d8f5483",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal wanted to leave school.",
@@ -40882,6 +43110,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0080",
+        "version": 1,
+        "contentHash": "sha256:5ae56c86bed1ef21e97c789393c73fda31c6a2f8c1c0fb407092aeade044b185",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence uses hyperbole?",
         "choices": [
           "I have told you a million times to zip your backpack.",
@@ -40932,6 +43163,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0081",
+        "version": 1,
+        "contentHash": "sha256:7a1763768154afa3e9ee1266826242c33c275dc696f0093fee5b7efcc57f981a",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which phrase is alliteration?",
         "choices": [
           "bright red wagon",
@@ -40982,6 +43216,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0082",
+        "version": 1,
+        "contentHash": "sha256:d7a7ba62723bf5946f8733e5415f95978ea8a8b51be3743aeff92f3981c44b4b",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is onomatopoeia?",
         "choices": [
           "careful",
@@ -41032,6 +43269,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0083",
+        "version": 1,
+        "contentHash": "sha256:458f2ad120dcd55b9aee93971030ddb56c7234a0398b4d104ed96e8ac72a48ad",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was empty.",
@@ -41082,6 +43322,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0084",
+        "version": 1,
+        "contentHash": "sha256:b58ff37ae486a68271586f928815eaf3bd8d5bb3d8ab9acaa5394ec6b01d7218",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "personification",
@@ -41132,6 +43375,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0085",
+        "version": 1,
+        "contentHash": "sha256:ea16a4c493d769911fb9c49109f2004d01188bcb77e55774f5647e6b8e29f441",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does \"hold your horses\" mean?",
         "choices": [
           "ride horses",
@@ -41182,6 +43428,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0086",
+        "version": 1,
+        "contentHash": "sha256:5af93d31dae678d75da20f6c6213ea13cffb4d0371edf87f8ac9a03a9b72b928",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "The recipe has steps.",
@@ -41232,6 +43481,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0087",
+        "version": 1,
+        "contentHash": "sha256:0247eea87f83f037e0b82fce8bc14c991f63997bd2c4303e79d2e76422382227",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was missing.",
@@ -41282,6 +43534,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0088",
+        "version": 1,
+        "contentHash": "sha256:0653812c84268d79e18f723d7013fbbbd541215834cb1d90828bc6f6e7cc7a1b",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The library was a treasure chest of stories.",
@@ -41332,6 +43587,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0089",
+        "version": 1,
+        "contentHash": "sha256:79171f14b11e6dc0a87fb326bb9a2fa55cbcd074ee87c6587f2a1fd72c3676eb",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "silly",
@@ -41382,6 +43640,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0090",
+        "version": 1,
+        "contentHash": "sha256:72089dffb98a0200b8c94dbac1b1d6d80223c26ab7b4f90b3d29c257971a398d",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite had a string.",
@@ -41432,6 +43693,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0091",
+        "version": 1,
+        "contentHash": "sha256:dd550f63680439001a9040460d6bdcf410164ab01c7837c0bf8aa5a19a96aea0",
         "question": "Grade 4 Easy: Choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy moved very fast.",
@@ -41482,6 +43746,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0092",
+        "version": 1,
+        "contentHash": "sha256:71d0f27ab5d932600328c5bdf1dc08a5f38e1ee5dcbe4449e6637f7561a45aa6",
         "question": "Grade 4 Easy: Choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The idea was planted outside.",
@@ -41532,6 +43799,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0093",
+        "version": 1,
+        "contentHash": "sha256:21e4361dd037fc64499176491cf66c4665a59b641064cae81b7dc8832707df0e",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence uses personification?",
         "choices": [
           "The gate stood near the fence.",
@@ -41582,6 +43852,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0094",
+        "version": 1,
+        "contentHash": "sha256:caccd4a220506e6dffc4f8976259686da98f182241f884d50dcf4f250e8a2322",
         "question": "Grade 4 Easy: Choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal wanted to leave school.",
@@ -41632,6 +43905,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0095",
+        "version": 1,
+        "contentHash": "sha256:fffa7837f182af0c99e02674356a6bb56d95f88557e26decf23fb30c1dc44e56",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "I have told you a million times to zip your backpack.",
@@ -41682,6 +43958,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0096",
+        "version": 1,
+        "contentHash": "sha256:d31a85a524c1040d435103d4a3a993a3b92a056095b49c9c5b15f766c812b84d",
         "question": "Grade 4 Easy: Choose the best answer. Which phrase is alliteration?",
         "choices": [
           "bright red wagon",
@@ -41732,6 +44011,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0097",
+        "version": 1,
+        "contentHash": "sha256:b3d3e7c7231bb8db4cb22a59610c25406a1c6403292d3b36e05c178062f9759a",
         "question": "Grade 4 Easy: Choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "careful",
@@ -41782,6 +44064,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0098",
+        "version": 1,
+        "contentHash": "sha256:84e6c3fffbda3541e7b165e9e9bc28e153b0bbacf58d905acfe3759d459716e3",
         "question": "Grade 4 Easy: Choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was empty.",
@@ -41832,6 +44117,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0099",
+        "version": 1,
+        "contentHash": "sha256:b9bc6d064adb111d1cb7e3fd5bd80fc307ec5de539cdfa7ad031f5c1abd51282",
         "question": "Grade 4 Easy: Choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "personification",
@@ -41882,6 +44170,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0100",
+        "version": 1,
+        "contentHash": "sha256:1d2698d64b548950ee8ef7cb8244a6741cfb330666150eb001b5d5404637caab",
         "question": "Grade 4 Easy: Choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "ride horses",
@@ -41932,6 +44223,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0101",
+        "version": 1,
+        "contentHash": "sha256:acf5bf75a87e3066ac34c6c4f0ec826a34d477bf16fa0363d536e9442bbbda4f",
         "question": "Grade 4 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "The recipe has steps.",
@@ -41982,6 +44276,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0102",
+        "version": 1,
+        "contentHash": "sha256:23bf61156525b37a1f650ca65e4fcff122d446a7cc26832955a58fc059a7d59d",
         "question": "Grade 4 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was missing.",
@@ -42032,6 +44329,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0103",
+        "version": 1,
+        "contentHash": "sha256:ad9334ce39b23ab5e838e9ac385caf09a34b665d8ea720fae403b616c7bdc0ae",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library was a treasure chest of stories.",
@@ -42082,6 +44382,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0104",
+        "version": 1,
+        "contentHash": "sha256:d933992c89e1886d1da972a981ef2476e96788654da94d095c060c392517e925",
         "question": "Grade 4 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "silly",
@@ -42132,6 +44435,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0105",
+        "version": 1,
+        "contentHash": "sha256:fd354bd957bea4e07d9abc7d153ce2ed93a2b770ee4bf0e8c18de594f1c3db1a",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite had a string.",
@@ -42182,6 +44488,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0106",
+        "version": 1,
+        "contentHash": "sha256:08d36c310fc7f52ef23fe3fa93b03d495d5ed354e4bb44ecc26e5b14ce7c0efc",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy was bright yellow.",
@@ -42232,6 +44541,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0107",
+        "version": 1,
+        "contentHash": "sha256:189f5ffabff2372b21eedc55c8403e2fc2894fde011a969fea1a9ccf36743ab1",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The idea slowly developed into something bigger.",
@@ -42282,6 +44594,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0108",
+        "version": 1,
+        "contentHash": "sha256:b8dc3d40916dde3b779b7003abbcf3e25a56ef64fc642e0b558fc434286cded6",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses personification?",
         "choices": [
           "The gate was made of wood.",
@@ -42332,6 +44647,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0109",
+        "version": 1,
+        "contentHash": "sha256:3090f520a3aa12e70fe1cb55a60ad2f282c7d4d0ca2fbac85a7bf889d5a30722",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal saw insects.",
@@ -42382,6 +44700,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0110",
+        "version": 1,
+        "contentHash": "sha256:3fd5c3c2f6b2f678383750953bfca944b4447d0503136a48fbfc5969ed1c29ec",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "The zipper is metal.",
@@ -42432,6 +44753,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0111",
+        "version": 1,
+        "contentHash": "sha256:d8ce249d2623ee74a680075a15b61c46d2eda11a9af978b7a07023b2f9e3eb4f",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which phrase is alliteration?",
         "choices": [
           "silver stars shone softly",
@@ -42482,6 +44806,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0112",
+        "version": 1,
+        "contentHash": "sha256:028b7a7842105768770eb12a3088a14bee8440710fc8cd73ab5eed282657e187",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "bright",
@@ -42532,6 +44859,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0113",
+        "version": 1,
+        "contentHash": "sha256:0549c345eb85a9edb0abd8b03661c1abce5efec60159fdd650266a5a946f4aa6",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was outside.",
@@ -42582,6 +44912,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0114",
+        "version": 1,
+        "contentHash": "sha256:cdf8c955bc3ab296f46cfc034d545313c5ec22b609bf909766426a914476cb5a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "rhyme",
@@ -42632,6 +44965,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0115",
+        "version": 1,
+        "contentHash": "sha256:f3729fc5f3ec7b1908f348d8b2880b9f0555e7b1e722e0418a16ded9354b00e3",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "wait or slow down",
@@ -42682,6 +45018,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0116",
+        "version": 1,
+        "contentHash": "sha256:820aecf3cd94fbe1202e0057fda4ae6cbe6869d2c34360a6331cadf58e552079",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "The kitchen is a room.",
@@ -42732,6 +45071,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0117",
+        "version": 1,
+        "contentHash": "sha256:aa2b3968595bedfea700e1221a3fe1eca923ca0633d111c78d27d146f5d606f9",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was empty.",
@@ -42782,6 +45124,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0118",
+        "version": 1,
+        "contentHash": "sha256:11017e9d492aedc3a335c10a613739f92f05590b7477eb4ec0e1c1c2f9ac8c13",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The librarian smiled.",
@@ -42832,6 +45177,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0119",
+        "version": 1,
+        "contentHash": "sha256:e9e58893efecd088ee691f881dc0c1fd4d5d8714cb27faa13c7d901454ce729d",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "mysterious",
@@ -42882,6 +45230,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0120",
+        "version": 1,
+        "contentHash": "sha256:611bb492f3e15ff29f7cb6bfc9ae2e3355c9bbf087a5cd2cd4931ce7c5ae7970",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite was red.",
@@ -42932,6 +45283,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0121",
+        "version": 1,
+        "contentHash": "sha256:270a150901f6c5a68e0751d902d5b58397da7c5c132dabaafd0d1fb60ad3f2eb",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy was afraid of storms.",
@@ -42982,6 +45336,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0122",
+        "version": 1,
+        "contentHash": "sha256:28d04433715a80f9e424d5a425f7233777c1c8a0538a9d70603e80172beff6fb",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The seed disappeared.",
@@ -43032,6 +45389,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0123",
+        "version": 1,
+        "contentHash": "sha256:9482f88647f29a643cb9262587438088ec1e95b5793a6e37d81df39cd84e6795",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses personification?",
         "choices": [
           "The old gate groaned in the wind.",
@@ -43082,6 +45442,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0124",
+        "version": 1,
+        "contentHash": "sha256:f275abcf57b340de0763b43a05859d5c119e8b49c98498fde8177ceb23ad84b7",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal ate too quickly.",
@@ -43132,6 +45495,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0125",
+        "version": 1,
+        "contentHash": "sha256:9f06217cd754c00cd9ed580a81b6cf865d8828dc4438dd128721a5782c2200dd",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses hyperbole?",
         "choices": [
           "The backpack is blue.",
@@ -43182,6 +45548,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0126",
+        "version": 1,
+        "contentHash": "sha256:9da718f12edf5c30c318beb74515c777cf99664eb3dfc0abee3b7b1718dd83c0",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which phrase is alliteration?",
         "choices": [
           "rain fell today",
@@ -43232,6 +45601,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0127",
+        "version": 1,
+        "contentHash": "sha256:54b952a87877770408ed9c303deeccb506133f0d1e4fdfc7c7ae846319056898",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is onomatopoeia?",
         "choices": [
           "buzz",
@@ -43282,6 +45654,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0128",
+        "version": 1,
+        "contentHash": "sha256:88fd06a0c4baab60a5c62b7c8ccff9b6a4640e8963445a3d788ebdaf3b7bb131",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom had bees.",
@@ -43332,6 +45707,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0129",
+        "version": 1,
+        "contentHash": "sha256:d482af68f30522035c2114a0890e54d915a3797851cf0bf53805f422ff7ad067",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "alliteration",
@@ -43382,6 +45760,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0130",
+        "version": 1,
+        "contentHash": "sha256:35ad98ca16ba0e094e4f28d09a0fc17adcf08341ce8819ba79014630ca0bcbfb",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"hold your horses\" mean?",
         "choices": [
           "feed animals",
@@ -43432,6 +45813,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0131",
+        "version": 1,
+        "contentHash": "sha256:2ab0f2f5bdf199fc07a5a08ae8dcd3d38b71c002ca4b5df0f7c8a259477e9f88",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "Warm cinnamon filled the kitchen air.",
@@ -43482,6 +45866,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0132",
+        "version": 1,
+        "contentHash": "sha256:ba4e8c0d2bb09b9019e925f4ce7efebc7ca2a5f5df30e886241ceba5ba9b24be",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack truly weighed 2,000 pounds.",
@@ -43532,6 +45919,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0133",
+        "version": 1,
+        "contentHash": "sha256:72f33532c5ad98992b038a3e570eff9f2ceb63d83a25d3c03fb35f65c83ddc58",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The books stood on shelves.",
@@ -43582,6 +45972,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0134",
+        "version": 1,
+        "contentHash": "sha256:4abd22e59faacfb548f8f194cbecdc7e6560b26aebe510028359b0725c068a37",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "ordinary",
@@ -43632,6 +46025,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0135",
+        "version": 1,
+        "contentHash": "sha256:6019dbaa93c8e2fa67f6fe4ca21240b4ec3a3a65dca26320818a8f0b444b92df",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite dipped like a bird in the wind.",
@@ -43682,6 +46078,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0136",
+        "version": 1,
+        "contentHash": "sha256:d35278502aa54dc9de00f61e32f7fd973c7fb0ef888cc1655d48130e7dca71a0",
         "question": "Grade 5 Easy: Choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy was afraid of storms.",
@@ -43732,6 +46131,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0137",
+        "version": 1,
+        "contentHash": "sha256:a80c307a2559440be1c64f5ea25a71eee58863e51c98d33e4f79737b5bf375a8",
         "question": "Grade 5 Easy: Choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The seed disappeared.",
@@ -43782,6 +46184,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0138",
+        "version": 1,
+        "contentHash": "sha256:a095d413fe040a4fab55fa48bbb42ca0689463f565d51ecc992cd5881b28a463",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence uses personification?",
         "choices": [
           "The old gate groaned in the wind.",
@@ -43832,6 +46237,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0139",
+        "version": 1,
+        "contentHash": "sha256:92b20c38db8c32cc4d2143b4f312e81e64a8011bf77dd8041b055f6656184ac1",
         "question": "Grade 5 Easy: Choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal ate too quickly.",
@@ -43882,6 +46290,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0140",
+        "version": 1,
+        "contentHash": "sha256:b1ae7999533b6d868d51a19494cf537e39c074e422451b2b0ccd0f454747faa2",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "The backpack is blue.",
@@ -43932,6 +46343,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0141",
+        "version": 1,
+        "contentHash": "sha256:352aa1acc508f9af88b4fafd31ea161faaa500f3da9515a69b625cd3924bf9b3",
         "question": "Grade 5 Easy: Choose the best answer. Which phrase is alliteration?",
         "choices": [
           "rain fell today",
@@ -43982,6 +46396,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0142",
+        "version": 1,
+        "contentHash": "sha256:4478f2547de33a050a41d317abd921e29be3f91e04e5b702a815102575d49c0f",
         "question": "Grade 5 Easy: Choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "buzz",
@@ -44032,6 +46449,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0143",
+        "version": 1,
+        "contentHash": "sha256:1956b2b1e476dd41a78b817014273ccac5b52888c118d45bdf1f15e51afbfbbc",
         "question": "Grade 5 Easy: Choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom had bees.",
@@ -44082,6 +46502,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0144",
+        "version": 1,
+        "contentHash": "sha256:9cd849bf0eee71d838abfb1e8ba4f53bfe4b9a106e5de03144692cb72e903ba1",
         "question": "Grade 5 Easy: Choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "alliteration",
@@ -44132,6 +46555,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0145",
+        "version": 1,
+        "contentHash": "sha256:84976c354987df6f43f3e3c76438306df025a725aba56fdf8d7a5cb398ac6d84",
         "question": "Grade 5 Easy: Choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "feed animals",
@@ -44182,6 +46608,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0146",
+        "version": 1,
+        "contentHash": "sha256:ab53ab7184ea8527ae359ecd8dec3da1cf2067d4c88e4e3de20d00cdbf33c184",
         "question": "Grade 5 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "Warm cinnamon filled the kitchen air.",
@@ -44232,6 +46661,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0147",
+        "version": 1,
+        "contentHash": "sha256:a27de723ad7ef90883eb5471d43b33ac6c185c004adba777bc6a92c900832351",
         "question": "Grade 5 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack truly weighed 2,000 pounds.",
@@ -44282,6 +46714,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0148",
+        "version": 1,
+        "contentHash": "sha256:5930513e3a81cbda81fb3563160107ae17eeb16155e54f7ef2201a8e86d47f92",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The books stood on shelves.",
@@ -44332,6 +46767,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0149",
+        "version": 1,
+        "contentHash": "sha256:520100bf2986c2c3fec4a150a37f33642590c83091d136acbbdaaffe865c68e3",
         "question": "Grade 5 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "ordinary",
@@ -44382,6 +46820,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0150",
+        "version": 1,
+        "contentHash": "sha256:d97c90c26b7ce1d62f49f78b084d5c50d35dffc2fc62ecebfa048f8c4b90d0f1",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite dipped like a bird in the wind.",
@@ -44432,6 +46873,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0151",
+        "version": 1,
+        "contentHash": "sha256:e31230b8109dc5ea8ed948dad707182bdd6c64c12b1e52fcfa7c9992cf9d2587",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy made thunder.",
@@ -44482,6 +46926,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0152",
+        "version": 1,
+        "contentHash": "sha256:f4bf4dec8b57fa3c2527cc94baa00d7732c33e78c3e06d93a2d4a4a63934d164",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The plan was about gardening.",
@@ -44532,6 +46979,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0153",
+        "version": 1,
+        "contentHash": "sha256:54d2c6f8cc4d6a13302fb2875dc393fea68748cb395cf56603153f3851b8f822",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence uses personification?",
         "choices": [
           "The gate had a latch.",
@@ -44582,6 +47032,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0154",
+        "version": 1,
+        "contentHash": "sha256:5bec38fdefeb7343b08deefc384400ca2b7acfe7e6175f531bc36067f245c495",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal felt nervous.",
@@ -44632,6 +47085,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0155",
+        "version": 1,
+        "contentHash": "sha256:a59c5cf0d4590c55b7516ddcb2efb441c9cc7d4adc1aa5c7ab9309728e4edba1",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence uses hyperbole?",
         "choices": [
           "I told you once yesterday.",
@@ -44682,6 +47138,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0156",
+        "version": 1,
+        "contentHash": "sha256:983cba6b7acd3161792b213da18388e8eb3803fcfcc3833b82c2338eddffaed2",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which phrase is alliteration?",
         "choices": [
           "jump over the log",
@@ -44732,6 +47191,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0157",
+        "version": 1,
+        "contentHash": "sha256:fc22c09c02f5b9b0d7ebba5f0b67e6aa8a6602cf3e26277fa894b9f5ddf152e9",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is onomatopoeia?",
         "choices": [
           "silent",
@@ -44782,6 +47244,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0158",
+        "version": 1,
+        "contentHash": "sha256:7fd361058d1ba10b076d30bf1d7b72ba98541f56c0fcf172e3bd242c999dfd8c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was busy.",
@@ -44832,6 +47297,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0159",
+        "version": 1,
+        "contentHash": "sha256:1d331ac66a824977b847aad95ac1b39910bed07385a5fc557df2fef9bb647d07",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "literal fact only",
@@ -44882,6 +47350,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0160",
+        "version": 1,
+        "contentHash": "sha256:d6da5c5b47beb6fe8a67a60992bfee6f0dc4967bca71effb233c146236b7c98a",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does \"hold your horses\" mean?",
         "choices": [
           "run faster",
@@ -44932,6 +47403,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0161",
+        "version": 1,
+        "contentHash": "sha256:1f280b97f9f697d7c7bb64528495a2d8cac95eedfe674b5a076babccaeda6a2e",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "The plate was round.",
@@ -44982,6 +47456,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0162",
+        "version": 1,
+        "contentHash": "sha256:9999ba989a9dc554cc3d5c4b8c590eba0afd5959a74b7f511258142dc689ab27",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack felt very heavy.",
@@ -45032,6 +47509,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0163",
+        "version": 1,
+        "contentHash": "sha256:50cb58151a3538cd51c79d17cb66106de1417df15cd1c2729abd826d06ab8c83",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library opened at nine.",
@@ -45082,6 +47562,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0164",
+        "version": 1,
+        "contentHash": "sha256:ede96628449579051d74751097873621ae34a985ac8ba835ebc3ca2a95693330",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "cheerful",
@@ -45132,6 +47615,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0165",
+        "version": 1,
+        "contentHash": "sha256:f45a3e1fee55dddc519786913ed05aea51565e8a8682085dfc666d8d23f5ea01",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite flew on Saturday.",
@@ -45182,6 +47668,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0166",
+        "version": 1,
+        "contentHash": "sha256:cd54a899ac1defa82b6162097f2593c2a666103eb2238f1b463da208e5d88e25",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does the simile mean? \"The puppy was as quick as lightning.\"",
         "choices": [
           "The puppy moved very fast.",
@@ -45232,6 +47721,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0167",
+        "version": 1,
+        "contentHash": "sha256:0d846a8e7339b29370541cbf82d70dcd58f9e98138fceae044a0a958384c5dd8",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does the metaphor mean? \"Her idea was a seed that grew into a plan.\"",
         "choices": [
           "The idea was planted outside.",
@@ -45282,6 +47774,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0168",
+        "version": 1,
+        "contentHash": "sha256:68c07b4151c3e742695d6cee4c70d7e728b09a58754660e935d98676699a83f2",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence uses personification?",
         "choices": [
           "The gate stood near the fence.",
@@ -45332,6 +47827,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0169",
+        "version": 1,
+        "contentHash": "sha256:c58c86c8ae460aa691aa8d3a3053fc2d7351a11f573b84006ec2f9abc2f5d4c2",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does the idiom mean? \"Jamal had butterflies in his stomach before the speech.\"",
         "choices": [
           "Jamal wanted to leave school.",
@@ -45382,6 +47880,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0170",
+        "version": 1,
+        "contentHash": "sha256:e85a265defc12d9a10f8b41e1c078081fd5da152ba95491c6dbd3ea33fd5fecd",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence uses hyperbole?",
         "choices": [
           "I have told you a million times to zip your backpack.",
@@ -45432,6 +47933,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0171",
+        "version": 1,
+        "contentHash": "sha256:a2a11ed0d9ac68919d19ead9197e9a842c8a7a5b9191696e3f269dd7554ea756",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which phrase is alliteration?",
         "choices": [
           "bright red wagon",
@@ -45482,6 +47986,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0172",
+        "version": 1,
+        "contentHash": "sha256:b74f878b09d159475987eb77edd1e292cc6e9300dc0e3f6cd0a47348344d45c6",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is onomatopoeia?",
         "choices": [
           "careful",
@@ -45532,6 +48039,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0173",
+        "version": 1,
+        "contentHash": "sha256:f0436598d149d7e74e46850dcd64697296eed889a4f64e1ccf082c37c3979b0a",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does \"The classroom was a beehive of activity\" mean?",
         "choices": [
           "The classroom was empty.",
@@ -45582,6 +48092,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0174",
+        "version": 1,
+        "contentHash": "sha256:9a6fa928039194fffe2405885b5e5882c62c4c5c5f614c27d7cdd678d49f38f4",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does \"The moon peeked through the clouds\" show?",
         "choices": [
           "personification",
@@ -45632,6 +48145,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0175",
+        "version": 1,
+        "contentHash": "sha256:6e4175b10c64419774727ec67962ce6eecc09f0632033f3b606d3533dafc6688",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does \"hold your horses\" mean?",
         "choices": [
           "ride horses",
@@ -45682,6 +48198,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0176",
+        "version": 1,
+        "contentHash": "sha256:246613c7e0a5f1b91f6903b540f7131c4a3d2516f28195961acbb44513705c53",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "The recipe has steps.",
@@ -45732,6 +48251,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0177",
+        "version": 1,
+        "contentHash": "sha256:779b5dc13fd6c5b0cf52412717aa10991c7d7dc2b8213c35c0e9d1328a6c7070",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was missing.",
@@ -45782,6 +48304,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0178",
+        "version": 1,
+        "contentHash": "sha256:770b25e3800a631e3ae3126d7f0625a39e736b73e8a20942cf54e21a7f21ae3a",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The library was a treasure chest of stories.",
@@ -45832,6 +48357,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0179",
+        "version": 1,
+        "contentHash": "sha256:42173830854332931e4f13782e6edf22180b0151c7da4420c104638990875a26",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "silly",
@@ -45882,6 +48410,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0180",
+        "version": 1,
+        "contentHash": "sha256:dd8a1bfb1f81b4a3ec34e2318208228fd410a684430e399f9819a313b1948524",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite had a string.",
@@ -45932,6 +48463,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0181",
+        "version": 1,
+        "contentHash": "sha256:bb2d8ee0dfcb7fd46e1ae26d458037d53eb53157eb118240e9dc9ff52f388fd9",
         "question": "Read the sentence. I am so hungry I could eat a horse. What figure of speech does this sentence use?",
         "choices": [
           "metaphor",
@@ -45988,6 +48522,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0182",
+        "version": 1,
+        "contentHash": "sha256:191b758bbeb88b059200e93d35fc85606d5b64a2100fe99458d01774efcaf9b1",
         "question": "Which of the following sentences does NOT contain a figure of speech?",
         "choices": [
           "She ran to her locker with urgency.",
@@ -46044,6 +48581,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0183",
+        "version": 1,
+        "contentHash": "sha256:2a5bf1cdafbd511064d9dca4f7ee587990d0bb592bfeea834f522f4bf2bd31a1",
         "question": "Which of the following does NOT contain a figure of speech?",
         "choices": [
           "My love is like a red, red rose.",
@@ -46100,6 +48640,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0184",
+        "version": 1,
+        "contentHash": "sha256:10034cc4276db90dc8d8da8347e8989001980301beedb157927c4dceb843bd65",
         "question": "Which sentence below is NOT a simile?",
         "choices": [
           "The fluffy cloud loo ked like a baby lamb following its mother.",
@@ -46156,6 +48699,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0185",
+        "version": 1,
+        "contentHash": "sha256:4f3767751f0924c29c18d29c60422b8a831d49875c98d780865ad4dc26d21133",
         "question": "Read the sentences. The engine coughed. The wind sighs. Fortune smiled on her. The photograph leered from the wall. These are examples of:",
         "choices": [
           "similes",
@@ -46204,7 +48750,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 2,
+          "sequence": 185,
           "testFocus": [
             "MAP"
           ],
@@ -46214,6 +48760,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0186",
+        "version": 1,
+        "contentHash": "sha256:a3f243d9b66ffaae0eb996aef56b4bb8a901da0ac6a0d335c417573b948cc81a",
         "question": "Choose the answer that is the root of this word: careful",
         "choices": [
           "ful",
@@ -46262,7 +48811,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 95,
+          "sequence": 186,
           "testFocus": [
             "MAP"
           ],
@@ -46272,6 +48821,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0187",
+        "version": 1,
+        "contentHash": "sha256:01f99dd31b65879ca39ae31c99d76e11263fe37b54d6cccd9c85b6ca980b157a",
         "question": "From what root word is electioneer made?",
         "choices": [
           "ele ctric",
@@ -46320,7 +48872,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 154,
+          "sequence": 187,
           "testFocus": [
             "MAP"
           ],
@@ -46330,6 +48882,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0204",
+        "version": 1,
+        "contentHash": "sha256:19169b223a8795abb9f39be2441c5be3f17a74930647df260c90a09e027fd86d",
         "question": "Read the definitions of each root. chron-time phobia-fear phile-love Given these definitions of these roots, which would mean enjoying being afraid?",
         "choices": [
           "acrophobia",
@@ -46388,6 +48943,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0189",
+        "version": 1,
+        "contentHash": "sha256:7451b5f28d2bf447537b33a97c2edded7b519c306a54d878c98ec8b0095c878a",
         "question": "Which simile would best complete the following comparison? The teacher’s instructions were hard to understand. They were ___________________.",
         "choices": [
           "as free as a bird",
@@ -46442,10 +49000,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 8
+          "sequence": 189
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0190",
+        "version": 1,
+        "contentHash": "sha256:bfd04346cbbab4aaab3e035f7d2478a702acecd2314859fb89c9d70cb620140a",
         "question": "What is the meaning of the following proverb? A penny saved is a penny earned.",
         "choices": [
           "Spend your money as soon as you get it",
@@ -46500,10 +49061,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 9
+          "sequence": 190
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0191",
+        "version": 1,
+        "contentHash": "sha256:19440bcd964e23ad0fad56a2b510d54532932b2c5397b9b0e84bd1693c5cd83b",
         "question": "Which metaphor would best complete the following comparison? Monica was __________ that she aced the test She was jumping for joy..",
         "choices": [
           "very happy",
@@ -46558,10 +49122,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 18
+          "sequence": 191
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0192",
+        "version": 1,
+        "contentHash": "sha256:f4f11a26923d2212d55459451eea0b3eef058dd70c5ab676fe78c3f5624fc0b6",
         "question": "What is the meaning of the following underlined idiom? When my grandpa misplaces something, he always says that h having a senior e’s moment.",
         "choices": [
           "loo king old",
@@ -46616,10 +49183,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 19
+          "sequence": 192
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0193",
+        "version": 1,
+        "contentHash": "sha256:da38a0aa2cf6f0ae35ca11d2668ca68b973c0ee29213e9064db0fb309ac0711f",
         "question": "Which metaphor below would be helpful in describing a huge crowd of pe ople at a festival?",
         "choices": [
           "The people marched through the streets on a mi ssion, like an army marching to battle.",
@@ -46674,10 +49244,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 28
+          "sequence": 193
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0194",
+        "version": 1,
+        "contentHash": "sha256:8cee0565ecaadfc2e12b4a41bcfe09fd081304dea81a40e9d1272524eb91c3b8",
         "question": "What is the meaning of the following underlined idiom? I think that you need to swallow your pride and apologize to your teacher for lying.",
         "choices": [
           "t o swallow hard",
@@ -46732,10 +49305,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 29
+          "sequence": 194
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0195",
+        "version": 1,
+        "contentHash": "sha256:5b97827228398e3c9da0c9efc290ba0563c5f68097b6c94816a6dd3fb9a4e74a",
         "question": "What is the meaning of the simile “as dry as a bo ne”?",
         "choices": [
           "very q uiet",
@@ -46790,10 +49366,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 36
+          "sequence": 195
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0196",
+        "version": 1,
+        "contentHash": "sha256:e9dc77d730efa3efbc126cf6a6e50632140360c30d2ee77d2b979c960330b140",
         "question": "Which simile would best complete the following comparison? My mom can’t see anything when she takes off h er glasses. She is ____________.",
         "choices": [
           "as blind as a bat",
@@ -46848,10 +49427,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 37
+          "sequence": 196
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0197",
+        "version": 1,
+        "contentHash": "sha256:a768709cdc92d39374fcffa7770a449f422569e0a18ecd69050ae7a58a9e709e",
         "question": "Which example: After studying for the test all night would the idiom “brain drain” mean? For I suffered brain drain!",
         "choices": [
           "could no longer see",
@@ -46906,10 +49488,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 38
+          "sequence": 197
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0198",
+        "version": 1,
+        "contentHash": "sha256:5efedca6f278cb0245ec8ee74cebbae3e0a391273847e539aa9d730dda7adc91",
         "question": "What is the meaning of the metaphor “music to my ears”?",
         "choices": [
           "b ad sound",
@@ -46964,10 +49549,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 47
+          "sequence": 198
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0199",
+        "version": 1,
+        "contentHash": "sha256:cc70506d40bd7d23bfb1d73083500ea4c5910ba4cbb8d320c60ecd0d284bad4b",
         "question": "What does the proverb “first come, first served” mean? For example: The camp hollered that dinner was ready, first come, first served.",
         "choices": [
           "first in line means you cut",
@@ -47022,10 +49610,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 48
+          "sequence": 199
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0200",
+        "version": 1,
+        "contentHash": "sha256:67ed146804d19af5ece7db0aff13945fd164a559bd7ea534f5adf6e5aac78001",
         "question": "What does the adage “practice makes perfect” mean? For example: After Scott kept getting his spelling words wrong, the teacher told him not to worry and that practice makes perfect.",
         "choices": [
           "give up",
@@ -47080,10 +49671,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 57
+          "sequence": 200
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0201",
+        "version": 1,
+        "contentHash": "sha256:f76f9803d8ab7bb6c787cc33d5472f99ee2f27ff584fe64c4f596d795ca953d0",
         "question": "What is the meaning of the “ran like the wind”? simile",
         "choices": [
           "ran away",
@@ -47138,10 +49732,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 66
+          "sequence": 201
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0202",
+        "version": 1,
+        "contentHash": "sha256:87edddfd48038d38ec840d5274a5ab91b6558e2bfa2b93335c5dbb640382b795",
         "question": "Which of the following s would best complete the comparison? simile Allison never wanted to do anything her friends suggested, she only wanted to do things her way. Her friends said she was ______________.",
         "choices": [
           "as brave as a lion",
@@ -47196,10 +49793,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 67
+          "sequence": 202
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0203",
+        "version": 1,
+        "contentHash": "sha256:6fc3c0f33bc6e6de822759dc54c3411d976f66305e4a29dda6d62b1debd5c6b9",
         "question": "Which would the adage “don’t judge a book by its cover” mean? For example: When the kids thought the new girl at school was odd because of her purple hair and different clothing, the teacher told them not to judge a book by its cover.",
         "choices": [
           "things may not appear how they seem",
@@ -47254,10 +49854,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 68
+          "sequence": 203
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0205",
+        "version": 1,
+        "contentHash": "sha256:215147d67eccba32d19fb94a64551f61f99b8193aac527262267e1adb7fbc915",
         "question": "What is the meaning of the “raining cats and dogs idiom”?",
         "choices": [
           "too many animals",
@@ -47312,10 +49915,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 76
+          "sequence": 205
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0206",
+        "version": 1,
+        "contentHash": "sha256:9201d1beccd4d944127635089238097f5dd5ab589629efc4bcc52c6f28293a57",
         "question": "Which of the following metaphors would best complete the comparison? When Vanessa gave all of her toys to charity, everyone said she had ________________.",
         "choices": [
           "a lot of toys",
@@ -47370,10 +49976,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 77
+          "sequence": 206
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0207",
+        "version": 1,
+        "contentHash": "sha256:9985954e3d36f0fa6a6d5a05baf5ee65d7380e6af26cdb5601e8fdc800bac326",
         "question": "Which would the adage “stop and smell the roses” mean? For example: My dad was always busy with work and my mom told him he should stop and smell the roses.",
         "choices": [
           "get something done",
@@ -47428,10 +50037,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 78
+          "sequence": 207
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0208",
+        "version": 1,
+        "contentHash": "sha256:d9595c7b3ab65f22a48dbbb994b6b2a182466bc3002b6fe96687c815264e645d",
         "question": "What is the meaning of the following proverb? “Don’t put off until tomorrow what can do today.” you",
         "choices": [
           "have someone else do it",
@@ -47486,10 +50098,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 79
+          "sequence": 208
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0209",
+        "version": 1,
+        "contentHash": "sha256:fd7197bbb780376f9c3d4debf3f6f23049c6059e40427c0ed2dfdb1d347bcc90",
         "question": "Which of the following would best complete the comparison? similes I don’t like to get up in the morning, and my mom says I always move _____________.",
         "choices": [
           "as cold as ice",
@@ -47544,10 +50159,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 87
+          "sequence": 209
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0210",
+        "version": 1,
+        "contentHash": "sha256:9b8a021542f03179a391d42f732e06e5a808a96584bf335cb6746e3fc9e53771",
         "question": "What does the proverb “every dog has its day” mean? For example: When my brother couldn’t win a single game, his coach told him not to worry because every dog has its day.",
         "choices": [
           "everyone should quit trying",
@@ -47602,10 +50220,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 88
+          "sequence": 210
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0211",
+        "version": 1,
+        "contentHash": "sha256:e3361648de42497bef55efbc570e61a9c8aed67559cd208494f7b5b11cf51af1",
         "question": "What is the meaning of the following? idiom “A bull in a china shop”",
         "choices": [
           "quiet",
@@ -47660,10 +50281,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 89
+          "sequence": 211
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0212",
+        "version": 1,
+        "contentHash": "sha256:498480fdf97601db6b923527f1afe788b2b074c5104c2f454721060e794f5571",
         "question": "What is the meaning of the simile “wise as an owl”?",
         "choices": [
           "d ull",
@@ -47718,10 +50342,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 15
+          "sequence": 212
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0213",
+        "version": 1,
+        "contentHash": "sha256:b6d6392afc103ae78f64067b917e9f32af6f410f606a33df6ac9334841a680cf",
         "question": "What is the meaning of the following idiom? “A ghost of a chance”",
         "choices": [
           "not likely",
@@ -47776,10 +50403,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 51
+          "sequence": 213
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0214",
+        "version": 1,
+        "contentHash": "sha256:9611990f03362732cf314dae587369e2c766569348441c3cd293b373436897a8",
         "question": "What is the meaning of the simile? stiff as a board",
         "choices": [
           "good to build with",
@@ -47834,10 +50464,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 66
+          "sequence": 214
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0215",
+        "version": 1,
+        "contentHash": "sha256:712d22ee811601da568750d7e4289aa9224e052ac3882cd034cd0f81dc6fd2ca",
         "question": "What is the meaning of the idiom? take it easy",
         "choices": [
           "do not work",
@@ -47892,10 +50525,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 102
+          "sequence": 215
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0216",
+        "version": 1,
+        "contentHash": "sha256:5080f637901c9377ccb7ede10c15bf7043aa7994bf455e3ec0d5a57e65874ba9",
         "question": "What is the meaning of the underlined idiom below? Xavier was flexible. He was always ready to gofishing at the drop of a hat.",
         "choices": [
           "sp ur of the moment",
@@ -47950,10 +50586,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 117
+          "sequence": 216
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0217",
+        "version": 1,
+        "contentHash": "sha256:4a0e9ffdd3e60598c70cb07b2d511877eeedcb48171f7e45655a6fbded8f849f",
         "question": "What is meant by the idiom costs an arm and a leg in the sentence below? I’d like to have a new sports car, but it may cost an arm and a leg.",
         "choices": [
           "make a bad situation worse",
@@ -48008,10 +50647,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 141
+          "sequence": 217
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0218",
+        "version": 1,
+        "contentHash": "sha256:d30114b7e9ffd3aceddbf7840556f066d781861645173c5bee8c05d58d259e5c",
         "question": "What is the meaning of the idiom? once in a blue moon",
         "choices": [
           "happens in outer space",
@@ -48066,10 +50708,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 204
+          "sequence": 218
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0219",
+        "version": 1,
+        "contentHash": "sha256:afd24c4d421558ff110dec0b94fa3ec7dd493f5a5bcc4e8d7a8497d8800d25d8",
         "question": "What does the metaphor in the first sentence mean? The was an angry, dragon. Its sky green sky, wind fiercely blew the trees sideways and rain pounded the rooftops.",
         "choices": [
           "Dragons were the rooftops. on",
@@ -48128,6 +50773,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0237",
+        "version": 1,
+        "contentHash": "sha256:16a387a6042d142485dd6ae1ac93d66f2788c889603e316303bf400434545f79",
         "question": "What is the meaning of the idiom “heart of gold”? Mallory has a heart of gold. I have never seen her angry with anyone.",
         "choices": [
           "quiet and shy",
@@ -48186,6 +50834,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0270",
+        "version": 1,
+        "contentHash": "sha256:b3aa5720c45876fab5b5e544d6c90fea1970cc041af0d09392dd3d8435225f97",
         "question": "What is the meaning of the simile? busy as a beaver",
         "choices": [
           "making dams",
@@ -48244,6 +50895,9 @@
         }
       },
       {
+        "id": "vocabulary-figurative-language-q0306",
+        "version": 1,
+        "contentHash": "sha256:16a8d47e5b68fd8a4758f3a20691717f5d8547ad6fcc69b76392f33b1d300b9f",
         "question": "What is the meaning of the idiom? a little birdie told me",
         "choices": [
           "what I am telling you is not true",
@@ -48322,6 +50976,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-roots-word-origins-q0001",
+        "version": 1,
+        "contentHash": "sha256:4bb372dd6e4da226cd6bf7c326f57e0804295d7fe229fbf098c2728c1fa8e37b",
         "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -48372,6 +51029,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0002",
+        "version": 1,
+        "contentHash": "sha256:08d0d5ca3bbe5b3d08f37e46c86879f7b2c5d596a663d351d10377c64aa8e2b0",
         "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -48422,6 +51082,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0003",
+        "version": 1,
+        "contentHash": "sha256:01e73fb68c28ac446ff469024975fcfe0f176af5b2f629ca3a0f4c5bf7e2b715",
         "question": "Grade 2 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -48472,6 +51135,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0004",
+        "version": 1,
+        "contentHash": "sha256:164a4f9461d08111024329800149175c0c478b9501a208ef6e8f22a9f1e12f9b",
         "question": "Grade 2 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "inside one classroom",
@@ -48522,6 +51188,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0005",
+        "version": 1,
+        "contentHash": "sha256:ef1ac116f72ed3638edebcdbdebaf4915a7d5e1c6ba1a09a9d87d194fe280fb1",
         "question": "Grade 2 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -48572,6 +51241,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0006",
+        "version": 1,
+        "contentHash": "sha256:ad9827434bfc444d8e181319d6f9534d89174c4ab584fb64eb717676704b8703",
         "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -48622,6 +51294,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0007",
+        "version": 1,
+        "contentHash": "sha256:f00be99ddd09ef794c0bd1ab8b40f899b512d06f2e83e74c850c2bf3057ec434",
         "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -48672,6 +51347,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0008",
+        "version": 1,
+        "contentHash": "sha256:17e3768c33371ffa8bd043ef6205ba8d8be31f4c5f6474088513cd0a59506c9b",
         "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -48722,6 +51400,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0009",
+        "version": 1,
+        "contentHash": "sha256:72326f0fb811d3607ecb2a966fcd94fe2f85168f515a7c1ed387b9de94ff7a0e",
         "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -48772,6 +51453,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0010",
+        "version": 1,
+        "contentHash": "sha256:507e0d08a857b5b31222034861525f29f0a0c1ce4c92a809b28c953a2ec13d55",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -48822,6 +51506,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0011",
+        "version": 1,
+        "contentHash": "sha256:49f53144b8b348f8beb3ca12bb64b8907cc72cb4f09de90f66952fd866c86632",
         "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -48872,6 +51559,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0012",
+        "version": 1,
+        "contentHash": "sha256:12c77ee4ef8d5a1c30b2d558e6282b64cfff7639c00793da58fb6fd01e08e028",
         "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -48922,6 +51612,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0013",
+        "version": 1,
+        "contentHash": "sha256:e5559e57d074c63c576f1c72c7869a1ba7eb8f30b40f46e9a13d87b89475b855",
         "question": "Grade 2 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -48972,6 +51665,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0014",
+        "version": 1,
+        "contentHash": "sha256:b00fd18af27bcee8d0177b5101bd589099a17e0a4526032b25a569a756273884",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -49022,6 +51718,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0015",
+        "version": 1,
+        "contentHash": "sha256:293e9aedde4c05af1a9abdccd17d7fbf3b2ce15d4da94643068dae40872a469e",
         "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -49072,6 +51771,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0016",
+        "version": 1,
+        "contentHash": "sha256:5504fe34fb27e6daaf057fe188ca337e9fa388941c217a683b69850acc10fe29",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -49122,6 +51824,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0017",
+        "version": 1,
+        "contentHash": "sha256:d5a1ce726b8717c5e3a1b10aaebe7747641e6d728eaedd31d1912e918022f89b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -49172,6 +51877,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0018",
+        "version": 1,
+        "contentHash": "sha256:4f537b860560bc4c2e8a92e97af9d39ad5f53b62d83e7e7a0ee8fff21e73524f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "without",
@@ -49222,6 +51930,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0019",
+        "version": 1,
+        "contentHash": "sha256:44e63f57c44cb42a9a4b3334addcaa3e86f37febcd1245d8fbc64b42e9c6da7d",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "before a nation",
@@ -49272,6 +51983,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0020",
+        "version": 1,
+        "contentHash": "sha256:83dbb1866a34a33024be557037630d82c388d8a4096664515c611bbfda810fa4",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "stomped",
@@ -49322,6 +52036,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0021",
+        "version": 1,
+        "contentHash": "sha256:7561b1183e8a2e7ffc000eff549a12d72dcc92a6832d85ffe4ba6699360dfbd3",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -49372,6 +52089,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0022",
+        "version": 1,
+        "contentHash": "sha256:ff8be182bee39b5bc5681684d0221c4c035073bdb2c596ab80fa5f208477406b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -49422,6 +52142,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0023",
+        "version": 1,
+        "contentHash": "sha256:20e5fabe75ec8f05f1764b717e0f63cf56151e1e3af21999962c05b2aedb20c0",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -49472,6 +52195,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0024",
+        "version": 1,
+        "contentHash": "sha256:14ebce48b2183fd76d8eda0036564d7b300070b5ddb0d03e4a3bd59209f13cbc",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -49522,6 +52248,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0025",
+        "version": 1,
+        "contentHash": "sha256:e6d927ce3e7f7cdb9841aa0da5f052a0eb180cacfc8223c23956f5dcd0bb853b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -49572,6 +52301,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0026",
+        "version": 1,
+        "contentHash": "sha256:3b4cbebd21d5305989299db07d64a7a8b62599d99ae07afbd598ebb05f47577d",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -49622,6 +52354,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0027",
+        "version": 1,
+        "contentHash": "sha256:04a2f3ae35b840e3e1c51d54575359f67ebb66e3a27ff3237b5d14434b65c377",
         "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -49672,6 +52407,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0028",
+        "version": 1,
+        "contentHash": "sha256:193ee95349338410365c867069b60825b6e4eab55b3e90be05869b69383f2fa7",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -49722,6 +52460,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0029",
+        "version": 1,
+        "contentHash": "sha256:99c1b6a78239fc916bf68a1f2613c93c3547578e159eb5ff348c0992b4d53289",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -49772,6 +52513,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0030",
+        "version": 1,
+        "contentHash": "sha256:8ab2e62d6783ce59d912948e8084fc4be39c9ea9116b1affa96754a98d08569c",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -49822,6 +52566,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0031",
+        "version": 1,
+        "contentHash": "sha256:44a4b94e3d85f73bbe0e2b96731899e2b42cd7deb67c397d235dcd214a662d1e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -49872,6 +52619,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0032",
+        "version": 1,
+        "contentHash": "sha256:de5939a2f63f992cb252950da6a50512e0e1f8fc911daf7f395a39c8b6bb953a",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -49922,6 +52672,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0033",
+        "version": 1,
+        "contentHash": "sha256:08b0bd970ccc7d90f79ba3df7b26a4a2308b936f3922e5d9aeaa2239ea368662",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -49972,6 +52725,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0034",
+        "version": 1,
+        "contentHash": "sha256:14b8650405e223ff508c7bdee33591d9fc22cb92534f6803601fc9d2f828b8c8",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "not national",
@@ -50022,6 +52778,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0035",
+        "version": 1,
+        "contentHash": "sha256:bdaeb253b58d8c6736e0f74b73247d2e39548c81b40c44c1ce4f5546e257d993",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -50072,6 +52831,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0036",
+        "version": 1,
+        "contentHash": "sha256:8f7f8f55ee7dc40835c7ac3af7f9ac9f4132cf6dc828c304565dab12df53232d",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -50122,6 +52884,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0037",
+        "version": 1,
+        "contentHash": "sha256:cc1faa939a924cb436d46cbdf64d4bf0b4a89fd471983015d055a1b6cc587012",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -50172,6 +52937,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0038",
+        "version": 1,
+        "contentHash": "sha256:b01f93a9314d23145c8b8eef6f30ec2d67a9804c1d1a40a5d8093cde81261908",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -50222,6 +52990,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0039",
+        "version": 1,
+        "contentHash": "sha256:10aa5626ed07b060004d7aa78b6f8fe0c293c69343d190bb51e7402f87dab0cc",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -50272,6 +53043,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0040",
+        "version": 1,
+        "contentHash": "sha256:451e5f0d750c74d8a8267c9bad6fbcb79b5b87dc7712f87423058045d34b94ea",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -50322,6 +53096,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0041",
+        "version": 1,
+        "contentHash": "sha256:87a807c9e2ec5e3401d90be308773c657d371d0691fd57aca59f918749c4e5b3",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -50372,6 +53149,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0042",
+        "version": 1,
+        "contentHash": "sha256:c8dfd719c62f34cd48eed14421beec71057ff79e1e8bb1d3e479eaec386eac93",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -50422,6 +53202,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0043",
+        "version": 1,
+        "contentHash": "sha256:86e55e97f2a64aa60d2522ed2de2336f61a7771285e57bf7c7e0fab6d6829725",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -50472,6 +53255,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0044",
+        "version": 1,
+        "contentHash": "sha256:edd1a03f184a7717f69fb5045fc35a4393bffac713b8ea4123e62e8814f29961",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -50522,6 +53308,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0045",
+        "version": 1,
+        "contentHash": "sha256:74641a121f53b3d617acc0d1e8e1d55dace64348fb13f333fb7f7489a359554e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -50572,6 +53361,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0046",
+        "version": 1,
+        "contentHash": "sha256:1b63978dc40e660df6a3f346f9147a68ae60cd95663bc599a487aba2b981b790",
         "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -50622,6 +53414,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0047",
+        "version": 1,
+        "contentHash": "sha256:6a78c7d733b0d799f5c8d30dd28dfced7e16afd0a0a3d1fe59c88368103fe7c3",
         "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -50672,6 +53467,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0048",
+        "version": 1,
+        "contentHash": "sha256:86471931cdbc161131a283620818ac1134821438eb982ac85fa9a484116b66bc",
         "question": "Grade 3 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -50722,6 +53520,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0049",
+        "version": 1,
+        "contentHash": "sha256:b5097dd6c1dc6bf0258fd1fc9466ae3a21149c465ebd9cffb3d12436ba396c8c",
         "question": "Grade 3 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "not national",
@@ -50772,6 +53573,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0050",
+        "version": 1,
+        "contentHash": "sha256:af1da8e4949a3f1536eb4b9b7258b8e71733529ad164c6dfb1f68c06dd528113",
         "question": "Grade 3 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -50822,6 +53626,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0051",
+        "version": 1,
+        "contentHash": "sha256:a70ba4e2ff462fae9af1fbf9760fab27729da5cce19feea466f7709c0d93a2f4",
         "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -50872,6 +53679,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0052",
+        "version": 1,
+        "contentHash": "sha256:92b4f70a0a74375e04e25768a6cbbd8a6076f88d04473ca487bee1eff15fa87e",
         "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -50922,6 +53732,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0053",
+        "version": 1,
+        "contentHash": "sha256:f599a89511e12b6830d5fdc767f21d0dfcfd7f2b6f033fcf28cc5faff738a909",
         "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -50972,6 +53785,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0054",
+        "version": 1,
+        "contentHash": "sha256:c2b423ba8dbfd9381f259b3b7c39848c8710fe5a4c4644cbc4a1c8e665138397",
         "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -51022,6 +53838,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0055",
+        "version": 1,
+        "contentHash": "sha256:d444fde1a9418b44fc8847df7015951fb8bf058e68ce6d5d53e0f9a05e1f3306",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -51072,6 +53891,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0056",
+        "version": 1,
+        "contentHash": "sha256:ba312db6ea0219d04e393d15a0a00e469a82798be924d8b928e69efe7707d887",
         "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -51122,6 +53944,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0057",
+        "version": 1,
+        "contentHash": "sha256:c5b381a6c9043eaf03101f535497b84fb04da335002673d94534d96973f874bd",
         "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -51172,6 +53997,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0058",
+        "version": 1,
+        "contentHash": "sha256:f00dcdbf6005e7ec5e09f5dd177010ec3a91daf1e39e5b69128f076c3c2e22d2",
         "question": "Grade 3 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -51222,6 +54050,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0059",
+        "version": 1,
+        "contentHash": "sha256:d60b015b6f309f6cdb7c8d223e4753672c8065723a8ffa860f466939834f67c9",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -51272,6 +54103,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0060",
+        "version": 1,
+        "contentHash": "sha256:ef0b4be4d829c7d24c29a3d7292261f92f12d588a22a97b81f6334e6cfa20993",
         "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -51322,6 +54156,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0061",
+        "version": 1,
+        "contentHash": "sha256:afb024bf613e400f7f0f7244cabf4c1118281c4ee453e07bb0e8d40d98fef3de",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -51372,6 +54209,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0062",
+        "version": 1,
+        "contentHash": "sha256:34508890afb3d87ff7812e6505951ac57f5f0540b7646f8139746209fbdfe7e0",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -51422,6 +54262,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0063",
+        "version": 1,
+        "contentHash": "sha256:f2a3f80026fe0b5c2db15ab8187e8aa27c511b96e1e9f7ea9a12bdb41686084b",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "small",
@@ -51472,6 +54315,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0064",
+        "version": 1,
+        "contentHash": "sha256:377cbeeff72f4281dfeeec6abbc1289cc15d9a39740df712699d235392c1795f",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "between or among nations",
@@ -51522,6 +54368,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0065",
+        "version": 1,
+        "contentHash": "sha256:10ffcaeba3e412349e3f844b2ac318f3b16dd2d09601a61b2efe6e6e4e2d63ce",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "exploded",
@@ -51572,6 +54421,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0066",
+        "version": 1,
+        "contentHash": "sha256:d755cc362e1a89c0392dd06f0bc7e866001fdfe338dbd7fc2f8ecfa17a6dd577",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -51622,6 +54474,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0067",
+        "version": 1,
+        "contentHash": "sha256:794fe6b32fd4893078c69687224aaab2ce06c5369a8a55482f98a1468771fa85",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -51672,6 +54527,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0068",
+        "version": 1,
+        "contentHash": "sha256:1778d2208c36f491a767659cb6fd3ca081ca16cbab8bfa1c849cbba0f86a816a",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -51722,6 +54580,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0069",
+        "version": 1,
+        "contentHash": "sha256:861463b66b1729ad46b9d32693bc4bf27fb1684c07845c4d3f15e8058331e125",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -51772,6 +54633,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0070",
+        "version": 1,
+        "contentHash": "sha256:50fa54c575dbf5355c3bb0615cfc471c851875a62ed286b2dafd8d121daeed02",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -51822,6 +54686,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0071",
+        "version": 1,
+        "contentHash": "sha256:4777e38aaa2c8198d37682611c01eb96f00e6c612290ff3fe068cf57750bb793",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -51872,6 +54739,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0072",
+        "version": 1,
+        "contentHash": "sha256:b9b41bcb4163efd0704101b17d49695a9b24ce2f5552cd955e725feed422d5d8",
         "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -51922,6 +54792,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0073",
+        "version": 1,
+        "contentHash": "sha256:973968f650cc907f4f0acafe1d401f7b51764b92d037bc55b3bef4c72094c0ab",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -51972,6 +54845,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0074",
+        "version": 1,
+        "contentHash": "sha256:5eb22a251b6e31e7b3c06363fafd136d3bb0a1e5f2f16dfffc42e2dbe0813786",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -52022,6 +54898,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0075",
+        "version": 1,
+        "contentHash": "sha256:b9425bc5dabfee147a5274dfdc2729ec80caa104c8c44a33e11798ad614615d4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -52072,6 +54951,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0076",
+        "version": 1,
+        "contentHash": "sha256:f0f58098b37ef1f4a701fa45c58bf57de400be6681f9ef72697acc9c95ccffe8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -52122,6 +55004,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0077",
+        "version": 1,
+        "contentHash": "sha256:5eb72b9e1dd35ae7cf578d2cec57273d4454268edcf9bdd6b7511e3dd3f27cb9",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -52172,6 +55057,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0078",
+        "version": 1,
+        "contentHash": "sha256:5f5533d1b9a832c55160075e3d4165a5af1f6a31d06d89bdbea8e059d1011260",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -52222,6 +55110,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0079",
+        "version": 1,
+        "contentHash": "sha256:05848be8ac0466598562720d20edc935c9a00a84d3de80ff8012e19a87341423",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "inside one classroom",
@@ -52272,6 +55163,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0080",
+        "version": 1,
+        "contentHash": "sha256:6289cb62728c4cbbad02a8295c8835ef27f053aea8a208edb0d72598ec9e3b09",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -52322,6 +55216,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0081",
+        "version": 1,
+        "contentHash": "sha256:8ec9ec03735dcd3ab110f085c321fb5253b66b251abeb311145d28578b3663e3",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -52372,6 +55269,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0082",
+        "version": 1,
+        "contentHash": "sha256:81e7eda9279c00e94f733bdd991a6bbf080f23f557023335350f8890a5c2b672",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -52422,6 +55322,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0083",
+        "version": 1,
+        "contentHash": "sha256:aeecf372a60cc48bca6964e00cf423cc013c3fca4b227ea14e7a4f90ed189c43",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -52472,6 +55375,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0084",
+        "version": 1,
+        "contentHash": "sha256:c370928b6f185a9bbae82855a57fa9394ff21affebf80e2262685a15d9eba194",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -52522,6 +55428,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0085",
+        "version": 1,
+        "contentHash": "sha256:c9c2b43d5b3f48a5141a50108a8d898e0ed2d6ca28e89302bef7f1bc4f35581c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -52572,6 +55481,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0086",
+        "version": 1,
+        "contentHash": "sha256:4d391a3e1a57be1607ab4161f0c810ea9120358895973ed48868f2b3d6b0a4d6",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -52622,6 +55534,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0087",
+        "version": 1,
+        "contentHash": "sha256:931f1190411a272d4c7ae97d6402eedeb5f7deec6fc72635164afa74c0bb2f38",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -52672,6 +55587,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0088",
+        "version": 1,
+        "contentHash": "sha256:0f529b06d5422a91fa235e0d3443feac9de1a75d6fb25f921ae38228b5f16a43",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -52722,6 +55640,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0089",
+        "version": 1,
+        "contentHash": "sha256:79923e864c26bfa9ae51a545a1d42cb21f51dc480f98bc89624c464c0b289851",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -52772,6 +55693,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0090",
+        "version": 1,
+        "contentHash": "sha256:e158a99d937181b2438a89c98dcc4d04c39c8a35f3356b2c9e782c1f929e584c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -52822,6 +55746,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0091",
+        "version": 1,
+        "contentHash": "sha256:0fe568df42ce9ace9d3709d825f1184361f82e0cf951d76f91c16f70142dac25",
         "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -52872,6 +55799,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0092",
+        "version": 1,
+        "contentHash": "sha256:f016b0d034f9de67b179dca243b01a63a6b3d6964596aaa308734bf127443620",
         "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -52922,6 +55852,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0093",
+        "version": 1,
+        "contentHash": "sha256:8f604369ae2a8dba7f460fc67e1498031ff6528876f7d612b10f8626b03150a7",
         "question": "Grade 4 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -52972,6 +55905,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0094",
+        "version": 1,
+        "contentHash": "sha256:b7b12ed7941309b0746d5bd53d5d6727e0e6ee123b846b9985ff3bb46d6a0282",
         "question": "Grade 4 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "inside one classroom",
@@ -53022,6 +55958,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0095",
+        "version": 1,
+        "contentHash": "sha256:486ad1a880812b646dbfdb3508eb1e92cf62a9e07adff7fb6b6eb955dabc284e",
         "question": "Grade 4 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -53072,6 +56011,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0096",
+        "version": 1,
+        "contentHash": "sha256:4d09d43c9a590fe994c788ae6fef86061b9b7e8d0fa2c41ef89c4abfcd77bee6",
         "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -53122,6 +56064,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0097",
+        "version": 1,
+        "contentHash": "sha256:c1b6b97674bc85df31999394f6d3108e4334789eb5156ecdd2e51fef9182ea3c",
         "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -53172,6 +56117,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0098",
+        "version": 1,
+        "contentHash": "sha256:78c898747bf4ac70838ad093d280d4987c54293b72ee893ef9100b4d49835a9d",
         "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -53222,6 +56170,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0099",
+        "version": 1,
+        "contentHash": "sha256:1965c818dc060298ecb5e38afb0cb90091885176d46571e3838a2827634a74e2",
         "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -53272,6 +56223,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0100",
+        "version": 1,
+        "contentHash": "sha256:1e3c108a8e1416ea268ba6c54803d23430be7a9322c1e347272c5564b36c524c",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -53322,6 +56276,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0101",
+        "version": 1,
+        "contentHash": "sha256:532eaa2e024e0aaa4701c9edbeb07e795d747e18e61bf3af6e852bd5aa75cc92",
         "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -53372,6 +56329,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0102",
+        "version": 1,
+        "contentHash": "sha256:7ca8d5a15bb9e0db7260c3e84bd76c18f4b122a63ae3b1f0c3aa15f2211de095",
         "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -53422,6 +56382,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0103",
+        "version": 1,
+        "contentHash": "sha256:08f921abeab4994b69d7704b2082aa89a7f361765eb693c006d862b26b278392",
         "question": "Grade 4 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -53472,6 +56435,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0104",
+        "version": 1,
+        "contentHash": "sha256:fc528e87f86fdda1645993cb7f73fc5b3248c570c61bf3ab4a53c20063ccfefa",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -53522,6 +56488,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0105",
+        "version": 1,
+        "contentHash": "sha256:07bdf19981c0912746e5e7d6d5ab10a55963bf9afed73b3ea2fa6fdce439c501",
         "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -53572,6 +56541,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0106",
+        "version": 1,
+        "contentHash": "sha256:778f87050044be4b6d002769d855e859ec7569657ba3a7eb07500fecb347ec43",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -53622,6 +56594,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0107",
+        "version": 1,
+        "contentHash": "sha256:7a074e5a48d324180d649bcb79cd6018174b257c7890436a655e4f02c231c4eb",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -53672,6 +56647,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0108",
+        "version": 1,
+        "contentHash": "sha256:437d76aa0e1cd50627578db49e06b79c5e0e1a7d6576fb42dea867cd5314ef76",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "without",
@@ -53722,6 +56700,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0109",
+        "version": 1,
+        "contentHash": "sha256:25ff148cc376898a624886ef56b5c2f93496d6d7274945c6ca3c0384dcf7e04b",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "before a nation",
@@ -53772,6 +56753,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0110",
+        "version": 1,
+        "contentHash": "sha256:448029372f93612b152271dac664de72bb937d28fd9d28168b571ae211d2c997",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "stomped",
@@ -53822,6 +56806,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0111",
+        "version": 1,
+        "contentHash": "sha256:186661d7f5e4d6d66a8326fe47d6189bb8737dfe8d75d855db991aa3c77a7885",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -53872,6 +56859,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0112",
+        "version": 1,
+        "contentHash": "sha256:948aada74c4397aa53e751219eb5aaa669a4118f3cbd2abbac8cfef8da3c00cd",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -53922,6 +56912,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0113",
+        "version": 1,
+        "contentHash": "sha256:104e15733a1d1ecc57299e01eaf899d476822ef56452981b36ecf0267bf8b38a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -53972,6 +56965,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0114",
+        "version": 1,
+        "contentHash": "sha256:38f7f9e71ddf4bd1dd68fe9ce6046f963f1b40e027347bfec8fde724a4555942",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -54022,6 +57018,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0115",
+        "version": 1,
+        "contentHash": "sha256:ed5b63217e3a9317f386e3ca941121ef4584a54094c03a5d93272a02395a26ab",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -54072,6 +57071,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0116",
+        "version": 1,
+        "contentHash": "sha256:911fdc463b581d213424ae5765e5cc0f0603259fe898562068265dda3887e2da",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -54122,6 +57124,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0117",
+        "version": 1,
+        "contentHash": "sha256:347a8d7e37e10f0b6b20cf53cd98706de556133face153c48d098f57c06e57e4",
         "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -54172,6 +57177,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0118",
+        "version": 1,
+        "contentHash": "sha256:f177efcfe496b852c2805688405c242cfc14ab87ae1a148e231bdfad319d59b1",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -54222,6 +57230,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0119",
+        "version": 1,
+        "contentHash": "sha256:d6ccb2b1327bb66984f11fa0681d59f7e11d6d5f9bf31c816bdf7b93c52ea9a3",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -54272,6 +57283,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0120",
+        "version": 1,
+        "contentHash": "sha256:a5dd6a6272a1ea854a19149303a86d5781d1c0ba9afc2cc0ee267ca438f500f6",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -54322,6 +57336,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0121",
+        "version": 1,
+        "contentHash": "sha256:ebbe127daee0d8d718c7d741aaa5fb91e35a0bb00d9732b80649873ca555990e",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -54372,6 +57389,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0122",
+        "version": 1,
+        "contentHash": "sha256:ca673e13034ba5e4c2e9f035d90b337f98f2a24471ac66740e0f8e6992b1e1df",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -54422,6 +57442,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0123",
+        "version": 1,
+        "contentHash": "sha256:71c110e415c979c4531f70783bb499464495c37876ea7e483ed8a5770b5906a8",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -54472,6 +57495,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0124",
+        "version": 1,
+        "contentHash": "sha256:7bedfe459be821dd5f943e0b05f6f14d760b3c670f5eecdd5d4f18fb865ee76c",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "not national",
@@ -54522,6 +57548,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0125",
+        "version": 1,
+        "contentHash": "sha256:cb80f04509e76903b436e38d4ead21bedf162ae5451e429bea27af01ba879f25",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -54572,6 +57601,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0126",
+        "version": 1,
+        "contentHash": "sha256:a38232028611f8e87f79d3f8407747fabfa98b9c170c8eeb748f186b790da472",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -54622,6 +57654,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0127",
+        "version": 1,
+        "contentHash": "sha256:a6284e3d4faf1b8e0af05c09e1b09c470843aa9410b6f4e7295330020bada557",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -54672,6 +57707,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0128",
+        "version": 1,
+        "contentHash": "sha256:860cdfa2732d0200da6fdc1a6d70bba1038aa418dac9769d6b1e79259277226e",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -54722,6 +57760,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0129",
+        "version": 1,
+        "contentHash": "sha256:884a60398f061df5e06eba57df91da6e7d4d8423fb4cc7fc96d45217f5ae1310",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -54772,6 +57813,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0130",
+        "version": 1,
+        "contentHash": "sha256:4ffc23b5cf6c1705429af11d8c461d6f69bc3b31a3fc71fb13655f2f9680e82d",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -54822,6 +57866,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0131",
+        "version": 1,
+        "contentHash": "sha256:97c283ff957337c5bce603b7a2fcc74a727f184dded3e22a278c28816e6560db",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -54872,6 +57919,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0132",
+        "version": 1,
+        "contentHash": "sha256:83168d07504985b3f6a08b7013d8570ccb0d59f847a9f6a956b96b75dea0f169",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -54922,6 +57972,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0133",
+        "version": 1,
+        "contentHash": "sha256:591a6ad523acba2b1d78b9db18f7511733684f970b142474464d8d4428e9a6dc",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -54972,6 +58025,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0134",
+        "version": 1,
+        "contentHash": "sha256:1256b35c3e8985689a3b125b95852bec068d1cec0b7f39f29864fae6c2277086",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -55022,6 +58078,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0135",
+        "version": 1,
+        "contentHash": "sha256:bbf9280bd7e493f0d5f74dba5911dfb3d414cc782b342842c3a6e5b4ef25e743",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -55072,6 +58131,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0136",
+        "version": 1,
+        "contentHash": "sha256:e5179c2920a1ad3b52bc4e72eb89bafa492c1ab4fc716e16085c26528b43e37e",
         "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -55122,6 +58184,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0137",
+        "version": 1,
+        "contentHash": "sha256:c73d19f259dc5a9a7bb624ce7c39a391b946ee975255ba473afd30dd7adf4f7a",
         "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -55172,6 +58237,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0138",
+        "version": 1,
+        "contentHash": "sha256:4e308d1509d16f6ba768ac60ae144adaf94c49fb5bb01eaf7e8f25408b929778",
         "question": "Grade 5 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -55222,6 +58290,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0139",
+        "version": 1,
+        "contentHash": "sha256:d273716cb4c11b61ed7dbb389591e65c18f9f793ba9eea382a0f2749f45647bf",
         "question": "Grade 5 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "not national",
@@ -55272,6 +58343,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0140",
+        "version": 1,
+        "contentHash": "sha256:070f9e3be208e244436dcc75cef18d68688cf88e1c9270794f83ef4859427b7f",
         "question": "Grade 5 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -55322,6 +58396,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0141",
+        "version": 1,
+        "contentHash": "sha256:7001384f05f7441b4fcf6a7b89af23a10f3ff751fec9f352bfa68d161af72c18",
         "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -55372,6 +58449,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0142",
+        "version": 1,
+        "contentHash": "sha256:beb9209e5d2a4c6c9e4abcdf552c447158201c32892260148115ab193387d4b8",
         "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -55422,6 +58502,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0143",
+        "version": 1,
+        "contentHash": "sha256:c073b02f815576984c837c43381d10b00ba9f65379a37bbbb7c083313d124bb6",
         "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -55472,6 +58555,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0144",
+        "version": 1,
+        "contentHash": "sha256:87c41ae959c274771c566f81544e350bbe45d1d8ee68c885c14e3f62608c4d10",
         "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -55522,6 +58608,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0145",
+        "version": 1,
+        "contentHash": "sha256:987bdc732f97de8257c11775974ee6a47ab817f4f28be0e58a1dadf074fb4085",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -55572,6 +58661,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0146",
+        "version": 1,
+        "contentHash": "sha256:fb594afcb7d25233f780bdcdc2f87ed1eb333342ab228b46b2b15d2ce32935bf",
         "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -55622,6 +58714,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0147",
+        "version": 1,
+        "contentHash": "sha256:f838a12e42b89fb8fc47b6e8a49750ed298b4af74a280fdabc99eb7ba5687618",
         "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -55672,6 +58767,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0148",
+        "version": 1,
+        "contentHash": "sha256:976cdeee3db9d0219ff395a4fe853e3fb8b30c923d79b3058ba44b9aff8ac418",
         "question": "Grade 5 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -55722,6 +58820,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0149",
+        "version": 1,
+        "contentHash": "sha256:994a5defee15afee05df5ffec8aa48982df445657463a6dab74c04e5f9f86cf5",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -55772,6 +58873,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0150",
+        "version": 1,
+        "contentHash": "sha256:fd164320e2cbabb8ed6a31a62b68a1a69ade2780433973d24de49f77576a178c",
         "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -55822,6 +58926,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0151",
+        "version": 1,
+        "contentHash": "sha256:2771f0283e72e3dc367a2a4837477a9bd6916ec33da36b24e59b0231f7e6cb0c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -55872,6 +58979,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0152",
+        "version": 1,
+        "contentHash": "sha256:9b0bd1c1b6847b43fbc124296fe65c789e848b5c5dd7cea2077475530472b628",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -55922,6 +59032,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0153",
+        "version": 1,
+        "contentHash": "sha256:64b0f43d0dcfe848b4b9e6d7c2c7bea329e72b1db4be4873a001f21141c68855",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "small",
@@ -55972,6 +59085,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0154",
+        "version": 1,
+        "contentHash": "sha256:92dcb3be81450a54f682a82acea13f70b7028df2c152ac0cfada5af71e19214a",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "between or among nations",
@@ -56022,6 +59138,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0155",
+        "version": 1,
+        "contentHash": "sha256:d4e49047cbe486dd8fa6da37d91fd29ace54606ef9979ac923f79aa4a519305f",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "exploded",
@@ -56072,6 +59191,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0156",
+        "version": 1,
+        "contentHash": "sha256:34e5fd86c713bd62f8c98436d510e248bf4eb6032d07e6113922a974b95f36ef",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -56122,6 +59244,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0157",
+        "version": 1,
+        "contentHash": "sha256:cbd46297bc1869a02045947377fd17a7ff48ea2996169ed9a92309940e814a85",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -56172,6 +59297,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0158",
+        "version": 1,
+        "contentHash": "sha256:6b47658c5042d0e2f55092a5f9e9d78b669fe4d0ac5a31f1c775c647ab4428ab",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -56222,6 +59350,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0159",
+        "version": 1,
+        "contentHash": "sha256:5f7d071957787ba5af504df9e4bd1facc23ef33ddd7dbe9dbd0c1d0011c1878b",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -56272,6 +59403,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0160",
+        "version": 1,
+        "contentHash": "sha256:09d6e4ea09c12c4f4de1ab786a240d038e4a5dc37b877ac03ea2340a539eccee",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -56322,6 +59456,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0161",
+        "version": 1,
+        "contentHash": "sha256:1d81fb6593be3d94026eb3e064ffe1371aa19fc6162336c69669b994bba2bceb",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -56372,6 +59509,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0162",
+        "version": 1,
+        "contentHash": "sha256:d62736a84ccf25fc808457a70cf47e0025af138848d845eb9b77ec898922b588",
         "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -56422,6 +59562,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0163",
+        "version": 1,
+        "contentHash": "sha256:2bd24961dc9ddf2bc90c3d162dae9b3d17432bf55274222ad8bddb0e0538f4e2",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -56472,6 +59615,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0164",
+        "version": 1,
+        "contentHash": "sha256:bcc221b07b51eda242a31ebc69516d338a9d50eb4a843425771ebef03051c313",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -56522,6 +59668,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0165",
+        "version": 1,
+        "contentHash": "sha256:5e719ba4cef5c1b841b0ca6f8643f72bf13207f1ec0dd261e92c5baa7b854d74",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -56572,6 +59721,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0166",
+        "version": 1,
+        "contentHash": "sha256:46fc2950ed7ef7e04f837b210d170bec929fd49006d4aeea570b4e751bfa1f20",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -56622,6 +59774,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0167",
+        "version": 1,
+        "contentHash": "sha256:1aa43243329dbe864c6469b3f35b0c839b5651d010e9ad4cd75ab26b6b5eea94",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -56672,6 +59827,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0168",
+        "version": 1,
+        "contentHash": "sha256:2ad12ea5173b2a91b55dc6947f497f4e2f14bef02c33246d608b11ce335488c0",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -56722,6 +59880,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0169",
+        "version": 1,
+        "contentHash": "sha256:929b472ddca625e459617199368be1ee079d1248e2aaf716dec0b1c4cb2b5763",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
         "choices": [
           "inside one classroom",
@@ -56772,6 +59933,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0170",
+        "version": 1,
+        "contentHash": "sha256:b646a9686e78057682c3f917bb600824a1094aa5bfeb818b0418c13316b5e72a",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -56822,6 +59986,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0171",
+        "version": 1,
+        "contentHash": "sha256:44470768c61d59573d5b2f1968b6baa682eb5c5847b62e36d85970797e4d25a2",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -56872,6 +60039,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0172",
+        "version": 1,
+        "contentHash": "sha256:e63c980363b547450294e9778321fb2134a0c86d1428ccb3603239a1f1ddba42",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -56922,6 +60092,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0173",
+        "version": 1,
+        "contentHash": "sha256:81f6ce5c82f2d37f6c8aec4b845ebe1219b84f13313659d8ca78daa45ab6b766",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -56972,6 +60145,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0174",
+        "version": 1,
+        "contentHash": "sha256:002f2479a22957c8b9c0d2718c4313a714717b1cbf4d22a5b5ff8dcc5dc7f9f4",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -57022,6 +60198,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0175",
+        "version": 1,
+        "contentHash": "sha256:f53b6c9f7f4a3e164f6a3e6325af0278c0a011ec8f86e7bda909eb69f1d694b3",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -57072,6 +60251,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0176",
+        "version": 1,
+        "contentHash": "sha256:3531db5a91acc2d335de5df04655e0519fdbcdfda59b0ea821bca911c687f5e7",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -57122,6 +60304,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0177",
+        "version": 1,
+        "contentHash": "sha256:3d62ae934d6e38b1d83c567168d4bf634d227d617c806bc8732492c38140d7ab",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -57172,6 +60357,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0178",
+        "version": 1,
+        "contentHash": "sha256:addc53f654a9335fcd33f750686847ef19e94a7a0c2f86967cad0b8bf150cde0",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -57222,6 +60410,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0179",
+        "version": 1,
+        "contentHash": "sha256:5352dec699e870f5a1a9ccdf35ee7eca6f1453ac0ca52098ec23403469acbe3a",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -57272,6 +60463,9 @@
         }
       },
       {
+        "id": "vocabulary-roots-word-origins-q0180",
+        "version": 1,
+        "contentHash": "sha256:ae27bf070232cf4643dcf43109cef0504c5546e65f4a3632d945a4033f600048",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -57342,6 +60536,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-multiple-meaning-words-q0001",
+        "version": 1,
+        "contentHash": "sha256:f96c87e1c347b8e9987471a928042de44079eae73c9904236de9c1c8760abaa0",
         "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -57387,10 +60584,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 1
+          "sequence": 1,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0002",
+        "version": 1,
+        "contentHash": "sha256:4cd12526255d758e7165fdfba304818bc82effd14d7cd913a8b092031261fd7c",
         "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -57436,10 +60637,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 2
+          "sequence": 2,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0003",
+        "version": 1,
+        "contentHash": "sha256:a404d8fa8a328c5d01b25eb24528d9742e91f4a3fd58025f3c8f625c64fc63d7",
         "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -57489,6 +60694,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0004",
+        "version": 1,
+        "contentHash": "sha256:0eed92d0d67762221c1f1ddd0ada467d527ea8dbd393d0a18033f6f8709b3e07",
         "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -57538,6 +60746,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0005",
+        "version": 1,
+        "contentHash": "sha256:f96c87e1c347b8e9987471a928042de44079eae73c9904236de9c1c8760abaa0",
         "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -57583,10 +60794,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 5
+          "sequence": 5,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0006",
+        "version": 1,
+        "contentHash": "sha256:4cd12526255d758e7165fdfba304818bc82effd14d7cd913a8b092031261fd7c",
         "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -57632,10 +60847,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 6
+          "sequence": 6,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0007",
+        "version": 1,
+        "contentHash": "sha256:f79bc50c4f9265596f58a968a128fe7a8fe812d6b8218f2b0f28fc980376b4c0",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -57685,6 +60904,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0008",
+        "version": 1,
+        "contentHash": "sha256:97d15c39939f643b3961f8d0778cbf4e88717325ca961ce7dfb8d9ec4d4a7a80",
         "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -57734,6 +60956,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0009",
+        "version": 1,
+        "contentHash": "sha256:a63e9d0693882c193ae8440db86e769412f6cf7cd082d95d5c43541aa3b28eb9",
         "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -57783,6 +61008,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0010",
+        "version": 1,
+        "contentHash": "sha256:12b2e483e9f5fc32dd598f977a494e8ec9b7b9213cfbada3eca021dab72d0bfb",
         "question": "Grade 2 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -57832,6 +61060,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0011",
+        "version": 1,
+        "contentHash": "sha256:7a339855a00ebd952a40966e1f16412aee3222f46b2cc78f7e50d18d5ae5d7cb",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -57881,6 +61112,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0012",
+        "version": 1,
+        "contentHash": "sha256:f54ad2a3f8aa62375d71a326ff503557b81576f9cf6ee1f5e6000253c228c1f8",
         "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -57930,6 +61164,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0013",
+        "version": 1,
+        "contentHash": "sha256:d43da8b3cfaa987dc08f06c1bbd44b5a38c315e7756412837086d16d1dc7a0e2",
         "question": "Grade 2 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -57979,6 +61216,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0014",
+        "version": 1,
+        "contentHash": "sha256:63fed4882f7a54b419f38ecfabd2a3e29f9d11f3192e43116e2cbd3e91ad435f",
         "question": "Grade 2 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -58028,6 +61268,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0015",
+        "version": 1,
+        "contentHash": "sha256:01e73fb68c28ac446ff469024975fcfe0f176af5b2f629ca3a0f4c5bf7e2b715",
         "question": "Grade 2 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -58077,6 +61320,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0016",
+        "version": 1,
+        "contentHash": "sha256:dd0cd1cb34895518b7f09e74014d41b29cdccadaaaefa92d334886200c9fb33b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -58122,10 +61368,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 16
+          "sequence": 16,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0017",
+        "version": 1,
+        "contentHash": "sha256:051e32764ed78d48b0c322ad4779d192703de7551130f83a5624f1982d238487",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -58171,10 +61421,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 17
+          "sequence": 17,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0018",
+        "version": 1,
+        "contentHash": "sha256:e7ab3c07952aac13bbe087a2a809b0f01178c604dd34087914b143e8799711b9",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -58224,6 +61478,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0019",
+        "version": 1,
+        "contentHash": "sha256:82ba8d9fa274bb024005d2de0fd1f2a58837bc3854ee2baf35774594dce76185",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -58273,6 +61530,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0020",
+        "version": 1,
+        "contentHash": "sha256:dd0cd1cb34895518b7f09e74014d41b29cdccadaaaefa92d334886200c9fb33b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -58318,10 +61578,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 20
+          "sequence": 20,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0021",
+        "version": 1,
+        "contentHash": "sha256:051e32764ed78d48b0c322ad4779d192703de7551130f83a5624f1982d238487",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -58367,10 +61631,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 21
+          "sequence": 21,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0022",
+        "version": 1,
+        "contentHash": "sha256:aea11f0b3c798a8c97152efdcd355f474d65e1fb3a10a604b4327cb93091632a",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -58420,6 +61688,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0023",
+        "version": 1,
+        "contentHash": "sha256:7414918855f42a4b3b4ced4eae7c4460b9808cdb2a9df11dd7a6135bb587f34b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -58469,6 +61740,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0024",
+        "version": 1,
+        "contentHash": "sha256:eace59b7516996bd2b523a5786d60568247ed74733379cab46ecc54f4a7ad219",
         "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -58518,6 +61792,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0025",
+        "version": 1,
+        "contentHash": "sha256:2bb040dc05dce1176367287c88b2e4c5ae47f555737b3eec3fc4bb251b0e4f46",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -58567,6 +61844,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0026",
+        "version": 1,
+        "contentHash": "sha256:e7acebc1332bff06749e9e178da98a340464329213b1a009ee9ee59f86488733",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -58616,6 +61896,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0027",
+        "version": 1,
+        "contentHash": "sha256:8418def29cb9abae753cb7a1b05aa8f62b90aaa944240c96716cd0571b9c2cc5",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -58665,6 +61948,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0028",
+        "version": 1,
+        "contentHash": "sha256:1584c9d0a6d5be9e5557a9fce65f3f759120bd697b1d4525d0f4759eeb23220a",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -58714,6 +62000,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0029",
+        "version": 1,
+        "contentHash": "sha256:b35cfa618868e54d5f09fd6cd4cde57e00df3020da93ef51727b6426cfffcf78",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "because",
@@ -58763,6 +62052,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0030",
+        "version": 1,
+        "contentHash": "sha256:4f537b860560bc4c2e8a92e97af9d39ad5f53b62d83e7e7a0ee8fff21e73524f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "without",
@@ -58812,6 +62104,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0031",
+        "version": 1,
+        "contentHash": "sha256:00c80895d766e976a571059167195a5e8ef04ecd752aa662d221e8dae9d128e4",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -58857,10 +62152,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 31
+          "sequence": 31,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0032",
+        "version": 1,
+        "contentHash": "sha256:d072f9834bf32dfc96b90ed420565a21f6f0f7275025c948de71208741e4195b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -58906,10 +62205,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 32
+          "sequence": 32,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0033",
+        "version": 1,
+        "contentHash": "sha256:48ede8efc322c4eda29d968f926ec2b00031c28124f4fb290f6a8b91d199e9b6",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -58959,6 +62262,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0034",
+        "version": 1,
+        "contentHash": "sha256:d6782aa9f0e5a867d7f2ace9424d8e6f5acdd367fdf7185e1e2f28c7f8875c71",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -59008,6 +62314,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0035",
+        "version": 1,
+        "contentHash": "sha256:00c80895d766e976a571059167195a5e8ef04ecd752aa662d221e8dae9d128e4",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -59053,10 +62362,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 35
+          "sequence": 35,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0036",
+        "version": 1,
+        "contentHash": "sha256:d072f9834bf32dfc96b90ed420565a21f6f0f7275025c948de71208741e4195b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -59102,10 +62415,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 36
+          "sequence": 36,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0037",
+        "version": 1,
+        "contentHash": "sha256:396c938a0b72307260b49d9892eee163bc295909fe76415e7e68cb600d71c24b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -59155,6 +62472,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0038",
+        "version": 1,
+        "contentHash": "sha256:572762785c73cdc951f49e04c61d33eb3278ded6d91fe6de7b469617ef13fc26",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -59204,6 +62524,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0039",
+        "version": 1,
+        "contentHash": "sha256:fbdcb4a80b208f747cc4405c4ef16359e0dd84ee5f03a116d4308c8dd38c8a29",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -59253,6 +62576,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0040",
+        "version": 1,
+        "contentHash": "sha256:d2f85f8301d672793423e41405e4e2a32e11c327d16e44f609aceff4516a7f95",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -59302,6 +62628,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0041",
+        "version": 1,
+        "contentHash": "sha256:4f174c94b82cbf8bfb30d4a2d8c786de60ea89551e3bd7e821939b82ccdeb688",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -59351,6 +62680,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0042",
+        "version": 1,
+        "contentHash": "sha256:9a825a387356ccce3784d713c5850abab02acaa583c747e2c6f0a9e039662948",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -59400,6 +62732,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0043",
+        "version": 1,
+        "contentHash": "sha256:76e5d3bba15773a2cc7b44b6888ddc325e238fe0d75597381eaecb184c3c30c5",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -59449,6 +62784,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0044",
+        "version": 1,
+        "contentHash": "sha256:39c563cfe77cde57019f36768e028cb52dca1e37d6eb44e0b7087e6a200e775b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -59498,6 +62836,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0045",
+        "version": 1,
+        "contentHash": "sha256:08b0bd970ccc7d90f79ba3df7b26a4a2308b936f3922e5d9aeaa2239ea368662",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -59547,6 +62888,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0046",
+        "version": 1,
+        "contentHash": "sha256:0fc6164aad7782e3e11587d51fdb0e883d1cbeb468ce0c0c992e715bfeb8b09a",
         "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -59592,10 +62936,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 46
+          "sequence": 46,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0047",
+        "version": 1,
+        "contentHash": "sha256:9712261d305e2a3d22c4ce38e85647f34a73ceddc576b5f35d0fd36c41e5862b",
         "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -59641,10 +62989,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 47
+          "sequence": 47,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0048",
+        "version": 1,
+        "contentHash": "sha256:089566dc78481e5e882121f39ed477f630472ae342a369f2cc9df5bdb541e178",
         "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -59694,6 +63046,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0049",
+        "version": 1,
+        "contentHash": "sha256:3c85a86e9171e541ec9f386a7fbc40a51e3202e93912cffe4e6d1dcbd5549398",
         "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -59743,6 +63098,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0050",
+        "version": 1,
+        "contentHash": "sha256:0fc6164aad7782e3e11587d51fdb0e883d1cbeb468ce0c0c992e715bfeb8b09a",
         "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -59788,10 +63146,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 50
+          "sequence": 50,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0051",
+        "version": 1,
+        "contentHash": "sha256:9712261d305e2a3d22c4ce38e85647f34a73ceddc576b5f35d0fd36c41e5862b",
         "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -59837,10 +63199,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 51
+          "sequence": 51,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0052",
+        "version": 1,
+        "contentHash": "sha256:d93fe81c33e446e7c1d7dcd3143c315efcef73e89f234412c2e0205b80963c61",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -59890,6 +63256,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0053",
+        "version": 1,
+        "contentHash": "sha256:34e01b7e45c06e6e2294ed13e2d11f8ccd4212fffa45d56575dec7501c6c422a",
         "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -59939,6 +63308,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0054",
+        "version": 1,
+        "contentHash": "sha256:f292c7158065a43fe78af2d7e2122c00129a9f3d726cf0ecbb3a14b5ab91161a",
         "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -59988,6 +63360,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0055",
+        "version": 1,
+        "contentHash": "sha256:3b7f5051182320311835cb9b5026a8ffb896ee2090422eed174e32f96f179493",
         "question": "Grade 3 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -60037,6 +63412,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0056",
+        "version": 1,
+        "contentHash": "sha256:2f3fb8fef4d75b5c892bf68d96c38f05614baeeb6a5f86a727d2fe7447a11222",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -60086,6 +63464,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0057",
+        "version": 1,
+        "contentHash": "sha256:64829d712d2788a128bdf6293550a2e63004d9f0aba4604e8fe9abaaae54df88",
         "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -60135,6 +63516,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0058",
+        "version": 1,
+        "contentHash": "sha256:5cfd242f74b5e436016b759ff7b46833d362931b70e2047884316eab2d92dfaa",
         "question": "Grade 3 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -60184,6 +63568,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0059",
+        "version": 1,
+        "contentHash": "sha256:9d1da9a07537c9e9351e51725cb0830f4056f4a06824e0a4aebd111a5b360fd6",
         "question": "Grade 3 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -60233,6 +63620,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0060",
+        "version": 1,
+        "contentHash": "sha256:86471931cdbc161131a283620818ac1134821438eb982ac85fa9a484116b66bc",
         "question": "Grade 3 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -60282,6 +63672,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0061",
+        "version": 1,
+        "contentHash": "sha256:1f83af6fee39efebb48202a5ba8c1b67dd5e5053dffd6beaa2fb61eba6daf672",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -60327,10 +63720,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 61
+          "sequence": 61,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0062",
+        "version": 1,
+        "contentHash": "sha256:5df05e07a0d80bf101d0d0a8f902dd419a8971784cecc36d77ce9c7cc53b0b6e",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -60376,10 +63773,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 62
+          "sequence": 62,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0063",
+        "version": 1,
+        "contentHash": "sha256:ed23ebde67a08d8f76cd29f22bc9e066f5989a0cddc7a563626294576a5a9ac4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -60429,6 +63830,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0064",
+        "version": 1,
+        "contentHash": "sha256:317cc342b3ddec854bf4e6347aa91d7296b5d61db2e00f0a6f5a5fbf633d0743",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -60478,6 +63882,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0065",
+        "version": 1,
+        "contentHash": "sha256:1f83af6fee39efebb48202a5ba8c1b67dd5e5053dffd6beaa2fb61eba6daf672",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -60523,10 +63930,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 65
+          "sequence": 65,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0066",
+        "version": 1,
+        "contentHash": "sha256:5df05e07a0d80bf101d0d0a8f902dd419a8971784cecc36d77ce9c7cc53b0b6e",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -60572,10 +63983,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 66
+          "sequence": 66,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0067",
+        "version": 1,
+        "contentHash": "sha256:18faa4bbc952a57aab9a485331edd100c298742adc28a90b068b0c1986739c53",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -60625,6 +64040,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0068",
+        "version": 1,
+        "contentHash": "sha256:f734e4904c70e45cec8931d13cbc64a55f6117328791ba171bfb278741d05dad",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -60674,6 +64092,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0069",
+        "version": 1,
+        "contentHash": "sha256:da4ad7e9116b6c92613a5c9a8ebb4ce385d8a14fdb80fbe45c05df15d11b1407",
         "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -60723,6 +64144,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0070",
+        "version": 1,
+        "contentHash": "sha256:df27ae9f000a41397850e2a22c1a62eeec20ef2b48a5695922dc71e2846f4080",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -60772,6 +64196,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0071",
+        "version": 1,
+        "contentHash": "sha256:7d145528b575b75728f8329ec6a3760767bd003b09ce6880c7954717466ef0c0",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -60821,6 +64248,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0072",
+        "version": 1,
+        "contentHash": "sha256:1f6e03189958a735c5192097e2002810a3f23996de533caea67662f3d6c0f9c4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -60870,6 +64300,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0073",
+        "version": 1,
+        "contentHash": "sha256:368defe5893a63d23dc94ff88b4a57b84715d0d214a9fdafc252e48705283a7d",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -60919,6 +64352,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0074",
+        "version": 1,
+        "contentHash": "sha256:59c7c5205692ff9144fa6e408b5028e3ea8731c3f32cb64fb27b68e8a985b031",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "becaus",
@@ -60968,6 +64404,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0075",
+        "version": 1,
+        "contentHash": "sha256:f2a3f80026fe0b5c2db15ab8187e8aa27c511b96e1e9f7ea9a12bdb41686084b",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "small",
@@ -61017,6 +64456,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0076",
+        "version": 1,
+        "contentHash": "sha256:297c4096be7623724b86b8e2fb99e9766bef2ce14141e4c9c380a300fe2132ab",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -61062,10 +64504,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 76
+          "sequence": 76,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0077",
+        "version": 1,
+        "contentHash": "sha256:90e73a3a26726e6d19c085e3434e2ce34f21755954241328698a90352a805666",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -61111,10 +64557,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 77
+          "sequence": 77,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0078",
+        "version": 1,
+        "contentHash": "sha256:1b836813487b68724518b0d9bc49328263881507037b4904a2ffc325c511eb36",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -61164,6 +64614,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0079",
+        "version": 1,
+        "contentHash": "sha256:84d8432fde5d62c1c274d44c8068360c41c545da0c114b5a506e1a2bd6eb403c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -61213,6 +64666,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0080",
+        "version": 1,
+        "contentHash": "sha256:297c4096be7623724b86b8e2fb99e9766bef2ce14141e4c9c380a300fe2132ab",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -61258,10 +64714,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 80
+          "sequence": 80,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0081",
+        "version": 1,
+        "contentHash": "sha256:90e73a3a26726e6d19c085e3434e2ce34f21755954241328698a90352a805666",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -61307,10 +64767,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 81
+          "sequence": 81,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0082",
+        "version": 1,
+        "contentHash": "sha256:b84e238dd28513f3744bdc0a49b087dbe2b2c6f9f8a4ca89a5be1da6f30ed4f8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -61360,6 +64824,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0083",
+        "version": 1,
+        "contentHash": "sha256:ee12aa3ab38434d4a6c22733240919f0845d9d903f1ba8999871ee2576001ae1",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -61409,6 +64876,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0084",
+        "version": 1,
+        "contentHash": "sha256:f14f481be395910599d79399ef0fb42126b5db09543de62dd1761bb131e4e98e",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -61458,6 +64928,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0085",
+        "version": 1,
+        "contentHash": "sha256:9d4ee10ab3f1ae8125fefc293384e62c40bbb8a720805189be6cf776758d41a8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -61507,6 +64980,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0086",
+        "version": 1,
+        "contentHash": "sha256:4ad74c1bbcf4642c46ed5d5cafb456fadac48dfa741b333aaa7e3fa1165f9a20",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -61556,6 +65032,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0087",
+        "version": 1,
+        "contentHash": "sha256:26fe8019adef52fd2924e2dc2264746996dfd205a4ed19a6b41df0ddb400f80c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -61605,6 +65084,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0088",
+        "version": 1,
+        "contentHash": "sha256:e55b1d7f8707842a615d3253be542123dc6248e8fed2ab76988aa4781c22fdf8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -61654,6 +65136,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0089",
+        "version": 1,
+        "contentHash": "sha256:987cef8da3878feecbcf807a464d82478ac0e7799ea68a2f2bd95ba241d2e3e9",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -61703,6 +65188,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0090",
+        "version": 1,
+        "contentHash": "sha256:5f5533d1b9a832c55160075e3d4165a5af1f6a31d06d89bdbea8e059d1011260",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -61752,6 +65240,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0091",
+        "version": 1,
+        "contentHash": "sha256:c4ece58bb1b4d4a09741c0287294bdd30c80535aa9f126f21e6843977ecc0b6a",
         "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -61797,10 +65288,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 91
+          "sequence": 91,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0092",
+        "version": 1,
+        "contentHash": "sha256:dd27bb59c56a8b3204c054aca5a35e91d3f69e7a3cede5ef56b040407185984a",
         "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -61846,10 +65341,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 92
+          "sequence": 92,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0093",
+        "version": 1,
+        "contentHash": "sha256:4164d418131a87019e43450bbf6d46842b2ec884d48dea345291e71ca1bfe059",
         "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -61899,6 +65398,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0094",
+        "version": 1,
+        "contentHash": "sha256:9d719cdb4d65b31ca1065d51b79a901c21aab4b624b80cf624abb29b77885420",
         "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -61948,6 +65450,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0095",
+        "version": 1,
+        "contentHash": "sha256:c4ece58bb1b4d4a09741c0287294bdd30c80535aa9f126f21e6843977ecc0b6a",
         "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -61993,10 +65498,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 95
+          "sequence": 95,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0096",
+        "version": 1,
+        "contentHash": "sha256:dd27bb59c56a8b3204c054aca5a35e91d3f69e7a3cede5ef56b040407185984a",
         "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -62042,10 +65551,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 96
+          "sequence": 96,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0097",
+        "version": 1,
+        "contentHash": "sha256:95b63b10b01fd9184b28c66ad55ee65ca3d243698444c92f860f5442e2b5e99f",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -62095,6 +65608,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0098",
+        "version": 1,
+        "contentHash": "sha256:efe1a0352c7fde87e401e49f2ef2b1d1a0ed289df75679a68442238fe24f8867",
         "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -62144,6 +65660,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0099",
+        "version": 1,
+        "contentHash": "sha256:cb15393ac831c907dd8865ff34ee4adb1b30573a62e84baea0ff9bf9930d1a6e",
         "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -62193,6 +65712,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0100",
+        "version": 1,
+        "contentHash": "sha256:e3de97f4713ad4d190f16d63983ca3521dca871113779f10e9c433699cb7f632",
         "question": "Grade 4 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -62242,6 +65764,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0101",
+        "version": 1,
+        "contentHash": "sha256:eebf9313c9abaa61f7af30b528472b04e7be4402748c0b0cf077fbe7c21719c2",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -62291,6 +65816,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0102",
+        "version": 1,
+        "contentHash": "sha256:02fb2650736a4f187c64e2e9ccebaeb7d70ac930aca90acff6b0a6f7c84bfe73",
         "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -62340,6 +65868,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0103",
+        "version": 1,
+        "contentHash": "sha256:78598c0309e01a3e118fc48feff30d7bbcae92829371290fe252346ed31a8c00",
         "question": "Grade 4 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -62389,6 +65920,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0104",
+        "version": 1,
+        "contentHash": "sha256:05c5670625ac7e2d22b7cc2cef0719826ef393f19fa74646ae0e305e88efe8dd",
         "question": "Grade 4 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -62438,6 +65972,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0105",
+        "version": 1,
+        "contentHash": "sha256:8f604369ae2a8dba7f460fc67e1498031ff6528876f7d612b10f8626b03150a7",
         "question": "Grade 4 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -62487,6 +66024,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0106",
+        "version": 1,
+        "contentHash": "sha256:3bd4fe5290325c539d795666f32e36bcb75fd3d9f7c17edd3b7232edb6b60191",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -62532,10 +66072,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 106
+          "sequence": 106,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0107",
+        "version": 1,
+        "contentHash": "sha256:1eabf5267f3c7311bd8ef56432111ee3864393ddb82f0142ac24bd118158cb21",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -62581,10 +66125,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 107
+          "sequence": 107,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0108",
+        "version": 1,
+        "contentHash": "sha256:797090e41b3ee526426dfd007610865b7e931c6622aeef022b4a3be8030acf24",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -62634,6 +66182,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0109",
+        "version": 1,
+        "contentHash": "sha256:0cd6641d1ec9134fa484c9398557af966be74fc932f0a631e5bbcfd6fa5cf966",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -62683,6 +66234,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0110",
+        "version": 1,
+        "contentHash": "sha256:3bd4fe5290325c539d795666f32e36bcb75fd3d9f7c17edd3b7232edb6b60191",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -62728,10 +66282,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 110
+          "sequence": 110,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0111",
+        "version": 1,
+        "contentHash": "sha256:1eabf5267f3c7311bd8ef56432111ee3864393ddb82f0142ac24bd118158cb21",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -62777,10 +66335,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 111
+          "sequence": 111,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0112",
+        "version": 1,
+        "contentHash": "sha256:f8d99c077e457c2fe93df139fa8722de63e3d1ad865ffd2887a66c3b0e99fe2c",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -62830,6 +66392,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0113",
+        "version": 1,
+        "contentHash": "sha256:61faaeb84e156ac59fd6af9fb1f6646daa9e433aebe4f5c9bf0ae4447048bfab",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -62879,6 +66444,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0114",
+        "version": 1,
+        "contentHash": "sha256:bd6deb99adef46f01e0ee32c2fd5efba295d7539ee29d358a7157a8057d0730c",
         "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -62928,6 +66496,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0115",
+        "version": 1,
+        "contentHash": "sha256:c58205d50f7a5eb0431de6e8bed1e2954837bbac81d5fa769f245a95fbab06dc",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -62977,6 +66548,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0116",
+        "version": 1,
+        "contentHash": "sha256:33c6563bf8f54e1d61897bb3263f447061bdbfa9739976f4c7e70157c08557de",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -63026,6 +66600,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0117",
+        "version": 1,
+        "contentHash": "sha256:da35bea008265c3c318c3dc2b8d2204dd0d5c83385c54e56718e7b96cac3e50f",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -63075,6 +66652,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0118",
+        "version": 1,
+        "contentHash": "sha256:d839ca5ed57587d21e6a06e530b7e265599c00bd85a67745728cf91e4a09e581",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -63124,6 +66704,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0119",
+        "version": 1,
+        "contentHash": "sha256:fe864fe47fdd3fe967f75ea6ffeb1fc19ab8098c27bf2906f74d3d419f9526b0",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "because",
@@ -63173,6 +66756,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0120",
+        "version": 1,
+        "contentHash": "sha256:437d76aa0e1cd50627578db49e06b79c5e0e1a7d6576fb42dea867cd5314ef76",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "without",
@@ -63222,6 +66808,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0121",
+        "version": 1,
+        "contentHash": "sha256:dac7663d9a2663d9129602c789aafd622cdf262a8656b2b2dc1910928bbf5840",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -63267,10 +66856,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 121
+          "sequence": 121,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0122",
+        "version": 1,
+        "contentHash": "sha256:b2649b12abcfb0a767cec37b172023d56eb5421414f7da4c97e3f990f0938c67",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -63316,10 +66909,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 122
+          "sequence": 122,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0123",
+        "version": 1,
+        "contentHash": "sha256:576851d3f954dd8ea7e87357f702cf4d84f55b7f9fffb1ae9007e89e5e654ddc",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -63369,6 +66966,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0124",
+        "version": 1,
+        "contentHash": "sha256:551ed4f99d7a9bae993fcf4815e2bd9f684056f413da7d187d312a8e7a893796",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -63418,6 +67018,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0125",
+        "version": 1,
+        "contentHash": "sha256:dac7663d9a2663d9129602c789aafd622cdf262a8656b2b2dc1910928bbf5840",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -63463,10 +67066,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 125
+          "sequence": 125,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0126",
+        "version": 1,
+        "contentHash": "sha256:b2649b12abcfb0a767cec37b172023d56eb5421414f7da4c97e3f990f0938c67",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -63512,10 +67119,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 126
+          "sequence": 126,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0127",
+        "version": 1,
+        "contentHash": "sha256:460d4524e6c80046c937865fd43b77d2df1788f46989b8d5eb25f67c9ffe1345",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -63565,6 +67176,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0128",
+        "version": 1,
+        "contentHash": "sha256:f15a5f3dfa269e8ca0a6f58cacf50039a3f9aeea181286b6122bfa08b76869c2",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -63614,6 +67228,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0129",
+        "version": 1,
+        "contentHash": "sha256:bfd5603e5497d6c474265b09997186ed3d6112cecbb75faa325ca4de3088cfaf",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -63663,6 +67280,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0130",
+        "version": 1,
+        "contentHash": "sha256:b8c22ecdd2271322de050ed1935a6b83726efb2672f37faf3c4d9d273bd49948",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -63712,6 +67332,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0131",
+        "version": 1,
+        "contentHash": "sha256:5250b40a9980e717b71544b58cae523339972ed78bfe51b91deb1eb9934e7397",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -63761,6 +67384,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0132",
+        "version": 1,
+        "contentHash": "sha256:054cf44df704b85f145c1dacdb6025cb9abb738fc61cd732893ea793cfd740ed",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -63810,6 +67436,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0133",
+        "version": 1,
+        "contentHash": "sha256:ddb016e994d720e3efd4b8c450ce2acb3fcae07c8f3be4a121417654f2a2eb81",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -63859,6 +67488,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0134",
+        "version": 1,
+        "contentHash": "sha256:486a616e3f5862ff2a175250b5078c45fc215e8a041fd0ec5d187c803e0db52e",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -63908,6 +67540,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0135",
+        "version": 1,
+        "contentHash": "sha256:71c110e415c979c4531f70783bb499464495c37876ea7e483ed8a5770b5906a8",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -63957,6 +67592,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0136",
+        "version": 1,
+        "contentHash": "sha256:8e04f8c5bde670d2fb19a1a12532aeb941493df7a94e71c1fb051475e9baffe7",
         "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -64002,10 +67640,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 136
+          "sequence": 136,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0137",
+        "version": 1,
+        "contentHash": "sha256:2a2508b4049c0d531db8b650f017ca53444745534a290fb11f023850f3b4b509",
         "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -64051,10 +67693,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 137
+          "sequence": 137,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0138",
+        "version": 1,
+        "contentHash": "sha256:459af0f70a5ae584d6b44bf0e22ae98c6ca58397e46a9ed1031c49b80d10714a",
         "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -64104,6 +67750,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0139",
+        "version": 1,
+        "contentHash": "sha256:c34709e78eced7d497d90250e9f6d7d45e7e28218d702be10ad7641abc455e9c",
         "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -64153,6 +67802,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0140",
+        "version": 1,
+        "contentHash": "sha256:8e04f8c5bde670d2fb19a1a12532aeb941493df7a94e71c1fb051475e9baffe7",
         "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -64198,10 +67850,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 140
+          "sequence": 140,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0141",
+        "version": 1,
+        "contentHash": "sha256:2a2508b4049c0d531db8b650f017ca53444745534a290fb11f023850f3b4b509",
         "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -64247,10 +67903,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 141
+          "sequence": 141,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0142",
+        "version": 1,
+        "contentHash": "sha256:7c97a37b234f3679c0cd981c25ce47ec2a9b694ce3b70da4630d2a8c7f697b1c",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -64300,6 +67960,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0143",
+        "version": 1,
+        "contentHash": "sha256:f5d8c3311b76074cec075d284e75d0881b826781a2180a1667b8891aa9dcab09",
         "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -64349,6 +68012,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0144",
+        "version": 1,
+        "contentHash": "sha256:4bf83075461988d68e7a68c94d42ac06e12d6bf3316e0687301bf7e9c9f181af",
         "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -64398,6 +68064,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0145",
+        "version": 1,
+        "contentHash": "sha256:86c5343df49bbb58c1a2d297497368f6b44db81b89f7061a108756aa1975d9b1",
         "question": "Grade 5 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -64447,6 +68116,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0146",
+        "version": 1,
+        "contentHash": "sha256:21ff500a41f5dd462de3af6b8b52e684a2899f812487485abbf04cd43a177041",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -64496,6 +68168,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0147",
+        "version": 1,
+        "contentHash": "sha256:a77105eca88a86dbd2045206bc1691f682aa349eb92e7a1e27260b5df162ca60",
         "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -64545,6 +68220,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0148",
+        "version": 1,
+        "contentHash": "sha256:4195662964c654118e1160370019b2ae5892d787abd6f5c1d60cd0d45dd6e2b1",
         "question": "Grade 5 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -64594,6 +68272,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0149",
+        "version": 1,
+        "contentHash": "sha256:3f48995cb8eb420f81fc8af9c74dff10002c33677e2b03a4c8569b105560ca77",
         "question": "Grade 5 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -64643,6 +68324,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0150",
+        "version": 1,
+        "contentHash": "sha256:4e308d1509d16f6ba768ac60ae144adaf94c49fb5bb01eaf7e8f25408b929778",
         "question": "Grade 5 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -64692,6 +68376,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0151",
+        "version": 1,
+        "contentHash": "sha256:233adf468aedf8a108a8380f8dd0420517853668159b3a06867e9185b35e1597",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -64737,10 +68424,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 151
+          "sequence": 151,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0152",
+        "version": 1,
+        "contentHash": "sha256:4f55062e6be26b889a53fcdea5870aeae759040c0603bfe9469074e02165139e",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -64786,10 +68477,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 152
+          "sequence": 152,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0153",
+        "version": 1,
+        "contentHash": "sha256:0d2ee6478a3b2298a5bf25995a0a6c671dbd74f2dbc388dbd7580fd9480e632c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -64839,6 +68534,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0154",
+        "version": 1,
+        "contentHash": "sha256:1bd780a636869557ad1d1f2416cf64cc30658ad584f27c93924f7a81e50d5d55",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -64888,6 +68586,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0155",
+        "version": 1,
+        "contentHash": "sha256:233adf468aedf8a108a8380f8dd0420517853668159b3a06867e9185b35e1597",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -64933,10 +68634,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 155
+          "sequence": 155,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0156",
+        "version": 1,
+        "contentHash": "sha256:4f55062e6be26b889a53fcdea5870aeae759040c0603bfe9469074e02165139e",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -64982,10 +68687,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 156
+          "sequence": 156,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0157",
+        "version": 1,
+        "contentHash": "sha256:90fe5b85ec9016c763d2a41d8510bf856a2c451affffc3b3dbbcf98ef04d7ad2",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -65035,6 +68744,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0158",
+        "version": 1,
+        "contentHash": "sha256:c00c3cfb26663d4fe5547fcbbc36904017536ac61d3ed2098906bc72c6f544a6",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -65084,6 +68796,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0159",
+        "version": 1,
+        "contentHash": "sha256:f74bc87879e04df7e3ae771fd8263a98cc3416444422b020cd73793e7dca213d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -65133,6 +68848,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0160",
+        "version": 1,
+        "contentHash": "sha256:6977af32a671c95b47aa904ccfd75b9802ae3412bbc39ada7a52e6c3a5bca19c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -65182,6 +68900,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0161",
+        "version": 1,
+        "contentHash": "sha256:116a82cf7a0b5e95e49fc9071bf47a81995201be2e0dc78413bdcdea95920638",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -65231,6 +68952,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0162",
+        "version": 1,
+        "contentHash": "sha256:d8a70f7941ff8cd94902a4e2aefd951efd25c7b5ebfc72a1158d9c1d3196194f",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -65280,6 +69004,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0163",
+        "version": 1,
+        "contentHash": "sha256:ad471d242248edaab791039738ffccf5e3de8962d7b026e1951e96c5a8ea2725",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -65329,6 +69056,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0164",
+        "version": 1,
+        "contentHash": "sha256:a2343765c4a278616431665b454884b10f311777204c97b7970a62c42869c3b1",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "becaus",
@@ -65378,6 +69108,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0165",
+        "version": 1,
+        "contentHash": "sha256:64b0f43d0dcfe848b4b9e6d7c2c7bea329e72b1db4be4873a001f21141c68855",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "small",
@@ -65427,6 +69160,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0166",
+        "version": 1,
+        "contentHash": "sha256:38a6542a15ed550a6a08ec88ccb5be93c8424ea108a8cee6e8bd2a0e3cf3f9f4",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -65472,10 +69208,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 166
+          "sequence": 166,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0167",
+        "version": 1,
+        "contentHash": "sha256:dc79de3353c1506e950a048aa8779f495f572874452089979c18c8c6bf83f63e",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -65521,10 +69261,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 167
+          "sequence": 167,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0168",
+        "version": 1,
+        "contentHash": "sha256:387ee29e860d7ce405d371015481331ef7d22dffb9f1a3fe428e9ef99d501413",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -65574,6 +69318,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0169",
+        "version": 1,
+        "contentHash": "sha256:eabf6529fc5f3a85bc6cfa413a22ae3d4c4daf7684b0ddd4d25ba03325cd3144",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -65623,6 +69370,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0170",
+        "version": 1,
+        "contentHash": "sha256:38a6542a15ed550a6a08ec88ccb5be93c8424ea108a8cee6e8bd2a0e3cf3f9f4",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -65668,10 +69418,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 170
+          "sequence": 170,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0171",
+        "version": 1,
+        "contentHash": "sha256:dc79de3353c1506e950a048aa8779f495f572874452089979c18c8c6bf83f63e",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -65717,10 +69471,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-multiple-meaning-words",
-          "sequence": 171
+          "sequence": 171,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0172",
+        "version": 1,
+        "contentHash": "sha256:0690272e1f4fd6deb0efb9f274243bbcbb9d21a64834e40afc9345d59791c67c",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -65770,6 +69528,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0173",
+        "version": 1,
+        "contentHash": "sha256:922d209ffc74751019f83fa77617e30f97454943bb47040be836959f9e8b553d",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -65819,6 +69580,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0174",
+        "version": 1,
+        "contentHash": "sha256:d198b6bdd08ab30a76c80791154118e96fbb19a80eea0d2c72acba8517498854",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -65868,6 +69632,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0175",
+        "version": 1,
+        "contentHash": "sha256:52bc791beff1f4b80ca50850969eeab08240a274e43b8523348acaf7574e5514",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -65917,6 +69684,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0176",
+        "version": 1,
+        "contentHash": "sha256:27589b6ce9b4029d71f0a0c6fa99c8b104790e4462a2513b0119c8ddf5ea99e5",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -65966,6 +69736,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0177",
+        "version": 1,
+        "contentHash": "sha256:382e433f243633ba53602961d81fbbecdb87aae9ad2ebbf1cae0b16c62c10c65",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -66015,6 +69788,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0178",
+        "version": 1,
+        "contentHash": "sha256:f2274078128fc8fccc27ccfd76a97f58547513fb9b099b7483e8546583093ed0",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -66064,6 +69840,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0179",
+        "version": 1,
+        "contentHash": "sha256:b323d27ddbff747442bd4c41d667b509ce7e65e232ffd133182388b4549de80c",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -66113,6 +69892,9 @@
         }
       },
       {
+        "id": "vocabulary-multiple-meaning-words-q0180",
+        "version": 1,
+        "contentHash": "sha256:2ad12ea5173b2a91b55dc6947f497f4e2f14bef02c33246d608b11ce335488c0",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -66182,6 +69964,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-shades-of-meaning-q0001",
+        "version": 1,
+        "contentHash": "sha256:dd005dbb54c057c2b646f7d24a3d6bd11b187cbf2263cf5ade4866b8a78ee474",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -66227,10 +70012,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 1
+          "sequence": 1,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0002",
+        "version": 1,
+        "contentHash": "sha256:cd06f3468d32014afca59cf3a48c2897c9aa9b59f13f40153d25fd5865fa9fc6",
         "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -66276,10 +70065,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 2
+          "sequence": 2,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0003",
+        "version": 1,
+        "contentHash": "sha256:32a9d0e7971dbe56d7cf869596d84a3f655d429bd0c939170e6dd155de647a9e",
         "question": "Grade 2 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -66329,6 +70122,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0004",
+        "version": 1,
+        "contentHash": "sha256:fe3e7b23b611cfade4f7372d1814d8289e1ae6e6b517512f5742caeff74e31b2",
         "question": "Grade 2 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "The plate was round.",
@@ -66378,6 +70174,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0005",
+        "version": 1,
+        "contentHash": "sha256:4d0cabe45a2cc2a225f3b634bb4b677a705803a7a08595605be1f30b7dc1d1ec",
         "question": "Grade 2 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack felt very heavy.",
@@ -66427,6 +70226,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0006",
+        "version": 1,
+        "contentHash": "sha256:012aa3f00eac4934018a90637ece75c83351bb4d2fc7eed67ff9d58a7a2860f2",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library opened at nine.",
@@ -66476,6 +70278,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0007",
+        "version": 1,
+        "contentHash": "sha256:2867ff96e1c974b6a03fdb6a4d10687f96d890ec8b7c1521d2e713f7c568042d",
         "question": "Grade 2 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "cheerful",
@@ -66525,6 +70330,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0008",
+        "version": 1,
+        "contentHash": "sha256:975edca29b1a75a15b078276606bad516fba65de401c0ec723d28b3cf17896a5",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite flew on Saturday.",
@@ -66574,6 +70382,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0009",
+        "version": 1,
+        "contentHash": "sha256:4bb372dd6e4da226cd6bf7c326f57e0804295d7fe229fbf098c2728c1fa8e37b",
         "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -66623,6 +70434,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0010",
+        "version": 1,
+        "contentHash": "sha256:08d0d5ca3bbe5b3d08f37e46c86879f7b2c5d596a663d351d10377c64aa8e2b0",
         "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -66672,6 +70486,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0011",
+        "version": 1,
+        "contentHash": "sha256:a98bcd66857f2254e133105e597c210d941982f6ee5256f4ab0c36af7e6b69ff",
         "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -66721,6 +70538,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0012",
+        "version": 1,
+        "contentHash": "sha256:9febfee36771782c07b9acb1aa50ce39a893fe4d88dd08556f6fb872e040eba7",
         "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -66770,6 +70590,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0013",
+        "version": 1,
+        "contentHash": "sha256:dd005dbb54c057c2b646f7d24a3d6bd11b187cbf2263cf5ade4866b8a78ee474",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -66815,10 +70638,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 13
+          "sequence": 13,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0014",
+        "version": 1,
+        "contentHash": "sha256:cd06f3468d32014afca59cf3a48c2897c9aa9b59f13f40153d25fd5865fa9fc6",
         "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -66864,10 +70691,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 14
+          "sequence": 14,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0015",
+        "version": 1,
+        "contentHash": "sha256:36e7f96a73665845ce2c584346992f7ff10a059500c6ed24e972559edc1068a9",
         "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -66917,6 +70748,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0016",
+        "version": 1,
+        "contentHash": "sha256:a17e09f9fcbf12196e198781d392e528ac9213f570a30dfcf9e515052425f575",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -66962,10 +70796,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 16
+          "sequence": 16,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0017",
+        "version": 1,
+        "contentHash": "sha256:636bb09df3e63f7dccb06e431e8b1d2f7ca440c29a2e3aa219824bc6e0377463",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -67011,10 +70849,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 17
+          "sequence": 17,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0018",
+        "version": 1,
+        "contentHash": "sha256:741c14b730352dd9471722b238ceb737cbf432e9a207fcf89d5c042613413f1c",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "exploded",
@@ -67064,6 +70906,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0019",
+        "version": 1,
+        "contentHash": "sha256:1a554228dfc1cd7b9e1803854b6a4b501f289494faf9a672179cfab25ec92c08",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "The recipe has steps.",
@@ -67113,6 +70958,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0020",
+        "version": 1,
+        "contentHash": "sha256:a27bdd21f047b1e40d277b42d70ffece8e87dbb8dcd3c2c36fd81ad235d24862",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was missing.",
@@ -67162,6 +71010,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0021",
+        "version": 1,
+        "contentHash": "sha256:88d656e863f01f03286c36dc8bad7d48e2cf5a535429cba81f17d8c51cfbad43",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library was a treasure chest of stories.",
@@ -67211,6 +71062,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0022",
+        "version": 1,
+        "contentHash": "sha256:5708a3fe20c7e4724ecce144bd935020e1cdf6af264c8b52712d50215bb2488d",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "silly",
@@ -67260,6 +71114,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0023",
+        "version": 1,
+        "contentHash": "sha256:1951c08338ae5e9c67e03501d7b44ed0f23a670a5972918f476f8075410d3aba",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite had a string.",
@@ -67309,6 +71166,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0024",
+        "version": 1,
+        "contentHash": "sha256:5504fe34fb27e6daaf057fe188ca337e9fa388941c217a683b69850acc10fe29",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -67358,6 +71218,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0025",
+        "version": 1,
+        "contentHash": "sha256:d5a1ce726b8717c5e3a1b10aaebe7747641e6d728eaedd31d1912e918022f89b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -67407,6 +71270,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0026",
+        "version": 1,
+        "contentHash": "sha256:d97105fa5c581ee5e1fc89f5694f334eb9827529e633ec116ca14032532aad07",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -67456,6 +71322,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0027",
+        "version": 1,
+        "contentHash": "sha256:2b7d85ab52aa9e115155b88167a2a9c06319454070ad422741dedef9dec9554e",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -67505,6 +71374,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0028",
+        "version": 1,
+        "contentHash": "sha256:a17e09f9fcbf12196e198781d392e528ac9213f570a30dfcf9e515052425f575",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -67550,10 +71422,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 28
+          "sequence": 28,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0029",
+        "version": 1,
+        "contentHash": "sha256:636bb09df3e63f7dccb06e431e8b1d2f7ca440c29a2e3aa219824bc6e0377463",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -67599,10 +71475,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 29
+          "sequence": 29,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0030",
+        "version": 1,
+        "contentHash": "sha256:91c0b58fb570966399d3ba7c169ff318b3a9bae602763ab2a67afec99ba4ff30",
         "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -67652,6 +71532,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0031",
+        "version": 1,
+        "contentHash": "sha256:bbc4e6c7f3749502b8700eafebe131ecb47327895e32c3a1e699b076de9fd816",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -67697,10 +71580,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 31
+          "sequence": 31,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0032",
+        "version": 1,
+        "contentHash": "sha256:c35889c022906a5b52cefdab3b4f663c20efaaa59405d4ecd481aeefca442552",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -67746,10 +71633,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 32
+          "sequence": 32,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0033",
+        "version": 1,
+        "contentHash": "sha256:f3a94ee6c3ace5fc5356ce8487e20273bd6711902d0543f85dd4d2509c008bde",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -67799,6 +71690,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0034",
+        "version": 1,
+        "contentHash": "sha256:38fb5efc1b17214f5cdf61cb3549e22a1054e1a99435d11551bd5be0df35b849",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "The kitchen is a room.",
@@ -67848,6 +71742,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0035",
+        "version": 1,
+        "contentHash": "sha256:99278c3d5fc2e8fa1f4541295b5d2375a8aee05f85f858f304664e2a252534d0",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was empty.",
@@ -67897,6 +71794,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0036",
+        "version": 1,
+        "contentHash": "sha256:69973e9a9125c60d5801cdd43984e566b3e6f1ddac02605866d16ea5313877d5",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The librarian smiled.",
@@ -67946,6 +71846,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0037",
+        "version": 1,
+        "contentHash": "sha256:c6dd0c03fee11ea0217bfc2102b399d6b5981893bcc24b2ef969d4a0dfee8002",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "mysterious",
@@ -67995,6 +71898,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0038",
+        "version": 1,
+        "contentHash": "sha256:da48cddb9b1b0fe2ed05c7d34ff09b616a01d7bee7d9a2829cd6d1e0b1ff4020",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite was red.",
@@ -68044,6 +71950,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0039",
+        "version": 1,
+        "contentHash": "sha256:44a4b94e3d85f73bbe0e2b96731899e2b42cd7deb67c397d235dcd214a662d1e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -68093,6 +72002,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0040",
+        "version": 1,
+        "contentHash": "sha256:de5939a2f63f992cb252950da6a50512e0e1f8fc911daf7f395a39c8b6bb953a",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -68142,6 +72054,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0041",
+        "version": 1,
+        "contentHash": "sha256:8d876cfdd45b50a3e01799dc5f91999f125416edff92709cde649cd37c2c58f8",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -68191,6 +72106,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0042",
+        "version": 1,
+        "contentHash": "sha256:919aac1edb7bac99c8a4bb4ad6139edb60d4074a96d8fde9fd22beaed355ce5e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -68240,6 +72158,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0043",
+        "version": 1,
+        "contentHash": "sha256:bbc4e6c7f3749502b8700eafebe131ecb47327895e32c3a1e699b076de9fd816",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -68285,10 +72206,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 43
+          "sequence": 43,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0044",
+        "version": 1,
+        "contentHash": "sha256:c35889c022906a5b52cefdab3b4f663c20efaaa59405d4ecd481aeefca442552",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -68334,10 +72259,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 44
+          "sequence": 44,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0045",
+        "version": 1,
+        "contentHash": "sha256:71b93f00e96a98e66d9bd7545894eb5080561729b2091667d855e6c08155cadc",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -68387,6 +72316,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0046",
+        "version": 1,
+        "contentHash": "sha256:bae42ee4937ab26d248c734667f699298f67d9cd462eb52d245aeb2b386b49e0",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -68432,10 +72364,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 46
+          "sequence": 46,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0047",
+        "version": 1,
+        "contentHash": "sha256:379b68fc1b2d3d1b0d93816ea5acfd9e0a0e02d5784204523af3fd10fc74c022",
         "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -68481,10 +72417,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 47
+          "sequence": 47,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0048",
+        "version": 1,
+        "contentHash": "sha256:e7be984f4a78e8274c9610267b3dac73379723b5f86565fedcbc7f7d79420022",
         "question": "Grade 3 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -68534,6 +72474,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0049",
+        "version": 1,
+        "contentHash": "sha256:388df8ab2dc3de0c494b902b02737dd69cec6c39eb627b94192a06be1fea4d5e",
         "question": "Grade 3 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "The kitchen is a room.",
@@ -68583,6 +72526,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0050",
+        "version": 1,
+        "contentHash": "sha256:2623a20e7fd23f7d48911ada4bdccc0e27e4608e95ae4f600ca63c0e204fca0e",
         "question": "Grade 3 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was empty.",
@@ -68632,6 +72578,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0051",
+        "version": 1,
+        "contentHash": "sha256:67a7afae6b42852e8d2f56a737f9bf6319560d1695c7696003ad9ac02a510859",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The librarian smiled.",
@@ -68681,6 +72630,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0052",
+        "version": 1,
+        "contentHash": "sha256:1e5b019e87cf685890dcdbf4e75e657d7a57eeec826bf8facad4520ab00c19fb",
         "question": "Grade 3 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "mysterious",
@@ -68730,6 +72682,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0053",
+        "version": 1,
+        "contentHash": "sha256:5bc6fc2eb7e9e913c77fe7822000db73fb5a8033274bad04dfea75874a72dfb1",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite was red.",
@@ -68779,6 +72734,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0054",
+        "version": 1,
+        "contentHash": "sha256:1b63978dc40e660df6a3f346f9147a68ae60cd95663bc599a487aba2b981b790",
         "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -68828,6 +72786,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0055",
+        "version": 1,
+        "contentHash": "sha256:6a78c7d733b0d799f5c8d30dd28dfced7e16afd0a0a3d1fe59c88368103fe7c3",
         "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -68877,6 +72838,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0056",
+        "version": 1,
+        "contentHash": "sha256:889caba9b10b258dc2dca40b3fd80b7d6f6eafcc6c376d313f0f1654aa27e628",
         "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -68926,6 +72890,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0057",
+        "version": 1,
+        "contentHash": "sha256:f8a9bdd378320df6ac6f4f26da646559bc0a6affa5d40d843f45149dabbd73cd",
         "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -68975,6 +72942,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0058",
+        "version": 1,
+        "contentHash": "sha256:bae42ee4937ab26d248c734667f699298f67d9cd462eb52d245aeb2b386b49e0",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -69020,10 +72990,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 58
+          "sequence": 58,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0059",
+        "version": 1,
+        "contentHash": "sha256:379b68fc1b2d3d1b0d93816ea5acfd9e0a0e02d5784204523af3fd10fc74c022",
         "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -69069,10 +73043,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 59
+          "sequence": 59,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0060",
+        "version": 1,
+        "contentHash": "sha256:e9fb3035e17000dfc630a2d8b5d6e2dc8ad996e2b4a7d58555889a922274046e",
         "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -69122,6 +73100,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0061",
+        "version": 1,
+        "contentHash": "sha256:4364c1eb2eeb6a480637334fd0cc0a33b1d0cfdf438315e28388a6077072f580",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -69167,10 +73148,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 61
+          "sequence": 61,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0062",
+        "version": 1,
+        "contentHash": "sha256:f1db9671e14703de78f953dc4b226f865aa94ec0dd6fce88a3017428e860b549",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -69216,10 +73201,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 62
+          "sequence": 62,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0063",
+        "version": 1,
+        "contentHash": "sha256:8146b71151dfba1ef8ade2f57393c09d61f93bcbfcf3d8ad59980a7aebc708ed",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "stomped",
@@ -69269,6 +73258,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0064",
+        "version": 1,
+        "contentHash": "sha256:05fac8e613c10c1dea51392329e7f6402eeac5706bea966517b1945b19f21e5f",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "Warm cinnamon filled the kitchen air.",
@@ -69318,6 +73310,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0065",
+        "version": 1,
+        "contentHash": "sha256:642cfa702208c2dd93edde08d710c51af03b52d807f7c59bf5ff1b1f55ccaec1",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack truly weighed 2,000 pounds.",
@@ -69367,6 +73362,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0066",
+        "version": 1,
+        "contentHash": "sha256:6fc8f98ae6b8720dbbcdf9f3ddfb24d5750d73415d08512ab310f244aba017e3",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The books stood on shelves.",
@@ -69416,6 +73414,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0067",
+        "version": 1,
+        "contentHash": "sha256:5343ce0ce72948c88bff74cc6b56110a7205bf5ec545ff8523ae30977a932b8d",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "ordinary",
@@ -69465,6 +73466,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0068",
+        "version": 1,
+        "contentHash": "sha256:3883e6a88f8f103a06696c11690038a0cb116408caf71767c1b11601c56deb4e",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite dipped like a bird in the wind.",
@@ -69514,6 +73518,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0069",
+        "version": 1,
+        "contentHash": "sha256:afb024bf613e400f7f0f7244cabf4c1118281c4ee453e07bb0e8d40d98fef3de",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -69563,6 +73570,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0070",
+        "version": 1,
+        "contentHash": "sha256:34508890afb3d87ff7812e6505951ac57f5f0540b7646f8139746209fbdfe7e0",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -69612,6 +73622,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0071",
+        "version": 1,
+        "contentHash": "sha256:debcbd45fd9abbad195c330ff395a0ad24be7e459996bc9dbf1429a75b446a14",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -69661,6 +73674,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0072",
+        "version": 1,
+        "contentHash": "sha256:9cf2db40cf9891c2a7210ae7291c3839c41027d196c30fa6019caac2c20a7a85",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -69710,6 +73726,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0073",
+        "version": 1,
+        "contentHash": "sha256:4364c1eb2eeb6a480637334fd0cc0a33b1d0cfdf438315e28388a6077072f580",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -69755,10 +73774,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 73
+          "sequence": 73,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0074",
+        "version": 1,
+        "contentHash": "sha256:f1db9671e14703de78f953dc4b226f865aa94ec0dd6fce88a3017428e860b549",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -69804,10 +73827,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 74
+          "sequence": 74,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0075",
+        "version": 1,
+        "contentHash": "sha256:1318340ad7e9699d0fd14a0c3faf9a1d3e0cd7968a5e0f289ffe27fb28c16df2",
         "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -69857,6 +73884,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0076",
+        "version": 1,
+        "contentHash": "sha256:233fbc54c075ed054bf5dc3a1c666cd5ec5c6e20d7296ab9d0cb8917c38e80d0",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -69902,10 +73932,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 76
+          "sequence": 76,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0077",
+        "version": 1,
+        "contentHash": "sha256:46018a7fdf17c46a0bde20ed8db0441058827dd288076b1aed802727f972e8c8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -69951,10 +73985,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 77
+          "sequence": 77,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0078",
+        "version": 1,
+        "contentHash": "sha256:4c1102272aebb940fb2bc083e8a660e18c9fb142420898136b60ff321e6779af",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -70004,6 +74042,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0079",
+        "version": 1,
+        "contentHash": "sha256:ba4a1b465402563462fcd0c19b2f62af1bf8870f58f684705ea6d4f13379d0ec",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "The plate was round.",
@@ -70053,6 +74094,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0080",
+        "version": 1,
+        "contentHash": "sha256:9b731368e6287c5019c44b55e0f00bfbaaa2a50172d1c3c6b1c58f850bd9d47d",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack felt very heavy.",
@@ -70102,6 +74146,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0081",
+        "version": 1,
+        "contentHash": "sha256:15a5ac2bf8e7c1c2698cd2f1defa60ef8d794b529cf2ec5c5f844c664a30c298",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The library opened at nine.",
@@ -70151,6 +74198,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0082",
+        "version": 1,
+        "contentHash": "sha256:cf108d7e7a5bc1aedf0952cc0af8862da758e2ecce9f387685c3270cbeb9aa01",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "cheerful",
@@ -70200,6 +74250,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0083",
+        "version": 1,
+        "contentHash": "sha256:188f8c75dcc29ba63f49e641a4a5d0eb2831b2f090c9e90981a7746e9b0e2021",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite flew on Saturday.",
@@ -70249,6 +74302,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0084",
+        "version": 1,
+        "contentHash": "sha256:f0f58098b37ef1f4a701fa45c58bf57de400be6681f9ef72697acc9c95ccffe8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -70298,6 +74354,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0085",
+        "version": 1,
+        "contentHash": "sha256:5eb72b9e1dd35ae7cf578d2cec57273d4454268edcf9bdd6b7511e3dd3f27cb9",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -70347,6 +74406,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0086",
+        "version": 1,
+        "contentHash": "sha256:d9b174d35381bc16fa4a5410daf581fcd2b7e579a8aa2d71a854f52bc006e5d7",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -70396,6 +74458,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0087",
+        "version": 1,
+        "contentHash": "sha256:5937eca123ffbfa136534f079468c4d36741871e39c91475a9f432acb4eeea4c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -70445,6 +74510,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0088",
+        "version": 1,
+        "contentHash": "sha256:233fbc54c075ed054bf5dc3a1c666cd5ec5c6e20d7296ab9d0cb8917c38e80d0",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -70490,10 +74558,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 88
+          "sequence": 88,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0089",
+        "version": 1,
+        "contentHash": "sha256:46018a7fdf17c46a0bde20ed8db0441058827dd288076b1aed802727f972e8c8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -70539,10 +74611,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 89
+          "sequence": 89,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0090",
+        "version": 1,
+        "contentHash": "sha256:a39b2c771e35681e5fa66cdc0310aefef9d3a8aadd2c5372d23579f86fcc8ce7",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -70592,6 +74668,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0091",
+        "version": 1,
+        "contentHash": "sha256:d76c67325a34101b2e9032976bf844bc8c960728942a3319c00557c4c13b9c06",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -70637,10 +74716,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 91
+          "sequence": 91,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0092",
+        "version": 1,
+        "contentHash": "sha256:df8da8b989d099417650b668b8ac61d91e3d8845f5ef74166f8e2a0fbac4eee7",
         "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -70686,10 +74769,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 92
+          "sequence": 92,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0093",
+        "version": 1,
+        "contentHash": "sha256:88e00921a1a3754f8067e247f1f6a527dc45821f366c7e7ebaf4cc3bed7570f9",
         "question": "Grade 4 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -70739,6 +74826,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0094",
+        "version": 1,
+        "contentHash": "sha256:b1654fd9c71809d9b790a215d7ff7107672d7a457856585cce99861055c0319b",
         "question": "Grade 4 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "The plate was round.",
@@ -70788,6 +74878,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0095",
+        "version": 1,
+        "contentHash": "sha256:50d5b9ca2fc67f3a761dff3aaa7bc7b663add074eb6eff1d3ef02a32b27ab929",
         "question": "Grade 4 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack felt very heavy.",
@@ -70837,6 +74930,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0096",
+        "version": 1,
+        "contentHash": "sha256:9a0c74eec520af3fdbe3d194296ab0313ad6670e9e6973a55475adb405c51a7c",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library opened at nine.",
@@ -70886,6 +74982,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0097",
+        "version": 1,
+        "contentHash": "sha256:12fedbd58c1460bfb56ecf03eec77f43ab0150a71600cd402050ffc1db7ef46d",
         "question": "Grade 4 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "cheerful",
@@ -70935,6 +75034,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0098",
+        "version": 1,
+        "contentHash": "sha256:1234da3a58210777e6931575439eb8d434b8dbe0ed57d9164706d3676d44a2b2",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite flew on Saturday.",
@@ -70984,6 +75086,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0099",
+        "version": 1,
+        "contentHash": "sha256:0fe568df42ce9ace9d3709d825f1184361f82e0cf951d76f91c16f70142dac25",
         "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -71033,6 +75138,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0100",
+        "version": 1,
+        "contentHash": "sha256:f016b0d034f9de67b179dca243b01a63a6b3d6964596aaa308734bf127443620",
         "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -71082,6 +75190,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0101",
+        "version": 1,
+        "contentHash": "sha256:06b39c17e14367d75d557ad2e7e824edcde927657a9783084e49f3083d0011db",
         "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -71131,6 +75242,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0102",
+        "version": 1,
+        "contentHash": "sha256:79580d74e2cc34a58e0a721251255803a4f3ab503e6a4cad1e39cd473ebd18ed",
         "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -71180,6 +75294,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0103",
+        "version": 1,
+        "contentHash": "sha256:d76c67325a34101b2e9032976bf844bc8c960728942a3319c00557c4c13b9c06",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -71225,10 +75342,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 103
+          "sequence": 103,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0104",
+        "version": 1,
+        "contentHash": "sha256:df8da8b989d099417650b668b8ac61d91e3d8845f5ef74166f8e2a0fbac4eee7",
         "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -71274,10 +75395,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 104
+          "sequence": 104,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0105",
+        "version": 1,
+        "contentHash": "sha256:b54bab931fadd1a82a18968ac73385214add87c3f75831ccdcc33769ab5722d7",
         "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -71327,6 +75452,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0106",
+        "version": 1,
+        "contentHash": "sha256:b3a4f3dbaf839ea6580592700e09f904c1c29ca9b7d524e26bb6262d5c4c1b10",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -71372,10 +75500,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 106
+          "sequence": 106,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0107",
+        "version": 1,
+        "contentHash": "sha256:1c785c9e712826eafcc8af30823b3e2597c870015959733b7f8a6b4c05ad6b60",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -71421,10 +75553,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 107
+          "sequence": 107,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0108",
+        "version": 1,
+        "contentHash": "sha256:f9982094855a9cd3aa01510faa079b7c9422b2ee7749fc30bf2ec16f88298aa8",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "exploded",
@@ -71474,6 +75610,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0109",
+        "version": 1,
+        "contentHash": "sha256:a9e0eba4f6a6b42a41485f66a094e2f08ced5fac9ce02c8a0fa31534e8d44c2a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "The recipe has steps.",
@@ -71523,6 +75662,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0110",
+        "version": 1,
+        "contentHash": "sha256:b7419cd58fef1263cbf54a17ff69106edd75078955e5f9611f259e08e9490083",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was missing.",
@@ -71572,6 +75714,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0111",
+        "version": 1,
+        "contentHash": "sha256:7898091c92249dc9d94a282c0d89b030800b527de9efd139adea878224039684",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The library was a treasure chest of stories.",
@@ -71621,6 +75766,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0112",
+        "version": 1,
+        "contentHash": "sha256:d9fa3f273eead88149fe33a3946de22ffc984508a5823c86c5321f14cca8315a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "silly",
@@ -71670,6 +75818,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0113",
+        "version": 1,
+        "contentHash": "sha256:a28a8307bedd7f3282b9411f695ca4ce38a902a4209fd6bbf1a927f8a3ed43ce",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite had a string.",
@@ -71719,6 +75870,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0114",
+        "version": 1,
+        "contentHash": "sha256:778f87050044be4b6d002769d855e859ec7569657ba3a7eb07500fecb347ec43",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -71768,6 +75922,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0115",
+        "version": 1,
+        "contentHash": "sha256:7a074e5a48d324180d649bcb79cd6018174b257c7890436a655e4f02c231c4eb",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -71817,6 +75974,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0116",
+        "version": 1,
+        "contentHash": "sha256:47d63295f0c75e7ea7b982e68741eca534a5c6531d238d6572054244cd3baedd",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -71866,6 +76026,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0117",
+        "version": 1,
+        "contentHash": "sha256:f7d22a0b0d8e1b16712ccf8587b0378e5a0864014776a238fd351014246cba32",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -71915,6 +76078,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0118",
+        "version": 1,
+        "contentHash": "sha256:b3a4f3dbaf839ea6580592700e09f904c1c29ca9b7d524e26bb6262d5c4c1b10",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -71960,10 +76126,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 118
+          "sequence": 118,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0119",
+        "version": 1,
+        "contentHash": "sha256:1c785c9e712826eafcc8af30823b3e2597c870015959733b7f8a6b4c05ad6b60",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -72009,10 +76179,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 119
+          "sequence": 119,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0120",
+        "version": 1,
+        "contentHash": "sha256:2d3bed146565024f60c585f388cd705fe7c8da8a341707018d25efd943ceff5a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -72062,6 +76236,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0121",
+        "version": 1,
+        "contentHash": "sha256:0cc71949200d5f7d2d43b507758a38cd66ccc5c40568ead40a234b01564c7d37",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -72107,10 +76284,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 121
+          "sequence": 121,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0122",
+        "version": 1,
+        "contentHash": "sha256:8db631471bcf1552634d23b84c7520eeae0b90e2931158fc59e8052961f92028",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -72156,10 +76337,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 122
+          "sequence": 122,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0123",
+        "version": 1,
+        "contentHash": "sha256:0171d4876e6ef41e04a55518b6c60d13bc951e7b0375be9c1e7f63ce96a6b5d4",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -72209,6 +76394,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0124",
+        "version": 1,
+        "contentHash": "sha256:304f96174b9a7d3da808edcab9569b948961de4efd1645f703b59c5957e46b43",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "The kitchen is a room.",
@@ -72258,6 +76446,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0125",
+        "version": 1,
+        "contentHash": "sha256:5c90c1c7093e7e3aa1bdb16999565843cd35bd84f0f7dfb054815f30e7d871fa",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was empty.",
@@ -72307,6 +76498,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0126",
+        "version": 1,
+        "contentHash": "sha256:ffe7a5a4e2768e54d768dbd8058c02d3d402b43ab291fd81a2767681b6b44f23",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The librarian smiled.",
@@ -72356,6 +76550,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0127",
+        "version": 1,
+        "contentHash": "sha256:08d787e15c88466c0432bff2c5bcbd7c486cbc8b9e57be06858b6ce698203742",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "mysterious",
@@ -72405,6 +76602,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0128",
+        "version": 1,
+        "contentHash": "sha256:bfafbcbdceae65cd66b30a7e9333d95f2bc4ce671293f2b8ca4504066a490f3f",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite was red.",
@@ -72454,6 +76654,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0129",
+        "version": 1,
+        "contentHash": "sha256:ebbe127daee0d8d718c7d741aaa5fb91e35a0bb00d9732b80649873ca555990e",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -72503,6 +76706,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0130",
+        "version": 1,
+        "contentHash": "sha256:ca673e13034ba5e4c2e9f035d90b337f98f2a24471ac66740e0f8e6992b1e1df",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -72552,6 +76758,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0131",
+        "version": 1,
+        "contentHash": "sha256:5e5840edc3db75d90e848192df375b98df996bda83e5c7e0f986da8503f5c07b",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -72601,6 +76810,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0132",
+        "version": 1,
+        "contentHash": "sha256:57aa3cdc34bae3357e20a0639612549959ac55444bfae554c0f17f48a9c46451",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -72650,6 +76862,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0133",
+        "version": 1,
+        "contentHash": "sha256:0cc71949200d5f7d2d43b507758a38cd66ccc5c40568ead40a234b01564c7d37",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -72695,10 +76910,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 133
+          "sequence": 133,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0134",
+        "version": 1,
+        "contentHash": "sha256:8db631471bcf1552634d23b84c7520eeae0b90e2931158fc59e8052961f92028",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -72744,10 +76963,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 134
+          "sequence": 134,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0135",
+        "version": 1,
+        "contentHash": "sha256:8521d338c415b3551ea7314ac5986a55d41cdc6ec225424a699470e8371ccc95",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -72797,6 +77020,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0136",
+        "version": 1,
+        "contentHash": "sha256:bb2a36329ba90d44cb4d2e5a6fc063ab7c4c5773f3cb5dc42eafd39755387367",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -72842,10 +77068,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 136
+          "sequence": 136,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0137",
+        "version": 1,
+        "contentHash": "sha256:0139f3da1fb961c29cae96ca7927ccc580ba7d8625671d8fdc67f2a422c5fdfe",
         "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -72891,10 +77121,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 137
+          "sequence": 137,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0138",
+        "version": 1,
+        "contentHash": "sha256:342f756b595a09c82c6a4538e37ca55da8aae5202f4dec6a67ca929408f8efa5",
         "question": "Grade 5 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "trickled",
@@ -72944,6 +77178,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0139",
+        "version": 1,
+        "contentHash": "sha256:2b3606d5a4132f24fbab693b3435ceb7876ed882594946051e608a1bf23bb71e",
         "question": "Grade 5 Easy: Choose the best answer. Which line includes imagery?",
         "choices": [
           "The kitchen is a room.",
@@ -72993,6 +77230,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0140",
+        "version": 1,
+        "contentHash": "sha256:e71d2a2a592b9742a66699f7297341574175c337b6893b8b95fa6727ef5caa24",
         "question": "Grade 5 Easy: Choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack was empty.",
@@ -73042,6 +77282,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0141",
+        "version": 1,
+        "contentHash": "sha256:6c5336a4261bfe0b9b300f321fc4ab29dee08d33e243b534cd7aedb5c6a72b05",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The librarian smiled.",
@@ -73091,6 +77334,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0142",
+        "version": 1,
+        "contentHash": "sha256:6a004b1bc5b1b9ee19478bae044bb7e5045bdbf2c8ea0e70590e8403af2ce634",
         "question": "Grade 5 Easy: Choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "mysterious",
@@ -73140,6 +77386,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0143",
+        "version": 1,
+        "contentHash": "sha256:67249fc12afaa92e2fa16db5493e6d3733b52472fa8c8e92816f29c1dda16cf4",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite was red.",
@@ -73189,6 +77438,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0144",
+        "version": 1,
+        "contentHash": "sha256:e5179c2920a1ad3b52bc4e72eb89bafa492c1ab4fc716e16085c26528b43e37e",
         "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -73238,6 +77490,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0145",
+        "version": 1,
+        "contentHash": "sha256:c73d19f259dc5a9a7bb624ce7c39a391b946ee975255ba473afd30dd7adf4f7a",
         "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -73287,6 +77542,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0146",
+        "version": 1,
+        "contentHash": "sha256:b60d5e6da925cdda3648ffa165dc35e37eb0e547017e2936c23d7d279c10f5cf",
         "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -73336,6 +77594,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0147",
+        "version": 1,
+        "contentHash": "sha256:989c5a07aee5fee954ddab09aebd4befae32673458c3fcc5faf236beb6d7d15c",
         "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -73385,6 +77646,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0148",
+        "version": 1,
+        "contentHash": "sha256:bb2a36329ba90d44cb4d2e5a6fc063ab7c4c5773f3cb5dc42eafd39755387367",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -73430,10 +77694,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 148
+          "sequence": 148,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0149",
+        "version": 1,
+        "contentHash": "sha256:0139f3da1fb961c29cae96ca7927ccc580ba7d8625671d8fdc67f2a422c5fdfe",
         "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -73479,10 +77747,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 149
+          "sequence": 149,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0150",
+        "version": 1,
+        "contentHash": "sha256:bc422cc4c7f673de793234664e1e3e16ab4ee9b447679fc2907e1fd040ca799a",
         "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -73532,6 +77804,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0151",
+        "version": 1,
+        "contentHash": "sha256:1fa1483aef65514384dea0199c9644d2c845341f2f53692fe8c1a7fbb9a26f57",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -73577,10 +77852,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 151
+          "sequence": 151,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0152",
+        "version": 1,
+        "contentHash": "sha256:8a3fd9967f08872991d194717b3c2ba9aa4ff4ae8e12e18e6535340e5d235ffb",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -73626,10 +77905,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 152
+          "sequence": 152,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0153",
+        "version": 1,
+        "contentHash": "sha256:4e2ed445b34d27d0f6270744883307b6e3e116fd004f74a678e6d1974e532d82",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "stomped",
@@ -73679,6 +77962,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0154",
+        "version": 1,
+        "contentHash": "sha256:a9656c7741e5db4342e4b0ef6e099744c2c7596ec562de43c1db363af103ea1d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which line includes imagery?",
         "choices": [
           "Warm cinnamon filled the kitchen air.",
@@ -73728,6 +78014,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0155",
+        "version": 1,
+        "contentHash": "sha256:94cf7a8a585255d7c19b5e904df4f997f3a942b6550dbb074a75a6cc4e1f3fc1",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack truly weighed 2,000 pounds.",
@@ -73777,6 +78066,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0156",
+        "version": 1,
+        "contentHash": "sha256:a620e00446304b6511b5fefb8176c8eaa401ee918ef0169c9659e6220b04303b",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence uses a metaphor?",
         "choices": [
           "The books stood on shelves.",
@@ -73826,6 +78118,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0157",
+        "version": 1,
+        "contentHash": "sha256:e2e0947331b1a14082ad582d4b839171af2b3ffefa9b291b13888338704aa8f6",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "ordinary",
@@ -73875,6 +78170,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0158",
+        "version": 1,
+        "contentHash": "sha256:7375a0ffed80f82442aa9d24d5baab6df02f15cc501235476888551e201e5b5d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence uses a simile?",
         "choices": [
           "The kite dipped like a bird in the wind.",
@@ -73924,6 +78222,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0159",
+        "version": 1,
+        "contentHash": "sha256:2771f0283e72e3dc367a2a4837477a9bd6916ec33da36b24e59b0231f7e6cb0c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -73973,6 +78274,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0160",
+        "version": 1,
+        "contentHash": "sha256:9b0bd1c1b6847b43fbc124296fe65c789e848b5c5dd7cea2077475530472b628",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -74022,6 +78326,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0161",
+        "version": 1,
+        "contentHash": "sha256:7a7bc88255d1ac5c3c575890a818768476633afeefac01b1fcb14ff6448fd207",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -74071,6 +78378,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0162",
+        "version": 1,
+        "contentHash": "sha256:d11050815fe9efaa7d44a7e9c8af74ff6c6a64d49726210f10697260fc0f932e",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -74120,6 +78430,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0163",
+        "version": 1,
+        "contentHash": "sha256:1fa1483aef65514384dea0199c9644d2c845341f2f53692fe8c1a7fbb9a26f57",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -74165,10 +78478,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 163
+          "sequence": 163,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0164",
+        "version": 1,
+        "contentHash": "sha256:8a3fd9967f08872991d194717b3c2ba9aa4ff4ae8e12e18e6535340e5d235ffb",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -74214,10 +78531,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 164
+          "sequence": 164,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0165",
+        "version": 1,
+        "contentHash": "sha256:01fd50864ae14ab6245fc65b7562b9fa47f8add371754e7dd12be75d542593f7",
         "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -74267,6 +78588,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0166",
+        "version": 1,
+        "contentHash": "sha256:802acf8bb0c1151b83c9cde872fffed51c1f661ad3b165e3f5114e44e5f10e56",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -74312,10 +78636,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 166
+          "sequence": 166,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0167",
+        "version": 1,
+        "contentHash": "sha256:06acf6bd233912a71a3f2842a42c600954a9262e9bed55119d21f529f7488e62",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -74361,10 +78689,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 167
+          "sequence": 167,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0168",
+        "version": 1,
+        "contentHash": "sha256:3ba512a74cb93ecaeaf1ca4f2ef35249e030c289a35cf6e254ae851d6ca1661e",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
         "choices": [
           "shouted",
@@ -74414,6 +78746,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0169",
+        "version": 1,
+        "contentHash": "sha256:8e44c3c08e40264dd4a40def59e41ac3a9a3ccd05565f060ce4440338e95c0f5",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which line includes imagery?",
         "choices": [
           "The plate was round.",
@@ -74463,6 +78798,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0170",
+        "version": 1,
+        "contentHash": "sha256:c582a2105d0ab8494ce657303a10f4a84c81add53f7ca1dddfeea8b4c9cd062a",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does \"His backpack weighed a ton\" mean?",
         "choices": [
           "His backpack felt very heavy.",
@@ -74512,6 +78850,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0171",
+        "version": 1,
+        "contentHash": "sha256:908af2a406f3c2e0148c5fef37d544784838df0e84e0ab8ec2b2800b3ec9ec2d",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence uses a metaphor?",
         "choices": [
           "The library opened at nine.",
@@ -74561,6 +78902,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0172",
+        "version": 1,
+        "contentHash": "sha256:b25064623d481c34e51fa2afccbe5bdfe75d250d38f84dfff2fe0746b743c496",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What mood does \"shadows crept across the silent hall\" create?",
         "choices": [
           "cheerful",
@@ -74610,6 +78954,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0173",
+        "version": 1,
+        "contentHash": "sha256:6204fee09d1aa3e41106ac47931bdf3955ced364aa1176ccb656aa94de8287cf",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence uses a simile?",
         "choices": [
           "The kite flew on Saturday.",
@@ -74659,6 +79006,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0174",
+        "version": 1,
+        "contentHash": "sha256:46fc2950ed7ef7e04f837b210d170bec929fd49006d4aeea570b4e751bfa1f20",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -74708,6 +79058,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0175",
+        "version": 1,
+        "contentHash": "sha256:1aa43243329dbe864c6469b3f35b0c839b5651d010e9ad4cd75ab26b6b5eea94",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -74757,6 +79110,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0176",
+        "version": 1,
+        "contentHash": "sha256:78617832b5475faaa1c8928df76b021d34c4d283e0972ae80c0540092f4d7613",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -74806,6 +79162,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0177",
+        "version": 1,
+        "contentHash": "sha256:acf91216e908c06304091b5d02602bf4a8dbefeb17312ac0cff63305bfa973ef",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -74855,6 +79214,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0178",
+        "version": 1,
+        "contentHash": "sha256:802acf8bb0c1151b83c9cde872fffed51c1f661ad3b165e3f5114e44e5f10e56",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -74900,10 +79262,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 178
+          "sequence": 178,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0179",
+        "version": 1,
+        "contentHash": "sha256:06acf6bd233912a71a3f2842a42c600954a9262e9bed55119d21f529f7488e62",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -74949,10 +79315,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-shades-of-meaning",
-          "sequence": 179
+          "sequence": 179,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0180",
+        "version": 1,
+        "contentHash": "sha256:a9d88a8f2ee1914560d7cc867f8d5fdf5140ddf77f0a32f92d8aa52bc9115ab2",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -75002,6 +79372,9 @@
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0181",
+        "version": 1,
+        "contentHash": "sha256:18f1bbed77f6b58ee37b143ebbd7d4d69f81a53140f31d0f597a901a440ec0ac",
         "question": "Which word shows an emotion?",
         "choices": [
           "plunged",
@@ -75056,10 +79429,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 40
+          "sequence": 181
         }
       },
       {
+        "id": "vocabulary-shades-of-meaning-q0182",
+        "version": 1,
+        "contentHash": "sha256:c72d91d0114cc8f0c4c4189fd4798d9a99460f8f2b5913ff0c7c9852624aff3c",
         "question": "Which word shows emotion?",
         "choices": [
           "annoyed",
@@ -75114,7 +79490,7 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 60
+          "sequence": 182
         }
       }
     ],
@@ -75138,6 +79514,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-syllables-decoding-q0001",
+        "version": 1,
+        "contentHash": "sha256:a63e9d0693882c193ae8440db86e769412f6cf7cd082d95d5c43541aa3b28eb9",
         "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -75184,10 +79563,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 1
+          "sequence": 1,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0002",
+        "version": 1,
+        "contentHash": "sha256:12b2e483e9f5fc32dd598f977a494e8ec9b7b9213cfbada3eca021dab72d0bfb",
         "question": "Grade 2 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -75234,10 +79617,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 2
+          "sequence": 2,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0003",
+        "version": 1,
+        "contentHash": "sha256:a404d8fa8a328c5d01b25eb24528d9742e91f4a3fd58025f3c8f625c64fc63d7",
         "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -75288,6 +79675,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0004",
+        "version": 1,
+        "contentHash": "sha256:0eed92d0d67762221c1f1ddd0ada467d527ea8dbd393d0a18033f6f8709b3e07",
         "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -75338,6 +79728,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0005",
+        "version": 1,
+        "contentHash": "sha256:f96c87e1c347b8e9987471a928042de44079eae73c9904236de9c1c8760abaa0",
         "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -75388,6 +79781,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0006",
+        "version": 1,
+        "contentHash": "sha256:4cd12526255d758e7165fdfba304818bc82effd14d7cd913a8b092031261fd7c",
         "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -75438,6 +79834,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0007",
+        "version": 1,
+        "contentHash": "sha256:f79bc50c4f9265596f58a968a128fe7a8fe812d6b8218f2b0f28fc980376b4c0",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -75488,6 +79887,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0008",
+        "version": 1,
+        "contentHash": "sha256:97d15c39939f643b3961f8d0778cbf4e88717325ca961ce7dfb8d9ec4d4a7a80",
         "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -75538,6 +79940,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0009",
+        "version": 1,
+        "contentHash": "sha256:a63e9d0693882c193ae8440db86e769412f6cf7cd082d95d5c43541aa3b28eb9",
         "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -75584,10 +79989,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 9
+          "sequence": 9,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0010",
+        "version": 1,
+        "contentHash": "sha256:12b2e483e9f5fc32dd598f977a494e8ec9b7b9213cfbada3eca021dab72d0bfb",
         "question": "Grade 2 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -75634,10 +80043,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 10
+          "sequence": 10,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0011",
+        "version": 1,
+        "contentHash": "sha256:7a339855a00ebd952a40966e1f16412aee3222f46b2cc78f7e50d18d5ae5d7cb",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -75688,6 +80101,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0012",
+        "version": 1,
+        "contentHash": "sha256:f54ad2a3f8aa62375d71a326ff503557b81576f9cf6ee1f5e6000253c228c1f8",
         "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -75738,6 +80154,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0013",
+        "version": 1,
+        "contentHash": "sha256:d43da8b3cfaa987dc08f06c1bbd44b5a38c315e7756412837086d16d1dc7a0e2",
         "question": "Grade 2 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -75788,6 +80207,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0014",
+        "version": 1,
+        "contentHash": "sha256:63fed4882f7a54b419f38ecfabd2a3e29f9d11f3192e43116e2cbd3e91ad435f",
         "question": "Grade 2 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -75838,6 +80260,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0015",
+        "version": 1,
+        "contentHash": "sha256:01e73fb68c28ac446ff469024975fcfe0f176af5b2f629ca3a0f4c5bf7e2b715",
         "question": "Grade 2 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -75888,6 +80313,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0016",
+        "version": 1,
+        "contentHash": "sha256:eace59b7516996bd2b523a5786d60568247ed74733379cab46ecc54f4a7ad219",
         "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -75934,10 +80362,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 16
+          "sequence": 16,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0017",
+        "version": 1,
+        "contentHash": "sha256:2bb040dc05dce1176367287c88b2e4c5ae47f555737b3eec3fc4bb251b0e4f46",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -75984,10 +80416,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 17
+          "sequence": 17,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0018",
+        "version": 1,
+        "contentHash": "sha256:e7ab3c07952aac13bbe087a2a809b0f01178c604dd34087914b143e8799711b9",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -76038,6 +80474,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0019",
+        "version": 1,
+        "contentHash": "sha256:82ba8d9fa274bb024005d2de0fd1f2a58837bc3854ee2baf35774594dce76185",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -76088,6 +80527,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0020",
+        "version": 1,
+        "contentHash": "sha256:dd0cd1cb34895518b7f09e74014d41b29cdccadaaaefa92d334886200c9fb33b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -76138,6 +80580,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0021",
+        "version": 1,
+        "contentHash": "sha256:051e32764ed78d48b0c322ad4779d192703de7551130f83a5624f1982d238487",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -76188,6 +80633,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0022",
+        "version": 1,
+        "contentHash": "sha256:aea11f0b3c798a8c97152efdcd355f474d65e1fb3a10a604b4327cb93091632a",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -76238,6 +80686,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0023",
+        "version": 1,
+        "contentHash": "sha256:7414918855f42a4b3b4ced4eae7c4460b9808cdb2a9df11dd7a6135bb587f34b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -76288,6 +80739,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0024",
+        "version": 1,
+        "contentHash": "sha256:eace59b7516996bd2b523a5786d60568247ed74733379cab46ecc54f4a7ad219",
         "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -76334,10 +80788,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 24
+          "sequence": 24,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0025",
+        "version": 1,
+        "contentHash": "sha256:2bb040dc05dce1176367287c88b2e4c5ae47f555737b3eec3fc4bb251b0e4f46",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -76384,10 +80842,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 25
+          "sequence": 25,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0026",
+        "version": 1,
+        "contentHash": "sha256:e7acebc1332bff06749e9e178da98a340464329213b1a009ee9ee59f86488733",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -76438,6 +80900,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0027",
+        "version": 1,
+        "contentHash": "sha256:8418def29cb9abae753cb7a1b05aa8f62b90aaa944240c96716cd0571b9c2cc5",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -76488,6 +80953,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0028",
+        "version": 1,
+        "contentHash": "sha256:1584c9d0a6d5be9e5557a9fce65f3f759120bd697b1d4525d0f4759eeb23220a",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -76538,6 +81006,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0029",
+        "version": 1,
+        "contentHash": "sha256:b35cfa618868e54d5f09fd6cd4cde57e00df3020da93ef51727b6426cfffcf78",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "because",
@@ -76588,6 +81059,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0030",
+        "version": 1,
+        "contentHash": "sha256:4f537b860560bc4c2e8a92e97af9d39ad5f53b62d83e7e7a0ee8fff21e73524f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "without",
@@ -76638,6 +81112,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0031",
+        "version": 1,
+        "contentHash": "sha256:fbdcb4a80b208f747cc4405c4ef16359e0dd84ee5f03a116d4308c8dd38c8a29",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -76684,10 +81161,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 31
+          "sequence": 31,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0032",
+        "version": 1,
+        "contentHash": "sha256:d2f85f8301d672793423e41405e4e2a32e11c327d16e44f609aceff4516a7f95",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -76734,10 +81215,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 32
+          "sequence": 32,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0033",
+        "version": 1,
+        "contentHash": "sha256:48ede8efc322c4eda29d968f926ec2b00031c28124f4fb290f6a8b91d199e9b6",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -76788,6 +81273,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0034",
+        "version": 1,
+        "contentHash": "sha256:d6782aa9f0e5a867d7f2ace9424d8e6f5acdd367fdf7185e1e2f28c7f8875c71",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -76838,6 +81326,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0035",
+        "version": 1,
+        "contentHash": "sha256:00c80895d766e976a571059167195a5e8ef04ecd752aa662d221e8dae9d128e4",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -76888,6 +81379,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0036",
+        "version": 1,
+        "contentHash": "sha256:d072f9834bf32dfc96b90ed420565a21f6f0f7275025c948de71208741e4195b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -76938,6 +81432,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0037",
+        "version": 1,
+        "contentHash": "sha256:396c938a0b72307260b49d9892eee163bc295909fe76415e7e68cb600d71c24b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -76988,6 +81485,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0038",
+        "version": 1,
+        "contentHash": "sha256:572762785c73cdc951f49e04c61d33eb3278ded6d91fe6de7b469617ef13fc26",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -77038,6 +81538,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0039",
+        "version": 1,
+        "contentHash": "sha256:fbdcb4a80b208f747cc4405c4ef16359e0dd84ee5f03a116d4308c8dd38c8a29",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -77084,10 +81587,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 39
+          "sequence": 39,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0040",
+        "version": 1,
+        "contentHash": "sha256:d2f85f8301d672793423e41405e4e2a32e11c327d16e44f609aceff4516a7f95",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -77134,10 +81641,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 40
+          "sequence": 40,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0041",
+        "version": 1,
+        "contentHash": "sha256:4f174c94b82cbf8bfb30d4a2d8c786de60ea89551e3bd7e821939b82ccdeb688",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -77188,6 +81699,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0042",
+        "version": 1,
+        "contentHash": "sha256:9a825a387356ccce3784d713c5850abab02acaa583c747e2c6f0a9e039662948",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -77238,6 +81752,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0043",
+        "version": 1,
+        "contentHash": "sha256:76e5d3bba15773a2cc7b44b6888ddc325e238fe0d75597381eaecb184c3c30c5",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -77288,6 +81805,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0044",
+        "version": 1,
+        "contentHash": "sha256:39c563cfe77cde57019f36768e028cb52dca1e37d6eb44e0b7087e6a200e775b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -77338,6 +81858,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0045",
+        "version": 1,
+        "contentHash": "sha256:08b0bd970ccc7d90f79ba3df7b26a4a2308b936f3922e5d9aeaa2239ea368662",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -77388,6 +81911,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0046",
+        "version": 1,
+        "contentHash": "sha256:f292c7158065a43fe78af2d7e2122c00129a9f3d726cf0ecbb3a14b5ab91161a",
         "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -77434,10 +81960,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 46
+          "sequence": 46,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0047",
+        "version": 1,
+        "contentHash": "sha256:3b7f5051182320311835cb9b5026a8ffb896ee2090422eed174e32f96f179493",
         "question": "Grade 3 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -77484,10 +82014,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 47
+          "sequence": 47,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0048",
+        "version": 1,
+        "contentHash": "sha256:089566dc78481e5e882121f39ed477f630472ae342a369f2cc9df5bdb541e178",
         "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -77538,6 +82072,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0049",
+        "version": 1,
+        "contentHash": "sha256:3c85a86e9171e541ec9f386a7fbc40a51e3202e93912cffe4e6d1dcbd5549398",
         "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -77588,6 +82125,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0050",
+        "version": 1,
+        "contentHash": "sha256:0fc6164aad7782e3e11587d51fdb0e883d1cbeb468ce0c0c992e715bfeb8b09a",
         "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -77638,6 +82178,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0051",
+        "version": 1,
+        "contentHash": "sha256:9712261d305e2a3d22c4ce38e85647f34a73ceddc576b5f35d0fd36c41e5862b",
         "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -77688,6 +82231,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0052",
+        "version": 1,
+        "contentHash": "sha256:d93fe81c33e446e7c1d7dcd3143c315efcef73e89f234412c2e0205b80963c61",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -77738,6 +82284,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0053",
+        "version": 1,
+        "contentHash": "sha256:34e01b7e45c06e6e2294ed13e2d11f8ccd4212fffa45d56575dec7501c6c422a",
         "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -77788,6 +82337,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0054",
+        "version": 1,
+        "contentHash": "sha256:f292c7158065a43fe78af2d7e2122c00129a9f3d726cf0ecbb3a14b5ab91161a",
         "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -77834,10 +82386,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 54
+          "sequence": 54,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0055",
+        "version": 1,
+        "contentHash": "sha256:3b7f5051182320311835cb9b5026a8ffb896ee2090422eed174e32f96f179493",
         "question": "Grade 3 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -77884,10 +82440,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 55
+          "sequence": 55,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0056",
+        "version": 1,
+        "contentHash": "sha256:2f3fb8fef4d75b5c892bf68d96c38f05614baeeb6a5f86a727d2fe7447a11222",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -77938,6 +82498,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0057",
+        "version": 1,
+        "contentHash": "sha256:64829d712d2788a128bdf6293550a2e63004d9f0aba4604e8fe9abaaae54df88",
         "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -77988,6 +82551,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0058",
+        "version": 1,
+        "contentHash": "sha256:5cfd242f74b5e436016b759ff7b46833d362931b70e2047884316eab2d92dfaa",
         "question": "Grade 3 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -78038,6 +82604,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0059",
+        "version": 1,
+        "contentHash": "sha256:9d1da9a07537c9e9351e51725cb0830f4056f4a06824e0a4aebd111a5b360fd6",
         "question": "Grade 3 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -78088,6 +82657,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0060",
+        "version": 1,
+        "contentHash": "sha256:86471931cdbc161131a283620818ac1134821438eb982ac85fa9a484116b66bc",
         "question": "Grade 3 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -78138,6 +82710,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0061",
+        "version": 1,
+        "contentHash": "sha256:da4ad7e9116b6c92613a5c9a8ebb4ce385d8a14fdb80fbe45c05df15d11b1407",
         "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -78184,10 +82759,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 61
+          "sequence": 61,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0062",
+        "version": 1,
+        "contentHash": "sha256:df27ae9f000a41397850e2a22c1a62eeec20ef2b48a5695922dc71e2846f4080",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -78234,10 +82813,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 62
+          "sequence": 62,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0063",
+        "version": 1,
+        "contentHash": "sha256:ed23ebde67a08d8f76cd29f22bc9e066f5989a0cddc7a563626294576a5a9ac4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -78288,6 +82871,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0064",
+        "version": 1,
+        "contentHash": "sha256:317cc342b3ddec854bf4e6347aa91d7296b5d61db2e00f0a6f5a5fbf633d0743",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -78338,6 +82924,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0065",
+        "version": 1,
+        "contentHash": "sha256:1f83af6fee39efebb48202a5ba8c1b67dd5e5053dffd6beaa2fb61eba6daf672",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -78388,6 +82977,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0066",
+        "version": 1,
+        "contentHash": "sha256:5df05e07a0d80bf101d0d0a8f902dd419a8971784cecc36d77ce9c7cc53b0b6e",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -78438,6 +83030,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0067",
+        "version": 1,
+        "contentHash": "sha256:18faa4bbc952a57aab9a485331edd100c298742adc28a90b068b0c1986739c53",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -78488,6 +83083,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0068",
+        "version": 1,
+        "contentHash": "sha256:f734e4904c70e45cec8931d13cbc64a55f6117328791ba171bfb278741d05dad",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -78538,6 +83136,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0069",
+        "version": 1,
+        "contentHash": "sha256:da4ad7e9116b6c92613a5c9a8ebb4ce385d8a14fdb80fbe45c05df15d11b1407",
         "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -78584,10 +83185,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 69
+          "sequence": 69,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0070",
+        "version": 1,
+        "contentHash": "sha256:df27ae9f000a41397850e2a22c1a62eeec20ef2b48a5695922dc71e2846f4080",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -78634,10 +83239,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 70
+          "sequence": 70,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0071",
+        "version": 1,
+        "contentHash": "sha256:7d145528b575b75728f8329ec6a3760767bd003b09ce6880c7954717466ef0c0",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -78688,6 +83297,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0072",
+        "version": 1,
+        "contentHash": "sha256:1f6e03189958a735c5192097e2002810a3f23996de533caea67662f3d6c0f9c4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -78738,6 +83350,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0073",
+        "version": 1,
+        "contentHash": "sha256:368defe5893a63d23dc94ff88b4a57b84715d0d214a9fdafc252e48705283a7d",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -78788,6 +83403,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0074",
+        "version": 1,
+        "contentHash": "sha256:59c7c5205692ff9144fa6e408b5028e3ea8731c3f32cb64fb27b68e8a985b031",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "becaus",
@@ -78838,6 +83456,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0075",
+        "version": 1,
+        "contentHash": "sha256:f2a3f80026fe0b5c2db15ab8187e8aa27c511b96e1e9f7ea9a12bdb41686084b",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "small",
@@ -78888,6 +83509,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0076",
+        "version": 1,
+        "contentHash": "sha256:f14f481be395910599d79399ef0fb42126b5db09543de62dd1761bb131e4e98e",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -78934,10 +83558,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 76
+          "sequence": 76,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0077",
+        "version": 1,
+        "contentHash": "sha256:9d4ee10ab3f1ae8125fefc293384e62c40bbb8a720805189be6cf776758d41a8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -78984,10 +83612,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 77
+          "sequence": 77,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0078",
+        "version": 1,
+        "contentHash": "sha256:1b836813487b68724518b0d9bc49328263881507037b4904a2ffc325c511eb36",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -79038,6 +83670,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0079",
+        "version": 1,
+        "contentHash": "sha256:84d8432fde5d62c1c274d44c8068360c41c545da0c114b5a506e1a2bd6eb403c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -79088,6 +83723,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0080",
+        "version": 1,
+        "contentHash": "sha256:297c4096be7623724b86b8e2fb99e9766bef2ce14141e4c9c380a300fe2132ab",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -79138,6 +83776,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0081",
+        "version": 1,
+        "contentHash": "sha256:90e73a3a26726e6d19c085e3434e2ce34f21755954241328698a90352a805666",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -79188,6 +83829,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0082",
+        "version": 1,
+        "contentHash": "sha256:b84e238dd28513f3744bdc0a49b087dbe2b2c6f9f8a4ca89a5be1da6f30ed4f8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -79238,6 +83882,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0083",
+        "version": 1,
+        "contentHash": "sha256:ee12aa3ab38434d4a6c22733240919f0845d9d903f1ba8999871ee2576001ae1",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -79288,6 +83935,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0084",
+        "version": 1,
+        "contentHash": "sha256:f14f481be395910599d79399ef0fb42126b5db09543de62dd1761bb131e4e98e",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -79334,10 +83984,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 84
+          "sequence": 84,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0085",
+        "version": 1,
+        "contentHash": "sha256:9d4ee10ab3f1ae8125fefc293384e62c40bbb8a720805189be6cf776758d41a8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -79384,10 +84038,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 85
+          "sequence": 85,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0086",
+        "version": 1,
+        "contentHash": "sha256:4ad74c1bbcf4642c46ed5d5cafb456fadac48dfa741b333aaa7e3fa1165f9a20",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -79438,6 +84096,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0087",
+        "version": 1,
+        "contentHash": "sha256:26fe8019adef52fd2924e2dc2264746996dfd205a4ed19a6b41df0ddb400f80c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -79488,6 +84149,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0088",
+        "version": 1,
+        "contentHash": "sha256:e55b1d7f8707842a615d3253be542123dc6248e8fed2ab76988aa4781c22fdf8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -79538,6 +84202,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0089",
+        "version": 1,
+        "contentHash": "sha256:987cef8da3878feecbcf807a464d82478ac0e7799ea68a2f2bd95ba241d2e3e9",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -79588,6 +84255,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0090",
+        "version": 1,
+        "contentHash": "sha256:5f5533d1b9a832c55160075e3d4165a5af1f6a31d06d89bdbea8e059d1011260",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -79638,6 +84308,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0091",
+        "version": 1,
+        "contentHash": "sha256:cb15393ac831c907dd8865ff34ee4adb1b30573a62e84baea0ff9bf9930d1a6e",
         "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -79684,10 +84357,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 91
+          "sequence": 91,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0092",
+        "version": 1,
+        "contentHash": "sha256:e3de97f4713ad4d190f16d63983ca3521dca871113779f10e9c433699cb7f632",
         "question": "Grade 4 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -79734,10 +84411,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 92
+          "sequence": 92,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0093",
+        "version": 1,
+        "contentHash": "sha256:4164d418131a87019e43450bbf6d46842b2ec884d48dea345291e71ca1bfe059",
         "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -79788,6 +84469,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0094",
+        "version": 1,
+        "contentHash": "sha256:9d719cdb4d65b31ca1065d51b79a901c21aab4b624b80cf624abb29b77885420",
         "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -79838,6 +84522,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0095",
+        "version": 1,
+        "contentHash": "sha256:c4ece58bb1b4d4a09741c0287294bdd30c80535aa9f126f21e6843977ecc0b6a",
         "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -79888,6 +84575,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0096",
+        "version": 1,
+        "contentHash": "sha256:dd27bb59c56a8b3204c054aca5a35e91d3f69e7a3cede5ef56b040407185984a",
         "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -79938,6 +84628,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0097",
+        "version": 1,
+        "contentHash": "sha256:95b63b10b01fd9184b28c66ad55ee65ca3d243698444c92f860f5442e2b5e99f",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -79988,6 +84681,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0098",
+        "version": 1,
+        "contentHash": "sha256:efe1a0352c7fde87e401e49f2ef2b1d1a0ed289df75679a68442238fe24f8867",
         "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -80038,6 +84734,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0099",
+        "version": 1,
+        "contentHash": "sha256:cb15393ac831c907dd8865ff34ee4adb1b30573a62e84baea0ff9bf9930d1a6e",
         "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -80084,10 +84783,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 99
+          "sequence": 99,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0100",
+        "version": 1,
+        "contentHash": "sha256:e3de97f4713ad4d190f16d63983ca3521dca871113779f10e9c433699cb7f632",
         "question": "Grade 4 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -80134,10 +84837,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 100
+          "sequence": 100,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0101",
+        "version": 1,
+        "contentHash": "sha256:eebf9313c9abaa61f7af30b528472b04e7be4402748c0b0cf077fbe7c21719c2",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -80188,6 +84895,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0102",
+        "version": 1,
+        "contentHash": "sha256:02fb2650736a4f187c64e2e9ccebaeb7d70ac930aca90acff6b0a6f7c84bfe73",
         "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -80238,6 +84948,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0103",
+        "version": 1,
+        "contentHash": "sha256:78598c0309e01a3e118fc48feff30d7bbcae92829371290fe252346ed31a8c00",
         "question": "Grade 4 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -80288,6 +85001,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0104",
+        "version": 1,
+        "contentHash": "sha256:05c5670625ac7e2d22b7cc2cef0719826ef393f19fa74646ae0e305e88efe8dd",
         "question": "Grade 4 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -80338,6 +85054,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0105",
+        "version": 1,
+        "contentHash": "sha256:8f604369ae2a8dba7f460fc67e1498031ff6528876f7d612b10f8626b03150a7",
         "question": "Grade 4 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -80388,6 +85107,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0106",
+        "version": 1,
+        "contentHash": "sha256:bd6deb99adef46f01e0ee32c2fd5efba295d7539ee29d358a7157a8057d0730c",
         "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -80434,10 +85156,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 106
+          "sequence": 106,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0107",
+        "version": 1,
+        "contentHash": "sha256:c58205d50f7a5eb0431de6e8bed1e2954837bbac81d5fa769f245a95fbab06dc",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -80484,10 +85210,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 107
+          "sequence": 107,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0108",
+        "version": 1,
+        "contentHash": "sha256:797090e41b3ee526426dfd007610865b7e931c6622aeef022b4a3be8030acf24",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -80538,6 +85268,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0109",
+        "version": 1,
+        "contentHash": "sha256:0cd6641d1ec9134fa484c9398557af966be74fc932f0a631e5bbcfd6fa5cf966",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -80588,6 +85321,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0110",
+        "version": 1,
+        "contentHash": "sha256:3bd4fe5290325c539d795666f32e36bcb75fd3d9f7c17edd3b7232edb6b60191",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -80638,6 +85374,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0111",
+        "version": 1,
+        "contentHash": "sha256:1eabf5267f3c7311bd8ef56432111ee3864393ddb82f0142ac24bd118158cb21",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -80688,6 +85427,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0112",
+        "version": 1,
+        "contentHash": "sha256:f8d99c077e457c2fe93df139fa8722de63e3d1ad865ffd2887a66c3b0e99fe2c",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -80738,6 +85480,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0113",
+        "version": 1,
+        "contentHash": "sha256:61faaeb84e156ac59fd6af9fb1f6646daa9e433aebe4f5c9bf0ae4447048bfab",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -80788,6 +85533,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0114",
+        "version": 1,
+        "contentHash": "sha256:bd6deb99adef46f01e0ee32c2fd5efba295d7539ee29d358a7157a8057d0730c",
         "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -80834,10 +85582,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 114
+          "sequence": 114,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0115",
+        "version": 1,
+        "contentHash": "sha256:c58205d50f7a5eb0431de6e8bed1e2954837bbac81d5fa769f245a95fbab06dc",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -80884,10 +85636,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 115
+          "sequence": 115,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0116",
+        "version": 1,
+        "contentHash": "sha256:33c6563bf8f54e1d61897bb3263f447061bdbfa9739976f4c7e70157c08557de",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -80938,6 +85694,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0117",
+        "version": 1,
+        "contentHash": "sha256:da35bea008265c3c318c3dc2b8d2204dd0d5c83385c54e56718e7b96cac3e50f",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -80988,6 +85747,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0118",
+        "version": 1,
+        "contentHash": "sha256:d839ca5ed57587d21e6a06e530b7e265599c00bd85a67745728cf91e4a09e581",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -81038,6 +85800,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0119",
+        "version": 1,
+        "contentHash": "sha256:fe864fe47fdd3fe967f75ea6ffeb1fc19ab8098c27bf2906f74d3d419f9526b0",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "because",
@@ -81088,6 +85853,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0120",
+        "version": 1,
+        "contentHash": "sha256:437d76aa0e1cd50627578db49e06b79c5e0e1a7d6576fb42dea867cd5314ef76",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "without",
@@ -81138,6 +85906,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0121",
+        "version": 1,
+        "contentHash": "sha256:bfd5603e5497d6c474265b09997186ed3d6112cecbb75faa325ca4de3088cfaf",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -81184,10 +85955,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 121
+          "sequence": 121,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0122",
+        "version": 1,
+        "contentHash": "sha256:b8c22ecdd2271322de050ed1935a6b83726efb2672f37faf3c4d9d273bd49948",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -81234,10 +86009,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 122
+          "sequence": 122,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0123",
+        "version": 1,
+        "contentHash": "sha256:576851d3f954dd8ea7e87357f702cf4d84f55b7f9fffb1ae9007e89e5e654ddc",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -81288,6 +86067,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0124",
+        "version": 1,
+        "contentHash": "sha256:551ed4f99d7a9bae993fcf4815e2bd9f684056f413da7d187d312a8e7a893796",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -81338,6 +86120,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0125",
+        "version": 1,
+        "contentHash": "sha256:dac7663d9a2663d9129602c789aafd622cdf262a8656b2b2dc1910928bbf5840",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -81388,6 +86173,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0126",
+        "version": 1,
+        "contentHash": "sha256:b2649b12abcfb0a767cec37b172023d56eb5421414f7da4c97e3f990f0938c67",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -81438,6 +86226,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0127",
+        "version": 1,
+        "contentHash": "sha256:460d4524e6c80046c937865fd43b77d2df1788f46989b8d5eb25f67c9ffe1345",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -81488,6 +86279,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0128",
+        "version": 1,
+        "contentHash": "sha256:f15a5f3dfa269e8ca0a6f58cacf50039a3f9aeea181286b6122bfa08b76869c2",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -81538,6 +86332,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0129",
+        "version": 1,
+        "contentHash": "sha256:bfd5603e5497d6c474265b09997186ed3d6112cecbb75faa325ca4de3088cfaf",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -81584,10 +86381,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 129
+          "sequence": 129,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0130",
+        "version": 1,
+        "contentHash": "sha256:b8c22ecdd2271322de050ed1935a6b83726efb2672f37faf3c4d9d273bd49948",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -81634,10 +86435,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 130
+          "sequence": 130,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0131",
+        "version": 1,
+        "contentHash": "sha256:5250b40a9980e717b71544b58cae523339972ed78bfe51b91deb1eb9934e7397",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -81688,6 +86493,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0132",
+        "version": 1,
+        "contentHash": "sha256:054cf44df704b85f145c1dacdb6025cb9abb738fc61cd732893ea793cfd740ed",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -81738,6 +86546,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0133",
+        "version": 1,
+        "contentHash": "sha256:ddb016e994d720e3efd4b8c450ce2acb3fcae07c8f3be4a121417654f2a2eb81",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -81788,6 +86599,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0134",
+        "version": 1,
+        "contentHash": "sha256:486a616e3f5862ff2a175250b5078c45fc215e8a041fd0ec5d187c803e0db52e",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -81838,6 +86652,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0135",
+        "version": 1,
+        "contentHash": "sha256:71c110e415c979c4531f70783bb499464495c37876ea7e483ed8a5770b5906a8",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -81888,6 +86705,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0136",
+        "version": 1,
+        "contentHash": "sha256:4bf83075461988d68e7a68c94d42ac06e12d6bf3316e0687301bf7e9c9f181af",
         "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -81934,10 +86754,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 136
+          "sequence": 136,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0137",
+        "version": 1,
+        "contentHash": "sha256:86c5343df49bbb58c1a2d297497368f6b44db81b89f7061a108756aa1975d9b1",
         "question": "Grade 5 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -81984,10 +86808,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 137
+          "sequence": 137,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0138",
+        "version": 1,
+        "contentHash": "sha256:459af0f70a5ae584d6b44bf0e22ae98c6ca58397e46a9ed1031c49b80d10714a",
         "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -82038,6 +86866,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0139",
+        "version": 1,
+        "contentHash": "sha256:c34709e78eced7d497d90250e9f6d7d45e7e28218d702be10ad7641abc455e9c",
         "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -82088,6 +86919,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0140",
+        "version": 1,
+        "contentHash": "sha256:8e04f8c5bde670d2fb19a1a12532aeb941493df7a94e71c1fb051475e9baffe7",
         "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -82138,6 +86972,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0141",
+        "version": 1,
+        "contentHash": "sha256:2a2508b4049c0d531db8b650f017ca53444745534a290fb11f023850f3b4b509",
         "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -82188,6 +87025,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0142",
+        "version": 1,
+        "contentHash": "sha256:7c97a37b234f3679c0cd981c25ce47ec2a9b694ce3b70da4630d2a8c7f697b1c",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -82238,6 +87078,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0143",
+        "version": 1,
+        "contentHash": "sha256:f5d8c3311b76074cec075d284e75d0881b826781a2180a1667b8891aa9dcab09",
         "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -82288,6 +87131,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0144",
+        "version": 1,
+        "contentHash": "sha256:4bf83075461988d68e7a68c94d42ac06e12d6bf3316e0687301bf7e9c9f181af",
         "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -82334,10 +87180,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 144
+          "sequence": 144,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0145",
+        "version": 1,
+        "contentHash": "sha256:86c5343df49bbb58c1a2d297497368f6b44db81b89f7061a108756aa1975d9b1",
         "question": "Grade 5 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -82384,10 +87234,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 145
+          "sequence": 145,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0146",
+        "version": 1,
+        "contentHash": "sha256:21ff500a41f5dd462de3af6b8b52e684a2899f812487485abbf04cd43a177041",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -82438,6 +87292,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0147",
+        "version": 1,
+        "contentHash": "sha256:a77105eca88a86dbd2045206bc1691f682aa349eb92e7a1e27260b5df162ca60",
         "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -82488,6 +87345,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0148",
+        "version": 1,
+        "contentHash": "sha256:4195662964c654118e1160370019b2ae5892d787abd6f5c1d60cd0d45dd6e2b1",
         "question": "Grade 5 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -82538,6 +87398,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0149",
+        "version": 1,
+        "contentHash": "sha256:3f48995cb8eb420f81fc8af9c74dff10002c33677e2b03a4c8569b105560ca77",
         "question": "Grade 5 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -82588,6 +87451,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0150",
+        "version": 1,
+        "contentHash": "sha256:4e308d1509d16f6ba768ac60ae144adaf94c49fb5bb01eaf7e8f25408b929778",
         "question": "Grade 5 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "study of",
@@ -82638,6 +87504,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0151",
+        "version": 1,
+        "contentHash": "sha256:f74bc87879e04df7e3ae771fd8263a98cc3416444422b020cd73793e7dca213d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -82684,10 +87553,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 151
+          "sequence": 151,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0152",
+        "version": 1,
+        "contentHash": "sha256:6977af32a671c95b47aa904ccfd75b9802ae3412bbc39ada7a52e6c3a5bca19c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -82734,10 +87607,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 152
+          "sequence": 152,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0153",
+        "version": 1,
+        "contentHash": "sha256:0d2ee6478a3b2298a5bf25995a0a6c671dbd74f2dbc388dbd7580fd9480e632c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -82788,6 +87665,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0154",
+        "version": 1,
+        "contentHash": "sha256:1bd780a636869557ad1d1f2416cf64cc30658ad584f27c93924f7a81e50d5d55",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -82838,6 +87718,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0155",
+        "version": 1,
+        "contentHash": "sha256:233adf468aedf8a108a8380f8dd0420517853668159b3a06867e9185b35e1597",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -82888,6 +87771,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0156",
+        "version": 1,
+        "contentHash": "sha256:4f55062e6be26b889a53fcdea5870aeae759040c0603bfe9469074e02165139e",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -82938,6 +87824,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0157",
+        "version": 1,
+        "contentHash": "sha256:90fe5b85ec9016c763d2a41d8510bf856a2c451affffc3b3dbbcf98ef04d7ad2",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -82988,6 +87877,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0158",
+        "version": 1,
+        "contentHash": "sha256:c00c3cfb26663d4fe5547fcbbc36904017536ac61d3ed2098906bc72c6f544a6",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -83038,6 +87930,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0159",
+        "version": 1,
+        "contentHash": "sha256:f74bc87879e04df7e3ae771fd8263a98cc3416444422b020cd73793e7dca213d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -83084,10 +87979,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 159
+          "sequence": 159,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0160",
+        "version": 1,
+        "contentHash": "sha256:6977af32a671c95b47aa904ccfd75b9802ae3412bbc39ada7a52e6c3a5bca19c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -83134,10 +88033,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 160
+          "sequence": 160,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0161",
+        "version": 1,
+        "contentHash": "sha256:116a82cf7a0b5e95e49fc9071bf47a81995201be2e0dc78413bdcdea95920638",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -83188,6 +88091,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0162",
+        "version": 1,
+        "contentHash": "sha256:d8a70f7941ff8cd94902a4e2aefd951efd25c7b5ebfc72a1158d9c1d3196194f",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -83238,6 +88144,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0163",
+        "version": 1,
+        "contentHash": "sha256:ad471d242248edaab791039738ffccf5e3de8962d7b026e1951e96c5a8ea2725",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -83288,6 +88197,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0164",
+        "version": 1,
+        "contentHash": "sha256:a2343765c4a278616431665b454884b10f311777204c97b7970a62c42869c3b1",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "becaus",
@@ -83338,6 +88250,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0165",
+        "version": 1,
+        "contentHash": "sha256:64b0f43d0dcfe848b4b9e6d7c2c7bea329e72b1db4be4873a001f21141c68855",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
         "choices": [
           "small",
@@ -83388,6 +88303,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0166",
+        "version": 1,
+        "contentHash": "sha256:d198b6bdd08ab30a76c80791154118e96fbb19a80eea0d2c72acba8517498854",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -83434,10 +88352,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 166
+          "sequence": 166,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0167",
+        "version": 1,
+        "contentHash": "sha256:52bc791beff1f4b80ca50850969eeab08240a274e43b8523348acaf7574e5514",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -83484,10 +88406,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 167
+          "sequence": 167,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0168",
+        "version": 1,
+        "contentHash": "sha256:387ee29e860d7ce405d371015481331ef7d22dffb9f1a3fe428e9ef99d501413",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -83538,6 +88464,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0169",
+        "version": 1,
+        "contentHash": "sha256:eabf6529fc5f3a85bc6cfa413a22ae3d4c4daf7684b0ddd4d25ba03325cd3144",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -83588,6 +88517,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0170",
+        "version": 1,
+        "contentHash": "sha256:38a6542a15ed550a6a08ec88ccb5be93c8424ea108a8cee6e8bd2a0e3cf3f9f4",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -83638,6 +88570,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0171",
+        "version": 1,
+        "contentHash": "sha256:dc79de3353c1506e950a048aa8779f495f572874452089979c18c8c6bf83f63e",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -83688,6 +88623,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0172",
+        "version": 1,
+        "contentHash": "sha256:0690272e1f4fd6deb0efb9f274243bbcbb9d21a64834e40afc9345d59791c67c",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -83738,6 +88676,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0173",
+        "version": 1,
+        "contentHash": "sha256:922d209ffc74751019f83fa77617e30f97454943bb47040be836959f9e8b553d",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -83788,6 +88729,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0174",
+        "version": 1,
+        "contentHash": "sha256:d198b6bdd08ab30a76c80791154118e96fbb19a80eea0d2c72acba8517498854",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -83834,10 +88778,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 174
+          "sequence": 174,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0175",
+        "version": 1,
+        "contentHash": "sha256:52bc791beff1f4b80ca50850969eeab08240a274e43b8523348acaf7574e5514",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -83884,10 +88832,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-syllables-decoding",
-          "sequence": 175
+          "sequence": 175,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0176",
+        "version": 1,
+        "contentHash": "sha256:27589b6ce9b4029d71f0a0c6fa99c8b104790e4462a2513b0119c8ddf5ea99e5",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -83938,6 +88890,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0177",
+        "version": 1,
+        "contentHash": "sha256:382e433f243633ba53602961d81fbbecdb87aae9ad2ebbf1cae0b16c62c10c65",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -83988,6 +88943,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0178",
+        "version": 1,
+        "contentHash": "sha256:f2274078128fc8fccc27ccfd76a97f58547513fb9b099b7483e8546583093ed0",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -84038,6 +88996,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0179",
+        "version": 1,
+        "contentHash": "sha256:b323d27ddbff747442bd4c41d667b509ce7e65e232ffd133182388b4549de80c",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -84088,6 +89049,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0180",
+        "version": 1,
+        "contentHash": "sha256:2ad12ea5173b2a91b55dc6947f497f4e2f14bef02c33246d608b11ce335488c0",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
         "choices": [
           "before",
@@ -84138,6 +89102,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0181",
+        "version": 1,
+        "contentHash": "sha256:47d483de3bb1f8ab9b14195f79f7eb5f5eea79a00d2a1054693eeb1f8d2bc920",
         "question": "Which word has the beginning sound /cr/?",
         "choices": [
           "knot",
@@ -84186,7 +89153,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 16,
+          "sequence": 181,
           "testFocus": [
             "MAP"
           ],
@@ -84196,6 +89163,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0216",
+        "version": 1,
+        "contentHash": "sha256:35250ef6c92fcf03d7382d77b41c4e45b9b84fc35d81914c7115fe769fe0c3a8",
         "question": "Which is a multi-syllable compound word?",
         "choices": [
           "motorcycle",
@@ -84254,6 +89224,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0183",
+        "version": 1,
+        "contentHash": "sha256:a92d85eedfc0c874cdca658b174521e9cb8b7a4121eedadbd84fd0cd42e26c03",
         "question": "What is the correct syllabication of the word “computer”?",
         "choices": [
           "com-put-er",
@@ -84308,10 +89281,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 7
+          "sequence": 183
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0184",
+        "version": 1,
+        "contentHash": "sha256:1617b9da40fbef0dfb7a81637d171a5efef2f90b1c5d0561509942d83a12d955",
         "question": "What is the correct syllabication of the word “auditorium”?",
         "choices": [
           "au d---ium it or",
@@ -84366,10 +89342,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 17
+          "sequence": 184
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0185",
+        "version": 1,
+        "contentHash": "sha256:4a4d494e642e1a7548a23f3ede8c17935e797c2803992e702b7993806f4327f5",
         "question": "How many syllables are in the word “dissatisfied”?",
         "choices": [
           "6",
@@ -84424,10 +89403,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 22
+          "sequence": 185
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0186",
+        "version": 1,
+        "contentHash": "sha256:590b9c5a2c107f497b950f5542cea60083b463e724c0e4a35ba435b224f80d8e",
         "question": "What is the correct syllabication of the word “exasperated”?",
         "choices": [
           "as at ex--p er--ed",
@@ -84482,10 +89464,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 27
+          "sequence": 186
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0187",
+        "version": 1,
+        "contentHash": "sha256:04acb4f7401c1d00793990a48e6c6613c7dc76f94864749b6aa4962e5876339b",
         "question": "What is the correct syllabication of the word “tissue”?",
         "choices": [
           "t -is-sue",
@@ -84540,10 +89525,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 34
+          "sequence": 187
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0188",
+        "version": 1,
+        "contentHash": "sha256:fe401158d9975634b44ee6a544a6c1e3f95e1f4c5b188c487b3f01a83fcbffa1",
         "question": "Which is the correct syllabication of the word “ph one”?",
         "choices": [
           "p hone",
@@ -84598,10 +89586,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 45
+          "sequence": 188
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0189",
+        "version": 1,
+        "contentHash": "sha256:11817fb999b5fea84adbb3b53f73b4cb8f85d265568bd9cc3898e971b2cb02df",
         "question": "Which before is the correct syllabication of the word “”?",
         "choices": [
           "b -e-for-e",
@@ -84656,10 +89647,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 55
+          "sequence": 189
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0190",
+        "version": 1,
+        "contentHash": "sha256:bb5d54bbe9a9d49c4d0e87184d4d4e92c089a36e561653aa251c7edd50b01f3a",
         "question": "What is the correct syllabication of the word “lovely”?",
         "choices": [
           "el lov--y",
@@ -84714,10 +89708,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 64
+          "sequence": 190
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0191",
+        "version": 1,
+        "contentHash": "sha256:cb22dd63fe087efa93d266b954f74a79c8a1061dce21766e2ee3870abf96e69a",
         "question": "What is the correct syllabication of the word “” used as a verb? present",
         "choices": [
           "ent pres -",
@@ -84772,10 +89769,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 74
+          "sequence": 191
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0192",
+        "version": 1,
+        "contentHash": "sha256:f002bcd1a18a692dd38d133249f15c419089a5abefa1cd0a1ffa5479b6398e80",
         "question": "Which is the correct syllabication of the word “dictator”?",
         "choices": [
           "dic -ta-tor",
@@ -84830,10 +89830,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 85
+          "sequence": 192
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0193",
+        "version": 1,
+        "contentHash": "sha256:2aa35dda80901853c6717e65be165e6f086fcdc41521f8e38253760aad352b8b",
         "question": "What is the correct syllabication of the word? information",
         "choices": [
           "in for-mation",
@@ -84888,10 +89891,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 27
+          "sequence": 193
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0194",
+        "version": 1,
+        "contentHash": "sha256:8a571ffca95652aa45846e0209caac2c72f293003fdcb0150978071fd0c45104",
         "question": "What is the correct syllabication of the word? ingredient",
         "choices": [
           "i--ngre di ent",
@@ -84946,10 +89952,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 78
+          "sequence": 194
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0195",
+        "version": 1,
+        "contentHash": "sha256:d927f063b1f9e7bb4fd420acf08264863a10cec006e74c57aab8ba10b83d8187",
         "question": "What is the correct syllabication of the word? persnickety",
         "choices": [
           "p er-snick-e- ty",
@@ -85004,10 +90013,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 129
+          "sequence": 195
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0196",
+        "version": 1,
+        "contentHash": "sha256:51d49f9306484791dcccc0c96e214e4d6201456e8f1e79cd413a7948fb434d44",
         "question": "What is the correct syllabication of the? word appearance",
         "choices": [
           "ap- -arance pe",
@@ -85062,10 +90074,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 180
+          "sequence": 196
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0231",
+        "version": 1,
+        "contentHash": "sha256:defd87c6e1d196be262060dbc442c1e8ba05cdb4046d530fd031b441843faf0b",
         "question": "What is the correct syllabication of the word? paper",
         "choices": [
           "pap- er",
@@ -85124,6 +90139,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0252",
+        "version": 1,
+        "contentHash": "sha256:2edb6186d50f2a21896a7dd674a75e92cb117483267782f3924041113aaa28d2",
         "question": "What is the correct syllabication of the word? basic",
         "choices": [
           "basi-c",
@@ -85182,6 +90200,9 @@
         }
       },
       {
+        "id": "vocabulary-syllables-decoding-q0282",
+        "version": 1,
+        "contentHash": "sha256:3de17211b1e3fc1418a5006682732fe61184aed15817aa9f35fe7744306d24f9",
         "question": "What is the correct syllabication of the word? underneath",
         "choices": [
           "und--neather",
@@ -85260,6 +90281,9 @@
     "topic": "Vocabulary / Word Study",
     "questions": [
       {
+        "id": "vocabulary-spelling-patterns-q0001",
+        "version": 1,
+        "contentHash": "sha256:6ef102df37755cbdf67c8f3996e43766d044d44fc04a2d6271620ac60ae8f240",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -85306,10 +90330,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 1
+          "sequence": 1,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0002",
+        "version": 1,
+        "contentHash": "sha256:fcd902fb2a97dcc77063877579ca490a3319e2c99478b1cd049b1b117070ec1c",
         "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -85356,10 +90384,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 2
+          "sequence": 2,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0003",
+        "version": 1,
+        "contentHash": "sha256:6deed15c5bf6b0ab556928e415fe52843e16fb38492c96d8a2372be25570eafe",
         "question": "Grade 2 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -85406,10 +90438,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 3
+          "sequence": 3,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0004",
+        "version": 1,
+        "contentHash": "sha256:539e803614dd4e33dc956104e481be57384eb513d31c9f0a0e2afc239c5b0b97",
         "question": "Grade 2 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -85460,6 +90496,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0005",
+        "version": 1,
+        "contentHash": "sha256:4bb372dd6e4da226cd6bf7c326f57e0804295d7fe229fbf098c2728c1fa8e37b",
         "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -85510,6 +90549,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0006",
+        "version": 1,
+        "contentHash": "sha256:08d0d5ca3bbe5b3d08f37e46c86879f7b2c5d596a663d351d10377c64aa8e2b0",
         "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -85560,6 +90602,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0007",
+        "version": 1,
+        "contentHash": "sha256:a98bcd66857f2254e133105e597c210d941982f6ee5256f4ab0c36af7e6b69ff",
         "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -85610,6 +90655,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0008",
+        "version": 1,
+        "contentHash": "sha256:9febfee36771782c07b9acb1aa50ce39a893fe4d88dd08556f6fb872e040eba7",
         "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -85660,6 +90708,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0009",
+        "version": 1,
+        "contentHash": "sha256:dd005dbb54c057c2b646f7d24a3d6bd11b187cbf2263cf5ade4866b8a78ee474",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -85710,6 +90761,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0010",
+        "version": 1,
+        "contentHash": "sha256:cd06f3468d32014afca59cf3a48c2897c9aa9b59f13f40153d25fd5865fa9fc6",
         "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -85760,6 +90814,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0011",
+        "version": 1,
+        "contentHash": "sha256:36e7f96a73665845ce2c584346992f7ff10a059500c6ed24e972559edc1068a9",
         "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -85810,6 +90867,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0012",
+        "version": 1,
+        "contentHash": "sha256:09fb3089780ef266da03426524b3918b1c8b43b998ea9b1d2bf3a8400934ead2",
         "question": "Grade 2 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -85860,6 +90920,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0013",
+        "version": 1,
+        "contentHash": "sha256:6ef102df37755cbdf67c8f3996e43766d044d44fc04a2d6271620ac60ae8f240",
         "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -85906,10 +90969,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 13
+          "sequence": 13,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0014",
+        "version": 1,
+        "contentHash": "sha256:fcd902fb2a97dcc77063877579ca490a3319e2c99478b1cd049b1b117070ec1c",
         "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -85956,10 +91023,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 14
+          "sequence": 14,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0015",
+        "version": 1,
+        "contentHash": "sha256:6deed15c5bf6b0ab556928e415fe52843e16fb38492c96d8a2372be25570eafe",
         "question": "Grade 2 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -86006,10 +91077,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 15
+          "sequence": 15,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0016",
+        "version": 1,
+        "contentHash": "sha256:b4574bbe7bb940c7e5889823d0ddbc50e43a7849d74fd990bb2bcb70484e9082",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -86056,10 +91131,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 16
+          "sequence": 16,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0017",
+        "version": 1,
+        "contentHash": "sha256:51b722d92369bc92c748b66ad817b00d6cd14ff136ab32bf7c990add99d6e79f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -86106,10 +91185,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 17
+          "sequence": 17,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0018",
+        "version": 1,
+        "contentHash": "sha256:8c963e5011453779640361d08218a4049457f43a77461eb6267c8bacd87c0c48",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -86156,10 +91239,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 18
+          "sequence": 18,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0019",
+        "version": 1,
+        "contentHash": "sha256:c4c790dcac16107fad654b301fb0855ca175fd4f3c88199279074f05379ca674",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "becaus",
@@ -86210,6 +91297,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0020",
+        "version": 1,
+        "contentHash": "sha256:5504fe34fb27e6daaf057fe188ca337e9fa388941c217a683b69850acc10fe29",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -86260,6 +91350,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0021",
+        "version": 1,
+        "contentHash": "sha256:d5a1ce726b8717c5e3a1b10aaebe7747641e6d728eaedd31d1912e918022f89b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -86310,6 +91403,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0022",
+        "version": 1,
+        "contentHash": "sha256:d97105fa5c581ee5e1fc89f5694f334eb9827529e633ec116ca14032532aad07",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -86360,6 +91456,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0023",
+        "version": 1,
+        "contentHash": "sha256:2b7d85ab52aa9e115155b88167a2a9c06319454070ad422741dedef9dec9554e",
         "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -86410,6 +91509,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0024",
+        "version": 1,
+        "contentHash": "sha256:a17e09f9fcbf12196e198781d392e528ac9213f570a30dfcf9e515052425f575",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -86460,6 +91562,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0025",
+        "version": 1,
+        "contentHash": "sha256:636bb09df3e63f7dccb06e431e8b1d2f7ca440c29a2e3aa219824bc6e0377463",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -86510,6 +91615,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0026",
+        "version": 1,
+        "contentHash": "sha256:91c0b58fb570966399d3ba7c169ff318b3a9bae602763ab2a67afec99ba4ff30",
         "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -86560,6 +91668,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0027",
+        "version": 1,
+        "contentHash": "sha256:9780e33eff766c8b4dcb472da92cdf6ad5d0a9a17e78022a9c37e27bba2a994b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -86610,6 +91721,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0028",
+        "version": 1,
+        "contentHash": "sha256:b4574bbe7bb940c7e5889823d0ddbc50e43a7849d74fd990bb2bcb70484e9082",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -86656,10 +91770,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 28
+          "sequence": 28,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0029",
+        "version": 1,
+        "contentHash": "sha256:51b722d92369bc92c748b66ad817b00d6cd14ff136ab32bf7c990add99d6e79f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -86706,10 +91824,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 29
+          "sequence": 29,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0030",
+        "version": 1,
+        "contentHash": "sha256:8c963e5011453779640361d08218a4049457f43a77461eb6267c8bacd87c0c48",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -86756,10 +91878,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 30
+          "sequence": 30,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0031",
+        "version": 1,
+        "contentHash": "sha256:880b47559c48d0d243424e4a27d0faed39866af8cff02546212cb0c828e0aa2b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -86806,10 +91932,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 31
+          "sequence": 31,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0032",
+        "version": 1,
+        "contentHash": "sha256:328fceeececa0ce145153d789cdf958705af80a3849b13fb27fd6b9d9d69b5e7",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -86856,10 +91986,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 32
+          "sequence": 32,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0033",
+        "version": 1,
+        "contentHash": "sha256:e4c85b2055478f7293c392999ef4045a5375c7eed5ea4e306d1badcbf089e59e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -86906,10 +92040,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 33
+          "sequence": 33,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0034",
+        "version": 1,
+        "contentHash": "sha256:7a92960393124347d145ff7e1fdbef863d3d3821589e8242ae8f252c412aac5b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -86960,6 +92098,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0035",
+        "version": 1,
+        "contentHash": "sha256:44a4b94e3d85f73bbe0e2b96731899e2b42cd7deb67c397d235dcd214a662d1e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -87010,6 +92151,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0036",
+        "version": 1,
+        "contentHash": "sha256:de5939a2f63f992cb252950da6a50512e0e1f8fc911daf7f395a39c8b6bb953a",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -87060,6 +92204,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0037",
+        "version": 1,
+        "contentHash": "sha256:8d876cfdd45b50a3e01799dc5f91999f125416edff92709cde649cd37c2c58f8",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -87110,6 +92257,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0038",
+        "version": 1,
+        "contentHash": "sha256:919aac1edb7bac99c8a4bb4ad6139edb60d4074a96d8fde9fd22beaed355ce5e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -87160,6 +92310,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0039",
+        "version": 1,
+        "contentHash": "sha256:bbc4e6c7f3749502b8700eafebe131ecb47327895e32c3a1e699b076de9fd816",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -87210,6 +92363,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0040",
+        "version": 1,
+        "contentHash": "sha256:c35889c022906a5b52cefdab3b4f663c20efaaa59405d4ecd481aeefca442552",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -87260,6 +92416,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0041",
+        "version": 1,
+        "contentHash": "sha256:71b93f00e96a98e66d9bd7545894eb5080561729b2091667d855e6c08155cadc",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -87310,6 +92469,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0042",
+        "version": 1,
+        "contentHash": "sha256:c8390b69799c10e02d8a89bd7e0621ffc317557e424b697b0e6827a604a10e25",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -87360,6 +92522,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0043",
+        "version": 1,
+        "contentHash": "sha256:880b47559c48d0d243424e4a27d0faed39866af8cff02546212cb0c828e0aa2b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -87406,10 +92571,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 43
+          "sequence": 43,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0044",
+        "version": 1,
+        "contentHash": "sha256:328fceeececa0ce145153d789cdf958705af80a3849b13fb27fd6b9d9d69b5e7",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -87456,10 +92625,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 44
+          "sequence": 44,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0045",
+        "version": 1,
+        "contentHash": "sha256:e4c85b2055478f7293c392999ef4045a5375c7eed5ea4e306d1badcbf089e59e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -87506,10 +92679,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 45
+          "sequence": 45,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0046",
+        "version": 1,
+        "contentHash": "sha256:c80abe4895eb8fcb47493c4d12b1c3a9acb3e6d83ff51074aa3849c723cfa6cd",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -87556,10 +92733,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 46
+          "sequence": 46,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0047",
+        "version": 1,
+        "contentHash": "sha256:46b50c2900624f11ccae5fc70241a9bc2f26be056a2574f06d7e5701e2a9acf4",
         "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -87606,10 +92787,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 47
+          "sequence": 47,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0048",
+        "version": 1,
+        "contentHash": "sha256:0b789fa228762c978f026f493aaa55df3a50132b5d35835fdf75497d6b597a09",
         "question": "Grade 3 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -87656,10 +92841,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 48
+          "sequence": 48,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0049",
+        "version": 1,
+        "contentHash": "sha256:544aa3b0a8f1795656cdd8d149eda4a268531d470d0ccba4e07e36f5cceaeea8",
         "question": "Grade 3 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -87710,6 +92899,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0050",
+        "version": 1,
+        "contentHash": "sha256:1b63978dc40e660df6a3f346f9147a68ae60cd95663bc599a487aba2b981b790",
         "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -87760,6 +92952,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0051",
+        "version": 1,
+        "contentHash": "sha256:6a78c7d733b0d799f5c8d30dd28dfced7e16afd0a0a3d1fe59c88368103fe7c3",
         "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -87810,6 +93005,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0052",
+        "version": 1,
+        "contentHash": "sha256:889caba9b10b258dc2dca40b3fd80b7d6f6eafcc6c376d313f0f1654aa27e628",
         "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -87860,6 +93058,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0053",
+        "version": 1,
+        "contentHash": "sha256:f8a9bdd378320df6ac6f4f26da646559bc0a6affa5d40d843f45149dabbd73cd",
         "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -87910,6 +93111,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0054",
+        "version": 1,
+        "contentHash": "sha256:bae42ee4937ab26d248c734667f699298f67d9cd462eb52d245aeb2b386b49e0",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -87960,6 +93164,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0055",
+        "version": 1,
+        "contentHash": "sha256:379b68fc1b2d3d1b0d93816ea5acfd9e0a0e02d5784204523af3fd10fc74c022",
         "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -88010,6 +93217,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0056",
+        "version": 1,
+        "contentHash": "sha256:e9fb3035e17000dfc630a2d8b5d6e2dc8ad996e2b4a7d58555889a922274046e",
         "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -88060,6 +93270,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0057",
+        "version": 1,
+        "contentHash": "sha256:cebd122d63d94a3e7c395de9f0e0aac05524b13c5b1cd427a2b2f4d9e5fdd7c6",
         "question": "Grade 3 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -88110,6 +93323,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0058",
+        "version": 1,
+        "contentHash": "sha256:c80abe4895eb8fcb47493c4d12b1c3a9acb3e6d83ff51074aa3849c723cfa6cd",
         "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -88156,10 +93372,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 58
+          "sequence": 58,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0059",
+        "version": 1,
+        "contentHash": "sha256:46b50c2900624f11ccae5fc70241a9bc2f26be056a2574f06d7e5701e2a9acf4",
         "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -88206,10 +93426,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 59
+          "sequence": 59,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0060",
+        "version": 1,
+        "contentHash": "sha256:0b789fa228762c978f026f493aaa55df3a50132b5d35835fdf75497d6b597a09",
         "question": "Grade 3 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -88256,10 +93480,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 60
+          "sequence": 60,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0061",
+        "version": 1,
+        "contentHash": "sha256:217942f40dec3bf22aad1b30ea9ad7eec82e77b6d084c09a161f152f5eb8f172",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -88306,10 +93534,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 61
+          "sequence": 61,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0062",
+        "version": 1,
+        "contentHash": "sha256:cbc4b094f08818ca3c067d1414d1b51924426a52ee0074b570604121cfdb7768",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -88356,10 +93588,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 62
+          "sequence": 62,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0063",
+        "version": 1,
+        "contentHash": "sha256:8b12e0f0b593387632be3477fa7ab9a4efdb47654a3241f6cd5b5c38211c5f86",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -88406,10 +93642,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 63
+          "sequence": 63,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0064",
+        "version": 1,
+        "contentHash": "sha256:e7ccaeac7d1ce6ce205b3b35e9cc4d6f068e55d0c439399128f808edd548b23f",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "because",
@@ -88460,6 +93700,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0065",
+        "version": 1,
+        "contentHash": "sha256:afb024bf613e400f7f0f7244cabf4c1118281c4ee453e07bb0e8d40d98fef3de",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -88510,6 +93753,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0066",
+        "version": 1,
+        "contentHash": "sha256:34508890afb3d87ff7812e6505951ac57f5f0540b7646f8139746209fbdfe7e0",
         "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -88560,6 +93806,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0067",
+        "version": 1,
+        "contentHash": "sha256:debcbd45fd9abbad195c330ff395a0ad24be7e459996bc9dbf1429a75b446a14",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -88610,6 +93859,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0068",
+        "version": 1,
+        "contentHash": "sha256:9cf2db40cf9891c2a7210ae7291c3839c41027d196c30fa6019caac2c20a7a85",
         "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -88660,6 +93912,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0069",
+        "version": 1,
+        "contentHash": "sha256:4364c1eb2eeb6a480637334fd0cc0a33b1d0cfdf438315e28388a6077072f580",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -88710,6 +93965,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0070",
+        "version": 1,
+        "contentHash": "sha256:f1db9671e14703de78f953dc4b226f865aa94ec0dd6fce88a3017428e860b549",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -88760,6 +94018,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0071",
+        "version": 1,
+        "contentHash": "sha256:1318340ad7e9699d0fd14a0c3faf9a1d3e0cd7968a5e0f289ffe27fb28c16df2",
         "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -88810,6 +94071,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0072",
+        "version": 1,
+        "contentHash": "sha256:dba85c87792d2e109b2bd6abcfbf557a318bb77db4e2aba62e138ae6aa1120ed",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -88860,6 +94124,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0073",
+        "version": 1,
+        "contentHash": "sha256:217942f40dec3bf22aad1b30ea9ad7eec82e77b6d084c09a161f152f5eb8f172",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -88906,10 +94173,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 73
+          "sequence": 73,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0074",
+        "version": 1,
+        "contentHash": "sha256:cbc4b094f08818ca3c067d1414d1b51924426a52ee0074b570604121cfdb7768",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -88956,10 +94227,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 74
+          "sequence": 74,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0075",
+        "version": 1,
+        "contentHash": "sha256:8b12e0f0b593387632be3477fa7ab9a4efdb47654a3241f6cd5b5c38211c5f86",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -89006,10 +94281,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 75
+          "sequence": 75,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0076",
+        "version": 1,
+        "contentHash": "sha256:c93ceb64df51a7cce381b298955ea5d660360115b5e46d9367cb5dfc894ca739",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -89056,10 +94335,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 76
+          "sequence": 76,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0077",
+        "version": 1,
+        "contentHash": "sha256:5e0a7e48886876f27b89d0081d7485d2bb4865f604544d189570347ab8f43025",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -89106,10 +94389,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 77
+          "sequence": 77,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0078",
+        "version": 1,
+        "contentHash": "sha256:6c9ddfdfeda28a461668faa2ad532a1d44c58cf5dd74e991782e0b720519c105",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -89156,10 +94443,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 78
+          "sequence": 78,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0079",
+        "version": 1,
+        "contentHash": "sha256:0c5afdd691e7f5dd36647292fed0267e29e879406e15bb6520528eff35032b04",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -89210,6 +94501,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0080",
+        "version": 1,
+        "contentHash": "sha256:f0f58098b37ef1f4a701fa45c58bf57de400be6681f9ef72697acc9c95ccffe8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -89260,6 +94554,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0081",
+        "version": 1,
+        "contentHash": "sha256:5eb72b9e1dd35ae7cf578d2cec57273d4454268edcf9bdd6b7511e3dd3f27cb9",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -89310,6 +94607,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0082",
+        "version": 1,
+        "contentHash": "sha256:d9b174d35381bc16fa4a5410daf581fcd2b7e579a8aa2d71a854f52bc006e5d7",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -89360,6 +94660,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0083",
+        "version": 1,
+        "contentHash": "sha256:5937eca123ffbfa136534f079468c4d36741871e39c91475a9f432acb4eeea4c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -89410,6 +94713,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0084",
+        "version": 1,
+        "contentHash": "sha256:233fbc54c075ed054bf5dc3a1c666cd5ec5c6e20d7296ab9d0cb8917c38e80d0",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -89460,6 +94766,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0085",
+        "version": 1,
+        "contentHash": "sha256:46018a7fdf17c46a0bde20ed8db0441058827dd288076b1aed802727f972e8c8",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -89510,6 +94819,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0086",
+        "version": 1,
+        "contentHash": "sha256:a39b2c771e35681e5fa66cdc0310aefef9d3a8aadd2c5372d23579f86fcc8ce7",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -89560,6 +94872,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0087",
+        "version": 1,
+        "contentHash": "sha256:dc87b9a72668000222c6e52e5f97cae2d3dab915785a8bb0c971f881194cf8c5",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -89610,6 +94925,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0088",
+        "version": 1,
+        "contentHash": "sha256:c93ceb64df51a7cce381b298955ea5d660360115b5e46d9367cb5dfc894ca739",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -89656,10 +94974,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 88
+          "sequence": 88,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0089",
+        "version": 1,
+        "contentHash": "sha256:5e0a7e48886876f27b89d0081d7485d2bb4865f604544d189570347ab8f43025",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -89706,10 +95028,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 89
+          "sequence": 89,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0090",
+        "version": 1,
+        "contentHash": "sha256:6c9ddfdfeda28a461668faa2ad532a1d44c58cf5dd74e991782e0b720519c105",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -89756,10 +95082,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 90
+          "sequence": 90,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0091",
+        "version": 1,
+        "contentHash": "sha256:ae7ce35e82f036ea391a5b5ad51a7329b0f95a70cbec8e33886192802b8d790d",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -89806,10 +95136,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 91
+          "sequence": 91,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0092",
+        "version": 1,
+        "contentHash": "sha256:e1748d47aad7fd363b581f5eeb19cef8f779d2c71f3333d167ef48186f85f0c4",
         "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -89856,10 +95190,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 92
+          "sequence": 92,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0093",
+        "version": 1,
+        "contentHash": "sha256:c581e05bd2a4778eebbf4349a9cb2a4d557e0d6ba3c56832bc9ea0843d93343c",
         "question": "Grade 4 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -89906,10 +95244,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 93
+          "sequence": 93,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0094",
+        "version": 1,
+        "contentHash": "sha256:8afa29b0f258676dce653b186408da4f5269c786aecdf85b58c589e8313d69f5",
         "question": "Grade 4 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -89960,6 +95302,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0095",
+        "version": 1,
+        "contentHash": "sha256:0fe568df42ce9ace9d3709d825f1184361f82e0cf951d76f91c16f70142dac25",
         "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -90010,6 +95355,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0096",
+        "version": 1,
+        "contentHash": "sha256:f016b0d034f9de67b179dca243b01a63a6b3d6964596aaa308734bf127443620",
         "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -90060,6 +95408,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0097",
+        "version": 1,
+        "contentHash": "sha256:06b39c17e14367d75d557ad2e7e824edcde927657a9783084e49f3083d0011db",
         "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -90110,6 +95461,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0098",
+        "version": 1,
+        "contentHash": "sha256:79580d74e2cc34a58e0a721251255803a4f3ab503e6a4cad1e39cd473ebd18ed",
         "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -90160,6 +95514,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0099",
+        "version": 1,
+        "contentHash": "sha256:d76c67325a34101b2e9032976bf844bc8c960728942a3319c00557c4c13b9c06",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -90210,6 +95567,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0100",
+        "version": 1,
+        "contentHash": "sha256:df8da8b989d099417650b668b8ac61d91e3d8845f5ef74166f8e2a0fbac4eee7",
         "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -90260,6 +95620,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0101",
+        "version": 1,
+        "contentHash": "sha256:b54bab931fadd1a82a18968ac73385214add87c3f75831ccdcc33769ab5722d7",
         "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -90310,6 +95673,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0102",
+        "version": 1,
+        "contentHash": "sha256:6e8563c782b6583ec6196b78a5f576e5d56493e757e9656403a46258f9cdbdf4",
         "question": "Grade 4 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -90360,6 +95726,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0103",
+        "version": 1,
+        "contentHash": "sha256:ae7ce35e82f036ea391a5b5ad51a7329b0f95a70cbec8e33886192802b8d790d",
         "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -90406,10 +95775,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 103
+          "sequence": 103,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0104",
+        "version": 1,
+        "contentHash": "sha256:e1748d47aad7fd363b581f5eeb19cef8f779d2c71f3333d167ef48186f85f0c4",
         "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -90456,10 +95829,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 104
+          "sequence": 104,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0105",
+        "version": 1,
+        "contentHash": "sha256:c581e05bd2a4778eebbf4349a9cb2a4d557e0d6ba3c56832bc9ea0843d93343c",
         "question": "Grade 4 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -90506,10 +95883,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 105
+          "sequence": 105,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0106",
+        "version": 1,
+        "contentHash": "sha256:5f679301303ae49863378ad2af82e48c2dce54a031b9097168692bfa8d70a971",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -90556,10 +95937,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 106
+          "sequence": 106,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0107",
+        "version": 1,
+        "contentHash": "sha256:61a30273a69ae8fd4b1cb8c0cd87f82a607b7288fe4cb59432f4ff1e4d977c48",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -90606,10 +95991,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 107
+          "sequence": 107,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0108",
+        "version": 1,
+        "contentHash": "sha256:e51c43f22ebccaafbb8df68453c9e7209796d424414e8bec94dd93a8c2868bd2",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -90656,10 +96045,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 108
+          "sequence": 108,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0109",
+        "version": 1,
+        "contentHash": "sha256:ee6479beb4e146a6bbad838c7dd8a733c6548fdb2f17523164a22451d2080d1e",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "becaus",
@@ -90710,6 +96103,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0110",
+        "version": 1,
+        "contentHash": "sha256:778f87050044be4b6d002769d855e859ec7569657ba3a7eb07500fecb347ec43",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a kind of water",
@@ -90760,6 +96156,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0111",
+        "version": 1,
+        "contentHash": "sha256:7a074e5a48d324180d649bcb79cd6018174b257c7890436a655e4f02c231c4eb",
         "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "able to be carried",
@@ -90810,6 +96209,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0112",
+        "version": 1,
+        "contentHash": "sha256:47d63295f0c75e7ea7b982e68741eca534a5c6531d238d6572054244cd3baedd",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a stick used in baseball",
@@ -90860,6 +96262,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0113",
+        "version": 1,
+        "contentHash": "sha256:f7d22a0b0d8e1b16712ccf8587b0378e5a0864014776a238fd351014246cba32",
         "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "near",
@@ -90910,6 +96315,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0114",
+        "version": 1,
+        "contentHash": "sha256:b3a4f3dbaf839ea6580592700e09f904c1c29ca9b7d524e26bb6262d5c4c1b10",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "went",
@@ -90960,6 +96368,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0115",
+        "version": 1,
+        "contentHash": "sha256:1c785c9e712826eafcc8af30823b3e2597c870015959733b7f8a6b4c05ad6b60",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "upset",
@@ -91010,6 +96421,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0116",
+        "version": 1,
+        "contentHash": "sha256:2d3bed146565024f60c585f388cd705fe7c8da8a341707018d25efd943ceff5a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "one",
@@ -91060,6 +96474,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0117",
+        "version": 1,
+        "contentHash": "sha256:f88c7d5bf82f9dc2891b65cecd27f303d2e7c2b605d4bd3365031fa1419b40dd",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "tiger",
@@ -91110,6 +96527,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0118",
+        "version": 1,
+        "contentHash": "sha256:5f679301303ae49863378ad2af82e48c2dce54a031b9097168692bfa8d70a971",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ring",
@@ -91156,10 +96576,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 118
+          "sequence": 118,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0119",
+        "version": 1,
+        "contentHash": "sha256:61a30273a69ae8fd4b1cb8c0cd87f82a607b7288fe4cb59432f4ff1e4d977c48",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bird",
@@ -91206,10 +96630,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 119
+          "sequence": 119,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0120",
+        "version": 1,
+        "contentHash": "sha256:e51c43f22ebccaafbb8df68453c9e7209796d424414e8bec94dd93a8c2868bd2",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "rock",
@@ -91256,10 +96684,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 120
+          "sequence": 120,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0121",
+        "version": 1,
+        "contentHash": "sha256:d9df419760b5b8a5263031c063ce189669048145010c6354cd548399a4c5f4a9",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -91306,10 +96738,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 121
+          "sequence": 121,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0122",
+        "version": 1,
+        "contentHash": "sha256:38acbf8009cb8c91a8897163ef5b861c7b789ef93197f6bc9e74c78fd6fcc5b2",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -91356,10 +96792,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 122
+          "sequence": 122,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0123",
+        "version": 1,
+        "contentHash": "sha256:6a5dd7b64465462f4b04d1cc95ef38a9bca16b1ba8cb430c83c11ac4c8625ccf",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -91406,10 +96846,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 123
+          "sequence": 123,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0124",
+        "version": 1,
+        "contentHash": "sha256:68a0a9c9def610caf0f3e872dbf716b4e93753e7da7e77e470ef0f1395061691",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -91460,6 +96904,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0125",
+        "version": 1,
+        "contentHash": "sha256:ebbe127daee0d8d718c7d741aaa5fb91e35a0bb00d9732b80649873ca555990e",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -91510,6 +96957,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0126",
+        "version": 1,
+        "contentHash": "sha256:ca673e13034ba5e4c2e9f035d90b337f98f2a24471ac66740e0f8e6992b1e1df",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -91560,6 +97010,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0127",
+        "version": 1,
+        "contentHash": "sha256:5e5840edc3db75d90e848192df375b98df996bda83e5c7e0f986da8503f5c07b",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -91610,6 +97063,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0128",
+        "version": 1,
+        "contentHash": "sha256:57aa3cdc34bae3357e20a0639612549959ac55444bfae554c0f17f48a9c46451",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -91660,6 +97116,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0129",
+        "version": 1,
+        "contentHash": "sha256:0cc71949200d5f7d2d43b507758a38cd66ccc5c40568ead40a234b01564c7d37",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -91710,6 +97169,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0130",
+        "version": 1,
+        "contentHash": "sha256:8db631471bcf1552634d23b84c7520eeae0b90e2931158fc59e8052961f92028",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -91760,6 +97222,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0131",
+        "version": 1,
+        "contentHash": "sha256:8521d338c415b3551ea7314ac5986a55d41cdc6ec225424a699470e8371ccc95",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -91810,6 +97275,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0132",
+        "version": 1,
+        "contentHash": "sha256:e23688af4722e9bfb82267ffc07a5259a19fc760a5e040c5e875c6b139021359",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -91860,6 +97328,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0133",
+        "version": 1,
+        "contentHash": "sha256:d9df419760b5b8a5263031c063ce189669048145010c6354cd548399a4c5f4a9",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -91906,10 +97377,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 133
+          "sequence": 133,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0134",
+        "version": 1,
+        "contentHash": "sha256:38acbf8009cb8c91a8897163ef5b861c7b789ef93197f6bc9e74c78fd6fcc5b2",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -91956,10 +97431,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 134
+          "sequence": 134,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0135",
+        "version": 1,
+        "contentHash": "sha256:6a5dd7b64465462f4b04d1cc95ef38a9bca16b1ba8cb430c83c11ac4c8625ccf",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -92006,10 +97485,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 135
+          "sequence": 135,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0136",
+        "version": 1,
+        "contentHash": "sha256:7aa577aedf8fa524cc80f24ad21d4b682341c4b34d52e66f507c6d19b9ef87c9",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -92056,10 +97539,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 136
+          "sequence": 136,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0137",
+        "version": 1,
+        "contentHash": "sha256:c77173a9b67519bdca127b97c8084b98e211d0de54f9c03b6b5b60b986967155",
         "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -92106,10 +97593,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 137
+          "sequence": 137,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0138",
+        "version": 1,
+        "contentHash": "sha256:908353627bdc77d5bda248dd659e1ede90e11663b05a5ef62cebad3cdacc1050",
         "question": "Grade 5 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -92156,10 +97647,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 138
+          "sequence": 138,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0139",
+        "version": 1,
+        "contentHash": "sha256:540b423d3e29bfadb81abf47cc879586b17db7240e1e545e1d6cc91c662462d9",
         "question": "Grade 5 Easy: Choose the best answer. Which spelling is correct?",
         "choices": [
           "becuase",
@@ -92210,6 +97705,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0140",
+        "version": 1,
+        "contentHash": "sha256:e5179c2920a1ad3b52bc4e72eb89bafa492c1ab4fc716e16085c26528b43e37e",
         "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a person who writes",
@@ -92260,6 +97758,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0141",
+        "version": 1,
+        "contentHash": "sha256:c73d19f259dc5a9a7bb624ce7c39a391b946ee975255ba473afd30dd7adf4f7a",
         "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "not visible",
@@ -92310,6 +97811,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0142",
+        "version": 1,
+        "contentHash": "sha256:b60d5e6da925cdda3648ffa165dc35e37eb0e547017e2936c23d7d279c10f5cf",
         "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a flying mammal",
@@ -92360,6 +97864,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0143",
+        "version": 1,
+        "contentHash": "sha256:989c5a07aee5fee954ddab09aebd4befae32673458c3fcc5faf236beb6d7d15c",
         "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "please",
@@ -92410,6 +97917,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0144",
+        "version": 1,
+        "contentHash": "sha256:bb2a36329ba90d44cb4d2e5a6fc063ab7c4c5773f3cb5dc42eafd39755387367",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "moved",
@@ -92460,6 +97970,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0145",
+        "version": 1,
+        "contentHash": "sha256:0139f3da1fb961c29cae96ca7927ccc580ba7d8625671d8fdc67f2a422c5fdfe",
         "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
         "choices": [
           "explosive",
@@ -92510,6 +98023,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0146",
+        "version": 1,
+        "contentHash": "sha256:bc422cc4c7f673de793234664e1e3e16ab4ee9b447679fc2907e1fd040ca799a",
         "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
         "choices": [
           "three",
@@ -92560,6 +98076,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0147",
+        "version": 1,
+        "contentHash": "sha256:0cc3828ec1d068975183b88b8dc5b5aa63daa42bd65ef9924e31274fdd0f01c9",
         "question": "Grade 5 Easy: Choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "paper",
@@ -92610,6 +98129,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0148",
+        "version": 1,
+        "contentHash": "sha256:7aa577aedf8fa524cc80f24ad21d4b682341c4b34d52e66f507c6d19b9ef87c9",
         "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "rake",
@@ -92656,10 +98178,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 148
+          "sequence": 148,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0149",
+        "version": 1,
+        "contentHash": "sha256:c77173a9b67519bdca127b97c8084b98e211d0de54f9c03b6b5b60b986967155",
         "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bend",
@@ -92706,10 +98232,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 149
+          "sequence": 149,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0150",
+        "version": 1,
+        "contentHash": "sha256:908353627bdc77d5bda248dd659e1ede90e11663b05a5ef62cebad3cdacc1050",
         "question": "Grade 5 Easy: Choose the best answer. Which word contains a silent letter?",
         "choices": [
           "knock",
@@ -92756,10 +98286,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 150
+          "sequence": 150,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0151",
+        "version": 1,
+        "contentHash": "sha256:9d8e806bdc65ada8283b7a6e87b668cb2d43937a9859eda2069a301621722813",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -92806,10 +98340,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 151
+          "sequence": 151,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0152",
+        "version": 1,
+        "contentHash": "sha256:cddcbba3567c6114dcc6a9e45d91de867f42cec3a8b994f732c985b8875df30a",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -92856,10 +98394,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 152
+          "sequence": 152,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0153",
+        "version": 1,
+        "contentHash": "sha256:d7d957d55633fce8d66db3cc62b6b02ca41c21c9fc6303c03970d7415c46cb3b",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -92906,10 +98448,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 153
+          "sequence": 153,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0154",
+        "version": 1,
+        "contentHash": "sha256:9735c70412bfff5cb44b80430193d6442aea5897a128dd1376758f40910f8ddd",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which spelling is correct?",
         "choices": [
           "because",
@@ -92960,6 +98506,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0155",
+        "version": 1,
+        "contentHash": "sha256:2771f0283e72e3dc367a2a4837477a9bd6916ec33da36b24e59b0231f7e6cb0c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a sound made underground",
@@ -93010,6 +98559,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0156",
+        "version": 1,
+        "contentHash": "sha256:9b0bd1c1b6847b43fbc124296fe65c789e848b5c5dd7cea2077475530472b628",
         "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
         "choices": [
           "against water",
@@ -93060,6 +98612,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0157",
+        "version": 1,
+        "contentHash": "sha256:7a7bc88255d1ac5c3c575890a818768476633afeefac01b1fcb14ff6448fd207",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "a folded paper",
@@ -93110,6 +98665,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0158",
+        "version": 1,
+        "contentHash": "sha256:d11050815fe9efaa7d44a7e9c8af74ff6c6a64d49726210f10697260fc0f932e",
         "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "park",
@@ -93160,6 +98718,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0159",
+        "version": 1,
+        "contentHash": "sha256:1fa1483aef65514384dea0199c9644d2c845341f2f53692fe8c1a7fbb9a26f57",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
         "choices": [
           "walked",
@@ -93210,6 +98771,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0160",
+        "version": 1,
+        "contentHash": "sha256:8a3fd9967f08872991d194717b3c2ba9aa4ff4ae8e12e18e6535340e5d235ffb",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
         "choices": [
           "livid",
@@ -93260,6 +98824,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0161",
+        "version": 1,
+        "contentHash": "sha256:01fd50864ae14ab6245fc65b7562b9fa47f8add371754e7dd12be75d542593f7",
         "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
         "choices": [
           "four",
@@ -93310,6 +98877,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0162",
+        "version": 1,
+        "contentHash": "sha256:f8c4190f923b4082fba068ae31d33d41295671b14ceebc65607c3445d401e036",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
         "choices": [
           "rabbit",
@@ -93360,6 +98930,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0163",
+        "version": 1,
+        "contentHash": "sha256:9d8e806bdc65ada8283b7a6e87b668cb2d43937a9859eda2069a301621722813",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
         "choices": [
           "ran",
@@ -93406,10 +98979,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 163
+          "sequence": 163,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0164",
+        "version": 1,
+        "contentHash": "sha256:cddcbba3567c6114dcc6a9e45d91de867f42cec3a8b994f732c985b8875df30a",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
         "choices": [
           "bead",
@@ -93456,10 +99033,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 164
+          "sequence": 164,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0165",
+        "version": 1,
+        "contentHash": "sha256:d7d957d55633fce8d66db3cc62b6b02ca41c21c9fc6303c03970d7415c46cb3b",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
         "choices": [
           "lock",
@@ -93506,10 +99087,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 165
+          "sequence": 165,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0166",
+        "version": 1,
+        "contentHash": "sha256:9d22188d269182260e17cabad3bc4b053a67bcfdaa9495faad5a3bc080ad219b",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -93556,10 +99141,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 166
+          "sequence": 166,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0167",
+        "version": 1,
+        "contentHash": "sha256:823bcf07fe97ba7d70e1d8b9623c4edb73af0fd7525a617776282d7ad19ffcfb",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -93606,10 +99195,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 167
+          "sequence": 167,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0168",
+        "version": 1,
+        "contentHash": "sha256:746d8f5da94fc69fdd4d1b4dc00fea137f2529b4bab1a5a9e7696d1e549edd21",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -93656,10 +99249,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 168
+          "sequence": 168,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0169",
+        "version": 1,
+        "contentHash": "sha256:5133e493d28e36af1867e75f81d38a1a8ab16f753f320576acaaf199749749ce",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
         "choices": [
           "beacuse",
@@ -93710,6 +99307,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0170",
+        "version": 1,
+        "contentHash": "sha256:46fc2950ed7ef7e04f837b210d170bec929fd49006d4aeea570b4e751bfa1f20",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
         "choices": [
           "a picture made with light",
@@ -93760,6 +99360,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0171",
+        "version": 1,
+        "contentHash": "sha256:1aa43243329dbe864c6469b3f35b0c839b5651d010e9ad4cd75ab26b6b5eea94",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
         "choices": [
           "full of light",
@@ -93810,6 +99413,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0172",
+        "version": 1,
+        "contentHash": "sha256:78617832b5475faaa1c8928df76b021d34c4d283e0972ae80c0540092f4d7613",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
         "choices": [
           "to hit something",
@@ -93860,6 +99466,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0173",
+        "version": 1,
+        "contentHash": "sha256:acf91216e908c06304091b5d02602bf4a8dbefeb17312ac0cff63305bfa973ef",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
         "choices": [
           "car",
@@ -93910,6 +99519,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0174",
+        "version": 1,
+        "contentHash": "sha256:802acf8bb0c1151b83c9cde872fffed51c1f661ad3b165e3f5114e44e5f10e56",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
         "choices": [
           "sprinted",
@@ -93960,6 +99572,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0175",
+        "version": 1,
+        "contentHash": "sha256:06acf6bd233912a71a3f2842a42c600954a9262e9bed55119d21f529f7488e62",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
         "choices": [
           "enraged",
@@ -94010,6 +99625,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0176",
+        "version": 1,
+        "contentHash": "sha256:a9d88a8f2ee1914560d7cc867f8d5fdf5140ddf77f0a32f92d8aa52bc9115ab2",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
         "choices": [
           "two",
@@ -94060,6 +99678,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0177",
+        "version": 1,
+        "contentHash": "sha256:12905e73939ae8e7279779a729bd698f59c41000cbf3205dcded3cfc80a6ab90",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
         "choices": [
           "music",
@@ -94110,6 +99731,9 @@
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0178",
+        "version": 1,
+        "contentHash": "sha256:9d22188d269182260e17cabad3bc4b053a67bcfdaa9495faad5a3bc080ad219b",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
         "choices": [
           "rain",
@@ -94156,10 +99780,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 178
+          "sequence": 178,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0179",
+        "version": 1,
+        "contentHash": "sha256:823bcf07fe97ba7d70e1d8b9623c4edb73af0fd7525a617776282d7ad19ffcfb",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
         "choices": [
           "bad",
@@ -94206,10 +99834,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 179
+          "sequence": 179,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "vocabulary-spelling-patterns-q0180",
+        "version": 1,
+        "contentHash": "sha256:746d8f5da94fc69fdd4d1b4dc00fea137f2529b4bab1a5a9e7696d1e549edd21",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
         "choices": [
           "sock",
@@ -94256,7 +99888,8 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "vocabulary-spelling-patterns",
-          "sequence": 180
+          "sequence": 180,
+          "allowDuplicateContentHash": true
         }
       }
     ],

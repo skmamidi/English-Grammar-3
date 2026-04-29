@@ -3,6 +3,10 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const {
+  buildQuestionId,
+  computeContentHash
+} = require('./qa/question-metadata');
 
 const repoRoot = path.resolve(__dirname, '..');
 const bankDir = path.join(repoRoot, 'assets', 'question-banks');
@@ -30,6 +34,7 @@ function main() {
   addStudyAidDivisions(syllableMap, banks);
 
   for (const item of banks) {
+    checkStableIdentity(item);
     checkCorrectIndex(item);
     checkIncorrectExplanationShape(item);
     checkSyllableCountChoice(item, syllableMap);
@@ -37,6 +42,8 @@ function main() {
     checkClosedFirstSyllable(item, syllableMap);
     checkSyllableDivisionChoice(item, syllableMap);
   }
+  checkGlobalStableIdUniqueness(banks);
+  checkSetIdentityCollections(banks);
 
   const errors = issues.filter(issue => issue.level === 'error');
   const warnings = issues.filter(issue => issue.level === 'warning');
@@ -54,6 +61,88 @@ function main() {
 
   console.log(`Checked ${banks.length} questions. ${errors.length} error(s), ${warnings.length} warning(s).`);
   if (errors.length) process.exitCode = 1;
+}
+
+function checkStableIdentity(item) {
+  const { question, setId } = item;
+  if (!question) return;
+  const metadata = question.metadata || {};
+  const locationPrompt = question.question || '';
+  if (!question.id || typeof question.id !== 'string') {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, 'Missing stable question id.');
+  } else if (!question.id.startsWith(`${setId}-q`)) {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, `Stable question id "${question.id}" must start with "${setId}-q".`);
+  }
+
+  if (!Number.isInteger(question.version) || question.version < 1) {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, 'Question version must be an integer >= 1.');
+  }
+
+  if (!question.contentHash || typeof question.contentHash !== 'string') {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, 'Missing contentHash.');
+  } else if (!/^sha256:[a-f0-9]{64}$/.test(question.contentHash)) {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, `Invalid contentHash "${question.contentHash}".`);
+  } else {
+    const expectedHash = computeContentHash(question);
+    if (question.contentHash !== expectedHash) {
+      addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, `contentHash is stale. Expected ${expectedHash}.`);
+    }
+  }
+
+  if (metadata.sourceSet !== setId) {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, `metadata.sourceSet must match containing set "${setId}".`);
+  }
+  if (!Number.isInteger(metadata.sequence) || metadata.sequence < 1) {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, 'metadata.sequence must be an integer >= 1.');
+  } else if (question.id && question.id.startsWith(`${setId}-q`) && question.id !== buildQuestionId(setId, metadata.sequence)) {
+    addIssue('error', item.file, setId, item.sequence, item.questionNumber, locationPrompt, `Stable question id "${question.id}" is not aligned with metadata.sequence ${metadata.sequence}.`);
+  }
+}
+
+function checkGlobalStableIdUniqueness(items) {
+  const seen = new Map();
+  items.forEach(item => {
+    const id = item.question && item.question.id;
+    if (!id) return;
+    const previous = seen.get(id);
+    if (previous) {
+      addIssue('error', item.file, item.setId, item.sequence, item.questionNumber, item.question.question, `Duplicate stable question id "${id}" also appears at ${previous}.`);
+    } else {
+      seen.set(id, `${path.relative(repoRoot, item.file)} | ${item.setId} | question ${item.questionNumber}`);
+    }
+  });
+}
+
+function checkSetIdentityCollections(items) {
+  const bySet = new Map();
+  items.forEach(item => {
+    const key = `${item.file}::${item.setId}`;
+    if (!bySet.has(key)) bySet.set(key, []);
+    bySet.get(key).push(item);
+  });
+
+  bySet.forEach(setItems => {
+    const sequences = new Map();
+    const hashes = new Map();
+    setItems.forEach(item => {
+      const question = item.question || {};
+      const sequence = question.metadata && question.metadata.sequence;
+      if (Number.isInteger(sequence)) {
+        if (sequences.has(sequence)) {
+          addIssue('error', item.file, item.setId, sequence, item.questionNumber, question.question, `Duplicate metadata.sequence ${sequence} also appears at question ${sequences.get(sequence)}.`);
+        } else {
+          sequences.set(sequence, item.questionNumber);
+        }
+      }
+      if (question.contentHash) {
+        if (hashes.has(question.contentHash) && !(question.metadata && question.metadata.allowDuplicateContentHash)) {
+          addIssue('error', item.file, item.setId, sequence, item.questionNumber, question.question, `Duplicate contentHash also appears at question ${hashes.get(question.contentHash)}.`);
+        } else {
+          hashes.set(question.contentHash, item.questionNumber);
+        }
+      }
+    });
+  });
 }
 
 function loadQuestionBanks() {

@@ -10,6 +10,9 @@
     "topic": "Capitalization",
     "questions": [
       {
+        "id": "capitalization-sentence-beginning-q0001",
+        "version": 1,
+        "contentHash": "sha256:9e945bae4fa8232e513c60029ad814426beae7e7d7a9acb3f2e1e281f02a44e1",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "Before the bell rang, The class packed up.",
@@ -64,6 +67,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0002",
+        "version": 1,
+        "contentHash": "sha256:4259ecf5bd36a320c7630511ee8f20b87ac3b64e57e4c9b1e5da0c19641f702c",
         "question": "Which choice handles the quotation and dialogue tag correctly?",
         "choices": [
           "\"can we visit the museum?\" asked Priya.",
@@ -118,6 +124,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0003",
+        "version": 1,
+        "contentHash": "sha256:29260d61858d5128c848aefa1889a4f688a30806199118af0c8579414a5d6f79",
         "question": "Which sentence is edited correctly?",
         "choices": [
           "After Lunch, \"We will rehearse,\" said Mr. Ortiz.",
@@ -172,6 +181,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0004",
+        "version": 1,
+        "contentHash": "sha256:c19c67e3d4563c1560f6a2cafb583cb5148c6f8309b2b86d478bc53d75ee22e2",
         "question": "Which version avoids unnecessary capitals?",
         "choices": [
           "when the lights flickered, everyone froze.",
@@ -226,6 +238,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0005",
+        "version": 1,
+        "contentHash": "sha256:5c693753361871ec1abc0a75b54f21e443deb1614668b950112318954386f226",
         "question": "Which sentence is capitalized correctly after an interruption in dialogue?",
         "choices": [
           "\"I think,\" Nora whispered, \"We should wait.\"",
@@ -280,6 +295,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0006",
+        "version": 1,
+        "contentHash": "sha256:884f6019fdcdda07ed52ed9190d20d29b965106d90134e9ec3cd50ac8665d66c",
         "question": "Which sentence correctly capitalizes a new sentence after a question mark?",
         "choices": [
           "Did the bus leave? We may have missed it.",
@@ -334,6 +352,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0007",
+        "version": 1,
+        "contentHash": "sha256:be23664a7a78a6a8ddc91389c03e816634724a198aa6eeddae01f18e4a1ca6da",
         "question": "Which sentence uses capitals correctly?",
         "choices": [
           "no, I have not finished the chart.",
@@ -388,6 +409,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0008",
+        "version": 1,
+        "contentHash": "sha256:28315f291c2533290db9446021fc345c6ebf9b62af75f4d4bc78f2f81d6e172b",
         "question": "Which choice is correct?",
         "choices": [
           "\"Please hurry,\" said Malik, \"The game starts soon.\"",
@@ -442,6 +466,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0009",
+        "version": 1,
+        "contentHash": "sha256:0804e1a1a606030409b80b683ab929b85e586d03e107ae9d8677e49a34f0d7b5",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "Because the storm ended, The team returned to practice.",
@@ -496,6 +523,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0010",
+        "version": 1,
+        "contentHash": "sha256:05e29da5f75a0df7f203256f418ea54a10585ccfd4707401a793a9e71c8e5950",
         "question": "Which sentence handles two complete sentences correctly?",
         "choices": [
           "The timer buzzed. The cookies were ready.",
@@ -550,6 +580,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0011",
+        "version": 1,
+        "contentHash": "sha256:96975d58caf98fac6f885debb4ad53b4ccd52caee128aee0fe5260b51079bc49",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "in the morning, I read quietly.",
@@ -604,6 +637,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0012",
+        "version": 1,
+        "contentHash": "sha256:45364413af627e824b95f1386dfe7f0870a8894c7a7ad5ab590f9afe88b78f64",
         "question": "Which choice correctly capitalizes the sentence and the direct quote?",
         "choices": [
           "Talia Asked, \"Where did you put my notes?\"",
@@ -658,6 +694,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0013",
+        "version": 1,
+        "contentHash": "sha256:51b63cffa1718097921e6100aeea17b8ff0622959435ebf5e895d86375f2d994",
         "question": "Which sentence avoids the common error after a colon?",
         "choices": [
           "Remember this rule: always check the first word.",
@@ -712,6 +751,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0014",
+        "version": 1,
+        "contentHash": "sha256:7c169851024a902e35e09e960d6364e7b4db889b006e8dda6d4d2f46cbc12b52",
         "question": "Which sentence is correct?",
         "choices": [
           "\"look at the scoreboard!\" shouted Ava.",
@@ -766,6 +808,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0015",
+        "version": 1,
+        "contentHash": "sha256:65a19a9c138750ee8dd58337bd00c3cd51d0faffe6c287a2cc9c70174b19a39b",
         "question": "Which edited sentence is best?",
         "choices": [
           "Although I wanted to stop, i kept running.",
@@ -820,6 +865,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0016",
+        "version": 1,
+        "contentHash": "sha256:455d4fb0a80c794284042e0bc5ae10e87a09b0367976c039187c1651cb5a38dc",
         "question": "Which of the following should have the first word capitalized?",
         "choices": [
           "after a while, the children became tired.",
@@ -875,6 +923,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0017",
+        "version": 1,
+        "contentHash": "sha256:fc9b8700063663f2f06b3d1b026d3f3510655a72df609857190869161c53f990",
         "question": "Which of the underlined words below should be capitalized? churches, schools, and hospitals are all examples of buildings.",
         "choices": [
           "churches",
@@ -930,6 +981,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0018",
+        "version": 1,
+        "contentHash": "sha256:100ff427dc90b758190166b049e37a78c4fc93b2416cbdb80ddfe0ffa8cba70c",
         "question": "__________ found a bag of candy. Which of the following completes the sentence correctly?",
         "choices": [
           "a Policeman",
@@ -985,6 +1039,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0019",
+        "version": 1,
+        "contentHash": "sha256:9531dfcfd4bdc38ebd73d82d67f1964dcb92602bf4a13cca9c526a21e9377c5d",
         "question": "Choose the missing words in the following sentenc e. ______________ ate lunch together.",
         "choices": [
           "yesterday, Margi and Mary",
@@ -1040,6 +1097,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0020",
+        "version": 1,
+        "contentHash": "sha256:693be0ff5e0394ccd3d2aee7a81e27dfb7932ef4224294389b625502b63afe3a",
         "question": "Which of the following must always be capitalized?",
         "choices": [
           "first word of a sentence",
@@ -1095,6 +1155,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0021",
+        "version": 1,
+        "contentHash": "sha256:54f99d365401d7695ee3a0c8a1c315d7fa66c7aa3f67799914d8c03591b9a4b7",
         "question": "Which words in the passage below should be capitalized? my dog is a golden retriever and he loves water. you should see marshall dive for rocks! down under the surface he goes, and up he comes with a nose full of water and a huge rock in his mouth!",
         "choices": [
           "my, you, marshall, down",
@@ -1150,6 +1213,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0022",
+        "version": 1,
+        "contentHash": "sha256:83daa63a8f61acd4b7c433836b402e7b228b88e4433e8c0469893b771f05be66",
         "question": "Which sentence is written correctly?",
         "choices": [
           "all the children wanted to pet the cute, warm, cu ddly kitten.",
@@ -1205,6 +1271,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0023",
+        "version": 1,
+        "contentHash": "sha256:6c6399a4387bf3c720f5a6625008475cf3df87c0965e619c4151e06040094027",
         "question": "Which closing for a letter is correctly written?",
         "choices": [
           "Thank You,",
@@ -1261,6 +1330,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0024",
+        "version": 1,
+        "contentHash": "sha256:789594d9c377c3d01a89d418d0364575dd47a011c705b04afdfddfa9fbadc3f9",
         "question": "Which of the following should have the first word capitalized?",
         "choices": [
           "all the dishes in the dishwasher.",
@@ -1317,6 +1389,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0025",
+        "version": 1,
+        "contentHash": "sha256:459df880499766743a9a7325b842a935524e71714e53db3d40b8baa831838b12",
         "question": "Which sentence has a capital letter in the correct place?",
         "choices": [
           "Polar bears like the cold.",
@@ -1373,6 +1448,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0026",
+        "version": 1,
+        "contentHash": "sha256:bc5631bc13e9ea9fc871385ae587a96fb708f2b7ad8b18a6a419996f35259b56",
         "question": "Which words should be capitalized in the sentence below? the plumber fixedour shower door and mr. hews mowedour grass.",
         "choices": [
           "the, plumber, hews",
@@ -1429,6 +1507,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0027",
+        "version": 1,
+        "contentHash": "sha256:d2631d2b67929197e19707df59b32f5457d23988464a5c5372547ddd92bf37a7",
         "question": "Which of the following should have the first word capitalized?",
         "choices": [
           "flew to its hidden nest in the tree",
@@ -1485,6 +1566,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0028",
+        "version": 1,
+        "contentHash": "sha256:8addec51540174121c9476a411e989de6e51aa2e73b2f96ac1e5726a40b260aa",
         "question": "Which words in the sentence are capitalized incorrectly? my mother asked, “do you want to go to Hawaii this spring?”",
         "choices": [
           "my, Haw aii",
@@ -1541,6 +1625,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0029",
+        "version": 1,
+        "contentHash": "sha256:ec471f7592b47ec261e1b45327e2d45b4ece44c15d59879741575850479cfdf3",
         "question": "Which word should start with a capital letter?",
         "choices": [
           "jupiter",
@@ -1597,6 +1684,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0030",
+        "version": 1,
+        "contentHash": "sha256:c1784fca5af169894887957f39d7f39784b02443e0cbde53f53208279a6c0b45",
         "question": "Which of the following would most likely not be capitalized?",
         "choices": [
           "first word of a quote",
@@ -1651,10 +1741,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 23
+          "sequence": 30
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0059",
+        "version": 1,
+        "contentHash": "sha256:eaf2fafcaee5088ffdc207d0a375d09e2be7937e5ed00e31ffca77d79b11dd12",
         "question": "Choose the answer that fits best in the blank and shows co rrect capitalization and punctuation. The new sch ool will open ____________.",
         "choices": [
           "August 15 2020",
@@ -1713,6 +1806,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0074",
+        "version": 1,
+        "contentHash": "sha256:bd480d56703ebf9e07390cf468522edc34d8e180c731eb9b5b98cf2f51007f4e",
         "question": "Choose the sentence that shows correct punctuation and capitalization.",
         "choices": [
           "Christ ine gave joshua her stuffed animal.",
@@ -1771,6 +1867,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0084",
+        "version": 1,
+        "contentHash": "sha256:f083c32e7722bc7fffa9ec4b21d964782114e4fd8194beb9dd388c34e821c483",
         "question": "Choose the sentence that shows correct punctuation and capitalization.",
         "choices": [
           "Amanda screamed, “cockroach!” Oh my gosh, there is a",
@@ -1829,6 +1928,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0091",
+        "version": 1,
+        "contentHash": "sha256:5ffdad6853c3e9c6b6d67e9ef916a5f66d6c070a766bba1fed7fdb8b7f87cd17",
         "question": "Identify the sentence with the correct capitalization.",
         "choices": [
           "Zach ordered Grilled Cheese from a restaura nt called Grilled Cheese company in Dallas, Texas.",
@@ -1887,6 +1989,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0101",
+        "version": 1,
+        "contentHash": "sha256:c44a172b8dedb1334d2378670d2621fbbcc94bf7e34aab8c2d4e61f943f6a618",
         "question": "Which word in the following sentence should be capitalized? We camped out all night at the store to take advantage of the christmas sa le.",
         "choices": [
           "camp ed",
@@ -1945,6 +2050,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0111",
+        "version": 1,
+        "contentHash": "sha256:b1e37361e77f3e14deea377b3f00029ff7a62c2e0849c54eee8db96ea29c4547",
         "question": "Identify the sentence with the correct capitalization.",
         "choices": [
           "We welcome mayor davis as our Lead Speaker.",
@@ -2003,6 +2111,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0035",
+        "version": 1,
+        "contentHash": "sha256:bff8cf63bfc69b276c7cceacb9cae7f70d256af043e70e01197e801a1d6c35b7",
         "question": "Which of the following should be capitalized?",
         "choices": [
           "city",
@@ -2061,6 +2172,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0050",
+        "version": 1,
+        "contentHash": "sha256:d1a25c8927774ed3a96070001847f4886f4f437e43d4e1aa9339f02afda62f13",
         "question": "Choose the correctly capitalized version of the below letter closing. sincerely yours, james hadley",
         "choices": [
           "Sin cerely Yours, James Hadley",
@@ -2119,6 +2233,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0071",
+        "version": 1,
+        "contentHash": "sha256:3ef64ff91fa06a745c0180ee3f1efd071ed0376c190b36b4c1e995f16788d83d",
         "question": "Which incorrectly capitalized? word is We saw the Old Faithful trip to Yellowstone National Park Geyser on our",
         "choices": [
           "Old",
@@ -2177,6 +2294,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0104",
+        "version": 1,
+        "contentHash": "sha256:e76b84480ea7025c6551078ebc2cfc0392c22568cf45e05a87d7ca495da3f506",
         "question": "Choose the correctly capitalized version of the sentence below. The entire family is excited and looking forward to our vacation with uncle jerry, my aunt, grannie, and my grandpa.",
         "choices": [
           "The entire Family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.",
@@ -2235,6 +2355,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0140",
+        "version": 1,
+        "contentHash": "sha256:63d5056bb1fda3ddd5df453f8f970252ac16f9805322c1b15f207ce4a7480763",
         "question": "Edit the sentence below for capitalization. Choose the sentence that is correctly written. Next fall, I registered to take german, biology, english, and band.",
         "choices": [
           "N ext Fall, I registered to take German, biology, English, and band.",
@@ -2293,6 +2416,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0152",
+        "version": 1,
+        "contentHash": "sha256:d78699c74c6874c2afe57bdb711143db9f173b7917acdad87b2872516e32af56",
         "question": "Which of the following should be capitalized?",
         "choices": [
           "verb s",
@@ -2351,6 +2477,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0203",
+        "version": 1,
+        "contentHash": "sha256:521a323405b0e75130312f836ff44f95b9f063c00d9b27976d763ce5c1288bda",
         "question": "Which answer is capitalized correctly?",
         "choices": [
           "grocery store",
@@ -2409,6 +2538,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0275",
+        "version": 1,
+        "contentHash": "sha256:a0a88319f4582e3d4e3f9905cd76b1a86945bb9b17bc97f908a31641b3755eb2",
         "question": "Which word is correctly capitalized? My Teacher can speak hindi and english, and she writes child ren’s books.",
         "choices": [
           "Teacher",
@@ -2467,6 +2599,9 @@
         }
       },
       {
+        "id": "capitalization-sentence-beginning-q0305",
+        "version": 1,
+        "contentHash": "sha256:f93434adcadc276c1aa7141253940663195f6e45e1e68f1dd4e89c7fee53df30",
         "question": "Which answer is capitalized correctly?",
         "choices": [
           "French Speaking",
@@ -2545,6 +2680,9 @@
     "topic": "Capitalization",
     "questions": [
       {
+        "id": "capitalization-days-months-holidays-q0001",
+        "version": 1,
+        "contentHash": "sha256:1523f8f538ad2bcf3db1fb86692cdac210f6f4d032c3a732e1a3e41f95ea2078",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "Our Spring concert is on Friday in April.",
@@ -2599,6 +2737,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0002",
+        "version": 1,
+        "contentHash": "sha256:0791d038516eed9eeafe3b3b5d1338f2da87aa3d19151d9a252f071e43a703ca",
         "question": "Which sentence correctly handles a holiday and a season?",
         "choices": [
           "We visit Grandma during winter and on Thanksgiving.",
@@ -2653,6 +2794,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0003",
+        "version": 1,
+        "contentHash": "sha256:f22983219286ad322a38b187865c0e5951630663b3161529ef6877285bba1b65",
         "question": "Which option is capitalized correctly?",
         "choices": [
           "The Memorial Day parade starts on Monday.",
@@ -2707,6 +2851,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0004",
+        "version": 1,
+        "contentHash": "sha256:f8ea04eebac6d3badba19e1c8eae23364b5855d98d1ecd708944333bac4cd0ff",
         "question": "Which sentence avoids overcapitalizing a general event?",
         "choices": [
           "The Winter festival begins in February.",
@@ -2761,6 +2908,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0005",
+        "version": 1,
+        "contentHash": "sha256:c7433eee8d9bf43864dc35b737d44eacf2b435eb7e302f8650c42f5356a8ce4b",
         "question": "Which sentence is correct?",
         "choices": [
           "On New Year's Eve, we stayed awake until midnight.",
@@ -2815,6 +2965,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0006",
+        "version": 1,
+        "contentHash": "sha256:b19b5f3fdbaaa1c9d4fc079b6f0e352679a04435426db50078501495832c0978",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "School starts the tuesday after Labor Day.",
@@ -2869,6 +3022,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0007",
+        "version": 1,
+        "contentHash": "sha256:15f762760d86b570b3bbab889e006fb1876861dace2f6ab75688b70270e0a287",
         "question": "Which choice handles a month and a common noun correctly?",
         "choices": [
           "The science fair moved from March to May.",
@@ -2923,6 +3079,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0008",
+        "version": 1,
+        "contentHash": "sha256:148a6cfcd6a6823e51cb716584170facbaae81fe11303fca0950ab43e332cb88",
         "question": "Which sentence correctly capitalizes a holiday but not a general break?",
         "choices": [
           "Our Spring break begins after Presidents' day.",
@@ -2977,6 +3136,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0009",
+        "version": 1,
+        "contentHash": "sha256:4c892ca8e2c4d4f79a765763184212b0d4b0b4d9a75851ab78e0c1b42f3f9b67",
         "question": "Which sentence is correct?",
         "choices": [
           "We have a test next Wednesday, not this thursday.",
@@ -3031,6 +3193,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0010",
+        "version": 1,
+        "contentHash": "sha256:79b45bfaaf6d9161ddeb1546edfeadabb3310c0934ea2c2b076a17ca4f82cba3",
         "question": "Which sentence correctly treats a holiday and ordinary words?",
         "choices": [
           "The Fourth Of July Fireworks lit up the park.",
@@ -3085,6 +3250,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0011",
+        "version": 1,
+        "contentHash": "sha256:f0c703a364a6708109b3c2ad5c69fd6061af4e334b43dc7c8cb5cf915b39d2f8",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "The class party is on Valentine's day in February.",
@@ -3139,6 +3307,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0012",
+        "version": 1,
+        "contentHash": "sha256:3812a98cc7fbcfd917547ab6cc8e973953a62fec7cc98c5fdb8614b1f9e70110",
         "question": "Which option is correct?",
         "choices": [
           "During autumn, we celebrate Halloween in october.",
@@ -3193,6 +3364,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0013",
+        "version": 1,
+        "contentHash": "sha256:cd86f56f64f5a9f47946a2def5d21210c954181e68cd56aeb7da577110018de2",
         "question": "Which sentence correctly capitalizes a specific school event name?",
         "choices": [
           "The Riverdale Fall Festival is on Saturday.",
@@ -3247,6 +3421,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0014",
+        "version": 1,
+        "contentHash": "sha256:596a17adfe5c9cd0f3b5f6367600d60d6bf10a539c43569e6ce521104c7a609c",
         "question": "Which sentence avoids capitalizing a season adjective?",
         "choices": [
           "Our Summer Reading List is due in August.",
@@ -3301,6 +3478,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0015",
+        "version": 1,
+        "contentHash": "sha256:2cabb78a177ee030b48c703f0a8c158da37647799454b4d949e5f92f782118d4",
         "question": "Which sentence is edited correctly?",
         "choices": [
           "The Concert moved to Friday because Christmas eve is Thursday.",
@@ -3355,6 +3535,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0016",
+        "version": 1,
+        "contentHash": "sha256:0f1bc0fd0a413cc9211c683250dc57b2b39ad75c0ba8163548ffd2a05041164c",
         "question": "Which sentence has been capitalized correctly?",
         "choices": [
           "Mayor Brown, the Mayor of our city, is a remarkable woman.",
@@ -3410,6 +3593,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0017",
+        "version": 1,
+        "contentHash": "sha256:b5bcc4d1f0a79569067e4f807677d67b5cc1c4668574279fda6651072e7cd26c",
         "question": "In the sentence below, which word needs a capital letter? I will have a party the first tuesday of May.",
         "choices": [
           "tuesday",
@@ -3465,6 +3651,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0018",
+        "version": 1,
+        "contentHash": "sha256:7a298cfd176226864f040d95ba063b34a5f128e93400e8462ff11a86f67556e6",
         "question": "Which words should be capitalized? We crossed the mississippi river on a warm tuesday.",
         "choices": [
           "mississippi, warm",
@@ -3520,6 +3709,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0019",
+        "version": 1,
+        "contentHash": "sha256:75a9fa2285c42368a0aac9ba98432e00cecfec489edede6a908b1162d0ae1fb5",
         "question": "Which pair of words must be capitalized in this sentence? Our town has a festival of trees during the christmas season.",
         "choices": [
           "town, festival",
@@ -3576,6 +3768,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0020",
+        "version": 1,
+        "contentHash": "sha256:3cf3564dda9fe7664df43ef3447988dbcadd5fb2d4eb1e42b337a8b15a68cd23",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "Hanukkah begins on the last saturday in November.",
@@ -3632,6 +3827,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0021",
+        "version": 1,
+        "contentHash": "sha256:95eacf80e15f16cd438553057f7eea15e8aedd25635021ea8a6cfd0b48b7bdee",
         "question": "Which word should not start with a capital letter?",
         "choices": [
           "Tuesday",
@@ -3688,6 +3886,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0022",
+        "version": 1,
+        "contentHash": "sha256:f8778a8ec54dde24b747bf582cb83862641164cfb4d0ded2b7d68c87415e279d",
         "question": "Read the passage below. It all started when I left school on the last day of the year. When I got home, the minivan was packed, and mom and dad were waiting for me. We stopped at McDonald’s on our wayoutof town. Choose the best title for the passage.",
         "choices": [
           "Wh en My Little Brother Was Born",
@@ -3744,6 +3945,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0023",
+        "version": 1,
+        "contentHash": "sha256:18ce031f78795392c3467ca13d560f58be01d2977f3508f9da076404463538aa",
         "question": "Which sentence has all the capital letters in the correct place?",
         "choices": [
           "We took the train from Paris to London on Tuesday.",
@@ -3800,6 +4004,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0037",
+        "version": 1,
+        "contentHash": "sha256:fb3c771c8689ecfc2d420458dcda806fac230cac5ccafa25aa5e1c9a1c3f45d1",
         "question": "Choose the sentence that is punctuated correctly.",
         "choices": [
           "“Go od grief!” he said, “Is that true?”",
@@ -3858,6 +4065,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0073",
+        "version": 1,
+        "contentHash": "sha256:bfb2e51833a181b47ce97ee164f29bfeeb30855e578340a06e39e5fd687f855a",
         "question": "Which of the following should not be capitalized?",
         "choices": [
           "common nouns",
@@ -3916,6 +4126,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0083",
+        "version": 1,
+        "contentHash": "sha256:cb8f0f48f4b568892f9eeccd0bc20d66c7d5bd74a06e7e0bfc3d333624f20f32",
         "question": "Identify the words that need to be capitalized in the below sentence. Although fall and winter are my favorite seasons, our family gathering on easter makes april my favorite month.",
         "choices": [
           "Fall, April",
@@ -3974,6 +4187,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0103",
+        "version": 1,
+        "contentHash": "sha256:dcf26e56820e04ca6eaab58605dbddd5c1ed3919fc0b7893112992e10627ffb6",
         "question": "Which of the following should not be capitalized?",
         "choices": [
           "p roper nouns",
@@ -4032,6 +4248,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0028",
+        "version": 1,
+        "contentHash": "sha256:b9fa7c5d744750acd4f11ef6c9a203201015919d86d27ce3ed4b53b334edce29",
         "question": "Identify the words that need to be capitalized i n the sentence below. mother and father plan to celebrate by having us color easter eggs.",
         "choices": [
           "Mother, Easter",
@@ -4086,10 +4305,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 8
+          "sequence": 28
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0173",
+        "version": 1,
+        "contentHash": "sha256:2504eb8ce8be89f719e5e99fcce1d00321f5c82720da83434badf160a21e16e6",
         "question": "Which word is correctly capitalized? Memorial Day is a great Holiday to visit the grand canyon.",
         "choices": [
           "Day",
@@ -4148,6 +4370,9 @@
         }
       },
       {
+        "id": "capitalization-days-months-holidays-q0233",
+        "version": 1,
+        "contentHash": "sha256:e6b329e19c8c83b1ec6f46239534018e941f91f2094dac40b9ffc75f29672742",
         "question": "Choose the answer that shows capitalization and punctuation. correct Easter falls on a different date each year, but this year it will be on sunday april 12 2020.",
         "choices": [
           "sunday, april 12, 2020",
@@ -4226,6 +4451,9 @@
     "topic": "Capitalization",
     "questions": [
       {
+        "id": "capitalization-books-magazines-songs-plays-q0001",
+        "version": 1,
+        "contentHash": "sha256:c3cfa89229a66932c047f4e19106ead7369ee99f5d3cff682a7cd3c753154096",
         "question": "Which title is capitalized correctly?",
         "choices": [
           "The Lion, The Witch and The Wardrobe",
@@ -4280,6 +4508,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0002",
+        "version": 1,
+        "contentHash": "sha256:014c5f3de7c4fb650ab2cf29ae930f11d6eba819605064565e9bb634f507b168",
         "question": "Which sentence correctly capitalizes a book title?",
         "choices": [
           "We read The Tale Of Despereaux after lunch.",
@@ -4334,6 +4565,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0003",
+        "version": 1,
+        "contentHash": "sha256:1446d349a2e0ce84018ccfb1d23add43eb567f9626afc2d05c8104c1063afa7e",
         "question": "Which song title is capitalized correctly?",
         "choices": [
           "Here comes the Sun",
@@ -4388,6 +4622,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0004",
+        "version": 1,
+        "contentHash": "sha256:6a52e9d2b7c81432901f6a6f177ad360db7bea83d679a8331993252e90ad98bd",
         "question": "Which magazine title and sentence are capitalized correctly?",
         "choices": [
           "My article appeared in national Geographic kids.",
@@ -4442,6 +4679,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0005",
+        "version": 1,
+        "contentHash": "sha256:532f53381b25a781e26980b2ccd295bb9b8ddc823811b7a378a0f76a1838bf51",
         "question": "Which play title is correct?",
         "choices": [
           "A Raisin in the Sun",
@@ -4496,6 +4736,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0006",
+        "version": 1,
+        "contentHash": "sha256:07cfa701a1ae382e0b56cbba2183e179862e8d03c22c517f688304a38d8eaf23",
         "question": "Which sentence correctly capitalizes a poem title?",
         "choices": [
           "We discussed \"Stopping By Woods On A Snowy Evening.\"",
@@ -4550,6 +4793,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0007",
+        "version": 1,
+        "contentHash": "sha256:94e1199680799c272af0e1a19e3aa5c144bb86c3bcccc3f85317f4bc410175bf",
         "question": "Which title uses correct capitalization?",
         "choices": [
           "From the Mixed-up files of Mrs. Basil E. Frankweiler",
@@ -4604,6 +4850,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0008",
+        "version": 1,
+        "contentHash": "sha256:bdcd6e47e7797e0d36c7458286dc62fad3ce3d51043f3f7b4d41634fd9c59c53",
         "question": "Which sentence is correct?",
         "choices": [
           "The class sang \"This land Is Your land\" at the assembly.",
@@ -4658,6 +4907,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0009",
+        "version": 1,
+        "contentHash": "sha256:a15c3d2ca16ab059be7ec621bed26c1e5ade22623e43e65a0d65bc917043aad5",
         "question": "Which title is capitalized correctly?",
         "choices": [
           "Because of Winn-Dixie",
@@ -4712,6 +4964,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0010",
+        "version": 1,
+        "contentHash": "sha256:89de21f5c319d17e5406fd65b9246f2015b6c135a61ad882363868d458d6a2a4",
         "question": "Which sentence correctly capitalizes a newspaper name?",
         "choices": [
           "Dad reads the New York times every Sunday.",
@@ -4766,6 +5021,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0011",
+        "version": 1,
+        "contentHash": "sha256:e0f3a171322dd32f5112913891922f0b1b0af096e8dfe058c56381bd674e69b3",
         "question": "Which title is correct?",
         "choices": [
           "Where the sidewalk Ends",
@@ -4820,6 +5078,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0012",
+        "version": 1,
+        "contentHash": "sha256:74f5a5441da9fd11688e2f4e0b36a577f217b71de767a78c781a0c10916a3d93",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "We watched the Phantom Tollbooth before dinner.",
@@ -4874,6 +5135,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0013",
+        "version": 1,
+        "contentHash": "sha256:dcd44378c8cdd69f7e51b2c0c842128d36736b79383f660117475b39f1aadd70",
         "question": "Which title follows title capitalization rules?",
         "choices": [
           "The House on Mango Street",
@@ -4928,6 +5192,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0014",
+        "version": 1,
+        "contentHash": "sha256:cef0cdfbfb87bd8ffbc0b8d5e7f88ff27d9b400de26bfad9cd4ff6f32ae351e9",
         "question": "Which option correctly capitalizes both a title and a proper noun?",
         "choices": [
           "Maya borrowed The Cricket In Times Square from the library.",
@@ -4982,6 +5249,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0015",
+        "version": 1,
+        "contentHash": "sha256:dfcdce4829bd81f00bfd0ae0ade241a50d09d263062fb267cb5c937d9ee6cece",
         "question": "Which title is correct?",
         "choices": [
           "Alexander and the terrible, Horrible, No Good, Very Bad Day",
@@ -5036,6 +5306,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0016",
+        "version": 1,
+        "contentHash": "sha256:b60ce316c309af2ed5d8bf499f7a633e5164362bb18330ee3c435450854efc93",
         "question": "Which pair of words must be capitalized in the sentence below? The Lincoln high glee club sang before the los angeles lakers played last night.",
         "choices": [
           "club, sang",
@@ -5091,6 +5364,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0017",
+        "version": 1,
+        "contentHash": "sha256:9eeded110d4abb806171dc3ea6ca9927a53b2e3e3e2bcf1d9c9a7beb54da9fdd",
         "question": "Which sentence is correctly punctuated?",
         "choices": [
           "We read “Romeo and Juliet” in nin th grade.",
@@ -5146,6 +5422,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0018",
+        "version": 1,
+        "contentHash": "sha256:6f5838b7fe5f7a092f41d8c374cfc8b825c3bf77bfe2fb435269d3b80aede9e4",
         "question": "Choose the correctly capitalized words. ________________ is a book by Roald Dahl.",
         "choices": [
           "James and the giant peach",
@@ -5201,6 +5480,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0019",
+        "version": 1,
+        "contentHash": "sha256:937ec71cb62f656e02c90dbc0bc05196e62167fb1bc10bf4055fcfd11fd97ff2",
         "question": "Choose the correctly written book title.",
         "choices": [
           "Harry Po tter and The chamber of secrets",
@@ -5256,6 +5538,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0020",
+        "version": 1,
+        "contentHash": "sha256:bd4d04019a2c53bc2e5d30a65f0e2c454906b5a503592d13d7df03ec6a90f9fe",
         "question": "Which of the following book titles is correctly capitalized?",
         "choices": [
           "Of Mice And Men",
@@ -5311,6 +5596,9 @@
         }
       },
       {
+        "id": "capitalization-books-magazines-songs-plays-q0021",
+        "version": 1,
+        "contentHash": "sha256:b3781166d4f7cece615b9f31e4c1e693d9278dcc63d8d5119e890235a3819067",
         "question": "Which words in the book title should be capitalized? I enjoyed reading the novel call of the wild by Jack London.",
         "choices": [
           "call, the",
@@ -5386,6 +5674,9 @@
     "topic": "Capitalization",
     "questions": [
       {
+        "id": "capitalization-proper-names-titles-q0001",
+        "version": 1,
+        "contentHash": "sha256:ef1cf121fbd72603126328f1b2cb6c2678d8e592b6c8a4bf5b48bcba86900371",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "My Uncle Ray helped my uncle fix the fence.",
@@ -5440,6 +5731,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0002",
+        "version": 1,
+        "contentHash": "sha256:7a7ccf939675feefd9b376057a21c4f4a513b78bdf4ace2a5e5bdb2a25e11793",
         "question": "Which sentence correctly handles a title before a name and a common job title?",
         "choices": [
           "mayor Chen thanked the Mayor's assistant.",
@@ -5494,6 +5788,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0003",
+        "version": 1,
+        "contentHash": "sha256:e83e4190d50f7707dcef7bfde7df8ef59d17b8ac0e3699149422ae0f199a1460",
         "question": "Which sentence is correct?",
         "choices": [
           "Aunt Rosa invited my Aunt to dinner.",
@@ -5548,6 +5845,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0004",
+        "version": 1,
+        "contentHash": "sha256:c99c3ead128081ae9a06e243bc001c06b44a9374c101f2b70ed887a82fa39a0b",
         "question": "Which sentence capitalizes a school title correctly?",
         "choices": [
           "Principal gomez spoke to the principal after school.",
@@ -5602,6 +5902,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0005",
+        "version": 1,
+        "contentHash": "sha256:6af590ab6650ce83bc4b9ee54b4fc63533ef6d21f59215133dbd4d7c48ce327a",
         "question": "Which sentence correctly capitalizes a person's name but not a relationship word?",
         "choices": [
           "My cousin Elena called Grandpa after practice.",
@@ -5656,6 +5959,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0006",
+        "version": 1,
+        "contentHash": "sha256:336eea21bc3aa86cec3625515e0f9d546376c7739def5e8b73152f567f0d8fe7",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "coach Rivera said the Coach would arrive early.",
@@ -5710,6 +6016,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0007",
+        "version": 1,
+        "contentHash": "sha256:bd92297970340d1436419326ee700d497e7ea44bc3e725544830d0c720356aaa",
         "question": "Which sentence handles Mom and mother correctly?",
         "choices": [
           "Mom said my Mother can volunteer.",
@@ -5764,6 +6073,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0008",
+        "version": 1,
+        "contentHash": "sha256:101c01bce103160a4e5add8e15d74a96c605a71f64d6eefaa1a5983cd7d6b8ce",
         "question": "Which sentence is correct?",
         "choices": [
           "Dr. Patel and the Doctor reviewed the Chart.",
@@ -5818,6 +6130,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0009",
+        "version": 1,
+        "contentHash": "sha256:b34f7e6909cf4f70bf005164e1577aaad1493ed384b770f1ed26ce3e40ff5593",
         "question": "Which option correctly capitalizes a royal title?",
         "choices": [
           "Queen Elizabeth visited the queen's garden.",
@@ -5872,6 +6187,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0010",
+        "version": 1,
+        "contentHash": "sha256:f5d21d7e609339d9e8399d35026cf51f54ccbec9dea6c25a754f98bdb26c57ea",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "My Sister, Naomi, sat beside aunt Lee.",
@@ -5926,6 +6244,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0011",
+        "version": 1,
+        "contentHash": "sha256:8ab022307a97c8f6971d027fabd05b2e888bb49aae4749264d9f12a5290d2c15",
         "question": "Which sentence handles an elected title correctly?",
         "choices": [
           "Senator Brooks met with the Senator from our state.",
@@ -5980,6 +6301,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0012",
+        "version": 1,
+        "contentHash": "sha256:4448344ea525bf26886f12b96b45a427db2c028c5f4acf890080c6bd28ea4984",
         "question": "Which sentence is correct?",
         "choices": [
           "my dad asked Dad to save him a seat.",
@@ -6034,6 +6358,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0013",
+        "version": 1,
+        "contentHash": "sha256:08bdf47adcd32c95d97feb2b96b2c29289758974071af6fa991192734463283f",
         "question": "Which sentence correctly capitalizes a historical title?",
         "choices": [
           "President Lincoln was a president during the Civil War.",
@@ -6088,6 +6415,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0014",
+        "version": 1,
+        "contentHash": "sha256:3ef59a83e5745d06bf6a58ce9b00a75986256951aab3941e7da4522223948f23",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "professor Nguyen emailed the Professor after class.",
@@ -6142,6 +6472,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0015",
+        "version": 1,
+        "contentHash": "sha256:a38f50e31df7d9cd704d8e89a663ef223ea54a5c59b270ad94a47d4b9a5971a3",
         "question": "Which sentence avoids overcapitalizing a family word?",
         "choices": [
           "Grandma waved to my Grandmother from the porch.",
@@ -6196,6 +6529,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0016",
+        "version": 1,
+        "contentHash": "sha256:cb52ee38301a8416471f72ead5d17bff3fb6ace88d7a1e8f0837f7a7650233a1",
         "question": "Choose the correct missing words. ____________ had to put a cast on his broken arm.",
         "choices": [
           "d r. John Adams",
@@ -6251,6 +6587,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0017",
+        "version": 1,
+        "contentHash": "sha256:450a9801bfa2d12065adb4abf97fb48cc87f62f1a89f19379a44b5dcd5a304af",
         "question": "Which word in this letter has a capitalization error? Dear Juanita, Would you start dinner when you get home? love, Mom",
         "choices": [
           "Dear",
@@ -6306,6 +6645,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0018",
+        "version": 1,
+        "contentHash": "sha256:34262131a3c21cdc6deaf9d08ab72853d7b0bce2866c9d4e7ec0aac353850d21",
         "question": "Which underlined wo rd is inc orrectly capitalized? On vacation we went to see the Lincoln, Washington, and Jefferson monument in Washington, d.c.",
         "choices": [
           "Washington, d.c.",
@@ -6361,6 +6703,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0019",
+        "version": 1,
+        "contentHash": "sha256:a8e047875306e2906a79f9238edba3d2c588868deba56fd0e5ea42bf265ba6a3",
         "question": "Which sentence has words capitalized correctly?",
         "choices": [
           "We live at 1670 oak street.",
@@ -6416,6 +6761,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0020",
+        "version": 1,
+        "contentHash": "sha256:6be425fef89b5e95ea181953fb75e2ab3cbe33ef8a9114fee3fee022fe6fcaab",
         "question": "Which underlined word is incorrectly capitalized? In class last week we read a Spanish folk tale.",
         "choices": [
           "class",
@@ -6471,6 +6819,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0021",
+        "version": 1,
+        "contentHash": "sha256:c56b140368c2398d459d705ab343908c6babce0ebd0037211caa74b59d94da59",
         "question": "Identify which underlined words are proper nouns. On our vacation we visited many sites and places like Mt. Rushmore, old mining towns, forts, and museums.",
         "choices": [
           "Mt. Rushmore",
@@ -6526,6 +6877,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0022",
+        "version": 1,
+        "contentHash": "sha256:eb0378612c729bcf3af317509a05f19ee4e61b95cf657f6c3a28db5622eb005f",
         "question": "Choose the sentence that is written correctly.",
         "choices": [
           "i will go on the trip if I can.",
@@ -6581,6 +6935,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0023",
+        "version": 1,
+        "contentHash": "sha256:3dff5cdfb38ae30de153d55b0f1bfa1395b9951de3048422a07be42ca69856a2",
         "question": "Which words must be capitalized in this sentence? the new testament is part of the bible, christianity’s most holy book.",
         "choices": [
           "the, new, testament, holy, book",
@@ -6636,6 +6993,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0024",
+        "version": 1,
+        "contentHash": "sha256:14a96c39cc7023be08d70d21680df5bf0529ab0b14494a0d145ab74942fc4fa9",
         "question": "Identify the correctly capitalized title.",
         "choices": [
           "dr. Jones",
@@ -6691,6 +7051,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0025",
+        "version": 1,
+        "contentHash": "sha256:7d5d17b4193bd14a9cc890304b4592b78d3c527d0838bb5536fb7040b6409643",
         "question": "Which words are not correctly capitalized? The Columbia river flows under The Broadway Bridge in Portland, Oregon.",
         "choices": [
           "R iver, The",
@@ -6746,6 +7109,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0026",
+        "version": 1,
+        "contentHash": "sha256:e74e464d1fbe2e72c3372eaf2c96467d38ac328e2467c32ffdf82df20e675184",
         "question": "Which course title is correctly capitalized?",
         "choices": [
           "Histor y",
@@ -6801,6 +7167,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0027",
+        "version": 1,
+        "contentHash": "sha256:e9d3fc31022b9c72458943fb23a23e00323e0bf68384cbbc5799730c69fe057a",
         "question": "Which of the underlined words below is incorrectly capitalized? Mary beth Adams was chosen to be the captain of the cheerleading squad.",
         "choices": [
           "captain",
@@ -6856,6 +7225,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0028",
+        "version": 1,
+        "contentHash": "sha256:e69ef8f7dc2fa923a21535f905257053cb75e338a3923b7f67cd0590cd99576d",
         "question": "Choose the correct missing words. ______________ are going to the movies.",
         "choices": [
           "Jim and i",
@@ -6911,6 +7283,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0029",
+        "version": 1,
+        "contentHash": "sha256:00eec72b903847e876a16718167be0954d4453cc1a290ab0a4f988af547343ba",
         "question": "Which sentence is written correctly?",
         "choices": [
           "i think I need to do my homework before playing.",
@@ -6966,6 +7341,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0030",
+        "version": 1,
+        "contentHash": "sha256:6ee7d189b11d38c30edad53af8e792e6222cf0999512a5b17dabb793970005c3",
         "question": "Which word needs a capital letter? The students gave miss Smith a gift for her birthday.",
         "choices": [
           "birthday",
@@ -7021,6 +7399,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0031",
+        "version": 1,
+        "contentHash": "sha256:4c705cd604d99dc2989e1e6a5a23356a038f4c31832cc2b4df4d1815789b75a3",
         "question": "Which word needs a capital letter? I let rita borrow my jacket and soccer ball.",
         "choices": [
           "jacket",
@@ -7076,6 +7457,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0032",
+        "version": 1,
+        "contentHash": "sha256:37612fef3c0b06eb9b672537bd7f63ee78e350a9a6227e9bdc122ac43fe51ac5",
         "question": "Which of the following sentences is not capitalized correctly?",
         "choices": [
           "I won the race.",
@@ -7131,6 +7515,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0033",
+        "version": 1,
+        "contentHash": "sha256:a3052850d90b4a53a5d8442036b0f272995f43cbbc50f7d87c8d48be571947fd",
         "question": "Which of the following is a proper noun?",
         "choices": [
           "beth",
@@ -7186,6 +7573,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0034",
+        "version": 1,
+        "contentHash": "sha256:76eba903997ab777b9d380b42fac61ae0c4c4c39aa197777610778d8377400ce",
         "question": "Which of the following sentences is written corre ctly?",
         "choices": [
           "i think i’ll call her.",
@@ -7241,6 +7631,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0035",
+        "version": 1,
+        "contentHash": "sha256:8edd44db60671094958d34514d250a3bf909c6700748e03b3dc81d71eb2a016d",
         "question": "Which of the following is a proper noun?",
         "choices": [
           "p umpkin",
@@ -7296,6 +7689,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0036",
+        "version": 1,
+        "contentHash": "sha256:b0047828ba7a5ec5190cf8ae534836e7fb0429ba31de98eaf6fc2ccd878065af",
         "question": "Which words in the list below should be capitalized? buick vehicle chevrolet ford toyota",
         "choices": [
           "car, corvette, ford, toyota",
@@ -7351,6 +7747,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0037",
+        "version": 1,
+        "contentHash": "sha256:cac3e3b9ac0dedc6d6d8bd6a12c0da1f9a541b84c4caf7f1267850f09cc5ccdf",
         "question": "Identify the sentence below that is capitalized correctly.",
         "choices": [
           "Gerry loves Chinese food.",
@@ -7406,6 +7805,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0038",
+        "version": 1,
+        "contentHash": "sha256:b2c7c636080ac0cebb36f72f0df3ed02f0f190d6a5b644aaf1398ec211c545a6",
         "question": "Which word from the sentence below is a proper noun? Mrs. Smith teaches math class at the high school.",
         "choices": [
           "Mrs. Smith",
@@ -7461,6 +7863,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0039",
+        "version": 1,
+        "contentHash": "sha256:530981851ea6e45f8fb32accbba5c4e55f0ac56a3319238b332d58f3546b0ca0",
         "question": "Which of the following sentences is written correctly?",
         "choices": [
           "The liberty bell is a famous American monument.",
@@ -7516,6 +7921,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0040",
+        "version": 1,
+        "contentHash": "sha256:ab476418aecea0553c0999fdcf6e45dd35623632e7a0d83640ab3b650606fbea",
         "question": "Read the following letter. dear Susan 1., Please meet me after school to take 2. your test 3.. sincerely, Mrs. Jones 4. Which lines need corrections?",
         "choices": [
           "1, 2, 3",
@@ -7571,6 +7979,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0041",
+        "version": 1,
+        "contentHash": "sha256:3eabcbeb34318f03289e66ec07e45bcbc89d6f3802baf6019c84ab8af179eb87",
         "question": "Which of the following sentences is capitalized correctly?",
         "choices": [
           "Tom joined the boy scouts of America.",
@@ -7626,6 +8037,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0042",
+        "version": 1,
+        "contentHash": "sha256:b37e0fc1aea441d73cff717e8245f1833937df9de6d547ad2124cd706ac6d04d",
         "question": "Which indicates the speaker is excited?",
         "choices": [
           "Su re, I can do that!",
@@ -7681,6 +8095,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0043",
+        "version": 1,
+        "contentHash": "sha256:201d2353159081be5508d8c112ff8a5f0cf6c3580950378f4dba1bf6254f2130",
         "question": "Which words should be capitalized? My cousins, uncle Fred, aunt Mary, and my mother came to my piano recital.",
         "choices": [
           "cousins, uncle Fred, aunt Mary, mother",
@@ -7737,6 +8154,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0044",
+        "version": 1,
+        "contentHash": "sha256:57f0e2c6f1f6abcea96042a8bb26da5cca4cc5369c84855bca126de2cb666b68",
         "question": "Which closing is capitalized correctly? 1. take care, 2. Take Care, 3. Take care, 4. TAKE CARE,",
         "choices": [
           "1",
@@ -7793,6 +8213,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0045",
+        "version": 1,
+        "contentHash": "sha256:4c1aba93b56b01c6d5acd201a8999cf2b52fe884dd85e1d9aea652b933f14b21",
         "question": "Which underlined wor d is incorrectly capitalized? On our next Vacation, we will visit the Alamo near San Antonio, Texas.",
         "choices": [
           "Vacation",
@@ -7849,6 +8272,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0046",
+        "version": 1,
+        "contentHash": "sha256:86905942c5bd04b4ec90f2c4fbe168b399f7e461ff09fcab0eac0e908ce7feed",
         "question": "Which sentence uses correct syntax?",
         "choices": [
           "The race of Blake is the winner.",
@@ -7905,6 +8331,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0047",
+        "version": 1,
+        "contentHash": "sha256:d78e8fb08e7ea09123640edaed9a0e6a603474352e62585c828ef570cde71db7",
         "question": "Which sentence has words capitalized correctly?",
         "choices": [
           "Our new address is 6405 Heather Glenn Lane.",
@@ -7961,6 +8390,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0048",
+        "version": 1,
+        "contentHash": "sha256:4cac5d154836c10b8ec2baf5bfdfa7f7e6d185e466bab9fbc4f79f53460ab0b2",
         "question": "Which sentence has a capital letter in the correct place?",
         "choices": [
           "cats like to purr.",
@@ -8017,6 +8449,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0049",
+        "version": 1,
+        "contentHash": "sha256:7f007a9a89d1a21640ba41567747e3d70f14d426edbaf593fe3a687fbadec461",
         "question": "Choose the sentence that is capitalized correctly.",
         "choices": [
           "this is Northview school.",
@@ -8073,6 +8508,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0050",
+        "version": 1,
+        "contentHash": "sha256:9ae5622b451a309a74c82baa5b332041ced65287c9516571560987341bd064a2",
         "question": "Which words should be capitalized in the sentence below? Two little dogs named jessie and annie were once the only two in the Jones family. Three years later, sam, a german shepherd, was added to the happy household.",
         "choices": [
           "dogs, jessie, annie, sheph erd",
@@ -8129,6 +8567,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0051",
+        "version": 1,
+        "contentHash": "sha256:6301650abba66ce2841121117a590fd4388f8be6c4432dd63817de9c108c2e2d",
         "question": "Which underlined words should be capitalized? The b oy scouts of America, a youth organization, gets some funding from united way.",
         "choices": [
           "boy, scouts, united, way",
@@ -8185,6 +8626,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0052",
+        "version": 1,
+        "contentHash": "sha256:d38e395ec2e436a7824c09499debb6114b69842293a97336f63b7e52a016fd9e",
         "question": "Which choice should be capitalized?",
         "choices": [
           "center street",
@@ -8241,6 +8685,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0053",
+        "version": 1,
+        "contentHash": "sha256:9b70b911a536012829b6204941036ea6fad97cb4f67d969742aecac3f2634d4e",
         "question": "What is the verb in this sentence? Samuel rode his bike.",
         "choices": [
           "Samuel",
@@ -8297,6 +8744,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0054",
+        "version": 1,
+        "contentHash": "sha256:95b7b96220f6627da310918b5fb9cf7e888ad00a200b94c17691b339ace3eb0f",
         "question": "Which genre is this passage? Soft white clouds rolled in Large raindrops fell from the clouds Smooth white shells washed in with the waves While rains pound ed the surf.",
         "choices": [
           "sh ort story",
@@ -8353,6 +8803,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0055",
+        "version": 1,
+        "contentHash": "sha256:30d265b23838e559b1ca98d8c1deb336a5b2e088b1b6b1c2db181b09e6d49273",
         "question": "Choose the correct format to complete this sente nce. To get to the lake, turn ________ and then __________.",
         "choices": [
           "sou th, West",
@@ -8409,6 +8862,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0056",
+        "version": 1,
+        "contentHash": "sha256:3c27efc6c1f9c22eaff122dc394bb2867d756d0089147bf5f19dae46ff3534b0",
         "question": "Which of the following is capitalized correctly?",
         "choices": [
           "My family loves campbell’s Chicken Noodle soup.",
@@ -8465,6 +8921,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0057",
+        "version": 1,
+        "contentHash": "sha256:53d44f6a7c161078d5787f2e4f383284918498be083e6110bf2ab75f4afbfa08",
         "question": "Identify the correctorder of sentences in this par agraph. 1. Then she called her family to the table. 2. Everyone had a great time. 3. Maureen made a special birthday dinner for Sam. 4. She baked a cake and cooked a roast.",
         "choices": [
           "3, 4, 1, 2",
@@ -8521,6 +8980,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0058",
+        "version": 1,
+        "contentHash": "sha256:d3fc9ae8d57424f2265048068cd64350b98502c141f0eb8fc326477a64f80068",
         "question": "When would you use formal language in writing?",
         "choices": [
           "in formational essay, research paper, business lett er",
@@ -8577,6 +9039,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0059",
+        "version": 1,
+        "contentHash": "sha256:ff33398796958a1b8fd5251b74b013283ccce1788585ef4381702380ea811a0d",
         "question": "Which of the following sentences is capitalized correctly?",
         "choices": [
           "It has been a cold winter!",
@@ -8633,6 +9098,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0060",
+        "version": 1,
+        "contentHash": "sha256:7c0b28a17673b5b329d463c98f82db1b9ea6bb43b111dddcc8cf50e194d3f6b4",
         "question": "Which of the following sentences is capitalized correctly?",
         "choices": [
           "We won a game against the Denver darts last week.",
@@ -8689,6 +9157,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0061",
+        "version": 1,
+        "contentHash": "sha256:5896007251024b4944062338a59d197f3d6f2e0ea80fa964943a4c0ebb26bd19",
         "question": "Which underlined word is incorrectly capitalized?",
         "choices": [
           "We were tired after our hike up Mount Hood.",
@@ -8745,6 +9216,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0062",
+        "version": 1,
+        "contentHash": "sha256:84194b6de63996426d0d3fa248c3b8248c55685addc3204b2ec4f8d2da233403",
         "question": "What is the plural of homework?",
         "choices": [
           "homework",
@@ -8801,6 +9275,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0063",
+        "version": 1,
+        "contentHash": "sha256:4b0d7805b1aee32c249b3a17bd261acf332343edb1d9828282c32d3932c31a95",
         "question": "Which group of words would need capital letters?",
         "choices": [
           "car, t ruck, van",
@@ -8857,6 +9334,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0064",
+        "version": 1,
+        "contentHash": "sha256:f0bff09e34a71a0fae895e2388b7c0365817a3f153dca3d343337ec3439a9e6b",
         "question": "Choose the title of the book that has correct capitalization In Mr. Joyner’s English class, we are reading the tale of the body thief.",
         "choices": [
           "The Tale Of The Body Thief",
@@ -8911,10 +9391,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 39
+          "sequence": 64
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0099",
+        "version": 1,
+        "contentHash": "sha256:9d2b920ee1c7026a7a5feb4d45b7c865205597f1904d8a24c4ebe6264f9bd3d3",
         "question": "Correctly capitalize the underlined portion of the below address. dr. m. michael jarvis 161 east victory street abilene, tx 79601",
         "choices": [
           "D R. M. Michael Jarvis",
@@ -8973,6 +9456,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0109",
+        "version": 1,
+        "contentHash": "sha256:c8447e1ede4f21a66bc7417af26bef6a0a34435a8f5a3526af18ae0ba3329fa7",
         "question": "Correctly capitalize the underlined portion of the below address. dr. m. michael jarvis 161 east victory street abilene, tx 79601",
         "choices": [
           "16 1 east Victory Street",
@@ -9031,6 +9517,9 @@
         }
       },
       {
+        "id": "capitalization-proper-names-titles-q0119",
+        "version": 1,
+        "contentHash": "sha256:ac168c652b9ef4211d42e68a7e662c49596fad9fdb640f59f9d53e320b28ba89",
         "question": "Correctly capitalize the underlined portion of the below address. dr. m. michael jarvis 161 east victory street abilene, tx 79601",
         "choices": [
           "Abilene, TX 79601",
@@ -9109,6 +9598,9 @@
     "topic": "Capitalization",
     "questions": [
       {
+        "id": "capitalization-names-of-places-q0001",
+        "version": 1,
+        "contentHash": "sha256:6e379ea53a6d58c14290a944ddef0cf16029dc81f279ba3b041cfeb4d5c80b9b",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "We crossed the Hudson River and rested by the river.",
@@ -9163,6 +9655,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0002",
+        "version": 1,
+        "contentHash": "sha256:df3dd5f5ea918b951937c691026927573a9aa3858b654bc19a11c4a836200efc",
         "question": "Which sentence correctly treats a street name and a common noun?",
         "choices": [
           "The bakery is on Maple street, near a busy Street.",
@@ -9217,6 +9712,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0003",
+        "version": 1,
+        "contentHash": "sha256:331aebb7749305754fe9265a5315a33eecdb9e85500eac3c791266f80300fc11",
         "question": "Which sentence is correct?",
         "choices": [
           "We visited the grand Canyon during our Trip.",
@@ -9271,6 +9769,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0004",
+        "version": 1,
+        "contentHash": "sha256:cbde42e8e5446f3c4350f08510d9d6befc89d06800d36ef94d2dedd756dde0c1",
         "question": "Which sentence correctly capitalizes an official place name?",
         "choices": [
           "The class toured yellowstone National Park.",
@@ -9325,6 +9826,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0005",
+        "version": 1,
+        "contentHash": "sha256:373ea07c49479dab280e1deba42666376b6281b010faf6c5bfdadcb8ac0fcc22",
         "question": "Which sentence avoids overcapitalizing common place words?",
         "choices": [
           "We walked through the museum before visiting the Art Institute of Chicago.",
@@ -9379,6 +9883,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0006",
+        "version": 1,
+        "contentHash": "sha256:9592e704c32c1e06054f90ce2421b80e4f017404db21a16deb8f42aeff7131b5",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "My aunt moved from south Carolina to Southern Georgia.",
@@ -9433,6 +9940,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0007",
+        "version": 1,
+        "contentHash": "sha256:8fe82212bcb180d7cce8a308d7eae3c295b00880cc2ddc5e2b4ca75e7bb67e3a",
         "question": "Which sentence correctly handles an ocean name?",
         "choices": [
           "The pacific Ocean is larger than any nearby ocean.",
@@ -9487,6 +9997,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0008",
+        "version": 1,
+        "contentHash": "sha256:3c593da46043fef936881a7416b5bd1d53a744d9a15fafecc3ff754f95c70fc3",
         "question": "Which sentence is correct?",
         "choices": [
           "We hiked Mount Rainier, then rested on a nearby Mountain.",
@@ -9541,6 +10054,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0009",
+        "version": 1,
+        "contentHash": "sha256:da080d1f74544d886e9a2241946c93be7a5f81304d017b70da2c39b9616fe265",
         "question": "Which sentence correctly capitalizes a place with an official article?",
         "choices": [
           "My cousin visited The Hague last summer.",
@@ -9595,6 +10111,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0010",
+        "version": 1,
+        "contentHash": "sha256:9545ad420f57fdc10ed2f9c1e1d2f8f302067ae84d74d7c3010d4e7abd7d1d7f",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "The train stopped in New York city before heading North.",
@@ -9649,6 +10168,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0011",
+        "version": 1,
+        "contentHash": "sha256:3b581a3764b72564ba50cd75e1195f30067938e2a0e8c8b539121483283049a3",
         "question": "Which sentence avoids a common capitalization mistake?",
         "choices": [
           "We live west of lake Erie, near a small lake.",
@@ -9703,6 +10225,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0012",
+        "version": 1,
+        "contentHash": "sha256:a5d677d3c4aedab4df4abcb6a1943e44e4281c34cd7ad7968dad6b2c1217bd94",
         "question": "Which sentence is correct?",
         "choices": [
           "Our class wrote letters to students in mexico city.",
@@ -9757,6 +10282,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0013",
+        "version": 1,
+        "contentHash": "sha256:48659ff93580c0fa7e90076451a9713bb62e0515093048a9199a3ccf86171c74",
         "question": "Which sentence correctly handles a building name?",
         "choices": [
           "We toured the Empire State Building, then entered another building.",
@@ -9811,6 +10339,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0014",
+        "version": 1,
+        "contentHash": "sha256:bd73c5345b2608b09b807ea61324d5c7505c492a20394d3ce32e1a7daf00b6d8",
         "question": "Which sentence is capitalized correctly?",
         "choices": [
           "The Nile river flows through several Countries in Africa.",
@@ -9865,6 +10396,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0015",
+        "version": 1,
+        "contentHash": "sha256:87846901c90d57a667793639d6fd1b168d4a47b16780662678abfac4d887bec2",
         "question": "Which sentence correctly capitalizes an official school name?",
         "choices": [
           "My Brother attends Lincoln Elementary School near our house.",
@@ -9919,6 +10453,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0016",
+        "version": 1,
+        "contentHash": "sha256:9e8a5f2c31e664166d67efba5ed38f7c640b7d0dd27d987fcabba4cbd6151b41",
         "question": "Which words should be capitalized? On the continent of africa many kenyans speak swahili.",
         "choices": [
           "continent, africa, swahili",
@@ -9974,6 +10511,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0017",
+        "version": 1,
+        "contentHash": "sha256:4d7a10d5460dd915984360dc0cfa7ad2ad26bda14d06b58b4159b1dbf4b6e5c1",
         "question": "Which underlined word s should be capitalized? The civil war was an event that divided the united states into separate groups.",
         "choices": [
           "event, united, states, groups",
@@ -10029,6 +10569,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0018",
+        "version": 1,
+        "contentHash": "sha256:b8609aa38ddc59b7d40747d6d8da423fc0da6e0cf8ef127fe77bf456696ccea2",
         "question": "Which words must be capitalized in this sentence? robb and steele Inc. is located in the E mpire State building.",
         "choices": [
           "robb, located, empire",
@@ -10084,6 +10627,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0019",
+        "version": 1,
+        "contentHash": "sha256:8ae6c7d63e6c5c8ee0ca65790f25497b3848037c0a7e3bcea43088219118b5a6",
         "question": "Which words should be capitalized? On the west side of town is a museum featuring a rtifacts from the far east.",
         "choices": [
           "w est, side",
@@ -10139,6 +10685,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0020",
+        "version": 1,
+        "contentHash": "sha256:5d30b6eb3c94c1c3c491c247f441f4923a01d6c8d9d72084aaf70eca3bc2ff65",
         "question": "Which list includes all the words that should be capitalized in this sentence? The london philharmonic orchestra invited aerosmith to perform with them in their winter concert.",
         "choices": [
           "lon don, winter, concert",
@@ -10194,6 +10743,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0021",
+        "version": 1,
+        "contentHash": "sha256:e6ed9d03a19cd0946444c3e5a3566262a288154f860a8b35f58fa52a00624bde",
         "question": "Which underlined word should be capitalized? When we went to the city, we saw senator Miller riding in a car in the parade.",
         "choices": [
           "we",
@@ -10249,6 +10801,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0022",
+        "version": 1,
+        "contentHash": "sha256:5bb4d16bf30508d9ac3d4169807d6362f81832a6f33b28b40ed6b3d92f33d10d",
         "question": "Which word needs a capital letter? I will go to Yellowstone national Park this summer.",
         "choices": [
           "summer",
@@ -10304,6 +10859,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0023",
+        "version": 1,
+        "contentHash": "sha256:1aac8697fbe5fd89f0d1319103e8123777cb65227055f29be1394c2e86659457",
         "question": "Which underlined word or words below should be capitalized? The snake river is in a state with mountains and valleys.",
         "choices": [
           "snake river",
@@ -10359,6 +10917,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0024",
+        "version": 1,
+        "contentHash": "sha256:e013d5f9c83d5dbbfff592598499b5bc14e3b39535dc326cc1d0843d4f0fca31",
         "question": "Choose the correct missing words. We wrote a letter to our state ____________ asking for his support.",
         "choices": [
           "sen ator Joe Allen",
@@ -10414,6 +10975,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0025",
+        "version": 1,
+        "contentHash": "sha256:8ba3181a47370fd3e889f0b51b3f6b19e64369bdd997a314fcd12d50582405fb",
         "question": "Which underlined word should be capitalized? The Smith family drove through New York city on their vacation across the country.",
         "choices": [
           "family",
@@ -10469,6 +11033,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0026",
+        "version": 1,
+        "contentHash": "sha256:24b8961b489ad8dd2b4b30f131ba5aff77f012095e3bbb9c674c3e69e7e0fa36",
         "question": "Which words are not capitalized correctly? Important landmarks within the United states are the Mississippi river, Rocky Mountains, and the Appalachian Mountains.",
         "choices": [
           "river, mountains",
@@ -10524,6 +11091,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0027",
+        "version": 1,
+        "contentHash": "sha256:236572f4846a15f456f09a075bac9d91d74244059a9bbd5150c91cde56e1bcfe",
         "question": "Which underlined words should be capitalized? The first battle of the civil war began at Fort Sumter off the coast of south carolina.",
         "choices": [
           "b attle, civil, coast, south",
@@ -10579,6 +11149,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0028",
+        "version": 1,
+        "contentHash": "sha256:b84cbdfddbb8fa1112b00078b3205291eb93e200f26009763decb6bf55862795",
         "question": "If the poem “Lady of the Lake” is capitalized correctly, which of the following is also capitalized correctly?",
         "choices": [
           "“Hou nd of the Valley”",
@@ -10634,6 +11207,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0029",
+        "version": 1,
+        "contentHash": "sha256:52fbc68268a4d540afbb2bed4f93d8e071c79d4a3bc78c6cd382a42465b15ebc",
         "question": "Which of the following is correctly capitalized?",
         "choices": [
           "Sp anish-american War",
@@ -10689,6 +11265,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0030",
+        "version": 1,
+        "contentHash": "sha256:7d0e75b4cf44253a10ca1a3e2b82afe6007604fbdf228823ca597982d4be464a",
         "question": "Which of the following sentences is correctly capitalized?",
         "choices": [
           "My favorite team is the New York Yankees.",
@@ -10744,6 +11323,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0031",
+        "version": 1,
+        "contentHash": "sha256:4f18c94c36559ef581645b3e031a1c9ece03af49470655c80eb77a07e60c4c19",
         "question": "Which word in the sentence below is not capitalized correctly? the team is going to Washington D.C.",
         "choices": [
           "the",
@@ -10799,6 +11381,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0032",
+        "version": 1,
+        "contentHash": "sha256:1f6cbe1901958e85cc8fe2c2059f6a7ab056297428cc85c3bc7c2f1cd8c42bb0",
         "question": "In the sentence below, which words must be capitalized? The washington monument sits along the potomac river in washington, d.c.",
         "choices": [
           "washington, sits, potomac, d.c.",
@@ -10855,6 +11440,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0033",
+        "version": 1,
+        "contentHash": "sha256:a804b90e0d33cebd655564631530ad4e07a3a33cd8348716b971618103f3e05b",
         "question": "Which words must be capitalized in this sentence? jeff attends king middle school in seattle, washington this year.",
         "choices": [
           "jeff, king, seattle, washington",
@@ -10911,6 +11499,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0034",
+        "version": 1,
+        "contentHash": "sha256:0fb8784ae146265deaede7600710b8c76e0906c0123583184ba24656ed4f01f4",
         "question": "Which group of words must all be capitalized in this sentence? spirit lake is locatedon the northeastern slope of mt. st. helens in southwest washington s tate.",
         "choices": [
           "spirit lake, helens, washington",
@@ -10967,6 +11558,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0035",
+        "version": 1,
+        "contentHash": "sha256:cfbe15823bc35c42407ff2c34322981971c163a051a87224eb1aab3a1c313879",
         "question": "Which place should be capitalized?",
         "choices": [
           "high school",
@@ -11023,6 +11617,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0036",
+        "version": 1,
+        "contentHash": "sha256:f7eb45a6f9c4eea5aaa83e2892b1a6e7f7950c94e00ca9740a7b1555571a6016",
         "question": "Identify the words that need to be capitalized in the below sentence. The riverside high school band will perform during half time.",
         "choices": [
           "Riverside High School Band",
@@ -11077,10 +11674,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 2
+          "sequence": 36
         }
       },
       {
+        "id": "capitalization-names-of-places-q0037",
+        "version": 1,
+        "contentHash": "sha256:c837e1d0bd96b8a7b9f77f235439fd73c8355d195619c7ad9bf05f04ce74f635",
         "question": "Identify the sentence with the correct capitalization.",
         "choices": [
           "Adam went to McDonald’s and ordered a Pepsi, although he preferred a Coke.",
@@ -11135,10 +11735,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 11
+          "sequence": 37
         }
       },
       {
+        "id": "capitalization-names-of-places-q0038",
+        "version": 1,
+        "contentHash": "sha256:00323dff14c4b925dc3e8c0a8558a2e1e5d52200333f86cb18ebb9c51633ad44",
         "question": "Which word (s) in the following sentence should be capitalized? Every year my dad, frank, takes our family on vacation to the grand canyon.",
         "choices": [
           "Dad, Frank, Grand",
@@ -11193,10 +11796,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 21
+          "sequence": 38
         }
       },
       {
+        "id": "capitalization-names-of-places-q0039",
+        "version": 1,
+        "contentHash": "sha256:2c7255208106c17bc58054e3ed1df8a99f353f24674b7976fd9a3afd3ebfa13c",
         "question": "Choose the best way to write the underlined portion of the sentence. I f the underlined part is correct, choose “Correct as is.” We visited the national memorial in Oklahoma City Oklahoma.",
         "choices": [
           "Oklahoma City, Oklahoma",
@@ -11251,10 +11857,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 11
+          "sequence": 39
         }
       },
       {
+        "id": "capitalization-names-of-places-q0040",
+        "version": 1,
+        "contentHash": "sha256:22a45a7bab5d0ba500e2a2cfaa2bb590e40a124aaee021fe8ac9e640152a84d2",
         "question": "Choose the sentence that shows correct punctuation and capitalization?",
         "choices": [
           "Hen ry asked, “When do I get to ride the donkey”?",
@@ -11309,10 +11918,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 14
+          "sequence": 40
         }
       },
       {
+        "id": "capitalization-names-of-places-q0041",
+        "version": 1,
+        "contentHash": "sha256:5c5d8d7c4474bc3ccb3c2eac6c554e337091621303f0d99b78259579abea6d6e",
         "question": "Choose the sentence in which the adjectives are in the correct order.",
         "choices": [
           "I w ore my Spanish leather riding boots for my horseback riding lesson.",
@@ -11367,10 +11979,13 @@
           "Test focus": [
             "MAP"
           ],
-          "sequence": 28
+          "sequence": 41
         }
       },
       {
+        "id": "capitalization-names-of-places-q0082",
+        "version": 1,
+        "contentHash": "sha256:363ab07f57355f2c3b4d540f4b6c1f35eb5dd3c5d0cb9bbe543cc522def45b96",
         "question": "Which of the following words is a proper noun?",
         "choices": [
           "oklahoma",
@@ -11429,6 +12044,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0101",
+        "version": 1,
+        "contentHash": "sha256:bba4653057c1fab1c7012c36a5676d82a854c0bb3739ccae10cb70d2a390978e",
         "question": "Which word is capitalized incorrectly? When we were visiting Hanoi, Vietnam, we found many official Documents that were written in both English and Vietnamese.",
         "choices": [
           "Hanoi",
@@ -11487,6 +12105,9 @@
         }
       },
       {
+        "id": "capitalization-names-of-places-q0137",
+        "version": 1,
+        "contentHash": "sha256:8b3e45b7d7da9c17d2f12b6908c4fe28439bc9365c1a9acbce05fa9baebd61d5",
         "question": "In the sentence below, which of the following words should be capitalized? I really want some of those royal blue adidas shoes that my grandmother g ot me for my birthday.",
         "choices": [
           "Gran dmother",

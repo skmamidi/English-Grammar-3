@@ -1,0 +1,16 @@
+{
+  "name": "english-grammar-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated QA suite for the static English Grammar quiz app.",
+  "scripts": {
+    "qa:content": "node scripts/qa/content-qa.js",
+    "test:unit": "node --test tests/content.test.js tests/quiz-selection.test.js tests/progress-contracts.test.js",
+    "test:ui": "node tests/ui-smoke.spec.js",
+    "test:ui:all": "QA_ALL_SUBTOPICS=1 node tests/ui-smoke.spec.js",
+    "test": "npm run qa:content && npm run test:unit && npm run test:ui"
+  },
+  "devDependencies": {
+    "playwright": "^1.44.0"
+  }
+}

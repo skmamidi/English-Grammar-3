@@ -272,6 +272,7 @@
   function resumeQuiz(savedQuiz) {
     if (!savedQuiz || !Array.isArray(savedQuiz.questions) || !savedQuiz.questions.length) return;
     currentQuestions = savedQuiz.questions;
+    warnOnChangedQuestionRefs(savedQuiz);
     currentIndex = Math.min(Math.max(0, Number(savedQuiz.currentIndex) || 0), currentQuestions.length);
     score = Number(savedQuiz.score) || 0;
     combo = Number(savedQuiz.combo) || 0;
@@ -406,7 +407,14 @@
     const q = currentQuestions[currentIndex];
     const isCorrect = selectedIndex === q.correct;
     const durationSeconds = questionStartedAt ? Math.max(1, Math.round((Date.now() - questionStartedAt) / 1000)) : 0;
+    const questionRef = getQuestionRef(q);
     const attemptRecord = {
+      id: questionRef.id,
+      questionId: questionRef.id,
+      questionVersion: questionRef.version,
+      questionHash: questionRef.contentHash,
+      sourceSet: questionRef.sourceSet,
+      sequence: questionRef.sequence,
       question: q,
       selectedIndex,
       correct: isCorrect,
@@ -712,7 +720,12 @@
       topic: activeSet && activeSet.topic || 'English Language Arts',
       grade: selectedGrade,
       difficulty: selectedDifficulty,
-      questionId: `${metadata.sourceSet || subtopic.id || 'question'}-${metadata.sequence || currentIndex + 1}`,
+      questionId: getQuestionId(question),
+      questionVersion: question.version || 0,
+      questionHash: question.contentHash || '',
+      sourceSet: metadata.sourceSet || subtopic.id || '',
+      sequence: metadata.sequence || currentIndex + 1,
+      questionSnapshot: getQuestionSnapshot(question, selectedIndex),
       question: question.question || '',
       choices,
       selectedIndex,
@@ -2451,7 +2464,7 @@
       topics[topicKey].sessions += 1;
 
       (session.attempts || []).forEach(attempt => {
-        const key = attempt.id || attempt.question;
+        const key = getAttemptQuestionId(attempt);
         if (!key) return;
         if (!questions[key]) {
           questions[key] = {
@@ -2498,6 +2511,64 @@
     return sameQuiz ? activeQuiz : null;
   }
 
+  function warnOnChangedQuestionRefs(savedQuiz) {
+    const refs = Array.isArray(savedQuiz && savedQuiz.questionRefs) ? savedQuiz.questionRefs : [];
+    if (!refs.length || !Array.isArray(currentQuestions)) return;
+    const byId = {};
+    currentQuestions.forEach(question => {
+      const ref = getQuestionRef(question);
+      if (ref.id) byId[ref.id] = ref;
+    });
+    refs.forEach(ref => {
+      if (!ref || !ref.id || !byId[ref.id]) return;
+      if (ref.contentHash && byId[ref.id].contentHash && ref.contentHash !== byId[ref.id].contentHash) {
+        console.warn('Saved quiz question content changed since the active quiz was saved:', ref.id);
+      }
+    });
+  }
+
+  function getQuestionId(question, fallbackPosition, subtopic) {
+    if (question && question.id) return question.id;
+    const metadata = question && question.metadata || {};
+    const sourceSet = metadata.sourceSet || (subtopic && subtopic.id) || 'question';
+    const sequence = metadata.sequence || fallbackPosition || 0;
+    return sequence ? `${sourceSet}-q${String(sequence).padStart(4, '0')}` : '';
+  }
+
+  function getAttemptQuestionId(attempt) {
+    if (!attempt) return '';
+    return attempt.questionId || attempt.id || attempt.question || '';
+  }
+
+  function getQuestionRef(question, fallbackPosition, subtopic) {
+    const metadata = question && question.metadata || {};
+    const sourceSet = metadata.sourceSet || (subtopic && subtopic.id) || '';
+    const sequence = metadata.sequence || fallbackPosition || 0;
+    return {
+      id: getQuestionId(question, fallbackPosition, subtopic),
+      version: Number(question && question.version) || 0,
+      contentHash: question && question.contentHash || '',
+      sourceSet,
+      sequence
+    };
+  }
+
+  function getQuestionSnapshot(question, selectedIndex) {
+    const choices = Array.isArray(question && question.choices) ? question.choices : [];
+    const correctIndex = Number.isFinite(question && question.correct) ? question.correct : -1;
+    return {
+      question: question && question.question || '',
+      choices,
+      selectedIndex: Number.isFinite(selectedIndex) ? selectedIndex : -1,
+      selectedChoice: choices[selectedIndex] || '',
+      correctIndex,
+      correctChoice: choices[correctIndex] || '',
+      explanation: question && question.explanation || null,
+      studyAid: question && question.studyAid || null,
+      visualScene: question && question.visualScene || null
+    };
+  }
+
   function saveActiveQuiz(options) {
     if (isParentMode()) return;
     const progress = loadProgress();
@@ -2510,6 +2581,7 @@
       grade: selectedGrade,
       difficulty: selectedDifficulty,
       questions: currentQuestions,
+      questionRefs: currentQuestions.map(question => getQuestionRef(question)),
       currentIndex: Math.min(Math.max(0, nextIndex), currentQuestions.length),
       score,
       combo,
@@ -2556,9 +2628,15 @@
     const selectedIndex = Number.isFinite(attempt.selectedIndex) ? attempt.selectedIndex : -1;
     const correctIndex = Number.isFinite(question.correct) ? question.correct : -1;
     const subtopic = getQuestionSubtopic(question);
+    const questionRef = getQuestionRef(question, position, subtopic);
 
     return {
-      id: `${metadata.sourceSet || subtopic.id || 'question'}-${metadata.sequence || position}`,
+      id: questionRef.id,
+      questionId: questionRef.id,
+      questionVersion: questionRef.version,
+      questionHash: questionRef.contentHash,
+      sourceSet: questionRef.sourceSet,
+      sequence: questionRef.sequence,
       position,
       question: question.question || '',
       choices,
@@ -2642,13 +2720,13 @@
     const serialized = attempts.map((attempt, index) => serializeAttempt(attempt, index + 1, completedAt));
     const byQuestionId = {};
     serialized.forEach(attempt => {
-      const key = attempt.id || attempt.question;
+      const key = getAttemptQuestionId(attempt);
       if (!key) return;
       byQuestionId[key] = attempt;
     });
 
     latestSession.attempts = latestSession.attempts.map(original => {
-      const key = original.id || original.question;
+      const key = getAttemptQuestionId(original);
       const review = byQuestionId[key];
       if (!review) return original;
       const reviewEntry = {

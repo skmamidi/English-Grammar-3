@@ -10,6 +10,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-sub-heading-q0001",
+        "version": 1,
+        "contentHash": "sha256:f185169ad5a0d1a10dc09169fe7f0a48e21a63e5f2c1a9532c3f6c281ac35d76",
         "question": "What is the purpose of a sub-heading?",
         "choices": [
           "To decorate the page",
@@ -63,6 +66,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0002",
+        "version": 1,
+        "contentHash": "sha256:6014d5582433cb7213a6f88fadd4e8f2736a2def06d663172b63ef2fe188317e",
         "question": "Where do sub-headings usually appear?",
         "choices": [
           "At the very bottom of the page",
@@ -116,6 +122,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0003",
+        "version": 1,
+        "contentHash": "sha256:60d4d579d6efc16984a27c0532029c64c625f2a59e79d2fbf7aaa19901a19948",
         "question": "Which is a sub-heading?",
         "choices": [
           "The title of the book",
@@ -169,6 +178,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0004",
+        "version": 1,
+        "contentHash": "sha256:45f3bbeb7b48cabe6363fbde11fef5547ac97c233f0867ee311d9fd11a54d077",
         "question": "Why are sub-headings helpful?",
         "choices": [
           "They make the book longer.",
@@ -222,6 +234,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0005",
+        "version": 1,
+        "contentHash": "sha256:14cb7246251a88b10361cd4b441981f6cbfc4b6f4ee9257512344a29460e4305",
         "question": "Which text feature is MOST like a sub-heading?",
         "choices": [
           "Index",
@@ -275,6 +290,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0006",
+        "version": 1,
+        "contentHash": "sha256:883304bb2ecf7160e26b08adfa00011c150f93ac614f9410b2e13385a092adc3",
         "question": "How is a sub-heading different from a title?",
         "choices": [
           "It is longer",
@@ -328,6 +346,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0007",
+        "version": 1,
+        "contentHash": "sha256:269e3a29422ce6d61ad80d162763480d60b4b74c17eae55f7a9b8711fc28733f",
         "question": "In a chapter about weather, which would be a sub-heading?",
         "choices": [
           "Weather",
@@ -381,6 +402,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0008",
+        "version": 1,
+        "contentHash": "sha256:ad9038f016dbe75009b0cf27e662a494c3deb2bb31c3efe9618860fcecd2dfad",
         "question": "Which is NOT a function of sub-headings?",
         "choices": [
           "Organizing information",
@@ -434,6 +458,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0009",
+        "version": 1,
+        "contentHash": "sha256:d1723e72a8453d51232f77fc28a39931e92e19968dd877d05c46846f56cf34ab",
         "question": "What do bold sub-headings signal to a reader?",
         "choices": [
           "A new character is introduced",
@@ -487,6 +514,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0010",
+        "version": 1,
+        "contentHash": "sha256:2cee117c2af460c9d30192c82679681d6eb8205127c5b6ce3c89cd13d026fbe3",
         "question": "Where would you find sub-headings?",
         "choices": [
           "Only in novels",
@@ -540,6 +570,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0011",
+        "version": 1,
+        "contentHash": "sha256:528bba3c78ad08a89bf33b5eac040db5724ee2b5bdd610fb77f88b03f4a82434",
         "question": "If you wanted to find information about 'volcanoes' in a geology chapter, what should you look for?",
         "choices": [
           "The table of contents only",
@@ -593,6 +626,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0012",
+        "version": 1,
+        "contentHash": "sha256:b981e97363d6d6fdefccc1c2ea649f0cc7edfa944fe38a45b75610f903bcfb99",
         "question": "Which would be a good sub-heading for a section about lion behavior?",
         "choices": [
           "Africa",
@@ -646,6 +682,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0013",
+        "version": 1,
+        "contentHash": "sha256:9a8a00dfdbf3663e67aa9746a7bf3bfb6f02097cc27cfd8015311f3f4929b8de",
         "question": "What usually comes right after a sub-heading?",
         "choices": [
           "A picture",
@@ -699,6 +738,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0014",
+        "version": 1,
+        "contentHash": "sha256:dd3d5d57b0180cfed73648954c62f42380992a1718d406172a7a6bf882b71617",
         "question": "Which text feature works WITH sub-headings to organize a book?",
         "choices": [
           "Table of contents",
@@ -752,6 +794,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0015",
+        "version": 1,
+        "contentHash": "sha256:82f209776d411b4f907df3add01eb355b6cb26caeb7f8b9055a570fa12dcfeee",
         "question": "Why might an author use many sub-headings?",
         "choices": [
           "To make the book look longer",
@@ -805,6 +850,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0016",
+        "version": 1,
+        "contentHash": "sha256:dcb00ba6e1bddda1911994e6260af197b6212c33d1a79544de4ccc9997161b28",
         "question": "Which topics would best complete the following outline? I. Sports equipment",
         "choices": [
           "cleated shoes",
@@ -861,6 +909,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0017",
+        "version": 1,
+        "contentHash": "sha256:a64132c9df1ba900a1394f0c523c36ac6db662109483bef3f50fc00ab80da30c",
         "question": "Choose the best main topic for the words listed below. programs, touch, battery, video",
         "choices": [
           "My New Television",
@@ -917,6 +968,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0018",
+        "version": 1,
+        "contentHash": "sha256:f259601b8a58d0e1fb4b22aef66a56044d059653b8b71aee0c66f9fdf4d271ad",
         "question": "Which one would be the main topic in an outline?",
         "choices": [
           "Glacier",
@@ -973,6 +1027,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0019",
+        "version": 1,
+        "contentHash": "sha256:209187a896b59ec0d75be98cf4f15e13e3a8ee833ba44e5b50c885f813f89760",
         "question": "Which of the following would be a sub-heading in an outline about pets?",
         "choices": [
           "dogs",
@@ -1029,6 +1086,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0020",
+        "version": 1,
+        "contentHash": "sha256:2a60c18b41335e5dc5d7dbc56041a26ae98faf8387dddd8431ad0d047eb2178f",
         "question": "Choose the best main topic for the words listed below. hiking, animal tracks, flowers, logs",
         "choices": [
           "My Backpack",
@@ -1085,6 +1145,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0021",
+        "version": 1,
+        "contentHash": "sha256:67be1fc4c9bbe42a52033df458373f44a52c6c22c6e7a446362e059e199bb618",
         "question": "Choose the best main topic for the words listed below. machines, warehouses, jobs, trucks",
         "choices": [
           "My Trip to the Zoo",
@@ -1141,6 +1204,9 @@
         }
       },
       {
+        "id": "reference-skills-sub-heading-q0022",
+        "version": 1,
+        "contentHash": "sha256:6d132a55ab4f2951a30bf5d834192995693571a6890371f458c993f024697168",
         "question": "Read the following topics. Paint brushes Water colors Art class Charcoal pencils Pen and ink Easels Which would be the main topic on an outline?",
         "choices": [
           "Wat er colors",
@@ -1217,6 +1283,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-subject-object-q0001",
+        "version": 1,
+        "contentHash": "sha256:15324f3cbaf890e06caf84e608f9a534dcbc16945167e31d4a3dbbbc73ceb3ca",
         "question": "What is the subject: 'The cat chased the mouse.'",
         "choices": [
           "cat",
@@ -1270,6 +1339,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0002",
+        "version": 1,
+        "contentHash": "sha256:95ea57111ff8bd85f8f7f46a657a40000e3253cc87262c73dddb7c444a1ccd9c",
         "question": "What is the object: 'The dog bit the mailman.'",
         "choices": [
           "dog",
@@ -1323,6 +1395,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0003",
+        "version": 1,
+        "contentHash": "sha256:7a6458904c46bbd6567ba3f1a19ebe59bceb13acd252ff2f595ce024e64cf960",
         "question": "What is the subject: 'My mom baked a cake.'",
         "choices": [
           "My",
@@ -1376,6 +1451,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0004",
+        "version": 1,
+        "contentHash": "sha256:4951d14527dd1175c1e2ff24883d55cefc310bd3b7bf10ea0c6033ca4f6265f4",
         "question": "What is the object: 'She threw the ball.'",
         "choices": [
           "She",
@@ -1429,6 +1507,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0005",
+        "version": 1,
+        "contentHash": "sha256:abbc381eb59322890d97073ebbd050bd477631195f278f6162eb01328609412b",
         "question": "What is the subject: 'The big, brown bear caught a fish.'",
         "choices": [
           "big",
@@ -1482,6 +1563,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0006",
+        "version": 1,
+        "contentHash": "sha256:d0d295b6a42db334bb52d3c2415113c70b0c4f962b76a914666c3c1610d7432f",
         "question": "What is the object: 'The teacher gave the students homework.'",
         "choices": [
           "teacher",
@@ -1535,6 +1619,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0007",
+        "version": 1,
+        "contentHash": "sha256:adc1b9905b2df1614107be0595235b1fad889fe60ea1bf90ec4eb32b9b60b87d",
         "question": "What is the subject: 'Running is good exercise.'",
         "choices": [
           "Running",
@@ -1588,6 +1675,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0008",
+        "version": 1,
+        "contentHash": "sha256:5cba6cf759d3c4a4cec172853ec3589f483fb35f3d36c57ee0204c1bb0aafddf",
         "question": "What is the object: 'I read an interesting book.'",
         "choices": [
           "I",
@@ -1641,6 +1731,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0009",
+        "version": 1,
+        "contentHash": "sha256:765787e8c5c4c14b9ac2967a778908f9e2d960a38cd723c9caced7a948121964",
         "question": "What is the subject: 'There are five books on the shelf.'",
         "choices": [
           "There",
@@ -1694,6 +1787,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0010",
+        "version": 1,
+        "contentHash": "sha256:e0aa964f5298651865b3e8ecd8649cf6928b42ed291b612c341dfbb1c6dc55ea",
         "question": "What is the indirect object: 'My dad bought me a bike.'",
         "choices": [
           "dad",
@@ -1747,6 +1843,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0011",
+        "version": 1,
+        "contentHash": "sha256:00db48956af26020e38c967990071786af9154d11f35ee7f86e59947f3d24f72",
         "question": "What is the subject: 'The birds in the tree sang loudly.'",
         "choices": [
           "birds",
@@ -1800,6 +1899,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0012",
+        "version": 1,
+        "contentHash": "sha256:26c666dfbbfb62d6aa6a6b1ee39625fbdbc5c711507f02c59ff2c9298a916069",
         "question": "What is the object: 'She made her brother a sandwich.'",
         "choices": [
           "She",
@@ -1853,6 +1955,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0013",
+        "version": 1,
+        "contentHash": "sha256:a41659883eff05b45f3f6d207e46bb74c7434ecf91a7dd83afa633d6b05b4739",
         "question": "What is the subject: 'Swimming in the pool is fun.'",
         "choices": [
           "Swimming",
@@ -1906,6 +2011,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0014",
+        "version": 1,
+        "contentHash": "sha256:205d224c949b71018d135b691cfb4ac29f159b800a41723f218aee67d91d861f",
         "question": "What is the object: 'The kids painted the fence white.'",
         "choices": [
           "kids",
@@ -1959,6 +2067,9 @@
         }
       },
       {
+        "id": "reference-skills-subject-object-q0015",
+        "version": 1,
+        "contentHash": "sha256:ac91d8690bcbfd312af6f31459cdc71136a92dcd75914e415105003f9de8009a",
         "question": "What is the subject: 'Here is your pencil.'",
         "choices": [
           "Here",
@@ -2032,6 +2143,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-italicize-q0001",
+        "version": 1,
+        "contentHash": "sha256:099fc6ab9189883f30003315e142de905ad66f61250e65a8ed58ac4e17b044e4",
         "question": "Which should be italicized?",
         "choices": [
           "A chapter title",
@@ -2085,6 +2199,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0002",
+        "version": 1,
+        "contentHash": "sha256:cb0f72c1a2f0533177e726d8b22f928f79427d2eaebc26ad9eafb15aa6bcd7e6",
         "question": "Which should NOT be italicized?",
         "choices": [
           "A movie title",
@@ -2138,6 +2255,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0003",
+        "version": 1,
+        "contentHash": "sha256:e174fa46d3dbceb802baad63b7804e85098facdbda2acfb66903db603f405b3e",
         "question": "Which is correct?",
         "choices": [
           "I read the article The Big Storm.",
@@ -2191,6 +2311,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0004",
+        "version": 1,
+        "contentHash": "sha256:3c8829f840e982ba8dc2e5d233e9d0a8be0e98078e3017721f7910844aa995d1",
         "question": "Which should be italicized?",
         "choices": [
           "A poem",
@@ -2244,6 +2367,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0005",
+        "version": 1,
+        "contentHash": "sha256:097e7d4d2656cc3df38d0bd3402cb4cd84fe0a4f4415a2ef750cd62f6dff68e9",
         "question": "Which is correct?",
         "choices": [
           "I watched the movie Frozen.",
@@ -2297,6 +2423,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0006",
+        "version": 1,
+        "contentHash": "sha256:93551b4db461cb9fb92f7821331cdd148422bb24552eb3874088fdf0eec7d4f2",
         "question": "Which should NOT be italicized?",
         "choices": [
           "A newspaper",
@@ -2350,6 +2479,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0007",
+        "version": 1,
+        "contentHash": "sha256:278c6c694a40c1290263549b94302ac650a69cf9072137b7c9c57863b3246ec7",
         "question": "Which is correct?",
         "choices": [
           "My favorite poem is The Raven.",
@@ -2403,6 +2535,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0008",
+        "version": 1,
+        "contentHash": "sha256:8bacc5021e7ea1784f2a61286aee54da002c9deee56ed46459f22caa563c395d",
         "question": "Which should be italicized?",
         "choices": [
           "An essay",
@@ -2456,6 +2591,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0009",
+        "version": 1,
+        "contentHash": "sha256:2ac648cc50e7a5942faeab7651ef4654c4cc195a4feffb9e277342aa5dc569f4",
         "question": "Which is correct?",
         "choices": [
           "I read the book Charlotte's Web.",
@@ -2509,6 +2647,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0010",
+        "version": 1,
+        "contentHash": "sha256:65388db10a5152a27a604949e6d915c01b0ea57bdc61db6d5e6188ee21cd4695",
         "question": "Which should NOT be italicized?",
         "choices": [
           "A ship name",
@@ -2562,6 +2703,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0011",
+        "version": 1,
+        "contentHash": "sha256:cf6fe6b895fe9b0f76e8132d09510feeb11df76458645f2ea7b5307949f43748",
         "question": "Which is correct?",
         "choices": [
           "I love the song Let It Go.",
@@ -2615,6 +2759,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0012",
+        "version": 1,
+        "contentHash": "sha256:bb6b04d011622022d9b494e6ca3367d653fd0578f843b89a147f9cc4706c9311",
         "question": "Which should be italicized?",
         "choices": [
           "A newspaper article",
@@ -2668,6 +2815,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0013",
+        "version": 1,
+        "contentHash": "sha256:4b7720ceec867026f915d88c9313ffce3531d36e60bd3bf9566cf6e4dc09abdb",
         "question": "Which is correct?",
         "choices": [
           "We studied the painting Starry Night.",
@@ -2721,6 +2871,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0014",
+        "version": 1,
+        "contentHash": "sha256:0ab590761f85ed3799430e874c712bf00afd629eeb2256c2e87617bff2505485",
         "question": "Which should NOT be italicized?",
         "choices": [
           "A musical album",
@@ -2774,6 +2927,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0015",
+        "version": 1,
+        "contentHash": "sha256:6c329053150d8cb23bd39668cd69d1ace006eac6c7410dcb2982b6f9803ea4e2",
         "question": "Which is correct?",
         "choices": [
           "My favorite TV show is SpongeBob SquarePants.",
@@ -2827,6 +2983,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0016",
+        "version": 1,
+        "contentHash": "sha256:246462f769db990a88c3a3e643a60d7331554c386d9b4839f0a73f33bc3a3deb",
         "question": "Which types of words are always capitalized?",
         "choices": [
           "street names, common nouns",
@@ -2882,6 +3041,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0017",
+        "version": 1,
+        "contentHash": "sha256:bc86db82dd500c4d32e5974368dae61c5182e615fafacecca50e18f4a248ec43",
         "question": "Which sentence is correctly punctuated?",
         "choices": [
           "Shreyas’ going to the mall.",
@@ -2937,6 +3099,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0018",
+        "version": 1,
+        "contentHash": "sha256:39457600687f4e7617c465dcb5476fd106f4bc038a1021eba8c1836832488252",
         "question": "Which sentence correctly punctuates the movie title?",
         "choices": [
           "Jaws was a scary movie when it first came out.",
@@ -2992,6 +3157,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0019",
+        "version": 1,
+        "contentHash": "sha256:d5a2c438d2b316a4abec5205ded162f0da6ed2300266e9ef5ecaa2ad15b9d81f",
         "question": "Which words should be capitalized? My friend, who is an exchange student from sweden, taught swedish phrases to the latin o club at my high school.",
         "choices": [
           "sw eden, swedish, latino",
@@ -3047,6 +3215,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0020",
+        "version": 1,
+        "contentHash": "sha256:14af311cc39531c85d3a3ff7699d804570691c5719020971b79e806376606515",
         "question": "Which sentence uses commas correctly?",
         "choices": [
           "I w ent to the store and bought gold fish, pudding, and yogurt.",
@@ -3102,6 +3273,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0021",
+        "version": 1,
+        "contentHash": "sha256:0a9d2362068036c2f4c412e43d990a04a24ccd6c9472005c126189ca990b274f",
         "question": "Which sentence is punctuated correctly?",
         "choices": [
           "is a popular magazi ne.",
@@ -3157,6 +3331,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0022",
+        "version": 1,
+        "contentHash": "sha256:8ec37f6be87f1a1cc4f1a646fa24e893fe15d9943955d6ea47a90deea68faffc",
         "question": "Which sentence punctuates the title Great Expectations correctly?",
         "choices": [
           "Have you read Dickens’, Great Expectations? Great Expectations",
@@ -3212,6 +3389,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0023",
+        "version": 1,
+        "contentHash": "sha256:4ec15faf11f5fd5dbf42b5467790bd8a95a417b22cf2e2dcd5b4d01aa697e167",
         "question": "Which book title is written correctly? The Changing Colors Of The Ocean",
         "choices": [
           "The Changing Colors of the ocean",
@@ -3268,6 +3448,9 @@
         }
       },
       {
+        "id": "reference-skills-italicize-q0024",
+        "version": 1,
+        "contentHash": "sha256:a98ab9a062c3a4088ba6f5c5db8e798c59523a0896260f33972a2ec256d620ae",
         "question": "A noted female author wrote the book, ____________________. Choose the correct title format to complete this sentence.",
         "choices": [
           "Sarah, Plain and tall",
@@ -3344,6 +3527,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-alphabetical-order-q0001",
+        "version": 1,
+        "contentHash": "sha256:e81dc277fb6adcdf304b1b02fd4a0bf0c14cb7b9eabd319852a20c758e6f2e59",
         "question": "Which word comes first alphabetically: cat, dog, apple?",
         "choices": [
           "cat",
@@ -3397,6 +3583,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0002",
+        "version": 1,
+        "contentHash": "sha256:b21ce2a2e8a88f6d5509ddc4983bd79b476819bacb5573ec884570f7f2dba85d",
         "question": "Which comes first: bear, bird, bat?",
         "choices": [
           "bear",
@@ -3450,6 +3639,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0003",
+        "version": 1,
+        "contentHash": "sha256:1c6f4075406a3c7947421a57a0481fd7cf4ac085fd7713a5866690afc80a3f84",
         "question": "Put in order: zebra, yak, x-ray.",
         "choices": [
           "zebra, yak, x-ray",
@@ -3503,6 +3695,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0004",
+        "version": 1,
+        "contentHash": "sha256:778b68db616117e29bc30221cd705d12bf12ae6c7ff03398f7ca85e782268a8e",
         "question": "Which comes first: sun, star, sky?",
         "choices": [
           "sun",
@@ -3556,6 +3751,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0005",
+        "version": 1,
+        "contentHash": "sha256:f886271867686dff14b451c78dda83d9bd2982ddab40c574468221c1f67bb099",
         "question": "Which word comes last: moon, mars, mercury?",
         "choices": [
           "moon",
@@ -3609,6 +3807,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0006",
+        "version": 1,
+        "contentHash": "sha256:9c91764175f7d663dc5aa47aa039ff39e70b400989324830000700c49e4cb010",
         "question": "Put in order: rabbit, rat, raccoon.",
         "choices": [
           "rabbit, raccoon, rat",
@@ -3662,6 +3863,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0007",
+        "version": 1,
+        "contentHash": "sha256:4e5730e342720826b34fae04afe466bc10df7a50cc4dfc304c66b550f5e6a15b",
         "question": "Which comes first: kite, king, kind?",
         "choices": [
           "kite",
@@ -3715,6 +3919,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0008",
+        "version": 1,
+        "contentHash": "sha256:5dd6071b713d7b719aa82e9c3a6e9ab5264ff7e1aae4cc6c225b9a477403adde",
         "question": "Which comes last: happy, hope, hat?",
         "choices": [
           "happy",
@@ -3768,6 +3975,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0009",
+        "version": 1,
+        "contentHash": "sha256:50f1bd5c26879553a3f06d48f58c5a27068257c4bf2a924ed9a9798deeb2a8d0",
         "question": "Put in order: dog, deer, duck.",
         "choices": [
           "deer, dog, duck",
@@ -3821,6 +4031,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0010",
+        "version": 1,
+        "contentHash": "sha256:283ad3548f1140745afb2dd539ad944e69a6cb7547b43281f4a23d1d72a4f3e7",
         "question": "Which comes first: island, igloo, iron?",
         "choices": [
           "island",
@@ -3874,6 +4087,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0011",
+        "version": 1,
+        "contentHash": "sha256:5cf96bd94efb3156f5829c1b3cb59c7df37793ceb56db95b60c3392e7ee8ba18",
         "question": "Which word comes last: grape, grass, grand?",
         "choices": [
           "grape",
@@ -3927,6 +4143,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0012",
+        "version": 1,
+        "contentHash": "sha256:37266966838317aab3d972e0fd7bb63e350b741cb8986508486c727913d7b854",
         "question": "Put in order: orange, olive, onion.",
         "choices": [
           "onion, olive, orange",
@@ -3980,6 +4199,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0013",
+        "version": 1,
+        "contentHash": "sha256:be0c3f46581914213a5d6675ba9360abf0dc7987fefd4be799e76e731223b8ba",
         "question": "Which comes first: train, truck, tram?",
         "choices": [
           "train",
@@ -4033,6 +4255,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0014",
+        "version": 1,
+        "contentHash": "sha256:2658b16d7267061dbfac74d712f8a7dedd09a3e53381f6e744c08fad3f74259a",
         "question": "Which comes last: pen, pencil, paper?",
         "choices": [
           "pen",
@@ -4086,6 +4311,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0015",
+        "version": 1,
+        "contentHash": "sha256:f805ea690e5495307d52601de575002f16a60e4cc21bc8b2671d1ee369e51e97",
         "question": "Choose the word that comes first in alphabetical order.",
         "choices": [
           "false",
@@ -4139,6 +4367,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0016",
+        "version": 1,
+        "contentHash": "sha256:8b75a036c69b2c62074e7d0a1845d0a4dbe21fd67354b335b57494474e3745d6",
         "question": "Choose the word that comes first in alphabetical order.",
         "choices": [
           "trade",
@@ -4192,6 +4423,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0017",
+        "version": 1,
+        "contentHash": "sha256:b8f7438c67dc5efb5ccd96c90b8408891d5b8cedaf0a5663fad48560dc21fa1f",
         "question": "Choose the word that comes first in alphabetical order.",
         "choices": [
           "same",
@@ -4245,6 +4479,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0018",
+        "version": 1,
+        "contentHash": "sha256:8fb81af3e822c0ac3d49bb7e42dae05c0766d7d480f92050e3212f570be362c0",
         "question": "Choose the word that comes first in alphabetical order.",
         "choices": [
           "odd",
@@ -4298,6 +4535,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0019",
+        "version": 1,
+        "contentHash": "sha256:0fae228c636e069fa3538f58becd737679b2d85128810cd55460620078f7c76e",
         "question": "Number these words in alphabetical order.",
         "choices": [
           "1. shame",
@@ -4351,6 +4591,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0020",
+        "version": 1,
+        "contentHash": "sha256:a4054249b39607d6f731603ee2f74395c963a1d4f4ba0bd6346a49ccebd6d50e",
         "question": "Number these words in alphabetical order.",
         "choices": [
           "1. bakery",
@@ -4404,6 +4647,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0021",
+        "version": 1,
+        "contentHash": "sha256:04ede5bc8c342ef7faba0494f4db55ce5bfa651478f94b79c36b447d6b7e43a8",
         "question": "Number these words in alphabetical order.",
         "choices": [
           "1. garage",
@@ -4457,6 +4703,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0022",
+        "version": 1,
+        "contentHash": "sha256:f08ddded19b57816e026d4eb56e55485c540d884afc206dcc46c767ea737207a",
         "question": "Number these words in alphabetical order.",
         "choices": [
           "1. mink",
@@ -4510,6 +4759,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0023",
+        "version": 1,
+        "contentHash": "sha256:8cfea20d37c3725fca60c75f192c7834c040b89d2858acbad81c6fb32a7e8b8c",
         "question": "Put these words in alphabetical order.",
         "choices": [
           "1. press",
@@ -4563,6 +4815,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0024",
+        "version": 1,
+        "contentHash": "sha256:629676161a7701aa658f5420f1ed6ef8423a3380c725c4e5d21fa6b491c87085",
         "question": "Put these words in alphabetical order.",
         "choices": [
           "1. alligator",
@@ -4616,6 +4871,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0025",
+        "version": 1,
+        "contentHash": "sha256:a95e195abc0aaa7eaba539947ef044d68932aa9837c357157a86abe388d04999",
         "question": "Choose the word that comes last in alphabetical order.",
         "choices": [
           "grade",
@@ -4669,6 +4927,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0026",
+        "version": 1,
+        "contentHash": "sha256:2cb66ca650a720ef2902b004b1dae91cd429d3385e281549017a1ac8b04634ad",
         "question": "Choose the word that comes last in alphabetical order.",
         "choices": [
           "poke",
@@ -4722,6 +4983,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0027",
+        "version": 1,
+        "contentHash": "sha256:39d476ee661463390724fb0a40adb4b91476820183056f926ebac475eb8fe3a4",
         "question": "Choose the word that comes first in alphabetical order.",
         "choices": [
           "planet",
@@ -4775,6 +5039,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0028",
+        "version": 1,
+        "contentHash": "sha256:5b03701881835d26a78a2d887b52fa7d63c6f4778b67cdbc64a3b39466ef6cde",
         "question": "Choose the word that comes first in alphabetical order.",
         "choices": [
           "silver",
@@ -4828,6 +5095,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0029",
+        "version": 1,
+        "contentHash": "sha256:4bff089b66f8b6fbbc398a9c889fb5d28b2895d4100e268ebca64f819582e5da",
         "question": "Read the words listed. jacket, jackknife, jack, jackhammer, jackal Alphabetize the list of words.",
         "choices": [
           "jackal, jacket, jackhammer, jackknife, jack",
@@ -4876,7 +5146,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 1,
+          "sequence": 29,
           "testFocus": [
             "MAP"
           ],
@@ -4886,6 +5156,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0079",
+        "version": 1,
+        "contentHash": "sha256:d4779c75e2a3fc859ee845a88378b167bc15fb6e37ed5731fbcc5d945e1424f0",
         "question": "Choose the group of letters that are in the correct alphabetical order.",
         "choices": [
           "E, F, G, H, I",
@@ -4944,6 +5217,9 @@
         }
       },
       {
+        "id": "reference-skills-alphabetical-order-q0082",
+        "version": 1,
+        "contentHash": "sha256:8a9e8a3f326f7a4cfb0772867df9883c051def4145bf19530fbaf1785ac03cfb",
         "question": "Choose the group of words that are in correct alphabetical order.",
         "choices": [
           "t ruck/trudge/true",
@@ -5022,6 +5298,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-dictionary-guide-words-q0001",
+        "version": 1,
+        "contentHash": "sha256:f4cf0ec63ee7ca4b4da5fd3554c68a62e751706bc721063e2f04f34d3141afea",
         "question": "What are guide words in a dictionary?",
         "choices": [
           "Words that tell you how to pronounce",
@@ -5075,6 +5354,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0002",
+        "version": 1,
+        "contentHash": "sha256:c040e88bb55d454418bec4915f57b13531facbd128328bb8acdc12049b7c0d2e",
         "question": "If the guide words are 'apple' and 'arrow,' which word would be on that page?",
         "choices": [
           "ant",
@@ -5128,6 +5410,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0003",
+        "version": 1,
+        "contentHash": "sha256:f062598af198583914d96112982d268d5c6585bc520850000086612dc32a6682",
         "question": "If guide words are 'king' and 'kite,' which word belongs?",
         "choices": [
           "kangaroo",
@@ -5181,6 +5466,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0004",
+        "version": 1,
+        "contentHash": "sha256:a293b6cb948e044372f2586d3445cd312a72bc0bd71cf9cdf9a512ee7cea8f75",
         "question": "What do guide words help you do?",
         "choices": [
           "Spell words",
@@ -5234,6 +5522,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0005",
+        "version": 1,
+        "contentHash": "sha256:d12bc0d6aea595911c8e373f4a28a7790e9edd3a354a7a3f6dadbe0e7326f594",
         "question": "If guide words are 'moon' and 'mouse,' which word would NOT be on that page?",
         "choices": [
           "mop",
@@ -5287,6 +5578,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0006",
+        "version": 1,
+        "contentHash": "sha256:1574abdee1b4a2b7d56884f7fc11ee9f4914ab12d4d2ebfa7bbf9f188fff144f",
         "question": "Which word would be on a page with guide words 'run' and 'rust'?",
         "choices": [
           "rug",
@@ -5340,6 +5634,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0007",
+        "version": 1,
+        "contentHash": "sha256:374cddbf9c1ee20a7a39be39c49b4ed5cd3b88f81ceb244fe6c0ceccb85bbab9",
         "question": "Guide words are always printed at the top of the page in what format?",
         "choices": [
           "Bold and centered",
@@ -5393,6 +5690,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0008",
+        "version": 1,
+        "contentHash": "sha256:3c1d90040647cd40e16282774ab404208dacc65a6886eab07143ab499c0dd463",
         "question": "If guide words are 'star' and 'stem,' which word belongs?",
         "choices": [
           "stare",
@@ -5446,6 +5746,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0009",
+        "version": 1,
+        "contentHash": "sha256:77d0bfd3ca4f103cee5d76204e9b7a355e1450f8e554bdff5211b93b6483511b",
         "question": "What should you do if the word you want comes before both guide words?",
         "choices": [
           "Keep looking on that page",
@@ -5499,6 +5802,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0010",
+        "version": 1,
+        "contentHash": "sha256:aef9a7a2a0840699f0de9e9e193213af83957ad413eb2c3b8695a8567e24e83c",
         "question": "If guide words are 'fish' and 'flood,' which word would be on that page?",
         "choices": [
           "fit",
@@ -5552,6 +5858,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0011",
+        "version": 1,
+        "contentHash": "sha256:08b8902609e33bba7c4339dd47794c057c78872afb93bb4e3f3b4e47f23ac04e",
         "question": "Which is a pair of guide words you might find on the same page?",
         "choices": [
           "apple - zebra",
@@ -5605,6 +5914,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0012",
+        "version": 1,
+        "contentHash": "sha256:4d4b424967fda6a90efbd6b9021137b9c195e2f774e7ad8367ca6129042e65db",
         "question": "If guide words are 'hand' and 'happy,' which word would NOT belong?",
         "choices": [
           "hang",
@@ -5658,6 +5970,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0013",
+        "version": 1,
+        "contentHash": "sha256:b64bbe16a32e71fc7626da7d4a89a4d53392ff4bd3802c614eafcc7325bba1fb",
         "question": "How do guide words save time?",
         "choices": [
           "They give definitions",
@@ -5711,6 +6026,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0014",
+        "version": 1,
+        "contentHash": "sha256:50dd375c6354fc1146e63c9d26818361b4c81ea866ba09364181f6e97a947c64",
         "question": "If guide words are 'pen' and 'pig,' which word belongs?",
         "choices": [
           "pie",
@@ -5764,6 +6082,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0015",
+        "version": 1,
+        "contentHash": "sha256:a6cc245aa1f0429ddb4ddc819a22bb2ac5317727400c8022efab8797eb45fe41",
         "question": "What do the two guide words on a page represent?",
         "choices": [
           "The shortest and longest words",
@@ -5817,6 +6138,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0016",
+        "version": 1,
+        "contentHash": "sha256:56bb69bc24aa123609b2bbc0bd08676127b56ce816a38c39b7290837f10ab840",
         "question": "If guide words are 'top' and 'toy,' which word would be on that page?",
         "choices": [
           "toe",
@@ -5870,6 +6194,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0017",
+        "version": 1,
+        "contentHash": "sha256:c5104aa0782ce820f77d40b38b3058b91064e8c2921dad63f0b33790a1127d88",
         "question": "If the guide words on a dictionary page were \"rain\" and \"road,\" which word would be on the page?",
         "choices": [
           "rent",
@@ -5923,6 +6250,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0018",
+        "version": 1,
+        "contentHash": "sha256:7ece7b394a9f4efc4d74d4695c5ea68d48d5d44a8f33fa712f9fa28becec4775",
         "question": "Which reference source would be best for this task: what street the closest grocery store is on",
         "choices": [
           "dictionary",
@@ -5976,6 +6306,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0019",
+        "version": 1,
+        "contentHash": "sha256:8dcc97c6050d63146c3dfdc81e7fc98684b70ed44c0219798620575c170d3545",
         "question": "Which reference source would be best for this task: the years that Mozart lived",
         "choices": [
           "dictionary",
@@ -6029,6 +6362,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0020",
+        "version": 1,
+        "contentHash": "sha256:652b65415451e336a0ab11f38fbd1a30d2a26ccde86c2cdbeda9bec5fc5a13eb",
         "question": "Which reference source would be best for this task: how to pronounce the word \"excerpt\"",
         "choices": [
           "dictionary",
@@ -6082,6 +6418,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0021",
+        "version": 1,
+        "contentHash": "sha256:3e2ae49e72d76a14b6cee2383de5fe2c5fbaf99e518d7f3759d430bdcef0ee91",
         "question": "Which reference source would be best for this task: the phone number for Sid's Bagels",
         "choices": [
           "dictionary",
@@ -6135,6 +6474,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0022",
+        "version": 1,
+        "contentHash": "sha256:a83bde690908d01ab4c6657d6f2d1a231c11223106f6c3b5dd194b741ab1a659",
         "question": "Which reference source would be best for this task: what part of speech the word \"trample\" is",
         "choices": [
           "dictionary",
@@ -6188,6 +6530,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0023",
+        "version": 1,
+        "contentHash": "sha256:5ef72d4de5148a3ae3b748def3b3bd04f7a79589771ce82ae90c95c6d6a69b3d",
         "question": "If the guide words on a dictionary page were \"odor\" and \"organ,\" which word would be on the page?",
         "choices": [
           "oats",
@@ -6241,6 +6586,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0024",
+        "version": 1,
+        "contentHash": "sha256:d03d9fbede93fdb2d5e8375fa4a6fa1c0e03ff71b2f82ed993d4e114fa006d03",
         "question": "Which reference source would be best for this task: what part of speech the word \"dive\" is",
         "choices": [
           "dictionary",
@@ -6294,6 +6642,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0025",
+        "version": 1,
+        "contentHash": "sha256:1c74b363143f73234e4411d0ef4bcd64e60bcfd9448efe95c6754750fe7a95fd",
         "question": "Which reference source would be best for this task: what kind of animal an okapi is",
         "choices": [
           "dictionary",
@@ -6347,6 +6698,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0026",
+        "version": 1,
+        "contentHash": "sha256:c84419760a04f73d0866990b150939e8596041a63d34b74d8254ac0e3f6f7bec",
         "question": "Which reference source would be best for this task: where to find more articles about reptiles",
         "choices": [
           "dictionary",
@@ -6400,6 +6754,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0027",
+        "version": 1,
+        "contentHash": "sha256:95a68c9fc78b658003a424c9b44d8666997d83c731863120520f1b222d4167ac",
         "question": "Which reference source would be best for this task: the area code of Sarasota, Florida",
         "choices": [
           "dictionary",
@@ -6453,6 +6810,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0028",
+        "version": 1,
+        "contentHash": "sha256:3c8ea65c9e48af04d49da377ecdb15dbf3b4bc3f6f453c1ce8e89266e2af6f9c",
         "question": "Which reference source would be best for this task: other animals related to the Komodo dragon",
         "choices": [
           "dictionary",
@@ -6506,6 +6866,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0029",
+        "version": 1,
+        "contentHash": "sha256:d1af31bab6d29e3ffdaea203b1630e8f1625517f5a99653d14c518e495473fad",
         "question": "Which reference source would be best for this task: a dentist near my neighborhood",
         "choices": [
           "dictionary",
@@ -6559,6 +6922,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0030",
+        "version": 1,
+        "contentHash": "sha256:52e6a409a18b7e95e5a1153ace759cffdbb4f1f252d2eb356131fb5cf07542cf",
         "question": "Which reference source would be best for this task: the phone number for Pizza Hut",
         "choices": [
           "dictionary",
@@ -6612,6 +6978,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0031",
+        "version": 1,
+        "contentHash": "sha256:132a648fb4ccd6ea10d137b21b980ec6c131981ebacb9dcd7bd969b373d55a57",
         "question": "Which reference source would be best for this task: information for a report on the snowy owl",
         "choices": [
           "dictionary",
@@ -6665,6 +7034,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0032",
+        "version": 1,
+        "contentHash": "sha256:8660fa5c6ffdd7f50e3179751ea3291e6ba6a79e19d09b9b147e91c8cb1e6946",
         "question": "Which reference source would be best for this task: how to spell the word \"mesmerizing\"",
         "choices": [
           "dictionary",
@@ -6718,6 +7090,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0033",
+        "version": 1,
+        "contentHash": "sha256:48b41a4fa4a7f973735906348f4e7951b455e9468e255d27e0ab33fcc4eb3c47",
         "question": "Which reference source would be best for this task: information about the Grand Canyon",
         "choices": [
           "dictionary",
@@ -6771,6 +7146,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0034",
+        "version": 1,
+        "contentHash": "sha256:48c2b01067c9f420adeae1f3ce097e1e0bf7a14f40bfc55faec6fa09db465792",
         "question": "If the guide words on a dictionary page were \"river\" and \"rust,\" which word would be on the page?",
         "choices": [
           "rent",
@@ -6824,6 +7202,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0035",
+        "version": 1,
+        "contentHash": "sha256:569f818a296d14a8cbd6af51063e4e3377440ba98d8414dc9aef81a04d86f303",
         "question": "If the guide words on a dictionary page were \"mover\" and \"muffin,\" which words would be on the page?",
         "choices": [
           "mom",
@@ -6877,6 +7258,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0036",
+        "version": 1,
+        "contentHash": "sha256:85bd44a44b06337e38b5093e647f70bc9ce70a2fb5b26657ee3dcd48d1abe95a",
         "question": "Which reference source would be best for this task: what country Juan Peron was president of",
         "choices": [
           "dictionary",
@@ -6930,6 +7314,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0037",
+        "version": 1,
+        "contentHash": "sha256:c5054a89aa7d52eb19524431181e86edb2e79d1c9a20382f0d14da9d50a4823c",
         "question": "Which reference source would be best for this task: an antonym for \"pretty\"",
         "choices": [
           "dictionary",
@@ -6983,6 +7370,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0038",
+        "version": 1,
+        "contentHash": "sha256:1883b9fc40f10da9a9b645654c1e39b18387dad163993737ce649557b768f6e2",
         "question": "Which reference source would be best for this task: the area codes for your city",
         "choices": [
           "dictionary",
@@ -7036,6 +7426,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0039",
+        "version": 1,
+        "contentHash": "sha256:1c495c181b02b99385f4838bf63d10bf101951839129160cc7d13066201a6177",
         "question": "Which reference source would be best for this task: another word for \"cry\"",
         "choices": [
           "dictionary",
@@ -7089,6 +7482,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0040",
+        "version": 1,
+        "contentHash": "sha256:1b65af57a5b51730097f06c7afc7be485bddfc68b4b46a5e80fdc6dd50e94a18",
         "question": "Which reference source would be best for this task: the origin of the word \"spaghetti\"",
         "choices": [
           "dictionary",
@@ -7142,6 +7538,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0041",
+        "version": 1,
+        "contentHash": "sha256:08771887582b8006fea45c7562ef7e94fd64a8e0d286b0e248d21432f931f501",
         "question": "If the guide words on a dictionary page were \"exist\" and \"explode,\" which word would be on the page?",
         "choices": [
           "expire",
@@ -7195,6 +7594,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0042",
+        "version": 1,
+        "contentHash": "sha256:a08b8319755bb86eada200b2c307c691ed678af908e9c2fcd28150ed5488fa20",
         "question": "Which reference source would be best for this task: another word for \"nice\"",
         "choices": [
           "dictionary",
@@ -7248,6 +7650,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0043",
+        "version": 1,
+        "contentHash": "sha256:940345216240e6ce5cece9bfa78a0260bd5716f30266278d746f3802c8b1f2d1",
         "question": "Which reference source would be best for this task: an antonym for \"dry\"",
         "choices": [
           "dictionary",
@@ -7301,6 +7706,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0044",
+        "version": 1,
+        "contentHash": "sha256:5cf51638d2291e050a9914c854a58b72fabf59b88541c55da85ec7c0415ad4df",
         "question": "Which reference source would be best for this task: how to pronounce \"emancipate\"",
         "choices": [
           "dictionary",
@@ -7354,6 +7762,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0045",
+        "version": 1,
+        "contentHash": "sha256:0564f55f38aafe26a5b6713a829b9c3b0c55f4c4731e8c84bcb97f1f38245f15",
         "question": "Which reference source would be best for this task: the museum closest to your house",
         "choices": [
           "dictionary",
@@ -7407,6 +7818,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0046",
+        "version": 1,
+        "contentHash": "sha256:2a1f8c0967dc0c8f461695e866c22483c8593ab6e8efe872bba407f4ccffd431",
         "question": "Which reference source would be best for this task: the number of syllables in the word \"tabulate\"",
         "choices": [
           "dictionary",
@@ -7460,6 +7874,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0047",
+        "version": 1,
+        "contentHash": "sha256:4e3c0635e3d22da874cc93d5930fea7f9b54e2418fbb14f48ff08fc04d80ce0c",
         "question": "Which reference source would be best for this task: the phone number for the local fire department",
         "choices": [
           "dictionary",
@@ -7513,6 +7930,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0048",
+        "version": 1,
+        "contentHash": "sha256:2ff0a5afc38737476e32080efdd1ded52814721082b19eb915df233a9c950346",
         "question": "Which reference source would be best for this task: what Jim Henson is known for",
         "choices": [
           "dictionary",
@@ -7566,6 +7986,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0049",
+        "version": 1,
+        "contentHash": "sha256:271a3966bff846773ccfe83a07c33dc2bd052df97345f1d769253cdaae524fd7",
         "question": "Which reference source would be best for this task: the street Kim Li lives on",
         "choices": [
           "dictionary",
@@ -7619,6 +8042,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0050",
+        "version": 1,
+        "contentHash": "sha256:7a77c87aeb07c9d24f8245f852ba1846e0df3e0609d37b234c0e1e27bf07f57c",
         "question": "Which reference source is best for finding an antonym for \"push\"?",
         "choices": [
           "thesaurus",
@@ -7672,6 +8098,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0051",
+        "version": 1,
+        "contentHash": "sha256:8c7f9d95fa22b432d191ee648a44424959ac5c37b8684e1abed8ec22ad1a9745",
         "question": "Which reference source would be best for this task: a picture of a koala bear",
         "choices": [
           "dictionary",
@@ -7725,6 +8154,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0052",
+        "version": 1,
+        "contentHash": "sha256:fa4ca6980c4a8f008dc5faf51f90e9d88b1406d9ff79b6032db96ff0efe19018",
         "question": "If the guide words on a dictionary page were \"hike\" and \"hit,\" which words would be on the page?",
         "choices": [
           "hinge",
@@ -7778,6 +8210,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0053",
+        "version": 1,
+        "contentHash": "sha256:4690732c645ad562c34be833cc229d7749e67d15c3757c9a889c361d0f1310b2",
         "question": "If the guide words on a dictionary page were \"hike\" and \"hit,\" which words would be on the page?",
         "choices": [
           "hide",
@@ -7831,6 +8266,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0153",
+        "version": 1,
+        "contentHash": "sha256:703d00c3c6300dc7d3224fcdad297ca1f9a7956653186b53959cf33a6d693ba8",
         "question": "Look at the excerpt from the dictionary. Where might one see a? persimmon",
         "choices": [
           "sporting goods store",
@@ -7889,6 +8327,9 @@
         }
       },
       {
+        "id": "reference-skills-dictionary-guide-words-q0234",
+        "version": 1,
+        "contentHash": "sha256:dabfd4ab96fdd92c5a237a96f7fdfe259e68ba89e3b13ad81fef0d85065edcdd",
         "question": "Which reference material would you use tofind a synonym for the word? tall",
         "choices": [
           "dictionary",
@@ -7967,6 +8408,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-research-skills-q0001",
+        "version": 1,
+        "contentHash": "sha256:911b3cec724b7a88e374e9bd8aae6e0ed251d379203625ad335ce6187496a2c1",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -8017,6 +8461,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0002",
+        "version": 1,
+        "contentHash": "sha256:8d7e48a9c2650f88a7cb149e292a0b23cf68f12ff864b21252a66027f6147d1a",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -8067,6 +8514,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0003",
+        "version": 1,
+        "contentHash": "sha256:b346502b8dc5dd0996cf46982dc7092c67424eb00794194d8c6f8a97b9cf2612",
         "question": "Grade 2 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -8117,6 +8567,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0004",
+        "version": 1,
+        "contentHash": "sha256:1f199b06fb8e5e9e9e9c55333eeb9045d8ae33df74edf437c849232d7fa33b42",
         "question": "Grade 2 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -8167,6 +8620,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0005",
+        "version": 1,
+        "contentHash": "sha256:fb09ca42d0e2f0e453e0bc2249a99499f41ca34014d96d37397c05ca565f6a9e",
         "question": "Grade 2 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "check more reliable sources and compare evidence",
@@ -8217,6 +8673,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0006",
+        "version": 1,
+        "contentHash": "sha256:b9eccb1677e224113b41d07d92d0dd881c34f6656e72e8964e77f0fb3093269d",
         "question": "Grade 2 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "bright colors only",
@@ -8267,6 +8726,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0007",
+        "version": 1,
+        "contentHash": "sha256:306552f99bc7b35d3a8a18580eff14ec98c9a3f2f9815e2890697335bf3d35f6",
         "question": "Grade 2 Easy: Choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a changed title only",
@@ -8317,6 +8779,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0008",
+        "version": 1,
+        "contentHash": "sha256:1a3f48d4f0df383ef3c800c5a2908d6437879a7f8a0c0f7cae7c2ded5e9a8fad",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -8367,6 +8832,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0009",
+        "version": 1,
+        "contentHash": "sha256:092572031fb3eb8e1c8fb9c1e0940fdefe5d5906e62aca2d114abe6dfb2be376",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -8417,6 +8885,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0010",
+        "version": 1,
+        "contentHash": "sha256:11bd93c543bf6a2c507f2c2f904492d73dc708cce293ef9815dfc0d7c2cae93a",
         "question": "Grade 2 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -8467,6 +8938,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0011",
+        "version": 1,
+        "contentHash": "sha256:230621afe2af535ccae581503dc71abdaa0bd4c23e43f5f166a11dfb34135495",
         "question": "Grade 2 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -8517,6 +8991,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0012",
+        "version": 1,
+        "contentHash": "sha256:15cbf99234e01801e79de07d374aa9f9e54219f9bc0061bbfc84219c2058ca34",
         "question": "Grade 2 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -8567,6 +9044,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0013",
+        "version": 1,
+        "contentHash": "sha256:0846cb3b879eac0c0b76b051df12dce1bbd3296d24e04488aa04ee9fa6e4b4e8",
         "question": "Grade 2 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -8617,6 +9097,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0014",
+        "version": 1,
+        "contentHash": "sha256:2ed2f69f5b690ea2e38ff87af63aedec6865737eb0091a4b0a1f96ade9cd025c",
         "question": "Grade 2 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -8667,6 +9150,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0015",
+        "version": 1,
+        "contentHash": "sha256:53922feee9bb161c459f0641663c6b36d4e5dbba6fe573432e5e4d09503fe1aa",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -8717,6 +9203,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0016",
+        "version": 1,
+        "contentHash": "sha256:19c9a1b4e9c4028975af95a8932177dc3cd08fb1910051c4489b4c1e3bf158a5",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -8767,6 +9256,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0017",
+        "version": 1,
+        "contentHash": "sha256:aed99f1ae00893d6120156f2003ab872b9de6a3d477dee2bc0ebd4d9bf237a38",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -8817,6 +9309,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0018",
+        "version": 1,
+        "contentHash": "sha256:335e5f575e35574643d0bb3c20ab9cebea7b7c4c1709c62dc043c752e9b45acc",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -8867,6 +9362,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0019",
+        "version": 1,
+        "contentHash": "sha256:dbd26bacd25d3d8efec6d41afca95c749c61a6349685e3398253517a672409f2",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -8917,6 +9415,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0020",
+        "version": 1,
+        "contentHash": "sha256:0df6af1578c00392d9f306e2ac1dec14ac2cf41210a06aaef1c6bcb9d1ce1282",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "copy the first answer found",
@@ -8967,6 +9468,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0021",
+        "version": 1,
+        "contentHash": "sha256:7c954277683f369119327e76d85d60bd4e19c4fd26861fe2dc8109001075eec5",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "the author's name and date of publication",
@@ -9017,6 +9521,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0022",
+        "version": 1,
+        "contentHash": "sha256:f524ea0020fea9b06331bc91d944421ed4d5d4f395b5dd744d2fb809df40144b",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a copied sentence with no source",
@@ -9067,6 +9574,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0023",
+        "version": 1,
+        "contentHash": "sha256:6ff28e8f21d7611f0893373d721efe40230e7279f658adf9db4dc5a526664776",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -9117,6 +9627,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0024",
+        "version": 1,
+        "contentHash": "sha256:ea2f58e7d1effe0f548942d11d8f80ee8b306deacaf7424ad0535b3aaee86d2f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -9167,6 +9680,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0025",
+        "version": 1,
+        "contentHash": "sha256:bb0db375d29b6a2c111db335ecd11c8ef26675e95ba7face7dc1835d7ac527ca",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -9217,6 +9733,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0026",
+        "version": 1,
+        "contentHash": "sha256:62481070b426147ac18bc28c69b154d97f6044d147b9e14e0d3cae18915ea289",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -9267,6 +9786,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0027",
+        "version": 1,
+        "contentHash": "sha256:2d4373095fa39233f896387b584efc4b3899bfb9b73f3c22a93eac5f3fe18b72",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -9317,6 +9839,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0028",
+        "version": 1,
+        "contentHash": "sha256:75bb6b4e65b965bae40e84f64b560d661523b0e5acc66edd1451c6303a9f208a",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -9367,6 +9892,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0029",
+        "version": 1,
+        "contentHash": "sha256:6f3ccb67d5153b0a2549f487a5a3c6a9d37f63ad40ea998d2a75c438b93867a2",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -9417,6 +9945,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0030",
+        "version": 1,
+        "contentHash": "sha256:d63278b3d4f3e95ed676ff8f0acaa18fc274c4ea901285bd3db99442e8cf5002",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -9467,6 +9998,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0031",
+        "version": 1,
+        "contentHash": "sha256:ff3d62d2f338fc31080c529a33a43fdaeabcd58ea4264327b32d1780c7c1537b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -9517,6 +10051,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0032",
+        "version": 1,
+        "contentHash": "sha256:31949c41f230adb02f1ddbdb32984e0603030720521fe4f633110686acaa171f",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -9567,6 +10104,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0033",
+        "version": 1,
+        "contentHash": "sha256:7dbc0718007b19eae34d45936c0dd8c97c82fded1ce7565abe1ecc3155473d58",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -9617,6 +10157,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0034",
+        "version": 1,
+        "contentHash": "sha256:b0bcdcd1e5be1f3755c481ed0b990f4973fd46dde7d1aa0f5effa6e31450b8b5",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -9667,6 +10210,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0035",
+        "version": 1,
+        "contentHash": "sha256:132c869610320901e431545be894a564201b2f9420c2b229ab0ce894ef326268",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "ignore both sources forever",
@@ -9717,6 +10263,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0036",
+        "version": 1,
+        "contentHash": "sha256:13d572f0632372ce4c372afd6fef891fa79e5d53a0e7418bf8c489245fcbf0ce",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "a large picture without labels",
@@ -9767,6 +10316,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0037",
+        "version": 1,
+        "contentHash": "sha256:cb5a8e2f2b0309f704056bf9444b3a43b497b78213019ebb3966345e69d9b6e3",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which note avoids plagiarism?",
         "choices": [
           "a paraphrase in your own words with the source recorded",
@@ -9817,6 +10369,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0038",
+        "version": 1,
+        "contentHash": "sha256:8f080a226caa2d97e099ca790fc8f50e3f039ab9b8e259e6533cb1703f6b9691",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -9867,6 +10422,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0039",
+        "version": 1,
+        "contentHash": "sha256:34f0be3fa2fca8831443ad3f8413368d7cfa1394b8eeb6ffd49ac6cb3fd95f1e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -9917,6 +10475,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0040",
+        "version": 1,
+        "contentHash": "sha256:2da6c84ceeda7d2f54876c65af2d56267f9a56c64ba76df5632f85434d324c3e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -9967,6 +10528,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0041",
+        "version": 1,
+        "contentHash": "sha256:86253cbc083858b576020b343d3d0105667df544bfd50784e91c36da259ab484",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -10017,6 +10581,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0042",
+        "version": 1,
+        "contentHash": "sha256:37c680c3c06d140c94027a84fff7792c28182a1894f1f1b2dac825e05db0377c",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -10067,6 +10634,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0043",
+        "version": 1,
+        "contentHash": "sha256:826a77868c90dec0141691b848c859ff5a71027476f190dba268dee8c55b0e18",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -10117,6 +10687,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0044",
+        "version": 1,
+        "contentHash": "sha256:a100e984547e16d325a222f20f1ee7a17b17d5e47b0910c619c8de3e590c8e15",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -10167,6 +10740,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0045",
+        "version": 1,
+        "contentHash": "sha256:5d6d4eab7197c5c746c1a400b3311b51a2dda993e17a487ffd9cc4eb90678ec8",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -10217,6 +10793,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0046",
+        "version": 1,
+        "contentHash": "sha256:e336cbd0c72c249a6cec0930cf675802c721fe1193e1aee5997153e444dd373b",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -10267,6 +10846,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0047",
+        "version": 1,
+        "contentHash": "sha256:b42485e7729b24115d5e2db03a056e080284f0d766f1af39df7d8d487f4866de",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -10317,6 +10899,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0048",
+        "version": 1,
+        "contentHash": "sha256:e469be18c909b84bb50386fefabbebc54588ce5a93a52a751c09a4c3b97b2c4b",
         "question": "Grade 3 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -10367,6 +10952,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0049",
+        "version": 1,
+        "contentHash": "sha256:6f0ae4b859e4391a2bb2a56f0f773e50f50cbbe0703476b18ecb3630ff3d4781",
         "question": "Grade 3 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -10417,6 +11005,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0050",
+        "version": 1,
+        "contentHash": "sha256:5eab7b758d2bda4960492d3039229928d131c212548d42b1c882f50c65d0fc37",
         "question": "Grade 3 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "ignore both sources forever",
@@ -10467,6 +11058,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0051",
+        "version": 1,
+        "contentHash": "sha256:e403229ddbcf4a1aec4edf8dc3ea0c67268eefd8ec2d1576313147df3aca0720",
         "question": "Grade 3 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "a large picture without labels",
@@ -10517,6 +11111,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0052",
+        "version": 1,
+        "contentHash": "sha256:b1dd320b4ecf9d7be72a3dde9cc66dbac9e2693746a35fd9e5c7d793ca3250dd",
         "question": "Grade 3 Easy: Choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a paraphrase in your own words with the source recorded",
@@ -10567,6 +11164,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0053",
+        "version": 1,
+        "contentHash": "sha256:0fa13aecd6bbe6ceac963664efb613027aa7ee30b788c5279ca7fb98562d6c94",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -10617,6 +11217,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0054",
+        "version": 1,
+        "contentHash": "sha256:674a59f3ac3af31c123a5a37d6f38115d5ff35cd373272772b7be2e6446079ce",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -10667,6 +11270,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0055",
+        "version": 1,
+        "contentHash": "sha256:7d4534ba0894077bdd774986d1559e95a6422f8e8526af2d97b9d93fb1a14683",
         "question": "Grade 3 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -10717,6 +11323,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0056",
+        "version": 1,
+        "contentHash": "sha256:1c36cd36443264f1d58a36bf9fb45e27d27f9601019a4170207e17004526b6da",
         "question": "Grade 3 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -10767,6 +11376,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0057",
+        "version": 1,
+        "contentHash": "sha256:44ac79c0eb74917a2702b1532d82125be01c37f96c7bad7f0b9a8586aa5bafcf",
         "question": "Grade 3 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -10817,6 +11429,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0058",
+        "version": 1,
+        "contentHash": "sha256:0c894c1504814c0648f42a1e73f0f462c4a1630f8f238bb0d6f76e4ab4dfcc82",
         "question": "Grade 3 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -10867,6 +11482,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0059",
+        "version": 1,
+        "contentHash": "sha256:eefb3c1fd7f6ab48d0a9a5cc6339e5f0e81ff5786efac46ddabca6d205cfad4e",
         "question": "Grade 3 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -10917,6 +11535,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0060",
+        "version": 1,
+        "contentHash": "sha256:78859b6d23ae77b11a9f3827bfbcb12cc7e2c4775f37feca6123856819d38f38",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -10967,6 +11588,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0061",
+        "version": 1,
+        "contentHash": "sha256:82593c1090b579f832b537149e12ed8f498d60fa7d59f5fc2ebfe50e85598537",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -11017,6 +11641,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0062",
+        "version": 1,
+        "contentHash": "sha256:a0e79f87b5b8df22b45c719fff7450429160f5b144d6baafeebf64559086f37f",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -11067,6 +11694,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0063",
+        "version": 1,
+        "contentHash": "sha256:a51b31a448f064b0e5bb7ea26bb678d4d313c7b95473aabfafd707991f02ef48",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -11117,6 +11747,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0064",
+        "version": 1,
+        "contentHash": "sha256:8fab648d49a94da9994885ea6fdf4e935f8a39951ed47439f1d8d22a4f96d0dc",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -11167,6 +11800,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0065",
+        "version": 1,
+        "contentHash": "sha256:33f5fe00eb6f636d5ce3d238fda2641567f8dfe021e4d8a1de5221d2200c0e44",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "choose the shorter source always",
@@ -11217,6 +11853,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0066",
+        "version": 1,
+        "contentHash": "sha256:842e89af9a813e9610cbded38436d1ebe2b2921de6fb0a8558569ee53fa373b9",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "many exclamation points",
@@ -11267,6 +11906,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0067",
+        "version": 1,
+        "contentHash": "sha256:7d481b84db2914e79f0bbb8299980f05be09b29447eb97f3a37a4db67f3ef79a",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a random guess",
@@ -11317,6 +11959,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0068",
+        "version": 1,
+        "contentHash": "sha256:5c2f1086ff8ba38e47fe3210d05cd2cd9c1bed439ac68da056564f8d1acddd90",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -11367,6 +12012,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0069",
+        "version": 1,
+        "contentHash": "sha256:c283f35beb13003526eb91f3e831028e0c3dbee2b9e59101051874ab040d1588",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -11417,6 +12065,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0070",
+        "version": 1,
+        "contentHash": "sha256:7382e05bb0b71276ac8f625bc2d5304991f1a7ee83cfc6fb8eb8a5cf255554ca",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -11467,6 +12118,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0071",
+        "version": 1,
+        "contentHash": "sha256:62443e534cd3fc1fd88495bd92eefa088e36543b3452d991416a92da20efef76",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -11517,6 +12171,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0072",
+        "version": 1,
+        "contentHash": "sha256:9afad9a626adce34d328afc2de990e6881bc18859a9ba54b734ba8d709b42571",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -11567,6 +12224,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0073",
+        "version": 1,
+        "contentHash": "sha256:c96dbb74c4d8357b98d74231776ddea2ad117fb34b18aae8aed77695a3f2a44c",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -11617,6 +12277,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0074",
+        "version": 1,
+        "contentHash": "sha256:12b7231d1f4d8dd944a23b5e4a7628cc07abd43c6dbca8c866313fb2f27b2dc4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -11667,6 +12330,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0075",
+        "version": 1,
+        "contentHash": "sha256:f4c26fe1a552f7c31e944dda16d5de9fa48b5370e837e735808b2251fac7f6c8",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -11717,6 +12383,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0076",
+        "version": 1,
+        "contentHash": "sha256:850fba051745b9eb9a25e1bd5db325793876709209be068c9b884bb05bcfb761",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -11767,6 +12436,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0077",
+        "version": 1,
+        "contentHash": "sha256:f2493c677a524c61a9ea29fabfb68d5e78a6fb4468b026107ab78791084badf6",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -11817,6 +12489,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0078",
+        "version": 1,
+        "contentHash": "sha256:1dbc05b5a9eec160b1143bc1bcf3f841647266802e8ff264e0342f27b8d84e00",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -11867,6 +12542,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0079",
+        "version": 1,
+        "contentHash": "sha256:fe67320a0dcf7c5c8df21353e67ddcf228adfc8417c4a418d34b03957af2fd86",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -11917,6 +12595,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0080",
+        "version": 1,
+        "contentHash": "sha256:f6070981446afdfd1166309af997776555c16f043fc55f75c8136ea3b9a6492d",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "check more reliable sources and compare evidence",
@@ -11967,6 +12648,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0081",
+        "version": 1,
+        "contentHash": "sha256:53183ae6902cec598165ee4caf1b224cc6312edc17c11b53e5c1ebb44081ea69",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "bright colors only",
@@ -12017,6 +12701,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0082",
+        "version": 1,
+        "contentHash": "sha256:840e4ac5910943fbc4ff11efc7c6d8ddf65dda7c31f46f38033147a64073484f",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which note avoids plagiarism?",
         "choices": [
           "a changed title only",
@@ -12067,6 +12754,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0083",
+        "version": 1,
+        "contentHash": "sha256:bc721731719ae3c0655a66061782d65a2d5eb2931d1fbc949147b4aa7bd95e09",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -12117,6 +12807,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0084",
+        "version": 1,
+        "contentHash": "sha256:cace35db7168bf2177eeecccfe01348708e36d28186ce8ad545ed09f1ab446dd",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -12167,6 +12860,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0085",
+        "version": 1,
+        "contentHash": "sha256:91e33dde4f4ba7c1978804fed9c0d8e5eea251ebaa58408cb7c64f73c5c7790a",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -12217,6 +12913,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0086",
+        "version": 1,
+        "contentHash": "sha256:4e98f0a3d60d969f578d43db339e4f786560c8936ba7a3a1233d3a734ee637dd",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -12267,6 +12966,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0087",
+        "version": 1,
+        "contentHash": "sha256:5e4e75614fb05c3bbec377e789c770feb525a87668af901376330ac6270e20d4",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -12317,6 +13019,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0088",
+        "version": 1,
+        "contentHash": "sha256:e28687103db0fb94c4b965708189af514759ab04bc640c6b6603ee21c63ae758",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -12367,6 +13072,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0089",
+        "version": 1,
+        "contentHash": "sha256:1b40cdec1b7ec0cf8b73055a0321452d6f4a38005ded03338b492db4bd2d56be",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -12417,6 +13125,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0090",
+        "version": 1,
+        "contentHash": "sha256:05d22efecdd9aa7b12579c8551f0b270db4435efe52760ce85680d671f9d0fb7",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -12467,6 +13178,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0091",
+        "version": 1,
+        "contentHash": "sha256:33e774c0dd0c3c20a8be5de6ec03e85ef0ef782d7325a63a968bc6c7205aced3",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -12517,6 +13231,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0092",
+        "version": 1,
+        "contentHash": "sha256:ce075fee28af513aa9cbc9710ad07bbe1eaffb7616cdab992612df98b26c5af1",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -12567,6 +13284,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0093",
+        "version": 1,
+        "contentHash": "sha256:07f55a9f0d5ce310b2adc65ea4d5aff25af6d8660d209f877aa7f74c2e8ea75d",
         "question": "Grade 4 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -12617,6 +13337,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0094",
+        "version": 1,
+        "contentHash": "sha256:d6dd0dbb033918f207ba79e24cea21af6f300e2d988e812a7e851e015ecb8d2f",
         "question": "Grade 4 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -12667,6 +13390,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0095",
+        "version": 1,
+        "contentHash": "sha256:2d337c5238f3eecb9ca91022c204a71d74d40ab1449588d456f4be7acd868568",
         "question": "Grade 4 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "check more reliable sources and compare evidence",
@@ -12717,6 +13443,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0096",
+        "version": 1,
+        "contentHash": "sha256:a0cecd67c53b3273d8a1bfcaabfee6a14a120bef5dae3859c043618e58842bdf",
         "question": "Grade 4 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "bright colors only",
@@ -12767,6 +13496,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0097",
+        "version": 1,
+        "contentHash": "sha256:b2615195b4e7dd5024d16e68ae2b0268db980ccf2c6f1a2cc11d49e0b1068b42",
         "question": "Grade 4 Easy: Choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a changed title only",
@@ -12817,6 +13549,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0098",
+        "version": 1,
+        "contentHash": "sha256:8813813c86bcb70b7647073af0dca0bef8360bde40ab59edbd086f6d3decd948",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -12867,6 +13602,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0099",
+        "version": 1,
+        "contentHash": "sha256:19af05f6088c357140d243b2e7b5686f21cea921628c09908e4bdc9dfea6dd1f",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -12917,6 +13655,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0100",
+        "version": 1,
+        "contentHash": "sha256:c1e8689d0aa0653e35c6c92dc92a5a8b32788f8273fbaf15553ef0d37ef7877b",
         "question": "Grade 4 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -12967,6 +13708,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0101",
+        "version": 1,
+        "contentHash": "sha256:068ac99ab6e6250186c953bc3f7d66c05511a16f99415be25ee9ac8a09894310",
         "question": "Grade 4 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -13017,6 +13761,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0102",
+        "version": 1,
+        "contentHash": "sha256:4c5959a2dfe5d2860e6bcdd9895ba31ac694b0754e08ecd1e5e02423fb8fa6e7",
         "question": "Grade 4 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -13067,6 +13814,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0103",
+        "version": 1,
+        "contentHash": "sha256:a860769bf72dfe832cfc39242ea3e66aec2f7d30bf60c3f41555d457e5ba2d94",
         "question": "Grade 4 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -13117,6 +13867,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0104",
+        "version": 1,
+        "contentHash": "sha256:b63938530781f0025526f62cc82ba4a7a1647010c596e8871b3b56d2c86c26ef",
         "question": "Grade 4 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -13167,6 +13920,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0105",
+        "version": 1,
+        "contentHash": "sha256:d612a807ea6d18483a0e4a9fa118f5436d3d374188945ec7432c5dfca93132bd",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -13217,6 +13973,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0106",
+        "version": 1,
+        "contentHash": "sha256:6b3574eb2f075d4bd43fe787c3d11cbc443f1b93a7171c5d54809bc8c58e4dff",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -13267,6 +14026,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0107",
+        "version": 1,
+        "contentHash": "sha256:3537cead150de2b2e5b41c4b9065f458449ce36a61aae87d2b15b8a53823ff34",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -13317,6 +14079,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0108",
+        "version": 1,
+        "contentHash": "sha256:8c683192be6cdb42ce9c700b84a835ac06feb6fb2ea14193c1cd889be2bb1aa2",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -13367,6 +14132,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0109",
+        "version": 1,
+        "contentHash": "sha256:bf77afcfb758de6f34a60cac99d02d6d0e43a1d9f8b8d8e82b35ef842cc1a586",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -13417,6 +14185,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0110",
+        "version": 1,
+        "contentHash": "sha256:28f32a12f6e1d5143e3e7c24d2b2a8d2e11db199506558b5db80b43272aaedfd",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "copy the first answer found",
@@ -13467,6 +14238,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0111",
+        "version": 1,
+        "contentHash": "sha256:fae7c83242cfa828cffe7f4605a11cd6ba84d2aaf90b0a825f0fb148fd0a871e",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "the author's name and date of publication",
@@ -13517,6 +14291,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0112",
+        "version": 1,
+        "contentHash": "sha256:8e6b668d10af7fb7a7ed34d42751500aa075296670949fc621afcdb890fe5c2a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a copied sentence with no source",
@@ -13567,6 +14344,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0113",
+        "version": 1,
+        "contentHash": "sha256:4de598ce12198cbc12abe48175890d628ea74aee65bf912e9f955a8179cb2a0e",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -13617,6 +14397,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0114",
+        "version": 1,
+        "contentHash": "sha256:ee5fe01009783b42efcf20f7cf5fdc2c8310396178e2fab9b5b4bb874c6386ad",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -13667,6 +14450,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0115",
+        "version": 1,
+        "contentHash": "sha256:64a126fde423e01db8cc4c756a0751f412340c7f8c7d37d5b854829aa8ae00cc",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -13717,6 +14503,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0116",
+        "version": 1,
+        "contentHash": "sha256:f134238c05becb31650efb71763f2daea56840545849d5bfe4e06e4e934bd0e1",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -13767,6 +14556,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0117",
+        "version": 1,
+        "contentHash": "sha256:3f2c907c0aab47d4d2f1c72e18c1395ea1ef06fc7fb580db622f7788aa5ee216",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -13817,6 +14609,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0118",
+        "version": 1,
+        "contentHash": "sha256:31754b74980469cebb2ff673f4488b93b02ea50aec3c52272cd7c5cdc8be6bef",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -13867,6 +14662,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0119",
+        "version": 1,
+        "contentHash": "sha256:a07173e56039898ea20eb4417a9b42a31e229103ef3fd142dc31f4a7d0fc3d45",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -13917,6 +14715,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0120",
+        "version": 1,
+        "contentHash": "sha256:7201fd988ef9e9689c98a6ec9df1dc837ae947895e000eca1a88dade4d73f89e",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -13967,6 +14768,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0121",
+        "version": 1,
+        "contentHash": "sha256:1c1a1bba9346ef6bc99cc01cc2ee63b9cf83cf41a70a77224ccffea89ef6aace",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -14017,6 +14821,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0122",
+        "version": 1,
+        "contentHash": "sha256:fc255ad9cd56ece8cf7ea47afc3b3a0d0b9db08b33bfc5caaa8dd39e2670c373",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -14067,6 +14874,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0123",
+        "version": 1,
+        "contentHash": "sha256:c792c7fd7db50a770e8d4f883b14986f00e806880bf32c923d8904213f1f93e2",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -14117,6 +14927,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0124",
+        "version": 1,
+        "contentHash": "sha256:c28b3c22c1743a4dd4ded7561f7ce59560a7b8b71523b25cd41b2447cfda474f",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -14167,6 +14980,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0125",
+        "version": 1,
+        "contentHash": "sha256:2bafc9275965a6a23bdab7e96bc70e8fe05d5c02164c3a5ea6c1f12c65919f06",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "ignore both sources forever",
@@ -14217,6 +15033,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0126",
+        "version": 1,
+        "contentHash": "sha256:f644cb0126a89bd78ed863dbd4bafbdbe71d3a91f7cbec0b365311296ed0fba9",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "a large picture without labels",
@@ -14267,6 +15086,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0127",
+        "version": 1,
+        "contentHash": "sha256:ffc4f32df56ba0239db52bef5b7023d5e173a3197d662d0924778f114bde9073",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which note avoids plagiarism?",
         "choices": [
           "a paraphrase in your own words with the source recorded",
@@ -14317,6 +15139,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0128",
+        "version": 1,
+        "contentHash": "sha256:20ccb399530bf03daf959dcc3bdd80db83b1d9b9844761ec4890fb7af56d822c",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -14367,6 +15192,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0129",
+        "version": 1,
+        "contentHash": "sha256:beb548c8a72c1be49ed860aba3c0c7ebc85799f087d8c24b784b9040eff789c4",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -14417,6 +15245,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0130",
+        "version": 1,
+        "contentHash": "sha256:8573adf6a5d6b0c1f38157a667f5309c11d6d249151ee58df0c7e76b1b676412",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -14467,6 +15298,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0131",
+        "version": 1,
+        "contentHash": "sha256:ace223cbdf96b12525add1a88e398a02295baf1948a55177c0c2c45fe6025b67",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -14517,6 +15351,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0132",
+        "version": 1,
+        "contentHash": "sha256:d7746e48f0dbfe3c9af3d18daae103a09caad91938ca50ad8bcca3f58d88e9d7",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -14567,6 +15404,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0133",
+        "version": 1,
+        "contentHash": "sha256:efb7cbd8b742e8cfdd0dee16b1a5bfb3991cd4e7ec9c68a0a998a51964696137",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -14617,6 +15457,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0134",
+        "version": 1,
+        "contentHash": "sha256:e4020c1ff3a3d1fad6b757fae1fda633e29d3db25abaa82c604ce2958d5861be",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -14667,6 +15510,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0135",
+        "version": 1,
+        "contentHash": "sha256:a2b32f82bacf1c6b28741feb394b47385c3cab46789a2001cb76924b4091bc55",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -14717,6 +15563,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0136",
+        "version": 1,
+        "contentHash": "sha256:c41606b76d944c1b96df4556e6af44a5df60ebc45efd19b0929e1584bbca95d4",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -14767,6 +15616,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0137",
+        "version": 1,
+        "contentHash": "sha256:d23bc0f2e5ae260ba9593ef42af629b24fbce5b74cfa9a8d094bb37da6f86174",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -14817,6 +15669,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0138",
+        "version": 1,
+        "contentHash": "sha256:2a27d696695fcfaeaf38c9fc71526a6c780048d0b75a57dc19c507494903bcd2",
         "question": "Grade 5 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -14867,6 +15722,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0139",
+        "version": 1,
+        "contentHash": "sha256:587a805a92c330acfeb693d66732e2e5bef89fabbcf2c8c7da7fc09b265e02af",
         "question": "Grade 5 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -14917,6 +15775,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0140",
+        "version": 1,
+        "contentHash": "sha256:6589fd5bff3c0fd6f8c931aaeb2039909c585cef49a647a0dc03ab36031030a2",
         "question": "Grade 5 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "ignore both sources forever",
@@ -14967,6 +15828,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0141",
+        "version": 1,
+        "contentHash": "sha256:ed504ededace62be7243e7d423cf8f921bdccc0f33b171f51028e25b2cffd7f9",
         "question": "Grade 5 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "a large picture without labels",
@@ -15017,6 +15881,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0142",
+        "version": 1,
+        "contentHash": "sha256:9714dd16a9920967da8c9239e6817a5e2f4e52aba26136382d41cff091cdd7f3",
         "question": "Grade 5 Easy: Choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a paraphrase in your own words with the source recorded",
@@ -15067,6 +15934,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0143",
+        "version": 1,
+        "contentHash": "sha256:3c9d5236a337c19c720561d11d2247397a3c3843b646f8ed7563ffd86efae80b",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -15117,6 +15987,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0144",
+        "version": 1,
+        "contentHash": "sha256:8283080d8155c5f269669db024d25e7e7e3dbbb48d57ec4dddeef015d0127008",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -15167,6 +16040,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0145",
+        "version": 1,
+        "contentHash": "sha256:18bfa5cdd34ea4b82f0ca6f2f231bd9e18cd01b1683d342a6d586ffb931bc730",
         "question": "Grade 5 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -15217,6 +16093,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0146",
+        "version": 1,
+        "contentHash": "sha256:843444a5673eb21430036c2a80d45c823880e16039ba36b138c27fc110f8e8a4",
         "question": "Grade 5 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -15267,6 +16146,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0147",
+        "version": 1,
+        "contentHash": "sha256:414ba4312aec2d31e925d24fde96a3cef7c48f63482898d7796784b0b39cb996",
         "question": "Grade 5 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -15317,6 +16199,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0148",
+        "version": 1,
+        "contentHash": "sha256:e2af3aa0a55941af71ccf5e83fe2b384d965a2d37c1bed18b146585b838c1917",
         "question": "Grade 5 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -15367,6 +16252,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0149",
+        "version": 1,
+        "contentHash": "sha256:b8e3ce66fe225a7c387fb27cd5fbfa169b273f535c13e0e44b0635c318eb5828",
         "question": "Grade 5 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -15417,6 +16305,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0150",
+        "version": 1,
+        "contentHash": "sha256:8d3f615482a4ffc4179ba2fe5fb19caf9ea6227855819380ad834fad804d9b78",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -15467,6 +16358,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0151",
+        "version": 1,
+        "contentHash": "sha256:c4eb5e7de461dea8453f455677df3eaedf9380c5c4eb3c0cd975be579747e91b",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -15517,6 +16411,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0152",
+        "version": 1,
+        "contentHash": "sha256:aee05d507bec70887c9abdc094c4b33e51993676819e90ba298e9acbbdb83628",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -15567,6 +16464,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0153",
+        "version": 1,
+        "contentHash": "sha256:fea718d612c0884b79f79cef7eae45407c56625a7c69b74eba3d128d18754186",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -15617,6 +16517,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0154",
+        "version": 1,
+        "contentHash": "sha256:32610c8fe0dfd9836c2251a9e21144093d035e69a14f8f9f9520737baa3dd68d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -15667,6 +16570,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0155",
+        "version": 1,
+        "contentHash": "sha256:5cd052d7e4e40f1785a7bd49a61c62e0f492f7feaefdd79184e764e4f93b69f8",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "choose the shorter source always",
@@ -15717,6 +16623,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0156",
+        "version": 1,
+        "contentHash": "sha256:0ed28bcece4d33e966eb2b01b38629bb0684b45512530163da713c64e56eb2e7",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "many exclamation points",
@@ -15767,6 +16676,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0157",
+        "version": 1,
+        "contentHash": "sha256:72ae46c909e4c588e9fab7fdd911ce1912278b4bd74b14e37f3e605021168538",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which note avoids plagiarism?",
         "choices": [
           "a random guess",
@@ -15817,6 +16729,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0158",
+        "version": 1,
+        "contentHash": "sha256:d965afa169adc472e2ab7fac33990dc3778324ee3676f0c585f178616a09eb6c",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -15867,6 +16782,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0159",
+        "version": 1,
+        "contentHash": "sha256:612ac1a2ab06d227c82cf42b018e89b08cafee9c3e6b47cccd695925951de5f6",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -15917,6 +16835,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0160",
+        "version": 1,
+        "contentHash": "sha256:0e492c9d747d15c36a1c4b48d5a5c51075c5753a51b14dfa0e5ad7a6b20998ec",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -15967,6 +16888,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0161",
+        "version": 1,
+        "contentHash": "sha256:77fc2f99d529fa1b6ff42eebe3e91e85433d591e2d48635b67ed0c3f9f45fb07",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -16017,6 +16941,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0162",
+        "version": 1,
+        "contentHash": "sha256:60a9c08ada70588dbc94fde7b101421074c7143dbd1b88732245e1494ca9ad59",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -16067,6 +16994,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0163",
+        "version": 1,
+        "contentHash": "sha256:024d6bfde089fc43bd8f3f280bcaab95b2ef5c422411db94fce1c9c1af2fa9e0",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -16117,6 +17047,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0164",
+        "version": 1,
+        "contentHash": "sha256:e8c654c618c7067e24a788ec1f65508993d342772b08012125de19dae769a51b",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -16167,6 +17100,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0165",
+        "version": 1,
+        "contentHash": "sha256:ea55991b8f253c3c6b50b914ea7e2a2e69aa7f1e7176905a9e973498917f87c4",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -16217,6 +17153,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0166",
+        "version": 1,
+        "contentHash": "sha256:d3ab045a1798df2557cf5b900749434b84d08a548a17020cc6b45ebedc87f882",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -16267,6 +17206,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0167",
+        "version": 1,
+        "contentHash": "sha256:4605f79e772bf666b141ba1130207d358d0ee9d15ba47f3cf6a4508b521067f7",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -16317,6 +17259,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0168",
+        "version": 1,
+        "contentHash": "sha256:b5d2efa445e0d5a58acea0caa4a7082cd58544f210613d63b73b52badf84cee3",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -16367,6 +17312,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0169",
+        "version": 1,
+        "contentHash": "sha256:3d7e7f7c5add5a13ca30c32918e1927954c1b5f44ea9b2e6372a57a02e46f04c",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -16417,6 +17365,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0170",
+        "version": 1,
+        "contentHash": "sha256:29a6d052e4731a30065ec05463e45b23236a0a19206eebc79a84983b8a90b69d",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "check more reliable sources and compare evidence",
@@ -16467,6 +17418,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0171",
+        "version": 1,
+        "contentHash": "sha256:8695f680dfaf54546027d28dce5769e308f93bd3962436f2f0592e9204798da4",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "bright colors only",
@@ -16517,6 +17471,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0172",
+        "version": 1,
+        "contentHash": "sha256:2182fd522e522d3f71a8bdf1d64c3f1394a2637f4452e5a869f33c82780d3239",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which note avoids plagiarism?",
         "choices": [
           "a changed title only",
@@ -16567,6 +17524,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0173",
+        "version": 1,
+        "contentHash": "sha256:ba118b71fb8877ee9d96a6889b71b7c10851f10b9d053f99e0890449ce5ebaa8",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -16617,6 +17577,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0174",
+        "version": 1,
+        "contentHash": "sha256:147b2ef4044cb35d4bcbbdcb8d4893a961aabe7c52eaf2688abda611e5ed3c98",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -16667,6 +17630,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0175",
+        "version": 1,
+        "contentHash": "sha256:20a9006bc949aefeddafe14793582e5fdaaa71798b9fcfd552261cb7b567cf8f",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -16717,6 +17683,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0176",
+        "version": 1,
+        "contentHash": "sha256:d903b47adba4efc9de4c4035d0104eedd39b36bc28f507f0d7454b8f22e5a87d",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -16767,6 +17736,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0177",
+        "version": 1,
+        "contentHash": "sha256:5ed46019c51f49ff3e8a760c9c33891af4a0d4f90c55d0dd71cbfa507c95af07",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -16817,6 +17789,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0178",
+        "version": 1,
+        "contentHash": "sha256:dce1c55d82a38b1aa0d62b5e4495e25c688f6f5f12ce5259db23102729487aa4",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -16867,6 +17842,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0179",
+        "version": 1,
+        "contentHash": "sha256:f5adf5c1dab35dbf53e4fbaf6571ee7aba1829d931cbdfe0dea5df662d9996f2",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -16917,6 +17895,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0180",
+        "version": 1,
+        "contentHash": "sha256:bd546c2043261a0f565ffc6c0290d6e0460648e0c4d9ab65d9f83ab267b73ca1",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -16967,6 +17948,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0181",
+        "version": 1,
+        "contentHash": "sha256:51a940adf95de98778c0aa25d77acf360a3db6a9ecbd7f600fe6b3bfa0190fc3",
         "question": "You are assigned a research paper on primates. From the following list, choose which pair you would be sure to include.",
         "choices": [
           "lizards, monkeys",
@@ -17023,6 +18007,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0182",
+        "version": 1,
+        "contentHash": "sha256:54165d7ebe608b08a0a8b15fe2dbce86c6eab1336f9db2b5c76b1773eb95e278",
         "question": "If a student selects “cars” as a topic for a research paper, which words would NOT provide the basis for appropriate information?",
         "choices": [
           "American trucks",
@@ -17079,6 +18066,9 @@
         }
       },
       {
+        "id": "reference-skills-research-skills-q0183",
+        "version": 1,
+        "contentHash": "sha256:c23038aca2cbefb623e7311e73012b2262243792dfab8b53c60932d5bdecd92f",
         "question": "Which of the following does a research paper require?",
         "choices": [
           "h umor",
@@ -17155,6 +18145,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-media-literacy-q0001",
+        "version": 1,
+        "contentHash": "sha256:71731c01ab00fd675c8dd0a34f00653045a7643d45b2b6677f8bf06f7311b6f9",
         "question": "Grade 2 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -17206,6 +18199,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0002",
+        "version": 1,
+        "contentHash": "sha256:8470bd65b4a6b8c97982568268d77020b580425dc84b55b458793ce9fad9de1d",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -17257,6 +18253,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0003",
+        "version": 1,
+        "contentHash": "sha256:489e7952d1a613e2a51908706cd8924d85eef785084978fd52294232c616e222",
         "question": "Grade 2 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -17308,6 +18307,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0004",
+        "version": 1,
+        "contentHash": "sha256:6edfbd09025e9854615c66b49c96e75e55eb386d014895ad173861da8ea8b3ba",
         "question": "Grade 2 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "copy the first answer found",
@@ -17359,6 +18361,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0005",
+        "version": 1,
+        "contentHash": "sha256:7decd4bb01232935c9ac5f694487afa69e2713aa839e1c281eca72275c57c56d",
         "question": "Grade 2 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "the author's name and date of publication",
@@ -17410,6 +18415,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0006",
+        "version": 1,
+        "contentHash": "sha256:ba3cebfe94ba78eab7071891b6d40003229ad501ef505fa3485f3325929f9b77",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -17461,6 +18469,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0007",
+        "version": 1,
+        "contentHash": "sha256:94d68148ee99835616fd5092f52b17de0bd98c2c959485e0eaec7f5111301443",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -17512,6 +18523,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0008",
+        "version": 1,
+        "contentHash": "sha256:d506c6522af9ca9185a02793a63bdd0e0c50faeb1852bfd0262224a234ff22b1",
         "question": "Grade 2 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -17563,6 +18577,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0009",
+        "version": 1,
+        "contentHash": "sha256:511c7ac15988cf03a467d2928a3e1a14f1c50c5ecfac89233e05b6e3df9a4ef2",
         "question": "Grade 2 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -17614,6 +18631,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0010",
+        "version": 1,
+        "contentHash": "sha256:57dc0dd5772b416efc54e2a17573e81866101b8a9c88813a654544dcd4003e76",
         "question": "Grade 2 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -17665,6 +18685,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0011",
+        "version": 1,
+        "contentHash": "sha256:f98fc4bda4a5389bdccede5d455f382160b70ef6a2b09b4c55b8c8f3722e8b8d",
         "question": "Grade 2 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -17716,6 +18739,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0012",
+        "version": 1,
+        "contentHash": "sha256:bb9a09058e3f98ed01a9115e99dab5283a3b72250835fece00b2624879a12c1c",
         "question": "Grade 2 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -17767,6 +18793,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0013",
+        "version": 1,
+        "contentHash": "sha256:30d7c5e09b37c78461823ff3ea3b43b953409fb3065270c48e31e2a2c4c06ffe",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -17818,6 +18847,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0014",
+        "version": 1,
+        "contentHash": "sha256:ffba9e66796744f6bc9de82b2ae4ed02a0c7efe604260d3c303629514a9aa77d",
         "question": "Grade 2 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -17869,6 +18901,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0015",
+        "version": 1,
+        "contentHash": "sha256:dd082de78d7648726ad1e9d188f28dc9f83e5f995824e72a4d0c25033a9cb9fe",
         "question": "Grade 2 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -17920,6 +18955,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0016",
+        "version": 1,
+        "contentHash": "sha256:5560bc2ff8ca0d2081919f9ed7a2aae7a9a24465209c3afa51c914689deb3e16",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -17971,6 +19009,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0017",
+        "version": 1,
+        "contentHash": "sha256:431b7368a7d9b0ab0abc286ea710649a321bc7134fc1135fcd9764e88a356164",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -18022,6 +19063,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0018",
+        "version": 1,
+        "contentHash": "sha256:a04e224f8f98e8307280781892511450bec6439409628dab2fa9e30bb8004ee9",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -18073,6 +19117,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0019",
+        "version": 1,
+        "contentHash": "sha256:5708dd7dfef00d7d7a577f1cdd563c7b2bf3349d89d93323f9b1d59d128da005",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "ignore both sources forever",
@@ -18124,6 +19171,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0020",
+        "version": 1,
+        "contentHash": "sha256:74eddc310a69b50212b589fa6726336cbd7a7843b66c9ca6a9761f3acb5d258d",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "a large picture without labels",
@@ -18175,6 +19225,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0021",
+        "version": 1,
+        "contentHash": "sha256:38a3dca629fa8723c33a95a3d7e61cc7eeb2110a043c06af586f82af97b559b3",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -18226,6 +19279,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0022",
+        "version": 1,
+        "contentHash": "sha256:044bb6d9b3cc0af9a6bafeb4259d4443cbdb00116e5a8e34d2cb298be053dd41",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -18277,6 +19333,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0023",
+        "version": 1,
+        "contentHash": "sha256:3d897a0e75537cb42a2c05ce4412ee9d7f2ca60328250f2bbe9da36aa586c033",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -18328,6 +19387,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0024",
+        "version": 1,
+        "contentHash": "sha256:27a6af4312e773a65ecb7c951c07fbf1ae67cff3088a7437e4efc1db15c79abc",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -18379,6 +19441,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0025",
+        "version": 1,
+        "contentHash": "sha256:7f619382c76cd4a1a220580e19bd499fc18daa77e890620609ccaefeb38ae6d9",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -18430,6 +19495,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0026",
+        "version": 1,
+        "contentHash": "sha256:31e57f7a1f7676c5b724cf24ca20389ff995aa532f1d28abf3107ea19c2c907f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -18481,6 +19549,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0027",
+        "version": 1,
+        "contentHash": "sha256:800ee5499088b4e53cbfa2ec2b86d68d5553ef8aff48ad9fd5380214c116868c",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -18532,6 +19603,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0028",
+        "version": 1,
+        "contentHash": "sha256:07b52df2705b70337eb82cff82876470c61eb15a2e5349bd047b8d84836f67e4",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -18583,6 +19657,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0029",
+        "version": 1,
+        "contentHash": "sha256:8f70f4f64e856430d0290e53c97ea03dcc4c5f81e63d6e5a7c5d70019580e588",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -18634,6 +19711,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0030",
+        "version": 1,
+        "contentHash": "sha256:861f67b38e4957dd0573e22923ce765c09c478ae823ede079b26cdebd0b809eb",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -18685,6 +19765,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0031",
+        "version": 1,
+        "contentHash": "sha256:8889c7842faf83140ff15eff7199a6b0046c5ba0fce0394287ce296d01e1c513",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -18736,6 +19819,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0032",
+        "version": 1,
+        "contentHash": "sha256:f786aadbfa5882ddf86a1a89a862c0e36ba2af3aed1b6e9df1f8384bad9fb26a",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -18787,6 +19873,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0033",
+        "version": 1,
+        "contentHash": "sha256:7ef371585bcdea768af8aa50556e3a91d142032a43417e191b15fd38ad2f8ed3",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -18838,6 +19927,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0034",
+        "version": 1,
+        "contentHash": "sha256:e74ac4eb4fc566482e7f31eecf7a97fe61612a95d3b5737f737fdbcb2a7bf1b1",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "choose the shorter source always",
@@ -18889,6 +19981,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0035",
+        "version": 1,
+        "contentHash": "sha256:c08d35498434d933fb3c629af113197a25e145cadfe763ec8bcea71e25061dd1",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "many exclamation points",
@@ -18940,6 +20035,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0036",
+        "version": 1,
+        "contentHash": "sha256:a36bb66c5df11fd346824c77ec3bbf71d62f10ccb0400b472bbf5aa632b04b04",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -18991,6 +20089,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0037",
+        "version": 1,
+        "contentHash": "sha256:a6d2571ce34228ba2c590db9eec293a3b5f184f0de6732d27ddb7d0471275f94",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -19042,6 +20143,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0038",
+        "version": 1,
+        "contentHash": "sha256:25d1438cc5ef28125b6e5928ca8956ca8945ef1fcf38ab32dc9c7268ee31594b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -19093,6 +20197,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0039",
+        "version": 1,
+        "contentHash": "sha256:a1f916aa33b702034ef571dbe8ecea995faa835838198696aa9d349bb82fbadc",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -19144,6 +20251,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0040",
+        "version": 1,
+        "contentHash": "sha256:248dfb888f87f19661a3ec283f118127f0fe56525c597c7b66b0224efc6433b8",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -19195,6 +20305,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0041",
+        "version": 1,
+        "contentHash": "sha256:4a5960b4dcb8c4227c55890bd40fafc5c13c0f64fa0c69510b090caa6152748d",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -19246,6 +20359,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0042",
+        "version": 1,
+        "contentHash": "sha256:f7c0eac05aca8e9973f0e19c8331433f1e0c17b43b9bd29e1237340031cf4d94",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -19297,6 +20413,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0043",
+        "version": 1,
+        "contentHash": "sha256:a39aa83f042a80a946c2d1478b02ccae1a12f6b6bc01bb2bec486d35a0d0402e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -19348,6 +20467,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0044",
+        "version": 1,
+        "contentHash": "sha256:9bdebd1867ef3e1813817e035ce27b3b38c5a8d6cbf796de8fa44bcd2b3770ae",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -19399,6 +20521,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0045",
+        "version": 1,
+        "contentHash": "sha256:6dde57b1acd498fc7f91a7ba97a5c82bf81062c3ed107209663e3149716790bb",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -19450,6 +20575,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0046",
+        "version": 1,
+        "contentHash": "sha256:a30ef57bc0cab6ea3007e85effd1a6de7a416e6f603db46c78e91376fe45be96",
         "question": "Grade 3 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -19501,6 +20629,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0047",
+        "version": 1,
+        "contentHash": "sha256:44f8b53d31afde6081ab8e1f023c55715c9fffa6d5e18296dd7f6776ff2ebb7d",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -19552,6 +20683,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0048",
+        "version": 1,
+        "contentHash": "sha256:c6e8ba3192e8a4469674f783420ccf64761cd41f3e337564f707c69acbde23fa",
         "question": "Grade 3 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -19603,6 +20737,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0049",
+        "version": 1,
+        "contentHash": "sha256:53db66f4864095a12365356891c4bc2d0445df14dd17633bf0a17b82cfaba767",
         "question": "Grade 3 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "choose the shorter source always",
@@ -19654,6 +20791,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0050",
+        "version": 1,
+        "contentHash": "sha256:fa7882960a7481dc2a5555a8b3e446f432fdc31ce62961611bb6ac7dd1294fe3",
         "question": "Grade 3 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "many exclamation points",
@@ -19705,6 +20845,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0051",
+        "version": 1,
+        "contentHash": "sha256:865aada4c1839f77d2f595c05a2ca735c591e5423c5c46887c5ba25ce10a418b",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -19756,6 +20899,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0052",
+        "version": 1,
+        "contentHash": "sha256:53d990991e890ae795fba0340501e3bb55d1991e448e7cb4e791c024cf963739",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -19807,6 +20953,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0053",
+        "version": 1,
+        "contentHash": "sha256:d0b5f683b20f6180ebdf85bd1e5fd27b91da4327c6d4b8cb8a5113f94fb1b118",
         "question": "Grade 3 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -19858,6 +21007,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0054",
+        "version": 1,
+        "contentHash": "sha256:b8262dcf15a372c45e9a36432f427b1ac92067a6f390f0c7df60447008fc0f38",
         "question": "Grade 3 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -19909,6 +21061,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0055",
+        "version": 1,
+        "contentHash": "sha256:f4d3759689031ef2723b282151723df2e141e73536a5bbbc42165e11ce60508b",
         "question": "Grade 3 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -19960,6 +21115,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0056",
+        "version": 1,
+        "contentHash": "sha256:fc7c0773c2f13c4179a0b83e236aff105d09b69cfefa104a4df8d324801e8a43",
         "question": "Grade 3 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -20011,6 +21169,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0057",
+        "version": 1,
+        "contentHash": "sha256:a27d7a8e905061625cff065c036c7800e58a997e9530d901b927dcd7d3ed467a",
         "question": "Grade 3 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -20062,6 +21223,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0058",
+        "version": 1,
+        "contentHash": "sha256:facbb2d9415f89e6f285b4570f4ffa608d5e1af5ef4ae28e6890c235272d4585",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -20113,6 +21277,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0059",
+        "version": 1,
+        "contentHash": "sha256:d14eb78c2e444ca5cafb3c2555c325b6883dd5c8f482b30da708edd5c46aa976",
         "question": "Grade 3 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -20164,6 +21331,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0060",
+        "version": 1,
+        "contentHash": "sha256:2407b79a865f00422f14cdd1478ad0a2aff8f6f05bdf38222d7faaebff2fdbe2",
         "question": "Grade 3 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -20215,6 +21385,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0061",
+        "version": 1,
+        "contentHash": "sha256:3e1b119fbda5ee08b374a3b6c519a0d5b6e5d1badd6167cbe91831c413b1ab08",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -20266,6 +21439,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0062",
+        "version": 1,
+        "contentHash": "sha256:419dcd433c3b8fc01dba8e95ecbaf2b44b6f166bfcd9bc7bde52f4bd9528d90b",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -20317,6 +21493,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0063",
+        "version": 1,
+        "contentHash": "sha256:de7ceff0a12616d1952e4cfdc715314ab3743a468130145d4ddba5c9298aba83",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -20368,6 +21547,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0064",
+        "version": 1,
+        "contentHash": "sha256:1ec75a7fdfab80f9851241b03de3b15bd8891656fc75092252b2b9e242dcca9b",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "check more reliable sources and compare evidence",
@@ -20419,6 +21601,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0065",
+        "version": 1,
+        "contentHash": "sha256:b64f4c43b66578f5c2f4e4c611cc11aa6a786dc71998007396262ce161e6d0c1",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "bright colors only",
@@ -20470,6 +21655,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0066",
+        "version": 1,
+        "contentHash": "sha256:d3a91b020b89b27439714798f6e8dd60f51152027fe53d415edfc933e812f69d",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -20521,6 +21709,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0067",
+        "version": 1,
+        "contentHash": "sha256:efcd4c4d14aee901d3b19346cd0ddb4eb485c21f64484c716c931b7447be6a43",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -20572,6 +21763,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0068",
+        "version": 1,
+        "contentHash": "sha256:99598f9066b21058929f4e9326a0f4fdbd1064d51e55e16b66e4f3ba237a5117",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -20623,6 +21817,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0069",
+        "version": 1,
+        "contentHash": "sha256:9d8b9277ad49a37813313fc9793fe6732e49479b443cfa96d80652b702391a06",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -20674,6 +21871,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0070",
+        "version": 1,
+        "contentHash": "sha256:33a6ccf44057b95cca39c43fab93f906c3156507586eb740858900d746718251",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -20725,6 +21925,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0071",
+        "version": 1,
+        "contentHash": "sha256:3353574044f2335905551151e3d873cbd281ef84068116423156082b554395c1",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -20776,6 +21979,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0072",
+        "version": 1,
+        "contentHash": "sha256:7c65d4fa92a45bcddd1d938ecef7d690ceb9e292b891836fe01bc90acbbeeb74",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -20827,6 +22033,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0073",
+        "version": 1,
+        "contentHash": "sha256:8260dc359bda17c8a582df58fed817e1f1ad3735e2380528d375db536a397da1",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -20878,6 +22087,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0074",
+        "version": 1,
+        "contentHash": "sha256:7ff9b8ce78c61a1e83dc86b3589149b39cbf319819f28e68f6227b0df4de8b21",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -20929,6 +22141,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0075",
+        "version": 1,
+        "contentHash": "sha256:d52338aa6448be0de347ee4b77a33f2b70ca168c7a572fa91b350e938cde01aa",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -20980,6 +22195,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0076",
+        "version": 1,
+        "contentHash": "sha256:73ae6ef2a45f0f8cc1fff06d2b47e0ca5adee7dfa24eace66f997eef0eca130a",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -21031,6 +22249,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0077",
+        "version": 1,
+        "contentHash": "sha256:244998ebf4c82a156bcd3b9908e555d4fce6b2f02f2d8a56803258c4206a2fe2",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -21082,6 +22303,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0078",
+        "version": 1,
+        "contentHash": "sha256:a99f1c087e5afed152e4ba73da8e5681d0579d6a181eff035d0a8aad049f767a",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -21133,6 +22357,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0079",
+        "version": 1,
+        "contentHash": "sha256:88f82b05dcfdc315b0ed145c56f6b1a65bf0ddaaefdae5d21dddd54025fe7344",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "copy the first answer found",
@@ -21184,6 +22411,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0080",
+        "version": 1,
+        "contentHash": "sha256:06a5beb5fe36f311598e3057743e9d025688b8fcc7f2203f8b34dc4a68114a5d",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "the author's name and date of publication",
@@ -21235,6 +22465,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0081",
+        "version": 1,
+        "contentHash": "sha256:0b1e77cf8df4e20e95992932d41ed66bca31cd8e45c4dddd7f5544410fff3e4f",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -21286,6 +22519,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0082",
+        "version": 1,
+        "contentHash": "sha256:73ee018806cfa5dfb5fdbbda54db26bbba6e9f613552f94a01879e7f9fc009d0",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -21337,6 +22573,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0083",
+        "version": 1,
+        "contentHash": "sha256:c4541cb9a3f018d823007671405c5228ff67eae6e1aea3cde0b3b841a15f442a",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -21388,6 +22627,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0084",
+        "version": 1,
+        "contentHash": "sha256:fde8c6d488adf6f3e4aab5e7e1aa9ce204862a49933dc0c7f9d23aba7828416b",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -21439,6 +22681,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0085",
+        "version": 1,
+        "contentHash": "sha256:fdfc739c1e71f95e6372e10880ebcafe1b3c9df02f00b67ef3e86c688d583337",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -21490,6 +22735,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0086",
+        "version": 1,
+        "contentHash": "sha256:4dfc7865817f607cd9ad0fa1d177c6fe8389c2799f2935680e7d0d572ce91ba4",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -21541,6 +22789,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0087",
+        "version": 1,
+        "contentHash": "sha256:8cc59f220fbd23ceb5a9f0fbdb8e03f3af3d9248a81e458b6b516a121791425c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -21592,6 +22843,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0088",
+        "version": 1,
+        "contentHash": "sha256:20a908dbc5d4d9252aef5e4b557bb08d724aee466f03c53b6ca25c350b155d26",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -21643,6 +22897,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0089",
+        "version": 1,
+        "contentHash": "sha256:22eaddc58cb0131e60fb648669b480b89eb55b5bb9c794cb0c0102cafb59a4d5",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -21694,6 +22951,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0090",
+        "version": 1,
+        "contentHash": "sha256:9d21dd05601fb4458ac9d249ba972b5b2e0f7da2323b030b7d968053af0286b3",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -21745,6 +23005,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0091",
+        "version": 1,
+        "contentHash": "sha256:87a5fb12f52b073d7e278d2efffb14dc2e3e6fb92ad3d1911997a07777c1e15d",
         "question": "Grade 4 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -21796,6 +23059,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0092",
+        "version": 1,
+        "contentHash": "sha256:e420bec64741cd08d791402f1d90165e934d124e9cebdc97f1695ef05f9e2d65",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -21847,6 +23113,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0093",
+        "version": 1,
+        "contentHash": "sha256:b8099136985d7db28717f6e7180405d7cc3aaf804dcc96b2d9b700de36c8f2be",
         "question": "Grade 4 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -21898,6 +23167,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0094",
+        "version": 1,
+        "contentHash": "sha256:fbf74e4433506d3593d1b0ab59dc54a37e986c71fc2dd401fa913a520a67e2db",
         "question": "Grade 4 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "copy the first answer found",
@@ -21949,6 +23221,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0095",
+        "version": 1,
+        "contentHash": "sha256:cecc472dd1a2e848669290fafe4bc554eb4ecd27cb3f2bc65b32c67ad278c343",
         "question": "Grade 4 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "the author's name and date of publication",
@@ -22000,6 +23275,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0096",
+        "version": 1,
+        "contentHash": "sha256:7d4849d66c55e7338e8ba9da415ae644a49c135eb3fb66e39d0a89a09c5a58aa",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -22051,6 +23329,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0097",
+        "version": 1,
+        "contentHash": "sha256:c9552c60c220558ec516eabd8157ab44529c9a8206acd91419e2654f8889c2e7",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -22102,6 +23383,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0098",
+        "version": 1,
+        "contentHash": "sha256:c73764f0a0da7c5cded9928ffaf72d0fbe80fbfc72c8aaa9c514f336f35eac39",
         "question": "Grade 4 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -22153,6 +23437,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0099",
+        "version": 1,
+        "contentHash": "sha256:b4b5903931cef5ba4cdafdb9ff89b5fbde89a117d0065bd67d052a92a496e56b",
         "question": "Grade 4 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -22204,6 +23491,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0100",
+        "version": 1,
+        "contentHash": "sha256:09abe0cf239eafb1bb1e40249177959f5d589a388fd4bf9f005db85bc81c88dc",
         "question": "Grade 4 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -22255,6 +23545,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0101",
+        "version": 1,
+        "contentHash": "sha256:78b9cd393c229ae061dbf15a5ecddc1c67cb1aca92ba67e1982cbec823dddb49",
         "question": "Grade 4 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -22306,6 +23599,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0102",
+        "version": 1,
+        "contentHash": "sha256:6e6abe5b4e683a57eacbcfc763237434f2789f66967bdc3266e7678e9b4a20db",
         "question": "Grade 4 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -22357,6 +23653,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0103",
+        "version": 1,
+        "contentHash": "sha256:6d92b7d789f9a247b77259feb87bf196ef63b70c215dd1a22305bc1c230235b8",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -22408,6 +23707,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0104",
+        "version": 1,
+        "contentHash": "sha256:71689783f744a9833da3dee6613b17ef30b7faa42afabb82cbf51c8f155da928",
         "question": "Grade 4 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -22459,6 +23761,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0105",
+        "version": 1,
+        "contentHash": "sha256:4583f4c45e772ccf57337f08b90ea90eed5cd79927555b4ae3ff36067edbd4ff",
         "question": "Grade 4 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -22510,6 +23815,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0106",
+        "version": 1,
+        "contentHash": "sha256:2c1edc3b91afa3f48bedfd2b8ba5cb922bd450afd746f61a2223b19a00ff36c0",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -22561,6 +23869,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0107",
+        "version": 1,
+        "contentHash": "sha256:0ef05b84db6b9d02f32252f648be68193e1578ceb6152cfddefd47a64e07e517",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -22612,6 +23923,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0108",
+        "version": 1,
+        "contentHash": "sha256:36af58d3b7f811990233aec457d6868aee0441dd7518e2186d794c585a3d5173",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -22663,6 +23977,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0109",
+        "version": 1,
+        "contentHash": "sha256:e89f9a525dfad4b5c4fe4f0d8b67e3f5863786bfe702bddb635b10b03a70c404",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "ignore both sources forever",
@@ -22714,6 +24031,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0110",
+        "version": 1,
+        "contentHash": "sha256:506e159a934acfeea034b48eeb30da445d19a2b5dec740b9a46fa6b479d42431",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "a large picture without labels",
@@ -22765,6 +24085,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0111",
+        "version": 1,
+        "contentHash": "sha256:0ea72f992db523c2ba7006cd060cd34b3442d9ea32b338d652023f259aaf86d3",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -22816,6 +24139,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0112",
+        "version": 1,
+        "contentHash": "sha256:2b389e929dec0fd6ca93251f28b9eb01c54200cf2ba3bb74f238a964e058902c",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -22867,6 +24193,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0113",
+        "version": 1,
+        "contentHash": "sha256:1909127ee0e2ed7491752d2832dfd3f3fc2182c64fc293d940077736493099e4",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -22918,6 +24247,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0114",
+        "version": 1,
+        "contentHash": "sha256:2ee1dc1decb71676d917267cf78f7c92f02125234dafbc300a1c5a44c17f714b",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -22969,6 +24301,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0115",
+        "version": 1,
+        "contentHash": "sha256:94a1f70211fd0bcf86d75a182fbe45851bb28112ab19bdc5d434f679d691199a",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -23020,6 +24355,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0116",
+        "version": 1,
+        "contentHash": "sha256:f42a03ffa239e97d2ad55baaa39968b0058d15fa415f5a7684caef0897987c2e",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -23071,6 +24409,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0117",
+        "version": 1,
+        "contentHash": "sha256:154cbac66c1bd0f6a34f3621d7137c39fd0bcabf70c549f00ac7c86d5ef8daa3",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -23122,6 +24463,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0118",
+        "version": 1,
+        "contentHash": "sha256:288542d277111a9c90574b75c22d84987ebd907d5a13c2d856bf3de4b3e59deb",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -23173,6 +24517,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0119",
+        "version": 1,
+        "contentHash": "sha256:41b8ceabb3e57cb46b4cb66bbcc7c04ee4beef2d654d0660c900838393cda2a0",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -23224,6 +24571,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0120",
+        "version": 1,
+        "contentHash": "sha256:7a1403b1686230fbeeb51c09669ed1f3a3ef32496cbb4374c253423e98fb318b",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -23275,6 +24625,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0121",
+        "version": 1,
+        "contentHash": "sha256:ef711b63895b6365a1e2e9f898c976f124700f76791134bf0fd2722845585e57",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -23326,6 +24679,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0122",
+        "version": 1,
+        "contentHash": "sha256:d4a3b9747ab4c1a45b2d9a0aa966072173368b3c15d8355b2e21a4b3e938b9c0",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -23377,6 +24733,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0123",
+        "version": 1,
+        "contentHash": "sha256:f6db40d58678eaf8cf578626d3bedd05738ee5a9bc3a81ff2689b8fb72762896",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -23428,6 +24787,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0124",
+        "version": 1,
+        "contentHash": "sha256:00fbff3f0b40e8da66e3a86a99455c4c281c69b2dccf8c3471823262c270571a",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "choose the shorter source always",
@@ -23479,6 +24841,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0125",
+        "version": 1,
+        "contentHash": "sha256:4d1b410a8254a522eb68ced33ec1dd4fa0ca8ab1808a5656f9d40e1ce80e7280",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "many exclamation points",
@@ -23530,6 +24895,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0126",
+        "version": 1,
+        "contentHash": "sha256:8f9d4db25c68180295dfe2aa5bf183fdf94f147b74545198862a69646250f4a6",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -23581,6 +24949,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0127",
+        "version": 1,
+        "contentHash": "sha256:9527ac42fe7a20f32ab5c2060083621bffda8a98636485741a6c4aaf3e370442",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -23632,6 +25003,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0128",
+        "version": 1,
+        "contentHash": "sha256:dddb805d4281a0dac59d60e0843c0f4a7f93157b714e04752547e405397d8165",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -23683,6 +25057,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0129",
+        "version": 1,
+        "contentHash": "sha256:97fee4d279dabdaf084caf08f81577817a21b7ad6b9ee0e05cbd15592bad146d",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -23734,6 +25111,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0130",
+        "version": 1,
+        "contentHash": "sha256:4ad8e9b51b836675c88e21127574d86ecc0266451ffdfda9685151cbc6ab1385",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -23785,6 +25165,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0131",
+        "version": 1,
+        "contentHash": "sha256:77e25049c6715c6fb20f05cbd2b0fa41a8788ef82ebae126ef627b2e1c804eb9",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -23836,6 +25219,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0132",
+        "version": 1,
+        "contentHash": "sha256:c4ee0cccafff625bd29d773a1332d36d15725f49d42eaa1e6daff1cce1730848",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -23887,6 +25273,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0133",
+        "version": 1,
+        "contentHash": "sha256:364ae12b615a4090ead9e69133d565aa4bc3c4384d5447126662145d1fedf12b",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -23938,6 +25327,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0134",
+        "version": 1,
+        "contentHash": "sha256:3414e271b513b3eacf772e111c79856b11ced6c189a5580288999061572a6b45",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -23989,6 +25381,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0135",
+        "version": 1,
+        "contentHash": "sha256:c98a1eeb68902a390e90b5c9ae32bdf8e6b64a829c784e42bbd6b94b0c02d615",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -24040,6 +25435,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0136",
+        "version": 1,
+        "contentHash": "sha256:39cb4fd611b837e29ef051a64940e17cfd2f916ae0b756ee48f970d6efb5c5b0",
         "question": "Grade 5 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -24091,6 +25489,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0137",
+        "version": 1,
+        "contentHash": "sha256:b2424c79f48071a6f4750e6a98292dedbd98cd2026cacef9ae37177f6681d930",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -24142,6 +25543,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0138",
+        "version": 1,
+        "contentHash": "sha256:05fd3139d8d3a3695c25d7dae1fffa7be5c770e4f8f3444c8a86049df0718d6b",
         "question": "Grade 5 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -24193,6 +25597,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0139",
+        "version": 1,
+        "contentHash": "sha256:dacc295db7d757dbeecce983ca58d59dfd9859daa9e8f639f09d27d135a5b828",
         "question": "Grade 5 Easy: Choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "choose the shorter source always",
@@ -24244,6 +25651,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0140",
+        "version": 1,
+        "contentHash": "sha256:5e698fe7fa0b3ad55989cfc8b45ecf2fe96d842ffe14e1eeeb8d2347248c455a",
         "question": "Grade 5 Easy: Choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "many exclamation points",
@@ -24295,6 +25705,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0141",
+        "version": 1,
+        "contentHash": "sha256:500ced975c76d90a620f3c133447a98490b17f7922cf971970ea855657b1fa97",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -24346,6 +25759,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0142",
+        "version": 1,
+        "contentHash": "sha256:c13cb9918f44b80d40943289c020dacfde45c82e40ce5a8b15651f9c75d0c6a2",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -24397,6 +25813,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0143",
+        "version": 1,
+        "contentHash": "sha256:7a9939d8088d4b20bab36c3c224a6ae8ad8183689cd33d103501ddc65d461892",
         "question": "Grade 5 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -24448,6 +25867,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0144",
+        "version": 1,
+        "contentHash": "sha256:fb071f45db34a0d5341d989a6804e2484df8cbcd0ddc0273ff3af6db6ff3889a",
         "question": "Grade 5 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -24499,6 +25921,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0145",
+        "version": 1,
+        "contentHash": "sha256:14ba3b97eb2a65b8e94efc8fc114293351ba62928949ae533cb11b7249b0052e",
         "question": "Grade 5 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -24550,6 +25975,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0146",
+        "version": 1,
+        "contentHash": "sha256:7336cff95a966366561ffe51e2c081a0aaeb8d517c7cad519dc99337c279e23b",
         "question": "Grade 5 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -24601,6 +26029,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0147",
+        "version": 1,
+        "contentHash": "sha256:5ebea2e338a3310c167d1bd33bbe6094a3029ac330d81d2f16a3889826f1e938",
         "question": "Grade 5 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -24652,6 +26083,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0148",
+        "version": 1,
+        "contentHash": "sha256:a9120dd6df666c39a480117b2139611cf36aa64ee42e8c80e1689af715a30536",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -24703,6 +26137,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0149",
+        "version": 1,
+        "contentHash": "sha256:f4c62c4473dae0500f81e163446ec4711d9a90a88b0424d86b0d6f9e358aadfb",
         "question": "Grade 5 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -24754,6 +26191,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0150",
+        "version": 1,
+        "contentHash": "sha256:51b64a80693c8e0ed5b3bfc0504e60374b399c8f89545e4400e792d5704e26bc",
         "question": "Grade 5 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -24805,6 +26245,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0151",
+        "version": 1,
+        "contentHash": "sha256:798fd4557111e93e3c775e075a487b1e65132d2734505d05dd2b9f925baeb9c9",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -24856,6 +26299,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0152",
+        "version": 1,
+        "contentHash": "sha256:95095a9c1d3495c99223cfc11bfc18f861c6ca07b48ea13f4fa52c92c55d8182",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -24907,6 +26353,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0153",
+        "version": 1,
+        "contentHash": "sha256:0e4fd9dc38a94b9d6cb41667b8ce4becbe3e5b86b4c0b90e45407d595c252555",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -24958,6 +26407,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0154",
+        "version": 1,
+        "contentHash": "sha256:ae4c3372935a72dbb44628d093080c637c2887f3cfb7345e2c3e3f466b4ebb38",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What should a student do when two sources disagree?",
         "choices": [
           "check more reliable sources and compare evidence",
@@ -25009,6 +26461,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0155",
+        "version": 1,
+        "contentHash": "sha256:3945f1e186c5df98a3e6579f55b0e99b7acf2d3f125130002e58510799192cf5",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source detail helps readers trust information?",
         "choices": [
           "bright colors only",
@@ -25060,6 +26515,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0156",
+        "version": 1,
+        "contentHash": "sha256:1f014374ce41f8bd6345e4a9a44c9203f81f8a272975bf7684aeebb1bbb3be62",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -25111,6 +26569,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0157",
+        "version": 1,
+        "contentHash": "sha256:768019473e09e288df945739fa208ec321af5c17ed1f6b68c68603aad26e3c3f",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -25162,6 +26623,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0158",
+        "version": 1,
+        "contentHash": "sha256:d6cda00f4efd9ee6313ed24a23ffb97eb7fc36bb95e620e039a42038e72e6e04",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -25213,6 +26677,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0159",
+        "version": 1,
+        "contentHash": "sha256:9c00412156fa0f964d96d1595135dc681ffe9a2cd41a13788af41d0924f717bd",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -25264,6 +26731,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0160",
+        "version": 1,
+        "contentHash": "sha256:d7f7b0055aa0835e55c2b63868294618ecc0f35788b93c23be8c9d5e7cc20e0a",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -25315,6 +26785,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0161",
+        "version": 1,
+        "contentHash": "sha256:ad0478f2bc4bd097e53c5c0bc207ce58384bea83c926bb3091baad0dccc26ac5",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -25366,6 +26839,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0162",
+        "version": 1,
+        "contentHash": "sha256:36f145483ff888eabae873da2531be6d2aea263fcac7d38a064c27dbfd76b013",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -25417,6 +26893,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0163",
+        "version": 1,
+        "contentHash": "sha256:022399b52ef5569cd01757bdf727436c811c12bd4d1ede7e8cfc5d241d2b459a",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -25468,6 +26947,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0164",
+        "version": 1,
+        "contentHash": "sha256:6ff5193f7778ece80e3ad371888f448a27ccd9cd01b75a885c0002ef3413f01d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -25519,6 +27001,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0165",
+        "version": 1,
+        "contentHash": "sha256:a38c12ce9044e8b07dd7b65aaab9a9a7ea0edf36bfb2cecb05acddcb98bc77b5",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -25570,6 +27055,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0166",
+        "version": 1,
+        "contentHash": "sha256:c98e7f211add1a9558300b0e6e383a0bab66ff8515a005c380950084e30439db",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -25621,6 +27109,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0167",
+        "version": 1,
+        "contentHash": "sha256:27ee29d95c725e82fcc3c90ee46afbbc386bd5908a80ef42af4d1e050aa7af22",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -25672,6 +27163,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0168",
+        "version": 1,
+        "contentHash": "sha256:0e9c65142eab82fd020e82bc7889b03ce178c080f55b7164998415e9b7c83ce7",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -25723,6 +27217,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0169",
+        "version": 1,
+        "contentHash": "sha256:b844f94733041be5e43ca274ac974a6370219c6d5a4bcb634378370e3cbb05f0",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What should a student do when two sources disagree?",
         "choices": [
           "copy the first answer found",
@@ -25774,6 +27271,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0170",
+        "version": 1,
+        "contentHash": "sha256:536bd0d79d22495308b3d441f8981d1f0f7ccb3c57e77f6a59b69307647120ff",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source detail helps readers trust information?",
         "choices": [
           "the author's name and date of publication",
@@ -25825,6 +27325,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0171",
+        "version": 1,
+        "contentHash": "sha256:7d113b1c6d09ad440a31f95d898ef5d26275311ce5ba3a0ccc01a132a70c5cfc",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -25876,6 +27379,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0172",
+        "version": 1,
+        "contentHash": "sha256:a51a75ac5e17ac775f87a4a7fad7ba8707d599b1f5bb59c6ce10e82520c2a8b9",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -25927,6 +27433,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0173",
+        "version": 1,
+        "contentHash": "sha256:1ad2eb7e071ac92605839186e2793a701bc045431da3df313b433f1fcf3e4bab",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -25978,6 +27487,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0174",
+        "version": 1,
+        "contentHash": "sha256:32a84d1721146074ac5bd55869aaaa654fa2ad95d3acf7e6dc5a09aefd0e7568",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -26029,6 +27541,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0175",
+        "version": 1,
+        "contentHash": "sha256:b358d6d15fe93620b33c4907945e096bf78b2f2784db22ea50ff92126148603a",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -26080,6 +27595,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0176",
+        "version": 1,
+        "contentHash": "sha256:09497ab39966e79c11104a56000769ca54711b1c6c27cd8de8787e9453df067a",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -26131,6 +27649,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0177",
+        "version": 1,
+        "contentHash": "sha256:df3b63a63182cd612320111c88de209a3aa44c0bdbe4bf708adc74d0f6482138",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -26182,6 +27703,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0178",
+        "version": 1,
+        "contentHash": "sha256:175a45c5374535e99570def0aa3b9f325c9cf702087e71030f703b7dd934d009",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -26233,6 +27757,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0179",
+        "version": 1,
+        "contentHash": "sha256:ecc6410fb5c27c3f8710bd8977a720b271534d87435efad6e3cec473bf04555d",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -26284,6 +27811,9 @@
         }
       },
       {
+        "id": "reference-skills-media-literacy-q0180",
+        "version": 1,
+        "contentHash": "sha256:3dd9d94be4574b377c0fe9240624a5babacbdce7fb0933472df93b32e3da350b",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -26355,6 +27885,9 @@
     "topic": "Reference Skills / Misc.",
     "questions": [
       {
+        "id": "reference-skills-nonfiction-text-features-q0001",
+        "version": 1,
+        "contentHash": "sha256:a64c898c88af14dfef43e9bd12ad28c6f881ca8bac399499e28cfe2d442e7e1d",
         "question": "Grade 2 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -26400,10 +27933,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 1
+          "sequence": 1,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0002",
+        "version": 1,
+        "contentHash": "sha256:ef2de0d5aac9dff580603a439e1cfcabf35da21df8d53fc3128d68bb432d76e7",
         "question": "Grade 2 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -26449,10 +27986,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 2
+          "sequence": 2,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0003",
+        "version": 1,
+        "contentHash": "sha256:dd082de78d7648726ad1e9d188f28dc9f83e5f995824e72a4d0c25033a9cb9fe",
         "question": "Grade 2 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -26502,6 +28043,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0004",
+        "version": 1,
+        "contentHash": "sha256:846a227ef5165d76532b6fe92dbe2bb93bc1d5efb70981497391111d5aa563da",
         "question": "Grade 2 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "dialogue",
@@ -26551,6 +28095,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0005",
+        "version": 1,
+        "contentHash": "sha256:911b3cec724b7a88e374e9bd8aae6e0ed251d379203625ad335ce6187496a2c1",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -26600,6 +28147,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0006",
+        "version": 1,
+        "contentHash": "sha256:8d7e48a9c2650f88a7cb149e292a0b23cf68f12ff864b21252a66027f6147d1a",
         "question": "Grade 2 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -26649,6 +28199,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0007",
+        "version": 1,
+        "contentHash": "sha256:b346502b8dc5dd0996cf46982dc7092c67424eb00794194d8c6f8a97b9cf2612",
         "question": "Grade 2 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -26698,6 +28251,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0008",
+        "version": 1,
+        "contentHash": "sha256:1f199b06fb8e5e9e9e9c55333eeb9045d8ae33df74edf437c849232d7fa33b42",
         "question": "Grade 2 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -26747,6 +28303,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0009",
+        "version": 1,
+        "contentHash": "sha256:a64c898c88af14dfef43e9bd12ad28c6f881ca8bac399499e28cfe2d442e7e1d",
         "question": "Grade 2 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -26792,10 +28351,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 9
+          "sequence": 9,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0010",
+        "version": 1,
+        "contentHash": "sha256:ef2de0d5aac9dff580603a439e1cfcabf35da21df8d53fc3128d68bb432d76e7",
         "question": "Grade 2 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -26841,10 +28404,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 10
+          "sequence": 10,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0011",
+        "version": 1,
+        "contentHash": "sha256:b63f4b696836474cf652de5e8b0179b5007d6a8984fd438a3bd815f5eff75988",
         "question": "Grade 2 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -26894,6 +28461,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0012",
+        "version": 1,
+        "contentHash": "sha256:882b955af2d96f77a2d528fbddd9308f82a99998516550b5988b0b72eeb81157",
         "question": "Grade 2 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -26943,6 +28513,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0013",
+        "version": 1,
+        "contentHash": "sha256:c6c5750dd4c8b3a41897b38049c667e0b13e6b40c7177fd36a2e133e8f6c4e3b",
         "question": "Grade 2 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -26992,6 +28565,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0014",
+        "version": 1,
+        "contentHash": "sha256:283c419b87a10cf4069f6c51806c2b228997625c030da1b3571ed1510329f2a2",
         "question": "Grade 2 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -27041,6 +28617,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0015",
+        "version": 1,
+        "contentHash": "sha256:b7733f419282f8b71a00d99f2c0ce51b620cd703141c21ca427224862b3d5ede",
         "question": "Grade 2 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "footnote only",
@@ -27090,6 +28669,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0016",
+        "version": 1,
+        "contentHash": "sha256:c56f502da4fa47a14f7737d802bb7c1100e15cfebd89c5b54f07c560f8306199",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -27135,10 +28717,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 16
+          "sequence": 16,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0017",
+        "version": 1,
+        "contentHash": "sha256:bf6d39e538586eeff43fb49ea3a770c1b340f11f93d1359f1096d13ee22575f1",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -27184,10 +28770,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 17
+          "sequence": 17,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0018",
+        "version": 1,
+        "contentHash": "sha256:861f67b38e4957dd0573e22923ce765c09c478ae823ede079b26cdebd0b809eb",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -27237,6 +28827,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0019",
+        "version": 1,
+        "contentHash": "sha256:a54b77163c21bcc09a57af99129c40addba52c007d5ac606238d466d2922165f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "footnote only",
@@ -27286,6 +28879,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0020",
+        "version": 1,
+        "contentHash": "sha256:19c9a1b4e9c4028975af95a8932177dc3cd08fb1910051c4489b4c1e3bf158a5",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -27335,6 +28931,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0021",
+        "version": 1,
+        "contentHash": "sha256:aed99f1ae00893d6120156f2003ab872b9de6a3d477dee2bc0ebd4d9bf237a38",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -27384,6 +28983,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0022",
+        "version": 1,
+        "contentHash": "sha256:335e5f575e35574643d0bb3c20ab9cebea7b7c4c1709c62dc043c752e9b45acc",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -27433,6 +29035,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0023",
+        "version": 1,
+        "contentHash": "sha256:dbd26bacd25d3d8efec6d41afca95c749c61a6349685e3398253517a672409f2",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -27482,6 +29087,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0024",
+        "version": 1,
+        "contentHash": "sha256:c56f502da4fa47a14f7737d802bb7c1100e15cfebd89c5b54f07c560f8306199",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -27527,10 +29135,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 24
+          "sequence": 24,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0025",
+        "version": 1,
+        "contentHash": "sha256:bf6d39e538586eeff43fb49ea3a770c1b340f11f93d1359f1096d13ee22575f1",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -27576,10 +29188,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 25
+          "sequence": 25,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0026",
+        "version": 1,
+        "contentHash": "sha256:d1905a002b89c7b7e0b493f29165ff2f492a2577a6fbb86eaa6c3bc92e517085",
         "question": "Grade 2 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -27629,6 +29245,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0027",
+        "version": 1,
+        "contentHash": "sha256:f694d2df79c8c8b7affc1982bc6c0cb2180daa79b697672de1a6e8e10894409f",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -27678,6 +29297,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0028",
+        "version": 1,
+        "contentHash": "sha256:989e649e1d61f696f281d42e9c9c2b07ef2f3e1d6e5bd147971ff12b5bf6d7c9",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -27727,6 +29349,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0029",
+        "version": 1,
+        "contentHash": "sha256:f4babdf35527285ba07b5ea9f15cfee0b2903f284318ad3000cc62baa008ff26",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -27776,6 +29401,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0030",
+        "version": 1,
+        "contentHash": "sha256:0694fb3c2c99aeb00b3355d40fa10c83ffa7189b13a73f91f9c04ca1dd52349c",
         "question": "Grade 2 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "caption",
@@ -27825,6 +29453,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0031",
+        "version": 1,
+        "contentHash": "sha256:78f1f58a45c5306e356887039ac8f2fe4fefe210316cf1894df27d1184d9b763",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -27870,10 +29501,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 31
+          "sequence": 31,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0032",
+        "version": 1,
+        "contentHash": "sha256:baf10b2d67f43192e5b5e94c9721f41c87a6f20136a42c3444389c4b0a22eb6f",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -27919,10 +29554,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 32
+          "sequence": 32,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0033",
+        "version": 1,
+        "contentHash": "sha256:6dde57b1acd498fc7f91a7ba97a5c82bf81062c3ed107209663e3149716790bb",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -27972,6 +29611,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0034",
+        "version": 1,
+        "contentHash": "sha256:3c02954b3287136a164fc174224ba779dbdda6bbe698c3d3ed0128b2cfe61add",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "caption",
@@ -28021,6 +29663,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0035",
+        "version": 1,
+        "contentHash": "sha256:ff3d62d2f338fc31080c529a33a43fdaeabcd58ea4264327b32d1780c7c1537b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -28070,6 +29715,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0036",
+        "version": 1,
+        "contentHash": "sha256:31949c41f230adb02f1ddbdb32984e0603030720521fe4f633110686acaa171f",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -28119,6 +29767,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0037",
+        "version": 1,
+        "contentHash": "sha256:7dbc0718007b19eae34d45936c0dd8c97c82fded1ce7565abe1ecc3155473d58",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -28168,6 +29819,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0038",
+        "version": 1,
+        "contentHash": "sha256:b0bcdcd1e5be1f3755c481ed0b990f4973fd46dde7d1aa0f5effa6e31450b8b5",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -28217,6 +29871,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0039",
+        "version": 1,
+        "contentHash": "sha256:78f1f58a45c5306e356887039ac8f2fe4fefe210316cf1894df27d1184d9b763",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -28262,10 +29919,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 39
+          "sequence": 39,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0040",
+        "version": 1,
+        "contentHash": "sha256:baf10b2d67f43192e5b5e94c9721f41c87a6f20136a42c3444389c4b0a22eb6f",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -28311,10 +29972,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 40
+          "sequence": 40,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0041",
+        "version": 1,
+        "contentHash": "sha256:9db0be685b8ef38865affcb3db47d2d3243492463b9dc05c61e5dbe9bded158e",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -28364,6 +30029,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0042",
+        "version": 1,
+        "contentHash": "sha256:593ce3df1eefa101bfe3f1b664e4cbb464520c91405ece14e93d54741953b327",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -28413,6 +30081,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0043",
+        "version": 1,
+        "contentHash": "sha256:862c84187ff2c31b91de10a3651f71321b63c064d32b85baa50bf2c06f88f08b",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -28462,6 +30133,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0044",
+        "version": 1,
+        "contentHash": "sha256:518b8c3b1fbbfbbecfee003a7edda4171ee44c23940d674305d6ccbcd2e7ed34",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -28511,6 +30185,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0045",
+        "version": 1,
+        "contentHash": "sha256:84de356dafd73157bd90d35fcead89b7d96fc4cb9b563bf4b6d660d7edc3cad4",
         "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "table of contents",
@@ -28560,6 +30237,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0046",
+        "version": 1,
+        "contentHash": "sha256:4e6916570e9e76332c5b2c840d6db6381a46cbcd487bd40ec6f72f0cad7e0110",
         "question": "Grade 3 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -28605,10 +30285,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 46
+          "sequence": 46,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0047",
+        "version": 1,
+        "contentHash": "sha256:4856a4f057b7bc3f7b64ffcc1480253b7cc02c6d411eb2c139075d01ba855479",
         "question": "Grade 3 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -28654,10 +30338,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 47
+          "sequence": 47,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0048",
+        "version": 1,
+        "contentHash": "sha256:2407b79a865f00422f14cdd1478ad0a2aff8f6f05bdf38222d7faaebff2fdbe2",
         "question": "Grade 3 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -28707,6 +30395,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0049",
+        "version": 1,
+        "contentHash": "sha256:2b595d27876ba20613fef7fc3c51394e5b0971ed7dea9c046d117a6fb0c4ef99",
         "question": "Grade 3 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "caption",
@@ -28756,6 +30447,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0050",
+        "version": 1,
+        "contentHash": "sha256:e336cbd0c72c249a6cec0930cf675802c721fe1193e1aee5997153e444dd373b",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -28805,6 +30499,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0051",
+        "version": 1,
+        "contentHash": "sha256:b42485e7729b24115d5e2db03a056e080284f0d766f1af39df7d8d487f4866de",
         "question": "Grade 3 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -28854,6 +30551,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0052",
+        "version": 1,
+        "contentHash": "sha256:e469be18c909b84bb50386fefabbebc54588ce5a93a52a751c09a4c3b97b2c4b",
         "question": "Grade 3 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -28903,6 +30603,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0053",
+        "version": 1,
+        "contentHash": "sha256:6f0ae4b859e4391a2bb2a56f0f773e50f50cbbe0703476b18ecb3630ff3d4781",
         "question": "Grade 3 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -28952,6 +30655,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0054",
+        "version": 1,
+        "contentHash": "sha256:4e6916570e9e76332c5b2c840d6db6381a46cbcd487bd40ec6f72f0cad7e0110",
         "question": "Grade 3 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -28997,10 +30703,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 54
+          "sequence": 54,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0055",
+        "version": 1,
+        "contentHash": "sha256:4856a4f057b7bc3f7b64ffcc1480253b7cc02c6d411eb2c139075d01ba855479",
         "question": "Grade 3 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -29046,10 +30756,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 55
+          "sequence": 55,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0056",
+        "version": 1,
+        "contentHash": "sha256:91a181c8417c810f14c08d77182fc9ee62997e9257fe13ab7ddcbb2aea51472e",
         "question": "Grade 3 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -29099,6 +30813,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0057",
+        "version": 1,
+        "contentHash": "sha256:86633f8f86eeaa133d21d730a19e63751ea4e8304b60c2d3ba4c96ade01346f5",
         "question": "Grade 3 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -29148,6 +30865,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0058",
+        "version": 1,
+        "contentHash": "sha256:21e953d3aa12d6fe0a2920a464ed6758f55ea5e6bd5ff0d2fb53d57dfc089a34",
         "question": "Grade 3 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -29197,6 +30917,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0059",
+        "version": 1,
+        "contentHash": "sha256:79ecd0af9deda273f81a31108bb9bf059d9a1da55674341599cb335351a2eee5",
         "question": "Grade 3 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -29246,6 +30969,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0060",
+        "version": 1,
+        "contentHash": "sha256:47eadb75eb05da7449095a2f6f5f1f6c21dec0e987a62b411329dbd661a74eab",
         "question": "Grade 3 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "table of contents",
@@ -29295,6 +31021,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0061",
+        "version": 1,
+        "contentHash": "sha256:74a60488a7b7469f67c1b16fc506db4dfe523f2506dc16e29484b2ae2e38050a",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -29340,10 +31069,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 61
+          "sequence": 61,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0062",
+        "version": 1,
+        "contentHash": "sha256:1b0ab577e9f20cb73409dbaa5267e73cc678ed068c6467f2b3f48367762eec71",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -29389,10 +31122,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 62
+          "sequence": 62,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0063",
+        "version": 1,
+        "contentHash": "sha256:d52338aa6448be0de347ee4b77a33f2b70ca168c7a572fa91b350e938cde01aa",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -29442,6 +31179,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0064",
+        "version": 1,
+        "contentHash": "sha256:e4826093a3cbefeeb39b6a85d94f26bc22cfe88ffaf0bbc4be0f4fd663266da4",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "table of contents",
@@ -29491,6 +31231,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0065",
+        "version": 1,
+        "contentHash": "sha256:82593c1090b579f832b537149e12ed8f498d60fa7d59f5fc2ebfe50e85598537",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -29540,6 +31283,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0066",
+        "version": 1,
+        "contentHash": "sha256:a0e79f87b5b8df22b45c719fff7450429160f5b144d6baafeebf64559086f37f",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -29589,6 +31335,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0067",
+        "version": 1,
+        "contentHash": "sha256:a51b31a448f064b0e5bb7ea26bb678d4d313c7b95473aabfafd707991f02ef48",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -29638,6 +31387,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0068",
+        "version": 1,
+        "contentHash": "sha256:8fab648d49a94da9994885ea6fdf4e935f8a39951ed47439f1d8d22a4f96d0dc",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -29687,6 +31439,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0069",
+        "version": 1,
+        "contentHash": "sha256:74a60488a7b7469f67c1b16fc506db4dfe523f2506dc16e29484b2ae2e38050a",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -29732,10 +31487,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 69
+          "sequence": 69,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0070",
+        "version": 1,
+        "contentHash": "sha256:1b0ab577e9f20cb73409dbaa5267e73cc678ed068c6467f2b3f48367762eec71",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -29781,10 +31540,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 70
+          "sequence": 70,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0071",
+        "version": 1,
+        "contentHash": "sha256:5b6dfd28f265f16b3e179d52952f04297fe0d80634db4111beafc63caac8c570",
         "question": "Grade 3 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -29834,6 +31597,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0072",
+        "version": 1,
+        "contentHash": "sha256:8ddf34ccbe748321750ac4834b64fac85ddd04a3348fee0691c9e0b3d1b0bef7",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -29883,6 +31649,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0073",
+        "version": 1,
+        "contentHash": "sha256:c916eff1a0ad3500dfaaf938e45f02c15f10cc8a4fb2bacb199e05a231f5dbc7",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -29932,6 +31701,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0074",
+        "version": 1,
+        "contentHash": "sha256:1c8ce08af77f5a8ef1fe3258b230bbec9fd8f5f60927fd34d14e7566f0ff7f11",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -29981,6 +31753,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0075",
+        "version": 1,
+        "contentHash": "sha256:bd30642a48cff0a3c7322b2bc2f5d63ac13003596dbd180fdc0c11ebbc52c8a1",
         "question": "Grade 3 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "dialogue",
@@ -30030,6 +31805,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0076",
+        "version": 1,
+        "contentHash": "sha256:2fcf5f360b39742412e793fbd30e4bcf9baa876126f3ed65f7c9cb1b8be2b636",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -30075,10 +31853,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 76
+          "sequence": 76,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0077",
+        "version": 1,
+        "contentHash": "sha256:ca75dd8980bbb01c1545c84914212e57de9eae0d4b292fd4ba2fa702e70e0341",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -30124,10 +31906,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 77
+          "sequence": 77,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0078",
+        "version": 1,
+        "contentHash": "sha256:9d21dd05601fb4458ac9d249ba972b5b2e0f7da2323b030b7d968053af0286b3",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -30177,6 +31963,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0079",
+        "version": 1,
+        "contentHash": "sha256:158d294f8a0cc091b21730bb4d3c6739591e2e754608fbf2f8d890ea801bf401",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "dialogue",
@@ -30226,6 +32015,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0080",
+        "version": 1,
+        "contentHash": "sha256:850fba051745b9eb9a25e1bd5db325793876709209be068c9b884bb05bcfb761",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -30275,6 +32067,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0081",
+        "version": 1,
+        "contentHash": "sha256:f2493c677a524c61a9ea29fabfb68d5e78a6fb4468b026107ab78791084badf6",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -30324,6 +32119,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0082",
+        "version": 1,
+        "contentHash": "sha256:1dbc05b5a9eec160b1143bc1bcf3f841647266802e8ff264e0342f27b8d84e00",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -30373,6 +32171,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0083",
+        "version": 1,
+        "contentHash": "sha256:fe67320a0dcf7c5c8df21353e67ddcf228adfc8417c4a418d34b03957af2fd86",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -30422,6 +32223,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0084",
+        "version": 1,
+        "contentHash": "sha256:2fcf5f360b39742412e793fbd30e4bcf9baa876126f3ed65f7c9cb1b8be2b636",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -30467,10 +32271,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 84
+          "sequence": 84,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0085",
+        "version": 1,
+        "contentHash": "sha256:ca75dd8980bbb01c1545c84914212e57de9eae0d4b292fd4ba2fa702e70e0341",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -30516,10 +32324,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 85
+          "sequence": 85,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0086",
+        "version": 1,
+        "contentHash": "sha256:e559859f84e8d85a9dbeedd5586bceccbda9b6337c5df7291946577654badfad",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -30569,6 +32381,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0087",
+        "version": 1,
+        "contentHash": "sha256:361fca0c59365472a13c5ae6d072d901b13f67b1c213badab6806394054c2a21",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -30618,6 +32433,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0088",
+        "version": 1,
+        "contentHash": "sha256:176933112d55fcc9c7172b20a56ccf43ae5323d82eaab88f33ec75de14410cc4",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -30667,6 +32485,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0089",
+        "version": 1,
+        "contentHash": "sha256:5bdf1797d0d46a8eb8bd581f93790e0294baac23f26c2963d68510977e78dd5c",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -30716,6 +32537,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0090",
+        "version": 1,
+        "contentHash": "sha256:14ba25cc6b790ad236bfd8745fe8620c40133ce23429abe044c0e0ebd0414878",
         "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "footnote only",
@@ -30765,6 +32589,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0091",
+        "version": 1,
+        "contentHash": "sha256:8790a9a918c664afd37d1e71c887b93c0b6f19aba4d0dbfa05e3ac18f64c98c5",
         "question": "Grade 4 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -30810,10 +32637,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 91
+          "sequence": 91,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0092",
+        "version": 1,
+        "contentHash": "sha256:75d9184098e24746cd5eae41c4345840d0ddc63967aeed34429cbc3449bd1c8d",
         "question": "Grade 4 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -30859,10 +32690,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 92
+          "sequence": 92,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0093",
+        "version": 1,
+        "contentHash": "sha256:4583f4c45e772ccf57337f08b90ea90eed5cd79927555b4ae3ff36067edbd4ff",
         "question": "Grade 4 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -30912,6 +32747,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0094",
+        "version": 1,
+        "contentHash": "sha256:705ecd733f0937a9cda306bcd35525eb2a85ff54ab9c443d22dabf7ae48b800e",
         "question": "Grade 4 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "dialogue",
@@ -30961,6 +32799,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0095",
+        "version": 1,
+        "contentHash": "sha256:33e774c0dd0c3c20a8be5de6ec03e85ef0ef782d7325a63a968bc6c7205aced3",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -31010,6 +32851,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0096",
+        "version": 1,
+        "contentHash": "sha256:ce075fee28af513aa9cbc9710ad07bbe1eaffb7616cdab992612df98b26c5af1",
         "question": "Grade 4 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -31059,6 +32903,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0097",
+        "version": 1,
+        "contentHash": "sha256:07f55a9f0d5ce310b2adc65ea4d5aff25af6d8660d209f877aa7f74c2e8ea75d",
         "question": "Grade 4 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -31108,6 +32955,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0098",
+        "version": 1,
+        "contentHash": "sha256:d6dd0dbb033918f207ba79e24cea21af6f300e2d988e812a7e851e015ecb8d2f",
         "question": "Grade 4 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -31157,6 +33007,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0099",
+        "version": 1,
+        "contentHash": "sha256:8790a9a918c664afd37d1e71c887b93c0b6f19aba4d0dbfa05e3ac18f64c98c5",
         "question": "Grade 4 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -31202,10 +33055,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 99
+          "sequence": 99,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0100",
+        "version": 1,
+        "contentHash": "sha256:75d9184098e24746cd5eae41c4345840d0ddc63967aeed34429cbc3449bd1c8d",
         "question": "Grade 4 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -31251,10 +33108,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 100
+          "sequence": 100,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0101",
+        "version": 1,
+        "contentHash": "sha256:6aa47f788037053bc1a9eb06ea8331adeff452983c84630626d4a772525c2013",
         "question": "Grade 4 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -31304,6 +33165,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0102",
+        "version": 1,
+        "contentHash": "sha256:c3d27a9c3c6d895e30069f80cc453272c91be53f5c244938ecd0d0fc87067a3e",
         "question": "Grade 4 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -31353,6 +33217,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0103",
+        "version": 1,
+        "contentHash": "sha256:5b670917da9908dc939334da036e5514ebf3d365f3e1333d037c914f52aca5c0",
         "question": "Grade 4 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -31402,6 +33269,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0104",
+        "version": 1,
+        "contentHash": "sha256:18949ac9573899086c5c36efcd7afc721161e728feeeece9657d8dc02b277505",
         "question": "Grade 4 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -31451,6 +33321,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0105",
+        "version": 1,
+        "contentHash": "sha256:db9699295ae1c9b0d9c0959f524dd107f1442b70e5c0f3fe25b39486a9b562c5",
         "question": "Grade 4 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "footnote only",
@@ -31500,6 +33373,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0106",
+        "version": 1,
+        "contentHash": "sha256:07f507371fb0b8cad4caf2a89a893b971703a4a013e0dbbaa21f51d6f468cdb8",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -31545,10 +33421,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 106
+          "sequence": 106,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0107",
+        "version": 1,
+        "contentHash": "sha256:ceb1e6e5036e474eadd7f171d24af61fe853240c4e7ef81d79d37fbfb65a6492",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -31594,10 +33474,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 107
+          "sequence": 107,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0108",
+        "version": 1,
+        "contentHash": "sha256:7a1403b1686230fbeeb51c09669ed1f3a3ef32496cbb4374c253423e98fb318b",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -31647,6 +33531,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0109",
+        "version": 1,
+        "contentHash": "sha256:16e63bf4e7ad3080c98ad28a449581f402570f6a37ab3771f21cba20b3b70b7c",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "footnote only",
@@ -31696,6 +33583,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0110",
+        "version": 1,
+        "contentHash": "sha256:6b3574eb2f075d4bd43fe787c3d11cbc443f1b93a7171c5d54809bc8c58e4dff",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a calendar",
@@ -31745,6 +33635,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0111",
+        "version": 1,
+        "contentHash": "sha256:3537cead150de2b2e5b41c4b9065f458449ce36a61aae87d2b15b8a53823ff34",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a glossary or dictionary",
@@ -31794,6 +33687,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0112",
+        "version": 1,
+        "contentHash": "sha256:8c683192be6cdb42ce9c700b84a835ac06feb6fb2ea14193c1cd889be2bb1aa2",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "turtles nice",
@@ -31843,6 +33739,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0113",
+        "version": 1,
+        "contentHash": "sha256:bf77afcfb758de6f34a60cac99d02d6d0e43a1d9f8b8d8e82b35ef842cc1a586",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a toy advertisement",
@@ -31892,6 +33791,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0114",
+        "version": 1,
+        "contentHash": "sha256:07f507371fb0b8cad4caf2a89a893b971703a4a013e0dbbaa21f51d6f468cdb8",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "marks dialogue",
@@ -31937,10 +33839,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 114
+          "sequence": 114,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0115",
+        "version": 1,
+        "contentHash": "sha256:ceb1e6e5036e474eadd7f171d24af61fe853240c4e7ef81d79d37fbfb65a6492",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "pages where specific topics appear",
@@ -31986,10 +33892,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 115
+          "sequence": 115,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0116",
+        "version": 1,
+        "contentHash": "sha256:515617adeb5ba22af5c9468c5d483e1e996bf55addd905a351352d6e367af19f",
         "question": "Grade 4 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a spelling pattern",
@@ -32039,6 +33949,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0117",
+        "version": 1,
+        "contentHash": "sha256:0bb6a3fb58cf408474a7f3b1e68409de29487645cc66c9aa038f7e7d95bf3b57",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack weighs one pound.",
@@ -32088,6 +34001,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0118",
+        "version": 1,
+        "contentHash": "sha256:8deb148306a8b1c56745d00065844490b740a22a46e5b597850eaecdc9ae7c6f",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a catchy song only",
@@ -32137,6 +34053,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0119",
+        "version": 1,
+        "contentHash": "sha256:ce979741a424a2ec50933f79ad998156c56f2fd768d6c22d90e4f05284e9532f",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -32186,6 +34105,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0120",
+        "version": 1,
+        "contentHash": "sha256:88c9478ee1f568a95535d6ee6a3a43b45ecd334bd6023474f220bb3547dacc41",
         "question": "Grade 4 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "caption",
@@ -32235,6 +34157,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0121",
+        "version": 1,
+        "contentHash": "sha256:51bf742df93f46ac39f147815db5422a3cee81dce8cd8ae76677745a27f6a7f6",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -32280,10 +34205,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 121
+          "sequence": 121,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0122",
+        "version": 1,
+        "contentHash": "sha256:223d99eef600fe58e17599c1bae24dea9c233267697bfe77f6e0a612851fbf49",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -32329,10 +34258,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 122
+          "sequence": 122,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0123",
+        "version": 1,
+        "contentHash": "sha256:c98a1eeb68902a390e90b5c9ae32bdf8e6b64a829c784e42bbd6b94b0c02d615",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -32382,6 +34315,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0124",
+        "version": 1,
+        "contentHash": "sha256:a00b8c493ff4627201ffff299e8e81ee70f565302ebdd6b68070dccd37ae18fc",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "caption",
@@ -32431,6 +34367,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0125",
+        "version": 1,
+        "contentHash": "sha256:1c1a1bba9346ef6bc99cc01cc2ee63b9cf83cf41a70a77224ccffea89ef6aace",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -32480,6 +34419,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0126",
+        "version": 1,
+        "contentHash": "sha256:fc255ad9cd56ece8cf7ea47afc3b3a0d0b9db08b33bfc5caaa8dd39e2670c373",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -32529,6 +34471,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0127",
+        "version": 1,
+        "contentHash": "sha256:c792c7fd7db50a770e8d4f883b14986f00e806880bf32c923d8904213f1f93e2",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -32578,6 +34523,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0128",
+        "version": 1,
+        "contentHash": "sha256:c28b3c22c1743a4dd4ded7561f7ce59560a7b8b71523b25cd41b2447cfda474f",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -32627,6 +34575,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0129",
+        "version": 1,
+        "contentHash": "sha256:51bf742df93f46ac39f147815db5422a3cee81dce8cd8ae76677745a27f6a7f6",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -32672,10 +34623,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 129
+          "sequence": 129,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0130",
+        "version": 1,
+        "contentHash": "sha256:223d99eef600fe58e17599c1bae24dea9c233267697bfe77f6e0a612851fbf49",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -32721,10 +34676,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 130
+          "sequence": 130,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0131",
+        "version": 1,
+        "contentHash": "sha256:3deaf7aedffa7434ca12ed598cc4dceb207552aad8a9abf46fca7d343daba173",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -32774,6 +34733,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0132",
+        "version": 1,
+        "contentHash": "sha256:2a521a85c08f2577fa58a29855c0a563292414919fd1faed66b69d5aa2c1fc75",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -32823,6 +34785,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0133",
+        "version": 1,
+        "contentHash": "sha256:04caf8f32109a90eaa52dbc6707c839c0f5942fefe99654c645057d3ff36e3c1",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -32872,6 +34837,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0134",
+        "version": 1,
+        "contentHash": "sha256:38db4a870a21baae1ebde3f16bd11ba1dab94d48a7c9ee0c9bb447e88ab8406a",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -32921,6 +34889,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0135",
+        "version": 1,
+        "contentHash": "sha256:80bc0bb5f81269b118bf05edc635b7c6d37c7483670a4ea319f092e33cfcf6b9",
         "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "table of contents",
@@ -32970,6 +34941,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0136",
+        "version": 1,
+        "contentHash": "sha256:36654e0d70a5f92effe6b5c9acb7c288c35afcf9f742325a99e9a0b31942c58e",
         "question": "Grade 5 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -33015,10 +34989,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 136
+          "sequence": 136,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0137",
+        "version": 1,
+        "contentHash": "sha256:0d2c023711cdcbf87362297ed50293ec8af816628c4e28b24b45ede7ca1d022c",
         "question": "Grade 5 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -33064,10 +35042,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 137
+          "sequence": 137,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0138",
+        "version": 1,
+        "contentHash": "sha256:51b64a80693c8e0ed5b3bfc0504e60374b399c8f89545e4400e792d5704e26bc",
         "question": "Grade 5 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a bar graph",
@@ -33117,6 +35099,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0139",
+        "version": 1,
+        "contentHash": "sha256:fb6c394800020f99de0e5135adfb0f08ff9f59ef0f9896d34afebe32457c9bd8",
         "question": "Grade 5 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "caption",
@@ -33166,6 +35151,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0140",
+        "version": 1,
+        "contentHash": "sha256:c41606b76d944c1b96df4556e6af44a5df60ebc45efd19b0929e1584bbca95d4",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a recipe",
@@ -33215,6 +35203,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0141",
+        "version": 1,
+        "contentHash": "sha256:d23bc0f2e5ae260ba9593ef42af629b24fbce5b74cfa9a8d094bb37da6f86174",
         "question": "Grade 5 Easy: Choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a novel's dialogue",
@@ -33264,6 +35255,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0142",
+        "version": 1,
+        "contentHash": "sha256:2a27d696695fcfaeaf38c9fc71526a6c780048d0b75a57dc19c507494903bcd2",
         "question": "Grade 5 Easy: Choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "sea turtle nesting habits",
@@ -33313,6 +35307,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0143",
+        "version": 1,
+        "contentHash": "sha256:587a805a92c330acfeb693d66732e2e5bef89fabbcf2c8c7da7fc09b265e02af",
         "question": "Grade 5 Easy: Choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "an anonymous comment with no source",
@@ -33362,6 +35359,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0144",
+        "version": 1,
+        "contentHash": "sha256:36654e0d70a5f92effe6b5c9acb7c288c35afcf9f742325a99e9a0b31942c58e",
         "question": "Grade 5 Easy: Choose the best answer. What does a caption do?",
         "choices": [
           "shows alphabetical topics",
@@ -33407,10 +35407,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 144
+          "sequence": 144,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0145",
+        "version": 1,
+        "contentHash": "sha256:0d2c023711cdcbf87362297ed50293ec8af816628c4e28b24b45ede7ca1d022c",
         "question": "Grade 5 Easy: Choose the best answer. What does an index help readers find?",
         "choices": [
           "the price of the book",
@@ -33456,10 +35460,14 @@
           "estimatedTimeSeconds": 45,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 145
+          "sequence": 145,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0146",
+        "version": 1,
+        "contentHash": "sha256:68f9bcd7ffffdccb656fbc9b4565beba0f39596e4519d56e40e1aa56cd66c67d",
         "question": "Grade 5 Easy: Choose the best answer. What is media bias?",
         "choices": [
           "a slant that favors one side or viewpoint",
@@ -33509,6 +35517,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0147",
+        "version": 1,
+        "contentHash": "sha256:4066c47a4b66a5c2f19ceabf9cbe38fb7057e67518b6f821d5c995f2b560dfb7",
         "question": "Grade 5 Easy: Choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack has two pockets.",
@@ -33558,6 +35569,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0148",
+        "version": 1,
+        "contentHash": "sha256:462ffe0862b2e41237f89bd96ebd30ce910d930696d3a533f0e0055efc8ed23a",
         "question": "Grade 5 Easy: Choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a funny picture",
@@ -33607,6 +35621,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0149",
+        "version": 1,
+        "contentHash": "sha256:7b7f42c6c07c00060256085698349956ac8e36fd39dde4d6f216039d6d907091",
         "question": "Grade 5 Easy: Choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -33656,6 +35673,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0150",
+        "version": 1,
+        "contentHash": "sha256:273be2b2df39c5131d91e381e052bbb001609119456e00d3190fdd27fecd33ae",
         "question": "Grade 5 Easy: Choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "table of contents",
@@ -33705,6 +35725,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0151",
+        "version": 1,
+        "contentHash": "sha256:07c7bf354d391ad436519b872b5382167c607a61a108acd56a71e6bd5f1d7caf",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -33750,10 +35773,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 151
+          "sequence": 151,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0152",
+        "version": 1,
+        "contentHash": "sha256:885a6687140be70538582b581a1fa0b70e8c279e47fa1ecafedbcf76906cf118",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -33799,10 +35826,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 152
+          "sequence": 152,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0153",
+        "version": 1,
+        "contentHash": "sha256:a38c12ce9044e8b07dd7b65aaab9a9a7ea0edf36bfb2cecb05acddcb98bc77b5",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a stanza",
@@ -33852,6 +35883,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0154",
+        "version": 1,
+        "contentHash": "sha256:5af6ca96cd629dd8b30b52f6ca90ce4385186aaa51c55dab2b4b79a0964a2820",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "table of contents",
@@ -33901,6 +35935,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0155",
+        "version": 1,
+        "contentHash": "sha256:c4eb5e7de461dea8453f455677df3eaedf9380c5c4eb3c0cd975be579747e91b",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "an atlas",
@@ -33950,6 +35987,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0156",
+        "version": 1,
+        "contentHash": "sha256:aee05d507bec70887c9abdc094c4b33e51993676819e90ba298e9acbbdb83628",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a sports schedule",
@@ -33999,6 +36039,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0157",
+        "version": 1,
+        "contentHash": "sha256:fea718d612c0884b79f79cef7eae45407c56625a7c69b74eba3d128d18754186",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "animals everywhere",
@@ -34048,6 +36091,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0158",
+        "version": 1,
+        "contentHash": "sha256:32610c8fe0dfd9836c2251a9e21144093d035e69a14f8f9f9520737baa3dd68d",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a national weather agency page",
@@ -34097,6 +36143,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0159",
+        "version": 1,
+        "contentHash": "sha256:07c7bf354d391ad436519b872b5382167c607a61a108acd56a71e6bd5f1d7caf",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does a caption do?",
         "choices": [
           "lists every chapter",
@@ -34142,10 +36191,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 159
+          "sequence": 159,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0160",
+        "version": 1,
+        "contentHash": "sha256:885a6687140be70538582b581a1fa0b70e8c279e47fa1ecafedbcf76906cf118",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What does an index help readers find?",
         "choices": [
           "only the title page",
@@ -34191,10 +36244,14 @@
           "estimatedTimeSeconds": 65,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 160
+          "sequence": 160,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0161",
+        "version": 1,
+        "contentHash": "sha256:74aec77e5f1182dca32f1094b621063571fe5f8b78aeec6bf344ebc6b1c6f65f",
         "question": "Grade 5 Medium: Use the context to choose the best answer. What is media bias?",
         "choices": [
           "a table of contents",
@@ -34244,6 +36301,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0162",
+        "version": 1,
+        "contentHash": "sha256:20863b1cf24595c162164869f09525c1cd3711511ddb3b549cc9bee55259ce38",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "This backpack is the strongest choice for students.",
@@ -34293,6 +36353,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0163",
+        "version": 1,
+        "contentHash": "sha256:90970fe6c41e630156dbc0a8a410207b15efeda704c759f4252b06a4c9a09984",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which evidence would best support a product claim?",
         "choices": [
           "a bigger font",
@@ -34342,6 +36405,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0164",
+        "version": 1,
+        "contentHash": "sha256:9475c485be22e923e1181d605c4145f52144234bf5cf5162888bc2cc413dd063",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -34391,6 +36457,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0165",
+        "version": 1,
+        "contentHash": "sha256:5741c3fb68f2047c62cd7e93083316d7c1ef692e5be6eca7265b9a6fb8f28a77",
         "question": "Grade 5 Medium: Use the context to choose the best answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "dialogue",
@@ -34440,6 +36509,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0166",
+        "version": 1,
+        "contentHash": "sha256:f18928b69f63d705f10388242995348f9849d7d4408b3bdc6724201d13b54e68",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -34485,10 +36557,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 166
+          "sequence": 166,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0167",
+        "version": 1,
+        "contentHash": "sha256:dec7033865924b5539008b6ab144ce9e802aaaa202478258489fd588f39a43cc",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -34534,10 +36610,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 167
+          "sequence": 167,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0168",
+        "version": 1,
+        "contentHash": "sha256:3dd9d94be4574b377c0fe9240624a5babacbdce7fb0933472df93b32e3da350b",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a dialogue tag",
@@ -34587,6 +36667,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0169",
+        "version": 1,
+        "contentHash": "sha256:dcc64d878adc379ff50d2cfcf8d2f18eb79891583bad3ecc37ac06da48bb3637",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "dialogue",
@@ -34636,6 +36719,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0170",
+        "version": 1,
+        "contentHash": "sha256:d3ab045a1798df2557cf5b900749434b84d08a548a17020cc6b45ebedc87f882",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding synonyms for the word brave?",
         "choices": [
           "a thesaurus",
@@ -34685,6 +36771,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0171",
+        "version": 1,
+        "contentHash": "sha256:4605f79e772bf666b141ba1130207d358d0ee9d15ba47f3cf6a4508b521067f7",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is best for finding the meaning of photosynthesis?",
         "choices": [
           "a lunch menu",
@@ -34734,6 +36823,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0172",
+        "version": 1,
+        "contentHash": "sha256:b5d2efa445e0d5a58acea0caa4a7082cd58544f210613d63b73b52badf84cee3",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which search term would best help research how sea turtles nest?",
         "choices": [
           "ocean stuff",
@@ -34783,6 +36875,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0173",
+        "version": 1,
+        "contentHash": "sha256:3d7e7f7c5add5a13ca30c32918e1927954c1b5f44ea9b2e6372a57a02e46f04c",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which source is most likely credible for a report on weather safety?",
         "choices": [
           "a joke page",
@@ -34832,6 +36927,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0174",
+        "version": 1,
+        "contentHash": "sha256:f18928b69f63d705f10388242995348f9849d7d4408b3bdc6724201d13b54e68",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does a caption do?",
         "choices": [
           "explains a picture or diagram",
@@ -34877,10 +36975,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 174
+          "sequence": 174,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0175",
+        "version": 1,
+        "contentHash": "sha256:dec7033865924b5539008b6ab144ce9e802aaaa202478258489fd588f39a43cc",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does an index help readers find?",
         "choices": [
           "the author's favorite food",
@@ -34926,10 +37028,14 @@
           "estimatedTimeSeconds": 85,
           "reviewPriority": "normal",
           "sourceSet": "reference-skills-nonfiction-text-features",
-          "sequence": 175
+          "sequence": 175,
+          "allowDuplicateContentHash": true
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0176",
+        "version": 1,
+        "contentHash": "sha256:b5d91c29920125d87772d804d862f54525fe6e562ae340398fd62c361ed6e870",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What is media bias?",
         "choices": [
           "a type of rhyme",
@@ -34979,6 +37085,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0177",
+        "version": 1,
+        "contentHash": "sha256:4444fb530456d3c13ad4da33bb6b5d502caf70c9dfcd96069fd0ff4c235a6452",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which sentence is a claim in an advertisement?",
         "choices": [
           "The backpack is blue.",
@@ -35028,6 +37137,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0178",
+        "version": 1,
+        "contentHash": "sha256:0dadfec853439af3e39a39b8fbfee87df5dd81c8b1c9c630ab3fa6a53af48e07",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which evidence would best support a product claim?",
         "choices": [
           "results from a fair test comparing the product to others",
@@ -35077,6 +37189,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0179",
+        "version": 1,
+        "contentHash": "sha256:53588a97c051477b462c6c13370c3f0829ad32ecc77eb67f2a47fee200943847",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which text feature would best show rainfall amounts by month?",
         "choices": [
           "a glossary",
@@ -35126,6 +37241,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0180",
+        "version": 1,
+        "contentHash": "sha256:392a3fb16fed799ffa1288ba85877ad7e3a180fb1c66b35e9081697bcc31bdca",
         "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which feature helps readers find a chapter quickly?",
         "choices": [
           "footnote only",
@@ -35175,6 +37293,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0181",
+        "version": 1,
+        "contentHash": "sha256:1a91ffb8ac8ec4f13239e6c2f6d20664534abecb4fb79affc61f02cd3342454e",
         "question": "Read the index and answer the question. On which page would you find information about snakes?",
         "choices": [
           "page 10",
@@ -35223,7 +37344,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 30,
+          "sequence": 181,
           "testFocus": [
             "MAP"
           ],
@@ -35233,6 +37354,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0182",
+        "version": 1,
+        "contentHash": "sha256:4d268e5d252e691a42af5d17de908681bb6295dbf026c18016cd53e4d8a3e1e6",
         "question": "Read the Table of Contents and answer the question Which part would youread to find out about lizards?",
         "choices": [
           "Part I",
@@ -35281,7 +37405,7 @@
           "sourceQuestionNumber": 22,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 42,
+          "sequence": 182,
           "testFocus": [
             "MAP"
           ],
@@ -35291,6 +37415,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0183",
+        "version": 1,
+        "contentHash": "sha256:d3cd804cc7a70b71cce7cfe1cbd323f534d49b32a926c6577d896e1787cd2190",
         "question": "Read the paragraph and choose the correct word to fill in the blank. John was always taking things apart. One day he decided to _______ his bicycle. He had a difficult time putting it back together.",
         "choices": [
           "maintain",
@@ -35339,7 +37466,7 @@
           "sourceQuestionNumber": 41,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 61,
+          "sequence": 183,
           "testFocus": [
             "MAP"
           ],
@@ -35349,6 +37476,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0184",
+        "version": 1,
+        "contentHash": "sha256:09459556103a0ffa45646cae4fdc9823f253a5f69450ce8e4c47422349a982bc",
         "question": "Read the paragraph. You don’t need to sho p around. Furniture Village ha s the best -priced leat her furniture in town. They deliver seven days a week and there are no financ e charges. What information is missing from this paragraph tha t you would need to determine its accuracy?",
         "choices": [
           "where the store is located",
@@ -35397,7 +37527,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 103,
+          "sequence": 184,
           "testFocus": [
             "MAP"
           ],
@@ -35407,6 +37537,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0185",
+        "version": 1,
+        "contentHash": "sha256:ce17b095b61ff9f2a76c0186fc8086c4ad47eae6276f19eb47e3caa45235f987",
         "question": "Read the following paragraph. The most important advance of this century has not been in medicine or technology. It’s been in society’s willingness to open prac tically all professions to women. Women can excel in careers now that were not even available to them 50 years ago. Which of the following people would most likely agree with this paragraph’s opinion?",
         "choices": [
           "women astronauts",
@@ -35455,7 +37588,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 106,
+          "sequence": 185,
           "testFocus": [
             "MAP"
           ],
@@ -35465,6 +37598,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0186",
+        "version": 1,
+        "contentHash": "sha256:d7d2d0133ad7fe07946736f9cb85ae38c5ea6226617d4e765e788ba62d16f9b1",
         "question": "Use the chart to answer the following question. The Usborne Book of Knowledge. London: Usborne Publishing, Ltd. 19 88. Of the choices listed, whic h birds have the same diet?",
         "choices": [
           "White Stork and Great Crested Grebe",
@@ -35513,7 +37649,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 109,
+          "sequence": 186,
           "testFocus": [
             "MAP"
           ],
@@ -35523,6 +37659,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0187",
+        "version": 1,
+        "contentHash": "sha256:09626aee63556e07b430aa173957e1978f04111ceda8db183f459f5f58870da0",
         "question": "Read the following paragraph. Shelby noticed that her dogs were nevwerexcited to see her when she came home. She always went straight to the kitchen to getherself a snack and sat in front of the television until her parents came ho me. It wasn’ther job to feed the dogs or give them snacks, and she didn’t really like to pet them or play with them in the afternoons. So, the dogs j ust lay on the carpet until it was dinnertime. Which statement leads to stereotypical thinking?",
         "choices": [
           "Shelby is tired after school.",
@@ -35571,7 +37710,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 110,
+          "sequence": 187,
           "testFocus": [
             "MAP"
           ],
@@ -35581,6 +37720,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0188",
+        "version": 1,
+        "contentHash": "sha256:be054d7d9918296090694cf5514a093e691ae0bef5dfe9546c0784b72af95e7b",
         "question": "Read the paragraph. Astorm came this year, against which all other storms will be measured. It built as it came. In the stillness before it hit, men looked at each other. They felt the trees falling before they heard the wind. The first blow bent trees half to the ground; the second caught them and snapped them like kindling. Bawling cattle ran the fences, and a loose lawnm ower went bumping across a lawn. The big trees went down screaming, taking out roofs and electric wires. Which is not an effect of the stated cause?",
         "choices": [
           "trees fell",
@@ -35629,7 +37771,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 111,
+          "sequence": 188,
           "testFocus": [
             "MAP"
           ],
@@ -35639,6 +37781,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0189",
+        "version": 1,
+        "contentHash": "sha256:8623c52b53f85efbc51a811f76cc6a8df19776b7c268ce226f3cb3ca63a0cf3d",
         "question": "Read the paragraph. Southeastern Idaho is covered with snow for four or five months each year. Even when it’s not snowing, the wind blows almost every day and the temperatures often fall below freezing. People in Idaho have learned many ways to enjoy life despite the crazy weat her. Just about everyone has warm mittens or gloves, a heavy coat, and toasty boots. We have many opportunities to ski, skate, or go sledding up in the foothills. Lots of homes have fireplaces and our closets are filled with warm blankets. All in all, we make the most of it. This paragraph best explains:",
         "choices": [
           "why people need to have warm b oots",
@@ -35687,7 +37832,7 @@
           "sourceQuestionNumber": 12,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 114,
+          "sequence": 189,
           "testFocus": [
             "MAP"
           ],
@@ -35697,6 +37842,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0190",
+        "version": 1,
+        "contentHash": "sha256:8d5380ca860d0e21c3672f456451a56ea2583c05d7f784cc41ca325f8a1639c8",
         "question": "Read the Index. Under which main topic would you find information about shock waves?",
         "choices": [
           "Earthquakes",
@@ -35745,7 +37893,7 @@
           "sourceQuestionNumber": 13,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 115,
+          "sequence": 190,
           "testFocus": [
             "MAP"
           ],
@@ -35755,6 +37903,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0191",
+        "version": 1,
+        "contentHash": "sha256:e290b06630b85da65d0231325961796831eb165227fdbe5f4744a9a4d1ff3d77",
         "question": "Look at the index example below. If Jorge was looking for information on stratocumulus clouds, he would look under:",
         "choices": [
           "the topic, stratocumulus",
@@ -35803,7 +37954,7 @@
           "sourceQuestionNumber": 14,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 116,
+          "sequence": 191,
           "testFocus": [
             "MAP"
           ],
@@ -35813,6 +37964,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0192",
+        "version": 1,
+        "contentHash": "sha256:ac9c1206ef2979f4a1b579024b453da25c4c5d47c9096a54bd050c39901a5a8c",
         "question": "Read the advertisement. The holidays are approaching, so it’s time to visit “Wood, Wood, Wood!” in our location on Main Street. We have wooden furniture, wooden utensils, and wooden plates. We carry frames, doors, and curtain rods. If you like wood, you’ll like us! “Wood” youplease stop by and give us a try? Which of the following is not implied by the advertisement?",
         "choices": [
           "The store sells many wooden item s.",
@@ -35861,7 +38015,7 @@
           "sourceQuestionNumber": 16,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 118,
+          "sequence": 192,
           "testFocus": [
             "MAP"
           ],
@@ -35871,6 +38025,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0193",
+        "version": 1,
+        "contentHash": "sha256:65ece734bbed4a7a9fb7bb450ecf0939063f0e10d72d1ba1a4e1d3462984a5ea",
         "question": "Read the passage and look at the checklist. Pygmy Sperm Whale The Pygmy Sperm Whale is rarely seen; it tends to live a long distance from shore and has inconspicuous habits. It is often confused with the Dwarf Sperm Whale, which was not recognized as a separate species until 1966. With so few field records, it is uncertain whether the two can be distinguished reliably except at a very close range. The Pygmy Sperm Whale is most likely to be seen when resting. It floats motionless at the surface, with part of the head and back exposed and the tail hanging down loosely in the water; animals in this state sometimes allow boats to approach closely. It may resemble a shark when it is stranded, as its underslung lower jaw and creamy white false gill are particularly apparent. In order to identify the pygmy sperm whale, Felicia would look for:",
         "choices": [
           "long, conspicuous blow",
@@ -35919,7 +38076,7 @@
           "sourceQuestionNumber": 17,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 119,
+          "sequence": 193,
           "testFocus": [
             "MAP"
           ],
@@ -35929,6 +38086,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0194",
+        "version": 1,
+        "contentHash": "sha256:2ef4e887fec6a0b93ea07e9194eae0cd2845f548c70035980092ff331816c479",
         "question": "Read the directions to Jill’s house. Drive about five miles down the old highway until you see areally pretty green barn. They have a bunch o f trees. Take a left and drive three more miles. You will cross the railroad tracks then on your left will be a big white house. Turn right after the white house, drive one mile, and her house is on the left. How could you summarize these directions?",
         "choices": [
           "turn at green barn, turn at white house, and her house is on the left",
@@ -35977,7 +38137,7 @@
           "sourceQuestionNumber": 18,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 120,
+          "sequence": 194,
           "testFocus": [
             "MAP"
           ],
@@ -35987,6 +38147,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0195",
+        "version": 1,
+        "contentHash": "sha256:9c1f1ad14e27338f84f86a8f86c14e5bd842068c53aef9b4ddda3ea3d288318f",
         "question": "Read the paragraph. Disneyland is the best theme park in America. Young or old, male or female, there is something for everyone. The brave and daring will love Space Mountain, a body-jarring roller coaster ride through the dark. Little kids enjoy spinning in giant sized teacups. Teens favor the realistic haunted house themed to match the movie, “The Nightmare Before Christmas.” What is the author’s attitude towards Disneyland?",
         "choices": [
           "The haunted house is the best attraction.",
@@ -36035,7 +38198,7 @@
           "sourceQuestionNumber": 20,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 122,
+          "sequence": 195,
           "testFocus": [
             "MAP"
           ],
@@ -36045,6 +38208,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0196",
+        "version": 1,
+        "contentHash": "sha256:9e995e02aec660be06fe7d6428fc5c367be1b77a05671fdb7a929e00a276ed98",
         "question": "Read the directions for a Spanish Omelet recipe. lhj.com, page 168. When would cheese be added to this recipe?",
         "choices": [
           "after the eggs are just set",
@@ -36093,7 +38259,7 @@
           "sourceQuestionNumber": 21,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 123,
+          "sequence": 196,
           "testFocus": [
             "MAP"
           ],
@@ -36103,6 +38269,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0197",
+        "version": 1,
+        "contentHash": "sha256:03cb8a9ec56d637c89507c3fdac35b5e816a0c5ce934d41e0c56920584e33370",
         "question": "Read the paragraph. Througho ut history, people have s truggled for their f reedom — freedom to w orship in their own w ay, to work for a fair wage, to vote for their leaders, to get a good educatio n, to name but a few. But rights and freedoms have always come with certain Source “Historical Documents” The Struggle for Freedom, Page 86 5. (Teacher Author: Weston). restrictions and responsibilities. Th e challenge for every nation is to find a balan ce between the two. According to the paragraph, which is true?",
         "choices": [
           "It is a challenge for nations to treat their citizens kin dly.",
@@ -36151,7 +38320,7 @@
           "sourceQuestionNumber": 25,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 127,
+          "sequence": 197,
           "testFocus": [
             "MAP"
           ],
@@ -36161,6 +38330,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0198",
+        "version": 1,
+        "contentHash": "sha256:07f0716c5c2671416efc3f9cd99d10835516fef625b08e847bf5ff8e954e0d7a",
         "question": "Read the directions. Open your books to page seven and read the paragraphs. Draw a Venn diagram and fill it in with appropriate details. Write your own paragraph comparing and contrasting your findings. What is the purpose of the directions?",
         "choices": [
           "to explain the assignment",
@@ -36209,7 +38381,7 @@
           "sourceQuestionNumber": 29,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 131,
+          "sequence": 198,
           "testFocus": [
             "MAP"
           ],
@@ -36219,6 +38391,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0199",
+        "version": 1,
+        "contentHash": "sha256:ad8ec79cb1fd0e69002cd03bb8ec3bffad5fded18f7304fe616817d7af1a5f6f",
         "question": "Read the paragraph. Our after s choo l programs are wonderful! As studen ts, we have the option to s ign up for numerous different classes and activities. One of my favorites was “Splatter Paint” art. We taped huge pieces of paper to the wall, dren ched sponges in bright paint, and threw the sponges at the paper. I looked like a rainbow by the time I got home. I also loved the snowflake – cutting workshop. We made intric ate snowflakes using only scissors and white paper. The tin y scraps littered the carpets like r eal sno w. We stay as late as we can and have a wild time! Which of the following people would most likely disagree with the ideas in the paragraph.",
         "choices": [
           "teachers",
@@ -36267,7 +38442,7 @@
           "sourceQuestionNumber": 32,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 134,
+          "sequence": 199,
           "testFocus": [
             "MAP"
           ],
@@ -36277,6 +38452,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0200",
+        "version": 1,
+        "contentHash": "sha256:a5e5a838a78b959144e602871a1cc75d8c37c7ade1bda126a96c8a9033413e16",
         "question": "Read the paragraph. “It is fear, Mr. Holmes. It is terror.” She raised her veil as she spoke, and we c ould see that she was indeed in a pitiable state of agitation, her face all drawn and gray, with restless, frightened eyes, like those of some hunted animal. Her features and fig u r e were those of a woman of thirty, buther hair was shot with premature gray, and her expression was weary and haggard. Sherlock Holmes r an her over with one o f his quick, all-comp r ehensive glances. In this paragraph, what does the w ord agitation mean?",
         "choices": [
           "mixed up",
@@ -36325,7 +38503,7 @@
           "sourceQuestionNumber": 35,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 137,
+          "sequence": 200,
           "testFocus": [
             "MAP"
           ],
@@ -36335,6 +38513,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0201",
+        "version": 1,
+        "contentHash": "sha256:c9ce55595c181e14f196540e1e5dfb7acb9b7d11b0865dc8952c9072944f934f",
         "question": "Read the paragraph. Dogs are the be s t pets. They wag their tails when yo u come home. Dogs like to snuggle when you are watching television. They never get mad or talk back to you if you scold them. Dogs sometimes like to chase a ball, but they might also chase cats. What is the autho r trying to persuade you to do or think?",
         "choices": [
           "watch more television",
@@ -36383,7 +38564,7 @@
           "sourceQuestionNumber": 36,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 138,
+          "sequence": 201,
           "testFocus": [
             "MAP"
           ],
@@ -36393,6 +38574,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0202",
+        "version": 1,
+        "contentHash": "sha256:2ab3b7736ccda922897e6e22c9e3bb5d9a57eb4e8bcaa58c9f70f294f0ce0555",
         "question": "Read the passage. Believing that personal experience is a writer’s riche st resource, Theodo re Taylor has held an amazing variety of jobs. He has been a merc hant sailor and a naval officer, the manager of a prize fighter, a reporter and magazine writer, a movie pub licist, a “The Cay”. producer, a screenwriter, and a docu mentary filmmaker. These careers ha ve taken him allover the world. Wh o w rote the above paragraph?",
         "choices": [
           "Theodore Taylo r",
@@ -36441,7 +38625,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 158,
+          "sequence": 202,
           "testFocus": [
             "MAP"
           ],
@@ -36451,6 +38635,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0203",
+        "version": 1,
+        "contentHash": "sha256:7ca686c0eafed3f3acb52ee24b58f08c9f39538e01fd2370c82917174488ecbb",
         "question": "Read the story. Bambara’s writing drew on the voices of her childhood: street-corner speechmakers, barbershop storytellers, and performers at Harlem’s legendary Apollo Theater. She said her stories came from her imagination, though: “It does no good to write autobiographical fiction, cause the minute the book hits the stand here comes your mama screaming how could you.... And it’s no use using bits and snatches even of real events and real people, even if you do cover, gu ise, switch -around, and ch ange- up, cause next th ing you know your best fr iend’s laundry cart is squeaking past but your bell ain’t ringing so you trot down the block after her and there’s this drafty cold pressure front the weat herman surely did not predict and your friend says in this chilly way that i t’s really something when your ow n friend stabs you in the back with a Bambara, Toni Cade. “Meet the Wrier”, Elements of Literature: Second C ourse. Holt, Rinehart pen.... So, I deal in straight-up fiction myself, cause I value my family and friends, and Winston 199 7. and mostly cause I lie a lot anyway.” Source: How does the auth or find ideas for her writing?",
         "choices": [
           "She interviews people.",
@@ -36499,7 +38686,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 162,
+          "sequence": 203,
           "testFocus": [
             "MAP"
           ],
@@ -36509,6 +38696,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0204",
+        "version": 1,
+        "contentHash": "sha256:f769b958a1efb32d4b5594eceea39ed59085003ea1262da03f065ead542879a7",
         "question": "Read the passage. I was once a strawberry in a Hansel and Gretel pageant w hen I was in nursery school and didn’t have no better sense than to dance on ti ptoe with my arms in a circle over my head doing um brella steps and being a perfect fool just so my mother and fat her could come dressed up and clap. You’d think they’d know better than to encourage that kind of non sense. I am not a strawberry. I do not dance on my toes. I run. That is “Raymond’s Run”, E lements of Li terature: Second Course. Holt, Rinehart what I am all abo ut. So I always come late to the May D ay program, ju st in time to get and Winston 199 7. my number pin ned on and lay in the gras s till they ann ounce the fifty -yard dash. What makes the paragraph interesting?",
         "choices": [
           "the author’s use of foreshadowing",
@@ -36557,7 +38747,7 @@
           "sourceQuestionNumber": 12,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 166,
+          "sequence": 204,
           "testFocus": [
             "MAP"
           ],
@@ -36567,6 +38757,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0205",
+        "version": 1,
+        "contentHash": "sha256:ce73da5b9919df93550bc3636611c1a996c8f1fb4e32aaa599017af1e930fd27",
         "question": "Look at the index example belo w. In the index example, what is the main topic?",
         "choices": [
           "Sentence",
@@ -36615,7 +38808,7 @@
           "sourceQuestionNumber": 14,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 168,
+          "sequence": 205,
           "testFocus": [
             "MAP"
           ],
@@ -36625,6 +38818,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0206",
+        "version": 1,
+        "contentHash": "sha256:91728082c0012798b054cc3732d233d02532faddd70f5e3e5d833e1f894d08d6",
         "question": "Read the advertisement. The purpose of this ad is to:",
         "choices": [
           "inform the reader that jackets are warm.",
@@ -36673,7 +38869,7 @@
           "sourceQuestionNumber": 15,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 169,
+          "sequence": 206,
           "testFocus": [
             "MAP"
           ],
@@ -36683,6 +38879,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0207",
+        "version": 1,
+        "contentHash": "sha256:53f4634091b524f0a7084f28d1dd52fbb1e8a6fa58a7047cca813a84d1b1126a",
         "question": "Read the directions and answer the qu estion. Fridaread the directions above and did the following: Frida cut the tissue paper to make a diamo nd shape. Then, she glued the sticks together in the middle. Next, she glued the paper to the edges of the sticks and glued the string to the center of the sticks. Which step did Frida no t follow correctly?",
         "choices": [
           "Step 1",
@@ -36731,7 +38930,7 @@
           "sourceQuestionNumber": 18,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 172,
+          "sequence": 207,
           "testFocus": [
             "MAP"
           ],
@@ -36741,6 +38940,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0208",
+        "version": 1,
+        "contentHash": "sha256:a421016e5ffef98c5da5ca83c8d37166e109aafd57d70eb9ed17b34be59a94d7",
         "question": "Read the passage. It had a green and yellow tint of co lor with just a hint of red at the base. The tulip was just beginning to sprout and had three tiny green leaves surrounding its bloo m. The soil was built up in a mo u nd as if to protect the delicate blossom. What type of writing is this?",
         "choices": [
           "poetry",
@@ -36789,7 +38991,7 @@
           "sourceQuestionNumber": 24,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 178,
+          "sequence": 208,
           "testFocus": [
             "MAP"
           ],
@@ -36799,6 +39001,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0209",
+        "version": 1,
+        "contentHash": "sha256:9ef3c6d0a555a4ea53a6093078300e5ececaac29de0c56a6fd62ddaf56faf84b",
         "question": "Read the following paragraph. My worst campin g trip was to Yellowstone Park. While we were hiking, a bear came into ou r camp, knocked over our tent, and ate most of our food. When we arrived back in cam p, we gat hered up what we could find and headed back to the car, only to find that we had a flat tire. Worst of all, we had locked our keys in the car, and it started to rain. The next time we w ent to Yellowstone, we rented a room at the lodge. Which fact supports the co n clusion that the author did not camp in Yellowstone again?",
         "choices": [
           "Next time, we rented a room at a lodge.",
@@ -36847,7 +39052,7 @@
           "sourceQuestionNumber": 29,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 183,
+          "sequence": 209,
           "testFocus": [
             "MAP"
           ],
@@ -36857,6 +39062,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0210",
+        "version": 1,
+        "contentHash": "sha256:1bfd3d75f9cdb246bf19be8e8045c8584d28e7814fff5d755f444a1ff7613208",
         "question": "Read the paragraph. My parents have been married for 15 years. Last sum mer we threw them a big surprise party with a cake, presents, and abo ut 20 gues ts. We had games like volleyball and croqu et. The best game of all was darts, though. I beat everyone – even my dad! We told them the party would be twice as big on their 20th anniversary. What sentence is not a fact but an opin ion?",
         "choices": [
           "My parents have been married for 15 years.",
@@ -36905,7 +39113,7 @@
           "sourceQuestionNumber": 30,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 184,
+          "sequence": 210,
           "testFocus": [
             "MAP"
           ],
@@ -36915,6 +39123,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0211",
+        "version": 1,
+        "contentHash": "sha256:8fcae8074076f30d389f6e15051f786ea193a8f9da718d169b40b848df7d2e5d",
         "question": "Read the passage. “The biographer of Davy Crockett is immediately confronted with a problem: Which Davy Crockett shall he write about? For if there ever was a man of multiple identities, that man was Davy Crockett. First of all there was — or at least there exists some fairly reliable evidence to that effect — the flesh- and-blood Crockett, the frontiersman and hunter of early Tennessee. There was the historical Crockett, with his heroic exploits at the Alamo duly recorded in history. There was the polit ical Crockett, a figure alternately built up and deflated by the Jacksonites and anti-Jacksonites... And then there was the mythical Crockett, the Crockett of legend and folksa y, of all the tall ta les and fireside yearns and almanac stories — the veritable yaller blossom o f the forest, half horse, half alligator, with a little touc h of s napping turtle, the ring -tailed roarer who could b ring a coon out of a tree, ride a streak of lightning, wade the Missis sippi, and co me down off the Peak o’ Day with a piece of sunrise in his po cket. It was to this last Croc kett, in the g rand American tradition of Paul Bunyan, John “Meet the W riter” Focus. McGraw Hill 1985 Henry, Old Stormalong, and Pecos Bill, that I turned as being obviously the most credible, authentic, s ignificant, and true.” Which of these describes the mythical Davy Crockett?",
         "choices": [
           "He was a hero at the Alamo.",
@@ -36963,7 +39174,7 @@
           "sourceQuestionNumber": 36,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 190,
+          "sequence": 211,
           "testFocus": [
             "MAP"
           ],
@@ -36973,6 +39184,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0212",
+        "version": 1,
+        "contentHash": "sha256:a5c1f21872fed59623f5da2b1beeda9bf2e196459b2fae97a110f335d16eebbf",
         "question": "Look over the biblio graphy. “The New Y ork Public Library’ s R ecommended Reading List.” Amazing Space. New York: New York Public Library & St ones ong, 1997: 182. Information in a bibliography is org anized:",
         "choices": [
           "alphabetically by the autho r’s last name",
@@ -37021,7 +39235,7 @@
           "sourceQuestionNumber": 37,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 191,
+          "sequence": 212,
           "testFocus": [
             "MAP"
           ],
@@ -37031,6 +39245,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0213",
+        "version": 1,
+        "contentHash": "sha256:cc15a01bb0ab00353f22a84c2f1c9fc390d07d0da4f66852e8e624f3288d3d4a",
         "question": "When buying a new computer, where could you find the most objective, reliable information about the overall quality of computers?",
         "choices": [
           "A person who sells computers",
@@ -37079,7 +39296,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 2,
+          "sequence": 213,
           "testFocus": [
             "MAP"
           ],
@@ -37089,6 +39306,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0214",
+        "version": 1,
+        "contentHash": "sha256:b82565a0c66b31bbfb395d2daf0b5e1130edbecf08353b2621f2dbc9e52a5ab2",
         "question": "If you were given a book on outer space, where would you look for cannibal galaxies in the glossary?",
         "choices": [
           "u nder the “C” section",
@@ -37137,7 +39357,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 6,
+          "sequence": 214,
           "testFocus": [
             "MAP"
           ],
@@ -37147,6 +39367,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0215",
+        "version": 1,
+        "contentHash": "sha256:fe304375dac4613dec3c48c4d7784882f00e8442b8c381129a2d7e162591fd0e",
         "question": "Read the ragraph. pa Braille is a system of communication used by the blind. It was developed by Louis Braille, a blind French student, in 1824. The code consists of an alphabet using combinations of small raised dots. The dots are imprinted on paper and ca n be felt, and thus read, by running the fingers across the page. The basic unit of the code is called a “cell” that is two dots wide and three dots high. Each letter is formed by different combinations of these dots. Numbers, punctuation marks, and even a system for writing music are also expressed by using different arrangements. These small dots, which may seem insignificant to the sighted, have opened up the entire world of books and reading for the blind. Which answer contains two details presented in the paragraph?",
         "choices": [
           "Braille is a system of indented marks read by the public.",
@@ -37195,7 +39418,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 8,
+          "sequence": 215,
           "testFocus": [
             "MAP"
           ],
@@ -37205,6 +39428,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0216",
+        "version": 1,
+        "contentHash": "sha256:a5dac6085bc19bcf6630081185965e382df0e5dfb8fbbdf462bd76df30a9d259",
         "question": "Your teacher gives you the assignment to read a selection on environmental issues and then answer a specific vocabulary question. After reading the selection, whatwould be the best procedure to find the answer?",
         "choices": [
           "reread the entire selection",
@@ -37253,7 +39479,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 9,
+          "sequence": 216,
           "testFocus": [
             "MAP"
           ],
@@ -37263,6 +39489,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0217",
+        "version": 1,
+        "contentHash": "sha256:c456881a202a1eddf277f85371ce1136fc3d3c1dd906a9962085dde8486dce52",
         "question": "Which of the following would best support the conclusion that doctors make more money than lawyers?",
         "choices": [
           "law yers charge by the hour",
@@ -37311,7 +39540,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 13,
+          "sequence": 217,
           "testFocus": [
             "MAP"
           ],
@@ -37321,6 +39550,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0218",
+        "version": 1,
+        "contentHash": "sha256:14b2ebd4a1f807acb5a63d9a75bb04ca998ae674809bd7ff3ffeed1f6d4b9047",
         "question": "The guide words on page 115 of the dictionary are. lament large – Which word would also appear onthis page?",
         "choices": [
           "laid",
@@ -37369,7 +39601,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 20,
+          "sequence": 218,
           "testFocus": [
             "MAP"
           ],
@@ -37379,6 +39611,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0219",
+        "version": 1,
+        "contentHash": "sha256:9fa0796e915fc858419c2c1c1eb025e1c5582f65537903dadc4778b697a64606",
         "question": "Read the paragraph. The old deserted house was creepy. Boards and shingles creaked menacingly as the wind blew through them. Filmy cobwebs brushed against the shattered windows. An eerie moan echoed down the long hallway and filled the dark corridor. How does the author support the conclusion that the house was creepy?",
         "choices": [
           "by comparing the house to the other less creepy houses",
@@ -37427,7 +39662,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 23,
+          "sequence": 219,
           "testFocus": [
             "MAP"
           ],
@@ -37437,6 +39672,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0220",
+        "version": 1,
+        "contentHash": "sha256:f5fcc8f4a22228a0c49ff30963f66d4a35b22d88b177185388dd1490eaca199e",
         "question": "Read the passages.",
         "choices": [
           "In Mrs. Weston’s class, the students were engaged i n discussion about designing a rubric. Students were brainstorming and asking questions. In the end, they had a scoring rubric designed by them.",
@@ -37485,7 +39723,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 25,
+          "sequence": 220,
           "testFocus": [
             "MAP"
           ],
@@ -37495,6 +39733,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0221",
+        "version": 1,
+        "contentHash": "sha256:692c0e247fe19f33c06ad643d99383fbcec3654e091a3fb77bf0d3d7b8751e97",
         "question": "Read the bibliography. Miller, Marshal. Courage. New York: Macmillan Publishing Co, 1968. This book demonstrated how Mathers overcomes his fear. I used it a s an example of how even brave people can suffer from fear. This bibliography includes information to show:",
         "choices": [
           "why the book was used in writingg the research paper.",
@@ -37543,7 +39784,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 27,
+          "sequence": 221,
           "testFocus": [
             "MAP"
           ],
@@ -37553,6 +39794,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0222",
+        "version": 1,
+        "contentHash": "sha256:82b23f486cf437112183641d727722386a571a51f4e98986fa66af225aabacfd",
         "question": "Read the label from a prescription. Wh en should Doug drink milk?",
         "choices": [
           "2-3 hours after a meal –",
@@ -37601,7 +39845,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 28,
+          "sequence": 222,
           "testFocus": [
             "MAP"
           ],
@@ -37611,6 +39855,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0223",
+        "version": 1,
+        "contentHash": "sha256:8446139a94c4e96c8919268d3d420c89957e72940266296ae788b1b9b22c7e5a",
         "question": "Read the advertisement and answer the question. Do you enjoy kites? If you order right away, we will give you directions f or making kites out of all kinds of ma terials sticks, straws, socks, and more. All of this for only – $10.95. Hurry! Time is limited. Wh a is this ad trying to get the reader to do? t",
         "choices": [
           "Buy a ready- -fly kite. to",
@@ -37659,7 +39906,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 34,
+          "sequence": 223,
           "testFocus": [
             "MAP"
           ],
@@ -37669,6 +39916,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0224",
+        "version": 1,
+        "contentHash": "sha256:6fac02bfcb4907e45efd0228f1b3985ecff532ab6cc8be6bb4a8c9377f39bf35",
         "question": "Read the index. Informationon lake formation would be found on:",
         "choices": [
           "p ages 129 and 140",
@@ -37717,7 +39967,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 36,
+          "sequence": 224,
           "testFocus": [
             "MAP"
           ],
@@ -37727,6 +39977,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0225",
+        "version": 1,
+        "contentHash": "sha256:92875b28d650b183ed3b9390aac8ed241e4bb36b73904e7a988ac59f5ce8ece5",
         "question": "Study the weather map. Inc. What southeast city had the high temperature for December 4, 2002?",
         "choices": [
           "Jacksonville, FL",
@@ -37775,7 +40028,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 39,
+          "sequence": 225,
           "testFocus": [
             "MAP"
           ],
@@ -37785,6 +40038,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0226",
+        "version": 1,
+        "contentHash": "sha256:a7bd22e714496687d355b1e98eca6aba5d9ff30bafc55b8a38a1f6c6780bab34",
         "question": "Read the paragraph from a guide to winter snowmobiling Experience the opportunity of touring Yellowstone National Park on a snowmobile. We will ride from West Yellowstone and make stops at Old Fait hful, Mammoth, and the upper and lower falls. Plan a minimum of 5 hours for this guided tour. Cost is $50.00 per person. Riders can rent or bring his/her own snowmobile. Tickets are a vailable at Basin Motor Sports. We’ll see you on December 1st for a sceni c -filled day. Which of the following best restatesthese directi ons?",
         "choices": [
           "The tour takes place on December 1 st, rentals are available, and costs $5 0.00 per person.",
@@ -37833,7 +40089,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 40,
+          "sequence": 226,
           "testFocus": [
             "MAP"
           ],
@@ -37843,6 +40099,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0227",
+        "version": 1,
+        "contentHash": "sha256:404fa1d9ee8d4a48b831aff0a777e3804b73002368cda71c8b8f6ad125462ced",
         "question": "How much does the sign say it costs to buy one kitten?",
         "choices": [
           "$3",
@@ -37891,7 +40150,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 48,
+          "sequence": 227,
           "testFocus": [
             "MAP"
           ],
@@ -37901,6 +40160,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0228",
+        "version": 1,
+        "contentHash": "sha256:4a3d755beec995e3761f8fc98807080e48b509bd1934d99cb7e7852efd49acd6",
         "question": "Read the directions and answer the question. These are the Classroom Rules: Listen and follow your teacher’s directions Be polite to others Respect others’ property Be prepared to learn Which statement below is one of the classroom rules.",
         "choices": [
           "Respect the teacher.",
@@ -37949,7 +40211,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 49,
+          "sequence": 228,
           "testFocus": [
             "MAP"
           ],
@@ -37959,6 +40221,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0229",
+        "version": 1,
+        "contentHash": "sha256:45c7a25a845eea8010991ccbe416cfdae7a7e5678c4efcd388eaeb3b78c36183",
         "question": "Look at thistable of contents and answer the question. The story, “Pigs are Cute!” starts on which page?",
         "choices": [
           "p age 12",
@@ -38007,7 +40272,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 56,
+          "sequence": 229,
           "testFocus": [
             "MAP"
           ],
@@ -38017,6 +40282,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0230",
+        "version": 1,
+        "contentHash": "sha256:5a170eecc1e6eaa3a6e1035b22a495fb29f8bc263dd0bc1d75688036727e72c7",
         "question": "Read the schedule and answer the question. What show is right after Lizards?",
         "choices": [
           "Lu nch Break",
@@ -38065,7 +40333,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 59,
+          "sequence": 230,
           "testFocus": [
             "MAP"
           ],
@@ -38075,6 +40343,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0231",
+        "version": 1,
+        "contentHash": "sha256:574d7ec0146331d4fa78f0e7452bfefee09d6aebeb56a8471fb53f6c1314ed89",
         "question": "Read the Table of Contents and answer the question. The story “Quiet Please” starts on which page?",
         "choices": [
           "10",
@@ -38123,7 +40394,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 69,
+          "sequence": 231,
           "testFocus": [
             "MAP"
           ],
@@ -38133,6 +40404,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0232",
+        "version": 1,
+        "contentHash": "sha256:d9a2b144f920a3eb0713ec85c4594920b3ae0354a13526ef84d2a314d7291085",
         "question": "Read the paragraph. Cells make up all liv ing thing s. There are millions of different types of cells in the human b ody. Scientists believe that f urther study of the make -up of cells can lead to a cure for cancer. Scientists continue their research in laboratoriesevery da y. Which sentence best describes an assumption in this paragraph?",
         "choices": [
           "Cells make up all living thing s.",
@@ -38181,7 +40455,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 91,
+          "sequence": 232,
           "testFocus": [
             "MAP"
           ],
@@ -38191,6 +40465,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0233",
+        "version": 1,
+        "contentHash": "sha256:ac4bb3671d1e0cc4f2aeedb2424327e26abc1b9b1a8690d2c2a40ff9514d8f72",
         "question": "Read the following paragraph. It’s been a cold fall. Every morning the grass is covered with frost. Ice hangs off the bottom of cars. As we walk to school, our fingers freeze inside our gloves and our cheeks are bright red when we enter our classrooms. I can’t wait until spring! Which of the follow ing cannot be proven by the paragraph?",
         "choices": [
           "The weather was freezing.",
@@ -38239,7 +40516,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 92,
+          "sequence": 233,
           "testFocus": [
             "MAP"
           ],
@@ -38249,6 +40526,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0234",
+        "version": 1,
+        "contentHash": "sha256:e690b188b8b6ef8185e665cf9db96cd6974459127cbed04cfc3c54a76695c15b",
         "question": "The best source of information to determine the date Pearl Harbor was bombed would be:",
         "choices": [
           "internet search",
@@ -38297,7 +40577,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 93,
+          "sequence": 234,
           "testFocus": [
             "MAP"
           ],
@@ -38307,6 +40587,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0235",
+        "version": 1,
+        "contentHash": "sha256:d935b7c66ee68883a9ce15029a5fcc96e1e2ee608618afe30d35e43015258290",
         "question": "Which bibliography lists magazines?",
         "choices": [
           "Ockerman, T., Survival Skills for Dummies. Clearinghouse Books, New York, 1999. Trank, W., Surviving in the Outdoors. MacMillan, Chicago, 2001.",
@@ -38355,7 +40638,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 95,
+          "sequence": 235,
           "testFocus": [
             "MAP"
           ],
@@ -38365,6 +40648,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0236",
+        "version": 1,
+        "contentHash": "sha256:b8b8cecd5f0cb74091bf4a09bdebd9e51a73294d82363461287c99df1cf914cf",
         "question": "Read the label.",
         "choices": [
           "contains 0% juice",
@@ -38413,7 +40699,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 96,
+          "sequence": 236,
           "testFocus": [
             "MAP"
           ],
@@ -38423,6 +40709,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0237",
+        "version": 1,
+        "contentHash": "sha256:2515a40fbc3d1421eee4971843d678a765811f641ff666d6a1100ddf7f56a8c8",
         "question": "Where would you find the best information for a report about Chinese architecture?",
         "choices": [
           "you r teacher",
@@ -38471,7 +40760,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 102,
+          "sequence": 237,
           "testFocus": [
             "MAP"
           ],
@@ -38481,6 +40770,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0238",
+        "version": 1,
+        "contentHash": "sha256:646d48408627c8fe4e6ee9e0c25c5e864c18cb4fb2d870233930b7c7035f60d8",
         "question": "Look at the chapter summaries. What information is found in Section 3:",
         "choices": [
           "d efinition of life science",
@@ -38529,7 +40821,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 104,
+          "sequence": 238,
           "testFocus": [
             "MAP"
           ],
@@ -38539,6 +40831,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0239",
+        "version": 1,
+        "contentHash": "sha256:64198c7c2eaa368a50058bba6196b2a50176a3357e39859503bba6ce73686c84",
         "question": "Read the passage. Golf is a great sport. The goal is to hit a ball into eighteen small h oles with the least amount of shots as possible. Talented golfers can usually complete eac h shot with three to five hits, but amateurs like me take nine or ten shots per hole. It’s best to play on a warm, sunny day, but many golfers go out as soon as the snow melts in the spring. It’s unsafe to play golf during a rainstorm because there have been instances where lightning has struck a golfer’s club. Which of the following is a provable fact based on the preceding paragraph?",
         "choices": [
           "Goo d golfers never hit more thanthree shots per hole.",
@@ -38587,7 +40882,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 106,
+          "sequence": 239,
           "testFocus": [
             "MAP"
           ],
@@ -38597,6 +40892,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0240",
+        "version": 1,
+        "contentHash": "sha256:da27e29066e3413b8ddaef2db56d013db66da6ecff6ae9015e8f924109d5fcc4",
         "question": "Look at the label. How many servings does this product contain?",
         "choices": [
           "0",
@@ -38645,7 +40943,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 108,
+          "sequence": 240,
           "testFocus": [
             "MAP"
           ],
@@ -38655,6 +40953,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0241",
+        "version": 1,
+        "contentHash": "sha256:74a029173167b9e3a165f2413d03f360b97a91cf4947a0adb948b2b2cbc36843",
         "question": "Read the paragraph. Television shows are great. Some people complain about violence and bad language, but they just don’t understand what makes good entertainment. My friends and I love the sitcoms about teenagers. Those movie stars are just like us and understand how we feel. Television improves our understanding of the real world and makes us better people. Which statement is true about the paragraph?",
         "choices": [
           "The paragraphis mostly fact.",
@@ -38703,7 +41004,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 113,
+          "sequence": 241,
           "testFocus": [
             "MAP"
           ],
@@ -38713,6 +41014,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0242",
+        "version": 1,
+        "contentHash": "sha256:d6101fa0849c48114fd46075caafc061aae7c1ec4fa7ddc2cf4a99b566b415ef",
         "question": "Read the recipe. What type of chocolate is suggested for this recipe?",
         "choices": [
           "Hershey’s M ilk",
@@ -38761,7 +41065,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 118,
+          "sequence": 242,
           "testFocus": [
             "MAP"
           ],
@@ -38771,6 +41075,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0243",
+        "version": 1,
+        "contentHash": "sha256:60f41f461ce90c05e5db4c2ad79bab1ec60bf349e234605632b9d1d81ebad9f7",
         "question": "Read the following advertisement, keeping in mind that in a food label, ing redients are listed in order from greatest amount to least. Ingredients: tomato puree (water, tomato paste), high fructose corn syrup, wheat flour, salt, spice extract, vitamin C (ascorbic acid), cit ric acid. According to the soup label, tomato soup mainly contains what ingredient(s)?",
         "choices": [
           "sw eetener",
@@ -38819,7 +41126,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 121,
+          "sequence": 243,
           "testFocus": [
             "MAP"
           ],
@@ -38829,6 +41136,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0244",
+        "version": 1,
+        "contentHash": "sha256:b404ae10c225b28a88b9cf8a8475d00aff20450aa8f03484510d37ec3707f4cd",
         "question": "Read the following bibliography entry. Dickens, Charles.. United States of America: Tom Doherty A Tale of Two Cities Associates, 1998. This is a bibliography entry for a(n) _________.",
         "choices": [
           "magazine",
@@ -38877,7 +41187,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 122,
+          "sequence": 244,
           "testFocus": [
             "MAP"
           ],
@@ -38887,6 +41197,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0245",
+        "version": 1,
+        "contentHash": "sha256:c08520420b4f1d67340b20d959c53c6d14a2041e530c4e66e50c6abd67147a72",
         "question": "Read the paragraph. Scientificand medical research has improved ove r the years. Our use of monkeys, rats, mice, rabbits, and other animals has helped us make numerous adva nces in medicine. We need to continue those practices to find cures and treatme nts for more illnesses. Which person would be most likely to disagree with this paragraph?",
         "choices": [
           "a scientific researcher",
@@ -38935,7 +41248,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 123,
+          "sequence": 245,
           "testFocus": [
             "MAP"
           ],
@@ -38945,6 +41258,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0246",
+        "version": 1,
+        "contentHash": "sha256:289331e9f1f420189443fa0352114d4cad602e146eec5c2b911c92dddd5aea6a",
         "question": "Read the passage. “Each [leaf] was shaped like an inverted umbrella spiked on a massive trun k…” The Pit of Win gs, page 60. What can be inferred from this line?",
         "choices": [
           "The leaves are cup-shaped with thick stems.",
@@ -38993,7 +41309,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 125,
+          "sequence": 246,
           "testFocus": [
             "MAP"
           ],
@@ -39003,6 +41319,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0247",
+        "version": 1,
+        "contentHash": "sha256:0bad43c80c1e6c08e2f0d5c3a6b4435b4b5a551d4429cd3d51684cf63714b8af",
         "question": "Read the following directions What should the measurements be of the bottom sashing unit?",
         "choices": [
           "1 1/2 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches 3 1/2 inches x",
@@ -39051,7 +41370,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 130,
+          "sequence": 247,
           "testFocus": [
             "MAP"
           ],
@@ -39061,6 +41380,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0248",
+        "version": 1,
+        "contentHash": "sha256:6767966c58cbd633bd03f7f8bd96290045b744586129871a7bac426de0ee4d1b",
         "question": "Read the recipe. (Phillips, Felts, Blackman). If you choose to bake this recipe, what alterna tive cooking method is recommended?",
         "choices": [
           "D utch oven cooking",
@@ -39109,7 +41431,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 131,
+          "sequence": 248,
           "testFocus": [
             "MAP"
           ],
@@ -39119,6 +41441,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0249",
+        "version": 1,
+        "contentHash": "sha256:9d0189877b88e1cd8221835bdd827ead9c77224bc81119747b33ebaf6ce3faf4",
         "question": "Read the sign and answer the question. How long is the yard sale open?",
         "choices": [
           "9 hours",
@@ -39167,7 +41492,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 132,
+          "sequence": 249,
           "testFocus": [
             "MAP"
           ],
@@ -39177,6 +41502,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0250",
+        "version": 1,
+        "contentHash": "sha256:c8af9c6307601f58fe8a5449528fbfa9a45a15b020496d44524db2035afcbeb0",
         "question": "Look at the page below. M cGraw -Hill Companies, 1999. What information is given in the vocabulary list for Chapter 11 Highlights?",
         "choices": [
           "the correct definition",
@@ -39225,7 +41553,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 140,
+          "sequence": 250,
           "testFocus": [
             "MAP"
           ],
@@ -39235,6 +41563,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0251",
+        "version": 1,
+        "contentHash": "sha256:40fda51d8efcc6af40b30cd974f33392333533cb57c7a7e5aa4efeb91061ca95",
         "question": "Read the directions below. Lift up the brush. Dip in water. Dip the brush into the paint tray. Apply the brush tip to the paper. What will directions above help you to do?",
         "choices": [
           "p aint a house",
@@ -39283,7 +41614,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 145,
+          "sequence": 251,
           "testFocus": [
             "MAP"
           ],
@@ -39293,6 +41624,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0252",
+        "version": 1,
+        "contentHash": "sha256:bd8b561957f23d32e341504fc1c3de4abee44745a990492e55e94720d74b55c2",
         "question": "Review the Table of Contents. What is Chapter 8 about, and on what page does it begin?",
         "choices": [
           "Hered ity, Evolution and Classification, Page 102",
@@ -39341,7 +41675,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 146,
+          "sequence": 252,
           "testFocus": [
             "MAP"
           ],
@@ -39351,6 +41685,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0253",
+        "version": 1,
+        "contentHash": "sha256:d18939fadee3fcffc920d4d94aac38c408419757d136fed622859348258bb0ab",
         "question": "In the chapter titled, “Stream Fish,” what information would be included?",
         "choices": [
           "Fern s",
@@ -39399,7 +41736,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 148,
+          "sequence": 253,
           "testFocus": [
             "MAP"
           ],
@@ -39409,6 +41746,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0254",
+        "version": 1,
+        "contentHash": "sha256:1fb5f7c617a9fe42b4414cc6ab84bf2f54312c326941b5bf33908ae8057ef9b6",
         "question": "After reading a story in your language textbook, you need to find the definitions for several vocabulary words in the story. Where would be the best place to look?",
         "choices": [
           "d ictionary",
@@ -39457,7 +41797,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 149,
+          "sequence": 254,
           "testFocus": [
             "MAP"
           ],
@@ -39467,6 +41807,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0255",
+        "version": 1,
+        "contentHash": "sha256:e4a308e2153fb15f2a691f55ab00c860e1b68c18cb2b23fa0ac470eba9177d8e",
         "question": "Read the recipe and answer the question. What do you do after boiling the noodles?",
         "choices": [
           "layer the ingredients",
@@ -39515,7 +41858,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 150,
+          "sequence": 255,
           "testFocus": [
             "MAP"
           ],
@@ -39525,6 +41868,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0256",
+        "version": 1,
+        "contentHash": "sha256:a56a40a1482d7b4e3f1604780984e2a37b218d4d105b8bdf9fb19607f6ee097b",
         "question": "Read the sentences. • Earthquakes can cause massive destruction. • Earthquakes have killed people. • Earthquakes are unpredictable. • Earthquakes have caused train wrecks and car accidents. Which opinion can be formed based on these facts?",
         "choices": [
           "Ear thquakes are frightening.",
@@ -39573,7 +41919,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 151,
+          "sequence": 256,
           "testFocus": [
             "MAP"
           ],
@@ -39583,6 +41929,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0257",
+        "version": 1,
+        "contentHash": "sha256:95c7002ee43195d94aeec9b2a0bd493e5d95bdb1e45bab56c48722bfafe059a0",
         "question": "Review the Bibliography. Who is the author of? The Essentials of Astronomy",
         "choices": [
           "Jon Erickson",
@@ -39631,7 +41980,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 156,
+          "sequence": 257,
           "testFocus": [
             "MAP"
           ],
@@ -39641,6 +41990,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0258",
+        "version": 1,
+        "contentHash": "sha256:c7c06860fa71f2745db16c68fb6767cd3735de08f5bb41798b15545f0b38317f",
         "question": "Read the recipe. What are the total cups of flour and sugar needed?",
         "choices": [
           "4 cups",
@@ -39689,7 +42041,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 160,
+          "sequence": 258,
           "testFocus": [
             "MAP"
           ],
@@ -39699,6 +42051,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0259",
+        "version": 1,
+        "contentHash": "sha256:79eeb06475e8b74c56cb08595b427c169b3cf3b76fdb5a974889d6366480bb7a",
         "question": "Read the notice. When will Dr. Schou be speaking at the meeting?",
         "choices": [
           "November 6th at 6:30 p.m.",
@@ -39747,7 +42102,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 165,
+          "sequence": 259,
           "testFocus": [
             "MAP"
           ],
@@ -39757,6 +42112,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0260",
+        "version": 1,
+        "contentHash": "sha256:f2c5c7c398afee973e8d84c2c5b7a044fc43a95bdf3d112c558e15d16229e961",
         "question": "Read the directions. How far apart should the unbaked cookies be placed on the pan?",
         "choices": [
           "1 inch",
@@ -39805,7 +42163,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 166,
+          "sequence": 260,
           "testFocus": [
             "MAP"
           ],
@@ -39815,6 +42173,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0261",
+        "version": 1,
+        "contentHash": "sha256:86cf39569f7698010d7248c14b43bbdbc516906ce4318f377967cebde7a4721c",
         "question": "Study the recipe and then answer the question. After beating the wire whisk for 2 minutes, what comes next?",
         "choices": [
           "pour the milk into the large bowl",
@@ -39863,7 +42224,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 170,
+          "sequence": 261,
           "testFocus": [
             "MAP"
           ],
@@ -39873,6 +42234,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0262",
+        "version": 1,
+        "contentHash": "sha256:cf0ef86a980187088a0740fa106177f96c220468112c0d6bb2be12f6fdf728e8",
         "question": "Read the passage. “The morning of the fight, Tompkins Square was a beehive of activity with numerous workers setting up the ring, the seats, and the guest speakers’ stand. The scheduled bouts began shortly after noon and the park had begun filling up even earlier.” (Teacher authors: Phillips, Blackman, Felts). Given the passage, which is fact?",
         "choices": [
           "It is morning.",
@@ -39921,7 +42285,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 171,
+          "sequence": 262,
           "testFocus": [
             "MAP"
           ],
@@ -39931,6 +42295,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0263",
+        "version": 1,
+        "contentHash": "sha256:5016f810814d0c438e8a56f2da80a6c55edae1104b96ad782c37c1b87a6a52b0",
         "question": "Read the passage and answer the question. Fred came home from school. He made a snack. He poured a glass of milk and it tasted sour. “This milk is spoiled,” he said. He looked back at the refrigerator and noticed that it was unplugged. Why was Fred’s milk spoiled?",
         "choices": [
           "The milk was not spoiled.",
@@ -39979,7 +42346,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 175,
+          "sequence": 263,
           "testFocus": [
             "MAP"
           ],
@@ -39989,6 +42356,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0264",
+        "version": 1,
+        "contentHash": "sha256:74dc45614356a3671f81ebf9efcbb634ea70e43285d191b4f9f9101760485ebe",
         "question": "Where would you look in a book to see where Chapter 6 begins and ends?",
         "choices": [
           "Index",
@@ -40037,7 +42407,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 188,
+          "sequence": 264,
           "testFocus": [
             "MAP"
           ],
@@ -40047,6 +42417,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0265",
+        "version": 1,
+        "contentHash": "sha256:dc53899b916bf0009e7daddea6f3bdfb52646906f39f76a24597701be2510bd0",
         "question": "Review the index. Index. Focus. McGraw-Hill, 1985.626. The term “descriptive” on page 179, is a subtopic of:",
         "choices": [
           "Simile",
@@ -40095,7 +42468,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 190,
+          "sequence": 265,
           "testFocus": [
             "MAP"
           ],
@@ -40105,6 +42478,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0266",
+        "version": 1,
+        "contentHash": "sha256:423e4c1a5dbd8aeaca444ef74f87271eea3245f8143fb9e34383b89f4491dd2f",
         "question": "Read the recipe. How many cookies will one batch make?",
         "choices": [
           "24",
@@ -40153,7 +42529,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 196,
+          "sequence": 266,
           "testFocus": [
             "MAP"
           ],
@@ -40163,6 +42539,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0267",
+        "version": 1,
+        "contentHash": "sha256:0770b31ec17abde15364cd7f6149b4f9fb13d274bb6e07f80d32c38b1089c14c",
         "question": "Where is the best place to look for a map of Canada?",
         "choices": [
           "at las",
@@ -40211,7 +42590,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 197,
+          "sequence": 267,
           "testFocus": [
             "MAP"
           ],
@@ -40221,6 +42600,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0268",
+        "version": 1,
+        "contentHash": "sha256:06051c3a23962e35af303c1dc8126dc2e1620d40642805d7a9a25420dc38d132",
         "question": "Read the following directions and answer the question. What should you do after you read each question caref ully?",
         "choices": [
           "Hand in your test to your teacher.",
@@ -40269,7 +42651,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 198,
+          "sequence": 268,
           "testFocus": [
             "MAP"
           ],
@@ -40279,6 +42661,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0269",
+        "version": 1,
+        "contentHash": "sha256:861c64f987f7bb37ad0c40d3609b6681980215539968e05bc10e8d375d68b1b2",
         "question": "Review the index. To find information on fables, what two pages would you use?",
         "choices": [
           "24 and 29",
@@ -40327,7 +42712,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 199,
+          "sequence": 269,
           "testFocus": [
             "MAP"
           ],
@@ -40337,6 +42722,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0270",
+        "version": 1,
+        "contentHash": "sha256:fa76b01068b8649b6e646d2bd6dd8864e1fca68b378b9277d05d592a98dac2b0",
         "question": "Read the bibliography. The editors of what company helped Kendrick Frazier write Solar System Planet Earth?",
         "choices": [
           "Chelsea House",
@@ -40385,7 +42773,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 204,
+          "sequence": 270,
           "testFocus": [
             "MAP"
           ],
@@ -40395,6 +42783,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0271",
+        "version": 1,
+        "contentHash": "sha256:cebea461aa79eea1c842dd89ea5f03c629b701ecaa294700aa37040477ae86bb",
         "question": "In a textbook, what does “See Also” mean in an index?",
         "choices": [
           "choose another topic.",
@@ -40443,7 +42834,7 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 205,
+          "sequence": 271,
           "testFocus": [
             "MAP"
           ],
@@ -40453,6 +42844,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0272",
+        "version": 1,
+        "contentHash": "sha256:b2eac33fd86461af46f02f8cd9f527804df37a58a9fa037e8e03d52bdbae5ed6",
         "question": "Read the table of contents. Index. Focus. McGraw-Hill, 1985.626. If the poem “If Once You Have Slept on an Island” begins on page 253, on what page would “Rip Van Winkle” end?",
         "choices": [
           "page 252",
@@ -40501,7 +42895,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 206,
+          "sequence": 272,
           "testFocus": [
             "MAP"
           ],
@@ -40511,6 +42905,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0273",
+        "version": 1,
+        "contentHash": "sha256:c9bdbb9e4659c7944f6d6a31f5262fa61481b61d6b1887d5c89c3e8afadac977",
         "question": "Read the paragraph. Enjoy a terrific looking lawn with Super Green grass seed. Your lawn will look the best out of the entire neighborhood. Your lawn will look like professionals take care of it daily. Remember, ask for Super Green. How does the writer appeal to you?",
         "choices": [
           "by telling you what a good buy Super Green is",
@@ -40559,7 +42956,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 207,
+          "sequence": 273,
           "testFocus": [
             "MAP"
           ],
@@ -40569,6 +42966,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0274",
+        "version": 1,
+        "contentHash": "sha256:7fc5f029e5766e3224f9226cbd75f6c26a159353c903e61104016b9db82c8693",
         "question": "In a social studies book index, what letters are used for maps and photographs?",
         "choices": [
           "s and i",
@@ -40617,7 +43017,7 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 208,
+          "sequence": 274,
           "testFocus": [
             "MAP"
           ],
@@ -40627,6 +43027,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0275",
+        "version": 1,
+        "contentHash": "sha256:9e746e68fa92fea48a350ce1aa1d52b1f92982fa1d43c363c849254643beefb1",
         "question": "Read the label. What do you do before heating contents in the mic rowave?",
         "choices": [
           "cover the dish",
@@ -40675,7 +43078,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 216,
+          "sequence": 275,
           "testFocus": [
             "MAP"
           ],
@@ -40685,6 +43088,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0276",
+        "version": 1,
+        "contentHash": "sha256:f751ae1aa919e20d223214206ec8c2fd09742b90c6f018bb982192aacc5a6e4b",
         "question": "Read the paragraph. Samantha was dusting the furniture while Peter vacuumed the carpets. Ea rlier that morning, Peter cleaned the bathroom and kitchen floors. Everyone was getting ready for the party that evening. Soon, Maria would sweep the porch. Who did the most jobs?",
         "choices": [
           "Samantha",
@@ -40733,7 +43139,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 217,
+          "sequence": 276,
           "testFocus": [
             "MAP"
           ],
@@ -40743,6 +43149,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0277",
+        "version": 1,
+        "contentHash": "sha256:c6296464723e44085b7b87defbfd083e9be215040a01bf514cad26fcac4fba15",
         "question": "Review the bulletin. At what time should the band students be in their seats?",
         "choices": [
           "6: 30 p.m.",
@@ -40791,7 +43200,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 219,
+          "sequence": 277,
           "testFocus": [
             "MAP"
           ],
@@ -40801,6 +43210,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0278",
+        "version": 1,
+        "contentHash": "sha256:36067cecc566a6ad00f7c82f95589d869235dd5c42b11d77d99047efcef671bf",
         "question": "Read the directions and answer the question. When making this art project, you need to: Whatwould happen if you left out step #3?",
         "choices": [
           "the shapes would not fit",
@@ -40849,7 +43261,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 220,
+          "sequence": 278,
           "testFocus": [
             "MAP"
           ],
@@ -40859,6 +43271,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0279",
+        "version": 1,
+        "contentHash": "sha256:a68b994a8da0d52909dcee2494cfac24257f72a95e99de60f2911ff128869c14",
         "question": "Read the paragraph. Some people don’t like to use computers. They think that it is too hard and they break down too often. Don’t they realize that computers save us time and effort? Surely these anti-computer people are confused. What assumption is underlying this paragraph?",
         "choices": [
           "Everyon e should use and appreciate computers.",
@@ -40907,7 +43322,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 221,
+          "sequence": 279,
           "testFocus": [
             "MAP"
           ],
@@ -40917,6 +43332,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0280",
+        "version": 1,
+        "contentHash": "sha256:76d162dcd834825d0c6ac47d5220936e63f458a7fffd5284ddbb212b75f80a3d",
         "question": "Read the table of contents. What is the last page of Chapter 2?",
         "choices": [
           "2",
@@ -40965,7 +43383,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 226,
+          "sequence": 280,
           "testFocus": [
             "MAP"
           ],
@@ -40975,6 +43393,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0281",
+        "version": 1,
+        "contentHash": "sha256:db28cb7c9f8482f0d398a265a04c25a8e6d48ec07387a2c798f573fe525863ab",
         "question": "Read the passage. At the very time of the humiliation at Fort Duquesne when George Washington, — Daniel Boone, and General Edward Braddock were defeated by French and Indian foes —a Mohawk Indian was readying himself for a warriors’ dance. The Mohawk — name Warraghiyagey (war--- YAH-gay) painted bright designs on his naked rag ee — chest, stepped into a deerskin kilt adorned with porcupine quills, and do nned a cap topped with a single eagle feather. Tied to his wrists and ankles were dried deer’s hoofs that rattled as he moved. He ate of ceremonial dog meat and threw a red-painted hatchet onto a war post. Soon he would lead the strenuous danc e. From Colonies to Country: 1710 -1791. Book 3, Second Edition. Oxford University Press, 1999. In the last three sentences, to whom does “he” r efer?",
         "choices": [
           "Fort Duquesne",
@@ -41023,7 +43444,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 227,
+          "sequence": 281,
           "testFocus": [
             "MAP"
           ],
@@ -41033,6 +43454,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0282",
+        "version": 1,
+        "contentHash": "sha256:c4688cc3d046c2398aabb76f975ab7f1267ae7400ad7abc24b32a2085c54513d",
         "question": "Read the following paragraph. The spring air was fresh and clean, and the sun was warming the hillside. Flowers were beginning to bloom, forming a rainbow of colors throughout the meadows. All the animals were coming out from their homes to welcome the new morning, and I knew this was going to be a wonderful day as I peeked out of my tent. What canyou generalize about the author’s opinion?",
         "choices": [
           "The author lives in Calif ornia.",
@@ -41081,7 +43505,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 232,
+          "sequence": 282,
           "testFocus": [
             "MAP"
           ],
@@ -41091,6 +43515,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0283",
+        "version": 1,
+        "contentHash": "sha256:95357890d2649255e8197cbc0f9e79a64d04100c4154c809a869600e5f582741",
         "question": "Read the ragraph. pa I could live on chocolate! Every season is chocolate season. In the fall, stores sell giant bags of candy bars for Halloween. At Christmas, boxes of chocolate covered almonds are as common as ants at a picnic. Spring means baskets full of hollow chocolate bunnies. Best of all, who can resist a dripping ice cream cone on a summer day? Which of the following does NOT express how the writer feels about this topic?",
         "choices": [
           "There is not enough chocolate in August.",
@@ -41139,7 +43566,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 234,
+          "sequence": 283,
           "testFocus": [
             "MAP"
           ],
@@ -41149,6 +43576,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0284",
+        "version": 1,
+        "contentHash": "sha256:b66a27cde7694eb2fe083d454e7268c6a508c000291fb6fb5485119affd9a368",
         "question": "Directions for washing the dishes: 1. Dry the dishes off and put them away. 2. Put the dirty dishes in the water and scrub them clean. 3. Fill the sink with warm water and soap. 4. Rinse the dishes with clean water. What is the correct order of the sentences above?",
         "choices": [
           "1, 2, 3,",
@@ -41197,7 +43627,7 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 236,
+          "sequence": 284,
           "testFocus": [
             "MAP"
           ],
@@ -41207,6 +43637,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0285",
+        "version": 1,
+        "contentHash": "sha256:a30929392023113828bf05d052d9e774d22eadb481a1624f71290b9a9e103d7f",
         "question": "Read the story and answer the question. It was my second grade school year. I was playing on the merry- -round at the first gorecess. My friend, Seth, challenged me to stand and lean over a bar while he pushed me as fast as he could for 5 minutes. At first, it was fun! I was having the ride of my life! Then, I suddenly felt dizzy. My stomach was moving up and down, churning wildly. I knew I was going to be sick. I had to live up to the challenge, I hung on for dear life. Suddenly, I let out a cry, “Stop! I’m sick!” Seth stopped the merry- -round. I go thought I was going to die. Seth helped me into the bathroom. When I emerged, I vowed never to participate in a merry- -round challenge again. go What type of writing is this?",
         "choices": [
           "autobiographical",
@@ -41255,7 +43688,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 239,
+          "sequence": 285,
           "testFocus": [
             "MAP"
           ],
@@ -41265,6 +43698,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0286",
+        "version": 1,
+        "contentHash": "sha256:382d0b0dfad6ed5b0a5c4006379500dd18756135fb17323ef162ab57bad0f317",
         "question": "Read the paragraph. Junk food is the worst poisonto hit society in the last hundred years. Everyday millions of young people suck down sugary sodas, gulp greasy French fries, and gorge on candy bars and potato chips. Cigarettes may cause lung cancer, but ou r country’s addictionto junk food will surely be our demise as our children grow to adulthood unhealthy and unhappy. What is the assumption underlying this paragraph?",
         "choices": [
           "Ju nk food should be eatenonly on occasions.",
@@ -41313,7 +43749,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 241,
+          "sequence": 286,
           "testFocus": [
             "MAP"
           ],
@@ -41323,6 +43759,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0287",
+        "version": 1,
+        "contentHash": "sha256:257934532bb03781ad11421214cddfa272bff5344312856f2215de83b6bf7764",
         "question": "Read the following paragraph. As the teacher started to hand out the science tests, Jake felt a lump in his throat. His hand was shaking as he wrote his name on the top sheet of his test. As he read the first question, beads of sweat began to form on his forehead, and he had no idea what the correct answers were on the entire test. What canyou infer?",
         "choices": [
           "Jake is tired from not getting enough sleep.",
@@ -41371,7 +43810,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 242,
+          "sequence": 287,
           "testFocus": [
             "MAP"
           ],
@@ -41381,6 +43820,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0288",
+        "version": 1,
+        "contentHash": "sha256:c133f930bebd851cc5e2fa16eeb90fa61f81ed749a4faca3aca8c35052280b34",
         "question": "Read the passage.passage. Reintroducing native wolves to Yellowstone Park was a huge mistake. These beasts are cruel undiscriminating hunters. They invade ranches in the middle of the night and savagely destroy any livestock they come across. They are dirty, diseased brutes who spread viruses to all the animals in their paths. They should be sent back to where they came from. What does the writer assume in the paragraph?",
         "choices": [
           "that there are no positive qualities aboutwolves",
@@ -41429,7 +43871,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 244,
+          "sequence": 288,
           "testFocus": [
             "MAP"
           ],
@@ -41439,6 +43881,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0289",
+        "version": 1,
+        "contentHash": "sha256:0551205c76d83e81c23c7e39c3110f13b33b1c60eac31bb840bba09199d753e8",
         "question": "Read the passage. As I walked along the hiking trail, I felt so happy and peaceful. It was a beautiful day, and I loved to enjoy nature. The sky was a crystal clean blue that seemed to go on forever. As I walked up the hill, I noticed the magnificent Aspen trees lining the trail. They were tall with paper white bark that peeled back in spots like thin tissue paper. They rose up into the sky like skyscrapers and swayed back and forth in the gentle breeze. As they danced side to side in the air, the y seemed to make a gentle sound, like a musical lullaby. It was a wonderful day for a hike. How does the author try to help you picture the trees?",
         "choices": [
           "comp ares them to other trees",
@@ -41487,7 +43932,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 247,
+          "sequence": 289,
           "testFocus": [
             "MAP"
           ],
@@ -41497,6 +43942,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0290",
+        "version": 1,
+        "contentHash": "sha256:3f452e7c00ea0defb84e942003ca5060ad07107070877c4431e3a6fea899d8ef",
         "question": "Read the passage and answer the question. Just as the clock struck midnight, Greg was awakened by a sound coming from outside his window. He jumped out of bed to inquire about the sound. As he approached the window, he saw Robot R2D2 landing his spacecraft. The bright green lights from the spacecraft’s anti-gravity boosters caused Greg to cry out in excitement. What does the author portray in this paragraph?",
         "choices": [
           "a science fiction setting",
@@ -41545,7 +43993,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 249,
+          "sequence": 290,
           "testFocus": [
             "MAP"
           ],
@@ -41555,6 +44003,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0291",
+        "version": 1,
+        "contentHash": "sha256:04ebdcf3a757befc642ac2c4fd66e3192ed6634af2dada7b8e37531e143e60ab",
         "question": "Read the passage. Peter ran into the house after school to get ready for his soccer game. This was the big championship, and he had been anticipating it for weeks. He knew he needed to be there ontime, or the coach would really be upset, and the game was about an hour’s drive away. He wanted to leave early. Peter was starting to feel anxious as he noticed the time on the hallway clock. He only had one and a half hours to get there. He dashed into the kitchento see if his mother was ready to take him. “I have a millionthings to do before we can leave!” she tol d Peter. How does his mother’s comment make Peter feel?",
         "choices": [
           "relaxed",
@@ -41603,7 +44054,7 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 250,
+          "sequence": 291,
           "testFocus": [
             "MAP"
           ],
@@ -41613,6 +44064,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0292",
+        "version": 1,
+        "contentHash": "sha256:454dc2e14de22c7c6d7f857e62fec3528f68be6fcdb4e498cc1441230d2265f3",
         "question": "Read the paragraph. Jane and Henry were the best of friends. They grew up on the same street and played together all through grade school. They felt like they knew everything about each other. Now that they were both in high school, they didn’t spend as much time together. Jane was running for class president that year, and most everyone was planning to vote for her. Henry felt left out and decided to run againsther. When he realized that Jane was still winning, he chall enged her to a debate in front of the school. He knew that if he promised free pizza for lunch every Frida y, thathe might have a chance at winning. Why was Henry running for class president?",
         "choices": [
           "He is jealous of Jane’s popularity at school.",
@@ -41661,7 +44115,7 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 251,
+          "sequence": 292,
           "testFocus": [
             "MAP"
           ],
@@ -41671,6 +44125,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0293",
+        "version": 1,
+        "contentHash": "sha256:a3c6cc246aee682a7d5b0dbbdc9117faec3734499c886c5d35644ed6715bded9",
         "question": "Read the following paragraph. George Washington was a great man. He was the first president of the United States. We have been studying presidents in social studies class, and we are currently doing research on Ronald Reagan. He was an actor before he got into politics. Whichis a statement of opinion?",
         "choices": [
           "George Washington was the first president of the United States",
@@ -41719,7 +44176,7 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 252,
+          "sequence": 293,
           "testFocus": [
             "MAP"
           ],
@@ -41729,6 +44186,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0294",
+        "version": 1,
+        "contentHash": "sha256:3fe9f44650151a8ed0c7093563af596e83a6a587b7bf6080eee2765893b2d72d",
         "question": "Read the ragraph. pa School was cancelled during an unexpected snowstorm last May. A) We woke up expecting spring flowers only to find the gardens c overed in a foot of snow. B) The front door was blocked shut by a massive drift that had blown agains t it. C) We re-started the heater, made a batch of hot chocolate, and settled in for the day. D) Last year there was a little snow, but we still had drou ght conditions through the summer. Which sentence does not belong?",
         "choices": [
           "sentence A",
@@ -41777,7 +44237,7 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 254,
+          "sequence": 294,
           "testFocus": [
             "MAP"
           ],
@@ -41787,6 +44247,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0295",
+        "version": 1,
+        "contentHash": "sha256:5f6c14608526cd161b00b0d5f1603eeec2c59e47f5ea2637b8bc30b0ea8ed502",
         "question": "Read the paragraph. Schools need to prepare students to be successful, productive citizens in our society. In order for teachers to help students learnthe cu rriculum and apply it to the real world, they must have the support of parents. Parents are the single mos t important factor in the daily lives of students, and without their help and support of schools, students will not thrive. What does the author want in the paragraph?",
         "choices": [
           "St udents to work harder.",
@@ -41835,7 +44298,7 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 257,
+          "sequence": 295,
           "testFocus": [
             "MAP"
           ],
@@ -41845,6 +44308,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0296",
+        "version": 1,
+        "contentHash": "sha256:5927a9dfd879591601b713d4817c7f0cb608a06525a4f84183d8055ae3d429a0",
         "question": "Read the poem and answer the question. I wish for a rainbow to color the sky, My friends would notice as it catches my eye. The colors would be vivid and bright for all to see, I’d walk through the village with it followi ng me. Tall trees may stretch to amazing heights, But keep my rainbow in perfect sight. My rainbow would bring all who can see a mome nt of pleasure, Which everyone would be lucky to have such a treasure. My rainbow, yousee, is a wonderful treat, My wish, my hope is for something special to me et. The lines of this poem are an example of:",
         "choices": [
           "p ersonification",
@@ -41893,7 +44359,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 259,
+          "sequence": 296,
           "testFocus": [
             "MAP"
           ],
@@ -41903,6 +44369,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0297",
+        "version": 1,
+        "contentHash": "sha256:5172ac7894023b21a27170e76a4f75652aa53cd53b99884e58b849080aa291e5",
         "question": "Read the passage. Until I was eleven years old I attended an English school. I felt very American and, often thought I had to speak up for my country. At recess, for instance, the English children would sometimes tease me by making fun of America. I never let that pass even if it meant a fight. Meet the Writer, I Wander About in History...” Elements of Literature. Holt, Rinehart, Winston 1997. What is the person who wrote the paragraph trying to say?",
         "choices": [
           "She did not care about America.",
@@ -41951,7 +44420,7 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 279,
+          "sequence": 297,
           "testFocus": [
             "MAP"
           ],
@@ -41961,6 +44430,9 @@
         }
       },
       {
+        "id": "reference-skills-nonfiction-text-features-q0298",
+        "version": 1,
+        "contentHash": "sha256:4d7818f5ac25486b94825072d1b1bee9f24c08876e5c1b0d26f54a5beb3c0ca6",
         "question": "Read the paragraph. When I first got up this morning, I knew it was going to be a terrible day. To begin with, my alarm clock didn’twork, and there wasn’t any hot water for my shower. Then, I went downstairs to find out I didn’t have time for breakfast, because the school bus was already stopped in front of my house. nt How is the paragraph organized?",
         "choices": [
           "by location",
@@ -42009,7 +44481,7 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 283,
+          "sequence": 298,
           "testFocus": [
             "MAP"
           ],

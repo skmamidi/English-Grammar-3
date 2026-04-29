@@ -79,9 +79,47 @@
 
   function normalizeReports(reports) {
     const normalized = Object.assign(getDefaultReports(), reports || {});
-    normalized.sessions = Array.isArray(normalized.sessions) ? normalized.sessions : [];
-    normalized.questionReports = Array.isArray(normalized.questionReports) ? normalized.questionReports : [];
+    normalized.sessions = (Array.isArray(normalized.sessions) ? normalized.sessions : []).map(normalizeReportSession);
+    normalized.questionReports = (Array.isArray(normalized.questionReports) ? normalized.questionReports : []).map(normalizeQuestionReport);
     return normalized;
+  }
+
+  function normalizeReportSession(session) {
+    if (!session || typeof session !== "object") return session;
+    return Object.assign({}, session, {
+      attempts: (Array.isArray(session.attempts) ? session.attempts : []).map(normalizeAttemptRecord)
+    });
+  }
+
+  function normalizeAttemptRecord(attempt) {
+    if (!attempt || typeof attempt !== "object") return attempt;
+    const questionId = getAttemptQuestionId(attempt);
+    return Object.assign({}, attempt, {
+      questionId,
+      questionVersion: Number(attempt.questionVersion) || 0,
+      questionHash: attempt.questionHash || attempt.contentHash || ""
+    });
+  }
+
+  function normalizeQuestionReport(report) {
+    if (!report || typeof report !== "object") return report;
+    return Object.assign({}, report, {
+      questionId: report.questionId || report.id || "",
+      questionVersion: Number(report.questionVersion) || 0,
+      questionHash: report.questionHash || report.contentHash || ""
+    });
+  }
+
+  function getAttemptQuestionId(attempt) {
+    if (!attempt) return "";
+    if (attempt.questionId) return attempt.questionId;
+    if (attempt.id) return attempt.id;
+    const parts = [
+      attempt.subtopicId || attempt.sourceSet || "",
+      attempt.sequence || attempt.position || "",
+      attempt.question || ""
+    ].filter(Boolean);
+    return parts.join("::");
   }
 
   function normalizeActiveQuiz(activeQuiz) {
@@ -90,7 +128,14 @@
     if (!questions.length) return null;
     return Object.assign({}, activeQuiz, {
       questions,
-      attempts: Array.isArray(activeQuiz.attempts) ? activeQuiz.attempts : [],
+      questionRefs: Array.isArray(activeQuiz.questionRefs) ? activeQuiz.questionRefs : questions.map(question => ({
+        id: question && question.id || "",
+        version: Number(question && question.version) || 0,
+        contentHash: question && question.contentHash || "",
+        sourceSet: question && question.metadata && question.metadata.sourceSet || "",
+        sequence: question && question.metadata && question.metadata.sequence || 0
+      })),
+      attempts: (Array.isArray(activeQuiz.attempts) ? activeQuiz.attempts : []).map(normalizeAttemptRecord),
       currentIndex: Math.max(0, Number(activeQuiz.currentIndex) || 0),
       score: Math.max(0, Number(activeQuiz.score) || 0),
       hintsUsed: Math.max(0, Number(activeQuiz.hintsUsed) || 0),

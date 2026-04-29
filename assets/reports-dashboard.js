@@ -455,8 +455,8 @@
     }
     state.selectedSessionId = session.id;
     const attempts = session.attempts || [];
-    const selectedQuestion = attempts.find(item => item.id === state.selectedQuestionId) || attempts[0];
-    if (selectedQuestion) state.selectedQuestionId = selectedQuestion.id;
+    const selectedQuestion = attempts.find(item => getAttemptQuestionId(item) === state.selectedQuestionId) || attempts[0];
+    if (selectedQuestion) state.selectedQuestionId = getAttemptQuestionId(selectedQuestion);
 
     target.innerHTML = `
       <section class="question-report">
@@ -512,12 +512,13 @@
   }
 
   function renderQuestionRow(attempt, selectedQuestion, student, session) {
-    const selected = selectedQuestion && attempt.id === selectedQuestion.id;
-    const history = getQuestionHistory(student, attempt.id);
+    const questionId = getAttemptQuestionId(attempt);
+    const selected = selectedQuestion && questionId === getAttemptQuestionId(selectedQuestion);
+    const history = getQuestionHistory(student, questionId);
     const historyIndex = Math.max(0, history.findIndex(item => item.completedAt === session.completedAt));
     const attemptLabel = attempt.correct ? `${ordinal(historyIndex + 1)} correct` : `${ordinal(historyIndex + 1)} missed`;
     return `
-      <tr class="${selected ? 'selected' : ''}" data-question-id="${escapeHtml(attempt.id)}">
+      <tr class="${selected ? 'selected' : ''}" data-question-id="${escapeHtml(questionId)}">
         <td>${attempt.position || ''}</td>
         <td>${escapeHtml(truncate(attempt.question, 58))}</td>
         <td>${escapeHtml(attempt.selectedChoice || 'No answer')}</td>
@@ -530,7 +531,8 @@
 
   function renderQuestionInspector(attempt, student) {
     if (!attempt) return '<p class="empty-report">Choose a question to inspect the answer trail.</p>';
-    const history = getQuestionHistory(student, attempt.id);
+    const questionId = getAttemptQuestionId(attempt);
+    const history = getQuestionHistory(student, questionId);
     const trapTypes = Array.isArray(attempt.trapTypes) ? attempt.trapTypes : [];
     const reviewAttempts = Array.isArray(attempt.reviewAttempts) ? attempt.reviewAttempts : [];
     const latestReview = reviewAttempts.length ? reviewAttempts[reviewAttempts.length - 1] : null;
@@ -538,7 +540,7 @@
       <div class="inspector-section">
         <span class="quest-kicker">Question Detail</span>
         <h3>${escapeHtml(attempt.question)}</h3>
-        <button class="btn btn-secondary full-question-inline-btn" type="button" data-full-question-source="attempt" data-question-id="${escapeHtml(attempt.id)}">See full question</button>
+        <button class="btn btn-secondary full-question-inline-btn" type="button" data-full-question-source="attempt" data-question-id="${escapeHtml(questionId)}">See full question</button>
         <div class="answer-comparison">
           <div>
             <span>Selected</span>
@@ -557,6 +559,7 @@
           <div><dt>Trap pattern</dt><dd>${escapeHtml(trapTypes.join(', ') || 'None recorded')}</dd></div>
           <div><dt>Review result</dt><dd>${latestReview ? (latestReview.correct ? 'Corrected in review' : 'Still missed in review') : 'Not reviewed'}</dd></div>
           <div><dt>Skill</dt><dd>${escapeHtml((attempt.skills || []).map(titleCase).join(', ') || attempt.subtopicTitle || 'Mixed practice')}</dd></div>
+          ${renderQuestionIdentityMeta(attempt)}
         </dl>
       </div>
       <div class="inspector-section">
@@ -768,8 +771,27 @@
       .slice()
       .reverse()
       .flatMap(session => (session.attempts || [])
-        .filter(attempt => attempt.id === questionId)
+        .filter(attempt => getAttemptQuestionId(attempt) === questionId)
         .map(attempt => Object.assign({ completedAt: session.completedAt }, attempt)));
+  }
+
+  function getAttemptQuestionId(attempt) {
+    if (!attempt) return '';
+    if (attempt.questionId) return String(attempt.questionId);
+    if (attempt.id) return String(attempt.id);
+    if (attempt.question) return String(attempt.question);
+    return '';
+  }
+
+  function renderQuestionIdentityMeta(attempt) {
+    const parts = [];
+    if (attempt.questionVersion) parts.push(`v${attempt.questionVersion}`);
+    if (attempt.questionHash) parts.push(String(attempt.questionHash).slice(0, 18));
+    if (attempt.sourceSet) parts.push(attempt.sourceSet);
+    if (attempt.sequence) parts.push(`sequence ${attempt.sequence}`);
+    return parts.length
+      ? `<div><dt>Question ID</dt><dd>${escapeHtml([getAttemptQuestionId(attempt)].concat(parts).join(' · '))}</dd></div>`
+      : '';
   }
 
   function buildDailyRows(sessions) {
@@ -806,7 +828,7 @@
   function buildQuestionRisks(attempts) {
     const questions = {};
     attempts.forEach(attempt => {
-      const key = attempt.id || attempt.question;
+      const key = getAttemptQuestionId(attempt);
       if (!key) return;
       if (!questions[key]) {
         questions[key] = {
@@ -871,8 +893,8 @@
     const attempts = student.sessions.flatMap(session => (session.attempts || []).map(attempt => Object.assign({ session }, attempt)));
     const risk = (student.questionRisks || []).find(item => item.id === questionId);
     const attempt = source === 'risk'
-      ? (risk && (risk.latestMissedAttempt || risk.latestAttempt)) || attempts.find(item => item.id === questionId)
-      : attempts.find(item => item.id === questionId);
+      ? (risk && (risk.latestMissedAttempt || risk.latestAttempt)) || attempts.find(item => getAttemptQuestionId(item) === questionId)
+      : attempts.find(item => getAttemptQuestionId(item) === questionId);
     return attempt ? normalizeFullQuestionDetail(attempt, {
       sourceLabel: source === 'risk' ? 'Question to Revisit' : 'Practice Question',
       metaLabel: `${attempt.correct ? 'Answered correctly' : 'Missed'} · ${attempt.subtopicTitle || 'Mixed practice'} · ${formatDate(attempt.session?.completedAt || attempt.completedAt)}`,
@@ -885,7 +907,7 @@
     const selectedIndex = Number.isFinite(item.selectedIndex) ? item.selectedIndex : choices.indexOf(item.selectedChoice);
     const correctIndex = Number.isFinite(item.correctIndex) ? item.correctIndex : choices.indexOf(item.correctChoice);
     return {
-      id: item.id || item.questionId || '',
+      id: getAttemptQuestionId(item),
       sourceLabel: context.sourceLabel,
       metaLabel: context.metaLabel,
       studentName: context.studentName,

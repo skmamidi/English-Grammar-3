@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-verb-tense-consistency
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:a9029c00c91486d69b111de55c318b9c10b352aab9a9a6474740e27c318ef718.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - punctuation chunk: punctuation-abbreviations-acronyms
  * Generated from assets/question-bank-source/punctuation.json.
+ * Generator version: 1.
+ * Source hash: sha256:a29c98d90b91eaad99d3df80ec9d7e21878179b3c19aced65bf6529920c03a14.
  */
 (function () {
   'use strict';

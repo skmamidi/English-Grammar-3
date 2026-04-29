@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-cause-effect
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:a5b951035aa94d3505b7c7d07de8728363e249137eab5714457b598a073e3fbd.
  */
 (function () {
   'use strict';

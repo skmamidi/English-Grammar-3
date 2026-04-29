@@ -19,6 +19,10 @@ const {
   getExpectedChunkRelativePath,
   writeQuestionChunks
 } = require('./generate-question-chunks');
+const {
+  buildQuestionManifestProvenance,
+  validateManifestProvenance
+} = require('./question-artifact-provenance');
 
 const MANIFEST_SCHEMA_VERSION = 1;
 const DEFAULT_MANIFEST_PATH = path.join(repoRoot, 'assets', 'question-manifest.json');
@@ -30,6 +34,7 @@ function generateManifest(bankLoad) {
 
   return {
     schemaVersion: MANIFEST_SCHEMA_VERSION,
+    artifact: buildQuestionManifestProvenance(bankLoad),
     totalQuestions,
     sets
   };
@@ -45,7 +50,6 @@ function buildSetManifest(record) {
     title: set.title || '',
     topic: set.topic || '',
     domain,
-    bankFile: record.runtimeBankFile || record.relativeFile,
     questionCount: questionManifests.length,
     gradesSupported: getSupportedGrades(set, questionManifests),
     difficultiesSupported: getSupportedDifficulties(set, questionManifests),
@@ -146,13 +150,13 @@ function buildManifestScript(manifest) {
 function buildIndexManifest(manifest) {
   return {
     schemaVersion: manifest.schemaVersion,
+    artifact: manifest.artifact,
     totalQuestions: manifest.totalQuestions,
     sets: (manifest.sets || []).map(set => ({
       id: set.id,
       title: set.title,
       topic: set.topic,
       domain: set.domain,
-      bankFile: set.bankFile,
       chunkFile: set.chunkFile,
       questionCount: set.questionCount,
       gradesSupported: set.gradesSupported,
@@ -172,6 +176,10 @@ function getSourceSet(bankLoad, setId) {
 
 function validateManifest(manifest, bankLoad = loadQuestionBanks(), options = {}) {
   const expected = generateManifest(bankLoad);
+  const provenance = validateManifestProvenance(manifest, bankLoad);
+  if (provenance.errors.length) {
+    throw new Error(`Question manifest provenance is stale:\n${provenance.errors.join('\n')}`);
+  }
   if (options.validateChunks) {
     const chunkResult = validateQuestionChunks(manifest, bankLoad);
     if (chunkResult.errors.length) {

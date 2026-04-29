@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-revising-editing-strategy
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:a299229b408f43c106c0845938292fe8882457b3c1d4fc568f86d5595fe1c9d3.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-parts-of-speech-adverbs
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:86d4fcc3aadeda1ad246d67d1cd7fa8e5d1053c076f23d4bb09a517a635db8c8.
  */
 (function () {
   'use strict';

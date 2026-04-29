@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-subject-predicate
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:bb2e6e446075d9bed93d3795d22ae2ed97ce64ac006d3dcc9bc9bd31be8bd0d4.
  */
 (function () {
   'use strict';

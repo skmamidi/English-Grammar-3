@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-homophones
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:c122e90da27c25a58fc79637c3491b55f749581f4a572f483d4debf2127cb9c9.
  */
 (function () {
   'use strict';

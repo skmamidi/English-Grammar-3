@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-analogies
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:bb52eef967e4303c5b6afbb8fbe3b0425d3fac67db800ffafc7804432e4e9df6.
  */
 (function () {
   'use strict';

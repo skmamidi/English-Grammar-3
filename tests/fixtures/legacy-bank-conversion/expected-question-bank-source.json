@@ -1,0 +1,86 @@
+{
+  "grammar": {
+    "schemaVersion": 1,
+    "domain": "grammar",
+    "sets": {
+      "grammar-fixture": {
+        "title": "Grammar Fixture",
+        "topic": "Grammar",
+        "questions": [
+          {
+            "id": "grammar-fixture-q0001",
+            "version": 1,
+            "contentHash": "sha256:1acf1482850c8600cabd0f75562650043e4747eec6fd61cdc4c2acebc47326e3",
+            "question": "Choose the sentence with a noun.",
+            "choices": [
+              "Run quickly.",
+              "The kitten sleeps."
+            ],
+            "correct": 1,
+            "explanation": {
+              "correct": "Kitten is a noun because it names an animal.",
+              "incorrect": [
+                "This choice has an action and an adverb, but no clear noun.",
+                ""
+              ]
+            },
+            "metadata": {
+              "sourceSet": "grammar-fixture",
+              "sequence": 1,
+              "gradeLevels": [
+                3,
+                4
+              ],
+              "difficultyByGrade": {
+                "3": "easy",
+                "4": "medium"
+              },
+              "skills": [
+                "nouns"
+              ]
+            }
+          }
+        ]
+      },
+      "grammar-capitalization-fixture": {
+        "title": "Capitalization Fixture",
+        "topic": "Grammar",
+        "questions": [
+          {
+            "id": "grammar-capitalization-fixture-q0001",
+            "version": 1,
+            "contentHash": "sha256:cf5f524d23cd8104bc318824c22936b578fb2613de194b835112542d674cb2fd",
+            "question": "Which sentence begins with a capital letter?",
+            "choices": [
+              "the sun is bright.",
+              "The sun is bright."
+            ],
+            "correct": 1,
+            "explanation": {
+              "correct": "The first word in a sentence begins with a capital letter.",
+              "incorrect": [
+                "This sentence starts with a lowercase letter.",
+                ""
+              ]
+            },
+            "metadata": {
+              "sourceSet": "grammar-capitalization-fixture",
+              "sequence": 1,
+              "gradeLevels": [
+                3,
+                4
+              ],
+              "difficultyByGrade": {
+                "3": "easy",
+                "4": "medium"
+              },
+              "skills": [
+                "capitalization"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

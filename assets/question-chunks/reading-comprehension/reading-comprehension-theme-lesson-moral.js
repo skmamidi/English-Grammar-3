@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-theme-lesson-moral
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:241a1441fae465646677b5ff7ac016f33012e80e68a789fea29681f6ee48d8aa.
  */
 (function () {
   'use strict';

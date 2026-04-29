@@ -9,17 +9,19 @@ const {
   convertQuestionBanksToJson
 } = require('../scripts/convert-question-banks-to-json');
 const {
-  flattenQuestionBanks,
   flattenQuestions,
   loadQuestionBanks
 } = require('../scripts/qa/bank-loader');
 
-test('conversion output preserves domain ids, set ids, and question count', () => {
-  const legacyLoad = loadQuestionBanks({ sourceType: 'legacy' });
-  const sources = buildJsonBankSources(legacyLoad);
-  const sourceSetIds = Object.values(sources).flatMap(source => Object.keys(source.sets));
+const conversionFixtureRoot = path.join(__dirname, 'fixtures', 'legacy-bank-conversion');
 
-  assert.deepEqual(Object.keys(sources), [
+test('canonical JSON source exposes expected live domain coverage', () => {
+  const jsonLoad = loadQuestionBanks({ sourceType: 'json' });
+  const sourceSetIds = jsonLoad.files.flatMap(file => Object.keys(file.bank));
+  const domains = jsonLoad.files.map(file => file.domain).sort();
+
+  assert.ok(jsonLoad.files.every(file => file.sourceType === 'json'));
+  assert.deepEqual(domains, [
     'capitalization',
     'grammar',
     'punctuation',
@@ -27,79 +29,36 @@ test('conversion output preserves domain ids, set ids, and question count', () =
     'reference-skills',
     'vocabulary'
   ]);
-  assert.deepEqual(sourceSetIds.sort(), flattenQuestionBanks(legacyLoad).map(record => record.setId).sort());
-  assert.equal(
-    Object.values(sources).reduce((sum, source) => {
-      return sum + Object.values(source.sets).reduce((setSum, set) => setSum + set.questions.length, 0);
-    }, 0),
-    flattenQuestions(legacyLoad).length
-  );
+  assert.equal(sourceSetIds.length, 95);
+  assert.equal(flattenQuestions(jsonLoad).length, 10240);
 });
 
-test('conversion output preserves question ids, versions, and content hashes', () => {
-  const legacyQuestions = flattenQuestions(loadQuestionBanks({ sourceType: 'legacy' }));
-  const sources = buildJsonBankSources(loadQuestionBanks({ sourceType: 'legacy' }));
-  const jsonQuestions = Object.values(sources).flatMap(source => {
-    return Object.entries(source.sets).flatMap(([setId, set]) => {
-      return set.questions.map(question => ({
-        setId,
-        id: question.id,
-        version: question.version,
-        contentHash: question.contentHash
-      }));
-    });
-  });
+test('legacy JS fixture converts to expected JSON source shape', () => {
+  const legacyLoad = loadQuestionBanks({ repoRoot: conversionFixtureRoot, sourceType: 'legacy' });
+  const sources = buildJsonBankSources(legacyLoad);
+  const expected = readFixtureJson('expected-question-bank-source.json');
 
-  assert.deepEqual(
-    jsonQuestions.sort(bySetAndQuestion),
-    legacyQuestions.map(record => ({
-      setId: record.setId,
-      id: record.question.id,
-      version: record.question.version,
-      contentHash: record.question.contentHash
-    })).sort(bySetAndQuestion)
-  );
+  assert.deepEqual(toJsonValue(sources), expected);
 });
 
-test('JSON loader returns the same flattened sets and questions as legacy JS loader', () => {
-  const legacyLoad = loadQuestionBanks({ sourceType: 'legacy' });
+test('JSON loader reads canonical sources without live legacy JS parity', () => {
   const jsonLoad = loadQuestionBanks({ sourceType: 'json' });
 
-  assert.deepEqual(
-    toJsonValue(flattenQuestionBanks(jsonLoad).map(record => ({
-      setId: record.setId,
-      relativeFile: record.relativeFile,
-      sourceType: record.sourceType,
-      runtimeBankFile: record.runtimeBankFile,
-      set: record.set
-    }))),
-    toJsonValue(flattenQuestionBanks(legacyLoad).map(record => ({
-      setId: record.setId,
-      relativeFile: record.relativeFile.replace('assets/question-banks/', 'assets/question-bank-source/').replace(/\.js$/, '.json'),
-      sourceType: 'json',
-      runtimeBankFile: record.relativeFile,
-      set: record.set
-    })))
-  );
-  assert.deepEqual(
-    toJsonValue(flattenQuestions(jsonLoad).map(record => record.question)),
-    toJsonValue(flattenQuestions(legacyLoad).map(record => record.question))
-  );
+  assert.ok(jsonLoad.files.length > 0, 'expected canonical JSON files');
+  assert.ok(jsonLoad.files.every(file => file.relativeFile.startsWith('assets/question-bank-source/')));
+  assert.ok(jsonLoad.files.every(file => file.runtimeBankFile.startsWith('assets/question-banks/')));
 });
 
-test('dry-run conversion fails when JSON source is stale', () => {
+test('dry-run conversion reports stale fixture JSON output', () => {
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'question-bank-json-'));
   const sourceDir = path.join(tempRoot, 'assets', 'question-banks');
   const jsonDir = path.join(tempRoot, 'assets', 'question-bank-source');
   fs.mkdirSync(sourceDir, { recursive: true });
   fs.mkdirSync(jsonDir, { recursive: true });
-  fs.copyFileSync(
-    path.join(__dirname, '..', 'assets', 'question-banks', 'capitalization.js'),
-    path.join(sourceDir, 'capitalization.js')
-  );
-  fs.writeFileSync(path.join(jsonDir, 'capitalization.json'), `${JSON.stringify({
+  copyDir(path.join(conversionFixtureRoot, 'assets', 'question-banks'), sourceDir);
+  fs.writeFileSync(path.join(jsonDir, 'grammar.json'), `${JSON.stringify({
     schemaVersion: 1,
-    domain: 'capitalization',
+    domain: 'grammar',
     sets: {}
   }, null, 2)}\n`);
 
@@ -109,10 +68,23 @@ test('dry-run conversion fails when JSON source is stale', () => {
   assert.equal(result.unchanged.length, 0);
 });
 
-function bySetAndQuestion(left, right) {
-  return `${left.setId}/${left.id}`.localeCompare(`${right.setId}/${right.id}`);
+function readFixtureJson(file) {
+  return JSON.parse(fs.readFileSync(path.join(conversionFixtureRoot, file), 'utf8'));
 }
 
 function toJsonValue(value) {
   return JSON.parse(JSON.stringify(value));
+}
+
+function copyDir(fromDir, toDir) {
+  fs.readdirSync(fromDir, { withFileTypes: true }).forEach(entry => {
+    const from = path.join(fromDir, entry.name);
+    const to = path.join(toDir, entry.name);
+    if (entry.isDirectory()) {
+      fs.mkdirSync(to, { recursive: true });
+      copyDir(from, to);
+    } else {
+      fs.copyFileSync(from, to);
+    }
+  });
 }

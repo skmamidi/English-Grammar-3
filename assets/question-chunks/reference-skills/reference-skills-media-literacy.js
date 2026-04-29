@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reference-skills chunk: reference-skills-media-literacy
  * Generated from assets/question-bank-source/reference-skills.json.
+ * Generator version: 1.
+ * Source hash: sha256:bbcab1836d53739edfd3c8265c7b1d2b7fa09fdc53b381bbfdebb8de01d16bb3.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-point-of-view
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:4e439ed85fdcf9c8c1da7e2ae65f3e5ecc4d93b0da23bd7ef6e8ea3b129a6421.
  */
 (function () {
   'use strict';

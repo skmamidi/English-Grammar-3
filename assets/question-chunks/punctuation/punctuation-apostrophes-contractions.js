@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - punctuation chunk: punctuation-apostrophes-contractions
  * Generated from assets/question-bank-source/punctuation.json.
+ * Generator version: 1.
+ * Source hash: sha256:895621ca14acd7f4231fd0d8c2f5b764611f0ed39ab95fe18a4afd7c32d3fa32.
  */
 (function () {
   'use strict';

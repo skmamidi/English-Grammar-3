@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-shades-of-meaning
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:2bdeebb742ac1a253ccd8927b25e108281d499f4e64db690907f3b826152c420.
  */
 (function () {
   'use strict';

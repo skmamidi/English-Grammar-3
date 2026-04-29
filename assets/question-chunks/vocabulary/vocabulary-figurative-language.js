@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-figurative-language
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:041e92e61c710171efb551fb136d83a18d6219365195cdcfd882655e3c0e721f.
  */
 (function () {
   'use strict';

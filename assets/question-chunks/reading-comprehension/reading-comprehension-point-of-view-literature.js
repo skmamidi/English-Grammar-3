@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-point-of-view-literature
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:77bb522f4569fa47f1abc5b9a337c03996e10688551750143794362a4e462af4.
  */
 (function () {
   'use strict';

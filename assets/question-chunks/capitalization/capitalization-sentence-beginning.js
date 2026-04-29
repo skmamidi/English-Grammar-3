@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - capitalization chunk: capitalization-sentence-beginning
  * Generated from assets/question-bank-source/capitalization.json.
+ * Generator version: 1.
+ * Source hash: sha256:53633261fed5345196b827d493b62e7f1397fdf46fc87bd4a8810144d3c08f7e.
  */
 (function () {
   'use strict';

@@ -8,6 +8,9 @@ const {
   flattenQuestionBanks
 } = require('./qa/bank-loader');
 const { CHUNKED_DOMAINS } = require('./question-chunk-config');
+const {
+  buildQuestionChunkProvenance
+} = require('./question-artifact-provenance');
 
 const CHUNK_ROOT = path.posix.join('assets', 'question-chunks');
 
@@ -28,10 +31,17 @@ function getExpectedChunkRelativePath({ domain, setId }) {
 function buildQuestionChunkScript(input, legacySet, legacySourceFile) {
   const options = normalizeBuildOptions(input, legacySet, legacySourceFile);
   const domain = options.domain || getDomainFromSource(options.sourceFile, options.setId);
+  const provenance = buildQuestionChunkProvenance({
+    setId: options.setId,
+    sourceFile: options.sourceFile,
+    set: options.set
+  });
 
   return `/**
  * English Language Quiz App - ${domain} chunk: ${options.setId}
  * Generated from ${options.sourceFile}.
+ * Generator version: ${provenance.generatorVersion}.
+ * Source hash: ${provenance.sourceHash}.
  */
 (function () {
   'use strict';

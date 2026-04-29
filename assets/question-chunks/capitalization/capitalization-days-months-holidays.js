@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - capitalization chunk: capitalization-days-months-holidays
  * Generated from assets/question-bank-source/capitalization.json.
+ * Generator version: 1.
+ * Source hash: sha256:1ee9c5fd2be642d6c80e7e51021694483ba03adafad7fe9a70bd8b41361c089a.
  */
 (function () {
   'use strict';

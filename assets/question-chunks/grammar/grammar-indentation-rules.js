@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-indentation-rules
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:235c3bf182da1d8be9f615b42cf6142d2dc7e688ed0c0d3ab9798486ba2f59ee.
  */
 (function () {
   'use strict';

@@ -2,14 +2,16 @@
 
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
 const {
   buildQuestionId,
   computeContentHash
 } = require('./qa/question-metadata');
+const {
+  loadQuestionBanks,
+  flattenQuestions
+} = require('./qa/bank-loader');
 
 const repoRoot = path.resolve(__dirname, '..');
-const bankDir = path.join(repoRoot, 'assets', 'question-banks');
 const quizEnginePath = path.join(repoRoot, 'assets', 'quiz-engine.js');
 
 const numberWords = new Map([
@@ -26,10 +28,11 @@ const numberWords = new Map([
   ['ten', 10]
 ]);
 
-const issues = [];
+let issues = [];
 
-function main() {
-  const banks = loadQuestionBanks();
+function checkQuestionConsistency(options = {}) {
+  issues = [];
+  const banks = loadQuestionItems(options);
   const syllableMap = loadSyllableMap();
   addStudyAidDivisions(syllableMap, banks);
 
@@ -48,7 +51,18 @@ function main() {
   const errors = issues.filter(issue => issue.level === 'error');
   const warnings = issues.filter(issue => issue.level === 'warning');
 
-  for (const issue of issues) {
+  return {
+    items: banks,
+    issues,
+    errors,
+    warnings
+  };
+}
+
+function main() {
+  const result = checkQuestionConsistency();
+
+  for (const issue of result.issues) {
     const location = [
       path.relative(repoRoot, issue.file),
       issue.setId,
@@ -59,8 +73,8 @@ function main() {
     if (issue.prompt) console.log(`  Prompt: ${issue.prompt}`);
   }
 
-  console.log(`Checked ${banks.length} questions. ${errors.length} error(s), ${warnings.length} warning(s).`);
-  if (errors.length) process.exitCode = 1;
+  console.log(`Checked ${result.items.length} questions. ${result.errors.length} error(s), ${result.warnings.length} warning(s).`);
+  if (result.errors.length) process.exitCode = 1;
 }
 
 function checkStableIdentity(item) {
@@ -145,36 +159,17 @@ function checkSetIdentityCollections(items) {
   });
 }
 
-function loadQuestionBanks() {
-  const files = fs.readdirSync(bankDir)
-    .filter(file => file.endsWith('.js'))
-    .map(file => path.join(bankDir, file))
-    .sort();
-  const items = [];
-
-  for (const file of files) {
-    const code = fs.readFileSync(file, 'utf8');
-    const context = { window: {} };
-    vm.createContext(context);
-    vm.runInContext(code, context, { filename: file });
-    const questionBank = context.window.QUESTION_BANK || {};
-
-    for (const [setId, set] of Object.entries(questionBank)) {
-      const questions = Array.isArray(set.questions) ? set.questions : [];
-      questions.forEach((question, index) => {
-        items.push({
-          file,
-          setId,
-          setTitle: set.title || '',
-          question,
-          questionNumber: index + 1,
-          sequence: question && question.metadata ? question.metadata.sequence : undefined
-        });
-      });
-    }
-  }
-
-  return items;
+function loadQuestionItems(options = {}) {
+  const bankLoad = loadQuestionBanks(Object.assign({ sourceType: 'json' }, options));
+  return flattenQuestions(bankLoad).map(record => ({
+    file: record.file,
+    relativeFile: record.relativeFile,
+    setId: record.setId,
+    setTitle: record.set && record.set.title || '',
+    question: record.question,
+    questionNumber: record.questionNumber,
+    sequence: record.sequence
+  }));
 }
 
 function loadSyllableMap() {
@@ -393,4 +388,10 @@ function addIssue(level, file, setId, sequence, questionNumber, prompt, message)
   issues.push({ level, file, setId, sequence, questionNumber, prompt, message });
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  checkQuestionConsistency,
+  loadQuestionItems,
+  main
+};

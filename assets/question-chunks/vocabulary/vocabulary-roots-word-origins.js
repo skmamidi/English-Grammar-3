@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-roots-word-origins
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:58005773608c27b87b4dbe03a5198639f5605a42aca98c3bd564402ded7d378e.
  */
 (function () {
   'use strict';

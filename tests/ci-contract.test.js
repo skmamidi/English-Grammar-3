@@ -23,11 +23,13 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts.test, /npm run qa:questions/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:schema/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:json-source/);
+  assert.match(pkg.scripts['qa:questions'], /npm run qa:question-consistency/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:manifest/);
   assert.match(pkg.scripts['qa:questions'], /npm run qa:chunks/);
   assert.match(pkg.scripts.test, /npm run qa:content/);
   assert.match(pkg.scripts.test, /npm run test:unit/);
   assert.match(pkg.scripts.test, /npm run test:ui/);
+  assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
 });
 
@@ -47,6 +49,13 @@ test('ui smoke defaults to Playwright-managed Chromium with env override only', 
 
   assert.match(smoke, /PLAYWRIGHT_CHROMIUM_EXECUTABLE/);
   assert.doesNotMatch(smoke, /Google Chrome\.app|Chromium\.app/);
+});
+
+test('live default tests do not load legacy JS question banks as canonical source', () => {
+  const jsonSourceTests = fs.readFileSync(path.join(repoRoot, 'tests', 'question-bank-json-source.test.js'), 'utf8');
+
+  assert.doesNotMatch(jsonSourceTests, /loadQuestionBanks\(\{\s*sourceType:\s*['"]legacy['"]\s*\}\)/);
+  assert.match(jsonSourceTests, /fixtures['"], ['"]legacy-bank-conversion/);
 });
 
 function readJson(file) {

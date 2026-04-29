@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-narrative-writing
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:3477e488d249e9277e8f1ef7df86ac37b6d2e88952d223e38313683b420ebedd.
  */
 (function () {
   'use strict';

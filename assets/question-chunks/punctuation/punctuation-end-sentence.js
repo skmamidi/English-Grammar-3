@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - punctuation chunk: punctuation-end-sentence
  * Generated from assets/question-bank-source/punctuation.json.
+ * Generator version: 1.
+ * Source hash: sha256:c11124b889bccd26121f08ccdfa5e501dd557141c45d87c736f10f86369320fd.
  */
 (function () {
   'use strict';

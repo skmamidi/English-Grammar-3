@@ -1,5 +1,20 @@
 {
   "schemaVersion": 1,
+  "artifact": {
+    "type": "question-manifest",
+    "artifactSchemaVersion": 1,
+    "generatorVersion": 1,
+    "sourceType": "json",
+    "sourceHash": "sha256:3005375a134ab77947efa83c068695c4f8b388b371477ad30c76f423e0b1a509",
+    "sourceFiles": [
+      "assets/question-bank-source/capitalization.json",
+      "assets/question-bank-source/grammar.json",
+      "assets/question-bank-source/punctuation.json",
+      "assets/question-bank-source/reading-comprehension.json",
+      "assets/question-bank-source/reference-skills.json",
+      "assets/question-bank-source/vocabulary.json"
+    ]
+  },
   "totalQuestions": 10240,
   "sets": [
     {
@@ -7,7 +22,6 @@
       "title": "Capitalization at Sentence Beginning",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "questionCount": 45,
       "gradesSupported": [
         3,
@@ -999,7 +1013,6 @@
       "title": "Capitalization of Days, Months, and Holidays",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "questionCount": 30,
       "gradesSupported": [
         3,
@@ -1691,7 +1704,6 @@
       "title": "Capitalization of Books, Magazines, Songs, and Plays",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "questionCount": 21,
       "gradesSupported": [
         3,
@@ -2211,7 +2223,6 @@
       "title": "Proper Names and Titles of People",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "questionCount": 67,
       "gradesSupported": [
         3,
@@ -3769,7 +3780,6 @@
       "title": "Names of Places",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "questionCount": 44,
       "gradesSupported": [
         3,
@@ -4773,7 +4783,6 @@
       "title": "Correct Article",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 34,
       "gradesSupported": [
         3,
@@ -5577,7 +5586,6 @@
       "title": "Double Negatives",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 18,
       "gradesSupported": [
         3,
@@ -6013,7 +6021,6 @@
       "title": "Pronouns",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 154,
       "gradesSupported": [
         3,
@@ -8929,7 +8936,6 @@
       "title": "Singular and Plural Nouns",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 54,
       "gradesSupported": [
         3,
@@ -10193,7 +10199,6 @@
       "title": "Verb Forms",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 76,
       "gradesSupported": [
         3,
@@ -11891,7 +11896,6 @@
       "title": "Run-on Sentences",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 16,
       "gradesSupported": [
         3,
@@ -12276,7 +12280,6 @@
       "title": "Sentence Types",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 24,
       "gradesSupported": [
         3,
@@ -12850,7 +12853,6 @@
       "title": "Subject and Predicate",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 34,
       "gradesSupported": [
         3,
@@ -13648,7 +13650,6 @@
       "title": "Parts of Speech: Verbs",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 16,
       "gradesSupported": [
         3,
@@ -14038,7 +14039,6 @@
       "title": "Parts of Speech: Nouns",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 52,
       "gradesSupported": [
         3,
@@ -15256,7 +15256,6 @@
       "title": "Parts of Speech: Adjectives",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 61,
       "gradesSupported": [
         3,
@@ -16639,7 +16638,6 @@
       "title": "Parts of Speech: Adverbs",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 40,
       "gradesSupported": [
         3,
@@ -17577,7 +17575,6 @@
       "title": "Subject-Verb Agreement",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 51,
       "gradesSupported": [
         3,
@@ -18772,7 +18769,6 @@
       "title": "Conjunctions: Coordinating, Subordinating, Correlative",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 17,
       "gradesSupported": [
         3,
@@ -19185,7 +19181,6 @@
       "title": "Identify a Sentence",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 37,
       "gradesSupported": [
         3,
@@ -20053,7 +20048,6 @@
       "title": "Sentence Combinations",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 73,
       "gradesSupported": [
         3,
@@ -21729,7 +21723,6 @@
       "title": "Parts of a Friendly Letter",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 37,
       "gradesSupported": [
         3,
@@ -22602,7 +22595,6 @@
       "title": "Past, Present, and Future Tenses",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 37,
       "gradesSupported": [
         3,
@@ -23449,7 +23441,6 @@
       "title": "Indentation Rules",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -23816,7 +23807,6 @@
       "title": "1st, 2nd, and 3rd Person Point of View",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -24183,7 +24173,6 @@
       "title": "Sentence Correction",
       "topic": "Grammar",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 300,
       "gradesSupported": [
         3,
@@ -31050,7 +31039,6 @@
       "title": "Paragraph Structure",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 186,
       "gradesSupported": [
         3,
@@ -34270,7 +34258,6 @@
       "title": "Opinion / Persuasive Writing",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 183,
       "gradesSupported": [
         3,
@@ -37601,7 +37588,6 @@
       "title": "Informative / Explanatory Writing",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 183,
       "gradesSupported": [
         3,
@@ -40752,7 +40738,6 @@
       "title": "Narrative Writing",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 201,
       "gradesSupported": [
         3,
@@ -44317,7 +44302,6 @@
       "title": "Revising & Editing Strategy",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 241,
       "gradesSupported": [
         3,
@@ -48982,7 +48966,6 @@
       "title": "Prepositions & Prepositional Phrases",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 203,
       "gradesSupported": [
         3,
@@ -52338,7 +52321,6 @@
       "title": "Clauses & Complex Sentences",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 184,
       "gradesSupported": [
         3,
@@ -55332,7 +55314,6 @@
       "title": "Pronoun Agreement & Case",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 231,
       "gradesSupported": [
         3,
@@ -59587,7 +59568,6 @@
       "title": "Verb Tense Consistency",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -62489,7 +62469,6 @@
       "title": "Sentence Variety",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -65571,7 +65550,6 @@
       "title": "Appositives & Phrases",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -68473,7 +68451,6 @@
       "title": "Formal vs. Informal Language",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 196,
       "gradesSupported": [
         3,
@@ -71843,7 +71820,6 @@
       "title": "Irregular Nouns & Plurals",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -74745,7 +74721,6 @@
       "title": "Punctuation at End of Sentence",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 72,
       "gradesSupported": [
         3,
@@ -76198,7 +76173,6 @@
       "title": "Periods in Abbreviations",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 24,
       "gradesSupported": [
         3,
@@ -76727,7 +76701,6 @@
       "title": "Quotation Marks",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 36,
       "gradesSupported": [
         3,
@@ -77472,7 +77445,6 @@
       "title": "Commas in a Series",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 57,
       "gradesSupported": [
         3,
@@ -78750,7 +78722,6 @@
       "title": "Commas in Dates",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -79117,7 +79088,6 @@
       "title": "Commas in Addresses",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -79484,7 +79454,6 @@
       "title": "Commas to Separate Dialogue",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -79851,7 +79820,6 @@
       "title": "Colon in Time",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -80218,7 +80186,6 @@
       "title": "Apostrophes in Contractions",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 77,
       "gradesSupported": [
         3,
@@ -81789,7 +81756,6 @@
       "title": "Apostrophes in Possessives",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 28,
       "gradesSupported": [
         3,
@@ -82455,7 +82421,6 @@
       "title": "Advanced Punctuation",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -85717,7 +85682,6 @@
       "title": "Dialogue Mechanics",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 196,
       "gradesSupported": [
         3,
@@ -89167,7 +89131,6 @@
       "title": "Abbreviations & Acronyms",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "questionCount": 185,
       "gradesSupported": [
         3,
@@ -92364,7 +92327,6 @@
       "title": "Analogies",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 52,
       "gradesSupported": [
         3,
@@ -93567,7 +93529,6 @@
       "title": "Categorizing",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 31,
       "gradesSupported": [
         3,
@@ -94277,7 +94238,6 @@
       "title": "Cause and Effect",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 26,
       "gradesSupported": [
         3,
@@ -94842,7 +94802,6 @@
       "title": "Fact or Fantasy",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 19,
       "gradesSupported": [
         3,
@@ -95301,7 +95260,6 @@
       "title": "Fact and Opinion",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 45,
       "gradesSupported": [
         3,
@@ -96278,7 +96236,6 @@
       "title": "Inference",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 72,
       "gradesSupported": [
         3,
@@ -97736,7 +97693,6 @@
       "title": "Main Idea & Supporting Details",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 199,
       "gradesSupported": [
         3,
@@ -101160,7 +101116,6 @@
       "title": "Summarizing",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 278,
       "gradesSupported": [
         3,
@@ -106006,7 +105961,6 @@
       "title": "Text Evidence",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 223,
       "gradesSupported": [
         3,
@@ -109862,7 +109816,6 @@
       "title": "Story Elements",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 182,
       "gradesSupported": [
         3,
@@ -113160,7 +113113,6 @@
       "title": "Theme / Lesson / Moral",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 182,
       "gradesSupported": [
         3,
@@ -116458,7 +116410,6 @@
       "title": "Author's Purpose",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 209,
       "gradesSupported": [
         3,
@@ -120087,7 +120038,6 @@
       "title": "Text Structure",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -123169,7 +123119,6 @@
       "title": "Compare & Contrast",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 191,
       "gradesSupported": [
         3,
@@ -126269,7 +126218,6 @@
       "title": "Poetry Skills",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 189,
       "gradesSupported": [
         3,
@@ -129513,7 +129461,6 @@
       "title": "Book Genres",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 187,
       "gradesSupported": [
         3,
@@ -132541,7 +132488,6 @@
       "title": "Point of View in Literature",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -135443,7 +135389,6 @@
       "title": "Tone & Mood",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 182,
       "gradesSupported": [
         3,
@@ -138561,7 +138506,6 @@
       "title": "Test-Taking Reading Skills",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "questionCount": 189,
       "gradesSupported": [
         3,
@@ -141805,7 +141749,6 @@
       "title": "Sub-heading",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 22,
       "gradesSupported": [
         3,
@@ -142333,7 +142276,6 @@
       "title": "Finding the Subject and Object in a Sentence",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -142700,7 +142642,6 @@
       "title": "Italicize",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 24,
       "gradesSupported": [
         3,
@@ -143274,7 +143215,6 @@
       "title": "Alphabetical Order",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 31,
       "gradesSupported": [
         3,
@@ -143994,7 +143934,6 @@
       "title": "Dictionary Guide Words",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 55,
       "gradesSupported": [
         3,
@@ -145271,7 +145210,6 @@
       "title": "Research Skills",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 183,
       "gradesSupported": [
         3,
@@ -148422,7 +148360,6 @@
       "title": "Media Literacy",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -151684,7 +151621,6 @@
       "title": "Nonfiction Text Features",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "questionCount": 298,
       "gradesSupported": [
         3,
@@ -156710,7 +156646,6 @@
       "title": "Base Words, Prefixes, and Suffixes",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 62,
       "gradesSupported": [
         3,
@@ -157979,7 +157914,6 @@
       "title": "Vowel Sounds",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 20,
       "gradesSupported": [
         3,
@@ -158480,7 +158414,6 @@
       "title": "Contractions",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -158847,7 +158780,6 @@
       "title": "Homophones",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 69,
       "gradesSupported": [
         3,
@@ -160371,7 +160303,6 @@
       "title": "Rhyming Words",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 21,
       "gradesSupported": [
         3,
@@ -160866,7 +160797,6 @@
       "title": "Synonyms and Antonyms",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 99,
       "gradesSupported": [
         3,
@@ -162960,7 +162890,6 @@
       "title": "Comparatives and Superlatives",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 33,
       "gradesSupported": [
         3,
@@ -163711,7 +163640,6 @@
       "title": "Word Meaning from Context",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 143,
       "gradesSupported": [
         3,
@@ -166507,7 +166435,6 @@
       "title": "Spelling",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 186,
       "gradesSupported": [
         3,
@@ -170668,7 +170595,6 @@
       "title": "Modifier Words",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -171005,7 +170931,6 @@
       "title": "Figurative Language",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 221,
       "gradesSupported": [
         3,
@@ -174845,7 +174770,6 @@
       "title": "Roots & Word Origins",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -177927,7 +177851,6 @@
       "title": "Multiple-Meaning Words",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -180829,7 +180752,6 @@
       "title": "Shades of Meaning",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 182,
       "gradesSupported": [
         3,
@@ -183767,7 +183689,6 @@
       "title": "Syllables & Decoding",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 199,
       "gradesSupported": [
         3,
@@ -187191,7 +187112,6 @@
       "title": "Spelling Patterns",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "questionCount": 180,
       "gradesSupported": [
         3,

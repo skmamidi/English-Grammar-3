@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-poetry-skills
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:fd14ccdd075d90b9b5bb45fd51222f66ba7aab1d76f7692d961060ae7c844c0e.
  */
 (function () {
   'use strict';

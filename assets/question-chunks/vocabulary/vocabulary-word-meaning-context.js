@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-word-meaning-context
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:a38a52e115a7a1ee33a89a3108f7b3b483a8fec73cff5deef1cfe20eb643d7d3.
  */
 (function () {
   'use strict';

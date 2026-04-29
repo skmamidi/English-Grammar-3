@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-parts-of-speech-nouns
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:b8d1597ee5763b5b3f130230fec6fd86c29f9fc77312457eeac5b5c13ba76dc3.
  */
 (function () {
   'use strict';

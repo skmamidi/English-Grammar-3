@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - punctuation chunk: punctuation-apostrophes-possessives
  * Generated from assets/question-bank-source/punctuation.json.
+ * Generator version: 1.
+ * Source hash: sha256:e16ae186bd98687b91cc861d3f83112bffd01e39263e21e1fedc063050500b3f.
  */
 (function () {
   'use strict';

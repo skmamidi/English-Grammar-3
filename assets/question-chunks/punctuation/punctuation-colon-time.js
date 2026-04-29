@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - punctuation chunk: punctuation-colon-time
  * Generated from assets/question-bank-source/punctuation.json.
+ * Generator version: 1.
+ * Source hash: sha256:583e3cfb3f085746d93238736954b44c4317849a5643a33c5faf8c41068d9c96.
  */
 (function () {
   'use strict';

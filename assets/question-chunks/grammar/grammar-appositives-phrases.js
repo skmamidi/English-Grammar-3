@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-appositives-phrases
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:ad274f683c7934f29ac92120c7061377d5057f8277b207570af642ef78d2714e.
  */
 (function () {
   'use strict';

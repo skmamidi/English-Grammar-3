@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - capitalization chunk: capitalization-books-magazines-songs-plays
  * Generated from assets/question-bank-source/capitalization.json.
+ * Generator version: 1.
+ * Source hash: sha256:a2dee769f793ab28c8a8329bbcf28303fbac7e9663260e4d33d10366ba4f8fb0.
  */
 (function () {
   'use strict';

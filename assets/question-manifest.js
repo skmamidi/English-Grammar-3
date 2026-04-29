@@ -1,5 +1,20 @@
 window.QUESTION_MANIFEST = {
   "schemaVersion": 1,
+  "artifact": {
+    "type": "question-manifest",
+    "artifactSchemaVersion": 1,
+    "generatorVersion": 1,
+    "sourceType": "json",
+    "sourceHash": "sha256:3005375a134ab77947efa83c068695c4f8b388b371477ad30c76f423e0b1a509",
+    "sourceFiles": [
+      "assets/question-bank-source/capitalization.json",
+      "assets/question-bank-source/grammar.json",
+      "assets/question-bank-source/punctuation.json",
+      "assets/question-bank-source/reading-comprehension.json",
+      "assets/question-bank-source/reference-skills.json",
+      "assets/question-bank-source/vocabulary.json"
+    ]
+  },
   "totalQuestions": 10240,
   "sets": [
     {
@@ -7,7 +22,6 @@ window.QUESTION_MANIFEST = {
       "title": "Capitalization at Sentence Beginning",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "chunkFile": "assets/question-chunks/capitalization/capitalization-sentence-beginning.js",
       "questionCount": 45,
       "gradesSupported": [
@@ -27,7 +41,6 @@ window.QUESTION_MANIFEST = {
       "title": "Capitalization of Days, Months, and Holidays",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "chunkFile": "assets/question-chunks/capitalization/capitalization-days-months-holidays.js",
       "questionCount": 30,
       "gradesSupported": [
@@ -47,7 +60,6 @@ window.QUESTION_MANIFEST = {
       "title": "Capitalization of Books, Magazines, Songs, and Plays",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "chunkFile": "assets/question-chunks/capitalization/capitalization-books-magazines-songs-plays.js",
       "questionCount": 21,
       "gradesSupported": [
@@ -67,7 +79,6 @@ window.QUESTION_MANIFEST = {
       "title": "Proper Names and Titles of People",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "chunkFile": "assets/question-chunks/capitalization/capitalization-proper-names-titles.js",
       "questionCount": 67,
       "gradesSupported": [
@@ -87,7 +98,6 @@ window.QUESTION_MANIFEST = {
       "title": "Names of Places",
       "topic": "Capitalization",
       "domain": "capitalization",
-      "bankFile": "assets/question-banks/capitalization.js",
       "chunkFile": "assets/question-chunks/capitalization/capitalization-names-of-places.js",
       "questionCount": 44,
       "gradesSupported": [
@@ -107,7 +117,6 @@ window.QUESTION_MANIFEST = {
       "title": "Correct Article",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-correct-article.js",
       "questionCount": 34,
       "gradesSupported": [
@@ -127,7 +136,6 @@ window.QUESTION_MANIFEST = {
       "title": "Double Negatives",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-double-negatives.js",
       "questionCount": 18,
       "gradesSupported": [
@@ -147,7 +155,6 @@ window.QUESTION_MANIFEST = {
       "title": "Pronouns",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-pronouns.js",
       "questionCount": 154,
       "gradesSupported": [
@@ -167,7 +174,6 @@ window.QUESTION_MANIFEST = {
       "title": "Singular and Plural Nouns",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-singular-plural-nouns.js",
       "questionCount": 54,
       "gradesSupported": [
@@ -187,7 +193,6 @@ window.QUESTION_MANIFEST = {
       "title": "Verb Forms",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-verb-forms.js",
       "questionCount": 76,
       "gradesSupported": [
@@ -207,7 +212,6 @@ window.QUESTION_MANIFEST = {
       "title": "Run-on Sentences",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-run-on-sentences.js",
       "questionCount": 16,
       "gradesSupported": [
@@ -227,7 +231,6 @@ window.QUESTION_MANIFEST = {
       "title": "Sentence Types",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-sentence-types.js",
       "questionCount": 24,
       "gradesSupported": [
@@ -247,7 +250,6 @@ window.QUESTION_MANIFEST = {
       "title": "Subject and Predicate",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-subject-predicate.js",
       "questionCount": 34,
       "gradesSupported": [
@@ -267,7 +269,6 @@ window.QUESTION_MANIFEST = {
       "title": "Parts of Speech: Verbs",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-parts-of-speech-verbs.js",
       "questionCount": 16,
       "gradesSupported": [
@@ -287,7 +288,6 @@ window.QUESTION_MANIFEST = {
       "title": "Parts of Speech: Nouns",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-parts-of-speech-nouns.js",
       "questionCount": 52,
       "gradesSupported": [
@@ -307,7 +307,6 @@ window.QUESTION_MANIFEST = {
       "title": "Parts of Speech: Adjectives",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-parts-of-speech-adjectives.js",
       "questionCount": 61,
       "gradesSupported": [
@@ -327,7 +326,6 @@ window.QUESTION_MANIFEST = {
       "title": "Parts of Speech: Adverbs",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-parts-of-speech-adverbs.js",
       "questionCount": 40,
       "gradesSupported": [
@@ -347,7 +345,6 @@ window.QUESTION_MANIFEST = {
       "title": "Subject-Verb Agreement",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-subject-verb-agreement.js",
       "questionCount": 51,
       "gradesSupported": [
@@ -367,7 +364,6 @@ window.QUESTION_MANIFEST = {
       "title": "Conjunctions: Coordinating, Subordinating, Correlative",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-conjunctions.js",
       "questionCount": 17,
       "gradesSupported": [
@@ -387,7 +383,6 @@ window.QUESTION_MANIFEST = {
       "title": "Identify a Sentence",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-identify-sentence.js",
       "questionCount": 37,
       "gradesSupported": [
@@ -407,7 +402,6 @@ window.QUESTION_MANIFEST = {
       "title": "Sentence Combinations",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-sentence-combinations.js",
       "questionCount": 73,
       "gradesSupported": [
@@ -427,7 +421,6 @@ window.QUESTION_MANIFEST = {
       "title": "Parts of a Friendly Letter",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-friendly-letter.js",
       "questionCount": 37,
       "gradesSupported": [
@@ -447,7 +440,6 @@ window.QUESTION_MANIFEST = {
       "title": "Past, Present, and Future Tenses",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-tenses.js",
       "questionCount": 37,
       "gradesSupported": [
@@ -467,7 +459,6 @@ window.QUESTION_MANIFEST = {
       "title": "Indentation Rules",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-indentation-rules.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -487,7 +478,6 @@ window.QUESTION_MANIFEST = {
       "title": "1st, 2nd, and 3rd Person Point of View",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-point-of-view.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -507,7 +497,6 @@ window.QUESTION_MANIFEST = {
       "title": "Sentence Correction",
       "topic": "Grammar",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-sentence-correction.js",
       "questionCount": 300,
       "gradesSupported": [
@@ -527,7 +516,6 @@ window.QUESTION_MANIFEST = {
       "title": "Paragraph Structure",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-paragraph-structure.js",
       "questionCount": 186,
       "gradesSupported": [
@@ -547,7 +535,6 @@ window.QUESTION_MANIFEST = {
       "title": "Opinion / Persuasive Writing",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-opinion-persuasive-writing.js",
       "questionCount": 183,
       "gradesSupported": [
@@ -567,7 +554,6 @@ window.QUESTION_MANIFEST = {
       "title": "Informative / Explanatory Writing",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-informative-explanatory-writing.js",
       "questionCount": 183,
       "gradesSupported": [
@@ -587,7 +573,6 @@ window.QUESTION_MANIFEST = {
       "title": "Narrative Writing",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-narrative-writing.js",
       "questionCount": 201,
       "gradesSupported": [
@@ -607,7 +592,6 @@ window.QUESTION_MANIFEST = {
       "title": "Revising & Editing Strategy",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-revising-editing-strategy.js",
       "questionCount": 241,
       "gradesSupported": [
@@ -627,7 +611,6 @@ window.QUESTION_MANIFEST = {
       "title": "Prepositions & Prepositional Phrases",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-prepositions-prepositional-phrases.js",
       "questionCount": 203,
       "gradesSupported": [
@@ -647,7 +630,6 @@ window.QUESTION_MANIFEST = {
       "title": "Clauses & Complex Sentences",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-clauses-complex-sentences.js",
       "questionCount": 184,
       "gradesSupported": [
@@ -667,7 +649,6 @@ window.QUESTION_MANIFEST = {
       "title": "Pronoun Agreement & Case",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-pronoun-agreement-case.js",
       "questionCount": 231,
       "gradesSupported": [
@@ -687,7 +668,6 @@ window.QUESTION_MANIFEST = {
       "title": "Verb Tense Consistency",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-verb-tense-consistency.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -707,7 +687,6 @@ window.QUESTION_MANIFEST = {
       "title": "Sentence Variety",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-sentence-variety.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -727,7 +706,6 @@ window.QUESTION_MANIFEST = {
       "title": "Appositives & Phrases",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-appositives-phrases.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -747,7 +725,6 @@ window.QUESTION_MANIFEST = {
       "title": "Formal vs. Informal Language",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-formal-informal-language.js",
       "questionCount": 196,
       "gradesSupported": [
@@ -767,7 +744,6 @@ window.QUESTION_MANIFEST = {
       "title": "Irregular Nouns & Plurals",
       "topic": "Grammar & Usage",
       "domain": "grammar",
-      "bankFile": "assets/question-banks/grammar.js",
       "chunkFile": "assets/question-chunks/grammar/grammar-irregular-nouns-plurals.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -787,7 +763,6 @@ window.QUESTION_MANIFEST = {
       "title": "Punctuation at End of Sentence",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-end-sentence.js",
       "questionCount": 72,
       "gradesSupported": [
@@ -807,7 +782,6 @@ window.QUESTION_MANIFEST = {
       "title": "Periods in Abbreviations",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-periods-abbreviations.js",
       "questionCount": 24,
       "gradesSupported": [
@@ -827,7 +801,6 @@ window.QUESTION_MANIFEST = {
       "title": "Quotation Marks",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-quotation-marks.js",
       "questionCount": 36,
       "gradesSupported": [
@@ -847,7 +820,6 @@ window.QUESTION_MANIFEST = {
       "title": "Commas in a Series",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-commas-series.js",
       "questionCount": 57,
       "gradesSupported": [
@@ -867,7 +839,6 @@ window.QUESTION_MANIFEST = {
       "title": "Commas in Dates",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-commas-dates.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -887,7 +858,6 @@ window.QUESTION_MANIFEST = {
       "title": "Commas in Addresses",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-commas-addresses.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -907,7 +877,6 @@ window.QUESTION_MANIFEST = {
       "title": "Commas to Separate Dialogue",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-commas-dialogue.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -927,7 +896,6 @@ window.QUESTION_MANIFEST = {
       "title": "Colon in Time",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-colon-time.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -947,7 +915,6 @@ window.QUESTION_MANIFEST = {
       "title": "Apostrophes in Contractions",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-apostrophes-contractions.js",
       "questionCount": 77,
       "gradesSupported": [
@@ -967,7 +934,6 @@ window.QUESTION_MANIFEST = {
       "title": "Apostrophes in Possessives",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-apostrophes-possessives.js",
       "questionCount": 28,
       "gradesSupported": [
@@ -987,7 +953,6 @@ window.QUESTION_MANIFEST = {
       "title": "Advanced Punctuation",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-advanced-punctuation.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -1007,7 +972,6 @@ window.QUESTION_MANIFEST = {
       "title": "Dialogue Mechanics",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-dialogue-mechanics.js",
       "questionCount": 196,
       "gradesSupported": [
@@ -1027,7 +991,6 @@ window.QUESTION_MANIFEST = {
       "title": "Abbreviations & Acronyms",
       "topic": "Punctuation",
       "domain": "punctuation",
-      "bankFile": "assets/question-banks/punctuation.js",
       "chunkFile": "assets/question-chunks/punctuation/punctuation-abbreviations-acronyms.js",
       "questionCount": 185,
       "gradesSupported": [
@@ -1047,7 +1010,6 @@ window.QUESTION_MANIFEST = {
       "title": "Analogies",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-analogies.js",
       "questionCount": 52,
       "gradesSupported": [
@@ -1067,7 +1029,6 @@ window.QUESTION_MANIFEST = {
       "title": "Categorizing",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-categorizing.js",
       "questionCount": 31,
       "gradesSupported": [
@@ -1087,7 +1048,6 @@ window.QUESTION_MANIFEST = {
       "title": "Cause and Effect",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-cause-effect.js",
       "questionCount": 26,
       "gradesSupported": [
@@ -1107,7 +1067,6 @@ window.QUESTION_MANIFEST = {
       "title": "Fact or Fantasy",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-fact-fantasy.js",
       "questionCount": 19,
       "gradesSupported": [
@@ -1127,7 +1086,6 @@ window.QUESTION_MANIFEST = {
       "title": "Fact and Opinion",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-fact-opinion.js",
       "questionCount": 45,
       "gradesSupported": [
@@ -1147,7 +1105,6 @@ window.QUESTION_MANIFEST = {
       "title": "Inference",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-inference.js",
       "questionCount": 72,
       "gradesSupported": [
@@ -1167,7 +1124,6 @@ window.QUESTION_MANIFEST = {
       "title": "Main Idea & Supporting Details",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details.js",
       "questionCount": 199,
       "gradesSupported": [
@@ -1187,7 +1143,6 @@ window.QUESTION_MANIFEST = {
       "title": "Summarizing",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-summarizing.js",
       "questionCount": 278,
       "gradesSupported": [
@@ -1207,7 +1162,6 @@ window.QUESTION_MANIFEST = {
       "title": "Text Evidence",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-evidence.js",
       "questionCount": 223,
       "gradesSupported": [
@@ -1227,7 +1181,6 @@ window.QUESTION_MANIFEST = {
       "title": "Story Elements",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-story-elements.js",
       "questionCount": 182,
       "gradesSupported": [
@@ -1247,7 +1200,6 @@ window.QUESTION_MANIFEST = {
       "title": "Theme / Lesson / Moral",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-theme-lesson-moral.js",
       "questionCount": 182,
       "gradesSupported": [
@@ -1267,7 +1219,6 @@ window.QUESTION_MANIFEST = {
       "title": "Author's Purpose",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-authors-purpose.js",
       "questionCount": 209,
       "gradesSupported": [
@@ -1287,7 +1238,6 @@ window.QUESTION_MANIFEST = {
       "title": "Text Structure",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-text-structure.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -1307,7 +1257,6 @@ window.QUESTION_MANIFEST = {
       "title": "Compare & Contrast",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-compare-contrast.js",
       "questionCount": 191,
       "gradesSupported": [
@@ -1327,7 +1276,6 @@ window.QUESTION_MANIFEST = {
       "title": "Poetry Skills",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-poetry-skills.js",
       "questionCount": 189,
       "gradesSupported": [
@@ -1347,7 +1295,6 @@ window.QUESTION_MANIFEST = {
       "title": "Book Genres",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-book-genres.js",
       "questionCount": 187,
       "gradesSupported": [
@@ -1367,7 +1314,6 @@ window.QUESTION_MANIFEST = {
       "title": "Point of View in Literature",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-point-of-view-literature.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -1387,7 +1333,6 @@ window.QUESTION_MANIFEST = {
       "title": "Tone & Mood",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-tone-mood.js",
       "questionCount": 182,
       "gradesSupported": [
@@ -1407,7 +1352,6 @@ window.QUESTION_MANIFEST = {
       "title": "Test-Taking Reading Skills",
       "topic": "Reading Comprehension",
       "domain": "reading-comprehension",
-      "bankFile": "assets/question-banks/reading-comprehension.js",
       "chunkFile": "assets/question-chunks/reading-comprehension/reading-comprehension-test-taking-reading-skills.js",
       "questionCount": 189,
       "gradesSupported": [
@@ -1427,7 +1371,6 @@ window.QUESTION_MANIFEST = {
       "title": "Sub-heading",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-sub-heading.js",
       "questionCount": 22,
       "gradesSupported": [
@@ -1447,7 +1390,6 @@ window.QUESTION_MANIFEST = {
       "title": "Finding the Subject and Object in a Sentence",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-subject-object.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -1467,7 +1409,6 @@ window.QUESTION_MANIFEST = {
       "title": "Italicize",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-italicize.js",
       "questionCount": 24,
       "gradesSupported": [
@@ -1487,7 +1428,6 @@ window.QUESTION_MANIFEST = {
       "title": "Alphabetical Order",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js",
       "questionCount": 31,
       "gradesSupported": [
@@ -1507,7 +1447,6 @@ window.QUESTION_MANIFEST = {
       "title": "Dictionary Guide Words",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-dictionary-guide-words.js",
       "questionCount": 55,
       "gradesSupported": [
@@ -1527,7 +1466,6 @@ window.QUESTION_MANIFEST = {
       "title": "Research Skills",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-research-skills.js",
       "questionCount": 183,
       "gradesSupported": [
@@ -1547,7 +1485,6 @@ window.QUESTION_MANIFEST = {
       "title": "Media Literacy",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-media-literacy.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -1567,7 +1504,6 @@ window.QUESTION_MANIFEST = {
       "title": "Nonfiction Text Features",
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
-      "bankFile": "assets/question-banks/reference-skills.js",
       "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features.js",
       "questionCount": 298,
       "gradesSupported": [
@@ -1587,7 +1523,6 @@ window.QUESTION_MANIFEST = {
       "title": "Base Words, Prefixes, and Suffixes",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-base-words.js",
       "questionCount": 62,
       "gradesSupported": [
@@ -1607,7 +1542,6 @@ window.QUESTION_MANIFEST = {
       "title": "Vowel Sounds",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-vowel-sounds.js",
       "questionCount": 20,
       "gradesSupported": [
@@ -1627,7 +1561,6 @@ window.QUESTION_MANIFEST = {
       "title": "Contractions",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-contractions.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -1647,7 +1580,6 @@ window.QUESTION_MANIFEST = {
       "title": "Homophones",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-homophones.js",
       "questionCount": 69,
       "gradesSupported": [
@@ -1667,7 +1599,6 @@ window.QUESTION_MANIFEST = {
       "title": "Rhyming Words",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-rhyming.js",
       "questionCount": 21,
       "gradesSupported": [
@@ -1687,7 +1618,6 @@ window.QUESTION_MANIFEST = {
       "title": "Synonyms and Antonyms",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-synonyms-antonyms.js",
       "questionCount": 99,
       "gradesSupported": [
@@ -1707,7 +1637,6 @@ window.QUESTION_MANIFEST = {
       "title": "Comparatives and Superlatives",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-comparatives-superlatives.js",
       "questionCount": 33,
       "gradesSupported": [
@@ -1727,7 +1656,6 @@ window.QUESTION_MANIFEST = {
       "title": "Word Meaning from Context",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-word-meaning-context.js",
       "questionCount": 143,
       "gradesSupported": [
@@ -1747,7 +1675,6 @@ window.QUESTION_MANIFEST = {
       "title": "Spelling",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-spelling.js",
       "questionCount": 186,
       "gradesSupported": [
@@ -1767,7 +1694,6 @@ window.QUESTION_MANIFEST = {
       "title": "Modifier Words",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-modifier-words.js",
       "questionCount": 15,
       "gradesSupported": [
@@ -1787,7 +1713,6 @@ window.QUESTION_MANIFEST = {
       "title": "Figurative Language",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-figurative-language.js",
       "questionCount": 221,
       "gradesSupported": [
@@ -1807,7 +1732,6 @@ window.QUESTION_MANIFEST = {
       "title": "Roots & Word Origins",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-roots-word-origins.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -1827,7 +1751,6 @@ window.QUESTION_MANIFEST = {
       "title": "Multiple-Meaning Words",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-multiple-meaning-words.js",
       "questionCount": 180,
       "gradesSupported": [
@@ -1847,7 +1770,6 @@ window.QUESTION_MANIFEST = {
       "title": "Shades of Meaning",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-shades-of-meaning.js",
       "questionCount": 182,
       "gradesSupported": [
@@ -1867,7 +1789,6 @@ window.QUESTION_MANIFEST = {
       "title": "Syllables & Decoding",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-syllables-decoding.js",
       "questionCount": 199,
       "gradesSupported": [
@@ -1887,7 +1808,6 @@ window.QUESTION_MANIFEST = {
       "title": "Spelling Patterns",
       "topic": "Vocabulary / Word Study",
       "domain": "vocabulary",
-      "bankFile": "assets/question-banks/vocabulary.js",
       "chunkFile": "assets/question-chunks/vocabulary/vocabulary-spelling-patterns.js",
       "questionCount": 180,
       "gradesSupported": [

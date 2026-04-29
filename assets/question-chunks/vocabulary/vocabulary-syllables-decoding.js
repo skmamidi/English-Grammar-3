@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-syllables-decoding
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:49abd0c26d26a28c84dc51ab82301effbca48a1b1a026405189203c410de428b.
  */
 (function () {
   'use strict';

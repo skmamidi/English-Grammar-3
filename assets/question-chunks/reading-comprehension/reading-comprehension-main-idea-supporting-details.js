@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-main-idea-supporting-details
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:05300afccfd8780805b71d53ad76d0e9ace005b151d20d8ae03e9839ab0870ae.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-spelling
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:fff84ab75884ac059dd1369c34d9b264ad71b2ac9ac6c7b179cdddceafa78635.
  */
 (function () {
   'use strict';

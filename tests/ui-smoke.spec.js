@@ -51,33 +51,27 @@ const PAGE_BUDGETS = {
 const REPRESENTATIVE_CHUNK_PAGES = {
   'topics/capitalization/subtopics/proper-names-titles.html': {
     domain: 'capitalization',
-    chunkFile: 'assets/question-chunks/capitalization/capitalization-proper-names-titles.js',
-    bankFile: 'assets/question-banks/capitalization.js'
+    chunkFile: 'assets/question-chunks/capitalization/capitalization-proper-names-titles.js'
   },
   'topics/reference-skills/subtopics/alphabetical-order.html': {
     domain: 'reference-skills',
-    chunkFile: 'assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js',
-    bankFile: 'assets/question-banks/reference-skills.js'
+    chunkFile: 'assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js'
   },
   'topics/punctuation/subtopics/commas-series.html': {
     domain: 'punctuation',
-    chunkFile: 'assets/question-chunks/punctuation/punctuation-commas-series.js',
-    bankFile: 'assets/question-banks/punctuation.js'
+    chunkFile: 'assets/question-chunks/punctuation/punctuation-commas-series.js'
   },
   'topics/vocabulary/subtopics/homophones.html': {
     domain: 'vocabulary',
-    chunkFile: 'assets/question-chunks/vocabulary/vocabulary-homophones.js',
-    bankFile: 'assets/question-banks/vocabulary.js'
+    chunkFile: 'assets/question-chunks/vocabulary/vocabulary-homophones.js'
   },
   'topics/reading-comprehension/subtopics/main-idea-supporting-details.html': {
     domain: 'reading-comprehension',
-    chunkFile: 'assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details.js',
-    bankFile: 'assets/question-banks/reading-comprehension.js'
+    chunkFile: 'assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details.js'
   },
   'topics/grammar/subtopics/sentence-types.html': {
     domain: 'grammar',
-    chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js',
-    bankFile: 'assets/question-banks/grammar.js'
+    chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js'
   }
 };
 
@@ -152,6 +146,52 @@ async function main() {
           requests.some(url => url.endsWith('/assets/quiz-engine.js')),
           `${domain} mixed quiz should load quiz engine after launch`
         );
+        await page.close();
+      });
+    }
+
+    if (process.env.QUESTION_SELECTION_API) {
+      await runCase(failures, 'grammar mixed quiz can use question selection API pilot', async () => {
+        const page = await newPage(browser, { enableQuestionSelectionApi: true });
+        const requests = [];
+        page.on('request', request => requests.push(request.url()));
+        await visitClean(page, server.baseURL, 'topics/grammar/index.html');
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', 'grammar API mixed quiz');
+        assert.ok(
+          requests.some(url => url.endsWith('/api/question-selection')),
+          'grammar API mixed quiz should request question selection API'
+        );
+        assert.equal(
+          await page.evaluate(() => window.__selectionApiUsed === true),
+          true,
+          'grammar API mixed quiz should emit API-used event'
+        );
+        assert.equal(
+          requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
+          false,
+          'grammar API mixed quiz should not request full bank'
+        );
+        await assertQuizFlow(page, 'topics/grammar/index.html API mixed quiz');
+        const activeQuiz = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').activeQuiz);
+        assert.ok(activeQuiz.questionRefs.length > 0, 'API mixed quiz should persist refs');
+        await page.close();
+      });
+
+      await runCase(failures, 'grammar mixed quiz falls back when question selection API fails', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          questionSelectionApiUrl: '/api/question-selection?fail=1'
+        });
+        await visitClean(page, server.baseURL, 'topics/grammar/index.html');
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', 'grammar API fallback mixed quiz');
+        assert.equal(
+          await page.evaluate(() => window.__selectionFallback === true),
+          true,
+          'grammar API fallback should emit fallback event'
+        );
+        await assertQuizFlow(page, 'topics/grammar/index.html API fallback mixed quiz');
         await page.close();
       });
     }
@@ -290,7 +330,7 @@ async function runCase(failures, name, fn) {
   }
 }
 
-async function newPage(browser) {
+async function newPage(browser, options = {}) {
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
   page.setDefaultTimeout(5000);
   page.setDefaultNavigationTimeout(8000);
@@ -330,6 +370,25 @@ async function newPage(browser) {
       `
     });
   });
+  if (options.enableQuestionSelectionApi) {
+    await page.addInitScript(config => {
+      window.GRAMMAR_QUEST_CONFIG = {
+        enableServerQuestionSelection: true,
+        questionSelectionApiUrl: config.questionSelectionApiUrl || '/api/question-selection',
+        serverQuestionSelectionPilotDomains: ['grammar']
+      };
+      window.__selectionApiUsed = false;
+      window.__selectionFallback = false;
+      window.addEventListener('grammarquest:question-selection-api-used', () => {
+        window.__selectionApiUsed = true;
+      });
+      window.addEventListener('grammarquest:question-selection-fallback', () => {
+        window.__selectionFallback = true;
+      });
+    }, {
+      questionSelectionApiUrl: options.questionSelectionApiUrl || '/api/question-selection'
+    });
+  }
   page.__qaErrors = [];
   page.on('pageerror', error => page.__qaErrors.push(error.message));
   page.on('console', message => {
@@ -526,9 +585,9 @@ async function assertChunkBackedSubtopicRequests(page, requests, file, expected)
     `${file} should request its ${expected.domain} chunk`
   );
   assert.equal(
-    requests.some(url => url.endsWith(`/${expected.bankFile}`)),
+    requests.some(url => /\/assets\/question-banks\/[^/]+\.js(?:[?#].*)?$/.test(url)),
     false,
-    `${file} should not request the full ${expected.domain} bank`
+    `${file} should not request any full question bank`
   );
 }
 
@@ -749,6 +808,10 @@ function startStaticServer(port) {
     const server = http.createServer((request, response) => {
       const parsed = new URL(request.url, `http://127.0.0.1:${port}`);
       const pathname = decodeURIComponent(parsed.pathname === '/' ? '/index.html' : parsed.pathname);
+      if (pathname === '/api/question-selection') {
+        handleQuestionSelectionApi(request, response, parsed);
+        return;
+      }
       const filePath = path.resolve(repoRoot, `.${pathname}`);
       if (!filePath.startsWith(repoRoot)) {
         response.writeHead(403);
@@ -782,6 +845,64 @@ function startStaticServer(port) {
       });
     });
   });
+}
+
+function handleQuestionSelectionApi(request, response, parsed) {
+  if (request.method !== 'POST') {
+    response.writeHead(405);
+    response.end('Method not allowed');
+    return;
+  }
+  if (parsed.searchParams.get('fail') === '1') {
+    response.writeHead(503, { 'Content-Type': 'application/json' });
+    response.end(JSON.stringify({ error: 'simulated failure' }));
+    return;
+  }
+
+  let body = '';
+  request.on('data', chunk => {
+    body += chunk;
+  });
+  request.on('end', () => {
+    try {
+      const payload = JSON.parse(body || '{}');
+      const result = buildQuestionSelectionResponse(payload);
+      response.writeHead(200, { 'Content-Type': 'application/json' });
+      response.end(JSON.stringify(result));
+    } catch (error) {
+      response.writeHead(400, { 'Content-Type': 'application/json' });
+      response.end(JSON.stringify({ error: error.message }));
+    }
+  });
+}
+
+function buildQuestionSelectionResponse(payload) {
+  if (!payload || payload.mode !== 'mixed') throw new Error('mode must be mixed');
+  if (payload.domain !== 'grammar') throw new Error('pilot only supports grammar');
+  const setIds = Array.isArray(payload.setIds) ? payload.setIds : [];
+  if (!setIds.length) throw new Error('setIds are required');
+  const maxCount = Math.min(60, Math.max(1, Number(payload.count) || 4));
+  const manifest = JSON.parse(fs.readFileSync(path.join(repoRoot, 'assets', 'question-manifest.json'), 'utf8'));
+  const refs = [];
+  setIds.forEach(setId => {
+    const set = manifest.sets.find(item => item.id === setId);
+    if (!set || set.domain !== payload.domain) throw new Error(`invalid setId ${setId}`);
+    const question = set.questions[0];
+    if (!question) return;
+    refs.push({
+      id: question.id,
+      sourceSet: set.id,
+      version: question.version,
+      contentHash: question.contentHash,
+      sequence: question.sequence
+    });
+  });
+  return {
+    selectionId: 'sel_ui_smoke',
+    selectionPolicyVersion: 1,
+    questionRefs: refs.slice(0, maxCount),
+    questionSnapshots: []
+  };
 }
 
 function getContentType(filePath) {

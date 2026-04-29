@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - punctuation chunk: punctuation-dialogue-mechanics
  * Generated from assets/question-bank-source/punctuation.json.
+ * Generator version: 1.
+ * Source hash: sha256:16c5fdd293501eb5a919dc8ff7b62633a20bce9e594563d1af398e14cd58a20b.
  */
 (function () {
   'use strict';

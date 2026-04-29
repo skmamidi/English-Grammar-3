@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - capitalization chunk: capitalization-proper-names-titles
  * Generated from assets/question-bank-source/capitalization.json.
+ * Generator version: 1.
+ * Source hash: sha256:6f6e973e6af18b63a2fe36618f5366183d27ff49404f4676d022b2ec1b4b2a52.
  */
 (function () {
   'use strict';

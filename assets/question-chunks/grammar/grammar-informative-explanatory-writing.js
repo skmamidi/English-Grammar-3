@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-informative-explanatory-writing
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:23966e59caa66cb891ac6dc58c60dc577134da290aaefcc8f59d51d5bb7356c3.
  */
 (function () {
   'use strict';

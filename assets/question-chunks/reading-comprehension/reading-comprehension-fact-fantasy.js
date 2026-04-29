@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-fact-fantasy
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:ac7fd07dd9a638088d70d350a029e90ff1fd826f10fea9fd063c6fb4cd95584a.
  */
 (function () {
   'use strict';

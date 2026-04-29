@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-vowel-sounds
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:5b3e13cf307adeb77b37d76764eb8af91163b5d57d76d8ad4eb47ca64279cdcf.
  */
 (function () {
   'use strict';

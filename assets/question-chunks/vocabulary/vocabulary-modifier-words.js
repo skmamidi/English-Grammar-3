@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-modifier-words
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:0c2018ef01e0e2f8d0e4cb5c726c9728d2b4c18b4f40a699df7fe4756c85fbbe.
  */
 (function () {
   'use strict';

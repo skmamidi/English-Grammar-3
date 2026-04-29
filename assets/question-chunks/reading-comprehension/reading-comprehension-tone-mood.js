@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-tone-mood
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:1952a35fd50edf635f0b7272fa8bad730afe6913a38456873c172e6017812200.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-multiple-meaning-words
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:1ec5a0b6121878a76d19b2fe424a9f7d0e928e0aa2f6dd7aca2707f4acf2ff59.
  */
 (function () {
   'use strict';

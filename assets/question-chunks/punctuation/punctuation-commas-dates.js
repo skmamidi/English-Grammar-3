@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - punctuation chunk: punctuation-commas-dates
  * Generated from assets/question-bank-source/punctuation.json.
+ * Generator version: 1.
+ * Source hash: sha256:55b2f27d71fe2a7718ee442eb59cd415cd10c8161531e7ca5fd32da4a5cb7cf0.
  */
 (function () {
   'use strict';

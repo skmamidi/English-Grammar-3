@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-opinion-persuasive-writing
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:27c08b704001f987f896bdb2cad8136aa8970547e4098946d98fdfaeb4665c2e.
  */
 (function () {
   'use strict';

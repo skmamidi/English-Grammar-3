@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-conjunctions
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:deb199688c4e47dcbc4d332f96f76338c16251a5b4b2650e07b8601fb319a36d.
  */
 (function () {
   'use strict';

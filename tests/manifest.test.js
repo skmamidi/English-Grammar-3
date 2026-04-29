@@ -45,7 +45,8 @@ test('manifest exposes compact lookup metadata without learner-facing prompts', 
   const set = manifest.sets.find(item => item.id === 'grammar-sentence-types');
 
   assert.ok(set, 'expected representative set in manifest');
-  assert.equal(set.bankFile, 'assets/question-banks/grammar.js');
+  assert.equal(Object.hasOwn(set, 'bankFile'), false);
+  assert.equal(set.chunkFile, 'assets/question-chunks/grammar/grammar-sentence-types.js');
   assert.ok(set.gradesSupported.includes(4));
   assert.ok(set.difficultiesSupported.includes('medium'));
   assert.ok(set.questions[0].id.startsWith('grammar-sentence-types-q'));
@@ -60,6 +61,7 @@ test('all manifest entries point to checked-in chunk files', () => {
 
   assert.ok(manifest.sets.length > 0, 'expected manifest sets');
   manifest.sets.forEach(set => {
+    assert.equal(Object.hasOwn(set, 'bankFile'), false);
     assert.equal(set.chunkFile, `assets/question-chunks/${set.domain}/${set.id}.js`);
     assert.ok(fs.existsSync(path.join(__dirname, '..', set.chunkFile)), `${set.chunkFile} should exist`);
   });
@@ -74,6 +76,7 @@ test('checked-in manifest script exposes index metadata as a browser global', ()
     JSON.stringify(buildIndexManifest(loadManifest()))
   );
   assert.equal(Object.hasOwn(context.window.QUESTION_MANIFEST.sets[0], 'questions'), false);
+  assert.equal(Object.hasOwn(context.window.QUESTION_MANIFEST.sets[0], 'bankFile'), false);
 });
 
 test('index manifest script stays smaller than topic question banks', () => {
@@ -99,7 +102,7 @@ test('topic index helper can resolve subtopics from manifest entries without a f
     sets: [{
       id: 'grammar-sentence-types',
       title: 'Sentence Types',
-      bankFile: 'assets/question-banks/grammar.js',
+      chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js',
       questionCount: 42,
       gradesSupported: [3, 4, 5, 6],
       difficultiesSupported: ['easy', 'medium']
@@ -178,6 +181,39 @@ test('mixed quiz loader hydrates only requested selected subtopics', async () =>
     'capitalization-sentence-beginning'
   ]);
   assert.deepEqual(sets.map(set => set.id), requestedIds);
+});
+
+test('grammar mixed quiz can use server selection pilot when enabled', async () => {
+  const selectedRequests = [];
+  const context = createTopicIndexContext();
+  context.window.GRAMMAR_QUEST_CONFIG = {
+    enableServerQuestionSelection: true,
+    serverQuestionSelectionPilotDomains: ['grammar']
+  };
+  context.window.GrammarQuestQuestionLoader = {
+    loadSets() {
+      throw new Error('loadSets should not be used for grammar API pilot');
+    },
+    loadSelectedQuiz(request) {
+      selectedRequests.push(request);
+      return Promise.resolve({
+        source: 'api',
+        sets: [{ id: 'grammar-sentence-types', questions: [{ id: 'grammar-sentence-types-q0001' }] }]
+      });
+    }
+  };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  const sets = await context.window.GrammarQuestTopicIndex.loadMixedQuizSets([{
+    id: 'grammar-sentence-types',
+    set: { domain: 'grammar' }
+  }]);
+
+  assert.equal(selectedRequests.length, 1);
+  assert.equal(selectedRequests[0].mode, 'mixed');
+  assert.equal(selectedRequests[0].domain, 'grammar');
+  assert.deepEqual(selectedRequests[0].setIds, ['grammar-sentence-types']);
+  assert.deepEqual(sets.map(set => set.id), ['grammar-sentence-types']);
 });
 
 function createTopicIndexContext() {

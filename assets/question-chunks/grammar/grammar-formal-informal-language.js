@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-formal-informal-language
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:1de0e3412193adc5cde9c473ab17d1b38b22bf8f5009f8e97bf01efb73dab66f.
  */
 (function () {
   'use strict';

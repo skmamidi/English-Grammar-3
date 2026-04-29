@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-compare-contrast
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:82f1b9d5e4ed234209c5f4a8e03ddf6282e0490ce91f5017e12b214b293aaab0.
  */
 (function () {
   'use strict';

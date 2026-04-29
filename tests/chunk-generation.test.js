@@ -99,7 +99,7 @@ test('chunk validation requires each chunk to populate exactly the declared set 
 test('chunk generation is deterministic', () => {
   const bankLoad = loadQuestionBanks();
   const sourceSet = getSourceSet(bankLoad, 'capitalization-proper-names-titles');
-  const sourceFile = 'assets/question-banks/capitalization.js';
+  const sourceFile = 'assets/question-bank-source/capitalization.json';
 
   const first = buildQuestionChunkScript({
     domain: 'capitalization',

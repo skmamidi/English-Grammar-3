@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-parts-of-speech-verbs
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:e6be4eb28866754ccbafb6e23871b574e3b92080a4f4c2cc6412164561c0fc88.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-base-words
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:f2dac60d42003b28f2d1fdef6f5c40c8901690e13ddd04528f8efc71ac10b431.
  */
 (function () {
   'use strict';

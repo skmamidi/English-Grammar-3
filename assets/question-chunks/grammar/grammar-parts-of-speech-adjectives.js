@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-parts-of-speech-adjectives
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:eb70c79a16dd3ce3c6b921efaa97e8f554fdaed43bffd968d2e5bf3de8c6a906.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-contractions
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:b5e16bed789d4144312be3f7a12837800e3c9d3593f9472c3b94e5ee3d3d6b73.
  */
 (function () {
   'use strict';

@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reading-comprehension chunk: reading-comprehension-fact-opinion
  * Generated from assets/question-bank-source/reading-comprehension.json.
+ * Generator version: 1.
+ * Source hash: sha256:c1ceeea7d3be5ff87e1e391456d1ed689909890bc3cb87a948b27ee46e129baf.
  */
 (function () {
   'use strict';

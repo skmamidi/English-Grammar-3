@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-double-negatives
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:7eda5dff173f714cc56072e2c59cbad461e6826097468802166a847e00163e79.
  */
 (function () {
   'use strict';

@@ -8,6 +8,11 @@ const {
   flattenQuestionBanks,
   loadQuestionBanks
 } = require('./bank-loader');
+const {
+  QUESTION_GENERATOR_VERSION,
+  computeQuestionSetSourceHash,
+  parseQuestionChunkProvenance
+} = require('../question-artifact-provenance');
 
 function getChunkManifestEntries(manifest) {
   return (manifest && Array.isArray(manifest.sets) ? manifest.sets : [])
@@ -17,18 +22,26 @@ function getChunkManifestEntries(manifest) {
 function loadChunkBank(chunkFile, options = {}) {
   const root = options.repoRoot || repoRoot;
   const chunkPath = path.isAbsolute(chunkFile) ? chunkFile : path.join(root, chunkFile);
+  const contents = readChunkFile(chunkPath, chunkFile);
 
+  return loadChunkBankFromContents(contents, chunkPath);
+}
+
+function readChunkFile(chunkPath, label) {
   if (!fs.existsSync(chunkPath)) {
-    throw new Error(`Chunk file does not exist: ${chunkFile}`);
+    throw new Error(`Chunk file does not exist: ${label}`);
   }
+  return fs.readFileSync(chunkPath, 'utf8');
+}
 
+function loadChunkBankFromContents(contents, filename) {
   const context = {
     window: { QUESTION_BANK: {} },
     console
   };
 
   vm.createContext(context);
-  vm.runInContext(fs.readFileSync(chunkPath, 'utf8'), context, { filename: chunkPath });
+  vm.runInContext(contents, context, { filename });
   return context.window.QUESTION_BANK || {};
 }
 
@@ -45,12 +58,22 @@ function validateQuestionChunks(manifest, bankLoad, options = {}) {
     }
 
     let chunkBank;
+    let chunkContents;
     try {
-      chunkBank = loadChunkBank(entry.chunkFile, options);
+      const root = options.repoRoot || repoRoot;
+      const chunkPath = path.isAbsolute(entry.chunkFile) ? entry.chunkFile : path.join(root, entry.chunkFile);
+      chunkContents = readChunkFile(chunkPath, entry.chunkFile);
+      chunkBank = loadChunkBankFromContents(chunkContents, chunkPath);
     } catch (error) {
       errors.push(`${entry.id}: chunk file could not be loaded from ${entry.chunkFile}: ${error.message}`);
       return;
     }
+
+    validateChunkProvenance({
+      entry,
+      sourceRecord,
+      chunkContents
+    }).errors.forEach(error => errors.push(error));
 
     const chunkSetIds = Object.keys(chunkBank || {});
     if (chunkSetIds.length !== 1 || chunkSetIds[0] !== entry.id) {
@@ -63,6 +86,25 @@ function validateQuestionChunks(manifest, bankLoad, options = {}) {
       chunkSet: chunkBank && chunkBank[entry.id]
     }).errors.forEach(error => errors.push(error));
   });
+
+  return { errors };
+}
+
+function validateChunkProvenance({ entry, sourceRecord, chunkContents }) {
+  const errors = [];
+  const provenance = parseQuestionChunkProvenance(chunkContents);
+  const expectedHash = computeQuestionSetSourceHash(entry.id, sourceRecord.set);
+  const expectedSourceFile = sourceRecord.relativeFile;
+
+  if (provenance.sourceFile !== expectedSourceFile) {
+    errors.push(`${entry.id}: chunk provenance source file is ${formatValue(provenance.sourceFile)}; expected ${formatValue(expectedSourceFile)}.`);
+  }
+  if (provenance.generatorVersion !== QUESTION_GENERATOR_VERSION) {
+    errors.push(`${entry.id}: chunk generator version is ${formatValue(provenance.generatorVersion)}; expected ${QUESTION_GENERATOR_VERSION}.`);
+  }
+  if (provenance.sourceHash !== expectedHash) {
+    errors.push(`${entry.id}: chunk source hash is ${formatValue(provenance.sourceHash)}; expected ${expectedHash}.`);
+  }
 
   return { errors };
 }
@@ -158,7 +200,8 @@ module.exports = {
   loadChunkBank,
   validateQuestionChunks,
   validateQuestionChunkSet,
-  compareQuestionSummaries
+  compareQuestionSummaries,
+  validateChunkProvenance
 };
 
 if (require.main === module) runCli();

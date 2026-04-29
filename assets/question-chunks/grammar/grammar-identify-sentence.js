@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-identify-sentence
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:8ae7ba63e95c241bd0ffe1bcffae03f3e8cda08e50701929380dd2400cac8b6b.
  */
 (function () {
   'use strict';

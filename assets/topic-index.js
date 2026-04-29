@@ -26,7 +26,6 @@
           title: getSubtopicTitle(item, set),
           href,
           set,
-          bankFile: set.bankFile || '',
           questionCount: getQuestionCount(set)
         });
       }
@@ -160,15 +159,74 @@
     return Promise.all([
       window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js'),
       window.GrammarQuestQuestionLoader ? Promise.resolve() : loadScriptOnce('../../assets/question-loader.js')
-    ]).then(() => loadMixedQuizSets(subtopics.map(subtopic => subtopic.id).filter(Boolean)));
+    ]).then(() => loadMixedQuizSets(subtopics));
   }
 
-  function loadMixedQuizSets(setIds) {
-    const ids = Array.isArray(setIds) ? setIds.filter(Boolean) : [];
+  function loadMixedQuizSets(subtopicsOrIds) {
+    const subtopics = normalizeMixedQuizLoadInput(subtopicsOrIds);
+    const ids = subtopics.map(subtopic => subtopic.id).filter(Boolean);
     if (!window.GrammarQuestQuestionLoader || typeof window.GrammarQuestQuestionLoader.loadSets !== 'function') {
       return Promise.reject(new Error('Question loader is unavailable for mixed quiz hydration.'));
     }
+    if (shouldUseServerSelectionPilot(subtopics) && typeof window.GrammarQuestQuestionLoader.loadSelectedQuiz === 'function') {
+      return window.GrammarQuestQuestionLoader.loadSelectedQuiz(buildSelectionRequest(subtopics))
+        .then(result => result && Array.isArray(result.sets) ? result.sets : []);
+    }
     return window.GrammarQuestQuestionLoader.loadSets(ids);
+  }
+
+  function normalizeMixedQuizLoadInput(input) {
+    if (!Array.isArray(input)) return [];
+    return input.map(item => {
+      if (item && typeof item === 'object') return item;
+      return { id: String(item || '') };
+    }).filter(item => item.id);
+  }
+
+  function shouldUseServerSelectionPilot(subtopics) {
+    const config = getAppConfig();
+    if (!config.enableServerQuestionSelection) return false;
+    const domain = getMixedQuizDomain(subtopics);
+    const pilotDomains = Array.isArray(config.serverQuestionSelectionPilotDomains)
+      ? config.serverQuestionSelectionPilotDomains
+      : ['grammar'];
+    return pilotDomains.includes(domain);
+  }
+
+  function buildSelectionRequest(subtopics) {
+    const domain = getMixedQuizDomain(subtopics);
+    const setIds = subtopics.map(subtopic => subtopic.id).filter(Boolean);
+    const perSubtopic = Number(getStoredSetting('grammarQuestMixedQuestionLimit', '4')) || 4;
+    return {
+      mode: 'mixed',
+      domain,
+      setIds,
+      grade: getStoredSetting('grammarQuestGrade', '4'),
+      difficulty: getStoredSetting('grammarQuestDifficulty', 'medium'),
+      count: Math.min(10, Math.max(1, setIds.length * perSubtopic)),
+      selectionPolicyVersion: 1
+    };
+  }
+
+  function getMixedQuizDomain(subtopics) {
+    const first = (Array.isArray(subtopics) ? subtopics : []).find(subtopic => subtopic && subtopic.set && subtopic.set.domain);
+    if (first) return first.set.domain;
+    const id = subtopics && subtopics[0] && subtopics[0].id || '';
+    return id.split('-')[0] || '';
+  }
+
+  function getAppConfig() {
+    return window.GRAMMAR_QUEST_CONFIG && typeof window.GRAMMAR_QUEST_CONFIG === 'object'
+      ? window.GRAMMAR_QUEST_CONFIG
+      : {};
+  }
+
+  function getStoredSetting(key, fallback) {
+    try {
+      return localStorage.getItem(key) || fallback;
+    } catch (error) {
+      return fallback;
+    }
   }
 
   function hydrateMixedSubtopics(subtopics, sets) {

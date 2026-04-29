@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reference-skills chunk: reference-skills-dictionary-guide-words
  * Generated from assets/question-bank-source/reference-skills.json.
+ * Generator version: 1.
+ * Source hash: sha256:18e63a322a8a98cb4ca077085e5df26d5dd91dbf66c065ba0e437a0f61bc1537.
  */
 (function () {
   'use strict';

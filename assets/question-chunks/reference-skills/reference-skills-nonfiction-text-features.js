@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - reference-skills chunk: reference-skills-nonfiction-text-features
  * Generated from assets/question-bank-source/reference-skills.json.
+ * Generator version: 1.
+ * Source hash: sha256:fc4f503823b957839179fa6da16c1bb60cc64dfc4aa400de69f9ff56fc8ec6e1.
  */
 (function () {
   'use strict';

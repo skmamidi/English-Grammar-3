@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-rhyming
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:dfc21d867c34414a5d8e0fe77dfd36e1acbcd0d1f23973c4d7a2ebf6889e8f70.
  */
 (function () {
   'use strict';

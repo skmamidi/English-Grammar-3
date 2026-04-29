@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-comparatives-superlatives
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:124c313839eee0cd05324c3787cf1605f4f352fe5ebffab7eb344a55025c7702.
  */
 (function () {
   'use strict';

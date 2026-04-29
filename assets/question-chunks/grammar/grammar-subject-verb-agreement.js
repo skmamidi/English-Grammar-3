@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-subject-verb-agreement
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:b24c526237a0487dc5c1ad2981cb79df0c272efb027e31a77c5fb680c8c4875c.
  */
 (function () {
   'use strict';

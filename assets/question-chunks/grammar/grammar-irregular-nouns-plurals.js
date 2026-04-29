@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-irregular-nouns-plurals
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:26ad77cd8c775931e7d1fcf84836161a7446a713e33764fb692c5862fc648327.
  */
 (function () {
   'use strict';

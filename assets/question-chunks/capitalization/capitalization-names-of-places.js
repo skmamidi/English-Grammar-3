@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - capitalization chunk: capitalization-names-of-places
  * Generated from assets/question-bank-source/capitalization.json.
+ * Generator version: 1.
+ * Source hash: sha256:0daa6174cc11b06733690ae5d080d16ddb073d14fd0e1f21ad9853a9e2fd2a15.
  */
 (function () {
   'use strict';

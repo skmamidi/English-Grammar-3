@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - vocabulary chunk: vocabulary-synonyms-antonyms
  * Generated from assets/question-bank-source/vocabulary.json.
+ * Generator version: 1.
+ * Source hash: sha256:b0a27bd0dd319c9893b4ee4428a4c2deda0ea78e24ed0bedd28b6578779710f3.
  */
 (function () {
   'use strict';

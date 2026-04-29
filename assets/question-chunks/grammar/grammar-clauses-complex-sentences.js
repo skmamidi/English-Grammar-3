@@ -1,6 +1,8 @@
 /**
  * English Language Quiz App - grammar chunk: grammar-clauses-complex-sentences
  * Generated from assets/question-bank-source/grammar.json.
+ * Generator version: 1.
+ * Source hash: sha256:adf35a530d2ae5e51737e99027c6b2c74f7ec059ea392a2cf5c7550a188ba6a7.
  */
 (function () {
   'use strict';

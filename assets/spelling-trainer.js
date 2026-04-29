@@ -20,6 +20,43 @@
     questionStartedAt: 0
   };
 
+  const pronunciationOverrides = {
+    answer: { speech: "answer", slow: ["an", "ser"] },
+    architect: { speech: "architect", slow: ["arc", "uh", "tect"], stressIndex: 0 },
+    beautiful: { speech: "beautiful", slow: ["byoo", "ti", "ful"], stressIndex: 0 },
+    brought: { speech: "brought", slow: ["brawt"] },
+    bureau: { speech: "bureau", slow: ["byoo", "roh"], stressIndex: 0 },
+    business: { speech: "business", slow: ["biz", "ness"], stressIndex: 0 },
+    campaign: { speech: "campaign", slow: ["cam", "pain"], stressIndex: 1 },
+    character: { speech: "character", slow: ["care", "ick", "ter"], stressIndex: 0 },
+    chronological: { speech: "chronological", slow: ["kron", "uh", "loj", "i", "kul"], stressIndex: 2 },
+    colleague: { speech: "colleague", slow: ["kol", "leeg"], stressIndex: 0 },
+    conscience: { speech: "conscience", slow: ["kon", "shuns"], stressIndex: 0 },
+    conscious: { speech: "conscious", slow: ["kon", "shus"], stressIndex: 0 },
+    enough: { speech: "enough", slow: ["en", "uff"], stressIndex: 1 },
+    february: { speech: "February", slow: ["feb", "roo", "air", "ee"], stressIndex: 0 },
+    foreign: { speech: "foreign", slow: ["for", "in"], stressIndex: 0 },
+    height: { speech: "height", slow: ["hite"] },
+    honestly: { speech: "honestly", slow: ["on", "est", "lee"], stressIndex: 0 },
+    island: { speech: "island", slow: ["eye", "land"], stressIndex: 0 },
+    knowledge: { speech: "knowledge", slow: ["nol", "edge"], stressIndex: 0 },
+    neighbor: { speech: "neighbor", slow: ["nay", "ber"], stressIndex: 0 },
+    question: { speech: "question", slow: ["kwes", "chun"], stressIndex: 0 },
+    restaurant: { speech: "restaurant", slow: ["res", "tuh", "ront"], stressIndex: 0 },
+    rhythm: { speech: "rhythm", slow: ["rith", "um"], stressIndex: 0 },
+    soldier: { speech: "soldier", slow: ["sole", "jer"], stressIndex: 0 },
+    sovereignty: { speech: "sovereignty", slow: ["sov", "rin", "tee"], stressIndex: 0 },
+    thesaurus: { speech: "thesaurus", slow: ["thuh", "sor", "us"], stressIndex: 1 },
+    though: { speech: "though", slow: ["thoh"] },
+    thought: { speech: "thought", slow: ["thawt"] },
+    through: { speech: "through", slow: ["throo"] },
+    vehicle: { speech: "vehicle", slow: ["vee", "uh", "kul"], stressIndex: 0 },
+    whole: { speech: "whole", slow: ["hole"] },
+    whose: { speech: "whose", slow: ["hooz"] }
+  };
+
+  let preferredSpeechVoice = null;
+
   const patternInfo = {
     "tricky-sight": {
       label: "High-frequency memory word",
@@ -171,6 +208,7 @@
 
   function init() {
     if (!root) return;
+    prepareSpeechVoices();
     if (!bank || !Array.isArray(bank.questions) || bank.questions.length === 0) {
       root.innerHTML = '<div class="card"><p class="page-subtitle">Spelling words are coming soon.</p></div>';
       return;
@@ -429,6 +467,10 @@
           ${isCompletedView ? '<div class="answered-lock-note">Answered and locked for this attempt.</div>' : ''}
           <button class="btn btn-primary" type="submit" ${isCompletedView ? 'disabled' : ''}>Check Spelling</button>
         </form>
+        <div class="question-report-actions">
+          <button class="report-question-btn" id="report-spelling-question-btn" type="button">Report this question</button>
+          <span id="question-report-status" aria-live="polite"></span>
+        </div>
       </div>
 
       <div id="feedback-area"></div>
@@ -439,6 +481,8 @@
     document.getElementById('speak-word-slow').addEventListener('click', speakCurrentWordSlowly);
     document.getElementById('speak-clue').addEventListener('click', () => speakText(`${word.clue}. ${word.sentence.replace("____", "blank")}`));
     document.getElementById('hint-button').addEventListener('click', () => showNextHint(word));
+    const reportButton = document.getElementById('report-spelling-question-btn');
+    if (reportButton) reportButton.addEventListener('click', () => openSpellingQuestionReportDialog(word));
     const answerInput = document.getElementById('spelling-answer');
     if (isCompletedView) {
       renderFeedback(word, completedResult.attempt, getAnalysisFromResult(completedResult), { completedView: true });
@@ -588,6 +632,193 @@
         renderQuestion();
       }
     });
+  }
+
+  function openSpellingQuestionReportDialog(word) {
+    const dialog = ensureSpellingQuestionReportDialog();
+    const reason = dialog.querySelector('[data-question-report-reason]');
+    const note = dialog.querySelector('[data-question-report-note]');
+    const message = dialog.querySelector('[data-question-report-message]');
+    const prompt = dialog.querySelector('[data-question-report-prompt]');
+    if (reason) reason.value = 'answer_or_explanation';
+    if (note) note.value = '';
+    if (message) message.textContent = '';
+    if (prompt) prompt.textContent = getSpellingReportPrompt(word);
+    dialog.classList.remove('hidden');
+    document.body.classList.add('question-report-open');
+    if (note) note.focus();
+  }
+
+  function ensureSpellingQuestionReportDialog() {
+    let dialog = document.getElementById('question-report-dialog');
+    if (dialog) return dialog;
+    dialog = document.createElement('div');
+    dialog.id = 'question-report-dialog';
+    dialog.className = 'question-report-modal hidden';
+    dialog.setAttribute('role', 'dialog');
+    dialog.setAttribute('aria-modal', 'true');
+    dialog.setAttribute('aria-labelledby', 'question-report-title');
+    dialog.innerHTML = `
+      <div class="question-report-dialog">
+        <button class="auth-close" type="button" data-question-report-close aria-label="Close report dialog">x</button>
+        <div class="quest-kicker">Question report</div>
+        <h2 id="question-report-title">Tell a grown-up what looks wrong</h2>
+        <p class="question-report-prompt" data-question-report-prompt></p>
+        <label>
+          <span>What should they check?</span>
+          <select data-question-report-reason>
+            <option value="answer_or_explanation">Answer, clue, or explanation does not make sense</option>
+            <option value="typo">Typo or unclear wording</option>
+            <option value="audio_visual">Audio or layout issue</option>
+            <option value="other">Something else</option>
+          </select>
+        </label>
+        <label>
+          <span>Optional note</span>
+          <textarea data-question-report-note rows="4" maxlength="800" placeholder="What seemed confusing?"></textarea>
+        </label>
+        <p class="question-report-message" data-question-report-message></p>
+        <div class="question-report-dialog-actions">
+          <button class="btn btn-secondary" type="button" data-question-report-close>Cancel</button>
+          <button class="btn btn-primary" type="button" data-question-report-save>Send report</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(dialog);
+    dialog.addEventListener('click', event => {
+      if (event.target === dialog || event.target.closest('[data-question-report-close]')) {
+        closeSpellingQuestionReportDialog();
+      }
+      if (event.target.closest('[data-question-report-save]')) {
+        saveSpellingQuestionReportFromDialog(dialog);
+      }
+    });
+    dialog.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeSpellingQuestionReportDialog();
+    });
+    return dialog;
+  }
+
+  function closeSpellingQuestionReportDialog() {
+    const dialog = document.getElementById('question-report-dialog');
+    if (dialog) dialog.classList.add('hidden');
+    document.body.classList.remove('question-report-open');
+    const button = document.getElementById('report-spelling-question-btn');
+    if (button) button.focus();
+  }
+
+  function saveSpellingQuestionReportFromDialog(dialog) {
+    const message = dialog.querySelector('[data-question-report-message]');
+    const saveButton = dialog.querySelector('[data-question-report-save]');
+    const reason = dialog.querySelector('[data-question-report-reason]');
+    const note = dialog.querySelector('[data-question-report-note]');
+    try {
+      if (isParentMode()) {
+        throw new Error('Question reports are saved from student practice, so they appear under the student profile.');
+      }
+      if (saveButton) saveButton.disabled = true;
+      const report = buildSpellingQuestionReportPayload({
+        reason: reason ? reason.value : '',
+        note: note ? note.value : ''
+      });
+      const progress = loadProgress();
+      const reports = progressStore && typeof progressStore.normalizeReports === 'function'
+        ? progressStore.normalizeReports(progress.reports)
+        : Object.assign({ sessions: [], questionReports: [] }, progress.reports || {});
+      reports.questionReports = [report]
+        .concat(Array.isArray(reports.questionReports) ? reports.questionReports : [])
+        .slice(0, 500);
+      progress.reports = reports;
+      saveProgress(progress, { sync: true });
+      updateQuestionReportStatus('Report sent for grown-up review.');
+      if (message) message.textContent = 'Report sent for grown-up review.';
+      window.setTimeout(closeSpellingQuestionReportDialog, 600);
+    } catch (error) {
+      if (message) message.textContent = error.message || 'Could not send this report.';
+    } finally {
+      if (saveButton) saveButton.disabled = false;
+    }
+  }
+
+  function buildSpellingQuestionReportPayload(details) {
+    const word = state.words[state.index] || {};
+    const result = getCompletedResultForIndex(state.index);
+    const input = document.getElementById('spelling-answer');
+    const attempt = result && result.attempt ? result.attempt : (input ? input.value.trim() : '');
+    const patterns = Array.isArray(word.patterns) ? word.patterns : [];
+    const patternLabels = patterns.map(getPatternLabel);
+    const createdAt = new Date().toISOString();
+    const difficulty = getQuestionLevel(word);
+    const analysis = result
+      ? getAnalysisFromResult(result)
+      : (attempt && word && Array.isArray(word.patterns) ? analyzeAttempt(word, attempt) : { correct: false, detected: [], patterns });
+    return {
+      id: `question-report-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      status: 'open',
+      reason: String(details && details.reason || 'answer_or_explanation'),
+      note: String(details && details.note || '').trim().slice(0, 800),
+      createdAt,
+      updatedAt: createdAt,
+      studentId: getActiveStudentId(),
+      studentName: getActiveStudentName(),
+      setId: 'sound-symbols-spelling-lab',
+      title: bank && bank.title || 'Sound/Symbol Spelling Lab',
+      topic: bank && bank.topic || 'Sound/Symbol Correspondences',
+      grade: String(state.selectedGrade),
+      difficulty: state.selectedDifficulty === 'all' ? difficulty : state.selectedDifficulty,
+      questionId: getWordAttemptId(word),
+      question: getSpellingReportPrompt(word),
+      choices: [],
+      selectedIndex: -1,
+      selectedChoice: attempt,
+      correctIndex: -1,
+      correctChoice: word.word || '',
+      explanation: {
+        correct: getSpellingExplanation(word, analysis),
+        incorrect: []
+      },
+      studyAid: {
+        definition: 'Use the sound, syllable, and spelling pattern clues to spell the word.',
+        example: `${word.word || ''}${word.syllables ? ` = ${word.syllables}` : ''}`.trim()
+      },
+      subtopicId: 'sound-symbols-spelling-lab',
+      subtopicTitle: 'Sound/Symbol Spelling Lab',
+      skills: ['sound-symbol encoding', 'spelling'].concat(patternLabels),
+      pagePath: window.location.pathname,
+      pageUrl: window.location.href,
+      spelling: {
+        word: word.word || '',
+        attempt,
+        clue: word.clue || '',
+        sentence: word.sentence || '',
+        syllables: word.syllables || '',
+        patterns,
+        patternLabels,
+        detected: analysis.detected || [],
+        hintsUsed: result ? Number(result.hintsUsed) || 0 : state.hintLevel,
+        memory: word.memory || '',
+        correct: result ? !!result.correct : normalize(attempt) === normalize(word.word || '')
+      }
+    };
+  }
+
+  function getSpellingReportPrompt(word) {
+    return `Spell "${word && word.word || 'the word'}" from the clue: ${word && word.clue || ''}`;
+  }
+
+  function getSpellingExplanation(word, analysis) {
+    const parts = [`Target spelling: ${word && word.word || ''}.`];
+    if (word && word.syllables) parts.push(`Syllables: ${word.syllables}.`);
+    if (word && word.memory) parts.push(`Memory move: ${word.memory}`);
+    if (analysis && Array.isArray(analysis.detected) && analysis.detected.length) {
+      parts.push(`Feedback shown: ${analysis.detected.join(' ')}`);
+    }
+    return parts.join(' ').trim();
+  }
+
+  function updateQuestionReportStatus(text) {
+    const status = document.getElementById('question-report-status');
+    if (status) status.textContent = text || '';
   }
 
   function showNextHint(word) {
@@ -893,7 +1124,7 @@
   function speakCurrentWord() {
     const word = state.words[state.index];
     if (!word) return;
-    speakText(word.word);
+    speakWord(word);
   }
 
   function speakCurrentWordSlowly() {
@@ -906,10 +1137,11 @@
     if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
 
-    const syllables = getPronunciationSyllables(word);
-    const stressIndex = getPrimaryStressIndex(word, syllables);
+    const pronunciation = getPronunciationProfile(word);
+    const syllables = pronunciation.slow;
+    const stressIndex = getPrimaryStressIndex(word, syllables, pronunciation.stressIndex);
     const utterances = [
-      createUtterance(word.word, { rate: 0.56, pitch: 1.02 })
+      createUtterance(pronunciation.speech, { rate: 0.56, pitch: 1.02 })
     ];
 
     if (syllables.length > 1) {
@@ -920,10 +1152,31 @@
           volume: index === stressIndex ? 1 : 0.82
         }));
       });
-      utterances.push(createUtterance(word.word, { rate: 0.62, pitch: 1.04 }));
+      utterances.push(createUtterance(pronunciation.speech, { rate: 0.62, pitch: 1.04 }));
     }
 
     utterances.forEach(utterance => window.speechSynthesis.speak(utterance));
+  }
+
+  function speakWord(word, options = {}) {
+    const pronunciation = getPronunciationProfile(word);
+    speakText(pronunciation.speech, options);
+  }
+
+  function getPronunciationProfile(word) {
+    const key = normalize(word && word.word || '');
+    const override = pronunciationOverrides[key] || {};
+    const dataSlow = Array.isArray(word && word.pronunciationSyllables)
+      ? word.pronunciationSyllables
+      : null;
+    const slow = (dataSlow || override.slow || getPronunciationSyllables(word))
+      .map(part => String(part || '').trim())
+      .filter(Boolean);
+    return {
+      speech: String((word && word.pronunciation) || override.speech || (word && word.word) || ''),
+      slow: slow.length ? slow : [String(word && word.word || '')],
+      stressIndex: Number.isFinite(override.stressIndex) ? override.stressIndex : null
+    };
   }
 
   function getPronunciationSyllables(word) {
@@ -933,7 +1186,10 @@
       .filter(Boolean);
   }
 
-  function getPrimaryStressIndex(word, syllables) {
+  function getPrimaryStressIndex(word, syllables, overrideIndex) {
+    if (Number.isFinite(overrideIndex)) {
+      return Math.min(Math.max(0, overrideIndex), Math.max(0, syllables.length - 1));
+    }
     if (syllables.length <= 1) return 0;
     const lowerWord = word.word.toLowerCase();
     const unstressedOpeners = new Set(["a", "be", "de", "e", "in", "re"]);
@@ -954,10 +1210,50 @@
   function createUtterance(text, options = {}) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
+    const voice = getPreferredSpeechVoice();
+    if (voice) utterance.voice = voice;
     utterance.rate = options.rate || 0.78;
     utterance.pitch = options.pitch || 1.04;
     utterance.volume = options.volume || 1;
     return utterance;
+  }
+
+  function prepareSpeechVoices() {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.getVoices();
+    if (typeof window.speechSynthesis.addEventListener === 'function') {
+      window.speechSynthesis.addEventListener('voiceschanged', () => {
+        preferredSpeechVoice = null;
+      });
+    } else if ('onvoiceschanged' in window.speechSynthesis) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        preferredSpeechVoice = null;
+      };
+    }
+  }
+
+  function getPreferredSpeechVoice() {
+    if (preferredSpeechVoice) return preferredSpeechVoice;
+    if (!('speechSynthesis' in window)) return null;
+    const voices = window.speechSynthesis.getVoices();
+    if (!voices.length) return null;
+    preferredSpeechVoice = voices
+      .filter(voice => /^en(-|_)?/i.test(voice.lang || ''))
+      .sort((a, b) => scoreSpeechVoice(b) - scoreSpeechVoice(a))[0] || null;
+    return preferredSpeechVoice;
+  }
+
+  function scoreSpeechVoice(voice) {
+    const name = `${voice.name || ''} ${voice.voiceURI || ''}`.toLowerCase();
+    const lang = String(voice.lang || '').toLowerCase();
+    let score = 0;
+    if (lang === 'en-us') score += 80;
+    else if (lang.startsWith('en-us')) score += 70;
+    else if (lang.startsWith('en')) score += 35;
+    if (voice.default) score += 5;
+    if (/samantha|ava|allison|zoe|karen|moira|tessa|victoria|google us english|microsoft (aria|jenny|guy)|natural|premium|enhanced/.test(name)) score += 20;
+    if (/compact|novelty|whisper|zarvox|bells|boing|bubbles|cellos|deranged|hysterical|trinoids/.test(name)) score -= 80;
+    return score;
   }
 
   function getResultMessage(percentage) {
@@ -976,7 +1272,7 @@
       bestScore: 0,
       lastPracticeDate: '',
       badges: [],
-      reports: { sessions: [] },
+      reports: { sessions: [], questionReports: [] },
       activeQuiz: null,
       mastery: {}
     };
@@ -1127,7 +1423,10 @@
   function updateSpellingReports(existingReports, results, summary) {
     const reports = progressStore && typeof progressStore.normalizeReports === 'function'
       ? progressStore.normalizeReports(existingReports)
-      : { sessions: Array.isArray(existingReports && existingReports.sessions) ? existingReports.sessions : [] };
+      : {
+          sessions: Array.isArray(existingReports && existingReports.sessions) ? existingReports.sessions : [],
+          questionReports: Array.isArray(existingReports && existingReports.questionReports) ? existingReports.questionReports : []
+        };
     const completedAt = summary.completedAt || new Date().toISOString();
     const session = {
       id: `spelling-session-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
@@ -1152,9 +1451,9 @@
       attempts: (results || []).map((result, index) => serializeSpellingAttempt(result, index + 1, completedAt))
     };
 
-    return {
+    return Object.assign({}, reports, {
       sessions: [session].concat(reports.sessions || []).slice(0, 250)
-    };
+    });
   }
 
   function serializeSpellingAttempt(result, position, completedAt) {

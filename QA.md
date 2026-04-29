@@ -24,6 +24,14 @@ That command runs:
 - `npm run test:unit` for quiz selection and progress/report contracts using Node's built-in test runner.
 - `npm run test:ui` for core Playwright smoke tests against a local static server.
 
+For a faster local confidence loop, run:
+
+```bash
+npm run test:fast
+```
+
+That command runs generated question artifact QA and the Node domain/unit contracts. Use `npm run test:browser` for the normal browser smoke pass, and `npm run test:full` for the release-grade gate that also includes all-subtopic, accessibility, visual, and offline coverage.
+
 ## Focused Commands
 
 ```bash
@@ -39,8 +47,13 @@ npm run questions:normalize
 npm run questions:write
 npm run test:unit
 npm run test:ui
+npm run test:fast
+npm run test:browser
+npm run test:browser:all
 npm run test:a11y
 npm run test:visual
+npm run test:offline
+npm run test:full
 ```
 
 Run the slower all-subtopic browser smoke pass:
@@ -98,3 +111,5 @@ The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks t
 - Offline smoke verifies that a warmed quiz reloads from cached shell assets and chunks, and that an uncached question chunk shows an explicit offline fallback. Run it with `npm run test:offline`.
 - Offline smoke tracks structured request/response failures and reports exact URL/status pairs. App-owned assets such as `/assets/`, `/topics/`, `index.html`, `reports.html`, and `character-library.html` remain fatal when missing; explicitly scoped browser-default noise such as `/favicon.ico` is ignored.
 - CI runs `npm ci`, installs Playwright-managed Chromium with `npx playwright install --with-deps chromium`, and then runs `npm test`. Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` only when debugging locally with a specific browser binary.
+- Scheduled full regression lives in `.github/workflows/full-regression.yml` and runs `npm run test:full` nightly, on manual dispatch, and on `main` or `release/**` pushes. Failure uploads include Playwright output, test results, visual baselines, and debug logs.
+- Release gates are documented in `docs/release-checklist.md`; releases should confirm generated artifacts are fresh, fast/browser/full gates pass, and selection telemetry/fallback rates look healthy before widening rollout.

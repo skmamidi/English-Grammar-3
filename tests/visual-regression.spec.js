@@ -6,6 +6,7 @@ const fs = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
 const { chromium } = require('playwright');
+const { assertVisualSignatureMatches } = require('./helpers/visual-signature');
 
 const repoRoot = path.resolve(__dirname, '..');
 const baselineRoot = path.join(__dirname, 'visual-baselines');
@@ -53,7 +54,7 @@ async function main() {
         if (updateBaselines) {
           fs.writeFileSync(baselinePath, `${JSON.stringify(signature, null, 2)}\n`);
         } else {
-          assert.deepEqual(signature, JSON.parse(fs.readFileSync(baselinePath, 'utf8')));
+          assertVisualSignatureMatches(signature, JSON.parse(fs.readFileSync(baselinePath, 'utf8')));
         }
         await page.context().close();
       });

@@ -167,6 +167,54 @@ test('visual regression suite and design token contract exist', () => {
   assert.ok(baselines.length >= 8, 'expected reviewed visual baselines');
 });
 
+test('package scripts expose fast browser and full regression gates', () => {
+  const pkg = readJson('package.json');
+
+  assert.equal(pkg.scripts['test:fast'], 'npm run qa:questions && npm run test:unit');
+  assert.equal(pkg.scripts['test:browser'], 'npm run test:ui');
+  assert.equal(pkg.scripts['test:browser:all'], 'npm run test:ui:all');
+  assert.match(pkg.scripts['test:full'], /npm run test:fast/);
+  assert.match(pkg.scripts['test:full'], /npm run qa:content/);
+  assert.match(pkg.scripts['test:full'], /npm run test:browser/);
+  assert.match(pkg.scripts['test:full'], /npm run test:browser:all/);
+  assert.match(pkg.scripts['test:full'], /npm run test:a11y/);
+  assert.match(pkg.scripts['test:full'], /npm run test:visual/);
+  assert.match(pkg.scripts['test:full'], /npm run test:offline/);
+});
+
+test('scheduled full regression workflow is reproducible and artifact-backed', () => {
+  const workflow = fs.readFileSync(path.join(repoRoot, '.github', 'workflows', 'full-regression.yml'), 'utf8');
+
+  assert.match(workflow, /schedule:/);
+  assert.match(workflow, /cron:\s*['"]0 10 \* \* \*['"]/);
+  assert.match(workflow, /workflow_dispatch:/);
+  assert.match(workflow, /release\/\*\*/);
+  assert.match(workflow, /actions\/setup-node@v4/);
+  assert.match(workflow, /node-version:\s*20/);
+  assert.match(workflow, /cache:\s*npm/);
+  assert.match(workflow, /run:\s*npm ci/);
+  assert.match(workflow, /run:\s*npx playwright install --with-deps chromium/);
+  assert.match(workflow, /run:\s*npm run test:full/);
+  assert.match(workflow, /actions\/upload-artifact@v4/);
+  assert.match(workflow, /if:\s*failure\(\)/);
+  assert.match(workflow, /playwright-report/);
+  assert.match(workflow, /test-results/);
+  assert.match(workflow, /tests\/visual-baselines/);
+});
+
+test('release checklist documents full gates and generated artifact freshness', () => {
+  const checklist = fs.readFileSync(path.join(repoRoot, 'docs', 'release-checklist.md'), 'utf8');
+
+  assert.match(checklist, /npm run questions:write/);
+  assert.match(checklist, /npm run qa:content/);
+  assert.match(checklist, /npm run test:fast/);
+  assert.match(checklist, /npm run test:browser/);
+  assert.match(checklist, /npm run test:full/);
+  assert.match(checklist, /scheduled full regression/i);
+  assert.match(checklist, /telemetry/i);
+  assert.match(checklist, /fallback/i);
+});
+
 function readJson(file) {
   return JSON.parse(fs.readFileSync(path.join(repoRoot, file), 'utf8'));
 }

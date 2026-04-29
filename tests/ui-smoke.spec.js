@@ -54,6 +54,15 @@ async function main() {
       });
     }
 
+    if (representativeSubtopics.length) {
+      await runCase(failures, `${representativeSubtopics[0]} completion preserves question reports`, async () => {
+        const page = await newPage(browser);
+        await visitClean(page, server.baseURL, representativeSubtopics[0]);
+        await assertQuizCompletionPreservesQuestionReports(page, representativeSubtopics[0]);
+        await page.close();
+      });
+    }
+
     await runCase(failures, 'topics/sound-symbols/index.html spelling lab flow', async () => {
       const page = await newPage(browser);
       await visitClean(page, server.baseURL, 'topics/sound-symbols/index.html');
@@ -238,6 +247,50 @@ async function assertQuizFlow(page, file) {
   await assertVisible(page, '#next-question-btn', file);
   await page.click('#next-question-btn');
   assert.match(await textContent(page, '#quiz-root'), /Question|Results|Score|Review/i);
+}
+
+async function assertQuizCompletionPreservesQuestionReports(page, file) {
+  await assertVisible(page, '#quiz-root', file);
+  if (!(await exists(page, '#start-btn'))) return;
+  await page.evaluate(() => {
+    localStorage.setItem('grammarQuestProgress', JSON.stringify({
+      reports: {
+        sessions: [],
+        questionReports: [{
+          id: 'question-report-existing',
+          status: 'open',
+          questionId: 'grammar-sentence-types-q0001',
+          questionVersion: 1,
+          questionHash: 'sha256:abc',
+          reason: 'answer_or_explanation',
+          createdAt: '2026-04-29T12:00:00.000Z',
+          updatedAt: '2026-04-29T12:00:00.000Z'
+        }]
+      }
+    }));
+  });
+
+  await page.click('#start-btn');
+  for (let step = 0; step < 30 && !(await exists(page, '#restart-btn')); step += 1) {
+    await assertVisible(page, '.question-box', file);
+    if (await exists(page, '.confidence-btn')) await page.click('.confidence-btn');
+    await page.click('.choice-btn');
+    if (await exists(page, '#restart-btn')) break;
+    assert.match(await textContent(page, '#feedback-area'), /Correct|Not quite/);
+    if (await exists(page, '#next-question-btn')) await page.click('#next-question-btn');
+  }
+
+  await assertVisible(page, '#restart-btn', `${file} results`);
+  const reports = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').reports);
+  assert.ok(Array.isArray(reports.sessions), `${file} should save sessions`);
+  assert.equal(reports.sessions.length, 1, `${file} should append one session`);
+  assert.ok(Array.isArray(reports.questionReports), `${file} should preserve questionReports`);
+  assert.equal(reports.questionReports.length, 1, `${file} should keep the seeded question report`);
+  assert.equal(reports.questionReports[0].id, 'question-report-existing');
+  assert.equal(reports.questionReports[0].status, 'open');
+  assert.equal(reports.questionReports[0].questionId, 'grammar-sentence-types-q0001');
+  assert.equal(reports.questionReports[0].questionVersion, 1);
+  assert.equal(reports.questionReports[0].questionHash, 'sha256:abc');
 }
 
 async function assertParentPreview(page, file) {

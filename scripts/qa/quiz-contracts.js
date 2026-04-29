@@ -140,6 +140,15 @@ function validateActiveQuiz(activeQuiz) {
   });
 }
 
+function validateQuestionReport(report) {
+  const required = ['id', 'status', 'questionId', 'questionVersion', 'questionHash'];
+  return required.filter(key => {
+    if (!(key in (report || {}))) return true;
+    if (key === 'questionVersion') return !Number.isFinite(Number(report[key]));
+    return report[key] === undefined || report[key] === null || report[key] === '';
+  });
+}
+
 module.exports = {
   gradeOptions,
   difficultyOptions,
@@ -150,5 +159,6 @@ module.exports = {
   questionSupportsGrade,
   getDifficultyDistance,
   validateSerializedAttempt,
-  validateActiveQuiz
+  validateActiveQuiz,
+  validateQuestionReport
 };

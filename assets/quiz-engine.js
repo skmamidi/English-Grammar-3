@@ -2438,7 +2438,8 @@
     };
 
     return enrichReports({
-      sessions: [session].concat(reports.sessions || []).slice(0, 250)
+      sessions: [session].concat(reports.sessions || []).slice(0, 250),
+      questionReports: Array.isArray(reports.questionReports) ? reports.questionReports : []
     });
   }
 
@@ -2485,7 +2486,7 @@
       });
     });
 
-    return {
+    return Object.assign({}, reports, {
       sessions,
       daily: Object.keys(daily).map(key => Object.assign(daily[key], {
         topicCount: Object.keys(daily[key].topics).length,
@@ -2497,7 +2498,7 @@
       questions: Object.keys(questions).map(key => Object.assign(questions[key], {
         missRate: questions[key].attempts ? questions[key].misses / questions[key].attempts : 0
       })).sort((a, b) => b.misses - a.misses || b.missRate - a.missRate)
-    };
+    });
   }
 
   function getResumableQuiz() {

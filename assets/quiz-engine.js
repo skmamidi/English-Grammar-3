@@ -740,7 +740,7 @@
       correctChoice: choices[correctIndex] || '',
       explanation: question.explanation || null,
       studyAid: question.studyAid || null,
-      visualScene: question.visualScene || null,
+      visualScene: getVisualQuestionScene(question),
       subtopicId: subtopic.id,
       subtopicTitle: subtopic.title,
       skills: Array.isArray(metadata.skills) ? metadata.skills : [],
@@ -788,12 +788,15 @@
     }, options));
   }
 
+  function getVisualQuestionScene(question) {
+    const scene = question && (question.visualScene || question.generatedVisualScene);
+    return scene && scene.type === 'dialogue-scene' ? scene : null;
+  }
+
   function renderCharacterNotes(question, index) {
     const catalog = window.GrammarQuestCharacters;
     if (!catalog) return '';
-    const scene = question && question.visualScene && question.visualScene.type === 'dialogue-scene'
-      ? question.visualScene
-      : null;
+    const scene = getVisualQuestionScene(question);
     const dialogue = scene && Array.isArray(scene.dialogue) ? scene.dialogue.slice(0, 2) : [];
     const entries = dialogue.length
       ? dialogue.map((entry, slot) => getSceneCharacter(entry && entry.characterId, slot))
@@ -865,8 +868,9 @@
   }
 
   function renderQuestionPrompt(question, options) {
-    if (question && question.visualScene && question.visualScene.type === 'dialogue-scene') {
-      return renderVisualQuestionScene(question.visualScene, question);
+    const scene = getVisualQuestionScene(question);
+    if (scene) {
+      return renderVisualQuestionScene(scene, question);
     }
     const prompt = getDisplayPromptParts(question && question.question);
     return `
@@ -2518,7 +2522,7 @@
       correctChoice: choices[correctIndex] || '',
       explanation: question && question.explanation || null,
       studyAid: question && question.studyAid || null,
-      visualScene: question && question.visualScene || null
+      visualScene: getVisualQuestionScene(question)
     };
   }
 
@@ -2599,7 +2603,7 @@
       correctChoice: choices[correctIndex] || '',
       explanation: question.explanation || null,
       studyAid: question.studyAid || null,
-      visualScene: question.visualScene || null,
+      visualScene: getVisualQuestionScene(question),
       correct: !!attempt.correct,
       firstAttemptCorrect: !!attempt.correct,
       confidence: attempt.confidence || 'thinking',

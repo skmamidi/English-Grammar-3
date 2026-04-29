@@ -284,6 +284,7 @@ async function assertQuizFlow(page, file) {
   if (await exists(page, '#difficulty-select')) await assertVisible(page, '#difficulty-select', file);
   await page.click('#start-btn');
   await assertVisible(page, '.question-box', file);
+  await assertVisible(page, '.visual-question-scene', `${file} visual question scene`);
   await page.click('.confidence-btn');
   await page.click('.choice-btn');
   assert.match(await textContent(page, '#feedback-area'), /Correct|Not quite/);
@@ -293,6 +294,11 @@ async function assertQuizFlow(page, file) {
   assert.ok(activeQuiz.questionRefs[0].id, `${file} questionRefs should include ids`);
   assert.ok(activeQuiz.questionRefs[0].version >= 1, `${file} questionRefs should include versions`);
   assert.ok(activeQuiz.questionRefs[0].contentHash, `${file} questionRefs should include hashes`);
+  assert.equal(activeQuiz.questions[0].contentHash, activeQuiz.questionRefs[0].contentHash, `${file} generated scenes should not mutate question hashes`);
+  assert.ok(activeQuiz.questions[0].generatedVisualScene || activeQuiz.questions[0].visualScene, `${file} should retain a renderable visual scene`);
+  if (activeQuiz.questions[0].generatedVisualScene) {
+    assert.equal(activeQuiz.questions[0].visualScene, undefined, `${file} generated scene should not overwrite authored visualScene`);
+  }
   assert.ok(activeQuiz.attempts[0].questionId, `${file} attempts should include questionId`);
   assert.ok(activeQuiz.attempts[0].questionVersion >= 1, `${file} attempts should include questionVersion`);
   assert.ok(activeQuiz.attempts[0].questionHash, `${file} attempts should include questionHash`);

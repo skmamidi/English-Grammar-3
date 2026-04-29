@@ -1,8 +1,15 @@
 const assert = require('node:assert/strict');
+const fs = require('fs');
+const path = require('path');
 const test = require('node:test');
+const vm = require('vm');
 
 const { validateContent, validateLoadedContent } = require('../scripts/qa/content-qa');
 const { loadQuestionBanks, getBankSizeSummary } = require('../scripts/qa/bank-loader');
+const { normalizeQuestion } = require('../scripts/assign-question-ids');
+const { computeContentHash } = require('../scripts/qa/question-metadata');
+
+const repoRoot = path.resolve(__dirname, '..');
 
 test('all question banks load and satisfy the content contract', () => {
   const result = validateContent();
@@ -78,6 +85,66 @@ test('content QA fails invalid version, missing contentHash, and sourceSet drift
   assert.ok(rerun.errors.find(item => item.message.includes('metadata.sourceSet must match')), 'expected sourceSet mismatch to fail');
 });
 
+test('authored visualScene participates in contentHash', () => {
+  const question = makeQuestion('visual-contract-q0001', 'visual-contract', 1, {
+    visualScene: makeScene('Original scene line')
+  });
+  const before = computeContentHash(question);
+
+  question.visualScene.dialogue[0].text = 'Changed scene line';
+
+  assert.notEqual(computeContentHash(question), before);
+});
+
+test('generated visual scene is excluded from contentHash validation', () => {
+  const question = makeQuestion('visual-contract-q0001', 'visual-contract', 1);
+  const contentHash = computeContentHash(question);
+  question.contentHash = contentHash;
+  question.generatedVisualScene = makeScene('Runtime-only scene line');
+
+  const rerun = validateLoadedContent(makeLoadedBank('visual-contract', [question]));
+
+  assert.equal(computeContentHash(question), contentHash);
+  assert.equal(rerun.errors.length, 0, rerun.errors.map(issue => issue.message).join('\n'));
+});
+
+test('visual scene enhancer writes generatedVisualScene without overwriting authored visualScene', () => {
+  const authored = makeQuestion('grammar-sentence-types-q0001', 'grammar-sentence-types', 1, {
+    visualScene: makeScene('Authored bank scene line')
+  });
+  const runtimeOnly = makeQuestion('grammar-sentence-types-q0002', 'grammar-sentence-types', 2);
+  authored.contentHash = computeContentHash(authored);
+  runtimeOnly.contentHash = computeContentHash(runtimeOnly);
+
+  const bank = {
+    'grammar-sentence-types': {
+      title: 'Sentence Types',
+      topic: 'Grammar',
+      questions: [authored, runtimeOnly]
+    }
+  };
+  runVisualSceneEnhancer(bank);
+
+  assert.equal(authored.visualScene.dialogue[0].text, 'Authored bank scene line');
+  assert.equal(authored.generatedVisualScene, undefined);
+  assert.equal(runtimeOnly.visualScene, undefined);
+  assert.equal(runtimeOnly.generatedVisualScene.type, 'dialogue-scene');
+  assert.equal(computeContentHash(runtimeOnly), runtimeOnly.contentHash);
+});
+
+test('assign-question-ids keeps hashes stable when runtime generated scenes are present', () => {
+  const question = makeQuestion('visual-contract-q0001', 'visual-contract', 1, {
+    generatedVisualScene: makeScene('Runtime-only scene line')
+  });
+  const contentHash = computeContentHash(question);
+
+  const normalized = normalizeQuestion(question, question.id, contentHash, 'visual-contract', 1, false);
+
+  assert.equal(normalized.contentHash, contentHash);
+  assert.equal(normalized.generatedVisualScene.dialogue[0].text, 'Runtime-only scene line');
+  assert.equal(normalized.visualScene, undefined);
+});
+
 test('question-bank size snapshot is available for performance budget tracking', () => {
   const bankLoad = loadQuestionBanks();
   const summary = getBankSizeSummary(bankLoad);
@@ -85,3 +152,82 @@ test('question-bank size snapshot is available for performance budget tracking',
   assert.ok(summary.largest);
   assert.ok(summary.files.length >= 1);
 });
+
+function makeQuestion(id, sourceSet, sequence, overrides = {}) {
+  return Object.assign({
+    id,
+    version: 1,
+    contentHash: '',
+    question: 'Which sentence is a command?',
+    choices: ['Close the door.', 'The door is closed.'],
+    correct: 0,
+    explanation: {
+      correct: 'A command tells someone what to do.',
+      incorrect: [
+        'This choice gives a command.',
+        'This choice states information.'
+      ]
+    },
+    studyAid: {
+      definition: 'A command tells someone to do something.',
+      example: 'Close the door.'
+    },
+    metadata: {
+      sourceSet,
+      sequence
+    }
+  }, overrides);
+}
+
+function makeScene(text) {
+  return {
+    type: 'dialogue-scene',
+    title: 'Scene Contract',
+    setting: 'classroom',
+    board: 'Board',
+    narration: 'Characters discuss the question.',
+    prompt: 'Which sentence is a command?',
+    clue: 'A command tells someone to do something.',
+    dialogue: [{
+      characterId: 'mina-mapwise',
+      mood: 'curious',
+      text
+    }]
+  };
+}
+
+function makeLoadedBank(setId, questions) {
+  const file = path.join(repoRoot, 'tests', `${setId}.fixture.js`);
+  return {
+    files: [{
+      file,
+      relativeFile: path.relative(repoRoot, file),
+      bytes: 1,
+      bank: {
+        [setId]: {
+          title: 'Visual Contract',
+          topic: 'Grammar',
+          questions
+        }
+      }
+    }],
+    bank: {
+      [setId]: {
+        title: 'Visual Contract',
+        topic: 'Grammar',
+        questions
+      }
+    }
+  };
+}
+
+function runVisualSceneEnhancer(bank) {
+  const code = fs.readFileSync(path.join(repoRoot, 'assets', 'visual-question-scenes.js'), 'utf8');
+  const context = {
+    window: {
+      QUESTION_BANK: bank
+    }
+  };
+  vm.createContext(context);
+  vm.runInContext(code, context, { filename: 'assets/visual-question-scenes.js' });
+}

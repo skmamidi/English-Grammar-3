@@ -2,13 +2,16 @@
 
 const crypto = require('crypto');
 
+const AUTHORED_SCENE_FIELD = 'visualScene';
+const GENERATED_SCENE_FIELD = 'generatedVisualScene';
+
 const HASH_FIELDS = [
   'question',
   'choices',
   'correct',
   'explanation',
   'studyAid',
-  'visualScene'
+  AUTHORED_SCENE_FIELD
 ];
 
 function buildQuestionId(setId, sequence) {
@@ -56,6 +59,8 @@ function getQuestionSourceSet(question, setId) {
 }
 
 module.exports = {
+  AUTHORED_SCENE_FIELD,
+  GENERATED_SCENE_FIELD,
   HASH_FIELDS,
   buildQuestionId,
   computeContentHash,

@@ -170,13 +170,12 @@
       if (!set || !Array.isArray(set.questions)) return;
       set.questions.forEach((question, index) => {
         const sequence = question && question.metadata && question.metadata.sequence;
+        if (question.visualScene) return;
         if (setId === 'grammar-sentence-types' && sentenceTypeScenes[sequence]) {
-          question.visualScene = sentenceTypeScenes[sequence];
+          question.generatedVisualScene = sentenceTypeScenes[sequence];
           return;
         }
-        if (!question.visualScene) {
-          question.visualScene = buildAdaptiveScene(setId, set, question, index);
-        }
+        question.generatedVisualScene = buildAdaptiveScene(setId, set, question, index);
       });
     });
   }

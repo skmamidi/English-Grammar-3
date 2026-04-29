@@ -19,12 +19,15 @@ Every question must include durable identity metadata:
 - `id` is permanent. Do not change it when moving a question between files or chunks.
 - `version` starts at `1` and increments when learner-facing content changes.
 - `contentHash` is generated from learner-facing fields: `question`, `choices`, `correct`, `explanation`, `studyAid`, and `visualScene`.
+- `visualScene` is reserved for authored, learner-facing scene content stored in the question bank. It participates in `contentHash`.
+- `generatedVisualScene` is reserved for runtime/adaptive renderer output and saved quiz snapshots. It does not participate in `contentHash`.
 - `metadata.sourceSet` must match the containing question set.
 - `metadata.sequence` must be unique inside the set and align with the generated ID suffix.
 
 ## Versioning Rules
 
 - Fixing a typo in a prompt, choice, explanation, study aid, or visual scene increments `version`.
+- Editing runtime scene-generation code or generated/adaptive scene output does not increment question `version`.
 - Changing `correct` increments `version`.
 - Changing grade or difficulty metadata does not increment `version` unless it changes learner-facing selection expectations.
 - Moving a question between files or future chunks keeps the same `id`.

@@ -109,3 +109,9 @@ function normalizeQuestion(question, id, contentHash, setId, sequence, allowDupl
 }
 
 if (require.main === module) main();
+
+module.exports = {
+  loadBankFile,
+  main,
+  normalizeQuestion
+};

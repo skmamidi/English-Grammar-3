@@ -163,8 +163,20 @@ test('visual regression suite and design token contract exist', () => {
   assert.match(pkg.scripts.test, /npm run test:visual/);
   assert.match(styles, /design-tokens\.css/);
   assert.match(visualTest, /toVisualSignature/);
+  assert.match(visualTest, /writeVisualFailureArtifacts/);
+  assert.match(visualTest, /writeScreenshotDriftArtifact/);
   assert.match(visualDocs, /baseline/i);
+  assert.match(visualDocs, /semantic/i);
+  assert.match(visualDocs, /runtime/i);
   assert.ok(baselines.length >= 8, 'expected reviewed visual baselines');
+  baselines.forEach(file => {
+    const baseline = readJson(path.join('tests', 'visual-baselines', file));
+    assert.equal(typeof baseline.runtime.browserName, 'string', `${file} records browser name`);
+    assert.equal(typeof baseline.runtime.browserVersion, 'string', `${file} records browser version`);
+    assert.equal(typeof baseline.runtime.platform, 'string', `${file} records platform`);
+    assert.deepEqual(baseline.runtime.viewport, baseline.viewport, `${file} records runtime viewport`);
+    assert.equal(typeof baseline.runtime.deviceScaleFactor, 'number', `${file} records device scale factor`);
+  });
 });
 
 test('package scripts expose fast browser and full regression gates', () => {
@@ -199,6 +211,7 @@ test('scheduled full regression workflow is reproducible and artifact-backed', (
   assert.match(workflow, /if:\s*failure\(\)/);
   assert.match(workflow, /playwright-report/);
   assert.match(workflow, /test-results/);
+  assert.match(workflow, /test-results\/visual/);
   assert.match(workflow, /tests\/visual-baselines/);
 });
 

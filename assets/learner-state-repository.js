@@ -111,6 +111,88 @@
     };
   }
 
+  function createIndexedDbLearnerStateAdapter(options = {}) {
+    const indexedDB = options.indexedDB || root.indexedDB;
+    const databaseName = options.databaseName || 'GrammarQuestLearnerState';
+    const databaseVersion = Number(options.databaseVersion) || 1;
+    const storeName = options.storeName || 'progress';
+    const key = options.storageKey || DEFAULT_STORAGE_KEY;
+
+    async function openDatabase() {
+      if (!indexedDB || typeof indexedDB.open !== 'function') {
+        throw new Error('learner_state_indexeddb_unavailable');
+      }
+      const request = indexedDB.open(databaseName, databaseVersion);
+      request.onupgradeneeded = event => {
+        const db = event && event.target && event.target.result || request.result;
+        if (db && db.objectStoreNames && typeof db.objectStoreNames.contains === 'function') {
+          if (!db.objectStoreNames.contains(storeName)) db.createObjectStore(storeName);
+        } else if (db && typeof db.createObjectStore === 'function') {
+          db.createObjectStore(storeName);
+        }
+      };
+      try {
+        return await requestToPromise(request);
+      } catch (error) {
+        throw new Error(`learner_state_indexeddb_open_failed: ${error && error.message || 'unknown'}`);
+      }
+    }
+
+    async function withStore(mode, operation) {
+      const db = await openDatabase();
+      try {
+        const transaction = db.transaction(storeName, mode);
+        const store = transaction.objectStore(storeName);
+        return await operation(store);
+      } finally {
+        if (db && typeof db.close === 'function') db.close();
+      }
+    }
+
+    return {
+      async: true,
+      read() {
+        return withStore('readonly', async store => {
+          try {
+            const value = await requestToPromise(store.get(key));
+            return value || null;
+          } catch (error) {
+            throw new Error(`learner_state_indexeddb_read_failed: ${error && error.message || 'unknown'}`);
+          }
+        });
+      },
+      write(progress) {
+        const normalized = normalizeLearnerState(progress);
+        return withStore('readwrite', async store => {
+          try {
+            await requestToPromise(store.put(normalized, key));
+          } catch (error) {
+            throw new Error(`learner_state_indexeddb_write_failed: ${error && error.message || 'unknown'}`);
+          }
+        });
+      },
+      remove() {
+        return withStore('readwrite', async store => {
+          try {
+            await requestToPromise(store.delete(key));
+          } catch (error) {
+            throw new Error(`learner_state_indexeddb_remove_failed: ${error && error.message || 'unknown'}`);
+          }
+        });
+      }
+    };
+  }
+
+  function requestToPromise(request) {
+    return new Promise((resolve, reject) => {
+      request.onsuccess = event => resolve(event && event.target ? event.target.result : request.result);
+      request.onerror = event => {
+        const target = event && event.target || request;
+        reject(target && target.error || new Error('indexeddb_request_failed'));
+      };
+    });
+  }
+
   function normalizeLearnerState(raw) {
     const input = raw && typeof raw === 'object' ? raw : {};
     return {
@@ -201,6 +283,7 @@
   }
 
   return {
+    createIndexedDbLearnerStateAdapter,
     createLearnerStateRepository,
     createLocalStorageLearnerStateAdapter,
     normalizeLearnerState,

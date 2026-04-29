@@ -33,6 +33,7 @@ jobs:
           path: |
             playwright-report/
             test-results/
+            test-results/visual/
             tests/visual-baselines/
             npm-debug.log*
             /tmp/grammarquest-*.log

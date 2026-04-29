@@ -27,7 +27,7 @@ function createRequestRecorder(page) {
   };
 }
 
-function summarizeRequestMetrics({ requests = [], responses = [] } = {}) {
+function summarizeRequestMetrics({ requests = [], preloadRequests = [], responses = [] } = {}) {
   const responseBytes = new Map();
   responses.forEach(response => {
     const assetPath = normalizeAssetPath(response.url);
@@ -36,19 +36,25 @@ function summarizeRequestMetrics({ requests = [], responses = [] } = {}) {
   });
 
   const loadedFullBanks = uniqueAssetPaths(requests.filter(isQuestionBankUrl));
-  const loadedChunks = uniqueAssetPaths(requests.filter(isQuestionChunkUrl));
+  const preloadedChunks = uniqueAssetPaths(preloadRequests.filter(isQuestionChunkUrl));
+  const preloadSet = new Set(preloadedChunks);
+  const loadedChunks = uniqueAssetPaths(requests.filter(isQuestionChunkUrl))
+    .filter(assetPath => !preloadSet.has(assetPath));
   const manifestRequests = uniqueAssetPaths(requests.filter(isQuestionManifestUrl));
   const manifestBytes = sumBytes(manifestRequests, responseBytes);
   const questionBankBytes = sumBytes(loadedFullBanks, responseBytes);
   const questionChunkBytes = sumBytes(loadedChunks, responseBytes);
+  const preloadChunkBytes = sumBytes(preloadedChunks, responseBytes);
 
   return {
     manifestBytes,
     questionBankBytes,
     questionChunkBytes,
+    preloadChunkBytes,
     questionPayloadBytes: manifestBytes + questionBankBytes + questionChunkBytes,
     loadedFullBanks,
     loadedChunks,
+    preloadedChunks,
     manifestRequests
   };
 }
@@ -59,8 +65,10 @@ function formatRequestMetrics(metrics) {
     `manifestBytes=${metrics.manifestBytes}`,
     `questionBankBytes=${metrics.questionBankBytes}`,
     `questionChunkBytes=${metrics.questionChunkBytes}`,
+    `preloadChunkBytes=${metrics.preloadChunkBytes}`,
     `loadedFullBanks=[${metrics.loadedFullBanks.join(', ')}]`,
-    `loadedChunks=[${metrics.loadedChunks.join(', ')}]`
+    `loadedChunks=[${metrics.loadedChunks.join(', ')}]`,
+    `preloadedChunks=[${(metrics.preloadedChunks || []).join(', ')}]`
   ].join('; ');
 }
 

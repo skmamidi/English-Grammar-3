@@ -25,23 +25,63 @@
     'grammarquest:question-selection-completed': 'selection.completed'
   };
 
-  function normalizeSelectionTelemetry(eventName, detail) {
+  const UNSAFE_TELEMETRY_FIELDS = [
+    'question',
+    'choices',
+    'answer',
+    'explanation',
+    'explanations',
+    'questionSnapshots',
+    'learnerAnswer',
+    'studentName',
+    'parentName',
+    'userId',
+    'uid',
+    'activeStudentId',
+    'role',
+    'capabilities',
+    'authToken',
+    'email',
+    'error',
+    'stack',
+    'localStorage'
+  ];
+
+  function normalizeSelectionTelemetry(eventName, detail, options = {}) {
     const input = detail && typeof detail === 'object' ? detail : {};
+    const normalizedEventName = EVENT_MAP[eventName] || 'selection.unknown';
+    const source = safeSource(input.source || input.selectionSource);
+    const requestedCount = safeNonNegativeInt(input.requestedQuestionCount || input.requestedCount);
+    const selectedCount = safeNonNegativeInt(input.selectedQuestionCount || input.selectedCount);
+    const hydrateLatencyMs = safeNonNegativeNumber(input.hydrateMs || input.hydrateLatencyMs);
+    const policyVersion = safeNonNegativeInt(input.selectionPolicyVersion || input.policyVersion);
+    const now = typeof options.now === 'function' ? options.now : () => new Date();
     return {
-      event: EVENT_MAP[eventName] || 'selection.unknown',
+      event: normalizedEventName,
+      eventName: normalizedEventName,
+      eventVersion: 1,
+      occurredAt: safeIsoTimestamp(input.occurredAt) || now().toISOString(),
       domain: safeString(input.domain),
-      source: safeSource(input.source),
+      mode: safeString(input.mode),
+      source,
+      selectionSource: source,
       setCount: safeNonNegativeInt(input.setCount),
-      requestedQuestionCount: safeNonNegativeInt(input.requestedQuestionCount),
-      selectedQuestionCount: safeNonNegativeInt(input.selectedQuestionCount),
+      requestedQuestionCount: requestedCount,
+      requestedCount,
+      selectedQuestionCount: selectedCount,
+      selectedCount,
       requestBytes: safeNonNegativeInt(input.requestBytes),
       responseBytes: safeNonNegativeInt(input.responseBytes),
       selectionMs: safeNonNegativeNumber(input.selectionMs),
-      hydrateMs: safeNonNegativeNumber(input.hydrateMs),
+      hydrateMs: hydrateLatencyMs,
+      hydrateLatencyMs,
       fallbackReason: eventName === 'grammarquest:question-selection-fallback'
         ? categorizeFallbackReason(input.fallbackReason || input.reason)
         : '',
-      selectionPolicyVersion: safeNonNegativeInt(input.selectionPolicyVersion)
+      routeType: safeString(input.routeType),
+      selectionPolicyVersion: policyVersion,
+      policyVersion,
+      sourceHash: safeString(input.sourceHash)
     };
   }
 
@@ -57,8 +97,9 @@
       const handler = event => {
         if (!enabled) return;
         if (sampleRate < 1 && random() >= sampleRate) return;
-        const normalized = normalizeSelectionTelemetry(eventName, event && event.detail);
+        const normalized = normalizeSelectionTelemetry(eventName, event && event.detail, options);
         try {
+          assertSelectionTelemetryPrivacy(normalized);
           transport(normalized);
         } catch (error) {
           // Telemetry must not affect quiz flow.
@@ -92,6 +133,21 @@
     }
     if (text.includes('hydrat') || text.includes('refs could not') || text.includes('partially hydrated')) return 'hydrate_failed';
     return 'unknown';
+  }
+
+  function assertSelectionTelemetryPrivacy(event) {
+    scanUnsafeTelemetry(event, []);
+    return true;
+  }
+
+  function scanUnsafeTelemetry(value, path) {
+    if (!value || typeof value !== 'object') return;
+    Object.keys(value).forEach(key => {
+      if (UNSAFE_TELEMETRY_FIELDS.includes(key)) {
+        throw new Error(`unsafe telemetry field: ${path.concat(key).join('.')}`);
+      }
+      scanUnsafeTelemetry(value[key], path.concat(key));
+    });
   }
 
   function getTransport(options) {
@@ -134,6 +190,12 @@
     return Number.isFinite(number) && number > 0 ? number : 0;
   }
 
+  function safeIsoTimestamp(value) {
+    if (!value) return '';
+    const date = new Date(value);
+    return Number.isFinite(date.getTime()) ? date.toISOString() : '';
+  }
+
   function clampSampleRate(value) {
     if (value === undefined) return 1;
     const number = Number(value);
@@ -142,6 +204,7 @@
   }
 
   return {
+    assertSelectionTelemetryPrivacy,
     categorizeFallbackReason,
     installSelectionTelemetrySink,
     normalizeSelectionTelemetry

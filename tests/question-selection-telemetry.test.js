@@ -6,6 +6,7 @@ const telemetry = require('../assets/question-selection-telemetry');
 test('selection telemetry normalizes API-used details to a privacy-safe schema', () => {
   const normalized = telemetry.normalizeSelectionTelemetry('grammarquest:question-selection-api-used', {
     domain: 'grammar',
+    mode: 'mixed',
     source: 'api',
     setCount: 2,
     requestedQuestionCount: 60,
@@ -21,21 +22,34 @@ test('selection telemetry normalizes API-used details to a privacy-safe schema',
     questionSnapshots: [{ question: 'Snapshot prompt' }],
     learnerAnswer: 'A',
     studentName: 'Maya'
+  }, {
+    now: () => new Date('2030-04-29T12:00:00.000Z')
   });
 
   assert.deepEqual(normalized, {
     event: 'selection.api_used',
+    eventName: 'selection.api_used',
+    eventVersion: 1,
+    occurredAt: '2030-04-29T12:00:00.000Z',
     domain: 'grammar',
+    mode: 'mixed',
     source: 'api',
+    selectionSource: 'api',
     setCount: 2,
     requestedQuestionCount: 60,
+    requestedCount: 60,
     selectedQuestionCount: 60,
+    selectedCount: 60,
     requestBytes: 1200,
     responseBytes: 7000,
     selectionMs: 31,
     hydrateMs: 44,
+    hydrateLatencyMs: 44,
     fallbackReason: '',
-    selectionPolicyVersion: 1
+    routeType: '',
+    selectionPolicyVersion: 1,
+    policyVersion: 1,
+    sourceHash: ''
   });
   assert.equal(JSON.stringify(normalized).includes('Prompt text'), false);
   assert.equal(JSON.stringify(normalized).includes('Maya'), false);
@@ -88,6 +102,7 @@ test('selection telemetry sink transports normalized events and never throws on 
     target,
     enabled: true,
     sampleRate: 1,
+    now: () => new Date('2030-04-29T12:00:00.000Z'),
     transport(event) {
       records.push(event);
       throw new Error('telemetry endpoint is down');
@@ -106,18 +121,92 @@ test('selection telemetry sink transports normalized events and never throws on 
   assert.equal(records.length, 1);
   assert.deepEqual(records[0], {
     event: 'selection.completed',
+    eventName: 'selection.completed',
+    eventVersion: 1,
+    occurredAt: '2030-04-29T12:00:00.000Z',
     domain: 'grammar',
+    mode: '',
     source: 'api',
+    selectionSource: 'api',
     setCount: 0,
     requestedQuestionCount: 4,
+    requestedCount: 4,
     selectedQuestionCount: 4,
+    selectedCount: 4,
     requestBytes: 0,
     responseBytes: 4096,
     selectionMs: 0,
     hydrateMs: 12,
+    hydrateLatencyMs: 12,
     fallbackReason: '',
-    selectionPolicyVersion: 0
+    routeType: '',
+    selectionPolicyVersion: 0,
+    policyVersion: 0,
+    sourceHash: ''
   });
+});
+
+test('selection telemetry endpoint transport prefers beacon and falls back to keepalive fetch', () => {
+  const beaconCalls = [];
+  const fetchCalls = [];
+  const previousNavigator = globalThis.navigator;
+  const previousFetch = global.fetch;
+  Object.defineProperty(globalThis, 'navigator', {
+    configurable: true,
+    value: {
+    sendBeacon(endpoint, body) {
+      beaconCalls.push({ endpoint, body });
+      return true;
+    }
+    }
+  });
+  global.fetch = (endpoint, options) => {
+    fetchCalls.push({ endpoint, options });
+    return Promise.resolve({ ok: true });
+  };
+
+  const target = createEventTarget();
+  telemetry.installSelectionTelemetrySink({
+    target,
+    enabled: true,
+    endpoint: '/api/selection-telemetry',
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+  target.dispatch('grammarquest:question-selection-api-used', {
+    domain: 'grammar',
+    source: 'api'
+  });
+
+  assert.equal(beaconCalls.length, 1);
+  assert.equal(beaconCalls[0].endpoint, '/api/selection-telemetry');
+  assert.equal(JSON.parse(beaconCalls[0].body).eventName, 'selection.api_used');
+  assert.equal(fetchCalls.length, 0);
+
+  Object.defineProperty(globalThis, 'navigator', {
+    configurable: true,
+    value: {}
+  });
+  const fetchTarget = createEventTarget();
+  telemetry.installSelectionTelemetrySink({
+    target: fetchTarget,
+    enabled: true,
+    endpoint: '/api/selection-telemetry',
+    now: () => new Date('2030-04-29T12:00:00.000Z')
+  });
+  fetchTarget.dispatch('grammarquest:question-selection-api-used', {
+    domain: 'grammar',
+    source: 'api'
+  });
+
+  assert.equal(fetchCalls.length, 1);
+  assert.equal(fetchCalls[0].endpoint, '/api/selection-telemetry');
+  assert.equal(fetchCalls[0].options.keepalive, true);
+
+  Object.defineProperty(globalThis, 'navigator', {
+    configurable: true,
+    value: previousNavigator
+  });
+  global.fetch = previousFetch;
 });
 
 test('selection telemetry sink can deterministically sample out events', () => {

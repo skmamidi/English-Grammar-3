@@ -6,10 +6,15 @@ const fs = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
 const { chromium } = require('playwright');
-const { assertVisualSignatureMatches } = require('./helpers/visual-signature');
+const {
+  assertVisualSignatureMatches,
+  writeScreenshotDriftArtifact,
+  writeVisualFailureArtifacts
+} = require('./helpers/visual-signature');
 
 const repoRoot = path.resolve(__dirname, '..');
 const baselineRoot = path.join(__dirname, 'visual-baselines');
+const artifactRoot = path.join(repoRoot, 'test-results', 'visual');
 const requestedPort = Number(process.env.QA_VISUAL_PORT) || 4203;
 const updateBaselines = process.env.UPDATE_VISUAL_BASELINES === '1';
 const FIREBASE_CONFIG_STUB = 'window.GQ_FIREBASE_CONFIG = { enabled: false, authProviders: {}, firestore: {} };';
@@ -46,17 +51,41 @@ async function main() {
     for (const visualCase of CASES) {
       await runCase(failures, visualCase.name, async () => {
         const page = await newPage(browser);
-        await visitClean(page, server.baseURL, visualCase.file);
-        if (visualCase.waitFor) await page.waitForSelector(visualCase.waitFor, { state: 'visible' });
-        if (visualCase.state) await visualCase.state(page, server.baseURL);
-        const signature = await toVisualSignature(page, visualCase);
-        const baselinePath = path.join(baselineRoot, `${visualCase.name}.json`);
-        if (updateBaselines) {
-          fs.writeFileSync(baselinePath, `${JSON.stringify(signature, null, 2)}\n`);
-        } else {
-          assertVisualSignatureMatches(signature, JSON.parse(fs.readFileSync(baselinePath, 'utf8')));
+        try {
+          await visitClean(page, server.baseURL, visualCase.file);
+          if (visualCase.waitFor) await page.waitForSelector(visualCase.waitFor, { state: 'visible' });
+          if (visualCase.state) await visualCase.state(page, server.baseURL);
+          const capture = await toVisualSignature(page, visualCase);
+          const baselinePath = path.join(baselineRoot, `${visualCase.name}.json`);
+          if (updateBaselines) {
+            fs.writeFileSync(baselinePath, `${JSON.stringify(capture.signature, null, 2)}\n`);
+          } else {
+            const expected = JSON.parse(fs.readFileSync(baselinePath, 'utf8'));
+            try {
+              const result = assertVisualSignatureMatches(capture.signature, expected);
+              if (result.screenshotOnlyDrift) {
+                writeScreenshotDriftArtifact({
+                  actual: capture.signature,
+                  expected,
+                  result,
+                  outputDir: artifactRoot,
+                  caseName: visualCase.name
+                });
+              }
+            } catch (error) {
+              writeVisualFailureArtifacts({
+                actual: capture.signature,
+                expected,
+                screenshot: capture.screenshot,
+                outputDir: artifactRoot,
+                caseName: visualCase.name
+              });
+              throw error;
+            }
+          }
+        } finally {
+          await page.context().close();
         }
-        await page.context().close();
       });
     }
   } finally {
@@ -69,15 +98,16 @@ async function main() {
       console.error(`FAIL ${failure.name}`);
       console.error(failure.error.stack || failure.error.message || failure.error);
     });
-    process.exitCode = 1;
-    return;
+    process.exit(1);
   }
   console.log(updateBaselines ? 'Visual baselines updated.' : 'Visual regression passed.');
+  process.exit(0);
 }
 
 async function toVisualSignature(page, visualCase) {
   await stabilizePage(page);
   const screenshot = await page.screenshot({ fullPage: false });
+  const browser = page.context().browser();
   const summary = await page.evaluate(() => {
     const selectors = ['.app-header', '.card', '#quiz-root', '#start-btn', '.question-box', '.feedback', '.results-card', '.auth-widget'];
     const elements = selectors.map(selector => {
@@ -110,13 +140,25 @@ async function toVisualSignature(page, visualCase) {
       return String(hash);
     }
   });
-  return {
+  const viewport = page.viewportSize();
+  const signature = {
     name: visualCase.name,
     file: visualCase.file,
-    viewport: page.viewportSize(),
+    viewport,
+    runtime: {
+      browserName: browser.browserType().name(),
+      browserVersion: browser.version(),
+      platform: process.platform,
+      viewport,
+      deviceScaleFactor: await page.evaluate(() => window.devicePixelRatio)
+    },
     screenshotSha256: sha256(screenshot),
     screenshotBytes: screenshot.length,
     summary
+  };
+  return {
+    signature,
+    screenshot
   };
 }
 
@@ -229,6 +271,7 @@ function getChromiumLaunchOptions() {
 
 function startStaticServer(port) {
   return new Promise((resolve, reject) => {
+    const sockets = new Set();
     const server = http.createServer((request, response) => {
       const parsed = new URL(request.url, `http://127.0.0.1:${port}`);
       const pathname = decodeURIComponent(parsed.pathname === '/' ? '/index.html' : parsed.pathname);
@@ -255,11 +298,18 @@ function startStaticServer(port) {
         respond(response, 200, contents, getContentType(filePath));
       });
     });
+    server.on('connection', socket => {
+      sockets.add(socket);
+      socket.on('close', () => sockets.delete(socket));
+    });
     server.on('error', reject);
     server.listen(port, '127.0.0.1', () => {
       resolve({
         baseURL: `http://127.0.0.1:${port}`,
-        close: () => new Promise(resolveClose => server.close(resolveClose))
+        close: () => new Promise(resolveClose => {
+          sockets.forEach(socket => socket.destroy());
+          server.close(resolveClose);
+        })
       });
     });
   });
@@ -284,5 +334,5 @@ function getContentType(filePath) {
 
 main().catch(error => {
   console.error(error.stack || error.message || error);
-  process.exitCode = 1;
+  process.exit(1);
 });

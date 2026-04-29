@@ -14,12 +14,16 @@ const {
 } = require('../scripts/qa/page-inventory');
 const {
   assertPageBudget,
-  createRequestRecorder
+  createRequestRecorder,
+  summarizeRequestMetrics
 } = require('./helpers/request-metrics');
 const { createQuestionSelectionApiHarness } = require('./helpers/question-selection-api-harness');
+const { MIXED_QUIZ_SERVER_SELECTION_DOMAINS } = require('../assets/question-selection-rollout');
+const questionManifest = require('../assets/question-manifest.json');
 const testKeys = require('./fixtures/selection-test-keys.json');
 
 const requestedPort = Number(process.env.QA_PORT) || 4173;
+const enableQuestionChunkPreload = Boolean(process.env.QUESTION_CHUNK_PRELOAD);
 const questionSelectionApiHarness = createQuestionSelectionApiHarness({ repoRoot });
 const TOPIC_INDEX_BUDGET = {
   forbidFullBanks: true,
@@ -76,6 +80,30 @@ const REPRESENTATIVE_CHUNK_PAGES = {
     domain: 'grammar',
     chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js'
   }
+};
+const DOMAIN_TOPIC_PAGES = {
+  grammar: 'topics/grammar/index.html',
+  capitalization: 'topics/capitalization/index.html',
+  punctuation: 'topics/punctuation/index.html',
+  'reading-comprehension': 'topics/reading-comprehension/index.html',
+  'reference-skills': 'topics/reference-skills/index.html',
+  vocabulary: 'topics/vocabulary/index.html'
+};
+const DOMAIN_MIXED_SELECTION_COUNTS = {
+  grammar: 60,
+  capitalization: 20,
+  punctuation: 52,
+  'reading-comprehension': 60,
+  'reference-skills': 32,
+  vocabulary: 60
+};
+const DOMAIN_API_RESPONSE_BYTE_BUDGETS = {
+  grammar: 60 * 1024,
+  capitalization: 24 * 1024,
+  punctuation: 60 * 1024,
+  'reading-comprehension': 60 * 1024,
+  'reference-skills': 60 * 1024,
+  vocabulary: 25 * 1024
 };
 const VIEWPORTS = {
   mobile: { width: 390, height: 844 },
@@ -136,6 +164,13 @@ async function main() {
       await page.close();
     });
 
+    await runCase(failures, 'session sign-out clears managed student selection without deleting progress', async () => {
+      const page = await newPage(browser);
+      await visitClean(page, server.baseURL, 'topics/grammar/subtopics/sentence-types.html');
+      await assertSessionSignedOutClearsManagedStudent(page);
+      await page.close();
+    });
+
     await runCase(failures, 'keyboard-only quiz answer flow works', async () => {
       const page = await newPage(browser);
       const file = 'topics/grammar/subtopics/sentence-types.html';
@@ -143,6 +178,25 @@ async function main() {
       await assertKeyboardQuizFlow(page, file);
       await page.close();
     });
+
+    if (process.env.QUESTION_CHUNK_PRELOAD) {
+      await runCase(failures, 'question chunk preloading stays budgeted and separate from required payload', async () => {
+        const page = await newPage(browser, { enableQuestionChunkPreload: true });
+        const recorder = createRequestRecorder(page);
+        await visitClean(page, server.baseURL, 'topics/capitalization/index.html');
+        const preloadEvents = await waitForPreloadEvents(page);
+        const preloadRequests = preloadEvents.flatMap(event => event.chunks || []);
+        const metrics = summarizeRequestMetrics({
+          requests: recorder.requests,
+          preloadRequests,
+          responses: recorder.responses
+        });
+        assert.equal(metrics.loadedFullBanks.length, 0);
+        assert.ok(metrics.preloadedChunks.length <= 1, `topic index should preload at most one chunk: ${metrics.preloadedChunks.join(', ')}`);
+        assert.ok(metrics.preloadChunkBytes < 250 * 1024, `preload bytes ${metrics.preloadChunkBytes} should stay under budget`);
+        await page.close();
+      });
+    }
 
     for (const file of manifestTopicIndexes) {
       await runCase(failures, `${file} uses manifest metadata without full topic bank`, async () => {
@@ -403,6 +457,87 @@ async function main() {
         await page.close();
       });
 
+      for (const domain of MIXED_QUIZ_SERVER_SELECTION_DOMAINS.filter(item => item !== 'grammar' && item !== 'capitalization')) {
+        await runCase(failures, `${domain} mixed quiz can use question selection API pilot`, async () => {
+          const page = await newPage(browser, { enableQuestionSelectionApi: true });
+          const requests = [];
+          const selectionPayloads = [];
+          const selectionStatuses = [];
+          page.on('request', request => {
+            requests.push(request.url());
+            if (request.url().endsWith('/api/question-selection')) {
+              selectionPayloads.push(JSON.parse(request.postData() || '{}'));
+            }
+          });
+          page.on('response', response => {
+            if (response.url().endsWith('/api/question-selection')) selectionStatuses.push(response.status());
+          });
+          await visitClean(page, server.baseURL, DOMAIN_TOPIC_PAGES[domain]);
+          await page.click('.mixed-quiz-panel a');
+          await assertVisible(page, '#start-btn', `${domain} API mixed quiz`);
+          assert.equal(
+            await page.evaluate(() => window.__selectionApiUsed === true),
+            true,
+            `${domain} API mixed quiz should emit API-used event; fallback reason: ${await page.evaluate(() => window.__selectionFallbackReason || '')}`
+          );
+          const apiTelemetry = await page.evaluate(() => window.__selectionApiDetail);
+          assert.equal(apiTelemetry.source, 'api');
+          assert.equal(apiTelemetry.domain, domain);
+          assert.ok(
+            apiTelemetry.responseBytes > 0 && apiTelemetry.responseBytes < DOMAIN_API_RESPONSE_BYTE_BUDGETS[domain],
+            `${domain} API response telemetry should stay under ${DOMAIN_API_RESPONSE_BYTE_BUDGETS[domain]} bytes`
+          );
+          assert.equal(selectionPayloads.length, 1, `${domain} API mixed quiz should send one selection payload`);
+          assert.deepEqual(selectionStatuses, [200], `${domain} API mixed quiz should receive one successful selection response`);
+          assert.equal(selectionPayloads[0].domain, domain);
+          assert.equal(selectionPayloads[0].count, DOMAIN_MIXED_SELECTION_COUNTS[domain]);
+          assert.equal(selectionPayloads[0].setIds.length, domainSetCount(domain), `${domain} API mixed quiz should request each configured mixed subtopic once`);
+          assert.equal(
+            requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
+            false,
+            `${domain} API mixed quiz should not request full bank`
+          );
+          assertChunkRequestBudget(requests, domain, `${domain} API mixed quiz`);
+          await assertQuizFlow(page, `${DOMAIN_TOPIC_PAGES[domain]} API mixed quiz`);
+          await page.close();
+        });
+
+        await runCase(failures, `${domain} mixed quiz falls back when question selection API fails`, async () => {
+          const page = await newPage(browser, {
+            enableQuestionSelectionApi: true,
+            questionSelectionApiUrl: '/api/question-selection?fail=1'
+          });
+          const requests = [];
+          const selectionStatuses = [];
+          page.on('request', request => requests.push(request.url()));
+          page.on('response', response => {
+            if (response.url().includes('/api/question-selection')) selectionStatuses.push(response.status());
+          });
+          await visitClean(page, server.baseURL, DOMAIN_TOPIC_PAGES[domain]);
+          await page.click('.mixed-quiz-panel a');
+          await assertVisible(page, '#start-btn', `${domain} API fallback mixed quiz`);
+          assert.equal(
+            await page.evaluate(() => window.__selectionFallback === true),
+            true,
+            `${domain} API fallback should emit fallback event`
+          );
+          assert.match(
+            await page.evaluate(() => window.__selectionFallbackReason || ''),
+            /selection API returned 503/,
+            `${domain} API fallback should include a reason`
+          );
+          assert.deepEqual(selectionStatuses, [503], `${domain} API fallback should record the failing selection response`);
+          assert.equal(
+            requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
+            false,
+            `${domain} API fallback mixed quiz should not request full bank`
+          );
+          assertChunkRequestBudget(requests, domain, `${domain} API fallback mixed quiz`);
+          await assertQuizFlow(page, `${DOMAIN_TOPIC_PAGES[domain]} API fallback mixed quiz`);
+          await page.close();
+        });
+      }
+
       await runCase(failures, 'capitalization pilot subtopic can use question selection API', async () => {
         const page = await newPage(browser, {
           enableQuestionSelectionApi: true,
@@ -602,10 +737,10 @@ async function main() {
       console.error(`FAIL ${failure.name}`);
       console.error(failure.error.stack || failure.error.message || failure.error);
     });
-    process.exitCode = 1;
-    return;
+    process.exit(1);
   }
   console.log('UI smoke passed.');
+  process.exit(0);
 }
 
 async function runCase(failures, name, fn) {
@@ -628,11 +763,16 @@ async function newPage(browser, options = {}) {
   const page = await browser.newPage({ viewport: options.viewport || VIEWPORTS.desktop });
   page.setDefaultTimeout(5000);
   page.setDefaultNavigationTimeout(8000);
-  await page.addInitScript(() => {
+  await page.addInitScript(config => {
     window.GRAMMAR_QUEST_CONFIG = Object.assign({}, window.GRAMMAR_QUEST_CONFIG, {
-      disableServiceWorker: true
+      disableServiceWorker: true,
+      enableQuestionChunkPreload: Boolean(config.enableQuestionChunkPreload)
     });
-  });
+    window.__GQ_PRELOAD_EVENTS = [];
+    window.addEventListener('grammarquest:question-preload-completed', event => {
+      window.__GQ_PRELOAD_EVENTS.push(event.detail || {});
+    });
+  }, { enableQuestionChunkPreload: options.enableQuestionChunkPreload && enableQuestionChunkPreload });
   await page.route('**/assets/firebase-config.js', route => {
     route.fulfill({
       status: 200,
@@ -685,7 +825,7 @@ async function newPage(browser, options = {}) {
         disableServiceWorker: true,
         enableServerQuestionSelection: true,
         questionSelectionApiUrl: config.questionSelectionApiUrl || '/api/question-selection',
-        serverQuestionSelectionPilotDomains: ['grammar', 'capitalization'],
+        serverQuestionSelectionPilotDomains: config.serverQuestionSelectionPilotDomains,
         serverQuestionSelectionPilotSubtopics: config.serverQuestionSelectionPilotSubtopics || [],
         selectionIntegrity: config.selectionIntegrity || {},
         selectionTelemetry
@@ -706,6 +846,7 @@ async function newPage(browser, options = {}) {
       });
     }, {
       questionSelectionApiUrl: options.questionSelectionApiUrl || '/api/question-selection',
+      serverQuestionSelectionPilotDomains: options.serverQuestionSelectionPilotDomains || MIXED_QUIZ_SERVER_SELECTION_DOMAINS,
       serverQuestionSelectionPilotSubtopics: options.serverQuestionSelectionPilotSubtopics || [],
       selectionIntegrity: options.selectionIntegrity || {},
       selectionTelemetry: options.selectionTelemetry || {},
@@ -718,6 +859,11 @@ async function newPage(browser, options = {}) {
     if (message.type() === 'error') page.__qaErrors.push(message.text());
   });
   return page;
+}
+
+async function waitForPreloadEvents(page) {
+  await page.waitForFunction(() => (window.__GQ_PRELOAD_EVENTS || []).length > 0, null, { timeout: 5000 });
+  return page.evaluate(() => window.__GQ_PRELOAD_EVENTS || []);
 }
 
 async function visitClean(page, baseURL, file) {
@@ -1101,6 +1247,29 @@ async function assertParentPreview(page, file) {
   assert.equal(after, before, `${file} mutated progress during parent preview`);
 }
 
+async function assertSessionSignedOutClearsManagedStudent(page) {
+  const result = await page.evaluate(() => {
+    localStorage.setItem('grammarQuestActiveStudentId', 'student-1');
+    localStorage.setItem('grammarQuestActiveStudentName', 'Maya');
+    window.GrammarQuestProgress.saveProgress({ totalGems: 99 }, { sync: false });
+    window.dispatchEvent(new CustomEvent('grammarquest:session-signed-out', {
+      detail: { clearActiveStudent: true }
+    }));
+    window.GrammarQuestProgress.saveProgress({ totalGems: 1 }, { sync: false });
+    return {
+      activeStudentId: localStorage.getItem('grammarQuestActiveStudentId'),
+      activeStudentName: localStorage.getItem('grammarQuestActiveStudentName'),
+      defaultProgress: JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}'),
+      studentProgress: JSON.parse(localStorage.getItem('grammarQuestProgress:student-1') || '{}')
+    };
+  });
+
+  assert.equal(result.activeStudentId, null);
+  assert.equal(result.activeStudentName, null);
+  assert.equal(result.defaultProgress.totalGems, 1);
+  assert.equal(result.studentProgress.totalGems, 99);
+}
+
 async function assertSpellingLabFlow(page) {
   await assertVisible(page, '#spelling-root', 'spelling lab');
   await assertVisible(page, '.spelling-start', 'spelling lab');
@@ -1177,6 +1346,19 @@ async function textContent(page, selector) {
   return page.$eval(selector, node => node.textContent || '');
 }
 
+function domainSetCount(domain) {
+  return questionManifest.sets.filter(set => set.domain === domain).length;
+}
+
+function assertChunkRequestBudget(requests, domain, label) {
+  const chunkUrls = requests.filter(url => url.includes(`/assets/question-chunks/${domain}/`));
+  assert.ok(chunkUrls.length > 0, `${label} should hydrate from ${domain} chunks`);
+  assert.ok(
+    new Set(chunkUrls).size <= domainSetCount(domain),
+    `${label} should not request more ${domain} chunks than configured subtopics`
+  );
+}
+
 function getChromiumLaunchOptions() {
   return Object.assign(
     { headless: true },
@@ -1188,6 +1370,7 @@ function getChromiumLaunchOptions() {
 
 function startStaticServer(port) {
   return new Promise((resolve, reject) => {
+    const sockets = new Set();
     const server = http.createServer((request, response) => {
       const parsed = new URL(request.url, `http://127.0.0.1:${port}`);
       const pathname = decodeURIComponent(parsed.pathname === '/' ? '/index.html' : parsed.pathname);
@@ -1214,6 +1397,10 @@ function startStaticServer(port) {
         response.end(data);
       });
     });
+    server.on('connection', socket => {
+      sockets.add(socket);
+      socket.on('close', () => sockets.delete(socket));
+    });
     server.on('error', error => {
       if (error.code === 'EADDRINUSE' && port === requestedPort) {
         startStaticServer(port + 1).then(resolve, reject);
@@ -1224,7 +1411,10 @@ function startStaticServer(port) {
     server.listen(port, '127.0.0.1', () => {
       resolve({
         baseURL: `http://127.0.0.1:${port}`,
-        close: () => new Promise(done => server.close(done))
+        close: () => new Promise(done => {
+          sockets.forEach(socket => socket.destroy());
+          server.close(done);
+        })
       });
     });
   });
@@ -1282,5 +1472,5 @@ function publicKeyConfig() {
 
 main().catch(error => {
   console.error(error.stack || error.message || error);
-  process.exitCode = 1;
+  process.exit(1);
 });

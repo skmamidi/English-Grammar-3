@@ -42,10 +42,10 @@ async function main() {
       console.error(`FAIL ${failure.name}`);
       console.error(failure.error.stack || failure.error.message || failure.error);
     });
-    process.exitCode = 1;
-    return;
+    process.exit(1);
   }
   console.log('Accessibility smoke passed.');
+  process.exit(0);
 }
 
 async function runCase(failures, name, fn) {
@@ -182,6 +182,7 @@ function getChromiumLaunchOptions() {
 
 function startStaticServer(port) {
   return new Promise((resolve, reject) => {
+    const sockets = new Set();
     const server = http.createServer((request, response) => {
       const parsed = new URL(request.url, `http://127.0.0.1:${port}`);
       const pathname = decodeURIComponent(parsed.pathname === '/' ? '/index.html' : parsed.pathname);
@@ -204,6 +205,10 @@ function startStaticServer(port) {
         response.end(data);
       });
     });
+    server.on('connection', socket => {
+      sockets.add(socket);
+      socket.on('close', () => sockets.delete(socket));
+    });
     server.on('error', error => {
       if (error.code === 'EADDRINUSE' && port === requestedPort) {
         startStaticServer(port + 1).then(resolve, reject);
@@ -214,7 +219,10 @@ function startStaticServer(port) {
     server.listen(port, '127.0.0.1', () => {
       resolve({
         baseURL: `http://127.0.0.1:${port}`,
-        close: () => new Promise(done => server.close(done))
+        close: () => new Promise(done => {
+          sockets.forEach(socket => socket.destroy());
+          server.close(done);
+        })
       });
     });
   });
@@ -230,5 +238,5 @@ function getContentType(filePath) {
 
 main().catch(error => {
   console.error(error.stack || error.message || error);
-  process.exitCode = 1;
+  process.exit(1);
 });

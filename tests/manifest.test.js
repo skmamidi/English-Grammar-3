@@ -154,6 +154,31 @@ test('topic index helper can resolve subtopics from manifest entries without a f
   );
 });
 
+test('topic index helper resolves ambiguous vocabulary aliases within the correct domain', () => {
+  const context = createTopicIndexContext();
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  const manifest = {
+    sets: [{
+      id: 'punctuation-apostrophes-contractions',
+      domain: 'punctuation',
+      questionCount: 12
+    }, {
+      id: 'vocabulary-contractions',
+      domain: 'vocabulary',
+      questionCount: 12
+    }]
+  };
+
+  const entry = context.window.GrammarQuestTopicIndex.findQuestionSetManifestEntry(
+    manifest,
+    'subtopics/contractions.html'
+  );
+
+  assert.equal(entry.id, 'vocabulary-contractions');
+  assert.equal(entry.set.domain, 'vocabulary');
+});
+
 test('topic index hydrates mixed subtopics from loaded sets by selected id', () => {
   const context = createTopicIndexContext();
   vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);

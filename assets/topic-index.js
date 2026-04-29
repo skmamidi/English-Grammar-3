@@ -6,7 +6,8 @@
   'use strict';
 
   const aliases = {
-    'base-words-prefix-suffix': 'vocabulary-base-words'
+    'base-words-prefix-suffix': 'vocabulary-base-words',
+    'contractions': 'vocabulary-contractions'
   };
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -31,6 +32,7 @@
       }
     });
     renderMixedQuizLauncher(subtopics);
+    scheduleTopicIndexPreload(subtopics);
     applyAuthModeUi(subtopics);
     window.addEventListener('grammarquest:parent-browse', () => applyAuthModeUi(subtopics));
     window.addEventListener('grammarquest:auth-state', () => applyAuthModeUi(subtopics));
@@ -189,11 +191,14 @@
 
   function shouldUseServerSelectionPilot(subtopics) {
     const config = getAppConfig();
-    if (!config.enableServerQuestionSelection) return false;
     const domain = getMixedQuizDomain(subtopics);
+    if (window.GrammarQuestSelectionRollout && typeof window.GrammarQuestSelectionRollout.isServerSelectionDomainEnabled === 'function') {
+      return window.GrammarQuestSelectionRollout.isServerSelectionDomainEnabled(domain, config);
+    }
+    if (!config.enableServerQuestionSelection) return false;
     const pilotDomains = Array.isArray(config.serverQuestionSelectionPilotDomains)
       ? config.serverQuestionSelectionPilotDomains
-      : ['grammar'];
+      : [];
     return pilotDomains.includes(domain);
   }
 
@@ -269,6 +274,24 @@
       script.onerror = () => reject(new Error(`Failed to load ${src}`));
       document.body.appendChild(script);
     });
+  }
+
+  function scheduleTopicIndexPreload(subtopics) {
+    const config = getAppConfig();
+    if (!config.enableQuestionChunkPreload || !Array.isArray(subtopics) || !subtopics.length) return;
+    Promise.resolve()
+      .then(() => window.GrammarQuestQuestionPreloadPolicy ? Promise.resolve() : loadScriptOnce('../../assets/question-preload-policy.js'))
+      .then(() => window.GrammarQuestQuestionPreloader ? Promise.resolve() : loadScriptOnce('../../assets/question-preloader.js'))
+      .then(() => {
+        if (!window.GrammarQuestQuestionPreloader || typeof window.GrammarQuestQuestionPreloader.preload !== 'function') return;
+        window.GrammarQuestQuestionPreloader.preload({
+          currentRoute: 'topic-index',
+          domain: getMixedQuizDomain(subtopics),
+          visibleSubtopicIds: subtopics.map(subtopic => subtopic.id),
+          manifest: window.QUESTION_MANIFEST
+        });
+      })
+      .catch(error => console.warn('Topic index preload skipped:', error));
   }
 
   function applyAuthModeUi(subtopics) {

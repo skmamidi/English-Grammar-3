@@ -27,7 +27,11 @@ test('service worker precache avoids retired full-bank artifacts', () => {
 
   assert.ok(urls.includes('/assets/design-tokens.css'));
   assert.ok(urls.includes('/assets/question-manifest.js'));
+  assert.ok(urls.includes('/assets/question-preload-policy.js'));
+  assert.ok(urls.includes('/assets/question-preloader.js'));
   assert.ok(urls.includes('/assets/question-loader.js'));
+  assert.ok(urls.includes('/assets/session-domain.js'));
+  assert.ok(urls.includes('/assets/learner-state-migration.js'));
   assert.equal(urls.some(url => /\/assets\/question-banks\//.test(url)), false);
 });
 

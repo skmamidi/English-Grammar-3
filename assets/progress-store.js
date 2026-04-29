@@ -4,6 +4,7 @@
   const STORAGE_KEY = "grammarQuestProgress";
   const SYNC_STATUS_EVENT = "grammarquest:sync-status";
   const PROGRESS_UPDATED_EVENT = "grammarquest:progress-updated";
+  const SESSION_SIGNED_OUT_EVENT = "grammarquest:session-signed-out";
   let cloudAdapter = null;
   let learnerStateRepository = null;
   let learnerStateRepositoryKey = "";
@@ -17,6 +18,8 @@
   let exitDialogResolver = null;
   let exitDialogPromise = null;
   let exitDialogLastFocus = null;
+
+  window.addEventListener(SESSION_SIGNED_OUT_EVENT, handleSessionSignedOut);
 
   const defaults = {
     streakDays: 0,
@@ -404,6 +407,21 @@
     cloudAdapter = adapter;
   }
 
+  function handleSessionSignedOut(event) {
+    cloudAdapter = null;
+    if (syncTimer) {
+      window.clearTimeout(syncTimer);
+      syncTimer = null;
+    }
+    learnerStateRepository = null;
+    learnerStateRepositoryKey = "";
+    if (event && event.detail && event.detail.clearActiveStudent) {
+      clearActiveStudentSelectionStorage();
+    }
+    setSyncStatus("local");
+    window.dispatchEvent(new CustomEvent(PROGRESS_UPDATED_EVENT, { detail: loadLocalProgress() }));
+  }
+
   async function syncFromCloud() {
     if (!cloudAdapter || !cloudAdapter.load) return loadLocalProgress();
 
@@ -456,6 +474,19 @@
   function getStorageKey() {
     const activeStudentId = getActiveStudentId();
     return activeStudentId ? `${STORAGE_KEY}:${activeStudentId}` : STORAGE_KEY;
+  }
+
+  function clearActiveStudentSelectionStorage() {
+    try {
+      localStorage.removeItem("grammarQuestActiveStudentId");
+      localStorage.removeItem("grammarQuestActiveStudentName");
+      localStorage.removeItem("grammarQuestActiveStudentLogin");
+      localStorage.removeItem("grammarQuestActiveStudentOwner");
+      localStorage.removeItem("grammarQuestActiveStudentDefaultGrade");
+      localStorage.removeItem("grammarQuestActiveStudentAvatarParts");
+    } catch (error) {
+      // Optional local state.
+    }
   }
 
   function getLearnerStateRepository() {
@@ -688,6 +719,7 @@
     getStorageKey,
     PROGRESS_UPDATED_EVENT,
     SYNC_STATUS_EVENT,
+    SESSION_SIGNED_OUT_EVENT,
     ACTIVE_ASSESSMENT_EVENT,
     getDefaultProgress,
     getProgress,

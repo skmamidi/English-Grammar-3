@@ -1,0 +1,111 @@
+const assert = require('node:assert/strict');
+const test = require('node:test');
+
+const {
+  createIndexedDbLearnerStateAdapter,
+  createLocalStorageLearnerStateAdapter,
+  normalizeLearnerState
+} = require('../assets/learner-state-repository');
+const {
+  migrateLocalStorageToIndexedDb
+} = require('../assets/learner-state-migration');
+const { createFakeIndexedDB } = require('./helpers/fake-indexeddb');
+
+test('learner state migration preserves normalized progress and keeps localStorage intact', async () => {
+  const storage = createMemoryStorage();
+  const source = createLocalStorageLearnerStateAdapter(storage, { storageKey: 'grammarQuestProgress:student-1' });
+  const target = createIndexedDbLearnerStateAdapter({
+    indexedDB: createFakeIndexedDB(),
+    storageKey: 'grammarQuestProgress:student-1'
+  });
+  const original = {
+    totalGems: 42,
+    badges: ['streak-3'],
+    mastery: { domains: { vocabulary: { correct: 5, total: 6 } } },
+    activeQuiz: {
+      schemaVersion: 2,
+      setId: 'vocabulary-context-clues',
+      questionRefs: [{
+        id: 'vocabulary-context-clues-q0001',
+        version: 2,
+        contentHash: 'sha256:def',
+        sourceSet: 'vocabulary-context-clues',
+        sequence: 1
+      }],
+      questionSnapshots: [{
+        id: 'vocabulary-context-clues-q0001',
+        question: 'Which clue helps?',
+        choices: ['A', 'B'],
+        correct: 1
+      }]
+    },
+    reports: {
+      sessions: [{ id: 'session-1', attempts: [] }],
+      questionReports: [{ id: 'report-1', questionId: 'vocabulary-context-clues-q0001' }]
+    }
+  };
+  await source.write(original);
+
+  const result = await migrateLocalStorageToIndexedDb({
+    localStorageAdapter: source,
+    indexedDbAdapter: target,
+    markerStorage: storage,
+    markerKey: 'grammarQuestProgress:student-1.indexeddbMigrated'
+  });
+
+  assert.equal(result.status, 'migrated');
+  assert.equal(storage.getItem('grammarQuestProgress:student-1.indexeddbMigrated'), 'true');
+  assert.ok(storage.getItem('grammarQuestProgress:student-1'), 'localStorage copy remains available');
+  const migrated = normalizeLearnerState(await target.read());
+  assert.equal(migrated.totalGems, 42);
+  assert.equal(migrated.badges[0], 'streak-3');
+  assert.equal(migrated.mastery.domains.vocabulary.correct, 5);
+  assert.equal(migrated.activeQuiz.questionRefs[0].id, 'vocabulary-context-clues-q0001');
+  assert.equal(migrated.activeQuiz.questionSnapshots[0].question, 'Which clue helps?');
+  assert.equal(migrated.reports.questionReports[0].id, 'report-1');
+});
+
+test('learner state migration is idempotent once the marker is set', async () => {
+  const storage = createMemoryStorage();
+  storage.setItem('grammarQuestProgress.indexeddbMigrated', 'true');
+  const result = await migrateLocalStorageToIndexedDb({
+    localStorageAdapter: createLocalStorageLearnerStateAdapter(storage),
+    indexedDbAdapter: createIndexedDbLearnerStateAdapter({ indexedDB: createFakeIndexedDB() }),
+    markerStorage: storage
+  });
+
+  assert.equal(result.status, 'already_migrated');
+});
+
+test('learner state migration does not mark complete when IndexedDB write fails', async () => {
+  const storage = createMemoryStorage();
+  const source = createLocalStorageLearnerStateAdapter(storage, { storageKey: 'grammarQuestProgress' });
+  await source.write({ totalGems: 3 });
+
+  await assert.rejects(() => migrateLocalStorageToIndexedDb({
+    localStorageAdapter: source,
+    indexedDbAdapter: createIndexedDbLearnerStateAdapter({
+      indexedDB: createFakeIndexedDB({ failWrite: true }),
+      storageKey: 'grammarQuestProgress'
+    }),
+    markerStorage: storage
+  }), /learner_state_indexeddb_write_failed/);
+
+  assert.equal(storage.getItem('grammarQuestProgress.indexeddbMigrated'), null);
+  assert.ok(storage.getItem('grammarQuestProgress'), 'localStorage copy remains after failed migration');
+});
+
+function createMemoryStorage(overrides = {}) {
+  const data = {};
+  return Object.assign({
+    getItem(key) {
+      return Object.prototype.hasOwnProperty.call(data, key) ? data[key] : null;
+    },
+    setItem(key, value) {
+      data[key] = String(value);
+    },
+    removeItem(key) {
+      delete data[key];
+    }
+  }, overrides);
+}

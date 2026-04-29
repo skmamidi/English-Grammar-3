@@ -44,6 +44,25 @@ test('request metrics count each delivery asset once', () => {
   assert.equal(metrics.questionChunkBytes, 64000);
 });
 
+test('request metrics separate preload chunks from required chunk payload', () => {
+  const required = 'http://127.0.0.1:4173/assets/question-chunks/grammar/grammar-sentence-types.js';
+  const preload = 'http://127.0.0.1:4173/assets/question-chunks/grammar/grammar-run-on-sentences.js';
+  const metrics = summarizeRequestMetrics({
+    requests: [required, preload],
+    preloadRequests: [preload],
+    responses: [
+      { url: required, status: 200, bytes: 58000 },
+      { url: preload, status: 200, bytes: 64000 }
+    ]
+  });
+
+  assert.deepEqual(metrics.loadedChunks, ['assets/question-chunks/grammar/grammar-sentence-types.js']);
+  assert.deepEqual(metrics.preloadedChunks, ['assets/question-chunks/grammar/grammar-run-on-sentences.js']);
+  assert.equal(metrics.questionChunkBytes, 58000);
+  assert.equal(metrics.preloadChunkBytes, 64000);
+  assert.equal(metrics.questionPayloadBytes, metrics.manifestBytes + metrics.questionBankBytes + metrics.questionChunkBytes);
+});
+
 test('normalizeAssetPath removes origins and query strings', () => {
   assert.equal(
     normalizeAssetPath('http://grammar.test/assets/question-manifest.js?v=1'),

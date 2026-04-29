@@ -102,6 +102,7 @@
     }
 
     activeSet = set;
+    scheduleSubtopicPreload(setId);
     baseQuestions = [...set.questions];
     selectedGrade = getInitialGrade();
     selectedDifficulty = normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium');
@@ -179,6 +180,32 @@
       .catch(error => {
         console.warn('Quiz engine: selection telemetry could not be loaded.', error);
       });
+  }
+
+  function scheduleSubtopicPreload(currentSetId) {
+    const config = getAppConfig();
+    if (!config.enableQuestionChunkPreload || !currentSetId) return;
+    Promise.resolve()
+      .then(() => window.GrammarQuestQuestionPreloadPolicy ? Promise.resolve() : loadRuntimeScriptOnce(resolveAssetScriptPath('question-preload-policy.js')))
+      .then(() => window.GrammarQuestQuestionPreloader ? Promise.resolve() : loadRuntimeScriptOnce(resolveAssetScriptPath('question-preloader.js')))
+      .then(() => {
+        if (!window.GrammarQuestQuestionPreloader || typeof window.GrammarQuestQuestionPreloader.preload !== 'function') return;
+        const manifest = window.QUESTION_MANIFEST || {};
+        const sets = Array.isArray(manifest.sets) ? manifest.sets : [];
+        const current = sets.find(set => set && set.id === currentSetId);
+        const domain = current && current.domain || getSetDomain(currentSetId);
+        const visibleSubtopicIds = sets
+          .filter(set => set && set.domain === domain && set.chunkFile)
+          .map(set => set.id);
+        window.GrammarQuestQuestionPreloader.preload({
+          currentRoute: 'subtopic',
+          domain,
+          currentSetId,
+          visibleSubtopicIds,
+          manifest
+        });
+      })
+      .catch(error => console.warn('Quiz preload skipped:', error));
   }
 
   function loadRuntimeScriptOnce(src) {

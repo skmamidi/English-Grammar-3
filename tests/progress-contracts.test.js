@@ -13,14 +13,22 @@ const {
 const { createMemoryStorage } = require('../scripts/qa/bank-loader');
 
 function loadProgressStoreForTest(options = {}) {
+  const listeners = {};
   const context = {
+    events: [],
     window: {
-      addEventListener() {},
+      addEventListener(type, listener) {
+        listeners[type] = listeners[type] || [];
+        listeners[type].push(listener);
+      },
       clearTimeout() {},
       setTimeout() {
         return 0;
       },
-      dispatchEvent() {}
+      dispatchEvent(event) {
+        context.events.push(event);
+        (listeners[event.type] || []).forEach(listener => listener(event));
+      }
     },
     document: {
       addEventListener() {},
@@ -323,6 +331,23 @@ test('runtime progress store repository delegation respects active student stora
     calls.filter(call => call.type === 'createAdapter').map(call => call.storageKey),
     ['grammarQuestProgress:student-1', 'grammarQuestProgress:student-2']
   );
+});
+
+test('runtime progress store clears active student selection on signed-out event without deleting progress', () => {
+  const { progressStore, context } = loadProgressStoreForTest();
+  context.localStorage.setItem('grammarQuestActiveStudentId', 'student-1');
+  progressStore.saveProgress({ totalGems: 99 }, { sync: false });
+
+  context.window.dispatchEvent(new context.CustomEvent('grammarquest:session-signed-out', {
+    detail: { clearActiveStudent: true }
+  }));
+
+  assert.equal(context.localStorage.getItem('grammarQuestActiveStudentId'), null);
+  assert.ok(context.localStorage.getItem('grammarQuestProgress:student-1'), 'student progress is preserved');
+  assert.equal(progressStore.getStorageKey(), 'grammarQuestProgress');
+  progressStore.saveProgress({ totalGems: 1 }, { sync: false });
+  assert.equal(JSON.parse(context.localStorage.getItem('grammarQuestProgress')).totalGems, 1);
+  assert.equal(JSON.parse(context.localStorage.getItem('grammarQuestProgress:student-1')).totalGems, 99);
 });
 
 function createRepositoryBoundarySpy(repository, calls) {

@@ -5,6 +5,16 @@
     "width": 1280,
     "height": 900
   },
+  "runtime": {
+    "browserName": "chromium",
+    "browserVersion": "147.0.7727.15",
+    "platform": "darwin",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "deviceScaleFactor": 1
+  },
   "screenshotSha256": "f2b1e4715e98de9adb28b8cb83b155c05166d63d32ff1e7f6e944492fcc71641",
   "screenshotBytes": 138678,
   "summary": {

@@ -4,6 +4,7 @@ const test = require('node:test');
 const { loadManifest } = require('../scripts/generate-question-manifest');
 const { createQuestionSelectionApiHarness } = require('./helpers/question-selection-api-harness');
 const { createSeededShuffle } = require('./helpers/seeded-selection');
+const { MIXED_QUIZ_SERVER_SELECTION_DOMAINS } = require('../assets/question-selection-rollout');
 
 const manifest = loadManifest();
 
@@ -17,27 +18,40 @@ const API_BUDGETS = {
     maxRefs: 20,
     maxResponseBytes: 10 * 1024,
     maxP95LatencyMs: 50
+  },
+  punctuation: {
+    maxRefs: 52,
+    maxResponseBytes: 20 * 1024,
+    maxP95LatencyMs: 100
+  },
+  'reading-comprehension': {
+    maxRefs: 60,
+    maxResponseBytes: 25 * 1024,
+    maxP95LatencyMs: 120
+  },
+  'reference-skills': {
+    maxRefs: 32,
+    maxResponseBytes: 18 * 1024,
+    maxP95LatencyMs: 100
+  },
+  vocabulary: {
+    maxRefs: 60,
+    maxResponseBytes: 25 * 1024,
+    maxP95LatencyMs: 120
   }
 };
 
-test('grammar selection API response stays within ref-only payload budget', async () => {
-  const request = mixedRequest('grammar', grammarSetIds(), 60, 4);
-  const response = await apiResponse(request, 'grammar-budget');
-  const metrics = assertSelectionApiBudget('grammar mixed selection', response, request, API_BUDGETS.grammar);
+test('all rollout domain selection API responses stay within ref-only payload budgets', async () => {
+  for (const domain of MIXED_QUIZ_SERVER_SELECTION_DOMAINS) {
+    const setIds = domainSetIds(domain);
+    const request = mixedRequest(domain, setIds, Math.min(API_BUDGETS[domain].maxRefs, setIds.length * 4), 4);
+    const response = await apiResponse(request, `${domain}-budget`);
+    const metrics = assertSelectionApiBudget(`${domain} mixed selection`, response, request, API_BUDGETS[domain]);
 
-  assert.equal(metrics.sourceHash, manifest.artifact.sourceHash);
-  assert.equal(response.questionRefs.length, 60);
-  assert.equal(response.questionSnapshots.length, 0);
-});
-
-test('capitalization selection API response stays within ref-only payload budget', async () => {
-  const request = mixedRequest('capitalization', capitalizationSetIds(), 20, 4);
-  const response = await apiResponse(request, 'capitalization-budget');
-  const metrics = assertSelectionApiBudget('capitalization mixed selection', response, request, API_BUDGETS.capitalization);
-
-  assert.equal(metrics.sourceHash, manifest.artifact.sourceHash);
-  assert.equal(response.questionRefs.length, 20);
-  assert.equal(response.questionSnapshots.length, 0);
+    assert.equal(metrics.sourceHash, manifest.artifact.sourceHash);
+    assert.equal(response.questionRefs.length, request.count);
+    assert.equal(response.questionSnapshots.length, 0);
+  }
 });
 
 test('selection API respects requested ref cap before payload budget', async () => {
@@ -63,20 +77,16 @@ test('seeded selection API calls are deterministic for tests', async () => {
 });
 
 test('selection API repeated-call local latency stays within budget', async () => {
-  const grammarRequest = mixedRequest('grammar', grammarSetIds(), 60, 4);
-  const capitalizationRequest = mixedRequest('capitalization', capitalizationSetIds(), 20, 4);
+  for (const domain of MIXED_QUIZ_SERVER_SELECTION_DOMAINS) {
+    const setIds = domainSetIds(domain);
+    const request = mixedRequest(domain, setIds, Math.min(API_BUDGETS[domain].maxRefs, setIds.length * 4), 4);
+    const stats = await measureRepeatedCalls(request, `${domain}-load`, 12);
 
-  const grammarStats = await measureRepeatedCalls(grammarRequest, 'grammar-load', 25);
-  const capitalizationStats = await measureRepeatedCalls(capitalizationRequest, 'capitalization-load', 25);
-
-  assert.ok(
-    grammarStats.p95Ms < API_BUDGETS.grammar.maxP95LatencyMs,
-    `grammar p95 ${grammarStats.p95Ms.toFixed(2)}ms should stay under ${API_BUDGETS.grammar.maxP95LatencyMs}ms; ${JSON.stringify(grammarStats)}`
-  );
-  assert.ok(
-    capitalizationStats.p95Ms < API_BUDGETS.capitalization.maxP95LatencyMs,
-    `capitalization p95 ${capitalizationStats.p95Ms.toFixed(2)}ms should stay under ${API_BUDGETS.capitalization.maxP95LatencyMs}ms; ${JSON.stringify(capitalizationStats)}`
-  );
+    assert.ok(
+      stats.p95Ms < API_BUDGETS[domain].maxP95LatencyMs,
+      `${domain} p95 ${stats.p95Ms.toFixed(2)}ms should stay under ${API_BUDGETS[domain].maxP95LatencyMs}ms; ${JSON.stringify(stats)}`
+    );
+  }
 });
 
 test('selection API budget guard rejects full question body leakage and over-selection', () => {
@@ -186,6 +196,6 @@ function grammarSetIds() {
   return manifest.sets.filter(set => set.domain === 'grammar').map(set => set.id);
 }
 
-function capitalizationSetIds() {
-  return manifest.sets.filter(set => set.domain === 'capitalization').map(set => set.id);
+function domainSetIds(domain) {
+  return manifest.sets.filter(set => set.domain === domain).map(set => set.id);
 }

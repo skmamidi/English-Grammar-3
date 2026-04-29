@@ -3,6 +3,8 @@ const progressStore = window.GrammarQuestProgress;
 const AUTH_STATE_EVENT = "grammarquest:auth-state";
 const ACTIVE_STUDENT_EVENT = "grammarquest:active-student";
 const PARENT_BROWSE_EVENT = "grammarquest:parent-browse";
+const sessionDomain = window.GrammarQuestSessionDomain || {};
+const SESSION_SIGNED_OUT_EVENT = sessionDomain.SESSION_SIGNED_OUT_EVENT || "grammarquest:session-signed-out";
 const LOGIN_PERSONALITIES = [
   "adventurous", "artistic", "brave", "bright", "calm", "careful", "cheerful", "clever", "confident", "considerate",
   "creative", "curious", "determined", "eager", "encouraging", "energetic", "friendly", "generous", "gentle", "graceful",
@@ -81,7 +83,8 @@ window.GrammarQuestAuth = {
   clearActiveStudent,
   loadManagedStudents,
   loadStudentProgress,
-  updateStudentQuestionReport
+  updateStudentQuestionReport,
+  signOut
 };
 
 window.GrammarQuestAvatar = {
@@ -495,14 +498,30 @@ async function signInWithEmail(event, mode) {
 }
 
 async function signOut() {
+  const previousState = getPublicState();
   state.activeStudent = null;
   state.sessionMode = "";
   saveSessionMode("");
   clearActiveStudentStorage();
   if (progressStore) progressStore.setCloudAdapter(null);
   if (state.firebase) await state.firebase.authModule.signOut(state.firebase.auth);
+  dispatchSessionSignedOut(previousState, "user_sign_out");
   notifyAuthState();
   renderAuthUi();
+}
+
+function dispatchSessionSignedOut(previousState, reason) {
+  const shouldClear = sessionDomain && typeof sessionDomain.shouldClearActiveStudentOnSignOut === "function"
+    ? sessionDomain.shouldClearActiveStudentOnSignOut(previousState)
+    : Boolean(previousState && previousState.activeStudent);
+  window.dispatchEvent(new CustomEvent(SESSION_SIGNED_OUT_EVENT, {
+    detail: {
+      reason: reason || "sign_out",
+      clearActiveStudent: shouldClear,
+      previousSessionMode: previousState && previousState.sessionMode || "",
+      previousSignedIn: Boolean(previousState && previousState.signedIn)
+    }
+  }));
 }
 
 async function createManagedStudent({ studentName, loginName, defaultGrade, avatarParts }) {

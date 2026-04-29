@@ -104,10 +104,28 @@
   function normalizeQuestionReport(report) {
     if (!report || typeof report !== "object") return report;
     return Object.assign({}, report, {
-      questionId: report.questionId || report.id || "",
+      questionId: getReportQuestionId(report),
       questionVersion: Number(report.questionVersion) || 0,
       questionHash: report.questionHash || report.contentHash || ""
     });
+  }
+
+  function getReportQuestionId(report) {
+    if (!report) return "";
+    if (report.questionId) return String(report.questionId);
+    if (looksLikeStableQuestionId(report.id)) return String(report.id);
+    if (report.sourceSet && report.sequence) {
+      return `${report.sourceSet}-q${String(report.sequence).padStart(4, "0")}`;
+    }
+    if (report.setId && report.sequence) {
+      return `${report.setId}-q${String(report.sequence).padStart(4, "0")}`;
+    }
+    return "";
+  }
+
+  function looksLikeStableQuestionId(id) {
+    const value = String(id || "");
+    return !value.startsWith("question-report-") && /^[a-z0-9]+(?:-[a-z0-9]+)*-q\d{4}$/i.test(value);
   }
 
   function getAttemptQuestionId(attempt) {
@@ -540,6 +558,9 @@
     mergeProgress,
     normalizeMastery,
     normalizeReports,
+    normalizeQuestionReport,
+    getReportQuestionId,
+    looksLikeStableQuestionId,
     normalizeActiveQuiz,
     setCloudAdapter,
     syncFromCloud,

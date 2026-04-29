@@ -10718,6 +10718,120 @@
             "MAP"
           ]
         }
+      },
+      {
+        "question": "Choose the best edited version of the sentence. We’re going too my grandma’s house for Christmas, but we’ll be flying back home on Sunday.",
+        "choices": [
+          "We’re going to my grandma’s house for Christmas, but we’ll be flying back home on Sunday.",
+          "We’re going two my grandma’s house for Christmas, but we’ll be flying back home on Sunday.",
+          "Were going to my grandma’s house for Christmas, but we’ll be flying back home on Sunday.",
+          "Were going too my grandma’s house for Christmas, but we’ll be flying back home on Sunday."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: We’re going to my grandma’s house for Christmas, but we’ll be flying back home on Sunday.. We’re going to my grandma’s house for Christmas, but we’ll be flying back home on Sunday. The word “too” should be replaced with the word “to.”",
+          "incorrect": [
+            "",
+            "Not: We’re going two my grandma’s house for Christmas, but we’ll be flying back home on Sunday.. Use the grammar rule and the sentence context to check this choice.",
+            "Not: Were going to my grandma’s house for Christmas, but we’ll be flying back home on Sunday.. Use the grammar rule and the sentence context to check this choice.",
+            "Not: Were going too my grandma’s house for Christmas, but we’ll be flying back home on Sunday.. Use the grammar rule and the sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Punctuation and usage questions ask you to choose the form that makes the sentence clear and correct.",
+          "example": "Check the apostrophe, contraction, or punctuation mark against the meaning of the sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar and usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the grammar rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Advanced Quiz 1_Language_Grammar and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "grammar-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 9
+        }
+      },
+      {
+        "question": "Choose the correct word to complete the sentence. We don’t have any food in the house, so _____ ordering pizza for dinner tonight.",
+        "choices": [
+          "were",
+          "where",
+          "there",
+          "we’re"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: we’re. we’re; The contraction “we’re” means “we are” and is the correct word choice.",
+          "incorrect": [
+            "Not: were. Use the grammar rule and the sentence context to check this choice.",
+            "Not: where. Use the grammar rule and the sentence context to check this choice.",
+            "Not: there. Use the grammar rule and the sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Punctuation and usage questions ask you to choose the form that makes the sentence clear and correct.",
+          "example": "Check the apostrophe, contraction, or punctuation mark against the meaning of the sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar and usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the grammar rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "punctuation-apostrophes-contractions",
+          "sourceFile": "Proficient Quiz 2_Language_Grammar and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "grammar-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 79
+        }
       }
     ],
     "metadata": {

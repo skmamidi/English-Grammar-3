@@ -31,6 +31,11 @@
     const sourcePath = entry.chunkFile;
     if (!sourcePath) throw new Error(`Question loader: manifest entry for "${setId}" is missing chunkFile.`);
 
+    if (isOffline() && !(await hasCachedQuestionChunk(sourcePath))) {
+      window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING = true;
+      throw new Error(`Question loader: "${setId}" is unavailable offline until its chunk has been loaded once.`);
+    }
+
     await loadQuestionScript(sourcePath);
     const loaded = getGlobalSet(setId);
     if (!loaded || !Array.isArray(loaded.questions) || loaded.questions.length === 0) {
@@ -120,6 +125,22 @@
     const manifest = window.QUESTION_MANIFEST;
     const sets = manifest && Array.isArray(manifest.sets) ? manifest.sets : [];
     return sets.find(set => set && set.id === setId) || null;
+  }
+
+  function isOffline() {
+    return typeof navigator !== 'undefined' && navigator.onLine === false;
+  }
+
+  async function hasCachedQuestionChunk(sourcePath) {
+    if (!('caches' in window)) return false;
+    const url = new URL(resolveAssetPath(sourcePath), window.location.href).href;
+    const keys = await caches.keys();
+    const chunkCacheNames = keys.filter(key => /^grammarquest-chunks-/.test(key));
+    for (const cacheName of chunkCacheNames) {
+      const cache = await caches.open(cacheName);
+      if (await cache.match(url)) return true;
+    }
+    return false;
   }
 
   async function hydrateQuestionRefs(questionRefs) {

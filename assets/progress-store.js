@@ -5,6 +5,8 @@
   const SYNC_STATUS_EVENT = "grammarquest:sync-status";
   const PROGRESS_UPDATED_EVENT = "grammarquest:progress-updated";
   let cloudAdapter = null;
+  let learnerStateRepository = null;
+  let learnerStateRepositoryKey = "";
   let syncTimer = null;
   const ACTIVE_ASSESSMENT_EVENT = "grammarquest:active-assessment";
   const EXIT_CONFIRMATION_MESSAGE = "A test is still in progress. Leave this page and lose your current test answers?";
@@ -191,6 +193,8 @@
   }
 
   function loadLocalProgress() {
+    const repository = getLearnerStateRepository();
+    if (repository) return normalizeProgress(repository.getProgress());
     try {
       return normalizeProgress(JSON.parse(localStorage.getItem(getStorageKey())));
     } catch (error) {
@@ -200,11 +204,11 @@
 
   function saveLocalProgress(progress, options) {
     const shouldSync = !options || options.sync !== false;
-    const normalized = normalizeProgress(progress);
-    localStorage.setItem(getStorageKey(), JSON.stringify(normalized));
-    window.dispatchEvent(new CustomEvent(PROGRESS_UPDATED_EVENT, { detail: normalized }));
-
-    if (shouldSync) scheduleCloudSave(normalized);
+    const repository = getLearnerStateRepository();
+    const normalized = repository
+      ? normalizeProgress(repository.saveProgress(normalizeProgress(progress)))
+      : saveLocalProgressDirect(progress);
+    afterProgressWrite(normalized, shouldSync);
     return normalized;
   }
 
@@ -217,16 +221,32 @@
   }
 
   function updateProgress(mutator, options) {
+    const repository = getLearnerStateRepository();
+    if (repository) {
+      const normalized = normalizeProgress(repository.updateProgress(progress => {
+        const current = normalizeProgress(progress);
+        return typeof mutator === "function" ? mutator(current) || current : current;
+      }));
+      afterProgressWrite(normalized, !options || options.sync !== false);
+      return normalized;
+    }
     const current = loadLocalProgress();
     const next = typeof mutator === "function" ? mutator(current) || current : current;
     return saveLocalProgress(next, options);
   }
 
   function getActiveQuiz() {
-    return loadLocalProgress().activeQuiz;
+    const repository = getLearnerStateRepository();
+    return repository ? normalizeActiveQuiz(repository.getActiveQuiz()) : loadLocalProgress().activeQuiz;
   }
 
   function saveActiveQuiz(activeQuiz, options) {
+    const repository = getLearnerStateRepository();
+    if (repository) {
+      const normalizedActiveQuiz = normalizeActiveQuiz(repository.saveActiveQuiz(activeQuiz));
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return normalizedActiveQuiz;
+    }
     return updateProgress(progress => {
       progress.activeQuiz = normalizeActiveQuiz(activeQuiz);
       return progress;
@@ -234,6 +254,12 @@
   }
 
   function clearActiveQuiz(options) {
+    const repository = getLearnerStateRepository();
+    if (repository) {
+      repository.clearActiveQuiz();
+      afterProgressWrite(normalizeProgress(repository.getProgress()), !options || options.sync !== false);
+      return;
+    }
     updateProgress(progress => {
       progress.activeQuiz = null;
       return progress;
@@ -241,6 +267,12 @@
   }
 
   function appendSavedSession(session, options) {
+    const repository = getLearnerStateRepository();
+    if (repository) {
+      const normalized = normalizeProgress(repository.appendSavedSession(session));
+      afterProgressWrite(normalized, !options || options.sync !== false);
+      return normalized;
+    }
     return updateProgress(progress => {
       const reports = normalizeReports(progress.reports);
       reports.sessions = [normalizeReportSession(session)].concat(reports.sessions || []).filter(Boolean).slice(0, 250);
@@ -250,6 +282,12 @@
   }
 
   function upsertQuestionReport(report, options) {
+    const repository = getLearnerStateRepository();
+    if (repository) {
+      const normalized = normalizeProgress(repository.upsertQuestionReport(report));
+      afterProgressWrite(normalized, !options || options.sync !== false);
+      return normalized;
+    }
     return updateProgress(progress => {
       const reports = normalizeReports(progress.reports);
       const normalized = normalizeQuestionReport(report);
@@ -259,6 +297,18 @@
       progress.reports = normalizeReports(reports);
       return progress;
     }, options);
+  }
+
+  function saveLocalProgressDirect(progress) {
+    const normalized = normalizeProgress(progress);
+    localStorage.setItem(getStorageKey(), JSON.stringify(normalized));
+    return normalized;
+  }
+
+  function afterProgressWrite(progress, shouldSync) {
+    const normalized = normalizeProgress(progress);
+    window.dispatchEvent(new CustomEvent(PROGRESS_UPDATED_EVENT, { detail: normalized }));
+    if (shouldSync) scheduleCloudSave(normalized);
   }
 
   function mergeProgress(localProgress, cloudProgress) {
@@ -406,6 +456,34 @@
   function getStorageKey() {
     const activeStudentId = getActiveStudentId();
     return activeStudentId ? `${STORAGE_KEY}:${activeStudentId}` : STORAGE_KEY;
+  }
+
+  function getLearnerStateRepository() {
+    const boundary = window.GrammarQuestLearnerStateRepository;
+    if (!boundary
+      || typeof boundary.createLocalStorageLearnerStateAdapter !== "function"
+      || typeof boundary.createLearnerStateRepository !== "function") {
+      return null;
+    }
+    const storageKey = getStorageKey();
+    if (learnerStateRepository && learnerStateRepositoryKey === storageKey) {
+      return learnerStateRepository;
+    }
+    try {
+      learnerStateRepositoryKey = storageKey;
+      learnerStateRepository = boundary.createLearnerStateRepository(
+        boundary.createLocalStorageLearnerStateAdapter(localStorage, {
+          storageKey,
+          corruptBackupKey: `${storageKey}.corrupt`
+        })
+      );
+      return learnerStateRepository;
+    } catch (error) {
+      console.warn("Progress learner state repository unavailable:", error);
+      learnerStateRepository = null;
+      learnerStateRepositoryKey = "";
+      return null;
+    }
   }
 
   function startActiveAssessment(details) {

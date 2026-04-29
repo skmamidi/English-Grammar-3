@@ -1,0 +1,27 @@
+{
+  "name": "reports",
+  "file": "reports.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "screenshotSha256": "45d6a17fae23147dcb75ab5c987017b8ab4c9866671478649fe11ba873611118",
+  "screenshotBytes": 125610,
+  "summary": {
+    "title": "Teacher / Parent Reports",
+    "bodyTextHash": "-1845936183",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery All practice",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 75
+        }
+      }
+    ]
+  }
+}

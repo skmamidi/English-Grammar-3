@@ -153,6 +153,66 @@ test('question-bank size snapshot is available for performance budget tracking',
   assert.ok(summary.files.length >= 1);
 });
 
+test('content QA warns for duplicate prompts within a set', () => {
+  const questions = [
+    makeQaQuestion(1, { question: 'Which sentence is a command?' }),
+    makeQaQuestion(2, { question: ' Which   sentence is a command? ' })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.warnings, 'duplicate-prompt-in-set', {
+    setId: 'content-qa-fixture',
+    questionId: 'content-qa-fixture-q0002'
+  });
+});
+
+test('content QA errors for empty or repeated choices', () => {
+  const questions = [
+    makeQaQuestion(1, { choices: ['Close the door.', '  ', 'Close the door.'], correct: 0 })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions), {
+    ruleSeverity: {
+      'duplicate-choice': 'error',
+      'duplicate-correct-answer-text': 'error'
+    }
+  });
+
+  assertIssue(result.errors, 'empty-choice');
+  assertIssue(result.errors, 'duplicate-choice');
+  assertIssue(result.errors, 'duplicate-correct-answer-text');
+});
+
+test('content QA warns for placeholders, whitespace, weak explanations, and long choices', () => {
+  const longChoice = `${'A very long answer choice '.repeat(12)}that will be hard to scan on a phone.`;
+  const questions = [
+    makeQaQuestion(1, {
+      question: 'TODO: Which sentence uses a noun?',
+      choices: [longChoice, 'The dog ran.'],
+      correct: 1,
+      explanation: {
+        correct: 'Correct.',
+        incorrect: ['Incorrect.', 'Correct.']
+      },
+      studyAid: {
+        definition: 'A noun names a person, place, thing, or idea.',
+        example: 'dog'
+      }
+    }),
+    makeQaQuestion(2, {
+      question: 'Which   sentence\n\nuses  a verb?'
+    })
+  ];
+
+  const result = validateLoadedContent(makeLoadedBank('content-qa-fixture', questions));
+
+  assertIssue(result.warnings, 'placeholder-text');
+  assertIssue(result.warnings, 'excessive-whitespace');
+  assertIssue(result.warnings, 'weak-explanation-rationale');
+  assertIssue(result.warnings, 'overlong-choice');
+});
+
 function makeQuestion(id, sourceSet, sequence, overrides = {}) {
   return Object.assign({
     id,
@@ -177,6 +237,30 @@ function makeQuestion(id, sourceSet, sequence, overrides = {}) {
       sequence
     }
   }, overrides);
+}
+
+function makeQaQuestion(sequence, overrides = {}) {
+  const sourceSet = 'content-qa-fixture';
+  const question = Object.assign(makeQuestion(`${sourceSet}-q${String(sequence).padStart(4, '0')}`, sourceSet, sequence, {
+    metadata: {
+      sourceSet,
+      sequence,
+      gradeLevels: [4],
+      difficultyByGrade: { 4: 'medium' },
+      skills: ['content QA']
+    }
+  }), overrides);
+  question.contentHash = computeContentHash(question);
+  return question;
+}
+
+function assertIssue(issues, ruleId, expected = {}) {
+  const issue = issues.find(item => item.ruleId === ruleId &&
+    (!expected.setId || item.setId === expected.setId) &&
+    (!expected.questionId || item.questionId === expected.questionId));
+  assert.ok(issue, `expected ${ruleId}; got ${issues.map(item => item.ruleId || item.message).join(', ')}`);
+  assert.ok(issue.relativeFile, 'expected source file in diagnostic');
+  assert.ok(issue.setId, 'expected set id in diagnostic');
 }
 
 function makeScene(text) {

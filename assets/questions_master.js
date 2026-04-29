@@ -1,8 +1,8 @@
 /**
  * English Language Quiz App - Question Bank Loader
  *
- * The monolithic question bank has been split by main topic.
- * Load one of the files in assets/question-banks/ before quiz-engine.js.
+ * Deprecated compatibility shell. Canonical content lives in
+ * assets/question-bank-source/*.json and runtime quizzes load generated chunks.
  */
 (function () {
   'use strict';

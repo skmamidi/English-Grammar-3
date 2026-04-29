@@ -16,10 +16,10 @@ const {
 
 function validateContent(options = {}) {
   const bankLoad = loadQuestionBanks(options);
-  return validateLoadedContent(bankLoad);
+  return validateLoadedContent(bankLoad, options);
 }
 
-function validateLoadedContent(bankLoad) {
+function validateLoadedContent(bankLoad, options = {}) {
   const issues = [];
   const sets = flattenQuestionBanks(bankLoad);
   const questions = flattenQuestions(bankLoad);
@@ -38,6 +38,7 @@ function validateLoadedContent(bankLoad) {
   questions.forEach(record => validateQuestion(record, issues));
   validateUniqueQuestionKeys(sets, issues);
   validateStableQuestionIdentity(sets, issues);
+  runContentQualityRules(sets, questions, issues, options);
 
   return {
     bankLoad,
@@ -48,6 +49,177 @@ function validateLoadedContent(bankLoad) {
     warnings: issues.filter(issue => issue.level === 'warning'),
     sizeSummary: getBankSizeSummary(bankLoad)
   };
+}
+
+const QUALITY_RULES = [{
+  id: 'duplicate-prompt-in-set',
+  defaultSeverity: 'warning',
+  scope: 'set',
+  run(record, issues) {
+    const seen = new Map();
+    getQuestions(record).forEach((question, index) => {
+      const prompt = normalizeText(question && question.question);
+      if (!prompt) return;
+      if (seen.has(prompt)) {
+        addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, index), `Prompt duplicates question ${seen.get(prompt)} in this set.`, this.id, getQuestionId(question));
+      } else {
+        seen.set(prompt, index + 1);
+      }
+    });
+  }
+}, {
+  id: 'duplicate-prompt-and-choices-in-domain',
+  defaultSeverity: 'warning',
+  scope: 'domain',
+  run(sets, issues) {
+    const seen = new Map();
+    sets.forEach(record => {
+      getQuestions(record).forEach((question, index) => {
+        const choicesKey = Array.isArray(question && question.choices)
+          ? question.choices.map(normalizeText).join('|')
+          : '';
+        const key = `${record.domain}::${normalizeText(question && question.question)}::${choicesKey}`;
+        if (!choicesKey || key.includes('::::')) return;
+        const location = `${record.relativeFile} | ${record.setId} | ${questionLocation(question, index)}`;
+        if (seen.has(key)) {
+          addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, index), `Prompt and choices duplicate ${seen.get(key)}.`, this.id, getQuestionId(question));
+        } else {
+          seen.set(key, location);
+        }
+      });
+    });
+  }
+}, {
+  id: 'empty-choice',
+  defaultSeverity: 'error',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!Array.isArray(question.choices)) return;
+    question.choices.forEach((choice, index) => {
+      if (typeof choice === 'string' && !choice.trim()) {
+        addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), `Choice ${index + 1} is empty.`, this.id, getQuestionId(question));
+      }
+    });
+  }
+}, {
+  id: 'duplicate-choice',
+  defaultSeverity: 'warning',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!Array.isArray(question.choices)) return;
+    const seen = new Map();
+    question.choices.forEach((choice, index) => {
+      const normalized = normalizeChoiceText(choice);
+      if (!normalized) return;
+      if (seen.has(normalized)) {
+        addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), `Choice ${index + 1} repeats choice ${seen.get(normalized)}.`, this.id, getQuestionId(question));
+      } else {
+        seen.set(normalized, index + 1);
+      }
+    });
+  }
+}, {
+  id: 'duplicate-correct-answer-text',
+  defaultSeverity: 'warning',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!Array.isArray(question.choices) || !Number.isInteger(question.correct)) return;
+    const correctText = normalizeChoiceText(question.choices[question.correct]);
+    if (!correctText) return;
+    const duplicateIndexes = question.choices
+      .map((choice, index) => ({ choice, index }))
+      .filter(item => item.index !== question.correct && normalizeChoiceText(item.choice) === correctText)
+      .map(item => item.index + 1);
+    if (duplicateIndexes.length) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), `Correct answer text is duplicated at choice ${duplicateIndexes.join(', ')}.`, this.id, getQuestionId(question));
+    }
+  }
+}, {
+  id: 'placeholder-text',
+  defaultSeverity: 'warning',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    const fields = [
+      question.question,
+      ...(Array.isArray(question.choices) ? question.choices : []),
+      question.explanation && question.explanation.correct,
+      ...(question.explanation && Array.isArray(question.explanation.incorrect) ? question.explanation.incorrect : [])
+    ];
+    if (fields.some(value => /\b(todo|tbd|lorem|insert)\b/i.test(String(value || '')))) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Question contains placeholder text.', this.id, getQuestionId(question));
+    }
+  }
+}, {
+  id: 'excessive-whitespace',
+  defaultSeverity: 'warning',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    const fields = [question.question, ...(Array.isArray(question.choices) ? question.choices : [])];
+    if (fields.some(value => /\s{3,}|\n\s*\n/.test(String(value || '')))) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Question text contains excessive whitespace.', this.id, getQuestionId(question));
+    }
+  }
+}, {
+  id: 'weak-explanation-rationale',
+  defaultSeverity: 'warning',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    const explanation = question.explanation || {};
+    const correct = normalizeText(explanation.correct);
+    const incorrect = Array.isArray(explanation.incorrect) ? explanation.incorrect.map(normalizeText) : [];
+    const weakCorrect = correct.length < 24 || /^(correct|yes|right|good job|that's correct)\.?$/.test(correct);
+    const repeatedIncorrect = incorrect.some(item => item && item === correct);
+    const weakIncorrect = incorrect.some(item => item && item.length < 16);
+    if (weakCorrect || repeatedIncorrect || weakIncorrect) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Explanation should give answer-specific rationale for correct and incorrect choices.', this.id, getQuestionId(question));
+    }
+  }
+}, {
+  id: 'overlong-choice',
+  defaultSeverity: 'warning',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    if (!Array.isArray(question.choices)) return;
+    const longChoice = question.choices.find(choice => String(choice || '').length > 180);
+    if (longChoice) {
+      addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), 'Choice text is very long and may be hard to scan on mobile.', this.id, getQuestionId(question));
+    }
+  }
+}, {
+  id: 'unsupported-visual-metadata',
+  defaultSeverity: 'warning',
+  scope: 'question',
+  run(record, issues) {
+    const question = record.question || {};
+    ['visual', 'visualMetadata', 'media'].forEach(field => {
+      if (Object.hasOwn(question, field)) {
+        addIssue(issues, this.defaultSeverity, record.file, record.setId, questionLocation(question, record.questionNumber - 1), `Unsupported visual metadata field "${field}" should use visualScene or generatedVisualScene.`, this.id, getQuestionId(question));
+      }
+    });
+  }
+}];
+
+function runContentQualityRules(sets, questions, issues, options = {}) {
+  const severityByRule = options.ruleSeverity || {};
+  QUALITY_RULES.forEach(rule => {
+    const activeRule = Object.assign({}, rule, {
+      defaultSeverity: severityByRule[rule.id] || rule.defaultSeverity
+    });
+    if (rule.scope === 'set') {
+      sets.forEach(record => activeRule.run(record, issues));
+    } else if (rule.scope === 'question') {
+      questions.forEach(record => activeRule.run(record, issues));
+    } else if (rule.scope === 'domain') {
+      activeRule.run(sets, issues);
+    }
+  });
 }
 
 function validateStableQuestionIdentity(sets, issues) {
@@ -156,7 +328,7 @@ function validateSet(record, issues) {
 
 function validateQuestion(record, issues) {
   const question = record.question || {};
-  const location = `question ${record.questionNumber}`;
+  const location = questionLocation(question, record.questionNumber - 1);
   if (!question.question || typeof question.question !== 'string') {
     addIssue(issues, 'error', record.file, record.setId, location, 'Question prompt is missing.');
   }
@@ -213,17 +385,41 @@ function validateUniqueQuestionKeys(sets, issues) {
   });
 }
 
+function getQuestions(record) {
+  return Array.isArray(record.set && record.set.questions) ? record.set.questions : [];
+}
+
+function getQuestionId(question) {
+  return question && typeof question.id === 'string' ? question.id : '';
+}
+
+function questionLocation(question, zeroBasedIndex) {
+  const id = getQuestionId(question);
+  const base = `question ${zeroBasedIndex + 1}`;
+  return id ? `${base} (${id})` : base;
+}
+
 function questionSupportsGrade(question, grade) {
   const levels = question.metadata && question.metadata.gradeLevels;
   return !levels || levels.map(String).includes(String(grade));
 }
 
-function addIssue(issues, level, file, setId, location, message) {
+function normalizeText(value) {
+  return String(value || '').trim().replace(/\s+/g, ' ').toLowerCase();
+}
+
+function normalizeChoiceText(value) {
+  return String(value || '').trim().replace(/\s+/g, ' ');
+}
+
+function addIssue(issues, level, file, setId, location, message, ruleId = '', questionId = '') {
   issues.push({
     level,
+    ruleId,
     file,
     relativeFile: file ? path.relative(repoRoot, file) : '',
     setId,
+    questionId,
     location,
     message
   });
@@ -235,11 +431,29 @@ function formatBytes(bytes) {
 
 function runCli() {
   const result = validateContent();
-  result.issues.forEach(issue => {
+  const warningLimit = Number(process.env.CONTENT_QA_WARNING_LIMIT || 80);
+  const shouldPrintAllWarnings = process.env.CONTENT_QA_ALL_WARNINGS === '1';
+  const printableIssues = result.issues.filter(issue => issue.level === 'error');
+  const warningsToPrint = shouldPrintAllWarnings
+    ? result.warnings
+    : result.warnings.slice(0, warningLimit);
+
+  printableIssues.concat(warningsToPrint).forEach(issue => {
     const location = [issue.relativeFile, issue.setId, issue.location].filter(Boolean).join(' | ');
     console.log(`${issue.level.toUpperCase()}: ${location}`);
     console.log(`  ${issue.message}`);
   });
+  if (!shouldPrintAllWarnings && result.warnings.length > warningsToPrint.length) {
+    console.log(`WARNING: ${result.warnings.length - warningsToPrint.length} additional warning(s) hidden. Set CONTENT_QA_ALL_WARNINGS=1 to print every warning.`);
+  }
+
+  const warningSummary = summarizeIssuesByRule(result.warnings);
+  if (Object.keys(warningSummary).length) {
+    console.log('Warning summary by rule:');
+    Object.entries(warningSummary).forEach(([ruleId, count]) => {
+      console.log(`  ${ruleId}: ${count}`);
+    });
+  }
 
   const sizes = result.sizeSummary;
   console.log(`Checked ${result.sets.length} sets and ${result.questions.length} questions.`);
@@ -251,10 +465,20 @@ function runCli() {
   if (result.errors.length) process.exitCode = 1;
 }
 
+function summarizeIssuesByRule(issues) {
+  return issues.reduce((summary, issue) => {
+    const key = issue.ruleId || 'coverage';
+    summary[key] = (summary[key] || 0) + 1;
+    return summary;
+  }, {});
+}
+
 if (require.main === module) runCli();
 
 module.exports = {
   validateContent,
   validateLoadedContent,
+  QUALITY_RULES,
+  summarizeIssuesByRule,
   formatBytes
 };

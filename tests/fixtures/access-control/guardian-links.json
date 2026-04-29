@@ -1,0 +1,23 @@
+[
+  {
+    "guardianId": "guardian-1",
+    "learnerId": "learner-1",
+    "relationship": "parent",
+    "status": "active",
+    "createdAt": "2030-04-29T12:00:00.000Z"
+  },
+  {
+    "guardianId": "guardian-1",
+    "learnerId": "learner-archived",
+    "relationship": "guardian",
+    "status": "revoked",
+    "createdAt": "2030-04-29T12:05:00.000Z"
+  },
+  {
+    "guardianId": "guardian-2",
+    "learnerId": "learner-2",
+    "relationship": "guardian",
+    "status": "active",
+    "createdAt": "2030-04-29T12:10:00.000Z"
+  }
+]

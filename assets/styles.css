@@ -3,6 +3,8 @@
  * Clean, accessible, kid-friendly design
  */
 
+@import url("./design-tokens.css");
+
 :root {
   color-scheme: light;
   --primary: #2563eb;
@@ -271,13 +273,14 @@ body::before {
 }
 
 .back-link {
+  align-items: center;
   color: var(--text-muted);
-  text-decoration: none;
+  display: inline-flex;
   font-size: 0.95rem;
   font-weight: 500;
-  display: inline-flex;
-  align-items: center;
   gap: 6px;
+  min-height: 32px;
+  text-decoration: none;
 }
 
 .back-link:hover {
@@ -4978,6 +4981,7 @@ body.parent-question-browser .subtopic-item {
 
   .report-actions,
   .report-tabs {
+    flex-direction: column;
     justify-content: stretch;
   }
 

@@ -1,0 +1,38 @@
+{
+  "name": "capitalization-topic",
+  "file": "topics/capitalization/index.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "screenshotSha256": "6f7b3c23a8529a3756855cc597f4aa876785236b7e718f206f1473d8d9947db7",
+  "screenshotBytes": 131957,
+  "summary": {
+    "title": "Capitalization",
+    "bodyTextHash": "-656372517",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← All Topics",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "",
+        "visible": false,
+        "rect": {
+          "x": 214,
+          "y": 778,
+          "width": 852,
+          "height": 0
+        }
+      }
+    ]
+  }
+}

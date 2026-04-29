@@ -1,0 +1,38 @@
+{
+  "name": "grammar-topic",
+  "file": "topics/grammar/index.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "screenshotSha256": "00e5acbdf333f5b5229313708527293d6cb6f4ed1bcdc469968f69731e31472f",
+  "screenshotBytes": 154310,
+  "summary": {
+    "title": "Grammar & Usage",
+    "bodyTextHash": "424573413",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← All Topics",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "",
+        "visible": false,
+        "rect": {
+          "x": 214,
+          "y": 3033,
+          "width": 852,
+          "height": 0
+        }
+      }
+    ]
+  }
+}

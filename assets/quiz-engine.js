@@ -4,8 +4,7 @@
  * 
  * Usage in a subtopic HTML file:
  *   <script>window.QUIZ_SET_ID = 'vocabulary-base-words';</script>
- *   <script src="../../assets/question-banks/grammar.js"></script>
- *   or <script src="../../assets/question-loader.js"></script>
+ *   <script src="../../assets/question-loader.js"></script>
  *   <script src="../../assets/quiz-engine.js"></script>
  */
 
@@ -36,6 +35,7 @@
   let mixedQuizConfig = null;
   let selectedMixedSubtopicIds = [];
   let selectedMixedQuestionLimit = '4';
+  const runtimeScriptPromises = {};
   const progressStore = window.GrammarQuestProgress;
   const assessmentGuard = progressStore && progressStore.activeAssessment;
   const gradeOptions = ['3', '4', '5', '6'];
@@ -123,6 +123,7 @@
   async function loadQuestionSet(setId) {
     const loader = window.GrammarQuestQuestionLoader;
     if (shouldUseServerSelectionForSubtopic(setId) && loader && typeof loader.loadSelectedQuiz === 'function') {
+      await ensureSelectionTelemetryDependency();
       const result = await loader.loadSelectedQuiz(buildSubtopicSelectionRequest(setId));
       const selectedSet = result && Array.isArray(result.sets) ? result.sets[0] : null;
       if (selectedSet) return selectedSet;
@@ -169,6 +170,59 @@
       : {};
   }
 
+  function ensureSelectionTelemetryDependency() {
+    const config = getAppConfig();
+    if (window.GrammarQuestSelectionTelemetry || !config.selectionTelemetry) {
+      return Promise.resolve();
+    }
+    return loadRuntimeScriptOnce(resolveAssetScriptPath('question-selection-telemetry.js'))
+      .catch(error => {
+        console.warn('Quiz engine: selection telemetry could not be loaded.', error);
+      });
+  }
+
+  function loadRuntimeScriptOnce(src) {
+    if (!src || typeof document === 'undefined' || typeof document.createElement !== 'function') return Promise.resolve();
+    if (runtimeScriptPromises[src]) return runtimeScriptPromises[src];
+    runtimeScriptPromises[src] = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      script.onload = () => resolve();
+      script.onerror = () => reject(new Error(`Failed to load ${src}`));
+      const parent = document.head || document.body || document.documentElement;
+      if (!parent || typeof parent.appendChild !== 'function') {
+        resolve();
+        return;
+      }
+      parent.appendChild(script);
+    });
+    return runtimeScriptPromises[src];
+  }
+
+  function resolveAssetScriptPath(fileName) {
+    const script = findCurrentScript();
+    const src = script && script.src || '';
+    if (src && src.includes('/assets/quiz-engine.js')) {
+      return src.replace(/\/assets\/quiz-engine\.js(?:\?.*)?$/, `/assets/${fileName}`);
+    }
+    return `../../assets/${fileName}`;
+  }
+
+  function findCurrentScript() {
+    if (typeof document === 'undefined') return null;
+    if (document && document.currentScript && document.currentScript.src) return document.currentScript;
+    const scripts = document && document.getElementsByTagName
+      ? document.getElementsByTagName('script')
+      : [];
+    for (let index = scripts.length - 1; index >= 0; index -= 1) {
+      if (scripts[index].src && scripts[index].src.includes('/assets/quiz-engine.js')) {
+        return scripts[index];
+      }
+    }
+    return null;
+  }
+
   function renderLoadingQuestions() {
     quizContainer.innerHTML = `
       <div class="card">
@@ -178,9 +232,14 @@
   }
 
   function renderUnavailableQuestions() {
+    const offline = window.GRAMMAR_QUEST_OFFLINE_CHUNK_MISSING
+      || (typeof navigator !== 'undefined' && navigator.onLine === false);
+    const message = offline
+      ? 'This quiz is unavailable offline until its questions have been loaded once. Reconnect and try again.'
+      : 'Questions for this topic are coming soon!';
     quizContainer.innerHTML = `
       <div class="card">
-        <p class="page-subtitle">Questions for this topic are coming soon!</p>
+        <p class="page-subtitle">${message}</p>
         <a href="./" class="btn btn-secondary">Back to Topic</a>
       </div>
     `;

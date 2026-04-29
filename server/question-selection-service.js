@@ -3,7 +3,7 @@ const selectionIntegrity = require('../assets/question-selection-integrity');
 
 const DEFAULT_SELECTION_POLICY_VERSION = 1;
 const DEFAULT_MAX_SELECTED_QUESTIONS = 60;
-const DEFAULT_EXPIRES_MS = 5 * 60 * 1000;
+const DEFAULT_RESPONSE_TTL_SECONDS = 300;
 
 function validateSelectionRequest(input, manifest, options = {}) {
   const normalized = selectionCore.normalizeSelectionRequest(input || {}, {
@@ -90,7 +90,7 @@ async function buildSelectionResponse(selection, request, context) {
     responseDigest: '',
     signature: null,
     signatureVersion: ctx.signing ? ctx.signing.signatureVersion : 'none',
-    expiresAt: new Date(ctx.now().getTime() + DEFAULT_EXPIRES_MS).toISOString()
+    expiresAt: new Date(ctx.now().getTime() + ctx.responseTtlSeconds * 1000).toISOString()
   };
   if (ctx.signing) response.kid = ctx.signing.kid;
   response.requestHash = await selectionIntegrity.buildSelectionRequestHash(normalized, ctx.manifest.artifact || {});
@@ -143,9 +143,19 @@ function normalizeContext(context) {
     loadSetById: ctx.loadSetById,
     now: typeof ctx.now === 'function' ? ctx.now : () => new Date(),
     selectionPolicyVersion: Number(ctx.selectionPolicyVersion) || DEFAULT_SELECTION_POLICY_VERSION,
+    responseTtlSeconds: normalizeResponseTtlSeconds(ctx.responseTtlSeconds),
     shuffle: typeof ctx.shuffle === 'function' ? ctx.shuffle : undefined,
     signing: normalizeSigning(ctx.signing)
   };
+}
+
+function normalizeResponseTtlSeconds(value) {
+  if (value === undefined || value === null || value === '') return DEFAULT_RESPONSE_TTL_SECONDS;
+  const ttl = Number(value);
+  if (!Number.isInteger(ttl) || ttl < 1) {
+    throw new Error('selection response TTL must be a positive integer');
+  }
+  return ttl;
 }
 
 function normalizeSigning(signing) {

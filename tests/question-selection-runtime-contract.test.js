@@ -1,0 +1,220 @@
+const assert = require('node:assert/strict');
+const crypto = require('node:crypto');
+const fs = require('node:fs');
+const path = require('node:path');
+const test = require('node:test');
+
+const integrity = require('../assets/question-selection-integrity');
+const { loadManifest } = require('../scripts/generate-question-manifest');
+const { loadChunkBank } = require('../scripts/qa/chunk-qa');
+const {
+  buildRuntimeConfig,
+  createSelectionRuntime,
+  validateRuntimeConfig
+} = require('../server/question-selection-runtime');
+const testKeys = require('./fixtures/selection-test-keys.json');
+
+const repoRoot = path.resolve(__dirname, '..');
+const runtimeManifest = loadManifest();
+
+test('production runtime config requires signing metadata without private key values', () => {
+  const env = {
+    SELECTION_RUNTIME_MODE: 'production',
+    SELECTION_POLICY_VERSION: '1',
+    SELECTION_SIGNING_KEY_ID: 'selection-key-prod-2026-04',
+    SELECTION_PRIVATE_KEY_REF: 'projects/app/secrets/selection-key-prod-2026-04',
+    SELECTION_RESPONSE_TTL_SECONDS: '300',
+    SELECTION_ALLOWED_DOMAINS: 'grammar,capitalization',
+    SELECTION_MAX_QUESTIONS: '60'
+  };
+
+  const config = buildRuntimeConfig(env);
+
+  assert.deepEqual(config.allowedDomains, ['grammar', 'capitalization']);
+  assert.equal(config.signingKeyId, 'selection-key-prod-2026-04');
+  assert.equal(config.privateKeyRef, env.SELECTION_PRIVATE_KEY_REF);
+  assert.equal(Object.hasOwn(config, 'privateKey'), false);
+  assert.doesNotThrow(() => validateRuntimeConfig(config));
+});
+
+test('production runtime rejects missing signer or private key reference', () => {
+  assert.throws(
+    () => validateRuntimeConfig(buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'production',
+      SELECTION_SIGNING_KEY_ID: 'selection-key-prod-2026-04',
+      SELECTION_RESPONSE_TTL_SECONDS: '300',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_MAX_QUESTIONS: '60'
+    })),
+    /SELECTION_PRIVATE_KEY_REF/
+  );
+
+  assert.throws(
+    () => createSelectionRuntime({
+      config: buildRuntimeConfig({
+        SELECTION_RUNTIME_MODE: 'production',
+        SELECTION_SIGNING_KEY_ID: 'selection-key-prod-2026-04',
+        SELECTION_PRIVATE_KEY_REF: 'projects/app/secrets/key',
+        SELECTION_ALLOWED_DOMAINS: 'grammar'
+      }),
+      manifestProvider: () => ({ sets: [] }),
+      chunkSetProvider: () => ({ questions: [] })
+    }),
+    /production runtime requires a signer/
+  );
+});
+
+test('runtime rejects invalid response TTL configuration', () => {
+  assert.throws(
+    () => validateRuntimeConfig(buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_RESPONSE_TTL_SECONDS: '0',
+      SELECTION_MAX_QUESTIONS: '4'
+    })),
+    /SELECTION_RESPONSE_TTL_SECONDS/
+  );
+
+  assert.throws(
+    () => validateRuntimeConfig(buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_RESPONSE_TTL_SECONDS: 'not-a-number',
+      SELECTION_MAX_QUESTIONS: '4'
+    })),
+    /SELECTION_RESPONSE_TTL_SECONDS/
+  );
+});
+
+test('runtime config uses the default response TTL when env omits it', () => {
+  const config = buildRuntimeConfig({
+    SELECTION_RUNTIME_MODE: 'local',
+    SELECTION_ALLOWED_DOMAINS: 'grammar',
+    SELECTION_MAX_QUESTIONS: '4'
+  });
+
+  assert.equal(config.responseTtlSeconds, 300);
+  assert.doesNotThrow(() => validateRuntimeConfig(config));
+});
+
+test('public key rotation accepts multiple active keys and rejects expired key metadata', async () => {
+  const response = await signedResponse();
+  const options = {
+    requireSignature: true,
+    publicKeys: {
+      [testKeys.kid]: {
+        algorithm: testKeys.algorithm,
+        publicKey: testKeys.publicKey,
+        notAfter: '2030-04-29T12:04:00.000Z'
+      },
+      'selection-key-next': {
+        algorithm: testKeys.algorithm,
+        publicKey: testKeys.publicKey,
+        notAfter: '2030-05-29T12:04:00.000Z'
+      }
+    },
+    now: () => new Date('2030-04-29T12:05:00.000Z')
+  };
+
+  await assert.rejects(
+    () => integrity.validateSelectionResponseIntegrity(response, requestFixture(), manifestFixture(), options),
+    /integrity_failed: signature key expired/
+  );
+});
+
+test('runtime config TTL controls selection response expiry', async () => {
+  const runtime = createSelectionRuntime({
+    config: buildRuntimeConfig({
+      SELECTION_RUNTIME_MODE: 'local',
+      SELECTION_ALLOWED_DOMAINS: 'grammar',
+      SELECTION_RESPONSE_TTL_SECONDS: '42',
+      SELECTION_MAX_QUESTIONS: '4'
+    }),
+    manifestProvider: () => runtimeManifest,
+    chunkSetProvider: loadRuntimeSet,
+    clock: () => new Date('2030-04-29T12:00:00.000Z'),
+    logger: null
+  });
+
+  const response = await runtime.handleSelectionRequest({
+    mode: 'mixed',
+    domain: 'grammar',
+    setIds: ['grammar-sentence-types'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 4,
+    countMode: 'per-subtopic',
+    questionsPerSubtopic: 4
+  });
+
+  assert.equal(response.expiresAt, '2030-04-29T12:00:42.000Z');
+});
+
+test('runtime and security docs do not commit private signing key material', () => {
+  const files = [
+    'server/question-selection-runtime.js',
+    'server/question-selection-runtime.md',
+    'docs/security/selection-api-key-rotation.md',
+    'docs/security/system-admin-role.md',
+    'QA.md'
+  ];
+
+  files.forEach(file => {
+    const source = fs.readFileSync(path.join(repoRoot, file), 'utf8');
+    assert.doesNotMatch(source, /BEGIN (EC |RSA |)PRIVATE KEY/);
+    assert.doesNotMatch(source, /"d"\s*:/);
+    assert.doesNotMatch(source, /privateKey\s*[:=]\s*['"`{]/);
+  });
+});
+
+async function signedResponse() {
+  const response = {
+    selectionId: 'sel_runtime_unit',
+    selectionPolicyVersion: 1,
+    requestHash: await integrity.buildSelectionRequestHash(requestFixture(), manifestFixture()),
+    questionRefs: [{
+      id: 'grammar-sentence-types-q0001',
+      sourceSet: 'grammar-sentence-types',
+      version: 1,
+      contentHash: `sha256:${'1'.repeat(64)}`,
+      sequence: 1
+    }],
+    signature: null,
+    signatureVersion: 'selection-signature-v1',
+    kid: testKeys.kid,
+    expiresAt: '2030-04-29T12:06:00.000Z'
+  };
+  response.responseDigest = await integrity.buildSelectionResponseDigest(response, manifestFixture());
+  response.signature = crypto.sign('sha256', Buffer.from(integrity.buildSelectionSignaturePayload(response, manifestFixture())), {
+    key: crypto.createPrivateKey({ key: testKeys.privateKey, format: 'jwk' }),
+    dsaEncoding: 'ieee-p1363'
+  }).toString('base64');
+  return response;
+}
+
+function requestFixture() {
+  return {
+    mode: 'mixed',
+    domain: 'grammar',
+    setIds: ['grammar-sentence-types'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 4,
+    countMode: 'per-subtopic',
+    questionsPerSubtopic: 4,
+    selectionPolicyVersion: 1
+  };
+}
+
+function manifestFixture() {
+  return {
+    sourceHash: 'sha256:manifest-source'
+  };
+}
+
+function loadRuntimeSet(setId) {
+  const entry = runtimeManifest.sets.find(set => set.id === setId);
+  if (!entry) throw new Error(`missing set ${setId}`);
+  const bank = loadChunkBank(entry.chunkFile);
+  return Object.assign({}, bank[setId], { id: entry.id });
+}

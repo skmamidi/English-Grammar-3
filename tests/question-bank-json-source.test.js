@@ -46,7 +46,7 @@ test('JSON loader reads canonical sources without live legacy JS parity', () => 
 
   assert.ok(jsonLoad.files.length > 0, 'expected canonical JSON files');
   assert.ok(jsonLoad.files.every(file => file.relativeFile.startsWith('assets/question-bank-source/')));
-  assert.ok(jsonLoad.files.every(file => file.runtimeBankFile.startsWith('assets/question-banks/')));
+  assert.ok(jsonLoad.files.every(file => file.runtimeBankFile === null));
 });
 
 test('dry-run conversion reports stale fixture JSON output', () => {

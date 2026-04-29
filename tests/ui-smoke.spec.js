@@ -77,6 +77,18 @@ const REPRESENTATIVE_CHUNK_PAGES = {
     chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js'
   }
 };
+const VIEWPORTS = {
+  mobile: { width: 390, height: 844 },
+  tablet: { width: 768, height: 1024 },
+  desktop: { width: 1280, height: 900 }
+};
+const VIEWPORT_SMOKE_PAGES = [
+  'index.html',
+  'topics/grammar/index.html',
+  'topics/grammar/subtopics/sentence-types.html',
+  'reports.html',
+  'character-library.html'
+];
 
 async function main() {
   const server = await startStaticServer(requestedPort);
@@ -101,6 +113,36 @@ async function main() {
         await page.close();
       });
     }
+
+    for (const [viewportName, viewport] of Object.entries(VIEWPORTS)) {
+      for (const file of VIEWPORT_SMOKE_PAGES) {
+        await runCase(failures, `${file} has no ${viewportName} layout overflow`, async () => {
+          const page = await newPage(browser, { viewport });
+          await visitClean(page, server.baseURL, file);
+          await assertNoHorizontalOverflow(page, `${file} ${viewportName}`);
+          await assertTouchTargets(page, `${file} ${viewportName}`);
+          if (file.includes('/subtopics/')) await assertQuizFlow(page, `${file} ${viewportName}`);
+          await page.close();
+        });
+      }
+    }
+
+    await runCase(failures, 'mobile parent preview remains read-only', async () => {
+      const page = await newPage(browser, { viewport: VIEWPORTS.mobile });
+      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
+      await visitClean(page, server.baseURL, `${file}?parentBrowse=1`);
+      await assertNoHorizontalOverflow(page, `${file} mobile parent preview`);
+      await assertParentPreview(page, `${file} mobile parent preview`);
+      await page.close();
+    });
+
+    await runCase(failures, 'keyboard-only quiz answer flow works', async () => {
+      const page = await newPage(browser);
+      const file = 'topics/grammar/subtopics/sentence-types.html';
+      await visitClean(page, server.baseURL, file);
+      await assertKeyboardQuizFlow(page, file);
+      await page.close();
+    });
 
     for (const file of manifestTopicIndexes) {
       await runCase(failures, `${file} uses manifest metadata without full topic bank`, async () => {
@@ -364,6 +406,7 @@ async function main() {
       await runCase(failures, 'capitalization pilot subtopic can use question selection API', async () => {
         const page = await newPage(browser, {
           enableQuestionSelectionApi: true,
+          enableSelectionTelemetry: true,
           serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles']
         });
         const requests = [];
@@ -383,6 +426,16 @@ async function main() {
         assert.equal(selectionPayloads[0].count, 10);
         assert.equal(selectionPayloads[0].countMode, 'max');
         assert.deepEqual(selectionPayloads[0].setIds, ['capitalization-proper-names-titles']);
+        const sinkTelemetry = await page.evaluate(() => window.__selectionTelemetryRecords || []);
+        const apiTelemetry = sinkTelemetry.find(event => event.event === 'selection.api_used');
+        assert.ok(apiTelemetry, 'pilot subtopic should record normalized API telemetry');
+        assert.equal(apiTelemetry.source, 'api');
+        assert.equal(apiTelemetry.domain, 'capitalization');
+        assert.equal(apiTelemetry.selectedQuestionCount, 10);
+        assert.ok(apiTelemetry.requestBytes > 0, 'pilot subtopic telemetry should include request bytes');
+        assert.ok(apiTelemetry.responseBytes > 0, 'pilot subtopic telemetry should include response bytes');
+        assert.equal(JSON.stringify(apiTelemetry).includes('questionSnapshots'), false, 'pilot subtopic telemetry should not include snapshots');
+        assert.equal(JSON.stringify(apiTelemetry).includes('Choose'), false, 'pilot subtopic telemetry should not include question content');
         assert.equal(
           requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
           false,
@@ -398,6 +451,7 @@ async function main() {
       await runCase(failures, 'capitalization pilot subtopic falls back when question selection API fails', async () => {
         const page = await newPage(browser, {
           enableQuestionSelectionApi: true,
+          enableSelectionTelemetry: true,
           serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles'],
           questionSelectionApiUrl: '/api/question-selection?fail=1'
         });
@@ -413,6 +467,13 @@ async function main() {
           /selection API returned 503/,
           'pilot subtopic fallback should include a reason'
         );
+        const sinkTelemetry = await page.evaluate(() => window.__selectionTelemetryRecords || []);
+        const fallbackTelemetry = sinkTelemetry.find(event => event.event === 'selection.fallback');
+        assert.ok(fallbackTelemetry, 'pilot subtopic fallback should record normalized fallback telemetry');
+        assert.equal(fallbackTelemetry.source, 'fallback');
+        assert.equal(fallbackTelemetry.domain, 'capitalization');
+        assert.equal(fallbackTelemetry.fallbackReason, 'api_unavailable');
+        assert.equal(JSON.stringify(fallbackTelemetry).includes('503'), false, 'pilot subtopic fallback telemetry should not include raw status text');
         await assertQuizFlow(page, 'topics/capitalization/subtopics/proper-names-titles.html API pilot fallback');
         await page.close();
       });
@@ -564,9 +625,14 @@ async function runCase(failures, name, fn) {
 }
 
 async function newPage(browser, options = {}) {
-  const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  const page = await browser.newPage({ viewport: options.viewport || VIEWPORTS.desktop });
   page.setDefaultTimeout(5000);
   page.setDefaultNavigationTimeout(8000);
+  await page.addInitScript(() => {
+    window.GRAMMAR_QUEST_CONFIG = Object.assign({}, window.GRAMMAR_QUEST_CONFIG, {
+      disableServiceWorker: true
+    });
+  });
   await page.route('**/assets/firebase-config.js', route => {
     route.fulfill({
       status: 200,
@@ -615,14 +681,15 @@ async function newPage(browser, options = {}) {
           }
         }
         : config.selectionTelemetry || {};
-      window.GRAMMAR_QUEST_CONFIG = {
+      window.GRAMMAR_QUEST_CONFIG = Object.assign({}, window.GRAMMAR_QUEST_CONFIG, {
+        disableServiceWorker: true,
         enableServerQuestionSelection: true,
         questionSelectionApiUrl: config.questionSelectionApiUrl || '/api/question-selection',
         serverQuestionSelectionPilotDomains: ['grammar', 'capitalization'],
         serverQuestionSelectionPilotSubtopics: config.serverQuestionSelectionPilotSubtopics || [],
         selectionIntegrity: config.selectionIntegrity || {},
         selectionTelemetry
-      };
+      });
       window.__selectionApiUsed = false;
       window.__selectionFallback = false;
       window.__selectionFallbackReason = '';
@@ -819,6 +886,66 @@ async function assertQuizFlow(page, file) {
   await assertVisible(page, '#next-question-btn', file);
   await page.click('#next-question-btn');
   assert.match(await textContent(page, '#quiz-root'), /Question|Results|Score|Review/i);
+}
+
+async function assertKeyboardQuizFlow(page, file) {
+  await assertVisible(page, '#start-btn', file);
+  await focusByKeyboard(page, '#start-btn');
+  await page.keyboard.press('Enter');
+  await assertVisible(page, '.question-box', `${file} keyboard question`);
+  await focusByKeyboard(page, '.confidence-btn');
+  await page.keyboard.press('Space');
+  await focusByKeyboard(page, '.choice-btn');
+  await page.keyboard.press('Space');
+  await assertVisible(page, '#feedback-area', `${file} keyboard feedback`);
+  assert.match(await textContent(page, '#feedback-area'), /Correct|Not quite/);
+  await focusByKeyboard(page, '#next-question-btn');
+  await page.keyboard.press('Enter');
+  assert.match(await textContent(page, '#quiz-root'), /Question|Results|Score|Review/i);
+}
+
+async function focusByKeyboard(page, selector) {
+  for (let index = 0; index < 40; index += 1) {
+    const focused = await page.evaluate(targetSelector => {
+      const active = document.activeElement;
+      return !!(active && active.matches && active.matches(targetSelector));
+    }, selector);
+    if (focused) return;
+    await page.keyboard.press('Tab');
+  }
+  throw new Error(`Could not focus ${selector} with keyboard`);
+}
+
+async function assertNoHorizontalOverflow(page, label) {
+  const overflow = await page.evaluate(() => {
+    const root = document.documentElement;
+    const body = document.body;
+    return Math.max(root.scrollWidth, body.scrollWidth) - root.clientWidth;
+  });
+  assert.ok(overflow <= 2, `${label} has horizontal overflow of ${overflow}px`);
+}
+
+async function assertTouchTargets(page, label) {
+  const failures = await page.evaluate(() => {
+    const selector = 'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled])';
+    return Array.from(document.querySelectorAll(selector))
+      .filter(element => {
+        const rect = element.getBoundingClientRect();
+        const style = window.getComputedStyle(element);
+        return rect.width > 0 && rect.height > 0 && style.visibility !== 'hidden' && style.display !== 'none';
+      })
+      .map(element => {
+        const rect = element.getBoundingClientRect();
+        return {
+          label: element.getAttribute('aria-label') || element.textContent.trim() || element.id || element.className,
+          width: rect.width,
+          height: rect.height
+        };
+      })
+      .filter(item => item.width < 32 || item.height < 32)
+      .slice(0, 8);
+  });
+  assert.deepEqual(failures, [], `${label} has undersized touch targets`);
 }
 
 async function assertChunkBackedSubtopicRequests(page, requests, file, expected) {

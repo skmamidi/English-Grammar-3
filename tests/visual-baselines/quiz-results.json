@@ -1,0 +1,38 @@
+{
+  "name": "quiz-results",
+  "file": "topics/capitalization/subtopics/books-magazines-songs-plays.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "screenshotSha256": "35653de61c1c2580fa2a6077c89dc799fc1d973bcd7f179b2577376fd7029c3d",
+  "screenshotBytes": 86506,
+  "summary": {
+    "title": "Books, Magazines, Songs, and Plays",
+    "bodyTextHash": "-2007231988",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← Back to Topic",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "MISSION COMPLETE 3 / 15 20% correct Keep practicing! Use the study aids to learn more, then try the quiz again. 12 questions marked for review 0 strategy clues opened Slow down con",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 87,
+          "width": 1032,
+          "height": 1031
+        }
+      }
+    ]
+  }
+}

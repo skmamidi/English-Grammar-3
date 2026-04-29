@@ -1,0 +1,28 @@
+:root {
+  --gq-color-primary: #2563eb;
+  --gq-color-primary-strong: #1d4ed8;
+  --gq-color-accent: #f97316;
+  --gq-color-success: #16a34a;
+  --gq-color-danger: #dc2626;
+  --gq-color-warning: #ca8a04;
+  --gq-color-surface: #ffffff;
+  --gq-color-surface-muted: #f8fafc;
+  --gq-color-text: #1e293b;
+  --gq-color-text-muted: #64748b;
+  --gq-color-border: #e2e8f0;
+  --gq-space-1: 0.25rem;
+  --gq-space-2: 0.5rem;
+  --gq-space-3: 0.75rem;
+  --gq-space-4: 1rem;
+  --gq-space-6: 1.5rem;
+  --gq-space-8: 2rem;
+  --gq-radius-sm: 8px;
+  --gq-radius-md: 12px;
+  --gq-radius-lg: 16px;
+  --gq-font-size-sm: 0.875rem;
+  --gq-font-size-md: 1rem;
+  --gq-font-size-lg: 1.25rem;
+  --gq-font-size-xl: 1.5rem;
+  --gq-focus-ring: 0 0 0 4px rgb(37 99 235 / 0.16);
+  --gq-button-min-height: 44px;
+}

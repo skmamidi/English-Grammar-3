@@ -63,6 +63,50 @@ test('selection service returns digest-bound refs for valid grammar mixed reques
   await selectionIntegrity.validateSelectionResponseIntegrity(response, request, manifest.artifact);
 });
 
+test('selection service applies default and explicit response TTLs', async () => {
+  const request = validateSelectionRequest({
+    mode: 'mixed',
+    domain: 'grammar',
+    setIds: ['grammar-sentence-types'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 4,
+    countMode: 'per-subtopic',
+    questionsPerSubtopic: 4,
+    selectionPolicyVersion: 1
+  }, manifest);
+  const selection = await selectQuestionRefs(request, context());
+
+  const defaultResponse = await buildSelectionResponse(selection, request, context());
+  const configuredResponse = await buildSelectionResponse(selection, request, context({
+    responseTtlSeconds: 42
+  }));
+
+  assert.equal(defaultResponse.expiresAt, '2030-04-29T12:05:00.000Z');
+  assert.equal(configuredResponse.expiresAt, '2030-04-29T12:00:42.000Z');
+  assert.notEqual(defaultResponse.responseDigest, configuredResponse.responseDigest);
+});
+
+test('selection service rejects explicitly invalid response TTLs', async () => {
+  const request = validateSelectionRequest({
+    mode: 'mixed',
+    domain: 'grammar',
+    setIds: ['grammar-sentence-types'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 4,
+    countMode: 'per-subtopic',
+    questionsPerSubtopic: 4,
+    selectionPolicyVersion: 1
+  }, manifest);
+  const selection = await selectQuestionRefs(request, context());
+
+  await assert.rejects(
+    () => buildSelectionResponse(selection, request, context({ responseTtlSeconds: 0 })),
+    /selection response TTL must be a positive integer/
+  );
+});
+
 test('selection service supports capitalization and rejects unauthorized domains or sets', async () => {
   const request = validateSelectionRequest({
     mode: 'mixed',

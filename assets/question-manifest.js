@@ -5,7 +5,7 @@ window.QUESTION_MANIFEST = {
     "artifactSchemaVersion": 1,
     "generatorVersion": 1,
     "sourceType": "json",
-    "sourceHash": "sha256:3005375a134ab77947efa83c068695c4f8b388b371477ad30c76f423e0b1a509",
+    "sourceHash": "sha256:afcd62e1e4da7f46e77fc8d5f1115ed627ed742839a1835c73e263d01c7ed628",
     "sourceFiles": [
       "assets/question-bank-source/capitalization.json",
       "assets/question-bank-source/grammar.json",

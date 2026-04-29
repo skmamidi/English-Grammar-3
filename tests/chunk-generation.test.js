@@ -187,7 +187,7 @@ test('manifest validation fails if a declared chunk is stale', () => {
   staleBankLoad.bank['capitalization-proper-names-titles'].questions[0].contentHash =
     `sha256:${'1'.repeat(64)}`;
   staleBankLoad.files
-    .find(file => file.runtimeBankFile === 'assets/question-banks/capitalization.js')
+    .find(file => file.domain === 'capitalization')
     .bank['capitalization-proper-names-titles'].questions[0].contentHash =
       `sha256:${'1'.repeat(64)}`;
   const manifest = generateManifest(staleBankLoad);

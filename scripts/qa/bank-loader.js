@@ -137,7 +137,7 @@ function loadJsonQuestionBanks({ root, files }) {
       relativeFile: path.relative(root, file).split(path.sep).join('/'),
       sourceType: 'json',
       domain,
-      runtimeBankFile: path.posix.join('assets', 'question-banks', `${domain}.js`),
+      runtimeBankFile: null,
       bank,
       bytes: Buffer.byteLength(code)
     };

@@ -78,6 +78,13 @@
     const kid = response && response.kid || '';
     const keyConfig = publicKeys[kid];
     if (!keyConfig) throw new Error(`integrity_failed: unknown signature key "${kid}"`);
+    const now = typeof options.now === 'function' ? options.now() : new Date();
+    if (keyConfig.notBefore && Date.parse(keyConfig.notBefore) > now.getTime()) {
+      throw new Error(`integrity_failed: signature key not active "${kid}"`);
+    }
+    if (keyConfig.notAfter && Date.parse(keyConfig.notAfter) <= now.getTime()) {
+      throw new Error(`integrity_failed: signature key expired "${kid}"`);
+    }
     if (keyConfig.algorithm !== 'ECDSA-P256-SHA256') {
       throw new Error(`integrity_failed: unsupported signature algorithm "${keyConfig.algorithm}"`);
     }

@@ -1,0 +1,27 @@
+{
+  "name": "home",
+  "file": "index.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "screenshotSha256": "f2b1e4715e98de9adb28b8cb83b155c05166d63d32ff1e7f6e944492fcc71641",
+  "screenshotBytes": 138678,
+  "summary": {
+    "title": "English Language Mastery",
+    "bodyTextHash": "-776809241",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 75
+        }
+      }
+    ]
+  }
+}

@@ -12,7 +12,7 @@ const {
 } = require('../scripts/qa/quiz-contracts');
 const { createMemoryStorage } = require('../scripts/qa/bank-loader');
 
-function loadProgressStoreForTest() {
+function loadProgressStoreForTest(options = {}) {
   const context = {
     window: {
       addEventListener() {},
@@ -38,17 +38,23 @@ function loadProgressStoreForTest() {
   context.window.window = context.window;
   context.window.localStorage = context.localStorage;
   context.window.CustomEvent = context.CustomEvent;
+  if (options.learnerStateRepository) {
+    context.window.GrammarQuestLearnerStateRepository = options.learnerStateRepository;
+  }
   vm.createContext(context);
   vm.runInContext(
     fs.readFileSync(path.join(__dirname, '..', 'assets', 'progress-store.js'), 'utf8'),
     context,
     { filename: 'assets/progress-store.js' }
   );
-  return context.window.GrammarQuestProgress;
+  return {
+    progressStore: context.window.GrammarQuestProgress,
+    context
+  };
 }
 
 function normalizeQuestionReportForTest(report) {
-  return loadProgressStoreForTest().normalizeQuestionReport(report);
+  return loadProgressStoreForTest().progressStore.normalizeQuestionReport(report);
 }
 
 test('saved session attempt contract contains report dashboard fields', () => {
@@ -92,7 +98,7 @@ test('active quiz contract preserves resumable state', () => {
 });
 
 test('active quiz v1 normalization preserves legacy full-question saves', () => {
-  const normalized = loadProgressStoreForTest().normalizeActiveQuiz({
+  const normalized = loadProgressStoreForTest().progressStore.normalizeActiveQuiz({
     setId: 'grammar-sentence-types',
     title: 'Sentence Types',
     topic: 'Grammar & Usage',
@@ -125,7 +131,7 @@ test('active quiz v1 normalization preserves legacy full-question saves', () => 
 });
 
 test('active quiz v2 normalization accepts refs with snapshot fallback and no full questions', () => {
-  const normalized = loadProgressStoreForTest().normalizeActiveQuiz({
+  const normalized = loadProgressStoreForTest().progressStore.normalizeActiveQuiz({
     schemaVersion: 2,
     setId: 'grammar-sentence-types',
     title: 'Sentence Types',
@@ -262,3 +268,118 @@ test('question report fixture QA warns when questionId is a report record id', (
     questionId: 'grammar-sentence-types-q0004'
   }), []);
 });
+
+test('runtime progress store delegates active quiz and saved sessions to learner state repository', () => {
+  const calls = [];
+  const repository = createSpyRepository(calls);
+  const { progressStore, context } = loadProgressStoreForTest({
+    learnerStateRepository: createRepositoryBoundarySpy(repository, calls)
+  });
+
+  progressStore.saveActiveQuiz({
+    schemaVersion: 2,
+    setId: 'grammar-sentence-types',
+    questionRefs: [{
+      id: 'grammar-sentence-types-q0001',
+      version: 1,
+      contentHash: 'sha256:abc',
+      sourceSet: 'grammar-sentence-types',
+      sequence: 1
+    }],
+    questionSnapshots: [{
+      id: 'grammar-sentence-types-q0001',
+      version: 1,
+      contentHash: 'sha256:abc',
+      question: 'Snapshot',
+      choices: ['A'],
+      correct: 0
+    }]
+  });
+  progressStore.appendSavedSession({ id: 'session-new', completedAt: '2030-04-29T12:00:00.000Z', attempts: [] });
+
+  assert.deepEqual(calls.map(call => call.type), [
+    'createAdapter',
+    'createRepository',
+    'saveActiveQuiz',
+    'getProgress',
+    'appendSavedSession'
+  ]);
+  assert.equal(context.localStorage.getItem('grammarQuestProgress'), null, 'spy repository should own writes');
+});
+
+test('runtime progress store repository delegation respects active student storage keys', () => {
+  const calls = [];
+  const repository = createSpyRepository(calls);
+  const { progressStore, context } = loadProgressStoreForTest({
+    learnerStateRepository: createRepositoryBoundarySpy(repository, calls)
+  });
+
+  context.localStorage.setItem('grammarQuestActiveStudentId', 'student-1');
+  progressStore.saveProgress({ totalGems: 3 }, { sync: false });
+  context.localStorage.setItem('grammarQuestActiveStudentId', 'student-2');
+  progressStore.saveProgress({ totalGems: 7 }, { sync: false });
+
+  assert.deepEqual(
+    calls.filter(call => call.type === 'createAdapter').map(call => call.storageKey),
+    ['grammarQuestProgress:student-1', 'grammarQuestProgress:student-2']
+  );
+});
+
+function createRepositoryBoundarySpy(repository, calls) {
+  return {
+    createLocalStorageLearnerStateAdapter(storage, options) {
+      calls.push({ type: 'createAdapter', storageKey: options.storageKey });
+      return { storage, options };
+    },
+    createLearnerStateRepository(adapter) {
+      calls.push({ type: 'createRepository', storageKey: adapter.options.storageKey });
+      return repository;
+    }
+  };
+}
+
+function createSpyRepository(calls) {
+  const state = {
+    reports: { sessions: [], questionReports: [] },
+    activeQuiz: null
+  };
+  return {
+    getProgress() {
+      calls.push({ type: 'getProgress' });
+      return state;
+    },
+    saveProgress(progress) {
+      calls.push({ type: 'saveProgress', progress });
+      Object.assign(state, progress);
+      return state;
+    },
+    updateProgress(mutator) {
+      calls.push({ type: 'updateProgress' });
+      Object.assign(state, mutator(state) || state);
+      return state;
+    },
+    getActiveQuiz() {
+      calls.push({ type: 'getActiveQuiz' });
+      return state.activeQuiz;
+    },
+    saveActiveQuiz(activeQuiz) {
+      calls.push({ type: 'saveActiveQuiz', activeQuiz });
+      state.activeQuiz = activeQuiz;
+      return state.activeQuiz;
+    },
+    clearActiveQuiz() {
+      calls.push({ type: 'clearActiveQuiz' });
+      state.activeQuiz = null;
+    },
+    appendSavedSession(session) {
+      calls.push({ type: 'appendSavedSession', session });
+      state.reports.sessions = [session].concat(state.reports.sessions);
+      return state;
+    },
+    upsertQuestionReport(report) {
+      calls.push({ type: 'upsertQuestionReport', report });
+      state.reports.questionReports = [report];
+      return state;
+    }
+  };
+}

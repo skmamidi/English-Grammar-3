@@ -69,7 +69,8 @@ test('all manifest entries point to checked-in chunk files', () => {
 
 test('checked-in manifest script exposes index metadata as a browser global', () => {
   const context = { window: {} };
-  vm.runInNewContext(fs.readFileSync(DEFAULT_MANIFEST_SCRIPT_PATH, 'utf8'), context);
+  const manifestScript = fs.readFileSync(DEFAULT_MANIFEST_SCRIPT_PATH, 'utf8');
+  vm.runInNewContext(manifestScript, context);
 
   assert.equal(
     JSON.stringify(context.window.QUESTION_MANIFEST),
@@ -77,21 +78,52 @@ test('checked-in manifest script exposes index metadata as a browser global', ()
   );
   assert.equal(Object.hasOwn(context.window.QUESTION_MANIFEST.sets[0], 'questions'), false);
   assert.equal(Object.hasOwn(context.window.QUESTION_MANIFEST.sets[0], 'bankFile'), false);
-});
-
-test('index manifest script stays smaller than topic question banks', () => {
-  const manifestBytes = fs.statSync(DEFAULT_MANIFEST_SCRIPT_PATH).size;
-  const bankDir = path.join(__dirname, '..', 'assets', 'question-banks');
-  const bankFiles = fs.readdirSync(bankDir).filter(file => file.endsWith('.js'));
-
-  assert.ok(bankFiles.length, 'expected question bank files');
-  bankFiles.forEach(file => {
-    const bankBytes = fs.statSync(path.join(bankDir, file)).size;
-    assert.ok(
-      manifestBytes < bankBytes,
-      `expected manifest script (${manifestBytes} bytes) to be smaller than ${file} (${bankBytes} bytes)`
+  [
+    'questions',
+    'question',
+    'prompt',
+    'choices',
+    'explanation',
+    'questionSnapshots',
+    'bankFile'
+  ].forEach(payloadKey => {
+    assert.doesNotMatch(
+      manifestScript,
+      new RegExp(`"${payloadKey}"\\s*:`),
+      `manifest script should not expose ${payloadKey}`
     );
   });
+});
+
+test('index manifest script stays leaner than canonical and generated question payloads', () => {
+  const manifestBytes = fs.statSync(DEFAULT_MANIFEST_SCRIPT_PATH).size;
+  const sourceDir = path.join(__dirname, '..', 'assets', 'question-bank-source');
+  const chunkDir = path.join(__dirname, '..', 'assets', 'question-chunks');
+  const sourceFiles = collectFiles(sourceDir, file => file.endsWith('.json'));
+  const chunkFiles = collectFiles(chunkDir, file => file.endsWith('.js'));
+  const sourceBytes = sourceFiles.reduce((sum, file) => sum + fs.statSync(file).size, 0);
+  const totalChunkBytes = chunkFiles.reduce((sum, file) => sum + fs.statSync(file).size, 0);
+  const chunkBytesByDomain = chunkFiles.reduce((domains, file) => {
+    const domain = path.basename(path.dirname(file));
+    domains[domain] = (domains[domain] || 0) + fs.statSync(file).size;
+    return domains;
+  }, {});
+  const largestGeneratedDomainBytes = Math.max(...Object.values(chunkBytesByDomain));
+
+  assert.ok(sourceFiles.length, 'expected canonical JSON source files');
+  assert.ok(chunkFiles.length, 'expected generated question chunk files');
+  assert.ok(
+    manifestBytes < sourceBytes / 10,
+    `expected manifest script (${manifestBytes} bytes) to be much smaller than canonical JSON source (${sourceBytes} bytes)`
+  );
+  assert.ok(
+    manifestBytes < largestGeneratedDomainBytes,
+    `expected manifest script (${manifestBytes} bytes) to be smaller than the largest generated domain payload (${largestGeneratedDomainBytes} bytes)`
+  );
+  assert.ok(
+    manifestBytes < totalChunkBytes / 10,
+    `expected manifest script (${manifestBytes} bytes) to be much smaller than generated chunks (${totalChunkBytes} bytes)`
+  );
 });
 
 test('topic index helper can resolve subtopics from manifest entries without a full bank', () => {
@@ -360,4 +392,17 @@ function createTopicIndexContext(options = {}) {
       }
     }
   };
+}
+
+function collectFiles(root, predicate) {
+  const files = [];
+  fs.readdirSync(root, { withFileTypes: true }).forEach(entry => {
+    const file = path.join(root, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...collectFiles(file, predicate));
+    } else if (predicate(file)) {
+      files.push(file);
+    }
+  });
+  return files;
 }

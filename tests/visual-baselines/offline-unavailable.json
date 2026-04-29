@@ -1,0 +1,49 @@
+{
+  "name": "offline-unavailable",
+  "file": "topics/grammar/subtopics/run-on-sentences.html",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "screenshotSha256": "f79cb717af2c741c4f9b0c30ad71a613b0d603f44324906a37ec8df376528779",
+  "screenshotBytes": 228345,
+  "summary": {
+    "title": "Run-on Sentences",
+    "bodyTextHash": "1547067728",
+    "elements": [
+      {
+        "selector": ".app-header",
+        "text": "English Language Mastery ← Back to Topic",
+        "visible": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 71
+        }
+      },
+      {
+        "selector": "#quiz-root",
+        "text": "CHAPTER MISSION Run-on Sentences The Word Woods need a careful sentence scout. Choose a level, answer 15 questions, collect star gems, and keep your practice streak glowing. Grade ",
+        "visible": true,
+        "rect": {
+          "x": 124,
+          "y": 155,
+          "width": 1032,
+          "height": 813
+        }
+      },
+      {
+        "selector": "#start-btn",
+        "text": "Start Quiz",
+        "visible": true,
+        "rect": {
+          "x": 580,
+          "y": 878,
+          "width": 120,
+          "height": 48
+        }
+      }
+    ]
+  }
+}

@@ -45,22 +45,27 @@ test('selection request hash is stable for equivalent request objects', async ()
   assert.equal(a, b);
 });
 
-test('selection response digest changes when refs change', async () => {
+test('selection response digest changes when refs or expiry change', async () => {
   const base = {
     selectionId: 'sel_unit',
     selectionPolicyVersion: 1,
     requestHash: await integrity.buildSelectionRequestHash(request, manifestArtifact),
     questionRefs: refs,
     signature: null,
-    signatureVersion: 'none'
+    signatureVersion: 'none',
+    expiresAt: '2030-04-29T12:05:00.000Z'
   };
   const digest = await integrity.buildSelectionResponseDigest(base, manifestArtifact);
   const changed = await integrity.buildSelectionResponseDigest(Object.assign({}, base, {
     questionRefs: [Object.assign({}, refs[0], { sequence: 2 })]
   }), manifestArtifact);
+  const changedExpiry = await integrity.buildSelectionResponseDigest(Object.assign({}, base, {
+    expiresAt: '2030-04-29T12:00:42.000Z'
+  }), manifestArtifact);
 
   assert.match(digest, /^sha256:[a-f0-9]{64}$/);
   assert.notEqual(digest, changed);
+  assert.notEqual(digest, changedExpiry);
 });
 
 test('selection integrity validation accepts valid pilot digest and rejects tampering', async () => {

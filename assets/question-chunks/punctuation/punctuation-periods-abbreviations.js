@@ -2,7 +2,7 @@
  * English Language Quiz App - punctuation chunk: punctuation-periods-abbreviations
  * Generated from assets/question-bank-source/punctuation.json.
  * Generator version: 1.
- * Source hash: sha256:658d48eb896a056f6adb5ade041ed9de1115dbee2d6a5177c3cccf44e3b7a243.
+ * Source hash: sha256:07b6f67f6559927aa40c0350fb664f6ef1d6e0a138451414d4189760954184ba.
  */
 (function () {
   'use strict';
@@ -854,12 +854,12 @@
       {
         "id": "punctuation-periods-abbreviations-q0063",
         "version": 1,
-        "contentHash": "sha256:175efa8eed4af038e916adb647852396ab31df90fd9c5089cc82fbce7445d4da",
+        "contentHash": "sha256:e25f7c6d0214eb45717904fc2a9bc83d58f0b686265149721f57ffad6e710e63",
         "question": "Choose the word that fits best in the blank and shows the correct punctuation. I am traveling with my middle school class to _____________ this summer.",
         "choices": [
           "Washington: D.",
           "Washington, dc C. Washington dc",
-          "",
+          "Washington D.C.",
           "Washington, D.C.,"
         ],
         "correct": 3,
@@ -868,7 +868,7 @@
           "incorrect": [
             "Not: Washington: D.. Use the mechanics rule and sentence context to check this choice.",
             "Not: Washington, dc C. Washington dc. Use the mechanics rule and sentence context to check this choice.",
-            "Not: . Use the mechanics rule and sentence context to check this choice.",
+            "Not: Washington D.C. Add the commas needed around D.C. when the sentence continues.",
             ""
           ]
         },

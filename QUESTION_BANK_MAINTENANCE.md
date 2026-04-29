@@ -43,6 +43,14 @@ Run this after adding questions or editing learner-facing question content:
 node scripts/assign-question-ids.js
 ```
 
+Regenerate derived delivery artifacts after changing question banks:
+
+```sh
+npm run manifest:write
+```
+
+This writes the question manifest and generated chunk files. Source banks remain the editorial source of truth; files under `assets/question-chunks/` should match the generated output exactly.
+
 Run the content consistency check before committing:
 
 ```sh

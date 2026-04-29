@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 const {
   repoRoot,
   loadQuestionBanks,
@@ -145,12 +146,170 @@ function buildIndexManifest(manifest) {
   };
 }
 
-function validateManifest(manifest, bankLoad = loadQuestionBanks()) {
+function getChunkedDomains() {
+  return new Set(CHUNKED_DOMAINS);
+}
+
+function getChunkedSets(manifest) {
+  return (manifest.sets || []).filter(set => set && set.chunkFile);
+}
+
+function getSourceSet(bankLoad, setId) {
+  const record = flattenQuestionBanks(bankLoad).find(item => item.setId === setId);
+  return record ? record.set : null;
+}
+
+function getSourceRecord(bankLoad, setId) {
+  return flattenQuestionBanks(bankLoad).find(item => item.setId === setId) || null;
+}
+
+function buildQuestionChunkScript(setId, set, sourceFile) {
+  const domain = getDomain({
+    setId,
+    relativeFile: sourceFile
+  });
+  return `/**
+ * English Language Quiz App - ${domain} chunk: ${setId}
+ * Generated from ${sourceFile}.
+ */
+(function () {
+  'use strict';
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, ${JSON.stringify({ [setId]: set }, null, 2)}
+  );
+})();
+`;
+}
+
+function writeQuestionChunks(manifest, bankLoad) {
+  const expectedFiles = new Set();
+
+  getChunkedSets(manifest).forEach(entry => {
+    const sourceRecord = getSourceRecord(bankLoad, entry.id);
+    if (!sourceRecord) throw new Error(`${entry.id}: source set missing for chunk generation.`);
+
+    const chunkPath = path.join(repoRoot, entry.chunkFile);
+    expectedFiles.add(chunkPath);
+    fs.mkdirSync(path.dirname(chunkPath), { recursive: true });
+    fs.writeFileSync(
+      chunkPath,
+      buildQuestionChunkScript(entry.id, sourceRecord.set, sourceRecord.relativeFile)
+    );
+  });
+
+  getChunkedDomains().forEach(domain => {
+    const domainDir = path.join(repoRoot, 'assets', 'question-chunks', domain);
+    if (!fs.existsSync(domainDir)) return;
+
+    fs.readdirSync(domainDir)
+      .filter(file => file.endsWith('.js'))
+      .forEach(file => {
+        const chunkPath = path.join(domainDir, file);
+        if (!expectedFiles.has(chunkPath)) fs.unlinkSync(chunkPath);
+      });
+  });
+}
+
+function loadChunkBank(chunkFile) {
+  const chunkPath = path.isAbsolute(chunkFile) ? chunkFile : path.join(repoRoot, chunkFile);
+  const context = {
+    window: { QUESTION_BANK: {} },
+    console
+  };
+
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(chunkPath, 'utf8'), context, { filename: chunkPath });
+  return context.window.QUESTION_BANK || {};
+}
+
+function validateQuestionChunks(manifest, bankLoad) {
+  const errors = [];
+
+  getChunkedSets(manifest).forEach(entry => {
+    const sourceSet = getSourceSet(bankLoad, entry.id);
+    let chunkBank = null;
+
+    if (!sourceSet) {
+      errors.push(`${entry.id}: source set missing`);
+      return;
+    }
+
+    try {
+      chunkBank = loadChunkBank(entry.chunkFile);
+    } catch (error) {
+      errors.push(`${entry.id}: chunk file could not be loaded from ${entry.chunkFile}: ${error.message}`);
+      return;
+    }
+
+    const chunkSet = chunkBank && chunkBank[entry.id];
+    validateQuestionChunkSet({
+      setId: entry.id,
+      sourceSet,
+      chunkSet
+    }).errors.forEach(error => errors.push(error));
+  });
+
+  return { errors };
+}
+
+function validateQuestionChunkSet({ setId, sourceSet, chunkSet }) {
+  const errors = [];
+
+  if (!sourceSet) errors.push(`${setId}: source set missing`);
+  if (!chunkSet) errors.push(`${setId}: chunk set missing`);
+  if (!sourceSet || !chunkSet) return { errors };
+
+  if (sourceSet.title !== chunkSet.title) {
+    errors.push(`${setId}: title differs between source bank and chunk`);
+  }
+  if (sourceSet.topic !== chunkSet.topic) {
+    errors.push(`${setId}: topic differs between source bank and chunk`);
+  }
+
+  const sourceQuestions = Array.isArray(sourceSet.questions) ? sourceSet.questions : [];
+  const chunkQuestions = Array.isArray(chunkSet.questions) ? chunkSet.questions : [];
+  if (sourceQuestions.length !== chunkQuestions.length) {
+    errors.push(`${setId}: question count is ${chunkQuestions.length}; expected ${sourceQuestions.length}`);
+  }
+
+  const maxQuestions = Math.min(sourceQuestions.length, chunkQuestions.length);
+  for (let index = 0; index < maxQuestions; index += 1) {
+    const sourceQuestion = sourceQuestions[index] || {};
+    const chunkQuestion = chunkQuestions[index] || {};
+    const label = sourceQuestion.id || chunkQuestion.id || `question ${index + 1}`;
+
+    if (sourceQuestion.id !== chunkQuestion.id) {
+      errors.push(`${setId}: question ${index + 1} id is ${chunkQuestion.id}; expected ${sourceQuestion.id}`);
+      break;
+    }
+    if (sourceQuestion.version !== chunkQuestion.version) {
+      errors.push(`${setId}/${label}: version is ${chunkQuestion.version}; expected ${sourceQuestion.version}`);
+      break;
+    }
+    if (sourceQuestion.contentHash !== chunkQuestion.contentHash) {
+      errors.push(`${setId}/${label}: contentHash is ${chunkQuestion.contentHash}; expected ${sourceQuestion.contentHash}`);
+      break;
+    }
+  }
+
+  if (JSON.stringify(chunkSet) !== JSON.stringify(sourceSet)) {
+    errors.push(`${setId}: chunk content differs from source bank`);
+  }
+
+  return { errors };
+}
+
+function validateManifest(manifest, bankLoad = loadQuestionBanks(), options = {}) {
   const expected = generateManifest(bankLoad);
   const actualJson = JSON.stringify(manifest);
   const expectedJson = JSON.stringify(expected);
   if (actualJson !== expectedJson) {
     throw new Error(getManifestDriftMessage(manifest, expected));
+  }
+  if (options.validateChunks) {
+    const chunkResult = validateQuestionChunks(manifest, bankLoad);
+    if (chunkResult.errors.length) {
+      throw new Error(`Question chunk validation failed:\n${chunkResult.errors.join('\n')}`);
+    }
   }
   return expected;
 }
@@ -188,6 +347,7 @@ function formatBytes(bytes) {
 
 function runCli(argv = process.argv.slice(2)) {
   const shouldWrite = argv.includes('--write');
+  const shouldCheckChunks = shouldWrite || argv.includes('--check-chunks') || !argv.includes('--no-check-chunks');
   const manifestPath = DEFAULT_MANIFEST_PATH;
   const bankLoad = loadQuestionBanks();
   const generated = generateManifest(bankLoad);
@@ -195,8 +355,9 @@ function runCli(argv = process.argv.slice(2)) {
   if (shouldWrite) {
     writeManifest(generated, manifestPath);
     writeManifestScript(generated);
+    writeQuestionChunks(generated, bankLoad);
   } else {
-    validateManifest(loadManifest(manifestPath), bankLoad);
+    validateManifest(loadManifest(manifestPath), bankLoad, { validateChunks: shouldCheckChunks });
   }
 
   const stats = fs.statSync(manifestPath);
@@ -204,6 +365,7 @@ function runCli(argv = process.argv.slice(2)) {
   console.log(`${action} ${path.relative(repoRoot, manifestPath)}.`);
   console.log(`Manifest covers ${generated.sets.length} sets and ${generated.totalQuestions} questions.`);
   console.log(`Manifest size: ${formatBytes(stats.size)}.`);
+  if (shouldCheckChunks) console.log(`Validated ${getChunkedSets(generated).length} generated question chunks.`);
 }
 
 if (require.main === module) runCli();
@@ -213,9 +375,17 @@ module.exports = {
   DEFAULT_MANIFEST_SCRIPT_PATH,
   MANIFEST_SCHEMA_VERSION,
   generateManifest,
+  buildQuestionChunkScript,
   buildIndexManifest,
+  getChunkedDomains,
+  getChunkedSets,
+  getSourceSet,
+  loadChunkBank,
   loadManifest,
+  validateQuestionChunkSet,
+  validateQuestionChunks,
   validateManifest,
   writeManifest,
-  writeManifestScript
+  writeManifestScript,
+  writeQuestionChunks
 };

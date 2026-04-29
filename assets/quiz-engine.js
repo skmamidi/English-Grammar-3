@@ -345,6 +345,10 @@
             </button>
           `).join('')}
         </div>
+        <div class="question-report-actions">
+          <button class="report-question-btn" id="report-question-btn" type="button">Report this question</button>
+          <span id="question-report-status" aria-live="polite"></span>
+        </div>
       </div>
 
       <div id="feedback-area"></div>
@@ -378,6 +382,10 @@
     document.querySelectorAll('.choice-btn').forEach(btn => {
       btn.addEventListener('click', handleAnswer);
     });
+    const reportButton = document.getElementById('report-question-btn');
+    if (reportButton) {
+      reportButton.addEventListener('click', () => openQuestionReportDialog(q));
+    }
 
     if (isCompletedView) {
       lockQuestionChoices(q, completedAttempt.selectedIndex);
@@ -571,6 +579,166 @@
         }
       });
     }
+  }
+
+  function openQuestionReportDialog(question) {
+    const dialog = ensureQuestionReportDialog();
+    const reason = dialog.querySelector('[data-question-report-reason]');
+    const note = dialog.querySelector('[data-question-report-note]');
+    const message = dialog.querySelector('[data-question-report-message]');
+    const prompt = dialog.querySelector('[data-question-report-prompt]');
+    if (reason) reason.value = 'answer_or_explanation';
+    if (note) note.value = '';
+    if (message) message.textContent = '';
+    if (prompt) prompt.textContent = stripPromptLeadIns(question && question.question ? question.question : '');
+    dialog.classList.remove('hidden');
+    document.body.classList.add('question-report-open');
+    if (note) note.focus();
+  }
+
+  function ensureQuestionReportDialog() {
+    let dialog = document.getElementById('question-report-dialog');
+    if (dialog) return dialog;
+    dialog = document.createElement('div');
+    dialog.id = 'question-report-dialog';
+    dialog.className = 'question-report-modal hidden';
+    dialog.setAttribute('role', 'dialog');
+    dialog.setAttribute('aria-modal', 'true');
+    dialog.setAttribute('aria-labelledby', 'question-report-title');
+    dialog.innerHTML = `
+      <div class="question-report-dialog">
+        <button class="auth-close" type="button" data-question-report-close aria-label="Close report dialog">x</button>
+        <div class="quest-kicker">Question report</div>
+        <h2 id="question-report-title">Tell a grown-up what looks wrong</h2>
+        <p class="question-report-prompt" data-question-report-prompt></p>
+        <label>
+          <span>What should they check?</span>
+          <select data-question-report-reason>
+            <option value="answer_or_explanation">Answer or explanation does not make sense</option>
+            <option value="typo">Typo or unclear wording</option>
+            <option value="audio_visual">Picture, audio, or layout issue</option>
+            <option value="other">Something else</option>
+          </select>
+        </label>
+        <label>
+          <span>Optional note</span>
+          <textarea data-question-report-note rows="4" maxlength="800" placeholder="What seemed confusing?"></textarea>
+        </label>
+        <p class="question-report-message" data-question-report-message></p>
+        <div class="question-report-dialog-actions">
+          <button class="btn btn-secondary" type="button" data-question-report-close>Cancel</button>
+          <button class="btn btn-primary" type="button" data-question-report-save>Send report</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(dialog);
+    dialog.addEventListener('click', event => {
+      if (event.target === dialog || event.target.closest('[data-question-report-close]')) {
+        closeQuestionReportDialog();
+      }
+      if (event.target.closest('[data-question-report-save]')) {
+        saveQuestionReportFromDialog(dialog);
+      }
+    });
+    dialog.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeQuestionReportDialog();
+    });
+    return dialog;
+  }
+
+  function closeQuestionReportDialog() {
+    const dialog = document.getElementById('question-report-dialog');
+    if (dialog) dialog.classList.add('hidden');
+    document.body.classList.remove('question-report-open');
+    const button = document.getElementById('report-question-btn');
+    if (button) button.focus();
+  }
+
+  function saveQuestionReportFromDialog(dialog) {
+    const message = dialog.querySelector('[data-question-report-message]');
+    const saveButton = dialog.querySelector('[data-question-report-save]');
+    const reason = dialog.querySelector('[data-question-report-reason]');
+    const note = dialog.querySelector('[data-question-report-note]');
+    try {
+      if (isParentMode()) {
+        throw new Error('Question reports are saved from student practice, so they appear under the student profile.');
+      }
+      if (saveButton) saveButton.disabled = true;
+      const report = buildQuestionReportPayload({
+        reason: reason ? reason.value : '',
+        note: note ? note.value : ''
+      });
+      const progress = loadProgress();
+      const reports = progressStore && typeof progressStore.normalizeReports === 'function'
+        ? progressStore.normalizeReports(progress.reports)
+        : Object.assign({ sessions: [], questionReports: [] }, progress.reports || {});
+      reports.questionReports = [report]
+        .concat(Array.isArray(reports.questionReports) ? reports.questionReports : [])
+        .slice(0, 500);
+      progress.reports = reports;
+      saveProgress(progress, { sync: true });
+      updateQuestionReportStatus('Report sent for grown-up review.');
+      if (message) message.textContent = 'Report sent for grown-up review.';
+      window.setTimeout(closeQuestionReportDialog, 600);
+    } catch (error) {
+      if (message) message.textContent = error.message || 'Could not send this report.';
+    } finally {
+      if (saveButton) saveButton.disabled = false;
+    }
+  }
+
+  function buildQuestionReportPayload(details) {
+    const question = currentQuestions[currentIndex] || {};
+    const choices = Array.isArray(question.choices) ? question.choices : [];
+    const correctIndex = Number.isFinite(question.correct) ? question.correct : -1;
+    const selectedAttempt = getCurrentQuestionAttempt();
+    const selectedIndex = selectedAttempt && Number.isFinite(selectedAttempt.selectedIndex)
+      ? selectedAttempt.selectedIndex
+      : -1;
+    const metadata = question.metadata || {};
+    const subtopic = getQuestionSubtopic(question);
+    const createdAt = new Date().toISOString();
+    return {
+      id: `question-report-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      status: 'open',
+      reason: String(details && details.reason || 'answer_or_explanation'),
+      note: String(details && details.note || '').trim().slice(0, 800),
+      createdAt,
+      updatedAt: createdAt,
+      studentId: getActiveStudentId(),
+      studentName: getActiveStudentName(),
+      setId: window.QUIZ_SET_ID || '',
+      title: activeSet && activeSet.title || 'Practice Quiz',
+      topic: activeSet && activeSet.topic || 'English Language Arts',
+      grade: selectedGrade,
+      difficulty: selectedDifficulty,
+      questionId: `${metadata.sourceSet || subtopic.id || 'question'}-${metadata.sequence || currentIndex + 1}`,
+      question: question.question || '',
+      choices,
+      selectedIndex,
+      selectedChoice: choices[selectedIndex] || '',
+      correctIndex,
+      correctChoice: choices[correctIndex] || '',
+      explanation: question.explanation || null,
+      studyAid: question.studyAid || null,
+      subtopicId: subtopic.id,
+      subtopicTitle: subtopic.title,
+      skills: Array.isArray(metadata.skills) ? metadata.skills : [],
+      pagePath: window.location.pathname,
+      pageUrl: window.location.href
+    };
+  }
+
+  function getCurrentQuestionAttempt() {
+    if (reviewMode) {
+      return reviewAttemptRecords[reviewAttemptRecords.length - 1] || null;
+    }
+    return attemptRecords[currentIndex] || attemptRecords[attemptRecords.length - 1] || null;
+  }
+
+  function updateQuestionReportStatus(text) {
+    const status = document.getElementById('question-report-status');
+    if (status) status.textContent = text || '';
   }
 
   function renderStudyAid(aid) {

@@ -47,7 +47,8 @@
 
   function getDefaultReports() {
     return {
-      sessions: []
+      sessions: [],
+      questionReports: []
     };
   }
 
@@ -79,6 +80,7 @@
   function normalizeReports(reports) {
     const normalized = Object.assign(getDefaultReports(), reports || {});
     normalized.sessions = Array.isArray(normalized.sessions) ? normalized.sessions : [];
+    normalized.questionReports = Array.isArray(normalized.questionReports) ? normalized.questionReports : [];
     return normalized;
   }
 
@@ -165,18 +167,32 @@
 
   function mergeReports(localReports, cloudReports) {
     const sessionsById = {};
+    const questionReportsById = {};
     normalizeReports(cloudReports).sessions
       .concat(normalizeReports(localReports).sessions)
       .forEach(session => {
         if (!session || !session.id) return;
         sessionsById[session.id] = session;
       });
+    normalizeReports(cloudReports).questionReports
+      .concat(normalizeReports(localReports).questionReports)
+      .forEach(report => {
+        if (!report || !report.id) return;
+        const existing = questionReportsById[report.id];
+        questionReportsById[report.id] = !existing || String(report.updatedAt || report.createdAt || "") >= String(existing.updatedAt || existing.createdAt || "")
+          ? report
+          : existing;
+      });
 
     return {
       sessions: Object.keys(sessionsById)
         .map(id => sessionsById[id])
         .sort((a, b) => String(b.completedAt || "").localeCompare(String(a.completedAt || "")))
-        .slice(0, 100)
+        .slice(0, 100),
+      questionReports: Object.keys(questionReportsById)
+        .map(id => questionReportsById[id])
+        .sort((a, b) => String(b.createdAt || "").localeCompare(String(a.createdAt || "")))
+        .slice(0, 500)
     };
   }
 

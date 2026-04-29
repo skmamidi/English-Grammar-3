@@ -80,7 +80,8 @@ window.GrammarQuestAuth = {
   loginStudentByName,
   clearActiveStudent,
   loadManagedStudents,
-  loadStudentProgress
+  loadStudentProgress,
+  updateStudentQuestionReport
 };
 
 window.GrammarQuestAvatar = {
@@ -710,6 +711,50 @@ async function resetStudentProgress(studentId, scopes) {
   });
 }
 
+async function updateStudentQuestionReport(studentId, reportId, updates) {
+  await readyPromise;
+  requireGrownup();
+  if (!studentId || !reportId) throw new Error("Choose a reported question to update.");
+
+  const { db, firestoreModule } = state.firebase;
+  const ref = managedStudentRef(db, firestoreModule, studentId);
+  const snapshot = await firestoreModule.getDoc(ref);
+  if (!snapshot.exists()) throw new Error("Student profile was not found.");
+  const data = snapshot.data();
+  if (data.ownerUid !== state.user.uid) throw new Error("This student is not connected to the signed-in grownup.");
+
+  const currentProgress = progressStore?.mergeProgress
+    ? progressStore.mergeProgress(progressStore.getDefaultProgress(), data.progress || {})
+    : Object.assign({}, data.progress || {});
+  const reports = progressStore?.normalizeReports
+    ? progressStore.normalizeReports(currentProgress.reports)
+    : Object.assign({ sessions: [], questionReports: [] }, currentProgress.reports || {});
+  const questionReports = Array.isArray(reports.questionReports) ? reports.questionReports : [];
+  const index = questionReports.findIndex(report => report && report.id === reportId);
+  if (index < 0) throw new Error("Reported question was not found.");
+
+  const now = new Date().toISOString();
+  const cleanUpdates = {
+    status: normalizeReportStatus(updates && updates.status),
+    grownupNote: String(updates && updates.grownupNote || "").trim().slice(0, 800),
+    reviewedAt: now,
+    reviewedBy: state.user.email || state.user.uid,
+    updatedAt: now
+  };
+  reports.questionReports = questionReports.map((report, reportIndex) => {
+    if (reportIndex !== index) return report;
+    return Object.assign({}, report, cleanUpdates);
+  });
+  currentProgress.reports = reports;
+
+  await firestoreModule.updateDoc(ref, {
+    progress: currentProgress,
+    updatedAt: firestoreModule.serverTimestamp()
+  });
+
+  return reports.questionReports[index];
+}
+
 function resetProgressScope(progress, scopes) {
   const base = progressStore?.normalizeReports
     ? progressStore.mergeProgress(progressStore.getDefaultProgress(), progress)
@@ -950,6 +995,11 @@ function managedStudentCollection() {
 
 function loginCollection() {
   return firebaseSettings.firestore?.loginCollection || "studentLoginNames";
+}
+
+function normalizeReportStatus(status) {
+  const value = String(status || "").trim().toLowerCase();
+  return ["open", "reviewing", "resolved", "dismissed"].includes(value) ? value : "open";
 }
 
 function renderAuthUi(message) {

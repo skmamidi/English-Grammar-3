@@ -7,6 +7,7 @@
     selectedView: 'overview',
     selectedSessionId: '',
     selectedQuestionId: '',
+    selectedReportId: '',
     query: ''
   };
 
@@ -197,12 +198,21 @@
       });
     }).sort((a, b) => a.accuracy - b.accuracy || b.total - a.total);
 
+    const reportSource = student.progress && student.progress.reports
+      ? student.progress.reports.questionReports
+      : student.questionReports;
+    const reportedQuestions = (Array.isArray(reportSource) ? reportSource : [])
+      .slice()
+      .sort((a, b) => String(b.createdAt || '').localeCompare(String(a.createdAt || '')));
+    const openReportCount = reportedQuestions.filter(report => !['resolved', 'dismissed'].includes(String(report.status || 'open'))).length;
     const daily = buildDailyRows(sessions);
     const topicStats = buildTopicRows(sessions);
     const questionRisks = buildQuestionRisks(attempts);
 
     return Object.assign({}, student, {
       sessions,
+      reportedQuestions,
+      openReportCount,
       attempts,
       daily,
       topicStats,
@@ -212,7 +222,7 @@
       totalQuestions: total,
       totalCorrect: correct,
       practiceMinutes: Math.round(sessions.reduce((sum, session) => sum + (Number(session.durationSeconds) || 0), 0) / 60),
-      lastActivity: sessions[0] && sessions[0].completedAt || '',
+      lastActivity: [sessions[0] && sessions[0].completedAt, reportedQuestions[0] && reportedQuestions[0].createdAt].filter(Boolean).sort().pop() || '',
       prioritySkill: skills.find(skill => skill.total >= 2) || skills[0] || null,
       skills
     });
@@ -225,13 +235,13 @@
     const attempts = active.flatMap(student => student.attempts);
     const accuracy = attempts.length ? attempts.filter(attempt => attempt.correct).length / attempts.length : 0;
     const firstTry = attempts.length ? attempts.filter(attempt => attempt.firstAttemptCorrect).length / attempts.length : 0;
-    const priority = active.map(student => student.prioritySkill).filter(Boolean).sort((a, b) => a.accuracy - b.accuracy)[0];
+    const openReports = state.students.reduce((sum, student) => sum + (Number(student.openReportCount) || 0), 0);
 
     target.innerHTML = [
       renderKpi('Students', String(state.students.length), `${active.length} with practice data`),
       renderKpi('Avg accuracy', formatPercent(accuracy), `${attempts.length} answered questions`),
       renderKpi('First try', formatPercent(firstTry), 'Questions correct before review'),
-      renderKpi('Focus', priority ? priority.label : 'Start practice', priority ? `${formatPercent(priority.accuracy)} across ${priority.total}` : 'No weak skill yet')
+      renderKpi('Reports', String(openReports), openReports ? 'Questions awaiting review' : 'No open question reports')
     ].join('');
   }
 
@@ -253,6 +263,7 @@
       if (!state.query) return true;
       const haystack = [student.name, student.source, student.prioritySkill && student.prioritySkill.label]
         .concat(student.skills.map(skill => skill.label))
+        .concat((student.reportedQuestions || []).map(report => [report.question, report.reason, report.status].join(' ')))
         .join(' ')
         .toLowerCase();
       return haystack.includes(state.query);
@@ -264,7 +275,7 @@
         ${renderStudentAvatarMarkup(student)}
         <span class="student-row-main">
           <strong>${escapeHtml(student.name)}</strong>
-          <span>${student.totalQuestions ? `${formatPercent(student.accuracy)} accuracy · ${student.sessions.length} sessions` : 'No completed quizzes yet'}</span>
+          <span>${student.totalQuestions ? `${formatPercent(student.accuracy)} accuracy · ${student.sessions.length} sessions` : 'No completed quizzes yet'}${student.openReportCount ? ` · ${student.openReportCount} reports` : ''}</span>
         </span>
         <b>${student.prioritySkill ? escapeHtml(student.prioritySkill.label) : 'Ready'}</b>
       </button>
@@ -275,6 +286,7 @@
         state.selectedStudentId = row.dataset.studentId;
         state.selectedSessionId = '';
         state.selectedQuestionId = '';
+        state.selectedReportId = '';
         renderRoster();
         renderSummary();
         renderDetail();
@@ -286,7 +298,6 @@
     const target = document.getElementById('student-summary');
     const student = getSelectedStudent();
     if (!target || !student) return;
-    const level = getLevel(student.totalCorrect, student.totalQuestions);
     target.innerHTML = `
       <section class="selected-student-card">
         <div class="selected-student-id">
@@ -301,7 +312,7 @@
           <div><strong>${formatPercent(student.accuracy)}</strong><span>accuracy</span></div>
           <div><strong>${formatPercent(student.firstTry)}</strong><span>first try</span></div>
           <div><strong>${student.practiceMinutes}m</strong><span>practice</span></div>
-          <div><strong>${escapeHtml(level)}</strong><span>status</span></div>
+          <div><strong>${student.openReportCount}</strong><span>open reports</span></div>
         </div>
       </section>
     `;
@@ -313,6 +324,8 @@
     if (!target || !student) return;
     if (state.selectedView === 'questions') {
       renderQuestionView(target, student);
+    } else if (state.selectedView === 'reported') {
+      renderReportedQuestionView(target, student);
     } else if (state.selectedView === 'skills') {
       renderSkillView(target, student);
     } else {
@@ -321,7 +334,7 @@
   }
 
   function renderOverview(target, student) {
-    if (!student.sessions.length) {
+    if (!student.sessions.length && !student.reportedQuestions.length) {
       target.innerHTML = renderEmptyState(student);
       return;
     }
@@ -364,6 +377,12 @@
         <span>${item.misses}/${item.attempts} missed · ${escapeHtml(item.subtopicTitle || 'Mixed practice')} · last ${formatDate(item.lastMissedAt)}</span>
       </div>
     `).join('');
+    const reportRows = student.reportedQuestions.slice(0, 5).map(report => `
+      <button class="reported-question-row" type="button" data-report-id="${escapeHtml(report.id)}">
+        <strong>${escapeHtml(truncate(report.question, 90))}</strong>
+        <span>${escapeHtml(formatReportReason(report.reason))} · ${escapeHtml(formatReportStatus(report.status))} · ${formatDate(report.createdAt)}</span>
+      </button>
+    `).join('');
 
     target.innerHTML = `
       <div class="report-two-column">
@@ -398,12 +417,27 @@
           <div class="question-risk-list">${riskRows || '<p class="empty-report">No repeated misses yet.</p>'}</div>
         </section>
       </div>
+      <section class="report-card">
+        <div class="report-panel-heading">
+          <h3>Reported Questions</h3>
+          <span>${student.openReportCount} open</span>
+        </div>
+        <div class="reported-question-list">${reportRows || '<p class="empty-report">No reported questions yet.</p>'}</div>
+      </section>
     `;
 
     target.querySelectorAll('.session-row').forEach(row => {
       row.addEventListener('click', () => {
         state.selectedSessionId = row.dataset.sessionId;
         state.selectedView = 'questions';
+        syncTabs();
+        renderDetail();
+      });
+    });
+    target.querySelectorAll('.reported-question-row').forEach(row => {
+      row.addEventListener('click', () => {
+        state.selectedReportId = row.dataset.reportId;
+        state.selectedView = 'reported';
         syncTabs();
         renderDetail();
       });
@@ -537,6 +571,132 @@
             </div>
           `).join('')}
         ` : ''}
+      </div>
+    `;
+  }
+
+  function renderReportedQuestionView(target, student) {
+    const reports = student.reportedQuestions || [];
+    if (!reports.length) {
+      target.innerHTML = `
+        <section class="report-card empty-report-card">
+          <h3>No reported questions for ${escapeHtml(student.name)}.</h3>
+          <p>When a student taps “Report this question,” it will appear here for grown-up review.</p>
+        </section>
+      `;
+      return;
+    }
+
+    const selectedReport = reports.find(item => item.id === state.selectedReportId) || reports[0];
+    state.selectedReportId = selectedReport.id;
+
+    target.innerHTML = `
+      <section class="reported-question-report">
+        <div class="reported-question-list">
+          ${reports.map(report => renderReportedQuestionButton(report, selectedReport)).join('')}
+        </div>
+        <aside class="question-inspector">
+          ${renderReportedQuestionInspector(selectedReport)}
+        </aside>
+      </section>
+    `;
+
+    target.querySelectorAll('[data-report-id]').forEach(row => {
+      row.addEventListener('click', () => {
+        state.selectedReportId = row.dataset.reportId;
+        renderDetail();
+      });
+    });
+
+    const saveButton = target.querySelector('[data-save-report-review]');
+    if (saveButton) {
+      saveButton.addEventListener('click', async () => {
+        const status = target.querySelector('[data-report-review-status]');
+        const note = target.querySelector('[data-report-review-note]');
+        const message = target.querySelector('[data-report-review-message]');
+        try {
+          saveButton.disabled = true;
+          await saveQuestionReportReview(student.id, selectedReport.id, {
+            status: status ? status.value : 'open',
+            grownupNote: note ? note.value : ''
+          });
+          if (message) message.textContent = 'Review saved.';
+          state.students = await buildStudents();
+          render();
+        } catch (error) {
+          if (message) message.textContent = error.message || 'Could not save this review.';
+        } finally {
+          saveButton.disabled = false;
+        }
+      });
+    }
+  }
+
+  function renderReportedQuestionButton(report, selectedReport) {
+    const selected = selectedReport && report.id === selectedReport.id;
+    return `
+      <button class="reported-question-row ${selected ? 'active' : ''}" type="button" data-report-id="${escapeHtml(report.id)}">
+        <strong>${escapeHtml(truncate(report.question, 92))}</strong>
+        <span>${escapeHtml(formatReportReason(report.reason))} · ${formatDate(report.createdAt)}</span>
+        <b class="report-status-chip ${escapeHtml(report.status || 'open')}">${escapeHtml(formatReportStatus(report.status))}</b>
+      </button>
+    `;
+  }
+
+  function renderReportedQuestionInspector(report) {
+    if (!report) return '<p class="empty-report">Choose a report to review it.</p>';
+    const choices = Array.isArray(report.choices) ? report.choices : [];
+    const explanation = report.explanation || {};
+    return `
+      <div class="inspector-section">
+        <span class="quest-kicker">Reported Question</span>
+        <h3>${escapeHtml(report.question || '')}</h3>
+        <div class="answer-comparison">
+          <div>
+            <span>Student selected</span>
+            <strong>${escapeHtml(report.selectedChoice || 'Not answered yet')}</strong>
+          </div>
+          <div>
+            <span>Marked correct</span>
+            <strong>${escapeHtml(report.correctChoice || '')}</strong>
+          </div>
+        </div>
+        <dl class="answer-meta">
+          <div><dt>Reason</dt><dd>${escapeHtml(formatReportReason(report.reason))}</dd></div>
+          <div><dt>Status</dt><dd>${escapeHtml(formatReportStatus(report.status))}</dd></div>
+          <div><dt>Reported</dt><dd>${formatDate(report.createdAt)}</dd></div>
+          <div><dt>Topic</dt><dd>${escapeHtml(report.title || report.topic || '')}</dd></div>
+          <div><dt>Level</dt><dd>${escapeHtml(`Grade ${report.grade || ''} · ${titleCase(report.difficulty || '')}`)}</dd></div>
+        </dl>
+        ${report.note ? `<div class="report-note"><span>Student note</span><p>${escapeHtml(report.note)}</p></div>` : ''}
+      </div>
+      <div class="inspector-section">
+        <h3>Answer Choices</h3>
+        <div class="reported-choice-list">
+          ${choices.map((choice, index) => `
+            <div class="reported-choice ${index === report.correctIndex ? 'correct' : ''} ${index === report.selectedIndex ? 'selected' : ''}">
+              <strong>${String.fromCharCode(65 + index)}) ${escapeHtml(choice)}</strong>
+              <span>${index === report.correctIndex ? 'Marked correct' : index === report.selectedIndex ? 'Student selected' : ''}</span>
+            </div>
+          `).join('') || '<p class="empty-report">No choices saved with this report.</p>'}
+        </div>
+        ${explanation.correct ? `<div class="report-note"><span>Correct explanation</span><p>${escapeHtml(explanation.correct)}</p></div>` : ''}
+      </div>
+      <div class="inspector-section">
+        <h3>Grown-up Review</h3>
+        <label class="report-review-field">
+          <span>Status</span>
+          <select data-report-review-status>
+            ${['open', 'reviewing', 'resolved', 'dismissed'].map(status => `<option value="${status}" ${status === (report.status || 'open') ? 'selected' : ''}>${escapeHtml(formatReportStatus(status))}</option>`).join('')}
+          </select>
+        </label>
+        <label class="report-review-field">
+          <span>Review note</span>
+          <textarea data-report-review-note rows="4" maxlength="800">${escapeHtml(report.grownupNote || '')}</textarea>
+        </label>
+        <p class="report-review-message" data-report-review-message></p>
+        <button class="btn btn-primary" type="button" data-save-report-review>Save review</button>
+        ${report.pageUrl ? `<a class="btn btn-secondary" href="${escapeHtml(report.pageUrl)}" target="_blank" rel="noopener">Open question page</a>` : ''}
       </div>
     `;
   }
@@ -773,6 +933,55 @@
       durationSeconds: minutes * 60,
       attempts
     };
+  }
+
+  async function saveQuestionReportReview(studentId, reportId, updates) {
+    const auth = window.GrammarQuestAuth;
+    const authState = await getAuthState();
+    if (authState.parentMode && auth && typeof auth.updateStudentQuestionReport === 'function') {
+      await auth.updateStudentQuestionReport(studentId, reportId, updates);
+      return;
+    }
+    const progress = loadProgress();
+    const reports = progress.reports || {};
+    const questionReports = Array.isArray(reports.questionReports) ? reports.questionReports : [];
+    const now = new Date().toISOString();
+    reports.questionReports = questionReports.map(report => {
+      if (!report || report.id !== reportId) return report;
+      return Object.assign({}, report, {
+        status: normalizeReportStatus(updates && updates.status),
+        grownupNote: String(updates && updates.grownupNote || '').trim().slice(0, 800),
+        reviewedAt: now,
+        updatedAt: now
+      });
+    });
+    progress.reports = reports;
+    if (window.GrammarQuestProgress && typeof window.GrammarQuestProgress.saveLocalProgress === 'function') {
+      window.GrammarQuestProgress.saveLocalProgress(progress, { sync: true });
+    } else {
+      localStorage.setItem('grammarQuestProgress', JSON.stringify(progress));
+    }
+  }
+
+  function formatReportReason(value) {
+    const reason = String(value || '').toLowerCase();
+    if (reason === 'typo') return 'Typo or wording';
+    if (reason === 'audio_visual') return 'Picture or layout';
+    if (reason === 'other') return 'Other';
+    return 'Answer or explanation';
+  }
+
+  function formatReportStatus(value) {
+    const status = normalizeReportStatus(value);
+    if (status === 'reviewing') return 'Reviewing';
+    if (status === 'resolved') return 'Resolved';
+    if (status === 'dismissed') return 'Dismissed';
+    return 'Open';
+  }
+
+  function normalizeReportStatus(value) {
+    const status = String(value || '').toLowerCase();
+    return ['open', 'reviewing', 'resolved', 'dismissed'].includes(status) ? status : 'open';
   }
 
   function formatPercent(value) {

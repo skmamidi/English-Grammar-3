@@ -7,6 +7,8 @@
     "qa:content": "node scripts/qa/content-qa.js",
     "qa:manifest": "node scripts/generate-question-manifest.js",
     "qa:chunks": "node scripts/qa/chunk-qa.js",
+    "qa:chunk-domain": "node scripts/qa/chunk-migration-gates.js",
+    "qa:chunks:all": "node scripts/qa/chunk-migration-gates.js --all",
     "install:browsers": "playwright install chromium",
     "manifest:write": "node scripts/generate-question-manifest.js --write",
     "chunks:write": "node scripts/generate-question-chunks.js --write",

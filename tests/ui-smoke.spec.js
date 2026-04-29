@@ -30,6 +30,54 @@ const PAGE_BUDGETS = {
   'topics/reference-skills/subtopics/alphabetical-order.html': {
     forbiddenFullBanks: ['assets/question-banks/reference-skills.js'],
     questionPayloadBytes: 350 * 1024
+  },
+  'topics/punctuation/subtopics/commas-series.html': {
+    forbiddenFullBanks: ['assets/question-banks/punctuation.js'],
+    questionPayloadBytes: 250 * 1024
+  },
+  'topics/vocabulary/subtopics/homophones.html': {
+    forbiddenFullBanks: ['assets/question-banks/vocabulary.js'],
+    questionPayloadBytes: 300 * 1024
+  },
+  'topics/reading-comprehension/subtopics/main-idea-supporting-details.html': {
+    forbiddenFullBanks: ['assets/question-banks/reading-comprehension.js'],
+    questionPayloadBytes: 700 * 1024
+  },
+  'topics/grammar/subtopics/sentence-types.html': {
+    forbiddenFullBanks: ['assets/question-banks/grammar.js'],
+    questionPayloadBytes: 300 * 1024
+  }
+};
+const REPRESENTATIVE_CHUNK_PAGES = {
+  'topics/capitalization/subtopics/proper-names-titles.html': {
+    domain: 'capitalization',
+    chunkFile: 'assets/question-chunks/capitalization/capitalization-proper-names-titles.js',
+    bankFile: 'assets/question-banks/capitalization.js'
+  },
+  'topics/reference-skills/subtopics/alphabetical-order.html': {
+    domain: 'reference-skills',
+    chunkFile: 'assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js',
+    bankFile: 'assets/question-banks/reference-skills.js'
+  },
+  'topics/punctuation/subtopics/commas-series.html': {
+    domain: 'punctuation',
+    chunkFile: 'assets/question-chunks/punctuation/punctuation-commas-series.js',
+    bankFile: 'assets/question-banks/punctuation.js'
+  },
+  'topics/vocabulary/subtopics/homophones.html': {
+    domain: 'vocabulary',
+    chunkFile: 'assets/question-chunks/vocabulary/vocabulary-homophones.js',
+    bankFile: 'assets/question-banks/vocabulary.js'
+  },
+  'topics/reading-comprehension/subtopics/main-idea-supporting-details.html': {
+    domain: 'reading-comprehension',
+    chunkFile: 'assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details.js',
+    bankFile: 'assets/question-banks/reading-comprehension.js'
+  },
+  'topics/grammar/subtopics/sentence-types.html': {
+    domain: 'grammar',
+    chunkFile: 'assets/question-chunks/grammar/grammar-sentence-types.js',
+    bankFile: 'assets/question-banks/grammar.js'
   }
 };
 
@@ -68,77 +116,52 @@ async function main() {
       });
     }
 
-    await runCase(failures, 'topics/capitalization/subtopics/proper-names-titles.html stays under question payload budget', async () => {
-      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
-      const page = await newPage(browser);
-      const recorder = createRequestRecorder(page);
-      await visitClean(page, server.baseURL, file);
-      await assertPilotChunkRequests(page, recorder.requests, file);
-      assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
-      await page.close();
-    });
+    for (const file of Object.keys(REPRESENTATIVE_CHUNK_PAGES)) {
+      await runCase(failures, `${file} stays under question payload budget`, async () => {
+        const page = await newPage(browser);
+        const recorder = createRequestRecorder(page);
+        await visitClean(page, server.baseURL, file);
+        await assertChunkBackedSubtopicRequests(page, recorder.requests, file, REPRESENTATIVE_CHUNK_PAGES[file]);
+        assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
+        await page.close();
+      });
+    }
 
-    await runCase(failures, 'topics/reference-skills/subtopics/alphabetical-order.html stays under question payload budget', async () => {
-      const file = 'topics/reference-skills/subtopics/alphabetical-order.html';
-      const page = await newPage(browser);
-      const recorder = createRequestRecorder(page);
-      await visitClean(page, server.baseURL, file);
-      await assertReferenceSkillsChunkRequests(page, recorder.requests, file);
-      assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
-      await page.close();
-    });
-
-    await runCase(failures, 'topics/grammar/index.html lazy-loads mixed quiz questions on demand', async () => {
-      const page = await newPage(browser);
-      const requests = [];
-      page.on('request', request => requests.push(request.url()));
-      await visitClean(page, server.baseURL, 'topics/grammar/index.html');
-      await page.click('.mixed-quiz-panel a');
-      await assertVisible(page, '#start-btn', 'grammar mixed quiz');
-      assert.ok(
-        requests.some(url => url.endsWith('/assets/question-loader.js')),
-        'mixed quiz should load question loader after launch'
-      );
-      assert.ok(
-        requests.some(url => url.endsWith('/assets/question-banks/grammar.js')),
-        'legacy mixed quiz should load grammar bank through loader fallback after launch'
-      );
-      assert.ok(
-        requests.some(url => url.endsWith('/assets/quiz-engine.js')),
-        'mixed quiz should load quiz engine after launch'
-      );
-      await page.close();
-    });
-
-    await runCase(failures, 'topics/capitalization/index.html mixed quiz loads selected chunks instead of full bank', async () => {
-      const page = await newPage(browser);
-      const requests = [];
-      page.on('request', request => requests.push(request.url()));
-      await visitClean(page, server.baseURL, 'topics/capitalization/index.html');
-      await page.click('.mixed-quiz-panel a');
-      await assertVisible(page, '#start-btn', 'capitalization mixed quiz');
-      assert.ok(
-        requests.some(url => url.endsWith('/assets/question-loader.js')),
-        'chunked mixed quiz should load question loader after launch'
-      );
-      assert.ok(
-        requests.some(url => url.includes('/assets/question-chunks/capitalization/')),
-        'chunked mixed quiz should request capitalization chunks'
-      );
-      assert.equal(
-        requests.some(url => url.endsWith('/assets/question-banks/capitalization.js')),
-        false,
-        'chunked mixed quiz should not request the full capitalization bank'
-      );
-      await page.close();
-    });
+    for (const domain of ['capitalization', 'reference-skills', 'punctuation', 'vocabulary', 'reading-comprehension', 'grammar']) {
+      await runCase(failures, `topics/${domain}/index.html mixed quiz loads selected chunks instead of full bank`, async () => {
+        const page = await newPage(browser);
+        const requests = [];
+        page.on('request', request => requests.push(request.url()));
+        await visitClean(page, server.baseURL, `topics/${domain}/index.html`);
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', `${domain} mixed quiz`);
+        assert.ok(
+          requests.some(url => url.endsWith('/assets/question-loader.js')),
+          `${domain} mixed quiz should load question loader after launch`
+        );
+        assert.ok(
+          requests.some(url => url.includes(`/assets/question-chunks/${domain}/`)),
+          `${domain} mixed quiz should request ${domain} chunks`
+        );
+        assert.equal(
+          requests.some(url => url.endsWith(`/assets/question-banks/${domain}.js`)),
+          false,
+          `${domain} mixed quiz should not request the full topic bank`
+        );
+        assert.ok(
+          requests.some(url => url.endsWith('/assets/quiz-engine.js')),
+          `${domain} mixed quiz should load quiz engine after launch`
+        );
+        await page.close();
+      });
+    }
 
     await runCase(failures, 'capitalization pilot subtopic loads only its chunk', async () => {
       const page = await newPage(browser);
       const recorder = createRequestRecorder(page);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, file);
-      await assertPilotChunkRequests(page, recorder.requests, file);
+      await assertChunkBackedSubtopicRequests(page, recorder.requests, file, REPRESENTATIVE_CHUNK_PAGES[file]);
       assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
       await assertQuizFlow(page, file);
       await page.close();
@@ -149,19 +172,7 @@ async function main() {
       const recorder = createRequestRecorder(page);
       const file = 'topics/reference-skills/subtopics/alphabetical-order.html';
       await visitClean(page, server.baseURL, file);
-      await assertReferenceSkillsChunkRequests(page, recorder.requests, file);
-      assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
-      await assertQuizFlow(page, file);
-      await page.close();
-    });
-
-    await runCase(failures, 'legacy grammar subtopic still loads its topic bank', async () => {
-      const page = await newPage(browser);
-      const requests = [];
-      page.on('request', request => requests.push(request.url()));
-      const file = 'topics/grammar/subtopics/sentence-types.html';
-      await visitClean(page, server.baseURL, file);
-      await assertLegacyBankRequests(page, requests, file);
+      await assertChunkBackedSubtopicRequests(page, recorder.requests, file, REPRESENTATIVE_CHUNK_PAGES[file]);
       await assertQuizFlow(page, file);
       await page.close();
     });
@@ -495,7 +506,7 @@ async function assertQuizFlow(page, file) {
   assert.match(await textContent(page, '#quiz-root'), /Question|Results|Score|Review/i);
 }
 
-async function assertPilotChunkRequests(page, requests, file) {
+async function assertChunkBackedSubtopicRequests(page, requests, file, expected) {
   await assertVisible(page, '#start-btn', file);
   assert.equal(
     await page.evaluate(() => !!window.QUESTION_BANK && Object.keys(window.QUESTION_BANK).length),
@@ -511,52 +522,13 @@ async function assertPilotChunkRequests(page, requests, file) {
     `${file} should request the loader abstraction`
   );
   assert.ok(
-    requests.some(url => url.endsWith('/assets/question-chunks/capitalization/capitalization-proper-names-titles.js')),
-    `${file} should request its capitalization chunk`
+    requests.some(url => url.endsWith(`/${expected.chunkFile}`)),
+    `${file} should request its ${expected.domain} chunk`
   );
   assert.equal(
-    requests.some(url => url.endsWith('/assets/question-banks/capitalization.js')),
+    requests.some(url => url.endsWith(`/${expected.bankFile}`)),
     false,
-    `${file} should not request the full capitalization bank`
-  );
-}
-
-async function assertReferenceSkillsChunkRequests(page, requests, file) {
-  await assertVisible(page, '#start-btn', file);
-  assert.equal(
-    await page.evaluate(() => !!window.QUESTION_BANK && Object.keys(window.QUESTION_BANK).length),
-    1,
-    `${file} should hydrate only the requested reference-skills chunk into QUESTION_BANK`
-  );
-  assert.ok(
-    requests.some(url => url.endsWith('/assets/question-manifest.js')),
-    `${file} should request manifest metadata`
-  );
-  assert.ok(
-    requests.some(url => url.endsWith('/assets/question-loader.js')),
-    `${file} should request the loader abstraction`
-  );
-  assert.ok(
-    requests.some(url => url.endsWith('/assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js')),
-    `${file} should request its reference-skills chunk`
-  );
-  assert.equal(
-    requests.some(url => url.endsWith('/assets/question-banks/reference-skills.js')),
-    false,
-    `${file} should not request the full reference-skills bank`
-  );
-}
-
-async function assertLegacyBankRequests(page, requests, file) {
-  await assertVisible(page, '#start-btn', file);
-  assert.ok(
-    requests.some(url => url.endsWith('/assets/question-banks/grammar.js')),
-    `${file} should request the legacy grammar bank`
-  );
-  assert.equal(
-    requests.some(url => url.includes('/assets/question-chunks/')),
-    false,
-    `${file} should not request question chunks`
+    `${file} should not request the full ${expected.domain} bank`
   );
 }
 

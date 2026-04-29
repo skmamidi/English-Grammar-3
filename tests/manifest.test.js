@@ -55,24 +55,12 @@ test('manifest exposes compact lookup metadata without learner-facing prompts', 
   assert.equal(Object.hasOwn(set.questions[0], 'explanation'), false);
 });
 
-test('chunked pilot manifest entries point to checked-in chunk files', () => {
+test('all manifest entries point to checked-in chunk files', () => {
   const manifest = validateManifest(loadManifest(), loadQuestionBanks());
-  const chunkedSets = manifest.sets.filter(set => set.domain === 'capitalization');
 
-  assert.ok(chunkedSets.length > 0, 'expected capitalization to be the pilot chunked domain');
-  chunkedSets.forEach(set => {
-    assert.equal(set.chunkFile, `assets/question-chunks/capitalization/${set.id}.js`);
-    assert.ok(fs.existsSync(path.join(__dirname, '..', set.chunkFile)), `${set.chunkFile} should exist`);
-  });
-});
-
-test('reference-skills manifest entries are chunk-backed', () => {
-  const manifest = validateManifest(loadManifest(), loadQuestionBanks());
-  const sets = manifest.sets.filter(set => set.domain === 'reference-skills');
-
-  assert.ok(sets.length > 0, 'expected reference-skills sets in manifest');
-  sets.forEach(set => {
-    assert.equal(set.chunkFile, `assets/question-chunks/reference-skills/${set.id}.js`);
+  assert.ok(manifest.sets.length > 0, 'expected manifest sets');
+  manifest.sets.forEach(set => {
+    assert.equal(set.chunkFile, `assets/question-chunks/${set.domain}/${set.id}.js`);
     assert.ok(fs.existsSync(path.join(__dirname, '..', set.chunkFile)), `${set.chunkFile} should exist`);
   });
 });

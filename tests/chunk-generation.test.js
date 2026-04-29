@@ -5,6 +5,7 @@ const path = require('path');
 const test = require('node:test');
 
 const { flattenQuestionBanks, loadQuestionBanks } = require('../scripts/qa/bank-loader');
+const { CHUNK_MIGRATION_ORDER } = require('../scripts/question-chunk-config');
 const {
   buildQuestionChunkScript,
   getChunkedSets,
@@ -21,6 +22,7 @@ const {
   validateQuestionChunkSet,
   validateQuestionChunks
 } = require('../scripts/qa/chunk-qa');
+const { runDomainGate } = require('../scripts/qa/chunk-migration-gates');
 
 test('chunk files exactly match source bank sets', () => {
   const bankLoad = loadQuestionBanks();
@@ -115,7 +117,7 @@ test('chunk generation is deterministic', () => {
   assert.equal(first, second);
 });
 
-test('writeQuestionChunks dry run reports expected chunk paths for chunked domains only', () => {
+test('writeQuestionChunks dry run reports expected chunk paths for every question domain', () => {
   const bankLoad = loadQuestionBanks();
   const manifest = generateManifest(bankLoad);
   const summary = writeQuestionChunks(manifest, bankLoad, { dryRun: true });
@@ -123,7 +125,10 @@ test('writeQuestionChunks dry run reports expected chunk paths for chunked domai
 
   assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/capitalization/capitalization-proper-names-titles.js')));
   assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js')));
-  assert.equal(paths.some(chunkPath => chunkPath.includes('/grammar/')), false);
+  assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/punctuation/punctuation-commas-series.js')));
+  assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/vocabulary/vocabulary-homophones.js')));
+  assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/reading-comprehension/reading-comprehension-main-idea-supporting-details.js')));
+  assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/grammar/grammar-sentence-types.js')));
 });
 
 test('writeQuestionChunks dry run does not mutate files', () => {
@@ -191,6 +196,23 @@ test('manifest validation fails if a declared chunk is stale', () => {
     () => validateManifest(manifest, staleBankLoad, { validateChunks: true }),
     /Question chunk validation failed/
   );
+});
+
+test('every manifest set is chunk-backed', () => {
+  const manifest = generateManifest(loadQuestionBanks());
+
+  assert.ok(manifest.sets.length > 0, 'expected manifest sets');
+  manifest.sets.forEach(set => {
+    assert.equal(set.chunkFile, `assets/question-chunks/${set.domain}/${set.id}.js`);
+  });
+});
+
+test('domain migration gate passes for all chunked domains', () => {
+  CHUNK_MIGRATION_ORDER.forEach(domain => {
+    const result = runDomainGate(domain);
+    assert.deepEqual(result.errors, []);
+    assert.ok(result.checked > 0, `${domain} should have checked sets`);
+  });
 });
 
 function loadMutableManifest() {

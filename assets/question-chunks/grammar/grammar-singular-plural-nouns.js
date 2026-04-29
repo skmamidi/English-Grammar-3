@@ -1,0 +1,3112 @@
+/**
+ * English Language Quiz App - grammar chunk: grammar-singular-plural-nouns
+ * Generated from assets/question-banks/grammar.js.
+ */
+(function () {
+  'use strict';
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, {
+  "grammar-singular-plural-nouns": {
+    "title": "Singular and Plural Nouns",
+    "topic": "Grammar & Usage",
+    "questions": [
+      {
+        "id": "grammar-singular-plural-nouns-q0001",
+        "version": 1,
+        "contentHash": "sha256:5fbb2538fd30bd0e9b72e63f02d16fc122ebb8af2c37bde2cfcbf050928c9391",
+        "question": "What is the plural of 'child'?",
+        "choices": [
+          "childs",
+          "children",
+          "childes",
+          "child"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: children. Some nouns have irregular plurals that do not add -s or -es.",
+          "incorrect": [
+            "Not: childs. It does not fit the sentence grammar.",
+            "",
+            "Not: childes. It does not fit the sentence grammar.",
+            "Not: child. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Some nouns have irregular plurals that do not add -s or -es.",
+          "example": "child → children, mouse → mice, foot → feet",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 1
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0002",
+        "version": 1,
+        "contentHash": "sha256:72e89cbd3fb28597714c313b3981b7563e9768c0d297835504857189657f097a",
+        "question": "What is the plural of 'tooth'?",
+        "choices": [
+          "tooths",
+          "toothes",
+          "teeth",
+          "tooth"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: teeth. Some nouns change vowels for plural: tooth → teeth, goose → geese, man → men.",
+          "incorrect": [
+            "Not: tooths. It does not fit the sentence grammar.",
+            "Not: toothes. It does not fit the sentence grammar.",
+            "",
+            "Not: tooth. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Some nouns change vowels for plural: tooth → teeth, goose → geese, man → men.",
+          "example": "One tooth, two teeth. One goose, two geese.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 2
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0003",
+        "version": 1,
+        "contentHash": "sha256:6d58715f7b85f4fb62a3c9fd39c2ef2e2650c72fd8698b9cf1516f0fe21cc7a6",
+        "question": "Which is the plural of 'deer'?",
+        "choices": [
+          "deers",
+          "deer",
+          "deeres",
+          "deeren"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: deer. Some nouns have the same singular and plural form: deer, sheep, fish, moose.",
+          "incorrect": [
+            "Not: deers. It does not fit the sentence grammar.",
+            "",
+            "Not: deeres. It does not fit the sentence grammar.",
+            "Not: deeren. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Some nouns have the same singular and plural form: deer, sheep, fish, moose.",
+          "example": "One deer, two deer. One sheep, two sheep.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 3
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0004",
+        "version": 1,
+        "contentHash": "sha256:f4329b2fe35a4e56ce1b911ca21122591c454d4f74c6afb0d26504c63e1d151b",
+        "question": "What is the plural of 'potato'?",
+        "choices": [
+          "potatos",
+          "potatoes",
+          "potato's",
+          "potatoes'"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: potatoes. Nouns ending in consonant + o add -es: potatoes, tomatoes, heroes.",
+          "incorrect": [
+            "Not: potatos. It does not fit the sentence grammar.",
+            "",
+            "Not: potato's. It does not fit the sentence grammar.",
+            "Not: potatoes'. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Nouns ending in consonant + o add -es: potatoes, tomatoes, heroes.",
+          "example": "one potato, two potatoes; one tomato, two tomatoes",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 4
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0005",
+        "version": 1,
+        "contentHash": "sha256:77733b643fb8ceeb2d4367f015fb74eb400165a89dffcf630b7f2a3aafeb5472",
+        "question": "Which is the plural of 'knife'?",
+        "choices": [
+          "knifes",
+          "knives",
+          "knife's",
+          "knifves"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: knives. Nouns ending in -f or -fe usually change to -ves: knife → knives, leaf → leaves, wife → wives.",
+          "incorrect": [
+            "Not: knifes. It does not fit the sentence grammar.",
+            "",
+            "Not: knife's. It does not fit the sentence grammar.",
+            "Not: knifves. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Nouns ending in -f or -fe usually change to -ves: knife → knives, leaf → leaves, wife → wives.",
+          "example": "one knife, two knives; one leaf, two leaves",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 5
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0006",
+        "version": 1,
+        "contentHash": "sha256:c6a4c95e37db4c9567635ff6ef43f4252b039384bbb96739a723dafb092c1d73",
+        "question": "What is the plural of 'mouse'?",
+        "choices": [
+          "mouses",
+          "mice",
+          "mices",
+          "mouse's"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: mice. 'Mouse' has an irregular plural: mice.",
+          "incorrect": [
+            "Not: mouses. It does not fit the sentence grammar.",
+            "",
+            "Not: mices. It does not fit the sentence grammar.",
+            "Not: mouse's. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "'Mouse' has an irregular plural: mice.",
+          "example": "One mouse, two mice.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 6
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0007",
+        "version": 1,
+        "contentHash": "sha256:b37544b5f313cb465cf02d34c261283aa7d40270b8db1acb053720563acbbcfe",
+        "question": "Which is the plural of 'box'?",
+        "choices": [
+          "boxs",
+          "boxes",
+          "box's",
+          "boxen"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: boxes. Nouns ending in s, x, z, ch, sh add -es: boxes, churches, buses.",
+          "incorrect": [
+            "Not: boxs. It does not fit the sentence grammar.",
+            "",
+            "Not: box's. It does not fit the sentence grammar.",
+            "Not: boxen. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Nouns ending in s, x, z, ch, sh add -es: boxes, churches, buses.",
+          "example": "one box, two boxes; one church, two churches",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 7
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0008",
+        "version": 1,
+        "contentHash": "sha256:a38ec0803c6595dcf0325e3037f36782931f96b07755e2db68bbd1ea9497b7fa",
+        "question": "What is the plural of 'cactus'?",
+        "choices": [
+          "cactuses",
+          "cacti",
+          "cactus",
+          "Both A and B"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Both A and B. Some words have both English and Latin plurals: cactuses/cacti, focuses/foci.",
+          "incorrect": [
+            "Not: cactuses. It does not fit the sentence grammar.",
+            "Not: cacti. It does not fit the sentence grammar.",
+            "Not: cactus. It does not fit the sentence grammar.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Some words have both English and Latin plurals: cactuses/cacti, focuses/foci.",
+          "example": "one cactus, two cactuses or two cacti",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 8
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0009",
+        "version": 1,
+        "contentHash": "sha256:157f275ee6887a5bd8478d31e8a63ff0f3a597c506b369bc4e766dc22902412c",
+        "question": "Which is the plural of 'sheep'?",
+        "choices": [
+          "sheeps",
+          "sheep",
+          "sheepes",
+          "sheep's"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: sheep. Some nouns do not change: sheep, deer, fish, moose.",
+          "incorrect": [
+            "Not: sheeps. It does not fit the sentence grammar.",
+            "",
+            "Not: sheepes. It does not fit the sentence grammar.",
+            "Not: sheep's. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Some nouns do not change: sheep, deer, fish, moose.",
+          "example": "One sheep, two sheep.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 9
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0010",
+        "version": 1,
+        "contentHash": "sha256:4cf3132fca257af181411849fc563cd4675dfc4d80dba8571bb89da318410ce5",
+        "question": "What is the plural of 'leaf'?",
+        "choices": [
+          "leafs",
+          "leaves",
+          "leafes",
+          "leaf's"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: leaves. f → ves: leaf → leaves, thief → thieves, shelf → shelves.",
+          "incorrect": [
+            "Not: leafs. It does not fit the sentence grammar.",
+            "",
+            "Not: leafes. It does not fit the sentence grammar.",
+            "Not: leaf's. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "f → ves: leaf → leaves, thief → thieves, shelf → shelves.",
+          "example": "One leaf, two leaves.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 10
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0011",
+        "version": 1,
+        "contentHash": "sha256:0a418650257be4ca2b5052f2e134ddef286960cfb2d1a3cdc96f171ed6b179f8",
+        "question": "Which is the plural of 'octopus'?",
+        "choices": [
+          "octopuses",
+          "octopi",
+          "octopodes",
+          "All are accepted"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: All are accepted. 'Octopuses' is the most common English plural.",
+          "incorrect": [
+            "Not: octopuses. It does not fit the sentence grammar.",
+            "Not: octopi. It does not fit the sentence grammar.",
+            "Not: octopodes. It does not fit the sentence grammar.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "'Octopuses' is the most common English plural. 'Octopi' and 'octopodes' also exist.",
+          "example": "One octopus, two octopuses (most common)",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 11
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0012",
+        "version": 1,
+        "contentHash": "sha256:48dbda9c434ec1c372e34740fd0a2d14aa251bceaf324ba9a33058583c4739be",
+        "question": "What is the plural of 'woman'?",
+        "choices": [
+          "womans",
+          "women",
+          "womens",
+          "woman's"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: women. Vowel change plurals: man → men, woman → women, foot → feet, tooth → teeth.",
+          "incorrect": [
+            "Not: womans. It does not fit the sentence grammar.",
+            "",
+            "Not: womens. It does not fit the sentence grammar.",
+            "Not: woman's. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vowel change plurals: man → men, woman → women, foot → feet, tooth → teeth.",
+          "example": "One woman, two women.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 12
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0013",
+        "version": 1,
+        "contentHash": "sha256:f80bad103a743a240339403fc1bc340c0da86079b6b775a5ecc0ada56d788a30",
+        "question": "Which is the plural of 'crisis'?",
+        "choices": [
+          "crisises",
+          "crises",
+          "crisis",
+          "crisis'"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: crises. Nouns ending in -is → -es: crisis → crises, analysis → analyses, thesis → theses.",
+          "incorrect": [
+            "Not: crisises. It does not fit the sentence grammar.",
+            "",
+            "Not: crisis. It does not fit the sentence grammar.",
+            "Not: crisis'. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Nouns ending in -is → -es: crisis → crises, analysis → analyses, thesis → theses.",
+          "example": "One crisis, two crises.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 13
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0014",
+        "version": 1,
+        "contentHash": "sha256:2ea0fc281135ddc7e58a42778d0387ec815751784923b463bd2fe31e55095c2d",
+        "question": "What is the plural of 'piano'?",
+        "choices": [
+          "pianos",
+          "pianoes",
+          "pianoes'",
+          "piano's"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: pianos. Vowel + o → add -s: pianos, radios, videos, zoos.",
+          "incorrect": [
+            "",
+            "Not: pianoes. It does not fit the sentence grammar.",
+            "Not: pianoes'. It does not fit the sentence grammar.",
+            "Not: piano's. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vowel + o → add -s: pianos, radios, videos, zoos.",
+          "example": "One piano, two pianos.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 14
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0015",
+        "version": 1,
+        "contentHash": "sha256:e03d75d532ef244f6d4b3ea4ebec538e2fa583041afa7df2e6ff3387464d2a4a",
+        "question": "Which is the plural of 'radius'?",
+        "choices": [
+          "radiuses",
+          "radii",
+          "radius",
+          "Both A and B"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Both A and B. Latin-derived words often have two plural forms.",
+          "incorrect": [
+            "Not: radiuses. It does not fit the sentence grammar.",
+            "Not: radii. It does not fit the sentence grammar.",
+            "Not: radius. It does not fit the sentence grammar.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Latin-derived words often have two plural forms.",
+          "example": "One radius, two radii (or radiuses).",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 15
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0016",
+        "version": 1,
+        "contentHash": "sha256:9d78b9c8db94f67bb67708a5b40a275b801de399588bd35c7b0b54b3af0523cc",
+        "question": "Which choice is a plural noun made by adding -es?",
+        "choices": [
+          "dancing",
+          "dishes",
+          "danced",
+          "slipper"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: dishes. Singular means one.",
+          "incorrect": [
+            "Not: dancing. It does not fit the sentence grammar.",
+            "",
+            "Not: danced. It does not fit the sentence grammar.",
+            "Not: slipper. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 16
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0017",
+        "version": 1,
+        "contentHash": "sha256:257a0dd30498bcd2bc02d383028d011014975787d3b8179d4b9f453a53b2876a",
+        "question": "Singular or plural? cracker",
+        "choices": [
+          "singular",
+          "plural",
+          "possessive",
+          "proper"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: singular. Singular means one.",
+          "incorrect": [
+            "",
+            "Not: plural. It does not fit the sentence grammar.",
+            "Not: possessive. It does not fit the sentence grammar.",
+            "Not: proper. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one.",
+          "example": "Singular: cat. Plural: cats.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 17
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0018",
+        "version": 1,
+        "contentHash": "sha256:6e030bccf36eaae3cf40bc81b22950365b13d5dff846de517d37d476ac5e546c",
+        "question": "Singular or plural noun? dolphin",
+        "choices": [
+          "singular",
+          "plural",
+          "possessive",
+          "proper"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: singular. Singular means one.",
+          "incorrect": [
+            "",
+            "Not: plural. It does not fit the sentence grammar.",
+            "Not: possessive. It does not fit the sentence grammar.",
+            "Not: proper. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one.",
+          "example": "Singular: cat. Plural: cats.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 18
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0019",
+        "version": 1,
+        "contentHash": "sha256:203d491263b597939ea11cb4edf7b9b90c49c093bdf30ad854cbaa27954bf3c6",
+        "question": "Singular or plural noun? children",
+        "choices": [
+          "singular",
+          "plural",
+          "possessive",
+          "proper"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: plural. Singular means one.",
+          "incorrect": [
+            "Not: singular. It does not fit the sentence grammar.",
+            "",
+            "Not: possessive. It does not fit the sentence grammar.",
+            "Not: proper. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one.",
+          "example": "Singular: cat. Plural: cats.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 19
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0020",
+        "version": 1,
+        "contentHash": "sha256:255b03bce525fd0cfba13f79fd81816bdd3e5baec772f0a51cebe9ee05f76ea0",
+        "question": "Which choice is a singular noun?",
+        "choices": [
+          "crackers",
+          "dolphins",
+          "child",
+          "keys"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: child. Singular means one.",
+          "incorrect": [
+            "Not: crackers. It does not fit the sentence grammar.",
+            "Not: dolphins. It does not fit the sentence grammar.",
+            "",
+            "Not: keys. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 20
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0021",
+        "version": 1,
+        "contentHash": "sha256:9bd8891c5e0b3fb47881eb58b242b96b097bb3667b87c4e842e94b858148ed86",
+        "question": "Singular or plural? keys",
+        "choices": [
+          "singular",
+          "plural",
+          "possessive",
+          "proper"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: plural. Singular means one.",
+          "incorrect": [
+            "Not: singular. It does not fit the sentence grammar.",
+            "",
+            "Not: possessive. It does not fit the sentence grammar.",
+            "Not: proper. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one.",
+          "example": "Singular: cat. Plural: cats.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 21
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0022",
+        "version": 1,
+        "contentHash": "sha256:7a033cb7c62d8a27606c1423ed1b8d16ebc78f409d8797f7c05d70e4d067cad3",
+        "question": "Singular or plural? family",
+        "choices": [
+          "singular",
+          "plural",
+          "possessive",
+          "proper"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: singular. Singular means one.",
+          "incorrect": [
+            "",
+            "Not: plural. It does not fit the sentence grammar.",
+            "Not: possessive. It does not fit the sentence grammar.",
+            "Not: proper. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one.",
+          "example": "Singular: cat. Plural: cats.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 22
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0023",
+        "version": 1,
+        "contentHash": "sha256:bc3af3bda4d78df7835d999105f3ca0291df80e3ceb345d88be4ae226144151a",
+        "question": "What is the plural form of 'party'?",
+        "choices": [
+          "partys",
+          "parties",
+          "party's",
+          "partyes"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: parties. Singular means one.",
+          "incorrect": [
+            "Not: partys. It does not fit the sentence grammar.",
+            "",
+            "Not: party's. It does not fit the sentence grammar.",
+            "Not: partyes. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 23
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0024",
+        "version": 1,
+        "contentHash": "sha256:b318cb43f11aa126a5fa266a53a6c7527b48d4516fc175fc509279f327d7ce27",
+        "question": "What is the plural form of 'family'?",
+        "choices": [
+          "familys",
+          "families",
+          "family's",
+          "familys'"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: families. Singular means one.",
+          "incorrect": [
+            "Not: familys. It does not fit the sentence grammar.",
+            "",
+            "Not: family's. It does not fit the sentence grammar.",
+            "Not: familys'. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 24
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0025",
+        "version": 1,
+        "contentHash": "sha256:e1f9041555cb17aa2bb8b62f9b25df950ffe2c9d81c2099b16c00ed0b5cf441f",
+        "question": "What is the plural form of 'class'?",
+        "choices": [
+          "classes",
+          "classs",
+          "class's",
+          "classies"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: classes. Singular means one.",
+          "incorrect": [
+            "",
+            "Not: classs. It does not fit the sentence grammar.",
+            "Not: class's. It does not fit the sentence grammar.",
+            "Not: classies. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 25
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0026",
+        "version": 1,
+        "contentHash": "sha256:bbd59aaeeb99275a26c65a3c3af055a034ad199ba5541f71f00436b8c4b750ce",
+        "question": "What is the plural form of 'box'?",
+        "choices": [
+          "boxs",
+          "boxies",
+          "boxes",
+          "box's"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: boxes. Singular means one.",
+          "incorrect": [
+            "Not: boxs. It does not fit the sentence grammar.",
+            "Not: boxies. It does not fit the sentence grammar.",
+            "",
+            "Not: box's. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 26
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0027",
+        "version": 1,
+        "contentHash": "sha256:8b7aeafc7ada7e915f65916dfed0570e232517ae0ed33ed0d3bbc696d6d1334b",
+        "question": "Which label best describes tooth's in 'the tooth's color'?",
+        "choices": [
+          "singular possessive",
+          "plural possessive",
+          "plural noun",
+          "proper noun"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: singular possessive. Singular means one.",
+          "incorrect": [
+            "",
+            "Not: plural possessive. It does not fit the sentence grammar.",
+            "Not: plural noun. It does not fit the sentence grammar.",
+            "Not: proper noun. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 27
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0028",
+        "version": 1,
+        "contentHash": "sha256:a58633a0a61d8f0fc67a15c330d34b14a2e29bb5007b5c82e7ae5d9133fca34c",
+        "question": "Which label best describes babies' in 'the babies' cries'?",
+        "choices": [
+          "singular possessive",
+          "plural possessive",
+          "singular noun",
+          "proper noun"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: plural possessive. Singular means one.",
+          "incorrect": [
+            "Not: singular possessive. It does not fit the sentence grammar.",
+            "",
+            "Not: singular noun. It does not fit the sentence grammar.",
+            "Not: proper noun. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 28
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0029",
+        "version": 1,
+        "contentHash": "sha256:c9d71607fb73d54de794d85384276c567f873c91e911f0bbb1087bafb7bd2582",
+        "question": "What is the plural form of 'puppy'?",
+        "choices": [
+          "puppys",
+          "puppies",
+          "puppy's",
+          "puppyes"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: puppies. Singular means one.",
+          "incorrect": [
+            "Not: puppys. It does not fit the sentence grammar.",
+            "",
+            "Not: puppy's. It does not fit the sentence grammar.",
+            "Not: puppyes. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Singular means one. Plural means more than one. Possessive nouns show ownership.",
+          "example": "class -> classes; box -> boxes; puppy -> puppies; girl -> girls; girls -> girls'.",
+          "link": "https://www.grammar-monster.com/glossary/plural.htm",
+          "linkText": "Grammar Monster - Plurals"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 29
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0030",
+        "version": 1,
+        "contentHash": "sha256:4a95fa9892897f360e57cae7ca49e79f1c358e35d11cc48004e46d08c3f5e8a9",
+        "question": "Identify the basic sentence pattern in the sentence below. The wolves whined and howled.",
+        "choices": [
+          "noun - verb - verb",
+          "noun - verb - adverb",
+          "noun - linking verb - adjective",
+          "noun - verb - noun"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: noun - verb - verb. noun (wolves) - verb(whined) - verb(howled)",
+          "incorrect": [
+            "",
+            "Not: noun - verb - adverb. Check the grammar or usage clue in the question.",
+            "Not: noun - linking verb - adjective. Check the grammar or usage clue in the question.",
+            "Not: noun - verb - noun. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 30,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 2,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0031",
+        "version": 1,
+        "contentHash": "sha256:a3d3a3b124c92ae9ff11255bdd54329828dc5a2970d07e9d5a5384c813d77e64",
+        "question": "Choose the correct sentence.",
+        "choices": [
+          "One of the policemen are employed by the state.",
+          "All of the policemen are employed by the state.",
+          "Each of the policemen are employed by the state.",
+          "Not one of the policemen are employed by the state."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: All of the policemen are employed by the state.. All of the policemen are employed by the state. All (plural) policemen (plural) - they are",
+          "incorrect": [
+            "Not: One of the policemen are employed by the state.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: Each of the policemen are employed by the state.. Check the grammar or usage clue in the question.",
+            "Not: Not one of the policemen are employed by the state.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 31,
+          "sourceFile": "Advanced-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 6,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0032",
+        "version": 1,
+        "contentHash": "sha256:e39188cb979cbeb8d883ee7dca7d226523356aced5bcda2c3db9eb662809b463",
+        "question": "Which noun is NOT in its plural form?",
+        "choices": [
+          "moose",
+          "buffalo",
+          "antelope",
+          "ox"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: ox. ox; the plural of ox is oxen.",
+          "incorrect": [
+            "Not: moose. Check the grammar or usage clue in the question.",
+            "Not: buffalo. Check the grammar or usage clue in the question.",
+            "Not: antelope. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 32,
+          "sourceFile": "Advanced-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 3,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0033",
+        "version": 1,
+        "contentHash": "sha256:60bbcae785551d2f0d0d14a6f87bb7e1d29fcc1c032d116bc32e24d2e91ef694",
+        "question": "Which is NOT a correct irregular noun?",
+        "choices": [
+          "two-year- old - two-years- old",
+          "child - children",
+          "passerby - passersby",
+          "parenthesis - parentheses"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: two-year- old - two-years- old. two-year- old - two-years-old; correct irregular noun would be two-year- olds.",
+          "incorrect": [
+            "",
+            "Not: child - children. Check the grammar or usage clue in the question.",
+            "Not: passerby - passersby. Check the grammar or usage clue in the question.",
+            "Not: parenthesis - parentheses. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 33,
+          "sourceFile": "Advanced-3_grammer and usage.pdf",
+          "sourceQuestionNumber": 7,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0034",
+        "version": 1,
+        "contentHash": "sha256:cd5c6c7358bfe5661e2725cd31d29f431153e5db90641237401b7dc707b836c8",
+        "question": "Identify the underlined phrase. Soccer, Henry’s favorite sport, has become more popular among American children.",
+        "choices": [
+          "geru nd phrase",
+          "participial phrase",
+          "infinitive phrase",
+          "appositive phrase"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: appositive phrase. appositive phrase - a noun or noun phrase that renames another noun right beside it.",
+          "incorrect": [
+            "Not: geru nd phrase. Check the grammar or usage clue in the question.",
+            "Not: participial phrase. Check the grammar or usage clue in the question.",
+            "Not: infinitive phrase. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 34,
+          "sourceFile": "Advanced-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0035",
+        "version": 1,
+        "contentHash": "sha256:f7334f5280e2ffdda5390c3215d9fa6a104b5087e98a7b981c208b30c921e99b",
+        "question": "Choose the correct sentence.",
+        "choices": [
+          "I d rived the children to school every morning.",
+          "I wants to hang the pictures on the wall.",
+          "I hung several pictures on the wall for Jillian.",
+          "I hangs several of the pictures on the wall."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: I hung several pictures on the wall for Jillian.. I h ung several pictures on the wall for Jill. ‘Hung’ is written in correct verb tense,",
+          "incorrect": [
+            "Not: I d rived the children to school every morning.. Check the grammar or usage clue in the question.",
+            "Not: I wants to hang the pictures on the wall.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: I hangs several of the pictures on the wall.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 35,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 10,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0036",
+        "version": 1,
+        "contentHash": "sha256:ecf61b1ec97de3e68c1b7385402760b2b37a713a3bbe03bfcd00157267615016",
+        "question": "Which pair of nouns is NOT correct?",
+        "choices": [
+          "b eat - beats",
+          "truck - trucks",
+          "design - designes",
+          "signal - signals"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: design - designes. design - design s",
+          "incorrect": [
+            "Not: b eat - beats. Check the grammar or usage clue in the question.",
+            "Not: truck - trucks. Check the grammar or usage clue in the question.",
+            "",
+            "Not: signal - signals. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 36,
+          "sourceFile": "Basic-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 6,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0037",
+        "version": 1,
+        "contentHash": "sha256:f34637ee850c2003b7505b84a5e2597f9d709059075ea9701b16ec54677f9aba",
+        "question": "Which of the underlined words is NOT correct? The airplanes circled the mountains looking for the wolfs who were preying on the cattle.",
+        "choices": [
+          "airplanes",
+          "moun tains",
+          "wo lfs",
+          "c attle"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: wo lfs. wolf (singular) - wolves (plural)",
+          "incorrect": [
+            "Not: airplanes. Check the grammar or usage clue in the question.",
+            "Not: moun tains. Check the grammar or usage clue in the question.",
+            "",
+            "Not: c attle. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 37,
+          "sourceFile": "Basic-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 3,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0038",
+        "version": 1,
+        "contentHash": "sha256:0788d349835795c79479056b0de930b0ab4c3ec61149e164a52cbf2d9b98e316",
+        "question": "In the sentence below, which word is a plural noun? Our teacher brought three cookies for each student.",
+        "choices": [
+          "t eacher",
+          "brought",
+          "cookies",
+          "each"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cookies. Cookies is a plural noun. Adding an “s” to cookie makes cookies plural.",
+          "incorrect": [
+            "Not: t eacher. Check the grammar or usage clue in the question.",
+            "Not: brought. Check the grammar or usage clue in the question.",
+            "",
+            "Not: each. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 38,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 5,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0039",
+        "version": 1,
+        "contentHash": "sha256:955725ebe33e814cb46df31fb967b374cb0e472eb8d2c83c10725f307f26e745",
+        "question": "Which word is a plural noun? The children are at first recess.",
+        "choices": [
+          "are",
+          "first",
+          "recess",
+          "children"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: children. Child (singular noun) - children (plural noun)",
+          "incorrect": [
+            "Not: are. Check the grammar or usage clue in the question.",
+            "Not: first. Check the grammar or usage clue in the question.",
+            "Not: recess. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 39,
+          "sourceFile": "Basic-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 7,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0040",
+        "version": 1,
+        "contentHash": "sha256:f87f5a12c751e2a5cd5eeae3736bbcb1b9146119accdefac445f9f9fe8d6b726",
+        "question": "Which noun pair has a correct plural form?",
+        "choices": [
+          "w olf - wolfs",
+          "child - children",
+          "ox - oxes",
+          "mouse - mouses"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: child - children. Child (singular) - children (plural)",
+          "incorrect": [
+            "Not: w olf - wolfs. Check the grammar or usage clue in the question.",
+            "",
+            "Not: ox - oxes. Check the grammar or usage clue in the question.",
+            "Not: mouse - mouses. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 40,
+          "sourceFile": "Proficient-1_grammer and usage.pdf",
+          "sourceQuestionNumber": 5,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0041",
+        "version": 1,
+        "contentHash": "sha256:53a71bd638d544b7811623b786656e63ff574fe362d0741af34582ef9f3b6b5e",
+        "question": "Which of the word pairs below does NOT include both the correct singular and plural form of the same noun?",
+        "choices": [
+          "man - men",
+          "child - children",
+          "knife - knifes",
+          "wolf - wolves"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: knife - knifes. Knife - knives",
+          "incorrect": [
+            "Not: man - men. Check the grammar or usage clue in the question.",
+            "Not: child - children. Check the grammar or usage clue in the question.",
+            "",
+            "Not: wolf - wolves. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 41,
+          "sourceFile": "Proficient-2_grammer and usage.pdf",
+          "sourceQuestionNumber": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0042",
+        "version": 1,
+        "contentHash": "sha256:98b5003042f82d369585f9f7e793bd1615c172300fa4e96d75fa2581ae2b30d6",
+        "question": "Which of the following is a plural noun?",
+        "choices": [
+          "gorilla",
+          "dress",
+          "man",
+          "fences"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: fences. Fence (singular noun) - fences (plural noun)",
+          "incorrect": [
+            "Not: gorilla. Check the grammar or usage clue in the question.",
+            "Not: dress. Check the grammar or usage clue in the question.",
+            "Not: man. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 42,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 8,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0043",
+        "version": 1,
+        "contentHash": "sha256:b102448577d9c40af53fb266f03afd27bb6aa5115653797da58befa90a48a303",
+        "question": "Which set of nouns has the correct plural form?",
+        "choices": [
+          "st ory - story",
+          "man - mans",
+          "alphabet - alphabet",
+          "woman - women"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: woman - women. Woman (singular) - women (plural)",
+          "incorrect": [
+            "Not: st ory - story. Check the grammar or usage clue in the question.",
+            "Not: man - mans. Check the grammar or usage clue in the question.",
+            "Not: alphabet - alphabet. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 43,
+          "sourceFile": "Proficient-5_grammer and usage.pdf",
+          "sourceQuestionNumber": 3,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0044",
+        "version": 1,
+        "contentHash": "sha256:6c3a219ab30d16a0de76494869a4e0a0eec118ed3b8aa171bcde9de4b2859356",
+        "question": "Which underlined word is NOT a plural noun? Six dogs with rawhide bones followed the boy into the trees.",
+        "choices": [
+          "b oy",
+          "dogs",
+          "bones",
+          "trees"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: b oy. boy - a singular noun.",
+          "incorrect": [
+            "",
+            "Not: dogs. Check the grammar or usage clue in the question.",
+            "Not: bones. Check the grammar or usage clue in the question.",
+            "Not: trees. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 44,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 3,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0045",
+        "version": 1,
+        "contentHash": "sha256:af6136d239d0735ced33f46c0e30d3a100a2229ee9da967fe505096a5e4e8d42",
+        "question": "Choose the correct words to complete the sentence. Romance _____ in the library ________ the favorite choice for the girls.",
+        "choices": [
+          "b ook, is",
+          "book, are",
+          "books, are",
+          "books, is"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: books, are. books, are; subject/verb agreement (both plural)",
+          "incorrect": [
+            "Not: b ook, is. Check the grammar or usage clue in the question.",
+            "Not: book, are. Check the grammar or usage clue in the question.",
+            "",
+            "Not: books, is. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 45,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 5,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0046",
+        "version": 1,
+        "contentHash": "sha256:8838cc6223cdc85277a59c83413e19e6ec80c89d97ab653f2d3a23cab29a1393",
+        "question": "Which of the following words is NOT plural?",
+        "choices": [
+          "mice",
+          "girl",
+          "gentlemen",
+          "ladies"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: girl. girl (singular)",
+          "incorrect": [
+            "Not: mice. Check the grammar or usage clue in the question.",
+            "",
+            "Not: gentlemen. Check the grammar or usage clue in the question.",
+            "Not: ladies. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 46,
+          "sourceFile": "Proficient-7_grammer and usage.pdf",
+          "sourceQuestionNumber": 9,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0047",
+        "version": 1,
+        "contentHash": "sha256:65f524155ee1b4a77e867b32beb8d2a192c2fe1b535e93adb744774eb319cde3",
+        "question": "Which noun is NOT in its plural form?",
+        "choices": [
+          "dice",
+          "deer",
+          "cactus",
+          "mice"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: cactus. cactus; cactus (singular) – cacti (plural)",
+          "incorrect": [
+            "Not: dice. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: deer. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: mice. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 47,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 19,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0048",
+        "version": 1,
+        "contentHash": "sha256:9eb427f1d9822b78ad03c340be5a1658bc4fbfc29c4781bd5bc8d8d1140b68b2",
+        "question": "Which noun is plural? The herdof deer is running though the man’s vegetable garden.",
+        "choices": [
+          "herd",
+          "deer",
+          "man’s",
+          "garden"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: deer. deer; Deer is an irregular plural verb. Deer (singular) – Deer (plural)",
+          "incorrect": [
+            "Not: herd. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: man’s. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: garden. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 48,
+          "sourceFile": "Advanced-1_language Usage.pdf",
+          "sourceQuestionNumber": 31,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0049",
+        "version": 1,
+        "contentHash": "sha256:4bf95804983d02ae1f7f93fd0230eeb924f74c9cb25bf9a3f1bf3fea9b590f60",
+        "question": "What does the underlined expression mean? You need to make a decision soon or you are going to miss the boat.",
+        "choices": [
+          "miss going on vacation",
+          "be too late",
+          "not be able to have fun",
+          "lose your job"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: be too late. be too late chalk",
+          "incorrect": [
+            "Not: miss going on vacation. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: not be able to have fun. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: lose your job. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 49,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0050",
+        "version": 1,
+        "contentHash": "sha256:690ad578210ab9b498f4a19844d1fe10afa00bbb879a01d27df74a592266b2f3",
+        "question": "What is the plural of hero?",
+        "choices": [
+          "heros",
+          "hero",
+          "heroes",
+          "hero’s"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: heroes. heroes",
+          "incorrect": [
+            "Not: heros. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: hero. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: hero’s. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 50,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 44,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0051",
+        "version": 1,
+        "contentHash": "sha256:1f0662d469ed7cafa7e5162a65b34bf76a8cfee731d83c7c508acc18992a44d1",
+        "question": "These words can be put together to make a sentence. you me my can help with homework Choose the complete sentence below, using all of these words.",
+        "choices": [
+          "Help me can you with my homework?",
+          "Homework with me can you help?",
+          "Can you help me with my homework?",
+          "With you my homework can help me?"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Can you help me with my homework?. Can you help me with my homework?",
+          "incorrect": [
+            "Not: Help me can you with my homework?. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Homework with me can you help?. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: With you my homework can help me?. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 51,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0052",
+        "version": 1,
+        "contentHash": "sha256:ce308f2a85f1f83696aaf18685578ce02c361ccb3365c1de03fe1257c3da6a2a",
+        "question": "Choose the best missing word. The cook put carrots and celery in the soup. I do not like _______.",
+        "choices": [
+          "they",
+          "its",
+          "our",
+          "them"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: them. them; I do not like them. Them is plural referring to the carrots and celery.",
+          "incorrect": [
+            "Not: they. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: its. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: our. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 52,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 19,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0053",
+        "version": 1,
+        "contentHash": "sha256:224e0d83bead12e1082ac6815779542aba79c7cddedbaeac2e4cb38210cdbb33",
+        "question": "Which word means more than one?",
+        "choices": [
+          "foot",
+          "mouse",
+          "man",
+          "geese"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: geese. geese; goose (singular) – geese (plural)",
+          "incorrect": [
+            "Not: foot. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: mouse. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: man. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 53,
+          "sourceFile": "Basic-1_language Usage.pdf",
+          "sourceQuestionNumber": 31,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-singular-plural-nouns-q0054",
+        "version": 1,
+        "contentHash": "sha256:dc4bec3bb4f8261f81184cb670973323ff70648f9721eeee2a577fb06e26bcdf",
+        "question": "What is the plural of fork?",
+        "choices": [
+          "forkes",
+          "forks",
+          "fork’s",
+          "for kk es"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: forks. forks",
+          "incorrect": [
+            "Not: forkes. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: fork’s. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: for kk es. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-singular-plural-nouns",
+          "sequence": 54,
+          "sourceFile": "Basic-2_language Usage.pdf",
+          "sourceQuestionNumber": 44,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "gradesSupported": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficultiesSupported": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
+    }
+  }
+}
+  );
+})();

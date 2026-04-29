@@ -1,0 +1,1961 @@
+/**
+ * English Language Quiz App - grammar chunk: grammar-subject-predicate
+ * Generated from assets/question-banks/grammar.js.
+ */
+(function () {
+  'use strict';
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, {
+  "grammar-subject-predicate": {
+    "title": "Subject and Predicate",
+    "topic": "Grammar & Usage",
+    "questions": [
+      {
+        "id": "grammar-subject-predicate-q0001",
+        "version": 1,
+        "contentHash": "sha256:77a8972ec247d7feb50de75c7cc23b00792a031e76b3623d6d1a918c5e85828d",
+        "question": "What is the simple subject: 'The tall boy kicked the ball.'",
+        "choices": [
+          "The tall boy",
+          "boy",
+          "kicked the ball",
+          "tall"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: boy. The simple subject is the main noun or pronoun that tells who or what the sentence is about.",
+          "incorrect": [
+            "Not: The tall boy. It does not fit the sentence grammar.",
+            "",
+            "Not: kicked the ball. It does not fit the sentence grammar.",
+            "Not: tall. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "The simple subject is the main noun or pronoun that tells who or what the sentence is about.",
+          "example": "The tall boy kicked the ball. (simple subject: boy)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 1
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0002",
+        "version": 1,
+        "contentHash": "sha256:41cee6f37cd124a3cb91271ec394e834be4d2904670e131b730b03ccb44c6977",
+        "question": "What is the simple predicate: 'The dog runs fast.'",
+        "choices": [
+          "runs fast",
+          "runs",
+          "The dog",
+          "fast"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: runs. The simple predicate is the main verb or verb phrase.",
+          "incorrect": [
+            "Not: runs fast. It does not fit the sentence grammar.",
+            "",
+            "Not: The dog. It does not fit the sentence grammar.",
+            "Not: fast. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "The simple predicate is the main verb or verb phrase.",
+          "example": "The dog runs fast. (simple predicate: runs)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 2
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0003",
+        "version": 1,
+        "contentHash": "sha256:8cc8fc33efeed4f2484ec2c3ec85ea8e343661eb1c4ec8a4969309f76d4d30e6",
+        "question": "What is the complete subject: 'My little sister sings loudly.'",
+        "choices": [
+          "sings loudly",
+          "My little sister",
+          "sister",
+          "sings"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: My little sister. The complete subject includes all words that tell who or what the sentence is about.",
+          "incorrect": [
+            "Not: sings loudly. It does not fit the sentence grammar.",
+            "",
+            "Not: sister. It does not fit the sentence grammar.",
+            "Not: sings. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "The complete subject includes all words that tell who or what the sentence is about.",
+          "example": "My little sister sings loudly. (complete subject: My little sister)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 3
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0004",
+        "version": 1,
+        "contentHash": "sha256:ec57f588a50e854bcfad25db7fa35cb2bccc0d96397c0a9e9c1c90c00f0f4850",
+        "question": "What is the complete predicate: 'The children played in the park.'",
+        "choices": [
+          "The children",
+          "played in the park",
+          "played",
+          "children"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: played in the park. The complete predicate tells what the subject did or is.",
+          "incorrect": [
+            "Not: The children. It does not fit the sentence grammar.",
+            "",
+            "Not: played. It does not fit the sentence grammar.",
+            "Not: children. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "The complete predicate tells what the subject did or is.",
+          "example": "The children played in the park. (complete predicate: played in the park)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 4
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0005",
+        "version": 1,
+        "contentHash": "sha256:ba5ba6d8a74da26793e55df2c1521079bba13e0d41d2495b9761e7ddeb6db595",
+        "question": "What is the subject: 'There are three apples on the table.'",
+        "choices": [
+          "There",
+          "three apples",
+          "on the table",
+          "are"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: three apples. In 'There is/are' sentences, the subject comes after the verb.",
+          "incorrect": [
+            "Not: There. It does not fit the sentence grammar.",
+            "",
+            "Not: on the table. It does not fit the sentence grammar.",
+            "Not: are. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "In 'There is/are' sentences, the subject comes after the verb.",
+          "example": "There are three apples on the table. (subject: three apples)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 5
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0006",
+        "version": 1,
+        "contentHash": "sha256:bb91e83858dcb497f0637695d92b255762467522fbbce4785f6c91c036dd4ca2",
+        "question": "What is the predicate: 'The sun rises in the east.'",
+        "choices": [
+          "The sun",
+          "rises in the east",
+          "rises",
+          "in the east"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: rises in the east. The predicate tells what the subject does or is.",
+          "incorrect": [
+            "Not: The sun. It does not fit the sentence grammar.",
+            "",
+            "Not: rises. It does not fit the sentence grammar.",
+            "Not: in the east. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "The predicate tells what the subject does or is.",
+          "example": "The sun rises in the east. (predicate: rises in the east)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 6
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0007",
+        "version": 1,
+        "contentHash": "sha256:6928a773564030ab6e718e58b05a0e7ab446119cc284c04e3ea82cf61d0448af",
+        "question": "What is the simple subject: 'A group of birds flew overhead.'",
+        "choices": [
+          "A group of birds",
+          "group",
+          "flew overhead",
+          "birds"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: group. Prepositional phrases after the subject are not part of the simple subject.",
+          "incorrect": [
+            "Not: A group of birds. It does not fit the sentence grammar.",
+            "",
+            "Not: flew overhead. It does not fit the sentence grammar.",
+            "Not: birds. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Prepositional phrases after the subject are not part of the simple subject.",
+          "example": "A group of birds flew overhead. (simple subject: group)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 7
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0008",
+        "version": 1,
+        "contentHash": "sha256:b56ed0498cf000ae1aaa68fdad81acaa5e5176f0dc978d7df45b4f53be46e456",
+        "question": "What is the simple predicate: 'She has been studying for hours.'",
+        "choices": [
+          "has been studying",
+          "studying",
+          "has",
+          "for hours"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: has been studying. The simple predicate can be a verb phrase with helping verbs.",
+          "incorrect": [
+            "",
+            "Not: studying. It does not fit the sentence grammar.",
+            "Not: has. It does not fit the sentence grammar.",
+            "Not: for hours. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "The simple predicate can be a verb phrase with helping verbs.",
+          "example": "She has been studying for hours. (simple predicate: has been studying)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 8
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0009",
+        "version": 1,
+        "contentHash": "sha256:35c4f18cbc70333dae73e12213897de48ae6a4150044495b63faacfabeac6a9f",
+        "question": "What is the subject: 'Here is your book.'",
+        "choices": [
+          "Here",
+          "your book",
+          "is",
+          "book"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: your book. 'Here' sentences have inverted word order; the subject comes after the verb.",
+          "incorrect": [
+            "Not: Here. It does not fit the sentence grammar.",
+            "",
+            "Not: is. It does not fit the sentence grammar.",
+            "Not: book. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "'Here' sentences have inverted word order; the subject comes after the verb.",
+          "example": "Here is your book. (subject: your book)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 9
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0010",
+        "version": 1,
+        "contentHash": "sha256:0c4313326671148ec038c144f4061e7d6a4e7598c219c5a638187a8290e860f0",
+        "question": "What is the complete subject: 'The very old man walked slowly.'",
+        "choices": [
+          "The very old man",
+          "man",
+          "walked slowly",
+          "old man"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The very old man. Adjectives like 'very old' are part of the complete subject.",
+          "incorrect": [
+            "",
+            "Not: man. It does not fit the sentence grammar.",
+            "Not: walked slowly. It does not fit the sentence grammar.",
+            "Not: old man. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Adjectives like 'very old' are part of the complete subject.",
+          "example": "The very old man walked slowly. (complete subject: The very old man)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 10
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0011",
+        "version": 1,
+        "contentHash": "sha256:63228c812094df3d6bd2929fa26d2b4c7d7c03403a11a44e2d88755016cef736",
+        "question": "What is the predicate: 'My friends and I went to the movies.'",
+        "choices": [
+          "My friends and I",
+          "went to the movies",
+          "went",
+          "friends and I"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: went to the movies. Compound subjects like 'My friends and I' still have one predicate.",
+          "incorrect": [
+            "Not: My friends and I. It does not fit the sentence grammar.",
+            "",
+            "Not: went. It does not fit the sentence grammar.",
+            "Not: friends and I. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Compound subjects like 'My friends and I' still have one predicate.",
+          "example": "My friends and I went to the movies. (predicate: went to the movies)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 11
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0012",
+        "version": 1,
+        "contentHash": "sha256:4504f209395dd507d69466ca0d52a0c9dce139a06ab39c5de76b7c3b3f542ad7",
+        "question": "What is the simple subject: 'Under the table, the cat slept.'",
+        "choices": [
+          "Under the table",
+          "table",
+          "the cat",
+          "cat"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: cat. Prepositional phrases at the beginning are not part of the subject.",
+          "incorrect": [
+            "Not: Under the table. It does not fit the sentence grammar.",
+            "Not: table. It does not fit the sentence grammar.",
+            "Not: the cat. It does not fit the sentence grammar.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Prepositional phrases at the beginning are not part of the subject.",
+          "example": "Under the table, the cat slept. (simple subject: cat)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 12
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0013",
+        "version": 1,
+        "contentHash": "sha256:1fe660955ef6efe238750e667d5186ae5dc864ddf76f8c6d2b02420bc16340b1",
+        "question": "What is the simple predicate: 'The storm might have damaged the roof.'",
+        "choices": [
+          "might have damaged",
+          "damaged",
+          "might",
+          "have damaged"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: might have damaged. Helping verbs + main verb form the simple predicate.",
+          "incorrect": [
+            "",
+            "Not: damaged. It does not fit the sentence grammar.",
+            "Not: might. It does not fit the sentence grammar.",
+            "Not: have damaged. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Helping verbs + main verb form the simple predicate.",
+          "example": "The storm might have damaged the roof. (simple predicate: might have damaged)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 13
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0014",
+        "version": 1,
+        "contentHash": "sha256:50d4ee0ff5153dd7be8e3d6f2d8fc29eac49576d3906c98dc780a2fdd824b717",
+        "question": "What is the subject: 'Swimming is good exercise.'",
+        "choices": [
+          "Swimming",
+          "is",
+          "good exercise",
+          "exercise"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Swimming. Gerunds (verbs ending in -ing used as nouns) can be subjects.",
+          "incorrect": [
+            "",
+            "Not: is. It does not fit the sentence grammar.",
+            "Not: good exercise. It does not fit the sentence grammar.",
+            "Not: exercise. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Gerunds (verbs ending in -ing used as nouns) can be subjects.",
+          "example": "Swimming is fun. Reading is important.",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 14
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0015",
+        "version": 1,
+        "contentHash": "sha256:6fd68c18d115d7ab46f50391603439bae9c3f0e9c18beeacc38ff32c25a1ebab",
+        "question": "What is the complete predicate: 'The big, brown bear caught a fish in the stream.'",
+        "choices": [
+          "The big, brown bear",
+          "caught a fish in the stream",
+          "caught",
+          "a fish in the stream"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: caught a fish in the stream. The complete predicate is everything that is not the complete subject.",
+          "incorrect": [
+            "Not: The big, brown bear. It does not fit the sentence grammar.",
+            "",
+            "Not: caught. It does not fit the sentence grammar.",
+            "Not: a fish in the stream. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "The complete predicate is everything that is not the complete subject.",
+          "example": "The big, brown bear caught a fish in the stream. (predicate: caught a fish in the stream)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-edit",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 15
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0016",
+        "version": 1,
+        "contentHash": "sha256:2fc239fc45639c158946cd13af268e19a6344a80543969fa452d3d5b42367d86",
+        "question": "What is the simple subject: 'Neither of the answers is correct.'",
+        "choices": [
+          "Neither of the answers",
+          "Neither",
+          "answers",
+          "correct"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Neither. Indefinite pronouns like 'neither,' 'each,' and 'everyone' can be simple subjects.",
+          "incorrect": [
+            "Not: Neither of the answers. It does not fit the sentence grammar.",
+            "",
+            "Not: answers. It does not fit the sentence grammar.",
+            "Not: correct. It does not fit the sentence grammar."
+          ]
+        },
+        "studyAid": {
+          "definition": "Indefinite pronouns like 'neither,' 'each,' and 'everyone' can be simple subjects.",
+          "example": "Neither of the answers is correct. (simple subject: Neither)",
+          "link": "https://www.grammar-monster.com/glossary/subject.htm",
+          "linkText": "Grammar Monster - Subjects"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 16
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0017",
+        "version": 1,
+        "contentHash": "sha256:a4d3c6cba38b345d8d2d98b843f38ae92b3db6f4fad02800046692cb5a02cd1c",
+        "question": "In 'Maria and Jason threw a surprise party for their mother,' which choice is the complete subject?",
+        "choices": [
+          "Maria and Jason",
+          "threw",
+          "threw a surprise party",
+          "for their mother"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: Maria and Jason. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "",
+            "Not: threw. It does not fit the sentence grammar.",
+            "Not: threw a surprise party. It does not fit the sentence grammar.",
+            "Not: for their mother. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "extended-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 17
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0018",
+        "version": 1,
+        "contentHash": "sha256:917ab946ccc49720c55d2c258f062bb2a24036b1ff5585987c99f478c8dae32a",
+        "question": "In 'The Great Barrier Reef is 1,250 miles long,' which choice is the complete predicate?",
+        "choices": [
+          "The Great Barrier Reef",
+          "is 1,250 miles long",
+          "Great Barrier Reef",
+          "1,250 miles"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: is 1,250 miles long. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "Not: The Great Barrier Reef. It does not fit the sentence grammar.",
+            "",
+            "Not: Great Barrier Reef. It does not fit the sentence grammar.",
+            "Not: 1,250 miles. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-edit",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 18
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0019",
+        "version": 1,
+        "contentHash": "sha256:7fde28954e630a1cc380e105435ac6d1526fc5cb2c40db119513655451e9bad3",
+        "question": "In 'Josh and his dog Ziggy explore the woods together,' which choice is the simple predicate?",
+        "choices": [
+          "Josh",
+          "dog",
+          "explore",
+          "the woods together"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: explore. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "Not: Josh. It does not fit the sentence grammar.",
+            "Not: dog. It does not fit the sentence grammar.",
+            "",
+            "Not: the woods together. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-edit",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 19
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0020",
+        "version": 1,
+        "contentHash": "sha256:7ccb876406cb384d98a05cf777b2c69925153793004e4fa2fb23602ce473cd94",
+        "question": "In 'Jason and Tina bought a new house,' which choice is the complete predicate?",
+        "choices": [
+          "Jason and Tina",
+          "bought",
+          "bought a new house",
+          "a new house"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: bought a new house. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "Not: Jason and Tina. It does not fit the sentence grammar.",
+            "Not: bought. It does not fit the sentence grammar.",
+            "",
+            "Not: a new house. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-edit",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 20
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0021",
+        "version": 1,
+        "contentHash": "sha256:faf719c985a916b178577fcf4eca0f07897fdc7ecf225e54ccb18ca565f4d879",
+        "question": "In 'Tammy Hill has ballet on Mondays and Wednesdays,' which choice is the simple subject?",
+        "choices": [
+          "Tammy Hill",
+          "Tammy",
+          "has",
+          "ballet"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: Tammy. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "Not: Tammy Hill. It does not fit the sentence grammar.",
+            "",
+            "Not: has. It does not fit the sentence grammar.",
+            "Not: ballet. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 21
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0022",
+        "version": 1,
+        "contentHash": "sha256:3161cf0deb0bbb1af94a4d8de783e4c16da47c543dbe4ff3b6e391f2ba66173f",
+        "question": "In 'I love to listen to the radio in the car,' which choice is the complete predicate?",
+        "choices": [
+          "I",
+          "love",
+          "love to listen to the radio in the car",
+          "the radio"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: love to listen to the radio in the car. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "Not: I. It does not fit the sentence grammar.",
+            "Not: love. It does not fit the sentence grammar.",
+            "",
+            "Not: the radio. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-edit",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 75,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 22
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0023",
+        "version": 1,
+        "contentHash": "sha256:6a69e26e73c53b68297072dd226d1377bfba62f2dd95505e3a4c0d7061d62228",
+        "question": "In 'The hammer is broken,' which choice is the complete subject?",
+        "choices": [
+          "The hammer",
+          "hammer",
+          "is broken",
+          "broken"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: The hammer. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "",
+            "Not: hammer. It does not fit the sentence grammar.",
+            "Not: is broken. It does not fit the sentence grammar.",
+            "Not: broken. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 23
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0024",
+        "version": 1,
+        "contentHash": "sha256:484f04d4a6a2b7da1063ec88623992327b9c2951a5fc3dcae8b12274219435bb",
+        "question": "In 'I visited my grandfather,' which choice is the simple predicate?",
+        "choices": [
+          "I",
+          "visited",
+          "my grandfather",
+          "visited my grandfather"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "The subject tells who or what the sentence is about. The predicate tells what the subject is or does.",
+          "example": "Complete subject: The tired hikers. Simple subject: hikers. Complete predicate: rested by the lake.",
+          "link": "https://www.grammar-monster.com/",
+          "linkText": "Grammar Monster - Grammar Help"
+        },
+        "explanation": {
+          "correct": "Answer: visited. The subject tells who or what the sentence is about.",
+          "incorrect": [
+            "Not: I. It does not fit the sentence grammar.",
+            "",
+            "Not: my grandfather. It does not fit the sentence grammar.",
+            "Not: visited my grandfather. It does not fit the sentence grammar."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "high",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 24
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0025",
+        "version": 1,
+        "contentHash": "sha256:dec5b9419b21a9560a38b952a1460a4ca3bd565b7941cee31e85411738dfd4f5",
+        "question": "Identify the complete predicate of the sentence below. The art lesson covered all the primary colors.",
+        "choices": [
+          "The art lesson",
+          "lesson covered",
+          "covered all",
+          "covered all the primary colors"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: covered all the primary colors. Covered all the primary colors; a complete predic ate includes the verb and all the words",
+          "incorrect": [
+            "Not: The art lesson. Check the grammar or usage clue in the question.",
+            "Not: lesson covered. Check the grammar or usage clue in the question.",
+            "Not: covered all. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 25,
+          "sourceFile": "Advanced-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 1,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0026",
+        "version": 1,
+        "contentHash": "sha256:317745253ff4aa6e80dd8fc9d709348fc78cc554bf2c3932c9899efde17353a9",
+        "question": "Which shows the subject and predicate divided correctly?",
+        "choices": [
+          "The/whole family waved good-bye to me.",
+          "The whole family waved/good-bye to me.",
+          "The whole/family waved good-bye to me.",
+          "The whole family/ waved good-bye to me."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The whole family/ waved good-bye to me.. The whole family (subject) / waved good-bye to me (predicate).",
+          "incorrect": [
+            "Not: The/whole family waved good-bye to me.. Check the grammar or usage clue in the question.",
+            "Not: The whole family waved/good-bye to me.. Check the grammar or usage clue in the question.",
+            "Not: The whole/family waved good-bye to me.. Check the grammar or usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 40,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 26,
+          "sourceFile": "Basic-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 3,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0027",
+        "version": 1,
+        "contentHash": "sha256:d7b8365abde6184a801f895bb5c14a67b3b5f95704e1adc128d4a744aa3d82d6",
+        "question": "Which sentence has the subject underlined?",
+        "choices": [
+          "The bunny feels cuddly.",
+          "The bunny feels cuddly.",
+          "The bunny fee ls cuddly.",
+          "The bunny feels cuddly."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The bunny feels cuddly.. Bunny is the subject of the sentence.",
+          "incorrect": [
+            "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question.",
+            "",
+            "Not: The bunny fee ls cuddly.. Check the grammar or usage clue in the question.",
+            "Not: The bunny feels cuddly.. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 27,
+          "sourceFile": "Proficient-4_grammer and usage.pdf",
+          "sourceQuestionNumber": 2,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0028",
+        "version": 1,
+        "contentHash": "sha256:68ad361b6d5bea9d112df2ec3160f434e07d72804864bc8292010b0f631ca470",
+        "question": "The two main parts of a sentence are:",
+        "choices": [
+          "su bject and predicate",
+          "predicate and direct object",
+          "subject and noun",
+          "object and verb phrase"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: su bject and predicate. Subject and predicate; subject - person, place thing or idea that is doing or being",
+          "incorrect": [
+            "",
+            "Not: predicate and direct object. Check the grammar or usage clue in the question.",
+            "Not: subject and noun. Check the grammar or usage clue in the question.",
+            "Not: object and verb phrase. Check the grammar or usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "usage",
+            "sentence analysis"
+          ],
+          "feedbackFocus": "use the source question clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 28,
+          "sourceFile": "Proficient-6_grammer and usage.pdf",
+          "sourceQuestionNumber": 8,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0029",
+        "version": 1,
+        "contentHash": "sha256:ceea91d4ca6164aceeb45aed9a244ebec5383b5d2395276a15ede76e3ec211e6",
+        "question": "Which sentence has the subject and predicate separated correctly?",
+        "choices": [
+          "The three boys chased the sheep into the barn / for the night.",
+          "The three boys chased / the sheep into the barn for the night.",
+          "The three boys / chased the sheep into the barn for the night.",
+          "The three boys chased the sheep / into the barn for the night."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The three boys / chased the sheep into the barn for the night.. The three boys / chased the sheep into the barn for the night. The s ubject tells who and the predicate tells what The Changing Colors of the Ocean; of the",
+          "incorrect": [
+            "Not: The three boys chased the sheep into the barn / for the night.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The three boys chased / the sheep into the barn for the night.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: The three boys chased the sheep / into the barn for the night.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 29,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0030",
+        "version": 1,
+        "contentHash": "sha256:caa1352662db92385c0081905a3f3f13084e8a2f67e5e501780356411d02d3cb",
+        "question": "What is the complete predicate in this sentence? Someone stole my lunchbox.",
+        "choices": [
+          "stole",
+          "stole my",
+          "stole my lunchbox",
+          "someone stole my lunchbox"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: stole my lunchbox. stole my lunchbox; The predicate is the verb and everything after it.",
+          "incorrect": [
+            "Not: stole. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: stole my. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: someone stole my lunchbox. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "hard",
+            "5": "hard",
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 30,
+          "sourceFile": "Advanced-2_language Usage.pdf",
+          "sourceQuestionNumber": 46,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0031",
+        "version": 1,
+        "contentHash": "sha256:27397e8d8ca002e45844b4ceea25bdd1284fe010e970d6a0b0176b4f3d4692c1",
+        "question": "Identify the correct missing words. Dinosaurs _________________ long ago.",
+        "choices": [
+          "did live",
+          "in the zoo",
+          "at the museum",
+          "bigger than a chicken"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: did live. did live; The sentence is lacking a predicate (verb). ‘did live’is the predicate. Dinosaurs did live long ago.",
+          "incorrect": [
+            "",
+            "Not: in the zoo. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: at the museum. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: bigger than a chicken. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "easy",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 31,
+          "sourceFile": "Basic-5_Writing strategies_Application_Style.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "writing-strategies-application-style",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0032",
+        "version": 1,
+        "contentHash": "sha256:2e982e7a51a103cf7e184f6ae3acd0dc77e10492e3f54af7b1aea73f6f91c3d4",
+        "question": "Which sentence has the subject and predicate separated correctly?",
+        "choices": [
+          "Corn grows all over / the Midwest.",
+          "Corn grows all / over the Midwest.",
+          "Corn / grows all over the Midwest.",
+          "Corn grows / all over the Midwest."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Corn / grows all over the Midwest.. Corn / grows all over the Midwest. Subject – corn; Predicate – grows all over the Midwest.",
+          "incorrect": [
+            "Not: Corn grows all over / the Midwest.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: Corn grows all / over the Midwest.. Check the writing, grammar, or language-usage clue in the question.",
+            "",
+            "Not: Corn grows / all over the Midwest.. Check the writing, grammar, or language-usage clue in the question."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 32,
+          "sourceFile": "Proficient-1_language Usage.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0033",
+        "version": 1,
+        "contentHash": "sha256:937bd0799073e14a9401e16accb7bc0b6e921dc7707dc2d197e3230e23d730e0",
+        "question": "Which sentence has the subject and predicate separated correctly?",
+        "choices": [
+          "The plastic / bird blew off our porch step.",
+          "The plastic bird blew / off our porch step.",
+          "The plastic bird blew off / our porch step.",
+          "The plastic bird / blew off our porch step."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: The plastic bird / blew off our porch step.. The plastic bird / blew off our porch step. The subject tells who and the predicate tells what.",
+          "incorrect": [
+            "Not: The plastic / bird blew off our porch step.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The plastic bird blew / off our porch step.. Check the writing, grammar, or language-usage clue in the question.",
+            "Not: The plastic bird blew off / our porch step.. Check the writing, grammar, or language-usage clue in the question.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "medium",
+            "5": "medium",
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "grammar",
+            "writing",
+            "language usage"
+          ],
+          "feedbackFocus": "use the writing or language-usage clue and compare each answer choice to the rule",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sequence": 33,
+          "sourceFile": "Proficient-2_language Usage.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
+        }
+      },
+      {
+        "id": "grammar-subject-predicate-q0054",
+        "version": 1,
+        "contentHash": "sha256:3dafb489c048f57dc2641635ee9ceb415158823890a36871d787ba8f625cbe67",
+        "question": "Read the sentence. Choose the answer that names the simple subject. Everyone drinks soda at sschool dance. the",
+        "choices": [
+          "Everyone",
+          "drinks",
+          "the",
+          "dance"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Everyone. Everyone everyone; The word “” is the subject followed by the predicate “drinks.”",
+          "incorrect": [
+            "",
+            "Not: drinks. Use the grammar rule and the sentence context to check this choice.",
+            "Not: the. Use the grammar rule and the sentence context to check this choice.",
+            "Not: dance. Use the grammar rule and the sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Grammar and usage questions ask you to apply sentence rules for word choice, pronouns, verbs, modifiers, and sentence completeness.",
+          "example": "Read the whole sentence, identify the job of the missing or underlined word, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "grammar and usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the grammar rule and sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-subject-predicate",
+          "sourceFile": "Basic Quiz 3_Language_Grammar and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "grammar-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 54
+        }
+      }
+    ],
+    "metadata": {
+      "gradesSupported": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficultiesSupported": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
+    }
+  }
+}
+  );
+})();

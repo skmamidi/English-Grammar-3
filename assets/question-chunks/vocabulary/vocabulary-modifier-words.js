@@ -1,0 +1,840 @@
+/**
+ * English Language Quiz App - vocabulary chunk: vocabulary-modifier-words
+ * Generated from assets/question-banks/vocabulary.js.
+ */
+(function () {
+  'use strict';
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, {
+  "vocabulary-modifier-words": {
+    "title": "Modifier Words",
+    "topic": "Vocabulary / Word Study",
+    "questions": [
+      {
+        "id": "vocabulary-modifier-words-q0001",
+        "version": 1,
+        "contentHash": "sha256:6122af5528cd8d1d78f0a981e1000c40cd87fe890ec163a27a27d9a44df18c26",
+        "question": "Which modifier best describes HOW the cat slept?",
+        "choices": [
+          "The cat slept on the couch.",
+          "The cat slept peacefully.",
+          "The cat slept for an hour.",
+          "The cat slept yesterday."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: The cat slept peacefully. A modifier is a word that describes or limits another word.",
+          "incorrect": [
+            "Not: The cat slept on the couch. It answers a different detail than the question asks.",
+            "",
+            "Not: The cat slept for an hour. It answers a different detail than the question asks.",
+            "Not: The cat slept yesterday. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "A modifier is a word that describes or limits another word. Adverbs often tell how, when, where, or to what extent.",
+          "example": "The dog barked loudly. (how) / The dog barked yesterday. (when)",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 1
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0002",
+        "version": 1,
+        "contentHash": "sha256:77b5ef9fdb05c8b9ecd915429f8833f97e0a2a6a74a7168b4aceb25c219e7d7d",
+        "question": "Which sentence contains a modifier that tells WHERE?",
+        "choices": [
+          "She sang beautifully.",
+          "She sang loudly.",
+          "She sang on stage.",
+          "She sang for hours."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: She sang on stage. Modifiers can be single words or phrases.",
+          "incorrect": [
+            "Not: She sang beautifully. It answers a different detail than the question asks.",
+            "Not: She sang loudly. It answers a different detail than the question asks.",
+            "",
+            "Not: She sang for hours. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "Modifiers can be single words or phrases. Prepositional phrases often tell where or when.",
+          "example": "on stage (where), for hours (how long), with joy (how)",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 2
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0003",
+        "version": 1,
+        "contentHash": "sha256:e7ff3bbaca9c8c1a9d2f5329bc84f9aaf2d552798cfa02a0d8134776f9e38df8",
+        "question": "In the sentence 'The extremely tall tree swayed,' what does 'extremely' modify?",
+        "choices": [
+          "tree",
+          "swayed",
+          "tall",
+          "The whole sentence"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: tall. Adverbs can modify adjectives or other adverbs.",
+          "incorrect": [
+            "Not: tree. It answers a different detail than the question asks.",
+            "Not: swayed. It answers a different detail than the question asks.",
+            "",
+            "Not: The whole sentence. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "Adverbs can modify adjectives or other adverbs. They often intensify or limit the meaning.",
+          "example": "extremely tall, very quickly, somewhat tired",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 3
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0004",
+        "version": 1,
+        "contentHash": "sha256:3a669718b846e91ef5fdf31cfbd0eda28b3a736408570f4ace7ebad2fca5f0a7",
+        "question": "Which sentence uses a modifier correctly?",
+        "choices": [
+          "Running fast, the tree was passed by the boy.",
+          "Running fast, the boy passed the tree.",
+          "The boy passed the tree running fast.",
+          "Running fast passed the boy the tree."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Running fast, the boy passed the tree. A dangling modifier is a word or phrase that modifies the wrong noun.",
+          "incorrect": [
+            "Not: Running fast, the tree was passed by the boy. It answers a different detail than the question asks.",
+            "",
+            "Not: The boy passed the tree running fast. It answers a different detail than the question asks.",
+            "Not: Running fast passed the boy the tree. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "A dangling modifier is a word or phrase that modifies the wrong noun. Place modifiers close to the words they describe.",
+          "example": "Incorrect: Running fast, the tree was passed by the boy. Correct: Running fast, the boy passed the tree.",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 4
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0005",
+        "version": 1,
+        "contentHash": "sha256:c052d63b6a8f89046463399e2e76fb4c97c871343757739b319e23d80df0f081",
+        "question": "What does the modifier 'almost' modify in 'She almost scored a goal'?",
+        "choices": [
+          "She",
+          "scored",
+          "a goal",
+          "the whole game"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: scored. 'Almost' is an adverb that tells 'to what extent' something happened.",
+          "incorrect": [
+            "Not: She. It answers a different detail than the question asks.",
+            "",
+            "Not: a goal. It answers a different detail than the question asks.",
+            "Not: the whole game. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "'Almost' is an adverb that tells 'to what extent' something happened. Placement matters for meaning.",
+          "example": "She almost scored = she did not score. She scored almost ten goals = she scored close to ten.",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 5
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0006",
+        "version": 1,
+        "contentHash": "sha256:8b84e302a02fba5dd372644016c0e5138a4dafca3965ca48c5ea6fe831dfe7b4",
+        "question": "Which sentence has a misplaced modifier?",
+        "choices": [
+          "The teacher gave a test to the students on Monday.",
+          "On Monday, the teacher gave a test to the students.",
+          "The teacher gave a test on Monday to the students.",
+          "The teacher on Monday gave a test to the students."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: The teacher gave a test to the students on Monday. A misplaced modifier is too far from the word it modifies, causing confusion.",
+          "incorrect": [
+            "",
+            "Not: On Monday, the teacher gave a test to the students. It answers a different detail than the question asks.",
+            "Not: The teacher gave a test on Monday to the students. It answers a different detail than the question asks.",
+            "Not: The teacher on Monday gave a test to the students. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "A misplaced modifier is too far from the word it modifies, causing confusion.",
+          "example": "Misplaced: She served sandwiches to the children on paper plates. (Were the children on plates?) Better: She served sandwiches on paper plates to the children.",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 6
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0007",
+        "version": 1,
+        "contentHash": "sha256:03ab47567ff5e9c58b8309b5b9e1f96ab018d9ffedbbe6c3b8fda034fab53ccb",
+        "question": "Which word is an intensifier modifier?",
+        "choices": [
+          "slowly",
+          "very",
+          "yesterday",
+          "here"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: very. Intensifiers are adverbs like 'very,' 'really,' 'extremely,' and 'quite' that strengthen meaning.",
+          "incorrect": [
+            "Not: slowly. It answers a different detail than the question asks.",
+            "",
+            "Not: yesterday. It answers a different detail than the question asks.",
+            "Not: here. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "Intensifiers are adverbs like 'very,' 'really,' 'extremely,' and 'quite' that strengthen meaning.",
+          "example": "very tall, really fast, extremely cold, quite loud",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 7
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0008",
+        "version": 1,
+        "contentHash": "sha256:44fb2299f280520be73f63d6c27280526cab510a6ace7b0bc5cbd533b7d207b6",
+        "question": "In 'The children played outside happily,' which word is the modifier?",
+        "choices": [
+          "children",
+          "played",
+          "outside",
+          "happily"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: happily. Adverbs that end in -ly often modify verbs to tell how something was done.",
+          "incorrect": [
+            "Not: children. It answers a different detail than the question asks.",
+            "Not: played. It answers a different detail than the question asks.",
+            "Not: outside. It answers a different detail than the question asks.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Adverbs that end in -ly often modify verbs to tell how something was done.",
+          "example": "happily, quickly, slowly, carefully",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 8
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0009",
+        "version": 1,
+        "contentHash": "sha256:4821e0b5c470a9df7b2a59e11a6af5e0fdb386ef2f7df052bcea7c022060e921",
+        "question": "Which sentence uses 'only' correctly to show one person did the work?",
+        "choices": [
+          "Only she did the homework.",
+          "She only did the homework.",
+          "She did only the homework.",
+          "She did the homework only."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Only she did the homework. The placement of 'only' changes the meaning of a sentence.",
+          "incorrect": [
+            "",
+            "Not: She only did the homework. It answers a different detail than the question asks.",
+            "Not: She did only the homework. It answers a different detail than the question asks.",
+            "Not: She did the homework only. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "The placement of 'only' changes the meaning of a sentence. Put it right before the word you want to limit.",
+          "example": "Only she did it = she alone. She only did it = she did nothing else. She did only it = that was all she did.",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 9
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0010",
+        "version": 1,
+        "contentHash": "sha256:b625587cd4d10b8c55decaad35f8d753a9c58f1b4e111de06ef98d12b84f719b",
+        "question": "What does 'too' modify in 'The soup was too hot'?",
+        "choices": [
+          "soup",
+          "was",
+          "hot",
+          "The whole sentence"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: hot. 'Too' means 'more than needed' or 'also.' When it means excess, it modifies adjectives and adverbs.",
+          "incorrect": [
+            "Not: soup. It answers a different detail than the question asks.",
+            "Not: was. It answers a different detail than the question asks.",
+            "",
+            "Not: The whole sentence. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "'Too' means 'more than needed' or 'also.' When it means excess, it modifies adjectives and adverbs.",
+          "example": "too hot, too quickly, too much, too many",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 10
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0011",
+        "version": 1,
+        "contentHash": "sha256:3c33852c714f9549c91ca1ed1af0b218b7f56e7329ef03fd3fa1644ac0d1533d",
+        "question": "Which sentence contains a modifier that tells TO WHAT EXTENT?",
+        "choices": [
+          "She completely finished the puzzle.",
+          "She finished the puzzle quickly.",
+          "She finished the puzzle at noon.",
+          "She finished the puzzle in the kitchen."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: She completely finished the puzzle. Modifiers of extent tell how much or to what degree something happened.",
+          "incorrect": [
+            "",
+            "Not: She finished the puzzle quickly. It answers a different detail than the question asks.",
+            "Not: She finished the puzzle at noon. It answers a different detail than the question asks.",
+            "Not: She finished the puzzle in the kitchen. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "Modifiers of extent tell how much or to what degree something happened.",
+          "example": "completely, partly, almost, totally, entirely",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 11
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0012",
+        "version": 1,
+        "contentHash": "sha256:a85e65fb33ce54e74207dcc11f40471f9698bf2dce398f3f7aaf4d85bcf58169",
+        "question": "Which is a limiting modifier?",
+        "choices": [
+          "beautifully",
+          "almost",
+          "slowly",
+          "happily"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: almost. Limiting modifiers restrict or narrow the meaning.",
+          "incorrect": [
+            "Not: beautifully. It answers a different detail than the question asks.",
+            "",
+            "Not: slowly. It answers a different detail than the question asks.",
+            "Not: happily. It answers a different detail than the question asks."
+          ]
+        },
+        "studyAid": {
+          "definition": "Limiting modifiers restrict or narrow the meaning. Examples include 'almost,' 'hardly,' 'nearly,' 'only,' and 'just.'",
+          "example": "almost ready, hardly any, nearly done, only one",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 12
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0013",
+        "version": 1,
+        "contentHash": "sha256:cd7f6159e53012f22de7f0dff39fef58ab6ed95d466757285848f3cf1360e6c6",
+        "question": "Which sentence is unclear because of modifier placement?",
+        "choices": [
+          "I almost ate the whole pizza.",
+          "I ate almost the whole pizza.",
+          "The whole pizza was almost eaten by me.",
+          "I ate the whole pizza almost."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I almost ate the whole pizza. Modifier placement affects meaning.",
+          "incorrect": [
+            "",
+            "Not: I ate almost the whole pizza. That is not why the event happened.",
+            "Not: The whole pizza was almost eaten by me. That is not why the event happened.",
+            "Not: I ate the whole pizza almost. That is not why the event happened."
+          ]
+        },
+        "studyAid": {
+          "definition": "Modifier placement affects meaning. 'Almost' before the verb suggests the action nearly happened but did not.",
+          "example": "She almost won = she did not win. She won almost every game = she won most of them.",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 13
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0014",
+        "version": 1,
+        "contentHash": "sha256:474769557f52a82b151d0678bdb305f185a67c5b9982274721b7f13fee3b736a",
+        "question": "Which word is NOT a modifier?",
+        "choices": [
+          "swiftly",
+          "the",
+          "under",
+          "table"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: table. Nouns name things.",
+          "incorrect": [
+            "Not: swiftly. It answers a different detail than the question asks.",
+            "Not: the. It answers a different detail than the question asks.",
+            "Not: under. It answers a different detail than the question asks.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Nouns name things. Modifiers describe or limit nouns, verbs, or other modifiers.",
+          "example": "Modifiers: the (article), swiftly (adverb), under (preposition). Noun: table.",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "medium",
+            "4": "easy",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "spot the exception, then explain why the other choices follow the rule",
+          "estimatedTimeSeconds": 35,
+          "reviewPriority": "high",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 14
+        }
+      },
+      {
+        "id": "vocabulary-modifier-words-q0015",
+        "version": 1,
+        "contentHash": "sha256:31ecf69ca1ad772a612aa5b0599d8225178e4379c6f578abee793a1930c74589",
+        "question": "Which sentence uses the modifier clearly, so readers know what was almost finished?",
+        "choices": [
+          "Almost the class finished the mural before lunch.",
+          "The class almost finished the mural before lunch.",
+          "The class finished almost the mural before lunch.",
+          "The class finished the almost mural before lunch."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "A modifier should be placed close to the word or phrase it describes.",
+          "example": "The class almost finished means they came close to finishing. Almost the class could mean nearly all of the class.",
+          "link": "https://www.grammar-monster.com/glossary/modifiers_modify.htm",
+          "linkText": "Grammar Monster - Modifiers"
+        },
+        "metadata": {
+          "gradeLevels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "difficultyByGrade": {
+            "3": "hard",
+            "4": "medium",
+            "5": "easy",
+            "6": "easy"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "language arts"
+          ],
+          "feedbackFocus": "name the rule, test it against each choice, and explain the deciding clue",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-modifier-words",
+          "sequence": 15
+        },
+        "explanation": {
+          "correct": "Answer: The class almost finished the mural before lunch. A modifier should be placed close to the word or phrase it describes.",
+          "incorrect": [
+            "Not: Almost the class finished the mural before lunch. It answers a different detail than the question asks.",
+            "",
+            "Not: The class finished almost the mural before lunch. It answers a different detail than the question asks.",
+            "Not: The class finished the almost mural before lunch. It answers a different detail than the question asks."
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "gradesSupported": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficultiesSupported": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "selectorPolicy": "grade+difficulty selects exact matches first, then nearby grade-appropriate practice to fill the configured mission length"
+    }
+  }
+}
+  );
+})();

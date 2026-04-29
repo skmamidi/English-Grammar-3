@@ -12,8 +12,8 @@ const {
   validateQuestionChunkSet,
   validateQuestionChunks
 } = require('./qa/chunk-qa');
+const { CHUNKED_DOMAINS } = require('./question-chunk-config');
 const {
-  CHUNKED_DOMAINS,
   buildQuestionChunkScript,
   getChunkedSets,
   getExpectedChunkRelativePath,

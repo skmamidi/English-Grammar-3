@@ -1,0 +1,9570 @@
+/**
+ * English Language Quiz App - vocabulary chunk: vocabulary-roots-word-origins
+ * Generated from assets/question-banks/vocabulary.js.
+ */
+(function () {
+  'use strict';
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, {
+  "vocabulary-roots-word-origins": {
+    "title": "Roots & Word Origins",
+    "topic": "Vocabulary / Word Study",
+    "questions": [
+      {
+        "id": "vocabulary-roots-word-origins-q0001",
+        "version": 1,
+        "contentHash": "sha256:4bb372dd6e4da226cd6bf7c326f57e0804295d7fe229fbf098c2728c1fa8e37b",
+        "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 1
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0002",
+        "version": 1,
+        "contentHash": "sha256:08d0d5ca3bbe5b3d08f37e46c86879f7b2c5d596a663d351d10377c64aa8e2b0",
+        "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 2
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0003",
+        "version": 1,
+        "contentHash": "sha256:01e73fb68c28ac446ff469024975fcfe0f176af5b2f629ca3a0f4c5bf7e2b715",
+        "question": "Grade 2 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "before",
+          "without",
+          "study of",
+          "small"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 3
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0004",
+        "version": 1,
+        "contentHash": "sha256:164a4f9461d08111024329800149175c0c478b9501a208ef6e8f22a9f1e12f9b",
+        "question": "Grade 2 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "inside one classroom",
+          "not national",
+          "before a nation",
+          "between or among nations"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root.",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 4
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0005",
+        "version": 1,
+        "contentHash": "sha256:ef1ac116f72ed3638edebcdbdebaf4915a7d5e1c6ba1a09a9d87d194fe280fb1",
+        "question": "Grade 2 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "trickled",
+          "exploded",
+          "shouted",
+          "stomped"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "",
+            "Not: exploded. Precise words create accurate meaning.",
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 5
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0006",
+        "version": 1,
+        "contentHash": "sha256:ad9827434bfc444d8e181319d6f9534d89174c4ab584fb64eb717676704b8703",
+        "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 6
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0007",
+        "version": 1,
+        "contentHash": "sha256:f00be99ddd09ef794c0bd1ab8b40f899b512d06f2e83e74c850c2bf3057ec434",
+        "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 7
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0008",
+        "version": 1,
+        "contentHash": "sha256:17e3768c33371ffa8bd043ef6205ba8d8be31f4c5f6474088513cd0a59506c9b",
+        "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a folded paper",
+          "a stick used in baseball",
+          "to hit something",
+          "a flying mammal"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 8
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0009",
+        "version": 1,
+        "contentHash": "sha256:72326f0fb811d3607ecb2a966fcd94fe2f85168f515a7c1ed387b9de94ff7a0e",
+        "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "park",
+          "please",
+          "near",
+          "car"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 9
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0010",
+        "version": 1,
+        "contentHash": "sha256:507e0d08a857b5b31222034861525f29f0a0c1ce4c92a809b28c953a2ec13d55",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "walked",
+          "sprinted",
+          "moved",
+          "went"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 10
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0011",
+        "version": 1,
+        "contentHash": "sha256:49f53144b8b348f8beb3ca12bb64b8907cc72cb4f09de90f66952fd866c86632",
+        "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "livid",
+          "enraged",
+          "upset",
+          "explosive"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 11
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0012",
+        "version": 1,
+        "contentHash": "sha256:12c77ee4ef8d5a1c30b2d558e6282b64cfff7639c00793da58fb6fd01e08e028",
+        "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "four",
+          "one",
+          "two",
+          "three"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: four. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 12
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0013",
+        "version": 1,
+        "contentHash": "sha256:e5559e57d074c63c576f1c72c7869a1ba7eb8f30b40f46e9a13d87b89475b855",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "rabbit",
+          "paper",
+          "tiger",
+          "music"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 13
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0014",
+        "version": 1,
+        "contentHash": "sha256:b00fd18af27bcee8d0177b5101bd589099a17e0a4526032b25a569a756273884",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 14
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0015",
+        "version": 1,
+        "contentHash": "sha256:293e9aedde4c05af1a9abdccd17d7fbf3b2ce15d4da94643068dae40872a469e",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 15
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0016",
+        "version": 1,
+        "contentHash": "sha256:5504fe34fb27e6daaf057fe188ca337e9fa388941c217a683b69850acc10fe29",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 16
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0017",
+        "version": 1,
+        "contentHash": "sha256:d5a1ce726b8717c5e3a1b10aaebe7747641e6d728eaedd31d1912e918022f89b",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 17
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0018",
+        "version": 1,
+        "contentHash": "sha256:4f537b860560bc4c2e8a92e97af9d39ad5f53b62d83e7e7a0ee8fff21e73524f",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "without",
+          "study of",
+          "before",
+          "small"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: without. Some Greek word parts appear in academic words.",
+            "",
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 18
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0019",
+        "version": 1,
+        "contentHash": "sha256:44e63f57c44cb42a9a4b3334addcaa3e86f37febcd1245d8fbc64b42e9c6da7d",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "before a nation",
+          "not national",
+          "between or among nations",
+          "inside one classroom"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 19
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0020",
+        "version": 1,
+        "contentHash": "sha256:83dbb1866a34a33024be557037630d82c388d8a4096664515c611bbfda810fa4",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "stomped",
+          "exploded",
+          "shouted",
+          "trickled"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: stomped. Precise words create accurate meaning.",
+            "Not: exploded. Precise words create accurate meaning.",
+            "Not: shouted. Precise words create accurate meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 20
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0021",
+        "version": 1,
+        "contentHash": "sha256:7561b1183e8a2e7ffc000eff549a12d72dcc92a6832d85ffe4ba6699360dfbd3",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 21
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0022",
+        "version": 1,
+        "contentHash": "sha256:ff8be182bee39b5bc5681684d0221c4c035073bdb2c596ab80fa5f208477406b",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 22
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0023",
+        "version": 1,
+        "contentHash": "sha256:20e5fabe75ec8f05f1764b717e0f63cf56151e1e3af21999962c05b2aedb20c0",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "to hit something",
+          "a stick used in baseball",
+          "a flying mammal",
+          "a folded paper"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 23
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0024",
+        "version": 1,
+        "contentHash": "sha256:14ebce48b2183fd76d8eda0036564d7b300070b5ddb0d03e4a3bd59209f13cbc",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "car",
+          "please",
+          "near",
+          "park"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: car. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 24
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0025",
+        "version": 1,
+        "contentHash": "sha256:e6d927ce3e7f7cdb9841aa0da5f052a0eb180cacfc8223c23956f5dcd0bb853b",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "sprinted",
+          "walked",
+          "moved",
+          "went"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 25
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0026",
+        "version": 1,
+        "contentHash": "sha256:3b4cbebd21d5305989299db07d64a7a8b62599d99ae07afbd598ebb05f47577d",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "enraged",
+          "upset",
+          "livid",
+          "explosive"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 26
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0027",
+        "version": 1,
+        "contentHash": "sha256:04a2f3ae35b840e3e1c51d54575359f67ebb66e3a27ff3237b5d14434b65c377",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "two",
+          "one",
+          "three",
+          "four"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 27
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0028",
+        "version": 1,
+        "contentHash": "sha256:193ee95349338410365c867069b60825b6e4eab55b3e90be05869b69383f2fa7",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "music",
+          "paper",
+          "tiger",
+          "rabbit"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 28
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0029",
+        "version": 1,
+        "contentHash": "sha256:99c1b6a78239fc916bf68a1f2613c93c3547578e159eb5ff348c0992b4d53289",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 29
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0030",
+        "version": 1,
+        "contentHash": "sha256:8ab2e62d6783ce59d912948e8084fc4be39c9ea9116b1affa96754a98d08569c",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 30
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0031",
+        "version": 1,
+        "contentHash": "sha256:44a4b94e3d85f73bbe0e2b96731899e2b42cd7deb67c397d235dcd214a662d1e",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 31
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0032",
+        "version": 1,
+        "contentHash": "sha256:de5939a2f63f992cb252950da6a50512e0e1f8fc911daf7f395a39c8b6bb953a",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 32
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0033",
+        "version": 1,
+        "contentHash": "sha256:08b0bd970ccc7d90f79ba3df7b26a4a2308b936f3922e5d9aeaa2239ea368662",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "study of",
+          "without",
+          "before",
+          "small"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 33
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0034",
+        "version": 1,
+        "contentHash": "sha256:14b8650405e223ff508c7bdee33591d9fc22cb92534f6803601fc9d2f828b8c8",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "not national",
+          "between or among nations",
+          "before a nation",
+          "inside one classroom"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 34
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0035",
+        "version": 1,
+        "contentHash": "sha256:bdaeb253b58d8c6736e0f74b73247d2e39548c81b40c44c1ce4f5546e257d993",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "shouted",
+          "exploded",
+          "trickled",
+          "stomped"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: exploded. Precise words create accurate meaning.",
+            "",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 35
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0036",
+        "version": 1,
+        "contentHash": "sha256:8f7f8f55ee7dc40835c7ac3af7f9ac9f4132cf6dc828c304565dab12df53232d",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 36
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0037",
+        "version": 1,
+        "contentHash": "sha256:cc1faa939a924cb436d46cbdf64d4bf0b4a89fd471983015d055a1b6cc587012",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 37
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0038",
+        "version": 1,
+        "contentHash": "sha256:b01f93a9314d23145c8b8eef6f30ec2d67a9804c1d1a40a5d8093cde81261908",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a stick used in baseball",
+          "a flying mammal",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 38
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0039",
+        "version": 1,
+        "contentHash": "sha256:10aa5626ed07b060004d7aa78b6f8fe0c293c69343d190bb51e7402f87dab0cc",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "near",
+          "please",
+          "park",
+          "car"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: near. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 39
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0040",
+        "version": 1,
+        "contentHash": "sha256:451e5f0d750c74d8a8267c9bad6fbcb79b5b87dc7712f87423058045d34b94ea",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "went",
+          "walked",
+          "moved",
+          "sprinted"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: went. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 40
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0041",
+        "version": 1,
+        "contentHash": "sha256:87a807c9e2ec5e3401d90be308773c657d371d0691fd57aca59f918749c4e5b3",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "upset",
+          "enraged",
+          "livid",
+          "explosive"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 41
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0042",
+        "version": 1,
+        "contentHash": "sha256:c8dfd719c62f34cd48eed14421beec71057ff79e1e8bb1d3e479eaec386eac93",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "one",
+          "three",
+          "two",
+          "four"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 42
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0043",
+        "version": 1,
+        "contentHash": "sha256:86e55e97f2a64aa60d2522ed2de2336f61a7771285e57bf7c7e0fab6d6829725",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "tiger",
+          "paper",
+          "rabbit",
+          "music"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 43
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0044",
+        "version": 1,
+        "contentHash": "sha256:edd1a03f184a7717f69fb5045fc35a4393bffac713b8ea4123e62e8814f29961",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 44
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0045",
+        "version": 1,
+        "contentHash": "sha256:74641a121f53b3d617acc0d1e8e1d55dace64348fb13f333fb7f7489a359554e",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 45
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0046",
+        "version": 1,
+        "contentHash": "sha256:1b63978dc40e660df6a3f346f9147a68ae60cd95663bc599a487aba2b981b790",
+        "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 46
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0047",
+        "version": 1,
+        "contentHash": "sha256:6a78c7d733b0d799f5c8d30dd28dfced7e16afd0a0a3d1fe59c88368103fe7c3",
+        "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 47
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0048",
+        "version": 1,
+        "contentHash": "sha256:86471931cdbc161131a283620818ac1134821438eb982ac85fa9a484116b66bc",
+        "question": "Grade 3 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "study of",
+          "without",
+          "before",
+          "small"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 48
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0049",
+        "version": 1,
+        "contentHash": "sha256:b5097dd6c1dc6bf0258fd1fc9466ae3a21149c465ebd9cffb3d12436ba396c8c",
+        "question": "Grade 3 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "not national",
+          "between or among nations",
+          "before a nation",
+          "inside one classroom"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 49
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0050",
+        "version": 1,
+        "contentHash": "sha256:af1da8e4949a3f1536eb4b9b7258b8e71733529ad164c6dfb1f68c06dd528113",
+        "question": "Grade 3 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "shouted",
+          "exploded",
+          "trickled",
+          "stomped"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: exploded. Precise words create accurate meaning.",
+            "",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 50
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0051",
+        "version": 1,
+        "contentHash": "sha256:a70ba4e2ff462fae9af1fbf9760fab27729da5cce19feea466f7709c0d93a2f4",
+        "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 51
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0052",
+        "version": 1,
+        "contentHash": "sha256:92b4f70a0a74375e04e25768a6cbbd8a6076f88d04473ca487bee1eff15fa87e",
+        "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 52
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0053",
+        "version": 1,
+        "contentHash": "sha256:f599a89511e12b6830d5fdc767f21d0dfcfd7f2b6f033fcf28cc5faff738a909",
+        "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a stick used in baseball",
+          "a flying mammal",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 53
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0054",
+        "version": 1,
+        "contentHash": "sha256:c2b423ba8dbfd9381f259b3b7c39848c8710fe5a4c4644cbc4a1c8e665138397",
+        "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "near",
+          "please",
+          "park",
+          "car"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: near. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 54
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0055",
+        "version": 1,
+        "contentHash": "sha256:d444fde1a9418b44fc8847df7015951fb8bf058e68ce6d5d53e0f9a05e1f3306",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "went",
+          "walked",
+          "moved",
+          "sprinted"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: went. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 55
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0056",
+        "version": 1,
+        "contentHash": "sha256:ba312db6ea0219d04e393d15a0a00e469a82798be924d8b928e69efe7707d887",
+        "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "upset",
+          "enraged",
+          "livid",
+          "explosive"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 56
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0057",
+        "version": 1,
+        "contentHash": "sha256:c5b381a6c9043eaf03101f535497b84fb04da335002673d94534d96973f874bd",
+        "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "one",
+          "three",
+          "two",
+          "four"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 57
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0058",
+        "version": 1,
+        "contentHash": "sha256:f00dcdbf6005e7ec5e09f5dd177010ec3a91daf1e39e5b69128f076c3c2e22d2",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "tiger",
+          "paper",
+          "rabbit",
+          "music"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 58
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0059",
+        "version": 1,
+        "contentHash": "sha256:d60b015b6f309f6cdb7c8d223e4753672c8065723a8ffa860f466939834f67c9",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 59
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0060",
+        "version": 1,
+        "contentHash": "sha256:ef0b4be4d829c7d24c29a3d7292261f92f12d588a22a97b81f6334e6cfa20993",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 60
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0061",
+        "version": 1,
+        "contentHash": "sha256:afb024bf613e400f7f0f7244cabf4c1118281c4ee453e07bb0e8d40d98fef3de",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 61
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0062",
+        "version": 1,
+        "contentHash": "sha256:34508890afb3d87ff7812e6505951ac57f5f0540b7646f8139746209fbdfe7e0",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 62
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0063",
+        "version": 1,
+        "contentHash": "sha256:f2a3f80026fe0b5c2db15ab8187e8aa27c511b96e1e9f7ea9a12bdb41686084b",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "small",
+          "without",
+          "before",
+          "study of"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: small. Some Greek word parts appear in academic words.",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "Not: before. Some Greek word parts appear in academic words.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 63
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0064",
+        "version": 1,
+        "contentHash": "sha256:377cbeeff72f4281dfeeec6abbc1289cc15d9a39740df712699d235392c1795f",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "between or among nations",
+          "not national",
+          "before a nation",
+          "inside one classroom"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 64
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0065",
+        "version": 1,
+        "contentHash": "sha256:10ffcaeba3e412349e3f844b2ac318f3b16dd2d09601a61b2efe6e6e4e2d63ce",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "exploded",
+          "trickled",
+          "shouted",
+          "stomped"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: exploded. Precise words create accurate meaning.",
+            "",
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 65
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0066",
+        "version": 1,
+        "contentHash": "sha256:d755cc362e1a89c0392dd06f0bc7e866001fdfe338dbd7fc2f8ecfa17a6dd577",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 66
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0067",
+        "version": 1,
+        "contentHash": "sha256:794fe6b32fd4893078c69687224aaab2ce06c5369a8a55482f98a1468771fa85",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 67
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0068",
+        "version": 1,
+        "contentHash": "sha256:1778d2208c36f491a767659cb6fd3ca081ca16cbab8bfa1c849cbba0f86a816a",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a flying mammal",
+          "a stick used in baseball",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 68
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0069",
+        "version": 1,
+        "contentHash": "sha256:861463b66b1729ad46b9d32693bc4bf27fb1684c07845c4d3f15e8058331e125",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "please",
+          "park",
+          "near",
+          "car"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 69
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0070",
+        "version": 1,
+        "contentHash": "sha256:50fa54c575dbf5355c3bb0615cfc471c851875a62ed286b2dafd8d121daeed02",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "moved",
+          "walked",
+          "sprinted",
+          "went"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 70
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0071",
+        "version": 1,
+        "contentHash": "sha256:4777e38aaa2c8198d37682611c01eb96f00e6c612290ff3fe068cf57750bb793",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "explosive",
+          "enraged",
+          "livid",
+          "upset"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: explosive. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 71
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0072",
+        "version": 1,
+        "contentHash": "sha256:b9b41bcb4163efd0704101b17d49695a9b24ce2f5552cd955e725feed422d5d8",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "three",
+          "one",
+          "two",
+          "four"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 72
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0073",
+        "version": 1,
+        "contentHash": "sha256:973968f650cc907f4f0acafe1d401f7b51764b92d037bc55b3bef4c72094c0ab",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "paper",
+          "rabbit",
+          "tiger",
+          "music"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 73
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0074",
+        "version": 1,
+        "contentHash": "sha256:5eb22a251b6e31e7b3c06363fafd136d3bb0a1e5f2f16dfffc42e2dbe0813786",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 74
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0075",
+        "version": 1,
+        "contentHash": "sha256:b9425bc5dabfee147a5274dfdc2729ec80caa104c8c44a33e11798ad614615d4",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 75
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0076",
+        "version": 1,
+        "contentHash": "sha256:f0f58098b37ef1f4a701fa45c58bf57de400be6681f9ef72697acc9c95ccffe8",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 76
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0077",
+        "version": 1,
+        "contentHash": "sha256:5eb72b9e1dd35ae7cf578d2cec57273d4454268edcf9bdd6b7511e3dd3f27cb9",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 77
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0078",
+        "version": 1,
+        "contentHash": "sha256:5f5533d1b9a832c55160075e3d4165a5af1f6a31d06d89bdbea8e059d1011260",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "before",
+          "without",
+          "study of",
+          "small"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 78
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0079",
+        "version": 1,
+        "contentHash": "sha256:05848be8ac0466598562720d20edc935c9a00a84d3de80ff8012e19a87341423",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "inside one classroom",
+          "not national",
+          "before a nation",
+          "between or among nations"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root.",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 79
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0080",
+        "version": 1,
+        "contentHash": "sha256:6289cb62728c4cbbad02a8295c8835ef27f053aea8a208edb0d72598ec9e3b09",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "trickled",
+          "exploded",
+          "shouted",
+          "stomped"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "",
+            "Not: exploded. Precise words create accurate meaning.",
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 80
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0081",
+        "version": 1,
+        "contentHash": "sha256:8ec9ec03735dcd3ab110f085c321fb5253b66b251abeb311145d28578b3663e3",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 81
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0082",
+        "version": 1,
+        "contentHash": "sha256:81e7eda9279c00e94f733bdd991a6bbf080f23f557023335350f8890a5c2b672",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 82
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0083",
+        "version": 1,
+        "contentHash": "sha256:aeecf372a60cc48bca6964e00cf423cc013c3fca4b227ea14e7a4f90ed189c43",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a folded paper",
+          "a stick used in baseball",
+          "to hit something",
+          "a flying mammal"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 83
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0084",
+        "version": 1,
+        "contentHash": "sha256:c370928b6f185a9bbae82855a57fa9394ff21affebf80e2262685a15d9eba194",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "park",
+          "please",
+          "near",
+          "car"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 84
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0085",
+        "version": 1,
+        "contentHash": "sha256:c9c2b43d5b3f48a5141a50108a8d898e0ed2d6ca28e89302bef7f1bc4f35581c",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "walked",
+          "sprinted",
+          "moved",
+          "went"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 85
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0086",
+        "version": 1,
+        "contentHash": "sha256:4d391a3e1a57be1607ab4161f0c810ea9120358895973ed48868f2b3d6b0a4d6",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "livid",
+          "enraged",
+          "upset",
+          "explosive"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 86
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0087",
+        "version": 1,
+        "contentHash": "sha256:931f1190411a272d4c7ae97d6402eedeb5f7deec6fc72635164afa74c0bb2f38",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "four",
+          "one",
+          "two",
+          "three"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: four. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 87
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0088",
+        "version": 1,
+        "contentHash": "sha256:0f529b06d5422a91fa235e0d3443feac9de1a75d6fb25f921ae38228b5f16a43",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "rabbit",
+          "paper",
+          "tiger",
+          "music"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 88
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0089",
+        "version": 1,
+        "contentHash": "sha256:79923e864c26bfa9ae51a545a1d42cb21f51dc480f98bc89624c464c0b289851",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 89
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0090",
+        "version": 1,
+        "contentHash": "sha256:e158a99d937181b2438a89c98dcc4d04c39c8a35f3356b2c9e782c1f929e584c",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 90
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0091",
+        "version": 1,
+        "contentHash": "sha256:0fe568df42ce9ace9d3709d825f1184361f82e0cf951d76f91c16f70142dac25",
+        "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 91
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0092",
+        "version": 1,
+        "contentHash": "sha256:f016b0d034f9de67b179dca243b01a63a6b3d6964596aaa308734bf127443620",
+        "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 92
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0093",
+        "version": 1,
+        "contentHash": "sha256:8f604369ae2a8dba7f460fc67e1498031ff6528876f7d612b10f8626b03150a7",
+        "question": "Grade 4 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "before",
+          "without",
+          "study of",
+          "small"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 93
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0094",
+        "version": 1,
+        "contentHash": "sha256:b7b12ed7941309b0746d5bd53d5d6727e0e6ee123b846b9985ff3bb46d6a0282",
+        "question": "Grade 4 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "inside one classroom",
+          "not national",
+          "before a nation",
+          "between or among nations"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root.",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 94
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0095",
+        "version": 1,
+        "contentHash": "sha256:486ad1a880812b646dbfdb3508eb1e92cf62a9e07adff7fb6b6eb955dabc284e",
+        "question": "Grade 4 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "trickled",
+          "exploded",
+          "shouted",
+          "stomped"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "",
+            "Not: exploded. Precise words create accurate meaning.",
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 95
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0096",
+        "version": 1,
+        "contentHash": "sha256:4d09d43c9a590fe994c788ae6fef86061b9b7e8d0fa2c41ef89c4abfcd77bee6",
+        "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 96
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0097",
+        "version": 1,
+        "contentHash": "sha256:c1b6b97674bc85df31999394f6d3108e4334789eb5156ecdd2e51fef9182ea3c",
+        "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 97
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0098",
+        "version": 1,
+        "contentHash": "sha256:78c898747bf4ac70838ad093d280d4987c54293b72ee893ef9100b4d49835a9d",
+        "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a folded paper",
+          "a stick used in baseball",
+          "to hit something",
+          "a flying mammal"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 98
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0099",
+        "version": 1,
+        "contentHash": "sha256:1965c818dc060298ecb5e38afb0cb90091885176d46571e3838a2827634a74e2",
+        "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "park",
+          "please",
+          "near",
+          "car"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 99
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0100",
+        "version": 1,
+        "contentHash": "sha256:1e3c108a8e1416ea268ba6c54803d23430be7a9322c1e347272c5564b36c524c",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "walked",
+          "sprinted",
+          "moved",
+          "went"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 100
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0101",
+        "version": 1,
+        "contentHash": "sha256:532eaa2e024e0aaa4701c9edbeb07e795d747e18e61bf3af6e852bd5aa75cc92",
+        "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "livid",
+          "enraged",
+          "upset",
+          "explosive"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 101
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0102",
+        "version": 1,
+        "contentHash": "sha256:7ca8d5a15bb9e0db7260c3e84bd76c18f4b122a63ae3b1f0c3aa15f2211de095",
+        "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "four",
+          "one",
+          "two",
+          "three"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: four. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 102
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0103",
+        "version": 1,
+        "contentHash": "sha256:08f921abeab4994b69d7704b2082aa89a7f361765eb693c006d862b26b278392",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "rabbit",
+          "paper",
+          "tiger",
+          "music"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 103
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0104",
+        "version": 1,
+        "contentHash": "sha256:fc528e87f86fdda1645993cb7f73fc5b3248c570c61bf3ab4a53c20063ccfefa",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 104
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0105",
+        "version": 1,
+        "contentHash": "sha256:07bdf19981c0912746e5e7d6d5ab10a55963bf9afed73b3ea2fa6fdce439c501",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 105
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0106",
+        "version": 1,
+        "contentHash": "sha256:778f87050044be4b6d002769d855e859ec7569657ba3a7eb07500fecb347ec43",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 106
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0107",
+        "version": 1,
+        "contentHash": "sha256:7a074e5a48d324180d649bcb79cd6018174b257c7890436a655e4f02c231c4eb",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 107
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0108",
+        "version": 1,
+        "contentHash": "sha256:437d76aa0e1cd50627578db49e06b79c5e0e1a7d6576fb42dea867cd5314ef76",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "without",
+          "study of",
+          "before",
+          "small"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: without. Some Greek word parts appear in academic words.",
+            "",
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 108
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0109",
+        "version": 1,
+        "contentHash": "sha256:25ff148cc376898a624886ef56b5c2f93496d6d7274945c6ca3c0384dcf7e04b",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "before a nation",
+          "not national",
+          "between or among nations",
+          "inside one classroom"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 109
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0110",
+        "version": 1,
+        "contentHash": "sha256:448029372f93612b152271dac664de72bb937d28fd9d28168b571ae211d2c997",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "stomped",
+          "exploded",
+          "shouted",
+          "trickled"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: stomped. Precise words create accurate meaning.",
+            "Not: exploded. Precise words create accurate meaning.",
+            "Not: shouted. Precise words create accurate meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 110
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0111",
+        "version": 1,
+        "contentHash": "sha256:186661d7f5e4d6d66a8326fe47d6189bb8737dfe8d75d855db991aa3c77a7885",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 111
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0112",
+        "version": 1,
+        "contentHash": "sha256:948aada74c4397aa53e751219eb5aaa669a4118f3cbd2abbac8cfef8da3c00cd",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 112
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0113",
+        "version": 1,
+        "contentHash": "sha256:104e15733a1d1ecc57299e01eaf899d476822ef56452981b36ecf0267bf8b38a",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "to hit something",
+          "a stick used in baseball",
+          "a flying mammal",
+          "a folded paper"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 113
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0114",
+        "version": 1,
+        "contentHash": "sha256:38f7f9e71ddf4bd1dd68fe9ce6046f963f1b40e027347bfec8fde724a4555942",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "car",
+          "please",
+          "near",
+          "park"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: car. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 114
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0115",
+        "version": 1,
+        "contentHash": "sha256:ed5b63217e3a9317f386e3ca941121ef4584a54094c03a5d93272a02395a26ab",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "sprinted",
+          "walked",
+          "moved",
+          "went"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 115
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0116",
+        "version": 1,
+        "contentHash": "sha256:911fdc463b581d213424ae5765e5cc0f0603259fe898562068265dda3887e2da",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "enraged",
+          "upset",
+          "livid",
+          "explosive"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 116
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0117",
+        "version": 1,
+        "contentHash": "sha256:347a8d7e37e10f0b6b20cf53cd98706de556133face153c48d098f57c06e57e4",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "two",
+          "one",
+          "three",
+          "four"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 117
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0118",
+        "version": 1,
+        "contentHash": "sha256:f177efcfe496b852c2805688405c242cfc14ab87ae1a148e231bdfad319d59b1",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "music",
+          "paper",
+          "tiger",
+          "rabbit"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 118
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0119",
+        "version": 1,
+        "contentHash": "sha256:d6ccb2b1327bb66984f11fa0681d59f7e11d6d5f9bf31c816bdf7b93c52ea9a3",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 119
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0120",
+        "version": 1,
+        "contentHash": "sha256:a5dd6a6272a1ea854a19149303a86d5781d1c0ba9afc2cc0ee267ca438f500f6",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 120
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0121",
+        "version": 1,
+        "contentHash": "sha256:ebbe127daee0d8d718c7d741aaa5fb91e35a0bb00d9732b80649873ca555990e",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 121
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0122",
+        "version": 1,
+        "contentHash": "sha256:ca673e13034ba5e4c2e9f035d90b337f98f2a24471ac66740e0f8e6992b1e1df",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 122
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0123",
+        "version": 1,
+        "contentHash": "sha256:71c110e415c979c4531f70783bb499464495c37876ea7e483ed8a5770b5906a8",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "study of",
+          "without",
+          "before",
+          "small"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 123
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0124",
+        "version": 1,
+        "contentHash": "sha256:7bedfe459be821dd5f943e0b05f6f14d760b3c670f5eecdd5d4f18fb865ee76c",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "not national",
+          "between or among nations",
+          "before a nation",
+          "inside one classroom"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 124
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0125",
+        "version": 1,
+        "contentHash": "sha256:cb80f04509e76903b436e38d4ead21bedf162ae5451e429bea27af01ba879f25",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "shouted",
+          "exploded",
+          "trickled",
+          "stomped"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: exploded. Precise words create accurate meaning.",
+            "",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 125
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0126",
+        "version": 1,
+        "contentHash": "sha256:a38232028611f8e87f79d3f8407747fabfa98b9c170c8eeb748f186b790da472",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 126
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0127",
+        "version": 1,
+        "contentHash": "sha256:a6284e3d4faf1b8e0af05c09e1b09c470843aa9410b6f4e7295330020bada557",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 127
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0128",
+        "version": 1,
+        "contentHash": "sha256:860cdfa2732d0200da6fdc1a6d70bba1038aa418dac9769d6b1e79259277226e",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a stick used in baseball",
+          "a flying mammal",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 128
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0129",
+        "version": 1,
+        "contentHash": "sha256:884a60398f061df5e06eba57df91da6e7d4d8423fb4cc7fc96d45217f5ae1310",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "near",
+          "please",
+          "park",
+          "car"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: near. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 129
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0130",
+        "version": 1,
+        "contentHash": "sha256:4ffc23b5cf6c1705429af11d8c461d6f69bc3b31a3fc71fb13655f2f9680e82d",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "went",
+          "walked",
+          "moved",
+          "sprinted"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: went. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 130
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0131",
+        "version": 1,
+        "contentHash": "sha256:97c283ff957337c5bce603b7a2fcc74a727f184dded3e22a278c28816e6560db",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "upset",
+          "enraged",
+          "livid",
+          "explosive"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 131
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0132",
+        "version": 1,
+        "contentHash": "sha256:83168d07504985b3f6a08b7013d8570ccb0d59f847a9f6a956b96b75dea0f169",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "one",
+          "three",
+          "two",
+          "four"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 132
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0133",
+        "version": 1,
+        "contentHash": "sha256:591a6ad523acba2b1d78b9db18f7511733684f970b142474464d8d4428e9a6dc",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "tiger",
+          "paper",
+          "rabbit",
+          "music"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 133
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0134",
+        "version": 1,
+        "contentHash": "sha256:1256b35c3e8985689a3b125b95852bec068d1cec0b7f39f29864fae6c2277086",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 134
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0135",
+        "version": 1,
+        "contentHash": "sha256:bbf9280bd7e493f0d5f74dba5911dfb3d414cc782b342842c3a6e5b4ef25e743",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 135
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0136",
+        "version": 1,
+        "contentHash": "sha256:e5179c2920a1ad3b52bc4e72eb89bafa492c1ab4fc716e16085c26528b43e37e",
+        "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 136
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0137",
+        "version": 1,
+        "contentHash": "sha256:c73d19f259dc5a9a7bb624ce7c39a391b946ee975255ba473afd30dd7adf4f7a",
+        "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 137
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0138",
+        "version": 1,
+        "contentHash": "sha256:4e308d1509d16f6ba768ac60ae144adaf94c49fb5bb01eaf7e8f25408b929778",
+        "question": "Grade 5 Easy: Choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "study of",
+          "without",
+          "before",
+          "small"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 138
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0139",
+        "version": 1,
+        "contentHash": "sha256:d273716cb4c11b61ed7dbb389591e65c18f9f793ba9eea382a0f2749f45647bf",
+        "question": "Grade 5 Easy: Choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "not national",
+          "between or among nations",
+          "before a nation",
+          "inside one classroom"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 139
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0140",
+        "version": 1,
+        "contentHash": "sha256:070f9e3be208e244436dcc75cef18d68688cf88e1c9270794f83ef4859427b7f",
+        "question": "Grade 5 Easy: Choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "shouted",
+          "exploded",
+          "trickled",
+          "stomped"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: exploded. Precise words create accurate meaning.",
+            "",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 140
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0141",
+        "version": 1,
+        "contentHash": "sha256:7001384f05f7441b4fcf6a7b89af23a10f3ff751fec9f352bfa68d161af72c18",
+        "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 141
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0142",
+        "version": 1,
+        "contentHash": "sha256:beb9209e5d2a4c6c9e4abcdf552c447158201c32892260148115ab193387d4b8",
+        "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 142
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0143",
+        "version": 1,
+        "contentHash": "sha256:c073b02f815576984c837c43381d10b00ba9f65379a37bbbb7c083313d124bb6",
+        "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a stick used in baseball",
+          "a flying mammal",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 143
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0144",
+        "version": 1,
+        "contentHash": "sha256:87c41ae959c274771c566f81544e350bbe45d1d8ee68c885c14e3f62608c4d10",
+        "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "near",
+          "please",
+          "park",
+          "car"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: near. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 144
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0145",
+        "version": 1,
+        "contentHash": "sha256:987bdc732f97de8257c11775974ee6a47ab817f4f28be0e58a1dadf074fb4085",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "went",
+          "walked",
+          "moved",
+          "sprinted"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: went. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 145
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0146",
+        "version": 1,
+        "contentHash": "sha256:fb594afcb7d25233f780bdcdc2f87ed1eb333342ab228b46b2b15d2ce32935bf",
+        "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "upset",
+          "enraged",
+          "livid",
+          "explosive"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 146
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0147",
+        "version": 1,
+        "contentHash": "sha256:f838a12e42b89fb8fc47b6e8a49750ed298b4af74a280fdabc99eb7ba5687618",
+        "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "one",
+          "three",
+          "two",
+          "four"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 147
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0148",
+        "version": 1,
+        "contentHash": "sha256:976cdeee3db9d0219ff395a4fe853e3fb8b30c923d79b3058ba44b9aff8ac418",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "tiger",
+          "paper",
+          "rabbit",
+          "music"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 148
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0149",
+        "version": 1,
+        "contentHash": "sha256:994a5defee15afee05df5ffec8aa48982df445657463a6dab74c04e5f9f86cf5",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 149
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0150",
+        "version": 1,
+        "contentHash": "sha256:fd164320e2cbabb8ed6a31a62b68a1a69ade2780433973d24de49f77576a178c",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 150
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0151",
+        "version": 1,
+        "contentHash": "sha256:2771f0283e72e3dc367a2a4837477a9bd6916ec33da36b24e59b0231f7e6cb0c",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 151
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0152",
+        "version": 1,
+        "contentHash": "sha256:9b0bd1c1b6847b43fbc124296fe65c789e848b5c5dd7cea2077475530472b628",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 152
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0153",
+        "version": 1,
+        "contentHash": "sha256:64b0f43d0dcfe848b4b9e6d7c2c7bea329e72b1db4be4873a001f21141c68855",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "small",
+          "without",
+          "before",
+          "study of"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: small. Some Greek word parts appear in academic words.",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "Not: before. Some Greek word parts appear in academic words.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 153
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0154",
+        "version": 1,
+        "contentHash": "sha256:92dcb3be81450a54f682a82acea13f70b7028df2c152ac0cfada5af71e19214a",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "between or among nations",
+          "not national",
+          "before a nation",
+          "inside one classroom"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 154
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0155",
+        "version": 1,
+        "contentHash": "sha256:d4e49047cbe486dd8fa6da37d91fd29ace54606ef9979ac923f79aa4a519305f",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "exploded",
+          "trickled",
+          "shouted",
+          "stomped"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "Not: exploded. Precise words create accurate meaning.",
+            "",
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 155
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0156",
+        "version": 1,
+        "contentHash": "sha256:34e5fd86c713bd62f8c98436d510e248bf4eb6032d07e6113922a974b95f36ef",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 156
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0157",
+        "version": 1,
+        "contentHash": "sha256:cbd46297bc1869a02045947377fd17a7ff48ea2996169ed9a92309940e814a85",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 157
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0158",
+        "version": 1,
+        "contentHash": "sha256:6b47658c5042d0e2f55092a5f9e9d78b669fe4d0ac5a31f1c775c647ab4428ab",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a flying mammal",
+          "a stick used in baseball",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 158
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0159",
+        "version": 1,
+        "contentHash": "sha256:5f7d071957787ba5af504df9e4bd1facc23ef33ddd7dbe9dbd0c1d0011c1878b",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "please",
+          "park",
+          "near",
+          "car"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 159
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0160",
+        "version": 1,
+        "contentHash": "sha256:09d6e4ea09c12c4f4de1ab786a240d038e4a5dc37b877ac03ea2340a539eccee",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "moved",
+          "walked",
+          "sprinted",
+          "went"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 160
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0161",
+        "version": 1,
+        "contentHash": "sha256:1d81fb6593be3d94026eb3e064ffe1371aa19fc6162336c69669b994bba2bceb",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "explosive",
+          "enraged",
+          "livid",
+          "upset"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: explosive. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 161
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0162",
+        "version": 1,
+        "contentHash": "sha256:d62736a84ccf25fc808457a70cf47e0025af138848d845eb9b77ec898922b588",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "three",
+          "one",
+          "two",
+          "four"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 162
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0163",
+        "version": 1,
+        "contentHash": "sha256:2bd24961dc9ddf2bc90c3d162dae9b3d17432bf55274222ad8bddb0e0538f4e2",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "paper",
+          "rabbit",
+          "tiger",
+          "music"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 163
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0164",
+        "version": 1,
+        "contentHash": "sha256:bcc221b07b51eda242a31ebc69516d338a9d50eb4a843425771ebef03051c313",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 164
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0165",
+        "version": 1,
+        "contentHash": "sha256:5e719ba4cef5c1b841b0ca6f8643f72bf13207f1ec0dd261e92c5baa7b854d74",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 165
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0166",
+        "version": 1,
+        "contentHash": "sha256:46fc2950ed7ef7e04f837b210d170bec929fd49006d4aeea570b4e751bfa1f20",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 166
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0167",
+        "version": 1,
+        "contentHash": "sha256:1aa43243329dbe864c6469b3f35b0c839b5651d010e9ad4cd75ab26b6b5eea94",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 167
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0168",
+        "version": 1,
+        "contentHash": "sha256:2ad12ea5173b2a91b55dc6947f497f4e2f14bef02c33246d608b11ce335488c0",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. What does the suffix -ology mean in biology?",
+        "choices": [
+          "before",
+          "without",
+          "study of",
+          "small"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some Greek word parts appear in academic words.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: study of. Some Greek word parts appear in academic words.",
+          "incorrect": [
+            "Not: before. Some Greek word parts appear in academic words.",
+            "Not: without. Some Greek word parts appear in academic words.",
+            "",
+            "Not: small. Some Greek word parts appear in academic words."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 168
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0169",
+        "version": 1,
+        "contentHash": "sha256:929b472ddca625e459617199368be1ee079d1248e2aaf716dec0b1c4cb2b5763",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The prefix inter- means between or among. What does international mean?",
+        "choices": [
+          "inside one classroom",
+          "not national",
+          "before a nation",
+          "between or among nations"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Prefixes can change the meaning of a base or root.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: between or among nations. Prefixes can change the meaning of a base or root.",
+          "incorrect": [
+            "Not: inside one classroom. Prefixes can change the meaning of a base or root.",
+            "Not: not national. Prefixes can change the meaning of a base or root.",
+            "Not: before a nation. Prefixes can change the meaning of a base or root.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 169
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0170",
+        "version": 1,
+        "contentHash": "sha256:b646a9686e78057682c3f917bb600824a1094aa5bfeb818b0418c13316b5e72a",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word best completes the sentence? \"The tiny stream ___ through the meadow.\"",
+        "choices": [
+          "trickled",
+          "exploded",
+          "shouted",
+          "stomped"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Precise words create accurate meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: trickled. Precise words create accurate meaning.",
+          "incorrect": [
+            "",
+            "Not: exploded. Precise words create accurate meaning.",
+            "Not: shouted. Precise words create accurate meaning.",
+            "Not: stomped. Precise words create accurate meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 170
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0171",
+        "version": 1,
+        "contentHash": "sha256:44470768c61d59573d5b2f1968b6baa682eb5c5847b62e36d85970797e4d25a2",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 171
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0172",
+        "version": 1,
+        "contentHash": "sha256:e63c980363b547450294e9778321fb2134a0c86d1428ccb3603239a1f1ddba42",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 172
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0173",
+        "version": 1,
+        "contentHash": "sha256:81f6ce5c82f2d37f6c8aec4b845ebe1219b84f13313659d8ca78daa45ab6b766",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a folded paper",
+          "a stick used in baseball",
+          "to hit something",
+          "a flying mammal"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 173
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0174",
+        "version": 1,
+        "contentHash": "sha256:002f2479a22957c8b9c0d2718c4313a714717b1cbf4d22a5b5ff8dcc5dc7f9f4",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "park",
+          "please",
+          "near",
+          "car"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 174
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0175",
+        "version": 1,
+        "contentHash": "sha256:f53b6c9f7f4a3e164f6a3e6325af0278c0a011ec8f86e7bda909eb69f1d694b3",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "walked",
+          "sprinted",
+          "moved",
+          "went"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 175
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0176",
+        "version": 1,
+        "contentHash": "sha256:3531db5a91acc2d335de5df04655e0519fdbcdfda59b0ea821bca911c687f5e7",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "livid",
+          "enraged",
+          "upset",
+          "explosive"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 176
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0177",
+        "version": 1,
+        "contentHash": "sha256:3d62ae934d6e38b1d83c567168d4bf634d227d617c806bc8732492c38140d7ab",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "four",
+          "one",
+          "two",
+          "three"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: four. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 177
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0178",
+        "version": 1,
+        "contentHash": "sha256:addc53f654a9335fcd33f750686847ef19e94a7a0c2f86967cad0b8bf150cde0",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "rabbit",
+          "paper",
+          "tiger",
+          "music"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 178
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0179",
+        "version": 1,
+        "contentHash": "sha256:5352dec699e870f5a1a9ccdf35ee7eca6f1453ac0ca52098ec23403469acbe3a",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 179
+        }
+      },
+      {
+        "id": "vocabulary-roots-word-origins-q0180",
+        "version": 1,
+        "contentHash": "sha256:ae27bf070232cf4643dcf43109cef0504c5546e65f4a3632d945a4033f600048",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "roots",
+            "word origins",
+            "morphology"
+          ],
+          "standards": [
+            "L.4-6.4"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-roots-word-origins",
+          "sequence": 180
+        }
+      }
+    ],
+    "metadata": {
+      "gradesSupported": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficultiesSupported": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+    }
+  }
+}
+  );
+})();

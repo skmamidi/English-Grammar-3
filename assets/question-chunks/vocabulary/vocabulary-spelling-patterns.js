@@ -1,0 +1,9642 @@
+/**
+ * English Language Quiz App - vocabulary chunk: vocabulary-spelling-patterns
+ * Generated from assets/question-banks/vocabulary.js.
+ */
+(function () {
+  'use strict';
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, {
+  "vocabulary-spelling-patterns": {
+    "title": "Spelling Patterns",
+    "topic": "Vocabulary / Word Study",
+    "questions": [
+      {
+        "id": "vocabulary-spelling-patterns-q0001",
+        "version": 1,
+        "contentHash": "sha256:6ef102df37755cbdf67c8f3996e43766d044d44fc04a2d6271620ac60ae8f240",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 1,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0002",
+        "version": 1,
+        "contentHash": "sha256:fcd902fb2a97dcc77063877579ca490a3319e2c99478b1cd049b1b117070ec1c",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 2,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0003",
+        "version": 1,
+        "contentHash": "sha256:6deed15c5bf6b0ab556928e415fe52843e16fb38492c96d8a2372be25570eafe",
+        "question": "Grade 2 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 3,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0004",
+        "version": 1,
+        "contentHash": "sha256:539e803614dd4e33dc956104e481be57384eb513d31c9f0a0e2afc239c5b0b97",
+        "question": "Grade 2 Easy: Choose the best answer. Which spelling is correct?",
+        "choices": [
+          "beacuse",
+          "becuase",
+          "becaus",
+          "because"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: beacuse. Common high-frequency words need careful spelling.",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 4
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0005",
+        "version": 1,
+        "contentHash": "sha256:4bb372dd6e4da226cd6bf7c326f57e0804295d7fe229fbf098c2728c1fa8e37b",
+        "question": "Grade 2 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 5
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0006",
+        "version": 1,
+        "contentHash": "sha256:08d0d5ca3bbe5b3d08f37e46c86879f7b2c5d596a663d351d10377c64aa8e2b0",
+        "question": "Grade 2 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 6
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0007",
+        "version": 1,
+        "contentHash": "sha256:a98bcd66857f2254e133105e597c210d941982f6ee5256f4ab0c36af7e6b69ff",
+        "question": "Grade 2 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "to hit something",
+          "a stick used in baseball",
+          "a flying mammal",
+          "a folded paper"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 7
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0008",
+        "version": 1,
+        "contentHash": "sha256:9febfee36771782c07b9acb1aa50ce39a893fe4d88dd08556f6fb872e040eba7",
+        "question": "Grade 2 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "car",
+          "please",
+          "near",
+          "park"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: car. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 8
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0009",
+        "version": 1,
+        "contentHash": "sha256:dd005dbb54c057c2b646f7d24a3d6bd11b187cbf2263cf5ade4866b8a78ee474",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "sprinted",
+          "walked",
+          "moved",
+          "went"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 9
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0010",
+        "version": 1,
+        "contentHash": "sha256:cd06f3468d32014afca59cf3a48c2897c9aa9b59f13f40153d25fd5865fa9fc6",
+        "question": "Grade 2 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "enraged",
+          "upset",
+          "livid",
+          "explosive"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 10
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0011",
+        "version": 1,
+        "contentHash": "sha256:36e7f96a73665845ce2c584346992f7ff10a059500c6ed24e972559edc1068a9",
+        "question": "Grade 2 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "two",
+          "one",
+          "three",
+          "four"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 11
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0012",
+        "version": 1,
+        "contentHash": "sha256:09fb3089780ef266da03426524b3918b1c8b43b998ea9b1d2bf3a8400934ead2",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "music",
+          "paper",
+          "tiger",
+          "rabbit"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 12
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0013",
+        "version": 1,
+        "contentHash": "sha256:6ef102df37755cbdf67c8f3996e43766d044d44fc04a2d6271620ac60ae8f240",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 13,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0014",
+        "version": 1,
+        "contentHash": "sha256:fcd902fb2a97dcc77063877579ca490a3319e2c99478b1cd049b1b117070ec1c",
+        "question": "Grade 2 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 14,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0015",
+        "version": 1,
+        "contentHash": "sha256:6deed15c5bf6b0ab556928e415fe52843e16fb38492c96d8a2372be25570eafe",
+        "question": "Grade 2 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 15,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0016",
+        "version": 1,
+        "contentHash": "sha256:b4574bbe7bb940c7e5889823d0ddbc50e43a7849d74fd990bb2bcb70484e9082",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 16,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0017",
+        "version": 1,
+        "contentHash": "sha256:51b722d92369bc92c748b66ad817b00d6cd14ff136ab32bf7c990add99d6e79f",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 17,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0018",
+        "version": 1,
+        "contentHash": "sha256:8c963e5011453779640361d08218a4049457f43a77461eb6267c8bacd87c0c48",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "rock",
+          "knock",
+          "sock",
+          "lock"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 18,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0019",
+        "version": 1,
+        "contentHash": "sha256:c4c790dcac16107fad654b301fb0855ca175fd4f3c88199279074f05379ca674",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which spelling is correct?",
+        "choices": [
+          "becaus",
+          "becuase",
+          "because",
+          "beacuse"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 19
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0020",
+        "version": 1,
+        "contentHash": "sha256:5504fe34fb27e6daaf057fe188ca337e9fa388941c217a683b69850acc10fe29",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 20
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0021",
+        "version": 1,
+        "contentHash": "sha256:d5a1ce726b8717c5e3a1b10aaebe7747641e6d728eaedd31d1912e918022f89b",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 21
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0022",
+        "version": 1,
+        "contentHash": "sha256:d97105fa5c581ee5e1fc89f5694f334eb9827529e633ec116ca14032532aad07",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a stick used in baseball",
+          "a flying mammal",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 22
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0023",
+        "version": 1,
+        "contentHash": "sha256:2b7d85ab52aa9e115155b88167a2a9c06319454070ad422741dedef9dec9554e",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "near",
+          "please",
+          "park",
+          "car"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: near. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 23
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0024",
+        "version": 1,
+        "contentHash": "sha256:a17e09f9fcbf12196e198781d392e528ac9213f570a30dfcf9e515052425f575",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "went",
+          "walked",
+          "moved",
+          "sprinted"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: went. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 24
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0025",
+        "version": 1,
+        "contentHash": "sha256:636bb09df3e63f7dccb06e431e8b1d2f7ca440c29a2e3aa219824bc6e0377463",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "upset",
+          "enraged",
+          "livid",
+          "explosive"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 25
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0026",
+        "version": 1,
+        "contentHash": "sha256:91c0b58fb570966399d3ba7c169ff318b3a9bae602763ab2a67afec99ba4ff30",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "one",
+          "three",
+          "two",
+          "four"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 26
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0027",
+        "version": 1,
+        "contentHash": "sha256:9780e33eff766c8b4dcb472da92cdf6ad5d0a9a17e78022a9c37e27bba2a994b",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "tiger",
+          "paper",
+          "rabbit",
+          "music"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 27
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0028",
+        "version": 1,
+        "contentHash": "sha256:b4574bbe7bb940c7e5889823d0ddbc50e43a7849d74fd990bb2bcb70484e9082",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 28,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0029",
+        "version": 1,
+        "contentHash": "sha256:51b722d92369bc92c748b66ad817b00d6cd14ff136ab32bf7c990add99d6e79f",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 29,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0030",
+        "version": 1,
+        "contentHash": "sha256:8c963e5011453779640361d08218a4049457f43a77461eb6267c8bacd87c0c48",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "rock",
+          "knock",
+          "sock",
+          "lock"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 30,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0031",
+        "version": 1,
+        "contentHash": "sha256:880b47559c48d0d243424e4a27d0faed39866af8cff02546212cb0c828e0aa2b",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 31,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0032",
+        "version": 1,
+        "contentHash": "sha256:328fceeececa0ce145153d789cdf958705af80a3849b13fb27fd6b9d9d69b5e7",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 32,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0033",
+        "version": 1,
+        "contentHash": "sha256:e4c85b2055478f7293c392999ef4045a5375c7eed5ea4e306d1badcbf089e59e",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 33,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0034",
+        "version": 1,
+        "contentHash": "sha256:7a92960393124347d145ff7e1fdbef863d3d3821589e8242ae8f252c412aac5b",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
+        "choices": [
+          "becuase",
+          "because",
+          "becaus",
+          "beacuse"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 34
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0035",
+        "version": 1,
+        "contentHash": "sha256:44a4b94e3d85f73bbe0e2b96731899e2b42cd7deb67c397d235dcd214a662d1e",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 35
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0036",
+        "version": 1,
+        "contentHash": "sha256:de5939a2f63f992cb252950da6a50512e0e1f8fc911daf7f395a39c8b6bb953a",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 36
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0037",
+        "version": 1,
+        "contentHash": "sha256:8d876cfdd45b50a3e01799dc5f91999f125416edff92709cde649cd37c2c58f8",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a flying mammal",
+          "a stick used in baseball",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 37
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0038",
+        "version": 1,
+        "contentHash": "sha256:919aac1edb7bac99c8a4bb4ad6139edb60d4074a96d8fde9fd22beaed355ce5e",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "please",
+          "park",
+          "near",
+          "car"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 38
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0039",
+        "version": 1,
+        "contentHash": "sha256:bbc4e6c7f3749502b8700eafebe131ecb47327895e32c3a1e699b076de9fd816",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "moved",
+          "walked",
+          "sprinted",
+          "went"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 39
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0040",
+        "version": 1,
+        "contentHash": "sha256:c35889c022906a5b52cefdab3b4f663c20efaaa59405d4ecd481aeefca442552",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "explosive",
+          "enraged",
+          "livid",
+          "upset"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: explosive. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 40
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0041",
+        "version": 1,
+        "contentHash": "sha256:71b93f00e96a98e66d9bd7545894eb5080561729b2091667d855e6c08155cadc",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "three",
+          "one",
+          "two",
+          "four"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 41
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0042",
+        "version": 1,
+        "contentHash": "sha256:c8390b69799c10e02d8a89bd7e0621ffc317557e424b697b0e6827a604a10e25",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "paper",
+          "rabbit",
+          "tiger",
+          "music"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 42
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0043",
+        "version": 1,
+        "contentHash": "sha256:880b47559c48d0d243424e4a27d0faed39866af8cff02546212cb0c828e0aa2b",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 43,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0044",
+        "version": 1,
+        "contentHash": "sha256:328fceeececa0ce145153d789cdf958705af80a3849b13fb27fd6b9d9d69b5e7",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 44,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0045",
+        "version": 1,
+        "contentHash": "sha256:e4c85b2055478f7293c392999ef4045a5375c7eed5ea4e306d1badcbf089e59e",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 45,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0046",
+        "version": 1,
+        "contentHash": "sha256:c80abe4895eb8fcb47493c4d12b1c3a9acb3e6d83ff51074aa3849c723cfa6cd",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 46,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0047",
+        "version": 1,
+        "contentHash": "sha256:46b50c2900624f11ccae5fc70241a9bc2f26be056a2574f06d7e5701e2a9acf4",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 47,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0048",
+        "version": 1,
+        "contentHash": "sha256:0b789fa228762c978f026f493aaa55df3a50132b5d35835fdf75497d6b597a09",
+        "question": "Grade 3 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 48,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0049",
+        "version": 1,
+        "contentHash": "sha256:544aa3b0a8f1795656cdd8d149eda4a268531d470d0ccba4e07e36f5cceaeea8",
+        "question": "Grade 3 Easy: Choose the best answer. Which spelling is correct?",
+        "choices": [
+          "becuase",
+          "because",
+          "becaus",
+          "beacuse"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 49
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0050",
+        "version": 1,
+        "contentHash": "sha256:1b63978dc40e660df6a3f346f9147a68ae60cd95663bc599a487aba2b981b790",
+        "question": "Grade 3 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 50
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0051",
+        "version": 1,
+        "contentHash": "sha256:6a78c7d733b0d799f5c8d30dd28dfced7e16afd0a0a3d1fe59c88368103fe7c3",
+        "question": "Grade 3 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 51
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0052",
+        "version": 1,
+        "contentHash": "sha256:889caba9b10b258dc2dca40b3fd80b7d6f6eafcc6c376d313f0f1654aa27e628",
+        "question": "Grade 3 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a flying mammal",
+          "a stick used in baseball",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 52
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0053",
+        "version": 1,
+        "contentHash": "sha256:f8a9bdd378320df6ac6f4f26da646559bc0a6affa5d40d843f45149dabbd73cd",
+        "question": "Grade 3 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "please",
+          "park",
+          "near",
+          "car"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 53
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0054",
+        "version": 1,
+        "contentHash": "sha256:bae42ee4937ab26d248c734667f699298f67d9cd462eb52d245aeb2b386b49e0",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "moved",
+          "walked",
+          "sprinted",
+          "went"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 54
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0055",
+        "version": 1,
+        "contentHash": "sha256:379b68fc1b2d3d1b0d93816ea5acfd9e0a0e02d5784204523af3fd10fc74c022",
+        "question": "Grade 3 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "explosive",
+          "enraged",
+          "livid",
+          "upset"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: explosive. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 55
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0056",
+        "version": 1,
+        "contentHash": "sha256:e9fb3035e17000dfc630a2d8b5d6e2dc8ad996e2b4a7d58555889a922274046e",
+        "question": "Grade 3 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "three",
+          "one",
+          "two",
+          "four"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 56
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0057",
+        "version": 1,
+        "contentHash": "sha256:cebd122d63d94a3e7c395de9f0e0aac05524b13c5b1cd427a2b2f4d9e5fdd7c6",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "paper",
+          "rabbit",
+          "tiger",
+          "music"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 57
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0058",
+        "version": 1,
+        "contentHash": "sha256:c80abe4895eb8fcb47493c4d12b1c3a9acb3e6d83ff51074aa3849c723cfa6cd",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 58,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0059",
+        "version": 1,
+        "contentHash": "sha256:46b50c2900624f11ccae5fc70241a9bc2f26be056a2574f06d7e5701e2a9acf4",
+        "question": "Grade 3 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 59,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0060",
+        "version": 1,
+        "contentHash": "sha256:0b789fa228762c978f026f493aaa55df3a50132b5d35835fdf75497d6b597a09",
+        "question": "Grade 3 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 60,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0061",
+        "version": 1,
+        "contentHash": "sha256:217942f40dec3bf22aad1b30ea9ad7eec82e77b6d084c09a161f152f5eb8f172",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 61,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0062",
+        "version": 1,
+        "contentHash": "sha256:cbc4b094f08818ca3c067d1414d1b51924426a52ee0074b570604121cfdb7768",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 62,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0063",
+        "version": 1,
+        "contentHash": "sha256:8b12e0f0b593387632be3477fa7ab9a4efdb47654a3241f6cd5b5c38211c5f86",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "lock",
+          "rock",
+          "sock",
+          "knock"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: lock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 63,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0064",
+        "version": 1,
+        "contentHash": "sha256:e7ccaeac7d1ce6ce205b3b35e9cc4d6f068e55d0c439399128f808edd548b23f",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which spelling is correct?",
+        "choices": [
+          "because",
+          "becuase",
+          "becaus",
+          "beacuse"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 64
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0065",
+        "version": 1,
+        "contentHash": "sha256:afb024bf613e400f7f0f7244cabf4c1118281c4ee453e07bb0e8d40d98fef3de",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 65
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0066",
+        "version": 1,
+        "contentHash": "sha256:34508890afb3d87ff7812e6505951ac57f5f0540b7646f8139746209fbdfe7e0",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 66
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0067",
+        "version": 1,
+        "contentHash": "sha256:debcbd45fd9abbad195c330ff395a0ad24be7e459996bc9dbf1429a75b446a14",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a folded paper",
+          "a stick used in baseball",
+          "to hit something",
+          "a flying mammal"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 67
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0068",
+        "version": 1,
+        "contentHash": "sha256:9cf2db40cf9891c2a7210ae7291c3839c41027d196c30fa6019caac2c20a7a85",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "park",
+          "please",
+          "near",
+          "car"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 68
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0069",
+        "version": 1,
+        "contentHash": "sha256:4364c1eb2eeb6a480637334fd0cc0a33b1d0cfdf438315e28388a6077072f580",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "walked",
+          "sprinted",
+          "moved",
+          "went"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 69
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0070",
+        "version": 1,
+        "contentHash": "sha256:f1db9671e14703de78f953dc4b226f865aa94ec0dd6fce88a3017428e860b549",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "livid",
+          "enraged",
+          "upset",
+          "explosive"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 70
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0071",
+        "version": 1,
+        "contentHash": "sha256:1318340ad7e9699d0fd14a0c3faf9a1d3e0cd7968a5e0f289ffe27fb28c16df2",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "four",
+          "one",
+          "two",
+          "three"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: four. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 71
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0072",
+        "version": 1,
+        "contentHash": "sha256:dba85c87792d2e109b2bd6abcfbf557a318bb77db4e2aba62e138ae6aa1120ed",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "rabbit",
+          "paper",
+          "tiger",
+          "music"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 72
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0073",
+        "version": 1,
+        "contentHash": "sha256:217942f40dec3bf22aad1b30ea9ad7eec82e77b6d084c09a161f152f5eb8f172",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 73,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0074",
+        "version": 1,
+        "contentHash": "sha256:cbc4b094f08818ca3c067d1414d1b51924426a52ee0074b570604121cfdb7768",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 74,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0075",
+        "version": 1,
+        "contentHash": "sha256:8b12e0f0b593387632be3477fa7ab9a4efdb47654a3241f6cd5b5c38211c5f86",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "lock",
+          "rock",
+          "sock",
+          "knock"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: lock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 75,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0076",
+        "version": 1,
+        "contentHash": "sha256:c93ceb64df51a7cce381b298955ea5d660360115b5e46d9367cb5dfc894ca739",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 76,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0077",
+        "version": 1,
+        "contentHash": "sha256:5e0a7e48886876f27b89d0081d7485d2bb4865f604544d189570347ab8f43025",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 77,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0078",
+        "version": 1,
+        "contentHash": "sha256:6c9ddfdfeda28a461668faa2ad532a1d44c58cf5dd74e991782e0b720519c105",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 78,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0079",
+        "version": 1,
+        "contentHash": "sha256:0c5afdd691e7f5dd36647292fed0267e29e879406e15bb6520528eff35032b04",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
+        "choices": [
+          "beacuse",
+          "becuase",
+          "becaus",
+          "because"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: beacuse. Common high-frequency words need careful spelling.",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 79
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0080",
+        "version": 1,
+        "contentHash": "sha256:f0f58098b37ef1f4a701fa45c58bf57de400be6681f9ef72697acc9c95ccffe8",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 80
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0081",
+        "version": 1,
+        "contentHash": "sha256:5eb72b9e1dd35ae7cf578d2cec57273d4454268edcf9bdd6b7511e3dd3f27cb9",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 81
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0082",
+        "version": 1,
+        "contentHash": "sha256:d9b174d35381bc16fa4a5410daf581fcd2b7e579a8aa2d71a854f52bc006e5d7",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "to hit something",
+          "a stick used in baseball",
+          "a flying mammal",
+          "a folded paper"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 82
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0083",
+        "version": 1,
+        "contentHash": "sha256:5937eca123ffbfa136534f079468c4d36741871e39c91475a9f432acb4eeea4c",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "car",
+          "please",
+          "near",
+          "park"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: car. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 83
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0084",
+        "version": 1,
+        "contentHash": "sha256:233fbc54c075ed054bf5dc3a1c666cd5ec5c6e20d7296ab9d0cb8917c38e80d0",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "sprinted",
+          "walked",
+          "moved",
+          "went"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 84
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0085",
+        "version": 1,
+        "contentHash": "sha256:46018a7fdf17c46a0bde20ed8db0441058827dd288076b1aed802727f972e8c8",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "enraged",
+          "upset",
+          "livid",
+          "explosive"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 85
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0086",
+        "version": 1,
+        "contentHash": "sha256:a39b2c771e35681e5fa66cdc0310aefef9d3a8aadd2c5372d23579f86fcc8ce7",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "two",
+          "one",
+          "three",
+          "four"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 86
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0087",
+        "version": 1,
+        "contentHash": "sha256:dc87b9a72668000222c6e52e5f97cae2d3dab915785a8bb0c971f881194cf8c5",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "music",
+          "paper",
+          "tiger",
+          "rabbit"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 87
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0088",
+        "version": 1,
+        "contentHash": "sha256:c93ceb64df51a7cce381b298955ea5d660360115b5e46d9367cb5dfc894ca739",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 88,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0089",
+        "version": 1,
+        "contentHash": "sha256:5e0a7e48886876f27b89d0081d7485d2bb4865f604544d189570347ab8f43025",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 89,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0090",
+        "version": 1,
+        "contentHash": "sha256:6c9ddfdfeda28a461668faa2ad532a1d44c58cf5dd74e991782e0b720519c105",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 90,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0091",
+        "version": 1,
+        "contentHash": "sha256:ae7ce35e82f036ea391a5b5ad51a7329b0f95a70cbec8e33886192802b8d790d",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 91,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0092",
+        "version": 1,
+        "contentHash": "sha256:e1748d47aad7fd363b581f5eeb19cef8f779d2c71f3333d167ef48186f85f0c4",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 92,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0093",
+        "version": 1,
+        "contentHash": "sha256:c581e05bd2a4778eebbf4349a9cb2a4d557e0d6ba3c56832bc9ea0843d93343c",
+        "question": "Grade 4 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 93,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0094",
+        "version": 1,
+        "contentHash": "sha256:8afa29b0f258676dce653b186408da4f5269c786aecdf85b58c589e8313d69f5",
+        "question": "Grade 4 Easy: Choose the best answer. Which spelling is correct?",
+        "choices": [
+          "beacuse",
+          "becuase",
+          "becaus",
+          "because"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: beacuse. Common high-frequency words need careful spelling.",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 94
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0095",
+        "version": 1,
+        "contentHash": "sha256:0fe568df42ce9ace9d3709d825f1184361f82e0cf951d76f91c16f70142dac25",
+        "question": "Grade 4 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 95
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0096",
+        "version": 1,
+        "contentHash": "sha256:f016b0d034f9de67b179dca243b01a63a6b3d6964596aaa308734bf127443620",
+        "question": "Grade 4 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 96
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0097",
+        "version": 1,
+        "contentHash": "sha256:06b39c17e14367d75d557ad2e7e824edcde927657a9783084e49f3083d0011db",
+        "question": "Grade 4 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "to hit something",
+          "a stick used in baseball",
+          "a flying mammal",
+          "a folded paper"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 97
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0098",
+        "version": 1,
+        "contentHash": "sha256:79580d74e2cc34a58e0a721251255803a4f3ab503e6a4cad1e39cd473ebd18ed",
+        "question": "Grade 4 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "car",
+          "please",
+          "near",
+          "park"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: car. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 98
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0099",
+        "version": 1,
+        "contentHash": "sha256:d76c67325a34101b2e9032976bf844bc8c960728942a3319c00557c4c13b9c06",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "sprinted",
+          "walked",
+          "moved",
+          "went"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 99
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0100",
+        "version": 1,
+        "contentHash": "sha256:df8da8b989d099417650b668b8ac61d91e3d8845f5ef74166f8e2a0fbac4eee7",
+        "question": "Grade 4 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "enraged",
+          "upset",
+          "livid",
+          "explosive"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 100
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0101",
+        "version": 1,
+        "contentHash": "sha256:b54bab931fadd1a82a18968ac73385214add87c3f75831ccdcc33769ab5722d7",
+        "question": "Grade 4 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "two",
+          "one",
+          "three",
+          "four"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 101
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0102",
+        "version": 1,
+        "contentHash": "sha256:6e8563c782b6583ec6196b78a5f576e5d56493e757e9656403a46258f9cdbdf4",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "music",
+          "paper",
+          "tiger",
+          "rabbit"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 102
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0103",
+        "version": 1,
+        "contentHash": "sha256:ae7ce35e82f036ea391a5b5ad51a7329b0f95a70cbec8e33886192802b8d790d",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 103,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0104",
+        "version": 1,
+        "contentHash": "sha256:e1748d47aad7fd363b581f5eeb19cef8f779d2c71f3333d167ef48186f85f0c4",
+        "question": "Grade 4 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 104,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0105",
+        "version": 1,
+        "contentHash": "sha256:c581e05bd2a4778eebbf4349a9cb2a4d557e0d6ba3c56832bc9ea0843d93343c",
+        "question": "Grade 4 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 105,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0106",
+        "version": 1,
+        "contentHash": "sha256:5f679301303ae49863378ad2af82e48c2dce54a031b9097168692bfa8d70a971",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 106,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0107",
+        "version": 1,
+        "contentHash": "sha256:61a30273a69ae8fd4b1cb8c0cd87f82a607b7288fe4cb59432f4ff1e4d977c48",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 107,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0108",
+        "version": 1,
+        "contentHash": "sha256:e51c43f22ebccaafbb8df68453c9e7209796d424414e8bec94dd93a8c2868bd2",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "rock",
+          "knock",
+          "sock",
+          "lock"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 108,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0109",
+        "version": 1,
+        "contentHash": "sha256:ee6479beb4e146a6bbad838c7dd8a733c6548fdb2f17523164a22451d2080d1e",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which spelling is correct?",
+        "choices": [
+          "becaus",
+          "becuase",
+          "because",
+          "beacuse"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 109
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0110",
+        "version": 1,
+        "contentHash": "sha256:778f87050044be4b6d002769d855e859ec7569657ba3a7eb07500fecb347ec43",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a kind of water",
+          "a sound made underground",
+          "a person who writes",
+          "a picture made with light"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a kind of water. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 110
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0111",
+        "version": 1,
+        "contentHash": "sha256:7a074e5a48d324180d649bcb79cd6018174b257c7890436a655e4f02c231c4eb",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "able to be carried",
+          "full of light",
+          "against water",
+          "not visible"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 111
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0112",
+        "version": 1,
+        "contentHash": "sha256:47d63295f0c75e7ea7b982e68741eca534a5c6531d238d6572054244cd3baedd",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a stick used in baseball",
+          "a flying mammal",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 112
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0113",
+        "version": 1,
+        "contentHash": "sha256:f7d22a0b0d8e1b16712ccf8587b0378e5a0864014776a238fd351014246cba32",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "near",
+          "please",
+          "park",
+          "car"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: near. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 113
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0114",
+        "version": 1,
+        "contentHash": "sha256:b3a4f3dbaf839ea6580592700e09f904c1c29ca9b7d524e26bb6262d5c4c1b10",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "went",
+          "walked",
+          "moved",
+          "sprinted"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: went. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 114
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0115",
+        "version": 1,
+        "contentHash": "sha256:1c785c9e712826eafcc8af30823b3e2597c870015959733b7f8a6b4c05ad6b60",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "upset",
+          "enraged",
+          "livid",
+          "explosive"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 115
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0116",
+        "version": 1,
+        "contentHash": "sha256:2d3bed146565024f60c585f388cd705fe7c8da8a341707018d25efd943ceff5a",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "one",
+          "three",
+          "two",
+          "four"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 116
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0117",
+        "version": 1,
+        "contentHash": "sha256:f88c7d5bf82f9dc2891b65cecd27f303d2e7c2b605d4bd3365031fa1419b40dd",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "tiger",
+          "paper",
+          "rabbit",
+          "music"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 117
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0118",
+        "version": 1,
+        "contentHash": "sha256:5f679301303ae49863378ad2af82e48c2dce54a031b9097168692bfa8d70a971",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ring",
+          "ran",
+          "rake",
+          "rain"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ring. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 118,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0119",
+        "version": 1,
+        "contentHash": "sha256:61a30273a69ae8fd4b1cb8c0cd87f82a607b7288fe4cb59432f4ff1e4d977c48",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bird",
+          "bad",
+          "bead",
+          "bend"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 119,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0120",
+        "version": 1,
+        "contentHash": "sha256:e51c43f22ebccaafbb8df68453c9e7209796d424414e8bec94dd93a8c2868bd2",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "rock",
+          "knock",
+          "sock",
+          "lock"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 120,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0121",
+        "version": 1,
+        "contentHash": "sha256:d9df419760b5b8a5263031c063ce189669048145010c6354cd548399a4c5f4a9",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 121,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0122",
+        "version": 1,
+        "contentHash": "sha256:38acbf8009cb8c91a8897163ef5b861c7b789ef93197f6bc9e74c78fd6fcc5b2",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 122,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0123",
+        "version": 1,
+        "contentHash": "sha256:6a5dd7b64465462f4b04d1cc95ef38a9bca16b1ba8cb430c83c11ac4c8625ccf",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 123,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0124",
+        "version": 1,
+        "contentHash": "sha256:68a0a9c9def610caf0f3e872dbf716b4e93753e7da7e77e470ef0f1395061691",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
+        "choices": [
+          "becuase",
+          "because",
+          "becaus",
+          "beacuse"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 124
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0125",
+        "version": 1,
+        "contentHash": "sha256:ebbe127daee0d8d718c7d741aaa5fb91e35a0bb00d9732b80649873ca555990e",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 125
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0126",
+        "version": 1,
+        "contentHash": "sha256:ca673e13034ba5e4c2e9f035d90b337f98f2a24471ac66740e0f8e6992b1e1df",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 126
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0127",
+        "version": 1,
+        "contentHash": "sha256:5e5840edc3db75d90e848192df375b98df996bda83e5c7e0f986da8503f5c07b",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a flying mammal",
+          "a stick used in baseball",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 127
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0128",
+        "version": 1,
+        "contentHash": "sha256:57aa3cdc34bae3357e20a0639612549959ac55444bfae554c0f17f48a9c46451",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "please",
+          "park",
+          "near",
+          "car"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 128
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0129",
+        "version": 1,
+        "contentHash": "sha256:0cc71949200d5f7d2d43b507758a38cd66ccc5c40568ead40a234b01564c7d37",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "moved",
+          "walked",
+          "sprinted",
+          "went"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 129
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0130",
+        "version": 1,
+        "contentHash": "sha256:8db631471bcf1552634d23b84c7520eeae0b90e2931158fc59e8052961f92028",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "explosive",
+          "enraged",
+          "livid",
+          "upset"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: explosive. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 130
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0131",
+        "version": 1,
+        "contentHash": "sha256:8521d338c415b3551ea7314ac5986a55d41cdc6ec225424a699470e8371ccc95",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "three",
+          "one",
+          "two",
+          "four"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 131
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0132",
+        "version": 1,
+        "contentHash": "sha256:e23688af4722e9bfb82267ffc07a5259a19fc760a5e040c5e875c6b139021359",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "paper",
+          "rabbit",
+          "tiger",
+          "music"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 132
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0133",
+        "version": 1,
+        "contentHash": "sha256:d9df419760b5b8a5263031c063ce189669048145010c6354cd548399a4c5f4a9",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 133,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0134",
+        "version": 1,
+        "contentHash": "sha256:38acbf8009cb8c91a8897163ef5b861c7b789ef93197f6bc9e74c78fd6fcc5b2",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 134,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0135",
+        "version": 1,
+        "contentHash": "sha256:6a5dd7b64465462f4b04d1cc95ef38a9bca16b1ba8cb430c83c11ac4c8625ccf",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 135,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0136",
+        "version": 1,
+        "contentHash": "sha256:7aa577aedf8fa524cc80f24ad21d4b682341c4b34d52e66f507c6d19b9ef87c9",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 136,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0137",
+        "version": 1,
+        "contentHash": "sha256:c77173a9b67519bdca127b97c8084b98e211d0de54f9c03b6b5b60b986967155",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 137,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0138",
+        "version": 1,
+        "contentHash": "sha256:908353627bdc77d5bda248dd659e1ede90e11663b05a5ef62cebad3cdacc1050",
+        "question": "Grade 5 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 138,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0139",
+        "version": 1,
+        "contentHash": "sha256:540b423d3e29bfadb81abf47cc879586b17db7240e1e545e1d6cc91c662462d9",
+        "question": "Grade 5 Easy: Choose the best answer. Which spelling is correct?",
+        "choices": [
+          "becuase",
+          "because",
+          "becaus",
+          "beacuse"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 139
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0140",
+        "version": 1,
+        "contentHash": "sha256:e5179c2920a1ad3b52bc4e72eb89bafa492c1ab4fc716e16085c26528b43e37e",
+        "question": "Grade 5 Easy: Choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a person who writes",
+          "a sound made underground",
+          "a picture made with light",
+          "a kind of water"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 140
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0141",
+        "version": 1,
+        "contentHash": "sha256:c73d19f259dc5a9a7bb624ce7c39a391b946ee975255ba473afd30dd7adf4f7a",
+        "question": "Grade 5 Easy: Choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "not visible",
+          "full of light",
+          "against water",
+          "able to be carried"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: not visible. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "Not: against water. The root gives a clue to meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 141
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0142",
+        "version": 1,
+        "contentHash": "sha256:b60d5e6da925cdda3648ffa165dc35e37eb0e547017e2936c23d7d279c10f5cf",
+        "question": "Grade 5 Easy: Choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a flying mammal",
+          "a stick used in baseball",
+          "to hit something",
+          "a folded paper"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 142
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0143",
+        "version": 1,
+        "contentHash": "sha256:989c5a07aee5fee954ddab09aebd4befae32673458c3fcc5faf236beb6d7d15c",
+        "question": "Grade 5 Easy: Choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "please",
+          "park",
+          "near",
+          "car"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: please. Some words have more than one meaning.",
+            "",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 143
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0144",
+        "version": 1,
+        "contentHash": "sha256:bb2a36329ba90d44cb4d2e5a6fc063ab7c4c5773f3cb5dc42eafd39755387367",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "moved",
+          "walked",
+          "sprinted",
+          "went"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 144
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0145",
+        "version": 1,
+        "contentHash": "sha256:0139f3da1fb961c29cae96ca7927ccc580ba7d8625671d8fdc67f2a422c5fdfe",
+        "question": "Grade 5 Easy: Choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "explosive",
+          "enraged",
+          "livid",
+          "upset"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: explosive. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "Not: livid. Words can show different degrees of feeling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 145
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0146",
+        "version": 1,
+        "contentHash": "sha256:bc422cc4c7f673de793234664e1e3e16ab4ee9b447679fc2907e1fd040ca799a",
+        "question": "Grade 5 Easy: Choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "three",
+          "one",
+          "two",
+          "four"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 146
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0147",
+        "version": 1,
+        "contentHash": "sha256:0cc3828ec1d068975183b88b8dc5b5aa63daa42bd65ef9924e31274fdd0f01c9",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "paper",
+          "rabbit",
+          "tiger",
+          "music"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 147
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0148",
+        "version": 1,
+        "contentHash": "sha256:7aa577aedf8fa524cc80f24ad21d4b682341c4b34d52e66f507c6d19b9ef87c9",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "rake",
+          "ran",
+          "rain",
+          "ring"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 148,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0149",
+        "version": 1,
+        "contentHash": "sha256:c77173a9b67519bdca127b97c8084b98e211d0de54f9c03b6b5b60b986967155",
+        "question": "Grade 5 Easy: Choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bend",
+          "bad",
+          "bead",
+          "bird"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bend. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 149,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0150",
+        "version": 1,
+        "contentHash": "sha256:908353627bdc77d5bda248dd659e1ede90e11663b05a5ef62cebad3cdacc1050",
+        "question": "Grade 5 Easy: Choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "knock",
+          "rock",
+          "sock",
+          "lock"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 150,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0151",
+        "version": 1,
+        "contentHash": "sha256:9d8e806bdc65ada8283b7a6e87b668cb2d43937a9859eda2069a301621722813",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 151,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0152",
+        "version": 1,
+        "contentHash": "sha256:cddcbba3567c6114dcc6a9e45d91de867f42cec3a8b994f732c985b8875df30a",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 152,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0153",
+        "version": 1,
+        "contentHash": "sha256:d7d957d55633fce8d66db3cc62b6b02ca41c21c9fc6303c03970d7415c46cb3b",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "lock",
+          "rock",
+          "sock",
+          "knock"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: lock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 153,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0154",
+        "version": 1,
+        "contentHash": "sha256:9735c70412bfff5cb44b80430193d6442aea5897a128dd1376758f40910f8ddd",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which spelling is correct?",
+        "choices": [
+          "because",
+          "becuase",
+          "becaus",
+          "beacuse"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            "Not: beacuse. Common high-frequency words need careful spelling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 154
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0155",
+        "version": 1,
+        "contentHash": "sha256:2771f0283e72e3dc367a2a4837477a9bd6916ec33da36b24e59b0231f7e6cb0c",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a sound made underground",
+          "a picture made with light",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 155
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0156",
+        "version": 1,
+        "contentHash": "sha256:9b0bd1c1b6847b43fbc124296fe65c789e848b5c5dd7cea2077475530472b628",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "against water",
+          "full of light",
+          "able to be carried",
+          "not visible"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 156
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0157",
+        "version": 1,
+        "contentHash": "sha256:7a7bc88255d1ac5c3c575890a818768476633afeefac01b1fcb14ff6448fd207",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "a folded paper",
+          "a stick used in baseball",
+          "to hit something",
+          "a flying mammal"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 157
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0158",
+        "version": 1,
+        "contentHash": "sha256:d11050815fe9efaa7d44a7e9c8af74ff6c6a64d49726210f10697260fc0f932e",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "park",
+          "please",
+          "near",
+          "car"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            "Not: car. Some words have more than one meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 158
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0159",
+        "version": 1,
+        "contentHash": "sha256:1fa1483aef65514384dea0199c9644d2c845341f2f53692fe8c1a7fbb9a26f57",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the strongest meaning?",
+        "choices": [
+          "walked",
+          "sprinted",
+          "moved",
+          "went"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 159
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0160",
+        "version": 1,
+        "contentHash": "sha256:8a3fd9967f08872991d194717b3c2ba9aa4ff4ae8e12e18e6535340e5d235ffb",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word is gentler than furious?",
+        "choices": [
+          "livid",
+          "enraged",
+          "upset",
+          "explosive"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 160
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0161",
+        "version": 1,
+        "contentHash": "sha256:01fd50864ae14ab6245fc65b7562b9fa47f8add371754e7dd12be75d542593f7",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. How many syllables are in computer?",
+        "choices": [
+          "four",
+          "one",
+          "two",
+          "three"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: four. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 161
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0162",
+        "version": 1,
+        "contentHash": "sha256:f8c4190f923b4082fba068ae31d33d41295671b14ceebc65607c3445d401e036",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has a closed first syllable?",
+        "choices": [
+          "rabbit",
+          "paper",
+          "tiger",
+          "music"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 162
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0163",
+        "version": 1,
+        "contentHash": "sha256:9d8e806bdc65ada8283b7a6e87b668cb2d43937a9859eda2069a301621722813",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has the vowel team ai?",
+        "choices": [
+          "ran",
+          "rain",
+          "rake",
+          "ring"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 163,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0164",
+        "version": 1,
+        "contentHash": "sha256:cddcbba3567c6114dcc6a9e45d91de867f42cec3a8b994f732c985b8875df30a",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bead",
+          "bad",
+          "bird",
+          "bend"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 164,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0165",
+        "version": 1,
+        "contentHash": "sha256:d7d957d55633fce8d66db3cc62b6b02ca41c21c9fc6303c03970d7415c46cb3b",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Which word contains a silent letter?",
+        "choices": [
+          "lock",
+          "rock",
+          "sock",
+          "knock"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: lock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "Not: sock. In knock, the k is silent.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 165,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0166",
+        "version": 1,
+        "contentHash": "sha256:9d22188d269182260e17cabad3bc4b053a67bcfdaa9495faad5a3bc080ad219b",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 166,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0167",
+        "version": 1,
+        "contentHash": "sha256:823bcf07fe97ba7d70e1d8b9623c4edb73af0fd7525a617776282d7ad19ffcfb",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 167,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0168",
+        "version": 1,
+        "contentHash": "sha256:746d8f5da94fc69fdd4d1b4dc00fea137f2529b4bab1a5a9e7696d1e549edd21",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 168,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0169",
+        "version": 1,
+        "contentHash": "sha256:5133e493d28e36af1867e75f81d38a1a8ab16f753f320576acaaf199749749ce",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which spelling is correct?",
+        "choices": [
+          "beacuse",
+          "becuase",
+          "becaus",
+          "because"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Common high-frequency words need careful spelling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: because. Common high-frequency words need careful spelling.",
+          "incorrect": [
+            "Not: beacuse. Common high-frequency words need careful spelling.",
+            "Not: becuase. Common high-frequency words need careful spelling.",
+            "Not: becaus. Common high-frequency words need careful spelling.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 169
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0170",
+        "version": 1,
+        "contentHash": "sha256:46fc2950ed7ef7e04f837b210d170bec929fd49006d4aeea570b4e751bfa1f20",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root photo means light. What does photograph most nearly mean?",
+        "choices": [
+          "a picture made with light",
+          "a sound made underground",
+          "a person who writes",
+          "a kind of water"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Roots can help readers infer word meanings.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a picture made with light. Roots can help readers infer word meanings.",
+          "incorrect": [
+            "",
+            "Not: a sound made underground. Roots can help readers infer word meanings.",
+            "Not: a person who writes. Roots can help readers infer word meanings.",
+            "Not: a kind of water. Roots can help readers infer word meanings."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 170
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0171",
+        "version": 1,
+        "contentHash": "sha256:1aa43243329dbe864c6469b3f35b0c839b5651d010e9ad4cd75ab26b6b5eea94",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. The root port means carry. What does portable mean?",
+        "choices": [
+          "full of light",
+          "able to be carried",
+          "against water",
+          "not visible"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "The root gives a clue to meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: able to be carried. The root gives a clue to meaning.",
+          "incorrect": [
+            "Not: full of light. The root gives a clue to meaning.",
+            "",
+            "Not: against water. The root gives a clue to meaning.",
+            "Not: not visible. The root gives a clue to meaning."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 171
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0172",
+        "version": 1,
+        "contentHash": "sha256:78617832b5475faaa1c8928df76b021d34c4d283e0972ae80c0540092f4d7613",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"The bat flew at dusk,\" what does bat mean?",
+        "choices": [
+          "to hit something",
+          "a stick used in baseball",
+          "a flying mammal",
+          "a folded paper"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Context tells which meaning of a multiple-meaning word is intended.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: a flying mammal. Context tells which meaning of a multiple-meaning word is intended.",
+          "incorrect": [
+            "Not: to hit something. Context tells which meaning of a multiple-meaning word is intended.",
+            "Not: a stick used in baseball. Context tells which meaning of a multiple-meaning word is intended.",
+            "",
+            "Not: a folded paper. Context tells which meaning of a multiple-meaning word is intended."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 172
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0173",
+        "version": 1,
+        "contentHash": "sha256:acf91216e908c06304091b5d02602bf4a8dbefeb17312ac0cff63305bfa973ef",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. In \"Please park the car near the park,\" which word has two meanings?",
+        "choices": [
+          "car",
+          "please",
+          "near",
+          "park"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Some words have more than one meaning.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: park. Some words have more than one meaning.",
+          "incorrect": [
+            "Not: car. Some words have more than one meaning.",
+            "Not: please. Some words have more than one meaning.",
+            "Not: near. Some words have more than one meaning.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 173
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0174",
+        "version": 1,
+        "contentHash": "sha256:802acf8bb0c1151b83c9cde872fffed51c1f661ad3b165e3f5114e44e5f10e56",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the strongest meaning?",
+        "choices": [
+          "sprinted",
+          "walked",
+          "moved",
+          "went"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Shades of meaning show stronger or more precise word choices.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: sprinted. Shades of meaning show stronger or more precise word choices.",
+          "incorrect": [
+            "",
+            "Not: walked. Shades of meaning show stronger or more precise word choices.",
+            "Not: moved. Shades of meaning show stronger or more precise word choices.",
+            "Not: went. Shades of meaning show stronger or more precise word choices."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 174
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0175",
+        "version": 1,
+        "contentHash": "sha256:06acf6bd233912a71a3f2842a42c600954a9262e9bed55119d21f529f7488e62",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word is gentler than furious?",
+        "choices": [
+          "enraged",
+          "upset",
+          "livid",
+          "explosive"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Words can show different degrees of feeling.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: upset. Words can show different degrees of feeling.",
+          "incorrect": [
+            "Not: enraged. Words can show different degrees of feeling.",
+            "",
+            "Not: livid. Words can show different degrees of feeling.",
+            "Not: explosive. Words can show different degrees of feeling."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 175
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0176",
+        "version": 1,
+        "contentHash": "sha256:a9d88a8f2ee1914560d7cc867f8d5fdf5140ddf77f0a32f92d8aa52bc9115ab2",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. How many syllables are in computer?",
+        "choices": [
+          "two",
+          "one",
+          "three",
+          "four"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Syllables are beats in a word: com-pu-ter.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: three. Syllables are beats in a word: com-pu-ter.",
+          "incorrect": [
+            "Not: two. Syllables are beats in a word: com-pu-ter.",
+            "Not: one. Syllables are beats in a word: com-pu-ter.",
+            "",
+            "Not: four. Syllables are beats in a word: com-pu-ter."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 176
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0177",
+        "version": 1,
+        "contentHash": "sha256:12905e73939ae8e7279779a729bd698f59c41000cbf3205dcded3cfc80a6ab90",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has a closed first syllable?",
+        "choices": [
+          "music",
+          "paper",
+          "tiger",
+          "rabbit"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "A closed syllable ends in a consonant and often has a short vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rabbit. A closed syllable ends in a consonant and often has a short vowel sound.",
+          "incorrect": [
+            "Not: music. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: paper. A closed syllable ends in a consonant and often has a short vowel sound.",
+            "Not: tiger. A closed syllable ends in a consonant and often has a short vowel sound.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 177
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0178",
+        "version": 1,
+        "contentHash": "sha256:9d22188d269182260e17cabad3bc4b053a67bcfdaa9495faad5a3bc080ad219b",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has the vowel team ai?",
+        "choices": [
+          "rain",
+          "ran",
+          "rake",
+          "ring"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "Vowel teams use letters together to spell one vowel sound.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: rain. Vowel teams use letters together to spell one vowel sound.",
+          "incorrect": [
+            "",
+            "Not: ran. Vowel teams use letters together to spell one vowel sound.",
+            "Not: rake. Vowel teams use letters together to spell one vowel sound.",
+            "Not: ring. Vowel teams use letters together to spell one vowel sound."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 178,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0179",
+        "version": 1,
+        "contentHash": "sha256:823bcf07fe97ba7d70e1d8b9623c4edb73af0fd7525a617776282d7ad19ffcfb",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word has an r-controlled vowel?",
+        "choices": [
+          "bad",
+          "bird",
+          "bead",
+          "bend"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "An r-controlled vowel is changed by the letter r.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: bird. An r-controlled vowel is changed by the letter r.",
+          "incorrect": [
+            "Not: bad. An r-controlled vowel is changed by the letter r.",
+            "",
+            "Not: bead. An r-controlled vowel is changed by the letter r.",
+            "Not: bend. An r-controlled vowel is changed by the letter r."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 179,
+          "allowDuplicateContentHash": true
+        }
+      },
+      {
+        "id": "vocabulary-spelling-patterns-q0180",
+        "version": 1,
+        "contentHash": "sha256:746d8f5da94fc69fdd4d1b4dc00fea137f2529b4bab1a5a9e7696d1e549edd21",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Which word contains a silent letter?",
+        "choices": [
+          "sock",
+          "rock",
+          "knock",
+          "lock"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Vocabulary and word-study skills help readers decode words, understand meanings, and choose precise language.",
+          "example": "In knock, the k is silent.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: knock. In knock, the k is silent.",
+          "incorrect": [
+            "Not: sock. In knock, the k is silent.",
+            "Not: rock. In knock, the k is silent.",
+            "",
+            "Not: lock. In knock, the k is silent."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "spelling patterns",
+            "vowel teams",
+            "r-controlled vowels"
+          ],
+          "standards": [
+            "RF/L.2-5"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling-patterns",
+          "sequence": 180,
+          "allowDuplicateContentHash": true
+        }
+      }
+    ],
+    "metadata": {
+      "gradesSupported": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficultiesSupported": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+    }
+  }
+}
+  );
+})();

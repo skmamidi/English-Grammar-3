@@ -1,0 +1,9390 @@
+/**
+ * English Language Quiz App - grammar chunk: grammar-irregular-nouns-plurals
+ * Generated from assets/question-banks/grammar.js.
+ */
+(function () {
+  'use strict';
+  window.QUESTION_BANK = Object.assign(window.QUESTION_BANK || {}, {
+  "grammar-irregular-nouns-plurals": {
+    "title": "Irregular Nouns & Plurals",
+    "topic": "Grammar & Usage",
+    "questions": [
+      {
+        "id": "grammar-irregular-nouns-plurals-q0001",
+        "version": 1,
+        "contentHash": "sha256:479f91b7ac507ae65236918af41a353c92d5a489482cf979122748a0378b106b",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "children",
+          "childs",
+          "childes",
+          "childrens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 1
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0002",
+        "version": 1,
+        "contentHash": "sha256:6ea27fab3ff3f99b5e015cd078ff900e539b2e92b359122cb5a23189ee533ed2",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mouses",
+          "mice",
+          "mouse",
+          "mices"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mouses. Mouse changes to mice.",
+            "",
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 2
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0003",
+        "version": 1,
+        "contentHash": "sha256:77fc858bcb48dc9544719970bc674ae7211f698eb1f8a8cc872fa357a7a85262",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feets",
+          "foots",
+          "feet",
+          "foot"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: feets. Foot changes to feet.",
+            "Not: foots. Foot changes to feet.",
+            "",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 3
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0004",
+        "version": 1,
+        "contentHash": "sha256:a911eaab2d2736a24b39ce9cd3b420a1c832c889014936be8d91d37bf66917c9",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooth",
+          "tooths",
+          "toothes",
+          "teeth"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooth. Tooth changes to teeth.",
+            "Not: tooths. Tooth changes to teeth.",
+            "Not: toothes. Tooth changes to teeth.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 4
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0005",
+        "version": 1,
+        "contentHash": "sha256:b809071670c91a46aa2109316341cd3d056d9a4f33b4d492d658789dcbb26d72",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "geese",
+          "gooses",
+          "goose",
+          "geeses"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "",
+            "Not: gooses. Goose changes to geese.",
+            "Not: goose. Goose changes to geese.",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 5
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0006",
+        "version": 1,
+        "contentHash": "sha256:eccfdaa535d3e7dee31f0303348968a6a4988475e7b5d69ff58eb2d3ed785085",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persons only",
+          "people",
+          "peoples only",
+          "persones"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persons only. Person often changes to people.",
+            "",
+            "Not: peoples only. Person often changes to people.",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 6
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0007",
+        "version": 1,
+        "contentHash": "sha256:1603a64aae750c3268a0d97a4cd31dfdb5a632ca7a8ff590b5ef4f1c37a7a02c",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cactus's",
+          "cactuses only",
+          "cacti",
+          "cacties"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 7
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0008",
+        "version": 1,
+        "contentHash": "sha256:520e92459f8f874e16dc27a45af5024611beee3012b36105ee173823c009c864",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysies",
+          "analysises",
+          "analysis",
+          "analyses"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysies. Analysis changes to analyses.",
+            "Not: analysises. Analysis changes to analyses.",
+            "Not: analysis. Analysis changes to analyses.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 8
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0009",
+        "version": 1,
+        "contentHash": "sha256:dd0a39e9838cd98148c7fba3d8fe44696d061ebf3d4e8ef781d4f12ed0fe7fbd",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "women",
+          "womans",
+          "womanes",
+          "womens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "",
+            "Not: womans. Woman changes to women.",
+            "Not: womanes. Woman changes to women.",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 9
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0010",
+        "version": 1,
+        "contentHash": "sha256:56fc7e3bcf4ab39f4f98b2413f882a7c5830f29cbd7ef82c3971e40a9dee58b6",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mans",
+          "men",
+          "manes",
+          "mens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mans. Man changes to men.",
+            "",
+            "Not: manes. Man changes to men.",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 10
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0011",
+        "version": 1,
+        "contentHash": "sha256:9745b03171018986b1dc61f0d1738c9fb3c73798111debc9fafa3cd85a764cfe",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheepes are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheep are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 11
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0012",
+        "version": 1,
+        "contentHash": "sha256:964dfe9422eda84e9da4a24414829938fc6b92d3a0f9d0e4c16f2954e5a3918a",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deer's crossed the road.",
+          "The deers crossed the road.",
+          "The deeres crossed the road.",
+          "The deer crossed the road."
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deer's crossed the road.. Deer can be singular or plural.",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 12
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0013",
+        "version": 1,
+        "contentHash": "sha256:071ff7ebff3c48bc5bc9757610bf4ca2bb11e49ef1402c5f2ba756ef57db5b34",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leaves",
+          "leafs",
+          "leafes",
+          "leaf"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 13
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0014",
+        "version": 1,
+        "contentHash": "sha256:95971b767437fe56e30ff60745abace62837a56aa6ed189958342a88c1d733da",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolfs",
+          "wolves",
+          "wolfes",
+          "wolf"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolfs. Wolf changes to wolves.",
+            "",
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 14
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0015",
+        "version": 1,
+        "contentHash": "sha256:fe4e1ab21c53ed5f7ced10361f344d963c3a59cf05ec54e3d30b28d00423900c",
+        "question": "Grade 2 Easy: Choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisis",
+          "crisises",
+          "crises",
+          "crisies"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisises. Crisis changes to crises.",
+            "",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 15
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0016",
+        "version": 1,
+        "contentHash": "sha256:c4cdd36b083f5cc6d0028e2467c246bca00f0440c5ab570f84899d4b73346ceb",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childrens",
+          "childs",
+          "childes",
+          "children"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 16
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0017",
+        "version": 1,
+        "contentHash": "sha256:e7bc1eca75e8950465fd61505f653efc6d9168ed7266654dabbe1eea15973a4e",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mice",
+          "mouses",
+          "mouse",
+          "mices"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "",
+            "Not: mouses. Mouse changes to mice.",
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 17
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0018",
+        "version": 1,
+        "contentHash": "sha256:920cb2a6641d16a3fef1d1a7f28f8b77040407d4db5ed858810cd2e8ae88953a",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "foots",
+          "feet",
+          "feets",
+          "foot"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: foots. Foot changes to feet.",
+            "",
+            "Not: feets. Foot changes to feet.",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 18
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0019",
+        "version": 1,
+        "contentHash": "sha256:edb1f31d658209f6643b813fa0368d8528941621324e2e4d511e0905a1960aec",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "toothes",
+          "tooths",
+          "teeth",
+          "tooth"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooths. Tooth changes to teeth.",
+            "",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 19
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0020",
+        "version": 1,
+        "contentHash": "sha256:e0cac9138f5b1c4f93f1b0fb199fae803e49079fc0cc74819ba63163640ca3d0",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "geeses",
+          "gooses",
+          "goose",
+          "geese"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: geeses. Goose changes to geese.",
+            "Not: gooses. Goose changes to geese.",
+            "Not: goose. Goose changes to geese.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 20
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0021",
+        "version": 1,
+        "contentHash": "sha256:22c59000b2dcfcaa0bb285262fbf837f59f7a84d285b482d9f8a92587982e133",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "people",
+          "persons only",
+          "peoples only",
+          "persones"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "",
+            "Not: persons only. Person often changes to people.",
+            "Not: peoples only. Person often changes to people.",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 21
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0022",
+        "version": 1,
+        "contentHash": "sha256:9e93e692e26d3dd6b5c74ecb137fe6913206e6ff19820b66a05e13deb38472b6",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cactuses only",
+          "cacti",
+          "cactus's",
+          "cacties"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 22
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0023",
+        "version": 1,
+        "contentHash": "sha256:3b41b57eb61542f1722a79fc33333859d8061a032fbab3750c836bda0ba61451",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysis",
+          "analysises",
+          "analyses",
+          "analysies"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysises. Analysis changes to analyses.",
+            "",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 23
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0024",
+        "version": 1,
+        "contentHash": "sha256:96f529ebc03e391d06ae479029c2067f41966707aa04468221abd491bf58cd8d",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womens",
+          "womans",
+          "womanes",
+          "women"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womens. Woman changes to women.",
+            "Not: womans. Woman changes to women.",
+            "Not: womanes. Woman changes to women.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 24
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0025",
+        "version": 1,
+        "contentHash": "sha256:df9a6d3151c4d9f4d49e8e5e6680f62c6aa263a05dd5f1d453845224b7010fe1",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "men",
+          "mans",
+          "manes",
+          "mens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "",
+            "Not: mans. Man changes to men.",
+            "Not: manes. Man changes to men.",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 25
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0026",
+        "version": 1,
+        "contentHash": "sha256:5d25f121c73462b62c82c3fd7d24d5265be1f1a60fc6ee74a4929ca75aead2c4",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheeps are grazing by the fence.",
+          "The sheep are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 26
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0027",
+        "version": 1,
+        "contentHash": "sha256:534d283aa302f9761e379817d4de2cfd0e3b3132485ad0dcc9ce811253d56985",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deeres crossed the road.",
+          "The deers crossed the road.",
+          "The deer crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 27
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0028",
+        "version": 1,
+        "contentHash": "sha256:fb668b89e11d9cf6764db9bc5dd098ece369215e8842e0d9884bd3176c17248b",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leaf",
+          "leafs",
+          "leafes",
+          "leaves"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leaf. Some nouns ending in f change to ves.",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 28
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0029",
+        "version": 1,
+        "contentHash": "sha256:197924c2995e23e5f4c88d239c59f3c2eba79bb889f9d738681b76ee5fcbea72",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolves",
+          "wolfs",
+          "wolfes",
+          "wolf"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "",
+            "Not: wolfs. Wolf changes to wolves.",
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 29
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0030",
+        "version": 1,
+        "contentHash": "sha256:1db4be2b3c810fc7a976b90787d264ddbc88f8765abce74d6cf4454644aa38da",
+        "question": "Grade 2 Medium: Use the context to choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisises",
+          "crises",
+          "crisis",
+          "crisies"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisises. Crisis changes to crises.",
+            "",
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 30
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0031",
+        "version": 1,
+        "contentHash": "sha256:9124f8c3015fd59cd9fc1cb5ca9c823dd434bf8da9bde280d92b4fe82c7d30ad",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childes",
+          "childs",
+          "children",
+          "childrens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 31
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0032",
+        "version": 1,
+        "contentHash": "sha256:dc9364062016d2a8cd14e712c53dbc60866b1351881efb736012191a7723dcf2",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mices",
+          "mouses",
+          "mouse",
+          "mice"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mices. Mouse changes to mice.",
+            "Not: mouses. Mouse changes to mice.",
+            "Not: mouse. Mouse changes to mice.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 32
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0033",
+        "version": 1,
+        "contentHash": "sha256:a57447ef06b35805f7d034b0c0cc35984c84a4502eb07f76e6216a53bc1fa1ae",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feet",
+          "foots",
+          "feets",
+          "foot"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "",
+            "Not: foots. Foot changes to feet.",
+            "Not: feets. Foot changes to feet.",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 33
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0034",
+        "version": 1,
+        "contentHash": "sha256:927ced405dbc8e7ec8a8212d27c66b097d8355a44d4413d101bb274a69fc04a6",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooths",
+          "teeth",
+          "toothes",
+          "tooth"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooths. Tooth changes to teeth.",
+            "",
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 34
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0035",
+        "version": 1,
+        "contentHash": "sha256:399e3330eacccba33d9d11e50fcfd63db67c69591066ec88534f13aab9144506",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "goose",
+          "gooses",
+          "geese",
+          "geeses"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: goose. Goose changes to geese.",
+            "Not: gooses. Goose changes to geese.",
+            "",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 35
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0036",
+        "version": 1,
+        "contentHash": "sha256:0c7dbc61d8c656a16eb8cf685ac8624fe6017c7d9d569fea76e6674db50d89f7",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persones",
+          "persons only",
+          "peoples only",
+          "people"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persones. Person often changes to people.",
+            "Not: persons only. Person often changes to people.",
+            "Not: peoples only. Person often changes to people.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 36
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0037",
+        "version": 1,
+        "contentHash": "sha256:508b219674ab7713d198d1714bb106efb12312f274c498d35e2cf74fd5f17024",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cacti",
+          "cactuses only",
+          "cactus's",
+          "cacties"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 37
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0038",
+        "version": 1,
+        "contentHash": "sha256:66f8a769e01ee001eafb7b945f7eef9f517263cc929b6216dabd4c2d40f76261",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysises",
+          "analyses",
+          "analysis",
+          "analysies"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysises. Analysis changes to analyses.",
+            "",
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 38
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0039",
+        "version": 1,
+        "contentHash": "sha256:f4057349ef8a204290acb280f19f46d61ebfea9dc92c000abdfc02b4f413fb28",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womanes",
+          "womans",
+          "women",
+          "womens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womanes. Woman changes to women.",
+            "Not: womans. Woman changes to women.",
+            "",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 39
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0040",
+        "version": 1,
+        "contentHash": "sha256:b350e77d1e6579a8917cecaca61fe70e290905b5f5ec2ad6d14dc543e58df061",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mens",
+          "mans",
+          "manes",
+          "men"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mens. Man changes to men.",
+            "Not: mans. Man changes to men.",
+            "Not: manes. Man changes to men.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 40
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0041",
+        "version": 1,
+        "contentHash": "sha256:d36dea40f60d057f2af8bb7ff381b5afbbc04afa2353a6d0c3ebf40006766c6a",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The sheep are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 41
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0042",
+        "version": 1,
+        "contentHash": "sha256:d59864a39e78e3bb78888ef6b1e0b50db73c997467b68cf65a35e32d9f0e6fb4",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The deers crossed the road.",
+          "The deer crossed the road.",
+          "The deeres crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 42
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0043",
+        "version": 1,
+        "contentHash": "sha256:d7b52640e05fe942a280d23d71ff014a50f30f9a2aed4cb3ccb0c649a6bd86fd",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leafes",
+          "leafs",
+          "leaves",
+          "leaf"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 43
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0044",
+        "version": 1,
+        "contentHash": "sha256:e7e360bc23f439e20c0d5a2b1e5838b06439220730a59bcca57c9454c245ef23",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolf",
+          "wolfs",
+          "wolfes",
+          "wolves"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolf. Wolf changes to wolves.",
+            "Not: wolfs. Wolf changes to wolves.",
+            "Not: wolfes. Wolf changes to wolves.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 44
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0045",
+        "version": 1,
+        "contentHash": "sha256:32e743f6288a322f36b22e394d0fbdc458ce5be7b13c0bbccd38e4dd34df3385",
+        "question": "Grade 2 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crises",
+          "crisises",
+          "crisis",
+          "crisies"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "",
+            "Not: crisises. Crisis changes to crises.",
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            3
+          ],
+          "difficultyByGrade": {
+            "3": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 45
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0046",
+        "version": 1,
+        "contentHash": "sha256:85cec730441b2949d88b73a8e4d6971453430192d49438bca576596c88117c34",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childes",
+          "childs",
+          "children",
+          "childrens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 46
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0047",
+        "version": 1,
+        "contentHash": "sha256:a8301370c21f39c1c5c88fe94c91c6ca4c3a0b7fdaed42bb585b33f18d5241b1",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mices",
+          "mouses",
+          "mouse",
+          "mice"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mices. Mouse changes to mice.",
+            "Not: mouses. Mouse changes to mice.",
+            "Not: mouse. Mouse changes to mice.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 47
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0048",
+        "version": 1,
+        "contentHash": "sha256:e437826b17a6e95651f11e5505ced616b9b0ad546ad9ef7e0dfc06368367533f",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feet",
+          "foots",
+          "feets",
+          "foot"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "",
+            "Not: foots. Foot changes to feet.",
+            "Not: feets. Foot changes to feet.",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 48
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0049",
+        "version": 1,
+        "contentHash": "sha256:a0525c51627ba54e17968b7cafa89b16c8b6e10f80d98d15d97e12f82269b874",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooths",
+          "teeth",
+          "toothes",
+          "tooth"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooths. Tooth changes to teeth.",
+            "",
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 49
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0050",
+        "version": 1,
+        "contentHash": "sha256:380394e647f4798ee02ed8b89f5a80c9bfb7b06c6025b87bf744ef0c6ee19525",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "goose",
+          "gooses",
+          "geese",
+          "geeses"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: goose. Goose changes to geese.",
+            "Not: gooses. Goose changes to geese.",
+            "",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 50
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0051",
+        "version": 1,
+        "contentHash": "sha256:b255f06f6d848e96a7cf4ce7903162f91903c4dc8e6eec4b74848408dedb1068",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persones",
+          "persons only",
+          "peoples only",
+          "people"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persones. Person often changes to people.",
+            "Not: persons only. Person often changes to people.",
+            "Not: peoples only. Person often changes to people.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 51
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0052",
+        "version": 1,
+        "contentHash": "sha256:f9ec74742d362aadff7002de2faa34cbea6c4b92260379c744f34cd8d7075999",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cacti",
+          "cactuses only",
+          "cactus's",
+          "cacties"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 52
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0053",
+        "version": 1,
+        "contentHash": "sha256:2d076b09ff906d130799d4ca46b98f9ed89fa455b6953707c68007fca07bd389",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysises",
+          "analyses",
+          "analysis",
+          "analysies"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysises. Analysis changes to analyses.",
+            "",
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 53
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0054",
+        "version": 1,
+        "contentHash": "sha256:a22ba6370f8955ed66f0c667e38785fea4c701f4261f7e8dd27a9799c1aef404",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womanes",
+          "womans",
+          "women",
+          "womens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womanes. Woman changes to women.",
+            "Not: womans. Woman changes to women.",
+            "",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 54
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0055",
+        "version": 1,
+        "contentHash": "sha256:782299303a75451bb28b1c015649ac8deb4002863cba4316f7ac3aa6c612ca7c",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mens",
+          "mans",
+          "manes",
+          "men"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mens. Man changes to men.",
+            "Not: mans. Man changes to men.",
+            "Not: manes. Man changes to men.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 55
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0056",
+        "version": 1,
+        "contentHash": "sha256:24555bde3454d231373fd4a42e086b0a3a3ccc6a42772b6d5406cd19a6fab7f0",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheep are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 56
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0057",
+        "version": 1,
+        "contentHash": "sha256:cdf51088ce031ab7aed2229723911dc064de23fe60ae8e847365c3da1703f154",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deers crossed the road.",
+          "The deer crossed the road.",
+          "The deeres crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 57
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0058",
+        "version": 1,
+        "contentHash": "sha256:c27cf3138a3695e6e9d351e1f22b527029cbd975f33d040c269a9c83e5559f43",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leafes",
+          "leafs",
+          "leaves",
+          "leaf"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 58
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0059",
+        "version": 1,
+        "contentHash": "sha256:16163334d20930f0fc2a6c292699bfcc561b4584b588c87b4a712a77fa0a2aee",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolf",
+          "wolfs",
+          "wolfes",
+          "wolves"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolf. Wolf changes to wolves.",
+            "Not: wolfs. Wolf changes to wolves.",
+            "Not: wolfes. Wolf changes to wolves.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 59
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0060",
+        "version": 1,
+        "contentHash": "sha256:3f478051adf4e81b57c31f9b13607376a7f15666e198fecc16e6a12aabc97421",
+        "question": "Grade 3 Easy: Choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crises",
+          "crisises",
+          "crisis",
+          "crisies"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "",
+            "Not: crisises. Crisis changes to crises.",
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 60
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0061",
+        "version": 1,
+        "contentHash": "sha256:8746f2e10d6ad583560d9c0c432360de4135abc731d58ef6837fb95d2005602b",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childs",
+          "children",
+          "childes",
+          "childrens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 61
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0062",
+        "version": 1,
+        "contentHash": "sha256:51c0877a7410a7bb8bf53e98cbf45f4344774552d05e62ecbfd6c2623e90b73b",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mouse",
+          "mouses",
+          "mice",
+          "mices"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mouses. Mouse changes to mice.",
+            "",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 62
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0063",
+        "version": 1,
+        "contentHash": "sha256:adf840c99ef58396c700035f6d5416e2244cfadf7667a7769182aa4b6e65204d",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "foot",
+          "foots",
+          "feets",
+          "feet"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: foot. Foot changes to feet.",
+            "Not: foots. Foot changes to feet.",
+            "Not: feets. Foot changes to feet.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 63
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0064",
+        "version": 1,
+        "contentHash": "sha256:d3475d3c7fc7b0558ae17c6f12e7b5cf0d489281ebd5c7cdc7080039c767d3f6",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "teeth",
+          "tooths",
+          "toothes",
+          "tooth"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "",
+            "Not: tooths. Tooth changes to teeth.",
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 64
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0065",
+        "version": 1,
+        "contentHash": "sha256:fffe3f839082a99a3524efbf508a4f1ac9058a1ccde3a77ade8526eb55f3ac08",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "gooses",
+          "geese",
+          "goose",
+          "geeses"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: gooses. Goose changes to geese.",
+            "",
+            "Not: goose. Goose changes to geese.",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 65
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0066",
+        "version": 1,
+        "contentHash": "sha256:47bb976230bd412016f0a140dc62f4a714db2699ec6e81d2bc110d768664f37e",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "peoples only",
+          "persons only",
+          "people",
+          "persones"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: peoples only. Person often changes to people.",
+            "Not: persons only. Person often changes to people.",
+            "",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 66
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0067",
+        "version": 1,
+        "contentHash": "sha256:e8ec203ad55230040f6eee866d34d7fe881e23ba5b90a63aa2b163f0d09d8180",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cacties",
+          "cactuses only",
+          "cactus's",
+          "cacti"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cacties. Some Latin-origin words have special plural forms.",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 67
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0068",
+        "version": 1,
+        "contentHash": "sha256:e37fddff406bf87768ee03ef14e02b103f2a3abe360ddc8b12bf66507fb8a7d4",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analyses",
+          "analysises",
+          "analysis",
+          "analysies"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "",
+            "Not: analysises. Analysis changes to analyses.",
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 68
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0069",
+        "version": 1,
+        "contentHash": "sha256:a07e7c4f359fc2ba4aee0431c3443a9ddb8668625779f7075edac9fa72cf2782",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womans",
+          "women",
+          "womanes",
+          "womens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womans. Woman changes to women.",
+            "",
+            "Not: womanes. Woman changes to women.",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 69
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0070",
+        "version": 1,
+        "contentHash": "sha256:5f675bbb9df975e72273d44c7716e4fbc722bd0398453c1bfb05e80b37f24abc",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "manes",
+          "mans",
+          "men",
+          "mens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: manes. Man changes to men.",
+            "Not: mans. Man changes to men.",
+            "",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 70
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0071",
+        "version": 1,
+        "contentHash": "sha256:1e0b173c593cdd28f13b553505c57506a17e28fca1746146159dfdcae01543f6",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheep's are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep are grazing by the fence."
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 71
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0072",
+        "version": 1,
+        "contentHash": "sha256:d6d4af12988aa36793ed0fb9a48294e91a9ae100fbc15acc8c7b9afca8e2c72f",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deer crossed the road.",
+          "The deers crossed the road.",
+          "The deeres crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 72
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0073",
+        "version": 1,
+        "contentHash": "sha256:a68b9a55f23eefcff36df10d65016f534f3414fad4f36ee9d79e7dfef0913511",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leafs",
+          "leaves",
+          "leafes",
+          "leaf"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 73
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0074",
+        "version": 1,
+        "contentHash": "sha256:98ce2364422dfcd0f0c726d95012262db7cd0a23c93546b8893d35b79564144e",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolfes",
+          "wolfs",
+          "wolves",
+          "wolf"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolfs. Wolf changes to wolves.",
+            "",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 74
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0075",
+        "version": 1,
+        "contentHash": "sha256:ae47626569daf2bf961568083c54aab8975e09ef6ad3f432963963906813b724",
+        "question": "Grade 3 Medium: Use the context to choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisies",
+          "crisises",
+          "crisis",
+          "crises"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisies. Crisis changes to crises.",
+            "Not: crisises. Crisis changes to crises.",
+            "Not: crisis. Crisis changes to crises.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 75
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0076",
+        "version": 1,
+        "contentHash": "sha256:f208666d9d868fbedcb78577e475e910518f81453b84bdcb63a138964a7c388f",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "children",
+          "childs",
+          "childes",
+          "childrens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 76
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0077",
+        "version": 1,
+        "contentHash": "sha256:e9458e8e1a4536f5820da0697f9fb5daffd08637e55bcb094b32583b55aee311",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mouses",
+          "mice",
+          "mouse",
+          "mices"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mouses. Mouse changes to mice.",
+            "",
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 77
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0078",
+        "version": 1,
+        "contentHash": "sha256:afc5af79f10dc911295750378f380a6bbfc3b80e92cc24e9fc2772fcef510110",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feets",
+          "foots",
+          "feet",
+          "foot"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: feets. Foot changes to feet.",
+            "Not: foots. Foot changes to feet.",
+            "",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 78
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0079",
+        "version": 1,
+        "contentHash": "sha256:b56fc5f3a05a6ad3a4c8ba902bbca99be65ab7f18146e5fb2442c4022368a32d",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooth",
+          "tooths",
+          "toothes",
+          "teeth"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooth. Tooth changes to teeth.",
+            "Not: tooths. Tooth changes to teeth.",
+            "Not: toothes. Tooth changes to teeth.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 79
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0080",
+        "version": 1,
+        "contentHash": "sha256:0327ff4e9fab64ecd7cd72813be0bcafe54ad1b39bc1441b3e792fe682b944e0",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "geese",
+          "gooses",
+          "goose",
+          "geeses"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "",
+            "Not: gooses. Goose changes to geese.",
+            "Not: goose. Goose changes to geese.",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 80
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0081",
+        "version": 1,
+        "contentHash": "sha256:860047a78691fac41874d80ec788908d79b0000726fdca126e9360c706197bcc",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persons only",
+          "people",
+          "peoples only",
+          "persones"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persons only. Person often changes to people.",
+            "",
+            "Not: peoples only. Person often changes to people.",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 81
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0082",
+        "version": 1,
+        "contentHash": "sha256:365bbc8fc7f73f221c84d1ecda3514f791b5e6935b599bbcefd45e318df054d8",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cactus's",
+          "cactuses only",
+          "cacti",
+          "cacties"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 82
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0083",
+        "version": 1,
+        "contentHash": "sha256:8a246dd8017418d44acf3f670c63bfe8f333d954763653e470534e9ab4973b17",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysies",
+          "analysises",
+          "analysis",
+          "analyses"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysies. Analysis changes to analyses.",
+            "Not: analysises. Analysis changes to analyses.",
+            "Not: analysis. Analysis changes to analyses.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 83
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0084",
+        "version": 1,
+        "contentHash": "sha256:3100f289ab81e0455aecea95b607681f2090ed3f74b9a3b973d54762871ba663",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "women",
+          "womans",
+          "womanes",
+          "womens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "",
+            "Not: womans. Woman changes to women.",
+            "Not: womanes. Woman changes to women.",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 84
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0085",
+        "version": 1,
+        "contentHash": "sha256:77a6c830b998c077f559657edb00d2be43b2211513fbb8dc45cbfcf7ce054d28",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mans",
+          "men",
+          "manes",
+          "mens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mans. Man changes to men.",
+            "",
+            "Not: manes. Man changes to men.",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 85
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0086",
+        "version": 1,
+        "contentHash": "sha256:7b480c20b981e9e1e115dd623bdc4028e2b78ee7297eaf1cf65c663e1c5f8933",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The sheepes are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheep are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 86
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0087",
+        "version": 1,
+        "contentHash": "sha256:98e65e6f01349dcbddbb92729cdf59d2c2320d3a276fed859d22887f7095480e",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The deer's crossed the road.",
+          "The deers crossed the road.",
+          "The deeres crossed the road.",
+          "The deer crossed the road."
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deer's crossed the road.. Deer can be singular or plural.",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 87
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0088",
+        "version": 1,
+        "contentHash": "sha256:8cdb0c7bb8a7d851660d371d1061a2a3d7f03605d8d368df3a3d4fc65a9e9562",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leaves",
+          "leafs",
+          "leafes",
+          "leaf"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 88
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0089",
+        "version": 1,
+        "contentHash": "sha256:da1dbb4f5b24a41a81b9433d27a150c21135053b5f814dfdf5568133918d669f",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolfs",
+          "wolves",
+          "wolfes",
+          "wolf"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolfs. Wolf changes to wolves.",
+            "",
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 89
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0090",
+        "version": 1,
+        "contentHash": "sha256:29139f4d623e8ac94bf220a25a4fba629f5f97a9ca13e66b648a368e1f6f7420",
+        "question": "Grade 3 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisis",
+          "crisises",
+          "crises",
+          "crisies"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisises. Crisis changes to crises.",
+            "",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 90
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0091",
+        "version": 1,
+        "contentHash": "sha256:239111e79f2cb5d612bf3524b9cba1e48a16582e4b625cf5fde06128908cc17a",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "children",
+          "childs",
+          "childes",
+          "childrens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 91
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0092",
+        "version": 1,
+        "contentHash": "sha256:40ccf5a4c07296c282e626b15dd3fe62d180d0c472824e0fc09e9413837301f4",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mouses",
+          "mice",
+          "mouse",
+          "mices"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mouses. Mouse changes to mice.",
+            "",
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 92
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0093",
+        "version": 1,
+        "contentHash": "sha256:3fc777000b1e53e83ae867195ee5d00651ce38bf64e77551ac625e00af730024",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feets",
+          "foots",
+          "feet",
+          "foot"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: feets. Foot changes to feet.",
+            "Not: foots. Foot changes to feet.",
+            "",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 93
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0094",
+        "version": 1,
+        "contentHash": "sha256:77e0c0683b0ff4dc52b3bc40aa4d38036799a3684ca71f92b3658d17553926e5",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooth",
+          "tooths",
+          "toothes",
+          "teeth"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooth. Tooth changes to teeth.",
+            "Not: tooths. Tooth changes to teeth.",
+            "Not: toothes. Tooth changes to teeth.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 94
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0095",
+        "version": 1,
+        "contentHash": "sha256:046196ba0b7fcddc136a236e986661e732d7fa72860a3dea9db3ec61d7db9f3b",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "geese",
+          "gooses",
+          "goose",
+          "geeses"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "",
+            "Not: gooses. Goose changes to geese.",
+            "Not: goose. Goose changes to geese.",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 95
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0096",
+        "version": 1,
+        "contentHash": "sha256:f6ae55d87195872695dc2d984197c9acd56c35d7bb8a33eff5b3727728e8eef9",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persons only",
+          "people",
+          "peoples only",
+          "persones"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persons only. Person often changes to people.",
+            "",
+            "Not: peoples only. Person often changes to people.",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 96
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0097",
+        "version": 1,
+        "contentHash": "sha256:32c36a6faa5e3d96d89c67989b89781926fd0ade51e377701c2a9911edb94ab7",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cactus's",
+          "cactuses only",
+          "cacti",
+          "cacties"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 97
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0098",
+        "version": 1,
+        "contentHash": "sha256:a26be5f2df83ce3b17ee7382249ba5544a74631c688e56fb56180875666dc921",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysies",
+          "analysises",
+          "analysis",
+          "analyses"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysies. Analysis changes to analyses.",
+            "Not: analysises. Analysis changes to analyses.",
+            "Not: analysis. Analysis changes to analyses.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 98
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0099",
+        "version": 1,
+        "contentHash": "sha256:9a4e113a7a0e1bd9bc7c53ed82bec80a5c11ab855d796aa06d4330457b1eabc0",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "women",
+          "womans",
+          "womanes",
+          "womens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "",
+            "Not: womans. Woman changes to women.",
+            "Not: womanes. Woman changes to women.",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 99
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0100",
+        "version": 1,
+        "contentHash": "sha256:f244b6c327d77278bcd2aa33c58c9078c4ff1e5a01bc2fb5fcb6eeb9f2ae13ca",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mans",
+          "men",
+          "manes",
+          "mens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mans. Man changes to men.",
+            "",
+            "Not: manes. Man changes to men.",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 100
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0101",
+        "version": 1,
+        "contentHash": "sha256:8ddebb29a2deb9c91568cc1f126a85e2b9e04a7e0046f6933af6c4eb407a229a",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheepes are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheep are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 101
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0102",
+        "version": 1,
+        "contentHash": "sha256:f7403a2d6b0968545d3403345dc9f9bcdad0d9611456b04fc46e47b731703259",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deer's crossed the road.",
+          "The deers crossed the road.",
+          "The deeres crossed the road.",
+          "The deer crossed the road."
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deer's crossed the road.. Deer can be singular or plural.",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 102
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0103",
+        "version": 1,
+        "contentHash": "sha256:e315c70b2383806153043b4f6da0502027cc7c4c1e4c8f7833cc2821306a5450",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leaves",
+          "leafs",
+          "leafes",
+          "leaf"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 103
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0104",
+        "version": 1,
+        "contentHash": "sha256:9715d677f9aa8a9cf46c8b95d626289e0dc7d0ea2ba96ef0ab8cf64fd35cf750",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolfs",
+          "wolves",
+          "wolfes",
+          "wolf"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolfs. Wolf changes to wolves.",
+            "",
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 104
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0105",
+        "version": 1,
+        "contentHash": "sha256:c47c6aaa2af887600facebde8ba864d1d3e574b02b5c5a9e1179879d697d4e18",
+        "question": "Grade 4 Easy: Choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisis",
+          "crisises",
+          "crises",
+          "crisies"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisises. Crisis changes to crises.",
+            "",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 105
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0106",
+        "version": 1,
+        "contentHash": "sha256:802286463801a37529275ba75ad95ff25f4bb1e908af349353e94d4f7327b3bd",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childrens",
+          "childs",
+          "childes",
+          "children"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 106
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0107",
+        "version": 1,
+        "contentHash": "sha256:f5066f2e7e478293bcf3e7e7f075d9dfa9305420b6d7edce104eeab3b089c94f",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mice",
+          "mouses",
+          "mouse",
+          "mices"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "",
+            "Not: mouses. Mouse changes to mice.",
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 107
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0108",
+        "version": 1,
+        "contentHash": "sha256:9e1532ddbd299691cef7c684a93cd47fb698e88b21080b76845d2a21dfae34db",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "foots",
+          "feet",
+          "feets",
+          "foot"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: foots. Foot changes to feet.",
+            "",
+            "Not: feets. Foot changes to feet.",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 108
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0109",
+        "version": 1,
+        "contentHash": "sha256:8fd723fb679499f501e17e20100324dbbdcd6a0e334283f8e7e0db6263269a2f",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "toothes",
+          "tooths",
+          "teeth",
+          "tooth"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooths. Tooth changes to teeth.",
+            "",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 109
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0110",
+        "version": 1,
+        "contentHash": "sha256:e194f28c957a3692c4b6af31bf779059b6edc580d0164883d9fb5921fa88178a",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "geeses",
+          "gooses",
+          "goose",
+          "geese"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: geeses. Goose changes to geese.",
+            "Not: gooses. Goose changes to geese.",
+            "Not: goose. Goose changes to geese.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 110
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0111",
+        "version": 1,
+        "contentHash": "sha256:144e0db1bb9f9fc36e1a07877739e9fd12c060d109ede1f87402b59b98f73d0f",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "people",
+          "persons only",
+          "peoples only",
+          "persones"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "",
+            "Not: persons only. Person often changes to people.",
+            "Not: peoples only. Person often changes to people.",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 111
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0112",
+        "version": 1,
+        "contentHash": "sha256:c4277b1b5fc6818a373364abf66a5c0f4a7dd4483c978c222f3183e59b820c8b",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cactuses only",
+          "cacti",
+          "cactus's",
+          "cacties"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 112
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0113",
+        "version": 1,
+        "contentHash": "sha256:4beffbd2870df959530f8c28e4f6a9b21d040a658e2d6849f7c97f4ccd1b0a2f",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysis",
+          "analysises",
+          "analyses",
+          "analysies"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysises. Analysis changes to analyses.",
+            "",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 113
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0114",
+        "version": 1,
+        "contentHash": "sha256:e12ebb45060fbee6f8f8634a7c728e4fe946e4d5a2e1c2b0482aa996bbf25bcd",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womens",
+          "womans",
+          "womanes",
+          "women"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womens. Woman changes to women.",
+            "Not: womans. Woman changes to women.",
+            "Not: womanes. Woman changes to women.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 114
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0115",
+        "version": 1,
+        "contentHash": "sha256:81984cabb6ba18db2b202079f4d4ae5c0ccfbdc0a50c6868145b857b0e421407",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "men",
+          "mans",
+          "manes",
+          "mens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "",
+            "Not: mans. Man changes to men.",
+            "Not: manes. Man changes to men.",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 115
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0116",
+        "version": 1,
+        "contentHash": "sha256:80ac4d335968d9bcc10319634b5fa4d43d6f562535a36acbea0c418023b5c169",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheeps are grazing by the fence.",
+          "The sheep are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 116
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0117",
+        "version": 1,
+        "contentHash": "sha256:84b0535879aa111426e08e5697e7e5268ad5833cb0eec0afca2ca2aacb2b393c",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deeres crossed the road.",
+          "The deers crossed the road.",
+          "The deer crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 117
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0118",
+        "version": 1,
+        "contentHash": "sha256:7eb10766d10760c44c1a1d7e098ee873a5bd77d932f40149b1d43111286d5047",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leaf",
+          "leafs",
+          "leafes",
+          "leaves"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leaf. Some nouns ending in f change to ves.",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 118
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0119",
+        "version": 1,
+        "contentHash": "sha256:64ec88601cf4274e0e5ffbc9552d7a3b5d94e0775cb8fcb4e19e5c1474c88b9c",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolves",
+          "wolfs",
+          "wolfes",
+          "wolf"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "",
+            "Not: wolfs. Wolf changes to wolves.",
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 119
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0120",
+        "version": 1,
+        "contentHash": "sha256:c0f357625b5af1c18c336588fb50e7c97616fac9dcaa449393ba43c5dde30a92",
+        "question": "Grade 4 Medium: Use the context to choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisises",
+          "crises",
+          "crisis",
+          "crisies"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisises. Crisis changes to crises.",
+            "",
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 120
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0121",
+        "version": 1,
+        "contentHash": "sha256:5b9a474d2d69561842545dbae550f69d2568610e1edea804b3c2daf0a7378f66",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childes",
+          "childs",
+          "children",
+          "childrens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 121
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0122",
+        "version": 1,
+        "contentHash": "sha256:aaeb0d6d21c755643018f86d974f2738d441d6618a0432d406bc0d2f9b67129f",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mices",
+          "mouses",
+          "mouse",
+          "mice"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mices. Mouse changes to mice.",
+            "Not: mouses. Mouse changes to mice.",
+            "Not: mouse. Mouse changes to mice.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 122
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0123",
+        "version": 1,
+        "contentHash": "sha256:d20f950d23fa9dbe8b20cd49c28d9f74f0149e99ff6c7fafc61d4b6eb0a3773a",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feet",
+          "foots",
+          "feets",
+          "foot"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "",
+            "Not: foots. Foot changes to feet.",
+            "Not: feets. Foot changes to feet.",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 123
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0124",
+        "version": 1,
+        "contentHash": "sha256:56280ee2fd3cfc9e5ed3c7690a342cca6c23b44e2718634843e747d0079339fe",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooths",
+          "teeth",
+          "toothes",
+          "tooth"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooths. Tooth changes to teeth.",
+            "",
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 124
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0125",
+        "version": 1,
+        "contentHash": "sha256:45b75208fc275ff1edb2af09f4c72a432240c6b3f90e3509d2d9ca8fdfecc101",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "goose",
+          "gooses",
+          "geese",
+          "geeses"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: goose. Goose changes to geese.",
+            "Not: gooses. Goose changes to geese.",
+            "",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 125
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0126",
+        "version": 1,
+        "contentHash": "sha256:27553abf07deea5718b14ee1c3d891815b39aef04f29ef8a4a873920691d21c1",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persones",
+          "persons only",
+          "peoples only",
+          "people"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persones. Person often changes to people.",
+            "Not: persons only. Person often changes to people.",
+            "Not: peoples only. Person often changes to people.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 126
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0127",
+        "version": 1,
+        "contentHash": "sha256:3680e669406ff0c5bc9b24ed9edb505aae0ae7563ec20d064551fc24b1a23d56",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cacti",
+          "cactuses only",
+          "cactus's",
+          "cacties"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 127
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0128",
+        "version": 1,
+        "contentHash": "sha256:518d98bb2d8979485706a7b6dcb4d14bfba6562bafcfdab08689f0071f79c9b5",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysises",
+          "analyses",
+          "analysis",
+          "analysies"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysises. Analysis changes to analyses.",
+            "",
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 128
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0129",
+        "version": 1,
+        "contentHash": "sha256:bda7c1f5f6cd17a61dbfb4bd7e972981e5d5012c4fec967628d4ef700b733bbe",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womanes",
+          "womans",
+          "women",
+          "womens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womanes. Woman changes to women.",
+            "Not: womans. Woman changes to women.",
+            "",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 129
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0130",
+        "version": 1,
+        "contentHash": "sha256:ef6c7ef42a24aa30a8ab0cc4d2d56f79cec3f8c2f241c735069de69aa70109c1",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mens",
+          "mans",
+          "manes",
+          "men"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mens. Man changes to men.",
+            "Not: mans. Man changes to men.",
+            "Not: manes. Man changes to men.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 130
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0131",
+        "version": 1,
+        "contentHash": "sha256:1f29429cc6edeb72a59938954b69acb376f79d0b0f0b8e883b6ae09378ef508e",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The sheep are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 131
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0132",
+        "version": 1,
+        "contentHash": "sha256:5a75e399968570f60479bcaedef6f96ab4956d2a0bffa587f5d3e9fa59f59de4",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The deers crossed the road.",
+          "The deer crossed the road.",
+          "The deeres crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 132
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0133",
+        "version": 1,
+        "contentHash": "sha256:a1a17679b48b357419ebe452a348335607f1d8422bbf846b1a6936a05c57c080",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leafes",
+          "leafs",
+          "leaves",
+          "leaf"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 133
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0134",
+        "version": 1,
+        "contentHash": "sha256:977483fc6174ac32f06a76f36e877301e487d21923e129347dfb346cffe7f3c9",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolf",
+          "wolfs",
+          "wolfes",
+          "wolves"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolf. Wolf changes to wolves.",
+            "Not: wolfs. Wolf changes to wolves.",
+            "Not: wolfes. Wolf changes to wolves.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 134
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0135",
+        "version": 1,
+        "contentHash": "sha256:cf22d16f5da5be092ee63ca6277ef14a114e7188fd9e86c2a283a0717b402753",
+        "question": "Grade 4 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crises",
+          "crisises",
+          "crisis",
+          "crisies"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "",
+            "Not: crisises. Crisis changes to crises.",
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            5
+          ],
+          "difficultyByGrade": {
+            "5": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 135
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0136",
+        "version": 1,
+        "contentHash": "sha256:0d5911c2e0506521b87daa3b1eb5342cf28dcdc12445436533431b949708908a",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childes",
+          "childs",
+          "children",
+          "childrens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 136
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0137",
+        "version": 1,
+        "contentHash": "sha256:e4989944e3c5ba942c100cd0b7f278e34d91c1fcc13d761468531d290db9da74",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mices",
+          "mouses",
+          "mouse",
+          "mice"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mices. Mouse changes to mice.",
+            "Not: mouses. Mouse changes to mice.",
+            "Not: mouse. Mouse changes to mice.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 137
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0138",
+        "version": 1,
+        "contentHash": "sha256:9a6ae802d6f63f7ce2bc677665701d0231db1ae3a08bf68e184cda4e879e1c29",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feet",
+          "foots",
+          "feets",
+          "foot"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "",
+            "Not: foots. Foot changes to feet.",
+            "Not: feets. Foot changes to feet.",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 138
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0139",
+        "version": 1,
+        "contentHash": "sha256:0c3db56601d295f6069c3cf64dd01998ddbd4743ee8ee16181b990c0e8ca5b1f",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooths",
+          "teeth",
+          "toothes",
+          "tooth"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooths. Tooth changes to teeth.",
+            "",
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 139
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0140",
+        "version": 1,
+        "contentHash": "sha256:1303d8692df5113131d666890acca58f572c3733d240951a7325a612181163c7",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "goose",
+          "gooses",
+          "geese",
+          "geeses"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: goose. Goose changes to geese.",
+            "Not: gooses. Goose changes to geese.",
+            "",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 140
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0141",
+        "version": 1,
+        "contentHash": "sha256:9f30222bd841547d311c9e43b9d42968c7a057368a37bb30ce55727e7edb7d20",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persones",
+          "persons only",
+          "peoples only",
+          "people"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persones. Person often changes to people.",
+            "Not: persons only. Person often changes to people.",
+            "Not: peoples only. Person often changes to people.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 141
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0142",
+        "version": 1,
+        "contentHash": "sha256:a122a6e13f1f233cc32743ac0ead436a83a356df1acfb88c68c9609110d68343",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cacti",
+          "cactuses only",
+          "cactus's",
+          "cacties"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 142
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0143",
+        "version": 1,
+        "contentHash": "sha256:644e18941505792ceeea606377d6072f24f58c7098efc23d8290ee8731a02cb8",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysises",
+          "analyses",
+          "analysis",
+          "analysies"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysises. Analysis changes to analyses.",
+            "",
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 143
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0144",
+        "version": 1,
+        "contentHash": "sha256:a44398e8b9d39c0432c9661f0b2c9368bac02358177b1afd205768f4d43926bb",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womanes",
+          "womans",
+          "women",
+          "womens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womanes. Woman changes to women.",
+            "Not: womans. Woman changes to women.",
+            "",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 144
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0145",
+        "version": 1,
+        "contentHash": "sha256:31d3eddfef84c5d482ab0a6a0563d2a2055f5818c53001a515a9796f090110cf",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mens",
+          "mans",
+          "manes",
+          "men"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mens. Man changes to men.",
+            "Not: mans. Man changes to men.",
+            "Not: manes. Man changes to men.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 145
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0146",
+        "version": 1,
+        "contentHash": "sha256:b33241dabd496b042cbcd26f05668a1d0957b5c7124a3d0d5de796d1043eed88",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheep are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 146
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0147",
+        "version": 1,
+        "contentHash": "sha256:dbe63ef4dec793c66023a016b342ca373980f42f90c13c385dc66a7beabe9860",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deers crossed the road.",
+          "The deer crossed the road.",
+          "The deeres crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 147
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0148",
+        "version": 1,
+        "contentHash": "sha256:06e2da3852fde1d71b6c25c36c3f205986046ab8240fba6035eb0d28f03545e1",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leafes",
+          "leafs",
+          "leaves",
+          "leaf"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 148
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0149",
+        "version": 1,
+        "contentHash": "sha256:216698b2451a26459edb91c4712d2ba8ffbde78be0e3df4372a98bcba1770f09",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolf",
+          "wolfs",
+          "wolfes",
+          "wolves"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolf. Wolf changes to wolves.",
+            "Not: wolfs. Wolf changes to wolves.",
+            "Not: wolfes. Wolf changes to wolves.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 149
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0150",
+        "version": 1,
+        "contentHash": "sha256:ef5fa60da420ff50172a71941d4d6d19e791e5d47cd022baee33a9e710ba34b3",
+        "question": "Grade 5 Easy: Choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crises",
+          "crisises",
+          "crisis",
+          "crisies"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "",
+            "Not: crisises. Crisis changes to crises.",
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 150
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0151",
+        "version": 1,
+        "contentHash": "sha256:320fa2fc9ba58bf3638aa024525528aedacc85d30cef98c107ea5061a154df6e",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "childs",
+          "children",
+          "childes",
+          "childrens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 151
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0152",
+        "version": 1,
+        "contentHash": "sha256:625c40edf60cb8357eac0488a8e55e7119ca9b16addafd9531d87f294e00bca8",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mouse",
+          "mouses",
+          "mice",
+          "mices"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mouses. Mouse changes to mice.",
+            "",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 152
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0153",
+        "version": 1,
+        "contentHash": "sha256:2a6ef2a913e2bad8f1286e5d8eee376b574146fc5ce3ff43149fe51c4fa5b09f",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "foot",
+          "foots",
+          "feets",
+          "feet"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: foot. Foot changes to feet.",
+            "Not: foots. Foot changes to feet.",
+            "Not: feets. Foot changes to feet.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 153
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0154",
+        "version": 1,
+        "contentHash": "sha256:8276776876d66052d6025948771e3abccb973c542c54038b441ad9d8287d4a8e",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "teeth",
+          "tooths",
+          "toothes",
+          "tooth"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "",
+            "Not: tooths. Tooth changes to teeth.",
+            "Not: toothes. Tooth changes to teeth.",
+            "Not: tooth. Tooth changes to teeth."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 154
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0155",
+        "version": 1,
+        "contentHash": "sha256:70e411e28718e7203c3ca60f31d39c2ce5788e3188831515f60bdda22a605bec",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "gooses",
+          "geese",
+          "goose",
+          "geeses"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "Not: gooses. Goose changes to geese.",
+            "",
+            "Not: goose. Goose changes to geese.",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 155
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0156",
+        "version": 1,
+        "contentHash": "sha256:17789a0e47c36d48d537f3966f656e03767042edd9a919c26c244234ab37001c",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "peoples only",
+          "persons only",
+          "people",
+          "persones"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: peoples only. Person often changes to people.",
+            "Not: persons only. Person often changes to people.",
+            "",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 156
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0157",
+        "version": 1,
+        "contentHash": "sha256:a4e1850dc43e24cd2f6f617a9a3d2ab96d1fba2f8fa075fd97dba36a5c660841",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cacties",
+          "cactuses only",
+          "cactus's",
+          "cacti"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cacties. Some Latin-origin words have special plural forms.",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 157
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0158",
+        "version": 1,
+        "contentHash": "sha256:fbdfd7c42cf0a7bd4dcd757fec3349ec2c95c9a4a1c29183ba621378ed2c4ac0",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analyses",
+          "analysises",
+          "analysis",
+          "analysies"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "",
+            "Not: analysises. Analysis changes to analyses.",
+            "Not: analysis. Analysis changes to analyses.",
+            "Not: analysies. Analysis changes to analyses."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 158
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0159",
+        "version": 1,
+        "contentHash": "sha256:267f46f4d30068885028cc7d2c3e4395915579a54d4eb815140b9f4fe2f1c5ba",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "womans",
+          "women",
+          "womanes",
+          "womens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "Not: womans. Woman changes to women.",
+            "",
+            "Not: womanes. Woman changes to women.",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 159
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0160",
+        "version": 1,
+        "contentHash": "sha256:4bef04bcf6d47d075db22e84d40e269204ea5053d8d6e872c6859f8a322413c2",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "manes",
+          "mans",
+          "men",
+          "mens"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: manes. Man changes to men.",
+            "Not: mans. Man changes to men.",
+            "",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 160
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0161",
+        "version": 1,
+        "contentHash": "sha256:d283405b633a9126415c2805400a8ebd9d34e99c50f1873a022151c710725528",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The sheep's are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheepes are grazing by the fence.",
+          "The sheep are grazing by the fence."
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 161
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0162",
+        "version": 1,
+        "contentHash": "sha256:a7b479ac5870eeb8b40b95dd633b4c61ce9f3b9aabf46e1ca6b3be40048969a4",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct sentence.",
+        "choices": [
+          "The deer crossed the road.",
+          "The deers crossed the road.",
+          "The deeres crossed the road.",
+          "The deer's crossed the road."
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            "Not: The deer's crossed the road.. Deer can be singular or plural."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 162
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0163",
+        "version": 1,
+        "contentHash": "sha256:75db4e9cf8c783f0a1b184c2813df2c2ea67ed1db02ad2abd30837f0f8106530",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leafs",
+          "leaves",
+          "leafes",
+          "leaf"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 163
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0164",
+        "version": 1,
+        "contentHash": "sha256:b39e1e0d59e2af12330c8d47095b11214b76f6d76ecb3ec8d4dcddb63062ba37",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolfes",
+          "wolfs",
+          "wolves",
+          "wolf"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolfs. Wolf changes to wolves.",
+            "",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 164
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0165",
+        "version": 1,
+        "contentHash": "sha256:a9b7c4d65bcce284c6061aae964532a27fb4509bf5701e1ad9c6eb79b851cbea",
+        "question": "Grade 5 Medium: Use the context to choose the best answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisies",
+          "crisises",
+          "crisis",
+          "crises"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisies. Crisis changes to crises.",
+            "Not: crisises. Crisis changes to crises.",
+            "Not: crisis. Crisis changes to crises.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "apply-with-context",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 165
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0166",
+        "version": 1,
+        "contentHash": "sha256:7ea52735e875c93ac733d98e0d3f0ea316b61f5f408adee2ed660847e6903f4c",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one child, two ___.",
+        "choices": [
+          "children",
+          "childs",
+          "childes",
+          "childrens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Irregular plural nouns do not follow the usual -s pattern.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: children. Irregular plural nouns do not follow the usual -s pattern.",
+          "incorrect": [
+            "",
+            "Not: childs. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childes. Irregular plural nouns do not follow the usual -s pattern.",
+            "Not: childrens. Irregular plural nouns do not follow the usual -s pattern."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 166
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0167",
+        "version": 1,
+        "contentHash": "sha256:31be6e37503a45f11352dc21f2d3f90973d8a872280611b72af57fca1c8fe6b1",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one mouse, three ___.",
+        "choices": [
+          "mouses",
+          "mice",
+          "mouse",
+          "mices"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Mouse changes to mice.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: mice. Mouse changes to mice.",
+          "incorrect": [
+            "Not: mouses. Mouse changes to mice.",
+            "",
+            "Not: mouse. Mouse changes to mice.",
+            "Not: mices. Mouse changes to mice."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 167
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0168",
+        "version": 1,
+        "contentHash": "sha256:2250ec5cfd8afcf6a4a6fa9401ce5c8217cd47fee1d5bb2f905fe1e4a4d47f24",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one foot, two ___.",
+        "choices": [
+          "feets",
+          "foots",
+          "feet",
+          "foot"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Foot changes to feet.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: feet. Foot changes to feet.",
+          "incorrect": [
+            "Not: feets. Foot changes to feet.",
+            "Not: foots. Foot changes to feet.",
+            "",
+            "Not: foot. Foot changes to feet."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 168
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0169",
+        "version": 1,
+        "contentHash": "sha256:0d4ae2f69791c4a3242715fc75adeb357a09cd0b961c3fd0cb9bb1e08b1c27ef",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one tooth, many ___.",
+        "choices": [
+          "tooth",
+          "tooths",
+          "toothes",
+          "teeth"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Tooth changes to teeth.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: teeth. Tooth changes to teeth.",
+          "incorrect": [
+            "Not: tooth. Tooth changes to teeth.",
+            "Not: tooths. Tooth changes to teeth.",
+            "Not: toothes. Tooth changes to teeth.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 169
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0170",
+        "version": 1,
+        "contentHash": "sha256:4f6089c3fd7a5c3ecc67f88a62063604fa5a88930b3e85d784834fda3721338a",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one goose, several ___.",
+        "choices": [
+          "geese",
+          "gooses",
+          "goose",
+          "geeses"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Goose changes to geese.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: geese. Goose changes to geese.",
+          "incorrect": [
+            "",
+            "Not: gooses. Goose changes to geese.",
+            "Not: goose. Goose changes to geese.",
+            "Not: geeses. Goose changes to geese."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 170
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0171",
+        "version": 1,
+        "contentHash": "sha256:d828cb02b7488b4b4c907680650b14de64f586e2deea2bcccfd3e66d118b707d",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one person, many ___.",
+        "choices": [
+          "persons only",
+          "people",
+          "peoples only",
+          "persones"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Person often changes to people.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: people. Person often changes to people.",
+          "incorrect": [
+            "Not: persons only. Person often changes to people.",
+            "",
+            "Not: peoples only. Person often changes to people.",
+            "Not: persones. Person often changes to people."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 171
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0172",
+        "version": 1,
+        "contentHash": "sha256:4af5afb6e0e618433a733c8ac1680ed6eaa0dd6a5f6a79d43b7fd1cfe7bbcb64",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one cactus, several ___.",
+        "choices": [
+          "cactus's",
+          "cactuses only",
+          "cacti",
+          "cacties"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some Latin-origin words have special plural forms.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: cacti. Some Latin-origin words have special plural forms.",
+          "incorrect": [
+            "Not: cactus's. Some Latin-origin words have special plural forms.",
+            "Not: cactuses only. Some Latin-origin words have special plural forms.",
+            "",
+            "Not: cacties. Some Latin-origin words have special plural forms."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 172
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0173",
+        "version": 1,
+        "contentHash": "sha256:b850812c5709bde8821e9d8fbfa10023a82b135092fd3b9288323f26267d3d2d",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one analysis, two ___.",
+        "choices": [
+          "analysies",
+          "analysises",
+          "analysis",
+          "analyses"
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Analysis changes to analyses.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: analyses. Analysis changes to analyses.",
+          "incorrect": [
+            "Not: analysies. Analysis changes to analyses.",
+            "Not: analysises. Analysis changes to analyses.",
+            "Not: analysis. Analysis changes to analyses.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 173
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0174",
+        "version": 1,
+        "contentHash": "sha256:4f04497fe7eb917eeaf1797fc042f044ba685cbe73ad90dec99e279be5c8a6d1",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one woman, two ___.",
+        "choices": [
+          "women",
+          "womans",
+          "womanes",
+          "womens"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Woman changes to women.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: women. Woman changes to women.",
+          "incorrect": [
+            "",
+            "Not: womans. Woman changes to women.",
+            "Not: womanes. Woman changes to women.",
+            "Not: womens. Woman changes to women."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 174
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0175",
+        "version": 1,
+        "contentHash": "sha256:057c429efa827b3bcc77bb0b26784a78eeff0dbca94fc1a028051b67ed6fbc1f",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one man, three ___.",
+        "choices": [
+          "mans",
+          "men",
+          "manes",
+          "mens"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Man changes to men.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: men. Man changes to men.",
+          "incorrect": [
+            "Not: mans. Man changes to men.",
+            "",
+            "Not: manes. Man changes to men.",
+            "Not: mens. Man changes to men."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 175
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0176",
+        "version": 1,
+        "contentHash": "sha256:7be1ed15b1e860dafb859441fe97e37a62b6dd7d17e763c2abb960d7e89886ce",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The sheepes are grazing by the fence.",
+          "The sheeps are grazing by the fence.",
+          "The sheep are grazing by the fence.",
+          "The sheep's are grazing by the fence."
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns have the same singular and plural form.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The sheep are grazing by the fence.. Some nouns have the same singular and plural form.",
+          "incorrect": [
+            "Not: The sheepes are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "Not: The sheeps are grazing by the fence.. Some nouns have the same singular and plural form.",
+            "",
+            "Not: The sheep's are grazing by the fence.. Some nouns have the same singular and plural form."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 176
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0177",
+        "version": 1,
+        "contentHash": "sha256:850763a155052e3c804f5c2d2c74e4ac30ef79a40b0ca0ae445f606a6eb0720e",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct sentence.",
+        "choices": [
+          "The deer's crossed the road.",
+          "The deers crossed the road.",
+          "The deeres crossed the road.",
+          "The deer crossed the road."
+        ],
+        "correct": 3,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Deer can be singular or plural.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: The deer crossed the road.. Deer can be singular or plural.",
+          "incorrect": [
+            "Not: The deer's crossed the road.. Deer can be singular or plural.",
+            "Not: The deers crossed the road.. Deer can be singular or plural.",
+            "Not: The deeres crossed the road.. Deer can be singular or plural.",
+            ""
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 177
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0178",
+        "version": 1,
+        "contentHash": "sha256:81254cf04ddaee06cd04e90fef6f1a31d4201d6f01f42a8ea59a67dc821182c0",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one leaf, many ___.",
+        "choices": [
+          "leaves",
+          "leafs",
+          "leafes",
+          "leaf"
+        ],
+        "correct": 0,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Some nouns ending in f change to ves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: leaves. Some nouns ending in f change to ves.",
+          "incorrect": [
+            "",
+            "Not: leafs. Some nouns ending in f change to ves.",
+            "Not: leafes. Some nouns ending in f change to ves.",
+            "Not: leaf. Some nouns ending in f change to ves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 178
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0179",
+        "version": 1,
+        "contentHash": "sha256:dd7433dd27322198be203be534417f25e5b459037f29cd700b315e817c8627a0",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one wolf, two ___.",
+        "choices": [
+          "wolfs",
+          "wolves",
+          "wolfes",
+          "wolf"
+        ],
+        "correct": 1,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Wolf changes to wolves.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: wolves. Wolf changes to wolves.",
+          "incorrect": [
+            "Not: wolfs. Wolf changes to wolves.",
+            "",
+            "Not: wolfes. Wolf changes to wolves.",
+            "Not: wolf. Wolf changes to wolves."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 179
+        }
+      },
+      {
+        "id": "grammar-irregular-nouns-plurals-q0180",
+        "version": 1,
+        "contentHash": "sha256:c07acd8cbdac121b7ee2f59a91afbc578a69467e1342669cd060b55dc3ffc555",
+        "question": "Grade 5 Hard: Analyze the details and choose the strongest answer. Choose the correct plural: one crisis, two ___.",
+        "choices": [
+          "crisis",
+          "crisises",
+          "crises",
+          "crisies"
+        ],
+        "correct": 2,
+        "studyAid": {
+          "definition": "Grammar and language skills help writers and readers understand how sentences work.",
+          "example": "Crisis changes to crises.",
+          "link": "https://www.thecorestandards.org/ELA-Literacy/",
+          "linkText": "Common Core ELA standards"
+        },
+        "explanation": {
+          "correct": "Answer: crises. Crisis changes to crises.",
+          "incorrect": [
+            "Not: crisis. Crisis changes to crises.",
+            "Not: crisises. Crisis changes to crises.",
+            "",
+            "Not: crisies. Crisis changes to crises."
+          ]
+        },
+        "metadata": {
+          "gradeLevels": [
+            6
+          ],
+          "difficultyByGrade": {
+            "6": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "analyze-and-explain",
+          "languageDemand": "extended-context",
+          "skills": [
+            "irregular plurals",
+            "nouns"
+          ],
+          "standards": [
+            "L.2-6.1"
+          ],
+          "feedbackFocus": "check the rule, use the context, and eliminate choices that do not match the whole prompt",
+          "estimatedTimeSeconds": 85,
+          "reviewPriority": "normal",
+          "sourceSet": "grammar-irregular-nouns-plurals",
+          "sequence": 180
+        }
+      }
+    ],
+    "metadata": {
+      "gradesSupported": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficultiesSupported": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "selectorPolicy": "grade+difficulty selects exact matches first, with 15 exact-match questions for every supported grade and difficulty"
+    }
+  }
+}
+  );
+})();

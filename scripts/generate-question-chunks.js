@@ -7,8 +7,8 @@ const {
   loadQuestionBanks,
   flattenQuestionBanks
 } = require('./qa/bank-loader');
+const { CHUNKED_DOMAINS } = require('./question-chunk-config');
 
-const CHUNKED_DOMAINS = new Set(['capitalization', 'reference-skills']);
 const CHUNK_ROOT = path.posix.join('assets', 'question-chunks');
 
 function getChunkedSets(manifest) {

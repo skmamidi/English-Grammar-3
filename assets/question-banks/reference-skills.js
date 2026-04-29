@@ -7829,6 +7829,122 @@
           "sourceSet": "reference-skills-dictionary-guide-words",
           "sequence": 53
         }
+      },
+      {
+        "question": "Look at the excerpt from the dictionary. Where might one see a? persimmon",
+        "choices": [
+          "sporting goods store",
+          "on a written school excuse",
+          "as a table and chairs",
+          "an orchard"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: an orchard. an orchard; Persimmon",
+          "incorrect": [
+            "Not: sporting goods store. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: on a written school excuse. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: as a table and chairs. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use dictionaries, thesauruses, and word entries to choose precise meanings.",
+          "example": "Check the part of speech and definition in the entry before choosing.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-dictionary-guide-words",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 153
+        }
+      },
+      {
+        "question": "Which reference material would you use tofind a synonym for the word? tall",
+        "choices": [
+          "dictionary",
+          "encyclopedia",
+          "thesaurus",
+          "glossary"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: thesaurus. thesaurus; Thesaurus – a dictionary of synonyms and antonyms.",
+          "incorrect": [
+            "Not: dictionary. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: encyclopedia. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: glossary. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Reference skills help readers use dictionaries, thesauruses, and word entries to choose precise meanings.",
+          "example": "Check the part of speech and definition in the entry before choosing.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "reference skills",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "reference-skills-dictionary-guide-words",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 30,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 234
+        }
       }
     ],
     "metadata": {

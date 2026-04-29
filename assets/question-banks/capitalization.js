@@ -2001,6 +2001,528 @@
           ],
           "sequence": 111
         }
+      },
+      {
+        "question": "Which of the following should be capitalized?",
+        "choices": [
+          "city",
+          "continent",
+          "country",
+          "africa"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: africa. africa; Africa is a proper noun. It is the name of a continent and should be capitalized.",
+          "incorrect": [
+            "Not: city. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: continent. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: country. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 35,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 35
+        }
+      },
+      {
+        "question": "Choose the correctly capitalized version of the below letter closing. sincerely yours, james hadley",
+        "choices": [
+          "Sin cerely Yours, James Hadley",
+          "Sincerely yours, James Hadley",
+          "sincerely yours, James Hadley",
+          "Sincerely yours, James hadley"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Sincerely yours, James Hadley. Sincerely yours, James Hadley. Only the first letter of a salutation is capital ized.",
+          "incorrect": [
+            "Not: Sin cerely Yours, James Hadley. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: sincerely yours, James Hadley. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Sincerely yours, James hadley. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 50
+        }
+      },
+      {
+        "question": "Which incorrectly capitalized? word is We saw the Old Faithful trip to Yellowstone National Park Geyser on our",
+        "choices": [
+          "Old",
+          "Geyser",
+          "National",
+          "Park"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Geyser. not a proper noun and does not need to be capi talized. Geyser; Geyser is",
+          "incorrect": [
+            "Not: Old. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: National. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Park. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 71
+        }
+      },
+      {
+        "question": "Choose the correctly capitalized version of the sentence below. The entire family is excited and looking forward to our vacation with uncle jerry, my aunt, grannie, and my grandpa.",
+        "choices": [
+          "The entire Family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.",
+          "The entire family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.",
+          "The entire family is excited and looking forward to our vacation with Uncle Jerry, my aunt, Grannie, and my grandpa.",
+          "The entire family is excited and looking forward to our vacation with uncl e Jerry, my aunt, grannie, and my grandpa."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The entire family is excited and looking forward to our vacation with Uncle Jerry, my aunt, Grannie, and my grandpa.. The entire family is excited and looking forward to our vacation with Uncle Jerry, my au nt, Grannie, and my grandpa. Titles, people’s names, family terms when followed by a person’s name and family terms used as a person’s name are all capitalize d.",
+          "incorrect": [
+            "Not: The entire Family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: The entire family is excited and looking forward to our vacation with Uncle Jerry, my Aunt, Grannie, and my Grandpa.. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: The entire family is excited and looking forward to our vacation with uncl e Jerry, my aunt, grannie, and my grandpa.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 104
+        }
+      },
+      {
+        "question": "Edit the sentence below for capitalization. Choose the sentence that is correctly written. Next fall, I registered to take german, biology, english, and band.",
+        "choices": [
+          "N ext Fall, I registered to take German, biology, English, and band.",
+          "Next fall, I registered to take German, biology, English, and band.",
+          "Next Fall, I registered to take german, biology, english, and band.",
+          "Next fall, I registered to take german, Biology, eng lish, and Band."
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Next fall, I registered to take German, biology, English, and band.. Next fall, I registered to take German, biology, English, and band. Languag es are always capitalized.",
+          "incorrect": [
+            "Not: N ext Fall, I registered to take German, biology, English, and band.. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: Next Fall, I registered to take german, biology, english, and band.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Next fall, I registered to take german, Biology, eng lish, and Band.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 38,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 140
+        }
+      },
+      {
+        "question": "Which of the following should be capitalized?",
+        "choices": [
+          "verb s",
+          "common nouns",
+          "titles",
+          "adjectives"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: titles. titles; Titles are capitalized. Some examples: Mr., Mrs., Ms., Miss",
+          "incorrect": [
+            "Not: verb s. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: common nouns. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: adjectives. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 152
+        }
+      },
+      {
+        "question": "Which answer is capitalized correctly?",
+        "choices": [
+          "grocery store",
+          "mount Rushmore",
+          "Nursery Rhyme",
+          "statue of liberty"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: grocery store. grocery store; Grocery store is not a proper noun and should not be capitalized.",
+          "incorrect": [
+            "",
+            "Not: mount Rushmore. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Nursery Rhyme. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: statue of liberty. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 203
+        }
+      },
+      {
+        "question": "Which word is correctly capitalized? My Teacher can speak hindi and english, and she writes child ren’s books.",
+        "choices": [
+          "Teacher",
+          "hindi",
+          "english",
+          "children’s"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: children’s. not a proper noun and sh oul d not be capitalized. children’s; Children is",
+          "incorrect": [
+            "Not: Teacher. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: hindi. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: english. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 275
+        }
+      },
+      {
+        "question": "Which answer is capitalized correctly?",
+        "choices": [
+          "French Speaking",
+          "Tuesday’s Dinner",
+          "Aunt Edith",
+          "My Dad"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Aunt Edith. . Aunt Edith; This is used so it a pr oper noun. as someone’s name and is",
+          "incorrect": [
+            "Not: French Speaking. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Tuesday’s Dinner. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: My Dad. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-sentence-beginning",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 305
+        }
       }
     ],
     "metadata": {
@@ -3507,6 +4029,180 @@
             "MAP"
           ],
           "sequence": 103
+        }
+      },
+      {
+        "question": "Identify the words that need to be capitalized i n the sentence below. mother and father plan to celebrate by having us color easter eggs.",
+        "choices": [
+          "Mother, Easter",
+          "Mother, Father",
+          "Mother, Father, Easter",
+          "Mother, Easter, Eggs"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Mother, Father, Easter. Mother, Father, Easter; Mother and Father should be capitalized when used in place of names. Easter is a holiday and a proper noun.",
+          "incorrect": [
+            "Not: Mother, Easter. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Mother, Father. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: Mother, Easter, Eggs. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 8
+        }
+      },
+      {
+        "question": "Which word is correctly capitalized? Memorial Day is a great Holiday to visit the grand canyon.",
+        "choices": [
+          "Day",
+          "Holiday",
+          "grand",
+          "canyon"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Day. Day; Memorial Day is a proper noun and should be capitalized.",
+          "incorrect": [
+            "",
+            "Not: Holiday. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: grand. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: canyon. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 173
+        }
+      },
+      {
+        "question": "Choose the answer that shows capitalization and punctuation. correct Easter falls on a different date each year, but this year it will be on sunday april 12 2020.",
+        "choices": [
+          "sunday, april 12, 2020",
+          "Sunday, April 12, 2020",
+          "Sunday April 12, 2020",
+          "Sunday April 12 2020"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Sunday, April 12, 2020. Sunday, April",
+          "incorrect": [
+            "Not: sunday, april 12, 2020. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: Sunday April 12, 2020. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Sunday April 12 2020. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-days-months-holidays",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 233
         }
       }
     ],
@@ -10498,6 +11194,354 @@
             "MAP"
           ],
           "sequence": 21
+        }
+      },
+      {
+        "question": "Choose the best way to write the underlined portion of the sentence. I f the underlined part is correct, choose “Correct as is.” We visited the national memorial in Oklahoma City Oklahoma.",
+        "choices": [
+          "Oklahoma City, Oklahoma",
+          "Oklahoma, City Oklahoma",
+          "Oklahoma City, Ok.",
+          "Correct as is"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Oklahoma City, Oklahoma. Oklahoma City, Oklahoma; The city (Oklahoma City) is separated from the state (Oklahoma) by a comma.",
+          "incorrect": [
+            "",
+            "Not: Oklahoma, City Oklahoma. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Oklahoma City, Ok.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Correct as is. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 11
+        }
+      },
+      {
+        "question": "Choose the sentence that shows correct punctuation and capitalization?",
+        "choices": [
+          "Hen ry asked, “When do I get to ride the donkey”?",
+          "“Don’t forget to take out the trash!” exclaimed Mother.",
+          "“Do we have to go see Grandma again this weeke nd? David asked.”",
+          "Hillary exclaimed, “the ball just went through the window!”"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: “Don’t forget to take out the trash!” exclaimed Mother.. “Don’t forget to take out the trash!” exclaimed Mother.",
+          "incorrect": [
+            "Not: Hen ry asked, “When do I get to ride the donkey”?. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: “Do we have to go see Grandma again this weeke nd? David asked.”. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Hillary exclaimed, “the ball just went through the window!”. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 14,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 14
+        }
+      },
+      {
+        "question": "Choose the sentence in which the adjectives are in the correct order.",
+        "choices": [
+          "I w ore my Spanish leather riding boots for my horseback riding lesson.",
+          "We went to dinner and I ordered noodle Vietnamese soup.",
+          "My mother cherishes her crystal German flower vase.",
+          "The French yellow cheese was served as a di nner appetizer."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I w ore my Spanish leather riding boots for my horseback riding lesson.. I wore my Spanish leather riding boots for my horseback riding lesson. Correc t order for adjectives: color, origin, material then purpose.",
+          "incorrect": [
+            "",
+            "Not: We went to dinner and I ordered noodle Vietnamese soup.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: My mother cherishes her crystal German flower vase.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: The French yellow cheese was served as a di nner appetizer.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 28,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 28
+        }
+      },
+      {
+        "question": "Which of the following words is a proper noun?",
+        "choices": [
+          "oklahoma",
+          "cowboy",
+          "town",
+          "winter"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: oklahoma. oklahoma; Oklahoma is the name of a state.",
+          "incorrect": [
+            "",
+            "Not: cowboy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: town. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: winter. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 31,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 82
+        }
+      },
+      {
+        "question": "Which word is capitalized incorrectly? When we were visiting Hanoi, Vietnam, we found many official Documents that were written in both English and Vietnamese.",
+        "choices": [
+          "Hanoi",
+          "Vietnam",
+          "Documents",
+          "English"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Documents. Documents; Documents is a not proper noun and should not be capitalized.",
+          "incorrect": [
+            "Not: Hanoi. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Vietnam. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: English. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 50,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 101
+        }
+      },
+      {
+        "question": "In the sentence below, which of the following words should be capitalized? I really want some of those royal blue adidas shoes that my grandmother g ot me for my birthday.",
+        "choices": [
+          "Gran dmother",
+          "Adidas",
+          "Birthday",
+          "Royal"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Adidas. Adidas; Adidas is the bra nd of shoe and is a proper noun",
+          "incorrect": [
+            "Not: Gran dmother. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: Birthday. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Royal. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Language usage questions ask you to apply grammar, capitalization, and sentence rules in context.",
+          "example": "Identify the rule first, then test it against the full sentence.",
+          "link": "https://www.readingrockets.org/topics/writing/articles/grammar-punctuation-and-spelling",
+          "linkText": "Reading Rockets - Grammar, Punctuation, and Spelling"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "capitalization",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "capitalization-names-of-places",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 35,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 137
         }
       }
     ],

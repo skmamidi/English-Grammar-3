@@ -1720,6 +1720,1804 @@
             "MAP"
           ]
         }
+      },
+      {
+        "question": "The prefix “dis” means “apart.” When added to the word “mounted” it changes its meaning.-What is the definition of the word “dismounted?”",
+        "choices": [
+          "stood behind",
+          "stood before",
+          "climb on",
+          "climb off"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: climb off. climb off Dismounted to climb off a horse, to get off a bicycle.; –",
+          "incorrect": [
+            "Not: stood behind. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: stood before. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: climb on. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 5
+        }
+      },
+      {
+        "question": "What is the meaning of the root word “dem”?",
+        "choices": [
+          "people",
+          "under",
+          "next",
+          "bad"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: people. people Dem is a root word meaning people.",
+          "incorrect": [
+            "",
+            "Not: under. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: next. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: bad. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 6
+        }
+      },
+      {
+        "question": "The prefix “” means “.” When added to the word “” it changes its inter- between state meaning. What is the definition of the word “” interstate?",
+        "choices": [
+          "st ate of mind",
+          "carried on between states",
+          "involving one state",
+          "the state line"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: carried on between states. carried on between state s Interstate of, connecting, or existing between two or more; – states especially of the U.S.",
+          "incorrect": [
+            "Not: st ate of mind. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: involving one state. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: the state line. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 15
+        }
+      },
+      {
+        "question": "What is the mean chron ing of the root word “”?",
+        "choices": [
+          "every",
+          "watch",
+          "time",
+          "life"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: time. time Ch ron is root word meaning time.; the",
+          "incorrect": [
+            "Not: every. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: watch. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: life. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 16
+        }
+      },
+      {
+        "question": "What is the mean graph ing of the root word “”?",
+        "choices": [
+          "call",
+          "write",
+          "draw",
+          "speak"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: write. write Graph is the root word meaning to write.",
+          "incorrect": [
+            "Not: call. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: draw. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: speak. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 26
+        }
+      },
+      {
+        "question": "If the root word alter means other, what would alternate mean? “” “”",
+        "choices": [
+          "t o be silent",
+          "to use your voice",
+          "a place",
+          "another choice"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: another choice. another choice; Alternate one that substitutes with another. –",
+          "incorrect": [
+            "Not: t o be silent. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: to use your voice. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: a place. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 32
+        }
+      },
+      {
+        "question": "What is the meaning of the root word flex? “”",
+        "choices": [
+          "b end",
+          "end",
+          "break",
+          "next"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: b end. bend; Flex to bend especially repeatedly. –",
+          "incorrect": [
+            "",
+            "Not: end. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: break. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: next. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 33
+        }
+      },
+      {
+        "question": "If the root word fract means break, then what would the word fracture mean? “” “”",
+        "choices": [
+          "to break",
+          "to have",
+          "to make",
+          "to fix"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: to break. to break; fracture break or cause to break. –",
+          "incorrect": [
+            "",
+            "Not: to have. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: to make. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: to fix. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 43
+        }
+      },
+      {
+        "question": "What is the meaning of the root word geo? “”",
+        "choices": [
+          "w ithout",
+          "carry",
+          "earth",
+          "universe"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: earth. earth",
+          "incorrect": [
+            "Not: w ithout. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: carry. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: universe. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 44
+        }
+      },
+      {
+        "question": "Read the following sentence, use the context clues, and choose the word t hat best fits the meaning of the underlined word. I have to ask to be excused from the dinner table.",
+        "choices": [
+          "explanation",
+          "dismissed",
+          "tested",
+          "extended"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: dismissed. dismissed Excused to release (dismiss) someone from a duty or requirement.; –",
+          "incorrect": [
+            "Not: explanation. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: tested. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: extended. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 52
+        }
+      },
+      {
+        "question": "If the root word fin means end, then what would the word final mean? “” “”",
+        "choices": [
+          "mo re",
+          "next",
+          "first",
+          "last"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: last. last; final coming to the end (of a series). –",
+          "incorrect": [
+            "Not: mo re. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: next. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: first. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 53
+        }
+      },
+      {
+        "question": "What is the meaning of the root word therm? “”",
+        "choices": [
+          "cold",
+          "by",
+          "heat",
+          "un der"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: heat. heat",
+          "incorrect": [
+            "Not: cold. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: by. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: un der. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 54
+        }
+      },
+      {
+        "question": "Which of the following words would be a synonym for lost?",
+        "choices": [
+          "f ound",
+          "sickly",
+          "returned",
+          "missing"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: missing. missing A synonym means the same or most nearly the same. Los unable to find;; t – missing.",
+          "incorrect": [
+            "Not: f ound. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: sickly. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: returned. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 58
+        }
+      },
+      {
+        "question": "If the root word “” means circular, what would the word “” mean? cyclo cyclone",
+        "choices": [
+          "rotating wind",
+          "straight wind",
+          "heated wind",
+          "strong wind"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: rotating wind. rotating wind; Cyclone – a storm or system of winds that rotates about a center of low atmospheric pressure; often brings heavy rain.",
+          "incorrect": [
+            "",
+            "Not: straight wind. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: heated wind. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: strong wind. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 62
+        }
+      },
+      {
+        "question": "What is the meaning of the root word “frag”?",
+        "choices": [
+          "piece",
+          "mix",
+          "under",
+          "break"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: break. break; Frag – break, breaking, broken, cracked. g",
+          "incorrect": [
+            "Not: piece. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: mix. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: under. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 63
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits the meaning. Trey practiced and worked hard all summer, then at football camp he achieved his goal of earning the quarterback position.",
+        "choices": [
+          "fulfilled",
+          "surpassed",
+          "missed",
+          "practiced"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: fulfilled. – to obtain (as a goal) through effort; fulfill fulfilled; Achieved",
+          "incorrect": [
+            "",
+            "Not: surpassed. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: missed. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: practiced. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 71
+        }
+      },
+      {
+        "question": "If the root word “” means to call, what would the word “vocalize” mean? voc",
+        "choices": [
+          "to use the ears",
+          "to use the hands",
+          "to use the voice",
+          "to use the eye s"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: to use the voice. to use the voice Vocalize – to give voice: utter; sing.",
+          "incorrect": [
+            "Not: to use the ears. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: to use the hands. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: to use the eye s. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 72
+        }
+      },
+      {
+        "question": "miss What is the meaning of the root word “”?",
+        "choices": [
+          "lonely",
+          "see",
+          "spell",
+          "send"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: send. send",
+          "incorrect": [
+            "Not: lonely. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: see. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: spell. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 73
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits the meaning. The dance instructor was going to demonstrate the dance move in front of the class before they try it.",
+        "choices": [
+          "ignore",
+          "describe",
+          "show",
+          "tell"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: show. Demonstrate – to show clearly. show",
+          "incorrect": [
+            "Not: ignore. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: describe. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: tell. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 81
+        }
+      },
+      {
+        "question": "If the root word “spir” means breath, then what would the word “expire” mean?",
+        "choices": [
+          "send out",
+          "breathe in",
+          "heat up",
+          "breathe out"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: breathe out. breathe out – to breathe out from or as if from the lungs.; Expire",
+          "incorrect": [
+            "Not: send out. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: breathe in. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: heat up. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 83
+        }
+      },
+      {
+        "question": "What is the meaning of the root word “port”?",
+        "choices": [
+          "call",
+          "give",
+          "know",
+          "car ry"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: car ry. carry Port is a root word that means carry. (import, export, deport, report)",
+          "incorrect": [
+            "Not: call. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: give. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: know. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "roots and affixes",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 84
+        }
+      },
+      {
+        "question": "If the root word means to see, then what would the word mean? scope microscope",
+        "choices": [
+          "too small to see",
+          "don’t want to see",
+          "seen already",
+          "too large to see"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: too small to see. too small to see; Micro means extremely small. Microscope instrument used to see – something extremely small.",
+          "incorrect": [
+            "",
+            "Not: don’t want to see. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: seen already. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: too large to see. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 6
+        }
+      },
+      {
+        "question": "What does the root word mean as in the word? aud audio",
+        "choices": [
+          "see",
+          "hear",
+          "listen",
+          "feel"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: hear. of, relating to the transmission, hear; The root word “aud” means to hear. Audio – reception, or reproduction of sound.",
+          "incorrect": [
+            "Not: see. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: listen. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: feel. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 42
+        }
+      },
+      {
+        "question": "If the root word means power, then what would the mean? dyna word dynamite",
+        "choices": [
+          "blast",
+          "strong explosive device",
+          "fiery burst",
+          "big red stick"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: strong explosive device. strong explosive device",
+          "incorrect": [
+            "Not: blast. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: fiery burst. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: big red stick. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 57
+        }
+      },
+      {
+        "question": "If the prefix means life or living matter what does the word mean? bio “,” biosphere",
+        "choices": [
+          "Ear th’s surface inhabited by living things",
+          "Circle is constant motion",
+          "Living in a bubble",
+          "Organisms living in a round petri dish"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Ear th’s surface inhabited by living things. living things; Sphere a planet or star. Earth’s surface inhabited by living things; Bio – –",
+          "incorrect": [
+            "",
+            "Not: Circle is constant motion. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Living in a bubble. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Organisms living in a round petri dish. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 18,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 120
+        }
+      },
+      {
+        "question": "If the root word means hundred, then what would the word mean? cent percent",
+        "choices": [
+          "numbers up to a hundred",
+          "math using hundreds",
+          "using pennies to count to a hundred",
+          "parts of a hundred"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: parts of a hundred. a parts of hundred; The prefix per means parts.",
+          "incorrect": [
+            "Not: numbers up to a hundred. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: math using hundreds. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: using pennies to count to a hundred. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 159
+        }
+      },
+      {
+        "question": "What does the root word mean as in the word act react?",
+        "choices": [
+          "to do",
+          "be angry",
+          "be fearful",
+          "to jump"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: to do. to do",
+          "incorrect": [
+            "",
+            "Not: be angry. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: be fearful. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: to jump. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 195
+        }
+      },
+      {
+        "question": "If the root word means write, then what would the word mean? graph autograph",
+        "choices": [
+          "have the privilege",
+          "write a book",
+          "correct answer",
+          "write your name"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: write your name. write your name; Autograph – a person’s own signature.",
+          "incorrect": [
+            "Not: have the privilege. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: write a book. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: correct answer. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 213
+        }
+      },
+      {
+        "question": "What is the meaning of the prefix? non",
+        "choices": [
+          "not",
+          "on top of",
+          "same as",
+          "negative"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: not. not; The prefix means not. Examples: nonfat, nonsense. non",
+          "incorrect": [
+            "",
+            "Not: on top of. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: same as. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: negative. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 255
+        }
+      },
+      {
+        "question": "If the root word means to pu ll, then wh at woul d the word tract tr actor mean?",
+        "choices": [
+          "related to pulling",
+          "that whic h pulls",
+          "to drag badly",
+          "to drag too much"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: that whic h pulls. that which pulls; The suffix means a person or thing t hat does wha t t he r oot word says.-or",
+          "incorrect": [
+            "Not: related to pulling. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: to drag badly. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: to drag too much. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 261
+        }
+      },
+      {
+        "question": "What does the root word mean as in the word? meter thermometer",
+        "choices": [
+          "sickness",
+          "measure",
+          "docto r",
+          "medicin e"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: measure. measur e",
+          "incorrect": [
+            "Not: sickness. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: docto r. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: medicin e. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-base-words",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 42,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 297
+        }
       }
     ],
     "metadata": {
@@ -7289,6 +9087,238 @@
           ],
           "sequence": 114
         }
+      },
+      {
+        "question": "What is the correct word to complete the sentence? When my mom was young, she ________ scarves out of yarn for her family.",
+        "choices": [
+          "maid",
+          "used",
+          "made",
+          "wore"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: made. made Made (past tense of make) to produce by making.; –",
+          "incorrect": [
+            "Not: maid. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: used. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: wore. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 32
+        }
+      },
+      {
+        "question": "Choose the correct word to complete the sentence. I am so sorry for your ______. Your dog gave you and your family many happy memories.",
+        "choices": [
+          "lose",
+          "loose",
+          "loss",
+          "lost"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: loss. loss Loss death or fact of being dead.; –",
+          "incorrect": [
+            "Not: lose. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: loose. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: lost. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 47,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 47
+        }
+      },
+      {
+        "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” I ran into the store an hour before it closed to buy some milk.",
+        "choices": [
+          "will run into",
+          "ran in to",
+          "run into",
+          "Correct as is"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Correct as is. Correct as is",
+          "incorrect": [
+            "Not: will run into. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: ran in to. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: run into. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 164
+        }
+      },
+      {
+        "question": "Fill the blank with the correct word ch oice. in I the race by one second.",
+        "choices": [
+          "lose",
+          "did losed",
+          "lost",
+          "did lost"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: lost. lost; This s entence uses a simple past verb.",
+          "incorrect": [
+            "Not: lose. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: did losed. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: did lost. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-homophones",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 256
+        }
       }
     ],
     "metadata": {
@@ -12224,6 +14254,1746 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "What is the antonym for the underlined word? The doctor was exhilarated that her patient was getting better. er",
+        "choices": [
+          "overjoyed",
+          "relieved",
+          "disappointed",
+          "angry"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: disappointed. disappointed Exhilarated making one feel very happy or elated. The best antonym for; – this sentence is disappointed",
+          "incorrect": [
+            "Not: overjoyed. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: relieved. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: angry. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 10
+        }
+      },
+      {
+        "question": "What is the synonym for the underlined word? The doctor requested a duplicate of my medical records.",
+        "choices": [
+          "copy",
+          "repeat",
+          "review",
+          "to see"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: copy. copy Duplicate two identical copies.; –",
+          "incorrect": [
+            "",
+            "Not: repeat. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: review. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: to see. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 20
+        }
+      },
+      {
+        "question": "According to the thesaurus entry below, what is a synonym for the word “veteran”? Veteran n. old-time, skilled, trained, adept, expert, old, pro, steady, versed, battle- scarred, – been around, exercised, from way back, hardened, incurred, practical, practiced, proficient, sophisticated, up to speed, weathered, wise to ways, worldly.",
+        "choices": [
+          "professor",
+          "practiced",
+          "portly",
+          "principal"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: practiced. practiced; Practiced is the only answer choice that is listed as a synonym.",
+          "incorrect": [
+            "Not: professor. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: portly. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: principal. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 25
+        }
+      },
+      {
+        "question": "Choose the correct set of antonyms.",
+        "choices": [
+          "radiant, dull",
+          "sparkle, glisten",
+          "giggle, snicker",
+          "rescue, recovery"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: radiant, dull. radiant, dull; An antonym is the opposite meaning. Radiant is the opposite of dull.",
+          "incorrect": [
+            "",
+            "Not: sparkle, glisten. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: giggle, snicker. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: rescue, recovery. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 30
+        }
+      },
+      {
+        "question": "Which reference material would you use to fi nd a synonym for a word?",
+        "choices": [
+          "d ictionary",
+          "encyclopedia",
+          "glossary",
+          "thesaurus"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: thesaurus. thesaurus; Thesaurus a book of words and their synonyms. –",
+          "incorrect": [
+            "Not: d ictionary. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: encyclopedia. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: glossary. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 35
+        }
+      },
+      {
+        "question": "Which of the following words would be an antonym for devastated? “”",
+        "choices": [
+          "misera ble",
+          "disappointed",
+          "angry",
+          "overjoyed"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: overjoyed. overjoyed; An antonym is the opposite meaning of a word. Devastate to cau se someone – severe and overwhelming shock or grief. Overjoyed extremely happy. –",
+          "incorrect": [
+            "Not: misera ble. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: disappointed. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: angry. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 39
+        }
+      },
+      {
+        "question": "Which of the following words would be a synonym for enormous? “”",
+        "choices": [
+          "h uge",
+          "average",
+          "tiny",
+          "regular"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: h uge. huge; A synonym means the same or most nearly the same. Enormous very large in – quantity or size; huge.",
+          "incorrect": [
+            "",
+            "Not: average. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: tiny. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: regular. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 49
+        }
+      },
+      {
+        "question": "would be a Which of the following words “”? synonym for frivolous",
+        "choices": [
+          "insignificant",
+          "substantial",
+          "serious",
+          "important"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: insignificant. insignificant has nearly the same meaning of a word. – of little; A synonym Frivolous weight or importance. Insignificant – lacking meaning or importance.",
+          "incorrect": [
+            "",
+            "Not: substantial. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: serious. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: important. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 69
+        }
+      },
+      {
+        "question": "Choose the antonym for the underlined word. After the long hike and not eating all day, the hikers were famished.",
+        "choices": [
+          "hungry",
+          "unsatisfied",
+          "full",
+          "starving"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: full. Famished – intensely hungry. An antonym is the is the opposite meaning of a word. full; The antonym (opposite of hungry) is full.",
+          "incorrect": [
+            "Not: hungry. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: unsatisfied. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: starving. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 80
+        }
+      },
+      {
+        "question": "Which of the following words would be a synonym for “”? repulsive",
+        "choices": [
+          "beautiful",
+          "nice",
+          "ready",
+          "nasty"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: nasty. nasty Repulsive – sharply unpleasant; nasty.",
+          "incorrect": [
+            "Not: beautiful. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: nice. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: ready. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "synonyms and antonyms",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 90
+        }
+      },
+      {
+        "question": "Which of the following? is not a synonym for “edge” Edge – n. edge, verge, brink, brow, brim, margin, border, confine, skirt, rim, flange, side, mouth; jaws, chops, chaps, fauces; lip, muzzle. threshold, door, porch; coast, shore. frame fringe, flounce, frill, list, trimming, edging, skirting, hem, selvedge, welt, furbelow, valance, gimp, adj. border, marginal, skirting; labial, labiat ed, marginated.",
+        "choices": [
+          "b rim",
+          "faucet",
+          "jaws",
+          "flange"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: faucet. faucet This is the only word not listed as a synonym. is listed, but not.; Fauces f aucet",
+          "incorrect": [
+            "Not: b rim. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: jaws. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: flange. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 12
+        }
+      },
+      {
+        "question": "Choose the correct set of synonyms for the word silent.",
+        "choices": [
+          "quiet, noisy",
+          "talkative, hushed",
+          "speechless, mute",
+          "communicative, mum"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: speechless, mute. speechless, mute; These are the only two that both mean silent.",
+          "incorrect": [
+            "Not: quiet, noisy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: talkative, hushed. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: communicative, mum. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 21
+        }
+      },
+      {
+        "question": "Which is the antonym for the word active?",
+        "choices": [
+          "en ergetic",
+          "lazy",
+          "spirited",
+          "alive"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: lazy. lazy An antonym is the opposite meaning. Lazy is the opposite of active.; in",
+          "incorrect": [
+            "Not: en ergetic. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: spirited. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: alive. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 24
+        }
+      },
+      {
+        "question": "Choose the antonym for the underlined word. The little girl was devastated that her fish died.",
+        "choices": [
+          "very misera ble",
+          "very unhappy",
+          "very sad",
+          "very happy"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: very happy. very happy An antonym is the opposite in meaning. Devastate means to shatter, shock,; traumatize. The opposite would mean happy.",
+          "incorrect": [
+            "Not: very misera ble. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: very unhappy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: very sad. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 48
+        }
+      },
+      {
+        "question": "Choose the best way to write the underlined portion of the sentence. If the underlined part is correct, choose “Correct as is.” Madelyn had the biggest, most colorful birthday cake I had ever seen.",
+        "choices": [
+          "most colorful, birthday, biggest cake",
+          "birthday, biggest, most colorful cake",
+          "most colorful, biggest, birthday cake",
+          "Correct as is"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Correct as is. correct as is",
+          "incorrect": [
+            "Not: most colorful, birthday, biggest cake. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: birthday, biggest, most colorful cake. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: most colorful, biggest, birthday cake. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 62
+        }
+      },
+      {
+        "question": "Choose the correct set of synonyms for the word damaged.",
+        "choices": [
+          "broken, down-run",
+          "careless, sloppy",
+          "healthy, complete",
+          "confused, lost"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: broken, down-run. down; Damaged means broken, run not shape or in perfect not working.",
+          "incorrect": [
+            "",
+            "Not: careless, sloppy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: healthy, complete. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: confused, lost. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 72
+        }
+      },
+      {
+        "question": "Which answer is the antonym for the word? adequate",
+        "choices": [
+          "friend",
+          "poor",
+          "solution",
+          "late"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: poor. Adequate means poor; good enough.",
+          "incorrect": [
+            "Not: friend. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: solution. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: late. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 75
+        }
+      },
+      {
+        "question": "Choose the antonym for the underlined word. The towel was from being left near the sprinklers. moist",
+        "choices": [
+          "wet",
+          "moldy",
+          "ruined",
+          "dry"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: dry. Moist means damp. dry",
+          "incorrect": [
+            "Not: wet. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: moldy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: ruined. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 99
+        }
+      },
+      {
+        "question": "Read the following sentence. Use the context clues to choose the word that best fits the meaning of the underlined word. The rabbit bounded away when it heard the fox.",
+        "choices": [
+          "in jured",
+          "jumped",
+          "edged",
+          "scared"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: jumped. jumped Bound to jump, leap, spring.; –",
+          "incorrect": [
+            "Not: in jured. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: edged. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: scared. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 108
+        }
+      },
+      {
+        "question": "Choose the correct set of synonyms for the word. crazy",
+        "choices": [
+          "b ird, cuckoo",
+          "cuckoo, wacky",
+          "calm, balanced",
+          "sane, insane"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: cuckoo, wacky. cuckoo, wacky; Crazy mentally deranged; demented; insane; cuckoo; wacky. –",
+          "incorrect": [
+            "Not: b ird, cuckoo. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: calm, balanced. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: sane, insane. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 123
+        }
+      },
+      {
+        "question": "Find the correct set of antonyms.",
+        "choices": [
+          "p eculiar and general",
+          "common and peculiar",
+          "general and common",
+          "included and general"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: common and peculiar. mmon and peculiar; An antonym is the opposite in meaning. Common usual; co – Peculiar uncommon; unusual –",
+          "incorrect": [
+            "Not: p eculiar and general. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: general and common. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: included and general. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 126
+        }
+      },
+      {
+        "question": "Choose the correct set of synonyms for the word gradual.",
+        "choices": [
+          "loud, noisy",
+          "joyful, exited",
+          "slow, steady",
+          "far, a long way off"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: slow, steady. slow, steady",
+          "incorrect": [
+            "Not: loud, noisy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: joyful, exited. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: far, a long way off. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 174
+        }
+      },
+      {
+        "question": "Which answer is the antonym for the? word proceed",
+        "choices": [
+          "increase",
+          "slow",
+          "race",
+          "retreat"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: retreat. retreat; Proceed means to move forward, retreat means to backwards. move",
+          "incorrect": [
+            "Not: increase. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: slow. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: race. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 177
+        }
+      },
+      {
+        "question": "Choose the antonym for the underlined word. Running five laps around the field is the penalty for being late to practice.",
+        "choices": [
+          "punishment",
+          "cost",
+          "reward",
+          "fun"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: reward. reward; A penalty is a punishment for a violation of a rule.",
+          "incorrect": [
+            "Not: punishment. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: cost. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: fun. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 201
+        }
+      },
+      {
+        "question": "Which of the following synonyms for is a verb? notch Notch – n. notch, dent, nick; indent; dimple. embrasure, battlement; saw, tooth, crenel, vandyke; jag. notch, cut, depression; v. nick, dent, jag, scarify, scratch, crenulate. adj. crimp, notched.",
+        "choices": [
+          "cut",
+          "vandyke",
+          "notched",
+          "dimple"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: cut. cut; the answer listed that a Cut is only is verb and the is behind v. the in list of synonyms related to notch.",
+          "incorrect": [
+            "",
+            "Not: vandyke. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: notched. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: dimple. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 216
+        }
+      },
+      {
+        "question": "Choose the correct set of synonyms for “big.”",
+        "choices": [
+          "minute, gigantic",
+          "huge, enormous",
+          "immense, little",
+          "massive, slight"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: huge, enormous. – large in size, height, width, or amount; huge; enormous. huge, enormous; Big",
+          "incorrect": [
+            "Not: minute, gigantic. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: immense, little. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: massive, slight. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 225
+        }
+      },
+      {
+        "question": "Which of the following words would be an antonym for frigid?",
+        "choices": [
+          "chilly",
+          "cold",
+          "hot",
+          "freezing"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: hot. Hot; An antonym is the opposite in meaning. The opposite of frigid (cold) is hot.",
+          "incorrect": [
+            "Not: chilly. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: cold. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: freezing. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 243
+        }
+      },
+      {
+        "question": "Choose the correct set of synonyms for the word energetic.",
+        "choices": [
+          "exhausted, sleepy",
+          "creative, gifted",
+          "lively, active",
+          "strong, intense"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: lively, active. lively, active",
+          "incorrect": [
+            "Not: exhausted, sleepy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: creative, gifted. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: strong, intense. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 21,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 276
+        }
+      },
+      {
+        "question": "Which answer is the antonym for the word? spotless",
+        "choices": [
+          "kind",
+          "dirty",
+          "crooked",
+          "cranky"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: dirty. dirty; Spotless means clean with marks. no",
+          "incorrect": [
+            "Not: kind. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: crooked. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: cranky. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 24,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 279
+        }
+      },
+      {
+        "question": "Choose the antonym for the und erlined word. Our apartment was adjacent to my grandmother’s.",
+        "choices": [
+          "below",
+          "connec t",
+          "separate",
+          "old"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: separate. separate; Adjacent means separate means next to and away from.",
+          "incorrect": [
+            "Not: below. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: connec t. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: old. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-synonyms-antonyms",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 303
         }
       }
     ],
@@ -18984,6 +22754,3138 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "Choose the best replacement adjective for the underlined word in the sentence below. The shouting next door told me that they were having their nightly quarrel.",
+        "choices": [
+          "meeting",
+          "argument",
+          "agreement",
+          "quandary"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: argument. argument; Quarrel to disagree or argue with someone. –",
+          "incorrect": [
+            "Not: meeting. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: agreement. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: quandary. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 1
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. Everyone was very fortunate that they were not hurt in the car accident.",
+        "choices": [
+          "lucky",
+          "quiet",
+          "joyful",
+          "upset"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: lucky. lucky Fortunate having good fortune, lucky.; –",
+          "incorrect": [
+            "",
+            "Not: quiet. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: joyful. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: upset. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 4
+        }
+      },
+      {
+        "question": "The word “cease” most nearly means: If the arguing does not cease immediately, you will both be sent to your room.",
+        "choices": [
+          "b ecome less noisy",
+          "continue",
+          "decrease",
+          "stop"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: stop. stop; Cease bring or come to an end –.",
+          "incorrect": [
+            "Not: b ecome less noisy. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: continue. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: decrease. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 11
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. There are several different ways minerals ca n be ext racted from the earth, but two main methods are called surface mining and subsurface mining.",
+        "choices": [
+          "t o put in",
+          "to take out of something",
+          "to make",
+          "to throw out"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: to take out of something. to take out of something Extracted remove or t ake out, especially by force.; –",
+          "incorrect": [
+            "Not: t o put in. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: to make. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: to throw out. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 14
+        }
+      },
+      {
+        "question": "The word “” most nearly navigate means: The 4,000 passenger cruise ship was able to safely navigate the Panama Canal.",
+        "choices": [
+          "d rive",
+          "dodge",
+          "steer",
+          "go around"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: steer. Navigate to steer or manage a boat st eer –.",
+          "incorrect": [
+            "Not: d rive. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: dodge. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: go around. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 21
+        }
+      },
+      {
+        "question": "Read the three dictionary definitions for the word “due”. Then choose the sentence that uses it as an adjective. Due [ doo ] adjective 1. expected to arrive at a certain time 2. required or owed noun 3. a fee or required payment adverb 4. referring to a compass, exactly or directly",
+        "choices": [
+          "I h ave to pay my club dues before the first of the month.",
+          "We are driving due south.",
+          "You will need to pay your library dues before you check out another book.",
+          "My mom is due to arrive at 3:30 pm."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: My mom is due to arrive at 3:30 pm.. My mom is due to arrive at 3:30 pm. This is the correct use of the word “due” as an adjective because it’shows that they are expecte d to arrive at a certain time.",
+          "incorrect": [
+            "Not: I h ave to pay my club dues before the first of the month.. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: We are driving due south.. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: You will need to pay your library dues before you check out another book.. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 23
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits that meaning. When it healed, and fears of never being able to do gymnastics again Sarah’s were assuaged, she was seldom self-conscious about h injury. er",
+        "choices": [
+          "w orsened",
+          "eased",
+          "heighten ed",
+          "strengthen ed"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: eased. eased Assuage to lessen the intensity, to make better; ease.; –",
+          "incorrect": [
+            "Not: w orsened. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: heighten ed. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: strengthen ed. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 24
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. Dawn did not want to approach the dog, it looked mean and was snarling at her.",
+        "choices": [
+          "loo k out",
+          "come close",
+          "go away",
+          "stop"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: come close. come close; Approach come near or near to someone or something in distance or time. –",
+          "incorrect": [
+            "Not: loo k out. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: go away. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: stop. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 31
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. I had to select one toy, and it was hard because I wanted them both.",
+        "choices": [
+          "d ivide",
+          "grab",
+          "look for",
+          "choose"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: choose. choose Select to decide to accept someone or something from a group of possibilities;; – to choose.",
+          "incorrect": [
+            "Not: d ivide. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: grab. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: look for. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 41
+        }
+      },
+      {
+        "question": "Read the following sentence, use the context clues, and choose the word that best fits the meaning of the underlined word. The doctor had to consult w ith his colleagues before coming up with a diagnosis.",
+        "choices": [
+          "rest rict",
+          "discuss",
+          "agree",
+          "argue"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: discuss. discuss; Consult seek information or advice –",
+          "incorrect": [
+            "Not: rest rict. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: agree. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: argue. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 42
+        }
+      },
+      {
+        "question": "Which reference source would you use to find part of speech for a word? the",
+        "choices": [
+          "p hone book",
+          "thesaurus",
+          "encyclopedia",
+          "dictionary"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: dictionary. dictionary; Dictionary a reference book containing words along with information about – their forms, pronunciations, functions, meanings, and uses.",
+          "incorrect": [
+            "Not: p hone book. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: thesaurus. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: encyclopedia. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 46
+        }
+      },
+      {
+        "question": "Choose the best word to complete the sentence. The dog was so ________, it had to have a muzzle and be put on a chain.",
+        "choices": [
+          "happy",
+          "calm",
+          "gentle",
+          "aggressive"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: aggressive. aggressive Aggressive ready or likely to attack or confront.; –",
+          "incorrect": [
+            "Not: happy. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: calm. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: gentle. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 50
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, t hen choose a word that best fits the meaning. My brothers are both lifeguards, but they work at different pools and don’t see each other very often.",
+        "choices": [
+          "sep arate",
+          "formal",
+          "same",
+          "far away"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: sep arate. separate Different to be unlike, dissimilar.; –",
+          "incorrect": [
+            "",
+            "Not: formal. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: same. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: far away. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 51
+        }
+      },
+      {
+        "question": "If a word had multiple meanings, which reference source would you use to see what the different meanings were?",
+        "choices": [
+          "d ictionary",
+          "phone book",
+          "thesaurus",
+          "encyclopedia"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: d ictionary. dictionary; Dictionary a reference book containing words along with information about – their forms, pronunciations, functions, meanings, and uses.",
+          "incorrect": [
+            "",
+            "Not: phone book. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: thesaurus. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: encyclopedia. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 56
+        }
+      },
+      {
+        "question": "Which word best completes the sentence? The young girl _______ as her older brother left for college.",
+        "choices": [
+          "f ailed",
+          "wept",
+          "jolted",
+          "dashed"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: wept. wept Wept shed tears.; –",
+          "incorrect": [
+            "Not: f ailed. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: jolted. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: dashed. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 59
+        }
+      },
+      {
+        "question": "Use the context of the sentence to determine the meaning of the underlined word, then choose a word that best fits the meaning. Our camp counselor told us to bring the necessary supplies to the art center, or we wouldn’t be able to do the project.",
+        "choices": [
+          "optional",
+          "needed",
+          "wanted",
+          "organized"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: needed. Necessary – absolutely needed. needed",
+          "incorrect": [
+            "Not: optional. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: wanted. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: organized. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 1,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 61
+        }
+      },
+      {
+        "question": "Which reference material would you use to find information on how to make strawberry jelly?",
+        "choices": [
+          "dictionary",
+          "encyclopedia",
+          "glossary",
+          "thesaurus"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: encyclopedia. Encyclopedia – a book or set of books giving information on many subjects. encyclopedia",
+          "incorrect": [
+            "Not: dictionary. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: glossary. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: thesaurus. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 65
+        }
+      },
+      {
+        "question": "Which reference material would you use to find how to pronounce a word?",
+        "choices": [
+          "dictionary",
+          "glossary",
+          "thesaurus",
+          "encyclopedia"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: dictionary. dictionary; A dictionary contains a word’s pronunciation, function, and meaning.",
+          "incorrect": [
+            "",
+            "Not: glossary. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: thesaurus. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: encyclopedia. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 75
+        }
+      },
+      {
+        "question": "Read the following sentence, use the context clues, and choose the word that best fits the meaning of the underlined word. Everyone thought she was lying, but Jessica declared she was telling the truth.",
+        "choices": [
+          "proclaimed",
+          "fixed",
+          "resolved",
+          "refused"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: proclaimed. proclaimed Declare – to make known formally, officially; proclaim.",
+          "incorrect": [
+            "",
+            "Not: fixed. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: resolved. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: refused. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 82
+        }
+      },
+      {
+        "question": "Which reference material would you use to find information about a European country?",
+        "choices": [
+          "glossary",
+          "encyclopedia",
+          "dictionary",
+          "thesaurus"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: encyclopedia. An encyclopedia a book or set of books giving information on many encyclopedia; is subjects or on aspects of a subject.",
+          "incorrect": [
+            "Not: glossary. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: dictionary. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: thesaurus. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 86
+        }
+      },
+      {
+        "question": "Choose the correct word for the sentence below. My dog is the _________ when he gets his dog treat with peanut butter on top.",
+        "choices": [
+          "h appy",
+          "happiest",
+          "happier",
+          "more happy"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: happiest. happiest",
+          "incorrect": [
+            "Not: h appy. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: happier. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: more happy. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 16,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 16
+        }
+      },
+      {
+        "question": "Use the correct word to complete the sentence. They fell in love and decided to _________ in December.",
+        "choices": [
+          "marry",
+          "merry",
+          "mary",
+          "meri"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: marry. y Marry to wed, unite intimately. marr; –",
+          "incorrect": [
+            "",
+            "Not: merry. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: mary. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: meri. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 20
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. Trey is a(n) ________. He always likes to be the center of attention and can perform in an instant.",
+        "choices": [
+          "in trovert",
+          "ham",
+          "intoxicator",
+          "behaviorist"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: ham. ham, Ham is an expression or word used to describe a showy performer, s omeone who tends to behave in an exaggerated or playful way when people are watching.",
+          "incorrect": [
+            "Not: in trovert. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: intoxicator. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: behaviorist. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 29
+        }
+      },
+      {
+        "question": "What word best completes the sentence? My mom was __________ with me when I went outside to play instea d of finishing my chores.",
+        "choices": [
+          "h orrified",
+          "envious",
+          "happ y",
+          "cross"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: cross. Cross; In this usage, cross is a synonym for upset or angry.",
+          "incorrect": [
+            "Not: h orrified. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: envious. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: happ y. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 33
+        }
+      },
+      {
+        "question": "Read the following sentence, use the context clues to choose t he word that best fits the meaning of the underlined word. Environmentalists and scientists have established that recycling is good for our planet.",
+        "choices": [
+          "at tended",
+          "furnished",
+          "discussed",
+          "confirmed"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: confirmed. confirmed; Confirm to establish the truth. –",
+          "incorrect": [
+            "Not: at tended. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: furnished. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: discussed. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 39
+        }
+      },
+      {
+        "question": "Choose the correct word to complete the sentence. Josh _______ the ball and broke the window.",
+        "choices": [
+          "t hrew",
+          "through",
+          "thorough",
+          "throw"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: t hrew. threw Threw (past tense of throw) to project or cast an object.; –",
+          "incorrect": [
+            "",
+            "Not: through. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: thorough. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: throw. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 41
+        }
+      },
+      {
+        "question": "Use the context the sentence to determine the meaning the of underlined word. Choose the word that best fits the meaning. Having a heated indoor and outdoor pool at the hotel was a luxury Rachel was not expecting.",
+        "choices": [
+          "problem",
+          "pleasure",
+          "surprise",
+          "disappointment"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: pleasure. pleasure; Luxury means something that makes life nicer but is not a necessity.",
+          "incorrect": [
+            "Not: problem. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: surprise. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: disappointment. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 54
+        }
+      },
+      {
+        "question": "Choose the correct the sentence word for below. I water skiing at the lake this summer.",
+        "choices": [
+          "gone",
+          "did",
+          "do",
+          "went"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: went. went; This sentence uses the simple past tense of the verb go.",
+          "incorrect": [
+            "Not: gone. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: did. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: do. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 16,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 67
+        }
+      },
+      {
+        "question": "Replace the underlined words with the answer that shows people were very afraid of seeing the pirate. No one wanted to be down by the sea at night because they were afraid of seeing Old Eyepatch Joe.",
+        "choices": [
+          "were worried about",
+          "didn’t like",
+          "dreaded",
+          "anticipated"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: dreaded. dreaded",
+          "incorrect": [
+            "Not: were worried about. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: didn’t like. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: anticipated. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 73
+        }
+      },
+      {
+        "question": "What is the correct order of the words in the sentence? Fariq and his family visited the Statue of Liberty yesterday although it was cold, alarmingly and snowy.",
+        "choices": [
+          "Fariq and his family visited the Statue of Li berty yesterday although it wa s cold alarmingly, and snowy.",
+          "Fariq and his family visited the Statue of Liberty yester day although it was cold and snowy.",
+          "Fariq and his family visited the Statue of Liberty yesterday alt hough it was alarmingly cold and snowy.",
+          "Fariq and his family visited the Statue of Li berty yesterday although it wa s cold, snowy, and alarmingly."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: Fariq and his family visited the Statue of Liberty yesterday alt hough it was alarmingly cold and snowy.. Fariq and his family visited the Statue of Liberty yesterday although it was alarmingly cold and snowy. This choice uses the most appropriate order of a dverbs and adjectives according to conventional patterns.",
+          "incorrect": [
+            "Not: Fariq and his family visited the Statue of Li berty yesterday although it wa s cold alarmingly, and snowy.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Fariq and his family visited the Statue of Liberty yester day although it was cold and snowy.. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: Fariq and his family visited the Statue of Li berty yesterday although it wa s cold, snowy, and alarmingly.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 112
+        }
+      },
+      {
+        "question": "Read the passage below. What does the speaker mean when he co mpares Alex to a brick wall? The starting keeper was out with a concussion, so Alex was finally ge tting to play. He had practiced and prepared for this opportunity. He knew he could do it. Alex was a brick wall.",
+        "choices": [
+          "He w ould not let a ball get by him.",
+          "He was stubborn.",
+          "He built a wall in front of the goal.",
+          "He worked out by lifting bricks to get stronger."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: He w ould not let a ball get by him.. He would not let a ball get by him. Brick walls are strong and do no t allow objects to pass through them. By comparing Alex to a brick wall, the author is saying that Alex will block his opponent from scoring a goal.",
+          "incorrect": [
+            "",
+            "Not: He was stubborn.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: He built a wall in front of the goal.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: He worked out by lifting bricks to get stronger.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 12,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 114
+        }
+      },
+      {
+        "question": "What is the correct word to complete the sentence? I gave all the _______ answers on the test and got 100%.",
+        "choices": [
+          "w rite",
+          "right",
+          "rite",
+          "wright"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: right. right; Right is the best a nswer and means correct.",
+          "incorrect": [
+            "Not: w rite. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: rite. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: wright. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 17,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 119
+        }
+      },
+      {
+        "question": "What error did the writer make in the sentence below? I can’t take another breathe until I know how this mov ie ends.",
+        "choices": [
+          "Sh e should use the. word “breath” rather than “breathe”",
+          "She should use the word “took” rather than “take”.",
+          "She should use the word “no” rather than “know.”",
+          "She should use the words “a nother” rather than “another”."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Sh e should use the. word “breath” rather than “breathe”. She should use the word “breath” rather than “breathe”. The word “breat he” is a verb, but “breath” is a noun.",
+          "incorrect": [
+            "",
+            "Not: She should use the word “took” rather than “take”.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: She should use the word “no” rather than “know.”. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: She should use the words “a nother” rather than “another”.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 124
+        }
+      },
+      {
+        "question": "Based on the sentence below, what is the best meaning for the word gawked? It was cold and snowing outside. My mother gawked at me when I came out wearing shorts and sandals.",
+        "choices": [
+          "glan ced at",
+          "laughed at",
+          "yelled at",
+          "stared at"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: stared at. stared at; Gawked to stare stupidly. –",
+          "incorrect": [
+            "Not: glan ced at. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: laughed at. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: yelled at. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 125
+        }
+      },
+      {
+        "question": "What does the word mean in the sentence below? despondent The poor woman was despondent after losing her purse at the State Fair.",
+        "choices": [
+          "overjo yed",
+          "hopeful",
+          "discouraged",
+          "elated"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: discouraged. discouraged; Despondent feeling or showing profound hopelessness, dejection, – discouragement or gloom.",
+          "incorrect": [
+            "Not: overjo yed. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: hopeful. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: elated. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 26,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 128
+        }
+      },
+      {
+        "question": "Fill in the blank with the correct word choice. That haunted house was the reason __________ I couldn’t sleep very well.",
+        "choices": [
+          "w here",
+          "why",
+          "how",
+          "where"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: why. why; “Why” is a relative adverb used for reasoning.",
+          "incorrect": [
+            "Not: w here. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: how. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: where. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 28,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 130
+        }
+      },
+      {
+        "question": "What word best completes the sentence? The prosecutor presented his case. The jury had a great deal of ________ to sort through before reaching a verdict.",
+        "choices": [
+          "ref utation",
+          "chapters",
+          "evidence",
+          "concealment"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: evidence. evidence; Evidence something that tends to prove or disprove something; ground for – belief.",
+          "incorrect": [
+            "Not: ref utation. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: chapters. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: concealment. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 135
+        }
+      },
+      {
+        "question": "Choose the correct word to complete the sentence. You have been very moody these _______ few weeks.",
+        "choices": [
+          "p assed",
+          "pest",
+          "past",
+          "pessed"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: past. past; The word refers to time. past",
+          "incorrect": [
+            "Not: p assed. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: pest. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: pessed. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 41,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 143
+        }
+      },
+      {
+        "question": "Choose the correct word to complete the sentence below. The death of my grandmother deeply ____________ me.",
+        "choices": [
+          "effected",
+          "affected",
+          "accepted",
+          "except ed"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: affected. affected; Affect is used as a verb meaning to influence or produce a c hange in.",
+          "incorrect": [
+            "Not: effected. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: accepted. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: except ed. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 46,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 148
+        }
+      },
+      {
+        "question": "Choose the word that best completes the sentence. A few remaining ruins are all that are left of that once mighty but now ______ civilization.",
+        "choices": [
+          "existe nt",
+          "extract",
+          "extinct",
+          "eloquent"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: extinct. extinct; Extinct no longer existing. –",
+          "incorrect": [
+            "Not: existe nt. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: extract. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: eloquent. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 150
+        }
+      },
+      {
+        "question": "Identify the sentence that contains two prepositio nal phrases.",
+        "choices": [
+          "Ab dul went into the room to get his basketball.",
+          "Abdul went into the room and grabbed his favori te basketball.",
+          "Abdul grabbed his favorite basketball to play a pick up game.",
+          "Abdul went into the room and found his basketball under his desk."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: Abdul went into the room and found his basketball under his desk.. Abdul went into the room and found his basketball under his desk. “Into the room” and k both prepositional phrases. “under his des” are",
+          "incorrect": [
+            "Not: Ab dul went into the room to get his basketball.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Abdul went into the room and grabbed his favori te basketball.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: Abdul grabbed his favorite basketball to play a pick up game.. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 49,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 151
+        }
+      },
+      {
+        "question": "Use the context the sentence to deter mine the meaning the of underlined word. Choose the word or phrase that best fits the meaning. Mr. Fetter modified the test to make it easier for the students.",
+        "choices": [
+          "change",
+          "grade",
+          "write",
+          "take away"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: change. change",
+          "incorrect": [
+            "",
+            "Not: grade. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: write. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: take away. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 156
+        }
+      },
+      {
+        "question": "Choose the correct word for the sentence below. The train engine smoke into the clear night air on our trip last week.",
+        "choices": [
+          "blows",
+          "is blowing",
+          "blew",
+          "could blow"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: blew. This sentence is past tense since it happened last week. blew",
+          "incorrect": [
+            "Not: blows. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: is blowing. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: could blow. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 16,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 169
+        }
+      },
+      {
+        "question": "Replace the with that the bear was and mean. underlined words one shows wild The growling bear sounded like he wanted to eat us.",
+        "choices": [
+          "ferocious",
+          "optimistic",
+          "irritated",
+          "confident"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: ferocious. ferocious",
+          "incorrect": [
+            "",
+            "Not: optimistic. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: irritated. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: confident. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 175
+        }
+      },
+      {
+        "question": "Read the sentence, following use the context to the clues choose word that fits the best meaning of the underlined word. The hiker acquired so many colorful rocks on his walk that his backpack was full.",
+        "choices": [
+          "saw",
+          "returned",
+          "collected",
+          "bought"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: collected. collected; Acquire and collect mean to gather.",
+          "incorrect": [
+            "Not: saw. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: returned. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: bought. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 192
+        }
+      },
+      {
+        "question": "Use the context the sentence to determine the meaning the of underlined word. Choose the word that best fits the meaning. I tried to ignore the sound of the dog barking, but it kept me awake all night.",
+        "choices": [
+          "overlook",
+          "educate",
+          "pay attention to",
+          "clarify"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: overlook. – fail to notice something. overlook; Overlook",
+          "incorrect": [
+            "",
+            "Not: educate. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: pay attention to. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: clarify. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 207
+        }
+      },
+      {
+        "question": "Read sentence. the context tofollowing Use clues choose the that word best fits the meaning of the underlined word. In math class, we had tofigure out twenty-five problems in a minute.",
+        "choices": [
+          "leader",
+          "shape",
+          "digit",
+          "solve"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: solve. – to compute, calculate; to solve. solve; Figure",
+          "incorrect": [
+            "Not: leader. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: shape. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: digit. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 210
+        }
+      },
+      {
+        "question": "Use the correct word to complete the sentence. I asked my mom to how to knit. me",
+        "choices": [
+          "teach",
+          "learn",
+          "expound",
+          "guide"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: teach. teach; Teach – to give instruction in",
+          "incorrect": [
+            "",
+            "Not: learn. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: expound. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: guide. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 20,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 224
+        }
+      },
+      {
+        "question": "Choose the sentence that is punc tuated correctly.",
+        "choices": [
+          "Mrs. Dennis went shopping, to the groomers, and to w ork.",
+          "Boyd hit a single, and a homerun during the game.",
+          "I had to clean the bedroo m, living room, and kitchen, before my mom cam e.",
+          "The bike had blu e, and silver handles, and a red seat."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: Mrs. Dennis went shopping, to the groomers, and to w ork.. Mrs. Dennis w ent shopping, to t he groo mers, and to w ork. The commas are in the correct places to punctuate a series or lis t.",
+          "incorrect": [
+            "",
+            "Not: Boyd hit a single, and a homerun during the game.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: I had to clean the bedroo m, living room, and kitchen, before my mom cam e.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: The bike had blu e, and silver handles, and a red seat.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 257
+        }
+      },
+      {
+        "question": "Use the context the sentence determine the meaning the underlined word. Choose of to of the word or phrase that best fits the meaning. The twitch in Carol’s mouth almost gave away the surprise, but she managed to keep a straight face until Marguerite brought out the c ake.",
+        "choices": [
+          "jerky movement",
+          "frown",
+          "gap",
+          "wrinkle"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: jerky movement. jerky movement",
+          "incorrect": [
+            "",
+            "Not: frown. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: gap. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: wrinkle. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 3,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 258
+        }
+      },
+      {
+        "question": "Replace the underlined word with one that shows the skateboard quickly went dow n the hill. Manny chased the runaway skateboard as it went down the hill.",
+        "choices": [
+          "flew",
+          "rolled",
+          "chugged",
+          "wandered"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: flew. flew",
+          "incorrect": [
+            "",
+            "Not: rolled. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: chugged. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: wandered. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 22,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 277
+        }
+      },
+      {
+        "question": "Read the following sentence, use the context clues choose the word that best fits the to meaning of the underlined word. The old pier was still standing because it had been built on the stout pilings that been driven deep into the rock bed.",
+        "choices": [
+          "well-known",
+          "sturdy",
+          "worn-out",
+          "weak"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: sturdy. sturdy",
+          "incorrect": [
+            "Not: well-known. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: worn-out. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: weak. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 294
+        }
+      },
+      {
+        "question": "Choose the best answer complete the following sentence. to After I’mowed the lawn, I swimmin g at the park.",
+        "choices": [
+          "am going",
+          "did go",
+          "will go",
+          "is going"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: did go. did go; Thi s shows that the action happened in the past.",
+          "incorrect": [
+            "Not: am going. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: will go. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: is going. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 40,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 295
+        }
+      },
+      {
+        "question": "Replace the underlined words with one that shows the broke forcefully. wood The woo d was damaged under the weight of the pool.",
+        "choices": [
+          "splintered",
+          "bent",
+          "curved",
+          "cracked"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: splintered. splintered; Splintered means to break into thin, shar p pie ces.",
+          "incorrect": [
+            "",
+            "Not: bent. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: curved. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: cracked. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-word-meaning-context",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 45,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 300
         }
       }
     ],
@@ -28584,6 +35486,644 @@
             "MAP"
           ],
           "sequence": 120
+        }
+      },
+      {
+        "question": "Choose the word that is incorrectly spelled.",
+        "choices": [
+          "mo nkeys",
+          "babies",
+          "bunnys",
+          "stories"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: bunnys. bunnys; The correct spelling is bunnies.",
+          "incorrect": [
+            "Not: mo nkeys. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: babies. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: stories. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 23
+        }
+      },
+      {
+        "question": "Choose the word that is spelled incorrectly.",
+        "choices": [
+          "narrower",
+          "certainly",
+          "deflate",
+          "mobillity"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: mobillity. mobillity – mobility",
+          "incorrect": [
+            "Not: narrower. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: certainly. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: deflate. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 74
+        }
+      },
+      {
+        "question": "Choose the word that is spelled correctly.",
+        "choices": [
+          "manaege",
+          "hidrant",
+          "manual",
+          "sequele"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: manual. manual",
+          "incorrect": [
+            "Not: manaege. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: hidrant. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: sequele. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 80
+        }
+      },
+      {
+        "question": "Identify the correctly spelled word that best completes the sentence. Valerie asked her teacher, “Could you please ___ ______ the question and make it easier to understand?”",
+        "choices": [
+          "clearify",
+          "clarify",
+          "cl erify",
+          "clairify"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: clarify. clarify; Clarify to become clear or intelligible. –",
+          "incorrect": [
+            "Not: clearify. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: cl erify. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: clairify. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "passage-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 110
+        }
+      },
+      {
+        "question": "Ch oose the sentence that contains a misspelled word.",
+        "choices": [
+          "D uring migration, the butterflies fly south to Mexic o.",
+          "My teach will give us ten quizzes over the next five weeks. er",
+          "When the ambulance arrived, the firefighters were able to leave the acc ident.",
+          "We loaded 25 boxxes into the moving truck."
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: We loaded 25 boxxes into the moving truck.. We loaded 25 boxxes into the moving truck. Boxxes is correctly spelled boxes.",
+          "incorrect": [
+            "Not: D uring migration, the butterflies fly south to Mexic o.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: My teach will give us ten quizzes over the next five weeks. er. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: When the ambulance arrived, the firefighters were able to leave the acc ident.. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 11,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 113
+        }
+      },
+      {
+        "question": "Identify the correct word to complete the sentence. Abdul practiced his spelling words to ________ that he was ready for the test.",
+        "choices": [
+          "in sure",
+          "assure",
+          "ensure",
+          "azure"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ensure. ensure; Ensure to guarantee or make sure of someth ing. –",
+          "incorrect": [
+            "Not: in sure. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: assure. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: azure. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 19,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 121
+        }
+      },
+      {
+        "question": "Choose the sentence with the misspelled word.",
+        "choices": [
+          "I w as so embarassed when I tripped and dropped my cafeteria tray.",
+          "Roxanna was so excited to see her father and give him a hug.",
+          "My sister and I bought a new aquarium for our two goldfish.",
+          "When I received my package, I noticed that they acc identally shipped an extra part."
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: I w as so embarassed when I tripped and dropped my cafeteria tray.. I was embarassed when I tripped and dropped my cafeteria tray. The corre ct spelling is embarrassed.",
+          "incorrect": [
+            "",
+            "Not: Roxanna was so excited to see her father and give him a hug.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: My sister and I bought a new aquarium for our two goldfish.. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: When I received my package, I noticed that they acc identally shipped an extra part.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 32,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 134
+        }
+      },
+      {
+        "question": "Choose the word that is used incorrectly. We pride the door off the hinges using a crowbar and a hammer.",
+        "choices": [
+          "pride",
+          "hinges",
+          "crowbar",
+          "hammer"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: pride. This is the wrong word. It should be. pride; pried",
+          "incorrect": [
+            "",
+            "Not: hinges. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: crowbar. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: hammer. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 176
+        }
+      },
+      {
+        "question": "Choose the word that is spelled correctly.",
+        "choices": [
+          "anchor",
+          "wealthie",
+          "delibarate",
+          "temprorary"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: anchor. anchor",
+          "incorrect": [
+            "",
+            "Not: wealthie. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: delibarate. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: temprorary. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 182
+        }
+      },
+      {
+        "question": "Choose the word that is spelled inc orrectly.",
+        "choices": [
+          "lonely",
+          "basically",
+          "gracious",
+          "acadamy"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: acadamy. . acadamy academy –",
+          "incorrect": [
+            "Not: lonely. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: basically. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: gracious. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 23,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 278
+        }
+      },
+      {
+        "question": "Choose the word that is spelled correctly.",
+        "choices": [
+          "empeathy",
+          "dicatate",
+          "controled",
+          "movement"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: movement. movement",
+          "incorrect": [
+            "Not: empeathy. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: dicatate. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: controled. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-spelling",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 29,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 284
         }
       }
     ],
@@ -38845,6 +46385,1920 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "Which simile would best complete the following comparison? The teacher’s instructions were hard to understand. They were ___________________.",
+        "choices": [
+          "as free as a bird",
+          "as clear as mud",
+          "as good as gold",
+          "crystal clear"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: as clear as mud. as clear as mud; “Clear as mud” is a simile that means not at all easy to understand.",
+          "incorrect": [
+            "Not: as free as a bird. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: as good as gold. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: crystal clear. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 8
+        }
+      },
+      {
+        "question": "What is the meaning of the following proverb? A penny saved is a penny earned.",
+        "choices": [
+          "Spend your money as soon as you get it",
+          "Save your money, don’t spend it",
+          "Earning a penny is not a lot",
+          "Give your pennies away"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: Save your money, don’t spend it. This proverb means that it is useful to save your money. Save your money, don’t spend it",
+          "incorrect": [
+            "Not: Spend your money as soon as you get it. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: Earning a penny is not a lot. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: Give your pennies away. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 9
+        }
+      },
+      {
+        "question": "Which metaphor would best complete the following comparison? Monica was __________ that she aced the test She was jumping for joy..",
+        "choices": [
+          "very happy",
+          "very nervous",
+          "very tired",
+          "very sad"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: very happy. very happy Jumping for joy metaphor that means ecstatically happy.; “” is a",
+          "incorrect": [
+            "",
+            "Not: very nervous. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: very tired. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: very sad. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 18
+        }
+      },
+      {
+        "question": "What is the meaning of the following underlined idiom? When my grandpa misplaces something, he always says that h having a senior e’s moment.",
+        "choices": [
+          "loo king old",
+          "remembering things",
+          "being nice",
+          "being forgetful"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: being forgetful. being forgetful, Senior moment an occasion when someone forgets someth ing. –",
+          "incorrect": [
+            "Not: loo king old. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: remembering things. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: being nice. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 19
+        }
+      },
+      {
+        "question": "Which metaphor below would be helpful in describing a huge crowd of pe ople at a festival?",
+        "choices": [
+          "The people marched through the streets on a mi ssion, like an army marching to battle.",
+          "The rides were deserted, and the silence was chilling.",
+          "A stream of excited people hurried towards the gates and into the park as they ran t o their favorite attraction.",
+          "I woke up an emotional wreck on the morning of the festival."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: A stream of excited people hurried towards the gates and into the park as they ran t o their favorite attraction.. A stream of excited people hurried towards the gates and into the park as they ran to their favorite attraction. This is the only choice that is a me taphor, describes a crowd, and describesthe way a crowd would behave at a festival.",
+          "incorrect": [
+            "Not: The people marched through the streets on a mi ssion, like an army marching to battle.. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: The rides were deserted, and the silence was chilling.. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: I woke up an emotional wreck on the morning of the festival.. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 28
+        }
+      },
+      {
+        "question": "What is the meaning of the following underlined idiom? I think that you need to swallow your pride and apologize to your teacher for lying.",
+        "choices": [
+          "t o swallow hard",
+          "to deny doing something",
+          "to forget about being embarrassed",
+          "to pretend you are sorry"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: to forget about being embarrassed. to forget about being embarrassed; To swallow your pride is to do something although it will make you feel embarrassed or ashamed.",
+          "incorrect": [
+            "Not: t o swallow hard. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: to deny doing something. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: to pretend you are sorry. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 29
+        }
+      },
+      {
+        "question": "What is the meaning of the simile “as dry as a bo ne”?",
+        "choices": [
+          "very q uiet",
+          "very wet",
+          "very dry",
+          "very short"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: very dry. very dry; As dry as a bone is a simile for completely dry.",
+          "incorrect": [
+            "Not: very q uiet. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: very wet. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: very short. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 36
+        }
+      },
+      {
+        "question": "Which simile would best complete the following comparison? My mom can’t see anything when she takes off h er glasses. She is ____________.",
+        "choices": [
+          "as blind as a bat",
+          "as brave as a lion",
+          "as smart as an owl",
+          "as big as a bus"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: as blind as a bat. as blind as a bat.",
+          "incorrect": [
+            "",
+            "Not: as brave as a lion. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: as smart as an owl. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: as big as a bus. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 37
+        }
+      },
+      {
+        "question": "Which example: After studying for the test all night would the idiom “brain drain” mean? For I suffered brain drain!",
+        "choices": [
+          "could no longer see",
+          "could no longer think",
+          "was very curious",
+          "had a headache"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: could no longer think. could no longer think; An idiom is a phrase where the words together hav e a meaning that is different from the dictionary definition of the individual words themselves. “Brain brain is tired. drain” is an idiom for can no longer think, brain is empty,",
+          "incorrect": [
+            "Not: could no longer see. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: was very curious. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: had a headache. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 38
+        }
+      },
+      {
+        "question": "What is the meaning of the metaphor “music to my ears”?",
+        "choices": [
+          "b ad sound",
+          "no sound at all",
+          "good sound",
+          "can’t hear the sound"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: good sound. good sound; Music to my ears means something that is pleasant or gratifying to hear or discover.",
+          "incorrect": [
+            "Not: b ad sound. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: no sound at all. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: can’t hear the sound. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 47
+        }
+      },
+      {
+        "question": "What does the proverb “first come, first served” mean? For example: The camp hollered that dinner was ready, first come, first served.",
+        "choices": [
+          "first in line means you cut",
+          "first in line gets helped first",
+          "first in line has to wait for the others",
+          "first in line goes to the end of the line"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: first in line gets helped first. first in line gets helped first A proverb is an old, short saying or sentence, containing; words of wisdom generally known by many peopl e. First come, first served means that the people who arrive early get served or trea ted before the people who arrive later.",
+          "incorrect": [
+            "Not: first in line means you cut. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: first in line has to wait for the others. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: first in line goes to the end of the line. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 48
+        }
+      },
+      {
+        "question": "What does the adage “practice makes perfect” mean? For example: After Scott kept getting his spelling words wrong, the teacher told him not to worry and that practice makes perfect.",
+        "choices": [
+          "give up",
+          "stop working",
+          "don’t give up",
+          "come back another day"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: don’t give up. Practice makes perfect is an adage used to convey that regular exercise of don’t give up an activity or skill is the way to become proficient in it, especially when e ncouraging someone to persist in it.",
+          "incorrect": [
+            "Not: give up. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: stop working. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: come back another day. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 57
+        }
+      },
+      {
+        "question": "What is the meaning of the “ran like the wind”? simile",
+        "choices": [
+          "ran away",
+          "ran straight",
+          "ran very fast",
+          "ran slow"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: ran very fast. ran very fast “Ran like the wind” means to move or run very quickly.",
+          "incorrect": [
+            "Not: ran away. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: ran straight. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: ran slow. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 66
+        }
+      },
+      {
+        "question": "Which of the following s would best complete the comparison? simile Allison never wanted to do anything her friends suggested, she only wanted to do things her way. Her friends said she was ______________.",
+        "choices": [
+          "as brave as a lion",
+          "as old as the hills",
+          "as stubborn as a mule",
+          "as smart as an owl"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: as stubborn as a mule. as stubborn as a mule; The fact that Allison didn’t want to do things that h er friends suggested indicates that she was “stubborn as a mule”.",
+          "incorrect": [
+            "Not: as brave as a lion. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: as old as the hills. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: as smart as an owl. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 67
+        }
+      },
+      {
+        "question": "Which would the adage “don’t judge a book by its cover” mean? For example: When the kids thought the new girl at school was odd because of her purple hair and different clothing, the teacher told them not to judge a book by its cover.",
+        "choices": [
+          "things may not appear how they seem",
+          "things are always what they look like",
+          "different is OK",
+          "being rude to new kids is not nice"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: things may not appear how they seem. things may not appear how they seem adage is another way of saying a proverb.; An “Don’t judge a book by its cover” means one shouldn’t prejudice the worth or value of something by its outward appearance alone.",
+          "incorrect": [
+            "",
+            "Not: things are always what they look like. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: different is OK. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: being rude to new kids is not nice. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 68
+        }
+      },
+      {
+        "question": "What is the meaning of the “raining cats and dogs idiom”?",
+        "choices": [
+          "too many animals",
+          "light drizzle and rain",
+          "loud rain",
+          "heavy rain"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: heavy rain. heavy rain; This is a Spanish idiom used to describe particularly heavy rain.",
+          "incorrect": [
+            "Not: too many animals. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: light drizzle and rain. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: loud rain. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 6,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 76
+        }
+      },
+      {
+        "question": "Which of the following metaphors would best complete the comparison? When Vanessa gave all of her toys to charity, everyone said she had ________________.",
+        "choices": [
+          "a lot of toys",
+          "a heart of gold",
+          "the voice of an angel",
+          "made a lot of money"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: a heart of gold. a heart of gold; Someone with a heart of gold is known as someone that is valued for his/her goodness.",
+          "incorrect": [
+            "Not: a lot of toys. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: the voice of an angel. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: made a lot of money. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 77
+        }
+      },
+      {
+        "question": "Which would the adage “stop and smell the roses” mean? For example: My dad was always busy with work and my mom told him he should stop and smell the roses.",
+        "choices": [
+          "get something done",
+          "slow down",
+          "be quiet",
+          "use air freshener"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: slow down. “Stop and smell the roses” is an idiom that means to relax, to take time out of slow down; one’s busy schedule and enjoy or appreciate the beauty of life.",
+          "incorrect": [
+            "Not: get something done. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: be quiet. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: use air freshener. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 78
+        }
+      },
+      {
+        "question": "What is the meaning of the following proverb? “Don’t put off until tomorrow what can do today.” you",
+        "choices": [
+          "have someone else do it",
+          "don’t worry about it",
+          "do it now",
+          "do it later"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: do it now. do it now This proverb means to not delay or hesitate to do something if you can finish; or accomplish it today.",
+          "incorrect": [
+            "Not: have someone else do it. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: don’t worry about it. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: do it later. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 79
+        }
+      },
+      {
+        "question": "Which of the following would best complete the comparison? similes I don’t like to get up in the morning, and my mom says I always move _____________.",
+        "choices": [
+          "as cold as ice",
+          "as easy as apple pie",
+          "as slow as molasses",
+          "as quick as lightning"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: as slow as molasses. as slow as molasses; This is an idiom meaning painfully slow.",
+          "incorrect": [
+            "Not: as cold as ice. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: as easy as apple pie. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: as quick as lightning. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 87
+        }
+      },
+      {
+        "question": "What does the proverb “every dog has its day” mean? For example: When my brother couldn’t win a single game, his coach told him not to worry because every dog has its day.",
+        "choices": [
+          "everyone should quit trying",
+          "everyone will be successful sometime",
+          "no one will ever win",
+          "ev eryone has a dog"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: everyone will be successful sometime. everyone will be successful sometime “Every dog has its day” means that everyone is; successful or happy at some time in their life.",
+          "incorrect": [
+            "Not: everyone should quit trying. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: no one will ever win. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: ev eryone has a dog. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "passage-context",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 8,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 88
+        }
+      },
+      {
+        "question": "What is the meaning of the following? idiom “A bull in a china shop”",
+        "choices": [
+          "quiet",
+          "gentle",
+          "clumsy",
+          "loud"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: clumsy. means a person who breaks things or often makes mistakes or causes clumsy; This idiom damage; clumsy.",
+          "incorrect": [
+            "Not: quiet. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: gentle. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: loud. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "figurative language",
+            "vocabulary",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 9,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 89
+        }
+      },
+      {
+        "question": "What is the meaning of the simile “wise as an owl”?",
+        "choices": [
+          "d ull",
+          "pretty",
+          "stupid",
+          "smart"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: smart. smart; This simile means someone who is really smart.",
+          "incorrect": [
+            "Not: d ull. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: pretty. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: stupid. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 15
+        }
+      },
+      {
+        "question": "What is the meaning of the following idiom? “A ghost of a chance”",
+        "choices": [
+          "not likely",
+          "very likely",
+          "haunted",
+          "scared"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: not likely. not likely; “A ghost of a chance” means that a person has a very little chance of succeeding.",
+          "incorrect": [
+            "",
+            "Not: very likely. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: haunted. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: scared. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 51
+        }
+      },
+      {
+        "question": "What is the meaning of the simile? stiff as a board",
+        "choices": [
+          "good to build with",
+          "unbreakable",
+          "difficult or impossible to bend",
+          "no sense of humor"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: difficult or impossible to bend. difficult or to impossible bend",
+          "incorrect": [
+            "Not: good to build with. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: unbreakable. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: no sense of humor. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 66
+        }
+      },
+      {
+        "question": "What is the meaning of the idiom? take it easy",
+        "choices": [
+          "do not work",
+          "take a nap",
+          "relax",
+          "do something the easy way"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: relax. relax",
+          "incorrect": [
+            "Not: do not work. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: take a nap. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: do something the easy way. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 102
+        }
+      },
+      {
+        "question": "What is the meaning of the underlined idiom below? Xavier was flexible. He was always ready to gofishing at the drop of a hat.",
+        "choices": [
+          "sp ur of the moment",
+          "accidentally drop a hat",
+          "according to plan",
+          "all the time"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: sp ur of the moment. spur of the moment; The drop of a hat means that you will do something spur of the moment or without having planned beforehand.",
+          "incorrect": [
+            "",
+            "Not: accidentally drop a hat. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: according to plan. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: all the time. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 117
+        }
+      },
+      {
+        "question": "What is meant by the idiom costs an arm and a leg in the sentence below? I’d like to have a new sports car, but it may cost an arm and a leg.",
+        "choices": [
+          "make a bad situation worse",
+          "give away a secret",
+          "be very expen sive",
+          "put me in debt"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: be very expen sive. be very expensive; This idiom is used when someone thinks the cost of something is unreasonably high.",
+          "incorrect": [
+            "Not: make a bad situation worse. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: give away a secret. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: put me in debt. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 39,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 141
+        }
+      },
+      {
+        "question": "What is the meaning of the idiom? once in a blue moon",
+        "choices": [
+          "happens in outer space",
+          "happens very rarely",
+          "happens when the flowers bloom",
+          "happens every month"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: happens very rarely. happens very rarely; A blue moon is what a second full moon in the same month is called.",
+          "incorrect": [
+            "Not: happens in outer space. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: happens when the flowers bloom. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: happens every month. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 204
+        }
+      },
+      {
+        "question": "What does the metaphor in the first sentence mean? The was an angry, dragon. Its sky green sky, wind fiercely blew the trees sideways and rain pounded the rooftops.",
+        "choices": [
+          "Dragons were the rooftops. on",
+          "The sky made the trees look like dragons.",
+          "The sky was stormy.",
+          "None of the above."
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: The sky was stormy.. was stormy. metaphor compares The sky The sky to an angry, dragon. are green They both green; they both blow fiercely.",
+          "incorrect": [
+            "Not: Dragons were the rooftops. on. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: The sky made the trees look like dragons.. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: None of the above.. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 219
+        }
+      },
+      {
+        "question": "What is the meaning of the idiom “heart of gold”? Mallory has a heart of gold. I have never seen her angry with anyone.",
+        "choices": [
+          "quiet and shy",
+          "good and kind",
+          "mean and nasty",
+          "sneaky and mistrustful"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: good and kind. good and If has a heart kind; someone of gold, are emphasizing that they are you very good and kind to other people.",
+          "incorrect": [
+            "Not: quiet and shy. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: mean and nasty. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: sneaky and mistrustful. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "sentence-context",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 33,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 237
+        }
+      },
+      {
+        "question": "What is the meaning of the simile? busy as a beaver",
+        "choices": [
+          "making dams",
+          "working in a zoo",
+          "doing a lot of things",
+          "playing in the water"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: doing a lot of things. doing a lot things of",
+          "incorrect": [
+            "Not: making dams. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: working in a zoo. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: playing in the water. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 15,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 270
+        }
+      },
+      {
+        "question": "What is the meaning of the idiom? a little birdie told me",
+        "choices": [
+          "what I am telling you is not true",
+          "someone told me a secret",
+          "this is news from another country",
+          "my younger brother/sister told me"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: someone told me a secret. someone told me a secret",
+          "incorrect": [
+            "Not: what I am telling you is not true. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: this is news from another country. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: my younger brother/sister told me. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "infer-and-support",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-figurative-language",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 51,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 306
         }
       }
     ],
@@ -65546,6 +75000,122 @@
           "sourceSet": "vocabulary-shades-of-meaning",
           "sequence": 180
         }
+      },
+      {
+        "question": "Which word shows an emotion?",
+        "choices": [
+          "plunged",
+          "been",
+          "excited",
+          "jolt"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: excited. excited; Excited very enthusiastic and eager. –",
+          "incorrect": [
+            "Not: plunged. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: been. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: jolt. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-shades-of-meaning",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 40
+        }
+      },
+      {
+        "question": "Which word shows emotion?",
+        "choices": [
+          "annoyed",
+          "were",
+          "broke",
+          "clutched"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: annoyed. annoyed Annoyed to irritate or make someone a little angry.; –",
+          "incorrect": [
+            "",
+            "Not: were. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: broke. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: clutched. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "word meaning",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-shades-of-meaning",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 10,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 60
+        }
       }
     ],
     "metadata": {
@@ -74681,6 +84251,992 @@
           "Test focus": [
             "MAP"
           ]
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word “computer”?",
+        "choices": [
+          "com-put-er",
+          "com-pu-ter",
+          "comp-uter",
+          "com-pu-ter"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: com-pu-ter. com- -ter; Computer an electronic device for storing and processing data. pu –",
+          "incorrect": [
+            "Not: com-put-er. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: com-pu-ter. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: comp-uter. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Advanced Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 7
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word “auditorium”?",
+        "choices": [
+          "au d---ium it or",
+          "audi-tor-ium",
+          "au -d it- -i- or um",
+          "au ri-di to-um"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: au ri-di to-um. Auditorium the part of a building where the audience sits. au di to ri um; –",
+          "incorrect": [
+            "Not: au d---ium it or. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: audi-tor-ium. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: au -d it- -i- or um. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Advanced Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 17
+        }
+      },
+      {
+        "question": "How many syllables are in the word “dissatisfied”?",
+        "choices": [
+          "6",
+          "5",
+          "4",
+          "3"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: 4. 4; dis-sat-is-fied",
+          "incorrect": [
+            "Not: 6. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: 5. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: 3. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 2,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 22
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word “exasperated”?",
+        "choices": [
+          "as at ex--p er--ed",
+          "exas-per-ated",
+          "ex -asp--er at ed",
+          "exas-per--at ed"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: as at ex--p er--ed. per--; Exasperated having or showing strong feelings of irritation or ex as at ed – annoyance.",
+          "incorrect": [
+            "",
+            "Not: exas-per-ated. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: ex -asp--er at ed. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: exas-per--at ed. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 65,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Advanced Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 7,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 27
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word “tissue”?",
+        "choices": [
+          "t -is-sue",
+          "ti -ssue",
+          "tis-sue",
+          "ti--e ssu"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: tis-sue. tis-su e; Tissue a piece of soft absorbent paper. –",
+          "incorrect": [
+            "Not: t -is-sue. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: ti -ssue. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: ti--e ssu. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Basic Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 34
+        }
+      },
+      {
+        "question": "Which is the correct syllabication of the word “ph one”?",
+        "choices": [
+          "p hone",
+          "ph -o- ne",
+          "ph -one",
+          "phon-e"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p hone. phone",
+          "incorrect": [
+            "",
+            "Not: ph -o- ne. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: ph -one. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: phon-e. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Basic Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 45
+        }
+      },
+      {
+        "question": "Which before is the correct syllabication of the word “”?",
+        "choices": [
+          "b -e-for-e",
+          "be -fore",
+          "be -for-e",
+          "b-e--fo re"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: be -fore. fore be",
+          "incorrect": [
+            "Not: b -e-for-e. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: be -for-e. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: b-e--fo re. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 45,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Basic Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 55
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word “lovely”?",
+        "choices": [
+          "el lov--y",
+          "lov ly -e-",
+          "lo ly-ve",
+          "lov e ly -"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: lov e ly -. – delightful for beauty, harmony, or grace. love ly; Lovely",
+          "incorrect": [
+            "Not: el lov--y. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: lov ly -e-. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: lo ly-ve. Use the word clue, word part, or usage rule to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Proficient Quiz 1_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 64
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word “” used as a verb? present",
+        "choices": [
+          "ent pres -",
+          "pr-es ent",
+          "pre-sent",
+          "pr e nt-se"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: pre-sent. Present (v) – to give or bestow formally. pre sent",
+          "incorrect": [
+            "Not: ent pres -. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: pr-es ent. Use the word clue, word part, or usage rule to check this choice.",
+            "",
+            "Not: pr e nt-se. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Proficient Quiz 2_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 4,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 74
+        }
+      },
+      {
+        "question": "Which is the correct syllabication of the word “dictator”?",
+        "choices": [
+          "dic -ta-tor",
+          "di -cta-tor",
+          "dict -ator",
+          "dic t -a-tor"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: dic -ta-tor. ta-tor Dictator – one ruling in an absolute and often oppressive way. dic",
+          "incorrect": [
+            "",
+            "Not: di -cta-tor. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: dict -ator. Use the word clue, word part, or usage rule to check this choice.",
+            "Not: dic t -a-tor. Use the word clue, word part, or usage rule to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use context clues, word parts, relationships, and figurative language to understand words.",
+          "example": "Check the sentence clue or word part, then test each answer choice.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "syllables",
+            "word analysis",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the word clue, word part, or usage rule to compare each answer choice",
+          "estimatedTimeSeconds": 55,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Proficient Quiz 3_Language_Vocabulary and Usage_ MAP 4th Grade.pdf",
+          "sourceQuestionNumber": 5,
+          "sourceCategory": "vocabulary-and-usage",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 85
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word? information",
+        "choices": [
+          "in for-mation",
+          "infor- -tion ma",
+          "in-form- ation",
+          "in-for- -tion ma"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: in-for- -tion ma. in-for- -tion; Information knowledge obtained from investigation, study, or ma – instruction.",
+          "incorrect": [
+            "Not: in for-mation. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: infor- -tion ma. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: in-form- ation. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Language Usage_ Proficient 1_4th grade.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 27
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word? ingredient",
+        "choices": [
+          "i--ngre di ent",
+          "in ie-gred-nt",
+          "in-gre dient",
+          "in-gre di ent"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: in-gre di ent. in gre di ent",
+          "incorrect": [
+            "Not: i--ngre di ent. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: in ie-gred-nt. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: in-gre dient. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "medium"
+          },
+          "primaryDifficulty": "medium",
+          "intrinsicDifficulty": "medium",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 60,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Language Usage_ Proficient 2_4th grade.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 78
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word? persnickety",
+        "choices": [
+          "p er-snick-e- ty",
+          "pers-nick-ety",
+          "pers-nic-kety",
+          "per-snick-ety"
+        ],
+        "correct": 0,
+        "explanation": {
+          "correct": "Answer: p er-snick-e- ty. per-snick-e-ty; Persnickety fussy about small details. –",
+          "incorrect": [
+            "",
+            "Not: pers-nick-ety. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: pers-nic-kety. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: per-snick-ety. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Language Usage_Advanced 1_4th grade.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 129
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the? word appearance",
+        "choices": [
+          "ap- -arance pe",
+          "ap-pear-ance",
+          "a-ppear-ance",
+          "app-ear-ance"
+        ],
+        "correct": 2,
+        "explanation": {
+          "correct": "Answer: a-ppear-ance. a-ppear-ance",
+          "incorrect": [
+            "Not: ap- -arance pe. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: ap-pear-ance. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: app-ear-ance. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "hard"
+          },
+          "primaryDifficulty": "hard",
+          "intrinsicDifficulty": "hard",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 70,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Language Usage_Advanced 2_4th grade.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 180
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word? paper",
+        "choices": [
+          "pap- er",
+          "pa -p- er",
+          "pa pe--r",
+          "pa per -"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: pa per -. per; Paper – a substance made from wood pulp used to write, print, or wrap things. pa",
+          "incorrect": [
+            "Not: pap- er. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: pa -p- er. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: pa pe--r. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 231
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word? basic",
+        "choices": [
+          "basi-c",
+          "ba-sic",
+          "bas- ic",
+          "b-asic"
+        ],
+        "correct": 1,
+        "explanation": {
+          "correct": "Answer: ba-sic. Basic – something that is fundamental. ba sic",
+          "incorrect": [
+            "Not: basi-c. Use the language rule, word clue, or sentence context to check this choice.",
+            "",
+            "Not: bas- ic. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: b-asic. Use the language rule, word clue, or sentence context to check this choice."
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Language Usage_Basic 1_4th grade.pdf",
+          "sourceQuestionNumber": 48,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 252
+        }
+      },
+      {
+        "question": "What is the correct syllabication of the word? underneath",
+        "choices": [
+          "und--neather",
+          "un ne -der- -ath",
+          "un -der-nea- th",
+          "un -der-neath"
+        ],
+        "correct": 3,
+        "explanation": {
+          "correct": "Answer: un -der-neath. der-neath un",
+          "incorrect": [
+            "Not: und--neather. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: un ne -der- -ath. Use the language rule, word clue, or sentence context to check this choice.",
+            "Not: un -der-nea- th. Use the language rule, word clue, or sentence context to check this choice.",
+            ""
+          ]
+        },
+        "studyAid": {
+          "definition": "Vocabulary questions ask you to use word parts, context clues, relationships, and figurative language.",
+          "example": "Use the sentence clue or word part to eliminate choices that do not fit.",
+          "link": "https://www.readingrockets.org/topics/vocabulary",
+          "linkText": "Reading Rockets - Vocabulary"
+        },
+        "metadata": {
+          "gradeLevels": [
+            4
+          ],
+          "difficultyByGrade": {
+            "4": "easy"
+          },
+          "primaryDifficulty": "easy",
+          "intrinsicDifficulty": "easy",
+          "cognitiveDemand": "identify-and-apply",
+          "languageDemand": "short-prompt",
+          "skills": [
+            "vocabulary",
+            "language usage",
+            "language",
+            "grade 4"
+          ],
+          "feedbackFocus": "use the language rule, word clue, or sentence context to compare each answer choice",
+          "estimatedTimeSeconds": 50,
+          "reviewPriority": "normal",
+          "sourceSet": "vocabulary-syllables-decoding",
+          "sourceFile": "Language Usage_Basic 2_4th grade.pdf",
+          "sourceQuestionNumber": 27,
+          "sourceCategory": "language-usage-test",
+          "sourceGrade": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ],
+          "sequence": 282
         }
       }
     ],

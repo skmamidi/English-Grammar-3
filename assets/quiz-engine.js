@@ -2611,6 +2611,10 @@
         entries.push({ group: 'skills', key: slugify(skill), label: titleCase(skill) });
       });
 
+      (metadata.testFocus || metadata['Test focus'] || []).forEach(focus => {
+        entries.push({ group: 'testFocus', key: slugify(focus), label: String(focus) });
+      });
+
       getQuestionStandards(question).forEach(standard => {
         entries.push({ group: 'standards', key: standard.id, label: standard.label || standard.id });
       });

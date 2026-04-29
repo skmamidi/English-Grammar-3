@@ -2655,7 +2655,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 5
+          "sequence": 5,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -2707,7 +2713,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 73
+          "sequence": 73,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -2759,7 +2771,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 43
+          "sequence": 43,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -4209,7 +4227,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 11
+          "sequence": 11,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -4261,7 +4285,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 147
+          "sequence": 147,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -4313,7 +4343,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 199
+          "sequence": 199,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -4365,7 +4401,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 42
+          "sequence": 42,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -4417,7 +4459,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 44
+          "sequence": 44,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -5284,7 +5332,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 160
+          "sequence": 160,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5336,7 +5390,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 41
+          "sequence": 41,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5388,7 +5448,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 50
+          "sequence": 50,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5440,7 +5506,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 62
+          "sequence": 62,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5492,7 +5564,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 72
+          "sequence": 72,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5544,7 +5622,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 100
+          "sequence": 100,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5596,7 +5680,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 154
+          "sequence": 154,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5648,7 +5738,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 174
+          "sequence": 174,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5700,7 +5796,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 218
+          "sequence": 218,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5752,7 +5854,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 235
+          "sequence": 235,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -5804,7 +5912,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 240
+          "sequence": 240,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -8440,7 +8554,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 4
+          "sequence": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8492,7 +8612,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 9
+          "sequence": 9,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8544,7 +8670,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 10
+          "sequence": 10,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8596,7 +8728,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 107
+          "sequence": 107,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8648,7 +8786,13 @@
           "sourceQuestionNumber": 19,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 121
+          "sequence": 121,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8700,7 +8844,13 @@
           "sourceQuestionNumber": 23,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 125
+          "sequence": 125,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8752,7 +8902,13 @@
           "sourceQuestionNumber": 24,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 126
+          "sequence": 126,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8804,7 +8960,13 @@
           "sourceQuestionNumber": 37,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 139
+          "sequence": 139,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8856,7 +9018,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 3
+          "sequence": 3,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8908,7 +9076,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 51
+          "sequence": 51,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -8960,7 +9134,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 101
+          "sequence": 101,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -9012,7 +9192,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 141
+          "sequence": 141,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -9064,7 +9250,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 142
+          "sequence": 142,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -9116,7 +9308,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 161
+          "sequence": 161,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -9168,7 +9366,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 222
+          "sequence": 222,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -9220,7 +9424,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 255
+          "sequence": 255,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -10776,7 +10986,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 21
+          "sequence": 21,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -10828,7 +11044,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 23
+          "sequence": 23,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -10880,7 +11102,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 26
+          "sequence": 26,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -10932,7 +11160,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 27
+          "sequence": 27,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -10984,7 +11218,13 @@
           "sourceQuestionNumber": 11,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 31
+          "sequence": 31,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11036,7 +11276,13 @@
           "sourceQuestionNumber": 14,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 34
+          "sequence": 34,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11088,7 +11334,13 @@
           "sourceQuestionNumber": 15,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 35
+          "sequence": 35,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11140,7 +11392,13 @@
           "sourceQuestionNumber": 20,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 40
+          "sequence": 40,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11192,7 +11450,13 @@
           "sourceQuestionNumber": 21,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 41
+          "sequence": 41,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11244,7 +11508,13 @@
           "sourceQuestionNumber": 23,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 43
+          "sequence": 43,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11296,7 +11566,13 @@
           "sourceQuestionNumber": 28,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 48
+          "sequence": 48,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11348,7 +11624,13 @@
           "sourceQuestionNumber": 31,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 51
+          "sequence": 51,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11400,7 +11682,13 @@
           "sourceQuestionNumber": 32,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 52
+          "sequence": 52,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11452,7 +11740,13 @@
           "sourceQuestionNumber": 35,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 55
+          "sequence": 55,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11504,7 +11798,13 @@
           "sourceQuestionNumber": 38,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 58
+          "sequence": 58,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11556,7 +11856,13 @@
           "sourceQuestionNumber": 40,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 60
+          "sequence": 60,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11608,7 +11914,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 112
+          "sequence": 112,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11660,7 +11972,13 @@
           "sourceQuestionNumber": 15,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 117
+          "sequence": 117,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11712,7 +12030,13 @@
           "sourceQuestionNumber": 22,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 124
+          "sequence": 124,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11764,7 +12088,13 @@
           "sourceQuestionNumber": 27,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 129
+          "sequence": 129,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11816,7 +12146,13 @@
           "sourceQuestionNumber": 28,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 130
+          "sequence": 130,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11868,7 +12204,13 @@
           "sourceQuestionNumber": 31,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 133
+          "sequence": 133,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11920,7 +12262,13 @@
           "sourceQuestionNumber": 38,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 140
+          "sequence": 140,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -11972,7 +12320,13 @@
           "sourceQuestionNumber": 40,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 142
+          "sequence": 142,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12024,7 +12378,13 @@
           "sourceQuestionNumber": 41,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 143
+          "sequence": 143,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12076,7 +12436,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 156
+          "sequence": 156,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12128,7 +12494,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 161
+          "sequence": 161,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12180,7 +12552,13 @@
           "sourceQuestionNumber": 11,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 165
+          "sequence": 165,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12232,7 +12610,13 @@
           "sourceQuestionNumber": 13,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 167
+          "sequence": 167,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12284,7 +12668,13 @@
           "sourceQuestionNumber": 19,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 173
+          "sequence": 173,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12336,7 +12726,13 @@
           "sourceQuestionNumber": 21,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 175
+          "sequence": 175,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12388,7 +12784,13 @@
           "sourceQuestionNumber": 23,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 177
+          "sequence": 177,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12440,7 +12842,13 @@
           "sourceQuestionNumber": 27,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 181
+          "sequence": 181,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12492,7 +12900,13 @@
           "sourceQuestionNumber": 28,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 182
+          "sequence": 182,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12544,7 +12958,13 @@
           "sourceQuestionNumber": 31,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 185
+          "sequence": 185,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12596,7 +13016,13 @@
           "sourceQuestionNumber": 38,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 192
+          "sequence": 192,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12648,7 +13074,13 @@
           "sourceQuestionNumber": 42,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 196
+          "sequence": 196,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12700,7 +13132,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 54
+          "sequence": 54,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12752,7 +13190,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 158
+          "sequence": 158,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12804,7 +13248,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 248
+          "sequence": 248,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12856,7 +13306,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 264
+          "sequence": 264,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12908,7 +13364,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 266
+          "sequence": 266,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -12960,7 +13422,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 270
+          "sequence": 270,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -13012,7 +13480,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 288
+          "sequence": 288,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -22084,7 +22558,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 22
+          "sequence": 22,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22136,7 +22616,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 25
+          "sequence": 25,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22188,7 +22674,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 29
+          "sequence": 29,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22240,7 +22732,13 @@
           "sourceQuestionNumber": 12,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 32
+          "sequence": 32,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22292,7 +22790,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 108
+          "sequence": 108,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22344,7 +22848,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 155
+          "sequence": 155,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22396,7 +22906,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 159
+          "sequence": 159,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22448,7 +22964,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 14
+          "sequence": 14,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22500,7 +23022,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 46
+          "sequence": 46,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22552,7 +23080,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 55
+          "sequence": 55,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22604,7 +23138,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 74
+          "sequence": 74,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22656,7 +23196,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 133
+          "sequence": 133,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22708,7 +23254,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 143
+          "sequence": 143,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22760,7 +23312,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 153
+          "sequence": 153,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22812,7 +23370,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 163
+          "sequence": 163,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22864,7 +23428,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 164
+          "sequence": 164,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22916,7 +23486,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 193
+          "sequence": 193,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -22968,7 +23544,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 200
+          "sequence": 200,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -23020,7 +23602,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 210
+          "sequence": 210,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -32092,7 +32680,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 24
+          "sequence": 24,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32144,7 +32738,13 @@
           "sourceQuestionNumber": 13,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 33
+          "sequence": 33,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32196,7 +32796,13 @@
           "sourceQuestionNumber": 16,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 36
+          "sequence": 36,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32248,7 +32854,13 @@
           "sourceQuestionNumber": 17,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 37
+          "sequence": 37,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32300,7 +32912,13 @@
           "sourceQuestionNumber": 19,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 39
+          "sequence": 39,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32352,7 +32970,13 @@
           "sourceQuestionNumber": 24,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 44
+          "sequence": 44,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32404,7 +33028,13 @@
           "sourceQuestionNumber": 26,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 46
+          "sequence": 46,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32456,7 +33086,13 @@
           "sourceQuestionNumber": 30,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 50
+          "sequence": 50,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32508,7 +33144,13 @@
           "sourceQuestionNumber": 33,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 53
+          "sequence": 53,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32560,7 +33202,13 @@
           "sourceQuestionNumber": 34,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 54
+          "sequence": 54,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32612,7 +33260,13 @@
           "sourceQuestionNumber": 36,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 56
+          "sequence": 56,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32664,7 +33318,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 105
+          "sequence": 105,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32716,7 +33376,13 @@
           "sourceQuestionNumber": 11,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 113
+          "sequence": 113,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32768,7 +33434,13 @@
           "sourceQuestionNumber": 26,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 128
+          "sequence": 128,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32820,7 +33492,13 @@
           "sourceQuestionNumber": 30,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 132
+          "sequence": 132,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32872,7 +33550,13 @@
           "sourceQuestionNumber": 33,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 135
+          "sequence": 135,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32924,7 +33608,13 @@
           "sourceQuestionNumber": 34,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 136
+          "sequence": 136,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -32976,7 +33666,13 @@
           "sourceQuestionNumber": 42,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 144
+          "sequence": 144,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33028,7 +33724,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 164
+          "sequence": 164,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33080,7 +33782,13 @@
           "sourceQuestionNumber": 22,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 176
+          "sequence": 176,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33132,7 +33840,13 @@
           "sourceQuestionNumber": 25,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 179
+          "sequence": 179,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33184,7 +33898,13 @@
           "sourceQuestionNumber": 26,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 180
+          "sequence": 180,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33236,7 +33956,13 @@
           "sourceQuestionNumber": 32,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 186
+          "sequence": 186,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33288,7 +34014,13 @@
           "sourceQuestionNumber": 34,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 188
+          "sequence": 188,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33340,7 +34072,13 @@
           "sourceQuestionNumber": 39,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 193
+          "sequence": 193,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33392,7 +34130,13 @@
           "sourceQuestionNumber": 40,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 194
+          "sequence": 194,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33444,7 +34188,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 1
+          "sequence": 1,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33496,7 +34246,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 4
+          "sequence": 4,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33548,7 +34304,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 5
+          "sequence": 5,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33600,7 +34362,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 7
+          "sequence": 7,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33652,7 +34420,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 16
+          "sequence": 16,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33704,7 +34478,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 18
+          "sequence": 18,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33756,7 +34536,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 21
+          "sequence": 21,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33808,7 +34594,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 24
+          "sequence": 24,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33860,7 +34652,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 29
+          "sequence": 29,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33912,7 +34710,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 30
+          "sequence": 30,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -33964,7 +34768,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 31
+          "sequence": 31,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34016,7 +34826,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 45
+          "sequence": 45,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34068,7 +34884,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 52
+          "sequence": 52,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34120,7 +34942,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 57
+          "sequence": 57,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34172,7 +35000,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 60
+          "sequence": 60,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34224,7 +35058,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 61
+          "sequence": 61,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34276,7 +35116,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 63
+          "sequence": 63,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34328,7 +35174,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 66
+          "sequence": 66,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34380,7 +35232,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 67
+          "sequence": 67,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34432,7 +35290,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 70
+          "sequence": 70,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34484,7 +35348,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 76
+          "sequence": 76,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34536,7 +35406,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 77
+          "sequence": 77,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34588,7 +35464,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 80
+          "sequence": 80,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34640,7 +35522,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 82
+          "sequence": 82,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34692,7 +35580,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 85
+          "sequence": 85,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34744,7 +35638,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 87
+          "sequence": 87,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34796,7 +35696,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 89
+          "sequence": 89,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34848,7 +35754,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 90
+          "sequence": 90,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34900,7 +35812,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 97
+          "sequence": 97,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -34952,7 +35870,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 103
+          "sequence": 103,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35004,7 +35928,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 105
+          "sequence": 105,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35056,7 +35986,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 109
+          "sequence": 109,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35108,7 +36044,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 116
+          "sequence": 116,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35160,7 +36102,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 127
+          "sequence": 127,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35212,7 +36160,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 136
+          "sequence": 136,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35264,7 +36218,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 138
+          "sequence": 138,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35316,7 +36276,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 157
+          "sequence": 157,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35368,7 +36334,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 159
+          "sequence": 159,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35420,7 +36392,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 167
+          "sequence": 167,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35472,7 +36450,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 169
+          "sequence": 169,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35524,7 +36508,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 173
+          "sequence": 173,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35576,7 +36566,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 177
+          "sequence": 177,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35628,7 +36624,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 181
+          "sequence": 181,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35680,7 +36682,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 182
+          "sequence": 182,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35732,7 +36740,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 183
+          "sequence": 183,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35784,7 +36798,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 184
+          "sequence": 184,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35836,7 +36856,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 187
+          "sequence": 187,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35888,7 +36914,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 189
+          "sequence": 189,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35940,7 +36972,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 192
+          "sequence": 192,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -35992,7 +37030,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 194
+          "sequence": 194,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36044,7 +37088,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 201
+          "sequence": 201,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36096,7 +37146,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 203
+          "sequence": 203,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36148,7 +37204,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 212
+          "sequence": 212,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36200,7 +37262,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 214
+          "sequence": 214,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36252,7 +37320,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 215
+          "sequence": 215,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36304,7 +37378,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 225
+          "sequence": 225,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36356,7 +37436,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 230
+          "sequence": 230,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36408,7 +37494,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 238
+          "sequence": 238,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36460,7 +37552,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 256
+          "sequence": 256,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36512,7 +37610,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 258
+          "sequence": 258,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36564,7 +37668,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 260
+          "sequence": 260,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36616,7 +37726,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 261
+          "sequence": 261,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36668,7 +37784,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 262
+          "sequence": 262,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36720,7 +37842,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 265
+          "sequence": 265,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36772,7 +37900,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 269
+          "sequence": 269,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36824,7 +37958,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 274
+          "sequence": 274,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36876,7 +38016,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 275
+          "sequence": 275,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36928,7 +38074,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 277
+          "sequence": 277,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -36980,7 +38132,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 278
+          "sequence": 278,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -37032,7 +38190,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 280
+          "sequence": 280,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -37084,7 +38248,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 286
+          "sequence": 286,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -37136,7 +38306,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 287
+          "sequence": 287,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -46208,7 +47384,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "foundational-skills-vocabulary",
           "sourceGrade": 3,
-          "sequence": 3
+          "sequence": 3,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46260,7 +47442,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 10
+          "sequence": 10,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46312,7 +47500,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 11
+          "sequence": 11,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46364,7 +47558,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 12
+          "sequence": 12,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46416,7 +47616,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 15
+          "sequence": 15,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46468,7 +47674,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 17
+          "sequence": 17,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46520,7 +47732,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 19
+          "sequence": 19,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46572,7 +47790,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 22
+          "sequence": 22,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46624,7 +47848,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 32
+          "sequence": 32,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46676,7 +47906,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 33
+          "sequence": 33,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46728,7 +47964,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 35
+          "sequence": 35,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46780,7 +48022,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 37
+          "sequence": 37,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46832,7 +48080,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 38
+          "sequence": 38,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46884,7 +48138,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 47
+          "sequence": 47,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46936,7 +48196,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 53
+          "sequence": 53,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -46988,7 +48254,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 64
+          "sequence": 64,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47040,7 +48312,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 65
+          "sequence": 65,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47092,7 +48370,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 68
+          "sequence": 68,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47144,7 +48428,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 71
+          "sequence": 71,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47196,7 +48486,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 75
+          "sequence": 75,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47248,7 +48544,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 78
+          "sequence": 78,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47300,7 +48602,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 81
+          "sequence": 81,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47352,7 +48660,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 83
+          "sequence": 83,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47404,7 +48718,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 84
+          "sequence": 84,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47456,7 +48776,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 86
+          "sequence": 86,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47508,7 +48834,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 88
+          "sequence": 88,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47560,7 +48892,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 98
+          "sequence": 98,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47612,7 +48950,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 107
+          "sequence": 107,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47664,7 +49008,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 111
+          "sequence": 111,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47716,7 +49066,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 112
+          "sequence": 112,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47768,7 +49124,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 135
+          "sequence": 135,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47820,7 +49182,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 137
+          "sequence": 137,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47872,7 +49240,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 144
+          "sequence": 144,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47924,7 +49298,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 147
+          "sequence": 147,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -47976,7 +49356,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 155
+          "sequence": 155,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48028,7 +49414,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 185
+          "sequence": 185,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48080,7 +49472,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 186
+          "sequence": 186,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48132,7 +49530,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 191
+          "sequence": 191,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48184,7 +49588,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 195
+          "sequence": 195,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48236,7 +49646,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 202
+          "sequence": 202,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48288,7 +49704,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 211
+          "sequence": 211,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48340,7 +49762,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 213
+          "sequence": 213,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -48392,7 +49820,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 229
+          "sequence": 229,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -57644,7 +59078,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 79
+          "sequence": 79,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -57696,7 +59136,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 117
+          "sequence": 117,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -66948,7 +68394,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 209
+          "sequence": 209,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -67000,7 +68452,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 289
+          "sequence": 289,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -76070,7 +77528,13 @@
           "sequence": 181,
           "sourceFile": "Advanced-1_Writing strategies_Application_Style.pdf",
           "sourceQuestionNumber": 2,
-          "sourceCategory": "writing-strategies-application-style"
+          "sourceCategory": "writing-strategies-application-style",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76120,7 +77584,13 @@
           "sequence": 182,
           "sourceFile": "Advanced-1_language Usage.pdf",
           "sourceQuestionNumber": 10,
-          "sourceCategory": "language-usage-test"
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76170,7 +77640,13 @@
           "sequence": 183,
           "sourceFile": "Advanced-2_Writing strategies_Application_Style.pdf",
           "sourceQuestionNumber": 1,
-          "sourceCategory": "writing-strategies-application-style"
+          "sourceCategory": "writing-strategies-application-style",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76220,7 +77696,13 @@
           "sequence": 184,
           "sourceFile": "Advanced-2_language Usage.pdf",
           "sourceQuestionNumber": 12,
-          "sourceCategory": "language-usage-test"
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76270,7 +77752,13 @@
           "sequence": 185,
           "sourceFile": "Basic-1_language Usage.pdf",
           "sourceQuestionNumber": 12,
-          "sourceCategory": "language-usage-test"
+          "sourceCategory": "language-usage-test",
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76322,7 +77810,13 @@
           "sourceQuestionNumber": 16,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 170
+          "sequence": 170,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76374,7 +77868,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 26
+          "sequence": 26,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76426,7 +77926,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 58
+          "sequence": 58,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76478,7 +77984,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 73
+          "sequence": 73,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76530,7 +78042,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 94
+          "sequence": 94,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76582,7 +78100,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 114
+          "sequence": 114,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76634,7 +78158,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 120
+          "sequence": 120,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76686,7 +78216,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 124
+          "sequence": 124,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76738,7 +78274,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 126
+          "sequence": 126,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76790,7 +78332,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 128
+          "sequence": 128,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76842,7 +78390,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 134
+          "sequence": 134,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76894,7 +78448,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 152
+          "sequence": 152,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76946,7 +78506,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 162
+          "sequence": 162,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -76998,7 +78564,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 172
+          "sequence": 172,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77050,7 +78622,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 176
+          "sequence": 176,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77102,7 +78680,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 178
+          "sequence": 178,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77154,7 +78738,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 223
+          "sequence": 223,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77206,7 +78796,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 224
+          "sequence": 224,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77258,7 +78854,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 231
+          "sequence": 231,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77310,7 +78912,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 233
+          "sequence": 233,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77362,7 +78970,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 243
+          "sequence": 243,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77414,7 +79028,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 245
+          "sequence": 245,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77466,7 +79086,13 @@
           "sourceQuestionNumber": 6,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 246
+          "sequence": 246,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -77518,7 +79144,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 253
+          "sequence": 253,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -95430,7 +97062,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 28
+          "sequence": 28,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95482,7 +97120,13 @@
           "sourceQuestionNumber": 27,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 47
+          "sequence": 47,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95534,7 +97178,13 @@
           "sourceQuestionNumber": 39,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 59
+          "sequence": 59,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95586,7 +97236,13 @@
           "sourceQuestionNumber": 41,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 195
+          "sequence": 195,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95638,7 +97294,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 99
+          "sequence": 99,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95690,7 +97352,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 115
+          "sequence": 115,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95742,7 +97410,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 168
+          "sequence": 168,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95794,7 +97468,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 179
+          "sequence": 179,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95846,7 +97526,13 @@
           "sourceQuestionNumber": 1,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 271
+          "sequence": 271,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95898,7 +97584,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 273
+          "sequence": 273,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -95950,7 +97642,13 @@
           "sourceQuestionNumber": 5,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 285
+          "sequence": 285,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -105022,7 +106720,13 @@
           "sourceQuestionNumber": 42,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 62
+          "sequence": 62,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105074,7 +106778,13 @@
           "sourceQuestionNumber": 20,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 174
+          "sequence": 174,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105126,7 +106836,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 119
+          "sequence": 119,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105178,7 +106894,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 129
+          "sequence": 129,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105230,7 +106952,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 139
+          "sequence": 139,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105282,7 +107010,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 180
+          "sequence": 180,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105334,7 +107068,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 282
+          "sequence": 282,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105386,7 +107126,13 @@
           "sourceQuestionNumber": 4,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 284
+          "sequence": 284,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -105438,7 +107184,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 290
+          "sequence": 290,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -114330,7 +116082,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 157
+          "sequence": 157,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -114382,7 +116140,13 @@
           "sourceQuestionNumber": 10,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 110
+          "sequence": 110,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -114434,7 +116198,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "informational-text",
           "sourceGrade": 3,
-          "sequence": 228
+          "sequence": 228,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -114486,7 +116256,13 @@
           "sourceQuestionNumber": 3,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 263
+          "sequence": 263,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -114538,7 +116314,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 267
+          "sequence": 267,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -114590,7 +116372,13 @@
           "sourceQuestionNumber": 8,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 268
+          "sequence": 268,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -114642,7 +116430,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 272
+          "sequence": 272,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -132554,7 +134348,13 @@
           "sourceQuestionNumber": 35,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 189
+          "sequence": 189,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -132606,7 +134406,13 @@
           "sourceQuestionNumber": 7,
           "sourceCategory": "literature",
           "sourceGrade": 3,
-          "sequence": 237
+          "sequence": 237,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],
@@ -141678,7 +143484,13 @@
           "sourceQuestionNumber": 18,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 38
+          "sequence": 38,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -141730,7 +143542,13 @@
           "sourceQuestionNumber": 25,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 45
+          "sequence": 45,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -141782,7 +143600,13 @@
           "sourceQuestionNumber": 29,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 49
+          "sequence": 49,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -141834,7 +143658,13 @@
           "sourceQuestionNumber": 37,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 57
+          "sequence": 57,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -141886,7 +143716,13 @@
           "sourceQuestionNumber": 2,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 104
+          "sequence": 104,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -141938,7 +143774,13 @@
           "sourceQuestionNumber": 39,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 141
+          "sequence": 141,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -141990,7 +143832,13 @@
           "sourceQuestionNumber": 9,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 163
+          "sequence": 163,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -142042,7 +143890,13 @@
           "sourceQuestionNumber": 17,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 171
+          "sequence": 171,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       },
       {
@@ -142094,7 +143948,13 @@
           "sourceQuestionNumber": 33,
           "sourceCategory": "reading-test",
           "sourceGrade": 3,
-          "sequence": 187
+          "sequence": 187,
+          "testFocus": [
+            "MAP"
+          ],
+          "Test focus": [
+            "MAP"
+          ]
         }
       }
     ],

@@ -157,9 +157,12 @@
 
   function loadMixedQuizDependencies(subtopics) {
     return Promise.all([
-      window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js'),
+      window.GrammarQuestSelectionCore ? Promise.resolve() : loadScriptOnce('../../assets/quiz-selection-core.js'),
+      window.GrammarQuestSelectionIntegrity ? Promise.resolve() : loadScriptOnce('../../assets/question-selection-integrity.js'),
       window.GrammarQuestQuestionLoader ? Promise.resolve() : loadScriptOnce('../../assets/question-loader.js')
-    ]).then(() => loadMixedQuizSets(subtopics));
+    ])
+      .then(() => window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js'))
+      .then(() => loadMixedQuizSets(subtopics));
   }
 
   function loadMixedQuizSets(subtopicsOrIds) {
@@ -194,16 +197,22 @@
   }
 
   function buildSelectionRequest(subtopics) {
+    const config = getAppConfig();
     const domain = getMixedQuizDomain(subtopics);
     const setIds = subtopics.map(subtopic => subtopic.id).filter(Boolean);
-    const perSubtopic = Number(getStoredSetting('grammarQuestMixedQuestionLimit', '4')) || 4;
+    const selectedLimit = getStoredSetting('grammarQuestMixedQuestionLimit', '4');
+    const perSubtopic = Number(selectedLimit) || 4;
+    const maxServerSelectionCount = Number(config.maxServerSelectionQuestions) || 60;
+    const requestedCount = selectedLimit === 'max' ? maxServerSelectionCount : setIds.length * perSubtopic;
     return {
       mode: 'mixed',
       domain,
       setIds,
       grade: getStoredSetting('grammarQuestGrade', '4'),
       difficulty: getStoredSetting('grammarQuestDifficulty', 'medium'),
-      count: Math.min(10, Math.max(1, setIds.length * perSubtopic)),
+      count: Math.min(maxServerSelectionCount, Math.max(1, requestedCount)),
+      countMode: selectedLimit === 'max' ? 'max' : 'per-subtopic',
+      questionsPerSubtopic: perSubtopic,
       selectionPolicyVersion: 1
     };
   }

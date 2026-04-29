@@ -4,6 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const http = require('http');
 const path = require('path');
+const vm = require('vm');
 const { chromium } = require('playwright');
 const {
   repoRoot,
@@ -16,6 +17,8 @@ const {
   assertPageBudget,
   createRequestRecorder
 } = require('./helpers/request-metrics');
+const selectionCore = require('../assets/quiz-selection-core');
+const selectionIntegrity = require('../assets/question-selection-integrity');
 
 const requestedPort = Number(process.env.QA_PORT) || 4173;
 const TOPIC_INDEX_BUDGET = {
@@ -154,7 +157,13 @@ async function main() {
       await runCase(failures, 'grammar mixed quiz can use question selection API pilot', async () => {
         const page = await newPage(browser, { enableQuestionSelectionApi: true });
         const requests = [];
+        const selectionPayloads = [];
         page.on('request', request => requests.push(request.url()));
+        page.on('request', request => {
+          if (request.url().endsWith('/api/question-selection')) {
+            selectionPayloads.push(JSON.parse(request.postData() || '{}'));
+          }
+        });
         await visitClean(page, server.baseURL, 'topics/grammar/index.html');
         await page.click('.mixed-quiz-panel a');
         await assertVisible(page, '#start-btn', 'grammar API mixed quiz');
@@ -165,8 +174,17 @@ async function main() {
         assert.equal(
           await page.evaluate(() => window.__selectionApiUsed === true),
           true,
-          'grammar API mixed quiz should emit API-used event'
+          `grammar API mixed quiz should emit API-used event; fallback reason: ${await page.evaluate(() => window.__selectionFallbackReason || '')}`
         );
+        const apiTelemetry = await page.evaluate(() => window.__selectionApiDetail);
+        assert.equal(apiTelemetry.source, 'api');
+        assert.ok(apiTelemetry.responseBytes > 0 && apiTelemetry.responseBytes < 60 * 1024, 'API response telemetry should be bounded');
+        assert.ok(apiTelemetry.requestBytes > 0, 'API request telemetry should include request bytes');
+        assert.ok(apiTelemetry.hydrateMs >= 0, 'API telemetry should include hydrate latency');
+        assert.equal(selectionPayloads.length, 1, 'grammar API mixed quiz should send one selection payload');
+        assert.equal(selectionPayloads[0].count, 60, 'grammar API mixed quiz should request the default server-selection cap');
+        assert.equal(selectionPayloads[0].countMode, 'per-subtopic');
+        assert.equal(selectionPayloads[0].questionsPerSubtopic, 4);
         assert.equal(
           requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
           false,
@@ -175,6 +193,7 @@ async function main() {
         await assertQuizFlow(page, 'topics/grammar/index.html API mixed quiz');
         const activeQuiz = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').activeQuiz);
         assert.ok(activeQuiz.questionRefs.length > 0, 'API mixed quiz should persist refs');
+        assert.equal(activeQuiz.questionRefs.length, 60, 'API mixed quiz should preserve requested selected-question count');
         await page.close();
       });
 
@@ -191,7 +210,89 @@ async function main() {
           true,
           'grammar API fallback should emit fallback event'
         );
+        assert.match(
+          await page.evaluate(() => window.__selectionFallbackReason || ''),
+          /selection API returned 503/,
+          'grammar API fallback should include a reason'
+        );
         await assertQuizFlow(page, 'topics/grammar/index.html API fallback mixed quiz');
+        await page.close();
+      });
+
+      await runCase(failures, 'grammar mixed quiz falls back when question selection API integrity is tampered', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          questionSelectionApiUrl: '/api/question-selection?tamper=1'
+        });
+        await visitClean(page, server.baseURL, 'topics/grammar/index.html');
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', 'grammar API tamper fallback mixed quiz');
+        assert.equal(
+          await page.evaluate(() => window.__selectionFallback === true),
+          true,
+          'grammar API tamper fallback should emit fallback event'
+        );
+        assert.match(
+          await page.evaluate(() => window.__selectionFallbackReason || ''),
+          /integrity_failed/,
+          'grammar API tamper fallback should include an integrity reason'
+        );
+        await assertQuizFlow(page, 'topics/grammar/index.html API tamper fallback mixed quiz');
+        await page.close();
+      });
+
+      await runCase(failures, 'capitalization mixed quiz can use question selection API pilot', async () => {
+        const page = await newPage(browser, { enableQuestionSelectionApi: true });
+        const requests = [];
+        const selectionPayloads = [];
+        page.on('request', request => requests.push(request.url()));
+        page.on('request', request => {
+          if (request.url().endsWith('/api/question-selection')) {
+            selectionPayloads.push(JSON.parse(request.postData() || '{}'));
+          }
+        });
+        await visitClean(page, server.baseURL, 'topics/capitalization/index.html');
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', 'capitalization API mixed quiz');
+        assert.equal(
+          await page.evaluate(() => window.__selectionApiUsed === true),
+          true,
+          `capitalization API mixed quiz should emit API-used event; fallback reason: ${await page.evaluate(() => window.__selectionFallbackReason || '')}`
+        );
+        const apiTelemetry = await page.evaluate(() => window.__selectionApiDetail);
+        assert.equal(apiTelemetry.source, 'api');
+        assert.ok(apiTelemetry.responseBytes > 0 && apiTelemetry.responseBytes < 24 * 1024, 'capitalization API response telemetry should stay small');
+        assert.equal(selectionPayloads.length, 1, 'capitalization API mixed quiz should send one selection payload');
+        assert.equal(selectionPayloads[0].domain, 'capitalization');
+        assert.equal(selectionPayloads[0].count, 20, 'capitalization API mixed quiz should request subtopics times per-subtopic count');
+        assert.equal(
+          requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
+          false,
+          'capitalization API mixed quiz should not request full bank'
+        );
+        await assertQuizFlow(page, 'topics/capitalization/index.html API mixed quiz');
+        await page.close();
+      });
+
+      await runCase(failures, 'capitalization mixed quiz falls back when question selection API fails', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          questionSelectionApiUrl: '/api/question-selection?fail=1'
+        });
+        await visitClean(page, server.baseURL, 'topics/capitalization/index.html');
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', 'capitalization API fallback mixed quiz');
+        assert.equal(
+          await page.evaluate(() => window.__selectionFallback === true),
+          true,
+          'capitalization API fallback should emit fallback event'
+        );
+        assert.match(
+          await page.evaluate(() => window.__selectionFallbackReason || ''),
+          /selection API returned 503/,
+          'capitalization API fallback should include a reason'
+        );
+        await assertQuizFlow(page, 'topics/capitalization/index.html API fallback mixed quiz');
         await page.close();
       });
     }
@@ -375,15 +476,21 @@ async function newPage(browser, options = {}) {
       window.GRAMMAR_QUEST_CONFIG = {
         enableServerQuestionSelection: true,
         questionSelectionApiUrl: config.questionSelectionApiUrl || '/api/question-selection',
-        serverQuestionSelectionPilotDomains: ['grammar']
+        serverQuestionSelectionPilotDomains: ['grammar', 'capitalization']
       };
       window.__selectionApiUsed = false;
       window.__selectionFallback = false;
+      window.__selectionFallbackReason = '';
+      window.__selectionApiDetail = null;
       window.addEventListener('grammarquest:question-selection-api-used', () => {
         window.__selectionApiUsed = true;
       });
-      window.addEventListener('grammarquest:question-selection-fallback', () => {
+      window.addEventListener('grammarquest:question-selection-api-used', event => {
+        window.__selectionApiDetail = event.detail || null;
+      });
+      window.addEventListener('grammarquest:question-selection-fallback', event => {
         window.__selectionFallback = true;
+        window.__selectionFallbackReason = event.detail && event.detail.reason || '';
       });
     }, {
       questionSelectionApiUrl: options.questionSelectionApiUrl || '/api/question-selection'
@@ -866,7 +973,7 @@ function handleQuestionSelectionApi(request, response, parsed) {
   request.on('end', () => {
     try {
       const payload = JSON.parse(body || '{}');
-      const result = buildQuestionSelectionResponse(payload);
+      const result = buildQuestionSelectionResponse(payload, { tamper: parsed.searchParams.get('tamper') === '1' });
       response.writeHead(200, { 'Content-Type': 'application/json' });
       response.end(JSON.stringify(result));
     } catch (error) {
@@ -876,33 +983,89 @@ function handleQuestionSelectionApi(request, response, parsed) {
   });
 }
 
-function buildQuestionSelectionResponse(payload) {
+function buildQuestionSelectionResponse(payload, options = {}) {
   if (!payload || payload.mode !== 'mixed') throw new Error('mode must be mixed');
-  if (payload.domain !== 'grammar') throw new Error('pilot only supports grammar');
+  if (!['grammar', 'capitalization'].includes(payload.domain)) throw new Error(`pilot does not support ${payload.domain}`);
   const setIds = Array.isArray(payload.setIds) ? payload.setIds : [];
   if (!setIds.length) throw new Error('setIds are required');
   const maxCount = Math.min(60, Math.max(1, Number(payload.count) || 4));
   const manifest = JSON.parse(fs.readFileSync(path.join(repoRoot, 'assets', 'question-manifest.json'), 'utf8'));
-  const refs = [];
-  setIds.forEach(setId => {
+  const sets = setIds.map(setId => {
     const set = manifest.sets.find(item => item.id === setId);
     if (!set || set.domain !== payload.domain) throw new Error(`invalid setId ${setId}`);
-    const question = set.questions[0];
-    if (!question) return;
-    refs.push({
-      id: question.id,
-      sourceSet: set.id,
-      version: question.version,
-      contentHash: question.contentHash,
-      sequence: question.sequence
-    });
+    const chunk = loadChunkSet(set.chunkFile);
+    return Object.assign({}, chunk, { id: set.id });
   });
-  return {
+  const selectedQuestions = selectionCore.selectMixedQuestions({
+    mixedQuizConfig: {
+      questionsPerSubtopic: Number(payload.questionsPerSubtopic) || 4,
+      subtopics: sets.map(set => ({ id: set.id, questions: set.questions || [] }))
+    },
+    selectedMixedSubtopicIds: setIds,
+    selectedMixedQuestionLimit: payload.countMode === 'max' ? 'max' : String(payload.questionsPerSubtopic || 4),
+    selectedGrade: payload.grade,
+    selectedDifficulty: payload.difficulty
+  }).slice(0, maxCount);
+  const refs = selectedQuestions.map((question, index) => selectionCore.getQuestionRef(question, index + 1));
+  const response = {
     selectionId: 'sel_ui_smoke',
     selectionPolicyVersion: 1,
-    questionRefs: refs.slice(0, maxCount),
-    questionSnapshots: []
+    questionRefs: refs,
+    questionSnapshots: [],
+    signature: null,
+    signatureVersion: 'none'
   };
+  response.requestHash = syncSelectionRequestHash(payload, manifest.artifact);
+  response.responseDigest = syncSelectionResponseDigest(response, manifest.artifact);
+  if (options.tamper) response.responseDigest = `sha256:${'0'.repeat(64)}`;
+  return response;
+}
+
+function syncSelectionRequestHash(request, manifestArtifact) {
+  return syncSha256(selectionIntegrity.stableStringify({
+    request: {
+      mode: request && request.mode || '',
+      domain: request && request.domain || '',
+      setIds: Array.isArray(request && request.setIds) ? request.setIds : [],
+      grade: request && request.grade || '',
+      difficulty: request && request.difficulty || '',
+      count: Number(request && request.count) || 0,
+      countMode: request && request.countMode || 'per-subtopic',
+      questionsPerSubtopic: Number(request && request.questionsPerSubtopic) || 0,
+      selectionPolicyVersion: Number(request && request.selectionPolicyVersion) || 0
+    },
+    manifestSourceHash: manifestArtifact && manifestArtifact.sourceHash || ''
+  }));
+}
+
+function syncSelectionResponseDigest(response, manifestArtifact) {
+  return syncSha256(selectionIntegrity.stableStringify({
+    requestHash: response && response.requestHash || '',
+    selectionId: response && response.selectionId || '',
+    selectionPolicyVersion: response && response.selectionPolicyVersion,
+    questionRefs: (Array.isArray(response && response.questionRefs) ? response.questionRefs : []).map(ref => ({
+      id: ref && ref.id || '',
+      sourceSet: ref && ref.sourceSet || '',
+      version: Number(ref && ref.version) || 0,
+      contentHash: ref && ref.contentHash || '',
+      sequence: Number(ref && ref.sequence) || 0
+    })),
+    manifestSourceHash: manifestArtifact && manifestArtifact.sourceHash || '',
+    expiresAt: response && response.expiresAt || null,
+    signatureVersion: response && response.signatureVersion || 'none'
+  }));
+}
+
+function syncSha256(text) {
+  const crypto = require('node:crypto');
+  return `sha256:${crypto.createHash('sha256').update(text).digest('hex')}`;
+}
+
+function loadChunkSet(chunkFile) {
+  const sandbox = { window: { QUESTION_BANK: {} } };
+  sandbox.globalThis = sandbox.window;
+  vm.runInNewContext(fs.readFileSync(path.join(repoRoot, chunkFile), 'utf8'), sandbox, { filename: chunkFile });
+  return Object.values(sandbox.window.QUESTION_BANK)[0];
 }
 
 function getContentType(filePath) {

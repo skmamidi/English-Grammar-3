@@ -6,7 +6,7 @@ const {
   selectCurrentQuestions,
   selectMixedQuestions,
   getQuestionId
-} = require('../assets/quiz-domain');
+} = require('../assets/quiz-selection-core');
 const { loadQuestionBanks } = require('../scripts/qa/bank-loader');
 
 const identity = items => items;

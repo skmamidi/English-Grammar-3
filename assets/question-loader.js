@@ -3,6 +3,7 @@
 
   const loadedPaths = {};
   const setCache = {};
+  let identityManifestPromise = null;
 
   window.GrammarQuestQuestionLoader = {
     loadSet,
@@ -48,32 +49,70 @@
 
   async function loadSelectedQuiz(request) {
     const normalized = normalizeSelectionRequest(request);
+    const telemetry = createSelectionTelemetry(normalized);
+    notifySelectionEvent('grammarquest:question-selection-started', telemetry.detail({
+      source: isServerSelectionEnabled() ? 'api' : 'chunks'
+    }));
     if (!isServerSelectionEnabled()) {
-      return buildFallbackSelection(normalized, 'disabled');
+      const fallback = await buildFallbackSelection(normalized, 'disabled');
+      const detail = telemetry.detail({
+        source: 'chunks',
+        selectedQuestionCount: countSelectedQuestions(fallback.sets),
+        hydrateMs: telemetry.elapsedMs()
+      });
+      notifySelectionEvent('grammarquest:question-selection-completed', detail);
+      return fallback;
     }
 
     try {
-      const response = await requestServerSelection(normalized);
+      const selectionStartedAt = nowMs();
+      const apiResult = await requestServerSelection(normalized);
+      const response = apiResult.response;
+      const selectionMs = Math.max(0, nowMs() - selectionStartedAt);
+      const hydrateStartedAt = nowMs();
       const questions = await hydrateSelectionResponse(response, normalized);
+      const hydrateMs = Math.max(0, nowMs() - hydrateStartedAt);
+      const detail = telemetry.detail({
+        source: 'api',
+        selectionId: response.selectionId,
+        selectedQuestionCount: questions.length,
+        requestBytes: apiResult.requestBytes,
+        responseBytes: apiResult.responseBytes,
+        selectionMs,
+        hydrateMs
+      });
       notifySelectionEvent('grammarquest:question-selection-api-used', {
         selectionId: response.selectionId,
         domain: normalized.domain,
         setIds: normalized.setIds,
-        questionCount: questions.length
+        questionCount: questions.length,
+        ...detail
       });
-      return buildSelectedSetResult(normalized, questions, {
+      const result = buildSelectedSetResult(normalized, questions, {
         source: 'api',
         selectionId: response.selectionId,
         selectionPolicyVersion: response.selectionPolicyVersion
       });
+      notifySelectionEvent('grammarquest:question-selection-completed', detail);
+      return result;
     } catch (error) {
       console.warn('Question loader: server question selection failed; falling back to chunks.', error);
-      notifySelectionEvent('grammarquest:question-selection-fallback', {
+      const fallbackStartedAt = nowMs();
+      const fallback = await buildFallbackSelection(normalized, 'fallback');
+      const detail = telemetry.detail({
+        source: 'fallback',
+        selectedQuestionCount: countSelectedQuestions(fallback.sets),
+        fallbackReason: error && error.message || 'unknown',
+        selectionMs: telemetry.elapsedMs(),
+        hydrateMs: Math.max(0, nowMs() - fallbackStartedAt)
+      });
+      notifySelectionEvent('grammarquest:question-selection-fallback', Object.assign({
         domain: normalized.domain,
         setIds: normalized.setIds,
-        reason: error && error.message || 'unknown'
-      });
-      return buildFallbackSelection(normalized, 'fallback');
+        reason: detail.fallbackReason
+      }, detail));
+      notifySelectionEvent('grammarquest:question-selection-completed', detail);
+      return fallback;
     }
   }
 
@@ -105,24 +144,26 @@
 
   function normalizeSelectionRequest(request) {
     const input = request && typeof request === 'object' ? request : {};
-    const mode = input.mode === 'mixed' ? 'mixed' : '';
-    const domain = String(input.domain || '').trim();
-    const setIds = Array.from(new Set((Array.isArray(input.setIds) ? input.setIds : [])
-      .map(value => String(value || '').trim())
-      .filter(Boolean)));
-    const count = Math.min(
-      MAX_SELECTED_QUESTIONS,
-      Math.max(1, Number(input.count) || setIds.length * 4 || 4)
-    );
-    const normalized = {
-      mode,
-      domain,
-      setIds,
-      grade: String(input.grade || '4'),
-      difficulty: String(input.difficulty || 'medium'),
-      count,
-      selectionPolicyVersion: SELECTION_POLICY_VERSION
-    };
+    const core = window.GrammarQuestSelectionCore;
+    const normalized = core && typeof core.normalizeSelectionRequest === 'function'
+      ? core.normalizeSelectionRequest(input, {
+        maxCount: MAX_SELECTED_QUESTIONS,
+        defaultQuestionsPerSubtopic: 4
+      })
+      : {
+        mode: input.mode === 'mixed' ? 'mixed' : '',
+        domain: String(input.domain || '').trim(),
+        setIds: Array.from(new Set((Array.isArray(input.setIds) ? input.setIds : [])
+          .map(value => String(value || '').trim())
+          .filter(Boolean))),
+        grade: String(input.grade || '4'),
+        difficulty: String(input.difficulty || 'medium'),
+        count: Math.min(MAX_SELECTED_QUESTIONS, Math.max(1, Number(input.count) || 4)),
+        countMode: input.countMode === 'max' ? 'max' : 'per-subtopic',
+        questionsPerSubtopic: Math.max(1, Number(input.questionsPerSubtopic) || 4),
+        selectionPolicyVersion: SELECTION_POLICY_VERSION
+      };
+    normalized.selectionPolicyVersion = SELECTION_POLICY_VERSION;
     validateSelectionRequest(normalized);
     return normalized;
   }
@@ -153,18 +194,34 @@
   }
 
   async function requestServerSelection(request) {
+    const body = JSON.stringify(request);
     const response = await fetch(getConfig().questionSelectionApiUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(request)
+      body
     });
     if (!response || !response.ok) {
       throw new Error(`selection API returned ${response && response.status || 'no response'}`);
     }
-    return validateSelectionResponse(await response.json(), request);
+    const payload = await response.json();
+    await validateSelectionIntegrity(payload, request);
+    return {
+      response: await validateSelectionResponse(payload, request),
+      requestBytes: byteLength(body),
+      responseBytes: byteLength(JSON.stringify(payload))
+    };
   }
 
-  function validateSelectionResponse(response, request) {
+  async function validateSelectionIntegrity(response, request) {
+    const integrity = window.GrammarQuestSelectionIntegrity;
+    if (!integrity || typeof integrity.validateSelectionResponseIntegrity !== 'function') {
+      throw new Error('integrity_failed: integrity verifier is unavailable');
+    }
+    const manifest = window.QUESTION_MANIFEST || {};
+    await integrity.validateSelectionResponseIntegrity(response, request, manifest.artifact || {});
+  }
+
+  async function validateSelectionResponse(response, request) {
     if (!response || typeof response !== 'object') throw new Error('selection API response must be an object');
     if (response.selectionPolicyVersion !== SELECTION_POLICY_VERSION) {
       throw new Error(`selection API policy version is ${response.selectionPolicyVersion}; expected ${SELECTION_POLICY_VERSION}`);
@@ -172,7 +229,8 @@
     const refs = Array.isArray(response.questionRefs) ? response.questionRefs : [];
     if (!refs.length) throw new Error('selection API returned no question refs');
     if (refs.length > request.count) throw new Error(`selection API returned ${refs.length} refs; requested at most ${request.count}`);
-    refs.forEach(ref => validateSelectionRef(ref, request));
+    const identityManifest = await getQuestionIdentityManifest();
+    refs.forEach(ref => validateSelectionRef(ref, request, identityManifest));
     return {
       selectionId: String(response.selectionId || ''),
       selectionPolicyVersion: response.selectionPolicyVersion,
@@ -181,7 +239,7 @@
     };
   }
 
-  function validateSelectionRef(ref, request) {
+  function validateSelectionRef(ref, request, identityManifest) {
     if (!ref || typeof ref !== 'object') throw new Error('selection API returned an invalid question ref');
     if (!ref.id) throw new Error('selection API returned a question ref without id');
     if (!request.setIds.includes(ref.sourceSet)) {
@@ -193,15 +251,64 @@
     if (!/^sha256:[a-f0-9]{64}$/.test(String(ref.contentHash || ''))) {
       throw new Error(`selection API returned invalid contentHash for "${ref.id}"`);
     }
+    const manifestQuestion = getManifestQuestion(ref, identityManifest);
+    if (Number(ref.version) !== Number(manifestQuestion.version)) {
+      throw new Error(`selection API returned stale version for "${ref.id}"`);
+    }
+    if (String(ref.contentHash) !== String(manifestQuestion.contentHash)) {
+      throw new Error(`selection API returned stale contentHash for "${ref.id}"`);
+    }
+    if (manifestQuestion.sequence !== undefined && Number(ref.sequence) !== Number(manifestQuestion.sequence)) {
+      throw new Error(`selection API returned stale sequence for "${ref.id}"`);
+    }
+  }
+
+  function getManifestQuestion(ref, identityManifest) {
+    const entry = getManifestEntryFrom(identityManifest, ref && ref.sourceSet);
+    if (!entry) throw new Error(`selection API returned ref for unknown sourceSet "${ref && ref.sourceSet}"`);
+    const questions = Array.isArray(entry.questions) ? entry.questions : [];
+    if (!questions.length) throw new Error(`manifest entry for "${entry.id}" is missing question identity metadata`);
+    const manifestQuestion = questions.find(question => question && question.id === ref.id);
+    if (!manifestQuestion) throw new Error(`selection API returned ref for missing manifest question "${ref.id}"`);
+    return manifestQuestion;
+  }
+
+  function getManifestEntryFrom(manifest, setId) {
+    const sets = manifest && Array.isArray(manifest.sets) ? manifest.sets : [];
+    return sets.find(set => set && set.id === setId) || null;
+  }
+
+  function getQuestionIdentityManifest() {
+    const manifest = window.QUESTION_MANIFEST;
+    if (hasQuestionIdentityMetadata(manifest)) return Promise.resolve(manifest);
+    if (!identityManifestPromise) {
+      const configuredUrl = getConfig().questionManifestIdentityUrl || 'assets/question-manifest.json';
+      const manifestUrl = resolveAssetPath(configuredUrl);
+      identityManifestPromise = fetch(manifestUrl)
+        .then(response => {
+          if (!response || !response.ok) throw new Error(`question identity manifest returned ${response && response.status || 'no response'}`);
+          return response.json();
+        })
+        .then(fullManifest => {
+          if (!hasQuestionIdentityMetadata(fullManifest)) throw new Error('question identity manifest is missing question metadata');
+          return fullManifest;
+        });
+    }
+    return identityManifestPromise;
+  }
+
+  function hasQuestionIdentityMetadata(manifest) {
+    const sets = manifest && Array.isArray(manifest.sets) ? manifest.sets : [];
+    return sets.some(set => set && Array.isArray(set.questions) && set.questions.length);
   }
 
   async function hydrateSelectionResponse(response, request) {
-    const hydrated = await hydrateQuestionRefs(response.questionRefs);
+    const hydrated = await hydrateSelectionRefs(response.questionRefs);
     const snapshots = Array.isArray(response.questionSnapshots) ? response.questionSnapshots : [];
     const questions = response.questionRefs.map((ref, index) => {
       const loaded = hydrated[index];
       if (loaded) return loaded;
-      return snapshots[index] || null;
+      return getValidatedSnapshot(ref, snapshots[index]);
     }).filter(Boolean);
     if (!questions.length) throw new Error('selection API refs could not be hydrated');
     if (questions.length !== response.questionRefs.length) throw new Error('selection API refs were only partially hydrated');
@@ -212,6 +319,40 @@
       }
     });
     return questions;
+  }
+
+  async function hydrateSelectionRefs(questionRefs) {
+    return Promise.all((Array.isArray(questionRefs) ? questionRefs : []).map(ref => {
+      if (!ref || !ref.id || !ref.sourceSet) return Promise.resolve(null);
+      return loadSet(ref.sourceSet)
+        .then(set => {
+          const questions = set && Array.isArray(set.questions) ? set.questions : [];
+          return questions.find(question => question && question.id === ref.id) || null;
+        })
+        .catch(() => null);
+    }));
+  }
+
+  function getValidatedSnapshot(ref, snapshot) {
+    if (!getConfig().allowServerSelectionSnapshots) return null;
+    if (!snapshot || typeof snapshot !== 'object') return null;
+    if (snapshot.id !== ref.id) {
+      throw new Error(`selection API snapshot id does not match ref "${ref.id}"`);
+    }
+    if (Number(snapshot.version) !== Number(ref.version)) {
+      throw new Error(`selection API snapshot version does not match ref "${ref.id}"`);
+    }
+    if (String(snapshot.contentHash) !== String(ref.contentHash)) {
+      throw new Error(`selection API snapshot contentHash does not match ref "${ref.id}"`);
+    }
+    const metadata = snapshot.metadata || {};
+    if (metadata.sourceSet !== ref.sourceSet) {
+      throw new Error(`selection API snapshot sourceSet does not match ref "${ref.id}"`);
+    }
+    if (ref.sequence !== undefined && Number(metadata.sequence) !== Number(ref.sequence)) {
+      throw new Error(`selection API snapshot sequence does not match ref "${ref.id}"`);
+    }
+    return snapshot;
   }
 
   async function buildFallbackSelection(request, source) {
@@ -319,6 +460,46 @@
 
   function notifySelectionEvent(name, detail) {
     if (!window.dispatchEvent || typeof CustomEvent !== 'function') return;
-    window.dispatchEvent(new CustomEvent(name, { detail }));
+    try {
+      window.dispatchEvent(new CustomEvent(name, { detail }));
+    } catch (error) {}
+  }
+
+  function createSelectionTelemetry(request) {
+    const startedAt = nowMs();
+    return {
+      elapsedMs() {
+        return Math.max(0, nowMs() - startedAt);
+      },
+      detail(extra = {}) {
+        return Object.assign({
+          source: 'chunks',
+          domain: request.domain,
+          setCount: request.setIds.length,
+          requestedQuestionCount: request.count,
+          selectedQuestionCount: 0,
+          requestBytes: 0,
+          responseBytes: 0,
+          selectionMs: 0,
+          hydrateMs: 0,
+          fallbackReason: '',
+          selectionPolicyVersion: request.selectionPolicyVersion
+        }, extra);
+      }
+    };
+  }
+
+  function countSelectedQuestions(sets) {
+    return (Array.isArray(sets) ? sets : []).reduce((sum, set) => {
+      return sum + (set && Array.isArray(set.questions) ? set.questions.length : 0);
+    }, 0);
+  }
+
+  function byteLength(text) {
+    return String(text || '').length;
+  }
+
+  function nowMs() {
+    return Date.now();
   }
 })();

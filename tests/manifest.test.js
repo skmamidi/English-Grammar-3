@@ -216,9 +216,140 @@ test('grammar mixed quiz can use server selection pilot when enabled', async () 
   assert.deepEqual(sets.map(set => set.id), ['grammar-sentence-types']);
 });
 
-function createTopicIndexContext() {
+test('server selection request preserves mixed quiz count semantics until explicit cap', async () => {
+  const selectedRequests = [];
+  const context = createTopicIndexContext({
+    localStorageValues: {
+      grammarQuestMixedQuestionLimit: '4'
+    }
+  });
+  context.window.GRAMMAR_QUEST_CONFIG = {
+    enableServerQuestionSelection: true,
+    serverQuestionSelectionPilotDomains: ['grammar']
+  };
+  context.window.GrammarQuestQuestionLoader = {
+    loadSets() {
+      throw new Error('loadSets should not be used for grammar API pilot');
+    },
+    loadSelectedQuiz(request) {
+      selectedRequests.push(request);
+      return Promise.resolve({ source: 'api', sets: [] });
+    }
+  };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  await context.window.GrammarQuestTopicIndex.loadMixedQuizSets(Array.from({ length: 15 }, (_, index) => ({
+    id: `grammar-contract-${index + 1}`,
+    set: { domain: 'grammar' }
+  })));
+
+  assert.equal(selectedRequests.length, 1);
+  assert.equal(selectedRequests[0].count, 60);
+  assert.equal(selectedRequests[0].countMode, 'per-subtopic');
+  assert.equal(selectedRequests[0].questionsPerSubtopic, 4);
+});
+
+test('server selection request honors custom maxServerSelectionQuestions cap', async () => {
+  const selectedRequests = [];
+  const context = createTopicIndexContext({
+    localStorageValues: {
+      grammarQuestMixedQuestionLimit: '4'
+    }
+  });
+  context.window.GRAMMAR_QUEST_CONFIG = {
+    enableServerQuestionSelection: true,
+    serverQuestionSelectionPilotDomains: ['grammar'],
+    maxServerSelectionQuestions: 24
+  };
+  context.window.GrammarQuestQuestionLoader = {
+    loadSets() {
+      throw new Error('loadSets should not be used for grammar API pilot');
+    },
+    loadSelectedQuiz(request) {
+      selectedRequests.push(request);
+      return Promise.resolve({ source: 'api', sets: [] });
+    }
+  };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  await context.window.GrammarQuestTopicIndex.loadMixedQuizSets(Array.from({ length: 15 }, (_, index) => ({
+    id: `grammar-contract-${index + 1}`,
+    set: { domain: 'grammar' }
+  })));
+
+  assert.equal(selectedRequests[0].count, 24);
+});
+
+test('capitalization mixed quiz can use server selection when second pilot domain is enabled', async () => {
+  const selectedRequests = [];
+  const loadedIds = [];
+  const context = createTopicIndexContext();
+  context.window.GRAMMAR_QUEST_CONFIG = {
+    enableServerQuestionSelection: true,
+    serverQuestionSelectionPilotDomains: ['grammar', 'capitalization']
+  };
+  context.window.GrammarQuestQuestionLoader = {
+    loadSets(ids) {
+      loadedIds.push(...ids);
+      return Promise.resolve([]);
+    },
+    loadSelectedQuiz(request) {
+      selectedRequests.push(request);
+      return Promise.resolve({ source: 'api', sets: [] });
+    }
+  };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  await context.window.GrammarQuestTopicIndex.loadMixedQuizSets([{
+    id: 'capitalization-proper-names-titles',
+    set: { domain: 'capitalization' }
+  }]);
+
+  assert.equal(selectedRequests.length, 1);
+  assert.equal(selectedRequests[0].domain, 'capitalization');
+  assert.deepEqual(loadedIds, []);
+});
+
+test('disabled pilot domains still use chunk loading', async () => {
+  const selectedRequests = [];
+  const loadedIds = [];
+  const context = createTopicIndexContext();
+  context.window.GRAMMAR_QUEST_CONFIG = {
+    enableServerQuestionSelection: true,
+    serverQuestionSelectionPilotDomains: ['grammar']
+  };
+  context.window.GrammarQuestQuestionLoader = {
+    loadSets(ids) {
+      loadedIds.push(...ids);
+      return Promise.resolve(ids.map(id => ({ id, questions: [{ id: `${id}-q0001` }] })));
+    },
+    loadSelectedQuiz(request) {
+      selectedRequests.push(request);
+      return Promise.resolve({ source: 'api', sets: [] });
+    }
+  };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  await context.window.GrammarQuestTopicIndex.loadMixedQuizSets([{
+    id: 'capitalization-proper-names-titles',
+    set: { domain: 'capitalization' }
+  }]);
+
+  assert.deepEqual(loadedIds, ['capitalization-proper-names-titles']);
+  assert.deepEqual(selectedRequests, []);
+});
+
+function createTopicIndexContext(options = {}) {
+  const localStorageValues = options.localStorageValues || {};
   return {
     window: {},
+    localStorage: {
+      getItem(key) {
+        return Object.prototype.hasOwnProperty.call(localStorageValues, key)
+          ? localStorageValues[key]
+          : null;
+      }
+    },
     document: {
       addEventListener() {},
       querySelectorAll() {

@@ -8,6 +8,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Capitalization",
       "domain": "capitalization",
       "bankFile": "assets/question-banks/capitalization.js",
+      "chunkFile": "assets/question-chunks/capitalization/capitalization-sentence-beginning.js",
       "questionCount": 45,
       "gradesSupported": [
         3,
@@ -27,6 +28,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Capitalization",
       "domain": "capitalization",
       "bankFile": "assets/question-banks/capitalization.js",
+      "chunkFile": "assets/question-chunks/capitalization/capitalization-days-months-holidays.js",
       "questionCount": 30,
       "gradesSupported": [
         3,
@@ -46,6 +48,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Capitalization",
       "domain": "capitalization",
       "bankFile": "assets/question-banks/capitalization.js",
+      "chunkFile": "assets/question-chunks/capitalization/capitalization-books-magazines-songs-plays.js",
       "questionCount": 21,
       "gradesSupported": [
         3,
@@ -65,6 +68,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Capitalization",
       "domain": "capitalization",
       "bankFile": "assets/question-banks/capitalization.js",
+      "chunkFile": "assets/question-chunks/capitalization/capitalization-proper-names-titles.js",
       "questionCount": 67,
       "gradesSupported": [
         3,
@@ -84,6 +88,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Capitalization",
       "domain": "capitalization",
       "bankFile": "assets/question-banks/capitalization.js",
+      "chunkFile": "assets/question-chunks/capitalization/capitalization-names-of-places.js",
       "questionCount": 44,
       "gradesSupported": [
         3,

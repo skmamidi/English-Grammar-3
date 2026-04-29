@@ -11,6 +11,7 @@ const {
 const MANIFEST_SCHEMA_VERSION = 1;
 const DEFAULT_MANIFEST_PATH = path.join(repoRoot, 'assets', 'question-manifest.json');
 const DEFAULT_MANIFEST_SCRIPT_PATH = path.join(repoRoot, 'assets', 'question-manifest.js');
+const CHUNKED_DOMAINS = new Set(['capitalization']);
 
 function generateManifest(bankLoad) {
   const sets = flattenQuestionBanks(bankLoad).map(record => buildSetManifest(record));
@@ -27,18 +28,24 @@ function buildSetManifest(record) {
   const set = record.set || {};
   const questions = Array.isArray(set.questions) ? set.questions : [];
   const questionManifests = questions.map((question, index) => buildQuestionManifest(question, index + 1));
-
-  return {
+  const domain = getDomain(record);
+  const manifest = {
     id: record.setId,
     title: set.title || '',
     topic: set.topic || '',
-    domain: getDomain(record),
+    domain,
     bankFile: record.relativeFile,
     questionCount: questionManifests.length,
     gradesSupported: getSupportedGrades(set, questionManifests),
     difficultiesSupported: getSupportedDifficulties(set, questionManifests),
     questions: questionManifests
   };
+
+  if (CHUNKED_DOMAINS.has(domain)) {
+    manifest.chunkFile = `assets/question-chunks/${domain}/${record.setId}.js`;
+  }
+
+  return manifest;
 }
 
 function buildQuestionManifest(question, fallbackSequence) {
@@ -130,6 +137,7 @@ function buildIndexManifest(manifest) {
       topic: set.topic,
       domain: set.domain,
       bankFile: set.bankFile,
+      chunkFile: set.chunkFile,
       questionCount: set.questionCount,
       gradesSupported: set.gradesSupported,
       difficultiesSupported: set.difficultiesSupported

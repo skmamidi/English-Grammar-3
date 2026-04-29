@@ -161,7 +161,14 @@
     }
   ];
 
+  window.GrammarQuestVisualQuestionScenes = {
+    applyVisualScenes
+  };
+
   applyVisualScenes();
+  if (typeof window.addEventListener === 'function') {
+    window.addEventListener('grammarquest:questions-loaded', applyVisualScenes);
+  }
 
   function applyVisualScenes() {
     const bank = window.QUESTION_BANK || {};

@@ -72,6 +72,36 @@ async function main() {
       await page.close();
     });
 
+    await runCase(failures, 'capitalization pilot subtopic loads only its chunk', async () => {
+      const page = await newPage(browser);
+      const requests = [];
+      page.on('request', request => requests.push(request.url()));
+      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
+      await visitClean(page, server.baseURL, file);
+      await assertPilotChunkRequests(page, requests, file);
+      await assertQuizFlow(page, file);
+      await page.close();
+    });
+
+    await runCase(failures, 'legacy grammar subtopic still loads its topic bank', async () => {
+      const page = await newPage(browser);
+      const requests = [];
+      page.on('request', request => requests.push(request.url()));
+      const file = 'topics/grammar/subtopics/sentence-types.html';
+      await visitClean(page, server.baseURL, file);
+      await assertLegacyBankRequests(page, requests, file);
+      await assertQuizFlow(page, file);
+      await page.close();
+    });
+
+    await runCase(failures, 'loader-backed active quiz can be resumed', async () => {
+      const page = await newPage(browser);
+      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
+      await visitClean(page, server.baseURL, file);
+      await assertLoaderBackedResume(page, file);
+      await page.close();
+    });
+
     for (const file of representativeSubtopics) {
       await runCase(failures, `${file} starts, answers, and advances`, async () => {
         const page = await newPage(browser);
@@ -364,6 +394,67 @@ async function assertQuizFlow(page, file) {
   await assertVisible(page, '#next-question-btn', file);
   await page.click('#next-question-btn');
   assert.match(await textContent(page, '#quiz-root'), /Question|Results|Score|Review/i);
+}
+
+async function assertPilotChunkRequests(page, requests, file) {
+  await assertVisible(page, '#start-btn', file);
+  assert.equal(
+    await page.evaluate(() => !!window.QUESTION_BANK && Object.keys(window.QUESTION_BANK).length),
+    1,
+    `${file} should hydrate only the requested chunk into QUESTION_BANK`
+  );
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-manifest.js')),
+    `${file} should request manifest metadata`
+  );
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-loader.js')),
+    `${file} should request the loader abstraction`
+  );
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-chunks/capitalization/capitalization-proper-names-titles.js')),
+    `${file} should request its capitalization chunk`
+  );
+  assert.equal(
+    requests.some(url => url.endsWith('/assets/question-banks/capitalization.js')),
+    false,
+    `${file} should not request the full capitalization bank`
+  );
+}
+
+async function assertLegacyBankRequests(page, requests, file) {
+  await assertVisible(page, '#start-btn', file);
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-banks/grammar.js')),
+    `${file} should request the legacy grammar bank`
+  );
+  assert.equal(
+    requests.some(url => url.includes('/assets/question-chunks/')),
+    false,
+    `${file} should not request question chunks`
+  );
+}
+
+async function assertLoaderBackedResume(page, file) {
+  await assertVisible(page, '#start-btn', file);
+  await page.click('#start-btn');
+  await assertVisible(page, '.question-box', file);
+  await page.click('.confidence-btn');
+  await page.click('.choice-btn');
+  await assertVisible(page, '#next-question-btn', file);
+
+  await page.reload({ waitUntil: 'domcontentloaded' });
+  await page.waitForLoadState('domcontentloaded');
+  await assertVisible(page, '#resume-quiz-btn', `${file} resume button`);
+  await page.click('#resume-quiz-btn');
+  await assertVisible(page, '.question-box', `${file} resumed question`);
+  await assertVisible(page, '.quiz-progress', `${file} resumed progress`);
+  const resumed = await page.evaluate(() => ({
+    text: document.querySelector('.quiz-progress') && document.querySelector('.quiz-progress').textContent,
+    activeQuiz: JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').activeQuiz
+  }));
+  assert.match(resumed.text, /Question 1 of|Question 2 of|Review/i);
+  assert.ok(resumed.activeQuiz.questionRefs[0].id.startsWith('capitalization-proper-names-titles-q'));
 }
 
 async function assertQuizCompletionPreservesQuestionReports(page, file) {

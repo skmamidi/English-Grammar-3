@@ -5,6 +5,7 @@
  * Usage in a subtopic HTML file:
  *   <script>window.QUIZ_SET_ID = 'vocabulary-base-words';</script>
  *   <script src="../../assets/question-banks/grammar.js"></script>
+ *   or <script src="../../assets/question-loader.js"></script>
  *   <script src="../../assets/quiz-engine.js"></script>
  */
 
@@ -79,7 +80,10 @@
       return;
     }
 
-    initQuiz(setId);
+    initQuiz(setId).catch(error => {
+      console.error(error);
+      renderUnavailableQuestions();
+    });
   }
 
   window.addEventListener('grammarquest:parent-browse', () => {
@@ -89,15 +93,11 @@
     }
   });
 
-  function initQuiz(setId) {
-    const set = window.QUESTION_BANK && window.QUESTION_BANK[setId];
+  async function initQuiz(setId) {
+    renderLoadingQuestions();
+    const set = await loadQuestionSet(setId);
     if (!set || !Array.isArray(set.questions) || set.questions.length === 0) {
-      quizContainer.innerHTML = `
-        <div class="card">
-          <p class="page-subtitle">Questions for this topic are coming soon!</p>
-          <a href="./" class="btn btn-secondary">Back to Topic</a>
-        </div>
-      `;
+      renderUnavailableQuestions();
       return;
     }
 
@@ -118,6 +118,31 @@
     reviewAttemptRecords = [];
 
     renderStartScreen(set);
+  }
+
+  async function loadQuestionSet(setId) {
+    const loader = window.GrammarQuestQuestionLoader;
+    if (loader && typeof loader.loadSet === 'function') {
+      return loader.loadSet(setId);
+    }
+    return window.QUESTION_BANK && window.QUESTION_BANK[setId];
+  }
+
+  function renderLoadingQuestions() {
+    quizContainer.innerHTML = `
+      <div class="card">
+        <p class="page-subtitle">Loading questions...</p>
+      </div>
+    `;
+  }
+
+  function renderUnavailableQuestions() {
+    quizContainer.innerHTML = `
+      <div class="card">
+        <p class="page-subtitle">Questions for this topic are coming soon!</p>
+        <a href="./" class="btn btn-secondary">Back to Topic</a>
+      </div>
+    `;
   }
 
   function initMixedQuiz(config) {

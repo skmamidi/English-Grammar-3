@@ -55,6 +55,17 @@ test('manifest exposes compact lookup metadata without learner-facing prompts', 
   assert.equal(Object.hasOwn(set.questions[0], 'explanation'), false);
 });
 
+test('chunked pilot manifest entries point to checked-in chunk files', () => {
+  const manifest = validateManifest(loadManifest(), loadQuestionBanks());
+  const chunkedSets = manifest.sets.filter(set => set.domain === 'capitalization');
+
+  assert.ok(chunkedSets.length > 0, 'expected capitalization to be the pilot chunked domain');
+  chunkedSets.forEach(set => {
+    assert.equal(set.chunkFile, `assets/question-chunks/capitalization/${set.id}.js`);
+    assert.ok(fs.existsSync(path.join(__dirname, '..', set.chunkFile)), `${set.chunkFile} should exist`);
+  });
+});
+
 test('checked-in manifest script exposes index metadata as a browser global', () => {
   const context = { window: {} };
   vm.runInNewContext(fs.readFileSync(DEFAULT_MANIFEST_SCRIPT_PATH, 'utf8'), context);

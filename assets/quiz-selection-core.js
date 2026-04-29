@@ -162,14 +162,19 @@
       .map(value => String(value || '').trim())
       .filter(Boolean)));
     const defaultQuestionsPerSubtopic = Number(options.defaultQuestionsPerSubtopic) || 4;
-    const questionsPerSubtopic = Math.max(1, Number(input.questionsPerSubtopic) || defaultQuestionsPerSubtopic);
+    const mode = input.mode === 'mixed' || input.mode === 'subtopic' ? input.mode : '';
+    const questionsPerSubtopic = mode === 'subtopic'
+      ? Math.max(0, Number(input.questionsPerSubtopic) || 0)
+      : Math.max(1, Number(input.questionsPerSubtopic) || defaultQuestionsPerSubtopic);
     const maxCount = Math.max(1, Number(options.maxCount || input.maxCount) || 60);
     const countMode = input.countMode === 'max' || input.selectedLimit === 'max' ? 'max' : 'per-subtopic';
-    const requestedCount = countMode === 'max'
-      ? maxCount
-      : Number(input.count) || setIds.length * questionsPerSubtopic || questionsPerSubtopic;
+    const requestedCount = mode === 'subtopic'
+      ? Number(input.count) || maxCount
+      : countMode === 'max'
+        ? maxCount
+        : Number(input.count) || setIds.length * questionsPerSubtopic || questionsPerSubtopic;
     return {
-      mode: input.mode === 'mixed' ? 'mixed' : '',
+      mode,
       domain: String(input.domain || '').trim(),
       setIds,
       grade: String(input.grade || '4'),

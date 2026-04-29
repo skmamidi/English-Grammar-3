@@ -1,0 +1,35 @@
+{
+  "streakDays": 2,
+  "totalGems": 12,
+  "reports": {
+    "sessions": [],
+    "questionReports": [
+      {
+        "id": "question-report-existing",
+        "sourceSet": "grammar-sentence-types",
+        "sequence": 1,
+        "status": "open"
+      }
+    ]
+  },
+  "activeQuiz": {
+    "setId": "grammar-sentence-types",
+    "title": "Sentence Types",
+    "questions": [
+      {
+        "id": "grammar-sentence-types-q0001",
+        "version": 1,
+        "contentHash": "sha256:abc",
+        "question": "Legacy prompt",
+        "choices": ["A", "B"],
+        "correct": 0,
+        "metadata": {
+          "sourceSet": "grammar-sentence-types",
+          "sequence": 1
+        }
+      }
+    ],
+    "currentIndex": 0,
+    "score": 0
+  }
+}

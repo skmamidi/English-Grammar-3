@@ -122,10 +122,51 @@
 
   async function loadQuestionSet(setId) {
     const loader = window.GrammarQuestQuestionLoader;
+    if (shouldUseServerSelectionForSubtopic(setId) && loader && typeof loader.loadSelectedQuiz === 'function') {
+      const result = await loader.loadSelectedQuiz(buildSubtopicSelectionRequest(setId));
+      const selectedSet = result && Array.isArray(result.sets) ? result.sets[0] : null;
+      if (selectedSet) return selectedSet;
+    }
     if (loader && typeof loader.loadSet === 'function') {
       return loader.loadSet(setId);
     }
     return window.QUESTION_BANK && window.QUESTION_BANK[setId];
+  }
+
+  function shouldUseServerSelectionForSubtopic(setId) {
+    const config = getAppConfig();
+    return !!(config.enableServerQuestionSelection
+      && Array.isArray(config.serverQuestionSelectionPilotSubtopics)
+      && config.serverQuestionSelectionPilotSubtopics.includes(setId));
+  }
+
+  function buildSubtopicSelectionRequest(setId) {
+    const config = getAppConfig();
+    const count = Math.max(1, Number(config.serverSelectionSubtopicQuestionCount) || Math.min(targetQuestionCount, 10));
+    return {
+      mode: 'subtopic',
+      domain: getSetDomain(setId),
+      setIds: [setId],
+      grade: getInitialGrade(),
+      difficulty: normalizeOption(loadSetting('grammarQuestDifficulty', 'medium'), difficultyOptions, 'medium'),
+      count,
+      countMode: 'max',
+      questionsPerSubtopic: 0,
+      selectionPolicyVersion: 1
+    };
+  }
+
+  function getSetDomain(setId) {
+    const manifest = window.QUESTION_MANIFEST;
+    const sets = manifest && Array.isArray(manifest.sets) ? manifest.sets : [];
+    const entry = sets.find(set => set && set.id === setId);
+    return entry && entry.domain || String(setId || '').split('-')[0] || '';
+  }
+
+  function getAppConfig() {
+    return window.GRAMMAR_QUEST_CONFIG && typeof window.GRAMMAR_QUEST_CONFIG === 'object'
+      ? window.GRAMMAR_QUEST_CONFIG
+      : {};
   }
 
   function renderLoadingQuestions() {
@@ -766,6 +807,13 @@
         reason: reason ? reason.value : '',
         note: note ? note.value : ''
       });
+      if (progressStore && typeof progressStore.upsertQuestionReport === 'function') {
+        progressStore.upsertQuestionReport(report, { sync: true });
+        updateQuestionReportStatus('Report sent for grown-up review.');
+        if (message) message.textContent = 'Report sent for grown-up review.';
+        window.setTimeout(closeQuestionReportDialog, 600);
+        return;
+      }
       const progress = loadProgress();
       const reports = progressStore && typeof progressStore.normalizeReports === 'function'
         ? progressStore.normalizeReports(progress.reports)
@@ -2394,6 +2442,7 @@
     if (isParentMode() && progressStore && typeof progressStore.getDefaultProgress === 'function') {
       return progressStore.getDefaultProgress();
     }
+    if (progressStore && typeof progressStore.getProgress === 'function') return progressStore.getProgress();
     if (progressStore) return progressStore.loadLocalProgress();
 
     const fallback = {
@@ -2556,7 +2605,9 @@
   }
 
   function getResumableQuiz() {
-    const progress = loadProgress();
+    const progress = progressStore && typeof progressStore.getActiveQuiz === 'function'
+      ? Object.assign(loadProgress(), { activeQuiz: progressStore.getActiveQuiz() })
+      : loadProgress();
     const activeQuiz = progressStore && typeof progressStore.normalizeActiveQuiz === 'function'
       ? progressStore.normalizeActiveQuiz(progress.activeQuiz)
       : progress.activeQuiz;
@@ -2628,9 +2679,8 @@
 
   function saveActiveQuiz(options) {
     if (isParentMode()) return;
-    const progress = loadProgress();
     const nextIndex = options && Number.isFinite(options.nextIndex) ? options.nextIndex : currentIndex;
-    progress.activeQuiz = {
+    const activeQuiz = {
       schemaVersion: 2,
       setId: window.QUIZ_SET_ID || '',
       mixedTitle: mixedQuizConfig ? mixedQuizConfig.title : '',
@@ -2653,6 +2703,12 @@
       questionStartedAt: questionStartedAt ? new Date(questionStartedAt).toISOString() : '',
       lastSavedAt: new Date().toISOString()
     };
+    if (progressStore && typeof progressStore.saveActiveQuiz === 'function') {
+      progressStore.saveActiveQuiz(activeQuiz, { sync: true });
+      return;
+    }
+    const progress = loadProgress();
+    progress.activeQuiz = activeQuiz;
     saveProgress(progress, { sync: true });
   }
 
@@ -2667,6 +2723,10 @@
 
   function clearActiveQuiz() {
     if (isParentMode()) return;
+    if (progressStore && typeof progressStore.clearActiveQuiz === 'function') {
+      progressStore.clearActiveQuiz({ sync: true });
+      return;
+    }
     const progress = loadProgress();
     progress.activeQuiz = null;
     saveProgress(progress, { sync: true });
@@ -2674,7 +2734,9 @@
 
   function saveProgress(progress, options) {
     if (isParentMode()) return;
-    if (progressStore) {
+    if (progressStore && typeof progressStore.saveProgress === 'function') {
+      progressStore.saveProgress(progress, options);
+    } else if (progressStore) {
       progressStore.saveLocalProgress(progress, options);
     } else {
       localStorage.setItem('grammarQuestProgress', JSON.stringify(progress));

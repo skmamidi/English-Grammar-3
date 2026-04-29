@@ -71,6 +71,32 @@ test('shared selection core preserves mixed per-subtopic and max semantics', () 
   assert.equal(maxMode.length, 10);
 });
 
+test('shared selection core normalizes subtopic selection requests', () => {
+  assert.deepEqual(core.normalizeSelectionRequest({
+    mode: 'subtopic',
+    domain: 'capitalization',
+    setIds: ['capitalization-proper-names-titles'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 10,
+    countMode: 'max',
+    questionsPerSubtopic: 0,
+    selectionPolicyVersion: 1
+  }, {
+    maxCount: 60
+  }), {
+    mode: 'subtopic',
+    domain: 'capitalization',
+    setIds: ['capitalization-proper-names-titles'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 10,
+    countMode: 'max',
+    questionsPerSubtopic: 0,
+    selectionPolicyVersion: 1
+  });
+});
+
 test('shared selection core projects stable question refs', () => {
   const question = q('alpha-12', [4], { 4: 'medium' }, 'alpha');
   assert.deepEqual(core.getQuestionRef(question, 12), {

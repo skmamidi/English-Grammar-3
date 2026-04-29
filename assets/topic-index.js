@@ -159,6 +159,7 @@
     return Promise.all([
       window.GrammarQuestSelectionCore ? Promise.resolve() : loadScriptOnce('../../assets/quiz-selection-core.js'),
       window.GrammarQuestSelectionIntegrity ? Promise.resolve() : loadScriptOnce('../../assets/question-selection-integrity.js'),
+      window.GrammarQuestSelectionTelemetry ? Promise.resolve() : loadScriptOnce('../../assets/question-selection-telemetry.js'),
       window.GrammarQuestQuestionLoader ? Promise.resolve() : loadScriptOnce('../../assets/question-loader.js')
     ])
       .then(() => window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js'))

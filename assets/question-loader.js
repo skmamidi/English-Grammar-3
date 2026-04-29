@@ -151,7 +151,7 @@
         defaultQuestionsPerSubtopic: 4
       })
       : {
-        mode: input.mode === 'mixed' ? 'mixed' : '',
+        mode: input.mode === 'mixed' || input.mode === 'subtopic' ? input.mode : '',
         domain: String(input.domain || '').trim(),
         setIds: Array.from(new Set((Array.isArray(input.setIds) ? input.setIds : [])
           .map(value => String(value || '').trim())
@@ -160,7 +160,7 @@
         difficulty: String(input.difficulty || 'medium'),
         count: Math.min(MAX_SELECTED_QUESTIONS, Math.max(1, Number(input.count) || 4)),
         countMode: input.countMode === 'max' ? 'max' : 'per-subtopic',
-        questionsPerSubtopic: Math.max(1, Number(input.questionsPerSubtopic) || 4),
+        questionsPerSubtopic: input.mode === 'subtopic' ? Math.max(0, Number(input.questionsPerSubtopic) || 0) : Math.max(1, Number(input.questionsPerSubtopic) || 4),
         selectionPolicyVersion: SELECTION_POLICY_VERSION
       };
     normalized.selectionPolicyVersion = SELECTION_POLICY_VERSION;
@@ -169,9 +169,10 @@
   }
 
   function validateSelectionRequest(request) {
-    if (request.mode !== 'mixed') throw new Error('Question loader: selection mode must be "mixed".');
+    if (request.mode !== 'mixed' && request.mode !== 'subtopic') throw new Error('Question loader: selection mode must be "mixed" or "subtopic".');
     if (!request.domain) throw new Error('Question loader: selection domain is required.');
     if (!request.setIds.length) throw new Error('Question loader: selection setIds are required.');
+    if (request.mode === 'subtopic' && request.setIds.length !== 1) throw new Error('Question loader: subtopic selection requires exactly one setId.');
     request.setIds.forEach(setId => {
       const entry = getManifestEntry(setId);
       if (!entry) throw new Error(`Question loader: no manifest entry for "${setId}".`);
@@ -218,7 +219,7 @@
       throw new Error('integrity_failed: integrity verifier is unavailable');
     }
     const manifest = window.QUESTION_MANIFEST || {};
-    await integrity.validateSelectionResponseIntegrity(response, request, manifest.artifact || {});
+    await integrity.validateSelectionResponseIntegrity(response, request, manifest.artifact || {}, getConfig().selectionIntegrity || {});
   }
 
   async function validateSelectionResponse(response, request) {

@@ -29,6 +29,11 @@ test('package scripts expose reproducible browser install and full QA gate', () 
   assert.match(pkg.scripts.test, /npm run qa:content/);
   assert.match(pkg.scripts.test, /npm run test:unit/);
   assert.match(pkg.scripts.test, /npm run test:ui/);
+  assert.match(pkg.scripts['test:unit'], /tests\/question-selection-signing\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/question-selection-telemetry\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/question-selection-api-budget\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/question-selection-service\.test\.js/);
+  assert.match(pkg.scripts['test:unit'], /tests\/learner-state-repository\.test\.js/);
   assert.equal(pkg.scripts['questions:normalize'], 'node scripts/assign-question-ids.js --write');
   assert.equal(pkg.scripts['questions:write'], 'npm run manifest:write');
 });

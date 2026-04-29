@@ -1,4 +1,5 @@
 const assert = require('node:assert/strict');
+const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const test = require('node:test');
@@ -8,6 +9,7 @@ const { buildIndexManifest, getSourceSet, loadManifest } = require('../scripts/g
 const { loadChunkBank } = require('../scripts/qa/chunk-qa');
 const { loadQuestionBanks } = require('../scripts/qa/bank-loader');
 const selectionIntegrity = require('../assets/question-selection-integrity');
+const testKeys = require('./fixtures/selection-test-keys.json');
 
 const repoRoot = path.resolve(__dirname, '..');
 const loaderScript = fs.readFileSync(path.join(repoRoot, 'assets', 'question-loader.js'), 'utf8');
@@ -155,6 +157,96 @@ test('loader sends server selection request and hydrates returned refs when enab
   assert.ok(Number.isFinite(apiUsed.detail.selectionMs) && apiUsed.detail.selectionMs >= 0);
   assert.ok(Number.isFinite(apiUsed.detail.hydrateMs) && apiUsed.detail.hydrateMs >= 0);
   assert.equal(JSON.stringify(apiUsed.detail).includes('capitalized'), false);
+});
+
+test('loader sends subtopic server selection request and returns a set-compatible result', async () => {
+  const requests = [];
+  const manifestQuestion = getManifestQuestion('capitalization-proper-names-titles', 'capitalization-proper-names-titles-q0001');
+  const context = createLoaderContext({
+    manifest: loadManifest(),
+    config: {
+      enableServerQuestionSelection: true,
+      questionSelectionApiUrl: '/api/question-selection'
+    },
+    fetch: async (url, options) => {
+      requests.push({ url, body: JSON.parse(options.body) });
+      return {
+        ok: true,
+        status: 200,
+        json: async () => withIntegrity({
+          selectionId: 'sel_subtopic_unit',
+          selectionPolicyVersion: 1,
+          questionRefs: [{
+            id: 'capitalization-proper-names-titles-q0001',
+            sourceSet: 'capitalization-proper-names-titles',
+            version: manifestQuestion.version,
+            contentHash: manifestQuestion.contentHash,
+            sequence: manifestQuestion.sequence
+          }]
+        }, JSON.parse(options.body))
+      };
+    }
+  });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  const result = await context.window.GrammarQuestQuestionLoader.loadSelectedQuiz({
+    mode: 'subtopic',
+    domain: 'capitalization',
+    setIds: ['capitalization-proper-names-titles'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 10,
+    countMode: 'max',
+    questionsPerSubtopic: 0,
+    selectionPolicyVersion: 1
+  });
+
+  assert.equal(requests.length, 1);
+  assert.equal(requests[0].body.mode, 'subtopic');
+  assert.equal(requests[0].body.count, 10);
+  assert.equal(requests[0].body.countMode, 'max');
+  assert.equal(requests[0].body.questionsPerSubtopic, 0);
+  assert.equal(result.source, 'api');
+  assert.equal(result.selectionId, 'sel_subtopic_unit');
+  assert.equal(result.sets.length, 1);
+  assert.equal(result.sets[0].id, 'capitalization-proper-names-titles');
+  assert.equal(result.sets[0].questions[0].id, 'capitalization-proper-names-titles-q0001');
+});
+
+test('loader falls back to chunk set when subtopic server selection fails', async () => {
+  const context = createLoaderContext({
+    manifest: loadManifest(),
+    config: {
+      enableServerQuestionSelection: true,
+      questionSelectionApiUrl: '/api/question-selection'
+    },
+    fetch: async () => ({
+      ok: false,
+      status: 503,
+      json: async () => ({})
+    })
+  });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  const result = await context.window.GrammarQuestQuestionLoader.loadSelectedQuiz({
+    mode: 'subtopic',
+    domain: 'capitalization',
+    setIds: ['capitalization-proper-names-titles'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 10,
+    countMode: 'max',
+    questionsPerSubtopic: 0,
+    selectionPolicyVersion: 1
+  });
+
+  assert.equal(result.source, 'fallback');
+  assert.equal(result.sets.length, 1);
+  assert.equal(result.sets[0].id, 'capitalization-proper-names-titles');
+  assert.ok(result.sets[0].questions.length > 10);
+  assert.ok(context.events.some(event => event.name === 'grammarquest:question-selection-fallback' && /503/.test(event.detail.reason)));
 });
 
 test('loader falls back to chunks when server selection fails', async () => {
@@ -493,6 +585,99 @@ test('loader rejects server selection responses with invalid integrity fields', 
   assert.ok(context.events.some(event => /integrity_failed/.test(event.detail.reason)));
 });
 
+test('loader falls back when production signed mode receives an unsigned response', async () => {
+  const manifestQuestion = getManifestQuestion('capitalization-proper-names-titles', 'capitalization-proper-names-titles-q0001');
+  const context = createLoaderContext({
+    manifest: loadManifest(),
+    config: {
+      enableServerQuestionSelection: true,
+      questionSelectionApiUrl: '/api/question-selection',
+      selectionIntegrity: {
+        requireSignature: true,
+        publicKeys: publicKeyConfig()
+      }
+    },
+    fetch: async (url, options) => ({
+      ok: true,
+      status: 200,
+      json: async () => withIntegrity({
+        selectionId: 'sel_unsigned_production',
+        selectionPolicyVersion: 1,
+        expiresAt: '2030-04-29T12:05:00.000Z',
+        questionRefs: [{
+          id: 'capitalization-proper-names-titles-q0001',
+          sourceSet: 'capitalization-proper-names-titles',
+          version: manifestQuestion.version,
+          contentHash: manifestQuestion.contentHash,
+          sequence: manifestQuestion.sequence
+        }]
+      }, JSON.parse(options.body))
+    })
+  });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  const result = await context.window.GrammarQuestQuestionLoader.loadSelectedQuiz({
+    mode: 'mixed',
+    domain: 'capitalization',
+    setIds: ['capitalization-proper-names-titles'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 4,
+    selectionPolicyVersion: 1
+  });
+
+  assert.equal(result.source, 'fallback');
+  assert.ok(context.events.some(event => /signature is required/.test(event.detail.reason)));
+});
+
+test('loader verifies signed production selection responses with configured public keys', async () => {
+  const manifestQuestion = getManifestQuestion('capitalization-proper-names-titles', 'capitalization-proper-names-titles-q0001');
+  const context = createLoaderContext({
+    manifest: loadManifest(),
+    config: {
+      enableServerQuestionSelection: true,
+      questionSelectionApiUrl: '/api/question-selection',
+      selectionIntegrity: {
+        requireSignature: true,
+        publicKeys: publicKeyConfig()
+      }
+    },
+    fetch: async (url, options) => ({
+      ok: true,
+      status: 200,
+      json: async () => withSignedIntegrity({
+        selectionId: 'sel_signed_production',
+        selectionPolicyVersion: 1,
+        expiresAt: '2030-04-29T12:05:00.000Z',
+        questionRefs: [{
+          id: 'capitalization-proper-names-titles-q0001',
+          sourceSet: 'capitalization-proper-names-titles',
+          version: manifestQuestion.version,
+          contentHash: manifestQuestion.contentHash,
+          sequence: manifestQuestion.sequence
+        }]
+      }, JSON.parse(options.body))
+    })
+  });
+
+  vm.runInContext(loaderScript, context, { filename: 'assets/question-loader.js' });
+
+  const result = await context.window.GrammarQuestQuestionLoader.loadSelectedQuiz({
+    mode: 'mixed',
+    domain: 'capitalization',
+    setIds: ['capitalization-proper-names-titles'],
+    grade: '4',
+    difficulty: 'medium',
+    count: 4,
+    selectionPolicyVersion: 1
+  });
+
+  assert.equal(result.source, 'api');
+  assert.equal(result.selectionId, 'sel_signed_production');
+  assert.equal(result.sets[0].questions[0].id, 'capitalization-proper-names-titles-q0001');
+});
+
 function createLoaderContext(options = {}) {
   const events = [];
   const window = {
@@ -535,6 +720,30 @@ async function withIntegrity(response, request) {
   signed.requestHash = await selectionIntegrity.buildSelectionRequestHash(request, loadManifest().artifact);
   signed.responseDigest = await selectionIntegrity.buildSelectionResponseDigest(signed, loadManifest().artifact);
   return signed;
+}
+
+async function withSignedIntegrity(response, request) {
+  const signed = Object.assign({
+    kid: testKeys.kid,
+    signature: null,
+    signatureVersion: 'selection-signature-v1'
+  }, response);
+  signed.requestHash = await selectionIntegrity.buildSelectionRequestHash(request, loadManifest().artifact);
+  signed.responseDigest = await selectionIntegrity.buildSelectionResponseDigest(signed, loadManifest().artifact);
+  signed.signature = crypto.sign('sha256', Buffer.from(selectionIntegrity.buildSelectionSignaturePayload(signed, loadManifest().artifact)), {
+    key: crypto.createPrivateKey({ key: testKeys.privateKey, format: 'jwk' }),
+    dsaEncoding: 'ieee-p1363'
+  }).toString('base64');
+  return signed;
+}
+
+function publicKeyConfig() {
+  return {
+    [testKeys.kid]: {
+      algorithm: testKeys.algorithm,
+      publicKey: testKeys.publicKey
+    }
+  };
 }
 
 function createScriptLoadingDocument(context) {

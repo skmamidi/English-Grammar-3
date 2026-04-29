@@ -208,6 +208,59 @@
     return normalized;
   }
 
+  function getProgress() {
+    return loadLocalProgress();
+  }
+
+  function saveProgress(progress, options) {
+    return saveLocalProgress(progress, options);
+  }
+
+  function updateProgress(mutator, options) {
+    const current = loadLocalProgress();
+    const next = typeof mutator === "function" ? mutator(current) || current : current;
+    return saveLocalProgress(next, options);
+  }
+
+  function getActiveQuiz() {
+    return loadLocalProgress().activeQuiz;
+  }
+
+  function saveActiveQuiz(activeQuiz, options) {
+    return updateProgress(progress => {
+      progress.activeQuiz = normalizeActiveQuiz(activeQuiz);
+      return progress;
+    }, options).activeQuiz;
+  }
+
+  function clearActiveQuiz(options) {
+    updateProgress(progress => {
+      progress.activeQuiz = null;
+      return progress;
+    }, options);
+  }
+
+  function appendSavedSession(session, options) {
+    return updateProgress(progress => {
+      const reports = normalizeReports(progress.reports);
+      reports.sessions = [normalizeReportSession(session)].concat(reports.sessions || []).filter(Boolean).slice(0, 250);
+      progress.reports = normalizeReports(reports);
+      return progress;
+    }, options);
+  }
+
+  function upsertQuestionReport(report, options) {
+    return updateProgress(progress => {
+      const reports = normalizeReports(progress.reports);
+      const normalized = normalizeQuestionReport(report);
+      reports.questionReports = [normalized]
+        .concat((reports.questionReports || []).filter(item => item && item.id !== normalized.id))
+        .slice(0, 500);
+      progress.reports = normalizeReports(reports);
+      return progress;
+    }, options);
+  }
+
   function mergeProgress(localProgress, cloudProgress) {
     const local = normalizeProgress(localProgress);
     const cloud = normalizeProgress(cloudProgress);
@@ -559,6 +612,14 @@
     SYNC_STATUS_EVENT,
     ACTIVE_ASSESSMENT_EVENT,
     getDefaultProgress,
+    getProgress,
+    saveProgress,
+    updateProgress,
+    getActiveQuiz,
+    saveActiveQuiz,
+    clearActiveQuiz,
+    appendSavedSession,
+    upsertQuestionReport,
     loadLocalProgress,
     saveLocalProgress,
     mergeProgress,

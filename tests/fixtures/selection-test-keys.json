@@ -1,0 +1,17 @@
+{
+  "kid": "selection-test-key-2026-04",
+  "algorithm": "ECDSA-P256-SHA256",
+  "publicKey": {
+    "kty": "EC",
+    "x": "P9YZgI5JzHcO7QiNsUX7Y_DVaHFSrgLgP5GfhpMOs6Q",
+    "y": "e_-zL-BKWaQ48hYIdpIUTtDtVV4v4u6jFwk-IU9qa50",
+    "crv": "P-256"
+  },
+  "privateKey": {
+    "kty": "EC",
+    "x": "P9YZgI5JzHcO7QiNsUX7Y_DVaHFSrgLgP5GfhpMOs6Q",
+    "y": "e_-zL-BKWaQ48hYIdpIUTtDtVV4v4u6jFwk-IU9qa50",
+    "crv": "P-256",
+    "d": "5j0vhokuZSI-TyIgCesOxlAiTFudp0aR8hMuJoONam0"
+  }
+}

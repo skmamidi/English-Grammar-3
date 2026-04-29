@@ -4,7 +4,6 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const http = require('http');
 const path = require('path');
-const vm = require('vm');
 const { chromium } = require('playwright');
 const {
   repoRoot,
@@ -17,10 +16,11 @@ const {
   assertPageBudget,
   createRequestRecorder
 } = require('./helpers/request-metrics');
-const selectionCore = require('../assets/quiz-selection-core');
-const selectionIntegrity = require('../assets/question-selection-integrity');
+const { createQuestionSelectionApiHarness } = require('./helpers/question-selection-api-harness');
+const testKeys = require('./fixtures/selection-test-keys.json');
 
 const requestedPort = Number(process.env.QA_PORT) || 4173;
+const questionSelectionApiHarness = createQuestionSelectionApiHarness({ repoRoot });
 const TOPIC_INDEX_BUDGET = {
   forbidFullBanks: true,
   questionPayloadBytes: 100 * 1024
@@ -155,7 +155,10 @@ async function main() {
 
     if (process.env.QUESTION_SELECTION_API) {
       await runCase(failures, 'grammar mixed quiz can use question selection API pilot', async () => {
-        const page = await newPage(browser, { enableQuestionSelectionApi: true });
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          enableSelectionTelemetry: true
+        });
         const requests = [];
         const selectionPayloads = [];
         page.on('request', request => requests.push(request.url()));
@@ -181,6 +184,14 @@ async function main() {
         assert.ok(apiTelemetry.responseBytes > 0 && apiTelemetry.responseBytes < 60 * 1024, 'API response telemetry should be bounded');
         assert.ok(apiTelemetry.requestBytes > 0, 'API request telemetry should include request bytes');
         assert.ok(apiTelemetry.hydrateMs >= 0, 'API telemetry should include hydrate latency');
+        const sinkTelemetry = await page.evaluate(() => window.__selectionTelemetryRecords || []);
+        const apiSinkTelemetry = sinkTelemetry.find(event => event.event === 'selection.api_used');
+        assert.ok(apiSinkTelemetry, 'API smoke should record normalized API telemetry');
+        assert.equal(apiSinkTelemetry.source, 'api');
+        assert.equal(apiSinkTelemetry.domain, 'grammar');
+        assert.ok(apiSinkTelemetry.responseBytes > 0 && apiSinkTelemetry.responseBytes < 60 * 1024, 'sink API response bytes should be bounded');
+        assert.equal(JSON.stringify(sinkTelemetry).includes('choices'), false, 'selection telemetry should not include choices');
+        assert.equal(JSON.stringify(sinkTelemetry).includes('questionSnapshots'), false, 'selection telemetry should not include snapshots');
         assert.equal(selectionPayloads.length, 1, 'grammar API mixed quiz should send one selection payload');
         assert.equal(selectionPayloads[0].count, 60, 'grammar API mixed quiz should request the default server-selection cap');
         assert.equal(selectionPayloads[0].countMode, 'per-subtopic');
@@ -200,6 +211,7 @@ async function main() {
       await runCase(failures, 'grammar mixed quiz falls back when question selection API fails', async () => {
         const page = await newPage(browser, {
           enableQuestionSelectionApi: true,
+          enableSelectionTelemetry: true,
           questionSelectionApiUrl: '/api/question-selection?fail=1'
         });
         await visitClean(page, server.baseURL, 'topics/grammar/index.html');
@@ -215,6 +227,12 @@ async function main() {
           /selection API returned 503/,
           'grammar API fallback should include a reason'
         );
+        const sinkTelemetry = await page.evaluate(() => window.__selectionTelemetryRecords || []);
+        const fallbackTelemetry = sinkTelemetry.find(event => event.event === 'selection.fallback');
+        assert.ok(fallbackTelemetry, 'API fallback smoke should record normalized fallback telemetry');
+        assert.equal(fallbackTelemetry.source, 'fallback');
+        assert.equal(fallbackTelemetry.fallbackReason, 'api_unavailable');
+        assert.equal(JSON.stringify(fallbackTelemetry).includes('503'), false, 'sink fallback telemetry should not include raw status text');
         await assertQuizFlow(page, 'topics/grammar/index.html API fallback mixed quiz');
         await page.close();
       });
@@ -238,6 +256,53 @@ async function main() {
           'grammar API tamper fallback should include an integrity reason'
         );
         await assertQuizFlow(page, 'topics/grammar/index.html API tamper fallback mixed quiz');
+        await page.close();
+      });
+
+      await runCase(failures, 'grammar mixed quiz verifies signed question selection API responses', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          questionSelectionApiUrl: '/api/question-selection?signed=1',
+          selectionIntegrity: {
+            requireSignature: true,
+            publicKeys: publicKeyConfig()
+          }
+        });
+        await visitClean(page, server.baseURL, 'topics/grammar/index.html');
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', 'grammar signed API mixed quiz');
+        assert.equal(
+          await page.evaluate(() => window.__selectionApiUsed === true),
+          true,
+          `grammar signed API mixed quiz should emit API-used event; fallback reason: ${await page.evaluate(() => window.__selectionFallbackReason || '')}`
+        );
+        await assertQuizFlow(page, 'topics/grammar/index.html signed API mixed quiz');
+        await page.close();
+      });
+
+      await runCase(failures, 'grammar mixed quiz falls back when signed question selection API signature is invalid', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          questionSelectionApiUrl: '/api/question-selection?signed=1&tamperSignature=1',
+          selectionIntegrity: {
+            requireSignature: true,
+            publicKeys: publicKeyConfig()
+          }
+        });
+        await visitClean(page, server.baseURL, 'topics/grammar/index.html');
+        await page.click('.mixed-quiz-panel a');
+        await assertVisible(page, '#start-btn', 'grammar signed API invalid signature fallback mixed quiz');
+        assert.equal(
+          await page.evaluate(() => window.__selectionFallback === true),
+          true,
+          'grammar invalid signature fallback should emit fallback event'
+        );
+        assert.match(
+          await page.evaluate(() => window.__selectionFallbackReason || ''),
+          /integrity_failed: signature verification failed/,
+          'grammar invalid signature fallback should include a signature reason'
+        );
+        await assertQuizFlow(page, 'topics/grammar/index.html signed API invalid signature fallback mixed quiz');
         await page.close();
       });
 
@@ -293,6 +358,73 @@ async function main() {
           'capitalization API fallback should include a reason'
         );
         await assertQuizFlow(page, 'topics/capitalization/index.html API fallback mixed quiz');
+        await page.close();
+      });
+
+      await runCase(failures, 'capitalization pilot subtopic can use question selection API', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles']
+        });
+        const requests = [];
+        const selectionPayloads = [];
+        page.on('request', request => {
+          requests.push(request.url());
+          if (request.url().endsWith('/api/question-selection')) {
+            selectionPayloads.push(JSON.parse(request.postData() || '{}'));
+          }
+        });
+        await visitClean(page, server.baseURL, 'topics/capitalization/subtopics/proper-names-titles.html');
+        await assertVisible(page, '#start-btn', 'capitalization API pilot subtopic');
+        assert.ok(requests.some(url => url.endsWith('/api/question-selection')), 'pilot subtopic should request selection API');
+        assert.equal(await page.evaluate(() => window.__selectionApiUsed === true), true, 'pilot subtopic should emit API-used event');
+        assert.equal(selectionPayloads.length, 1, 'pilot subtopic should send one selection payload');
+        assert.equal(selectionPayloads[0].mode, 'subtopic');
+        assert.equal(selectionPayloads[0].count, 10);
+        assert.equal(selectionPayloads[0].countMode, 'max');
+        assert.deepEqual(selectionPayloads[0].setIds, ['capitalization-proper-names-titles']);
+        assert.equal(
+          requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
+          false,
+          'pilot subtopic should not request full bank'
+        );
+        await assertQuizFlow(page, 'topics/capitalization/subtopics/proper-names-titles.html API pilot subtopic');
+        const activeQuiz = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').activeQuiz);
+        assert.equal(activeQuiz.questionRefs.length, 10, 'pilot subtopic active quiz should persist refs');
+        assert.equal(activeQuiz.questionRefs[0].sourceSet, 'capitalization-proper-names-titles');
+        await page.close();
+      });
+
+      await runCase(failures, 'capitalization pilot subtopic falls back when question selection API fails', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles'],
+          questionSelectionApiUrl: '/api/question-selection?fail=1'
+        });
+        await visitClean(page, server.baseURL, 'topics/capitalization/subtopics/proper-names-titles.html');
+        await assertVisible(page, '#start-btn', 'capitalization API pilot subtopic fallback');
+        assert.equal(
+          await page.evaluate(() => window.__selectionFallback === true),
+          true,
+          'pilot subtopic fallback should emit fallback event'
+        );
+        assert.match(
+          await page.evaluate(() => window.__selectionFallbackReason || ''),
+          /selection API returned 503/,
+          'pilot subtopic fallback should include a reason'
+        );
+        await assertQuizFlow(page, 'topics/capitalization/subtopics/proper-names-titles.html API pilot fallback');
+        await page.close();
+      });
+
+      await runCase(failures, 'capitalization pilot subtopic parent preview stays read-only with question selection API', async () => {
+        const page = await newPage(browser, {
+          enableQuestionSelectionApi: true,
+          serverQuestionSelectionPilotSubtopics: ['capitalization-proper-names-titles']
+        });
+        await visitClean(page, server.baseURL, 'topics/capitalization/subtopics/proper-names-titles.html?parentBrowse=1');
+        await assertVisible(page, '#start-btn', 'capitalization API pilot parent preview');
+        await assertParentPreview(page, 'topics/capitalization/subtopics/proper-names-titles.html API pilot parent preview');
         await page.close();
       });
     }
@@ -473,10 +605,23 @@ async function newPage(browser, options = {}) {
   });
   if (options.enableQuestionSelectionApi) {
     await page.addInitScript(config => {
+      window.__selectionTelemetryRecords = [];
+      const selectionTelemetry = config.enableSelectionTelemetry
+        ? {
+          enabled: true,
+          sampleRate: 1,
+          transport: event => {
+            window.__selectionTelemetryRecords.push(event);
+          }
+        }
+        : config.selectionTelemetry || {};
       window.GRAMMAR_QUEST_CONFIG = {
         enableServerQuestionSelection: true,
         questionSelectionApiUrl: config.questionSelectionApiUrl || '/api/question-selection',
-        serverQuestionSelectionPilotDomains: ['grammar', 'capitalization']
+        serverQuestionSelectionPilotDomains: ['grammar', 'capitalization'],
+        serverQuestionSelectionPilotSubtopics: config.serverQuestionSelectionPilotSubtopics || [],
+        selectionIntegrity: config.selectionIntegrity || {},
+        selectionTelemetry
       };
       window.__selectionApiUsed = false;
       window.__selectionFallback = false;
@@ -493,7 +638,11 @@ async function newPage(browser, options = {}) {
         window.__selectionFallbackReason = event.detail && event.detail.reason || '';
       });
     }, {
-      questionSelectionApiUrl: options.questionSelectionApiUrl || '/api/question-selection'
+      questionSelectionApiUrl: options.questionSelectionApiUrl || '/api/question-selection',
+      serverQuestionSelectionPilotSubtopics: options.serverQuestionSelectionPilotSubtopics || [],
+      selectionIntegrity: options.selectionIntegrity || {},
+      selectionTelemetry: options.selectionTelemetry || {},
+      enableSelectionTelemetry: !!options.enableSelectionTelemetry
     });
   }
   page.__qaErrors = [];
@@ -970,10 +1119,14 @@ function handleQuestionSelectionApi(request, response, parsed) {
   request.on('data', chunk => {
     body += chunk;
   });
-  request.on('end', () => {
+  request.on('end', async () => {
     try {
       const payload = JSON.parse(body || '{}');
-      const result = buildQuestionSelectionResponse(payload, { tamper: parsed.searchParams.get('tamper') === '1' });
+      const result = await questionSelectionApiHarness.buildResponse(payload, {
+        signed: parsed.searchParams.get('signed') === '1',
+        tamper: parsed.searchParams.get('tamper') === '1',
+        tamperSignature: parsed.searchParams.get('tamperSignature') === '1'
+      });
       response.writeHead(200, { 'Content-Type': 'application/json' });
       response.end(JSON.stringify(result));
     } catch (error) {
@@ -983,97 +1136,21 @@ function handleQuestionSelectionApi(request, response, parsed) {
   });
 }
 
-function buildQuestionSelectionResponse(payload, options = {}) {
-  if (!payload || payload.mode !== 'mixed') throw new Error('mode must be mixed');
-  if (!['grammar', 'capitalization'].includes(payload.domain)) throw new Error(`pilot does not support ${payload.domain}`);
-  const setIds = Array.isArray(payload.setIds) ? payload.setIds : [];
-  if (!setIds.length) throw new Error('setIds are required');
-  const maxCount = Math.min(60, Math.max(1, Number(payload.count) || 4));
-  const manifest = JSON.parse(fs.readFileSync(path.join(repoRoot, 'assets', 'question-manifest.json'), 'utf8'));
-  const sets = setIds.map(setId => {
-    const set = manifest.sets.find(item => item.id === setId);
-    if (!set || set.domain !== payload.domain) throw new Error(`invalid setId ${setId}`);
-    const chunk = loadChunkSet(set.chunkFile);
-    return Object.assign({}, chunk, { id: set.id });
-  });
-  const selectedQuestions = selectionCore.selectMixedQuestions({
-    mixedQuizConfig: {
-      questionsPerSubtopic: Number(payload.questionsPerSubtopic) || 4,
-      subtopics: sets.map(set => ({ id: set.id, questions: set.questions || [] }))
-    },
-    selectedMixedSubtopicIds: setIds,
-    selectedMixedQuestionLimit: payload.countMode === 'max' ? 'max' : String(payload.questionsPerSubtopic || 4),
-    selectedGrade: payload.grade,
-    selectedDifficulty: payload.difficulty
-  }).slice(0, maxCount);
-  const refs = selectedQuestions.map((question, index) => selectionCore.getQuestionRef(question, index + 1));
-  const response = {
-    selectionId: 'sel_ui_smoke',
-    selectionPolicyVersion: 1,
-    questionRefs: refs,
-    questionSnapshots: [],
-    signature: null,
-    signatureVersion: 'none'
-  };
-  response.requestHash = syncSelectionRequestHash(payload, manifest.artifact);
-  response.responseDigest = syncSelectionResponseDigest(response, manifest.artifact);
-  if (options.tamper) response.responseDigest = `sha256:${'0'.repeat(64)}`;
-  return response;
-}
-
-function syncSelectionRequestHash(request, manifestArtifact) {
-  return syncSha256(selectionIntegrity.stableStringify({
-    request: {
-      mode: request && request.mode || '',
-      domain: request && request.domain || '',
-      setIds: Array.isArray(request && request.setIds) ? request.setIds : [],
-      grade: request && request.grade || '',
-      difficulty: request && request.difficulty || '',
-      count: Number(request && request.count) || 0,
-      countMode: request && request.countMode || 'per-subtopic',
-      questionsPerSubtopic: Number(request && request.questionsPerSubtopic) || 0,
-      selectionPolicyVersion: Number(request && request.selectionPolicyVersion) || 0
-    },
-    manifestSourceHash: manifestArtifact && manifestArtifact.sourceHash || ''
-  }));
-}
-
-function syncSelectionResponseDigest(response, manifestArtifact) {
-  return syncSha256(selectionIntegrity.stableStringify({
-    requestHash: response && response.requestHash || '',
-    selectionId: response && response.selectionId || '',
-    selectionPolicyVersion: response && response.selectionPolicyVersion,
-    questionRefs: (Array.isArray(response && response.questionRefs) ? response.questionRefs : []).map(ref => ({
-      id: ref && ref.id || '',
-      sourceSet: ref && ref.sourceSet || '',
-      version: Number(ref && ref.version) || 0,
-      contentHash: ref && ref.contentHash || '',
-      sequence: Number(ref && ref.sequence) || 0
-    })),
-    manifestSourceHash: manifestArtifact && manifestArtifact.sourceHash || '',
-    expiresAt: response && response.expiresAt || null,
-    signatureVersion: response && response.signatureVersion || 'none'
-  }));
-}
-
-function syncSha256(text) {
-  const crypto = require('node:crypto');
-  return `sha256:${crypto.createHash('sha256').update(text).digest('hex')}`;
-}
-
-function loadChunkSet(chunkFile) {
-  const sandbox = { window: { QUESTION_BANK: {} } };
-  sandbox.globalThis = sandbox.window;
-  vm.runInNewContext(fs.readFileSync(path.join(repoRoot, chunkFile), 'utf8'), sandbox, { filename: chunkFile });
-  return Object.values(sandbox.window.QUESTION_BANK)[0];
-}
-
 function getContentType(filePath) {
   if (filePath.endsWith('.html')) return 'text/html; charset=utf-8';
   if (filePath.endsWith('.css')) return 'text/css; charset=utf-8';
   if (filePath.endsWith('.js')) return 'text/javascript; charset=utf-8';
   if (filePath.endsWith('.svg')) return 'image/svg+xml';
   return 'application/octet-stream';
+}
+
+function publicKeyConfig() {
+  return {
+    [testKeys.kid]: {
+      algorithm: testKeys.algorithm,
+      publicKey: testKeys.publicKey
+    }
+  };
 }
 
 main().catch(error => {

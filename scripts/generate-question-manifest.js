@@ -10,6 +10,7 @@ const {
 
 const MANIFEST_SCHEMA_VERSION = 1;
 const DEFAULT_MANIFEST_PATH = path.join(repoRoot, 'assets', 'question-manifest.json');
+const DEFAULT_MANIFEST_SCRIPT_PATH = path.join(repoRoot, 'assets', 'question-manifest.js');
 
 function generateManifest(bankLoad) {
   const sets = flattenQuestionBanks(bankLoad).map(record => buildSetManifest(record));
@@ -115,6 +116,27 @@ function writeManifest(manifest, file = DEFAULT_MANIFEST_PATH) {
   fs.writeFileSync(file, `${JSON.stringify(manifest, null, 2)}\n`);
 }
 
+function writeManifestScript(manifest, file = DEFAULT_MANIFEST_SCRIPT_PATH) {
+  fs.writeFileSync(file, `window.QUESTION_MANIFEST = ${JSON.stringify(buildIndexManifest(manifest), null, 2)};\n`);
+}
+
+function buildIndexManifest(manifest) {
+  return {
+    schemaVersion: manifest.schemaVersion,
+    totalQuestions: manifest.totalQuestions,
+    sets: (manifest.sets || []).map(set => ({
+      id: set.id,
+      title: set.title,
+      topic: set.topic,
+      domain: set.domain,
+      bankFile: set.bankFile,
+      questionCount: set.questionCount,
+      gradesSupported: set.gradesSupported,
+      difficultiesSupported: set.difficultiesSupported
+    }))
+  };
+}
+
 function validateManifest(manifest, bankLoad = loadQuestionBanks()) {
   const expected = generateManifest(bankLoad);
   const actualJson = JSON.stringify(manifest);
@@ -164,6 +186,7 @@ function runCli(argv = process.argv.slice(2)) {
 
   if (shouldWrite) {
     writeManifest(generated, manifestPath);
+    writeManifestScript(generated);
   } else {
     validateManifest(loadManifest(manifestPath), bankLoad);
   }
@@ -179,9 +202,12 @@ if (require.main === module) runCli();
 
 module.exports = {
   DEFAULT_MANIFEST_PATH,
+  DEFAULT_MANIFEST_SCRIPT_PATH,
   MANIFEST_SCHEMA_VERSION,
   generateManifest,
+  buildIndexManifest,
   loadManifest,
   validateManifest,
-  writeManifest
+  writeManifest,
+  writeManifestScript
 };

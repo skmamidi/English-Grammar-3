@@ -10,21 +10,24 @@
   };
 
   document.addEventListener('DOMContentLoaded', function () {
+    const manifest = window.QUESTION_MANIFEST;
     const bank = window.QUESTION_BANK || {};
     const subtopics = [];
     document.querySelectorAll('.subtopic-item').forEach(item => {
       const label = item.querySelector('[data-practice-label]');
       const href = item.getAttribute('href') || '';
-      const setEntry = findQuestionSetEntry(bank, href);
+      const setEntry = findQuestionSetManifestEntry(manifest, href) || findQuestionSetEntry(bank, href);
       const set = setEntry && setEntry.set;
       if (label) label.textContent = getPracticeLabel(set);
       renderSubtopicProgress(item, setEntry);
-      if (setEntry && set && Array.isArray(set.questions) && set.questions.length) {
+      if (setEntry && set && getQuestionCount(set)) {
         subtopics.push({
           id: setEntry.id,
           title: getSubtopicTitle(item, set),
           href,
-          set
+          set,
+          bankFile: set.bankFile || '',
+          questionCount: getQuestionCount(set)
         });
       }
     });
@@ -49,10 +52,26 @@
     return key ? { id: key, set: bank[key] } : null;
   }
 
+  function findQuestionSetManifestEntry(manifest, href) {
+    if (!manifest || !Array.isArray(manifest.sets)) return null;
+    const slug = getHrefSlug(href);
+    const explicit = aliases[slug];
+    const sets = manifest.sets;
+    const set = explicit
+      ? sets.find(item => item.id === explicit)
+      : sets.find(item => item.id === slug) || sets.find(item => item.id && item.id.endsWith(`-${slug}`));
+    return set ? { id: set.id, set } : null;
+  }
+
+  function getHrefSlug(href) {
+    return (href.split('/').pop() || '').replace(/\.html$/, '');
+  }
+
   function getPracticeLabel(set) {
     if (!set) return 'Adaptive practice';
-    if (set.metadata && set.metadata.gradesSupported && set.metadata.difficultiesSupported) {
-      const grades = set.metadata.gradesSupported.map(displayGrade);
+    const gradesSupported = getGradesSupported(set);
+    if (gradesSupported.length && getDifficultiesSupported(set).length) {
+      const grades = gradesSupported.map(displayGrade);
       return `Adaptive practice: Grades ${grades[0]}-${grades[grades.length - 1]}`;
     }
     return 'Sound practice';
@@ -92,9 +111,88 @@
     quizRoot.hidden = true;
     main.appendChild(quizRoot);
 
-    panel.querySelector('a').addEventListener('click', () => {
+    panel.querySelector('a').addEventListener('click', event => {
+      event.preventDefault();
+      if (event.currentTarget.getAttribute('aria-disabled') === 'true') return;
       quizRoot.hidden = false;
       quizRoot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      startMixedQuiz(panel, quizRoot, subtopics);
+    });
+  }
+
+  function startMixedQuiz(panel, quizRoot, subtopics) {
+    const button = panel.querySelector('a');
+    if (button) {
+      button.textContent = 'Loading Mixed Quiz...';
+      button.setAttribute('aria-disabled', 'true');
+    }
+
+    loadMixedQuizDependencies(subtopics)
+      .then(() => {
+        const hydratedSubtopics = hydrateMixedSubtopics(subtopics);
+        if (!hydratedSubtopics.length) {
+          quizRoot.innerHTML = '<p class="page-subtitle">Questions for this mixed quiz are coming soon.</p>';
+          return;
+        }
+        const quizEngineWasLoaded = !!window.GrammarQuestQuizEngine;
+        window.QUIZ_MIXED_TOPIC_CONFIG = Object.assign({}, window.QUIZ_MIXED_TOPIC_CONFIG || {}, {
+          subtopics: hydratedSubtopics
+        });
+        return loadScriptOnce('../../assets/quiz-engine.js').then(() => {
+          if (quizEngineWasLoaded && window.GrammarQuestQuizEngine && typeof window.GrammarQuestQuizEngine.start === 'function') {
+            window.GrammarQuestQuizEngine.start();
+          }
+        });
+      })
+      .catch(error => {
+        console.error(error);
+        quizRoot.innerHTML = '<p class="page-subtitle">The mixed quiz could not load. Please try a subtopic quiz instead.</p>';
+      })
+      .finally(() => {
+        if (button) {
+          button.textContent = 'Start Mixed Quiz';
+          button.removeAttribute('aria-disabled');
+        }
+      });
+  }
+
+  function loadMixedQuizDependencies(subtopics) {
+    const bankFiles = Array.from(new Set(subtopics.map(subtopic => subtopic.bankFile).filter(Boolean)));
+    const bankScripts = bankFiles.map(bankFile => loadScriptOnce(toAssetUrl(bankFile)));
+    return Promise.all([
+      ...bankScripts,
+      window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js')
+    ]);
+  }
+
+  function toAssetUrl(bankFile) {
+    return bankFile.startsWith('assets/') ? `../../${bankFile}` : bankFile;
+  }
+
+  function hydrateMixedSubtopics(subtopics) {
+    return subtopics.map(subtopic => {
+      const entry = findQuestionSetEntry(window.QUESTION_BANK || {}, subtopic.href);
+      const set = entry && entry.set;
+      if (!set || !Array.isArray(set.questions) || !set.questions.length) return null;
+      return {
+        id: entry.id,
+        title: subtopic.title,
+        href: subtopic.href,
+        set
+      };
+    }).filter(Boolean);
+  }
+
+  function loadScriptOnce(src) {
+    const absolute = new URL(src, window.location.href).href;
+    const existing = Array.from(document.scripts).find(script => script.src === absolute);
+    if (existing) return Promise.resolve();
+    return new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error(`Failed to load ${src}`));
+      document.body.appendChild(script);
     });
   }
 
@@ -114,7 +212,7 @@
       document.querySelectorAll('.subtopic-item').forEach(item => {
         const label = item.querySelector('[data-practice-label]');
         const href = item.getAttribute('href') || '';
-        const entry = findQuestionSetEntry(window.QUESTION_BANK || {}, href);
+        const entry = findQuestionSetManifestEntry(window.QUESTION_MANIFEST, href) || findQuestionSetEntry(window.QUESTION_BANK || {}, href);
         const set = entry && entry.set;
         if (label) label.textContent = getPracticeLabel(set);
         if (!item.querySelector('.sub-mastery')) renderSubtopicProgress(item, entry);
@@ -128,7 +226,7 @@
 
     const mixedPanel = document.querySelector('.mixed-quiz-panel');
     const mixedRoot = document.getElementById('quiz-root');
-    const questionCount = subtopics.reduce((sum, subtopic) => sum + (subtopic.set.questions || []).length, 0);
+    const questionCount = subtopics.reduce((sum, subtopic) => sum + getQuestionCount(subtopic.set), 0);
 
     if (title) title.textContent = `${title.dataset.studentTitle} Question Bank`;
     if (subtitle) subtitle.textContent = `${questionCount} questions across ${subtopics.length} subtopics. Parent browsing is not saved to student progress.`;
@@ -137,12 +235,12 @@
 
     document.querySelectorAll('.subtopic-item').forEach(item => {
       const href = item.getAttribute('href') || '';
-      const entry = findQuestionSetEntry(window.QUESTION_BANK || {}, href);
+      const entry = findQuestionSetManifestEntry(window.QUESTION_MANIFEST, href) || findQuestionSetEntry(window.QUESTION_BANK || {}, href);
       const set = entry && entry.set;
       const label = item.querySelector('[data-practice-label]');
       item.querySelectorAll('.sub-mastery').forEach(node => node.remove());
       if (label) {
-        const count = Array.isArray(set?.questions) ? set.questions.length : 0;
+        const count = getQuestionCount(set);
         label.textContent = count ? `${count} questions` : 'Question preview';
       }
       item.setAttribute('aria-label', `${getSubtopicTitle(item, set || {})} question preview`);
@@ -216,9 +314,34 @@
     return Number.isFinite(value) ? String(value - 1) : String(grade || '');
   }
 
+  function getQuestionCount(set) {
+    if (!set) return 0;
+    if (Number.isInteger(set.questionCount)) return set.questionCount;
+    return Array.isArray(set.questions) ? set.questions.length : 0;
+  }
+
+  function getGradesSupported(set) {
+    if (!set) return [];
+    if (Array.isArray(set.gradesSupported)) return set.gradesSupported;
+    return set.metadata && Array.isArray(set.metadata.gradesSupported) ? set.metadata.gradesSupported : [];
+  }
+
+  function getDifficultiesSupported(set) {
+    if (!set) return [];
+    if (Array.isArray(set.difficultiesSupported)) return set.difficultiesSupported;
+    return set.metadata && Array.isArray(set.metadata.difficultiesSupported) ? set.metadata.difficultiesSupported : [];
+  }
+
   function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = String(text || '');
     return div.innerHTML;
   }
+
+  window.GrammarQuestTopicIndex = {
+    findQuestionSetEntry,
+    findQuestionSetManifestEntry,
+    getPracticeLabel,
+    getQuestionCount
+  };
 })();

@@ -9,7 +9,8 @@ const {
   repoRoot,
   getCorePages,
   getRepresentativeSubtopicPages,
-  getSubtopicPages
+  getSubtopicPages,
+  getTopicIndexPages
 } = require('../scripts/qa/page-inventory');
 
 const requestedPort = Number(process.env.QA_PORT) || 4173;
@@ -25,6 +26,10 @@ async function main() {
 
   try {
     const corePages = getCorePages();
+    const topicIndexes = getTopicIndexPages();
+    const manifestTopicIndexes = topicIndexes.filter(file => {
+      return fs.readFileSync(path.join(repoRoot, file), 'utf8').includes('assets/topic-index.js');
+    });
     const representativeSubtopics = getRepresentativeSubtopicPages();
     const allSubtopics = process.env.QA_ALL_SUBTOPICS ? getSubtopicPages() : [];
 
@@ -37,6 +42,35 @@ async function main() {
         await page.close();
       });
     }
+
+    for (const file of manifestTopicIndexes) {
+      await runCase(failures, `${file} uses manifest metadata without full topic bank`, async () => {
+        const page = await newPage(browser);
+        const requests = [];
+        page.on('request', request => requests.push(request.url()));
+        await visitClean(page, server.baseURL, file);
+        await assertManifestBackedTopicIndex(page, requests, file);
+        await page.close();
+      });
+    }
+
+    await runCase(failures, 'topics/grammar/index.html lazy-loads mixed quiz questions on demand', async () => {
+      const page = await newPage(browser);
+      const requests = [];
+      page.on('request', request => requests.push(request.url()));
+      await visitClean(page, server.baseURL, 'topics/grammar/index.html');
+      await page.click('.mixed-quiz-panel a');
+      await assertVisible(page, '#start-btn', 'grammar mixed quiz');
+      assert.ok(
+        requests.some(url => url.endsWith('/assets/question-banks/grammar.js')),
+        'mixed quiz should load grammar bank after launch'
+      );
+      assert.ok(
+        requests.some(url => url.endsWith('/assets/quiz-engine.js')),
+        'mixed quiz should load quiz engine after launch'
+      );
+      await page.close();
+    });
 
     for (const file of representativeSubtopics) {
       await runCase(failures, `${file} starts, answers, and advances`, async () => {
@@ -267,6 +301,31 @@ async function assertReportsPage(page, baseURL) {
   assert.equal(reviewed.id, 'question-report-dashboard');
   assert.equal(reviewed.questionId, 'grammar-sentence-types-q0002');
   assert.equal(reviewed.grownupNote, 'Reviewed by QA');
+}
+
+async function assertManifestBackedTopicIndex(page, requests, file) {
+  await assertVisible(page, '.subtopic-list', file);
+  const listText = await textContent(page, '.subtopic-list');
+  assert.match(listText, /Adaptive practice/, `${file} should render practice labels`);
+  assert.equal(
+    await page.evaluate(() => !!window.QUESTION_BANK),
+    false,
+    `${file} should not have a full question bank during index render`
+  );
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-manifest.js')),
+    `${file} should request manifest metadata`
+  );
+  assert.equal(
+    requests.some(url => /\/assets\/question-banks\/[^/]+\.js$/.test(url)),
+    false,
+    `${file} should not request a full question bank on index load`
+  );
+  assert.equal(
+    requests.some(url => url.endsWith('/assets/quiz-engine.js')),
+    false,
+    `${file} should not request quiz engine before mixed quiz starts`
+  );
 }
 
 async function assertQuizFlow(page, file) {

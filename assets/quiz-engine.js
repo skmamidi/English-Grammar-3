@@ -43,7 +43,17 @@
   const quizDomain = window.GrammarQuestQuizDomain;
 
   // DOM ready
-  document.addEventListener('DOMContentLoaded', function () {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start);
+  } else {
+    start();
+  }
+
+  window.GrammarQuestQuizEngine = {
+    start
+  };
+
+  function start() {
     quizContainer = document.getElementById('quiz-root');
     if (!quizContainer) {
       console.error('Quiz engine: #quiz-root element not found');
@@ -70,7 +80,7 @@
     }
 
     initQuiz(setId);
-  });
+  }
 
   window.addEventListener('grammarquest:parent-browse', () => {
     if (activeSet && currentIndex === 0 && !answered) {

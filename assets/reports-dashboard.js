@@ -8,6 +8,7 @@
     selectedSessionId: '',
     selectedQuestionId: '',
     selectedReportId: '',
+    fullQuestion: null,
     query: ''
   };
 
@@ -372,10 +373,10 @@
     `).join('');
 
     const riskRows = student.questionRisks.slice(0, 5).map(item => `
-      <div class="question-risk-row">
+      <button class="question-risk-row" type="button" data-full-question-source="risk" data-question-id="${escapeHtml(item.id)}">
         <strong>${escapeHtml(truncate(item.question, 90))}</strong>
         <span>${item.misses}/${item.attempts} missed · ${escapeHtml(item.subtopicTitle || 'Mixed practice')} · last ${formatDate(item.lastMissedAt)}</span>
-      </div>
+      </button>
     `).join('');
     const reportRows = student.reportedQuestions.slice(0, 5).map(report => `
       <button class="reported-question-row" type="button" data-report-id="${escapeHtml(report.id)}">
@@ -442,6 +443,7 @@
         renderDetail();
       });
     });
+    bindFullQuestionTriggers(target, student);
   }
 
   function renderQuestionView(target, student) {
@@ -505,6 +507,7 @@
         renderDetail();
       });
     });
+    bindFullQuestionTriggers(target, student);
   }
 
   function renderQuestionRow(attempt, selectedQuestion, student, session) {
@@ -534,6 +537,7 @@
       <div class="inspector-section">
         <span class="quest-kicker">Question Detail</span>
         <h3>${escapeHtml(attempt.question)}</h3>
+        <button class="btn btn-secondary full-question-inline-btn" type="button" data-full-question-source="attempt" data-question-id="${escapeHtml(attempt.id)}">See full question</button>
         <div class="answer-comparison">
           <div>
             <span>Selected</span>
@@ -601,12 +605,13 @@
       </section>
     `;
 
-    target.querySelectorAll('[data-report-id]').forEach(row => {
+    target.querySelectorAll('.reported-question-row[data-report-id]').forEach(row => {
       row.addEventListener('click', () => {
         state.selectedReportId = row.dataset.reportId;
         renderDetail();
       });
     });
+    bindFullQuestionTriggers(target, student);
 
     const saveButton = target.querySelector('[data-save-report-review]');
     if (saveButton) {
@@ -651,6 +656,7 @@
       <div class="inspector-section">
         <span class="quest-kicker">Reported Question</span>
         <h3>${escapeHtml(report.question || '')}</h3>
+        <button class="btn btn-secondary full-question-inline-btn" type="button" data-full-question-source="report" data-full-question-report-id="${escapeHtml(report.id)}">See full question</button>
         <div class="answer-comparison">
           <div>
             <span>Student selected</span>
@@ -809,13 +815,19 @@
           correctChoice: attempt.correctChoice || '',
           attempts: 0,
           misses: 0,
-          lastMissedAt: ''
+          lastMissedAt: '',
+          latestAttempt: null,
+          latestMissedAttempt: null
         };
       }
       questions[key].attempts += 1;
+      if (!questions[key].latestAttempt || String(attempt.session?.completedAt || attempt.completedAt || '').localeCompare(String(questions[key].latestAttempt.session?.completedAt || questions[key].latestAttempt.completedAt || '')) > 0) {
+        questions[key].latestAttempt = attempt;
+      }
       if (!attempt.correct) {
         questions[key].misses += 1;
         questions[key].lastMissedAt = attempt.session?.completedAt || attempt.completedAt || '';
+        questions[key].latestMissedAttempt = attempt;
       }
     });
     return Object.keys(questions)
@@ -830,6 +842,303 @@
     document.querySelectorAll('.report-tab').forEach(tab => {
       tab.classList.toggle('active', tab.dataset.view === state.selectedView);
     });
+  }
+
+  function bindFullQuestionTriggers(root, student) {
+    root.querySelectorAll('[data-full-question-source]').forEach(trigger => {
+      trigger.addEventListener('click', event => {
+        event.stopPropagation();
+        const detail = getFullQuestionDetail(student, trigger);
+        if (detail) openFullQuestionModal(detail);
+      });
+    });
+  }
+
+  function getFullQuestionDetail(student, trigger) {
+    const source = trigger.dataset.fullQuestionSource;
+    if (source === 'report') {
+      const reportId = trigger.dataset.fullQuestionReportId || trigger.dataset.reportId || state.selectedReportId;
+      const report = (student.reportedQuestions || []).find(item => item.id === reportId);
+      return report ? normalizeFullQuestionDetail(report, {
+        sourceLabel: 'Reported Question',
+        metaLabel: `${formatReportReason(report.reason)} · ${formatReportStatus(report.status)} · ${formatDate(report.createdAt)}`,
+        studentName: student.name
+      }) : null;
+    }
+
+    const questionId = trigger.dataset.questionId || state.selectedQuestionId;
+    const attempts = student.sessions.flatMap(session => (session.attempts || []).map(attempt => Object.assign({ session }, attempt)));
+    const risk = (student.questionRisks || []).find(item => item.id === questionId);
+    const attempt = source === 'risk'
+      ? (risk && (risk.latestMissedAttempt || risk.latestAttempt)) || attempts.find(item => item.id === questionId)
+      : attempts.find(item => item.id === questionId);
+    return attempt ? normalizeFullQuestionDetail(attempt, {
+      sourceLabel: source === 'risk' ? 'Question to Revisit' : 'Practice Question',
+      metaLabel: `${attempt.correct ? 'Answered correctly' : 'Missed'} · ${attempt.subtopicTitle || 'Mixed practice'} · ${formatDate(attempt.session?.completedAt || attempt.completedAt)}`,
+      studentName: student.name
+    }) : null;
+  }
+
+  function normalizeFullQuestionDetail(item, context) {
+    const choices = Array.isArray(item.choices) ? item.choices : [];
+    const selectedIndex = Number.isFinite(item.selectedIndex) ? item.selectedIndex : choices.indexOf(item.selectedChoice);
+    const correctIndex = Number.isFinite(item.correctIndex) ? item.correctIndex : choices.indexOf(item.correctChoice);
+    return {
+      id: item.id || item.questionId || '',
+      sourceLabel: context.sourceLabel,
+      metaLabel: context.metaLabel,
+      studentName: context.studentName,
+      question: item.question || '',
+      choices,
+      selectedIndex,
+      selectedChoice: choices[selectedIndex] || item.selectedChoice || '',
+      correctIndex,
+      correctChoice: choices[correctIndex] || item.correctChoice || '',
+      explanation: item.explanation || null,
+      studyAid: item.studyAid || null,
+      visualScene: item.visualScene || null,
+      correct: typeof item.correct === 'boolean' ? item.correct : selectedIndex >= 0 && selectedIndex === correctIndex,
+      topic: item.title || item.topic || item.subtopicTitle || '',
+      grade: item.grade || '',
+      difficulty: item.difficulty || '',
+      skills: Array.isArray(item.skills) ? item.skills : [],
+      note: item.note || ''
+    };
+  }
+
+  function openFullQuestionModal(detail) {
+    closeFullQuestionModal();
+    state.fullQuestion = detail;
+    const modal = document.createElement('div');
+    modal.className = 'full-question-modal-backdrop';
+    modal.setAttribute('data-full-question-modal', '');
+    modal.innerHTML = renderFullQuestionModal(detail);
+    document.body.appendChild(modal);
+    document.body.classList.add('modal-open');
+    modal.querySelector('[data-close-full-question]')?.focus();
+    modal.addEventListener('click', event => {
+      if (event.target === modal || event.target.closest('[data-close-full-question]')) closeFullQuestionModal();
+    });
+    document.addEventListener('keydown', handleFullQuestionKeydown);
+  }
+
+  function closeFullQuestionModal() {
+    document.querySelectorAll('[data-full-question-modal]').forEach(modal => modal.remove());
+    document.body.classList.remove('modal-open');
+    document.removeEventListener('keydown', handleFullQuestionKeydown);
+    state.fullQuestion = null;
+  }
+
+  function handleFullQuestionKeydown(event) {
+    if (event.key === 'Escape') closeFullQuestionModal();
+  }
+
+  function renderFullQuestionModal(detail) {
+    return `
+      <section class="full-question-modal" role="dialog" aria-modal="true" aria-labelledby="full-question-title">
+        <div class="full-question-modal-header">
+          <div>
+            <span class="quest-kicker">${escapeHtml(detail.sourceLabel)}</span>
+            <h2 id="full-question-title">Full Question View</h2>
+            <p>${escapeHtml(detail.studentName)} · ${escapeHtml(detail.metaLabel)}</p>
+          </div>
+          <button class="modal-close-btn" type="button" data-close-full-question aria-label="Close full question">×</button>
+        </div>
+        <div class="full-question-modal-body">
+          ${renderFullQuestionStudentView(detail)}
+          ${renderFullQuestionEvidence(detail)}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderFullQuestionStudentView(detail) {
+    return `
+      <div class="question-box full-question-student-view">
+        ${renderQuestionPromptForReport(detail)}
+        <div class="choices">
+          ${detail.choices.map((choice, index) => {
+            const isSelected = index === detail.selectedIndex;
+            const isCorrect = index === detail.correctIndex;
+            const classes = [
+              'choice-btn',
+              isCorrect ? 'correct' : '',
+              isSelected && !isCorrect ? 'incorrect' : '',
+              !isSelected && !isCorrect ? 'unselected-wrong' : ''
+            ].filter(Boolean).join(' ');
+            const status = isCorrect ? 'Correct answer' : isSelected ? 'Student selected' : '';
+            return `
+              <div class="${classes}">
+                <span class="choice-letter">${String.fromCharCode(65 + index)}</span>
+                <span>${escapeHtml(choice)}${status ? `<em>${escapeHtml(status)}</em>` : ''}</span>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderFullQuestionEvidence(detail) {
+    const selectedExplanation = getSelectedExplanation(detail);
+    const explanationRows = renderFullQuestionExplanations(detail);
+    return `
+      <div class="full-question-evidence">
+        <section class="inspector-section">
+          <h3>Answer Record</h3>
+          <div class="answer-comparison">
+            <div>
+              <span>Student chose</span>
+              <strong>${escapeHtml(detail.selectedChoice || 'No answer')}</strong>
+            </div>
+            <div>
+              <span>Correct answer</span>
+              <strong>${escapeHtml(detail.correctChoice || 'Not saved')}</strong>
+            </div>
+          </div>
+          <dl class="answer-meta">
+            <div><dt>Result</dt><dd>${detail.correct ? 'Right' : 'Missed'}</dd></div>
+            <div><dt>Topic</dt><dd>${escapeHtml(detail.topic || 'Mixed practice')}</dd></div>
+            <div><dt>Level</dt><dd>${escapeHtml([detail.grade ? `Grade ${detail.grade}` : '', titleCase(detail.difficulty || '')].filter(Boolean).join(' · ') || 'Not saved')}</dd></div>
+            <div><dt>Skill</dt><dd>${escapeHtml(detail.skills.map(titleCase).join(', ') || 'Not saved')}</dd></div>
+          </dl>
+          ${detail.note ? `<div class="report-note"><span>Student note</span><p>${escapeHtml(detail.note)}</p></div>` : ''}
+        </section>
+        <section class="inspector-section">
+          <h3>Explanation Shown</h3>
+          ${selectedExplanation ? `<div class="report-note"><span>For the selected answer</span><p>${escapeHtml(selectedExplanation)}</p></div>` : '<p class="empty-report">No explanation was saved with this older record.</p>'}
+          ${explanationRows}
+          ${renderStudyAidForReport(detail.studyAid)}
+        </section>
+      </div>
+    `;
+  }
+
+  function renderQuestionPromptForReport(detail) {
+    if (detail.visualScene && detail.visualScene.type === 'dialogue-scene') {
+      return renderSavedVisualQuestionScene(detail.visualScene, detail);
+    }
+    return renderDisplayPromptForReport(getDisplayPromptParts(detail.question), 'question');
+  }
+
+  function renderSavedVisualQuestionScene(scene, detail) {
+    const prompt = getDisplayPromptParts(scene.prompt || detail.question);
+    const dialogue = Array.isArray(scene.dialogue) ? scene.dialogue.slice(0, 2) : [];
+    return `
+      <section class="visual-question-scene visual-scene-${escapeHtml(scene.setting || 'classroom')}" aria-label="${escapeHtml(scene.title || 'Illustrated question scene')}">
+        <div class="visual-scene-intro">
+          <h3>${escapeHtml(scene.title || 'Question Scene')}</h3>
+        </div>
+        ${renderDisplayPromptForReport(prompt, 'visual')}
+        ${dialogue.length ? `
+          <div class="visual-dialogue-strip full-question-dialogue">
+            ${dialogue.map(entry => `
+              <div class="visual-speech-bubble">
+                <span>${escapeHtml(entry.speaker || entry.characterName || 'Character')}</span>
+                <p>${escapeHtml(entry.text || '')}</p>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+      </section>
+    `;
+  }
+
+  function getDisplayPromptParts(value) {
+    const fullText = normalizePromptText(value);
+    const withoutLeadIn = stripPromptLeadIns(fullText);
+    const passageMatch = withoutLeadIn.match(/^Read the passage\.\s*(?:Grade\s+\d+\s+[a-z-]+\s+passage:\s*)?([\s\S]+)$/i);
+    const passageSource = passageMatch ? passageMatch[1].trim() : withoutLeadIn;
+    const split = passageSource.split(/\n\s*\n/);
+    if (passageMatch && split.length > 1) {
+      const task = stripPromptLeadIns(split.slice(1).join('\n\n')).trim();
+      const passageParts = split[0].trim().split(/(?<=[.!?])\s+/).filter(Boolean);
+      return {
+        type: 'passage',
+        fullText: [passageParts.join(' '), task].filter(Boolean).join(' '),
+        passage: passageParts.join(' '),
+        annotation: '',
+        task
+      };
+    }
+    return {
+      type: 'plain',
+      fullText: withoutLeadIn,
+      passage: '',
+      annotation: '',
+      task: withoutLeadIn
+    };
+  }
+
+  function renderDisplayPromptForReport(prompt, variant) {
+    if (!prompt || !prompt.fullText) return '';
+    if (prompt.type !== 'passage') {
+      return `<div class="${variant}-prompt-card ${variant}-prompt-card-plain"><div class="question-text">${escapeHtml(prompt.task || prompt.fullText)}</div></div>`;
+    }
+    return `
+      <div class="${variant}-prompt-card ${variant}-prompt-card-passage">
+        <div class="prompt-passage">
+          <span>Passage</span>
+          <p>${escapeHtml(prompt.passage)}</p>
+        </div>
+        <div class="prompt-task">
+          <span>Question</span>
+          <strong>${escapeHtml(prompt.task)}</strong>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderFullQuestionExplanations(detail) {
+    const explanation = detail.explanation || {};
+    if (!explanation.correct && !Array.isArray(explanation.incorrect)) return '';
+    return `
+      <div class="choice-explanations full-question-explanations">
+        ${detail.choices.map((choice, index) => {
+          const isCorrect = index === detail.correctIndex;
+          const text = isCorrect ? explanation.correct : (explanation.incorrect && explanation.incorrect[index]);
+          if (!text) return '';
+          return `
+            <div class="choice-explanation ${isCorrect ? 'correct-exp' : 'incorrect-exp'}">
+              <strong>${String.fromCharCode(65 + index)})</strong> ${escapeHtml(cleanExplanationText(text, detail))}
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  function renderStudyAidForReport(studyAid) {
+    if (!studyAid) return '';
+    return [
+      studyAid.definition ? `<div class="report-note"><span>Study tip</span><p>${escapeHtml(studyAid.definition)}</p></div>` : '',
+      studyAid.example ? `<div class="report-note"><span>Example</span><p>${escapeHtml(studyAid.example)}</p></div>` : ''
+    ].filter(Boolean).join('');
+  }
+
+  function getSelectedExplanation(detail) {
+    const explanation = detail.explanation || {};
+    if (detail.selectedIndex === detail.correctIndex) return cleanExplanationText(explanation.correct || '', detail);
+    return cleanExplanationText(explanation.incorrect && explanation.incorrect[detail.selectedIndex] || '', detail);
+  }
+
+  function cleanExplanationText(text, detail) {
+    const value = String(text || '').trim();
+    const correctChoice = detail.correctChoice || '';
+    if (!value || !correctChoice) return value;
+    return value.replace(new RegExp(`^CORRECT:\\s*${escapeRegExp(correctChoice)}\\.?\\s*`, 'i'), '').trim();
+  }
+
+  function normalizePromptText(value) {
+    return String(value || '').replace(/\s+\n/g, '\n').replace(/\n\s+/g, '\n').trim();
+  }
+
+  function stripPromptLeadIns(value) {
+    return String(value || '').replace(/^(?:Question\s*\d+\s*[:.)-]\s*)/i, '').trim();
+  }
+
+  function escapeRegExp(text) {
+    return String(text || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   function loadProgress() {
@@ -900,6 +1209,14 @@
       subtopicTitle: title,
       skills: def[4],
       standards: [{ id: 'ELA.3-6.Mixed', label: 'Mixed ELA Practice' }],
+      explanation: {
+        correct: `Answer: ${def[1][def[2]]}. This choice matches the skill for ${title}.`,
+        incorrect: def[1].map((choice, choiceIndex) => choiceIndex === def[2] ? '' : `Not: ${choice}. This choice does not match the key clue.`)
+      },
+      studyAid: {
+        definition: `Look for the exact clue that matches ${title}.`,
+        example: `Eliminate choices that do not fit the wording of the question.`
+      },
       completedAt
     }));
 

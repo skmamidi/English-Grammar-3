@@ -14,11 +14,11 @@ function validateSerializedAttempt(attempt) {
 }
 
 function validateActiveQuiz(activeQuiz) {
-  const required = ['setId', 'title', 'topic', 'grade', 'difficulty', 'questions', 'questionRefs', 'currentIndex', 'score', 'attempts'];
+  const required = ['schemaVersion', 'setId', 'title', 'topic', 'grade', 'difficulty', 'questionRefs', 'questionSnapshots', 'currentIndex', 'score', 'attempts'];
   return required.filter(key => {
     if (!(key in (activeQuiz || {}))) return true;
-    if (key === 'questions' || key === 'questionRefs' || key === 'attempts') return !Array.isArray(activeQuiz[key]);
-    if (key === 'currentIndex' || key === 'score') return !Number.isFinite(Number(activeQuiz[key]));
+    if (key === 'questionRefs' || key === 'questionSnapshots' || key === 'attempts') return !Array.isArray(activeQuiz[key]);
+    if (key === 'schemaVersion' || key === 'currentIndex' || key === 'score') return !Number.isFinite(Number(activeQuiz[key]));
     return activeQuiz[key] === undefined || activeQuiz[key] === null;
   });
 }

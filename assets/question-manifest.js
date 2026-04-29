@@ -1362,6 +1362,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-sub-heading.js",
       "questionCount": 22,
       "gradesSupported": [
         3,
@@ -1381,6 +1382,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-subject-object.js",
       "questionCount": 15,
       "gradesSupported": [
         3,
@@ -1400,6 +1402,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-italicize.js",
       "questionCount": 24,
       "gradesSupported": [
         3,
@@ -1419,6 +1422,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js",
       "questionCount": 31,
       "gradesSupported": [
         3,
@@ -1438,6 +1442,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-dictionary-guide-words.js",
       "questionCount": 55,
       "gradesSupported": [
         3,
@@ -1457,6 +1462,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-research-skills.js",
       "questionCount": 183,
       "gradesSupported": [
         3,
@@ -1476,6 +1482,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-media-literacy.js",
       "questionCount": 180,
       "gradesSupported": [
         3,
@@ -1495,6 +1502,7 @@ window.QUESTION_MANIFEST = {
       "topic": "Reference Skills / Misc.",
       "domain": "reference-skills",
       "bankFile": "assets/question-banks/reference-skills.js",
+      "chunkFile": "assets/question-chunks/reference-skills/reference-skills-nonfiction-text-features.js",
       "questionCount": 298,
       "gradesSupported": [
         3,

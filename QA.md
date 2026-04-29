@@ -4,6 +4,13 @@ This repository now has a lightweight automated regression suite for the static 
 
 ## Fast Local Gate
 
+Install dependencies and the Playwright browser once:
+
+```bash
+npm ci
+npm run install:browsers
+```
+
 Run the full default gate:
 
 ```bash
@@ -39,5 +46,6 @@ The all-subtopic mode visits every `topics/*/subtopics/*.html` page and checks t
 
 - Content QA reports file, set, and question locations for invalid correct indexes, malformed explanation arrays, missing metadata, and duplicate stable derived keys.
 - `npm run manifest:write` regenerates `assets/question-manifest.json`, `assets/question-manifest.js`, and every checked-in file under `assets/question-chunks/<chunked-domain>/` from `assets/question-banks/*.js`.
-- The performance budget is currently a size snapshot: total question-bank payload, per-topic payload, and largest single bank. This is intentionally warning-oriented so future loading/chunking work can tighten it once the new architecture exists.
+- The default UI smoke enforces request and byte budgets for manifest-backed topic indexes and representative chunked pages. Content QA still prints total question-bank payload, per-topic payload, and largest single bank as a broader size snapshot.
 - The UI smoke runner starts a small local static server itself. It stubs Firebase/auth in the browser so the tests validate static rendering, quiz flow, reports, and parent-preview behavior without external network state.
+- CI runs `npm ci`, installs Playwright-managed Chromium with `npx playwright install --with-deps chromium`, and then runs `npm test`. Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` only when debugging locally with a specific browser binary.

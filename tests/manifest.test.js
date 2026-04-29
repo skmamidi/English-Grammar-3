@@ -66,6 +66,17 @@ test('chunked pilot manifest entries point to checked-in chunk files', () => {
   });
 });
 
+test('reference-skills manifest entries are chunk-backed', () => {
+  const manifest = validateManifest(loadManifest(), loadQuestionBanks());
+  const sets = manifest.sets.filter(set => set.domain === 'reference-skills');
+
+  assert.ok(sets.length > 0, 'expected reference-skills sets in manifest');
+  sets.forEach(set => {
+    assert.equal(set.chunkFile, `assets/question-chunks/reference-skills/${set.id}.js`);
+    assert.ok(fs.existsSync(path.join(__dirname, '..', set.chunkFile)), `${set.chunkFile} should exist`);
+  });
+});
+
 test('checked-in manifest script exposes index metadata as a browser global', () => {
   const context = { window: {} };
   vm.runInNewContext(fs.readFileSync(DEFAULT_MANIFEST_SCRIPT_PATH, 'utf8'), context);
@@ -93,15 +104,7 @@ test('index manifest script stays smaller than topic question banks', () => {
 });
 
 test('topic index helper can resolve subtopics from manifest entries without a full bank', () => {
-  const context = {
-    window: {},
-    document: {
-      addEventListener() {},
-      createElement() {
-        return { textContent: '', innerHTML: '' };
-      }
-    }
-  };
+  const context = createTopicIndexContext();
   vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
 
   const manifest = {
@@ -127,3 +130,79 @@ test('topic index helper can resolve subtopics from manifest entries without a f
     'Adaptive practice: Grades 2-5'
   );
 });
+
+test('topic index hydrates mixed subtopics from loaded sets by selected id', () => {
+  const context = createTopicIndexContext();
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  const subtopics = [{
+    id: 'capitalization-proper-names-titles',
+    title: 'Proper Names',
+    href: 'subtopics/proper-names-titles.html'
+  }, {
+    id: 'capitalization-sentence-beginning',
+    title: 'Sentence Beginning',
+    href: 'subtopics/sentence-beginning.html'
+  }, {
+    id: 'capitalization-empty',
+    title: 'Empty',
+    href: 'subtopics/empty.html'
+  }];
+  const sets = [{
+    id: 'capitalization-sentence-beginning',
+    questions: [{ id: 'capitalization-sentence-beginning-q0001' }]
+  }, {
+    id: 'capitalization-proper-names-titles',
+    questions: [{ id: 'capitalization-proper-names-titles-q0001' }]
+  }, {
+    id: 'capitalization-empty',
+    questions: []
+  }];
+
+  const hydrated = context.window.GrammarQuestTopicIndex.hydrateMixedSubtopics(subtopics, sets);
+
+  assert.deepEqual(hydrated.map(subtopic => subtopic.id), [
+    'capitalization-proper-names-titles',
+    'capitalization-sentence-beginning'
+  ]);
+  assert.equal(hydrated[0].set.id, 'capitalization-proper-names-titles');
+  assert.equal(hydrated[1].set.id, 'capitalization-sentence-beginning');
+});
+
+test('mixed quiz loader hydrates only requested selected subtopics', async () => {
+  const requestedIds = [];
+  const context = createTopicIndexContext();
+  context.window.GrammarQuestQuestionLoader = {
+    loadSets(ids) {
+      requestedIds.push(...ids);
+      return Promise.resolve(ids.map(id => ({ id, questions: [{ id: `${id}-q0001` }] })));
+    }
+  };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '..', 'assets', 'topic-index.js'), 'utf8'), context);
+
+  const sets = await context.window.GrammarQuestTopicIndex.loadMixedQuizSets([
+    'capitalization-proper-names-titles',
+    'capitalization-sentence-beginning'
+  ]);
+
+  assert.deepEqual(requestedIds, [
+    'capitalization-proper-names-titles',
+    'capitalization-sentence-beginning'
+  ]);
+  assert.deepEqual(sets.map(set => set.id), requestedIds);
+});
+
+function createTopicIndexContext() {
+  return {
+    window: {},
+    document: {
+      addEventListener() {},
+      querySelectorAll() {
+        return [];
+      },
+      createElement() {
+        return { textContent: '', innerHTML: '' };
+      }
+    }
+  };
+}

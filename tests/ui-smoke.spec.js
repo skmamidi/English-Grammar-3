@@ -12,16 +12,30 @@ const {
   getSubtopicPages,
   getTopicIndexPages
 } = require('../scripts/qa/page-inventory');
+const {
+  assertPageBudget,
+  createRequestRecorder
+} = require('./helpers/request-metrics');
 
 const requestedPort = Number(process.env.QA_PORT) || 4173;
+const TOPIC_INDEX_BUDGET = {
+  forbidFullBanks: true,
+  questionPayloadBytes: 100 * 1024
+};
+const PAGE_BUDGETS = {
+  'topics/capitalization/subtopics/proper-names-titles.html': {
+    forbiddenFullBanks: ['assets/question-banks/capitalization.js'],
+    questionPayloadBytes: 200 * 1024
+  },
+  'topics/reference-skills/subtopics/alphabetical-order.html': {
+    forbiddenFullBanks: ['assets/question-banks/reference-skills.js'],
+    questionPayloadBytes: 350 * 1024
+  }
+};
 
 async function main() {
   const server = await startStaticServer(requestedPort);
-  const executablePath = getChromeExecutablePath();
-  const browser = await chromium.launch(Object.assign(
-    { headless: true },
-    executablePath ? { executablePath } : {}
-  ));
+  const browser = await chromium.launch(getChromiumLaunchOptions());
   const failures = [];
 
   try {
@@ -46,13 +60,33 @@ async function main() {
     for (const file of manifestTopicIndexes) {
       await runCase(failures, `${file} uses manifest metadata without full topic bank`, async () => {
         const page = await newPage(browser);
-        const requests = [];
-        page.on('request', request => requests.push(request.url()));
+        const recorder = createRequestRecorder(page);
         await visitClean(page, server.baseURL, file);
-        await assertManifestBackedTopicIndex(page, requests, file);
+        await assertManifestBackedTopicIndex(page, recorder.requests, file);
+        assertPageBudget(assert, file, recorder.summarize(), TOPIC_INDEX_BUDGET);
         await page.close();
       });
     }
+
+    await runCase(failures, 'topics/capitalization/subtopics/proper-names-titles.html stays under question payload budget', async () => {
+      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
+      const page = await newPage(browser);
+      const recorder = createRequestRecorder(page);
+      await visitClean(page, server.baseURL, file);
+      await assertPilotChunkRequests(page, recorder.requests, file);
+      assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
+      await page.close();
+    });
+
+    await runCase(failures, 'topics/reference-skills/subtopics/alphabetical-order.html stays under question payload budget', async () => {
+      const file = 'topics/reference-skills/subtopics/alphabetical-order.html';
+      const page = await newPage(browser);
+      const recorder = createRequestRecorder(page);
+      await visitClean(page, server.baseURL, file);
+      await assertReferenceSkillsChunkRequests(page, recorder.requests, file);
+      assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
+      await page.close();
+    });
 
     await runCase(failures, 'topics/grammar/index.html lazy-loads mixed quiz questions on demand', async () => {
       const page = await newPage(browser);
@@ -62,8 +96,12 @@ async function main() {
       await page.click('.mixed-quiz-panel a');
       await assertVisible(page, '#start-btn', 'grammar mixed quiz');
       assert.ok(
+        requests.some(url => url.endsWith('/assets/question-loader.js')),
+        'mixed quiz should load question loader after launch'
+      );
+      assert.ok(
         requests.some(url => url.endsWith('/assets/question-banks/grammar.js')),
-        'mixed quiz should load grammar bank after launch'
+        'legacy mixed quiz should load grammar bank through loader fallback after launch'
       );
       assert.ok(
         requests.some(url => url.endsWith('/assets/quiz-engine.js')),
@@ -72,13 +110,47 @@ async function main() {
       await page.close();
     });
 
-    await runCase(failures, 'capitalization pilot subtopic loads only its chunk', async () => {
+    await runCase(failures, 'topics/capitalization/index.html mixed quiz loads selected chunks instead of full bank', async () => {
       const page = await newPage(browser);
       const requests = [];
       page.on('request', request => requests.push(request.url()));
+      await visitClean(page, server.baseURL, 'topics/capitalization/index.html');
+      await page.click('.mixed-quiz-panel a');
+      await assertVisible(page, '#start-btn', 'capitalization mixed quiz');
+      assert.ok(
+        requests.some(url => url.endsWith('/assets/question-loader.js')),
+        'chunked mixed quiz should load question loader after launch'
+      );
+      assert.ok(
+        requests.some(url => url.includes('/assets/question-chunks/capitalization/')),
+        'chunked mixed quiz should request capitalization chunks'
+      );
+      assert.equal(
+        requests.some(url => url.endsWith('/assets/question-banks/capitalization.js')),
+        false,
+        'chunked mixed quiz should not request the full capitalization bank'
+      );
+      await page.close();
+    });
+
+    await runCase(failures, 'capitalization pilot subtopic loads only its chunk', async () => {
+      const page = await newPage(browser);
+      const recorder = createRequestRecorder(page);
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, file);
-      await assertPilotChunkRequests(page, requests, file);
+      await assertPilotChunkRequests(page, recorder.requests, file);
+      assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
+      await assertQuizFlow(page, file);
+      await page.close();
+    });
+
+    await runCase(failures, 'reference skills subtopic uses chunk and not full bank', async () => {
+      const page = await newPage(browser);
+      const recorder = createRequestRecorder(page);
+      const file = 'topics/reference-skills/subtopics/alphabetical-order.html';
+      await visitClean(page, server.baseURL, file);
+      await assertReferenceSkillsChunkRequests(page, recorder.requests, file);
+      assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
       await assertQuizFlow(page, file);
       await page.close();
     });
@@ -99,6 +171,28 @@ async function main() {
       const file = 'topics/capitalization/subtopics/proper-names-titles.html';
       await visitClean(page, server.baseURL, file);
       await assertLoaderBackedResume(page, file);
+      await page.close();
+    });
+
+    await runCase(failures, 'active quiz resume falls back to snapshots when refs cannot load', async () => {
+      const page = await newPage(browser);
+      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
+      await visitClean(page, server.baseURL, file);
+      await assertSnapshotFallbackResume(page, file, {
+        questionRefs: [{ id: 'missing-q0001', version: 1, contentHash: 'sha256:missing', sourceSet: 'missing-source-set', sequence: 1 }],
+        questionText: 'Snapshot fallback question: choose the saved answer.'
+      });
+      await page.close();
+    });
+
+    await runCase(failures, 'active quiz resume uses snapshots when ref hashes changed', async () => {
+      const page = await newPage(browser);
+      const file = 'topics/capitalization/subtopics/proper-names-titles.html';
+      await visitClean(page, server.baseURL, file);
+      await assertSnapshotFallbackResume(page, file, {
+        questionRefs: [{ id: 'capitalization-proper-names-titles-q0001', version: 1, contentHash: 'sha256:stale', sourceSet: 'capitalization-proper-names-titles', sequence: 1 }],
+        questionText: 'Snapshot hash mismatch question: choose the saved answer.'
+      });
       await page.close();
     });
 
@@ -144,10 +238,12 @@ async function main() {
     for (const file of allSubtopics) {
       await runCase(failures, `${file} all-subtopic smoke`, async () => {
         const page = await newPage(browser);
+        const recorder = createRequestRecorder(page);
         await visitClean(page, server.baseURL, file);
         await assertVisible(page, '#quiz-root', file);
         const text = await textContent(page, '#quiz-root');
         assert.match(text, /Start Quiz|Preview Questions|coming soon/i, file);
+        assertPageBudget(assert, file, recorder.summarize(), PAGE_BUDGETS[file]);
         await page.close();
       });
     }
@@ -379,14 +475,17 @@ async function assertQuizFlow(page, file) {
   assert.match(await textContent(page, '#feedback-area'), /Correct|Not quite/);
   const activeQuiz = await page.evaluate(() => JSON.parse(localStorage.getItem('grammarQuestProgress') || '{}').activeQuiz);
   assert.ok(activeQuiz, `${file} should save an active quiz after answering`);
+  assert.equal(activeQuiz.schemaVersion, 2, `${file} should save active quiz schema v2`);
   assert.ok(Array.isArray(activeQuiz.questionRefs), `${file} should save questionRefs`);
+  assert.ok(Array.isArray(activeQuiz.questionSnapshots), `${file} should save questionSnapshots`);
+  assert.equal(activeQuiz.questions, undefined, `${file} should not save full questions as the primary active quiz list`);
   assert.ok(activeQuiz.questionRefs[0].id, `${file} questionRefs should include ids`);
   assert.ok(activeQuiz.questionRefs[0].version >= 1, `${file} questionRefs should include versions`);
   assert.ok(activeQuiz.questionRefs[0].contentHash, `${file} questionRefs should include hashes`);
-  assert.equal(activeQuiz.questions[0].contentHash, activeQuiz.questionRefs[0].contentHash, `${file} generated scenes should not mutate question hashes`);
-  assert.ok(activeQuiz.questions[0].generatedVisualScene || activeQuiz.questions[0].visualScene, `${file} should retain a renderable visual scene`);
-  if (activeQuiz.questions[0].generatedVisualScene) {
-    assert.equal(activeQuiz.questions[0].visualScene, undefined, `${file} generated scene should not overwrite authored visualScene`);
+  assert.equal(activeQuiz.questionSnapshots[0].contentHash, activeQuiz.questionRefs[0].contentHash, `${file} snapshots should preserve question hashes`);
+  assert.ok(activeQuiz.questionSnapshots[0].generatedVisualScene || activeQuiz.questionSnapshots[0].visualScene, `${file} should retain a renderable visual scene fallback`);
+  if (activeQuiz.questionSnapshots[0].generatedVisualScene) {
+    assert.equal(activeQuiz.questionSnapshots[0].visualScene, null, `${file} generated scene should not overwrite authored visualScene`);
   }
   assert.ok(activeQuiz.attempts[0].questionId, `${file} attempts should include questionId`);
   assert.ok(activeQuiz.attempts[0].questionVersion >= 1, `${file} attempts should include questionVersion`);
@@ -419,6 +518,32 @@ async function assertPilotChunkRequests(page, requests, file) {
     requests.some(url => url.endsWith('/assets/question-banks/capitalization.js')),
     false,
     `${file} should not request the full capitalization bank`
+  );
+}
+
+async function assertReferenceSkillsChunkRequests(page, requests, file) {
+  await assertVisible(page, '#start-btn', file);
+  assert.equal(
+    await page.evaluate(() => !!window.QUESTION_BANK && Object.keys(window.QUESTION_BANK).length),
+    1,
+    `${file} should hydrate only the requested reference-skills chunk into QUESTION_BANK`
+  );
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-manifest.js')),
+    `${file} should request manifest metadata`
+  );
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-loader.js')),
+    `${file} should request the loader abstraction`
+  );
+  assert.ok(
+    requests.some(url => url.endsWith('/assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js')),
+    `${file} should request its reference-skills chunk`
+  );
+  assert.equal(
+    requests.some(url => url.endsWith('/assets/question-banks/reference-skills.js')),
+    false,
+    `${file} should not request the full reference-skills bank`
   );
 }
 
@@ -455,6 +580,57 @@ async function assertLoaderBackedResume(page, file) {
   }));
   assert.match(resumed.text, /Question 1 of|Question 2 of|Review/i);
   assert.ok(resumed.activeQuiz.questionRefs[0].id.startsWith('capitalization-proper-names-titles-q'));
+  assert.equal(resumed.activeQuiz.schemaVersion, 2);
+  assert.equal(resumed.activeQuiz.questions, undefined);
+}
+
+async function assertSnapshotFallbackResume(page, file, options) {
+  await assertVisible(page, '#start-btn', file);
+  const questionText = options.questionText;
+  await page.evaluate(({ questionRefs, questionText }) => {
+    const activeQuiz = {
+      schemaVersion: 2,
+      setId: 'capitalization-proper-names-titles',
+      title: 'Proper Names and Titles of People',
+      topic: 'Capitalization',
+      grade: '4',
+      difficulty: 'medium',
+      questionRefs,
+      questionSnapshots: [{
+        id: 'snapshot-fallback-q0001',
+        version: 1,
+        contentHash: 'sha256:snapshot',
+        question: questionText,
+        choices: ['saved answer', 'other answer'],
+        correct: 0,
+        explanation: { correct: 'The saved snapshot is still renderable.', incorrect: ['', ''] },
+        studyAid: null,
+        visualScene: null,
+        generatedVisualScene: null,
+        metadata: { sourceSet: 'capitalization-proper-names-titles', sequence: 1, skills: ['resume fallback'] }
+      }],
+      currentIndex: 0,
+      score: 0,
+      combo: 0,
+      reviewMode: false,
+      hintsUsed: 0,
+      confidenceStats: [],
+      attempts: [],
+      reviewAttempts: [],
+      missedQuestions: [],
+      startedAt: new Date().toISOString(),
+      questionStartedAt: '',
+      lastSavedAt: new Date().toISOString()
+    };
+    localStorage.setItem('grammarQuestProgress', JSON.stringify({ activeQuiz }));
+  }, { questionRefs: options.questionRefs, questionText });
+
+  await page.reload({ waitUntil: 'domcontentloaded' });
+  await page.waitForLoadState('domcontentloaded');
+  await assertVisible(page, '#resume-quiz-btn', `${file} resume button`);
+  await page.click('#resume-quiz-btn');
+  await assertVisible(page, '.question-box', `${file} resumed fallback question`);
+  assert.match(await textContent(page, '#quiz-root'), new RegExp(questionText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
 }
 
 async function assertQuizCompletionPreservesQuestionReports(page, file) {
@@ -587,13 +763,13 @@ async function textContent(page, selector) {
   return page.$eval(selector, node => node.textContent || '');
 }
 
-function getChromeExecutablePath() {
-  const candidates = [
-    process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,
-    '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-    '/Applications/Chromium.app/Contents/MacOS/Chromium'
-  ].filter(Boolean);
-  return candidates.find(candidate => fs.existsSync(candidate)) || '';
+function getChromiumLaunchOptions() {
+  return Object.assign(
+    { headless: true },
+    process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE
+      ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE }
+      : {}
+  );
 }
 
 function startStaticServer(port) {
@@ -613,7 +789,10 @@ function startStaticServer(port) {
           response.end('Not found');
           return;
         }
-        response.writeHead(200, { 'Content-Type': getContentType(filePath) });
+        response.writeHead(200, {
+          'Content-Type': getContentType(filePath),
+          'Content-Length': data.length
+        });
         response.end(data);
       });
     });

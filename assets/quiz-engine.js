@@ -281,7 +281,16 @@
 
     const resumeButton = document.getElementById('resume-quiz-btn');
     if (resumeButton) {
-      resumeButton.addEventListener('click', () => resumeQuiz(resumableQuiz));
+      resumeButton.addEventListener('click', () => {
+        resumeButton.disabled = true;
+        resumeButton.textContent = 'Resuming...';
+        resumeQuiz(resumableQuiz).catch(error => {
+          console.error(error);
+          resumeButton.disabled = false;
+          resumeButton.textContent = 'Resume';
+          renderUnavailableQuestions();
+        });
+      });
     }
     const discardButton = document.getElementById('discard-resume-btn');
     if (discardButton) {
@@ -310,10 +319,14 @@
     });
   }
 
-  function resumeQuiz(savedQuiz) {
-    if (!savedQuiz || !Array.isArray(savedQuiz.questions) || !savedQuiz.questions.length) return;
-    currentQuestions = savedQuiz.questions;
-    warnOnChangedQuestionRefs(savedQuiz);
+  async function resumeQuiz(savedQuiz) {
+    if (!savedQuiz) return;
+    const resolvedQuestions = await resolveActiveQuizQuestions(savedQuiz);
+    if (!resolvedQuestions.length) {
+      renderUnavailableQuestions();
+      return;
+    }
+    currentQuestions = resolvedQuestions;
     currentIndex = Math.min(Math.max(0, Number(savedQuiz.currentIndex) || 0), currentQuestions.length);
     score = Number(savedQuiz.score) || 0;
     combo = Number(savedQuiz.combo) || 0;
@@ -331,6 +344,42 @@
       return;
     }
     renderQuestion();
+  }
+
+  async function resolveActiveQuizQuestions(activeQuiz) {
+    const refs = Array.isArray(activeQuiz && activeQuiz.questionRefs) ? activeQuiz.questionRefs : [];
+    const snapshots = getActiveQuizSnapshots(activeQuiz);
+    if (!refs.length) return snapshots;
+
+    let hydrated = [];
+    const loader = window.GrammarQuestQuestionLoader;
+    if (loader && typeof loader.hydrateQuestionRefs === 'function') {
+      try {
+        hydrated = await loader.hydrateQuestionRefs(refs);
+      } catch (error) {
+        console.warn('Saved quiz questions could not be hydrated from source content. Using saved snapshots.', error);
+      }
+    }
+
+    return refs.map((ref, index) => {
+      const loaded = hydrated[index];
+      const snapshot = snapshots[index];
+      if (!loaded) return snapshot || null;
+      if (ref && ref.contentHash && loaded.contentHash && ref.contentHash !== loaded.contentHash) {
+        if (snapshot) {
+          console.warn('Saved quiz question content changed since the active quiz was saved:', ref.id);
+          return snapshot;
+        }
+      }
+      return loaded;
+    }).filter(Boolean);
+  }
+
+  function getActiveQuizSnapshots(activeQuiz) {
+    const snapshots = Array.isArray(activeQuiz && activeQuiz.questionSnapshots)
+      ? activeQuiz.questionSnapshots
+      : Array.isArray(activeQuiz && activeQuiz.questions) ? activeQuiz.questions : [];
+    return snapshots.filter(Boolean);
   }
 
   function renderQuestion() {
@@ -2561,19 +2610,36 @@
     };
   }
 
+  function getActiveQuestionSnapshot(question) {
+    return {
+      id: question && question.id || '',
+      version: Number(question && question.version) || 0,
+      contentHash: question && question.contentHash || '',
+      question: question && question.question || '',
+      choices: Array.isArray(question && question.choices) ? question.choices : [],
+      correct: Number.isFinite(question && question.correct) ? question.correct : -1,
+      explanation: question && question.explanation || null,
+      studyAid: question && question.studyAid || null,
+      visualScene: question && question.visualScene || null,
+      generatedVisualScene: question && question.generatedVisualScene || null,
+      metadata: question && question.metadata || {}
+    };
+  }
+
   function saveActiveQuiz(options) {
     if (isParentMode()) return;
     const progress = loadProgress();
     const nextIndex = options && Number.isFinite(options.nextIndex) ? options.nextIndex : currentIndex;
     progress.activeQuiz = {
+      schemaVersion: 2,
       setId: window.QUIZ_SET_ID || '',
       mixedTitle: mixedQuizConfig ? mixedQuizConfig.title : '',
       title: activeSet && activeSet.title || 'Practice Quiz',
       topic: activeSet && activeSet.topic || 'English Language Arts',
       grade: selectedGrade,
       difficulty: selectedDifficulty,
-      questions: currentQuestions,
       questionRefs: currentQuestions.map(question => getQuestionRef(question)),
+      questionSnapshots: currentQuestions.map(question => getActiveQuestionSnapshot(question)),
       currentIndex: Math.min(Math.max(0, nextIndex), currentQuestions.length),
       score,
       combo,
@@ -2592,7 +2658,9 @@
 
   function getResumePositionLabel(activeQuiz) {
     const index = Number(activeQuiz.currentIndex) || 0;
-    const total = Array.isArray(activeQuiz.questions) ? activeQuiz.questions.length : 0;
+    const total = Array.isArray(activeQuiz.questionRefs) && activeQuiz.questionRefs.length
+      ? activeQuiz.questionRefs.length
+      : getActiveQuizSnapshots(activeQuiz).length;
     if (index >= total) return 'ready for results';
     return `Question ${index + 1} of ${total}`;
   }

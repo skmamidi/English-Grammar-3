@@ -122,6 +122,7 @@ test('writeQuestionChunks dry run reports expected chunk paths for chunked domai
   const paths = [...summary.written, ...summary.unchanged].map(write => write.path);
 
   assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/capitalization/capitalization-proper-names-titles.js')));
+  assert.ok(paths.some(chunkPath => chunkPath.endsWith('assets/question-chunks/reference-skills/reference-skills-alphabetical-order.js')));
   assert.equal(paths.some(chunkPath => chunkPath.includes('/grammar/')), false);
 });
 

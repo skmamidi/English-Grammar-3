@@ -128,8 +128,8 @@
     }
 
     loadMixedQuizDependencies(subtopics)
-      .then(() => {
-        const hydratedSubtopics = hydrateMixedSubtopics(subtopics);
+      .then(sets => {
+        const hydratedSubtopics = hydrateMixedSubtopics(subtopics, sets);
         if (!hydratedSubtopics.length) {
           quizRoot.innerHTML = '<p class="page-subtitle">Questions for this mixed quiz are coming soon.</p>';
           return;
@@ -157,25 +157,32 @@
   }
 
   function loadMixedQuizDependencies(subtopics) {
-    const bankFiles = Array.from(new Set(subtopics.map(subtopic => subtopic.bankFile).filter(Boolean)));
-    const bankScripts = bankFiles.map(bankFile => loadScriptOnce(toAssetUrl(bankFile)));
     return Promise.all([
-      ...bankScripts,
-      window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js')
-    ]);
+      window.GrammarQuestQuizDomain ? Promise.resolve() : loadScriptOnce('../../assets/quiz-domain.js'),
+      window.GrammarQuestQuestionLoader ? Promise.resolve() : loadScriptOnce('../../assets/question-loader.js')
+    ]).then(() => loadMixedQuizSets(subtopics.map(subtopic => subtopic.id).filter(Boolean)));
   }
 
-  function toAssetUrl(bankFile) {
-    return bankFile.startsWith('assets/') ? `../../${bankFile}` : bankFile;
+  function loadMixedQuizSets(setIds) {
+    const ids = Array.isArray(setIds) ? setIds.filter(Boolean) : [];
+    if (!window.GrammarQuestQuestionLoader || typeof window.GrammarQuestQuestionLoader.loadSets !== 'function') {
+      return Promise.reject(new Error('Question loader is unavailable for mixed quiz hydration.'));
+    }
+    return window.GrammarQuestQuestionLoader.loadSets(ids);
   }
 
-  function hydrateMixedSubtopics(subtopics) {
+  function hydrateMixedSubtopics(subtopics, sets) {
+    const loadedSets = Array.isArray(sets) ? sets : [];
+    const byId = loadedSets.reduce((index, set) => {
+      if (set && set.id) index[set.id] = set;
+      return index;
+    }, {});
+
     return subtopics.map(subtopic => {
-      const entry = findQuestionSetEntry(window.QUESTION_BANK || {}, subtopic.href);
-      const set = entry && entry.set;
+      const set = byId[subtopic.id];
       if (!set || !Array.isArray(set.questions) || !set.questions.length) return null;
       return {
-        id: entry.id,
+        id: subtopic.id,
         title: subtopic.title,
         href: subtopic.href,
         set
@@ -342,6 +349,8 @@
     findQuestionSetEntry,
     findQuestionSetManifestEntry,
     getPracticeLabel,
-    getQuestionCount
+    getQuestionCount,
+    hydrateMixedSubtopics,
+    loadMixedQuizSets
   };
 })();

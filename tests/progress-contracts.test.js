@@ -73,20 +73,76 @@ test('saved session attempt contract contains report dashboard fields', () => {
 
 test('active quiz contract preserves resumable state', () => {
   const activeQuiz = {
+    schemaVersion: 2,
     setId: 'grammar-sentence-types',
     title: 'Sentence Types',
     topic: 'Grammar & Usage',
     grade: '4',
     difficulty: 'medium',
-    questions: [{ id: 'grammar-sentence-types-q0001', version: 1, contentHash: 'sha256:abc', question: 'Question', choices: ['A'], correct: 0 }],
     questionRefs: [{ id: 'grammar-sentence-types-q0001', version: 1, contentHash: 'sha256:abc', sourceSet: 'grammar-sentence-types', sequence: 1 }],
+    questionSnapshots: [{ id: 'grammar-sentence-types-q0001', version: 1, contentHash: 'sha256:abc', question: 'Question', choices: ['A'], correct: 0 }],
     currentIndex: 0,
     score: 0,
     attempts: []
   };
 
   assert.deepEqual(validateActiveQuiz(activeQuiz), []);
-  assert.ok(validateActiveQuiz(Object.assign({}, activeQuiz, { questions: null })).includes('questions'));
+  assert.ok(validateActiveQuiz(Object.assign({}, activeQuiz, { questionRefs: null })).includes('questionRefs'));
+  assert.ok(validateActiveQuiz(Object.assign({}, activeQuiz, { questionSnapshots: null })).includes('questionSnapshots'));
+});
+
+test('active quiz v1 normalization preserves legacy full-question saves', () => {
+  const normalized = loadProgressStoreForTest().normalizeActiveQuiz({
+    setId: 'grammar-sentence-types',
+    title: 'Sentence Types',
+    topic: 'Grammar & Usage',
+    grade: '4',
+    difficulty: 'medium',
+    questions: [{
+      id: 'grammar-sentence-types-q0001',
+      version: 1,
+      contentHash: 'sha256:abc',
+      question: 'Question',
+      choices: ['A'],
+      correct: 0,
+      metadata: { sourceSet: 'grammar-sentence-types', sequence: 1 }
+    }],
+    currentIndex: 0,
+    score: 0,
+    attempts: []
+  });
+
+  assert.equal(normalized.schemaVersion, 1);
+  assert.equal(normalized.questions.length, 1);
+  assert.equal(normalized.questionSnapshots.length, 1);
+  assert.deepEqual(JSON.parse(JSON.stringify(normalized.questionRefs)), [{
+    id: 'grammar-sentence-types-q0001',
+    version: 1,
+    contentHash: 'sha256:abc',
+    sourceSet: 'grammar-sentence-types',
+    sequence: 1
+  }]);
+});
+
+test('active quiz v2 normalization accepts refs with snapshot fallback and no full questions', () => {
+  const normalized = loadProgressStoreForTest().normalizeActiveQuiz({
+    schemaVersion: 2,
+    setId: 'grammar-sentence-types',
+    title: 'Sentence Types',
+    topic: 'Grammar & Usage',
+    grade: '4',
+    difficulty: 'medium',
+    questionRefs: [{ id: 'grammar-sentence-types-q0001', version: 1, contentHash: 'sha256:abc', sourceSet: 'grammar-sentence-types', sequence: 1 }],
+    questionSnapshots: [{ id: 'grammar-sentence-types-q0001', version: 1, contentHash: 'sha256:abc', question: 'Question', choices: ['A'], correct: 0 }],
+    currentIndex: 0,
+    score: 0,
+    attempts: []
+  });
+
+  assert.equal(normalized.schemaVersion, 2);
+  assert.equal(normalized.questions, undefined);
+  assert.equal(normalized.questionRefs.length, 1);
+  assert.equal(normalized.questionSnapshots.length, 1);
 });
 
 test('empty and sample progress objects normalize for report consumers', () => {

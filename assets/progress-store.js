@@ -143,22 +143,28 @@
   function normalizeActiveQuiz(activeQuiz) {
     if (!activeQuiz || activeQuiz.completed) return null;
     const questions = Array.isArray(activeQuiz.questions) ? activeQuiz.questions : [];
-    if (!questions.length) return null;
-    return Object.assign({}, activeQuiz, {
-      questions,
-      questionRefs: Array.isArray(activeQuiz.questionRefs) ? activeQuiz.questionRefs : questions.map(question => ({
-        id: question && question.id || "",
-        version: Number(question && question.version) || 0,
-        contentHash: question && question.contentHash || "",
-        sourceSet: question && question.metadata && question.metadata.sourceSet || "",
-        sequence: question && question.metadata && question.metadata.sequence || 0
-      })),
+    const questionSnapshots = Array.isArray(activeQuiz.questionSnapshots) ? activeQuiz.questionSnapshots : questions;
+    const questionRefs = Array.isArray(activeQuiz.questionRefs) ? activeQuiz.questionRefs : questionSnapshots.map(question => ({
+      id: question && question.id || "",
+      version: Number(question && question.version) || 0,
+      contentHash: question && question.contentHash || "",
+      sourceSet: question && question.metadata && question.metadata.sourceSet || "",
+      sequence: question && question.metadata && question.metadata.sequence || 0
+    }));
+    if (!questionRefs.length && !questionSnapshots.length) return null;
+    const normalized = Object.assign({}, activeQuiz, {
+      schemaVersion: Number(activeQuiz.schemaVersion) || (questions.length ? 1 : 2),
+      questionRefs,
+      questionSnapshots,
       attempts: (Array.isArray(activeQuiz.attempts) ? activeQuiz.attempts : []).map(normalizeAttemptRecord),
       currentIndex: Math.max(0, Number(activeQuiz.currentIndex) || 0),
       score: Math.max(0, Number(activeQuiz.score) || 0),
       hintsUsed: Math.max(0, Number(activeQuiz.hintsUsed) || 0),
       lastSavedAt: activeQuiz.lastSavedAt || activeQuiz.startedAt || ""
     });
+    if (questions.length) normalized.questions = questions;
+    else delete normalized.questions;
+    return normalized;
   }
 
   function normalizeMastery(mastery) {

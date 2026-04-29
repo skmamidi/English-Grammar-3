@@ -176,10 +176,12 @@ async function visitClean(page, baseURL, file) {
 async function assertReportsPage(page, baseURL) {
   await assertVisible(page, '#student-list', 'reports.html');
   await page.evaluate(() => {
-    localStorage.setItem('grammarQuestProgress', JSON.stringify({
+    localStorage.clear();
+    const progress = JSON.stringify({
       reports: {
         sessions: [{
           id: 'session-ui-smoke',
+          studentId: 'current-learner',
           studentName: 'Smoke Student',
           title: 'Sentence Types',
           topic: 'Grammar & Usage',
@@ -212,14 +214,59 @@ async function assertReportsPage(page, baseURL) {
             subtopicId: 'grammar-sentence-types',
             subtopicTitle: 'Sentence Types'
           }]
+        }],
+        questionReports: [{
+          id: 'question-report-dashboard',
+          studentId: 'current-learner',
+          studentName: 'Smoke Student',
+          status: 'open',
+          questionId: 'grammar-sentence-types-q0002',
+          questionVersion: 1,
+          questionHash: 'sha256:abcdef',
+          reason: 'answer_or_explanation',
+          question: 'Which sentence asks something?',
+          selectedChoice: 'Are you ready?',
+          correctChoice: 'Are you ready?',
+          choices: ['Are you ready?', 'Close the door.'],
+          selectedIndex: 0,
+          correctIndex: 0,
+          sourceSet: 'grammar-sentence-types',
+          sequence: 2,
+          createdAt: '2026-04-29T12:02:00.000Z',
+          updatedAt: '2026-04-29T12:02:00.000Z'
         }]
       }
-    }));
+    });
+    localStorage.setItem('grammarQuestProgress', progress);
+    localStorage.setItem('grammarQuestProgress:current-learner', progress);
   });
   await page.goto(`${baseURL}/reports.html`, { waitUntil: 'domcontentloaded' });
   await page.waitForLoadState('domcontentloaded');
   const roster = await textContent(page, '#student-list');
   assert.match(roster, /Smoke Student|Current Learner/);
+
+  await page.click('.report-tab[data-view="reported"]');
+  await assertVisible(page, '[data-report-id="question-report-dashboard"]', 'reports.html reported questions');
+  await page.selectOption('[data-report-review-status]', 'resolved');
+  await page.fill('[data-report-review-note]', 'Reviewed by QA');
+  await page.click('[data-save-report-review]');
+  await page.waitForFunction(() => {
+    const key = window.GrammarQuestProgress && window.GrammarQuestProgress.getStorageKey
+      ? window.GrammarQuestProgress.getStorageKey()
+      : 'grammarQuestProgress';
+    const progress = JSON.parse(localStorage.getItem(key) || '{}');
+    const report = progress.reports && progress.reports.questionReports && progress.reports.questionReports[0];
+    return report && report.id === 'question-report-dashboard' && report.status === 'resolved';
+  });
+  const reviewed = await page.evaluate(() => {
+    const key = window.GrammarQuestProgress && window.GrammarQuestProgress.getStorageKey
+      ? window.GrammarQuestProgress.getStorageKey()
+      : 'grammarQuestProgress';
+    return JSON.parse(localStorage.getItem(key) || '{}').reports.questionReports[0];
+  });
+  assert.equal(reviewed.id, 'question-report-dashboard');
+  assert.equal(reviewed.questionId, 'grammar-sentence-types-q0002');
+  assert.equal(reviewed.grownupNote, 'Reviewed by QA');
 }
 
 async function assertQuizFlow(page, file) {

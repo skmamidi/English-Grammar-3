@@ -1,8 +1,55 @@
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const test = require('node:test');
+const vm = require('node:vm');
 
-const { validateSerializedAttempt, validateActiveQuiz, validateQuestionReport } = require('../scripts/qa/quiz-contracts');
+const {
+  validateSerializedAttempt,
+  validateActiveQuiz,
+  validateQuestionReport,
+  validateQuestionReportWarnings
+} = require('../scripts/qa/quiz-contracts');
 const { createMemoryStorage } = require('../scripts/qa/bank-loader');
+
+function loadProgressStoreForTest() {
+  const context = {
+    window: {
+      addEventListener() {},
+      clearTimeout() {},
+      setTimeout() {
+        return 0;
+      },
+      dispatchEvent() {}
+    },
+    document: {
+      addEventListener() {},
+      createElement() {
+        return { textContent: '', innerHTML: '' };
+      }
+    },
+    localStorage: createMemoryStorage(),
+    CustomEvent: function CustomEvent(type, options) {
+      this.type = type;
+      this.detail = options && options.detail;
+    },
+    console
+  };
+  context.window.window = context.window;
+  context.window.localStorage = context.localStorage;
+  context.window.CustomEvent = context.CustomEvent;
+  vm.createContext(context);
+  vm.runInContext(
+    fs.readFileSync(path.join(__dirname, '..', 'assets', 'progress-store.js'), 'utf8'),
+    context,
+    { filename: 'assets/progress-store.js' }
+  );
+  return context.window.GrammarQuestProgress;
+}
+
+function normalizeQuestionReportForTest(report) {
+  return loadProgressStoreForTest().normalizeQuestionReport(report);
+}
 
 test('saved session attempt contract contains report dashboard fields', () => {
   const attempt = {
@@ -107,4 +154,55 @@ test('saved session reports preserve question report contract fields', () => {
   assert.equal(updated.questionReports[0].questionId, 'grammar-sentence-types-q0001');
   assert.deepEqual(validateQuestionReport(updated.questionReports[0]), []);
   assert.equal(updated.sessions.length, 1);
+});
+
+test('question report normalization keeps report id separate from question id', () => {
+  const modern = normalizeQuestionReportForTest({
+    id: 'question-report-modern',
+    status: 'open',
+    questionId: 'grammar-sentence-types-q0001',
+    questionVersion: '2',
+    contentHash: 'sha256:modern'
+  });
+  assert.equal(modern.id, 'question-report-modern');
+  assert.equal(modern.questionId, 'grammar-sentence-types-q0001');
+  assert.equal(modern.questionVersion, 2);
+  assert.equal(modern.questionHash, 'sha256:modern');
+
+  const legacyWithSource = normalizeQuestionReportForTest({
+    id: 'question-report-123',
+    sourceSet: 'grammar-sentence-types',
+    sequence: 4
+  });
+  assert.equal(legacyWithSource.id, 'question-report-123');
+  assert.equal(legacyWithSource.questionId, 'grammar-sentence-types-q0004');
+
+  const legacyWithSet = normalizeQuestionReportForTest({
+    id: 'question-report-456',
+    setId: 'grammar-sentence-types',
+    sequence: 5
+  });
+  assert.equal(legacyWithSet.questionId, 'grammar-sentence-types-q0005');
+
+  const legacyWithStableId = normalizeQuestionReportForTest({
+    id: 'grammar-sentence-types-q0006'
+  });
+  assert.equal(legacyWithStableId.questionId, 'grammar-sentence-types-q0006');
+
+  const legacyOnlyReportId = normalizeQuestionReportForTest({
+    id: 'question-report-only'
+  });
+  assert.equal(legacyOnlyReportId.id, 'question-report-only');
+  assert.equal(legacyOnlyReportId.questionId, '');
+});
+
+test('question report fixture QA warns when questionId is a report record id', () => {
+  assert.deepEqual(validateQuestionReportWarnings({
+    id: 'question-report-123',
+    questionId: 'question-report-123'
+  }), ['questionId']);
+  assert.deepEqual(validateQuestionReportWarnings({
+    id: 'question-report-123',
+    questionId: 'grammar-sentence-types-q0004'
+  }), []);
 });

@@ -149,6 +149,14 @@ function validateQuestionReport(report) {
   });
 }
 
+function validateQuestionReportWarnings(report) {
+  const warnings = [];
+  if (String(report && report.questionId || '').startsWith('question-report-')) {
+    warnings.push('questionId');
+  }
+  return warnings;
+}
+
 module.exports = {
   gradeOptions,
   difficultyOptions,
@@ -160,5 +168,6 @@ module.exports = {
   getDifficultyDistance,
   validateSerializedAttempt,
   validateActiveQuiz,
-  validateQuestionReport
+  validateQuestionReport,
+  validateQuestionReportWarnings
 };

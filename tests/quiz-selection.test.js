@@ -4,8 +4,10 @@ const test = require('node:test');
 const {
   selectQuestionsForLevel,
   selectCurrentQuestions,
-  selectMixedQuestions
-} = require('../scripts/qa/quiz-contracts');
+  selectMixedQuestions,
+  getQuestionId
+} = require('../assets/quiz-domain');
+const { loadQuestionBanks } = require('../scripts/qa/bank-loader');
 
 const identity = items => items;
 
@@ -87,4 +89,28 @@ test('mixed quiz selection pulls from every chosen subtopic', () => {
 test('empty or malformed sets fail gracefully', () => {
   assert.deepEqual(selectQuestionsForLevel(null, '4', 'medium'), []);
   assert.deepEqual(selectMixedQuestions({ mixedQuizConfig: { subtopics: null }, baseQuestions: [] }), []);
+});
+
+test('shared selector returns deterministic ids for representative bank fixtures', () => {
+  const bank = loadQuestionBanks().bank;
+  const fixtures = [
+    'grammar-sentence-types',
+    'punctuation-commas-series',
+    'reading-comprehension-main-idea-supporting-details'
+  ].filter(setId => bank[setId] && Array.isArray(bank[setId].questions));
+
+  assert.ok(fixtures.length >= 2, 'representative question bank fixtures should load');
+
+  fixtures.forEach(setId => {
+    const selected = selectQuestionsForLevel(bank[setId].questions, '4', 'medium', {
+      targetQuestionCount: 15,
+      shuffle: identity
+    });
+
+    assert.ok(selected.length > 0, `${setId} should select questions`);
+    assert.deepEqual(
+      selected.map((question, index) => getQuestionId(question, index + 1)),
+      selected.map(question => question.id)
+    );
+  });
 });

@@ -40,12 +40,18 @@
   const gradeOptions = ['3', '4', '5', '6'];
   const difficultyOptions = ['easy', 'medium', 'hard'];
   const targetQuestionCount = getConfiguredQuestionCount();
+  const quizDomain = window.GrammarQuestQuizDomain;
 
   // DOM ready
   document.addEventListener('DOMContentLoaded', function () {
     quizContainer = document.getElementById('quiz-root');
     if (!quizContainer) {
       console.error('Quiz engine: #quiz-root element not found');
+      return;
+    }
+    if (!quizDomain) {
+      console.error('Quiz engine: assets/quiz-domain.js must load before assets/quiz-engine.js');
+      quizContainer.innerHTML = '<p class="page-subtitle">Error: Quiz domain failed to load.</p>';
       return;
     }
     const shell = quizContainer.closest('.container');
@@ -1670,86 +1676,49 @@
   }
 
   function selectQuestionsForLevel(questions, grade, difficulty) {
-    if (!questions.some(question => question.metadata && question.metadata.difficultyByGrade)) {
-      return shuffleArray([...questions]);
-    }
-
-    const levelQuestions = questions.filter(q => questionSupportsGrade(q, grade));
-    if (!levelQuestions.length) return [...questions];
-
-    const exact = [];
-    const adjacent = [];
-    const fallback = [];
-    levelQuestions.forEach((question, index) => {
-      const distance = getDifficultyDistance(question, grade, difficulty);
-      const entry = { question, index, distance };
-      if (distance === 0) exact.push(entry);
-      else if (distance === 1) adjacent.push(entry);
-      else fallback.push(entry);
-    });
-
-    const ordered = shuffleArray(exact).concat(shuffleArray(adjacent), shuffleArray(fallback))
-      .map(entry => entry.question);
-    return ordered.slice(0, Math.min(targetQuestionCount, ordered.length));
+    return quizDomain.selectQuestionsForLevel(questions, grade, difficulty, getQuizDomainOptions());
   }
 
   function selectCurrentQuestions() {
-    if (isParentMode()) {
-      if (!mixedQuizConfig) return shuffleArray([...baseQuestions]);
-      return shuffleArray(getActiveMixedSubtopics().flatMap(subtopic => [...subtopic.questions]));
-    }
-    return mixedQuizConfig
-      ? selectMixedQuestions(selectedGrade, selectedDifficulty)
-      : selectQuestionsForLevel(baseQuestions, selectedGrade, selectedDifficulty);
+    return quizDomain.selectCurrentQuestions(getQuizSelectionState(), getQuizDomainOptions());
   }
 
   function selectMixedQuestions(grade, difficulty) {
-    if (!mixedQuizConfig || !mixedQuizConfig.subtopics) {
-      return selectQuestionsForLevel(baseQuestions, grade, difficulty);
-    }
-
-    const limit = getSelectedMixedQuestionLimit();
-    const selected = [];
-    getActiveMixedSubtopics().forEach(subtopic => {
-      if (limit === 'max') {
-        selected.push(...shuffleArray([...subtopic.questions]));
-        return;
-      }
-      const picked = fillQuestionGroup(
-        selectQuestionsForLevel(subtopic.questions, grade, difficulty),
-        subtopic.questions,
-        limit
-      );
-      selected.push(...picked);
-    });
-    return shuffleArray(selected);
+    return quizDomain.selectMixedQuestions(Object.assign(getQuizSelectionState(), {
+      selectedGrade: grade,
+      selectedDifficulty: difficulty
+    }), getQuizDomainOptions());
   }
 
   function fillQuestionGroup(preferred, allQuestions, count) {
-    const limit = Math.min(count, allQuestions.length);
-    const picked = preferred.slice(0, limit);
-    if (picked.length >= limit) return picked;
-
-    const pickedSet = new Set(picked);
-    const fallback = shuffleArray([...allQuestions]).filter(question => !pickedSet.has(question));
-    return picked.concat(fallback.slice(0, limit - picked.length));
+    return quizDomain.fillQuestionGroup(preferred, allQuestions, count, shuffleArray);
   }
 
   function questionSupportsGrade(question, grade) {
-    const levels = question.metadata && question.metadata.gradeLevels;
-    return !levels || levels.map(String).includes(String(grade));
+    return quizDomain.questionSupportsGrade(question, grade);
   }
 
   function getDifficultyDistance(question, grade, difficulty) {
-    const actual = question.metadata && question.metadata.difficultyByGrade
-      ? question.metadata.difficultyByGrade[String(grade)] || question.metadata.difficultyByGrade[grade]
-      : difficulty;
-    return Math.abs(difficultyRank(actual) - difficultyRank(difficulty));
+    return quizDomain.getDifficultyDistance(question, grade, difficulty);
   }
 
-  function difficultyRank(difficulty) {
-    const index = difficultyOptions.indexOf(String(difficulty || '').toLowerCase());
-    return index === -1 ? 1 : index;
+  function getQuizSelectionState() {
+    return {
+      parentMode: isParentMode(),
+      mixedQuizConfig,
+      baseQuestions,
+      selectedGrade,
+      selectedDifficulty,
+      selectedMixedSubtopicIds,
+      selectedMixedQuestionLimit
+    };
+  }
+
+  function getQuizDomainOptions() {
+    return {
+      targetQuestionCount,
+      shuffle: shuffleArray
+    };
   }
 
   function getSelectionSummary(questions, grade, difficulty) {
@@ -2316,10 +2285,7 @@
   }
 
   function getActiveMixedSubtopics() {
-    if (!mixedQuizConfig || !mixedQuizConfig.subtopics) return [];
-    const selected = new Set(selectedMixedSubtopicIds);
-    const active = mixedQuizConfig.subtopics.filter(subtopic => selected.has(subtopic.id));
-    return active.length ? active : mixedQuizConfig.subtopics;
+    return quizDomain.getActiveMixedSubtopics(getQuizSelectionState());
   }
 
   function getSelectedMixedQuestionLimit() {
@@ -2529,29 +2495,15 @@
   }
 
   function getQuestionId(question, fallbackPosition, subtopic) {
-    if (question && question.id) return question.id;
-    const metadata = question && question.metadata || {};
-    const sourceSet = metadata.sourceSet || (subtopic && subtopic.id) || 'question';
-    const sequence = metadata.sequence || fallbackPosition || 0;
-    return sequence ? `${sourceSet}-q${String(sequence).padStart(4, '0')}` : '';
+    return quizDomain.getQuestionId(question, fallbackPosition, subtopic);
   }
 
   function getAttemptQuestionId(attempt) {
-    if (!attempt) return '';
-    return attempt.questionId || attempt.id || attempt.question || '';
+    return quizDomain.getAttemptQuestionId(attempt);
   }
 
   function getQuestionRef(question, fallbackPosition, subtopic) {
-    const metadata = question && question.metadata || {};
-    const sourceSet = metadata.sourceSet || (subtopic && subtopic.id) || '';
-    const sequence = metadata.sequence || fallbackPosition || 0;
-    return {
-      id: getQuestionId(question, fallbackPosition, subtopic),
-      version: Number(question && question.version) || 0,
-      contentHash: question && question.contentHash || '',
-      sourceSet,
-      sequence
-    };
+    return quizDomain.getQuestionRef(question, fallbackPosition, subtopic);
   }
 
   function getQuestionSnapshot(question, selectedIndex) {

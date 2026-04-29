@@ -274,6 +274,11 @@ async function assertQuizFlow(page, file) {
   const startText = await textContent(page, '#quiz-root');
   assert.match(startText, /Start Quiz|Preview Questions|coming soon/i, file);
   if (!(await exists(page, '#start-btn'))) return;
+  assert.equal(
+    await page.evaluate(() => typeof window.GrammarQuestQuizDomain),
+    'object',
+    `${file} should load the shared quiz domain before quiz start`
+  );
 
   if (await exists(page, '#grade-select')) await assertVisible(page, '#grade-select', file);
   if (await exists(page, '#difficulty-select')) await assertVisible(page, '#difficulty-select', file);
